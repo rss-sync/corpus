@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Mon, 18 Mar 2013 12:56:35 GMT</pubDate>
+		<lastBuildDate>Mon, 18 Mar 2013 12:56:35 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-18</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/18/2013; 8:56:35 AM</microblog:localTime>
+		<item>
+			<description>I&apos;m 97 percent more likely to link to a story from a site that has an RSS feed.</description>
+			<pubDate>Mon, 18 Mar 2013 12:56:35 GMT</pubDate>
+			<guid isPermaLink="false">c09ab6f430233615bea86ca73a182dad</guid>
+			</item>
+		<item>
+			<description>9 Crazy Skyscrapers That Will Shape The Skylines Of The Future</description>
+			<link>http://3h5.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 12:56:12 GMT</pubDate>
+			<guid>http://3h5.r2.ly/?id=15672</guid>
+			<microblog:linkFull>http://www.fastcoexist.com/1681603/9-crazy-skyscrapers-that-will-shape-the-skylines-of-the-future#1</microblog:linkFull>
+			</item>
+		<item>
+			<description>Patrick Wensink: My Amazon bestseller made me nothing.</description>
+			<link>http://3h4.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 09:07:16 GMT</pubDate>
+			<guid>http://3h4.r2.ly/?id=15671</guid>
+			<microblog:linkFull>http://www.salon.com/2013/03/15/hey_amazon_wheres_my_money/</microblog:linkFull>
+			<microblog:readCount>659</microblog:readCount>
+			</item>
+		<item>
+			<description>Yvan Marques: Thank you Google for closing Reader.</description>
+			<link>http://3h2.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 08:09:11 GMT</pubDate>
+			<guid>http://3h2.r2.ly/?id=15670</guid>
+			<microblog:linkFull>http://blog.yvanmarques.com/post/45660681169/thanks-you-google-for-closing-reader</microblog:linkFull>
+			<microblog:readCount>655</microblog:readCount>
+			</item>
+		<item>
+			<description>SimCity exec on &quot;always-connected&quot; feature. (As a former SimCity addict, I agree that cities-that-trade good idea.)</description>
+			<link>http://3h1.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 02:27:17 GMT</pubDate>
+			<guid>http://3h1.r2.ly/?id=15669</guid>
+			<microblog:linkFull>http://www.ea.com/news/simcity-update-straight-answers-from-lucy</microblog:linkFull>
+			<microblog:readCount>640</microblog:readCount>
+			</item>
+		<item>
+			<description>Twitter Beats The Sell-Side After Cyprus Bailout. (Sources go direct.)</description>
+			<link>http://3gz.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 01:39:52 GMT</pubDate>
+			<guid>http://3gz.r2.ly/?id=15668</guid>
+			<microblog:linkFull>http://www.businessinsider.com/twitter-beats-the-sell-side-after-cyprus-bailout-2013-3?op=1</microblog:linkFull>
+			<microblog:readCount>1054</microblog:readCount>
+			</item>
+		<item>
+			<description>Techcrunch: Focusing On The Google Reader Shutdown.</description>
+			<link>http://3gy.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 21:28:20 GMT</pubDate>
+			<guid>http://3gy.r2.ly/?id=15667</guid>
+			<microblog:linkFull>http://techcrunch.com/2013/03/17/focusing-on-the-google-reader-shutdown/</microblog:linkFull>
+			<microblog:readCount>778</microblog:readCount>
+			</item>
+		<item>
+			<description>February 2011: If Google Reader wants to be the dominant consumer of RSS, then it needs to be a better parent to RSS.</description>
+			<link>http://3gx.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 19:16:42 GMT</pubDate>
+			<guid>http://3gx.r2.ly/?id=15666</guid>
+			<microblog:linkFull>http://scripting.com/stories/2011/02/18/suggestionForGoogleReaderD.html</microblog:linkFull>
+			<microblog:linkSource>http://scripting.com/stories/2011/02/18/suggestionForGoogleReaderD.opml</microblog:linkSource>
+			<microblog:readCount>120</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;Google Reader seems to be a textbook example of how an incumbent failed to head where the puck was going.&quot;</description>
+			<link>http://3gw.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 17:35:56 GMT</pubDate>
+			<guid>http://3gw.r2.ly/?id=15665</guid>
+			<microblog:linkFull>http://clayallsopp.com/posts/google-reader-product-vs-symbol/</microblog:linkFull>
+			<microblog:readCount>839</microblog:readCount>
+			</item>
+		<item>
+			<description>&apos;60 Minutes&apos; profile of Twitter creator Jack Dorsey airing tonight at 7PM ET/PT. (Wonder if he&apos;ll talk about Noah Glass.)</description>
+			<link>http://3gu.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 16:19:55 GMT</pubDate>
+			<guid>http://3gu.r2.ly/?id=15664</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/17/4113714/60-minutes-jack-dorsey-profile-on-cbs-tonight</microblog:linkFull>
+			<microblog:readCount>117</microblog:readCount>
+			</item>
+		<item>
+			<description>It&apos;s Not RSS&apos;s Fault, It&apos;s Google&apos;s Fault. (That&apos;s right.)</description>
+			<link>http://3gt.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 14:23:24 GMT</pubDate>
+			<guid>http://3gt.r2.ly/?id=15663</guid>
+			<microblog:linkFull>http://flye.me/post/45583202786/google-reader-dead</microblog:linkFull>
+			<microblog:readCount>1028</microblog:readCount>
+			</item>
+		<item>
+			<description>Brad DeLong&apos;s readers comment on the demise of Google Reader.</description>
+			<link>http://3gs.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 13:57:38 GMT</pubDate>
+			<guid>http://3gs.r2.ly/?id=15662</guid>
+			<microblog:linkFull>http://delong.typepad.com/sdj/2013/03/the-expulsion-from-google-reader-paradise-watch.html</microblog:linkFull>
+			<microblog:readCount>794</microblog:readCount>
+			</item>
+		<item>
+			<description>Evolution of the New York Driver&apos;s License.</description>
+			<link>http://3gr.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 13:55:05 GMT</pubDate>
+			<guid>http://3gr.r2.ly/?id=15661</guid>
+			<microblog:linkFull>http://www.nytimes.com/interactive/2013/03/17/nyregion/17licenses-evolution.html?_r=0&amp;ref=nyregion</microblog:linkFull>
+			<microblog:readCount>712</microblog:readCount>
+			</item>
+		<item>
+			<description>Yahoo Should Seize the Moment and Improve Its RSS Reader.</description>
+			<link>http://3gq.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 13:08:09 GMT</pubDate>
+			<guid>http://3gq.r2.ly/?id=15660</guid>
+			<microblog:linkFull>http://mashable.com/2013/03/15/yahoo-rss/</microblog:linkFull>
+			<microblog:readCount>749</microblog:readCount>
+			</item>
+		<item>
+			<description>How the America Invents Act Will Change Patenting Forever.</description>
+			<link>http://3fi.r2.ly/</link>
+			<pubDate>Sun, 17 Mar 2013 00:39:29 GMT</pubDate>
+			<guid>http://3fi.r2.ly/?id=15659</guid>
+			<microblog:linkFull>http://www.wired.com/design/2013/03/america-invents-act/all/</microblog:linkFull>
+			<microblog:readCount>1372</microblog:readCount>
+			</item>
+		<item>
+			<description>Feedly picks up 500,000 new users following Google&apos;s decision to can its Reader service.</description>
+			<link>http://3gm.r2.ly/</link>
+			<pubDate>Sat, 16 Mar 2013 21:16:33 GMT</pubDate>
+			<guid>http://3gm.r2.ly/?id=15658</guid>
+			<microblog:linkFull>http://thenextweb.com/insider/2013/03/16/feedly-an-alternative-to-google-reader-has-picked-up-500000-new-users-since-googles-decision-to-can-reader/</microblog:linkFull>
+			<microblog:readCount>3349</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;Twitter is not a big RSS reader. RSS is something you control, and Twitter is something other people control.&quot;</description>
+			<link>http://3gl.r2.ly/</link>
+			<pubDate>Sat, 16 Mar 2013 20:50:25 GMT</pubDate>
+			<guid>http://3gl.r2.ly/?id=15657</guid>
+			<microblog:linkFull>http://www.computerworld.com/s/article/9237636/More_innovation_means_less_control._Is_that_bad_</microblog:linkFull>
+			<microblog:readCount>1024</microblog:readCount>
+			</item>
+		<item>
+			<description>CPAC panel on racism goes awry.</description>
+			<link>http://3gk.r2.ly/</link>
+			<pubDate>Sat, 16 Mar 2013 20:39:35 GMT</pubDate>
+			<guid>http://3gk.r2.ly/?id=15656</guid>
+			<microblog:linkFull>http://www.readability.com/articles/zn1s05d0</microblog:linkFull>
+			<microblog:readCount>759</microblog:readCount>
+			</item>
+		<item>
+			<description>Google Reader debacle could help cement Facebook over Google+</description>
+			<link>http://3gj.r2.ly/</link>
+			<pubDate>Sat, 16 Mar 2013 20:36:45 GMT</pubDate>
+			<guid>http://3gj.r2.ly/?id=15655</guid>
+			<microblog:linkFull>http://ckluis.com/google-reader-debacle-could-help-cement-facebook-over-google-plus/</microblog:linkFull>
+			<microblog:readCount>1334</microblog:readCount>
+			</item>
+		<item>
+			<description>I guess PubSubHubbub didn&apos;t win after all.</description>
+			<link>http://3gi.r2.ly/</link>
+			<pubDate>Sat, 16 Mar 2013 20:00:24 GMT</pubDate>
+			<guid>http://3gi.r2.ly/?id=15654</guid>
+			<microblog:linkFull>http://techcrunch.com/2009/09/09/rsscloud-vs-pubsubhubbub-why-the-fat-pings-win/</microblog:linkFull>
+			<microblog:readCount>816</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

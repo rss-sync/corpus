@@ -1,0 +1,11 @@
+This is a corpus of RSS/Atom feeds which can be used to test 
+interoperability and processing systems for feeds for compatibility.
+
+You are welcome to contribute your own sources: make a pull request 
+with a change to the sources file. See LICENSE for licensing 
+information.
+
+To grab the latest copy of each of the feeds, run download.py; it 
+requires Python 3.
+
+The set of feed files here will be updated daily.

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>inessential.com</title>
+    <link>http://inessential.com/</link>
+    <description>Brent Simmons’s weblog.</description>
+    <item>
+      <title>RSS-Sync Mailing List</title>
+      <link>http://inessential.com/2013/03/17/rss-sync_mailing_list</link>
+      <description>&lt;p&gt;I created a new mailing list for people who want to &lt;a href=&quot;http://lists.ranchero.com/listinfo.cgi/rss-sync-ranchero.com&quot;&gt;talk about the technical side of RSS syncing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ideally there would be a single standard for RSS syncing, and clients could choose among systems. But I don’t insist on that — at least not yet. I think it’s ambitious enough just to get some working sync systems up and running.&lt;/p&gt;</description>
+      <pubDate>Sun, 17 Mar 2013 12:35:15 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/17/rss-sync_mailing_list</guid>
+      <dc:date>2013-03-17T12:35:15-07:00</dc:date>
+    </item>
+    <item>
+      <title>What Else Google Is Shutting Down</title>
+      <link>http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html</link>
+      <description>&lt;p&gt;While the demise of Google Reader got all the attention, there are some other things going away in &lt;a href=&quot;http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html&quot;&gt;A second spring of cleaning&lt;/a&gt;. It’s worth reading.&lt;/p&gt;
+
+&lt;p&gt;One of the interesting ones: the CalDAV API will be removed for all but whitelisted developers. &lt;a href=&quot;http://en.wikipedia.org/wiki/CalDAV&quot;&gt;CalDAV&lt;/a&gt; builds on WebDAV and is an open standard. Instead you’d have to use the &lt;a href=&quot;https://developers.google.com/google-apps/calendar/&quot;&gt;Google Calendar API&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I wouldn’t have noticed this except that I was out with two calendar developers last night: John Chaffee of &lt;a href=&quot;http://www.busymac.com/busycal/&quot;&gt;BusyCal&lt;/a&gt; and Michael Simmons of &lt;a href=&quot;http://flexibits.com&quot;&gt;Flexibits&lt;/a&gt;. I suspect they’ve got some coding to do.&lt;/p&gt;
+
+&lt;p&gt;Google certainly has the right to shut things down — and I think they’re right to do so, also. The company’s been all over the place and should continue to work on focus.&lt;/p&gt;
+
+&lt;p&gt;But I don’t like when they turn off existing support for an open standard like CalDAV in favor of a Google-only API. Sure, they can — it’s within their rights, obviously. But I don’t like it.&lt;/p&gt;</description>
+      <pubDate>Fri, 15 Mar 2013 15:25:08 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/15/what_else_google_is_shutting_down</guid>
+      <dc:date>2013-03-15T15:25:08-07:00</dc:date>
+    </item>
+    <item>
+      <title>Dave’s Notes for New RSS Readers</title>
+      <link>http://threads2.scripting.com/2013/march/theIdealRssReader</link>
+      <description>&lt;p&gt;&lt;a href=&quot;http://threads2.scripting.com/2013/march/theIdealRssReader&quot;&gt;Dave Winer&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The main thing we &lt;a href=&quot;http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html&quot;&gt;learned&lt;/a&gt; is that subscription needs to be centralized to make the process as simple as possible for the user. That’s one of the main reasons Twitter was such an effective competitor.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <pubDate>Fri, 15 Mar 2013 14:04:14 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/15/daves_notes_for_new_rss_readers</guid>
+      <dc:date>2013-03-15T14:04:14-07:00</dc:date>
+    </item>
+    <item>
+      <title>Google Reader API Documentation</title>
+      <link>http://inessential.com/2013/03/14/google_reader_api_documentation</link>
+      <description>&lt;p&gt;There isn’t really any such thing as Google Reader API documentation.&lt;/p&gt;
+
+&lt;p&gt;But I do have a PDF document that Nick Bradbury wrote up when we were switching FeedDemon and NetNewsWire from NewsGator syncing to Google Reader.&lt;/p&gt;
+
+&lt;p&gt;It’s from 2009. Parts of it are surely out-of-date (authentication, for sure), and it was written with the expectation that the reader is familiar with NewsGator syncing.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, in the spirit of Marco’s &lt;a href=&quot;http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader&quot;&gt;baby steps toward replacing Google Reader&lt;/a&gt;, I present it (with Nick’s permission) in case it’s useful to anyone:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ranchero.com/downloads/GoogleReaderAPI-2009.pdf&quot;&gt;GoogleReaderAPI-2009.pdf&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 14 Mar 2013 16:04:58 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/14/google_reader_api_documentation</guid>
+      <dc:date>2013-03-14T16:04:58-07:00</dc:date>
+    </item>
+    <item>
+      <title>RSS Readers Other than Google Reader Are Under-Reported in Your Logs</title>
+      <link>http://inessential.com/2013/03/14/rss_readers_other_than_google_reader_are</link>
+      <description>&lt;p&gt;Here’s something website owners should realize:&lt;/p&gt;
+
+&lt;p&gt;You might look at your logs and find that Google Reader reports 100,000 subscribers. (For instance.)&lt;/p&gt;
+
+&lt;p&gt;And then you look and find that clients apps X, Y, and Z don’t seem to hit your feed all that often.&lt;/p&gt;
+
+&lt;p&gt;The easy conclusion is that Google Reader has thousands more users than X, Y, and Z. But that wouldn’t necessarily be correct.&lt;/p&gt;
+
+&lt;h4&gt;Here’s Why&lt;/h4&gt;
+
+&lt;p&gt;If X uses Google Reader for syncing, then X doesn’t read your feed directly. It gets it from Google Reader, and that person is reported to you under the Google Reader subscription count.&lt;/p&gt;
+
+&lt;p&gt;So it’s possible that half — or whatever — of those Google Reader subscribers are using X. (Or Y or Z.)&lt;/p&gt;
+
+&lt;p&gt;Or not. Or more than half.&lt;/p&gt;
+
+&lt;p&gt;You just have no way of knowing. But it’s a safe bet that more people are using client apps than your logs report.&lt;/p&gt;</description>
+      <pubDate>Thu, 14 Mar 2013 15:50:44 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/14/rss_readers_other_than_google_reader_are</guid>
+      <dc:date>2013-03-14T15:50:44-07:00</dc:date>
+    </item>
+    <item>
+      <title>Why I love RSS and You Do Too</title>
+      <link>http://inessential.com/2013/03/14/why_i_love_rss_and_you_do_too</link>
+      <description>&lt;p&gt;Even if you don’t use an RSS reader, you still use RSS.&lt;/p&gt;
+
+&lt;p&gt;If you subscribe to any podcasts, you use RSS. Flipboard and Twitter are RSS readers, even if it’s not obvious and they do other things besides.&lt;/p&gt;
+
+&lt;p&gt;Lots of apps on the various app stores use RSS in at least some way. They just don’t tell you — because why should they?&lt;/p&gt;
+
+&lt;p&gt;RSS is used for mundane things too, like &lt;a href=&quot;http://sparkle.andymatuschak.org&quot;&gt;Mac app updates&lt;/a&gt; (for non-App-Store apps) and Xcode documentation.&lt;/p&gt;
+
+&lt;p&gt;And those people you follow on Twitter who post interesting links? They often get those links from their RSS reader.&lt;/p&gt;
+
+&lt;p&gt;One way or another, directly or indirectly, you use RSS. Without RSS all we’d have is pictures of cats and breakfast.&lt;/p&gt;
+
+&lt;h4&gt;Boring&lt;/h4&gt;
+
+&lt;p&gt;RSS is plumbing. It’s used all over the place but you don’t notice it. Which is cool.&lt;/p&gt;
+
+&lt;p&gt;But here’s why it’s great plumbing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;There are many millions of feeds, from the smallest blog to the many feeds at the New York Times. Just about everything that gets published on the web is available via RSS. (Outside of Twitter and Facebook.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There are no user caps. No company can tell your favorite app how many users it can have. (Twitter does this.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nobody can tell you how to display an article from an RSS feed. (Twitter does this with tweets.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The formats are stable. Code I wrote five years ago to parse feeds would work today and will work in five years. (The formats are simple, too.) Other services have APIs that change and break existing apps.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;RSS can’t be shut down. Any number of companies can go out of business, but nobody can stop anybody from publishing and reading RSS feeds.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nobody can force ads on you. A given RSS reader could add ads, but you can switch — because another RSS reader can read the same feeds. A given publisher could put ads in their own feeds, but you can unsubscribe. There is no company that can force ads on everyone, as Twitter and Facebook are working on for their systems.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nobody can force you to be tracked. If you’re not using a syncing system, then nobody knows what you subscribe to and what you read.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You don’t need to register anywhere to write an RSS app. (You do need to register to write Facebook and Twitter apps.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the general case there are no security issues with feed reading. (Unless you’re using a sync service or reading authenticated feeds.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;This is elegance. It derives from the design of the internet and the web and its many open standards — designed so that no entity can control it, so that it survives stupidity and greed when it appears.&lt;/p&gt;
+
+&lt;p&gt;Lots of things work like this. Not just RSS.&lt;/p&gt;
+
+&lt;h4&gt;Capitalism&lt;/h4&gt;
+
+&lt;p&gt;A naive reading of the above makes it sound like RSS is anti-business. That’s not true at all. (I did well with my RSS business.)&lt;/p&gt;
+
+&lt;p&gt;Instead, it’s anti-monopolist. By design it creates a level playing field. Anybody can write RSS apps, and anybody can use RSS however they want to.&lt;/p&gt;
+
+&lt;p&gt;This means that competition and innovation are permitted to thrive.&lt;/p&gt;
+
+&lt;p&gt;But it’s not a guarantee. In the past several years it seems to have slowed way down.&lt;/p&gt;
+
+&lt;h4&gt;Prague 1948 Forever&lt;/h4&gt;
+
+&lt;p&gt;When Eastern Europe opened up, following the fall of the Berlin Wall and the collapse of the Soviet Union, Prague looked like it had been sealed up in a bubble since 1948.&lt;/p&gt;
+
+&lt;p&gt;Google Reader isn’t communist Russia, obviously, duh — but it’s a similar pattern. There was one gigantic player and a bunch of satellites, and RSS readers more-or-less looked like it was still 2006.&lt;/p&gt;
+
+&lt;p&gt;Not that there wasn’t any innovation — there was some — but it’s been pretty quiet, especially compared to the several years before 2006.&lt;/p&gt;
+
+&lt;p&gt;RSS the format has remained as useful and cool as ever, but RSS readers haven’t done so well.&lt;/p&gt;
+
+&lt;p&gt;My hope — my expectation, even — is that a few things will turn this around:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The end of Google Reader takes away that one dominant player. The market for RSS readers is no longer frozen — and it will interest more developers than it has in recent years.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Over-reach by Twitter and its diminishing user experience makes people interested in other ways of finding good stuff to read.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The lower costs of server-side development and deployment brings creating RSS services within reach of smaller companies.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;The challenge — as ever, with everything — is to make useful and delightful apps that people love.&lt;/p&gt;
+
+&lt;p&gt;But now, if I’m right, we’ll have more people working on that challenge.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, the loss of Google Reader syncing is going to be tough. That’s a big hurdle. &lt;a href=&quot;http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader&quot;&gt;Marco proposes some baby steps&lt;/a&gt;. I don’t like Google Reader’s (undocumented) API, but I like the pragmatic approach.&lt;/p&gt;
+
+&lt;h4&gt;Well&lt;/h4&gt;
+
+&lt;p&gt;At any rate — these are interesting times! I know that’s a curse, but I take it as a blessing, because it’s way more fun that way.&lt;/p&gt;</description>
+      <pubDate>Thu, 14 Mar 2013 14:56:59 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/14/why_i_love_rss_and_you_do_too</guid>
+      <dc:date>2013-03-14T14:56:59-07:00</dc:date>
+    </item>
+    <item>
+      <title>FeedDemon</title>
+      <link>http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html</link>
+      <description>&lt;p&gt;My friend and former co-worker Nick Bradbury writes of &lt;a href=&quot;http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html&quot;&gt;The End of FeedDemon&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;That was the nail in the coffin for me. I hate to say goodbye to FeedDemon after a decade of working on it, but it’s time to say goodbye. When Google Reader shuts down on July 1, FeedDemon will also disappear.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Before Nick and I were co-workers, we were both indie developers working on RSS readers. (Check out this &lt;a href=&quot;http://www.economist.com/node/2476892&quot;&gt;Economist article from 2004&lt;/a&gt; that mentions us both.) We weren’t competitors, since FeedDemon ran on Windows and NetNewsWire ran on Macs.&lt;/p&gt;
+
+&lt;p&gt;NetNewsWire shipped first — but FeedDemon shipped features faster than I did, and I shamelessly stole some good bits. Which Nick didn’t mind. (He encouraged me, even.) We became friends, and later became co-workers.&lt;/p&gt;
+
+&lt;p&gt;It makes me sad to read of the end of FeedDemon. It mattered to me. But, more than that, I’m sad for my friend.&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Mar 2013 20:03:20 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/13/feeddemon</guid>
+      <dc:date>2013-03-13T20:03:20-07:00</dc:date>
+    </item>
+    <item>
+      <title>Daniel Jalkut on NetNewsWire and RSS Syncing</title>
+      <link>http://bitsplitting.org/2013/03/13/netnewswire-cloud/</link>
+      <description>&lt;p&gt;&lt;a href=&quot;http://bitsplitting.org/2013/03/13/netnewswire-cloud/&quot;&gt;NetNewsWire Cloud&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;By implementing a suitable syncing API for RSS, &lt;em&gt;and implementing a reasonably useful web interface&lt;/em&gt;, Black Pixel could establish NetNewsWire Cloud as the de facto replacement for Google Reader. Charging a reasonable fee for this service would likely inoculate it from the risk of sudden termination, and it would doubly serve to provide the very service that NetNewsWire needs to thrive on the desktop and on iOS.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <pubDate>Wed, 13 Mar 2013 17:50:47 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/13/daniel_jalkut_netnewswire_and_rss_syncin</guid>
+      <dc:date>2013-03-13T17:50:47-07:00</dc:date>
+    </item>
+    <item>
+      <title>Google Reader Over and Out</title>
+      <link>http://inessential.com/2013/03/13/google_reader_over_and_out</link>
+      <description>&lt;p&gt;Here’s the &lt;a href=&quot;http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html&quot;&gt;announcement&lt;/a&gt; on the official Google Reader blog.&lt;/p&gt;
+
+&lt;p&gt;I called it in my post last month: &lt;a href=&quot;http://inessential.com/2013/02/11/rss_sync_apocalypse_preview&quot;&gt;RSS Sync Apocalypse Preview&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And I’ve written about Google Reader in &lt;a href=&quot;http://inessential.com/2011/10/24/google_reader_and_mac_ios_rss_readers_th&quot;&gt;Google Reader and Mac/iOS RSS readers that sync&lt;/a&gt; in late 2011.&lt;/p&gt;
+
+&lt;p&gt;I think this is a good thing for RSS and RSS readers in general — but it’s sure going to hurt RSS reader customers unless people come up with a sync solution quickly.&lt;/p&gt;
+
+&lt;p&gt;My preference: somebody would write a sync service — and charge a monthly subscription — and allow any RSS reader to use it.&lt;/p&gt;
+
+&lt;p&gt;Other things I’ve written about RSS syncing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://inessential.com/2010/02/08/idea_for_alternative_rss_syncing_system&quot;&gt;Idea for alternative RSS syncing system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inessential.com/2011/10/25/why_just_store_the_app_data_on_dropbo&quot;&gt;Why “Just Store the App Data on Dropbox” won’t work for RSS readers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inessential.com/2011/11/17/how_about_imap_for_rss_syncing_&quot;&gt;How about IMAP for RSS syncing?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inessential.com/2010/02/09/on_the_benefits_of_thin-server_rss_synci&quot;&gt;On the benefits of thin-server RSS syncing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Part of my reason for talking about this so often over the years was to encourage people to build a new sync system. Now you don’t need my encouragement. :) But if I can advise in any way, get in touch with me.&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Mar 2013 16:59:14 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/13/google_reader_over_and_out</guid>
+      <dc:date>2013-03-13T16:59:14-07:00</dc:date>
+    </item>
+    <item>
+      <title>Identical Cousins 12</title>
+      <link>http://identicalcousins.net/2013/03/12/identical_cousins_12</link>
+      <description>&lt;p&gt;In the &lt;a href=&quot;http://identicalcousins.net/2013/03/12/identical_cousins_12&quot;&gt;latest episode of Identical Cousins&lt;/a&gt;, Michael explains how he changed his mind about putting a date badge on the Fantastical for iPhone icon.&lt;/p&gt;
+
+&lt;p&gt;Then we talk about a bunch of other things. It’s a grab-bag, a potpourri, une mélange.&lt;/p&gt;</description>
+      <pubDate>Tue, 12 Mar 2013 11:29:22 -0700</pubDate>
+      <guid>http://inessential.com/2013/03/12/identical_cousins_12</guid>
+      <dc:date>2013-03-12T11:29:22-07:00</dc:date>
+    </item>
+    <item>
+      <title>Letterpress change notes</title>
+      <link>https://itunes.apple.com/us/app/letterpress-word-game/id526619424?mt=8</link>
+      <description>&lt;p&gt;My favorite part of the &lt;a href=&quot;https://itunes.apple.com/us/app/letterpress-word-game/id526619424?mt=8&quot;&gt;Letterpress 1.4 change notes&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;App binary is even smaller. If the world were just, the market would reward my relentless drive for efficiency fueled by a visceral hatred of bloated software. #gimmemoney #jk #no4real&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;(Letterpress is the one game I play. I play mostly with my family. We all love word games.)&lt;/p&gt;</description>
+      <pubDate>Thu, 07 Mar 2013 16:57:51 -0800</pubDate>
+      <guid>http://inessential.com/2013/03/07/letterpress_change_notes</guid>
+      <dc:date>2013-03-07T16:57:51-08:00</dc:date>
+    </item>
+    <item>
+      <title>How Much, or How Little, I Use Interface Builder These Days</title>
+      <link>http://inessential.com/2013/03/06/how_much_or_how_little_i_use_interface</link>
+      <description>&lt;p&gt;Yesterday I tried using Cocoa auto layout in my latest project. I’d tried it before — and gotten quickly frustrated.&lt;/p&gt;
+
+&lt;p&gt;The difference this time is that I didn’t use Interface Builder. I set up the constraints in code, using &lt;a href=&quot;https://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/AutolayoutPG/Articles/formatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1&quot;&gt;ASCII art layout strings&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And it worked quite nicely.&lt;/p&gt;
+
+&lt;h4&gt;CGWrecked&lt;/h4&gt;
+
+&lt;p&gt;I’m an accomplished CGRect-slinger. I’ve been doing layout in &lt;code&gt;layoutSubviews&lt;/code&gt; and the Mac equivalent for more than a decade.&lt;/p&gt;
+
+&lt;p&gt;I can do it in my sleep. Which is good, because writing layout code makes me sleepy. It’s one of the most tedious bits of programming — not at all interesting or fun.&lt;/p&gt;
+
+&lt;p&gt;The thing about CGRect-slinging is that you have two steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Figure out the rules.&lt;/li&gt;
+&lt;li&gt;Translate the rules into code that sets the frames of your views.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;I like auto layout because it’s more like one-and-a-half steps: figure out the rules and then type up the rules.&lt;/p&gt;
+
+&lt;p&gt;You still have to translate, but it’s a shorter distance. Like going from English to French — instead of going from English to the tentacle-speech of Alpha Centaurans. (Those cats have more than 49,000 words for methane snow.)&lt;/p&gt;
+
+&lt;h4&gt;Punching and Cursing&lt;/h4&gt;
+
+&lt;p&gt;The problem with IB and auto layout is that IB adds constraints as you’re working. It won’t let you have ambiguous constraints.&lt;/p&gt;
+
+&lt;p&gt;The thing is, they’re bound to be ambiguous as you’re working on them. So IB will get in your way, and you end up fighting it and calling it dirty names you didn’t know you knew. Or at least that’s what I do.&lt;/p&gt;
+
+&lt;h4&gt;Keeping the Dream of the ’90s Alive&lt;/h4&gt;
+
+&lt;p&gt;I always thought that Interface Builder was the product of a beautiful idea: coders would write code, and designers would create interfaces using a drag-and-drop design app.&lt;/p&gt;
+
+&lt;p&gt;But — in my my experience, and based on everything I’ve heard — designers use Photoshop, &lt;a href=&quot;http://www.flyingmeat.com/acorn/&quot;&gt;Acorn&lt;/a&gt;, Keynote, &lt;a href=&quot;http://www.omnigroup.com/products/omnigraffle/&quot;&gt;OmniGraffle&lt;/a&gt;, and so on instead. IB shows you at best an approximation of what the app will look like — while designers want to see &lt;em&gt;exactly&lt;/em&gt; what the app will look like.&lt;/p&gt;
+
+&lt;p&gt;Sure, a designer could work in an image editor and &lt;em&gt;then&lt;/em&gt; work in Interface Builder. But it’s a rare designer who does. Instead they create mockups and movies and let the programmer do the Xcode work. (Yes, there are designers who code, even. I know. But this is still generally true.)&lt;/p&gt;
+
+&lt;p&gt;I had thought, when Apple moved IB into Xcode, that it was tacitly acknowledging this. But then storyboards made me wonder if Apple is still keeping the beautiful dream alive.&lt;/p&gt;
+
+&lt;h4&gt;Life in Programmer-Land&lt;/h4&gt;
+
+&lt;p&gt;Despite the dream, IB is very much a part of programmer-land. It’s not designer-land.&lt;/p&gt;
+
+&lt;p&gt;So the question becomes: as a programmer, do you find it useful?&lt;/p&gt;
+
+&lt;p&gt;I’ve found that I use it less and less. I use it almost solely for very static screens.&lt;/p&gt;
+
+&lt;p&gt;It may make it easier to set things up at first — but that’s like using &lt;a href=&quot;http://en.memory-alpha.org/wiki/Protomatter&quot;&gt;protomatter in the initial matrix&lt;/a&gt;, which history tells us is a poor call. (It’s a shortcut that leads invariably to pain.)&lt;/p&gt;
+
+&lt;p&gt;Here are some of the problems I run into when using IB:&lt;/p&gt;
+
+&lt;p&gt;• Navigating back and forth between code and a xib file is a pain, even on my big screen. (To go through all that just to change a background color feels ridiculous.)&lt;/p&gt;
+
+&lt;p&gt;• Diffing versions of a .m file is nice. Diffing versions of a xib file is terrible.&lt;/p&gt;
+
+&lt;p&gt;• Pointing-and-clicking and dragging-and-dropping is &lt;em&gt;not&lt;/em&gt; how a programmer gets through their day. It’s an unwelcome context switch.&lt;/p&gt;
+
+&lt;p&gt;Any one of those would be enough: all three thoroughly convince me to stay away from IB for all but the rarest cases.&lt;/p&gt;
+
+&lt;p&gt;And the fourth reason I added just yesterday is that dealing with auto layout in IB is not worth the hassle — not when it’s so much easier done in code.&lt;/p&gt;
+
+&lt;h4&gt;But more code is more code, right?&lt;/h4&gt;
+
+&lt;p&gt;Eschewing IB does mean writing code to create and configure your views. And that is, no doubt about it, more code.&lt;/p&gt;
+
+&lt;p&gt;But I look at it this way: it’s fewer entities. For each line of code there would have been a corresponding thing in IB.&lt;/p&gt;
+
+&lt;p&gt;And fixing a thing in code is simpler than fixing it in IB — because as programmers we’re optimized for code-writing.&lt;/p&gt;
+
+&lt;p&gt;Want to fix a color or change the position of a view? I like doing it the way I solve every other problem: I code it.&lt;/p&gt;</description>
+      <pubDate>Wed, 06 Mar 2013 15:35:40 -0800</pubDate>
+      <guid>http://inessential.com/2013/03/06/how_much_or_how_little_i_use_interface</guid>
+      <dc:date>2013-03-06T15:35:40-08:00</dc:date>
+    </item>
+    <item>
+      <title>Videos</title>
+      <link>http://www.windowsazure.com/en-us/develop/mobile/ios/</link>
+      <description>&lt;p&gt;&lt;a href=&quot;http://www.windowsazure.com/en-us/develop/mobile/ios/&quot;&gt;I recorded some videos&lt;/a&gt; for Azure Mobile Services.&lt;/p&gt;
+
+&lt;p&gt;Mobile Services is a relatively new component of Azure — a high-level component. The idea is to make it easy to put together back-end services for your iOS app. It has a &lt;a href=&quot;https://github.com/WindowsAzure/azure-mobile-services&quot;&gt;Cocoa SDK on GitHub&lt;/a&gt;. You write server-side code in JavaScript (not .NET) and store data in a SQL database. It does things like sending email and push notifications.&lt;/p&gt;
+
+&lt;p&gt;I got paid for doing the videos, of course — that’s how these things work. But I wouldn’t have done them if I didn’t think Mobile Services is cool and useful. It is.&lt;/p&gt;
+
+&lt;p&gt;(I’ve been filmed while on stage before — but this is the first time I’ve talked directly to the camera. Cameras are &lt;em&gt;cold&lt;/em&gt;. It was weird! But fun. I’d do videos again.)&lt;/p&gt;</description>
+      <pubDate>Mon, 04 Mar 2013 11:27:01 -0800</pubDate>
+      <guid>http://inessential.com/2013/03/04/videos</guid>
+      <dc:date>2013-03-04T11:27:01-08:00</dc:date>
+    </item>
+    <item>
+      <title>Scottish Darlings</title>
+      <link>http://inessential.com/2013/02/28/scottish_darlings</link>
+      <description>&lt;p&gt;My Dad’s been working on family genealogy. One of my ancestors — George Darling, born 1615 in Midlothian — was sent to America by Cromwell. Dad writes:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The 3rd Civil War (1649-1651) pitted Scottish backers of Charles II against the English led by Oliver Cromwell. On September 3, 1650, Cromwell seized on an unexpected battlefield opportunity at Dunbar and destroyed the opposing Scottish Army taking an estimated 5,000 prisoners…&lt;/p&gt;
+
+&lt;p&gt;After being pronounced guilty at his “trial” in London, George was indentured to John Bex (Beax) and Company and sent to serve at the Lynn Ironworks in Lynn Massachusetts for an 8-year term of bondage…&lt;/p&gt;
+
+&lt;p&gt;One wonders, given his age in 1650, whether George didn’t leave an entire family back in Scotland? Did he have a wife and children in Midlothian? We’ll probably never know for sure, but we do know the families of the captured Scots never knew exactly what happened to them. They were not informed if their sons and husbands had been captured or died on the march back to London. They were never told whether their loved ones had been shipped an entire world away.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Anyway — if you’re a Scottish Darling, I can tell you what happened to George.&lt;/p&gt;</description>
+      <pubDate>Thu, 28 Feb 2013 12:58:26 -0800</pubDate>
+      <guid>http://inessential.com/2013/02/28/scottish_darlings</guid>
+      <dc:date>2013-02-28T12:58:26-08:00</dc:date>
+    </item>
+    <item>
+      <title>Stop When It’s Time to Stop</title>
+      <link>http://threads2.scripting.com/2013/february/dontSlogAwayAtTheEndOfTheDay</link>
+      <description>&lt;p&gt;Dave Winer reminds me of a lesson I’ve learned and forgotten and re-learned a zillion times: &lt;a href=&quot;http://threads2.scripting.com/2013/february/dontSlogAwayAtTheEndOfTheDay&quot;&gt;stop programming when it turns into a slog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The funny part to me is his description of his schedule — not because it’s funny but because it’s so unlike mine:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Finally, you give up after a couple of hours of spinning your wheels, eat some dinner, watch a little basketball, have a glass of wine, read a little and crash for the night.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I usually start programming in the afternoon and work after dinner. I’ve learned that that’s when I’m at my best: awake and relaxed, free of distractions, with a quiet mind.&lt;/p&gt;
+
+&lt;p&gt;But still, I don’t go on to 1 or 2 or 3 am anymore. I used to. These days I stop around 10 pm — 11 pm at the latest — no matter what.&lt;/p&gt;</description>
+      <pubDate>Thu, 28 Feb 2013 11:08:24 -0800</pubDate>
+      <guid>http://inessential.com/2013/02/28/stop_when_its_time_to_stop</guid>
+      <dc:date>2013-02-28T11:08:24-08:00</dc:date>
+    </item>
+    <item>
+      <title>Identical Cousins 11</title>
+      <link>http://identicalcousins.net/2013/02/26/identical_cousins_11</link>
+      <description>&lt;p&gt;The latest version of the &lt;a href=&quot;http://identicalcousins.net/2013/02/26/identical_cousins_11&quot;&gt;Simmons-cast is up&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Tue, 26 Feb 2013 11:33:17 -0800</pubDate>
+      <guid>http://inessential.com/2013/02/26/identical_cousins_11</guid>
+      <dc:date>2013-02-26T11:33:17-08:00</dc:date>
+    </item>
+    <item>
+      <title>Security bug?</title>
+      <link>http://inessential.com/2013/02/19/security_bug_</link>
+      <description>&lt;p&gt;When Twitter was recently hacked, I was among those who got an email saying I was affected. So I changed my password.&lt;/p&gt;
+
+&lt;p&gt;But here’s what I’ve noticed: changing my password does &lt;em&gt;not&lt;/em&gt; cause any of the Twitter clients on my iPhone to ask me again for authentication. They just keep working normally.&lt;/p&gt;
+
+&lt;p&gt;So here’s the scenario I worry about. I don’t know if this is accurate or not, or if it applies only to Twitter or is a more general OAuth issue.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Somebody gets my Twitter password.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;They login using the same client I use, but on their iPhone. The client starts working.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I change my password.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;They’re unaffected — that client continues to work on their iPhone, just as it does on mine.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Is this true?&lt;/p&gt;
+
+&lt;p&gt;If so, I don’t like it.&lt;/p&gt;
+
+&lt;h4&gt;Update 5:50 pm&lt;/h4&gt;
+
+&lt;p&gt;I should say what bothers me.&lt;/p&gt;
+
+&lt;p&gt;Yes, I can go into my Twitter settings and revoke access to any one or more apps. And: I’m a developer, and I’ve written OAuth client code — I’ve even written Twitter-specific code.&lt;/p&gt;
+
+&lt;p&gt;But here’s what normal people think: &lt;em&gt;I’ll change my password and everything will be okay&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;And I admit to having changed my password recently and been surprised that my Twitter client kept working, even though I should have known that it would keep working (had I thought about it).&lt;/p&gt;
+
+&lt;p&gt;Here’s the first paragraph of that email Twitter sent to a bunch of folks a couple weeks ago:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Twitter believes that your account may have been compromised by a website or service not associated with Twitter. We've reset your password to prevent others from accessing your account.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Which would lead a normal person to believe that resetting your password would prevent other people from accessing your account in any way. But it’s not true, not if they’ve already accessed your account.&lt;/p&gt;
+
+&lt;p&gt;That email also says, near the end:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Review your approved connections on your Applications page at https://twitter.com/settings/applications. If you see any applications that you don't recognize, click the Revoke Access button.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;That’s good advice. However, if somebody else is using the very same client I use, or a client I used previously, I won’t see any apps I don’t recognize. (It could be a long list of apps, all recognized.)&lt;/p&gt;
+
+&lt;p&gt;I understand that OAuth is a security win in some ways. But implementors should, I think, be mindful of what normal people expect — which is that changing your password locks out every app until you re-authenticate.&lt;/p&gt;</description>
+      <pubDate>Tue, 19 Feb 2013 17:15:06 -0800</pubDate>
+      <guid>http://inessential.com/2013/02/19/security_bug_</guid>
+      <dc:date>2013-02-19T17:15:06-08:00</dc:date>
+    </item>
+    <item>
+      <title>Cocoa to HTML</title>
+      <link>http://software.intel.com/en-us/articles/technical-reference-intel-html5-app-porter-tool-beta</link>
+      <description>&lt;p&gt;&lt;a href=&quot;http://software.intel.com/en-us/articles/technical-reference-intel-html5-app-porter-tool-beta&quot;&gt;Intel has a tool&lt;/a&gt; that “helps mobile application developers to port native iOS* code into HTML5, by automatically translating portions of the original code into HTML5.”&lt;/p&gt;
+
+&lt;p&gt;I don’t know why.&lt;/p&gt;</description>
+      <pubDate>Fri, 15 Feb 2013 19:11:02 -0800</pubDate>
+      <guid>http://inessential.com/2013/02/15/cocoa_to_html</guid>
+      <dc:date>2013-02-15T19:11:02-08:00</dc:date>
+    </item>
+    <item>
+      <title>Searchpath</title>
+      <link>http://www.manton.org/2013/02/announcing_searchpath.html</link>
+      <description>&lt;p&gt;Manton Reece &lt;a href=&quot;http://www.manton.org/2013/02/announcing_searchpath.html&quot;&gt;just announced Searchpath&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;It’s search for your web site or blog with an innovative “popover” UI. Simple, fast. With better control of your search results, and no need to link to Google or show ads to your readers.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds cool.&lt;/p&gt;</description>
+      <pubDate>Thu, 14 Feb 2013 16:39:59 -0800</pubDate>
+      <guid>http://inessential.com/2013/02/14/searchpath</guid>
+      <dc:date>2013-02-14T16:39:59-08:00</dc:date>
+    </item>
+    <item>
+      <title>Interview with Me</title>
+      <link>http://developingperspective.com/2013/02/12/brent/</link>
+      <description>&lt;p&gt;David Smith interviewed me for his Developing Perspective interview series: &lt;a href=&quot;http://developingperspective.com/2013/02/12/brent/&quot;&gt;The Village Toymaker&lt;/a&gt;.&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Feb 2013 10:44:41 -0800</pubDate>
+      <guid>http://inessential.com/2013/02/13/interview_with_me</guid>
+      <dc:date>2013-02-13T10:44:41-08:00</dc:date>
+    </item>
+  </channel>
+</rss>
