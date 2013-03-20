@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-18T18:49:42-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/112ccff716ae74ffa5f30266b29c4d72aab4074b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/112ccff716ae74ffa5f30266b29c4d72aab4074b"/>
+    <title>
+        Merge branch &#39;hwmon-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging
+    </title>
+    <updated>2013-03-18T18:49:42-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m CREDITS
+m Documentation/hwmon/lm75
+m MAINTAINERS
+m drivers/hwmon/lm75.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;hwmon-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging
+
+Pull hwmon fixes from Jean Delvare.
+
+* &#39;hwmon-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging:
+  hwmon: (lm75) Fix tcn75 prefix
+  hwmon: (lm75.h) Update header inclusion
+  MAINTAINERS: Remove Mark M. Hoffman&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9997d08806062cb7ba471ab12fa2742cfec2f413</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/9997d08806062cb7ba471ab12fa2742cfec2f413"/>
+    <title>
+        sgy-cts1000: Remove __dev* attributes
+    </title>
+    <updated>2013-03-18T18:49:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b668c34740e004325560be973fab2df6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>benmcollins</name>
+      <uri>https://github.com/benmcollins</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/platforms/85xx/sgy_cts1000.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>sgy-cts1000: Remove __dev* attributes
+
+Somehow the driver snuck in with these still in it.
+
+Signed-off-by: Ben Collins &lt;ben.c@servergy.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b63dc123b20e54a306ff1bfa191e511c506ee331</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b63dc123b20e54a306ff1bfa191e511c506ee331"/>
+    <title>
+        Merge branch &#39;for-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+    </title>
+    <updated>2013-03-18T18:47:07-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m kernel/workqueue.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+
+Pull workqueue fix from Tejun Heo:
+ &quot;Lai&#39;s patch to fix highly unlikely but still possible workqueue stall
+  during CPU hotunplug.&quot;
+
+* &#39;for-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq:
+  workqueue: fix possible pool stall bug in wq_unbind_fn()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/25eba81b7fbbb14dde63fc85231c699fe77afc58</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/25eba81b7fbbb14dde63fc85231c699fe77afc58"/>
+    <title>
+        hwmon: (lm75) Fix tcn75 prefix
+    </title>
+    <updated>2013-03-18T13:19:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/167e81e8bfd6e7325d4ff9369d7ce9c9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>khali@linux-fr.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m Documentation/hwmon/lm75
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>hwmon: (lm75) Fix tcn75 prefix
+
+The TCN75 has its own prefix for a long time now.
+
+Signed-off-by: Jean Delvare &lt;khali@linux-fr.org&gt;
+Reviewed-by: Guenter Roeck &lt;linux@roeck-us.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5a4c060114822255302d4763ad6712f9cde2372b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5a4c060114822255302d4763ad6712f9cde2372b"/>
+    <title>
+        hwmon: (lm75.h) Update header inclusion
+    </title>
+    <updated>2013-03-18T13:19:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/167e81e8bfd6e7325d4ff9369d7ce9c9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>khali@linux-fr.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/hwmon/lm75.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>hwmon: (lm75.h) Update header inclusion
+
+File lm75.h used to include &lt;linux/hwmon.h&gt; for SENSORS_LIMIT() but
+this function is gone by now. Instead we call clamp_val() so we should
+include &lt;linux/kernel.h&gt;, where this function is declared.
+
+Signed-off-by: Jean Delvare &lt;khali@linux-fr.org&gt;
+Reviewed-by: Guenter Roeck &lt;linux@roeck-us.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/94877548ec95269db60b61ee56ccea4fb27bbf7c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/94877548ec95269db60b61ee56ccea4fb27bbf7c"/>
+    <title>
+        MAINTAINERS: Remove Mark M. Hoffman
+    </title>
+    <updated>2013-03-18T13:19:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/167e81e8bfd6e7325d4ff9369d7ce9c9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>khali@linux-fr.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m CREDITS
+m MAINTAINERS
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>MAINTAINERS: Remove Mark M. Hoffman
+
+Mark M. Hoffman stopped working on the Linux kernel several years
+ago, so he should no longer be listed as a driver maintainer. I&#39;m not
+even sure if his e-mail address still works.
+
+I can take over 3 drivers he was responsible for, the 4th one will
+fall down to the subsystem maintainer.
+
+Also give Mark credit for all the good work he did.
+
+Signed-off-by: Jean Delvare &lt;khali@linux-fr.org&gt;
+Cc: &quot;Mark M. Hoffman&quot; &lt;mhoffman@lightlink.com&gt;
+Acked-by: Guenter Roeck &lt;linux@roeck-us.net&gt;
+Cc: Wolfram Sang &lt;wolfram@the-dreams.de&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/35f8c769aa5f3d9a81d50e9bdcbfd4151e72a0c9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/35f8c769aa5f3d9a81d50e9bdcbfd4151e72a0c9"/>
+    <title>
+        Merge tag &#39;for-linus-20130318&#39; of git://git.infradead.org/linux-mtd
+    </title>
+    <updated>2013-03-18T08:27:41-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/mtd/bcm47xxpart.c
+m drivers/mtd/nand/nand_base.c
+m drivers/mtd/nand/nand_ids.c
+m include/linux/mtd/nand.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;for-linus-20130318&#39; of git://git.infradead.org/linux-mtd
+
+Pull MTD fixes from David Woodhouse:
+ &quot;This fixes a couple of problems.  Firstly, some people are actually
+  still using old small-page flash and we broke it by removing the ready
+  check.
+
+  Secondly.  fix the handling of partitions on Broadcom 47xx devices.
+  Recent changes had made it misdetect the location of the NVRAM and
+  scribble over the bootloader when it tried to update the variables
+  there.  With predictably sad results.&quot;
+
+* tag &#39;for-linus-20130318&#39; of git://git.infradead.org/linux-mtd:
+  mtd: nand: reintroduce NAND_NO_READRDY as NAND_NEED_READRDY
+  mtd: bcm47xxpart: look for NVRAM at the end of device
+  Revert &quot;mtd: bcm47xxpart: improve probing of nvram partition&quot;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4b767155ffad4be0aaafeead585ad21375dc7475</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4b767155ffad4be0aaafeead585ad21375dc7475"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jmorris/linux-security
+    </title>
+    <updated>2013-03-18T08:26:15-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m security/selinux/xfrm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jmorris/linux-security
+
+Pull selinux bugfix from James Morris.
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jmorris/linux-security:
+  selinux: use GFP_ATOMIC under spin_lock&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/991657a39dff76c81e7dbcd0b1f8e56a0ff36aa7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/991657a39dff76c81e7dbcd0b1f8e56a0ff36aa7"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+    </title>
+    <updated>2013-03-18T08:19:13-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/s390/include/asm/eadm.h
+m arch/s390/include/asm/tlbflush.h
+m arch/s390/kernel/entry.S
+m arch/s390/kernel/entry64.S
+m arch/s390/kernel/setup.c
+m drivers/i2c/Kconfig
+m drivers/i2c/busses/Kconfig
+m drivers/s390/block/scm_blk.c
+m drivers/s390/block/scm_blk.h
+m drivers/s390/block/scm_drv.c
+m drivers/s390/char/sclp_cmd.c
+m drivers/s390/cio/chsc.c
+m drivers/s390/cio/chsc.h
+m drivers/s390/cio/scm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+
+Pull s390 fixes from Martin Schwidefsky:
+ &quot;A couple of bug fixes, the most hairy on is the flush_tlb_kernel_range
+  fix.  Another case of &quot;how could this ever have worked?&quot;.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux:
+  s390/kdump: Do not add standby memory for kdump
+  drivers/i2c: remove !S390 dependency, add missing GENERIC_HARDIRQS dependencies
+  s390/scm: process availability
+  s390/scm_blk: suspend writes
+  s390/scm_drv: extend notify callback
+  s390/scm_blk: fix request number accounting
+  s390/mm: fix flush_tlb_kernel_range()
+  s390/mm: fix vmemmap size calculation
+  s390: critical section cleanup vs. machine checks&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1c6ba37b3de535f29ec4353a1f5290f256629775</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/1c6ba37b3de535f29ec4353a1f5290f256629775"/>
+    <title>
+        Merge tag &#39;fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/arm/arm-soc
+    </title>
+    <updated>2013-03-18T08:17:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/Kconfig
+m arch/arm/boot/dts/at91sam9x5.dtsi
+m arch/arm/boot/dts/exynos4.dtsi
+m arch/arm/boot/dts/exynos5440.dtsi
+m arch/arm/mach-at91/include/mach/gpio.h
+m arch/arm/mach-at91/irq.c
+m arch/arm/mach-at91/pm.c
+m arch/arm/mach-davinci/dma.c
+m arch/arm/mach-footbridge/Kconfig
+m arch/arm/mach-imx/clk-imx35.c
+m arch/arm/mach-imx/imx25-dt.c
+m arch/arm/mach-mmp/gplugd.c
+m arch/arm/mach-s5pv210/clock.c
+m arch/arm/mach-s5pv210/mach-goni.c
+m arch/arm/mach-shmobile/board-marzen.c
+m drivers/clk/clk-vt8500.c
+m drivers/input/joystick/analog.c
+m drivers/pinctrl/pinctrl-at91.c
+m drivers/video/atmel_lcdfb.c
+m include/video/atmel_lcdc.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/arm/arm-soc
+
+Pull ARM SoC bug fixes from Arnd Bergmann:
+ &quot;Things are calming down for arm-soc as well.  This set of bug fixes is
+  dominated in size by the at91 platform bug fixes.  Some of them were
+  meant to go through the framebuffer tree during the merge window, but
+  since the framebuffer maintainer could not be reached, I offered to
+  take them here.  The other notable at91 change is the addition of
+  pinctrl definitions to fix the NAND controller.
+
+  The rest are mostly simple regression fixes:
+
+   - Our removal of VIRT_TO_BUS conflicted with Stephen Rothwell&#39;s
+     renaming of the Kconfig symbol.  You will get a trivial merge
+     conflict here, we still want to remove it.
+   - missing bits for clocks on imx and s5pv210
+   - missing header inclusions in mmp and shmobile
+   - typos in s5pv210 camera and vt8500 clock support code
+
+  and three trivial fixes for pre-3.8 bugs:
+
+   - an old bogus build warning in the joystick driver
+   - a misleading Kconfig description
+   - a NULL pointer check on davinci&quot;
+
+* tag &#39;fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/arm/arm-soc:
+  ARM: fix CONFIG_VIRT_TO_BUS handling
+  ARM: i.MX35: enable MAX clock
+  ARM: Scorpion is a v7 architecture, not v6
+  ARM: mmp: add platform_device head file in gplugd
+  input/joystick: use get_cycles on ARM
+  [media] s5p-fimc: fix s5pv210 build
+  clk: vt8500: Fix &quot;fix device clock divisor calculations&quot;
+  ARM: i.MX25: Fix DT compilation
+  ARM: at91: fix infinite loop in at91_irq_suspend/resume
+  ARM: at91: add gpio suspend/resume support when using pinctrl
+  ARM: at91: fix LCD-wiring mode
+  atmel_lcdfb: fix 16-bpp modes on older SOCs
+  ARM: at91: dt: at91sam9x5: complete NAND pinctrl
+  ARM: at91: dt: at91sam9x5: correct NAND pins comments
+  ARM: davinci: edma: fix dmaengine induced null pointer dereference on da830
+  ARM: shmobile: marzen: Include mmc/host.h
+  ARM: EXYNOS: Add #dma-cells for generic dma binding support for PL330
+  ARM: S5PV210: Fix PL330 DMA controller clkdev entries&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a15cd063e15a57aecf9990eaff215940eb307711</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a15cd063e15a57aecf9990eaff215940eb307711"/>
+    <title>
+        Merge branch &#39;merge&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/benh/powerpc
+    </title>
+    <updated>2013-03-18T08:12:41-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/Kconfig
+m arch/powerpc/include/asm/mmu-hash64.h
+m arch/powerpc/kernel/cputable.c
+m arch/powerpc/kernel/exceptions-64s.S
+m arch/powerpc/kernel/prom_init.c
+m arch/powerpc/kernel/ptrace.c
+m arch/powerpc/kvm/book3s_64_mmu_host.c
+m arch/powerpc/mm/hash_utils_64.c
+m arch/powerpc/mm/mmu_context_hash64.c
+m arch/powerpc/mm/pgtable_64.c
+m arch/powerpc/mm/slb_low.S
+m arch/powerpc/mm/tlb_hash64.c
+m arch/powerpc/platforms/Kconfig.cputype
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;merge&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/benh/powerpc
+
+Pull powerpc fixes from Ben Herrenschmidt:
+ &quot;Here&#39;s a few powerpc fixes for 3.9, mostly regressions (though not all
+  from 3.9 merge window) that we&#39;ve been hammering into shape over the
+  last couple of weeks.  They fix booting on Cell and G5 among other
+  things (yes, we&#39;ve been a bit sloppy with older machines this time
+  around).&quot;
+
+* &#39;merge&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/benh/powerpc:
+  powerpc: Rename USER_ESID_BITS* to ESID_BITS*
+  powerpc: Update kernel VSID range
+  powerpc: Make VSID_BITS* dependency explicit
+  powerpc: Make sure that we alays include CONFIG_BINFMT_ELF
+  powerpc/ptrace: Fix brk.len used uninitialised
+  powerpc: Fix -mcmodel=medium breakage in prom_init.c
+  powerpc: Remove last traces of POWER4_ONLY
+  powerpc: Fix cputable entry for 970MP rev 1.0
+  powerpc: Fix STAB initialization&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6210d421c20f12ef4e8c9826973478beb104114d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6210d421c20f12ef4e8c9826973478beb104114d"/>
+    <title>
+        Merge branch &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm
+    </title>
+    <updated>2013-03-18T08:11:53-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/kernel/smp.c
+m arch/arm/lib/memset.S
+m drivers/amba/tegra-ahb.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm
+
+Pull ARM fixes from Russell King:
+ &quot;Just three fixes this time - a fix for a fix for our memset function,
+  fixing the dummy clockevent so that it doesn&#39;t interfere with real
+  hardware clockevents, and fixing a build error for Tegra.&quot;
+
+* &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm:
+  ARM: 7675/1: amba: tegra-ahb: Fix build error w/ PM_SLEEP w/o PM_RUNTIME
+  ARM: 7674/1: smp: Avoid dummy clockevent being preferred over real hardware clock-event
+  ARM: 7670/1: fix the memset fix&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b4811bacbc68f6e17d442df88f98afaa9394d4f5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b4811bacbc68f6e17d442df88f98afaa9394d4f5"/>
+    <title>
+        ARM: fix CONFIG_VIRT_TO_BUS handling
+    </title>
+    <updated>2013-03-18T06:49:57-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f1897d8cf2fe6c8e75a0c9add2d05b0c?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>arndb</name>
+      <uri>https://github.com/arndb</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/Kconfig
+m arch/arm/mach-footbridge/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: fix CONFIG_VIRT_TO_BUS handling
+
+887cbce0 &quot;arch Kconfig: centralise CONFIG_ARCH_NO_VIRT_TO_BUS&quot;
+and  4febd95a8 &quot;Select VIRT_TO_BUS directly where needed&quot; from
+Stephen Rothwell changed globally how CONFIG_VIRT_TO_BUS is
+selected, while my own a5d533ee0 &quot;ARM: disable virt_to_bus/
+virt_to_bus almost everywhere&quot; was merged at the same time and
+changed which platforms select it on ARM.
+
+The result of this conflict was that we again see CONFIG_VIRT_TO_BUS
+on all ARM systems. This patch fixes up the problem and removes
+CONFIG_ARCH_NO_VIRT_TO_BUS again on ARM.
+
+Signed-off-by: Arnd Bergmann &lt;arnd@arndb.de&gt;
+Cc: Russell King &lt;linux@arm.linux.org.uk&gt;
+Cc: Stephen Rothwell &lt;sfr@canb.auug.org.au&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4502403dcf8f5c76abd4dbab8726c8e4ecb5cd34</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4502403dcf8f5c76abd4dbab8726c8e4ecb5cd34"/>
+    <title>
+        selinux: use GFP_ATOMIC under spin_lock
+    </title>
+    <updated>2013-03-18T06:33:09-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/85ff6b2aa66ef9f0bf35105783fd2ae2?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>dan.carpenter@oracle.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m security/selinux/xfrm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>selinux: use GFP_ATOMIC under spin_lock
+
+The call tree here is:
+
+sk_clone_lock()              &lt;- takes bh_lock_sock(newsk);
+xfrm_sk_clone_policy()
+__xfrm_sk_clone_policy()
+clone_policy()               &lt;- uses GFP_ATOMIC for allocations
+security_xfrm_policy_clone()
+security_ops-&gt;xfrm_policy_clone_security()
+selinux_xfrm_policy_clone()
+
+Signed-off-by: Dan Carpenter &lt;dan.carpenter@oracle.com&gt;
+Cc: stable@kernel.org
+Signed-off-by: James Morris &lt;james.l.morris@oracle.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ace71f49da19169132a02ecd92f859a8589f2527</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ace71f49da19169132a02ecd92f859a8589f2527"/>
+    <title>
+        Merge tag &#39;renesas-fixes-for-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/horms/renesas into fixes
+    </title>
+    <updated>2013-03-18T03:54:01-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f1897d8cf2fe6c8e75a0c9add2d05b0c?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>arndb</name>
+      <uri>https://github.com/arndb</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/mach-shmobile/board-marzen.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;renesas-fixes-for-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/horms/renesas into fixes
+
+From Simon Horman &lt;horms@verge.net.au&gt;:
+
+Resolve a build failure present since v3.9-rc1
+
+* tag &#39;renesas-fixes-for-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/horms/renesas:
+  ARM: shmobile: marzen: Include mmc/host.h
+
+Signed-off-by: Arnd Bergmann &lt;arnd@arndb.de&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a937536b868b8369b98967929045f1df54234323</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a937536b868b8369b98967929045f1df54234323"/>
+    <title>
+        Linux 3.9-rc3
+    </title>
+    <updated>2013-03-17T15:59:32-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Makefile
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Linux 3.9-rc3&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6c4d3bc99b3341067775efd4d9d13cc8e655fd7c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6c4d3bc99b3341067775efd4d9d13cc8e655fd7c"/>
+    <title>
+        perf,x86: fix link failure for non-Intel configs
+    </title>
+    <updated>2013-03-17T15:59:15-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4c52064c9bdca9f544e46e59dd1490b1?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rientjes@google.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/perf_event.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>perf,x86: fix link failure for non-Intel configs
+
+Commit 1d9d8639c063 (&quot;perf,x86: fix kernel crash with PEBS/BTS after
+suspend/resume&quot;) introduces a link failure since
+perf_restore_debug_store() is only defined for CONFIG_CPU_SUP_INTEL:
+
+	arch/x86/power/built-in.o: In function `restore_processor_state&#39;:
+	(.text+0x45c): undefined reference to `perf_restore_debug_store&#39;
+
+Fix it by defining the dummy function appropriately.
+
+Signed-off-by: David Rientjes &lt;rientjes@google.com&gt;
+Cc: stable@vger.kernel.org
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2a6e06b2aed6995af401dcd4feb5e79a0c7ea554</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/2a6e06b2aed6995af401dcd4feb5e79a0c7ea554"/>
+    <title>
+        perf,x86: fix wrmsr_on_cpu() warning on suspend/resume
+    </title>
+    <updated>2013-03-17T15:44:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/kernel/cpu/perf_event_intel_ds.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>perf,x86: fix wrmsr_on_cpu() warning on suspend/resume
+
+Commit 1d9d8639c063 (&quot;perf,x86: fix kernel crash with PEBS/BTS after
+suspend/resume&quot;) fixed a crash when doing PEBS performance profiling
+after resuming, but in using init_debug_store_on_cpu() to restore the
+DS_AREA mtrr it also resulted in a new WARN_ON() triggering.
+
+init_debug_store_on_cpu() uses &quot;wrmsr_on_cpu()&quot;, which in turn uses CPU
+cross-calls to do the MSR update.  Which is not really valid at the
+early resume stage, and the warning is quite reasonable.  Now, it all
+happens to _work_, for the simple reason that smp_call_function_single()
+ends up just doing the call directly on the CPU when the CPU number
+matches, but we really should just do the wrmsr() directly instead.
+
+This duplicates the wrmsr() logic, but hopefully we can just remove the
+wrmsr_on_cpu() version eventually.
+
+Reported-and-tested-by: Parag Warudkar &lt;parag.lkml@gmail.com&gt;
+Cc: stable@vger.kernel.org
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/08637024ab77f7defff1627cc8aedc2c6679ad8a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/08637024ab77f7defff1627cc8aedc2c6679ad8a"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+    </title>
+    <updated>2013-03-17T11:04:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/extent-tree.c
+m fs/btrfs/file.c
+m fs/btrfs/inode.c
+m fs/btrfs/locking.h
+m fs/btrfs/qgroup.c
+m fs/btrfs/transaction.c
+m fs/btrfs/volumes.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+
+Pull btrfs fixes from Chris Mason:
+ &quot;Eric&#39;s rcu barrier patch fixes a long standing problem with our
+  unmount code hanging on to devices in workqueue helpers.  Liu Bo
+  nailed down a difficult assertion for in-memory extent mappings.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs:
+  Btrfs: fix warning of free_extent_map
+  Btrfs: fix warning when creating snapshots
+  Btrfs: return as soon as possible when edquot happens
+  Btrfs: return EIO if we have extent tree corruption
+  btrfs: use rcu_barrier() to wait for bdev puts at unmount
+  Btrfs: remove btrfs_try_spin_lock
+  Btrfs: get better concurrency for snapshot-aware defrag work&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/af81d7878c641629f2693ae3fdaf74b4af14dfca</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/af81d7878c641629f2693ae3fdaf74b4af14dfca"/>
+    <title>
+        powerpc: Rename USER_ESID_BITS* to ESID_BITS*
+    </title>
+    <updated>2013-03-16T18:45:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/87b5e33cee6dbd6d5ab14e5dcc54ad1a?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>aneesh.kumar@linux.vnet.ibm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/include/asm/mmu-hash64.h
+m arch/powerpc/kernel/exceptions-64s.S
+m arch/powerpc/kvm/book3s_64_mmu_host.c
+m arch/powerpc/mm/pgtable_64.c
+m arch/powerpc/mm/slb_low.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>powerpc: Rename USER_ESID_BITS* to ESID_BITS*
+
+Now we use ESID_BITS of kernel address to build proto vsid. So rename
+USER_ESIT_BITS to ESID_BITS
+
+Acked-by: Paul Mackerras &lt;paulus@samba.org&gt;
+Signed-off-by: Aneesh Kumar K.V &lt;aneesh.kumar@linux.vnet.ibm.com&gt;
+Signed-off-by: Benjamin Herrenschmidt &lt;benh@kernel.crashing.org&gt;
+CC: &lt;stable@vger.kernel.org&gt; [v3.8]&lt;/pre>
+    </content>
+  </entry>
+</feed>

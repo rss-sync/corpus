@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-19T15:17:40-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/10b38669d64c757cfd927e3820292c580ed70aae</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/10b38669d64c757cfd927e3820292c580ed70aae"/>
+    <title>
+        Merge tag &#39;for-linus-v3.9-rc4&#39; of git://oss.sgi.com/xfs/xfs
+    </title>
+    <updated>2013-03-19T15:17:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/xfs/xfs_buf.c
+m fs/xfs/xfs_iomap.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;for-linus-v3.9-rc4&#39; of git://oss.sgi.com/xfs/xfs
+
+Pull XFS fixes from Ben Myers:
+
+ - Fix for a potential infinite loop which was introduced in commit
+   4d559a3bcb73 (&quot;xfs: limit speculative prealloc near ENOSPC
+   thresholds&quot;)
+
+ - Fix for the return type of xfs_iomap_eof_prealloc_initial_size from
+   commit a1e16c26660b (&quot;xfs: limit speculative prealloc size on sparse
+   files&quot;)
+
+ - Fix for a failed buffer readahead causing subsequent callers to fail
+   incorrectly
+
+* tag &#39;for-linus-v3.9-rc4&#39; of git://oss.sgi.com/xfs/xfs:
+  xfs: ensure we capture IO errors correctly
+  xfs: fix xfs_iomap_eof_prealloc_initial_size type
+  xfs: fix potential infinite loop in xfs_iomap_prealloc_size()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/547b524636249fbe906ab78a50ab0017c490316c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/547b524636249fbe906ab78a50ab0017c490316c"/>
+    <title>
+        PCI: Use ROM images from firmware only if no other ROM source available
+    </title>
+    <updated>2013-03-19T14:51:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/0f3971a7348eb613c7b21c7283bd7ed4?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>matthew.garrett@nebula.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/pci/rom.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>PCI: Use ROM images from firmware only if no other ROM source available
+
+Mantas Mikulėnas reported that his graphics hardware failed to
+initialise after commit f9a37be0f02a (&quot;x86: Use PCI setup data&quot;).
+
+The aim of this commit was to ensure that ROM images were available on
+some Apple systems that don&#39;t expose the GPU ROM via any other source.
+In this case, UEFI appears to have provided a broken ROM image that we
+were using even though there was a perfectly valid ROM available via
+other sources.  The simplest way to handle this seems to be to just
+re-order pci_map_rom() and leave any firmare-supplied ROM to last.
+
+Signed-off-by: Matthew Garrett &lt;matthew.garrett@nebula.com&gt;
+Tested-by: Mantas Mikulėnas &lt;grawity@gmail.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5c7c3361d177120a9980971380b52f84c2d9c97d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5c7c3361d177120a9980971380b52f84c2d9c97d"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc
+    </title>
+    <updated>2013-03-19T14:47:11-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/sparc/Kconfig
+m arch/sparc/include/asm/spitfire.h
+m arch/sparc/kernel/cpu.c
+m arch/sparc/kernel/head_64.S
+m arch/sparc/kernel/leon_pci_grpci2.c
+m drivers/tty/serial/sunsu.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc
+
+Pull sparc fixes from David Miller:
+ &quot;Just some minor fixups, a sunsu console setup panic cure, and
+  recognition of a Fujitsu sun4v cpu.&quot;
+
+* git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc:
+  sparc: remove unused &quot;config BITS&quot;
+  sparc: delete &quot;if !ULTRA_HAS_POPULATION_COUNT&quot;
+  sparc64: correctly recognize SPARC64-X chips
+  sparc,leon: fix GRPCI2 device0 PCI config space access
+  sunsu: Fix panic in case of nonexistent port at &quot;console=ttySY&quot; cmdline option&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e7489622d3603b7d161b484dcd340d9f678b0c7a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e7489622d3603b7d161b484dcd340d9f678b0c7a"/>
+    <title>
+        Merge tag &#39;arm64-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/cmarinas/linux-aarch64
+    </title>
+    <updated>2013-03-19T13:56:18-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm64/Kconfig
+m arch/arm64/Kconfig.debug
+m arch/arm64/configs/defconfig
+m arch/arm64/include/asm/ucontext.h
+m arch/arm64/kernel/arm64ksyms.c
+m arch/arm64/kernel/signal32.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;arm64-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/cmarinas/linux-aarch64
+
+Pull arm64 fixes from Catalin Marinas:
+
+ - Fix !SMP build error.
+
+ - Fix padding computation in struct ucontext (no ABI change).
+
+ - Minor clean-up after the signal patches (unused var).
+
+ - Two old Kconfig options clean-up.
+
+* tag &#39;arm64-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/cmarinas/linux-aarch64:
+  arm64: Kconfig.debug: Remove unused CONFIG_DEBUG_ERRORS
+  arm64: Do not select GENERIC_HARDIRQS_NO_DEPRECATED
+  arm64: fix padding computation in struct ucontext
+  arm64: Fix build error with !SMP
+  arm64: Removed unused variable in compat_setup_rt_frame()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f58b20bd6bad48d6fc5633f003c3651115273fb2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f58b20bd6bad48d6fc5633f003c3651115273fb2"/>
+    <title>
+        sparc: remove unused &quot;config BITS&quot;
+    </title>
+    <updated>2013-03-19T13:23:51-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/732d22af0cd39583b3f4d992ea284f10?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>pebolle</name>
+      <uri>https://github.com/pebolle</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/sparc/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>sparc: remove unused &quot;config BITS&quot;
+
+sparc&#39;s asm/module.h got removed in commit
+786d35d45cc40b2a51a18f73e14e135d47fdced7 (&quot;Make most arch asm/module.h
+files use asm-generic/module.h&quot;). That removed the only two uses of this
+Kconfig symbol. So we can remove its entry too.
+
+&gt; &gt;From arch/sparc/Makefile:
+&gt;     ifeq ($(CONFIG_SPARC32),y)
+&gt;     [...]
+&gt;
+&gt;     [...]
+&gt;     export BITS    := 32
+&gt;     [...]
+&gt;
+&gt;     else
+&gt;     [...]
+&gt;
+&gt;     [...]
+&gt;     export BITS   := 64
+&gt;     [...]
+&gt;
+&gt; So $(BITS) is set depending on whether CONFIG_SPARC32 is set or not.
+&gt; Using $(BITS) in sparc&#39;s Makefiles is not using CONFIG_BITS. That
+&gt; doesn&#39;t count as usage of &quot;config BITS&quot;.
+
+Signed-off-by: Paul Bolle &lt;pebolle@tiscali.nl&gt;
+Acked-by: Sam Ravnborg &lt;sam@ravnborg.org&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7b1b3fd74e3a8a63858fc5382af90d2a19f4afb8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/7b1b3fd74e3a8a63858fc5382af90d2a19f4afb8"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net
+    </title>
+    <updated>2013-03-19T13:20:51-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/net/bpf_jit_32.c
+m drivers/bluetooth/ath3k.c
+m drivers/bluetooth/btusb.c
+m drivers/infiniband/hw/cxgb4/cm.c
+m drivers/isdn/hisax/Kconfig
+m drivers/net/bonding/bond_main.c
+m drivers/net/ethernet/broadcom/bnx2x/bnx2x_cmn.c
+m drivers/net/ethernet/broadcom/bnx2x/bnx2x_stats.h
+m drivers/net/ethernet/broadcom/tg3.c
+m drivers/net/ethernet/chelsio/cxgb4/t4_hw.c
+m drivers/net/ethernet/dec/tulip/Kconfig
+m drivers/net/ethernet/freescale/fec.c
+m drivers/net/ethernet/freescale/fec.h
+m drivers/net/ethernet/sfc/nic.c
+m drivers/net/ethernet/ti/cpsw.c
+m drivers/net/ethernet/ti/davinci_emac.c
+m drivers/net/netconsole.c
+m drivers/net/usb/Kconfig
+m drivers/net/usb/cdc_mbim.c
+m drivers/net/usb/cdc_ncm.c
+m drivers/net/usb/qmi_wwan.c
+m drivers/net/wireless/mwifiex/join.c
+m drivers/net/wireless/rt2x00/Kconfig
+m drivers/net/wireless/rt2x00/rt2800pci.c
+m drivers/net/wireless/rtlwifi/rtl8192cu/hw.c
+m drivers/s390/net/qeth_core.h
+m drivers/s390/net/qeth_core_main.c
+m drivers/s390/net/qeth_l3_main.c
+m drivers/s390/net/qeth_l3_sys.c
+m drivers/vhost/net.c
+m include/linux/skbuff.h
+m include/linux/usb/cdc_ncm.h
+m include/net/dst.h
+m include/net/inet_frag.h
+m include/net/ip_fib.h
+m net/batman-adv/bat_iv_ogm.c
+m net/bridge/br_netlink.c
+m net/core/dev.c
+m net/core/rtnetlink.c
+m net/ipv4/inet_fragment.c
+m net/ipv4/ip_fragment.c
+m net/ipv4/ip_gre.c
+m net/ipv4/ip_options.c
+m net/ipv4/tcp.c
+m net/ipv4/tcp_ipv4.c
+m net/ipv4/tcp_output.c
+m net/ipv6/netfilter/nf_conntrack_reasm.c
+m net/ipv6/reassembly.c
+m net/ipv6/tcp_ipv6.c
+m net/nfc/llcp/llcp.c
+m net/nfc/llcp/sock.c
+m net/openvswitch/actions.c
+m net/openvswitch/datapath.c
+m net/openvswitch/flow.c
+m net/openvswitch/vport-netdev.c
+m net/openvswitch/vport.c
+m net/sctp/associola.c
+m net/sctp/sm_statefuns.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net
+
+Pull networking fixes from David Miller:
+
+ 1) Fix ARM BPF JIT handling of negative &#39;k&#39; values, from Chen Gang.
+
+ 2) Insufficient space reserved for bridge netlink values, fix from
+    Stephen Hemminger.
+
+ 3) Some dst_neigh_lookup*() callers don&#39;t interpret error pointer
+    correctly, fix from Zhouyi Zhou.
+
+ 4) Fix transport match in SCTP active_path loops, from Xugeng Zhang.
+
+ 5) Fix qeth driver handling of multi-order SKB frags, from Frank
+    Blaschka.
+
+ 6) fec driver is missing napi_disable() call, resulting in crashes on
+    unload, from Georg Hofmann.
+
+ 7) Don&#39;t try to handle PMTU events on a listening socket, fix from Eric
+    Dumazet.
+
+ 8) Fix timestamp location calculations in IP option processing, from
+    David Ward.
+
+ 9) FIB_TABLE_HASHSZ setting is not controlled by the correct kconfig
+    tests, from Denis V Lunev.
+
+10) Fix TX descriptor push handling in SFC driver, from Ben Hutchings.
+
+11) Fix isdn/hisax and tulip/de4x5 kconfig dependencies, from Arnd
+    Bergmann.
+
+12) bnx2x statistics don&#39;t handle 4GB rollover correctly, fix from
+    Maciej Żenczykowski.
+
+13) Openvswitch bug fixes for vport del/new error reporting, missing
+    genlmsg_end() call in netlink processing, and mis-parsing of
+    LLC/SNAP ethernet types.  From Rich Lane.
+
+14) SKB pfmemalloc state should only be propagated from the head page of
+    a compound page, fix from Pavel Emelyanov.
+
+15) Fix link handling in tg3 driver for 5715 chips when autonegotation
+    is disabled.  From Nithin Sujir.
+
+16) Fix inverted test of cpdma_check_free_tx_desc return value in
+    davinci_emac driver, from Mugunthan V N.
+
+17) vlan_depth is incorrectly calculated in skb_network_protocol(), from
+    Li RongQing.
+
+18) Fix probing of Gobi 1K devices in qmi_wwan driver, and fix NCM
+    device mode backwards compat in cdc_ncm driver.  From Bjørn Mork.
+
+* git://git.kernel.org/pub/scm/linux/kernel/git/davem/net: (52 commits)
+  inet: limit length of fragment queue hash table bucket lists
+  qeth: Fix scatter-gather regression
+  qeth: Fix invalid router settings handling
+  qeth: delay feature trace
+  tcp: dont handle MTU reduction on LISTEN socket
+  bnx2x: fix occasional statistics off-by-4GB error
+  vhost/net: fix heads usage of ubuf_info
+  bridge: Add support for setting BR_ROOT_BLOCK flag.
+  bnx2x: add missing napi deletion in error path
+  drivers: net: ethernet: ti: davinci_emac: fix usage of cpdma_check_free_tx_desc()
+  ethernet/tulip: DE4x5 needs VIRT_TO_BUS
+  isdn: hisax: netjet requires VIRT_TO_BUS
+  net: cdc_ncm, cdc_mbim: allow user to prefer NCM for backwards compatibility
+  rtnetlink: Mask the rta_type when range checking
+  Revert &quot;ip_gre: make ipgre_tunnel_xmit() not parse network header as IP unconditionally&quot;
+  Fix dst_neigh_lookup/dst_neigh_lookup_skb return value handling bug
+  smsc75xx: configuration help incorrectly mentions smsc95xx
+  net: fec: fix missing napi_disable call
+  net: fec: restart the FEC when PHY speed changes
+  skb: Propagate pfmemalloc on skb from head page only
+  ...&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e0b2029614fe7e3b09fab253630c5b70eea58f53</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e0b2029614fe7e3b09fab253630c5b70eea58f53"/>
+    <title>
+        sparc: delete &quot;if !ULTRA_HAS_POPULATION_COUNT&quot;
+    </title>
+    <updated>2013-03-19T13:16:39-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/732d22af0cd39583b3f4d992ea284f10?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>pebolle</name>
+      <uri>https://github.com/pebolle</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/sparc/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>sparc: delete &quot;if !ULTRA_HAS_POPULATION_COUNT&quot;
+
+Commit 2d78d4beb64eb07d50665432867971c481192ebf (&quot;[PATCH] bitops:
+sparc64: use generic bitops&quot;) made the default of GENERIC_HWEIGHT depend
+on !ULTRA_HAS_POPULATION_COUNT. But since there&#39;s no Kconfig symbol with
+that name, this always evaluates to true. Delete this dependency.
+
+Signed-off-by: Paul Bolle &lt;pebolle@tiscali.nl&gt;
+Acked-by: Sam Ravnborg &lt;sam@ravnborg.org&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/792072066d30372772137be9ee2f4d72d77329f9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/792072066d30372772137be9ee2f4d72d77329f9"/>
+    <title>
+        arm64: Kconfig.debug: Remove unused CONFIG_DEBUG_ERRORS
+    </title>
+    <updated>2013-03-19T09:19:19-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/732d22af0cd39583b3f4d992ea284f10?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>pebolle</name>
+      <uri>https://github.com/pebolle</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm64/Kconfig.debug
+m arch/arm64/configs/defconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>arm64: Kconfig.debug: Remove unused CONFIG_DEBUG_ERRORS
+
+The Kconfig entry for DEBUG_ERRORS is a verbatim copy of the former arm
+entry for that symbol. It got removed in v2.6.39 because it wasn&#39;t
+actually used anywhere. There are still no users of DEBUG_ERRORS so
+remove this entry too.
+
+Signed-off-by: Paul Bolle &lt;pebolle@tiscali.nl&gt;
+[catalin.marinas@arm.com: removed option from defconfig]
+Signed-off-by: Catalin Marinas &lt;catalin.marinas@arm.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/63b7743fdd4dab8a534f366479c2bf0caa0991f7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/63b7743fdd4dab8a534f366479c2bf0caa0991f7"/>
+    <title>
+        arm64: Do not select GENERIC_HARDIRQS_NO_DEPRECATED
+    </title>
+    <updated>2013-03-19T08:39:46-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/732d22af0cd39583b3f4d992ea284f10?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>pebolle</name>
+      <uri>https://github.com/pebolle</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm64/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>arm64: Do not select GENERIC_HARDIRQS_NO_DEPRECATED
+
+Config option GENERIC_HARDIRQS_NO_DEPRECATED was removed in commit
+78c89825649a9a5ed526c507603196f467d781a5 (&quot;genirq: Remove the now obsolete
+config options and select statements&quot;), but the select was accidentally
+reintroduced in commit 8c2c3df31e3b87cb5348e48776c366ebd1dc5a7a (&quot;arm64:
+Build infrastructure&quot;).
+
+Signed-off-by: Paul Bolle &lt;pebolle@tiscali.nl&gt;
+Signed-off-by: Catalin Marinas &lt;catalin.marinas@arm.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5a3da1fe9561828d0ca7eca664b16ec2b9bf0055</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5a3da1fe9561828d0ca7eca664b16ec2b9bf0055"/>
+    <title>
+        inet: limit length of fragment queue hash table bucket lists
+    </title>
+    <updated>2013-03-19T07:28:36-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/10c9b35ebec59e674bfa641e3b17a9b8?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>hannes</name>
+      <uri>https://github.com/hannes</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m include/net/inet_frag.h
+m net/ipv4/inet_fragment.c
+m net/ipv4/ip_fragment.c
+m net/ipv6/netfilter/nf_conntrack_reasm.c
+m net/ipv6/reassembly.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>inet: limit length of fragment queue hash table bucket lists
+
+This patch introduces a constant limit of the fragment queue hash
+table bucket list lengths. Currently the limit 128 is choosen somewhat
+arbitrary and just ensures that we can fill up the fragment cache with
+empty packets up to the default ip_frag_high_thresh limits. It should
+just protect from list iteration eating considerable amounts of cpu.
+
+If we reach the maximum length in one hash bucket a warning is printed.
+This is implemented on the caller side of inet_frag_find to distinguish
+between the different users of inet_fragment.c.
+
+I dropped the out of memory warning in the ipv4 fragment lookup path,
+because we already get a warning by the slab allocator.
+
+Cc: Eric Dumazet &lt;eric.dumazet@gmail.com&gt;
+Cc: Jesper Dangaard Brouer &lt;jbrouer@redhat.com&gt;
+Signed-off-by: Hannes Frederic Sowa &lt;hannes@stressinduktion.org&gt;
+Acked-by: Eric Dumazet &lt;edumazet@google.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/271648b4c610eed540daaf9ff366209825757565</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/271648b4c610eed540daaf9ff366209825757565"/>
+    <title>
+        qeth: Fix scatter-gather regression
+    </title>
+    <updated>2013-03-19T07:09:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/21d98b0c1bec50a0f5dcca945bf92775?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>blaschka@linux.vnet.ibm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/s390/net/qeth_core.h
+m drivers/s390/net/qeth_core_main.c
+m drivers/s390/net/qeth_l3_main.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>qeth: Fix scatter-gather regression
+
+This patch fixes a scatter-gather regression introduced with
+
+commit 5640f768 net: use a per task frag allocator
+
+Now the qeth driver can cope with bigger framents and split a fragment in
+sub framents if required.
+
+Signed-off-by: Frank Blaschka &lt;blaschka@linux.vnet.ibm.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/82e2e782a3e486e3bfcc6130f0ebc28453af9955</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/82e2e782a3e486e3bfcc6130f0ebc28453af9955"/>
+    <title>
+        qeth: Fix invalid router settings handling
+    </title>
+    <updated>2013-03-19T07:09:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9e12a0f2a1ac7ba65b919ecdf67a09eb?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>raspl@linux.vnet.ibm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/s390/net/qeth_l3_main.c
+m drivers/s390/net/qeth_l3_sys.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>qeth: Fix invalid router settings handling
+
+Give a bad return code when specifying a router setting that is either
+invalid or not support on the respective device type. In addition, fall back
+the previous setting instead of silently switching back to &#39;no routing&#39;.
+
+Signed-off-by: Stefan Raspl &lt;raspl@linux.vnet.ibm.com&gt;
+Signed-off-by: Frank Blaschka &lt;blaschka@linux.vnet.ibm.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/82f77cf9704cd06c452019421e5aada3a0648c76</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/82f77cf9704cd06c452019421e5aada3a0648c76"/>
+    <title>
+        qeth: delay feature trace
+    </title>
+    <updated>2013-03-19T07:09:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9e12a0f2a1ac7ba65b919ecdf67a09eb?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>raspl@linux.vnet.ibm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/s390/net/qeth_l3_main.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>qeth: delay feature trace
+
+Delay tracing of the card features until the optional commands have been
+enabled.
+
+Signed-off-by: Stefan Raspl &lt;raspl@linux.vnet.ibm.com&gt;
+Signed-off-by: Frank Blaschka &lt;blaschka@linux.vnet.ibm.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/112ccff716ae74ffa5f30266b29c4d72aab4074b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/112ccff716ae74ffa5f30266b29c4d72aab4074b"/>
+    <title>
+        Merge branch &#39;hwmon-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging
+    </title>
+    <updated>2013-03-18T18:49:42-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m CREDITS
+m Documentation/hwmon/lm75
+m MAINTAINERS
+m drivers/hwmon/lm75.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;hwmon-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging
+
+Pull hwmon fixes from Jean Delvare.
+
+* &#39;hwmon-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging:
+  hwmon: (lm75) Fix tcn75 prefix
+  hwmon: (lm75.h) Update header inclusion
+  MAINTAINERS: Remove Mark M. Hoffman&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9997d08806062cb7ba471ab12fa2742cfec2f413</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/9997d08806062cb7ba471ab12fa2742cfec2f413"/>
+    <title>
+        sgy-cts1000: Remove __dev* attributes
+    </title>
+    <updated>2013-03-18T18:49:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b668c34740e004325560be973fab2df6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>benmcollins</name>
+      <uri>https://github.com/benmcollins</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/platforms/85xx/sgy_cts1000.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>sgy-cts1000: Remove __dev* attributes
+
+Somehow the driver snuck in with these still in it.
+
+Signed-off-by: Ben Collins &lt;ben.c@servergy.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b63dc123b20e54a306ff1bfa191e511c506ee331</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b63dc123b20e54a306ff1bfa191e511c506ee331"/>
+    <title>
+        Merge branch &#39;for-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+    </title>
+    <updated>2013-03-18T18:47:07-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m kernel/workqueue.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+
+Pull workqueue fix from Tejun Heo:
+ &quot;Lai&#39;s patch to fix highly unlikely but still possible workqueue stall
+  during CPU hotunplug.&quot;
+
+* &#39;for-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq:
+  workqueue: fix possible pool stall bug in wq_unbind_fn()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/25eba81b7fbbb14dde63fc85231c699fe77afc58</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/25eba81b7fbbb14dde63fc85231c699fe77afc58"/>
+    <title>
+        hwmon: (lm75) Fix tcn75 prefix
+    </title>
+    <updated>2013-03-18T13:19:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/167e81e8bfd6e7325d4ff9369d7ce9c9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>khali@linux-fr.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m Documentation/hwmon/lm75
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>hwmon: (lm75) Fix tcn75 prefix
+
+The TCN75 has its own prefix for a long time now.
+
+Signed-off-by: Jean Delvare &lt;khali@linux-fr.org&gt;
+Reviewed-by: Guenter Roeck &lt;linux@roeck-us.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5a4c060114822255302d4763ad6712f9cde2372b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5a4c060114822255302d4763ad6712f9cde2372b"/>
+    <title>
+        hwmon: (lm75.h) Update header inclusion
+    </title>
+    <updated>2013-03-18T13:19:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/167e81e8bfd6e7325d4ff9369d7ce9c9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>khali@linux-fr.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/hwmon/lm75.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>hwmon: (lm75.h) Update header inclusion
+
+File lm75.h used to include &lt;linux/hwmon.h&gt; for SENSORS_LIMIT() but
+this function is gone by now. Instead we call clamp_val() so we should
+include &lt;linux/kernel.h&gt;, where this function is declared.
+
+Signed-off-by: Jean Delvare &lt;khali@linux-fr.org&gt;
+Reviewed-by: Guenter Roeck &lt;linux@roeck-us.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/94877548ec95269db60b61ee56ccea4fb27bbf7c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/94877548ec95269db60b61ee56ccea4fb27bbf7c"/>
+    <title>
+        MAINTAINERS: Remove Mark M. Hoffman
+    </title>
+    <updated>2013-03-18T13:19:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/167e81e8bfd6e7325d4ff9369d7ce9c9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>khali@linux-fr.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m CREDITS
+m MAINTAINERS
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>MAINTAINERS: Remove Mark M. Hoffman
+
+Mark M. Hoffman stopped working on the Linux kernel several years
+ago, so he should no longer be listed as a driver maintainer. I&#39;m not
+even sure if his e-mail address still works.
+
+I can take over 3 drivers he was responsible for, the 4th one will
+fall down to the subsystem maintainer.
+
+Also give Mark credit for all the good work he did.
+
+Signed-off-by: Jean Delvare &lt;khali@linux-fr.org&gt;
+Cc: &quot;Mark M. Hoffman&quot; &lt;mhoffman@lightlink.com&gt;
+Acked-by: Guenter Roeck &lt;linux@roeck-us.net&gt;
+Cc: Wolfram Sang &lt;wolfram@the-dreams.de&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e001873853d87674dd5b3cfa2851885023616695</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e001873853d87674dd5b3cfa2851885023616695"/>
+    <title>
+        xfs: ensure we capture IO errors correctly
+    </title>
+    <updated>2013-03-18T11:39:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/e7754db051bad8c1735bf69b2e160d62?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>dchinner@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/xfs/xfs_buf.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>xfs: ensure we capture IO errors correctly
+
+Failed buffer readahead can leave the buffer in the cache marked
+with an error. Most callers that then issue a subsequent read on the
+buffer do not zero the b_error field out, and so we may incorectly
+detect an error during IO completion due to the stale error value
+left on the buffer.
+
+Avoid this problem by zeroing the error before IO submission. This
+ensures that the only IO errors that are detected those captured
+from are those captured from bio submission or completion.
+
+Signed-off-by: Dave Chinner &lt;dchinner@redhat.com&gt;
+Reviewed-by: Mark Tinguely &lt;tinguely@sgi.com&gt;
+Signed-off-by: Ben Myers &lt;bpm@sgi.com&gt;
+
+(cherry picked from commit c163f9a1760229a95d04e37b332de7d5c1c225cd)&lt;/pre>
+    </content>
+  </entry>
+</feed>

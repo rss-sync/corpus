@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Tue, 19 Mar 2013 14:21:31 GMT</pubDate>
+		<lastBuildDate>Tue, 19 Mar 2013 14:21:31 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-19</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/19/2013; 10:21:31 AM</microblog:localTime>
+		<item>
+			<description>Scripting News: To the Chihuahuas!</description>
+			<link>http://3hx.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 19 Mar 2013 14:21:31 GMT</pubDate>
+			<guid>http://3hx.r2.ly/?id=15693</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/areWeAllGatekeepers</microblog:linkFull>
+			</item>
+		<item>
+			<description>The 49ers&apos; plan to build the greatest stadium Wi-Fi network of all time.</description>
+			<link>http://3hv.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 13:42:58 GMT</pubDate>
+			<guid>http://3hv.r2.ly/?id=15692</guid>
+			<microblog:linkFull>http://arstechnica.com/information-technology/2013/03/the-49ers-plan-to-build-the-greatest-stadium-wi-fi-network-of-all-time/</microblog:linkFull>
+			<microblog:readCount>266</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;Google awoke from its social dreaming to find its front runner status in ads threatened.&quot;</description>
+			<link>http://3hu.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 13:24:40 GMT</pubDate>
+			<guid>http://3hu.r2.ly/?id=15691</guid>
+			<microblog:linkFull>http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx</microblog:linkFull>
+			<microblog:readCount>447</microblog:readCount>
+			</item>
+		<item>
+			<description>Google Reader was was largely a creation of its users.</description>
+			<link>http://3ht.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 13:06:42 GMT</pubDate>
+			<guid>http://3ht.r2.ly/?id=15690</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/timeForAHulufornews</microblog:linkFull>
+			<microblog:readCount>1024</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Time for a Hulu-for-News?</description>
+			<link>http://3ht.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 19 Mar 2013 12:45:16 GMT</pubDate>
+			<guid>http://3ht.r2.ly/?id=15689</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/timeForAHulufornews</microblog:linkFull>
+			<microblog:readCount>1024</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;Google will soon launch a news subscription site similar to Apple&apos;s Newsstand.&quot;</description>
+			<link>http://3hs.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 12:29:19 GMT</pubDate>
+			<guid>http://3hs.r2.ly/?id=15688</guid>
+			<microblog:linkFull>http://www.tulsaworld.com/business/article.aspx?articleid=20130319_52_E3_Google20338</microblog:linkFull>
+			<microblog:readCount>470</microblog:readCount>
+			</item>
+		<item>
+			<description>Disposal of Older Monitors Leaves a Hazardous Trail.</description>
+			<link>http://3hr.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 10:31:16 GMT</pubDate>
+			<guid>http://3hr.r2.ly/?id=15687</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/19/us/disposal-of-older-monitors-leaves-a-hazardous-trail.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>541</microblog:readCount>
+			</item>
+		<item>
+			<description>Wired: The days of Google as a champion of open web technologies are over.</description>
+			<link>http://3hp.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 03:33:51 GMT</pubDate>
+			<guid>http://3hp.r2.ly/?id=15686</guid>
+			<microblog:linkFull>http://www.webmonkey.com/2013/03/its-not-just-reader-google-kills-chrome-rss-extension-too/</microblog:linkFull>
+			<microblog:readCount>3592</microblog:readCount>
+			</item>
+		<item>
+			<description>Because the outlines are on the network, and can themselves be networked, your ideas are available anywhere.</description>
+			<link>http://3hf.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 00:32:02 GMT</pubDate>
+			<guid>http://3hf.r2.ly/?id=15685</guid>
+			<microblog:linkFull>http://smallpicture.com/outlinerHowto.html</microblog:linkFull>
+			<microblog:readCount>2345</microblog:readCount>
+			</item>
+		<item>
+			<description>Forget the Cellphone Fight -- We Should Be Allowed to Unlock Everything We Own.</description>
+			<link>http://3hn.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 23:09:42 GMT</pubDate>
+			<guid>http://3hn.r2.ly/?id=15684</guid>
+			<microblog:linkFull>http://www.wired.com/opinion/2013/03/you-dont-own-your-cellphones-or-your-cars/</microblog:linkFull>
+			<microblog:readCount>1032</microblog:readCount>
+			</item>
+		<item>
+			<description>NYT: Washington Post Says Pay Model Will Start This Summer.</description>
+			<link>http://3hm.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 23:06:14 GMT</pubDate>
+			<guid>http://3hm.r2.ly/?id=15683</guid>
+			<microblog:linkFull>http://mediadecoder.blogs.nytimes.com/2013/03/18/washington-post-says-pay-model-will-start-this-summer/</microblog:linkFull>
+			<microblog:readCount>529</microblog:readCount>
+			</item>
+		<item>
+			<description>Brian&apos;s Stupid Feed Tricks.</description>
+			<link>http://3hl.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 21:47:58 GMT</pubDate>
+			<guid>http://3hl.r2.ly/?id=15682</guid>
+			<microblog:linkFull>http://inessential.com/2013/03/18/brians_stupid_feed_tricks</microblog:linkFull>
+			<microblog:readCount>575</microblog:readCount>
+			</item>
+		<item>
+			<description>Facebook finally admits to tracking non-users.</description>
+			<link>http://3hi.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 19:34:25 GMT</pubDate>
+			<guid>http://3hi.r2.ly/?id=15681</guid>
+			<microblog:linkFull>http://www.firstpost.com/tech/facebook-finally-admits-to-tracking-non-users-133684.html</microblog:linkFull>
+			<microblog:readCount>1932</microblog:readCount>
+			</item>
+		<item>
+			<description>RNC Recommendations Favor Deep-Pocketed Candidate. (Makes sense after the 2012 clown-car field.)</description>
+			<link>http://3hg.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 17:16:21 GMT</pubDate>
+			<guid>http://3hg.r2.ly/?id=15680</guid>
+			<microblog:linkFull>http://politicalwire.com/archives/2013/03/18/rnc_recommendations_favor_deep-pocketed_candidate.html</microblog:linkFull>
+			<microblog:readCount>448</microblog:readCount>
+			</item>
+		<item>
+			<description>I&apos;m known for RSS, but my real life-work is outliners.</description>
+			<link>http://3hf.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 17:05:43 GMT</pubDate>
+			<guid>http://3hf.r2.ly/?id=15679</guid>
+			<microblog:linkFull>http://smallpicture.com/outlinerHowto.html</microblog:linkFull>
+			<microblog:readCount>2345</microblog:readCount>
+			</item>
+		<item>
+			<description>We have a stream of releases we&apos;re preparing, each one more capable than the previous ones.</description>
+			<pubDate>Mon, 18 Mar 2013 17:05:10 GMT</pubDate>
+			<guid isPermaLink="false">4c2d5adb51b285facaf9f81c79ec4565</guid>
+			</item>
+		<item>
+			<description>The outliner is a clone of the one in the OPML Editor, running in the browser, using HTML 5 features.</description>
+			<pubDate>Mon, 18 Mar 2013 17:04:52 GMT</pubDate>
+			<guid isPermaLink="false">218f5621bb4060531e1bac4332db1697</guid>
+			</item>
+		<item>
+			<description>It&apos;s official. I&apos;m back in the outliner business. Here&apos;s the first release. Docs. With an outliner for practice.</description>
+			<link>http://3hf.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 17:04:12 GMT</pubDate>
+			<guid>http://3hf.r2.ly/?id=15676</guid>
+			<microblog:linkFull>http://smallpicture.com/outlinerHowto.html</microblog:linkFull>
+			<microblog:readCount>2345</microblog:readCount>
+			</item>
+		<item>
+			<description>Dear reporters everywhere: I do not begrudge you your salary. Mazel tov. Dave</description>
+			<link>http://3hb.r2.ly/</link>
+			<pubDate>Mon, 18 Mar 2013 16:19:31 GMT</pubDate>
+			<guid>http://3hb.r2.ly/?id=15675</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/dearMrPierce</microblog:linkFull>
+			<microblog:readCount>1409</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Dear Mr Pierce.</description>
+			<link>http://3hb.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 18 Mar 2013 15:40:05 GMT</pubDate>
+			<guid>http://3hb.r2.ly/?id=15674</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/dearMrPierce</microblog:linkFull>
+			<microblog:readCount>1409</microblog:readCount>
+			</item>
+		</channel>
+	</rss>
