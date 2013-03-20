@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Wed, 20 Mar 2013 14:46:37 GMT</pubDate>
+		<lastBuildDate>Wed, 20 Mar 2013 14:46:37 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-20</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/20/2013; 10:46:37 AM</microblog:localTime>
+		<item>
+			<description>Scripting News: I vote for leaving off the at-sign if you&apos;re saying trash about a celeb.</description>
+			<link>http://3ig.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 20 Mar 2013 14:46:26 GMT</pubDate>
+			<guid>http://3ig.r2.ly/?id=15711</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/twitterquette</microblog:linkFull>
+			</item>
+		<item>
+			<description>Doc Searls on Steve Jobs. Written in 1997. Always worth a read when you&apos;re puzzled by something Apple does.</description>
+			<link>http://1go.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 14:31:15 GMT</pubDate>
+			<guid>http://1go.r2.ly/?id=15710</guid>
+			<microblog:linkFull>http://scripting.com/davenet/stories/DocSearlsonSteveJobs.html</microblog:linkFull>
+			<microblog:readCount>2230</microblog:readCount>
+			</item>
+		<item>
+			<description>Neil Fraser on Computer Science in Vietnam.</description>
+			<link>http://3if.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 13:01:25 GMT</pubDate>
+			<guid>http://3if.r2.ly/?id=15709</guid>
+			<microblog:linkFull>http://neil.fraser.name/news/2013/03/16/</microblog:linkFull>
+			<microblog:readCount>354</microblog:readCount>
+			</item>
+		<item>
+			<description>The original &quot;Yo Quiero Taco Bell&quot; commercial from 1997.</description>
+			<link>http://3ie.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 12:57:45 GMT</pubDate>
+			<guid>http://3ie.r2.ly/?id=15708</guid>
+			<microblog:linkFull>http://www.youtube.com/watch?v=M8sZ1DWsAHE</microblog:linkFull>
+			<microblog:readCount>378</microblog:readCount>
+			</item>
+		<item>
+			<description>A Decade of Despair in Iraq.</description>
+			<link>http://3ib.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 09:27:21 GMT</pubDate>
+			<guid>http://3ib.r2.ly/?id=15707</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/20/opinion/a-decade-of-despair.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>542</microblog:readCount>
+			</item>
+		<item>
+			<description>Gruber vetoes an Apple exec hire. The man behind Flash. Now we find out if Gruber secretly runs Apple.</description>
+			<link>http://3ia.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 02:46:16 GMT</pubDate>
+			<guid>http://3ia.r2.ly/?id=15706</guid>
+			<microblog:linkFull>http://daringfireball.net/linked/2013/03/19/lynch-bozo</microblog:linkFull>
+			<microblog:readCount>1058</microblog:readCount>
+			</item>
+		<item>
+			<description>HowTo: S3 for Poets.</description>
+			<link>http://2y.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 02:34:20 GMT</pubDate>
+			<guid>http://2y.r2.ly/?id=15705</guid>
+			<microblog:linkFull>http://s3.forpoets.org/</microblog:linkFull>
+			<microblog:readCount>3468</microblog:readCount>
+			</item>
+		<item>
+			<description>I wonder if the Send-to-Kindle button also sends a copy to the CIA.</description>
+			<link>http://3i9.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 01:55:12 GMT</pubDate>
+			<guid>http://3i9.r2.ly/?id=15704</guid>
+			<microblog:linkFull>http://www.amazon.com/gp/sendtokindle/developers/button</microblog:linkFull>
+			<microblog:readCount>1132</microblog:readCount>
+			</item>
+		<item>
+			<description>Amazon: Send to Kindle Button.</description>
+			<link>http://3i9.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 01:54:40 GMT</pubDate>
+			<guid>http://3i9.r2.ly/?id=15703</guid>
+			<microblog:linkFull>http://www.amazon.com/gp/sendtokindle/developers/button</microblog:linkFull>
+			<microblog:readCount>1132</microblog:readCount>
+			</item>
+		<item>
+			<description>When is reporting on Aaron Swartz going to come down to earth?</description>
+			<link>http://3i8.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 01:46:54 GMT</pubDate>
+			<guid>http://3i8.r2.ly/?id=15702</guid>
+			<microblog:linkFull>http://www.theatlanticwire.com/technology/2013/03/mit-aaron-swartz-documents/63277/</microblog:linkFull>
+			<microblog:readCount>655</microblog:readCount>
+			</item>
+		<item>
+			<description>Amazon and CIA $600 million cloud deal.</description>
+			<link>http://3i7.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 01:24:30 GMT</pubDate>
+			<guid>http://3i7.r2.ly/?id=15701</guid>
+			<microblog:linkFull>http://www.readability.com/articles/wmyv9p00</microblog:linkFull>
+			<microblog:readCount>992</microblog:readCount>
+			</item>
+		<item>
+			<description>We&apos;re all barking, farting Chihuahuas pretending our will means anything.</description>
+			<link>http://3hx.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 22:15:13 GMT</pubDate>
+			<guid>http://3hx.r2.ly/?id=15700</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/areWeAllGatekeepers</microblog:linkFull>
+			<microblog:readCount>2116</microblog:readCount>
+			</item>
+		<item>
+			<description>I&apos;d trade the dog for a million bankruptcy attorney ambulance-chasing mesothelioma profiteers.</description>
+			<link>http://3hx.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 22:13:09 GMT</pubDate>
+			<guid>http://3hx.r2.ly/?id=15699</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/areWeAllGatekeepers</microblog:linkFull>
+			<microblog:readCount>2116</microblog:readCount>
+			</item>
+		<item>
+			<description>Chez Panisse closed indefinitely, major rebuild needed.</description>
+			<link>http://3i6.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 22:09:29 GMT</pubDate>
+			<guid>http://3i6.r2.ly/?id=15698</guid>
+			<microblog:linkFull>http://www.berkeleyside.com/2013/03/19/chez-panisse-closed-indefinitely-major-rebuild-needed/</microblog:linkFull>
+			<microblog:readCount>546</microblog:readCount>
+			</item>
+		<item>
+			<description>Why did this picture in Central Park come out so blue? I don&apos;t know, but it&apos;s nice! :-)</description>
+			<link>http://3i5.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 22:00:57 GMT</pubDate>
+			<guid>http://3i5.r2.ly/?id=15697</guid>
+			<microblog:linkFull>http://www.flickr.com/photos/scriptingnews/8573302702/in/photostream/lightbox/</microblog:linkFull>
+			<microblog:readCount>561</microblog:readCount>
+			</item>
+		<item>
+			<description>WSJ: Yes, Linsanity Is Still a Thing.</description>
+			<link>http://3i3.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 18:53:36 GMT</pubDate>
+			<guid>http://3i3.r2.ly/?id=15696</guid>
+			<microblog:linkFull>http://blogs.wsj.com/speakeasy/2013/03/18/yes-linsanity-is-still-a-thing/</microblog:linkFull>
+			<microblog:readCount>472</microblog:readCount>
+			</item>
+		<item>
+			<description>Google undeletes RSS extension for Chrome browser.</description>
+			<link>http://3i1.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 16:16:46 GMT</pubDate>
+			<guid>http://3i1.r2.ly/?id=15695</guid>
+			<microblog:linkFull>http://news.cnet.com/8301-1023_3-57575087-93/google-undeletes-rss-extension-for-chrome-browser/</microblog:linkFull>
+			<microblog:readCount>799</microblog:readCount>
+			</item>
+		<item>
+			<description>Apps must... 1. Give instant gratification and 2. Convey a sense of purpose, yet 3. Be deep.</description>
+			<link>http://0dv.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 15:46:36 GMT</pubDate>
+			<guid>http://0dv.r2.ly/?id=15694</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2012/september/developingIn2012</microblog:linkFull>
+			<microblog:readCount>2730</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: To the Chihuahuas!</description>
+			<link>http://3hx.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 19 Mar 2013 14:21:31 GMT</pubDate>
+			<guid>http://3hx.r2.ly/?id=15693</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/areWeAllGatekeepers</microblog:linkFull>
+			<microblog:readCount>2116</microblog:readCount>
+			</item>
+		<item>
+			<description>The 49ers&apos; plan to build the greatest stadium Wi-Fi network of all time.</description>
+			<link>http://3hv.r2.ly/</link>
+			<pubDate>Tue, 19 Mar 2013 13:42:58 GMT</pubDate>
+			<guid>http://3hv.r2.ly/?id=15692</guid>
+			<microblog:linkFull>http://arstechnica.com/information-technology/2013/03/the-49ers-plan-to-build-the-greatest-stadium-wi-fi-network-of-all-time/</microblog:linkFull>
+			<microblog:readCount>631</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

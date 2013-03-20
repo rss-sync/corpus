@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer</title>
+		<link>http://scripting.com/</link>
+		<description>Dave Winer's "Scripting News" weblog, started in April 1997, bootstrapped the blogging revolution.</description>
+		<language>en-us</language>
+		<pubDate>Wed, 20 Mar 2013 14:47:00 GMT</pubDate>
+		<lastBuildDate>Wed, 20 Mar 2013 14:47:00 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" path="/rsscloud/pleaseNotify" port="5337" protocol="http-post" registerProcedure=""></cloud>
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-20</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/20/2013; 10:47:00 AM</microblog:localTime>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/20/mirror.gif" width="125" height="181" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named mirror.gif">I've heard it said that it's impolite to talk about someone on Twitter without addressing your comment to them by using their handle, prefaced by an @. I disagree. If you're going to call someone an asshole, it's impolite to address it to them. If you're objectifying thems, saying something you wouldn't say to their face -- then don't say it to their face dammit. :-)&lt;/p>
+&lt;p>I know because I'm sometimes on the receiving end of this. &lt;/p>
+&lt;p>Oh that @davewiner, he's such an idiot.&lt;/p>
+&lt;p>I would much prefer if they left the @ off it. Otherwise I have to look at that idiotic thing over and over until it scrolls off. If you think it's going to get a reply, no way. And if you think I give a shit, I don't. It's just annoying to see a bit of stupidity staying there, like a turd in a toilet that someone refuses to flush. So I usually just &lt;a href="http://scripting.com/stories/2011/01/06/whyYouGotBlocked.html">block&lt;/a> em. :-)&lt;/p>
+&lt;p>Sometimes it &lt;i>makes sense&lt;/i> to say something about someone you wouldn't want them to see.&lt;/p>
+&lt;p>For example. The other day at lunch I was saying that Carmelo Anthony, the star of the Knicks, is never going to lead the team to a championship. I wouldn't want Anthony, a fine player, and a nice guy, to see that. I doubt if it would motivate him. And sheez it's not his fault he's in the same division as Lebron James (or for that matter occupying the same NBA as Lebron James). Even Kevin Durant, who is a great leader and player probably can't overcome the audacity and tenacity of the Miami Heat. &lt;/p>
+&lt;p>So I vote for leaving off the at-sign if you're saying trash about a celeb. &lt;/p>
+</description>
+			<link>http://3ig.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 20 Mar 2013 14:46:26 GMT</pubDate>
+			<guid>http://3ig.r2.ly/?id=15711</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/twitterquette</microblog:linkFull>
+			<title>Scripting News: I vote for leaving off the at-sign if you're saying trash about a celeb.</title>
+			<microblog:opml>
+&lt;outline created="Wed, 20 Mar 2013 14:33:22 GMT" pgfnum="20831" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/20/mirror.gif&amp;quot; width=&amp;quot;125&amp;quot; height=&amp;quot;181&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named mirror.gif&amp;quot;&amp;gt;I've heard it said that it's impolite to talk about someone on Twitter without addressing your comment to them by using their handle, prefaced by an @. I disagree. If you're going to call someone an asshole, it's impolite to address it to them. If you're objectifying thems, saying something you wouldn't say to their face -- then don't say it to their face dammit. :-)">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:34:41 GMT" pgfnum="20832" text="I know because I'm sometimes on the receiving end of this. ">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:34:50 GMT" pgfnum="20833" text="Oh that @davewiner, he's such an idiot.">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:34:58 GMT" pgfnum="20834" text="I would much prefer if they left the @ off it. Otherwise I have to look at that idiotic thing over and over until it scrolls off. If you think it's going to get a reply, no way. And if you think I give a shit, I don't. It's just annoying to see a bit of stupidity staying there, like a turd in a toilet that someone refuses to flush. So I usually just &amp;lt;a href=&amp;quot;http://scripting.com/stories/2011/01/06/whyYouGotBlocked.html&amp;quot;&amp;gt;block&amp;lt;/a&amp;gt; em. :-)">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:36:07 GMT" pgfnum="20835" text="Sometimes it &amp;lt;i&amp;gt;makes sense&amp;lt;/i&amp;gt; to say something about someone you wouldn't want them to see.">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:36:37 GMT" pgfnum="20836" text="For example. The other day at lunch I was saying that Carmelo Anthony, the star of the Knicks, is never going to lead the team to a championship. I wouldn't want Anthony, a fine player, and a nice guy, to see that. I doubt if it would motivate him. And sheez it's not his fault he's in the same division as Lebron James (or for that matter occupying the same NBA as Lebron James). Even Kevin Durant, who is a great leader and player probably can't overcome the audacity and tenacity of the Miami Heat. ">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:39:32 GMT" pgfnum="20837" text="So I vote for leaving off the at-sign if you're saying trash about a celeb. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/19/tacoBellDog.gif" width="187" height="229" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named tacoBellDog.gif">When I was a fellow at NYU, I moderated a panel on the topic of Sources Go Direct. My panelists didn't buy it. So we wandered in an unsatisfying way (to me at least) around various ideas of what media is about.&lt;/p>
+&lt;p>One of the speakers was &lt;a href="http://en.wikipedia.org/wiki/Nick_Denton">Nick Denton&lt;/a>, founder, publisher and ego of Gawker. Nick says that media is about gate-keeping. Your power and value is in what you let through and what you don't. He said that at the beginning of the blogging era, I had that power (me, as in Dave). He recounted a visit he and his partner made to Palo Alto, probably around 2001 or 2002 or so. They were running a startup called Moreover, and according to Nick, they wanted me to write about it on Scripting News. I didn't know. &lt;/p>
+&lt;p>And I sure didn't want to be a gatekeeper! To me it's a silly idea, and antithetical to what blogging is about. I want you to say what you have to say and if I'm interested or &lt;i>when&lt;/i> I'm interested, I'll read it -- and not because I have to or because there's nothing else to read. We were going from the time of scarcity to overload, and that's what I wanted. Not gatekeeping. Because look who's doing the gatekeeping, some miserable person who will be dead in at most 70 years and probably a lot sooner. &lt;/p>
+&lt;p>I once &lt;a href="http://scripting.com/davenet/1998/05/06/yoQuieroScriptingNews.html">wrote&lt;/a> about how we're all barking, farting Chihuahuas pretending our will means anything. I was thinking about the wonderful character in the Taco Bell commercials. I guess he didn't sell burritos and tacos and challupas or whatever, but I loved the dog, and now that I think of him, I miss him too. I wish they'd bring him back. I'd trade the dog for a million bankruptcy attorney ambulance-chasing mesothelioma profiteers. &lt;/p>
+&lt;ul>
+	&lt;li>"The universe is so damned big. Billions and billions of galaxies. Every one of them filled with chihuahuas and captains of industry. None of them get out of it alive. What's it all about? Who knows? No one."&lt;/li>
+	&lt;li>I was thinking of Bill Gates. &lt;/li>
+	&lt;li>&lt;iframe width="420" height="315" src="http://www.youtube.com/embed/M8sZ1DWsAHE" frameborder="0" allowfullscreen>&lt;/iframe>&lt;/li>
+	&lt;/ul>
+&lt;p>Nick is now a gatekeeper, I suppose -- and I guess he must have a soft spot for me, because anytime I want publicity from Gawker I seem to be able to get it. I wonder who he's turning down and why. &lt;/p>
+&lt;p>And then I think of people I know who really are gatekeepers. And then I think of the great scene in The Godfather where all the bosses get together to tell Don Corleone to share his politicians with them. He says if you let my son come back to America you can have the politicians and judges. Now that I can get behind. An old man, in his final years, wants the comfort of his son, to drink wine with, and to tell stories to. What could be better than that! :-)&lt;/p>
+</description>
+			<link>http://3hx.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 19 Mar 2013 14:21:31 GMT</pubDate>
+			<guid>http://3hx.r2.ly/?id=15693</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/areWeAllGatekeepers</microblog:linkFull>
+			<microblog:readCount>2116</microblog:readCount>
+			<title>Scripting News: To the Chihuahuas!</title>
+			<microblog:opml>
+&lt;outline created="Tue, 19 Mar 2013 13:58:05 GMT" pgfnum="20755" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/19/tacoBellDog.gif&amp;quot; width=&amp;quot;187&amp;quot; height=&amp;quot;229&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named tacoBellDog.gif&amp;quot;&amp;gt;When I was a fellow at NYU, I moderated a panel on the topic of Sources Go Direct. My panelists didn't buy it. So we wandered in an unsatisfying way (to me at least) around various ideas of what media is about.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 13:59:11 GMT" pgfnum="20756" text="One of the speakers was &amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Nick_Denton&amp;quot;&amp;gt;Nick Denton&amp;lt;/a&amp;gt;, founder, publisher and ego of Gawker. Nick says that media is about gate-keeping. Your power and value is in what you let through and what you don't. He said that at the beginning of the blogging era, I had that power (me, as in Dave). He recounted a visit he and his partner made to Palo Alto, probably around 2001 or 2002 or so. They were running a startup called Moreover, and according to Nick, they wanted me to write about it on Scripting News. I didn't know. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:01:18 GMT" pgfnum="20757" text="And I sure didn't want to be a gatekeeper! To me it's a silly idea, and antithetical to what blogging is about. I want you to say what you have to say and if I'm interested or &amp;lt;i&amp;gt;when&amp;lt;/i&amp;gt; I'm interested, I'll read it -- and not because I have to or because there's nothing else to read. We were going from the time of scarcity to overload, and that's what I wanted. Not gatekeeping. Because look who's doing the gatekeeping, some miserable person who will be dead in at most 70 years and probably a lot sooner. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:08:21 GMT" pgfnum="20761" text="I once &amp;lt;a href=&amp;quot;http://scripting.com/davenet/1998/05/06/yoQuieroScriptingNews.html&amp;quot;&amp;gt;wrote&amp;lt;/a&amp;gt; about how we're all barking, farting Chihuahuas pretending our will means anything. I was thinking about the wonderful character in the Taco Bell commercials. I guess he didn't sell burritos and tacos and challupas or whatever, but I loved the dog, and now that I think of him, I miss him too. I wish they'd bring him back. I'd trade the dog for a million bankruptcy attorney ambulance-chasing mesothelioma profiteers. ">
+	&lt;outline created="Tue, 19 Mar 2013 14:13:35 GMT" pgfnum="20762" text="&amp;quot;The universe is so damned big. Billions and billions of galaxies. Every one of them filled with chihuahuas and captains of industry. None of them get out of it alive. What's it all about? Who knows? No one.&amp;quot;">&lt;/outline>
+	&lt;outline created="Tue, 19 Mar 2013 14:13:45 GMT" pgfnum="20763" text="I was thinking of Bill Gates. ">&lt;/outline>
+	&lt;outline text="&amp;lt;iframe width=&amp;quot;420&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;http://www.youtube.com/embed/M8sZ1DWsAHE&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:03:16 GMT" pgfnum="20758" text="Nick is now a gatekeeper, I suppose -- and I guess he must have a soft spot for me, because anytime I want publicity from Gawker I seem to be able to get it. I wonder who he's turning down and why. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:03:52 GMT" pgfnum="20759" text="And then I think of people I know who really are gatekeepers. And then I think of the great scene in The Godfather where all the bosses get together to tell Don Corleone to share his politicians with them. He says if you let my son come back to America you can have the politicians and judges. Now that I can get behind. An old man, in his final years, wants the comfort of his son, to drink wine with, and to tell stories to. What could be better than that! :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/19/houseOfCards.gif" width="145" height="186" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named houseOfCards.gif">On February 5, I wrote a piece called &lt;a href="http://threads2.scripting.com/2013/february/restructuringNews">House of News&lt;/a>, in which I suggested that the news industry might do a recalc along the lines of the one Netflix did, in deciding to give its users all the episodes of House of Cards, at once -- instead of emulating the old TV serial distribution system, the one that existed before the net.&lt;/p>
+&lt;p>They did something remarkable, Netflix did -- that most companies can't seem to do. They viewed the world through the eyes of their users. And decided simply to give them exactly what they wanted.&lt;/p>
+&lt;p>I wrote that piece before we knew that Google Reader would be shutting down in July. &lt;/p>
+&lt;p>What we don't know is &lt;a href="http://www.tulsaworld.com/business/article.aspx?articleid=20130319_52_E3_Google20338">why&lt;/a> Google shut it down. But one possible reason is that they are trying to give the news industry what it wants, and in doing so, not only not giving the users what they want, but &lt;i>willfully throwing out the work of the users,&lt;/i> in building their own distribution system for news.&lt;/p>
+&lt;p>As hobbled as Google Reader was, it was largely a creation of its users. They did the programming for themselves. They chose what channels of news they wanted to listen to, assembling a highly customized news flow and sharing their discoveries.&lt;/p>
+&lt;p>If I could say one thing to the the execs of the news industry, it would be this. Stop viewing today through the lens of the past. View it from the point of view of the future. Look back to today and imagine how you could get to the future we all know is coming. And when you do that, I think you'll see that it's time for something new and Netflix-like. A news system where the users have even more power to shape the news that they will receive from you. &lt;/p>
+&lt;p>It's long-past time to trust the users and just do what they want you to do. You will probably be surprised at how profitable that turns out to be. Imho of course.&lt;/p>
+</description>
+			<link>http://3ht.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 19 Mar 2013 12:45:16 GMT</pubDate>
+			<guid>http://3ht.r2.ly/?id=15689</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/timeForAHulufornews</microblog:linkFull>
+			<microblog:readCount>2590</microblog:readCount>
+			<title>Scripting News: Time for a Hulu-for-News?</title>
+			<microblog:opml>
+&lt;outline created="Tue, 19 Mar 2013 12:38:18 GMT" pgfnum="20730" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/19/houseOfCards.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;186&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named houseOfCards.gif&amp;quot;&amp;gt;On February 5, I wrote a piece called &amp;lt;a href=&amp;quot;http://threads2.scripting.com/2013/february/restructuringNews&amp;quot;&amp;gt;House of News&amp;lt;/a&amp;gt;, in which I suggested that the news industry might do a recalc along the lines of the one Netflix did, in deciding to give its users all the episodes of House of Cards, at once -- instead of emulating the old TV serial distribution system, the one that existed before the net.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:39:18 GMT" pgfnum="20731" text="They did something remarkable, Netflix did -- that most companies can't seem to do. They viewed the world through the eyes of their users. And decided simply to give them exactly what they wanted.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:39:48 GMT" pgfnum="20732" text="I wrote that piece before we knew that Google Reader would be shutting down in July. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:40:00 GMT" pgfnum="20733" text="What we don't know is &amp;lt;a href=&amp;quot;http://www.tulsaworld.com/business/article.aspx?articleid=20130319_52_E3_Google20338&amp;quot;&amp;gt;why&amp;lt;/a&amp;gt; Google shut it down. But one possible reason is that they are trying to give the news industry what it wants, and in doing so, not only not giving the users what they want, but &amp;lt;i&amp;gt;willfully throwing out the work of the users,&amp;lt;/i&amp;gt; in building their own distribution system for news.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:40:46 GMT" pgfnum="20734" text="As hobbled as Google Reader was, it was largely a creation of its users. They did the programming for themselves. They chose what channels of news they wanted to listen to, assembling a highly customized news flow and sharing their discoveries.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:41:38 GMT" pgfnum="20735" text="If I could say one thing to the the execs of the news industry, it would be this. Stop viewing today through the lens of the past. View it from the point of view of the future. Look back to today and imagine how you could get to the future we all know is coming. And when you do that, I think you'll see that it's time for something new and Netflix-like. A news system where the users have even more power to shape the news that they will receive from you. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:43:02 GMT" pgfnum="20736" text="It's long-past time to trust the users and just do what they want you to do. You will probably be surprised at how profitable that turns out to be. Imho of course.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>Over the weekend Charles Pierce took a &lt;a href="http://www.esquire.com/blogs/politics/out-on-the-weekend-031513">swipe&lt;/a> at my earlier &lt;a href="http://threads2.scripting.com/2013/march/charlesPierceIsWrongAboutEzraKleinBeingWrong">piece&lt;/a> about sources going direct. &lt;/p>
+&lt;p>He has summarized my thoughts: "Journalism is no longer an actual profession because everyone can do it because BLOGS!, that's why. Well, fine, that's an argument. But it's not a good one."&lt;/p>
+&lt;p>Nor does it in any way resemble what I said. &lt;/p>
+&lt;ul>
+	&lt;li>Or anything I have &lt;i>ever&lt;/i> said or thought or even dreamed.&lt;/li>
+	&lt;li>And btw, how insulting to be called that superficial and that stupid.&lt;/li>
+	&lt;li>This is what I mean about reporters not listening to people outside their own profession.&lt;/li>
+	&lt;li>To Klein, he was condescending, but respectful, at least superficially. He didn't read Klein's piece either, or if he did, none of the meaning was reflected in his critique. &lt;/li>
+	&lt;li>My piece? Clearly he didn't even read it. And he didn't care how stupid it made &lt;i>him&lt;/i> look, to be so dismissive and condescending without even bothering to find out what it was he was dismissing.&lt;/li>
+	&lt;li>Regardless, he's an entertaining and often insightful writer. But I'll always remember when reading him that I've seen some pretty sloppy thinking on his part, and it'll make me question the other stuff he says.&lt;/li>
+	&lt;/ul>
+&lt;p>To Mr Pierce: I love reading your stuff, and if your getting paid is what it takes for you to continue, I hope you continue to get paid for a long time to come. I hope that puts to rest any thought that I begrudge you your salary. :-)&lt;/p>
+</description>
+			<link>http://3hb.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 18 Mar 2013 15:40:05 GMT</pubDate>
+			<guid>http://3hb.r2.ly/?id=15674</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/dearMrPierce</microblog:linkFull>
+			<microblog:readCount>1789</microblog:readCount>
+			<title>Scripting News: Dear Mr Pierce.</title>
+			<microblog:opml>
+&lt;outline created="Mon, 18 Mar 2013 15:32:55 GMT" pgfnum="20654" text="Over the weekend Charles Pierce took a &amp;lt;a href=&amp;quot;http://www.esquire.com/blogs/politics/out-on-the-weekend-031513&amp;quot;&amp;gt;swipe&amp;lt;/a&amp;gt; at my earlier &amp;lt;a href=&amp;quot;http://threads2.scripting.com/2013/march/charlesPierceIsWrongAboutEzraKleinBeingWrong&amp;quot;&amp;gt;piece&amp;lt;/a&amp;gt; about sources going direct. ">&lt;/outline>
+&lt;outline created="Mon, 18 Mar 2013 16:20:27 GMT" pgfnum="20669" text="He has summarized my thoughts: &amp;quot;Journalism is no longer an actual profession because everyone can do it because BLOGS!, that's why. Well, fine, that's an argument. But it's not a good one.&amp;quot;">&lt;/outline>
+&lt;outline collapse="true" created="Mon, 18 Mar 2013 15:34:07 GMT" pgfnum="20656" text="Nor does it in any way resemble what I said. ">
+	&lt;outline created="Mon, 18 Mar 2013 16:21:35 GMT" pgfnum="20670" text="Or anything I have &amp;lt;i&amp;gt;ever&amp;lt;/i&amp;gt; said or thought or even dreamed.">&lt;/outline>
+	&lt;outline created="Mon, 18 Mar 2013 15:48:00 GMT" pgfnum="20659" text="And btw, how insulting to be called that superficial and that stupid.">&lt;/outline>
+	&lt;outline created="Mon, 18 Mar 2013 15:49:25 GMT" pgfnum="20660" text="This is what I mean about reporters not listening to people outside their own profession.">&lt;/outline>
+	&lt;outline created="Mon, 18 Mar 2013 15:50:12 GMT" pgfnum="20661" text="To Klein, he was condescending, but respectful, at least superficially. He didn't read Klein's piece either, or if he did, none of the meaning was reflected in his critique. ">&lt;/outline>
+	&lt;outline created="Mon, 18 Mar 2013 15:51:02 GMT" pgfnum="20662" text="My piece? Clearly he didn't even read it. And he didn't care how stupid it made &amp;lt;i&amp;gt;him&amp;lt;/i&amp;gt; look, to be so dismissive and condescending without even bothering to find out what it was he was dismissing.">&lt;/outline>
+	&lt;outline created="Mon, 18 Mar 2013 15:52:44 GMT" pgfnum="20663" text="Regardless, he's an entertaining and often insightful writer. But I'll always remember when reading him that I've seen some pretty sloppy thinking on his part, and it'll make me question the other stuff he says.">&lt;/outline>
+	&lt;/outline>
+&lt;outline text="To Mr Pierce: I love reading your stuff, and if your getting paid is what it takes for you to continue, I hope you continue to get paid for a long time to come. I hope that puts to rest any thought that I begrudge you your salary. :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/16/cokeMachine.gif" width="124" height="215" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named cokeMachine.gif">A friend sent an email last week when I wrote yet another piece about Medium that I seem obsessed with it. Not really. I watch it. Not sure why. &lt;/p>
+&lt;p>Why do I watch the Knicks? Certainly not because I hope they'll win. I'm just interested. Maybe I feel the same way about Medium. I'm invested in the Evan Williams story, having watched from almost the beginning, way before most other people in tech thought he was interesting. &lt;/p>
+&lt;p>I remember once watching him talk on stage at a conference in Copenhagen. I had this instant visceral thought that he might be the Rupert Murdoch of this medium we were creating. I knew I wasn't that. I'm more of a creative guy, I eschew empire building. (But I do like an interesting word or phrase!)&lt;/p>
+&lt;p>Anyway, I was just reading this &lt;a href="http://www.newyorker.com/online/blogs/newsdesk/2013/03/mitt-romneys-last-hurrah.html">piece&lt;/a> in the New Yorker. It's short and to the point, and asks an interesting question. Why doesn't Mitt Romney finally let his hair down a little. It's of course well-written, it's in the New Yorker after all. I thought to myself -- "I bet this is the kind of writing they're looking for at Medium."&lt;/p>
+&lt;p>I'm more casual a writer. I think of blogging as a written form of fresco. Made of plaster with a little coloring. It hardens fast, and you move on to something else. I used to say "we're just folks here." That's the kind of writing I aspire to. &lt;/p>
+</description>
+			<link>http://3gg.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sat, 16 Mar 2013 18:25:27 GMT</pubDate>
+			<guid>http://3gg.r2.ly/?id=15650</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/evenMoreOnMedium</microblog:linkFull>
+			<microblog:readCount>2695</microblog:readCount>
+			<title>Scripting News: Even more on Medium.</title>
+			<microblog:opml>
+&lt;outline created="Sat, 16 Mar 2013 18:16:46 GMT" pgfnum="20552" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/16/cokeMachine.gif&amp;quot; width=&amp;quot;124&amp;quot; height=&amp;quot;215&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named cokeMachine.gif&amp;quot;&amp;gt;A friend sent an email last week when I wrote yet another piece about Medium that I seem obsessed with it. Not really. I watch it. Not sure why. ">&lt;/outline>
+&lt;outline created="Sat, 16 Mar 2013 18:24:09 GMT" pgfnum="20556" text="Why do I watch the Knicks? Certainly not because I hope they'll win. I'm just interested. Maybe I feel the same way about Medium. I'm invested in the Evan Williams story, having watched from almost the beginning, way before most other people in tech thought he was interesting. ">&lt;/outline>
+&lt;outline created="Sat, 16 Mar 2013 18:18:08 GMT" pgfnum="20553" text="I remember once watching him talk on stage at a conference in Copenhagen. I had this instant visceral thought that he might be the Rupert Murdoch of this medium we were creating. I knew I wasn't that. I'm more of a creative guy, I eschew empire building. (But I do like an interesting word or phrase!)">&lt;/outline>
+&lt;outline created="Sat, 16 Mar 2013 18:19:29 GMT" pgfnum="20554" text="Anyway, I was just reading this &amp;lt;a href=&amp;quot;http://www.newyorker.com/online/blogs/newsdesk/2013/03/mitt-romneys-last-hurrah.html&amp;quot;&amp;gt;piece&amp;lt;/a&amp;gt; in the New Yorker. It's short and to the point, and asks an interesting question. Why doesn't Mitt Romney finally let his hair down a little. It's of course well-written, it's in the New Yorker after all. I thought to myself -- &amp;quot;I bet this is the kind of writing they're looking for at Medium.&amp;quot;">&lt;/outline>
+&lt;outline created="Sat, 16 Mar 2013 18:20:36 GMT" pgfnum="20555" text="I'm more casual a writer. I think of blogging as a written form of fresco. Made of plaster with a little coloring. It hardens fast, and you move on to something else. I used to say &amp;quot;we're just folks here.&amp;quot; That's the kind of writing I aspire to. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/17/salute.gif" width="145" height="291" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named salute.gif">&lt;a href="https://twitter.com/bilb02/status/312336563533127681">A discussion began&lt;/a> on Twitter about Google Reader between myself and &lt;a href="http://en.wikipedia.org/wiki/Max_Levchin">Max Levchin&lt;/a>, and at my request moved over to email. This is the discussion so far.&lt;/p>
+&lt;p>Max wrote:&lt;/p>
+&lt;ul>
+	&lt;li>RSS has a decentralized pub/sub model; the format has been open and stable for a long time; the addressing scheme has no reliance on a specific client. How does the death of one, particularly good even, client, carry with it a threat to the whole ecosystem?&lt;/li>
+	&lt;/ul>
+&lt;p>I responded:&lt;/p>
+&lt;ul>
+	&lt;li>They weren't just "one client" -- they dominated, in the way that MSIE dominated the browser space. And they did what MSIE did, once they gained dominance they froze development (that might have happened through competition) and stopped moving. Everything that was broken in GR became a feature of RSS. And all the things that should have happened, to mature the market, couldn't happen.&lt;/li>
+	&lt;li>Now maybe that's about to change for the better. I hope so. But I'm not encouraged. This is a market where, in order for it to flourish, there HAS to be cooperation among vendors. That's what Twitter proved. Because they control the whole user experience they were able to solve problems that the RSS market couldn't. First, because the vendors wouldn't cooperate, and then because Google took the whole market. So we are now locked into a single vendor -- Twitter.&lt;/li>
+	&lt;li>So the way it looks to me is that there are three possible outcomes:&lt;/li>
+	&lt;li>1. GR's demise is also the end of RSS (which seems to me is Google's desired outcome, based on other things they did).&lt;/li>
+	&lt;li>2. A market develops, but we're unable to get the new features into it that simplify the subscription process, so it has a chance re Twitter. &lt;/li>
+	&lt;li>3. A new dominant reader comes about, and if they're good then maybe something good happens.&lt;/li>
+	&lt;li>I don't think there's the slightest possibility of #3. People in tech are just too insular, they don't study prior art, or even study their competition enough to know where the problems are, much less what the potential solutions are. &lt;/li>
+	&lt;li>I think more likely is a mix between #1 and #2. A continued decline for RSS as an activity and more and more reliance on big companies that don't give a fuck.&lt;/li>
+	&lt;/ul>
+</description>
+			<link>http://3gc.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sat, 16 Mar 2013 15:49:55 GMT</pubDate>
+			<guid>http://3gc.r2.ly/?id=15648</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/emailWithMaxLevchin</microblog:linkFull>
+			<microblog:readCount>2709</microblog:readCount>
+			<title>Scripting News: Email with Max Levchin.</title>
+			<microblog:opml>
+&lt;outline created="Sat, 16 Mar 2013 15:44:09 GMT" pgfnum="20517" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/17/salute.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;291&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named salute.gif&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://twitter.com/bilb02/status/312336563533127681&amp;quot;&amp;gt;A discussion began&amp;lt;/a&amp;gt; on Twitter about Google Reader between myself and &amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Max_Levchin&amp;quot;&amp;gt;Max Levchin&amp;lt;/a&amp;gt;, and at my request moved over to email. This is the discussion so far.">&lt;/outline>
+&lt;outline created="Sat, 16 Mar 2013 15:44:49 GMT" pgfnum="20518" text="Max wrote:">
+	&lt;outline created="Sat, 16 Mar 2013 15:44:54 GMT" pgfnum="20519" text="RSS has a decentralized pub/sub model; the format has been open and stable for a long time; the addressing scheme has no reliance on a specific client. How does the death of one, particularly good even, client, carry with it a threat to the whole ecosystem?">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Sat, 16 Mar 2013 15:44:58 GMT" pgfnum="20520" text="I responded:">
+	&lt;outline created="Sat, 16 Mar 2013 15:45:01 GMT" pgfnum="20521" text="They weren't just &amp;quot;one client&amp;quot; -- they dominated, in the way that MSIE dominated the browser space. And they did what MSIE did, once they gained dominance they froze development (that might have happened through competition) and stopped moving. Everything that was broken in GR became a feature of RSS. And all the things that should have happened, to mature the market, couldn't happen.">&lt;/outline>
+	&lt;outline created="Sat, 16 Mar 2013 15:45:18 GMT" pgfnum="20522" text="Now maybe that's about to change for the better. I hope so. But I'm not encouraged. This is a market where, in order for it to flourish, there HAS to be cooperation among vendors. That's what Twitter proved. Because they control the whole user experience they were able to solve problems that the RSS market couldn't. First, because the vendors wouldn't cooperate, and then because Google took the whole market. So we are now locked into a single vendor -- Twitter.">&lt;/outline>
+	&lt;outline created="Sat, 16 Mar 2013 15:45:22 GMT" pgfnum="20523" text="So the way it looks to me is that there are three possible outcomes:">&lt;/outline>
+	&lt;outline created="Sat, 16 Mar 2013 15:45:28 GMT" pgfnum="20524" text="1. GR's demise is also the end of RSS (which seems to me is Google's desired outcome, based on other things they did).">&lt;/outline>
+	&lt;outline created="Sat, 16 Mar 2013 15:45:33 GMT" pgfnum="20525" text="2. A market develops, but we're unable to get the new features into it that simplify the subscription process, so it has a chance re Twitter. ">&lt;/outline>
+	&lt;outline text="3. A new dominant reader comes about, and if they're good then maybe something good happens.">&lt;/outline>
+	&lt;outline created="Sat, 16 Mar 2013 15:45:50 GMT" pgfnum="20526" text="I don't think there's the slightest possibility of #3. People in tech are just too insular, they don't study prior art, or even study their competition enough to know where the problems are, much less what the potential solutions are. ">&lt;/outline>
+	&lt;outline created="Sat, 16 Mar 2013 15:45:59 GMT" pgfnum="20527" text="I think more likely is a mix between #1 and #2. A continued decline for RSS as an activity and more and more reliance on big companies that don't give a fuck.">&lt;/outline>
+	&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="https://twitter.com/davewiner/status/312662420424372224">I tweeted&lt;/a> that you couldn't do this, and got replies from a dozen or more people with ways to do it. And I'm happy to report at least one of them works. &lt;/p>
+&lt;p>1. Use the email address that Amazon provides for your Kindle. It's on the Amazon site, poke around, you'll find it.&lt;/p>
+&lt;p>2. The Kindle app shows up under Apps in iTunes. You can drag .mobi files into its Documents directory and they show up in the Kindle app.&lt;/p>
+&lt;p>3. You can use Dropbox. It will report it can't open the files but if you look in the upper right corner of the screen there's a &lt;a href="https://twitter.com/phil_b/status/312666111059578880/photo/1">way&lt;/a> to send them to a bunch of apps, for .mobi files this includes the Kindle app. &lt;/p>
+&lt;p>There may be other methods, if you know of them, please add a comment below.&lt;/p>
+</description>
+			<link>http://3g0.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 15 Mar 2013 21:06:22 GMT</pubDate>
+			<guid>http://3g0.r2.ly/?id=15639</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/howToGetMobiFilesIntoKindleOnTheIpad</microblog:linkFull>
+			<microblog:readCount>1515</microblog:readCount>
+			<title>Scripting News: How to get .mobi files into Kindle on the iPad.</title>
+			<microblog:opml>
+&lt;outline created="Fri, 15 Mar 2013 21:02:17 GMT" pgfnum="20496" text="&amp;lt;a href=&amp;quot;https://twitter.com/davewiner/status/312662420424372224&amp;quot;&amp;gt;I tweeted&amp;lt;/a&amp;gt; that you couldn't do this, and got replies from a dozen or more people with ways to do it. And I'm happy to report at least one of them works. ">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 21:02:43 GMT" pgfnum="20497" text="1. Use the email address that Amazon provides for your Kindle. It's on the Amazon site, poke around, you'll find it.">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 21:03:07 GMT" pgfnum="20498" text="2. The Kindle app shows up under Apps in iTunes. You can drag .mobi files into its Documents directory and they show up in the Kindle app.">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 21:03:48 GMT" pgfnum="20499" text="3. You can use Dropbox. It will report it can't open the files but if you look in the upper right corner of the screen there's a &amp;lt;a href=&amp;quot;https://twitter.com/phil_b/status/312666111059578880/photo/1&amp;quot;&amp;gt;way&amp;lt;/a&amp;gt; to send them to a bunch of apps, for .mobi files this includes the Kindle app. ">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 21:04:29 GMT" pgfnum="20500" text="There may be other methods, if you know of them, please add a comment below.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="http://www.thegreenhead.com/2008/10/lifesize-talking-wicked-witch-of-the-west-statue.php">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/15/wickedWitch.gif" width="145" height="172" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named wickedWitch.gif">&lt;/a>For a long time I wouldn't create a feed that couldn't be read by Google Reader. That was after an awkward period, when Google Reader started up, that it couldn't do a good job of reading &lt;a href="http://scripting.com/rss.xml">Scripting News's feed&lt;/a>.&lt;/p>
+&lt;p>Think about that for a minute. Scripting News was the &lt;a href="http://scripting.com/davenet/1997/12/15/scriptingNewsInXML.html">first feed&lt;/a>. The specs were all written in such a way that Scripting News worked. It would be impossible, unthinkable that somehow the first feed could not be read by a reader from Google. But that's the way it worked. From day one, Google came in with the attitude of The Boss Man. We run this show. I always thought well fuck that shit. What's the point of creating something new if a big asshole company can come along and break you. On day one. Not even a Hello World from a Humble Newbie. Nahh. We're Google. You're nothin.&lt;/p>
+&lt;p>Eventually I caved, and got rid of the features that Google couldn't handle. &lt;/p>
+&lt;p>So here's the good thing -- I can put things into my feeds that Google Reader doesn't like. &lt;/p>
+&lt;p>Not that I haven't already been doing that for a couple of years. ;-)&lt;/p>
+</description>
+			<link>http://3fx.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 15 Mar 2013 20:14:38 GMT</pubDate>
+			<guid>http://3fx.r2.ly/?id=15636</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/oneGreatThingAboutTheDemiseOfGoogleReader</microblog:linkFull>
+			<microblog:readCount>2370</microblog:readCount>
+			<title>Scripting News: One great thing about the demise of Google Reader.</title>
+			<microblog:opml>
+&lt;outline created="Fri, 15 Mar 2013 20:06:00 GMT" pgfnum="20488" text="&amp;lt;a href=&amp;quot;http://www.thegreenhead.com/2008/10/lifesize-talking-wicked-witch-of-the-west-statue.php&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/15/wickedWitch.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;172&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named wickedWitch.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;For a long time I wouldn't create a feed that couldn't be read by Google Reader. That was after an awkward period, when Google Reader started up, that it couldn't do a good job of reading &amp;lt;a href=&amp;quot;http://scripting.com/rss.xml&amp;quot;&amp;gt;Scripting News's feed&amp;lt;/a&amp;gt;.">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 20:06:51 GMT" pgfnum="20490" text="Think about that for a minute. Scripting News was the &amp;lt;a href=&amp;quot;http://scripting.com/davenet/1997/12/15/scriptingNewsInXML.html&amp;quot;&amp;gt;first feed&amp;lt;/a&amp;gt;. The specs were all written in such a way that Scripting News worked. It would be impossible, unthinkable that somehow the first feed could not be read by a reader from Google. But that's the way it worked. From day one, Google came in with the attitude of The Boss Man. We run this show. I always thought well fuck that shit. What's the point of creating something new if a big asshole company can come along and break you. On day one. Not even a Hello World from a Humble Newbie. Nahh. We're Google. You're nothin.">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 20:08:21 GMT" pgfnum="20491" text="Eventually I caved, and got rid of the features that Google couldn't handle. ">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 20:08:47 GMT" pgfnum="20492" text="So here's the good thing -- I can put things into my feeds that Google Reader doesn't like. ">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 20:09:03 GMT" pgfnum="20493" text="Not that I haven't already been doing that for a couple of years. ;-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>It's always controversial to say that big tech companies make money by controlling the flows to and from users and charging others for access. But that is at least one of the businesses Silicon Valley is in. And it's definitely the business &lt;i>Google&lt;/i> is in, so if you want to understand why they might do something to restrict or try to control the flow of RSS, that's probably part of the story, at least. (I'm bending over backwards to be conservative here.)&lt;/p>
+&lt;p>The thing to fear is that Google intends to control the news people can subscribe to, the same way Apple controls what apps you can buy for the iPad. And the way Twitter decides what clients can have access to our tweets.&lt;/p>
+&lt;ul>
+	&lt;li>They've got a pretty nice interface for it, btw -- the magical Google Now. It knows what information you're likely to want to see, and shows it to you. It's really good. &lt;/li>
+	&lt;ul>
+		&lt;li>An example of how good/creepy it is. My friend Jen was coming to visit from SLC. Google Now told me her plane was 24 minutes from arriving at the gate at JFK. I had never told them what flight she was on. &lt;i>I didn't know what flight she was on.&lt;/i> But they did. Probably because she uses Gmail or their calendar, and somehow connected me to that trip (or did they just guess!) and thought I might be impressed if they told me about her flight. I was!&lt;/li>
+		&lt;/ul>
+	&lt;li>But it's creepy, in two ways. One way most people see (it's snooping on what you do to figure out what you want to see). The second way: it's also deciding what you &lt;i>don't&lt;/i> see. &lt;/li>
+	&lt;li>Centralizing this decision-making, for now, is the only way that works. But we're giving something up here. &lt;/li>
+	&lt;li>I love that the content of my river is not determined by any tech company. Do I think it will stay that way? It's possible that it might not. Even though I'm not running any Google software to manage it. (I run the aggregator on a Rackspace server, and the content is served from an Amazon S3 bucket.)&lt;/li>
+	&lt;/ul>
+&lt;p>We broke free for a bit there with unrestricted flow from blogs and news orgs via RSS. There are people who would like to put the genie back in the bottle. They're not going to run press releases saying that. This is one of those cases where the reporters have to investigate to get the news.&lt;/p>
+&lt;p>News people -- if your plan for the future includes free flow of news from journalists to readers, now's the time to take a look. &lt;/p>
+</description>
+			<link>http://3fn.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 15 Mar 2013 14:36:43 GMT</pubDate>
+			<guid>http://3fn.r2.ly/?id=15627</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/wakingUpToTheWorldAroundYou</microblog:linkFull>
+			<microblog:readCount>1973</microblog:readCount>
+			<title>News people: Waking up to the world around you.</title>
+			<microblog:opml>
+&lt;outline created="Fri, 15 Mar 2013 14:22:08 GMT" pgfnum="20431" text="It's always controversial to say that big tech companies make money by controlling the flows to and from users and charging others for access. But that is at least one of the businesses Silicon Valley is in. And it's definitely the business &amp;lt;i&amp;gt;Google&amp;lt;/i&amp;gt; is in, so if you want to understand why they might do something to restrict or try to control the flow of RSS, that's probably part of the story, at least. (I'm bending over backwards to be conservative here.)">&lt;/outline>
+&lt;outline collapse="true" created="Fri, 15 Mar 2013 14:24:07 GMT" pgfnum="20432" text="The thing to fear is that Google intends to control the news people can subscribe to, the same way Apple controls what apps you can buy for the iPad. And the way Twitter decides what clients can have access to our tweets.">
+	&lt;outline collapse="true" created="Fri, 15 Mar 2013 14:29:22 GMT" pgfnum="20436" text="They've got a pretty nice interface for it, btw -- the magical Google Now. It knows what information you're likely to want to see, and shows it to you. It's really good. ">
+		&lt;outline created="Fri, 15 Mar 2013 14:32:35 GMT" pgfnum="20439" text="An example of how good/creepy it is. My friend Jen was coming to visit from SLC. Google Now told me her plane was 24 minutes from arriving at the gate at JFK. I had never told them what flight she was on. &amp;lt;i&amp;gt;I didn't know what flight she was on.&amp;lt;/i&amp;gt; But they did. Probably because she uses Gmail or their calendar, and somehow connected me to that trip (or did they just guess!) and thought I might be impressed if they told me about her flight. I was!">&lt;/outline>
+		&lt;/outline>
+	&lt;outline created="Fri, 15 Mar 2013 14:32:21 GMT" pgfnum="20438" text="But it's creepy, in two ways. One way most people see (it's snooping on what you do to figure out what you want to see). The second way: it's also deciding what you &amp;lt;i&amp;gt;don't&amp;lt;/i&amp;gt; see. ">&lt;/outline>
+	&lt;outline created="Fri, 15 Mar 2013 14:32:04 GMT" pgfnum="20437" text="Centralizing this decision-making, for now, is the only way that works. But we're giving something up here. ">&lt;/outline>
+	&lt;outline created="Fri, 15 Mar 2013 14:36:15 GMT" pgfnum="20440" text="I love that the content of my river is not determined by any tech company. Do I think it will stay that way? It's possible that it might not. Even though I'm not running any Google software to manage it. (I run the aggregator on a Rackspace server, and the content is served from an Amazon S3 bucket.)">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 14:24:46 GMT" pgfnum="20433" text="We broke free for a bit there with unrestricted flow from blogs and news orgs via RSS. There are people who would like to put the genie back in the bottle. They're not going to run press releases saying that. This is one of those cases where the reporters have to investigate to get the news.">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 14:26:13 GMT" pgfnum="20435" text="News people -- if your plan for the future includes free flow of news from journalists to readers, now's the time to take a look. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/14/computerLib.gif" width="145" height="190" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named computerLib.gif">&lt;/a>Since I'm working on other kinds of &lt;a href="http://threads2.scripting.com/2013/march/doYouLoveOutliners">software&lt;/a> right now, and the RSS world is more fluid than it's been in a long time, it seems it might be a good time to share some things I learned in the first go-around.&lt;/p>
+&lt;p>The main thing we &lt;a href="http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html">learned&lt;/a> is that subscription needs to be centralized to make the process as simple as possible for the user. That's one of the main reasons Twitter was such an effective competitor. The central server keeps an OPML file for each user. Each site with a feed links to that site with the URL of its feed as a parameter. When the user clicks a Subscribe link, a dialog appears confirming that you want to subscribe. If you say OK that's it, nothing more to do. The user never sees a URL. No browser has to cooperate (not that they would). &lt;/p>
+&lt;p>OPML should be a file type you can subscribe to. That makes it possible for the user to connect their account on the central subscription server to your aggregator. Also, this feature opens the possibility of a sort of super-curator, someone who manages a collections of feeds that people can subscribe to in a unit. &lt;/p>
+&lt;p>Also in the argument betw mailbox and river type readers, why not do both? The same data can be viewed either way. Some times you may just have a few minutes to quickly skim the news, and other times you may be able to read feeds individually at a slower pace. I did something like this in the LBBS software in the early 80s. There was a river, and a hierarchic view. You could switch instantly between the two views, and stay on the same item. The same approach would work well for RSS (though I've never seen it done, if I were doing a new reader, I'd definitely give it a try).&lt;/p>
+&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/14/rss.gif" width="65" height="59" border="0" style="float: left; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named rss.gif">Also a feed should have a way to tell readers "I'm done" -- no more updates, stop reading me. That would make it possible to do more things with RSS. I don't want to subscribe to a special feed about a specific event, knowing I'll have to remember to unsub. Better to let the feed tell the reader. This feature is documented in my &lt;a href="http://microblog.reallysimple.org/">microblog namespace&lt;/a> and it's supported in my &lt;a href="http://docs.reallysimple.org/">Radio2&lt;/a> linkblogging tool.&lt;/p>
+&lt;p>There are lots of other ideas like this. I'll write them up as I remember them. &lt;/p>
+</description>
+			<link>http://3fg.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 15 Mar 2013 01:55:21 GMT</pubDate>
+			<guid>http://3fg.r2.ly/?id=15618</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theIdealRssReader</microblog:linkFull>
+			<microblog:readCount>5266</microblog:readCount>
+			<title>Scripting News: If you're doing a new RSS reader...</title>
+			<microblog:opml>
+&lt;outline created="Fri, 15 Mar 2013 01:38:18 GMT" pgfnum="20431" text="&amp;lt;a href=&amp;quot;http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/14/computerLib.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;190&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named computerLib.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;Since I'm working on other kinds of &amp;lt;a href=&amp;quot;http://threads2.scripting.com/2013/march/doYouLoveOutliners&amp;quot;&amp;gt;software&amp;lt;/a&amp;gt; right now, and the RSS world is more fluid than it's been in a long time, it seems it might be a good time to share some things I learned in the first go-around.">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 01:39:01 GMT" pgfnum="20432" text="The main thing we &amp;lt;a href=&amp;quot;http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html&amp;quot;&amp;gt;learned&amp;lt;/a&amp;gt; is that subscription needs to be centralized to make the process as simple as possible for the user. That's one of the main reasons Twitter was such an effective competitor. The central server keeps an OPML file for each user. Each site with a feed links to that site with the URL of its feed as a parameter. When the user clicks a Subscribe link, a dialog appears confirming that you want to subscribe. If you say OK that's it, nothing more to do. The user never sees a URL. No browser has to cooperate (not that they would). ">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 01:51:31 GMT" pgfnum="20436" text="OPML should be a file type you can subscribe to. That makes it possible for the user to connect their account on the central subscription server to your aggregator. Also, this feature opens the possibility of a sort of super-curator, someone who manages a collections of feeds that people can subscribe to in a unit. ">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 01:40:46 GMT" pgfnum="20433" text="Also in the argument betw mailbox and river type readers, why not do both? The same data can be viewed either way. Some times you may just have a few minutes to quickly skim the news, and other times you may be able to read feeds individually at a slower pace. I did something like this in the LBBS software in the early 80s. There was a river, and a hierarchic view. You could switch instantly between the two views, and stay on the same item. The same approach would work well for RSS (though I've never seen it done, if I were doing a new reader, I'd definitely give it a try).">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 01:42:16 GMT" pgfnum="20434" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/14/rss.gif&amp;quot; width=&amp;quot;65&amp;quot; height=&amp;quot;59&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: left; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named rss.gif&amp;quot;&amp;gt;Also a feed should have a way to tell readers &amp;quot;I'm done&amp;quot; -- no more updates, stop reading me. That would make it possible to do more things with RSS. I don't want to subscribe to a special feed about a specific event, knowing I'll have to remember to unsub. Better to let the feed tell the reader. This feature is documented in my &amp;lt;a href=&amp;quot;http://microblog.reallysimple.org/&amp;quot;&amp;gt;microblog namespace&amp;lt;/a&amp;gt; and it's supported in my &amp;lt;a href=&amp;quot;http://docs.reallysimple.org/&amp;quot;&amp;gt;Radio2&amp;lt;/a&amp;gt; linkblogging tool.">&lt;/outline>
+&lt;outline created="Fri, 15 Mar 2013 01:43:21 GMT" pgfnum="20435" text="There are lots of other ideas like this. I'll write them up as I remember them. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="https://twitter.com/smallpict">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/14/lisa.gif" width="125" height="189" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named lisa.gif">&lt;/a>I first started using an outliner in the late 1970s, on Unix. It was character-based, on a scrolling display. You'd type commands like &lt;code>1,$p&lt;/code> to show all the lines at the current level. You could view the subs of any headline, by typing the number next to it, and pressing Return. The basic operations were "dive" and "surface." Moving things around was a little more difficult, but it was the best you could do with the computers of the day. &lt;/p>
+&lt;p>The tools advanced through the years. Influenced by Visicalc, then Lotus 1-2-3. That's when the outliner got a "bar cursor" which points to a structure, much like Visicalc's cursor points to a spreadsheet cell. You moved the cursor around with the arrow keys, and expanded by pressing &lt; and collapsed by pressing >. These keys were chosen as mnemonics, they looked symbolically like the operations they were performing. &lt;/p>
+&lt;p>Pretty soon after that we got the mouse, so you could double-click to expand and collapse and also drag things from one place to another. This made stuff flow better. That's a key idea -- outlines are about flow, they make text fluid (i.e. able to flow).&lt;/p>
+&lt;p>Then came graphics, and with that bullet charts and tree charts. All of a sudden there was a production application for outliners, they could be made to do things more efficiently on a computer than could be done with ink, paper and scissors. The business exploded. &lt;/p>
+&lt;p>All along, I have been writing code and prose with the outliner. These days I use it to narrate my work and to coordinate with the people I work with. It's an amazingly flexible swiss-army-knife-like super-adaptable tool. &lt;/p>
+&lt;p>I've been doing a lot more with outliners in the last few months, in a project I've been working on with a new programming partner, Kyle Shank, at a new company we founded late last year, &lt;a href="http://smallpicture.com/">Small Picture&lt;/a>. It has both a server side and a client side. Next week we will show the first bits of the client software. I think it will surprise people what it can do and how it does it. But this wouldn't be a good tease if I told you more about what it is. :-)&lt;/p>
+&lt;p>In the meantime, if you have stories to tell about how you love outlining, please consider posting them. I love outliners, but I love outliner &lt;i>users&lt;/i> even more. They're such bright people and so incredibly powerful and creative. Software that enables powerful people. &lt;/p>
+&lt;p>So much more to say and I hope to say it all.&lt;/p>
+</description>
+			<link>http://3ez.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 14 Mar 2013 17:37:44 GMT</pubDate>
+			<guid>http://3ez.r2.ly/?id=15598</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/doYouLoveOutliners</microblog:linkFull>
+			<microblog:readCount>2373</microblog:readCount>
+			<title>Scripting News: Do you love outliners?</title>
+			<microblog:opml>
+&lt;outline created="Thu, 14 Mar 2013 17:00:59 GMT" pgfnum="20399" text="&amp;lt;a href=&amp;quot;https://twitter.com/smallpict&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/14/lisa.gif&amp;quot; width=&amp;quot;125&amp;quot; height=&amp;quot;189&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named lisa.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;I first started using an outliner in the late 1970s, on Unix. It was character-based, on a scrolling display. You'd type commands like &amp;lt;code&amp;gt;1,$p&amp;lt;/code&amp;gt; to show all the lines at the current level. You could view the subs of any headline, by typing the number next to it, and pressing Return. The basic operations were &amp;quot;dive&amp;quot; and &amp;quot;surface.&amp;quot; Moving things around was a little more difficult, but it was the best you could do with the computers of the day. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 17:02:43 GMT" pgfnum="20400" text="The tools advanced through the years. Influenced by Visicalc, then Lotus 1-2-3. That's when the outliner got a &amp;quot;bar cursor&amp;quot; which points to a structure, much like Visicalc's cursor points to a spreadsheet cell. You moved the cursor around with the arrow keys, and expanded by pressing &amp;lt; and collapsed by pressing &amp;gt;. These keys were chosen as mnemonics, they looked symbolically like the operations they were performing. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 17:04:43 GMT" pgfnum="20401" text="Pretty soon after that we got the mouse, so you could double-click to expand and collapse and also drag things from one place to another. This made stuff flow better. That's a key idea -- outlines are about flow, they make text fluid (i.e. able to flow).">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 17:05:32 GMT" pgfnum="20402" text="Then came graphics, and with that bullet charts and tree charts. All of a sudden there was a production application for outliners, they could be made to do things more efficiently on a computer than could be done with ink, paper and scissors. The business exploded. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 17:06:29 GMT" pgfnum="20403" text="All along, I have been writing code and prose with the outliner. These days I use it to narrate my work and to coordinate with the people I work with. It's an amazingly flexible swiss-army-knife-like super-adaptable tool. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 17:07:22 GMT" pgfnum="20404" text="I've been doing a lot more with outliners in the last few months, in a project I've been working on with a new programming partner, Kyle Shank, at a new company we founded late last year, &amp;lt;a href=&amp;quot;http://smallpicture.com/&amp;quot;&amp;gt;Small Picture&amp;lt;/a&amp;gt;. It has both a server side and a client side. Next week we will show the first bits of the client software. I think it will surprise people what it can do and how it does it. But this wouldn't be a good tease if I told you more about what it is. :-)">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 17:08:29 GMT" pgfnum="20405" text="In the meantime, if you have stories to tell about how you love outlining, please consider posting them. I love outliners, but I love outliner &amp;lt;i&amp;gt;users&amp;lt;/i&amp;gt; even more. They're such bright people and so incredibly powerful and creative. Software that enables powerful people. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 17:14:05 GMT" pgfnum="20407" text="So much more to say and I hope to say it all.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/14/hope.gif" width="150" height="253" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named hope.gif">Last night we &lt;a href="http://threads2.scripting.com/2013/march/goodbyeGoogleReader">said goodbye&lt;/a> to Google Reader, and that got a lot of traffic and a fair amount of hate, from people who love Google Reader and probably don't like to hear from someone who uses RSS who won't miss it (i.e. me). &lt;/p>
+&lt;p>I wanted to say that it's possible to use RSS without being dependent on Google Reader. And since GR is going away, that should probably be seen as &lt;i>good news,&lt;/i> not bad. &lt;/p>
+&lt;p>But it's not my problem. I'm not in the RSS Reader business any longer, and have no interest in returning to it. &lt;/p>
+&lt;p>I don't doubt that people will be well-served by a newly revitalized market for RSS products, now that the dominant product, the 800-pound gorilla, is withdrawing. &lt;/p>
+</description>
+			<link>http://3ex.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 14 Mar 2013 15:06:13 GMT</pubDate>
+			<guid>http://3ex.r2.ly/?id=15596</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/yourOutlinerStory</microblog:linkFull>
+			<microblog:readCount>2958</microblog:readCount>
+			<title>Scripting News: Google Reader's demise, part 2.</title>
+			<microblog:opml>
+&lt;outline created="Thu, 14 Mar 2013 15:00:17 GMT" pgfnum="20388" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/14/hope.gif&amp;quot; width=&amp;quot;150&amp;quot; height=&amp;quot;253&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named hope.gif&amp;quot;&amp;gt;Last night we &amp;lt;a href=&amp;quot;http://threads2.scripting.com/2013/march/goodbyeGoogleReader&amp;quot;&amp;gt;said goodbye&amp;lt;/a&amp;gt; to Google Reader, and that got a lot of traffic and a fair amount of hate, from people who love Google Reader and probably don't like to hear from someone who uses RSS who won't miss it (i.e. me). ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 15:05:05 GMT" pgfnum="20389" text="I wanted to say that it's possible to use RSS without being dependent on Google Reader. And since GR is going away, that should probably be seen as &amp;lt;i&amp;gt;good news,&amp;lt;/i&amp;gt; not bad. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 15:05:17 GMT" pgfnum="20390" text="But it's not my problem. I'm not in the RSS Reader business any longer, and have no interest in returning to it. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 15:05:24 GMT" pgfnum="20391" text="I don't doubt that people will be well-served by a newly revitalized market for RSS products, now that the dominant product, the 800-pound gorilla, is withdrawing. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>I won't miss it. Never used the damn thing. Didn't trust the idea of a big company like Google's interests being so aligned with mine that I could trust them to get  all my news. &lt;/p>
+&lt;p>And besides, I didn't think the mailbox approach to news was right. Who cares how many unread items there are. I like the river of news approach and I have a very fine set of rivers that keep me well supplied with news and podcasts. Have a look.&lt;/p>
+&lt;p>&lt;a href="http://tabs.mediahackers.org/?panel=dave">http://tabs.mediahackers.org/?panel=dave&lt;/a>&lt;/p>
+&lt;p>July 1 isn't that far away, but there's time to get it together. Next time, please pay a fair price for the services you depend on. Those  have a better chance of surviving the bubbles. &lt;/p>
+&lt;p>PS: This message attracted comments some pretty sick comments, so I deleted the whole thread. &lt;/p>
+</description>
+			<link>http://3em.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 13 Mar 2013 23:42:00 GMT</pubDate>
+			<guid>http://3em.r2.ly/?id=15586</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/goodbyeGoogleReader</microblog:linkFull>
+			<microblog:readCount>3302</microblog:readCount>
+			<title>Scripting News: Goodbye Google Reader.</title>
+			<microblog:opml>
+&lt;outline created="Wed, 13 Mar 2013 23:36:40 GMT" pgfnum="20379" text="I won't miss it. Never used the damn thing. Didn't trust the idea of a big company like Google's interests being so aligned with mine that I could trust them to get  all my news. ">&lt;/outline>
+&lt;outline created="Wed, 13 Mar 2013 23:41:09 GMT" pgfnum="20383" text="And besides, I didn't think the mailbox approach to news was right. Who cares how many unread items there are. I like the river of news approach and I have a very fine set of rivers that keep me well supplied with news and podcasts. Have a look.">&lt;/outline>
+&lt;outline created="Wed, 13 Mar 2013 23:37:42 GMT" pgfnum="20380" text="&amp;lt;a href=&amp;quot;http://tabs.mediahackers.org/?panel=dave&amp;quot;&amp;gt;http://tabs.mediahackers.org/?panel=dave&amp;lt;/a&amp;gt;">&lt;/outline>
+&lt;outline created="Wed, 13 Mar 2013 23:37:59 GMT" pgfnum="20381" text="July 1 isn't that far away, but there's time to get it together. Next time, please pay a fair price for the services you depend on. Those  have a better chance of surviving the bubbles. ">&lt;/outline>
+&lt;outline created="Thu, 14 Mar 2013 13:20:39 GMT" pgfnum="20386" text="PS: This message attracted comments some pretty sick comments, so I deleted the whole thread. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/12/hope.gif" width="150" height="253" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named hope.gif">I'm a big fan of both Pierce and Klein. I love Pierce's irreverent writing style, and his political opinions match up pretty well with mine. I learn stuff by reading his columns in Esquire. Same with Klein. He's intelligent, and asks good questions, and backs up his thinking with information. It's sad that his way of working is so rare among political analysts these days. &lt;/p>
+&lt;p>But guys like Pierce (who criticizes Klein in his &lt;a href="http://www.readability.com/articles/icoynoiu">recent piece&lt;/a>, more about that in a minute) only read other news people. The chances of either of them reading what I write are pretty close to nil, so the chances of them passing along a good idea that I might have are therefore also nil. This is embarassing, because the epiphany of Klein's that Pierce mocks happens to be one that I have been writing about for almost 20 years, over and over. Think of all the time everyone could have saved if they deigned to pay attention to people who don't do what they do. It's tragic that it took a smart guy like Klein so long to understand such a basic structural truth about how news, his own profession, has been working &lt;i>for the last 15 years.&lt;/i> Gives you some idea about the power of the blinders this community puts on.&lt;/p>
+&lt;ul>
+	&lt;li>&lt;a href="http://en.wikiquote.org/wiki/Upton_Sinclair">Upton Sinclair&lt;/a>: "It is difficult to get a man to understand something, when his salary depends upon his not understanding it."&lt;/li>
+	&lt;/ul>
+&lt;p>Now, in the past, any idea that didn't penetrate the haze of guys like Klein and Pierce would have very little chance of being heard by people like myself who might be interested. However, because we live in the times of the Internet and what Klein calls The &lt;a href="http://www.washingtonpost.com/blogs/wonkblog/wp/2013/03/10/revenge-of-the-sources/">Revenge of the Sources&lt;/a>, I can go ahead and be heard without them listening. I call this &lt;a href="http://scripting.com/stories/2009/05/15/sourcesGoDirect.html">Sources Go Direct&lt;/a>, which means the same thing, but in a more positive less journalist-centered view. It's not revenge, it's more pragmatic. The old system didn't work. So we use the new one instead.&lt;/p>
+&lt;p>If you look at the mechanics of how a news story is created and flows, there are sources, a reporter, an editor or two, a production and design group, a printing press or web site, a delivery system and finally readers. In the past I have been a source, and I still am, because reporters can and sometimes do quote my blog. I wish they would do it more. I am also an avid reader. I am not, and never have been, and don't want to be, a reporter or an editor or any of the other things. I do write publishing systems, and have created some of the software that these guys probably use. &lt;/p>
+&lt;p>Pierce incorrectly thinks that every act of journalism is done by reporters. Look at the list of people in the paragraph above. There are lots of other roles. The sources aren't covering a fatal crash on Sunday night on Route 128 (his example). Instead they're writing, on their blogs, about the things they know about. Perhaps they were involved in the crash. Perhaps they witnessed it. &lt;/p>
+&lt;p>In software, lots of stuff gets created that isn't on the radar of people like Pierce or Klein. They have very limited focus. They look to big rich companies with lots of employees for technology innovation. Makes sense, because they're employees of big rich companies. Of course that's what they understand. But if you look at the history of software (and very few people do) you'll notice that the big ideas almost never come from those places. If you understand the process of software, you'd understand why that's so. &lt;/p>
+&lt;p>So while I admire both Klein and Pierce for their work as news people, boy would it be great if they looked outside their close-knit little community. Klein is a pioneer in his field for noticing Sources Go Direct first among his peers. But the idea was available to him long ago. And Pierce, a very flexible thinker when it comes to politics, has no flexibility in thinking about media, no ability to see things from other peoples' point of view, as demonstrated by his piece about Klein. And that's so important, and has been important for a very long time.&lt;/p>
+&lt;p>I've met Pierce's attitude many times, from all kinds of ink-stained pros, some very accomplished. The arrogance is impressive, but they're still wrong. I don't care how many Pulitzers you have. The news process has been reorganizing for quite some time. You may not choose to see it, but that doesn't mean it isn't happening. &lt;/p>
+&lt;p>PS: Do I think either of them will read this piece? Nah. :-)&lt;/p>
+</description>
+			<link>http://3dx.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 12 Mar 2013 16:23:31 GMT</pubDate>
+			<guid>http://3dx.r2.ly/?id=15568</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/charlesPierceIsWrongAboutEzraKleinBeingWrong</microblog:linkFull>
+			<microblog:readCount>2449</microblog:readCount>
+			<title>Scripting News: Why Charles Pierce is wrong about Ezra Klein being wrong.</title>
+			<microblog:opml>
+&lt;outline created="Tue, 12 Mar 2013 15:50:38 GMT" pgfnum="20218" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/12/hope.gif&amp;quot; width=&amp;quot;150&amp;quot; height=&amp;quot;253&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named hope.gif&amp;quot;&amp;gt;I'm a big fan of both Pierce and Klein. I love Pierce's irreverent writing style, and his political opinions match up pretty well with mine. I learn stuff by reading his columns in Esquire. Same with Klein. He's intelligent, and asks good questions, and backs up his thinking with information. It's sad that his way of working is so rare among political analysts these days. ">&lt;/outline>
+&lt;outline collapse="true" created="Tue, 12 Mar 2013 15:51:29 GMT" pgfnum="20219" text="But guys like Pierce (who criticizes Klein in his &amp;lt;a href=&amp;quot;http://www.readability.com/articles/icoynoiu&amp;quot;&amp;gt;recent piece&amp;lt;/a&amp;gt;, more about that in a minute) only read other news people. The chances of either of them reading what I write are pretty close to nil, so the chances of them passing along a good idea that I might have are therefore also nil. This is embarassing, because the epiphany of Klein's that Pierce mocks happens to be one that I have been writing about for almost 20 years, over and over. Think of all the time everyone could have saved if they deigned to pay attention to people who don't do what they do. It's tragic that it took a smart guy like Klein so long to understand such a basic structural truth about how news, his own profession, has been working &amp;lt;i&amp;gt;for the last 15 years.&amp;lt;/i&amp;gt; Gives you some idea about the power of the blinders this community puts on.">
+	&lt;outline created="Tue, 12 Mar 2013 16:35:02 GMT" pgfnum="20229" text="&amp;lt;a href=&amp;quot;http://en.wikiquote.org/wiki/Upton_Sinclair&amp;quot;&amp;gt;Upton Sinclair&amp;lt;/a&amp;gt;: &amp;quot;It is difficult to get a man to understand something, when his salary depends upon his not understanding it.&amp;quot;">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Tue, 12 Mar 2013 15:53:15 GMT" pgfnum="20220" text="Now, in the past, any idea that didn't penetrate the haze of guys like Klein and Pierce would have very little chance of being heard by people like myself who might be interested. However, because we live in the times of the Internet and what Klein calls The &amp;lt;a href=&amp;quot;http://www.washingtonpost.com/blogs/wonkblog/wp/2013/03/10/revenge-of-the-sources/&amp;quot;&amp;gt;Revenge of the Sources&amp;lt;/a&amp;gt;, I can go ahead and be heard without them listening. I call this &amp;lt;a href=&amp;quot;http://scripting.com/stories/2009/05/15/sourcesGoDirect.html&amp;quot;&amp;gt;Sources Go Direct&amp;lt;/a&amp;gt;, which means the same thing, but in a more positive less journalist-centered view. It's not revenge, it's more pragmatic. The old system didn't work. So we use the new one instead.">&lt;/outline>
+&lt;outline created="Tue, 12 Mar 2013 15:55:14 GMT" pgfnum="20221" text="If you look at the mechanics of how a news story is created and flows, there are sources, a reporter, an editor or two, a production and design group, a printing press or web site, a delivery system and finally readers. In the past I have been a source, and I still am, because reporters can and sometimes do quote my blog. I wish they would do it more. I am also an avid reader. I am not, and never have been, and don't want to be, a reporter or an editor or any of the other things. I do write publishing systems, and have created some of the software that these guys probably use. ">&lt;/outline>
+&lt;outline created="Tue, 12 Mar 2013 15:56:57 GMT" pgfnum="20222" text="Pierce incorrectly thinks that every act of journalism is done by reporters. Look at the list of people in the paragraph above. There are lots of other roles. The sources aren't covering a fatal crash on Sunday night on Route 128 (his example). Instead they're writing, on their blogs, about the things they know about. Perhaps they were involved in the crash. Perhaps they witnessed it. ">&lt;/outline>
+&lt;outline created="Tue, 12 Mar 2013 15:58:32 GMT" pgfnum="20223" text="In software, lots of stuff gets created that isn't on the radar of people like Pierce or Klein. They have very limited focus. They look to big rich companies with lots of employees for technology innovation. Makes sense, because they're employees of big rich companies. Of course that's what they understand. But if you look at the history of software (and very few people do) you'll notice that the big ideas almost never come from those places. If you understand the process of software, you'd understand why that's so. ">&lt;/outline>
+&lt;outline created="Tue, 12 Mar 2013 16:00:02 GMT" pgfnum="20224" text="So while I admire both Klein and Pierce for their work as news people, boy would it be great if they looked outside their close-knit little community. Klein is a pioneer in his field for noticing Sources Go Direct first among his peers. But the idea was available to him long ago. And Pierce, a very flexible thinker when it comes to politics, has no flexibility in thinking about media, no ability to see things from other peoples' point of view, as demonstrated by his piece about Klein. And that's so important, and has been important for a very long time.">&lt;/outline>
+&lt;outline created="Tue, 12 Mar 2013 16:08:39 GMT" pgfnum="20225" text="I've met Pierce's attitude many times, from all kinds of ink-stained pros, some very accomplished. The arrogance is impressive, but they're still wrong. I don't care how many Pulitzers you have. The news process has been reorganizing for quite some time. You may not choose to see it, but that doesn't mean it isn't happening. ">&lt;/outline>
+&lt;outline created="Tue, 12 Mar 2013 16:33:11 GMT" pgfnum="20228" text="PS: Do I think either of them will read this piece? Nah. :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>It's pretty obvious what comes next, via extrapolation -- from past turns of the wheel in software.&lt;/p>
+&lt;p>What comes next is an easy way for the generation of people who grew up on Facebook to create their own social networks, accessible only by the people they want to share it with. &lt;/p>
+&lt;p>A somewhat easier to use version of what AWS is today will be the platform. &lt;/p>
+&lt;p>And Harvard dropouts of the day will create AMIs their friends will configure cleverly.&lt;/p>
+&lt;p>The art in this new way of doing things will be clever twists on "share."&lt;/p>
+</description>
+			<link>http://3cr.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sat, 09 Mar 2013 21:43:14 GMT</pubDate>
+			<guid>http://3cr.r2.ly/?id=15537</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/whatComesAfterFacebook</microblog:linkFull>
+			<microblog:readCount>4826</microblog:readCount>
+			<title>Scripting News: What comes after Facebook?</title>
+			<microblog:opml>
+&lt;outline created="Sat, 09 Mar 2013 22:11:31 GMT" pgfnum="20055" text="It's pretty obvious what comes next, via extrapolation -- from past turns of the wheel in software.">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 22:11:49 GMT" pgfnum="20056" text="What comes next is an easy way for the generation of people who grew up on Facebook to create their own social networks, accessible only by the people they want to share it with. ">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 22:14:05 GMT" pgfnum="20059" text="A somewhat easier to use version of what AWS is today will be the platform. ">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 22:14:21 GMT" pgfnum="20060" text="And Harvard dropouts of the day will create AMIs their friends will configure cleverly.">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 22:12:29 GMT" pgfnum="20057" text="The art in this new way of doing things will be clever twists on &amp;quot;share.&amp;quot;">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="http://static.scripting.com/larryKing/images/2013/03/09/heavenWaitBig.gif">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/09/hcw.gif" width="125" height="192" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named hcw.gif">&lt;/a>I'd like to have a film festival for my friends. &lt;/p>
+&lt;p>So I'll give you a list of 20 movies, Mr Movie Theater Owner, and one night every other week, you'll play one of them, and I'll guarantee a certain number of tickets sold. Above that, we'll split the revenue. &lt;/p>
+&lt;p>That way we get to watch old movies in a theater setting, with popcorn and restrooms, and then we can all go out to dinner after and talk about the movies and why we like them so much. Maybe we could even get one of the actors or the director to join us. &lt;/p>
+&lt;p>Movie theaters should be hubs for social activity. Watching a movie at home or on a laptop or a tablet isn't the same as watching it in a theater. And most of the great movies  aren't showing in theaters now.&lt;/p>
+</description>
+			<link>http://3cq.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sat, 09 Mar 2013 20:54:11 GMT</pubDate>
+			<guid>http://3cq.r2.ly/?id=15536</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/aBusinessModelForMovieTheaters</microblog:linkFull>
+			<microblog:readCount>3809</microblog:readCount>
+			<title>Scripting News: A business model for movie theaters.</title>
+			<microblog:opml>
+&lt;outline created="Sat, 09 Mar 2013 21:50:42 GMT" pgfnum="20048" text="&amp;lt;a href=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/09/heavenWaitBig.gif&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/09/hcw.gif&amp;quot; width=&amp;quot;125&amp;quot; height=&amp;quot;192&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named hcw.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;I'd like to have a film festival for my friends. ">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 21:50:57 GMT" pgfnum="20049" text="So I'll give you a list of 20 movies, Mr Movie Theater Owner, and one night every other week, you'll play one of them, and I'll guarantee a certain number of tickets sold. Above that, we'll split the revenue. ">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 21:51:37 GMT" pgfnum="20050" text="That way we get to watch old movies in a theater setting, with popcorn and restrooms, and then we can all go out to dinner after and talk about the movies and why we like them so much. Maybe we could even get one of the actors or the director to join us. ">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 21:52:25 GMT" pgfnum="20051" text="Movie theaters should be hubs for social activity. Watching a movie at home or on a laptop or a tablet isn't the same as watching it in a theater. And most of the great movies  aren't showing in theaters now.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>I watched the Evan Williams &lt;a href="http://www.youtube.com/watch?v=TBDPO8b-NUg">interview&lt;/a> with Jason Calacanis at the &lt;a href="http://festival.launch.co/">Launchfest&lt;/a> conference in SF, and that gave me a better idea of what he's thinking about with his new company, Medium. The next day we learned that &lt;a href="http://paidcontent.org/2013/03/07/ex-wired-editor-evan-hansen-lands-at-obvious-corp-will-lead-editorial-for-medium/">Evan Hansen&lt;/a> is now working for Medium. Evan was the longtime editor of wired.com. Highly respected guy. &lt;/p>
+&lt;p>What is Medium doing? My guess -- if you were to draw a line and at one end put blogging tools and at the other put BuzzFeed, SB Nation and Huffington, that Medium is on that line, and closer to the right than the left.&lt;/p>
+&lt;ul>
+	&lt;li>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/08/diagram.gif" width="500" height="111" border="0" alt="A picture named diagram.gif">&lt;/li>
+	&lt;/ul>
+&lt;p>Medium's strength appears to be the elegance and HTML 5-ness of its editorial tools. It feels nice using their editor. Like the content networks, being able to create content there is invite-only. But I'm assuming at some point it will be open to everyone, the way Tumblr or WordPress are. &lt;/p>
+&lt;p>An advantage Medium is likely to have is a connection to Twitter, which doesn't have a blogging system, and has recently had success with Vine. Twitter giving Medium a boost is good business, for the owners of both companies. ;-)&lt;/p>
+&lt;p>I'm very interested in where all  this is going, keeping an ear out and listening. &lt;/p>
+</description>
+			<link>http://3cg.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sat, 09 Mar 2013 00:29:23 GMT</pubDate>
+			<guid>http://3cg.r2.ly/?id=15527</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/mediumShowsMore</microblog:linkFull>
+			<microblog:readCount>2271</microblog:readCount>
+			<title>Scripting News: Medium shows more.</title>
+			<microblog:opml>
+&lt;outline created="Sat, 09 Mar 2013 01:01:22 GMT" pgfnum="20013" text="I watched the Evan Williams &amp;lt;a href=&amp;quot;http://www.youtube.com/watch?v=TBDPO8b-NUg&amp;quot;&amp;gt;interview&amp;lt;/a&amp;gt; with Jason Calacanis at the &amp;lt;a href=&amp;quot;http://festival.launch.co/&amp;quot;&amp;gt;Launchfest&amp;lt;/a&amp;gt; conference in SF, and that gave me a better idea of what he's thinking about with his new company, Medium. The next day we learned that &amp;lt;a href=&amp;quot;http://paidcontent.org/2013/03/07/ex-wired-editor-evan-hansen-lands-at-obvious-corp-will-lead-editorial-for-medium/&amp;quot;&amp;gt;Evan Hansen&amp;lt;/a&amp;gt; is now working for Medium. Evan was the longtime editor of wired.com. Highly respected guy. ">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 01:03:03 GMT" pgfnum="20014" text="What is Medium doing? My guess -- if you were to draw a line and at one end put blogging tools and at the other put BuzzFeed, SB Nation and Huffington, that Medium is on that line, and closer to the right than the left.">
+	&lt;outline created="Sat, 09 Mar 2013 01:03:54 GMT" pgfnum="20015" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/08/diagram.gif&amp;quot; width=&amp;quot;500&amp;quot; height=&amp;quot;111&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;A picture named diagram.gif&amp;quot;&amp;gt;">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 01:03:57 GMT" pgfnum="20016" text="Medium's strength appears to be the elegance and HTML 5-ness of its editorial tools. It feels nice using their editor. Like the content networks, being able to create content there is invite-only. But I'm assuming at some point it will be open to everyone, the way Tumblr or WordPress are. ">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 01:06:33 GMT" pgfnum="20017" text="An advantage Medium is likely to have is a connection to Twitter, which doesn't have a blogging system, and has recently had success with Vine. Twitter giving Medium a boost is good business, for the owners of both companies. ;-)">&lt;/outline>
+&lt;outline created="Sat, 09 Mar 2013 01:09:17 GMT" pgfnum="20019" text="I'm very interested in where all  this is going, keeping an ear out and listening. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/08/trex.gif" width="100" height="110" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named trex.gif">I got called for jury duty this week, Wednesday and Thursday. In NYC, you go for two days, and sit and wait for a trial. Then they herd 75 citizens of New York County into a courtroom and winnow us until there are 14 left -- 12 jurors and two alternates, and the rest go back into the pool. If you make it through two days without being selected, you go home and resume your life. Otherwise you're a juror. But the education process begins the minute you sit down in the waiting room. &lt;/p>
+&lt;p>This time I made it as far as a courtroom, but I wasn't chosen as one of the initial group of 24 to be interviewed, but I was required to stay, to wait for the selection to be final. I got to relax while watching my fellow citizens go through the process, where each of the sides, prosecution first, then defense, asks questions to see if you'd be a good juror. &lt;/p>
+&lt;p>It was an eye-opener. The judge had explained a few of important points: 1. The defendent, accused of burglary, is innocent until proven guilty. 2. The standard of proof is high. You had to be certain the person had done what he was accused of, beyond a reasonable doubt. Otherwise -- innocent. 3. The burden of proof is on the state. The defendent can remain silent, and you can't use that fact in coming up with a decision. &lt;/p>
+&lt;p>Some jurors didn't seem to understand any of this. They would agree with all ideas when the judge explained it, but when asked a question: "If you think there's a decent chance the person committed the crime, what would your verdict be?" Many of them said  something like this: "Well, it would depend on the evidence." You could see the frustration with the lawyers in the room. It's as if you were teaching someone how to enter a command on a computer. "First you type some characters then you press the Return key." They would say they understand, but still not be able to enter a command. &lt;/p>
+&lt;p>What would you think if the accused did not speak in his own defense, would that make you think he's guilty? Yes, some said. &lt;/p>
+&lt;p>In the end they had to go with jurors who were pretty hazy on the decision-making process, what the rights of the accused are, and how jurors are supposed to think about the crime and the evidence and testimony. I was reminded that it was like this on the jury I served on. Some people just didn't get that there were rules to innocence and guilt. That it isn't like a family, where you live in a fog of who-did-what-to-whom-when, that in the end we will make a decision, and based on that, this person will go free, or go to jail. &lt;/p>
+&lt;p>Jury duty is all about teaching us what it means to be a juror. There's a lot to learn, and the education system or television or our parents, or whatever, didn't do a very good job.&lt;/p>
+</description>
+			<link>http://3c7.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 08 Mar 2013 15:18:09 GMT</pubDate>
+			<guid>http://3c7.r2.ly/?id=15519</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/whatILearnedFromJuryDuty</microblog:linkFull>
+			<microblog:readCount>2015</microblog:readCount>
+			<title>Scripting News: What I learned from jury duty.</title>
+			<microblog:opml>
+&lt;outline created="Fri, 08 Mar 2013 14:18:00 GMT" pgfnum="19921" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/08/trex.gif&amp;quot; width=&amp;quot;100&amp;quot; height=&amp;quot;110&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named trex.gif&amp;quot;&amp;gt;I got called for jury duty this week, Wednesday and Thursday. In NYC, you go for two days, and sit and wait for a trial. Then they herd 75 citizens of New York County into a courtroom and winnow us until there are 14 left -- 12 jurors and two alternates, and the rest go back into the pool. If you make it through two days without being selected, you go home and resume your life. Otherwise you're a juror. But the education process begins the minute you sit down in the waiting room. ">&lt;/outline>
+&lt;outline created="Fri, 08 Mar 2013 14:20:00 GMT" pgfnum="19922" text="This time I made it as far as a courtroom, but I wasn't chosen as one of the initial group of 24 to be interviewed, but I was required to stay, to wait for the selection to be final. I got to relax while watching my fellow citizens go through the process, where each of the sides, prosecution first, then defense, asks questions to see if you'd be a good juror. ">&lt;/outline>
+&lt;outline created="Fri, 08 Mar 2013 14:22:05 GMT" pgfnum="19923" text="It was an eye-opener. The judge had explained a few of important points: 1. The defendent, accused of burglary, is innocent until proven guilty. 2. The standard of proof is high. You had to be certain the person had done what he was accused of, beyond a reasonable doubt. Otherwise -- innocent. 3. The burden of proof is on the state. The defendent can remain silent, and you can't use that fact in coming up with a decision. ">&lt;/outline>
+&lt;outline created="Fri, 08 Mar 2013 14:24:20 GMT" pgfnum="19924" text="Some jurors didn't seem to understand any of this. They would agree with all ideas when the judge explained it, but when asked a question: &amp;quot;If you think there's a decent chance the person committed the crime, what would your verdict be?&amp;quot; Many of them said  something like this: &amp;quot;Well, it would depend on the evidence.&amp;quot; You could see the frustration with the lawyers in the room. It's as if you were teaching someone how to enter a command on a computer. &amp;quot;First you type some characters then you press the Return key.&amp;quot; They would say they understand, but still not be able to enter a command. ">&lt;/outline>
+&lt;outline created="Fri, 08 Mar 2013 16:05:29 GMT" pgfnum="19967" text="What would you think if the accused did not speak in his own defense, would that make you think he's guilty? Yes, some said. ">&lt;/outline>
+&lt;outline created="Fri, 08 Mar 2013 16:01:27 GMT" pgfnum="19966" text="In the end they had to go with jurors who were pretty hazy on the decision-making process, what the rights of the accused are, and how jurors are supposed to think about the crime and the evidence and testimony. I was reminded that it was like this on the jury I served on. Some people just didn't get that there were rules to innocence and guilt. That it isn't like a family, where you live in a fog of who-did-what-to-whom-when, that in the end we will make a decision, and based on that, this person will go free, or go to jail. ">&lt;/outline>
+&lt;outline created="Fri, 08 Mar 2013 15:58:14 GMT" pgfnum="19964" text="Jury duty is all about teaching us what it means to be a juror. There's a lot to learn, and the education system or television or our parents, or whatever, didn't do a very good job.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>One of the neatest features in HTML 5 is &lt;a href="http://www.w3schools.com/html/html5_webstorage.asp">localStorage&lt;/a>. &lt;/p>
+&lt;p>It lets an app store as much as 5MB of data on the local machine. &lt;/p>
+&lt;p>I wanted to understand how it works so I wrote a demo.&lt;/p>
+&lt;p>&lt;a href="http://scripting.com/misc/localStorageDemo.html">http://scripting.com/misc/localStorageDemo.html&lt;/a>&lt;/p>
+&lt;p>View source if you want to see how it works.&lt;/p>
+&lt;p>Hope you find it useful. :-)&lt;/p>
+</description>
+			<link>http://3c2.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 07 Mar 2013 22:54:31 GMT</pubDate>
+			<guid>http://3c2.r2.ly/?id=15515</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/html5LocalstorageDemo</microblog:linkFull>
+			<microblog:readCount>1538</microblog:readCount>
+			<title>Scripting News: HTML 5 localStorage demo.</title>
+			<microblog:opml>
+&lt;outline created="Thu, 07 Mar 2013 23:50:25 GMT" pgfnum="19895" text="One of the neatest features in HTML 5 is &amp;lt;a href=&amp;quot;http://www.w3schools.com/html/html5_webstorage.asp&amp;quot;&amp;gt;localStorage&amp;lt;/a&amp;gt;. ">&lt;/outline>
+&lt;outline created="Thu, 07 Mar 2013 23:50:41 GMT" pgfnum="19896" text="It lets an app store as much as 5MB of data on the local machine. ">&lt;/outline>
+&lt;outline created="Thu, 07 Mar 2013 23:51:04 GMT" pgfnum="19897" text="I wanted to understand how it works so I wrote a demo.">&lt;/outline>
+&lt;outline created="Thu, 07 Mar 2013 23:51:16 GMT" pgfnum="19898" text="&amp;lt;a href=&amp;quot;http://scripting.com/misc/localStorageDemo.html&amp;quot;&amp;gt;http://scripting.com/misc/localStorageDemo.html&amp;lt;/a&amp;gt;">&lt;/outline>
+&lt;outline created="Thu, 07 Mar 2013 23:51:21 GMT" pgfnum="19900" text="View source if you want to see how it works.">&lt;/outline>
+&lt;outline created="Thu, 07 Mar 2013 23:51:17 GMT" pgfnum="19899" text="Hope you find it useful. :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>Last summer I went back to Madison, and part of the trip was a tour of the Computer Science &lt;a href="https://maps.google.com/maps?q=computer+science+building+madison+wi+dayton&amp;fb=1&amp;gl=us&amp;hq=computer+science+building+madison+wi+dayton&amp;cid=0,0,416637037957643769&amp;t=m&amp;z=16">building&lt;/a>, where I had been a graduate student many years ago. The building had changed in many ways, and in others, not at all.&lt;/p>
+&lt;p>1. The outside was exactly the same. &lt;/p>
+&lt;p>2. The mainframes were gone, replaced by labs of personal computers.&lt;/p>
+&lt;p>3. The basement was divided up in a totally different way than it was before. The two rooms I spent most of my time in were gone. &lt;/p>
+&lt;p>4. And most important, the most exciting idea -- there's now a computer store in the front of the building. &lt;/p>
+&lt;p>I was excited because I assumed that this meant that computer science students were actually meeting users, and learning how they think. But no, they staff the store with employees, just like any other store. My guide looked at me with what I imagined was puzzlement. Why would they want their students to work with users.&lt;/p>
+&lt;p>Me, I'm always thinking about users, what I can and can't get them to do. What I can get away with, and how can I make them tell other people about my software, and even better, get them to get others to use it. ;-)&lt;/p>
+&lt;p>There are frustrations, both ways. But if you see software development as a performing art, as I do, inevitably you're going to be judged by them. They will determine your success or failure. &lt;/p>
+&lt;p>And over the years, I've found this is the hardest point to make to the developers I work with.&lt;/p>
+</description>
+			<link>http://3b3.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 05 Mar 2013 17:43:07 GMT</pubDate>
+			<guid>http://3b3.r2.ly/?id=15484</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/haveYouEverMetAUser</microblog:linkFull>
+			<microblog:readCount>2418</microblog:readCount>
+			<title>Scripting News: Have you met your users?</title>
+			<microblog:opml>
+&lt;outline created="Tue, 05 Mar 2013 18:33:19 GMT" pgfnum="19810" text="Last summer I went back to Madison, and part of the trip was a tour of the Computer Science &amp;lt;a href=&amp;quot;https://maps.google.com/maps?q=computer+science+building+madison+wi+dayton&amp;amp;fb=1&amp;amp;gl=us&amp;amp;hq=computer+science+building+madison+wi+dayton&amp;amp;cid=0,0,416637037957643769&amp;amp;t=m&amp;amp;z=16&amp;quot;&amp;gt;building&amp;lt;/a&amp;gt;, where I had been a graduate student many years ago. The building had changed in many ways, and in others, not at all.">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:34:01 GMT" pgfnum="19811" text="1. The outside was exactly the same. ">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:34:16 GMT" pgfnum="19812" text="2. The mainframes were gone, replaced by labs of personal computers.">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:34:36 GMT" pgfnum="19813" text="3. The basement was divided up in a totally different way than it was before. The two rooms I spent most of my time in were gone. ">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:35:14 GMT" pgfnum="19814" text="4. And most important, the most exciting idea -- there's now a computer store in the front of the building. ">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:35:41 GMT" pgfnum="19815" text="I was excited because I assumed that this meant that computer science students were actually meeting users, and learning how they think. But no, they staff the store with employees, just like any other store. My guide looked at me with what I imagined was puzzlement. Why would they want their students to work with users.">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:36:48 GMT" pgfnum="19816" text="Me, I'm always thinking about users, what I can and can't get them to do. What I can get away with, and how can I make them tell other people about my software, and even better, get them to get others to use it. ;-)">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:37:34 GMT" pgfnum="19817" text="There are frustrations, both ways. But if you see software development as a performing art, as I do, inevitably you're going to be judged by them. They will determine your success or failure. ">&lt;/outline>
+&lt;outline created="Tue, 05 Mar 2013 18:38:33 GMT" pgfnum="19818" text="And over the years, I've found this is the hardest point to make to the developers I work with.">&lt;/outline>
+</microblog:opml>
+			</item>
+		</channel>
+	</rss>
