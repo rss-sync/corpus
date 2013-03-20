@@ -12,11 +12,13 @@ with open('sources', 'r', encoding='utf-8') as f:
 
     if not os.path.isdir(name): os.mkdir(name)
 
-    print(name)
+    print("%-16s" % name, end=''); sys.stdout.flush()
     with urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (rss-sync corpus gatherer)'})) as source:
       destname = ("%s/%s.xml" % (name, datetime.utcnow().strftime('%Y%m%dT%H%M%S')))
       with open(destname, 'wb') as dest:
-        dest.write(source.read())
+        feedsrc = source.read()
+        dest.write(feedsrc)
+        print("%d bytes" % len(feedsrc))
         dest.flush()
 
         
