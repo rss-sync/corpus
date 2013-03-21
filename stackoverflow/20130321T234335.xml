@@ -1,0 +1,2097 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-21T23:42:00Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15560199</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Create new variable from one that already existed?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="sfml"/>
+        <author>
+            <name>user1068329</name>
+            <uri>http://stackoverflow.com/users/1068329</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560199/create-new-variable-from-one-that-already-existed" />
+        <published>2013-03-21T23:41:31Z</published>
+        <updated>2013-03-21T23:41:31Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to make a function that creates a new square everytime I get a mouse click.  I&#39;m using sfml, I know how to detect the mouse click and everything I just don&#39;t know how I&#39;d go about doing something like this.  What I want it to do is get Pos of mouse(done), then create a new square and draw it.  I need to create a new square each time the function is called but all I can do is &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560198</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">returning var back to calling batch file</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="variables"/><category scheme="http://stackoverflow.com/feeds/tags" term="batch-file"/><category scheme="http://stackoverflow.com/feeds/tags" term="return"/><category scheme="http://stackoverflow.com/feeds/tags" term="passing"/><category scheme="http://stackoverflow.com/feeds/tags" term="env"/>
+        <author>
+            <name>peet</name>
+            <uri>http://stackoverflow.com/users/2167103</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560198/returning-var-back-to-calling-batch-file" />
+        <published>2013-03-21T23:41:13Z</published>
+        <updated>2013-03-21T23:41:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i start a batch file to process some code, at a time it calls another batchfile and should get returned a variable, but the methods explained in man pages about local/endlocal seem not to work here, what am i doin wrong please?&lt;/p&gt;
+
+&lt;p&gt;first batch file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@ECHO OFF
+setlocal
+call secondbatchfile.bat xyz
+echo. [%val1%]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;second batch file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@if (@a==@b) @end /*                        &amp;lt;== btw what does this code do ???
+@echo off
+setlocal enabledelayedexpansion
+set &quot;URL=%~1&quot;
+set bla bla ...
+do bla bla ...
+
+for /f &quot;delims=&quot; %%I in (&#39;cscript /nologo /e:jscript &quot;%~f0&quot; &quot;%URL%&quot;&#39;) do (
+
+rem trim whitespace from beginning and end of line
+for /f &quot;tokens=*&quot; %%x in (&quot;%%~I&quot;) do set &quot;line=%%x&quot;
+
+rem test that trimmed line matches &quot;variable=number&quot;
+echo !line! | findstr /i &quot;^to[a-z]*=[0-9]*&quot; &amp;gt;NUL &amp;amp;&amp;amp; (
+
+rem test was successful.  Scrape number.
+for /f &quot;tokens=2 delims==&quot; %%x in (&quot;%%I&quot;) do set &quot;val1=%%x&quot;
+
+echo !val1!                            &amp;lt;== this works
+ENDLOCAL &amp;amp; SET top=%val1%              &amp;lt;== this not
+
+)
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this results in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;c:\test&amp;gt;firstbatchfile.bat
+123456789                                   &amp;lt;== this works
+ []                                         &amp;lt;== this not
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;i tried different syntax of return var like &lt;code&gt;!val1!&lt;/code&gt; or &lt;code&gt;%%val1&lt;/code&gt; - none worked. what am i missing?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560191</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Trigger a key event on Tinymce</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="javascript-events"/>
+        <author>
+            <name>Aaron</name>
+            <uri>http://stackoverflow.com/users/1865248</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560191/trigger-a-key-event-on-tinymce" />
+        <published>2013-03-21T23:40:21Z</published>
+        <updated>2013-03-21T23:40:21Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have the following Tinymce config setup:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        //set up a new editor function    
+    setup : function(ed) { 
+    //peform this action every time a key is pressed
+    ed.onKeyUp.add(function(ed, e) { 
+    //setting our max character limit
+    tinymax = 10;
+    //grabbing the length of the curent editors content
+    content = ed.getContent();
+
+       var content_text = $(content).text();
+       var tinylen = content_text.length;
+
+    //if the user has exceeded the max, trigger enter and create a new paragraph
+    if (tinylen&amp;gt;tinymax){
+var e = jQuery.Event(&quot;keydown&quot;);
+e.which = 13; // Enter keyCode
+$(&quot;.content&quot;).trigger(e);           
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What doesn&#39;t work is the trigger event. What I&#39;m doing wrong here?
+By the way (&quot;.content&quot;) is the name of the text area, I also tried (ed) and didn&#39;t worked.
+Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560190</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Getting prop(&#39;tagName&#39;) problems in jQuery</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="find"/><category scheme="http://stackoverflow.com/feeds/tags" term="bookmarklet"/><category scheme="http://stackoverflow.com/feeds/tags" term="prop"/>
+        <author>
+            <name>Dadan Perez</name>
+            <uri>http://stackoverflow.com/users/1854859</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560190/getting-proptagname-problems-in-jquery" />
+        <published>2013-03-21T23:40:11Z</published>
+        <updated>2013-03-21T23:41:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Having a bit of trouble with some strange setups I encountered while working on a bookmarklet for work purposes. I need it to be able to find all the video embeds on a page and process the information to generate JSON code to be inserted in our gallery setup. Problem is I am unable to reliably get the information needed to process the data.&lt;/p&gt;
+
+&lt;p&gt;first I find all the divs on the page with the proper itemprop&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;items = $(&#39;div[itemprop=video]&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then using $.each() I begin the processing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;thumbnail = getThumb($(this).find(&#39;*[itemprop=thumbnailUrl]&#39;));&amp;lt;br /&amp;gt;
+filename =  getFilename($(this).find(&#39;*[itemprop=contentUrl]&#39;));&amp;lt;br /&amp;gt;
+filelocation = getFilelocation( $(this).find(&#39;*[itemprop=contentUrl]&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to be able to get the thumbnailURL and contentURL for processing,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    function getFilename(gfn) {
+        if(gfn.prop(&#39;tagName&#39;) == &#39;META&#39;) {
+            gfname = gfn.prop(&#39;content&#39;);
+        } else {
+            gfname = gfn.attr(&#39;href&#39;);
+        }
+        x = gfname.lastIndexOf(&#39;/&#39;);
+        gfname = gfname.substr(x+1);
+        y = gfname.lastIndexOf(&#39;.&#39;);
+        gfname = gfname.substr(0,y);
+        return gfname;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;.prop(&#39;tagName&#39;)&lt;/code&gt; keeps returning &lt;code&gt;undefined&lt;/code&gt; when the &lt;code&gt;itemprops&lt;/code&gt; aren&#39;t in meta tags, Anyone have any ideas on how to get this bookmarklet running?&lt;/p&gt;
+
+&lt;p&gt;Bookmarklets and source code &lt;a href=&quot;http://www.cityofdev.com/apps/bookmarklet/vid2json.html&quot; rel=&quot;nofollow&quot;&gt;available here&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560187</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Breeze entities with typescript</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="knockout.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="typescript"/><category scheme="http://stackoverflow.com/feeds/tags" term="breeze"/><category scheme="http://stackoverflow.com/feeds/tags" term="single-page-application"/>
+        <author>
+            <name>frenchfaso</name>
+            <uri>http://stackoverflow.com/users/1478263</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560187/breeze-entities-with-typescript" />
+        <published>2013-03-21T23:40:00Z</published>
+        <updated>2013-03-21T23:40:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using Breeze + Typescript + Knockout for a Spa, and I&#39;m facing the following problem:
+when I create a new entity with EntityManager.createEntity, typescript doesn&#39;t let me use the observables that Breeze generates from metadata.
+Typescript &quot;sees&quot; only the &quot;entityAspect&quot; and the &quot;entityType&quot; properties.
+I&#39;m using the type definitions of DefinitelyTyped.
+Any help is greatly appreciated!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560186</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">WordPress $wpdb-&gt;options returns blank</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="wordpress"/><category scheme="http://stackoverflow.com/feeds/tags" term="class"/><category scheme="http://stackoverflow.com/feeds/tags" term="function"/><category scheme="http://stackoverflow.com/feeds/tags" term="wpdb"/>
+        <author>
+            <name>Jason</name>
+            <uri>http://stackoverflow.com/users/84520</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560186/wordpress-wpdb-options-returns-blank" />
+        <published>2013-03-21T23:39:58Z</published>
+        <updated>2013-03-21T23:39:58Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am working on a WordPress theme and trying to use the $wpdb class from within my own theme class. When I try to use the following SQL query the &lt;code&gt;$wpdb-&amp;gt;options&lt;/code&gt; variable is blank and generates an error.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;global $wpdb;
+$wpdb-&amp;gt;query(&quot;UPDATE &quot;. $wpdb-&amp;gt;options .&quot; SET option_value = &#39;a:0:{}&#39; WHERE option_name = &#39;active_plugins&#39;;&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am using this code within a class I have created.&lt;/p&gt;
+
+&lt;p&gt;Here is a highly scaled down sample of the class&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Theme_Class {
+
+    function init($options) {
+
+        /* Load theme&#39;s functions. */
+        $this-&amp;gt;functions();
+
+    }
+
+    function plugins() {
+        global $wpdb;
+
+        /* Auto plugin activation */
+        if(get_option(&#39;morphius_int_plugins&#39;, &#39;0&#39;) == &#39;0&#39;) {
+
+            $wpdb-&amp;gt;query(&quot;UPDATE &quot;. $wpdb-&amp;gt;options .&quot; SET option_value = &#39;a:0:{}&#39; WHERE option_name = &#39;active_plugins&#39;;&quot;);
+            $wpdb-&amp;gt;query(&quot;UPDATE &quot;. $wpdb-&amp;gt;sitemeta .&quot; SET meta_value = &#39;a:0:{}&#39; WHERE meta_key = &#39;active_plugins&#39;;&quot;);
+            update_option(&#39;morphius_int_plugins&#39;, &#39;1&#39;);
+        }
+
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Am I not globalizing the $wpdb variable properly. Any help would be greatly appreciated.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560183</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Subdomain, Pagination and .htaccess</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term=".htaccess"/><category scheme="http://stackoverflow.com/feeds/tags" term="pagination"/><category scheme="http://stackoverflow.com/feeds/tags" term="subdomain"/>
+        <author>
+            <name>user2197323</name>
+            <uri>http://stackoverflow.com/users/2197323</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560183/subdomain-pagination-and-htaccess" />
+        <published>2013-03-21T23:39:52Z</published>
+        <updated>2013-03-21T23:39:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;&lt;strong&gt;in the name of God&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;hi,&lt;/p&gt;
+
+&lt;p&gt;How i can transform this url&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;domain.tld/blog.php?name=username&amp;amp;page=2&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;to this one&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;username.domain.tld/page/2&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;with .htaccess?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560146</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Update two rows with the same querry</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/>
+        <author>
+            <name>user1638487</name>
+            <uri>http://stackoverflow.com/users/1638487</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560146/update-two-rows-with-the-same-querry" />
+        <published>2013-03-21T23:37:08Z</published>
+        <updated>2013-03-21T23:40:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;What I&#39;d like to do is to update two rows with the same querry . What I have is this :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; $sqlUpdate = &quot;UPDATE user.user SET level=&#39;2&#39; WHERE id=&#39;&quot;.$_GET[&#39;char&#39;].&quot;&#39; AND level &amp;gt;0 AND item&amp;gt;0 LIMIT 1   &quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My idea is to do something like this :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; $sqlUpdate = &quot;UPDATE user.user SET level=&#39;2&#39; &amp;amp;&amp;amp; SET power=&#39;1&#39; WHERE id=&#39;&quot;.$_GET[&#39;char&#39;].&quot;&#39; AND level &amp;gt;0 AND item&amp;gt;0 LIMIT 1   &quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In my opinnion that&#39;s looks logical but does not work , any idea of how to do this? Thanks!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560070</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Eclipse: is there a way to specify the code formatting style using the style of the current source file?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="eclipse"/><category scheme="http://stackoverflow.com/feeds/tags" term="code-formatting"/>
+        <author>
+            <name>James Moore</name>
+            <uri>http://stackoverflow.com/users/73046</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560070/eclipse-is-there-a-way-to-specify-the-code-formatting-style-using-the-style-of" />
+        <published>2013-03-21T23:29:58Z</published>
+        <updated>2013-03-21T23:40:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I know I can go through and manually set all of the various options for the Eclipse Java formatter, and then easily apply that style to any Java file.&lt;/p&gt;
+
+&lt;p&gt;Is there a way to go the other direction?  Given a Java file, output the Eclipse formatter settings that match (to some degree of closeness) the formatting of that file?  I&#39;d like to be able to edit existing code and use a matching style, rather than impose a new style.  And I&#39;d prefer not to have to do this multiple times for different code styles.&lt;/p&gt;
+
+&lt;p&gt;Preferably for Eclipse 3.7, but I&#39;ll switch to 4.x if that&#39;s what it takes.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560063</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">always the program in the else body. why?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="if-statement"/><category scheme="http://stackoverflow.com/feeds/tags" term="else"/>
+        <author>
+            <name>Sara</name>
+            <uri>http://stackoverflow.com/users/2074755</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560063/always-the-program-in-the-else-body-why" />
+        <published>2013-03-21T23:28:34Z</published>
+        <updated>2013-03-21T23:41:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;for this code it always give me : 
+{&quot;message&quot;:&quot;Required field(s) is missing&quot;,&quot;success&quot;:0}&lt;/p&gt;
+
+&lt;p&gt;which means it didn&#39;t enter the if body! it&#39;s always goes to else !i don&#39;t know why !! &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;reg_Doc_to_Patient.php
+==========
+
+    &amp;lt;?php
+
+    /*
+     * Following code will update a product information
+     * A product is identified by product id (pid)
+     */
+
+    // array for JSON response
+    $response = array();
+
+    // check for required fields
+    if(isset($_POST[&#39;id&#39;]) &amp;amp;&amp;amp; isset($_POST[&#39;Doc_id&#39;]) ) {    
+
+
+        $id = $_POST[&#39;id&#39;];
+        $Doc_id = $_POST[&#39;Doc_id&#39;];
+
+        // include db connect class
+        require_once __DIR__ . &#39;/db_connect.php&#39;;
+
+        // connecting to db
+        $db = new DB_CONNECT();
+
+        // mysql update row with matched pid
+        $result = mysql_query(&quot;UPDATE patients SET  Doc_id = &#39;$Doc_id&#39; WHERE id = $id&quot;);
+
+        // check if row inserted or not
+        if ($result) {
+            // successfully updated
+            $response[&quot;success&quot;] = 1;
+            $response[&quot;message&quot;] = &quot;Product successfully updated.&quot;;
+
+            // echoing JSON response
+            echo json_encode($response);
+        } else {
+
+        }
+    } else {
+        // required field is missing
+        $response[&quot;success&quot;] = 0;
+        $response[&quot;message&quot;] = &quot;Required field(s) is missing&quot;;
+
+        // echoing JSON response
+        echo json_encode($response);
+    }
+    ?&amp;gt;
+
+
+AllRequests.java
+==========
+
+    package com.example.rpm;
+
+    import java.util.ArrayList;
+    import java.util.HashMap;
+    import java.util.List;
+
+    import org.apache.http.NameValuePair;
+    import org.apache.http.message.BasicNameValuePair;
+    import org.json.JSONArray;
+    import org.json.JSONException;
+    import org.json.JSONObject;
+
+    import android.app.ListActivity;
+    import android.app.ProgressDialog;
+    import android.content.Intent;
+    import android.os.AsyncTask;
+    import android.os.Bundle;
+    import android.util.Log;
+    import android.view.View;
+    import android.widget.AdapterView;
+    import android.widget.ListAdapter;
+    import android.widget.ListView;
+    import android.widget.SimpleAdapter;
+    import android.widget.TextView;
+    import android.widget.AdapterView.OnItemClickListener;
+    import android.widget.Toast;
+
+    import com.example.rpm.Accept.SaveProductDetails;
+    import com.example.rpm.AllDoctor.LoadAllProducts;
+
+    public class AllRequests extends ListActivity {
+
+        // Progress Dialog
+            private ProgressDialog pDialog;
+
+            // Creating JSON Parser object
+            JSONParser jParser = new JSONParser();
+
+            JSONParser jsonParser = new JSONParser();
+
+
+            ArrayList&amp;lt;HashMap&amp;lt;String, String&amp;gt;&amp;gt; productsList;
+
+            // url to get all products list
+            private static String url_all_products = &quot;http://10.0.2.2/RPM-connect/get_all_requests.php&quot;;
+            private static String url_edit_products = &quot;http://10.0.2.2/RPM-connect/reg_Doc_to_Patient.php&quot;;
+
+
+
+            // JSON Node names
+            private static final String TAG_SUCCESS = &quot;success&quot;;
+            private static final String TAG_DOCTOR = &quot;products&quot;;
+
+            private static final String TAG_Patient_ID = &quot;Patient_ID&quot;;
+            private static final String TAG_Doctor_ID= &quot;Doctor_ID&quot;;
+
+            private static  String id=&quot;&quot;; // of patient
+            private static  String Doc_id=&quot;&quot;;// of Doctor 
+
+            // products JSONArray
+            JSONArray doctor = null;
+
+            @Override
+            public void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.requests);
+
+                // Hashmap for ListView
+                productsList = new ArrayList&amp;lt;HashMap&amp;lt;String, String&amp;gt;&amp;gt;();
+
+                // Loading products in Background Thread
+                new LoadAllProducts().execute();
+
+                // Get listview
+                ListView lv = getListView();
+
+                // on seleting single product
+                // launching Edit Product Screen
+                lv.setOnItemClickListener(new OnItemClickListener() {
+
+                    @Override
+                    public void onItemClick(AdapterView&amp;lt;?&amp;gt; parent, View view,
+                            int position, long idd) {
+                        // getting values from selected ListItem
+
+
+                        final String p_Id = ((TextView) view.findViewById(R.id.p_id)).getText().toString();
+                        final String d_Id = ((TextView) view.findViewById(R.id.d_id)).getText().toString();
+
+
+                        id= p_Id;
+                        Doc_id= d_Id;
+
+                        new VerivyDocToPatient().execute();
+
+                        Toast.makeText(getApplicationContext(), &quot;yes&quot;, 500).show();
+                        // Starting new intent
+                        //Intent in = new Intent(getApplicationContext(),   AllRequests.class);
+                        // sending pid to next activity
+                        //in.putExtra(TAG_ID, Id);
+
+
+                        // starting new activity and expecting some response back
+                    //  startActivityForResult(in, 100);
+                    }
+                });
+
+            }
+
+            // Response from Edit Product Activity
+            @Override
+            protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+                super.onActivityResult(requestCode, resultCode, data);
+                // if result code 100
+                if (resultCode == 100) {
+                    // if result code 100 is received 
+                    // means user edited/deleted product
+                    // reload this screen again
+                    Intent intent = getIntent();
+                    finish();
+                    startActivity(intent);
+                }
+
+            }
+
+            /**
+             * Background Async Task to Load all product by making HTTP Request
+             * */
+            class LoadAllProducts extends AsyncTask&amp;lt;String, String, String&amp;gt; {
+
+                /**
+                 * Before starting background thread Show Progress Dialog
+                 * */
+                @Override
+                protected void onPreExecute() {
+                    super.onPreExecute();
+                    pDialog = new ProgressDialog(AllRequests.this);
+                    pDialog.setMessage(&quot;Loading doctors. Please wait...&quot;);
+                    pDialog.setIndeterminate(false);
+                    pDialog.setCancelable(false);
+                    pDialog.show();
+                }
+
+                /**
+                 * getting All products from url
+                 * */
+                protected String doInBackground(String... args) {
+                    // Building Parameters
+                    List&amp;lt;NameValuePair&amp;gt; params = new ArrayList&amp;lt;NameValuePair&amp;gt;();
+                    // getting JSON string from URL
+                    JSONObject json = jParser.makeHttpRequest(url_all_products, &quot;GET&quot;, params);
+
+                    // Check your log cat for JSON reponse
+                    Log.d(&quot;All Products: &quot;, json.toString());
+
+                    try {
+                        // Checking for SUCCESS TAG
+                        int success = json.getInt(TAG_SUCCESS);
+
+                        if (success == 1) {
+                            // products found
+                            // Getting Array of Products
+                            doctor = json.getJSONArray(TAG_DOCTOR);
+
+                            // looping through All Products
+                            for (int i = 0; i &amp;lt; doctor.length(); i++) {
+                                JSONObject c = doctor.getJSONObject(i);
+
+
+                                // Storing each json item in variable
+
+                                String Patient_ID = c.getString(TAG_Patient_ID);
+                                String Doctor_ID = c.getString(TAG_Doctor_ID);
+
+
+
+                                // creating new HashMap
+                                HashMap&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;String, String&amp;gt;();
+
+                                // adding each child node to HashMap key =&amp;gt; value
+
+                                map.put(TAG_Patient_ID, Patient_ID);
+                                map.put(TAG_Doctor_ID, Doctor_ID);
+
+
+
+                                // adding HashList to ArrayList
+                                productsList.add(map);
+                            }
+                        } else {
+                            // no products found
+                            // Launch Add New product Activity
+                            Intent i = new Intent(getApplicationContext(),
+                                    Adddoctor.class);
+                            // Closing all previous activities
+                            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                            startActivity(i);
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+
+                    return null;
+                }
+
+                /**
+                 * After completing background task Dismiss the progress dialog
+                 * **/
+                protected void onPostExecute(String file_url) {
+                    // dismiss the dialog after getting all products
+                    pDialog.dismiss();
+                    // updating UI from Background Thread
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            /**
+                             * Updating parsed JSON data into ListView
+                             * */
+                            ListAdapter adapter = new SimpleAdapter(
+                                    AllRequests.this, productsList,
+                                    R.layout.list_requests, new String[] { TAG_Doctor_ID,TAG_Patient_ID },  
+                                    new int[] { R.id.p_id, R.id.d_id
+                                            });
+                            // updating listview
+                            setListAdapter(adapter);
+
+
+                        }
+                    });
+
+                }
+
+            }
+
+            /**
+             * Background Async Task to  Save product Details
+             * */
+            class VerivyDocToPatient extends AsyncTask&amp;lt;String, String, String&amp;gt; {
+
+                /**
+                 * Before starting background thread Show Progress Dialog
+                 * */
+                @Override
+                protected void onPreExecute() {
+                    super.onPreExecute();
+                    pDialog = new ProgressDialog(AllRequests.this);
+                    pDialog.setMessage(&quot;verifying...&quot;);
+                    pDialog.setIndeterminate(false);
+                    pDialog.setCancelable(true);
+                    pDialog.show();
+                }
+
+                /**
+                 * Saving product
+                 * */
+                protected String doInBackground(String... args) {
+
+                    // getting updated data from EditTexts
+                    //String ID = txtID.getText().toString();
+                    /*String Fname = txtFname.getText().toString();
+                    String Sname = txtSname.getText().toString();
+                    String Lname = txtLname.getText().toString();
+                    String Specialist = txtSpecialist.getText().toString();
+                    String Gender = txtGender.getText().toString();
+                    String Workphone = txtWorkphone.getText().toString();
+                    String password = txtpassword.getText().toString();
+                    */
+
+                    // Building Parameters
+                    List&amp;lt;NameValuePair&amp;gt; params = new ArrayList&amp;lt;NameValuePair&amp;gt;();
+
+                    params.add(new BasicNameValuePair(TAG_Patient_ID, id));
+                    params.add(new BasicNameValuePair(TAG_Doctor_ID, Doc_id));
+
+                    // sending modified data through http request
+                    // Notice that update product url accepts POST method
+                    JSONObject json = jsonParser.makeHttpRequest(url_edit_products,
+                            &quot;POST&quot;, params);
+                    Log.d(&quot;aaaa&quot;,json.toString());
+
+                    // check json success tag
+                    try {
+                        int success = json.getInt(TAG_SUCCESS);
+
+                        if (success == 1) {
+                            // successfully updated
+                            Intent i = getIntent();
+                            // send result code 100 to notify about product update
+                            setResult(100, i);
+                            finish();
+                        } else {
+                            // failed to update product
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+
+                    return null;
+                }
+
+
+                /**
+                 * After completing background task Dismiss the progress dialog
+                 * **/
+                protected void onPostExecute(String file_url) {
+                    // dismiss the dialog once product uupdated
+                    pDialog.dismiss();
+                }
+            }
+
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;any help ? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560062</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">If statement within a function just doesn&#39;t work</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery-ajax"/>
+        <author>
+            <name>Iain Cheyne</name>
+            <uri>http://stackoverflow.com/users/1991636</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560062/if-statement-within-a-function-just-doesnt-work" />
+        <published>2013-03-21T23:28:33Z</published>
+        <updated>2013-03-21T23:39:53Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;The PHP file returns a &lt;code&gt;1&lt;/code&gt; if there is no useful data. If there is useful data then I would like to add it after the &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;. It does this, but it appends the &lt;code&gt;1&lt;/code&gt; as well. Does anybody see where I am going wrong?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;setInterval(function () {
+    $.ajax({
+        url: &#39;gettweetcode.php&#39;,
+        dataType: &#39;text&#39;,
+        success: function (text) {
+            if (text != 1) {
+                $(&quot;p&quot;).after(text);
+                $(&quot;table&quot;).fadeIn(1500);
+            };
+        }
+    });
+}, 1000); // JavaScript Document
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15560001</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">Remove first and last paragraph from PHP echo</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/><category scheme="http://stackoverflow.com/feeds/tags" term="echo"/>
+        <author>
+            <name>Alex Ryans</name>
+            <uri>http://stackoverflow.com/users/1880510</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15560001/remove-first-and-last-paragraph-from-php-echo" />
+        <published>2013-03-21T23:22:39Z</published>
+        <updated>2013-03-21T23:40:31Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am printing out some data from an array for a project, but I would like to remove the first and last paragraphs.&lt;/p&gt;
+
+&lt;p&gt;The original array looks thus:
+&lt;img src=&quot;http://i.stack.imgur.com/F8vVM.png&quot; alt=&quot;Original array&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;and printed, it looks thus:
+&lt;img src=&quot;http://i.stack.imgur.com/Z3vHA.png&quot; alt=&quot;Printed array&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;and I would like the remove the first paragraph beginning &#39;From Wikipedia, the free encyclopedia.&#39; and the final paragraph, beginning &#39;Description above from the Wikipedia article Humphrey Bogart, licensed under CC-BY-SA, full list of contributors on Wikipedia.&#39;&lt;/p&gt;
+
+&lt;p&gt;To call the row, I am just using a simple PHP echo statement: &lt;code&gt;$actor_biography = $actor_details[&#39;biography&#39;];&lt;/code&gt;, before echoing out &lt;code&gt;$actor_biography&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Array
+(
+    [adult] =&amp;gt; 
+    [also_known_as] =&amp;gt; Array
+        (
+        )
+
+    [biography] =&amp;gt; From Wikipedia, the free encyclopedia.  
+
+Humphrey DeForest Bogart (December 25, 1899 – January 14, 1957) was an American actor. He is widely regarded as a cultural icon. The American Film Institute ranked Bogart as the greatest male star in the history of American cinema.
+
+After trying various jobs, Bogart began acting in 1921 and became a regular in Broadway productions in the 1920s and 1930s. When the stock market crash of 1929 reduced the demand for plays, Bogart turned to film. His first great success was as Duke Mantee in The Petrified Forest (1936), and this led to a period of typecasting as a gangster with films such as Angels with Dirty Faces (1938) and B-movies like The Return of Doctor X (1939).
+
+His breakthrough as a leading man came in 1941, with High Sierra and The Maltese Falcon. The next year, his performance in Casablanca raised him to the peak of his profession and, at the same time, cemented his trademark film persona, that of the hard-boiled cynic who ultimately shows his noble side. Other successes followed, including To Have and Have Not (1944), The Big Sleep (1946), Dark Passage (1947) and Key Largo (1948), with his wife Lauren Bacall; The Treasure of the Sierra Madre (1948); The African Queen (1951), for which he won his only Academy Award; Sabrina (1954) and The Caine Mutiny (1954). His last movie was The Harder They Fall (1956). During a film career of almost thirty years, he appeared in 75 feature films.
+
+Description above from the Wikipedia article Humphrey Bogart, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+    [birthday] =&amp;gt; 1899-12-25
+    [deathday] =&amp;gt; 1957-01-14
+    [homepage] =&amp;gt; 
+    [id] =&amp;gt; 4110
+    [imdb_id] =&amp;gt; nm0000007
+    [name] =&amp;gt; Humphrey Bogart
+    [place_of_birth] =&amp;gt; New York City, New York, USA
+    [popularity] =&amp;gt; 3.92
+    [profile_path] =&amp;gt; /5WaI2QbYd6WYq7Mzk3tEUTXSM3u.jpg
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559990</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">JSFiddler doesn&#39;t read javascript</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jsfiddle"/>
+        <author>
+            <name>Peppered Lemons</name>
+            <uri>http://stackoverflow.com/users/650489</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559990/jsfiddler-doesnt-read-javascript" />
+        <published>2013-03-21T23:21:21Z</published>
+        <updated>2013-03-21T23:41:09Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Have a simple function I want to write jsfiddle, but I cannot get any javascript to work. Tried in FF and Chrome with same results. &lt;/p&gt;
+
+&lt;p&gt;Looked at SO posts &lt;a href=&quot;http://stackoverflow.com/questions/5431351/simple-example-doesnt-work-on-jsfiddle&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://stackoverflow.com/questions/5468350/javascript-not-running-on-jsfiddle-net&quot;&gt;here&lt;/a&gt; but I couldn&#39;t get it to work. &lt;/p&gt;
+
+&lt;p&gt;Code: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;input type=&quot;button&quot; value=&quot;5 Items&quot; onclick=&quot;test()&quot;&amp;gt;
+&amp;lt;input type=&quot;button&quot; value=&quot;6 Items&quot; onclick=&quot;arrayOfOandZ(6)&quot;&amp;gt;
+&amp;lt;input type=&quot;button&quot; value=&quot;7 Items&quot; onclick=&quot;arrayOfOandZ(7)&quot;&amp;gt;
+
+
+function test() {
+    alert(&quot;TEST&quot;);
+}
+
+function arrayOfOandZ (size) {
+    var arrayOFOnZ[size];
+    //Fill array
+    for(var x = 0; x &amp;lt; size; x++){
+        arrayOfOnZ[x] = size % 2;
+    }
+    alert(arrayOFOnZ.join(&#39;\n&#39;));
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/sfJLx/7/&quot; rel=&quot;nofollow&quot;&gt;fiddle&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559962</id>
+        <re:rank scheme="http://stackoverflow.com">4</re:rank>
+        <title type="text">Hating container divs and trying to use HTML5 way</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="html5"/><category scheme="http://stackoverflow.com/feeds/tags" term="css3"/>
+        <author>
+            <name>whatyouhide</name>
+            <uri>http://stackoverflow.com/users/1478748</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559962/hating-container-divs-and-trying-to-use-html5-way" />
+        <published>2013-03-21T23:18:11Z</published>
+        <updated>2013-03-21T23:40:26Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I recently started some web programming/designing and I&#39;m facing this problem.
+In HTML5 you have these cool tags like &lt;code&gt;section&lt;/code&gt; and &lt;code&gt;header&lt;/code&gt; and &lt;code&gt;footer&lt;/code&gt; and everything.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My first question raises here: do they behave (in a CSS context) &lt;strong&gt;exactly&lt;/strong&gt; like &lt;code&gt;div&lt;/code&gt;s?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Moving to a more specific problem, I have to create a website with a simple &lt;code&gt;header -&amp;gt; content (section) -&amp;gt; footer&lt;/code&gt; structure (&lt;em&gt;note: I&#39;m no interested in IE compatibility&lt;/em&gt;). I would like the central section to expand (vertically) as much as it can, until it meets the footer.
+The &quot;until it meets the footer&quot; part can be achieved through some &lt;code&gt;padding-bottom&lt;/code&gt; but what about the &quot;extending as much as possible&quot; part? Note that the footer should stop when, while resizing the page, it meets the section.&lt;/p&gt;
+
+&lt;p&gt;I mean, I know with some &lt;code&gt;div&lt;/code&gt;s life would be easier, but is it possible that with today standards I still have to wrap the whole page in a &lt;code&gt;&amp;lt;div id=&quot;container&quot;&amp;gt;&lt;/code&gt; tag?
+So the second question arises...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can&#39;t I achieve what I would achieve by using both &lt;code&gt;html&lt;/code&gt; and &lt;code&gt;body&lt;/code&gt; as containers of a &lt;code&gt;div#container&lt;/code&gt; by making the &lt;code&gt;html&lt;/code&gt; be the &lt;code&gt;html + body&lt;/code&gt; part and the &lt;code&gt;body&lt;/code&gt; be the &lt;code&gt;div#container&lt;/code&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope my question is clear, I know I tend to digress when I write.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; for clarity, I will add my HTML structure and some highlights from my CSS here, but I don&#39;t know if they&#39;re relevant to the question.&lt;/p&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+&amp;lt;head...&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;header id=&quot;page_header&quot;&amp;gt;
+        stuff in the header...
+    &amp;lt;/header&amp;gt;
+
+    &amp;lt;section id=&quot;page_content&quot;&amp;gt;
+        stuff in the main section...
+    &amp;lt;/section&amp;gt;    
+
+    &amp;lt;footer id=&quot;page_footer&quot;&amp;gt;
+        an almost-sticky footer...
+    &amp;lt;/footer&amp;gt;
+&amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;CSS:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;* {
+    margin: 0;
+}
+
+html {
+    background-image: url(&#39;../res/img/bg-light.png&#39;);
+    height: 100%;
+    position: relative;
+}
+
+body {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto 20px auto;
+    padding: 0;
+}
+
+section#page_content {
+    min-height: 400px; // ? does this stop the footer from being dragged over the content when resizing?
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer#page_footer {
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Micro-note&lt;/strong&gt; why the hell my &lt;code&gt;body&lt;/code&gt; doesn&#39;t start from the exact top of the page, while starting a few pixels from the top? Just asking.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559864</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">LWJGL Rotating one object only</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="matrix"/><category scheme="http://stackoverflow.com/feeds/tags" term="3d"/><category scheme="http://stackoverflow.com/feeds/tags" term="rotation"/><category scheme="http://stackoverflow.com/feeds/tags" term="lwjgl"/>
+        <author>
+            <name>DealerJoe</name>
+            <uri>http://stackoverflow.com/users/1824413</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559864/lwjgl-rotating-one-object-only" />
+        <published>2013-03-21T23:07:34Z</published>
+        <updated>2013-03-21T23:40:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+I am trying to rotate only one of two objects in my scene which I created in Java using
+LWJGL.&lt;br /&gt;Now, when I try to rotate one object, it doesn&#39;t rotate around it&#39;s center but in large circles. After searching on Google I now know that it should work like this : &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;glPushMatrix();
+glBegin();
+
+  //Code in here
+
+glEnd();
+glRotate();
+glPopMatrix();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But it&#39;s not working for me. The object isn&#39;t rotating. This is my render code : &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public void render() {
+
+        glPushMatrix();
+
+            glBegin(GL_QUADS);
+
+                // Top
+                glVertex3f(-centerX + size, centerY + size, -centerZ - size);
+                glVertex3f(-centerX - size, centerY + size, -centerZ - size);
+                glVertex3f(-centerX - size, centerY + size, -centerZ + size);
+                glVertex3f(-centerX + size, centerY + size, -centerZ + size);
+                // Bottom
+                glVertex3f(-centerX + size, centerY - size, -centerZ + size);
+                glVertex3f(-centerX - size, centerY - size, -centerZ + size);
+                glVertex3f(-centerX - size, centerY - size, -centerZ - size);
+                glVertex3f(-centerX + size, centerY - size, -centerZ - size);
+                // One side
+                glVertex3f(-centerX + size, centerY + size, -centerZ + size);
+                glVertex3f(-centerX - size, centerY + size, -centerZ + size);
+                glVertex3f(-centerX - size, centerY - size, -centerZ + size);
+                glVertex3f(-centerX + size, centerY - size, -centerZ + size);
+                // Moar sides
+                glVertex3f(-centerX + size, centerY - size, -centerZ - size);
+                glVertex3f(-centerX - size, centerY - size, -centerZ - size);
+                glVertex3f(-centerX - size, centerY + size, -centerZ - size);
+                glVertex3f(-centerX + size, centerY + size, -centerZ - size);
+                // Last side
+                glVertex3f(-centerX - size, centerY + size, -centerZ + size);
+                glVertex3f(-centerX - size, centerY + size, -centerZ - size);
+                glVertex3f(-centerX - size, centerY - size, -centerZ - size);
+                glVertex3f(-centerX - size, centerY - size, -centerZ + size);
+                // Real last side
+                glVertex3f(-centerX + size, centerY + size, -centerZ - size);
+                glVertex3f(-centerX + size, centerY + size, -centerZ + size);
+                glVertex3f(-centerX + size, centerY - size, -centerZ + size);
+                glVertex3f(-centerX + size, centerY - size, -centerZ - size);
+
+            glEnd();
+
+            glTranslatef(-centerX, centerY, -centerZ);
+            glRotatef(rotate, 0, 1.0f, 0);              
+
+        glPopMatrix();
+
+        rotate++;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I now tried fixing this problem for hours but couldn&#39;t get it to work.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559838</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">ActionBar up navigation recreates parent activity instead of onResume</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="android-actionbar"/>
+        <author>
+            <name>user123321</name>
+            <uri>http://stackoverflow.com/users/748317</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559838/actionbar-up-navigation-recreates-parent-activity-instead-of-onresume" />
+        <published>2013-03-21T23:04:29Z</published>
+        <updated>2013-03-21T23:39:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using the recommended approach for &lt;a href=&quot;http://developer.android.com/training/implementing-navigation/ancestral.html&quot; rel=&quot;nofollow&quot;&gt;Up Navigation&lt;/a&gt; and my code looks like this: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public boolean onOptionsItemSelected(MenuItem item) {
+    switch (item.getItemId()) {
+        case android.R.id.home:
+            Intent h = new Intent(ShowDetailsActivity.this, MainActivity.class);
+            h.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(h);
+            return true;
+        default: return super.onOptionsItemSelected(item);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here&#39;s the use-case: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I launch my app which is &quot;MainActivity&quot;&lt;/li&gt;
+&lt;li&gt;I click a button to go to &quot;ShowDetailsActivity&quot;&lt;/li&gt;
+&lt;li&gt;I click on the UP ActionBar navigation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The issue is after I click on UP, MainActivity hits its onCreate() methods all over again and loses all state instead of starting at the typical onResume() like it would if I just called &quot;finish()&quot; from ShowDetailsActivity. Why? Is this how it always works and this is expected behavior for Android to recreate all activities that are navigated to using the &quot;Up&quot; navigation approach? If I hit the back button I get the expected onResume lifecycle. &lt;/p&gt;
+
+&lt;p&gt;This is my solution if an Android &quot;proper&quot; ones doesn&#39;t exist: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public boolean onOptionsItemSelected(MenuItem item) {
+    switch (item.getItemId()) {
+        case android.R.id.home:
+            Intent upIntent = new Intent(this, MainActivity.class);
+            if (NavUtils.shouldUpRecreateTask(this, upIntent)) {
+                NavUtils.navigateUpTo(this, upIntent);
+                finish();
+            } else {
+                finish();
+            }
+            return true;
+        default: return super.onOptionsItemSelected(item);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559772</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">save image from image path</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="swing"/><category scheme="http://stackoverflow.com/feeds/tags" term="netbeans"/>
+        <author>
+            <name>Akshay </name>
+            <uri>http://stackoverflow.com/users/2197240</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559772/save-image-from-image-path" />
+        <published>2013-03-21T22:58:28Z</published>
+        <updated>2013-03-21T23:41:25Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I implemented this code for browsing an image using &lt;code&gt;JFileChooser&lt;/code&gt; but problem is I cannot implement code for saving image on local disk.
+OR 
+If possible I directly want to display this image in a new &lt;code&gt;JFrame&lt;/code&gt; class and this is going to be a dynamic link  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private void btnBrowseVideo1ActionPerformed(java.awt.event.ActionEvent evt) {
+
+    // TODO add your handling code here:
+    JFileChooser fileChooser = new JFileChooser();
+    fileChooser.showOpenDialog(null);
+    mediaUrl = null;
+    String path = &quot;&quot;;
+
+    path = fileChooser.getSelectedFile().toString();
+    path = path.trim();
+
+    // System.out.println(&quot;URI : &quot;+mediaUrl);
+    if (path.endsWith(&quot;.jpg&quot;) || path.endsWith(&quot;.JPG&quot;)) {
+
+        lblBrowseImage.setText(path);
+    } else {
+        JOptionPane.showMessageDialog(this, &quot;SELECT .jpg  FILE!!!!&quot;);
+    }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559665</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Microsoft T-SQL XML Parsing Issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="xml"/>
+        <author>
+            <name>yanigisawa</name>
+            <uri>http://stackoverflow.com/users/98562</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559665/microsoft-t-sql-xml-parsing-issue" />
+        <published>2013-03-21T22:49:36Z</published>
+        <updated>2013-03-21T23:41:02Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have XML similar to the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;DECLARE @XML AS XML = 
+&#39;&amp;lt;RootElement xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&amp;gt;
+  &amp;lt;SubElement xmlns=&quot;http://foobar&quot;&amp;gt;
+    &amp;lt;foo1&amp;gt;bar1&amp;lt;/foo1&amp;gt;
+  &amp;lt;/SubElement&amp;gt;
+&amp;lt;/RootElement&amp;gt;&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I&#39;m trying to parse it with the following SQL:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;; WITH XMLNAMESPACES(DEFAULT &#39;http://foobar&#39;)
+SELECT 
+    f.x.value(&#39;foo1[1]&#39;, &#39;varchar(10)&#39;)
+from 
+    @xml.nodes(&#39;/RootElement/SubElement&#39;) as f(x)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But it doesn&#39;t seem to work. Is the XML namespace on the SubElement node causing the issue? I ask because the following configuration works:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;DECLARE @XML AS XML = 
+&#39;&amp;lt;RootElement xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&amp;gt;
+  &amp;lt;SubElement&amp;gt;
+    &amp;lt;foo1&amp;gt;bar1&amp;lt;/foo1&amp;gt;
+  &amp;lt;/SubElement&amp;gt;
+&amp;lt;/RootElement&amp;gt;&#39;
+
+SELECT 
+    f.x.value(&#39;foo1[1]&#39;, &#39;varchar(10)&#39;)
+from 
+    @xml.nodes(&#39;/RootElement/SubElement&#39;) as f(x)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;FYI:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;select @@VERSION
+
+Microsoft SQL Server 2008 R2 (SP1) - 10.50.2500.0 (X64)   Jun 17 2011 00:54:03   Copyright (c) Microsoft Corporation  Developer Edition (64-bit) on Windows NT 6.1 &amp;lt;X64&amp;gt; (Build 7601: Service Pack 1) 
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559637</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Conversion Of Numbers To Words</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="winforms"/><category scheme="http://stackoverflow.com/feeds/tags" term="numbers"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows-applications"/>
+        <author>
+            <name>Muhammad Azeem Khan</name>
+            <uri>http://stackoverflow.com/users/1948973</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559637/conversion-of-numbers-to-words" />
+        <published>2013-03-21T22:47:05Z</published>
+        <updated>2013-03-21T23:41:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i want to convert Amount into words, like &lt;code&gt;123 = &quot;One Hundred And Twenty three dollars Only&quot;&lt;/code&gt; I am using &lt;code&gt;WindowsApplicationForm&lt;/code&gt; in C# 2010.Some mistake from my codes.please suggest me Or give me examples,I m new programmer,i don&#39;t need consule write programs.I already search it alot but loose to correct it.
+Example
+its giving me here:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1) 12.56 = twelve point dollars only.  \\&quot; it should be **twelve dollars and fifty six points**** (or cents) &quot;
+
+2) 100200.00 = One hundred thousand two hundred dollars only. \\&quot;there is **AND** missing&quot;
+
+3) 025.00 = and hundred twenty five dollars only. \\&quot;should be **twenty five dollars only** &quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;MY CODES&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class num_to_words
+{
+    public static String changeToWords(String numb)
+    {
+        String val = &quot;&quot;, wholeNo = numb, points = &quot;&quot;, andStr = &quot;&quot;, pointStr = &quot;&quot;;
+        String endStr = (&quot;Dollar Only&quot;);
+        try
+        {
+            int decimalPlace = numb.IndexOf(&quot;.&quot;);
+            if (decimalPlace &amp;gt; 0)
+            {
+                wholeNo = numb.Substring(0, decimalPlace);
+                points = numb.Substring(decimalPlace + 1);
+                if (Convert.ToInt32(points) &amp;gt; 0)
+                {
+                    andStr = (&quot;point&quot;);// just to separate whole numbers from points/Rupees
+}
+            }
+            val = String.Format(&quot;{0} {1}{2} {3}&quot;, translateWholeNumber(wholeNo).Trim(), andStr, pointStr, endStr);
+        }
+        catch
+        {
+            ;
+        }
+        return val;
+    }
+
+    private static String translateWholeNumber(String number)
+    {
+        string word = &quot;&quot;;
+        try
+        {
+            bool beginsZero = false;//tests for 0XX
+            bool isDone = false;//test if already translated
+            double dblAmt = (Convert.ToDouble(number));
+            //if ((dblAmt &amp;gt; 0) &amp;amp;&amp;amp; number.StartsWith(&quot;0&quot;))
+
+            if (dblAmt &amp;gt; 0)
+            {//test for zero or digit zero in a nuemric
+                beginsZero = number.StartsWith(&quot;0&quot;);
+                int numDigits = number.Length;
+                int pos = 0;//store digit grouping
+                String place = &quot;&quot;;//digit grouping name:hundres,thousand,etc...
+                switch (numDigits)
+                {
+                    case 1://ones&#39; range
+                        word = ones(number);
+                        isDone = true;
+                        break;
+                    case 2://tens&#39; range
+                        word = tens(number);
+                        isDone = true;
+                        break;
+                    case 3://hundreds&#39; range
+                        pos = (numDigits % 3) + 1;
+                        place = &quot; Hundred &quot;;
+                        break;
+                    case 4://thousands&#39; range
+                    case 5:
+                    case 6:
+                        pos = (numDigits % 4) + 1;
+                        place = &quot; Thousand &quot;;
+                        break;
+                    case 7://millions&#39; range
+                    case 8:
+                    case 9:
+                        pos = (numDigits % 7) + 1;
+                        place = &quot; Million &quot;;
+                        break;
+                    case 10://Billions&#39;s range
+                        pos = (numDigits % 10) + 1;
+                        place = &quot; Billion &quot;;
+                        break;
+                    //add extra case options for anything above Billion...
+                    default:
+                        isDone = true;
+                        break;
+                }
+                if (!isDone)
+                {//if transalation is not done, continue...(Recursion comes in now!!)
+                    word = translateWholeNumber(number.Substring(0, pos)) + place + translateWholeNumber(number.Substring(pos));
+                    //check for trailing zeros
+                    if (beginsZero) word = &quot; and &quot; + word.Trim();
+                }
+                //ignore digit grouping names
+                if (word.Trim().Equals(place.Trim())) word = &quot;&quot;;
+            }
+        }
+        catch
+        {
+            ;
+        }
+        return word.Trim();
+    }
+private static String tens(String digit)
+    {
+        int digt = Convert.ToInt32(digit);
+        String name = null;
+        switch (digt)
+        {
+            case 10:
+                name = &quot;Ten&quot;;
+                break;
+            case 11:
+                name = &quot;Eleven&quot;;
+                break;
+            case 12:
+                name = &quot;Twelve&quot;;
+                break;
+            case 13:
+                name = &quot;Thirteen&quot;;
+                break;
+            case 14:
+                name = &quot;Fourteen&quot;;
+                break;
+            case 15:
+                name = &quot;Fifteen&quot;;
+                break;
+            case 16:
+                name = &quot;Sixteen&quot;;
+                break;
+            case 17:
+                name = &quot;Seventeen&quot;;
+                break;
+            case 18:
+                name = &quot;Eighteen&quot;;
+                break;
+            case 19:
+                name = &quot;Nineteen&quot;;
+                break;
+            case 20:
+                name = &quot;Twenty&quot;;
+                break;
+            case 30:
+                name = &quot;Thirty&quot;;
+                break;
+            case 40:
+                name = &quot;Fourty&quot;;
+                break;
+            case 50:
+                name = &quot;Fifty&quot;;
+                break;
+            case 60:
+                name = &quot;Sixty&quot;;
+                break;
+            case 70:
+                name = &quot;Seventy&quot;;
+                break;
+            case 80:
+                name = &quot;Eighty&quot;;
+                break;
+            case 90:
+                name = &quot;Ninety&quot;;
+                break;
+            default:
+                if (digt &amp;gt; 0)
+                {
+                    name = tens(digit.Substring(0, 1) + &quot;0&quot;) + &quot; &quot; + ones(digit.Substring(1));
+                }
+                break;
+        }
+        return name;
+    }
+private static String ones(String digit)
+    {
+        int digt = Convert.ToInt32(digit);
+        String name = &quot;&quot;;
+        switch (digt)
+        {
+            case 1:
+                name = &quot;One&quot;;
+                break;
+            case 2:
+                name = &quot;Two&quot;;
+                break;
+            case 3:
+                name = &quot;Three&quot;;
+                break;
+            case 4:
+                name = &quot;Four&quot;;
+                break;
+            case 5:
+                name = &quot;Five&quot;;
+                break;
+            case 6:
+                name = &quot;Six&quot;;
+                break;
+            case 7:
+                name = &quot;Seven&quot;;
+                break;
+            case 8:
+                name = &quot;Eight&quot;;
+                break;
+            case 9:
+                name = &quot;Nine&quot;;
+                break;
+        }
+        return name;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15558797</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">jQuery UI Sortable Update ID</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery-ui"/><category scheme="http://stackoverflow.com/feeds/tags" term="sortable"/>
+        <author>
+            <name>user2121369</name>
+            <uri>http://stackoverflow.com/users/2121369</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15558797/jquery-ui-sortable-update-id" />
+        <published>2013-03-21T21:45:30Z</published>
+        <updated>2013-03-21T23:40:47Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m working with jQuery UI Sortable and I&#39;m using it in my CMS for my categories tables so I can change the the order of the categories I have the sortable function working but what I&#39;m having problems with is changing the the order of the list after I drop my item.&lt;/p&gt;
+
+&lt;p&gt;PHP&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;a-list&quot; class=&quot;row connected&quot;&amp;gt;
+        &amp;lt;?php
+        $sql = &quot;SELECT cat_id, cat_name, cat_slug, cat_status, cat_order, sta_id, sta_name
+                FROM app_categories LEFT JOIN app_status
+                ON app_categories.cat_status = app_status.sta_id&quot;;
+
+            if($result = query($sql)){
+                $list = array();
+
+                while($data = mysqli_fetch_assoc($result)){
+                    array_push($list, $data);
+                }
+
+                foreach($list as $i =&amp;gt; $row){ 
+        ?&amp;gt;
+                &amp;lt;div class=&quot;row&quot;&amp;gt;
+                    &amp;lt;div class=&quot;column two&quot;&amp;gt;
+                        &amp;lt;a href=&quot;edit-category.php?cat_id=&amp;lt;?php echo $row[&#39;cat_id&#39;]; ?&amp;gt;&quot;&amp;gt;Edit&amp;lt;/a&amp;gt;
+                        &amp;lt;a href=&quot;handler-categories.php?action=2&amp;amp;cat_id=&amp;lt;?php echo $row[&#39;cat_id&#39;]; ?&amp;gt;&quot;&amp;gt;Delete&amp;lt;/a&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                    &amp;lt;div class=&quot;column two&quot;&amp;gt;&amp;lt;?php echo $row[&#39;cat_name&#39;]; ?&amp;gt;&amp;lt;/div&amp;gt;
+                    &amp;lt;div class=&quot;column two&quot;&amp;gt;&amp;lt;?php echo $row[&#39;cat_slug&#39;]; ?&amp;gt;&amp;lt;/div&amp;gt;
+                    &amp;lt;div class=&quot;column two&quot;&amp;gt;&amp;lt;?php echo $row[&#39;sta_name&#39;]; ?&amp;gt;&amp;lt;/div&amp;gt;
+                    &amp;lt;div class=&quot;column two&quot;&amp;gt;&amp;lt;?php echo $row[&#39;cat_order&#39;]; ?&amp;gt;&amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+        &amp;lt;?php
+                }
+            }
+            else {
+                echo &quot;FAIL&quot;;
+            }
+        ?&amp;gt;
+&amp;lt;/div&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;JQuery &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(document).ready(function(){
+  $(&#39;#a-list&#39;).sortable({
+    connectWith: &#39;.connected&#39;,
+    placeholder: &#39;empty&#39;,
+    receive: function(event,ui) { adopt(this); },
+    remove: function(event,ui) { orphan(this); },    
+  }).disableSelection();
+});
+
+function adopt(which) {
+  if ($(which).hasClass(&#39;empty&#39;)) {
+    $(which).removeClass(&#39;empty&#39;).find(&#39;.empty&#39;).remove();
+  }
+}
+
+function orphan(which) {
+  if ($(which).children().length == 0) {
+    $(which).append($(&#39;&amp;lt;div class=&quot;empty&quot;&amp;gt;empty&amp;lt;/div&amp;gt;&#39;)).addClass(&#39;empty&#39;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;TABLE BEFORE DROP&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cat_id  cat_name  cat_slug  cat_status  cat_order
+1       lorem 1   lorem-1   pending     1
+2       lorem 2   lorem-2   pending     2
+3       lorem 3   lorem-3   pending     3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;TABLE AFTER DROP&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cat_id  cat_name  cat_slug  cat_status  cat_order
+1       lorem 1   lorem-1   pending     1
+3       lorem 3   lorem-3   pending     3
+2       lorem 2   lorem-2   pending     2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;WHAT IM LOOKING FOR&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cat_id  cat_name  cat_slug  cat_status  cat_order
+1       lorem 1   lorem-1   pending     1
+3       lorem 3   lorem-3   pending     2
+2       lorem 2   lorem-2   pending     3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any help would be very much appreciated.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15556640</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Google BigQuery - Create table using Java</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-bigquery"/>
+        <author>
+            <name>user2141534</name>
+            <uri>http://stackoverflow.com/users/0</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15556640/google-bigquery-create-table-using-java" />
+        <published>2013-03-21T19:45:26Z</published>
+        <updated>2013-03-21T23:39:58Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Are there any examples about how to create a table with few columns using Java BigQuery API? I am able to get a connection to BigQuery and perform some queries on the public datasets so my next step was to create my own dataset with a table, populate it and then perform some queries. I would appreciate any help!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15553784</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">Are there android intents to add data to Google keep</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="google"/><category scheme="http://stackoverflow.com/feeds/tags" term="android-intent"/><category scheme="http://stackoverflow.com/feeds/tags" term="keep-alive"/>
+        <author>
+            <name>Anno2001</name>
+            <uri>http://stackoverflow.com/users/1201015</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15553784/are-there-android-intents-to-add-data-to-google-keep" />
+        <published>2013-03-21T17:06:10Z</published>
+        <updated>2013-03-21T23:40:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Are there android intents to add data to Google keep**?&lt;/p&gt;
+
+&lt;p&gt;** &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.google.android.keep&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=com.google.android.keep&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15553448</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Button with popup showed below</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="button"/><category scheme="http://stackoverflow.com/feeds/tags" term="popup"/><category scheme="http://stackoverflow.com/feeds/tags" term="javafx"/>
+        <author>
+            <name>plancys</name>
+            <uri>http://stackoverflow.com/users/1348305</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15553448/button-with-popup-showed-below" />
+        <published>2013-03-21T16:50:54Z</published>
+        <updated>2013-03-21T23:40:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to create specific component in JavaFX. Button which show poupup after onClick event.&lt;/p&gt;
+
+&lt;p&gt;Scnenario:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;We click button&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Popup Shows below button (like on the picture)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/eoiKD.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15552188</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Ext.js Category axis vertical labels not centered after rotation</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="extjs"/><category scheme="http://stackoverflow.com/feeds/tags" term="sencha-charts"/>
+        <author>
+            <name>wilsjd</name>
+            <uri>http://stackoverflow.com/users/1149739</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15552188/ext-js-category-axis-vertical-labels-not-centered-after-rotation" />
+        <published>2013-03-21T15:51:34Z</published>
+        <updated>2013-03-21T23:40:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Similar to &lt;a href=&quot;http://www.sencha.com/forum/showthread.php?238417-Chart-Category-Labels-not-centered-after-rotation&amp;amp;p=949938#post949938&quot; rel=&quot;nofollow&quot;&gt;this&lt;/a&gt; post in the Sencha forums, how do I get the labels in this (image below) to show up vertically &lt;strong&gt;and&lt;/strong&gt; line up with the grid? Seems like this should be charting basics, but maybe I missed something.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/hLQDQ.png&quot; alt=&quot;Labels don&#39;t match the grid on the x-axis&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the jsFiddle with the code: &lt;a href=&quot;http://jsfiddle.net/wilsjd/kg6Ps/8/&quot; rel=&quot;nofollow&quot;&gt;http://jsfiddle.net/wilsjd/kg6Ps/8/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Ext.require(&#39;Ext.chart.*&#39;);
+
+Ext.require([&#39;Ext.Window&#39;, &#39;Ext.fx.target.Sprite&#39;, &#39;Ext.layout.container.Fit&#39;, &#39;Ext.window.MessageBox&#39;]);
+
+
+Ext.define(&#39;CPI&#39;, {
+    extend: &#39;Ext.data.Model&#39;,
+    fields: [{
+        name: &#39;ReportingPeriod&#39;,
+        type: &#39;string&#39;
+    }, {
+        name: &#39;PeriodAmount&#39;,
+        type: &#39;decimal&#39;
+    }, {
+        name: &#39;CumulativeAmount&#39;,
+        type: &#39;decimal&#39;
+    }]
+});
+
+var store1 = Ext.create(&#39;Ext.data.Store&#39;, {
+    model: &#39;CPI&#39;,
+    data: [{
+        ReportingPeriod: &#39;Period1&#39;,
+        PeriodAmount: 1,
+        CumulativeAmount: 1.2,
+        Target: 1
+    }, {
+        ReportingPeriod: &#39;Period2&#39;,
+        PeriodAmount: 1.2,
+        CumulativeAmount: .2,
+        Target: 1
+    }, {
+        ReportingPeriod: &#39;Period9&#39;,
+        PeriodAmount: 1.5,
+        CumulativeAmount: 0.8,
+        Target: 1
+    }]
+});
+
+var chart = Ext.create(&#39;Ext.chart.Chart&#39;, {
+    style: &#39;background:#fff&#39;,
+    animate: true,
+    theme: &#39;Category1&#39;,
+    store: store1,
+    width: 300,
+    height: 300,
+
+    renderTo: &#39;chart&#39;,
+    axes: [{
+        type: &#39;Numeric&#39;,
+        position: &#39;left&#39;,
+        fields: [&#39;PeriodAmount&#39;, &#39;CumulativeAmount&#39;],
+        title: &#39;CPI&#39;                       
+    },{
+        type: &#39;Category&#39;,
+        position: &#39;bottom&#39;,
+        fields: [&#39;ReportingPeriod&#39;],
+        title: &#39;Reporting Period&#39;,
+         label   : {
+             rotation:{degrees:270}
+
+        }
+
+    }],
+    series: [{
+        type: &#39;column&#39;,
+        axis: &#39;left&#39;,
+        xField: &#39;ReportingPeriod&#39;,
+        yField: &#39;PeriodAmount&#39;, 
+        renderer: function(sprite, record, attr, index, store) {
+            var value = 0;
+            if(record.get(&#39;PeriodAmount&#39;)&amp;gt;=1){
+                value = 0;
+            }else{
+                value = 1;
+            }
+                var color = [&#39;rgb(127, 255, 127)&#39;, 
+                             &#39;rgb(255, 0, 50)&#39;
+                             ][value];
+                return Ext.apply(attr, {
+                    fill: color
+                });
+            }
+    }, {
+        type: &#39;line&#39;,
+        axis: &#39;left&#39;,
+        xField: &#39;ReportingPeriod&#39;,
+        yField: &#39;CumulativeAmount&#39;,
+        markerConfig: {
+                type: &#39;circle&#39;,
+                size: 4,
+                radius: 4,
+                &#39;stroke-width&#39;: 0,
+
+            }
+
+
+    }]
+});
+
+chart.show();
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15543082</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">REST API Explore: How to get same list ordered like the search on Foursquare Website?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="api"/><category scheme="http://stackoverflow.com/feeds/tags" term="order"/><category scheme="http://stackoverflow.com/feeds/tags" term="foursquare"/><category scheme="http://stackoverflow.com/feeds/tags" term="result"/>
+        <author>
+            <name>tom</name>
+            <uri>http://stackoverflow.com/users/2194185</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15543082/rest-api-explore-how-to-get-same-list-ordered-like-the-search-on-foursquare-web" />
+        <published>2013-03-21T08:59:45Z</published>
+        <updated>2013-03-21T23:40:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using the REST API (venues platform) to get a list of the top 5 venues per destination and category, like they are listed in the search results on the foursquare website.&lt;/p&gt;
+
+&lt;p&gt;For example i do the following request using the explore api endpoint:
+&lt;a href=&quot;https://api.foursquare.com/v2/venues/explore?near=zurich,CH&amp;amp;query=College&quot; rel=&quot;nofollow&quot;&gt;https://api.foursquare.com/v2/venues/explore?near=zurich,CH&amp;amp;query=College&lt;/a&gt; %26 University&lt;/p&gt;
+
+&lt;p&gt;I&#39;m using the apias a not authenticated. I do not pass a radius, to get the default radius.&lt;/p&gt;
+
+&lt;p&gt;Now the results from the api is as follows:
+1. ETH H&#246;nggerberg HIL
+2. Technopark
+3. Kantonsschule Stadelhofen
+4. Z&#252;rcher Hochschule der K&#252;nste, Departement Musik
+5. Klubschule Migros&lt;/p&gt;
+
+&lt;p&gt;When i search on the Foursquare Website as follow (not logged in!):
+&lt;a href=&quot;https://foursquare.com/explore?near=Zurich%2C%20CH&amp;amp;q=College%20%26%20University&quot; rel=&quot;nofollow&quot;&gt;https://foursquare.com/explore?near=Zurich%2C%20CH&amp;amp;q=College%20%26%20University&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I get the following results listed on the website:
+1. SBB Digital
+2. Technopark
+3. ETH H&#246;nggerberg HIL
+4. EF Education First
+5. Klubschule Migros&lt;/p&gt;
+
+&lt;p&gt;Is it possible to get the same list, as shown on the website (in the same order) also from the api? If yes? how can i do that? how do i call the api or how do i have to sort the results from the api to get the same list? &lt;/p&gt;
+
+&lt;p&gt;First i tried to sort the api results by the rating field, but that doesn&#39;t do the trick at all. Because in this example no one of the first 30 results does have any rating.&lt;/p&gt;
+
+&lt;p&gt;Thank you in advance for your help!
+Greets
+Tom&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15541204</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to display video duration on onmouseover over video thumbs?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/>
+        <author>
+            <name>user1788736</name>
+            <uri>http://stackoverflow.com/users/1788736</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15541204/how-to-display-video-duration-on-onmouseover-over-video-thumbs" />
+        <published>2013-03-21T06:54:09Z</published>
+        <updated>2013-03-21T23:40:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I got a page with video thumbs. I wonder how i can display video duration onmouseover (&lt;strong&gt;display the duration in a blackbox in lower left corner of image&lt;/strong&gt;)the thumb image and hide it again onmouseout? currently as you see in demo the video duration is visiable at all time but i want to make it visiable only when user puts the mouse over the thumb image . I be happy if you guys help me do this task.Thanks in advance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;demo on fiddle :&lt;/strong&gt;&lt;a href=&quot;http://jsfiddle.net/shodaburp/k6yAQ/1/&quot; rel=&quot;nofollow&quot;&gt;http://jsfiddle.net/shodaburp/k6yAQ/1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;ListSlideDown&quot;&amp;gt;
+    &amp;lt;div class=&quot;ListFadeIn&quot;&amp;gt;
+        &amp;lt;div class=&quot;CurrentPage&quot;&amp;gt;1&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;IsLastPage&quot;&amp;gt;0&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;SortColumn&quot;&amp;gt;latest&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;Item ItemLeft&quot;&amp;gt;
+            &amp;lt;div class=&quot;Clipping&quot;&amp;gt;
+                &amp;lt;a class=&quot;ImageLink&quot; href=&quot;/videos/vid1&quot; title=&quot;video1&quot;&amp;gt;
+                    &amp;lt;img class=&quot;ItemImage&quot; src=&quot;http://img.youtube.com/vi/bQVoAWSP7k4/0.jpg&quot; alt=&quot;video 1&quot; /&amp;gt;
+                    &amp;lt;img class=&quot;OverlayIcon&quot; src=&quot;http://shodaburp.com/jsfiddle/playbutton.png&quot; alt=&quot;&quot; /&amp;gt;
+                &amp;lt;/a&amp;gt;
+                &amp;lt;a class=&quot;DurationInfo&quot; onmouseover=&quot;showDuration2(this);&quot; onmouseout=&quot;hideDuration2(this);&quot; href=&quot;/videos/vid1&quot;&amp;gt;&amp;lt;span class=&quot;Text&quot;&amp;gt;51:57&amp;lt;/span&amp;gt;
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;Title&quot;&amp;gt;
+                &amp;lt;a href=&quot;/videos/vid1&quot; title=&quot;video 1&quot;&amp;gt;video 1&amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;VideoAge&quot;&amp;gt;1 day before&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;PlaysInfo&quot;&amp;gt;broadcast: 604&amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;Item ItemMiddle&quot;&amp;gt;
+            &amp;lt;div class=&quot;Clipping&quot;&amp;gt;
+                &amp;lt;a class=&quot;ImageLink&quot; href=&quot;/videos/vid2&quot; title=&quot;video2&quot;&amp;gt;
+                    &amp;lt;img class=&quot;ItemImage&quot; src=&quot;http://img.youtube.com/vi/bQVoAWSP7k4/0.jpg&quot; alt=&quot;video 2&quot; /&amp;gt;
+                    &amp;lt;img class=&quot;OverlayIcon&quot; src=&quot;http://shodaburp.com/jsfiddle/playbutton.png&quot; alt=&quot;&quot; /&amp;gt;
+                &amp;lt;/a&amp;gt;
+                &amp;lt;a class=&quot;DurationInfo&quot; onmouseover=&quot;showDuration2(this);&quot; onmouseout=&quot;hideDuration2(this);&quot; href=&quot;/videos/vid2&quot;&amp;gt;&amp;lt;span class=&quot;Text&quot;&amp;gt;12:23&amp;lt;/span&amp;gt;
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;Title&quot;&amp;gt;
+                &amp;lt;a href=&quot;/videos/vid2&quot; title=&quot;video 2&quot;&amp;gt;video 2&amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;VideoAge&quot;&amp;gt;1 day before&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;PlaysInfo&quot;&amp;gt;broadcast: 7531&amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;Item ItemRight&quot;&amp;gt;
+            &amp;lt;div class=&quot;Clipping&quot;&amp;gt;
+                &amp;lt;a class=&quot;ImageLink&quot; href=&quot;/videos/vid3&quot; title=&quot;video3‌&quot;&amp;gt;
+                    &amp;lt;img class=&quot;ItemImage&quot; src=&quot;http://img.youtube.com/vi/bQVoAWSP7k4/0.jpg&quot; alt=&quot;video3‌&quot; /&amp;gt;
+                    &amp;lt;img class=&quot;OverlayIcon&quot; src=&quot;http://shodaburp.com/jsfiddle/playbutton.png&quot; alt=&quot;&quot; /&amp;gt;
+                &amp;lt;/a&amp;gt;
+                &amp;lt;a class=&quot;DurationInfo&quot; onmouseover=&quot;showDuration2(this);&quot; onmouseout=&quot;hideDuration2(this);&quot; href=&quot;/videos/vid3&quot;&amp;gt;&amp;lt;span class=&quot;Text&quot;&amp;gt;17:36&amp;lt;/span&amp;gt;
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;Title&quot;&amp;gt;
+                &amp;lt;a href=&quot;/videos/vid3&quot; title=&quot;video 3‌&quot;&amp;gt;video 3‌&amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;VideoAge&quot;&amp;gt;1 day before&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;PlaysInfo&quot;&amp;gt;broadcast: 996&amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;LineSpacer3&quot;&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;Item ItemLeft&quot;&amp;gt;
+            &amp;lt;div class=&quot;Clipping&quot;&amp;gt;
+                &amp;lt;a class=&quot;ImageLink&quot; href=&quot;/videos/vid4&quot; title=&quot;video4&quot;&amp;gt;
+                    &amp;lt;img class=&quot;ItemImage&quot; src=&quot;http://img.youtube.com/vi/bQVoAWSP7k4/0.jpg&quot; alt=&quot;video 4&quot; /&amp;gt;
+                    &amp;lt;img class=&quot;OverlayIcon&quot; src=&quot;http://shodaburp.com/jsfiddle/playbutton.png&quot; alt=&quot;&quot; /&amp;gt;
+                &amp;lt;/a&amp;gt;
+                &amp;lt;a class=&quot;DurationInfo&quot; onmouseover=&quot;showDuration2(this);&quot; onmouseout=&quot;hideDuration2(this);&quot; href=&quot;/videos/vid4&quot;&amp;gt;&amp;lt;span class=&quot;Text&quot;&amp;gt;31:57&amp;lt;/span&amp;gt;
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;Title&quot;&amp;gt;
+                &amp;lt;a href=&quot;/videos/vid4&quot; title=&quot;video 4&quot;&amp;gt;video 4&amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;VideoAge&quot;&amp;gt;1 day before&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;PlaysInfo&quot;&amp;gt;broadcast: 604&amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;Item ItemMiddle&quot;&amp;gt;
+            &amp;lt;div class=&quot;Clipping&quot;&amp;gt;
+                &amp;lt;a class=&quot;ImageLink&quot; href=&quot;/video/video5&quot; title=&quot;video5&quot;&amp;gt;
+                    &amp;lt;img class=&quot;ItemImage&quot; src=&quot;http://img.youtube.com/vi/bQVoAWSP7k4/0.jpg&quot; alt=&quot;video 5&quot; /&amp;gt;
+                    &amp;lt;img class=&quot;OverlayIcon&quot; src=&quot;http://shodaburp.com/jsfiddle/playbutton.png&quot; alt=&quot;&quot; /&amp;gt;
+                &amp;lt;/a&amp;gt;
+                &amp;lt;a class=&quot;DurationInfo&quot; onmouseover=&quot;showDuration2(this);&quot; onmouseout=&quot;hideDuration2(this);&quot; href=&quot;/videos/vid5&quot;&amp;gt;&amp;lt;span class=&quot;Text&quot;&amp;gt;2:23&amp;lt;/span&amp;gt;
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;Title&quot;&amp;gt;
+                &amp;lt;a href=&quot;/videos/vid2&quot; title=&quot;video 5&quot;&amp;gt;video 5&amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;VideoAge&quot;&amp;gt;1 day before&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;PlaysInfo&quot;&amp;gt;broadcast: 2531&amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;Item ItemRight&quot;&amp;gt;
+            &amp;lt;div class=&quot;Clipping&quot;&amp;gt;
+                &amp;lt;a class=&quot;ImageLink&quot; href=&quot;/videos/vid6&quot; title=&quot;video6‌&quot;&amp;gt;
+                    &amp;lt;img class=&quot;ItemImage&quot; src=&quot;http://img.youtube.com/vi/bQVoAWSP7k4/0.jpg&quot; alt=&quot;video6‌&quot; /&amp;gt;
+                    &amp;lt;img class=&quot;OverlayIcon&quot; src=&quot;http://shodaburp.com/jsfiddle/playbutton.png&quot; alt=&quot;&quot; /&amp;gt;
+                &amp;lt;/a&amp;gt;
+                &amp;lt;a class=&quot;DurationInfo&quot; onmouseover=&quot;showDuration2(this);&quot; onmouseout=&quot;hideDuration2(this);&quot; href=&quot;/videos/vid6&quot;&amp;gt;&amp;lt;span class=&quot;Text&quot;&amp;gt;12:36&amp;lt;/span&amp;gt;
+                &amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;Title&quot;&amp;gt;
+                &amp;lt;a href=&quot;/videos/vid6&quot; title=&quot;video 6‌&quot;&amp;gt;video 6‌&amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;VideoAge&quot;&amp;gt;1 day before&amp;lt;/div&amp;gt;
+            &amp;lt;div class=&quot;PlaysInfo&quot;&amp;gt;broadcast: 196&amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;LineSpacer3&quot;&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;BottomFix&quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15450328</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Androidplot - background and ranges</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="androidplot"/>
+        <author>
+            <name>NickF</name>
+            <uri>http://stackoverflow.com/users/1227801</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15450328/androidplot-background-and-ranges" />
+        <published>2013-03-16T14:16:29Z</published>
+        <updated>2013-03-21T23:40:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m new to that library. I&#39;m trying to Create the following plot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/Dx95k.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Meanwhile I have the next one:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/0DQgy.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;My questions:&lt;/em&gt;&lt;/strong&gt;   NOTE: The colors doesn&#39;t matters&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;How do I get rid of the black area (where was lables on range domain and title)
+and center the plot (like in the first picture)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How to add ranges as in the first picture ?  (x:[1-7] y:[0-4500])&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make the same grid as in the first picture&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;My code:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class MainActivity extends Activity {
+
+private XYPlot mySimpleXYPlot;
+
+@Override
+public void onCreate(Bundle savedInstanceState)
+{
+
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+ // Create a couple arrays of y-values to plot:
+    Number[] days =   { 1  , 2   , 3   , 4   , 5   , 6   , 7 };
+    Number[] values = { 380, 1433, 1965, 3200, 3651, 3215, 3217 };
+
+    // initialize our XYPlot reference:
+    mySimpleXYPlot = (XYPlot) findViewById(R.id.mySimpleXYPlot);
+    mySimpleXYPlot.getBackgroundPaint().setColor(Color.WHITE);
+    mySimpleXYPlot.setBorderStyle(XYPlot.BorderStyle.NONE, null, null);
+    mySimpleXYPlot.getGraphWidget().getBackgroundPaint().setColor(Color.WHITE);
+    mySimpleXYPlot.getGraphWidget().getGridBackgroundPaint().setColor(Color.WHITE);
+
+
+
+    // Domain
+    mySimpleXYPlot.getGraphWidget().setDomainLabelPaint(null);
+    mySimpleXYPlot.getGraphWidget().setDomainOriginLinePaint(null);
+    mySimpleXYPlot.setDomainStep(XYStepMode.INCREMENT_BY_VAL, days.length);     
+    mySimpleXYPlot.setDomainValueFormat(new DecimalFormat(&quot;0&quot;));
+
+
+    //Range
+    mySimpleXYPlot.getGraphWidget().setRangeOriginLinePaint(null);
+    mySimpleXYPlot.setRangeStep(XYStepMode.SUBDIVIDE, values.length);
+    mySimpleXYPlot.setRangeValueFormat(new DecimalFormat(&quot;0&quot;));
+
+
+    //Remove legend
+    mySimpleXYPlot.getLayoutManager().remove(mySimpleXYPlot.getLegendWidget());
+    mySimpleXYPlot.getLayoutManager().remove(mySimpleXYPlot.getDomainLabelWidget());
+    mySimpleXYPlot.getLayoutManager().remove(mySimpleXYPlot.getRangeLabelWidget());
+    mySimpleXYPlot.getLayoutManager().remove(mySimpleXYPlot.getTitleWidget());
+
+    // Turn the above arrays into XYSeries&#39;:
+    XYSeries series1 = new SimpleXYSeries(
+            Arrays.asList(days),          
+            Arrays.asList(values), 
+            &quot;Series1&quot;);                             // Set the display title of the series
+
+    // Create a formatter to use for drawing a series using LineAndPointRenderer:
+    LineAndPointFormatter series1Format = new LineAndPointFormatter(
+            Color.rgb(0, 200, 0),                   // line color
+            Color.rgb(0, 100, 0),                   // point color
+            Color.CYAN);                            // fill color 
+
+ // setup our line fill paint to be a slightly transparent gradient:
+    Paint lineFill = new Paint();
+    lineFill.setAlpha(200);
+    lineFill.setShader(new LinearGradient(0, 0, 0, 250, Color.WHITE, Color.GREEN, Shader.TileMode.MIRROR));
+
+    series1Format.setFillPaint(lineFill);
+
+    // add a new series&#39; to the xyplot:
+    mySimpleXYPlot.addSeries(series1, series1Format);
+
+    // by default, AndroidPlot displays developer guides to aid in laying out your plot.
+    // To get rid of them call disableAllMarkup():
+    mySimpleXYPlot.disableAllMarkup();
+}
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15419788</id>
+        <re:rank scheme="http://stackoverflow.com">8</re:rank>
+        <title type="text">Maximizing difference between numbers in a sequence</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="algorithm"/><category scheme="http://stackoverflow.com/feeds/tags" term="language-agnostic"/><category scheme="http://stackoverflow.com/feeds/tags" term="recurrence-relation"/>
+        <author>
+            <name>pulagroasa</name>
+            <uri>http://stackoverflow.com/users/2171547</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15419788/maximizing-difference-between-numbers-in-a-sequence" />
+        <published>2013-03-14T20:44:03Z</published>
+        <updated>2013-03-21T23:40:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need some help in finding the general idea for an algorithm to solve the following problem. The problem has been given to me in an assignment. It looks like it should be solvable through a greedy method, but I can&#39;t figure out a simple solution. Here&#39;s the problem description:&lt;/p&gt;
+
+&lt;p&gt;You are given a sequence of &lt;strong&gt;N&lt;/strong&gt; numbers &lt;code&gt;a_1 ... a_n&lt;/code&gt; such that &lt;code&gt;0 = a_1 &amp;lt; a_2 &amp;lt; ... &amp;lt; a_n&lt;/code&gt;. You must eliminate &lt;em&gt;at most&lt;/em&gt; &lt;strong&gt;M&lt;/strong&gt; of these numbers such that the minimum difference  &lt;code&gt;a_i+1 - a_i&lt;/code&gt; between any two &lt;em&gt;consecutive&lt;/em&gt; numbers is maximized. &lt;/p&gt;
+
+&lt;p&gt;You may not eliminate the first and last elements, &lt;code&gt;a_0&lt;/code&gt; and &lt;code&gt;a_n&lt;/code&gt;. Also you must eliminate as few numbers as possible: if eliminating &lt;code&gt;M - 1&lt;/code&gt; you get the shortest distance to be &lt;code&gt;D&lt;/code&gt; and eliminating &lt;code&gt;M&lt;/code&gt; you still have the same minimum difference, you must not eliminate this last number.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m not asking for a complete solution to this problem. Only a few guidelines as to how the algorithm might look.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Some test samples. Keep in mind that there may be multiple valid solutions.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Remove at most 7 from:
+0 3 7 10 15 18 26 31 38 44 53 60 61 73 76 80 81 88 93 100
+
+Solution:
+0 7 15 26 31 38 44 53 60 73 80 88 93 100
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;pre&gt;&lt;code&gt;Remove at most 8 from:
+0 3 7 10 15 26 38 44 53 61 76 80 88 93 100
+
+Solution:
+0 15 38 53 76 88 100
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/11586206</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">FtpWebRequest &quot;The remote certificate is invalid according to the validation procedure&quot;</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ssl"/><category scheme="http://stackoverflow.com/feeds/tags" term="certificate"/><category scheme="http://stackoverflow.com/feeds/tags" term="invalid"/><category scheme="http://stackoverflow.com/feeds/tags" term="ftpwebrequest"/>
+        <author>
+            <name>John Smith</name>
+            <uri>http://stackoverflow.com/users/1368328</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/11586206/ftpwebrequest-the-remote-certificate-is-invalid-according-to-the-validation-pro" />
+        <published>2012-07-20T20:00:06Z</published>
+        <updated>2013-03-21T23:40:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a .NET client application that tries to ftp over a file to an ftp site which has a Self signed SSL certificate. This ftp site is running on Windows 7 Enterprise, IIS 7. I am getting the following error: &quot;The remote certificate is invalid according to the validation procedure&quot;.&lt;/p&gt;
+
+&lt;p&gt;I have tried installing the certificate in the trusted root certificates but that still does not work.&lt;/p&gt;
+
+&lt;p&gt;I have used the delegate call back in the code that is mentioned some of the posts here - it works. But I do not want to use that in my production code.&lt;/p&gt;
+
+&lt;p&gt;Also in production some of our customers are using self signed certificates.&lt;/p&gt;
+
+&lt;p&gt;Any ideas on how to fix this issue?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/8236210</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Rails 3, Rspec testing an XML API</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="post"/><category scheme="http://stackoverflow.com/feeds/tags" term="rspec"/><category scheme="http://stackoverflow.com/feeds/tags" term="rspec2"/>
+        <author>
+            <name>Mike</name>
+            <uri>http://stackoverflow.com/users/638672</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/8236210/rails-3-rspec-testing-an-xml-api" />
+        <published>2011-11-23T01:20:46Z</published>
+        <updated>2013-03-21T23:39:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have an API that expects/accepts in the body XML and can return json or XML. I&#39;m trying to test this with rspec.&lt;/p&gt;
+
+&lt;p&gt;To make the request I do the following in my spec:    &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;post &quot;/resources?auth_token=#{@user.authentication_token}&quot;, post_data, {
+    &quot;CONTENT_TYPE&quot; =&amp;gt; &#39;application/xml&#39;,
+    &quot;ACCEPT&quot; =&amp;gt; &#39;application/json&#39;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It works as expected until it gets to responding.It seems to be ignoring my ACCEPT header and returning an html document with a space as the body. I&#39;ve tested the API using a restclient with the same headers and it works fine. &lt;/p&gt;
+
+&lt;p&gt;Is there something I&#39;m missing here? On a side note... I can&#39;t figure out how to print the request headers in the controller which could be useful.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

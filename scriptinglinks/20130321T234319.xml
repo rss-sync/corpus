@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Thu, 21 Mar 2013 23:03:55 GMT</pubDate>
+		<lastBuildDate>Thu, 21 Mar 2013 23:03:55 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-21</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/21/2013; 7:03:55 PM</microblog:localTime>
+		<item>
+			<description>Thug mentality: How two dick jokes exploded into DDoS and death threats.</description>
+			<link>http://3j6.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 23:03:54 GMT</pubDate>
+			<guid>http://3j6.r2.ly/?id=15729</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/21/4132752/thug-mentality-how-two-dick-jokes-exploded-into-ddos-and-death-threats</microblog:linkFull>
+			</item>
+		<item>
+			<description>Flickr: Microsoft&apos;s opinion of Google software.</description>
+			<link>http://3j4.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 16:26:38 GMT</pubDate>
+			<guid>http://3j4.r2.ly/?id=15728</guid>
+			<microblog:linkFull>http://www.flickr.com/photos/scriptingnews/8578092598/in/photostream/lightbox/</microblog:linkFull>
+			<microblog:readCount>672</microblog:readCount>
+			</item>
+		<item>
+			<description>James Fallows: A Problem Google Has Created for Itself.</description>
+			<link>http://3j1.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 14:20:05 GMT</pubDate>
+			<guid>http://3j1.r2.ly/?id=15727</guid>
+			<microblog:linkFull>http://www.theatlantic.com/technology/archive/2013/03/a-problem-google-has-created-for-itself/274232/</microblog:linkFull>
+			<microblog:readCount>665</microblog:readCount>
+			</item>
+		<item>
+			<description>Post &quot;Good Google&quot;, Who Will Defend The Open Web?</description>
+			<link>http://3j0.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 13:25:54 GMT</pubDate>
+			<guid>http://3j0.r2.ly/?id=15726</guid>
+			<microblog:linkFull>http://fogbeam.blogspot.com/2013/03/post-good-google-who-will-defend-open.html</microblog:linkFull>
+			<microblog:readCount>858</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Google is no good at being evil.</description>
+			<link>http://3iz.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 21 Mar 2013 12:54:36 GMT</pubDate>
+			<guid>http://3iz.r2.ly/?id=15725</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/googleIsNoGoodAtBeingEvil</microblog:linkFull>
+			<microblog:readCount>1923</microblog:readCount>
+			</item>
+		<item>
+			<description>British Airways to hold a hackathon on a plane above the Atlantic ocean.</description>
+			<link>http://3iy.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 11:15:44 GMT</pubDate>
+			<guid>http://3iy.r2.ly/?id=15724</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/21/4130716/british-airways-ungrounded-hackathon-on-a-plane</microblog:linkFull>
+			<microblog:readCount>604</microblog:readCount>
+			</item>
+		<item>
+			<description>Google Alerts Broken, Now Useless To Financial Marketers. (I&apos;ve noticed this too.)</description>
+			<link>http://3ix.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 11:00:04 GMT</pubDate>
+			<guid>http://3ix.r2.ly/?id=15723</guid>
+			<microblog:linkFull>http://thefinancialbrand.com/28346/google-alerts-broken/</microblog:linkFull>
+			<microblog:readCount>636</microblog:readCount>
+			</item>
+		<item>
+			<description>At Penn Station, Seizing a Chance to Right a Wrong.</description>
+			<link>http://3iw.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 10:55:30 GMT</pubDate>
+			<guid>http://3iw.r2.ly/?id=15722</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/21/arts/design/at-penn-station-seizing-a-chance-to-right-a-wrong.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>550</microblog:readCount>
+			</item>
+		<item>
+			<description>Burns is the evil owner of the Springfield Nuclear Power Plant and is Homer Simpson&apos;s boss.</description>
+			<link>http://3iu.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 03:37:41 GMT</pubDate>
+			<guid>http://3iu.r2.ly/?id=15721</guid>
+			<microblog:linkFull>http://en.wikipedia.org/wiki/Mr._Burns</microblog:linkFull>
+			<microblog:readCount>560</microblog:readCount>
+			</item>
+		<item>
+			<description>Atlantic: Accidental Aaron Swartz Hoax Almost Cancelled Class at MIT Today.</description>
+			<link>http://3it.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 03:11:55 GMT</pubDate>
+			<guid>http://3it.r2.ly/?id=15720</guid>
+			<microblog:linkFull>http://www.theatlanticwire.com/national/2013/03/aaron-swartz-hoax-mit-classes/63339/</microblog:linkFull>
+			<microblog:readCount>576</microblog:readCount>
+			</item>
+		<item>
+			<description>Om: Sorry Google; you can Keep it to yourself.</description>
+			<link>http://3is.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 03:07:05 GMT</pubDate>
+			<guid>http://3is.r2.ly/?id=15719</guid>
+			<microblog:linkFull>http://gigaom.com/2013/03/20/sorry-google-you-can-keep-it-to-yourself/</microblog:linkFull>
+			<microblog:readCount>2109</microblog:readCount>
+			</item>
+		<item>
+			<description>YouTube hits a billion monthly viewers.</description>
+			<link>http://3iq.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 01:31:15 GMT</pubDate>
+			<guid>http://3iq.r2.ly/?id=15718</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/20/4129808/youtube-hits-a-billion-monthly-viewers</microblog:linkFull>
+			<microblog:readCount>487</microblog:readCount>
+			</item>
+		<item>
+			<description>Google Keep note-taking service officially launches on web and Android.</description>
+			<link>http://3in.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 20:56:17 GMT</pubDate>
+			<guid>http://3in.r2.ly/?id=15717</guid>
+			<microblog:linkFull>http://www.engadget.com/2013/03/20/google-keep-note-taking-service-officially-launches-on-web-and-a/</microblog:linkFull>
+			<microblog:readCount>664</microblog:readCount>
+			</item>
+		<item>
+			<description>Knicks&apos; Carmelo Anthony Says He Is Ready to Return.</description>
+			<link>http://3im.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 19:56:26 GMT</pubDate>
+			<guid>http://3im.r2.ly/?id=15716</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/21/sports/basketball/knicks-carmelo-anthony-says-he-is-ready-to-return.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>457</microblog:readCount>
+			</item>
+		<item>
+			<description>Man Who Got Porn Site Logos Tattooed to His Face Now Somehow Regrets That Decision.</description>
+			<link>http://3ik.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 18:22:33 GMT</pubDate>
+			<guid>http://3ik.r2.ly/?id=15715</guid>
+			<microblog:linkFull>http://betabeat.com/2013/03/billy-gibby-face-tattoos-hostgator-dotcom-regret/</microblog:linkFull>
+			<microblog:readCount>965</microblog:readCount>
+			</item>
+		<item>
+			<description>Also from 2007: Why Feedburner is trouble (Scripting News).</description>
+			<link>http://3ij.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 17:40:30 GMT</pubDate>
+			<guid>http://3ij.r2.ly/?id=15714</guid>
+			<microblog:linkFull>http://scripting.com/stories/2007/07/21/whyFeedburnerIsTrouble.html</microblog:linkFull>
+			<microblog:readCount>433</microblog:readCount>
+			</item>
+		<item>
+			<description>2007: What about Feedburner? (Scripting News).</description>
+			<link>http://3ii.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 17:37:53 GMT</pubDate>
+			<guid>http://3ii.r2.ly/?id=15713</guid>
+			<microblog:linkFull>http://scripting.com/stories/2007/08/01/whatAboutFeedburner.html</microblog:linkFull>
+			<microblog:readCount>469</microblog:readCount>
+			</item>
+		<item>
+			<description>Voyager craft &apos;exits&apos; Solar System.</description>
+			<link>http://3ih.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 17:18:14 GMT</pubDate>
+			<guid>http://3ih.r2.ly/?id=15712</guid>
+			<microblog:linkFull>http://www.bbc.co.uk/news/science-environment-21866532</microblog:linkFull>
+			<microblog:readCount>694</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: I vote for leaving off the at-sign if you&apos;re saying trash about a celeb.</description>
+			<link>http://3ig.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 20 Mar 2013 14:46:26 GMT</pubDate>
+			<guid>http://3ig.r2.ly/?id=15711</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/twitterquette</microblog:linkFull>
+			<microblog:readCount>2253</microblog:readCount>
+			</item>
+		<item>
+			<description>Doc Searls on Steve Jobs. Written in 1997. Always worth a read when you&apos;re puzzled by something Apple does.</description>
+			<link>http://1go.r2.ly/</link>
+			<pubDate>Wed, 20 Mar 2013 14:31:15 GMT</pubDate>
+			<guid>http://1go.r2.ly/?id=15710</guid>
+			<microblog:linkFull>http://scripting.com/davenet/stories/DocSearlsonSteveJobs.html</microblog:linkFull>
+			<microblog:readCount>2805</microblog:readCount>
+			</item>
+		</channel>
+	</rss>
