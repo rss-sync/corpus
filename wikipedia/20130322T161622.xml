@@ -1,0 +1,778 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="https://bits.wikimedia.org/static-1.21wmf11/skins/common/feed.css?303-4"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+		<id>https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;feed=atom&amp;action=history</id>
+		<title>Template:In the news - Revision history</title>
+		<link rel="self" type="application/atom+xml" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;feed=atom&amp;action=history"/>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;action=history"/>
+		<updated>2013-03-22T16:16:22Z</updated>
+		<subtitle>Revision history for this page on the wiki</subtitle>
+		<generator>MediaWiki 1.21wmf11</generator>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546204276&amp;oldid=prev</id>
+		<title>David Levy: consistent spelling</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546204276&amp;oldid=prev"/>
+				<updated>2013-03-22T06:20:47Z</updated>
+		
+		<summary type="html">&lt;p&gt;consistent spelling&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 06:20, 22 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 2:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 2:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = Robinson Cano August 28, 2011 cropped.jpg&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = Robinson Cano August 28, 2011 cropped.jpg&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = Robinson &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Cano&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = Robinson &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Canó&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = Robinson Cano August 28, 2011.jpg&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = Robinson Cano August 28, 2011.jpg&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Robinson &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Cano&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Robinson &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Canó&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} The [[2013 World Baseball Classic|World Baseball Classic]] concludes with the [[Dominican Republic national baseball team|Dominican Republic]] '''[[2013 World Baseball Classic – Finals|defeating]]''' [[Puerto Rico national baseball team|Puerto Rico]] in the final ''([[Most Valuable Player|MVP]] [[Robinson Canó]] pictured).''&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} The [[2013 World Baseball Classic|World Baseball Classic]] concludes with the [[Dominican Republic national baseball team|Dominican Republic]] '''[[2013 World Baseball Classic – Finals|defeating]]''' [[Puerto Rico national baseball team|Puerto Rico]] in the final ''([[Most Valuable Player|MVP]] [[Robinson Canó]] pictured).''&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:546203267:newid:546204276 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>David Levy</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546203267&amp;oldid=prev</id>
+		<title>David Levy: replaced image; tweaked 2013 World Baseball Classic – Finals item; separated sport items</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546203267&amp;oldid=prev"/>
+				<updated>2013-03-22T06:14:27Z</updated>
+		
+		<summary type="html">&lt;p&gt;replaced image; tweaked &lt;a href=&quot;/wiki/2013_World_Baseball_Classic_%E2%80%93_Finals&quot; title=&quot;2013 World Baseball Classic – Finals&quot;&gt;2013 World Baseball Classic – Finals&lt;/a&gt; item; separated sport items&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 06:14, 22 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robsinson&lt;/span&gt; Cano &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Cropped&lt;/span&gt;.jpg&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robinson&lt;/span&gt; Cano &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;August 28, 2011 cropped&lt;/span&gt;.jpg&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = Robinson Cano &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;holding&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;bat&lt;/span&gt; 2011.jpg&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = Robinson Cano &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;August&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;28,&lt;/span&gt; 2011.jpg&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} The [[2013 World Baseball Classic|World Baseball Classic]] concludes with the [[Dominican Republic national baseball team|Dominican Republic]] '''[[2013 World Baseball Classic – Finals|defeating]]''' [[Puerto Rico national baseball team|Puerto Rico]] in the final ''(Most Valuable Player [[Robinson Canó]] pictured).''&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} The [[2013 World Baseball Classic|World Baseball Classic]] concludes with the [[Dominican Republic national baseball team|Dominican Republic]] '''[[2013 World Baseball Classic – Finals|defeating]]''' [[Puerto Rico national baseball team|Puerto Rico]] in the final ''(&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;[[&lt;/span&gt;Most Valuable Player&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;|MVP]]&lt;/span&gt; [[Robinson Canó]] pictured).''&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in a Singapore hospital at the age of 84.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in a Singapore hospital at the age of 84.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:546005118:newid:546203267 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>David Levy</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546005118&amp;oldid=prev</id>
+		<title>Jayron32: picture cleanup, added cropped version.</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546005118&amp;oldid=prev"/>
+				<updated>2013-03-21T15:34:25Z</updated>
+		
+		<summary type="html">&lt;p&gt;picture cleanup, added cropped version.&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:34, 21 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robinson&lt;/span&gt; Cano &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;holding bat 2011&lt;/span&gt;.jpg&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robsinson&lt;/span&gt; Cano &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Cropped&lt;/span&gt;.jpg&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robinson Cano holding bat 2011.jpg&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Robinson Cano&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} The [[2013 World Baseball Classic|World Baseball Classic]] concludes with the [[Dominican Republic national baseball team|Dominican Republic]] '''[[2013 World Baseball Classic – Finals|defeating]]''' [[Puerto Rico national baseball team|Puerto Rico]] in the final ''(Most Valuable Player [[Robinson Canó]] pictured).&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} The [[2013 World Baseball Classic|World Baseball Classic]] concludes with the [[Dominican Republic national baseball team|Dominican Republic]] '''[[2013 World Baseball Classic – Finals|defeating]]''' [[Puerto Rico national baseball team|Puerto Rico]] in the final ''(Most Valuable Player [[Robinson Canó]] pictured).&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;''&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in a Singapore hospital at the age of 84.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in a Singapore hospital at the age of 84.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]'&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;'' ''(pictured)&lt;/span&gt;'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:546004435:newid:546005118 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Jayron32</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546004435&amp;oldid=prev</id>
+		<title>Jayron32: + WBC, - oldest</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=546004435&amp;oldid=prev"/>
+				<updated>2013-03-21T15:29:39Z</updated>
+		
+		<summary type="html">&lt;p&gt;+ WBC, - oldest&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:29, 21 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Toyo&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Ito&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;2009&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;cropped&lt;/span&gt;.jpg&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robinson&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Cano&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;holding&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;bat 2011&lt;/span&gt;.jpg&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |size   = 100x100px&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Toyo&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Ito&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |title  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robinson&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Cano&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Toyo Ito 2009.jpg&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |link   = &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Toyo&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Ito&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Robinson&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Cano&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} The [[2013 World Baseball Classic|World Baseball Classic]] concludes with the [[Dominican Republic national baseball team|Dominican Republic]] '''[[2013 World Baseball Classic – Finals|defeating]]''' [[Puerto Rico national baseball team|Puerto Rico]] in the final ''(Most Valuable Player [[Robinson Canó]] pictured).&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in a Singapore hospital at the age of 84.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in a Singapore hospital at the age of 84.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 15}} The [[National People's Congress]] of China names '''[[Xi Jinping]]''' as the new [[President of the People's Republic of China|President]] and '''[[Li Keqiang]]''' as the new [[Premier of the People's Republic of China|Premier]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:545971843:newid:546004435 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Jayron32</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545971843&amp;oldid=prev</id>
+		<title>Connormah: readd RD link</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545971843&amp;oldid=prev"/>
+				<updated>2013-03-21T12:26:21Z</updated>
+		
+		<summary type="html">&lt;p&gt;readd RD link&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 12:26, 21 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':--&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':--&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;lt;!--&lt;/span&gt;&amp;amp;nbsp;– '''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;--&amp;gt;&lt;/span&gt;{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– '''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''}}&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– '''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– '''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''}}&amp;lt;/div&amp;gt;&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;lt;noinclude&amp;gt; &lt;/span&gt;&amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{documentation}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{documentation}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:545940202:newid:545971843 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Connormah</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545940202&amp;oldid=prev</id>
+		<title>MSGJ: rmv stale</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545940202&amp;oldid=prev"/>
+				<updated>2013-03-21T09:34:48Z</updated>
+		
+		<summary type="html">&lt;p&gt;rmv stale&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 09:34, 21 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 14:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 14:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!-- &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Please&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;comment&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;out&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;the other &quot;&lt;/span&gt;Recent deaths&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;adding or removing the solitary named subject.&lt;/span&gt; --&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!--&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;'''{{#ifexist:Deaths&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;{{CURRENTYEAR}}|[[Deaths&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;{{CURRENTYEAR}}|&lt;/span&gt;Recent deaths&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;]]|[[Deaths&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;{{#time:Y|-1&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;years}}|Recent&lt;/span&gt; &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;deaths]]}}''':&lt;/span&gt;--&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''': {{nowrap|[[Ieng Sary]]}} &lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;lt;!--&amp;amp;nbsp;– '''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''--&amp;gt;{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– '''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''}}&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;lt;!--&amp;amp;nbsp;– '''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''--&amp;gt;{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– '''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''}}&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:545826508:newid:545940202 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>MSGJ</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545826508&amp;oldid=prev</id>
+		<title>Floquenbeam: add a little more detail, per WP:ERRORS</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545826508&amp;oldid=prev"/>
+				<updated>2013-03-21T00:32:47Z</updated>
+		
+		<summary type="html">&lt;p&gt;add a little more detail, per &lt;a href=&quot;/wiki/Wikipedia:ERRORS&quot; class=&quot;mw-redirect&quot; title=&quot;Wikipedia:ERRORS&quot;&gt;WP:ERRORS&lt;/a&gt;&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 00:32, 21 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Toyo Ito&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Toyo Ito&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in Singapore.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 20}} [[President of Bangladesh|Bangladeshi President]] '''[[Zillur Rahman]]''' dies in&lt;span class=&quot;diffchange diffchange-inline&quot;&gt; a&lt;/span&gt; Singapore&lt;span class=&quot;diffchange diffchange-inline&quot;&gt; hospital at the age of 84&lt;/span&gt;.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:545709375:newid:545826508 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Floquenbeam</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545709375&amp;oldid=prev</id>
+		<title>David Levy: tweaked Zillur Rahman item and removed two items to improve main page balance</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545709375&amp;oldid=prev"/>
+				<updated>2013-03-20T15:54:31Z</updated>
+		
+		<summary type="html">&lt;p&gt;tweaked &lt;a href=&quot;/wiki/Zillur_Rahman&quot; title=&quot;Zillur Rahman&quot;&gt;Zillur Rahman&lt;/a&gt; item and removed two items to improve main page balance&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:54, 20 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Toyo Ito&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Toyo Ito&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;03&lt;/span&gt; 20}} [[President of Bangladesh]] '''[[Zillur Rahman]]''' dies in Singapore.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;March&lt;/span&gt; 20}} [[President of Bangladesh&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;|Bangladeshi President&lt;/span&gt;]] '''[[Zillur Rahman]]''' dies in Singapore.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 15}} The [[National People's Congress]] of China names '''[[Xi Jinping]]''' as the new [[President of the People's Republic of China|President]] and '''[[Li Keqiang]]''' as the new [[Premier of the People's Republic of China|Premier]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 15}} The [[National People's Congress]] of China names '''[[Xi Jinping]]''' as the new [[President of the People's Republic of China|President]] and '''[[Li Keqiang]]''' as the new [[Premier of the People's Republic of China|Premier]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 13}} Jorge Mario Bergoglio of Argentina is [[Papal conclave, 2013|elected]] as '''[[Pope Francis]]''', becoming the first Latin American [[pope]] of the [[Catholic Church]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 12}} [[Japan Oil, Gas and Metals National Corporation|JOGMEC]] announces the first successful extraction of '''[[Methane clathrate|methane hydrate]]''' from seabed deposits.&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:545704774:newid:545709375 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>David Levy</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545704774&amp;oldid=prev</id>
+		<title>Danger: update</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545704774&amp;oldid=prev"/>
+				<updated>2013-03-20T15:26:52Z</updated>
+		
+		<summary type="html">&lt;p&gt;update&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:26, 20 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Toyo Ito&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt; |alt    = Toyo Ito&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|03 20}} [[President of Bangladesh]] '''[[Zillur Rahman]]''' dies in Singapore.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[alpine skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:545497932:newid:545704774 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Danger</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545497932&amp;oldid=prev</id>
+		<title>Tariqabjotu: why is this capitalized?</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=545497932&amp;oldid=prev"/>
+				<updated>2013-03-19T19:38:03Z</updated>
+		
+		<summary type="html">&lt;p&gt;why is this capitalized?&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 19:38, 19 March 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 8:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 8:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} Japanese architect '''[[Toyo Ito]]''' ''(pictured)'' wins the [[Pritzker Architecture Prize|Pritzker Prize]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Alpine&lt;/span&gt; skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 17}} In [[&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;alpine&lt;/span&gt; skiing]], [[Tina Maze]] and [[Marcel Hirscher]] win the overall women's and men's '''[[2013 Alpine Skiing World Cup|World Cup]]''' titles, respectively.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 16}} In [[Portal:Rugby union|rugby union]], the '''[[2013 Six Nations Championship|Six Nations Championship]]''' concludes with [[Wales national rugby union team|Wales]] winning the tournament for the second consecutive year.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 15}} The [[National People's Congress]] of China names '''[[Xi Jinping]]''' as the new [[President of the People's Republic of China|President]] and '''[[Li Keqiang]]''' as the new [[Premier of the People's Republic of China|Premier]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{*mp|March 15}} The [[National People's Congress]] of China names '''[[Xi Jinping]]''' as the new [[President of the People's Republic of China|President]] and '''[[Li Keqiang]]''' as the new [[Premier of the People's Republic of China|Premier]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:545291544:newid:545497932 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Tariqabjotu</name></author>	</entry>
+
+	</feed>

@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-21T17:59:22-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9217cbb8df31c10efc96362227b2ebdbb9fe996c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/9217cbb8df31c10efc96362227b2ebdbb9fe996c"/>
+    <title>
+        Merge branch &#39;for-next&#39; of git://git.samba.org/sfrench/cifs-2.6
+    </title>
+    <updated>2013-03-21T17:59:22-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/cifs/asn1.c
+m fs/cifs/cifsfs.c
+m fs/cifs/cifsfs.h
+m fs/cifs/file.c
+m fs/cifs/inode.c
+m fs/cifs/netmisc.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-next&#39; of git://git.samba.org/sfrench/cifs-2.6
+
+Pull CIFS fixes from Steve French:
+ &quot;Three small CIFS Fixes (the most important of the three fixes a recent
+  problem authenticating to Windows 8 using cifs rather than SMB2)&quot;
+
+* &#39;for-next&#39; of git://git.samba.org/sfrench/cifs-2.6:
+  cifs: ignore everything in SPNEGO blob after mechTypes
+  cifs: delay super block destruction until all cifsFileInfo objects are gone
+  cifs: map NT_STATUS_SHARING_VIOLATION to EBUSY instead of ETXTBSY&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d3c926264a92e5ea448add3e883530e1edad3ce2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d3c926264a92e5ea448add3e883530e1edad3ce2"/>
+    <title>
+        Merge tag &#39;ext4_for_linue&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+    </title>
+    <updated>2013-03-21T17:56:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/ext4/ext4.h
+m fs/ext4/extents.c
+m fs/ext4/extents_status.c
+m fs/ext4/extents_status.h
+m fs/ext4/ialloc.c
+m fs/ext4/inode.c
+m fs/ext4/mballoc.c
+m fs/ext4/move_extent.c
+m fs/ext4/page-io.c
+m fs/ext4/resize.c
+m fs/ext4/super.c
+m fs/jbd2/transaction.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;ext4_for_linue&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+
+Pull ext4 fixes from Ted Ts&#39;o:
+ &quot;Fix a number of regression and other bugs in ext4, most of which were
+  relatively obscure cornercases or races that were found using
+  regression tests.&quot;
+
+* tag &#39;ext4_for_linue&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4: (21 commits)
+  ext4: fix data=journal fast mount/umount hang
+  ext4: fix ext4_evict_inode() racing against workqueue processing code
+  ext4: fix memory leakage in mext_check_coverage
+  ext4: use s_extent_max_zeroout_kb value as number of kb
+  ext4: use atomic64_t for the per-flexbg free_clusters count
+  jbd2: fix use after free in jbd2_journal_dirty_metadata()
+  ext4: reserve metadata block for every delayed write
+  ext4: update reserved space after the &#39;correction&#39;
+  ext4: do not use yield()
+  ext4: remove unused variable in ext4_free_blocks()
+  ext4: fix WARN_ON from ext4_releasepage()
+  ext4: fix the wrong number of the allocated blocks in ext4_split_extent()
+  ext4: update extent status tree after an extent is zeroed out
+  ext4: fix wrong m_len value after unwritten extent conversion
+  ext4: add self-testing infrastructure to do a sanity check
+  ext4: avoid a potential overflow in ext4_es_can_be_merged()
+  ext4: invalidate extent status tree during extent migration
+  ext4: remove unnecessary wait for extent conversion in ext4_fallocate()
+  ext4: add warning to ext4_convert_unwritten_extents_endio
+  ext4: disable merging of uninitialized extents
+  ...&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f853c616883a8de966873a1dab283f1369e275a1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f853c616883a8de966873a1dab283f1369e275a1"/>
+    <title>
+        cifs: ignore everything in SPNEGO blob after mechTypes
+    </title>
+    <updated>2013-03-21T10:40:19-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f80302a2bafe61b55297953a047abf10?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>jlayton@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/cifs/asn1.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>cifs: ignore everything in SPNEGO blob after mechTypes
+
+We&#39;ve had several reports of people attempting to mount Windows 8 shares
+and getting failures with a return code of -EINVAL. The default sec=
+mode changed recently to sec=ntlmssp. With that, we expect and parse a
+SPNEGO blob from the server in the NEGOTIATE reply.
+
+The current decode_negTokenInit function first parses all of the
+mechTypes and then tries to parse the rest of the negTokenInit reply.
+The parser however currently expects a mechListMIC or nothing to follow the
+mechTypes, but Windows 8 puts a mechToken field there instead to carry
+some info for the new NegoEx stuff.
+
+In practice, we don&#39;t do anything with the fields after the mechTypes
+anyway so I don&#39;t see any real benefit in continuing to parse them.
+This patch just has the kernel ignore the fields after the mechTypes.
+We&#39;ll probably need to reinstate some of this if we ever want to support
+NegoEx.
+
+Reported-by: Jason Burgess &lt;jason@jacknife2.dns2go.com&gt;
+Reported-by: Yan Li &lt;elliot.li.tech@gmail.com&gt;
+Signed-off-by: Jeff Layton &lt;jlayton@redhat.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Steve French &lt;sfrench@us.ibm.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0a7e453103b9718d357688b83bb968ee108cc874</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/0a7e453103b9718d357688b83bb968ee108cc874"/>
+    <title>
+        Merge branch &#39;next&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rzhang/linux
+    </title>
+    <updated>2013-03-21T08:37:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/thermal/dove_thermal.c
+m drivers/thermal/exynos_thermal.c
+m drivers/thermal/kirkwood_thermal.c
+m drivers/thermal/rcar_thermal.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;next&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rzhang/linux
+
+Pull thermal management fixes from Zhang Rui.
+
+* &#39;next&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rzhang/linux:
+  thermal: exynos_thermal: return a proper error code while thermal_zone_device_register fail.
+  thermal: rcar_thermal: propagate return value of thermal_zone_device_register
+  Thermal: kirkwood: Convert to devm_ioremap_resource()
+  Thermal: rcar: Convert to devm_ioremap_resource()
+  Thermal: dove: Convert to devm_ioremap_resource()
+  thermal: rcar: fix missing unlock on error in rcar_thermal_update_temp()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cd82346934888e083da3b70e4bea13923175d086</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/cd82346934888e083da3b70e4bea13923175d086"/>
+    <title>
+        Merge branch &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-03-21T08:29:11-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/perf/power7-pmu.c
+m arch/x86/include/asm/kprobes.h
+m arch/x86/kernel/cpu/perf_event_intel.c
+m arch/x86/kernel/kprobes/core.c
+m include/linux/hash.h
+m kernel/events/core.c
+m kernel/trace/ftrace.c
+m kernel/trace/trace.c
+m kernel/trace/trace.h
+m kernel/trace/trace_irqsoff.c
+m kernel/trace/trace_sched_wakeup.c
+m tools/lib/traceevent/Makefile
+m tools/perf/Makefile
+m tools/perf/bench/bench.h
+m tools/perf/builtin-record.c
+m tools/perf/util/hist.h
+m tools/perf/util/strlist.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull perf fixes from Ingo Molnar:
+ &quot;A fair chunk of the linecount comes from a fix for a tracing bug that
+  corrupts latency tracing buffers when the overwrite mode is changed on
+  the fly - the rest is mostly assorted fewliner fixlets.&quot;
+
+* &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  perf/x86: Add SNB/SNB-EP scheduling constraints for cycle_activity event
+  kprobes/x86: Check Interrupt Flag modifier when registering probe
+  kprobes: Make hash_64() as always inlined
+  perf: Generate EXIT event only once per task context
+  perf: Reset hwc-&gt;last_period on sw clock events
+  tracing: Prevent buffer overwrite disabled for latency tracers
+  tracing: Keep overwrite in sync between regular and snapshot buffers
+  tracing: Protect tracer flags with trace_types_lock
+  perf tools: Fix LIBNUMA build with glibc 2.12 and older.
+  tracing: Fix free of probe entry by calling call_rcu_sched()
+  perf/POWER7: Create a sysfs format entry for Power7 events
+  perf probe: Fix segfault
+  libtraceevent: Remove hard coded include to /usr/local/include in Makefile
+  perf record: Fix -C option
+  perf tools: check if -DFORTIFY_SOURCE=2 is allowed
+  perf report: Fix build with NO_NEWT=1
+  perf annotate: Fix build with NO_NEWT=1
+  tracing: Fix race in snapshot swapping&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/172a271b5e090da7468c66b9ccbcdb3d929eed75</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/172a271b5e090da7468c66b9ccbcdb3d929eed75"/>
+    <title>
+        Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+    </title>
+    <updated>2013-03-21T08:27:58-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+m drivers/gpu/drm/i915/i915_debugfs.c
+m drivers/gpu/drm/i915/i915_gem_execbuffer.c
+m drivers/gpu/drm/i915/intel_dp.c
+m drivers/gpu/drm/i915/intel_i2c.c
+m drivers/gpu/drm/mgag200/mgag200_mode.c
+m drivers/gpu/drm/nouveau/core/core/object.c
+m drivers/gpu/drm/nouveau/core/include/subdev/therm.h
+m drivers/gpu/drm/nouveau/core/subdev/therm/base.c
+m drivers/gpu/drm/nouveau/core/subdev/therm/ic.c
+m drivers/gpu/drm/nouveau/core/subdev/therm/nv40.c
+m drivers/gpu/drm/nouveau/core/subdev/therm/priv.h
+m drivers/gpu/drm/nouveau/core/subdev/therm/temp.c
+m drivers/gpu/drm/nouveau/nouveau_pm.c
+m drivers/gpu/drm/nouveau/nv50_display.c
+m drivers/gpu/drm/radeon/ni.c
+m drivers/gpu/drm/radeon/radeon_benchmark.c
+m drivers/gpu/drm/radeon/si.c
+m include/drm/drm_pciids.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+
+Pull drm fixes from Dave Airlie:
+ &quot;Radeon, intel and nouveau, along with one mgag200 fix
+
+   - intel fix for an ioctl overflow, along with a regression fix for
+     some phantom irqs on Ironlake.
+   - nouveau has a lockdep warning and a bunch of thermal fixes
+   - radeon has new pci ids and some minor fixes.&quot;
+
+* &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux: (26 commits)
+  drm/mgag200: Bug fix: Modified pll algorithm for EH project
+  drm/i915: stop using GMBUS IRQs on Gen4 chips
+  drm/nv50/kms: prevent lockdep false-positive in page flipping path
+  drm/nouveau/core: fix return value of nouveau_object_del()
+  MAINTAINERS: intel-gfx is no longer subscribers-only
+  drm/i915: Use the fixed pixel clock for eDP in intel_dp_set_m_n()
+  drm/nouveau/hwmon: do not expose a buggy temperature if it is unavailable
+  drm/nouveau/therm: display the availability of the internal sensor
+  drm/nouveau/therm: disable temperature management if the sensor isn&#39;t readable
+  drm/nouveau/therm: disable auto fan management if temperature is not available
+  drm/nv40/therm: reserve negative temperatures for errors
+  drm/nv40/therm: disable temperature reading if the bios misses some parameters
+  drm/nouveau/therm-ic: the temperature is off by sensor_constant, warn the user
+  drm/nouveau/therm: remove some confusion introduced by therm_mode
+  drm/nouveau/therm: do not make assumptions on temperature
+  drm/nv40/therm: increase the sensor&#39;s settling delay to 20ms
+  drm/nv40/therm: improve selection between the old and the new style
+  Revert &quot;drm/i915: try to train DP even harder&quot;
+  drm/radeon: add Richland pci ids
+  drm/radeon: add support for Richland APUs
+  ...&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/85ab3c4617d41d1eea8f1bdd79ebc036ea3d0b34</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/85ab3c4617d41d1eea8f1bdd79ebc036ea3d0b34"/>
+    <title>
+        Merge tag &#39;dm-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/agk/linux-dm
+    </title>
+    <updated>2013-03-21T08:27:03-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-bufio.c
+m drivers/md/dm-cache-metadata.c
+m drivers/md/dm-cache-metadata.h
+m drivers/md/dm-cache-policy-cleaner.c
+m drivers/md/dm-cache-policy-internal.h
+m drivers/md/dm-cache-policy-mq.c
+m drivers/md/dm-cache-policy.c
+m drivers/md/dm-cache-policy.h
+m drivers/md/dm-cache-target.c
+m drivers/md/dm-thin.c
+m drivers/md/dm-verity.c
+m drivers/md/persistent-data/dm-btree-remove.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;dm-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/agk/linux-dm
+
+Pull device-mapper fixes from Alasdair G Kergon:
+ &quot;Fix reported data loss with discards and thin snapshots; avoid a
+  deadlock observed in dm verity; fix a race in the new dm cache code
+  along with some other minor bugs; store the cache policy version on
+  disk to make the stored hints format future-proof.&quot;
+
+* tag &#39;dm-3.9-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/agk/linux-dm:
+  dm cache: policy ignore hints if generated by different version
+  dm cache: policy change version from string to integer set
+  dm cache: fix race in writethrough implementation
+  dm cache: metadata clear dirty bits on clean shutdown
+  dm cache: avoid calling policy destructor twice on error
+  dm cache: detect cache_create failure
+  dm cache: avoid 64 bit division on 32 bit
+  dm verity: avoid deadlock
+  dm thin: fix non power of two discard granularity calc
+  dm thin: fix discard corruption&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b56fb70870ad76f8295a4e826dab9a9fbb0033f6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b56fb70870ad76f8295a4e826dab9a9fbb0033f6"/>
+    <title>
+        Merge branch &#39;drm-intel-fixes&#39; of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+    </title>
+    <updated>2013-03-20T17:17:38-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/482d553e042192056107839bf3f6637e?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>airlied@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+m drivers/gpu/drm/i915/i915_debugfs.c
+m drivers/gpu/drm/i915/i915_gem_execbuffer.c
+m drivers/gpu/drm/i915/intel_dp.c
+m drivers/gpu/drm/i915/intel_i2c.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;drm-intel-fixes&#39; of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+
+Daniel writes:
+Bunch of fixes, all pretty high-priority
+- Fix execbuf argument checking (Kees Cook)
+- Optionally obfuscate kernel addresses in dumps (Kees Cook)
+- Two patches from Takashi Iwai to fix DP link training regressions he&#39;s
+  seen.
+- intel-gfx is no longer subscribers-only (well, just no longer moderated
+  in an annoying way for non-subscribers), update MAINTAINERS
+- gm45 gmbus irq fallout fix (Jiri Kosina)
+
+* &#39;drm-intel-fixes&#39; of git://people.freedesktop.org/~danvet/drm-intel:
+  drm/i915: stop using GMBUS IRQs on Gen4 chips
+  MAINTAINERS: intel-gfx is no longer subscribers-only
+  drm/i915: Use the fixed pixel clock for eDP in intel_dp_set_m_n()
+  Revert &quot;drm/i915: try to train DP even harder&quot;
+  drm/i915: bounds check execbuffer relocation count
+  drm/i915: restrict kernel address leak in debugfs&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/260b3f1291a75a580d22ce8bfb1499c617272716</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/260b3f1291a75a580d22ce8bfb1499c617272716"/>
+    <title>
+        drm/mgag200: Bug fix: Modified pll algorithm for EH project
+    </title>
+    <updated>2013-03-20T17:16:58-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9dabe367341bb27eb6d1dc1a40ede128?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>jlemire@matrox.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/mgag200/mgag200_mode.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>drm/mgag200: Bug fix: Modified pll algorithm for EH project
+
+While testing the mgag200 kms driver on the HP ProLiant Gen8, a
+bug was seen.  Once the bootloader would load the selected kernel,
+the screen would go black.  At first it was assumed that the
+mgag200 kms driver was hanging.  But after setting up the grub
+serial output, it was seen that the driver was being loaded
+properly.  After trying serval monitors, one finaly displayed
+the message &quot;Frequency Out of Range&quot;.  By comparing the kms pll
+algorithm with the previous mgag200 xorg driver pll algorithm,
+discrepencies were found.  Once the kms pll algorithm was
+modified, the expected pll values were produced.  This fix was
+tested on several monitors of varying native resolutions.
+
+Signed-off-by: Julia Lemire &lt;jlemire@matrox.com&gt;
+Cc: stable@vger.kernel.org
+Signed-off-by: Dave Airlie &lt;airlied@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ea2dd8c1ed0becee9812cf0840a9cd553ed398fe</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ea2dd8c1ed0becee9812cf0840a9cd553ed398fe"/>
+    <title>
+        dm cache: policy ignore hints if generated by different version
+    </title>
+    <updated>2013-03-20T10:21:28-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/6b4d8edbd078f06bdb72b678146a0b1d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>snitm</name>
+      <uri>https://github.com/snitm</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-cache-metadata.c
+m drivers/md/dm-cache-metadata.h
+m drivers/md/dm-cache-target.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm cache: policy ignore hints if generated by different version
+
+When reading the dm cache metadata from disk, ignore the policy hints
+unless they were generated by the same major version number of the same
+policy module.
+
+The hints are considered to be private data belonging to the specific
+module that generated them and there is no requirement for them to make
+sense to different versions of the policy that generated them.
+Policy modules are all required to work fine if no previous hints are
+supplied (or if existing hints are lost).
+
+Signed-off-by: Mike Snitzer &lt;snitzer@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4e7f506f6429636115e2f58f9f97089acc62524a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4e7f506f6429636115e2f58f9f97089acc62524a"/>
+    <title>
+        dm cache: policy change version from string to integer set
+    </title>
+    <updated>2013-03-20T10:21:27-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/6b4d8edbd078f06bdb72b678146a0b1d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>snitm</name>
+      <uri>https://github.com/snitm</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-cache-metadata.c
+m drivers/md/dm-cache-policy-cleaner.c
+m drivers/md/dm-cache-policy-internal.h
+m drivers/md/dm-cache-policy-mq.c
+m drivers/md/dm-cache-policy.c
+m drivers/md/dm-cache-policy.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm cache: policy change version from string to integer set
+
+Separate dm cache policy version string into 3 unsigned numbers
+corresponding to major, minor and patchlevel and store them at the end
+of the on-disk metadata so we know which version of the policy generated
+the hints in case a future version wants to use them differently.
+
+Signed-off-by: Mike Snitzer &lt;snitzer@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e2e74d617eadc15f601983270c4f4a6935c5a943</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e2e74d617eadc15f601983270c4f4a6935c5a943"/>
+    <title>
+        dm cache: fix race in writethrough implementation
+    </title>
+    <updated>2013-03-20T10:21:27-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1c56f142017f452f98677123ba770e26?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jthornber</name>
+      <uri>https://github.com/jthornber</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-cache-target.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm cache: fix race in writethrough implementation
+
+We have found a race in the optimisation used in the dm cache
+writethrough implementation.  Currently, dm core sends the cache target
+two bios, one for the origin device and one for the cache device and
+these are processed in parallel.  This patch avoids the race by
+changing the code back to a simpler (slower) implementation which
+processes the two writes in series, one after the other, until we can
+develop a complete fix for the problem.
+
+When the cache is in writethrough mode it needs to send WRITE bios to
+both the origin and cache devices.
+
+Previously we&#39;ve been implementing this by having dm core query the
+cache target on every write to find out how many copies of the bio it
+wants.  The cache will ask for two bios if the block is in the cache,
+and one otherwise.
+
+Then main problem with this is it&#39;s racey.  At the time this check is
+made the bio hasn&#39;t yet been submitted and so isn&#39;t being taken into
+account when quiescing a block for migration (promotion or demotion).
+This means a single bio may be submitted when two were needed because
+the block has since been promoted to the cache (catastrophic), or two
+bios where only one is needed (harmless).
+
+I really don&#39;t want to start entering bios into the quiescing system
+(deferred_set) in the get_num_write_bios callback.  Instead this patch
+simplifies things; only one bio is submitted by the core, this is
+first written to the origin and then the cache device in series.
+Obviously this will have a latency impact.
+
+deferred_writethrough_bios is introduced to record bios that must be
+later issued to the cache device from the worker thread.  This deferred
+submission, after the origin bio completes, is required given that we&#39;re
+in interrupt context (writethrough_endio).
+
+Signed-off-by: Joe Thornber &lt;ejt@redhat.com&gt;
+Signed-off-by: Mike Snitzer &lt;snitzer@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/79ed9caffc9fff67aa64fd683e791aa70f1bcb51</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/79ed9caffc9fff67aa64fd683e791aa70f1bcb51"/>
+    <title>
+        dm cache: metadata clear dirty bits on clean shutdown
+    </title>
+    <updated>2013-03-20T10:21:27-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1c56f142017f452f98677123ba770e26?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jthornber</name>
+      <uri>https://github.com/jthornber</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-cache-metadata.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm cache: metadata clear dirty bits on clean shutdown
+
+When writing the dirty bitset to the metadata device on a clean
+shutdown, clear the dirty bits.  Previously they were left indicating
+the cache was dirty. This led to confusion about whether there really
+was dirty data in the cache or not.  (This was a harmless bug.)
+
+Reported-by: Darrick J. Wong &lt;darrick.wong@oracle.com&gt;
+Signed-off-by: Joe Thornber &lt;ejt@redhat.com&gt;
+Signed-off-by: Mike Snitzer &lt;snitzer@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b978440b8db901aba0c4cd38c7c841c9b5cd9a7e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b978440b8db901aba0c4cd38c7c841c9b5cd9a7e"/>
+    <title>
+        dm cache: avoid calling policy destructor twice on error
+    </title>
+    <updated>2013-03-20T10:21:26-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/d1dd842878719f408816dd1e840718e1?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>mauelsha</name>
+      <uri>https://github.com/mauelsha</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-cache-target.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm cache: avoid calling policy destructor twice on error
+
+If the cache policy&#39;s config values are not able to be set we must
+set the policy to NULL after destroying it in create_cache_policy()
+so we don&#39;t attempt to destroy it a second time later.
+
+Signed-off-by: Heinz Mauelshagen &lt;heinzm@redhat.com&gt;
+Signed-off-by: Mike Snitzer &lt;snitzer@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/617a0b89da4898d4cc990c9eb4bc9c0591c538a5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/617a0b89da4898d4cc990c9eb4bc9c0591c538a5"/>
+    <title>
+        dm cache: detect cache_create failure
+    </title>
+    <updated>2013-03-20T10:21:26-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/d1dd842878719f408816dd1e840718e1?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>mauelsha</name>
+      <uri>https://github.com/mauelsha</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-cache-target.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm cache: detect cache_create failure
+
+Return error if cache_create() fails.
+
+A missing return check made cache_ctr continue even after an error in
+cache_create() resulting in the cache object being destroyed.  So a
+simple failure like an odd number of cache policy config value arguments
+would result in an oops.
+
+Signed-off-by: Heinz Mauelshagen &lt;heinzm@redhat.com&gt;
+Signed-off-by: Mike Snitzer &lt;snitzer@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/414dd67d50a6b9a11af23bbb68e8fae13d726c8b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/414dd67d50a6b9a11af23bbb68e8fae13d726c8b"/>
+    <title>
+        dm cache: avoid 64 bit division on 32 bit
+    </title>
+    <updated>2013-03-20T10:21:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1c56f142017f452f98677123ba770e26?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jthornber</name>
+      <uri>https://github.com/jthornber</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-cache-target.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm cache: avoid 64 bit division on 32 bit
+
+Squash various 32bit link errors.
+
+  &gt;&gt; on i386:
+  &gt;&gt; drivers/built-in.o: In function `is_discarded_oblock&#39;:
+  &gt;&gt; dm-cache-target.c:(.text+0x1ea28e): undefined reference to `__udivdi3&#39;
+  ...
+
+Reported-by: Randy Dunlap &lt;rdunlap@infradead.org&gt;
+Signed-off-by: Joe Thornber &lt;ejt@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3b6b7813b198b578aa7e04e4047ddb8225c37b7f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/3b6b7813b198b578aa7e04e4047ddb8225c37b7f"/>
+    <title>
+        dm verity: avoid deadlock
+    </title>
+    <updated>2013-03-20T10:21:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/554411b1f459103c469084b4c431fe9d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>mpatocka@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-bufio.c
+m drivers/md/dm-verity.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm verity: avoid deadlock
+
+A deadlock was found in the prefetch code in the dm verity map
+function.  This patch fixes this by transferring the prefetch
+to a worker thread and skipping it completely if kmalloc fails.
+
+If generic_make_request is called recursively, it queues the I/O
+request on the current-&gt;bio_list without making the I/O request
+and returns. The routine making the recursive call cannot wait
+for the I/O to complete.
+
+The deadlock occurs when one thread grabs the bufio_client
+mutex and waits for an I/O to complete but the I/O is queued
+on another thread&#39;s current-&gt;bio_list and is waiting to get
+the mutex held by the first thread.
+
+The fix recognises that prefetching is not essential.  If memory
+can be allocated, it queues the prefetch request to the worker thread,
+but if not, it does nothing.
+
+Signed-off-by: Paul Taysom &lt;taysom@chromium.org&gt;
+Signed-off-by: Mikulas Patocka &lt;mpatocka@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;
+Cc: stable@kernel.org&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/58051b94e05a59c4d34f9f1a441af40894817c59</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/58051b94e05a59c4d34f9f1a441af40894817c59"/>
+    <title>
+        dm thin: fix non power of two discard granularity calc
+    </title>
+    <updated>2013-03-20T10:21:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1c56f142017f452f98677123ba770e26?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jthornber</name>
+      <uri>https://github.com/jthornber</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-thin.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm thin: fix non power of two discard granularity calc
+
+Fix a discard granularity calculation to work for non power of 2 block sizes.
+
+In order for thinp to passdown discard bios to the underlying data
+device, the data device must have a discard granularity that is a
+factor of the thinp block size.  Originally this check was done by
+using bitops since the block_size was known to be a power of two.
+
+Introduced by commit f13945d75730081830b6f3360266950e2b7c9067
+(&quot;dm thin: support a non power of 2 discard_granularity&quot;).
+
+Signed-off-by: Joe Thornber &lt;ejt@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f046f89a99ccfd9408b94c653374ff3065c7edb3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f046f89a99ccfd9408b94c653374ff3065c7edb3"/>
+    <title>
+        dm thin: fix discard corruption
+    </title>
+    <updated>2013-03-20T10:21:24-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1c56f142017f452f98677123ba770e26?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jthornber</name>
+      <uri>https://github.com/jthornber</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/md/dm-thin.c
+m drivers/md/persistent-data/dm-btree-remove.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dm thin: fix discard corruption
+
+Fix a bug in dm_btree_remove that could leave leaf values with incorrect
+reference counts.  The effect of this was that removal of a shared block
+could result in the space maps thinking the block was no longer used.
+More concretely, if you have a thin device and a snapshot of it, sending
+a discard to a shared region of the thin could corrupt the snapshot.
+
+Thinp uses a 2-level nested btree to store it&#39;s mappings.  This first
+level is indexed by thin device, and the second level by logical
+block.
+
+Often when we&#39;re removing an entry in this mapping tree we need to
+rebalance nodes, which can involve shadowing them, possibly creating a
+copy if the block is shared.  If we do create a copy then children of
+that node need to have their reference counts incremented.  In this
+way reference counts percolate down the tree as shared trees diverge.
+
+The rebalance functions were incrementing the children at the
+appropriate time, but they were always assuming the children were
+internal nodes.  This meant the leaf values (in our case packed
+block/flags entries) were not being incremented.
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Joe Thornber &lt;ejt@redhat.com&gt;
+Signed-off-by: Alasdair G Kergon &lt;agk@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2b405bfa84063bfa35621d2d6879f52693c614b0</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/2b405bfa84063bfa35621d2d6879f52693c614b0"/>
+    <title>
+        ext4: fix data=journal fast mount/umount hang
+    </title>
+    <updated>2013-03-20T06:42:11-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fe4605d663cd4896cd8cc9dd778903dd?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>tytso</name>
+      <uri>https://github.com/tytso</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/ext4/inode.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ext4: fix data=journal fast mount/umount hang
+
+In data=journal mode, if we unmount the file system before a
+transaction has a chance to complete, when the journal inode is being
+evicted, we can end up calling into jbd2_log_wait_commit() for the
+last transaction, after the journalling machinery has been shut down.
+
+Arguably we should adjust ext4_should_journal_data() to return FALSE
+for the journal inode, but the only place it matters is
+ext4_evict_inode(), and so to save a bit of CPU time, and to make the
+patch much more obviously correct by inspection(tm), we&#39;ll fix it by
+explicitly not trying to waiting for a journal commit when we are
+evicting the journal inode, since it&#39;s guaranteed to never succeed in
+this case.
+
+This can be easily replicated via: 
+
+     mount -t ext4 -o data=journal /dev/vdb /vdb ; umount /vdb
+
+------------[ cut here ]------------
+WARNING: at /usr/projects/linux/ext4/fs/jbd2/journal.c:542 __jbd2_log_start_commit+0xba/0xcd()
+Hardware name: Bochs
+JBD2: bad log_start_commit: 3005630206 3005630206 0 0
+Modules linked in:
+Pid: 2909, comm: umount Not tainted 3.8.0-rc3 #1020
+Call Trace:
+ [&lt;c015c0ef&gt;] warn_slowpath_common+0x68/0x7d
+ [&lt;c02b7e7d&gt;] ? __jbd2_log_start_commit+0xba/0xcd
+ [&lt;c015c177&gt;] warn_slowpath_fmt+0x2b/0x2f
+ [&lt;c02b7e7d&gt;] __jbd2_log_start_commit+0xba/0xcd
+ [&lt;c02b8075&gt;] jbd2_log_start_commit+0x24/0x34
+ [&lt;c0279ed5&gt;] ext4_evict_inode+0x71/0x2e3
+ [&lt;c021f0ec&gt;] evict+0x94/0x135
+ [&lt;c021f9aa&gt;] iput+0x10a/0x110
+ [&lt;c02b7836&gt;] jbd2_journal_destroy+0x190/0x1ce
+ [&lt;c0175284&gt;] ? bit_waitqueue+0x50/0x50
+ [&lt;c028d23f&gt;] ext4_put_super+0x52/0x294
+ [&lt;c020efe3&gt;] generic_shutdown_super+0x48/0xb4
+ [&lt;c020f071&gt;] kill_block_super+0x22/0x60
+ [&lt;c020f3e0&gt;] deactivate_locked_super+0x22/0x49
+ [&lt;c020f5d6&gt;] deactivate_super+0x30/0x33
+ [&lt;c0222795&gt;] mntput_no_expire+0x107/0x10c
+ [&lt;c02233a7&gt;] sys_umount+0x2cf/0x2e0
+ [&lt;c02233ca&gt;] sys_oldumount+0x12/0x14
+ [&lt;c08096b8&gt;] syscall_call+0x7/0xb
+---[ end trace 6a954cc790501c1f ]---
+jbd2_log_wait_commit: error: j_commit_request=-1289337090, tid=0
+
+Signed-off-by: &quot;Theodore Ts&#39;o&quot; &lt;tytso@mit.edu&gt;
+Reviewed-by: Jan Kara &lt;jack@suse.cz&gt;
+Cc: stable@vger.kernel.org&lt;/pre>
+    </content>
+  </entry>
+</feed>

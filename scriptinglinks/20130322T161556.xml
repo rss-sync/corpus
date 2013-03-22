@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Fri, 22 Mar 2013 15:45:57 GMT</pubDate>
+		<lastBuildDate>Fri, 22 Mar 2013 15:45:57 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-22</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/22/2013; 11:45:57 AM</microblog:localTime>
+		<item>
+			<description>Important: You install the software by reloading the page. (We don&apos;t need approval from anyone.)</description>
+			<link>http://3ji.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 15:45:56 GMT</pubDate>
+			<guid>http://3ji.r2.ly/?id=15742</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/itsAnOutliner</microblog:linkFull>
+			</item>
+		<item>
+			<description>Scripting News: It&apos;s an outliner!</description>
+			<link>http://3ji.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 22 Mar 2013 15:33:35 GMT</pubDate>
+			<guid>http://3ji.r2.ly/?id=15741</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/itsAnOutliner</microblog:linkFull>
+			<microblog:readCount>212</microblog:readCount>
+			</item>
+		<item>
+			<description>Box and Evernote execs: Don&apos;t ignore Microsoft&apos;s platforms.</description>
+			<link>http://3jf.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 13:33:49 GMT</pubDate>
+			<guid>http://3jf.r2.ly/?id=15740</guid>
+			<microblog:linkFull>http://www.citeworld.com/mobile/21615/evernote-cto-explains-how-build-app-people-will-actually-use</microblog:linkFull>
+			<microblog:readCount>636</microblog:readCount>
+			</item>
+		<item>
+			<description>Krugman explains Cyprus.</description>
+			<link>http://3je.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 13:10:18 GMT</pubDate>
+			<guid>http://3je.r2.ly/?id=15739</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/22/opinion/krugman-treasure-island-trauma.html?pagewanted=all</microblog:linkFull>
+			<microblog:readCount>1016</microblog:readCount>
+			</item>
+		<item>
+			<description>Last night: Ignore the Bigco&apos;s.</description>
+			<link>http://3j9.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 12:56:34 GMT</pubDate>
+			<guid>http://3j9.r2.ly/?id=15738</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/thisIsMarcosFirstTimeAround</microblog:linkFull>
+			<microblog:readCount>1565</microblog:readCount>
+			</item>
+		<item>
+			<description>China to create home-grown operating system.</description>
+			<link>http://3jd.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 12:55:48 GMT</pubDate>
+			<guid>http://3jd.r2.ly/?id=15737</guid>
+			<microblog:linkFull>http://www.bbc.co.uk/news/technology-21895723</microblog:linkFull>
+			<microblog:readCount>487</microblog:readCount>
+			</item>
+		<item>
+			<description>Want to Be Happier? Stop Doing These 10 Things Right Now.</description>
+			<link>http://3jb.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 09:27:57 GMT</pubDate>
+			<guid>http://3jb.r2.ly/?id=15736</guid>
+			<microblog:linkFull>http://lifehacker.com/5991218/want-to-be-happier-stop-doing-these-10-things-right-now</microblog:linkFull>
+			<microblog:readCount>1075</microblog:readCount>
+			</item>
+		<item>
+			<description>Without honeybees, we may cease to be.</description>
+			<link>http://3ja.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 03:20:57 GMT</pubDate>
+			<guid>http://3ja.r2.ly/?id=15735</guid>
+			<microblog:linkFull>http://www.salon.com/2013/03/21/without_honeybees_we_may_cease_to_be/</microblog:linkFull>
+			<microblog:readCount>671</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Ignore the Bigco&apos;s.</description>
+			<link>http://3j9.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 22 Mar 2013 02:56:11 GMT</pubDate>
+			<guid>http://3j9.r2.ly/?id=15733</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/thisIsMarcosFirstTimeAround</microblog:linkFull>
+			<microblog:readCount>1565</microblog:readCount>
+			</item>
+		<item>
+			<description>Stability as a service.</description>
+			<link>http://3j8.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 02:50:56 GMT</pubDate>
+			<guid>http://3j8.r2.ly/?id=15732</guid>
+			<microblog:linkFull>http://radar.oreilly.com/2013/03/the-demise-of-google-reader-stability-as-a-service.html</microblog:linkFull>
+			<microblog:readCount>727</microblog:readCount>
+			</item>
+		<item>
+			<description>Five Google products that should fear Larry Page&apos;s axe. #mustread</description>
+			<link>http://3j7.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 02:44:46 GMT</pubDate>
+			<guid>http://3j7.r2.ly/?id=15731</guid>
+			<microblog:linkFull>http://www.wired.co.uk/news/archive/2013-03/19/google-products-at-risk</microblog:linkFull>
+			<microblog:readCount>2074</microblog:readCount>
+			</item>
+		<item>
+			<description>If You&apos;re Doing A New RSS Reader...</description>
+			<link>http://3fg.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 00:58:43 GMT</pubDate>
+			<guid>http://3fg.r2.ly/?id=15730</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theIdealRssReader</microblog:linkFull>
+			<microblog:readCount>8112</microblog:readCount>
+			</item>
+		<item>
+			<description>Thug mentality: How two dick jokes exploded into DDoS and death threats.</description>
+			<link>http://3j6.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 23:03:54 GMT</pubDate>
+			<guid>http://3j6.r2.ly/?id=15729</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/21/4132752/thug-mentality-how-two-dick-jokes-exploded-into-ddos-and-death-threats</microblog:linkFull>
+			<microblog:readCount>833</microblog:readCount>
+			</item>
+		<item>
+			<description>Flickr: Microsoft&apos;s opinion of Google software.</description>
+			<link>http://3j4.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 16:26:38 GMT</pubDate>
+			<guid>http://3j4.r2.ly/?id=15728</guid>
+			<microblog:linkFull>http://www.flickr.com/photos/scriptingnews/8578092598/in/photostream/lightbox/</microblog:linkFull>
+			<microblog:readCount>746</microblog:readCount>
+			</item>
+		<item>
+			<description>James Fallows: A Problem Google Has Created for Itself.</description>
+			<link>http://3j1.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 14:20:05 GMT</pubDate>
+			<guid>http://3j1.r2.ly/?id=15727</guid>
+			<microblog:linkFull>http://www.theatlantic.com/technology/archive/2013/03/a-problem-google-has-created-for-itself/274232/</microblog:linkFull>
+			<microblog:readCount>709</microblog:readCount>
+			</item>
+		<item>
+			<description>Post &quot;Good Google&quot;, Who Will Defend The Open Web?</description>
+			<link>http://3j0.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 13:25:54 GMT</pubDate>
+			<guid>http://3j0.r2.ly/?id=15726</guid>
+			<microblog:linkFull>http://fogbeam.blogspot.com/2013/03/post-good-google-who-will-defend-open.html</microblog:linkFull>
+			<microblog:readCount>963</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Google is no good at being evil.</description>
+			<link>http://3iz.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 21 Mar 2013 12:54:36 GMT</pubDate>
+			<guid>http://3iz.r2.ly/?id=15725</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/googleIsNoGoodAtBeingEvil</microblog:linkFull>
+			<microblog:readCount>3012</microblog:readCount>
+			</item>
+		<item>
+			<description>British Airways to hold a hackathon on a plane above the Atlantic ocean.</description>
+			<link>http://3iy.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 11:15:44 GMT</pubDate>
+			<guid>http://3iy.r2.ly/?id=15724</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/21/4130716/british-airways-ungrounded-hackathon-on-a-plane</microblog:linkFull>
+			<microblog:readCount>768</microblog:readCount>
+			</item>
+		<item>
+			<description>Google Alerts Broken, Now Useless To Financial Marketers. (I&apos;ve noticed this too.)</description>
+			<link>http://3ix.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 11:00:04 GMT</pubDate>
+			<guid>http://3ix.r2.ly/?id=15723</guid>
+			<microblog:linkFull>http://thefinancialbrand.com/28346/google-alerts-broken/</microblog:linkFull>
+			<microblog:readCount>738</microblog:readCount>
+			</item>
+		<item>
+			<description>At Penn Station, Seizing a Chance to Right a Wrong.</description>
+			<link>http://3iw.r2.ly/</link>
+			<pubDate>Thu, 21 Mar 2013 10:55:30 GMT</pubDate>
+			<guid>http://3iw.r2.ly/?id=15722</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/21/arts/design/at-penn-station-seizing-a-chance-to-right-a-wrong.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>580</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

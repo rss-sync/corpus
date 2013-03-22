@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-22T16:15:25Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15575034</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Can I apply a filter to just a rectangular part of an SVG image?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="svg"/><category scheme="http://stackoverflow.com/feeds/tags" term="webkit"/>
+        <author>
+            <name>kdani</name>
+            <uri>http://stackoverflow.com/users/614598</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575034/can-i-apply-a-filter-to-just-a-rectangular-part-of-an-svg-image" />
+        <published>2013-03-22T16:14:52Z</published>
+        <updated>2013-03-22T16:14:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to apply a blur filter to the part below a rectangular area. Just like like Windows Aero blurs background below window titles and borders.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15575031</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Manipulate VARCHAR string and update column (psudo-date)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="date"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-update"/><category scheme="http://stackoverflow.com/feeds/tags" term="varchar"/>
+        <author>
+            <name>Hydra IO</name>
+            <uri>http://stackoverflow.com/users/1968736</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575031/manipulate-varchar-string-and-update-column-psudo-date" />
+        <published>2013-03-22T16:14:49Z</published>
+        <updated>2013-03-22T16:14:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;So long story short, a client of mine wanted to change a date-time field into a varchar field, after hours of telling them why they should not do that, I finally gave in. My Issue is the dates now converted into VARCHAR are &lt;code&gt;yyyy-mm-dd&lt;/code&gt; and I need to flip them around into &lt;code&gt;mm-dd-yyyy&lt;/code&gt; I can do this with PHP with a &lt;code&gt;foreach()&lt;/code&gt; loop and a &lt;code&gt;list()=explode()&lt;/code&gt; but is there a way to do it with a sql query?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15575030</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Chrome Extension Send message from background to content script</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-chrome-extension"/>
+        <author>
+            <name>gdaniel</name>
+            <uri>http://stackoverflow.com/users/1214678</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575030/chrome-extension-send-message-from-background-to-content-script" />
+        <published>2013-03-22T16:14:48Z</published>
+        <updated>2013-03-22T16:14:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m new to chrome extensions and after spending hours on this issue, I decided to ask:&lt;/p&gt;
+
+&lt;p&gt;My background script only sends a message to my content script once I reload the extension and change to the tab quickly.. other wise nothing happens.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; {
+  &quot;name&quot;: &quot;Fixes&quot;,
+  &quot;version&quot;: &quot;2&quot;,
+  &quot;manifest_version&quot;: 2,
+  &quot;description&quot;: &quot;SomeFixes&quot;,
+  &quot;permissions&quot;: [&quot;tabs&quot;, &quot;http://*/*&quot;, &quot;https://*/*&quot;, &quot;storage&quot;],
+  &quot;options_page&quot;: &quot;options.html&quot;,
+  &quot;background&quot;: {
+    &quot;persistent&quot;: false,
+    &quot;scripts&quot;: [&quot;background.js&quot;]
+  },
+  &quot;content_scripts&quot;: [
+    {
+      &quot;matches&quot;: [&quot;&amp;lt;all my urls&amp;gt;&quot;],
+      &quot;js&quot;: [&quot;jquery1.7.js&quot;, &quot;helper.js&quot;]
+    }
+  ],
+  &quot;browser_action&quot;: {
+    &quot;default_icon&quot;: &quot;icon.png&quot;,
+    &quot;default_popup&quot;: &quot;options.html&quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Background.js&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+
+                chrome.tabs.sendMessage(tabs[0].id, {type:&quot;test&quot;}, function(response) {});  
+
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;helper.js&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jQuery(document).ready(function() {
+//Get allowed functions
+chrome.extension.onMessage.addListener(function(msg, sender, sendResponse) {
+
+if(msg.type == &quot;test&quot;){
+
+alert(&quot;test received&quot;);
+
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The alert box only triggers after reloading the extension and quickly switch to the tab where the alert box is supposed to show up.&lt;/p&gt;
+
+&lt;p&gt;So I thought background.js was supposed to load every time I reload the tab. But right now it&#39;s only loading once, and if I am not at that tab it loads before helper.js is ready to send a response. That&#39;s my theory. But as I said, I&#39;m new to this, and I&#39;m struggling to understand how it works.&lt;/p&gt;
+
+&lt;p&gt;Ultimately what I&#39;m trying to accomplish is having the user save some options that will load by default every time the page loads. Saving the options in the options page is working just fine. The popup page is also working as it should. I just can&#39;t get the default options to load, because I can&#39;t get the message to the content script page.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15575026</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Nested forms with multiple select</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="select"/><category scheme="http://stackoverflow.com/feeds/tags" term="nested-forms"/>
+        <author>
+            <name>Hans</name>
+            <uri>http://stackoverflow.com/users/577400</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575026/nested-forms-with-multiple-select" />
+        <published>2013-03-22T16:14:39Z</published>
+        <updated>2013-03-22T16:14:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a user model that has many user_roles, with the fields user_id, role_index (index in an array with roles). I would like to use nested form to update the role_indexes. 
+I have defined attr_accesible for user_role_attributes and role_index attributes and I have defined nested_attributes_for user_roles.
+However, when I use nested forms for updating the roles for a user that has 4 roles, with a select with multiple=true, as many identical select fiels are generated as user_roles for the current user, each returning the same array with the multiple selected objects.&lt;/p&gt;
+
+&lt;p&gt;Is that a bug in nested forms or do I use it in the wrong way ?&lt;/p&gt;
+
+&lt;p&gt;Here follows some view code. I am really using formtastic but I have also tried with ordinary forms with the same result.
+    &amp;lt;%= form_for  @user, :multipart =&gt; true,:remote=&gt;true do |form| %&gt;
+.... ..
+    &amp;lt;%= form_for :user_roles do |user_role| %&gt;
+    &amp;lt;%= form.fields_for :user_roles do |user_role| %&gt;
+    &amp;lt;%= &#39;Roller&#39;%&gt;
+    &amp;lt;%= user_role.select :role_index,options_for_select(all_roles_options,user.roles),{}
+            :title=&gt;&quot;Markera en eller flera roller&quot;,
+           :multiple=&gt;true,
+           :style=&gt;&quot;width:242px&quot;
+     %&gt;
+    &amp;lt;%end%&gt;
+......
+The result is 
+    &quot;user_roles_attributes&quot;=&gt;{&quot;0&quot;=&gt;{&quot;role_index&quot;=&gt;[&quot;&quot;, &quot;&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;7&quot;], &quot;id&quot;=&gt;&quot;7&quot;},
+    &quot;1&quot;=&gt;{&quot;role_index&quot;=&gt;[&quot;&quot;, &quot;&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;7&quot;], &quot;id&quot;=&gt;&quot;8&quot;}, &quot;2&quot;=&gt;{&quot;role_index&quot;=&gt;[&quot;&quot;, &quot;&quot;, &quot;3&quot;,
+    &quot;4&quot;, &quot;5&quot;, &quot;7&quot;], &quot;id&quot;=&gt;&quot;9&quot;}, &quot;3&quot;=&gt;{&quot;role_index&quot;=&gt;[&quot;&quot;, &quot;&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;7&quot;], &quot;id&quot;=&gt;&quot;10&quot;}},&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15575019</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Non traditional GUI design in Android</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="gui"/><category scheme="http://stackoverflow.com/feeds/tags" term="button"/>
+        <author>
+            <name>user1642500</name>
+            <uri>http://stackoverflow.com/users/1642500</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575019/non-traditional-gui-design-in-android" />
+        <published>2013-03-22T16:14:19Z</published>
+        <updated>2013-03-22T16:14:19Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a question which is related to the GUI design in android.&lt;br&gt;
+If you look Android design architecture, We have tabular structure in design view. We can draw buttons in rows and in columns, we can draw image view and many more but all we will do in matrix.…. As in it mentioned in this following image. 
+&lt;img src=&quot;http://i.stack.imgur.com/WmaCB.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;But I have seen many interesting GUI design in Android, which looks very beautiful and does not look like traditional design view (in matrix form).&lt;/p&gt;
+
+&lt;p&gt;Check the following picture with buttons in zigzag manner. I have drawn the red square on it. 
+&lt;img src=&quot;http://i.stack.imgur.com/Nth8u.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I am not sure how it could be designed and how to catch the onclick function for different images and buttons. I hope i have explained my question very well, Kindly tell me if it is not clear. I an looking for healthy response and help.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15575016</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">How do I loop through this array using jquery?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>Darren</name>
+            <uri>http://stackoverflow.com/users/940612</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575016/how-do-i-loop-through-this-array-using-jquery" />
+        <published>2013-03-22T16:13:55Z</published>
+        <updated>2013-03-22T16:13:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How would I output this data using Jquery.each() to loop over the following array using Jquery?  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var data = [
+{
+value: 36,
+color:&quot;#89228f&quot;,
+legend:&quot;My title&quot; 
+},
+{
+value: 12,
+color:&quot;#89288f&quot;,
+legend:&quot;This title&quot; 
+}
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I would like to output the results like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;lt;li&amp;gt;&amp;lt;div class=&quot;colorblock&quot; style=&quot;background-color:#89288f&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;legend&quot;&amp;gt;This title&amp;lt;/div&amp;gt;&amp;lt;/li&amp;gt;
+
+
+  &amp;lt;li&amp;gt;&amp;lt;div class=&quot;colorblock&quot; style=&quot;background-color:#89228f&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;legend&quot;&amp;gt;My  title&amp;lt;/div&amp;gt;&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15575017</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to simplify multiple if else with simple for loop?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="if-statement"/><category scheme="http://stackoverflow.com/feeds/tags" term="for-loop"/>
+        <author>
+            <name>Ameer</name>
+            <uri>http://stackoverflow.com/users/2015204</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575017/how-to-simplify-multiple-if-else-with-simple-for-loop" />
+        <published>2013-03-22T16:13:55Z</published>
+        <updated>2013-03-22T16:15:19Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have to check each and every condition with this repetitive if else loop. How to simplify with for loop or any other method?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(color.equals(&quot;1&quot;)&amp;amp;&amp;amp;id.equals(&quot;pant&quot;))
+{
+
+}
+else if(color.equals(&quot;2&quot;)&amp;amp;&amp;amp;id.equals(&quot;pant&quot;))
+{
+
+}
+else if(color.equals(&quot;3&quot;)&amp;amp;&amp;amp;id.equals(&quot;pant&quot;))
+{
+
+}
+else if(color.equals(&quot;4&quot;)&amp;amp;&amp;amp;id.equals(&quot;pant&quot;))
+{
+
+}
+else if(color.equals(&quot;5&quot;)&amp;amp;&amp;amp;id.equals(&quot;pant&quot;))
+{
+
+}
+else if(color.equals(&quot;6&quot;)&amp;amp;&amp;amp;id.equals(&quot;pant&quot;))
+{
+
+}
+
+
+if(color.equals(&quot;1&quot;)&amp;amp;&amp;amp;id.equals(&quot;shirt&quot;))
+{
+
+}
+else if(color.equals(&quot;2&quot;)&amp;amp;&amp;amp;id.equals(&quot;shirt&quot;))
+{
+
+}
+else if(color.equals(&quot;3&quot;)&amp;amp;&amp;amp;id.equals(&quot;shirt&quot;))
+{
+
+}
+else if(color.equals(&quot;4&quot;)&amp;amp;&amp;amp;id.equals(&quot;shirt&quot;))
+{
+
+}
+else if(color.equals(&quot;5&quot;)&amp;amp;&amp;amp;id.equals(&quot;shirt&quot;))
+{
+
+}
+else if(color.equals(&quot;6&quot;)&amp;amp;&amp;amp;id.equals(&quot;shirt&quot;))
+{
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574999</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">What is the significance of i in new RegExp(filter, &quot;i&quot;)) when sorting in javascript?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="regex"/>
+        <author>
+            <name>JackDamery</name>
+            <uri>http://stackoverflow.com/users/1842443</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574999/what-is-the-significance-of-i-in-new-regexpfilter-i-when-sorting-in-javasc" />
+        <published>2013-03-22T16:12:49Z</published>
+        <updated>2013-03-22T16:15:12Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using javascript to sort some  and I&#39;m trying to figure out exactly what each line of code does so I can fix it to work how I&#39;d like.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m just wondering what the siginificance of &lt;code&gt;i&lt;/code&gt;  is in&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(new RegExp(filter, &quot;i&quot;)) &amp;lt; 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I know that filter is the name I&#39;ve given my sorting variable. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574977</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Wildcard equivalent in C# generics</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term=".net"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/><category scheme="http://stackoverflow.com/feeds/tags" term="generics"/><category scheme="http://stackoverflow.com/feeds/tags" term="wildcard"/>
+        <author>
+            <name>Yasmani Llanes</name>
+            <uri>http://stackoverflow.com/users/692168</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574977/wildcard-equivalent-in-c-sharp-generics" />
+        <published>2013-03-22T16:11:56Z</published>
+        <updated>2013-03-22T16:14:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Let&#39;s say I have a generic class as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class GeneralPropertyMap&amp;lt;T&amp;gt;
+{
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In some other class I have a method that takes in an array of &lt;code&gt;GeneralPropertyMap&amp;lt;T&amp;gt;&lt;/code&gt;. In Java, in order to take in an array that contains any type of &lt;code&gt;GeneralPropertyMap&lt;/code&gt; the method would look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private void TakeGeneralPropertyMap(GeneralPropertyMap&amp;lt;?&amp;gt;[] maps)
+{
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We use the wildcard so that later we can call &lt;code&gt;TakeGeneralPropertyMap&lt;/code&gt; passing a bunch of &lt;code&gt;GeneralPropertyMap&lt;/code&gt; with any type for &lt;code&gt;T&lt;/code&gt; each, like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GeneralPropertyMap&amp;lt;?&amp;gt;[] maps = new GeneralPropertyMap&amp;lt;?&amp;gt;[3];
+maps[0] = new GeneralPropertyMap&amp;lt;String&amp;gt;();
+maps[1] = new GeneralPropertyMap&amp;lt;Integer&amp;gt;();
+maps[2] = new GeneralPropertyMap&amp;lt;Double&amp;gt;();
+//And finally pass the array in.
+TakeGeneralPropertyMap(maps);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m trying to figure out an equivalent in C# with no success. Any ideas?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574975</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Bash assigning tail value to a variable</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="linux"/><category scheme="http://stackoverflow.com/feeds/tags" term="bash"/><category scheme="http://stackoverflow.com/feeds/tags" term="unix"/><category scheme="http://stackoverflow.com/feeds/tags" term="variables"/><category scheme="http://stackoverflow.com/feeds/tags" term="tail"/>
+        <author>
+            <name>Phew</name>
+            <uri>http://stackoverflow.com/users/2197302</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574975/bash-assigning-tail-value-to-a-variable" />
+        <published>2013-03-22T16:11:44Z</published>
+        <updated>2013-03-22T16:13:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Trying to create a workflow with a &quot;output&quot; file that updates from time to time.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    #!/bin/bash
+
+echo &quot;start flow&quot;
+
+tail -n output.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So when the last line of &quot;output.txt&quot; is created, then it should be a variable, something like this:&lt;/p&gt;
+
+&lt;p&gt;Lets say that the last line in &quot;output.txt&quot; is a youtubelink. (for example)
+then the code should be something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;firefox $&#39;the_last_line_in_output.txt&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dont really know how to do this so if anyone could help me that would be awesome :)&lt;/p&gt;
+
+&lt;p&gt;/&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574967</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Add cell to table based on text in first cell with scripts using jQuery</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>Geek Grid</name>
+            <uri>http://stackoverflow.com/users/1902402</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574967/add-cell-to-table-based-on-text-in-first-cell-with-scripts-using-jquery" />
+        <published>2013-03-22T16:11:33Z</published>
+        <updated>2013-03-22T16:14:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this table...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;table width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;test-class&quot;&amp;gt; 
+ &amp;lt;tr&amp;gt; 
+  &amp;lt;td rowspan=&quot;6&quot;&amp;gt;TEST123&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;if(window.VCompare){VCompare(&#39;TEST123&#39;, 4);}&amp;lt;/script&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td rowspan=&quot;6&quot;&amp;gt;&amp;lt;img src=&quot;/images/clear1x1.gif&quot; width=&quot;5&quot; height=&quot;5&quot;&amp;gt;&amp;lt;/td&amp;gt; 
+  &amp;lt;td rowspan=&quot;6&quot; background=&quot;/images/test.gif&quot;&amp;gt;&amp;lt;img src=&quot;/images/clear1x1.gif&quot; width=&quot;1&quot; height=&quot;1&quot;&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td rowspan=&quot;4&quot;&amp;gt;&amp;lt;img src=&quot;/images/clear1x1.gif&quot; width=&quot;5&quot; height=&quot;5&quot;&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td colspan=&quot;9&quot;&amp;gt;&amp;lt;img src=&quot;/images/clear1x1.gif&quot; width=&quot;5&quot; height=&quot;5&quot;&amp;gt;&amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt; 
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to get the first cell&#39;s value without the script tags, then add a cell before the first cell where I got the text. I&#39;ve tried things like..&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var matchtext = &quot;TEST123&quot;;
+jQuery(&quot;tr&quot;).each(function() {
+ var data = jQuery(this).find(&quot;td:eq(0)&quot;).text();
+ var data = jQuery.trim(data);
+ if (data == matchtext){
+    jQuery(this).before(&quot;&amp;lt;td class=&#39;testclass&#39; rowspan=&#39;6&#39;&amp;gt;test inserted!&amp;lt;/td&amp;gt;&quot;);
+ }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And looping through the table, but that script is throwing me off.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574881</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How do I display a list of strings in JSF which also needs to be editable?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jsf"/>
+        <author>
+            <name>Phoenix</name>
+            <uri>http://stackoverflow.com/users/973391</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574881/how-do-i-display-a-list-of-strings-in-jsf-which-also-needs-to-be-editable" />
+        <published>2013-03-22T16:07:53Z</published>
+        <updated>2013-03-22T16:14:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a backing bean which has a property called List cites where Cite has a string property called &quot;value&quot; .. In the init method I am fetching the values stored as a comma separated string, splitting them into individual strings constructing a list and displaying the list of cites. But I also want to give the users ability to add more cites on top of existing ones/edit existing cite content. How can I do that ? The code below is the jsf in xhtml but it doesn&#39;t work for me .. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div style=&quot;margin-top: 10px; padding: 3px 3px;&quot;&amp;gt;
+                    &amp;lt;fieldset&amp;gt;                          
+                        &amp;lt;legend&amp;gt;Cites Affected&amp;lt;/legend&amp;gt;
+                        &amp;lt;h:dataTable value=&quot;#{dataEntry.cites}&quot; var=&quot;citeAffected&quot;&amp;gt;
+                            &amp;lt;h:column&amp;gt;
+                            &amp;lt;f:facet name=&quot;header&quot; &amp;gt;
+                                &amp;lt;h:outputText value=&quot;Cite&quot;/&amp;gt;
+                            &amp;lt;/f:facet&amp;gt;    
+                            &amp;lt;h:inputText value=&quot;#{citeAffected.value}&quot;/&amp;gt;
+                            &amp;lt;/h:column&amp;gt;
+                        &amp;lt;/h:dataTable&amp;gt;
+                    &amp;lt;h:commandButton value=&quot;Add cite&quot; process=&quot;@this&quot; action=&quot;#{dataEntry.addCite}&quot;/&amp;gt;                       
+                    &amp;lt;/fieldset&amp;gt;
+                &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the backing bean .. this is what I have&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;DataEntry
+{
+private List&amp;lt;CiteAffected&amp;gt; cites = new ArrayList&amp;lt;CiteAffected&amp;gt;();
+
+public void addCite()
+{
+cites.add(new CiteAffected());
+} 
+
+public void editMetadata()
+{
+//update the db object 
+}
+private void init()
+{
+
+// get the value from database as a comma separated string
+for(String citeAffected : Arrays.asList(sourceManualLoadProperties.getCitesAffected().split(&quot;,&quot;)))
+            {
+                CiteAffected cite = new CiteAffected();
+                cite.setValue(citeAffected);
+                this.cites.add(cite);
+}           }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The error I am getting is .. As soon as I click on the command button &quot;add cite&quot; all the existing values disappear when I want it to simply add another text box but display the existing values as well .. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class CiteAffected
+{
+    private String value;
+
+    /**
+     *
+     * @return the cite affected
+     */
+    public String getValue()
+    {
+        return value;
+    }
+
+    /**
+     *
+     * @param value the cite affected
+     */
+    public void setValue(final String value)
+    {
+        this.value = value;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574863</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Visual Studio 2012 Memory Spike and Hanging</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="visual-studio-2012"/>
+        <author>
+            <name>Yuck</name>
+            <uri>http://stackoverflow.com/users/719034</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574863/visual-studio-2012-memory-spike-and-hanging" />
+        <published>2013-03-22T16:06:32Z</published>
+        <updated>2013-03-22T16:13:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;If this is the wrong place for this question, please move it kindly.&lt;/p&gt;
+
+&lt;p&gt;Recently, Visual Studio 2012 has been acting up.  As I&#39;m developing ASP .NET applications I routinely tab between the browser (Chrome) and the Visual Studio IDE. Sometimes when I attempt to tab back into Visual Studio the window will not come up.  At that time if I look at my task manager I&#39;ll see that the &lt;code&gt;devenv.exe&lt;/code&gt; process is using about 10 to 20% of CPU time and is gathering more and more memory for itself. This goes on for about 20 seconds or so before the IDE is responsive and usable again. Eventually, the IDE can&#39;t recover and I need to terminate the process.&lt;/p&gt;
+
+&lt;p&gt;My desktop is a 64-bit quad-core i7 @ 3.4GHz with 8 GB of RAM, running Windows 7 OS. Typically &lt;code&gt;devenv.exe&lt;/code&gt; will use about 500 MB of RAM. When the problem above begins to happen it will quicky ramp up to 1.5 GB and has been as high as 2 GB.&lt;/p&gt;
+
+&lt;p&gt;The only add-on I&#39;m using is ReSharper 7.1. I have no further IDE customizations apart from the built-in dark color scheme.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt; &amp;mdash; I have tried disabling and removing R# which has had no effect on this problem.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574860</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">active class issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="regex"/>
+        <author>
+            <name>John</name>
+            <uri>http://stackoverflow.com/users/1937754</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574860/active-class-issue" />
+        <published>2013-03-22T16:06:27Z</published>
+        <updated>2013-03-22T16:14:42Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve set an &lt;em&gt;active&lt;/em&gt; class for the current link and it works well if the href is like &quot; gallery.htm &quot; or a proper web page. But after I changed the layout I preferred to set an ID for each link destination so that user is directed to the destination in the same page only rather than being switched between pages. &lt;/p&gt;
+
+&lt;p&gt;I suppose the problem is too simple that I just could not find anything related on google. Anyway don&#39;t mind please;I&#39;m not good in javascript yet. &lt;/p&gt;
+
+&lt;p&gt;Now the problem is the active class CAN NOT be set using this script.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var url = window.location.pathname,
+    urlRegExp = new RegExp(url.replace(/\/$/, &#39;&#39;) + &quot;$&quot;);
+$(&#39;a&#39;).each(function () {
+    console.log( this.href );
+        $(this).addClass(&#39;active1&#39;);
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/R65Gd/1/&quot; rel=&quot;nofollow&quot;&gt;Here&lt;/a&gt; is the sample.&lt;/p&gt;
+
+&lt;p&gt;EDIT: Code is corrected no.&lt;/p&gt;
+
+&lt;p&gt;So anything wrong somewhere?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574767</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">stoppropagation on div inside table not working</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="stoppropagation"/>
+        <author>
+            <name>TrailDEX</name>
+            <uri>http://stackoverflow.com/users/593411</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574767/stoppropagation-on-div-inside-table-not-working" />
+        <published>2013-03-22T16:01:30Z</published>
+        <updated>2013-03-22T16:14:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;When a div inside a table is clicked stoppropagation does not trigger until after click bubbles to tr.  How do I stop bubbling out of the div?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/tcbnW/&quot; rel=&quot;nofollow&quot;&gt;http://jsfiddle.net/tcbnW/&lt;/a&gt; dictates my issue&lt;/p&gt;
+
+&lt;p&gt;div clicked! → tr clicked! → STOP triggered&lt;/p&gt;
+
+&lt;p&gt;I need&lt;/p&gt;
+
+&lt;p&gt;div clicked! → STOP triggered&lt;/p&gt;
+
+&lt;p&gt;html code below&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+    &amp;lt;tr onclick=&quot;$(&#39;#INFO&#39;).append(&#39;tr clicked!&amp;lt;BR&amp;gt;&#39;);&quot;&amp;gt;
+        &amp;lt;td&amp;gt;
+            &amp;lt;div onclick=&quot;$(&#39;#INFO&#39;).append(&#39;div clicked!&amp;lt;BR&amp;gt;&#39;);&quot; style=&quot;font-weight:bold;&quot; class=&quot;STOP&quot;&amp;gt;test div&amp;lt;/div&amp;gt;
+        &amp;lt;/td&amp;gt;
+    &amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+&amp;lt;div id=&quot;INFO&quot; style=&quot;border:1px solid #F00;&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;script&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(document).on(&#39;click&#39;,&#39;.STOP&#39;,function(event){
+       $(&#39;#INFO&#39;).append(&#39;STOP triggered&amp;lt;BR&amp;gt;&#39;);
+       event.stopPropagation();
+       });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;using jquery 1.9&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574745</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Specify column data type with a &lt;th&gt; attribute for DataTables</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="datatables"/>
+        <author>
+            <name>Nick Petrie</name>
+            <uri>http://stackoverflow.com/users/892076</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574745/specify-column-data-type-with-a-th-attribute-for-datatables" />
+        <published>2013-03-22T16:00:30Z</published>
+        <updated>2013-03-22T16:13:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;We&#39;re using the DataTables jQuery plugin (&lt;a href=&quot;http://www.datatables.net&quot; rel=&quot;nofollow&quot;&gt;http://www.datatables.net&lt;/a&gt;) to create sortable tables. This plugin auto-detects the data type of the data in each column.&lt;/p&gt;
+
+&lt;p&gt;When you want to specify the data type of a column yourself, you add the &quot;aoColumns&quot; attribute when you initialize the datatable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;#accountTable&#39;).dataTable({
+    &quot;bPaginate&quot;: false,
+    &quot;sScrollX&quot;: &quot;100%&quot;,
+    &quot;bScrollCollapse&quot;: true,
+    &quot;aoColumns&quot;: [
+        null,
+        null,
+        { &quot;sType&quot;: &quot;currency&quot; },
+        { &quot;sType&quot;: &quot;currency&quot; }
+    ]
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note, I downloaded the currency data type plugin for datatables.  This works great.&lt;/p&gt;
+
+&lt;p&gt;However, I&#39;m concerned that if we ever make changes to the table column, we&#39;ll forget to go back into the JS and change how the datatables plugin is initialized on that table.&lt;/p&gt;
+
+&lt;p&gt;So... It would be ideal to specify the data types directly in the table as necessary:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;table class=&quot;dataTables display&quot;&amp;gt;
+    &amp;lt;thead&amp;gt;
+        &amp;lt;tr&amp;gt;
+        &amp;lt;th&amp;gt;Category&amp;lt;/th&amp;gt;
+        &amp;lt;th&amp;gt;Product&amp;lt;/th&amp;gt;
+        &amp;lt;th sType=&quot;currency&quot;&amp;gt;Cost&amp;lt;/th&amp;gt;
+        &amp;lt;th sType=&quot;currency&quot;&amp;gt;Retail&amp;lt;/th&amp;gt;
+        ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there any way to do this, either with default functionality of DataTables (which I can&#39;t find) or using a JS loop or something to loop through the  tags of the table and update the sType where &quot;sType&quot; attribute exists? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574682</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">creating links dynamically jquery mobile in a loop</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery-mobile"/><category scheme="http://stackoverflow.com/feeds/tags" term=".each"/>
+        <author>
+            <name>migarich</name>
+            <uri>http://stackoverflow.com/users/421658</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574682/creating-links-dynamically-jquery-mobile-in-a-loop" />
+        <published>2013-03-22T15:57:22Z</published>
+        <updated>2013-03-22T16:14:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;consider this json Object:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{&quot;data&quot;:{&quot;ID&quot;:&quot;3&quot;,&quot;Category&quot;:&quot;Career&quot;}},{&quot;data&quot;:{&quot;ID&quot;:&quot;5&quot;,&quot;Category&quot;:&quot;Emotions&quot;}},{&quot;data&quot;:{&quot;ID&quot;:&quot;1&quot;,&quot;Category&quot;:&quot;Finance&quot;}},{&quot;data&quot;:{&quot;ID&quot;:&quot;2&quot;,&quot;Category&quot;:&quot;Health&quot;}},{&quot;data&quot;:{&quot;ID&quot;:&quot;6&quot;,&quot;Category&quot;:&quot;Legacy&quot;}},{&quot;data&quot;:{&quot;ID&quot;:&quot;4&quot;,&quot;Category&quot;:&quot;Relationships&quot;}}]  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and consider this client code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(function (){ 
+
+ $.ajax({                                      
+  url: &#39;category.php&#39;,                         
+  data: &quot;&quot;,                        
+   dataType: &#39;json&#39;,                      
+  success: function(data)         
+  {
+     var output = &#39;&#39;;
+      $.each( data, function( key, obj) {
+      $.each( obj, function( index, item) {
+        //console.log(index+ &quot;: &quot; + item);
+        url = &quot;goal.php?catID=&quot; + item.ID;
+        output = &#39;&amp;lt;li&amp;gt;&amp;lt;a&amp;gt;&#39; + item.Category+ &#39;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#39;;
+        href = $(&#39;a&#39;).attr(&quot;href&quot;,url); $(&#39;a&#39;).append(href);
+        $(&#39;#listview&#39;).append(output).listview(&#39;refresh&#39;);
+       });
+   });
+   } 
+});  }); 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div data-role=&quot;page&quot; id=&quot;home&quot;&amp;gt;
+&amp;lt;div data-role=&quot;header&quot;&amp;gt;&amp;lt;h1&amp;gt;My Goals&amp;lt;/h1&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div data-role=&quot;listview&quot; data-autodividers=&quot;true&quot; data-inset=&quot;true&quot;&amp;gt;
+  &amp;lt;ul data-role=&quot;listview&quot; id=&quot;listview&quot;&amp;gt;    
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;My first attempt in JQuery mobile and I am trying to loop over the JSON and output the categories with their links - &lt;/p&gt;
+
+&lt;p&gt;I am almost succeeding but it is only appending the last record item.ID on the url?&lt;/p&gt;
+
+&lt;p&gt;Can somebody please help?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574681</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">dynamic backbone query with query-engine</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="json"/><category scheme="http://stackoverflow.com/feeds/tags" term="object"/><category scheme="http://stackoverflow.com/feeds/tags" term="backbone.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="query-engine"/>
+        <author>
+            <name>Paul- Siteway</name>
+            <uri>http://stackoverflow.com/users/1111960</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574681/dynamic-backbone-query-with-query-engine" />
+        <published>2013-03-22T15:57:19Z</published>
+        <updated>2013-03-22T16:13:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i just started using &lt;a href=&quot;https://github.com/bevry/query-engine&quot; rel=&quot;nofollow&quot;&gt;https://github.com/bevry/query-engine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;i would like to know how i could create querys with dynamic data inside. &lt;/p&gt;
+
+&lt;p&gt;here a code example: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var query = &quot;Berlin&quot;;
+queryObject = &#39;{&quot;City&quot;:{$contains: &quot;&#39;+query+&#39;&quot;}}&#39;;
+queryCollection.query(queryObject);
+
+//TypeError: Object.keys called on non-object
+
+queryObject = {&quot;City&quot;:{$contains: &quot;Berlin&quot;}} ; 
+queryCollectionquery.(queryObject);
+//working as expected
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any Ideas?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574550</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">active directory asp.net forms authentication in asp.net mvc 3</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-3"/>
+        <author>
+            <name>csetzkorn</name>
+            <uri>http://stackoverflow.com/users/283538</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574550/active-directory-asp-net-forms-authentication-in-asp-net-mvc-3" />
+        <published>2013-03-22T15:50:51Z</published>
+        <updated>2013-03-22T16:14:21Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have to implement an interface like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;interface IMembershipWrapper
+{
+  Guid GetUserId();
+  Guid GetUserId(string username, bool userIsOnline);
+  bool ValidateUser(string userName, string password);
+    …
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;against active directory and inject it using Unity.&lt;/p&gt;
+
+&lt;p&gt;I might get away with throwing a NotImplementedException exception for certain methods but do you think it is generally possible? What strategy do you recommend? &lt;/p&gt;
+
+&lt;p&gt;I understand that I can configure &#39;active directory asp.net forms authentication&#39; via the web.config as described &lt;a href=&quot;http://helios.ca/2009/05/04/aspnet-mvc-forms-authentication-with-active-directory/&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt;. Unfortunately, this is not an option.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574376</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Decompress an array-PYTHON</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/><category scheme="http://stackoverflow.com/feeds/tags" term="decompression"/>
+        <author>
+            <name>cah</name>
+            <uri>http://stackoverflow.com/users/2199866</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574376/decompress-an-array-python" />
+        <published>2013-03-22T15:42:05Z</published>
+        <updated>2013-03-22T16:14:04Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need to decompress an array and I am not sure where to start.&lt;/p&gt;
+
+&lt;p&gt;Here is the input of the function&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def main():
+    # Test case for Decompress function
+    B = [6, 2, 7, 1, 3, 5, 1, 9, 2, 0]
+    A = Decompress(B)
+    print(A)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want this to come out&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A = [2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 9, 0, 0]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you can&#39;t see the pattern, B[1] is how many times B[2] shows up in A[], and then B[3] is how many times B[4] shows up in A[], and so on.&lt;/p&gt;
+
+&lt;p&gt;How do I write a function for this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15574175</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Zipping a csv file throws a &quot;At Least One ZipEntry&quot; using Java</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="zip"/>
+        <author>
+            <name>bouncingHippo</name>
+            <uri>http://stackoverflow.com/users/1416058</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15574175/zipping-a-csv-file-throws-a-at-least-one-zipentry-using-java" />
+        <published>2013-03-22T15:32:32Z</published>
+        <updated>2013-03-22T16:14:30Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;What I am trying to do is to zip a generated csv file. The file does get generated without issue until it comes to this code here. So the code throws the exception at &lt;code&gt;zos.close()&lt;/code&gt; here&#39;s the code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;try {
+    FileOutputStream fos = new FileOutputStream(file.getPath());
+    ZipOutputStream zos = new ZipOutputStream(fos);
+    FileInputStream in = new FileInputStream(file.getPath());
+    String fullCSVFileName = file.getName();
+    String fullFileName = fullCSVFileName.substring(0, fullCSVFileName.length()-3);
+    String fullZipFileName = fullFileName + &quot;zip&quot;;
+    ZipEntry ze= new ZipEntry(fullZipFileName);
+    if(ze != null) zos.putNextEntry(ze);
+    fos = new FileOutputStream(&quot;C:\\sourceLocation\\&quot;+fullZipFileName);
+    zos = new ZipOutputStream(fos);
+
+    byte[] buffer = new byte[1024];
+
+    int len;// = in.read(buffer);
+    while ((len = in.read(buffer)) &amp;gt; 0) {
+        Logger.debug(&quot;in Loop, len = &quot; + len);
+        zos.write(buffer, 0, len);
+    }
+    in.close();
+    zos.closeEntry();    
+    zos.close();
+
+    Logger.debug(&quot;Zipping complete!&quot;);
+
+} catch(IOException ex) {
+    Logger.error(ex);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Corrected Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;try{
+
+    String fullCSVFileName = file.getName();
+    String fullFileName = fullCSVFileName.substring(0, fullCSVFileName.length()-3);                     
+    String fullZipFileName = fullFileName + &quot;zip&quot;;                      
+    FileOutputStream fos = new FileOutputStream(&quot;C:\\sourceLocation\\&quot;+fullZipFileName);
+    ZipOutputStream zos = new ZipOutputStream(fos);
+    FileInputStream in = new FileInputStream(file.getPath());
+
+    ZipEntry ze= new ZipEntry(fullZipFileName);
+    if(ze != null){
+        zos.putNextEntry(ze);
+    }
+
+    byte[] buffer = new byte[1024];
+
+    int len;    
+    while ((len = in.read(buffer)) &amp;gt; 0) {
+        zos.write(buffer, 0, len);
+    }
+
+    in.close();
+    zos.closeEntry();
+    zos.close();
+
+    Logger.debug(&quot;Zipping complete!&quot;);
+
+}catch(IOException ex){
+    Logger.error(ex);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15572504</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Measure performance of ASP.NET SQL session state provider</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="performance"/><category scheme="http://stackoverflow.com/feeds/tags" term="session-state"/>
+        <author>
+            <name>Keith Bluestone</name>
+            <uri>http://stackoverflow.com/users/378081</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15572504/measure-performance-of-asp-net-sql-session-state-provider" />
+        <published>2013-03-22T14:14:33Z</published>
+        <updated>2013-03-22T16:14:43Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;We have a very large three-tier .NET 4.0 web application (ASP.NET, WCF, SQL Server 2008 R2) with some performance issues I&#39;m trying to diagnose.  The ASP.NET tier uses the SQL session state provider, and there is reasonably extensive use of session state.   &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;sessionState mode=&quot;SQLServer&quot; sqlConnectionString=&quot;...&quot; cookieless=&quot;false&quot; timeout=&quot;20&quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m trying to figure out how much time it takes to load and save the session to the database. Note that this is different than using SQL profiler or other database means to measure time on that tier; I want to measure &lt;strong&gt;total time taken from the ASP.NET tier.&lt;/strong&gt;  I.e. that would include session object serialization/deserialization, wire time, and SQL save/load time.  &lt;/p&gt;
+
+&lt;p&gt;I am pretty experienced developer (since the early 80&#39;s), and I have Googled the web for &lt;em&gt;hours&lt;/em&gt; now -- there are tons of articles contrasting session state approaches and general performance concepts etc, but I can find nothing on how to actually measure this total time for the SQL session state provider.  I initially thought of using an HttpModule to hook events and use a stopwatch, but there doesn&#39;t appear to be a clean path to this. (I would settle for an approach that&#39;s &lt;em&gt;reasonably&lt;/em&gt; accurate to few percent...)  &lt;/p&gt;
+
+&lt;p&gt;Any ideas/suggestions are much appreciated, thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15572093</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Twitter Bootstrap: Difference between Grid and Layout?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="twitter-bootstrap"/>
+        <author>
+            <name>Etienne Desgagn&#233;</name>
+            <uri>http://stackoverflow.com/users/1419118</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15572093/twitter-bootstrap-difference-between-grid-and-layout" />
+        <published>2013-03-22T13:54:46Z</published>
+        <updated>2013-03-22T16:15:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Bootstrap scaffolding documentation (&lt;a href=&quot;http://twitter.github.com/bootstrap/scaffolding.html&quot; rel=&quot;nofollow&quot;&gt;http://twitter.github.com/bootstrap/scaffolding.html&lt;/a&gt;) describe the Grid system but introduce the Layout concept just after...&lt;/p&gt;
+
+&lt;p&gt;If the Grid system is intended for designing page layout, what is the purpose of this Layout concept?&lt;/p&gt;
+
+&lt;p&gt;Etienne&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15571643</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">SMS Payments/Donation Service?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="api"/><category scheme="http://stackoverflow.com/feeds/tags" term="sms"/>
+        <author>
+            <name>bryanjos</name>
+            <uri>http://stackoverflow.com/users/1735068</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15571643/sms-payments-donation-service" />
+        <published>2013-03-22T13:32:07Z</published>
+        <updated>2013-03-22T16:14:38Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;We have a site lets fans tip performers via PayPal or Stripe. We want to add SMS to the mix. Our use case would be to let fans text a number with the performer&#39;s name and the amount they want to tip and using that information, transfer money to the performer&#39;s PayPal or Stripe account using our backend which is written in Python using Flask. Are there any SMS payment services that closely match that use case? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15568270</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Select values (and associated IDs) that match existing distribution from a larger dataset in R</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="r"/><category scheme="http://stackoverflow.com/feeds/tags" term="distribution"/><category scheme="http://stackoverflow.com/feeds/tags" term="bioinformatics"/>
+        <author>
+            <name>user2198789</name>
+            <uri>http://stackoverflow.com/users/2198789</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15568270/select-values-and-associated-ids-that-match-existing-distribution-from-a-large" />
+        <published>2013-03-22T10:38:31Z</published>
+        <updated>2013-03-22T16:14:38Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a large dataset from a genomic experiment that includes gene names, gene expression and classification into genesets. I want to draw gene name/expression pairs from the whole dataset to create a new geneset that has expression distribution that matches that of one of the existing datasets but does not include any of the same gene names.
+Can someone assist with the functions and syntax required for this?
+The distribution of the geneset I want to match is not normal. &lt;/p&gt;
+
+&lt;p&gt;EDIT-----
+See below the first few lines of the set: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Gene    Expression  Classification
+0610006I08Rik   15.8669 NA
+0610007C21Rik   22.4845 NA
+0610007L01Rik   27.2051 Active
+0610007P14Rik   30.2166 NA
+0610007P22Rik   23.8489 NA
+0610008C08Rik   3.33734 Active
+0610009B22Rik   21.3698 Active
+0610009D07Rik   39.0028 Active
+0610009K11Rik   9.33322 Active
+0610009O03Rik   27.1543 NA
+0610009O20Rik   18.8473 Active
+0610010D20Rik   0.249122    PRCa
+0610010E21Rik   16.4912 Active
+0610010O12Rik   10.9115 Active
+0610011F06Rik   12.5925 Active
+0610011L14Rik   11.3263 Active
+0610012D14Rik   0.0383319   Active
+0610012D17Rik   8.65554 Active
+0610012H03Rik   0.00808308  PRCr
+0610013E23Rik   3.02815 PRCa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The PRCr Classification contains ~1600 out of ~18800 values.&lt;/p&gt;
+
+&lt;p&gt;The Descriptive stats for each Classificantion are:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;object.browser()
+descriptive.table(vars = d(Expression) ,
+    strata = d(Classification),data= Dataset,
+    func.names =c(&quot;Mean&quot;,&quot;St. Deviation&quot;,&quot;Valid N&quot;, 
+    &quot;Skew&quot;,&quot;Kurtosis&quot;,&quot;Minimum&quot;,&quot;Maximum&quot;,&quot;Median&quot;))
+$`Classification: Active `
+         Mean.Expression St. Deviation.Expression       Valid N.Expression 
+                34.24304                104.81319               5707.00000 
+         Skew.Expression      Kurtosis.Expression       Minimum.Expression 
+                14.62230                312.04654                  0.00000 
+      Maximum.Expression        Median.Expression 
+              3155.79000                 12.27650 
+
+$`Classification: Inactive `
+         Mean.Expression St. Deviation.Expression       Valid N.Expression 
+               0.9302095               12.1950813             5298.0000000 
+         Skew.Expression      Kurtosis.Expression       Minimum.Expression 
+              36.9731773             1574.4972771                0.0000000 
+      Maximum.Expression        Median.Expression 
+             597.6300000                0.0000000 
+
+$`Classification: NA `
+         Mean.Expression St. Deviation.Expression       Valid N.Expression 
+                27.61441                 81.05426               3456.00000 
+         Skew.Expression      Kurtosis.Expression       Minimum.Expression 
+                12.35907                213.12517                  0.00000 
+      Maximum.Expression        Median.Expression 
+              1868.54000                  9.35730 
+
+$`Classification: PRCa `
+         Mean.Expression St. Deviation.Expression       Valid N.Expression 
+                14.55909                 69.55063               1227.00000 
+         Skew.Expression      Kurtosis.Expression       Minimum.Expression 
+                22.46471                625.23674                  0.00000 
+      Maximum.Expression        Median.Expression 
+              2063.41000                  4.82310 
+
+$`Classification: PRCi `
+         Mean.Expression St. Deviation.Expression       Valid N.Expression 
+                1.957754                 2.868675               742.000000 
+         Skew.Expression      Kurtosis.Expression       Minimum.Expression 
+                4.298784                30.439098                 0.000000 
+      Maximum.Expression        Median.Expression 
+               33.845700                 1.024570 
+
+$`Classification: PRCo `
+         Mean.Expression St. Deviation.Expression       Valid N.Expression 
+            2.073282e-01             1.463564e+00             7.980000e+02 
+         Skew.Expression      Kurtosis.Expression       Minimum.Expression 
+            1.651176e+01             3.037924e+02             0.000000e+00 
+      Maximum.Expression        Median.Expression 
+            2.976000e+01             9.456795e-03 
+
+$`Classification: PRCr `
+         Mean.Expression St. Deviation.Expression       Valid N.Expression 
+            5.534140e-01             3.096084e+00             1.632000e+03 
+         Skew.Expression      Kurtosis.Expression       Minimum.Expression 
+            2.571913e+01             7.848217e+02             0.000000e+00 
+      Maximum.Expression        Median.Expression 
+            1.025940e+02             8.521185e-02 
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15559551</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">UnsatisfiedLinkError with sqlite4java Jar on Mac OS X NetBeans</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="osx"/><category scheme="http://stackoverflow.com/feeds/tags" term="sqlite"/><category scheme="http://stackoverflow.com/feeds/tags" term="unsatisfiedlinkerror"/>
+        <author>
+            <name>frak</name>
+            <uri>http://stackoverflow.com/users/206546</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15559551/unsatisfiedlinkerror-with-sqlite4java-jar-on-mac-os-x-netbeans" />
+        <published>2013-03-21T22:40:36Z</published>
+        <updated>2013-03-22T16:14:43Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am getting experiencing a similar problem to this question:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/14301562/unsatisfiedlinkerror-with-sqlite4java-jar-on-mac-os-x&quot;&gt;UnsatisfiedLinkError with sqlite4java Jar on Mac OS X&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I am running on a Mac, and I have the relevant libraries in my lib folder.  However, if I run this as is I get the UnsatisfiedLinkError. If I run &quot;java -jar sqlite4java.jar -d&quot; I get the following output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sqlite4java 282
+130321:222850.424 FINE [sqlite] Internal: loading library
+130321:222850.425 FINE [sqlite] Internal: java.library.path=/Users/mikey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+130321:222850.425 FINE [sqlite] Internal: sqlite4java.library.path=null
+130321:222850.425 FINE [sqlite] Internal: cwd=/Users/mikey/NetBeansProjects/Test/lib/.
+130321:222850.425 FINE [sqlite] Internal: default path=/Users/mikey/NetBeansProjects/Test/lib
+130321:222850.425 FINE [sqlite] Internal: forced path=null 
+130321:222850.426 FINE [sqlite] Internal: os.name=mac os x; os=osx
+130321:222850.426 FINE [sqlite] Internal: os.arch=x86_64
+130321:222850.426 FINE [sqlite] Internal: trying to load sqlite4java-osx-x86_64
+130321:222850.427 FINE [sqlite] Internal: cannot load sqlite4java-osx-x86_64: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-x86_64 in java.library.path
+130321:222850.427 FINE [sqlite] Internal: trying to load sqlite4java-osx-amd64
+130321:222850.428 FINE [sqlite] Internal: cannot load sqlite4java-osx-amd64: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-amd64 in java.library.path
+130321:222850.428 FINE [sqlite] Internal: trying to load sqlite4java-osx-10.4
+130321:222850.431 INFO [sqlite] Internal: loaded sqlite4java-osx-10.4 from system path
+130321:222850.433 INFO [sqlite] Internal: loaded sqlite 3.7.10, wrapper 0.2
+SQLite 3.7.10
+Compile-time options: ENABLE_COLUMN_METADATA ENABLE_FTS3 ENABLE_FTS3_PARENTHESIS ENABLE_LOCKING_STYLE=0 ENABLE_MEMORY_MANAGEMENT ENABLE_RTREE OMIT_DEPRECATED TEMP_STORE=1 THREADSAFE=1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I can see that it is looking for the sqlite4java-osx-x86_64 library, so I then ran both &quot;ln -s libsqlite4java-osx.jnilib libsqlite4java-osx-x86_64.jnilib&quot; and &quot;ln -s libsqlite4java-osx-10.4.jnilib libsqlite4java-osx-x86_64.jnilib&quot; and that seems to help:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sqlite4java 282
+130321:223211.473 FINE [sqlite] Internal: loading library
+130321:223211.474 FINE [sqlite] Internal: java.library.path=/Users/mikey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+130321:223211.474 FINE [sqlite] Internal: sqlite4java.library.path=null
+130321:223211.474 FINE [sqlite] Internal: cwd=/Users/mikey/NetBeansProjects/Test/lib/.
+130321:223211.474 FINE [sqlite] Internal: default path=/Users/mikey/NetBeansProjects/Test/lib
+130321:223211.474 FINE [sqlite] Internal: forced path=null 
+130321:223211.475 FINE [sqlite] Internal: os.name=mac os x; os=osx
+130321:223211.475 FINE [sqlite] Internal: os.arch=x86_64
+130321:223211.475 FINE [sqlite] Internal: trying to load sqlite4java-osx-x86_64
+130321:223211.477 INFO [sqlite] Internal: loaded sqlite4java-osx-x86_64 from system path
+130321:223211.479 INFO [sqlite] Internal: loaded sqlite 3.7.10, wrapper 0.2
+SQLite 3.7.10
+Compile-time options: ENABLE_COLUMN_METADATA ENABLE_FTS3 ENABLE_FTS3_PARENTHESIS ENABLE_MEMORY_MANAGEMENT ENABLE_RTREE OMIT_DEPRECATED TEMP_STORE=1 THREADSAFE=1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Seems fine, right?  No.  When I try and run my java code, it fails yet again when trying to open the database with the UnsatisfiedLinkError.&lt;/p&gt;
+
+&lt;p&gt;Is there something obvious I am missing?  Here is an ls of the relevant part my lib directory just as a sanity check:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-rw-r--r--@  1 mikey  staff   466792  1 Mar  2012 libsqlite4java-android-armv7.so
+-rw-r--r--@  1 mikey  staff   790986  1 Mar  2012 libsqlite4java-linux-amd64.so
+-rw-r--r--@  1 mikey  staff   732637  1 Mar  2012 libsqlite4java-linux-i386.so
+-rw-r--r--@  1 mikey  staff  1400368  1 Mar  2012 libsqlite4java-osx-10.4.jnilib
+-rw-r--r--@  1 mikey  staff  1401592  1 Mar  2012 libsqlite4java-osx-ppc.jnilib
+lrwxr-xr-x   1 mikey  staff       25 21 Mar 22:31 libsqlite4java-osx-x86_64.jnilib -&amp;gt; libsqlite4java-osx.jnilib
+-rw-r--r--@  1 mikey  staff  1433640  1 Mar  2012 libsqlite4java-osx.jnilib
+-rw-r--r--   1 mikey  staff      928 17 Mar 17:05 nblibraries.properties
+drwxr-xr-x   3 mikey  staff      102 15 Mar 18:59 sqlite4java
+drwxr-xr-x  13 mikey  staff      442 19 Mar 17:49 sqlite4java-282 2
+-rw-r--r--@  1 mikey  staff   102236  1 Mar  2012 sqlite4java-docs.zip
+-rw-r--r--@  1 mikey  staff   100502  1 Mar  2012 sqlite4java-src.zip
+-rw-r--r--@  1 mikey  staff   622080  1 Mar  2012 sqlite4java-win32-x64.dll
+-rw-r--r--@  1 mikey  staff   462848  1 Mar  2012 sqlite4java-win32-x86.dll
+-rw-r--r--@  1 mikey  staff   129381  1 Mar  2012 sqlite4java.jar
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And a copy of my database connection code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import com.almworks.sqlite4java.SQLiteConnection;
+import com.almworks.sqlite4java.SQLiteException;
+import java.io.File;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ * Wrapper for Sqlite
+ *
+ * @author mikey
+ */
+public class Database {
+
+    private SQLiteConnection db;
+
+    public Database() {
+        db = new SQLiteConnection(new File(&quot;./test.db&quot;));
+        try {
+            db.open(true);
+        } catch (SQLiteException ex) {
+            Logger.getLogger(Database.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks for any light you can shed on my problem...&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In response to @sereda here is the output from putting &quot;com.almworks.sqlite4java.SQLite.main(new String[] {&quot;-d&quot;});&quot; into the database connection code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sqlite4java 282
+130322:161109.097 FINE [sqlite] Internal: loading library
+130322:161109.099 FINE [sqlite] Internal: java.library.path=/Users/mikey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+130322:161109.100 FINE [sqlite] Internal: sqlite4java.library.path=null
+130322:161109.100 FINE [sqlite] Internal: cwd=/Users/mikey/NetBeansProjects/Test/.
+130322:161109.101 FINE [sqlite] Internal: default path=/Users/mikey/NetBeansProjects/Test/lib
+130322:161109.101 FINE [sqlite] Internal: forced path=null 
+130322:161109.102 FINE [sqlite] Internal: os.name=mac os x; os=osx
+130322:161109.102 FINE [sqlite] Internal: os.arch=x86_64
+130322:161109.105 FINE [sqlite] Internal: trying to load sqlite4java-osx-x86_64
+130322:161109.108 FINE [sqlite] Internal: cannot load sqlite4java-osx-x86_64: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-x86_64 in java.library.path
+130322:161109.108 FINE [sqlite] Internal: trying to load sqlite4java-osx-amd64
+130322:161109.112 FINE [sqlite] Internal: cannot load sqlite4java-osx-amd64: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-amd64 in java.library.path
+130322:161109.112 FINE [sqlite] Internal: trying to load sqlite4java-osx-10.4
+130322:161109.115 FINE [sqlite] Internal: cannot load sqlite4java-osx-10.4: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-10.4 in java.library.path
+130322:161109.115 FINE [sqlite] Internal: trying to load sqlite4java-osx
+130322:161109.118 FINE [sqlite] Internal: cannot load sqlite4java-osx: java.lang.UnsatisfiedLinkError: no sqlite4java-osx in java.library.path
+130322:161109.119 FINE [sqlite] Internal: trying to load sqlite4java
+130322:161109.122 FINE [sqlite] Internal: cannot load sqlite4java: java.lang.UnsatisfiedLinkError: no sqlite4java in java.library.path
+130322:161109.123 FINE [sqlite] Internal: trying to load sqlite4java-osx-x86_64-d
+130322:161109.127 FINE [sqlite] Internal: cannot load sqlite4java-osx-x86_64-d: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-x86_64-d in java.library.path
+130322:161109.127 FINE [sqlite] Internal: trying to load sqlite4java-osx-amd64-d
+130322:161109.131 FINE [sqlite] Internal: cannot load sqlite4java-osx-amd64-d: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-amd64-d in java.library.path
+130322:161109.131 FINE [sqlite] Internal: trying to load sqlite4java-osx-10.4-d
+130322:161109.134 FINE [sqlite] Internal: cannot load sqlite4java-osx-10.4-d: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-10.4-d in java.library.path
+130322:161109.134 FINE [sqlite] Internal: trying to load sqlite4java-osx-d
+130322:161109.137 FINE [sqlite] Internal: cannot load sqlite4java-osx-d: java.lang.UnsatisfiedLinkError: no sqlite4java-osx-d in java.library.path
+130322:161109.138 FINE [sqlite] Internal: trying to load sqlite4java-d
+130322:161109.141 FINE [sqlite] Internal: cannot load sqlite4java-d: java.lang.UnsatisfiedLinkError: no sqlite4java-d in java.library.path
+Error: cannot load SQLite
+java.lang.UnsatisfiedLinkError: no sqlite4java-osx-x86_64 in java.library.path
+    at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1860)
+    at java.lang.Runtime.loadLibrary0(Runtime.java:845)
+    at java.lang.System.loadLibrary(System.java:1084)
+    at com.almworks.sqlite4java.Internal.tryLoadFromSystemPath(Internal.java:349)
+    at com.almworks.sqlite4java.Internal.loadLibraryX(Internal.java:124)
+    at com.almworks.sqlite4java.SQLite.main(SQLite.java:368)
+    at frakdeck.Database.&amp;lt;init&amp;gt;(Database.java:19)
+    at frakdeck.Test.start(Test.java:22)
+    at com.sun.javafx.application.LauncherImpl$5.run(LauncherImpl.java:319)
+    at com.sun.javafx.application.PlatformImpl$5.run(PlatformImpl.java:215)
+    at com.sun.javafx.application.PlatformImpl$4$1.run(PlatformImpl.java:179)
+    at com.sun.javafx.application.PlatformImpl$4$1.run(PlatformImpl.java:176)
+    at java.security.AccessController.doPrivileged(Native Method)
+    at com.sun.javafx.application.PlatformImpl$4.run(PlatformImpl.java:176)
+    at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:76)
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10736653</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Google Map API v3 - Centre Map on Markers</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-maps"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-maps-api-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="maps"/>
+        <author>
+            <name>Dan Temple</name>
+            <uri>http://stackoverflow.com/users/1142991</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10736653/google-map-api-v3-centre-map-on-markers" />
+        <published>2012-05-24T11:31:52Z</published>
+        <updated>2013-03-22T16:14:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve recently started using Google Maps API v3.&lt;/p&gt;
+
+&lt;p&gt;I need to plot some locations (maybe 3 or 4) and at the same time, centre the map on these points - as opposed to manually having to set the long and lat for the map to centre on...&lt;/p&gt;
+
+&lt;p&gt;Can someone share some tips, or point me in the right direction? &lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!
+Dan &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function initialize() {
+      var latlng = new google.maps.LatLng(51.50816, 0.02712);
+      var myOptions = {
+        zoom: 12,
+        center: latlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var firstmap = new google.maps.Map(document.getElementById(&quot;map&quot;),myOptions);
+      //EVENT MARKER
+      var point = new google.maps.LatLng(51.50816, 0.02712);
+      var marker = new google.maps.Marker({
+        position:point,
+        map:firstmap,
+        title: &#39;ExCel London&#39;,
+        draggable:false,
+        icon:&#39;images/event.png&#39;
+      })
+      var contentstring = &#39;&amp;lt;div&amp;gt;Hello World&amp;lt;/div&amp;gt;&#39;
+      var infoWindow = new google.maps.InfoWindow({
+        content:contentstring
+      });
+      //HOTEL 1 MARKER
+      var point = new google.maps.LatLng(51.503146, -0.113259);
+      var marker = new google.maps.Marker({
+        position:point,
+        map:firstmap,
+        title: &#39;Waterloo Hotel&#39;,
+        draggable:false,
+        icon:&#39;images/flag.png&#39;
+      })
+      var contentstring = &#39;&amp;lt;div&amp;gt;Hello World&amp;lt;/div&amp;gt;&#39;;
+      var infoWindow = new google.maps.InfoWindow({
+          content:contentstring
+      });
+      google.maps.event.addListener(marker,&#39;click&#39;,function(){
+          infoWindow.open(firstmap,marker);
+      })
+    };
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10390901</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Setting HTML Frame src to google.com; not working</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-chrome"/>
+        <author>
+            <name>user1366730</name>
+            <uri>http://stackoverflow.com/users/1366730</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10390901/setting-html-frame-src-to-google-com-not-working" />
+        <published>2012-04-30T21:35:31Z</published>
+        <updated>2013-03-22T16:14:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i have the following php code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+require_once(&quot;support.php&quot;);
+
+$query = $_POST[&quot;search&quot;];
+
+$google = &quot;http://www.google.com/search?q=&quot; . $query;
+$bing = &quot;http://www.bing.com/search?q=&quot; . $query;
+$yahoo =&quot;http://search.yahoo.com/search?p=&quot; . $query;
+$ask = &quot;http://www.ask.com/web?q=&quot; . $query;
+
+$body= &quot;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&quot;;
+$body .= &quot;&amp;lt;script src=\&quot;scripts.js\&quot;&amp;gt;&amp;lt;/script&amp;gt;&quot;;
+$body .= &quot;&amp;lt;/head&amp;gt;&quot;;
+$body .= &quot;&amp;lt;frameset rows=\&quot;50%,50%\&quot; cols=\&quot;50%,50%\&quot; &amp;gt;&quot;;
+$body .= &quot;&amp;lt;frame src=\&quot;$google\&quot; /&amp;gt;&quot;;
+$body .= &quot;&amp;lt;frame src=\&quot;$bing\&quot; /&amp;gt;&quot;;
+$body .= &quot;&amp;lt;frame src=\&quot;$yahoo\&quot; /&amp;gt;&quot;;
+$body .= &quot;&amp;lt;frame src=\&quot;$ask\&quot; /&amp;gt;&quot;;
+$body .= &quot;&amp;lt;/frameset&amp;gt;&quot;;
+
+$body .= &quot;&amp;lt;/html&amp;gt;&quot;;
+
+echo $body;
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which produces the following html:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+      &amp;lt;script src=&quot;scripts.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;frameset rows=&quot;50%,50%&quot; cols=&quot;50%,50%&quot; &amp;gt;
+       &amp;lt;frame src=&quot;http://www.google.com/search?q=adf&quot; /&amp;gt;
+       &amp;lt;frame src=&quot;http://www.bing.com/search?q=adf&quot; /&amp;gt;
+       &amp;lt;frame src=&quot;http://search.yahoo.com/search?p=adf&quot; /&amp;gt;
+       &amp;lt;frame src=&quot;http://www.ask.com/web?q=adf&quot; /&amp;gt;
+  &amp;lt;/frameset&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when i open this in google chrome, i get 4 frames with the expected content, from the above url&#39;s. but in the first frame, who&#39;s src is from google, i get nothing; just a blank frame.
+any idea what is going on here?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10361934</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">How to upload file to google cloud storage using java?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="google-cloud-storage"/>
+        <author>
+            <name>thoitbk</name>
+            <uri>http://stackoverflow.com/users/1362573</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10361934/how-to-upload-file-to-google-cloud-storage-using-java" />
+        <published>2012-04-28T08:36:06Z</published>
+        <updated>2013-03-22T16:14:33Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I use org.apache.commons.fileupload to upload file&lt;br/&gt;
+class StorageService is a service that use cloud storage APIs to store file
+This is my code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class UploadFileAction extends org.apache.struts.action.Action {
+
+private static final String SUCCESS = &quot;success&quot;;
+private StorageService storage = new StorageService();
+private static final int BUFFER_SIZE = 1024 * 1024;
+
+@Override
+public ActionForward execute(ActionMapping mapping, ActionForm form,
+        HttpServletRequest request, HttpServletResponse response)
+        throws Exception {
+
+    ServletFileUpload upload = new ServletFileUpload();
+    FileItemIterator iter = upload.getItemIterator(request);
+    while (iter.hasNext()) {
+        FileItemStream item = iter.next();
+        String fileName = item.getName();
+        String mime = item.getContentType();
+        storage.init(fileName, mime);
+        InputStream is = item.openStream();
+
+        byte[] b = new byte[BUFFER_SIZE];
+        int readBytes = is.read(b, 0, BUFFER_SIZE);
+        while (readBytes != -1) {
+            storage.storeFile(b, readBytes);
+            readBytes = is.read(b, 0, readBytes);
+        }
+
+        is.close();
+        storage.destroy();
+    }
+
+    return mapping.findForward(SUCCESS);
+}
+}
+
+package storageservice;
+
+import com.google.appengine.api.files.*;
+import com.google.appengine.api.files.GSFileOptions.GSFileOptionsBuilder;
+import java.io.*;
+import java.nio.channels.Channels;
+
+public class StorageService {
+
+private static final String BUCKET_NAME = &quot;thoitbk&quot;;
+
+private FileWriteChannel writeChannel = null;
+private OutputStream os = null;
+
+public void init(String fileName, String mime) throws Exception {
+    FileService fileService = FileServiceFactory.getFileService();
+    GSFileOptionsBuilder builder = new GSFileOptionsBuilder()
+            .setAcl(&quot;public_read&quot;)
+            .setBucket(BUCKET_NAME)
+            .setKey(fileName)
+            .setMimeType(mime);
+    AppEngineFile writableFile = fileService.createNewGSFile(builder.build());
+    boolean lock = true;
+    writeChannel = fileService.openWriteChannel(writableFile, lock);
+    os = Channels.newOutputStream(writeChannel);
+}
+
+public void storeFile(byte[] b, int readSize) throws Exception {
+    os.write(b, 0, readSize);
+    os.flush();
+}
+
+public void destroy() throws Exception {
+    os.close();
+    writeChannel.closeFinally();
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In local this works fine but error when I deploy my app&lt;br/&gt;
+Please help me!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/1091043</id>
+        <re:rank scheme="http://stackoverflow.com">9</re:rank>
+        <title type="text">Best Practice in Delphi Rapid Application Development in term of Reusability</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="delphi"/>
+        <author>
+            <name>WishKnew</name>
+            <uri>http://stackoverflow.com/users/52823</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/1091043/best-practice-in-delphi-rapid-application-development-in-term-of-reusability" />
+        <published>2009-07-07T08:34:46Z</published>
+        <updated>2013-03-22T16:14:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How to improve our productivity when starting new project using Delphi?&lt;/p&gt;
+
+&lt;p&gt;For me, I create a template project including splash screen, primary data module with default component and all data-aware subroutines (open, close, query, default when failed to open DB, etc), and save the template in my repository. (I use all my own frames and unit in the project, so everything always be created automatically when I choose : New Project and choosing my template.)&lt;/p&gt;
+
+&lt;p&gt;Questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Is there any other way to improve reusability using Delphi?&lt;/li&gt;
+&lt;li&gt;What free open source framework (like Jedi) / IDE PLugins (like GExpert) you think is best to use using Delphi?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Pardon me if this question has been asked before.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>
