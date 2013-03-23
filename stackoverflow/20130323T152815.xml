@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-23T15:28:15Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15588515</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to reduce colors to a specified number in Delphi?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="delphi"/><category scheme="http://stackoverflow.com/feeds/tags" term="colors"/><category scheme="http://stackoverflow.com/feeds/tags" term="reduction"/><category scheme="http://stackoverflow.com/feeds/tags" term="quantization"/>
+        <author>
+            <name>Tom</name>
+            <uri>http://stackoverflow.com/users/1404447</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588515/how-to-reduce-colors-to-a-specified-number-in-delphi" />
+        <published>2013-03-23T15:27:11Z</published>
+        <updated>2013-03-23T15:27:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How can I reduce colors to a specified number (&amp;lt;=256) in Delphi?
+I don&#39;t want to just use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; Bmp.PixelFormat := pf8bit;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;because that way I cannot control number of colors. I don&#39;t want dithering, because I already know how to dither an image with 256 or less colors.&lt;/p&gt;
+
+&lt;p&gt;I found this &lt;a href=&quot;http://www.programmersheaven.com/download/15370/Download.aspx&quot; rel=&quot;nofollow&quot;&gt;Median Cut implementation&lt;/a&gt; but it is pure Pascal from 1990 and:
+1) doesn&#39;t compile in Delphi
+2) Says it&#39;s shareware and costs 25 Deutche Marks
+3) Looks (somehow) unnecessary complicated&lt;/p&gt;
+
+&lt;p&gt;I want to reduce TBitmap32 only (Graphics32 bitmap class, supports only 32bit colors) to &amp;lt;= 8bit bmp. I don&#39;t need to reduce to 15/16bit, I don&#39;t need to reduce from 24 or 15/16bit images. Just 32bit =&gt; 8bit-&lt;/p&gt;
+
+&lt;p&gt;Delphi I use: 7, 2005, XE3.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588513</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Sync non camera roll photo (ipad) to mac</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="osx"/><category scheme="http://stackoverflow.com/feeds/tags" term="ipad"/><category scheme="http://stackoverflow.com/feeds/tags" term="stream"/><category scheme="http://stackoverflow.com/feeds/tags" term="photo"/>
+        <author>
+            <name>Lenke Schenkels</name>
+            <uri>http://stackoverflow.com/users/2202577</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588513/sync-non-camera-roll-photo-ipad-to-mac" />
+        <published>2013-03-23T15:26:57Z</published>
+        <updated>2013-03-23T15:26:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I syncend photo&#39;s from iphoto to my ipad, then my MAC got stolen... &lt;/p&gt;
+
+&lt;p&gt;I bought a new one, but can&#39;t seem to sync photo&#39;s stored on my ipad back to the iphoto. They are not on the photostream / camera roll but I can&#39;t seem to import them to it.&lt;/p&gt;
+
+&lt;p&gt;Any help? &lt;/p&gt;
+
+&lt;p&gt;Kr
+Lenke&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588511</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">wp_enqueue_style conditionally add for singular arra(posttype) only</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="wordpress"/><category scheme="http://stackoverflow.com/feeds/tags" term="styles"/>
+        <author>
+            <name>pixelngrain</name>
+            <uri>http://stackoverflow.com/users/1053190</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588511/wp-enqueue-style-conditionally-add-for-singular-arraposttype-only" />
+        <published>2013-03-23T15:26:54Z</published>
+        <updated>2013-03-23T15:26:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to enqueue style for only certain post type using is_singular(array()) but when I define post type  static it works and when I add using get_option it doesn&#39;t works.&lt;/p&gt;
+
+&lt;p&gt;Here is my code.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// load front end scripts
+function rm_scripts() {
+
+    $types = new review_media_system;
+    $ptpys = $types-&amp;gt;rm_allow_types();
+
+    echo $ptpys;
+
+    if(!is_admin()){
+       wp_enqueue_style(&#39;rm-stylesheet&#39;, RM_URL.&#39;css/rm-style.css&#39;,null, 1);
+
+       if(is_singular(array($ptpys))){
+            wp_enqueue_style(&#39;rm-admin_gallery_css&#39;, RM_URL.&#39;css/responsiveslides.css&#39;,null, 1);                    
+       }
+    }    
+
+}
+add_action(&#39;wp_enqueue_scripts&#39;, &#39;rm_scripts&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588510</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Custom encoding and compression</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="encoding"/><category scheme="http://stackoverflow.com/feeds/tags" term="character-encoding"/><category scheme="http://stackoverflow.com/feeds/tags" term="compression"/>
+        <author>
+            <name>Penn</name>
+            <uri>http://stackoverflow.com/users/2134205</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588510/custom-encoding-and-compression" />
+        <published>2013-03-23T15:26:50Z</published>
+        <updated>2013-03-23T15:26:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;This is a two-part question from a newbie.&lt;/p&gt;
+
+&lt;p&gt;First, I need an encoding for simple text (without the lowercase/caps distinction), and I need it to be more space-efficient than ASCII. So I have thought of creating my own 5-bit code, holding a range of 32 characters (the alphabet plus some punctuation marks).
+As far as I understand, all modern computing &#39;thinks&#39; in bytes, so I cannot actually define my own 5-bit encoding without actually resorting to a 8-bit encoding.&lt;/p&gt;
+
+&lt;p&gt;What I am thinking of doing is:
+I define my own 5-bit code and I save the text in 3-character blocks, each block saved as 2 bytes. Every block will occupy total of 15 bits, which will be stored within two bytes (holding 16 bits). I might use the extra bit for parity check, even if I don&#39;t actually need it.
+Does this approach make sense? Or is there any better approach?
+Alternatively, I might define a 6-bit encoding, and save the text into blocks of 4 characters each, with each block being saved in 3 bytes.&lt;/p&gt;
+
+&lt;p&gt;The second part of the question is: assuming that the text will then be compressed (via a standard lossless algorithm for texts, such as zip for example), is it worth the trouble of creating my own encoding (as explained above)? Or will the compression algorithm take care of the space inefficiency of the 8-bit encoding, making the compressed as efficient as a compressed file which originally was encoded using a 5-bit or 6-bit encoding? If so, I would have no advantage of using a 5/6 bit encoding for pre-compression text, so I would simply skip altogether this step.
+I need to know from experienced programmers, what is the case?&lt;/p&gt;
+
+&lt;p&gt;Thanks everyone&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588504</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">View background shrinks when view is addressed or annimated</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="xcode"/><category scheme="http://stackoverflow.com/feeds/tags" term="animation"/><category scheme="http://stackoverflow.com/feeds/tags" term="uiview"/><category scheme="http://stackoverflow.com/feeds/tags" term="background"/>
+        <author>
+            <name>Thomas A. Cison</name>
+            <uri>http://stackoverflow.com/users/1780226</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588504/view-background-shrinks-when-view-is-addressed-or-annimated" />
+        <published>2013-03-23T15:26:05Z</published>
+        <updated>2013-03-23T15:26:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I can not find why the background of my subview shrinks toward the upper left corner of the subview the first time I move it or animate it.  (not sure if it is technically a &#39;subview&#39; since the object I dragged on to my main view was labeled &#39;View&#39;)&lt;/p&gt;
+
+&lt;p&gt;For this example, I will provide an animated example so that you can see what is going on easier.&lt;/p&gt;
+
+&lt;p&gt;Here are my .h entries (2 objects, a button and a view)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@property (weak, nonatomic) IBOutlet UIView *floatPad;
+- (IBAction)toggleButton:(UIButton *)sender;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For this example (iPad) the view is located at (20, 800) with a size of (728, 186).  I also set the background to light grey in the Interface Builder to show what&#39;s going on better.&lt;/p&gt;
+
+&lt;p&gt;The button toggles the view on and off the screen, sliding (via animation code) off and on through the bottom of the screen.&lt;/p&gt;
+
+&lt;p&gt;Here are my .m entries (1 BOOL, 1 UIColor, plus the &#39;viewDidLoad&#39; and &#39;toggleButton&#39; code)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@interface ViewController ()
+
+@property (assign, nonatomic) BOOL floatPadVisible;
+@property (retain, nonatomic) UIColor* redBackground;
+
+@end
+
+@implementation ViewController
+
+@synthesize floatPad;
+@synthesize floatPadVisible;
+@synthesize redBackground;
+
+- (void)viewDidLoad {
+floatPadVisible:YES;
+    redBackground = [UIColor colorWithRed:179/255.0 green:1/255.0 blue:54/255.0 alpha:1.0];
+
+    [super viewDidLoad];
+}
+
+- (IBAction)toggleButton:(UIButton *)sender {
+
+if (floatPadVisible) { //is floatPadVisible BOOL set to YES
+    [UIView beginAnimations:@&quot;floatPad&quot; context:nil];
+    [UIView setAnimationDuration:1.5];
+    [UIView setAnimationDelegate:self];
+    [floatPad setFrame:CGRectMake(20, 1004, 584, 145)];
+    [floatPad setBackgroundColor:redBackground];
+    [UIView commitAnimations];
+    floatPadVisible = NO;
+    }
+else {
+    [UIView beginAnimations:@&quot;floatPad&quot; context:nil];
+    [UIView setAnimationDuration:1.5];
+    [UIView setAnimationDelegate:self];
+    [floatPad setFrame:CGRectMake(20, 800, 584, 145)];
+    [UIView commitAnimations];
+    floatPadVisible = YES;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The problem is that the first time you hit the toggle button, the view doesn&#39;t move, only the background shrinks.  I say shrinks, because you can still the the 20 point space on the left side of the view.  If you put an object inside the view, it doesn&#39;t move, which tells me the view isn&#39;t shrinking, only the background.  After the first &#39;toggle&#39; the button operates as expected.  I added the background change color code to show that the first toggle never calls the animation code, evident by the fact that the background doesn&#39;t change color until the second toggle.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588472</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Wait for a condition to become true in another dispatch queue?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="grand-central-dispatch"/>
+        <author>
+            <name>dreamzor</name>
+            <uri>http://stackoverflow.com/users/1280800</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588472/wait-for-a-condition-to-become-true-in-another-dispatch-queue" />
+        <published>2013-03-23T15:22:46Z</published>
+        <updated>2013-03-23T15:27:28Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to process some code after some condition checking. First of it is that some variable must be &lt;code&gt;true&lt;/code&gt; (I have a Key-Value Observer assigned to it). Second - if it hasn&#39;t become &lt;code&gt;true&lt;/code&gt; for some time (e.g. 5 seconds), then nevermind the variable and just process the code. &lt;/p&gt;
+
+&lt;p&gt;I come with an obvious solution, which, I think, is bad: infinite &lt;code&gt;while()&lt;/code&gt; loop in another dispatch queue, every time checking the &lt;code&gt;true&lt;/code&gt; condition and time passed. And all this code is wrapped in another dispatch queue... well, does not look good for me.&lt;/p&gt;
+
+&lt;p&gt;What&#39;s the right and easy way to do this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588428</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to declare custom sort function on std::map declaration?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="sorting"/><category scheme="http://stackoverflow.com/feeds/tags" term="map"/>
+        <author>
+            <name>rsk82</name>
+            <uri>http://stackoverflow.com/users/393087</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588428/how-to-declare-custom-sort-function-on-stdmap-declaration" />
+        <published>2013-03-23T15:18:37Z</published>
+        <updated>2013-03-23T15:26:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;std::map always sorts keys based on value. Is it possible to make it sort for example on number of bits set upon declaration ?&lt;/p&gt;
+
+&lt;p&gt;I have function for counting set bits:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  for(size_t i = 0; i &amp;lt; CHAR_BIT * sizeof value; ++i, value &amp;gt;&amp;gt;= 1) {
+    if ((value &amp;amp; 1) == byteState) ++num_bits;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but I do not know how to apply it when declaring the map.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;std::map&amp;lt;int, int&amp;gt; myMap = {
+  {1,2},
+  {3,4},
+  //...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve tried to put it as a third parameter in declaration &lt;code&gt;&amp;lt;int,int,decltype(countSetBits)&amp;gt;&lt;/code&gt; with no luck.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588405</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Short circuiting not working</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="short-circuiting"/>
+        <author>
+            <name>Emrys90</name>
+            <uri>http://stackoverflow.com/users/1886489</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588405/short-circuiting-not-working" />
+        <published>2013-03-23T15:16:11Z</published>
+        <updated>2013-03-23T15:26:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;It was my understanding that C# conditional operators perform short circuiting. However, my program throws an exception while running this code. Index is equal to -1, so the second condition should never execute, but I get an index out of bounds exception.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if (index != -1 || pieces[index].Type != PieceType.Rook)
+{
+    allowed = false;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588400</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Prevent auto increment on duplicate entry</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="pdo"/><category scheme="http://stackoverflow.com/feeds/tags" term="auto-increment"/><category scheme="http://stackoverflow.com/feeds/tags" term="duplicate-entry"/>
+        <author>
+            <name>Chevi</name>
+            <uri>http://stackoverflow.com/users/1262824</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588400/prevent-auto-increment-on-duplicate-entry" />
+        <published>2013-03-23T15:16:02Z</published>
+        <updated>2013-03-23T15:26:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have seen this issue around (See links at bottom) but I can&#39;t seem to figure out an answer. The problem is that I insert data on a table with an auto increment ID that is a primary key, and another field with a UNIQUE index to avoid duplicates. This works, but when that happens the ID is incremented, although no data has been stored.&lt;/p&gt;
+
+&lt;p&gt;Would it be better to remove the auto increment, and handle it myself, selecting the max(ID)?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;At the moment I have tried several strategies to make it work as is, including &lt;code&gt;INSERT IGNORE&lt;/code&gt; and &lt;code&gt;INSERT ... ON DUPLICATE KEY UPDATE&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;My latest try was using the following query:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;INSERT INTO
+    content(field1, field2)
+SELECT :field1, :field2 FROM DUAL
+WHERE NOT EXISTS(
+    SELECT field1, field2
+    FROM content
+    WHERE field1 = :field1
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;UPDATE:&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://stackoverflow.com/questions/456644/mysql-syntax-error-message-operand-should-contain-1-columns&quot;&gt;this question&lt;/a&gt; I have been able to fix that error, I have updated the query and it works now.  The problem was that the &lt;code&gt;SELECT(:field1, :field2)&lt;/code&gt; shouldn&#39;t have the parenthesis.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Related&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/8877468/in-mysql-when-there-is-a-duplicate-entry-error-how-do-i-prevent-the-primary&quot;&gt;In MySQL, when there is a &amp;quot;duplicate entry&amp;quot; error, how do I prevent the primary key from auto incrementing?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/267804/sql-server-how-to-insert-a-record-and-make-sure-it-is-unique&quot;&gt;SQL Server - How to insert a record and make sure it is unique&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588375</id>
+        <re:rank scheme="http://stackoverflow.com">-3</re:rank>
+        <title type="text">Assistance with simple JOIN</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/>
+        <author>
+            <name>user2202527</name>
+            <uri>http://stackoverflow.com/users/2202527</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588375/assistance-with-simple-join" />
+        <published>2013-03-23T15:13:06Z</published>
+        <updated>2013-03-23T15:27:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have got a problem in selecting the employees name from employees table(empID) which is primary key and from consignation table based on two foreign key 1- consignee and 2- hand over by ( these two fields have relation with empID) so is it possible to select consignee and handoverby not by ID but based on Employees name(emp.name). Please write the query, thanks in adv.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588327</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Pre-order and Post-order Visitor</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby"/><category scheme="http://stackoverflow.com/feeds/tags" term="compiler"/><category scheme="http://stackoverflow.com/feeds/tags" term="abstract-syntax-tree"/><category scheme="http://stackoverflow.com/feeds/tags" term="visitor-pattern"/>
+        <author>
+            <name>Hunter McMillen</name>
+            <uri>http://stackoverflow.com/users/702638</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588327/pre-order-and-post-order-visitor" />
+        <published>2013-03-23T15:07:40Z</published>
+        <updated>2013-03-23T15:26:07Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am working on a compiler written in Ruby and I am currently at the semantic analysis stage (type checking). I have an AST that I need to visit in two ways: pre-order and post-order, I was wondering what the best way to do this is in Ruby. I know that passing a block to &lt;code&gt;each&lt;/code&gt; is essentially the Visitor Pattern, but since I need to visit in two ways(pre, post) and Ruby doesn&#39;t support method overloading, I am not sure how to approach this.&lt;/p&gt;
+
+&lt;p&gt;(Note: I am trying to have the Node objects control how they are visited, so my Visitor isn&#39;t bloated)&lt;/p&gt;
+
+&lt;p&gt;Here is what I am thinking about trying:&lt;/p&gt;
+
+&lt;p&gt;Two accept methods for each Node class &lt;code&gt;accept_pre&lt;/code&gt; and &lt;code&gt;accept_post&lt;/code&gt; that call the corresponding &lt;code&gt;accept_pre&lt;/code&gt; and &lt;code&gt;accept_post&lt;/code&gt; methods of other Nodes&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Node
+  def initialize(a, b, c)
+    @a, @b, @c = a, b, c
+  end
+
+  def accept_pre(visitor)
+    @a.accept_pre visitor
+    @b.accept_pre visitor
+    @c.accept_pre visitor
+    vistor.visit_node(self)
+  end
+
+  def accept_post(visitor)
+    visitor.visit_node(self)
+    @c.accept_post visitor
+    @b.accept_post visitor
+    @a.accept_post visitor
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there a better way to do this? Can it be done with &lt;code&gt;.each&lt;/code&gt;, even though I need two orderings? &lt;/p&gt;
+
+&lt;p&gt;Any help would be appreciated.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588279</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">how can i send or return List&lt;T&gt; with socket</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="winforms"/><category scheme="http://stackoverflow.com/feeds/tags" term="sockets"/><category scheme="http://stackoverflow.com/feeds/tags" term="c#-4.0"/>
+        <author>
+            <name>ASPMaker</name>
+            <uri>http://stackoverflow.com/users/2098517</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588279/how-can-i-send-or-return-listt-with-socket" />
+        <published>2013-03-23T15:04:32Z</published>
+        <updated>2013-03-23T15:27:12Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;ther is a server and client sockets. i want to learn a way how can i send a List, IEnumerable object to client to server or server to client.
+i want to send server-side TaskManager Threads List to client-side. this code send line by line, i want to send complate list. how can i do it ?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;       private static IEnumerable&amp;lt;string&amp;gt; TaskManager()
+        {
+            List&amp;lt;string&amp;gt; lst = new List&amp;lt;string&amp;gt;();
+
+            foreach (System.Diagnostics.Process p in
+            Process.GetProcesses().OrderBy(o =&amp;gt; o.ProcessName))
+            {
+                lst.Add(p.ProcessName + &quot;_&quot; + p.Id);
+            }
+            return lst.AsParallel();
+        }
+
+.... 
+....
+....
+
+ while (true)
+            {
+                Socket socket = Listener.AcceptSocket();
+                try
+                {
+                    //open stream
+                    Stream stream = new NetworkStream(socket);
+                    StreamReader sr = new StreamReader(stream);
+                    StreamWriter sw = new StreamWriter(stream);
+                    sw.AutoFlush = true;
+                    while (true)
+                    {
+                        Parallel.ForEach(
+                            TaskManager(), item=&amp;gt;
+                                sw.WriteLine(item)
+                            );
+                    }
+
+                    stream.Close();
+                    stream.Dispose();
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+
+                Console.WriteLine(&quot;Disconnected: {0}&quot;, socket.RemoteEndPoint);
+                socket.Close();
+                socket.Dispose();
+            }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588202</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">run code in separete process from rails in windows</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="ruby"/><category scheme="http://stackoverflow.com/feeds/tags" term="multithreading"/><category scheme="http://stackoverflow.com/feeds/tags" term="process"/><category scheme="http://stackoverflow.com/feeds/tags" term="multiprocessing"/>
+        <author>
+            <name>silent_coder</name>
+            <uri>http://stackoverflow.com/users/1988021</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588202/run-code-in-separete-process-from-rails-in-windows" />
+        <published>2013-03-23T14:58:26Z</published>
+        <updated>2013-03-23T15:26:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a file with worker class (worker.rb) and I need to instanciate it in separate process from rails application after getting the comand. I&#39;m currently working on windows os.&lt;/p&gt;
+
+&lt;p&gt;So how to do that?&lt;/p&gt;
+
+&lt;p&gt;P.S. Will that code work in unix/linux env? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15588191</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">c# winform running shows app crash</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="error-handling"/><category scheme="http://stackoverflow.com/feeds/tags" term="appcrash"/>
+        <author>
+            <name>Wendy Lam</name>
+            <uri>http://stackoverflow.com/users/2202517</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15588191/c-sharp-winform-running-shows-app-crash" />
+        <published>2013-03-23T14:58:09Z</published>
+        <updated>2013-03-23T15:27:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;When I running a form, sometimes it shows error, i don&#39;t know what is ntdll.dll, how to catch the error for this situation?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;問題簽章:
+  問題事件名稱:   APPCRASH
+  應用程式名稱:   i Smile.exe
+  應用程式版本:   1.0.0.0
+  應用程式時間戳記: 514c42d8
+  錯誤模組名稱:   ntdll.dll
+  錯誤模組版本:   6.1.7601.17725
+  錯誤模組時間戳記: 4ec49b8f
+  例外狀況代碼:   c0000005
+  例外狀況位移:   0008ae42
+  作業系統版本:   6.1.7601.2.1.0.256.1
+  地區設定識別碼:  1028
+  其他資訊 1:   e0ab
+  其他資訊 2:   e0ab463a3a130daf2c35df379439d455
+  其他資訊 3:   5e43
+  其他資訊 4:   5e43e612644897712aa1df9bcd65522d
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15587902</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">BInary Search Tree – Removal and Clear</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="delete"/><category scheme="http://stackoverflow.com/feeds/tags" term="tree"/><category scheme="http://stackoverflow.com/feeds/tags" term="binary-tree"/><category scheme="http://stackoverflow.com/feeds/tags" term="binary-search-tree"/>
+        <author>
+            <name>Urban Seifert</name>
+            <uri>http://stackoverflow.com/users/930315</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15587902/binary-search-tree-removal-and-clear" />
+        <published>2013-03-23T14:31:22Z</published>
+        <updated>2013-03-23T15:27:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a problem concerning the removal of a node from a binary search tree. In the third case (left and right child) everything works out well, but in the first two i get a EXC_Bad Access in my recursive delete.&lt;/p&gt;
+
+&lt;p&gt;When working with xCode debugger, i found out that the data at node is still persistent, even when called delete node.&lt;/p&gt;
+
+&lt;p&gt;Any help is much appreciated.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;template &amp;lt;typename T&amp;gt;
+void BinTree&amp;lt;T&amp;gt;::remove(Node *node, T x) {
+
+if (node == nullptr) {
+    return;
+}
+if (x &amp;lt; node-&amp;gt;data) {
+    remove(node-&amp;gt;left, x);
+} else if (x &amp;gt; node-&amp;gt;data) {
+    remove(node-&amp;gt;right, x);
+} else {
+    std::cout &amp;lt;&amp;lt; &quot;schleife&quot;;
+    Node *temp = nullptr;
+    if (node-&amp;gt;right == nullptr &amp;amp;&amp;amp; node-&amp;gt;left == nullptr) {
+        delete node;
+        node = nullptr;
+    } else if (node-&amp;gt;right == nullptr &amp;amp;&amp;amp; node-&amp;gt;left != nullptr) {
+        temp = node-&amp;gt;left;
+        delete node;
+        node = temp;
+    } else if (node-&amp;gt;right != nullptr &amp;amp;&amp;amp; node-&amp;gt;left == nullptr) {
+        temp = node-&amp;gt;right;
+        delete node;
+        node = temp;
+    } else {
+        Node *prev = node;
+        temp = node-&amp;gt;left;
+        while (temp-&amp;gt;right) {
+            prev = temp;
+            temp = temp-&amp;gt;right;
+        }
+        node-&amp;gt;data = temp-&amp;gt;data;
+
+        if (node-&amp;gt;left == temp) {
+            node-&amp;gt;left = temp-&amp;gt;left;
+        } else {
+            prev-&amp;gt;right = temp-&amp;gt;left;
+        }
+        delete temp;
+    }
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here&#39;s also my clear:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;template&amp;lt;typename T&amp;gt;
+void BinTree&amp;lt;T&amp;gt;::clear(Node *node) {
+if (node == nullptr) return;
+clear(node-&amp;gt;left);
+clear(node-&amp;gt;right); 
+delete node;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;EDIT:&lt;/p&gt;
+
+&lt;p&gt;Just found out that in the first three cases the objects is not removed, so that algorithm must be wrong somehow…&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15587696</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Create filtered index not working in SQL Server 2012 Express</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server-2012-express"/>
+        <author>
+            <name>Craig Smith</name>
+            <uri>http://stackoverflow.com/users/1757772</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15587696/create-filtered-index-not-working-in-sql-server-2012-express" />
+        <published>2013-03-23T14:07:24Z</published>
+        <updated>2013-03-23T15:26:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to create a filtered non-clustered index. In the gui I right-click the &lt;code&gt;Indexes&lt;/code&gt; folder of the table where I want the index. Add the column where the index should be applied, then click on the filter page to add this statement: &lt;code&gt;WHERE eMail IS NOT NULL&lt;/code&gt;. Click OK and I&#39;m presented with this error:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Create failed for Index &#39;fix_Email&#39;.  (Microsoft.SqlServer.Smo)&lt;br&gt;
+  Incorrect syntax near the keyword &#39;WHERE&#39;.&lt;br&gt;
+  Incorrect syntax near the keyword &#39;with&#39;. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon. (Microsoft SQL Server, Error: 156)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This comes straight out of a book on  SQL Server 2008 Administration. I installed SQL 2012 express to see what differences there would be between the two. All previous examples worked, creating clustered indexes, non-clustered, and covering index. Is this a problem with the book or SQL Server 2012 or maybe the Express edition? I tried placing a semi-colon as suggested by the error message at the end of my &lt;code&gt;WHERE&lt;/code&gt; statment, but that didn&#39;t do anything.&lt;/p&gt;
+
+&lt;p&gt;I was able to create the index using this code in a query window: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE NONCLUSTERED INDEX fix_Prices
+ON dbo.Customers (eMail)
+WHERE eMail IS NOT NULL;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;why does this work but not using the Management Studio gui?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15587540</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How to get the remaining objects of a query in Rails(minus a query?)?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="query"/>
+        <author>
+            <name>cqcn1991</name>
+            <uri>http://stackoverflow.com/users/1794744</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15587540/how-to-get-the-remaining-objects-of-a-query-in-railsminus-a-query" />
+        <published>2013-03-23T13:51:22Z</published>
+        <updated>2013-03-23T15:26:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Let&#39;say, we have &quot;Topic - Relationship - Category&quot;. &lt;/p&gt;
+
+&lt;p&gt;That is, Topic has_many categories through relationship. &lt;/p&gt;
+
+&lt;p&gt;I think its very easy to get the topics that with a category&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  #Relationship  Model
+  Topic_id: integer
+  Category_id: integer
+
+  @topics=Topic.joins(:relationships)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But, not every topic has a category. So how do we retreive the topic which has no category?
+Is there a &lt;strong&gt;minus&lt;/strong&gt; query? &lt;/p&gt;
+
+&lt;p&gt;Perhaps it looks like &lt;code&gt;@topics=Topic.where(&#39;id NOT IN (?)&#39;, Relationship.all)&lt;/code&gt;
+I find it inhttp://stackoverflow.com/questions/3428852/activerecord-equivalent-to-sql-minus but not sure about this solution.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15587410</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">setBackgroundColor for listView item not working on JellyBean</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="android-listview"/><category scheme="http://stackoverflow.com/feeds/tags" term="jelly-bean"/>
+        <author>
+            <name>RBK</name>
+            <uri>http://stackoverflow.com/users/317512</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15587410/setbackgroundcolor-for-listview-item-not-working-on-jellybean" />
+        <published>2013-03-23T13:38:54Z</published>
+        <updated>2013-03-23T15:27:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a listView with a custom adapter. I&#39;ve made the listView item&#39;s background change color when selected. This works perfectly on Ice Cream Sandwich 4.0.4 on Samsung Galaxy S2 and on ICS 4.0.3 on emulator. But it does not work on 4.2.2 JellyBean emulator. On JB, when an item is selected it&#39;s background stays as it was before.&lt;/p&gt;
+
+&lt;p&gt;This is a portion of my code where I have the logic for setting background color when item is selected:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private int mItemIndex = -1;
+
+@Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View v = convertView;           
+        ....
+
+        if (convertView == null) {
+            ....
+            ....
+
+        } else {
+            /* To highlight the selected item */
+            if (position == mItemIndex) {
+                convertView.setSelected(true);
+                convertView.setPressed(true);
+                convertView.setBackgroundColor(context.getResources().getColor(R.color.SkyBlue));
+            } else {
+                convertView.setSelected(false);
+                convertView.setPressed(false);
+                convertView.setBackgroundColor(context.getResources().getColor(R.color.WhiteSmoke));
+            }
+            /* To highlight the selected item - end */
+
+            ....
+            ....
+
+        return v;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Alternatively, I tried 
+&lt;code&gt;convertView.setBackgroundResource(context.getResources().getColor(R.color.SkyBlue));&lt;/code&gt; instead of setBackgroundColor and it didn&#39;t work too.&lt;/p&gt;
+
+&lt;p&gt;Is there a workaround for getting this to work on Jellybean? 
+Or am I missing something in the code?&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15586542</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to switch currency in checkout page in magento</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="magento"/>
+        <author>
+            <name>Mehdi Nazari</name>
+            <uri>http://stackoverflow.com/users/2202171</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15586542/how-to-switch-currency-in-checkout-page-in-magento" />
+        <published>2013-03-23T12:03:18Z</published>
+        <updated>2013-03-23T15:26:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i am using USD and NOK currency in my site&lt;/p&gt;
+
+&lt;p&gt;the base currency in USD&lt;/p&gt;
+
+&lt;p&gt;i want when user goes to checkout page for pay the price the NOK currency displays not dollar ( even if user choose USD in product page )&lt;/p&gt;
+
+&lt;p&gt;simply, i want to display only NOK price in checkout page&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15583551</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Type information in the Scala REPL</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="scala"/><category scheme="http://stackoverflow.com/feeds/tags" term="f#"/>
+        <author>
+            <name>pmcs</name>
+            <uri>http://stackoverflow.com/users/834712</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15583551/type-information-in-the-scala-repl" />
+        <published>2013-03-23T04:59:41Z</published>
+        <updated>2013-03-23T15:26:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;If I&#39;m using the F# interpreter, I can define a simple function like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; // Function to check if x is an integer multiple of y
+&amp;gt; let multipleOf x y = (x % y = 0);;
+
+val multipleOf : x:int -&amp;gt; y:int -&amp;gt; bool
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If I know a function exists in the F# interpreter session but I&#39;m unsure of its precise type, I can ask the interpreter to give me its type simply by typing the function&#39;s name:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; // I can&#39;t remember the type of the function multipleOf!
+&amp;gt; multipleOf;;
+
+val it : (int -&amp;gt; int -&amp;gt; bool) = &amp;lt;fun:it@12-1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Clearly, this tells me that the function &lt;code&gt;multipleOf&lt;/code&gt; is of type &lt;code&gt;int-&amp;gt;int-&amp;gt;bool&lt;/code&gt;. I find this incredibly useful as a tool to jog my memory when working in the F# interpreter.&lt;/p&gt;
+
+&lt;p&gt;However, I can&#39;t seem to find similar functionality in Scala&#39;s REPL. I can define an equivalent function in Scala easily enough of course: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def multipleOf(x: Int, y: Int) = x % y == 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But if I&#39;m ten minutes on in my Scala REPL session and can&#39;t remember the type of the function, typing &lt;code&gt;multipleOf&lt;/code&gt; gives no information about the type (in fact, it gives an error). Similarly, &lt;code&gt;:type multipleOf&lt;/code&gt; tells me nothing useful.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15582777</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Improving ASP.Net login code and checking if user is logged in</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/>
+        <author>
+            <name>methuselah</name>
+            <uri>http://stackoverflow.com/users/436493</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15582777/improving-asp-net-login-code-and-checking-if-user-is-logged-in" />
+        <published>2013-03-23T02:40:07Z</published>
+        <updated>2013-03-23T15:26:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;There are two things I want to accomplish with my ASP.net code which I am struggling to right now because I am a beginner:&lt;/p&gt;
+
+&lt;p&gt;1) My code in &lt;strong&gt;Login.aspx&lt;/strong&gt; is currently susceptible to SQL injection, how can I minimise my risk of SQL injection?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;using System;
+using System.Collections;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using System.Web.Configuration;
+
+public partial class login : System.Web.UI.Page
+{
+
+    protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
+    {
+        string username = Login_Box.UserName;
+        string pwd = Login_Box.Password;
+
+        string strConn;
+        strConn = WebConfigurationManager.ConnectionStrings[&quot;team13ConnectionString&quot;].ConnectionString;
+        SqlConnection Conn = new SqlConnection(strConn);
+        Conn.Open();
+
+        string sqlUserName;
+        sqlUserName = &quot;SELECT id,pass FROM ts_dept &quot;;
+        sqlUserName += &quot; WHERE (id =&#39;&quot; + username + &quot;&#39;)&quot;;
+        sqlUserName += &quot; AND (pass =&#39;&quot; + pwd + &quot;&#39;)&quot;;
+        SqlCommand com = new SqlCommand(sqlUserName, Conn);
+
+        string CurrentName;
+        CurrentName = (string)com.ExecuteScalar();
+
+        if (CurrentName != null)
+        {
+            Session[&quot;UserAuthentication&quot;] = username;
+            Session.Timeout = 1;
+            Response.Redirect(&quot;Default.aspx&quot;);
+        }
+        else
+        {
+            Session[&quot;UserAuthentication&quot;] = &quot;&quot;;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2) &lt;strong&gt;Default.aspx&lt;/strong&gt; is the home page of my website. It cannot be accessed if the user has not logged in, how do I check for Session[&quot;Authentication&quot;] here (if null then the user is redirected to &lt;strong&gt;Login.aspx&lt;/strong&gt;. Here is my code so far:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Team13
+{
+    public partial class default : System.Web.UI.Page
+    {
+
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15577188</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How to &quot;one-click&quot; delete a file that is currently playing on Media Player Classic</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="video"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows-7"/><category scheme="http://stackoverflow.com/feeds/tags" term="mediaplayer"/><category scheme="http://stackoverflow.com/feeds/tags" term="media"/>
+        <author>
+            <name>Isopycnal Oscillation</name>
+            <uri>http://stackoverflow.com/users/1974964</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15577188/how-to-one-click-delete-a-file-that-is-currently-playing-on-media-player-class" />
+        <published>2013-03-22T17:11:47Z</published>
+        <updated>2013-03-23T15:27:04Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Is there a way to do it straight from MPC or could I create a separate program that would detect the file that is currently playing and delete it (I know it is possible to delete files while they are currently playing in MPC).&lt;/p&gt;
+
+&lt;p&gt;I have no experience in programming windows but I do have a lot of experience in scientific programming, so feel free to elaborate...&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15524391</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">How to get synonyms.txt to be used in solr for different languages</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="solr"/><category scheme="http://stackoverflow.com/feeds/tags" term="wordnet"/><category scheme="http://stackoverflow.com/feeds/tags" term="synonym"/>
+        <author>
+            <name>Corinnekm</name>
+            <uri>http://stackoverflow.com/users/1501403</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15524391/how-to-get-synonyms-txt-to-be-used-in-solr-for-different-languages" />
+        <published>2013-03-20T13:05:36Z</published>
+        <updated>2013-03-23T15:27:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Do you know if I can get synonyms.txt files for all languages supported by SOLR ?
+Thanks for your help.
+Before we were using Verity that provide a dictionary of synonyms for each language supported but we want maybe to move to Solr/Lucene.
+I know that we can provide a custom synonym list that is no what I want. I am looking  for a way to have a default dictionary of synonyms for each language supported by Lucene.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15430218</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Articles open in modal window after a user click on facebook share link and come back to your site</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="facebook"/><category scheme="http://stackoverflow.com/feeds/tags" term="joomla"/><category scheme="http://stackoverflow.com/feeds/tags" term="joomla1.5"/>
+        <author>
+            <name>DNA180</name>
+            <uri>http://stackoverflow.com/users/1939321</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15430218/articles-open-in-modal-window-after-a-user-click-on-facebook-share-link-and-come" />
+        <published>2013-03-15T10:39:36Z</published>
+        <updated>2013-03-23T15:27:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I think I need your help here... On my site, I&#39;ve done all the articles open in modal window by clicking on the link &quot;read more&quot; that exists in every article.&lt;/p&gt;
+
+&lt;p&gt;Also, each article has a button that shares this article on facebook.&lt;/p&gt;
+
+&lt;p&gt;But, when the user who will see my article on facebook, click this link to read the article, it come back to my page, but the article (logical) not open in modal window!!!&lt;/p&gt;
+
+&lt;p&gt;Is there any way, in the &quot;return&quot; of the user on my site, after having pressed the link of facebook, automatically open this article in modal window? Or, if the question above can&#39;t be done, is there any way by customizing the link I send to facebook, to set it in the &quot;return&quot; of the user to my site, after having pressed the facebook&#39;s link ofcourse, to show the article in intro view and not in full view?&lt;/p&gt;
+
+&lt;p&gt;Thank you very much for your time!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15422870</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Why does GetBasicPropertiesAsync() sometimes throw an Exception?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="windows-8"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows-runtime"/><category scheme="http://stackoverflow.com/feeds/tags" term="dotnetzip"/>
+        <author>
+            <name>Jay Borseth</name>
+            <uri>http://stackoverflow.com/users/177449</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15422870/why-does-getbasicpropertiesasync-sometimes-throw-an-exception" />
+        <published>2013-03-15T00:50:45Z</published>
+        <updated>2013-03-23T15:26:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In Windows8, I&#39;m trying to use GetBasicPropertiesAsync() to get the size of a newly created file.  &lt;em&gt;Sometimes&lt;/em&gt;, but not always (~25% of the time), this call gives an exception of:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED))&quot;.  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The file is created using DotNetZip.  I&#39;m adding thousands of files to the archive which takes a few minutes to run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;using (ZipFile zip = new ZipFile())
+{
+    zip.AddFile(...); // for thousands of files
+    zip.Save(cr.ArchiveName);
+}
+var storageFile = await subFolder.GetFileAsync(cr.ArchiveName);  
+// storageFile is valid at this point
+var basicProperties = await storageFile.GetBasicPropertiesAsync(); // BOOM!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A few apparently random things seem to decrease the likelihood of the exception:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Deleting an existing copy of cr.ArchiveName before the start of the loop.&lt;/li&gt;
+&lt;li&gt;Not viewing the directory using File Explorer&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Weird, huh?  It smells like it might be a bug related to &lt;a href=&quot;http://stackoverflow.com/questions/14133560/replacing-or-recreating-a-file-in-windows-8-rt-keeps-the-old-datecreated-value/14141829#14141829&quot;&gt;File System Tunneling&lt;/a&gt; or maybe it&#39;s some internal caching that DotNetZip is performing and holding onto resources (maybe renaming the TEMP file) even after the ZipFile is disposed?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15156095</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">PHP page to constantly look for GET requests</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="twilio"/>
+        <author>
+            <name>Bharath Mg</name>
+            <uri>http://stackoverflow.com/users/1115353</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15156095/php-page-to-constantly-look-for-get-requests" />
+        <published>2013-03-01T10:58:02Z</published>
+        <updated>2013-03-23T15:26:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need to configure TWILIO SMS account to forward the received SMS to some PHP URL. So,
+now if I have that PHP URL already opened in my web browser, and if some message is being forwarded to this URL from TWILIO with GET request, how can I show the received data in that already opened PHP Web URL? &lt;/p&gt;
+
+&lt;p&gt;Ex : If I give this URL &lt;code&gt;http://www.somephp.com/index.php&lt;/code&gt; in TWILIO dashboard to forward the incoming SMS with GET request.&lt;/p&gt;
+
+&lt;p&gt;And I open that in my web browser already to see if there is any SMS from TWILIO. How can I constantly check if any new SMS forwarded from TWILIO? &lt;/p&gt;
+
+&lt;p&gt;Can I use any TIMER to check GET requests ? Or Am I totally in wrong way? I cannot find any solution around when I google. Please forgive me if it seems to be a silly question. I would be very grateful if you could guide me in this issue. Thanks a lot for your time!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/12567181</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Fonts not showing up @font-face 000webhost</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="true-type-fonts"/><category scheme="http://stackoverflow.com/feeds/tags" term="webhost"/>
+        <author>
+            <name>ghaschel</name>
+            <uri>http://stackoverflow.com/users/1415032</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/12567181/fonts-not-showing-up-font-face-000webhost" />
+        <published>2012-09-24T14:34:49Z</published>
+        <updated>2013-03-23T15:27:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have set up a website. I was hosting it on webs.com, but they started to place an ad bar on html-only hosting. As it would not look good, I changed it to 000webhost. Since I uploaded everything to 000webhost, I can&#39;t make the fonts to load. &lt;/p&gt;
+
+&lt;p&gt;webs:
+&lt;a href=&quot;http://bluescreen-ofdeath.webs.com/&quot; rel=&quot;nofollow&quot;&gt;http://bluescreen-ofdeath.webs.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;000webhost:
+&lt;a href=&quot;http://bsod.comze.com/&quot; rel=&quot;nofollow&quot;&gt;http://bsod.comze.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have tried pointing the ttf fonts from my webs account, but it won&#39;t load.&lt;/p&gt;
+
+&lt;p&gt;As the 000webhost take a day to answer free accounts, I decided to ask you. Is there anything I am missing?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Edit:&lt;/em&gt; Here is an example of my @Font-face&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@font-face {
+    font-family: &#39;fixedsys500c-webfont&#39;;
+    src: url(&#39;../font/fixedsys500c-webfont.eot&#39;);
+    src: url(&#39;../font/fixedsys500c-webfont.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
+         url(&#39;../font/fixedsys500c-webfont.woff&#39;) format(&#39;woff&#39;),
+         url(&#39;../font/fixedsys500c-webfont.ttf&#39;) format(&#39;truetype&#39;),
+         url(&#39;../font/fixedsys500c-webfont.svg#fixedsys500c-webfont&#39;) format(&#39;svg&#39;);
+    font-weight: normal;
+    font-style: normal;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/11805500</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Custom Tags in Django 1.2 with Google App Engine Python 2.7</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="django"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-app-engine"/><category scheme="http://stackoverflow.com/feeds/tags" term="filter"/><category scheme="http://stackoverflow.com/feeds/tags" term="tags"/>
+        <author>
+            <name>Gaby Solis</name>
+            <uri>http://stackoverflow.com/users/1554343</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/11805500/custom-tags-in-django-1-2-with-google-app-engine-python-2-7" />
+        <published>2012-08-04T02:42:34Z</published>
+        <updated>2013-03-23T15:27:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Creating a custom tag in Google App Engine Python2.5 with Webapp used to be a joyful experience. Here: &lt;a href=&quot;http://stackoverflow.com/questions/35948/django-templates-and-variable-attributes&quot;&gt;Django Templates and variable attributes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But now, in Python 2.7 with Webapp2 and Django 1.2, it is a pain in the ass. I can only find bits of information here and there, and some of the methods contradict with each other.&lt;/p&gt;
+
+&lt;p&gt;The method described in &lt;a href=&quot;http://www.john-smith.me/Tag/webapp2&quot; rel=&quot;nofollow&quot;&gt;http://www.john-smith.me/Tag/webapp2&lt;/a&gt; ranks high in Google, but some people claim it is &quot;what a waste of time&quot; &lt;a href=&quot;http://stackoverflow.com/questions/10618551/webapp2-custom-tags&quot;&gt;Webapp2 custom tags&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This one method seems to work&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from django.template.loader import add_to_builtins
+add_to_builtins(&#39;xxxxx&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I dont know the details. Who can provide a step by step example?&lt;/p&gt;
+
+&lt;p&gt;I dont know why there are no official documents about these stuff. I mean, this is not science experiments in which we explore the unknown. There supposed to be some documentation so the developers can save their time.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/5418160</id>
+        <re:rank scheme="http://stackoverflow.com">9</re:rank>
+        <title type="text">store and retrieve a class object in shared preference</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="object"/><category scheme="http://stackoverflow.com/feeds/tags" term="sharedpreferences"/>
+        <author>
+            <name>androidGuy</name>
+            <uri>http://stackoverflow.com/users/662025</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/5418160/store-and-retrieve-a-class-object-in-shared-preference" />
+        <published>2011-03-24T11:06:57Z</published>
+        <updated>2013-03-23T15:26:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In android i need to know if we can store an object of a class in shared preference and retrieve the object latter.If it is possible how to do it.If it is not possible what are the other possibilities of doing it.I know serialization is one option but i am looking for possibilities using shared preference.&lt;/p&gt;
+
+&lt;p&gt;Any help is appreciated.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/3159168</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">How to get control in ASP.NET PreInit event?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="null"/><category scheme="http://stackoverflow.com/feeds/tags" term="control"/><category scheme="http://stackoverflow.com/feeds/tags" term="preinit"/>
+        <author>
+            <name>brain_pusher</name>
+            <uri>http://stackoverflow.com/users/318422</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/3159168/how-to-get-control-in-asp-net-preinit-event" />
+        <published>2010-07-01T15:18:06Z</published>
+        <updated>2013-03-23T15:27:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How to get control in ASP.NET PreInit event? Pointers are null and FindControl method returns null.&lt;/p&gt;
+
+&lt;p&gt;I am using master and content pages.
+Markup of the content page looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;asp:Content ID=&quot;Content2&quot; ContentPlaceHolderID=&quot;ContentBody&quot; runat=&quot;server&quot;&amp;gt;
+   &amp;lt;asp:Table ID=&quot;Table1&quot; runat=&quot;server&quot; Width=&quot;100%&quot;&amp;gt;
+      .....
+   &amp;lt;/asp:Table&amp;gt;
+&amp;lt;/asp:Content&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And code like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private void Page_PreInit(object sender, EventArgs e)
+{
+    Control table = this.FindControl(&quot;Table1&quot;);
+    //table is null here
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So table still is null after this.FindControl(&quot;Table1&quot;). NamingContainer of the page is null too. What am I doing wrong?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; I have to use this event to create controls. As said in the &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/ms178472.aspx&quot; rel=&quot;nofollow&quot;&gt;ASP.NET Page Life Cycle Overview&lt;/a&gt; this event should be used for dynamic control creation. I need to create a list of links in my table. May be there is another way to do it?&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

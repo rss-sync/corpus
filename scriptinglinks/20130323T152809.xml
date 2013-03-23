@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Sat, 23 Mar 2013 13:50:59 GMT</pubDate>
+		<lastBuildDate>Sat, 23 Mar 2013 13:50:59 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-23</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/23/2013; 9:50:59 AM</microblog:localTime>
+		<item>
+			<description>Margaret Sullivan, an Ombud Who Cares.</description>
+			<link>http://3k3.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:50:58 GMT</pubDate>
+			<guid>http://3k3.r2.ly/?id=15760</guid>
+			<microblog:linkFull>http://www.nytexaminer.com/2013/03/margaret-sullivan-an-ombud-who-cares/</microblog:linkFull>
+			</item>
+		<item>
+			<description>Krugman: The Economics of Evil Google.</description>
+			<link>http://3k1.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:23:16 GMT</pubDate>
+			<guid>http://3k1.r2.ly/?id=15759</guid>
+			<microblog:linkFull>http://krugman.blogs.nytimes.com/2013/03/23/the-economics-of-evil-google/</microblog:linkFull>
+			<microblog:readCount>375</microblog:readCount>
+			</item>
+		<item>
+			<description>Here&apos;s a pretty good explanation of why Google Reader is going away. They are doing a for-pay news product.</description>
+			<link>http://3jv.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:20:56 GMT</pubDate>
+			<guid>http://3jv.r2.ly/?id=15758</guid>
+			<microblog:linkFull>http://mashable.com/2013/03/18/google-play-store-newspapers/</microblog:linkFull>
+			<microblog:readCount>931</microblog:readCount>
+			</item>
+		<item>
+			<description>Krugman: Psychological Roots of Austerity.</description>
+			<link>http://3k0.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:20:06 GMT</pubDate>
+			<guid>http://3k0.r2.ly/?id=15757</guid>
+			<microblog:linkFull>http://krugman.blogs.nytimes.com/2013/03/23/psychological-roots-of-austerity/?seid=auto&amp;smid=tw-NytimesKrugman</microblog:linkFull>
+			<microblog:readCount>311</microblog:readCount>
+			</item>
+		<item>
+			<description>Ed Miliband says government has no ideas left on economy.</description>
+			<link>http://3jz.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:07:12 GMT</pubDate>
+			<guid>http://3jz.r2.ly/?id=15756</guid>
+			<microblog:linkFull>http://www.guardian.co.uk/politics/2013/mar/23/ed-miliband-government-ideas-economy</microblog:linkFull>
+			<microblog:readCount>256</microblog:readCount>
+			</item>
+		<item>
+			<description>Atlantic: A Truly Devastating Graph on State Higher Education Spending.</description>
+			<link>http://3jy.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 10:36:10 GMT</pubDate>
+			<guid>http://3jy.r2.ly/?id=15755</guid>
+			<microblog:linkFull>http://www.theatlantic.com/business/archive/2013/03/a-truly-devastating-graph-on-state-higher-education-spending/274199/</microblog:linkFull>
+			<microblog:readCount>548</microblog:readCount>
+			</item>
+		<item>
+			<description>Mike D&apos;Antoni rips Los Angeles Lakers after blowing lead to Washington Wizards.</description>
+			<link>http://3jx.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 08:43:45 GMT</pubDate>
+			<guid>http://3jx.r2.ly/?id=15754</guid>
+			<microblog:linkFull>http://espn.go.com/los-angeles/nba/story/_/id/9088106/mike-dantoni-rips-los-angeles-lakers-blowing-lead-washington-wizards</microblog:linkFull>
+			<microblog:readCount>550</microblog:readCount>
+			</item>
+		<item>
+			<description>Microsoft&apos;s opinion of Google software.</description>
+			<link>http://3jw.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 03:07:22 GMT</pubDate>
+			<guid>http://3jw.r2.ly/?id=15753</guid>
+			<microblog:linkFull>http://www.flickr.com/photos/scriptingnews/8578092598/in/photostream</microblog:linkFull>
+			<microblog:readCount>915</microblog:readCount>
+			</item>
+		<item>
+			<description>Google Prepping Own Newsstand for Android, Evidence Suggests.</description>
+			<link>http://3jv.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 02:57:20 GMT</pubDate>
+			<guid>http://3jv.r2.ly/?id=15752</guid>
+			<microblog:linkFull>http://mashable.com/2013/03/18/google-play-store-newspapers/</microblog:linkFull>
+			<microblog:readCount>931</microblog:readCount>
+			</item>
+		<item>
+			<description>Apple&apos;s iOS: In desperate need of a facelift. (No. Operating systems are boring and functional. Leave it alone.)</description>
+			<link>http://3ju.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 02:53:32 GMT</pubDate>
+			<guid>http://3ju.r2.ly/?id=15751</guid>
+			<microblog:linkFull>http://www.zdnet.com/apples-ios-in-desperate-need-of-a-facelift-7000012781/</microblog:linkFull>
+			<microblog:readCount>860</microblog:readCount>
+			</item>
+		<item>
+			<description>Turning Gmail into Google Reader.</description>
+			<link>http://3js.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 22:44:46 GMT</pubDate>
+			<guid>http://3js.r2.ly/?id=15750</guid>
+			<microblog:linkFull>http://wcm1.web.rice.edu/turning-gmail-into-google-reader.html</microblog:linkFull>
+			<microblog:readCount>1359</microblog:readCount>
+			</item>
+		<item>
+			<description>Major security hole allows Apple passwords to be reset with only email address, date of birth.</description>
+			<link>http://3jq.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 19:43:14 GMT</pubDate>
+			<guid>http://3jq.r2.ly/?id=15749</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/22/4136242/major-security-hole-allows-apple-id-passwords-reset-with-email-date-of-birth</microblog:linkFull>
+			<microblog:readCount>816</microblog:readCount>
+			</item>
+		<item>
+			<description>Two years ago: 11 free hackathon ideas.</description>
+			<link>http://3jp.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 19:36:58 GMT</pubDate>
+			<guid>http://3jp.r2.ly/?id=15748</guid>
+			<microblog:linkFull>http://scripting.com/stories/2011/04/08/11FreeHackathonIdeas.html</microblog:linkFull>
+			<microblog:linkSource>http://scripting.com/stories/2011/04/08/11FreeHackathonIdeas.opml</microblog:linkSource>
+			<microblog:readCount>456</microblog:readCount>
+			</item>
+		<item>
+			<description>Mindfulness Requires Practice and Purpose.</description>
+			<link>http://3jo.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 19:29:25 GMT</pubDate>
+			<guid>http://3jo.r2.ly/?id=15747</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/23/your-money/mindfulness-requires-practice-and-purpose.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>684</microblog:readCount>
+			</item>
+		<item>
+			<description>The Local East Village, NYU&apos;s hyperlocal blog, moves from The New York Times to New York magazine.</description>
+			<link>http://3jn.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 19:17:32 GMT</pubDate>
+			<guid>http://3jn.r2.ly/?id=15746</guid>
+			<microblog:linkFull>http://www.niemanlab.org/2013/03/changing-trains-the-local-east-village-nyus-hyperlocal-blog-moves-from-the-new-york-times-to-new-york-magazine/</microblog:linkFull>
+			<microblog:readCount>435</microblog:readCount>
+			</item>
+		<item>
+			<description>NakedJen on becoming a mom.</description>
+			<link>http://3jl.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 18:52:40 GMT</pubDate>
+			<guid>http://3jl.r2.ly/?id=15745</guid>
+			<microblog:linkFull>http://www.nakedjen.com/nakedjen/2013/03/he-chose-me.html</microblog:linkFull>
+			<microblog:readCount>550</microblog:readCount>
+			</item>
+		<item>
+			<description>Let Me Tweet That For You lets you post perfectly fake tweets on behalf of anyone.</description>
+			<link>http://3jk.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 17:59:49 GMT</pubDate>
+			<guid>http://3jk.r2.ly/?id=15744</guid>
+			<microblog:linkFull>http://www.poynter.org/latest-news/mediawire/208122/let-me-tweet-that-for-you-site-raises-concerns-for-journalists/</microblog:linkFull>
+			<microblog:readCount>988</microblog:readCount>
+			</item>
+		<item>
+			<description>There&apos;s a practice outliner right there on the docs page. Kind of subtle. :-)</description>
+			<link>http://3hf.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 16:28:22 GMT</pubDate>
+			<guid>http://3hf.r2.ly/?id=15743</guid>
+			<microblog:linkFull>http://smallpicture.com/outlinerHowto.html</microblog:linkFull>
+			<microblog:readCount>2895</microblog:readCount>
+			</item>
+		<item>
+			<description>Important: You install the software by reloading the page. (We don&apos;t need approval from anyone.)</description>
+			<link>http://3ji.r2.ly/</link>
+			<pubDate>Fri, 22 Mar 2013 15:45:56 GMT</pubDate>
+			<guid>http://3ji.r2.ly/?id=15742</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/itsAnOutliner</microblog:linkFull>
+			<microblog:readCount>1467</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: It&apos;s an outliner!</description>
+			<link>http://3ji.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 22 Mar 2013 15:33:35 GMT</pubDate>
+			<guid>http://3ji.r2.ly/?id=15741</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/itsAnOutliner</microblog:linkFull>
+			<microblog:readCount>1467</microblog:readCount>
+			</item>
+		</channel>
+	</rss>
