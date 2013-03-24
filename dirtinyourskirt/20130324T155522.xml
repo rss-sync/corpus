@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Dirt in Your Skirt - Mud Runs, Obstacle Course Races, Endurance Races</title>
+	<atom:link href="http://dirtinyourskirt.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://dirtinyourskirt.com</link>
+	<description>The Offical Website of Margaret Schlachter</description>
+	<lastBuildDate>Fri, 22 Mar 2013 20:58:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Volunteering</title>
+		<link>http://dirtinyourskirt.com/ambassadors/volunteering/</link>
+		<comments>http://dirtinyourskirt.com/ambassadors/volunteering/#comments</comments>
+		<pubDate>Fri, 22 Mar 2013 20:58:56 +0000</pubDate>
+		<dc:creator>Ambassador Jessica</dc:creator>
+				<category><![CDATA[Ambassadors]]></category>
+		<category><![CDATA[Ambassador]]></category>
+		<category><![CDATA[Girls on the Run]]></category>
+		<category><![CDATA[volunteer]]></category>
+
+		<guid isPermaLink="false">http://dirtinyourskirt.com/?p=30482</guid>
+		<description><![CDATA[This year I’m very lucky to be involved in Girls on the Run, an organization &#8230; <a href="http://dirtinyourskirt.com/ambassadors/volunteering/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://dirtinyourskirt.com/ambassadors/volunteering/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ultrarunning and Obstacle Course Racing&#8230; On the Same Path</title>
+		<link>http://dirtinyourskirt.com/musings/utrarunning-and-obstacle-course-racing-on-the-same-path/</link>
+		<comments>http://dirtinyourskirt.com/musings/utrarunning-and-obstacle-course-racing-on-the-same-path/#comments</comments>
+		<pubDate>Thu, 21 Mar 2013 17:16:16 +0000</pubDate>
+		<dc:creator>Dirt in Your Skirt</dc:creator>
+				<category><![CDATA[Musings]]></category>
+		<category><![CDATA[obstacle course racing]]></category>
+		<category><![CDATA[ultrarunning]]></category>
+
+		<guid isPermaLink="false">http://dirtinyourskirt.com/?p=30419</guid>
+		<description><![CDATA[I am fortunate enough to shoulder two worlds in sport, that of obstacle course racing &#8230; <a href="http://dirtinyourskirt.com/musings/utrarunning-and-obstacle-course-racing-on-the-same-path/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://dirtinyourskirt.com/musings/utrarunning-and-obstacle-course-racing-on-the-same-path/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Go Your Own Way</title>
+		<link>http://dirtinyourskirt.com/life/go-your-own-way/</link>
+		<comments>http://dirtinyourskirt.com/life/go-your-own-way/#comments</comments>
+		<pubDate>Wed, 20 Mar 2013 16:46:11 +0000</pubDate>
+		<dc:creator>Dirt in Your Skirt</dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Go Your Own Way]]></category>
+		<category><![CDATA[Margaret Schlachter]]></category>
+
+		<guid isPermaLink="false">http://dirtinyourskirt.com/?p=30372</guid>
+		<description><![CDATA[This morning I woke up after having one of the craziest dreams of late. I &#8230; <a href="http://dirtinyourskirt.com/life/go-your-own-way/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://dirtinyourskirt.com/life/go-your-own-way/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

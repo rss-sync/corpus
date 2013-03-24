@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-24T15:57:42Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15600659</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">PHP Execution wrong order</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="wordpress"/>
+        <author>
+            <name>Gerald Ferreira</name>
+            <uri>http://stackoverflow.com/users/149175</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600659/php-execution-wrong-order" />
+        <published>2013-03-24T15:57:29Z</published>
+        <updated>2013-03-24T15:57:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am hoping that someone can point me in the right direction...&lt;/p&gt;
+
+&lt;p&gt;I have the following Script in PHP&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;global $post;
+$url = &quot;&quot;.get_post_meta($post-&amp;gt;ID, &quot;syndication_permalink&quot;, true).&quot;&quot;;
+
+$wpws_get_content1 = wpws_get_content($url, true).&#39;&quot;&#39;, &quot;#doccontent&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above code does not work...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;       global $post;
+       url = &quot;http://example.com&quot;;
+ $wpws_get_content1 = wpws_get_content($url, true).&#39;&quot;&#39;, &quot;#doccontent&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If I do the code above and manually enter the URL in &lt;code&gt;$url&lt;/code&gt; it works&lt;/p&gt;
+
+&lt;p&gt;if I &lt;code&gt;echo&lt;/code&gt; the &lt;code&gt;$url&lt;/code&gt; in the top example it works, but as soon as I dynamically use it with the code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wpws_get_content($url, true)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;it does not work....&lt;/p&gt;
+
+&lt;p&gt;I am not sure exactly what the error is, but it seems it is a problem with the execution time in the script above... &lt;/p&gt;
+
+&lt;p&gt;If you have any ideas how to solve this, it would be much appreciated if you can point me to the right direction....&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600657</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Code igniter 2.13 csrf true not working with ajax</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="codeigniter"/>
+        <author>
+            <name>ram</name>
+            <uri>http://stackoverflow.com/users/1605962</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600657/code-igniter-2-13-csrf-true-not-working-with-ajax" />
+        <published>2013-03-24T15:57:23Z</published>
+        <updated>2013-03-24T15:57:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a form_open(controller/function) as form tag.I am using jquery $ajax fn.&lt;/p&gt;
+
+&lt;p&gt;If I have enabled csrf, my post will be failed with 500 internal error. If I disable it will work.&lt;/p&gt;
+
+&lt;p&gt;How do i fix this problem, tried out few answers from stackoverflow but nothing worked ?&lt;/p&gt;
+
+&lt;p&gt;These are solution that I tried out &lt;a href=&quot;http://jerel.co/blog/2012/03/a-simple-solution-to-codeigniter-csrf-protection-and-ajax&quot; rel=&quot;nofollow&quot;&gt;http://jerel.co/blog/2012/03/a-simple-solution-to-codeigniter-csrf-protection-and-ajax&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for taking time to see my question.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600656</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to select desired network adapter to get GetAllNetworkInterfaces().GetIPv4Statistics</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="vb.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="wrapper"/><category scheme="http://stackoverflow.com/feeds/tags" term="openvpn"/>
+        <author>
+            <name>user2204845</name>
+            <uri>http://stackoverflow.com/users/2204845</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600656/how-to-select-desired-network-adapter-to-get-getallnetworkinterfaces-getipv4st" />
+        <published>2013-03-24T15:57:14Z</published>
+        <updated>2013-03-24T15:57:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;its first time im asking a question in stackoverflow.com
+i always found my problems with searching on this website but for this problem seems like there is nothing mentioned ( or i cant find )&lt;/p&gt;
+
+&lt;p&gt;ok here is the problem : &lt;/p&gt;
+
+&lt;p&gt;i want to write an openvpn wrapper app
+i want to show the current traffic of the TAP-Win32 Adapter V9 on my app&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+    Dim ipv4Stats As System.Net.NetworkInformation.IPv4InterfaceStatistics
+
+    ipv4Stats = System.Net.NetworkInformation.NetworkInterface.GetAllNetworkInterfaces(Get_tap_nic_id).GetIPv4Statistics
+    If tick = True Then
+        download = ipv4Stats.BytesReceived.ToString - holder_d
+        upload = ipv4Stats.BytesSent.ToString - holder_u
+        tick = False
+    Else
+        holder_d = ipv4Stats.BytesReceived.ToString
+        holder_u = ipv4Stats.BytesSent.ToString
+        tick = True
+    End If
+
+
+    Me.Text = (FormatFileSize(download) &amp;amp; &quot; - &quot; &amp;amp; FormatFileSize(upload))
+
+    &#39;Chart1.Series(&quot;Download&quot;).AxisLabel = Date.Now.Minute &amp;amp; &quot;:&quot; &amp;amp; Date.Now.Second
+    &#39;Chart1.Series(&quot;Upload&quot;).AxisLabel = Date.Now.Minute &amp;amp; &quot;:&quot; &amp;amp; Date.Now.Second
+
+    Chart1.Series(&quot;Download&quot;).Points.Add(download / 1024)
+    Chart1.Series(&quot;Upload&quot;).Points.Add(upload / 1024)
+End Sub
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and the Get_tap_nic_id() function is : &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Public Function Get_tap_nic_id()
+    Dim status As String
+    Dim i As Integer = 0
+    For Each networkCard As NetworkInterface In NetworkInterface.GetAllNetworkInterfaces
+        i = i + 1
+        Console.WriteLine(networkCard.Description.ToString &amp;amp; &quot;-&quot; &amp;amp; i)
+        If networkCard.Description = &quot;TAP-Win32 Adapter V9&quot; Then
+            status = networkCard.OperationalStatus.ToString
+            If status &amp;lt;&amp;gt; &quot;Up&quot; Then
+                &#39;Return False
+            Else
+                Return i
+            End If
+        End If
+    Next
+    Return 0
+End Function
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the problem is i cant find the &quot;TAP-Win32 Adapter V9&quot; index ID&lt;/p&gt;
+
+&lt;p&gt;on some PCs it works just fine , but when a network adapter is added to the system or just disabled , then it fails to work &lt;/p&gt;
+
+&lt;p&gt;thanx in advance&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600655</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Background worker issue with bluetooth socket</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="wpf"/><category scheme="http://stackoverflow.com/feeds/tags" term="backgroundworker"/>
+        <author>
+            <name>Charles LAU</name>
+            <uri>http://stackoverflow.com/users/1269639</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600655/background-worker-issue-with-bluetooth-socket" />
+        <published>2013-03-24T15:57:05Z</published>
+        <updated>2013-03-24T15:57:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am currently fixing a bug in my WPF application. The application requires reading data from the bluetooth socket with 32 feets library. The current issue I have is that when the backgroundworker has been cancelled using cancelAsync() and wait after few minutes, the dowork  event doesn&#39;t fire anymore. If i only stop the backgroundworker within a minute, the dowork does fire. Does anyone know the reason for this and how to resolve this?&lt;/p&gt;
+
+&lt;p&gt;Here is the code I use for dowork:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; void startThread_DoWork(object sender, DoWorkEventArgs e)
+    {
+
+        BackgroundWorker worker = sender as BackgroundWorker;
+
+        try{
+            using (BluetoothClient cliente = new BluetoothClient())
+            {
+
+              //  BluetoothEndPoint point = new BluetoothEndPoint(BluetoothAddress.Parse((String)e.Argument), BluetoothService.SerialPort);
+
+
+                cliente.Connect(BluetoothAddress.Parse((String)e.Argument), BluetoothService.SerialPort);
+
+                using (Stream stream = cliente.GetStream())
+                {
+
+                        while (true)
+                        {
+
+                               System.Windows.Forms.Application.DoEvents();
+                               if (worker.CancellationPending &amp;amp;&amp;amp; !isActive)
+                               {
+                                    e.Cancel = true;
+                                   break;
+                               }
+                               else
+                               {
+
+                                   if (stream.Read(data, 0, 8) != -1 &amp;amp;&amp;amp; isActive)
+                                   {
+                                       decoder.Decode(data);
+                                   }
+                               }
+                        }
+
+                }
+
+
+            }
+        }
+       catch 
+       {
+
+            }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The code of constructing the backgroundworker in the constructor:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    startThread = new BackgroundWorker();
+
+        startThread.WorkerSupportsCancellation = true;
+       startThread.DoWork += startThread_DoWork;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks for any help in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600653</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">upload a file with passing info in jsp</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="jsp"/><category scheme="http://stackoverflow.com/feeds/tags" term="file-upload"/><category scheme="http://stackoverflow.com/feeds/tags" term="multipartform-data"/>
+        <author>
+            <name>Vijay Kumar Khushlani</name>
+            <uri>http://stackoverflow.com/users/2068834</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600653/upload-a-file-with-passing-info-in-jsp" />
+        <published>2013-03-24T15:56:46Z</published>
+        <updated>2013-03-24T15:56:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Can Any Buddy Tell me that how to use characters of data with multipart/form-data in from attribute . i knows that multipart/form-data is used when forms that have a file upload control but i won&#39;t to use both characters and file upload control . when i use multipar i can&#39;t able to transfer my characters . &lt;br&gt; HOW I USE BOTH ??? &lt;br&gt;
+In the Html page -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;form enctype=&quot;multipart/form-data&quot; method=post action=&#39;upload.jsp&#39;&amp;gt;
+&amp;lt;select name=&quot;year&quot;&amp;gt;&amp;lt;option&amp;gt;Year 1&amp;lt;/option&amp;gt;&amp;lt;option&amp;gt;Year 2&amp;lt;/option&amp;gt;&amp;lt;/select&amp;gt;
+Browes Your .xml File&amp;lt;input type=&#39;file&#39; name=&#39;fname&#39; accept=&#39;text/xml&#39;&amp;gt;
+&amp;lt;input type=&#39;submit&#39; value=&#39;Upload&#39;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;jsp page -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;%@page import=&quot;com.oreilly.servlet.MultipartRequest&quot; %&amp;gt;
+&amp;lt;%
+  MultipartRequest mpr=new MultipartRequest(request,&quot;C://upload&quot;);
+  request.getParameter(&quot;year&quot;);                   // Return Null Here
+%&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;how i get the parameter value of year here ??&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600652</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Binary Search treee ( Family Tree)- Java</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="binary-tree"/><category scheme="http://stackoverflow.com/feeds/tags" term="binary-search-tree"/><category scheme="http://stackoverflow.com/feeds/tags" term="binary-search"/>
+        <author>
+            <name>Tommy Acton</name>
+            <uri>http://stackoverflow.com/users/2172243</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600652/binary-search-treee-family-tree-java" />
+        <published>2013-03-24T15:56:45Z</published>
+        <updated>2013-03-24T15:56:45Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Hey guys i was wondering if someone can help me solve these problems that have been bugging me for days now.
+For those that know how binary tree works, well am doing something similar to it. this is a family tree instead.
+1. how will i go about find some in the family tree 
+2. how will i count the number of children from a parent
+3.Number of siblings 
+4. The person next in line the family tree 
+5. descendants
+6. how to remove someone from a  family tree
+7. finding someones cousin
+all of this is done in java.. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600648</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">an i sell software that contains plugin with MIT or GPL</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery-ui"/><category scheme="http://stackoverflow.com/feeds/tags" term="licensing"/><category scheme="http://stackoverflow.com/feeds/tags" term="jqplot"/><category scheme="http://stackoverflow.com/feeds/tags" term="mit-license"/>
+        <author>
+            <name>user2204851</name>
+            <uri>http://stackoverflow.com/users/2204851</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600648/an-i-sell-software-that-contains-plugin-with-mit-or-gpl" />
+        <published>2013-03-24T15:56:35Z</published>
+        <updated>2013-03-24T15:56:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m really confused and i know this might not be the right place to ask but since its programming related website i thought i would get better answer here. Please dont scream at me.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m building a web application and want to use graphing plugin. The free and open source i found is &lt;strong&gt;jqPlot&lt;/strong&gt;. If I include the charts of this plugin can i sell my application? Do i need some kind of permission?&lt;/p&gt;
+
+&lt;p&gt;Also my application uses JQuery UI and Datatables.&lt;/p&gt;
+
+&lt;p&gt;I found that jqPlot is under MIT and GPL licenses.&lt;/p&gt;
+
+&lt;p&gt;Thank you very much&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600645</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Twitter Bootstrap Javascript Does Not Work</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="twitter-bootstrap"/>
+        <author>
+            <name>itamar</name>
+            <uri>http://stackoverflow.com/users/975343</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600645/twitter-bootstrap-javascript-does-not-work" />
+        <published>2013-03-24T15:56:25Z</published>
+        <updated>2013-03-24T15:56:25Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve been trying to modify an example twitter bootstrap page,
+using the following html code.
+The problem is that none on the javascript-based features work -
+not the dropdown, not the file uploading (using jansy) etc.
+I&#39;ve checked the javascript file links and they are refering to the right files.&lt;/p&gt;
+
+&lt;p&gt;How could I handle this problem?
+Thanks in advance.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;script src=&quot;bootstrap/js/jquery.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&quot;bootstrap/js/bootstrap.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;
+    &amp;lt;title&amp;gt;Bootstrap, from Twitter&amp;lt;/title&amp;gt;
+    &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+    &amp;lt;meta name=&quot;description&quot; content=&quot;&quot;&amp;gt;
+    &amp;lt;meta name=&quot;author&quot; content=&quot;&quot;&amp;gt;
+
+    &amp;lt;!-- Le styles --&amp;gt;
+    &amp;lt;link href=&quot;bootstrap/css/bootstrap.css&quot; rel=&quot;stylesheet&quot;&amp;gt;
+    &amp;lt;style type=&quot;text/css&quot;&amp;gt;
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    &amp;lt;/style&amp;gt;
+    &amp;lt;link href=&quot;bootstrap/css/bootstrap-responsive.css&quot; rel=&quot;stylesheet&quot;&amp;gt;
+
+    &amp;lt;!-- HTML5 shim, for IE6-8 support of HTML5 elements --&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+      &amp;lt;script src=&quot;../assets/js/html5shiv.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;![endif]--&amp;gt;
+
+
+  &amp;lt;/head&amp;gt;
+
+  &amp;lt;body&amp;gt;
+
+    &amp;lt;div class=&quot;navbar navbar-inverse navbar-fixed-top&quot;&amp;gt;
+      &amp;lt;div class=&quot;navbar-inner&quot;&amp;gt;
+        &amp;lt;div class=&quot;container&quot;&amp;gt;
+          &amp;lt;button type=&quot;button&quot; class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&amp;gt;
+            &amp;lt;span class=&quot;icon-bar&quot;&amp;gt;&amp;lt;/span&amp;gt;
+            &amp;lt;span class=&quot;icon-bar&quot;&amp;gt;&amp;lt;/span&amp;gt;
+            &amp;lt;span class=&quot;icon-bar&quot;&amp;gt;&amp;lt;/span&amp;gt;
+          &amp;lt;/button&amp;gt;
+          &amp;lt;a class=&quot;brand&quot; href=&quot;#&quot;&amp;gt;Project name&amp;lt;/a&amp;gt;
+          &amp;lt;div class=&quot;nav-collapse collapse&quot;&amp;gt;
+            &amp;lt;ul class=&quot;nav&quot;&amp;gt;
+              &amp;lt;li class=&quot;active&quot;&amp;gt;&amp;lt;a href=&quot;#&quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#about&quot;&amp;gt;About&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#contact&quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+              &amp;lt;li class=&quot;dropdown&quot;&amp;gt;
+                &amp;lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&amp;gt;Dropdown &amp;lt;b class=&quot;caret&quot;&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/a&amp;gt;
+                &amp;lt;ul class=&quot;dropdown-menu&quot;&amp;gt;
+                  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#&quot;&amp;gt;Action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#&quot;&amp;gt;Another action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#&quot;&amp;gt;Something else here&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                  &amp;lt;li class=&quot;divider&quot;&amp;gt;&amp;lt;/li&amp;gt;
+                  &amp;lt;li class=&quot;nav-header&quot;&amp;gt;Nav header&amp;lt;/li&amp;gt;
+                  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#&quot;&amp;gt;Separated link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                  &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#&quot;&amp;gt;One more separated link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+              &amp;lt;/li&amp;gt;
+            &amp;lt;/ul&amp;gt;
+            &amp;lt;form class=&quot;navbar-form pull-right&quot;&amp;gt;
+              &amp;lt;input class=&quot;span2&quot; type=&quot;text&quot; placeholder=&quot;Email&quot;&amp;gt;
+              &amp;lt;input class=&quot;span2&quot; type=&quot;password&quot; placeholder=&quot;Password&quot;&amp;gt;
+              &amp;lt;button type=&quot;submit&quot; class=&quot;btn&quot;&amp;gt;Sign in&amp;lt;/button&amp;gt;
+            &amp;lt;/form&amp;gt;
+          &amp;lt;/div&amp;gt;&amp;lt;!--/.nav-collapse --&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;div class=&quot;container&quot;&amp;gt;
+
+      &amp;lt;!-- Main hero unit for a primary marketing message or call to action --&amp;gt;
+      &amp;lt;div class=&quot;hero-unit&quot;&amp;gt;
+        &amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;
+        &amp;lt;p&amp;gt;This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.&amp;lt;/p&amp;gt;
+        &amp;lt;p&amp;gt;&amp;lt;a href=&quot;#&quot; class=&quot;btn btn-primary btn-large&quot;&amp;gt;Learn more &amp;amp;raquo;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+      &amp;lt;/div&amp;gt;
+
+      &amp;lt;!-- Example row of columns --&amp;gt;
+      &amp;lt;div class=&quot;row&quot;&amp;gt;
+        &amp;lt;div class=&quot;span4&quot;&amp;gt;
+          &amp;lt;h2&amp;gt;Heading&amp;lt;/h2&amp;gt;
+          &amp;lt;p&amp;gt;Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. &amp;lt;/p&amp;gt;
+          &amp;lt;p&amp;gt;&amp;lt;a class=&quot;btn&quot; href=&quot;#&quot;&amp;gt;View details &amp;amp;raquo;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;span4&quot;&amp;gt;
+          &amp;lt;h2&amp;gt;Heading&amp;lt;/h2&amp;gt;
+          &amp;lt;p&amp;gt;Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. &amp;lt;/p&amp;gt;
+          &amp;lt;p&amp;gt;&amp;lt;a class=&quot;btn&quot; href=&quot;#&quot;&amp;gt;View details &amp;amp;raquo;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+       &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;span4&quot;&amp;gt;
+          &amp;lt;h2&amp;gt;Heading&amp;lt;/h2&amp;gt;
+          &amp;lt;p&amp;gt;Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&amp;lt;/p&amp;gt;
+          &amp;lt;p&amp;gt;&amp;lt;a class=&quot;btn&quot; href=&quot;#&quot;&amp;gt;View details &amp;amp;raquo;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+
+      &amp;lt;hr&amp;gt;
+
+      &amp;lt;footer&amp;gt;
+        &amp;lt;p&amp;gt;&amp;amp;copy; Company 2013&amp;lt;/p&amp;gt;
+      &amp;lt;/footer&amp;gt;
+
+    &amp;lt;/div&amp;gt; &amp;lt;!-- /container --&amp;gt;
+
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600642</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">dating website cms(drupal, joomla, magneto) or custom solution</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="magento"/><category scheme="http://stackoverflow.com/feeds/tags" term="drupal"/><category scheme="http://stackoverflow.com/feeds/tags" term="joomla"/><category scheme="http://stackoverflow.com/feeds/tags" term="content-management-system"/>
+        <author>
+            <name>user1733911</name>
+            <uri>http://stackoverflow.com/users/1733911</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600642/dating-website-cmsdrupal-joomla-magneto-or-custom-solution" />
+        <published>2013-03-24T15:56:16Z</published>
+        <updated>2013-03-24T15:56:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have some experience working with PHP and MySQL JavaScript etc but I am not good with CSS.
+I want to set up a local dating website(about 5000 users expected). And I would be very thankful for your suggestions/advice about  what is the best path to take &lt;/p&gt;
+
+&lt;p&gt;CMS like Joomla drupal magento 
+or custom made website&lt;/p&gt;
+
+&lt;p&gt;I dont need very customised features and I want to put it online asap.
+Please guide me.
+thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600641</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Backup/Restore of a postgres specific schema to/from a sql file on ruby on rails</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="multi-tenant"/><category scheme="http://stackoverflow.com/feeds/tags" term="rails-postgresql"/>
+        <author>
+            <name>anonymousxxx</name>
+            <uri>http://stackoverflow.com/users/1297435</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600641/backup-restore-of-a-postgres-specific-schema-to-from-a-sql-file-on-ruby-on-rails" />
+        <published>2013-03-24T15:56:14Z</published>
+        <updated>2013-03-24T15:56:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have saas app using multi-tenant with postgresql. Any accounts have each schema, subdomain, admin panel and any account is given the facility to backup/restore its own schema to sql file using click link download backup sql file, i am confused how to any account can do it.&lt;/p&gt;
+
+&lt;p&gt;i try some code on controller (I get this code from search on google)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@account = Account.find(current_account.id)
+@backup = ActiveRecord::Base.connection.execute(&quot;export PGPASSWORD=mypassword &amp;amp;&amp;amp; export PGUSER=myuser &amp;amp;&amp;amp; pg_dump -S &quot;+@account.schema+&quot; db_name -CdiOv &amp;gt; &quot;+@account.schema+&quot;.sql &amp;amp;&amp;amp; unset PGPASSWORD &amp;amp;&amp;amp; unset PGUSER&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But get error&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PG::Error: ERROR:  syntax error at or near &quot;export&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want Backup/Restore of a postgres specific schema (only public schema or x schema) to/from a sql file using ruby on rails.&lt;/p&gt;
+
+&lt;p&gt;Any idea?&lt;/p&gt;
+
+&lt;p&gt;Thanks for help.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600611</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How to set an object variable dynamically via a method in Java</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/>
+        <author>
+            <name>user2202767</name>
+            <uri>http://stackoverflow.com/users/2202767</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600611/how-to-set-an-object-variable-dynamically-via-a-method-in-java" />
+        <published>2013-03-24T15:54:26Z</published>
+        <updated>2013-03-24T15:56:26Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am attempting to run a method that takes in an string and creates the object using the string as the object&#39;s variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public void createObj(String objName){
+    Obj objName = new Obj();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is this even possible? If so, how may I accomplish it?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600606</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">php image upload</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="upload"/><category scheme="http://stackoverflow.com/feeds/tags" term="copy"/><category scheme="http://stackoverflow.com/feeds/tags" term="imag-upload"/>
+        <author>
+            <name>Pragna</name>
+            <uri>http://stackoverflow.com/users/674530</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600606/php-image-upload" />
+        <published>2013-03-24T15:53:47Z</published>
+        <updated>2013-03-24T15:56:25Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;&lt;a href=&quot;http://www.computersneaker.com/php-file-upload-script/&quot; rel=&quot;nofollow&quot;&gt;i am following link&lt;/a&gt; but getting this error 
+getting&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Warning: copy(upload/83459755231.jpg) [function.copy]: failed to open stream: No such file or directory in K:\PHP WAMP\wamp\www\testimgupload\testimgupload\upload_file_script.php on line 36
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;that line is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    copy($_FILES[&#39;fileField&#39;][&#39;tmp_name&#39;],&#39;upload/&#39;.$newFileName);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;what is problem into it?&lt;/p&gt;
+
+&lt;p&gt;my script is &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php //=============Configuring Server and Database=======
+$host = &#39;localhost&#39;;
+$user = &#39;root&#39;;
+$password = &#39;&#39;;
+
+$database = &#39;DBNAME&#39;;
+
+$conn = mysql_connect($host,$user,$password) or die(&#39;Server Information is not Correct&#39;);
+mysql_select_db($database,$conn) or die(&#39;Database Information is not correct&#39;);
+
+//===============End Server Configuration============
+
+if(isset($_POST[&#39;btnAdd&#39;]))
+{
+    $myFile = $_FILES[&#39;fileField&#39;][&#39;name&#39;]; // Storing name into variable
+
+    //====If you want to change the name of the File====
+    $anyNum = rand(20,500789000); //Will generate a random number between 20and 500789000
+
+    $newFileName = $anyNum.$myFile;//===New string is concatenated====
+    //===Following Function will check if the File already exists========
+
+    if (file_exists(&quot;upload/&quot;.$newFileName))
+    {
+        echo $newFileName.&quot; already exists. &quot;;
+    }
+
+    //======If file already exists in your Folder, It will return zero and Will not take any action===
+    //======Otherwise File will be stored in your given directory and Will store its name in Database===
+    else
+    {
+
+        $query = &quot;insert into tblfileupload(file_name) values (&#39;$newFileName&#39;)&quot;;
+
+        $res = mysql_query($query);
+
+        copy($_FILES[&#39;fileField&#39;][&#39;tmp_name&#39;],&#39;upload/&#39;.$newFileName);
+        //===Copy File Into your given Directory,copy(Source,Destination)
+
+        if($res&amp;gt;0)
+        {
+            //====$res will be greater than 0 only when File is uploaded Successfully====:)
+            echo &#39;You have Successfulluy Uploaded File&#39;;
+        }
+    }
+}
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600602</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Why doesn&#39;t a Boolean have to point to an object</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/>
+        <author>
+            <name>Deepak Bhalla</name>
+            <uri>http://stackoverflow.com/users/2202642</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600602/why-doesnt-a-boolean-have-to-point-to-an-object" />
+        <published>2013-03-24T15:53:31Z</published>
+        <updated>2013-03-24T15:56:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;When implementing a getter or setter for an NSString it appears as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-(NSString *)nameOfSomething
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;however when you get or set a Boolean you don&#39;t us an asterisks to point to something&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-(BOOL)nameOfSomething
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I was wondering why you have to do this? Shouldn&#39;t the asterisks still be needed in order to point? Is there a certain reason a Boolean doesn&#39;t need one?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600570</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Alert box not closing</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/>
+        <author>
+            <name>Kindo Precious</name>
+            <uri>http://stackoverflow.com/users/2147885</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600570/alert-box-not-closing" />
+        <published>2013-03-24T15:50:46Z</published>
+        <updated>2013-03-24T15:57:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Please help with this div alert box...It doesn&#39;t close on click event &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    $(document).ready(function(){   
+    $(&#39;.nof-close&#39;).click(function(){
+            $(&#39;.afp-p-now&#39;).fadeOut();
+            $(&#39;.afp-p-now&#39;).css(&#39;display&#39;,&#39;none&#39;);
+
+        }); 
+
+    }); 
+    &amp;lt;/script&amp;gt;
+
+&amp;lt;div class=&quot;flash-messages container afp-p-now&quot;&amp;gt;
+        &amp;lt;div class=&quot;flash flash-notice&quot;&amp;gt;Welcome to website...You are currently viewing me  
+        &amp;lt;span class=&quot;mini-icon mini-icon-remove-close nof-close close&quot;&amp;gt;&amp;lt;/span&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any Idea will be much appreciated.Thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600540</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Fetch data every n minutes using PHP</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/>
+        <author>
+            <name>prateek</name>
+            <uri>http://stackoverflow.com/users/1942916</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600540/fetch-data-every-n-minutes-using-php" />
+        <published>2013-03-24T15:48:03Z</published>
+        <updated>2013-03-24T15:57:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How can I fetch number of shares every 5 minutes for specified URL?&lt;/p&gt;
+
+&lt;p&gt;Here is my code for getting number of shares from twitter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function twittershares($url) {
+
+ $s = file_get_contents(&quot;http://urls.api.twitter.com/1/urls/count.json&quot;.
+ &quot;?callback=?&amp;amp;url=&quot;.urlencode($url));
+
+ preg_match(&quot;#(\&quot;count\&quot;):([0-9]*)#&quot;,$s,$ar);
+
+ return isset($ar[2]) ? $ar[2] : 0;
+ }
+
+ echo twittershares(&quot;http://abc1234.com&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600513</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">SQL INNER JOIN tables syntax</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="database"/><category scheme="http://stackoverflow.com/feeds/tags" term="inner-join"/>
+        <author>
+            <name>Staleyr</name>
+            <uri>http://stackoverflow.com/users/1515668</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600513/sql-inner-join-tables-syntax" />
+        <published>2013-03-24T15:45:10Z</published>
+        <updated>2013-03-24T15:57:22Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m try to do a sql query where i have a class id, and with this class id i need to get the user id, of which the user id is then used on another table to get the users information such as first name, and last name.&lt;/p&gt;
+
+&lt;p&gt;This is what my tables look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/SjsXQ.png&quot; alt=&quot;Table Name: class&quot;&gt;
+&lt;strong&gt;Table Name:&lt;/strong&gt; classlist&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/8zKPz.png&quot; alt=&quot;Table Name: student&quot;&gt; 
+&lt;strong&gt;Table Name:&lt;/strong&gt; student&lt;/p&gt;
+
+&lt;p&gt;The relationship between class.UID and student.UID is setup correctly.&lt;/p&gt;
+
+&lt;p&gt;This is what i&#39;ve tried thus far but doesn&#39;t work (i&#39;m new to PHP and SQL):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$result = mysqli_query($con, &quot;SELECT * FROM student INNER JOIN classlist ON student.UID=classlist.UID WHERE classlist.ClassID=&#39;$classID&#39;&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What would be the proper sql syntax for this query?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Additional Notes&lt;/strong&gt;
+ClassID originates from a table called class and UID originates from a table call student, both have their relationships setup.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600512</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">DIV horizontal auto margin with inner span / div</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="div"/>
+        <author>
+            <name>Paul Smith</name>
+            <uri>http://stackoverflow.com/users/2204832</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600512/div-horizontal-auto-margin-with-inner-span-div" />
+        <published>2013-03-24T15:45:07Z</published>
+        <updated>2013-03-24T15:56:18Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;what I&#39;m trying to do is so simple yet my brain refuses to function today!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;outer&quot;&amp;gt;
+    &amp;lt;div class=&quot;inner&quot;&amp;gt;TEXT 1&amp;lt;/div&amp;gt;
+    &amp;lt;div class=&quot;inner&quot;&amp;gt;TEXT 2&amp;lt;/div&amp;gt;
+    &amp;lt;div class=&quot;inner&quot;&amp;gt;TEXT 3&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Should appear visually like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;|---------------------------------------------------|
+|    TEXT 1          TEXT 2            TEXT 3       |
+|---------------------------------------------------|
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where .outer is 100% width and each of the text elements are equally spaced within. ps. I can use spans for the inner elements if this is easier.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600499</id>
+        <re:rank scheme="http://stackoverflow.com">8</re:rank>
+        <title type="text">How to pass parameters correctly?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="c++11"/>
+        <author>
+            <name>Jack Willson</name>
+            <uri>http://stackoverflow.com/users/1993683</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600499/how-to-pass-parameters-correctly" />
+        <published>2013-03-24T15:44:06Z</published>
+        <updated>2013-03-24T15:57:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;As I said in my other questions, I am a C++ beginner but not a programming beginner.
+I&#39;m trying to learn C++(c++11) and it&#39;s kinda unclear for me the most important thing: passing parameters.&lt;/p&gt;
+
+&lt;p&gt;I considered these simple examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A class that has all its members primitive types:&lt;br&gt;
+&lt;code&gt;CreditCard(std::string number, int expMonth, int expYear,int pin):number(number), expMonth(expMonth), expYear(expYear), pin(pin)&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A class that has as members primitive types + 1 complex type:&lt;br&gt;
+&lt;code&gt;Account(std::string number, float amount, CreditCard creditCard) : number(number), amount(amount), creditCard(creditCard)&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A class that has as members primitive types + 1 collection of some complex type:
+&lt;code&gt;Client(std::string firstName, std::string lastName, std::vector&amp;lt;Account&amp;gt; accounts):firstName(firstName), lastName(lastName), accounts(accounts)&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When I create an account, I do this:                                              &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    CreditCard cc(&quot;12345&quot;,2,2015,1001);
+    Account acc(&quot;asdasd&quot;,345, cc);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Obviously the credit card will be copied twice in this scenario.
+If I rewrite that constructor as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Account(std::string number, float amount, CreditCard&amp;amp; creditCard) : number(number), amount(amount), creditCard(creditCard)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;there will be one copy.
+If I rewrite it as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Account(std::string number, float amount, CreditCard&amp;amp;&amp;amp; creditCard) : number(number), amount(amount), creditCard(std::forward&amp;lt;CreditCard&amp;gt;(creditCard))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;there will be 2 moves and no copy.&lt;/p&gt;
+
+&lt;p&gt;I think sometimes you may want to copy some parameter, sometimes you don&#39;t want to copy when you create that object.
+I come from C# and, being used to references, it&#39;s a bit strange to me and I think there should be 2 overloads for each parameter but I know I am wrong. 
+Are there any best practices of how to send parameters in C++ because I really find it, let&#39;s say, not trivial. How would you handle my examples presented above? 
+Thank you guys for reading this. I am looking forward to your replies so I can learn some new stuff.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600396</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">JSON data html parameter</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="json"/>
+        <author>
+            <name>Rafael - Junior MVC Developer</name>
+            <uri>http://stackoverflow.com/users/1757644</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600396/json-data-html-parameter" />
+        <published>2013-03-24T15:35:00Z</published>
+        <updated>2013-03-24T15:56:43Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;why JSON doesn&#39;t work with html text (var text_html = &#39;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;t&amp;gt;&amp;lt;/t&amp;gt;&lt;/code&gt;&#39;; ) but this will be work correct (var text_html = &#39;example&#39;;) &lt;/p&gt;
+
+&lt;p&gt;doesn&#39;t work&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var Streszczenie_controll = JSON.parse(&#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;t&amp;gt;&amp;lt;/t&amp;gt;&#39;); 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Problem:
+    &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    function Save() {
+        var text_html = &#39;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;t&amp;gt;&amp;lt;/t&amp;gt;&#39;; 
+        $.ajax({
+            url: &#39;@Url.Action(&quot;DodajTematSave&quot;, &quot;StronaGlowna&quot;)&#39;,
+            dataType: &quot;json&quot;,
+            data: {
+                My_Text: text_html
+            },
+            type: &quot;POST&quot;,
+            async: false,
+            error: function () {
+            },
+            success: function (data) {
+                if (data.Success) {
+                    alert(&#39;success&#39;);
+                }
+
+            }
+        });
+    }
+&amp;lt;/script&amp;gt;
+
+public JsonResult DodajTematSave(string My_Text)
+        {
+
+            return Json(new { Success = true});
+        }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600372</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Unable to add existing domain user to local machine(connected to domain) C#</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows"/>
+        <author>
+            <name>user1773358</name>
+            <uri>http://stackoverflow.com/users/1773358</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600372/unable-to-add-existing-domain-user-to-local-machineconnected-to-domain-c-sharp" />
+        <published>2013-03-24T15:32:29Z</published>
+        <updated>2013-03-24T15:56:17Z</updated>
+        <summary type="html">
+            
+            &lt;pre&gt;&lt;code&gt;string path = &quot;domain&quot;;
+string username = &quot;username&quot;;
+
+string userPath = string.Format(&quot;WinNT://{0}/{1},user&quot;, path, username);
+string groupPath = string.Format(&quot;WinNT://{0}/{1},group&quot;, Environment.MachineName, &quot;Administrators&quot;);
+using (DirectoryEntry group = new DirectoryEntry(groupPath))
+{
+group.Invoke(&quot;Add&quot;, userPath);
+group.CommitChanges();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When I am trying to add an existing domain user to my computer I am getting &quot;access denied error&quot;, even though I am an Administrator.But I can able to add the same domain users manually(Control Panel&gt;Manage users). what sort of change I need to do in my code? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15600318</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">HipHop not resolving JSON defined constants</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="json"/><category scheme="http://stackoverflow.com/feeds/tags" term="hiphop"/>
+        <author>
+            <name>Tom&#225;s</name>
+            <uri>http://stackoverflow.com/users/1311025</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15600318/hiphop-not-resolving-json-defined-constants" />
+        <published>2013-03-24T15:27:00Z</published>
+        <updated>2013-03-24T15:56:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m doing an application that uses json. For testeability purposes I made a JsonWrapper:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+    class JsonWrapper {
+    private $json_errors;
+
+    public function __construct() {
+        $this-&amp;gt;json_errors = array(
+            JSON_ERROR_DEPTH =&amp;gt; &#39; - Maximum stack depth exceeded&#39;,
+            JSON_ERROR_STATE_MISMATCH =&amp;gt; &#39; - Underflow or the modes mismatch&#39;,
+            JSON_ERROR_CTRL_CHAR =&amp;gt; &#39; - Unexpected control character found&#39;,
+            JSON_ERROR_SYNTAX =&amp;gt; &#39; - Syntax error, malformed JSON&#39;,
+            JSON_ERROR_UTF8 =&amp;gt; &#39; - Malformed UTF-8 characters, possibly incorrectly encoded&#39;
+        );
+    }
+
+    public function decode($json, $toAssoc = false) {
+        $result = json_decode($json, $toAssoc);
+
+        $errorIndex = json_last_error();
+        if (isset($this-&amp;gt;json_errors[$errorIndex])) {
+            throw new RuntimeException(&#39;JSON Error: &#39; . $this-&amp;gt;json_errors[$errorIndex]);
+        }
+
+        return $result;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you see, I map all the json error constants with my own error message.&lt;/p&gt;
+
+&lt;h1&gt;The problem:&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;If I don&#39;t use HipHop this works fine.    &lt;/li&gt;
+&lt;li&gt;If I use HipHop I get this error:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;Use of undefined constant JSON_ERROR_DEPTH - assumed &#39;JSON_ERROR_DEPTH&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried to modify the code commenting all the initialization of &lt;code&gt;$json_errors&lt;/code&gt;, and test if the error was because the associative array is forbidden in HipHop, but it wasn&#39;t that. It kept failing after I put a json constant anywhere on my code.  &lt;/p&gt;
+
+&lt;p&gt;I also did a test if all the php constants were failing. I test with the &#39;XML_ERROR_PARTIAL_CHAR&#39; constant, and It didn&#39;t fail! &lt;/p&gt;
+
+&lt;p&gt;I really don&#39;t know what is happening in here and why HipHop hates JSON so much :( &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15599839</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">can command-t save file lists</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="vim"/>
+        <author>
+            <name>Aylwyn Lake</name>
+            <uri>http://stackoverflow.com/users/1381532</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15599839/can-command-t-save-file-lists" />
+        <published>2013-03-24T14:46:13Z</published>
+        <updated>2013-03-24T15:56:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve just install command-t.
+I came to my project dir, and it&#39;s very large, containing many sub-dirs and files.
+So command-t is slow to scan.&lt;/p&gt;
+
+&lt;p&gt;I wonder: when it finishes files scan, can I save this status?
+So next time i open vim in my project dir, I can just load this saved status.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15598840</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">compile error on boost::iostreams::copy</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="boost"/><category scheme="http://stackoverflow.com/feeds/tags" term="boost-iostreams"/>
+        <author>
+            <name>user957121</name>
+            <uri>http://stackoverflow.com/users/957121</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15598840/compile-error-on-boostiostreamscopy" />
+        <published>2013-03-24T13:07:56Z</published>
+        <updated>2013-03-24T15:56:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to learn boost::iostreams by some examples. Here is one of them which can&#39;t be accepted by gcc:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;boost/iostreams/filter/regex.hpp&amp;gt;
+#include &amp;lt;boost/iostreams/copy.hpp&amp;gt;
+#include &amp;lt;boost/iostreams/filtering_stream.hpp&amp;gt;
+#include &amp;lt;boost/iostreams/device/back_inserter.hpp&amp;gt;
+
+using namespace std;
+
+int main()
+{
+    boost::regex reg(&quot;a.c&quot;);    
+    string str(&quot;abcdef aochijk&quot;);   
+    string result;
+    boost::iostreams::copy(
+                boost::make_iterator_range(str),    
+                boost::iostreams::filtering_ostream(    
+                    boost::iostreams::regex_filter(reg,&quot;test&quot;) |    
+                    boost::iostreams::back_inserter(result))    
+                );
+    cout&amp;lt;&amp;lt;result&amp;lt;&amp;lt;endl; 
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is the errors:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;error:no matching function for call to &#39;copy(boost::iterator_range&amp;lt;__gnu_cxx::__normal_iterator&amp;lt;char*, std::basic_string&amp;lt;char&amp;gt; &amp;gt; &amp;gt;, boost::iostreams::filtering_ostream)&#39;
+
+error:no type named &#39;type&#39; in &#39;struct boost::disable_if&amp;lt;boost::iostreams::is_std_io&amp;lt;boost::iostreams::filtering_stream&amp;lt;boost::iostreams::output&amp;gt; &amp;gt;, void&amp;gt;&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15598686</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">How to use the tr/// operator</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="perl"/><category scheme="http://stackoverflow.com/feeds/tags" term="tr"/>
+        <author>
+            <name>baozailove</name>
+            <uri>http://stackoverflow.com/users/2143065</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15598686/how-to-use-the-tr-operator" />
+        <published>2013-03-24T12:53:29Z</published>
+        <updated>2013-03-24T15:56:42Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;The &lt;code&gt;/c&lt;/code&gt; modifier does something I don&#39;t understand here. I want to know why the following code will print &quot;abc3333&quot;?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/perl
+$x = &#39;abcdefg&#39;;
+$x =~ tr/abc/123/c;
+print $x;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15598403</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">RoR, destroy the object my clicking ob the button</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/>
+        <author>
+            <name>Katja</name>
+            <uri>http://stackoverflow.com/users/574591</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15598403/ror-destroy-the-object-my-clicking-ob-the-button" />
+        <published>2013-03-24T12:24:04Z</published>
+        <updated>2013-03-24T15:56:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have following structure:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;% if @uploads%&amp;gt;
+&amp;lt;br class=&quot;clear&quot; /&amp;gt;
+&amp;lt;br /&amp;gt;
+
+&amp;lt;% @uploads.each do |file| %&amp;gt;
+
+
+
+    &amp;lt;div class=&quot;file_information&quot;&amp;gt; 
+
+      &amp;lt;p&amp;gt;&amp;lt;%= file.file_name %&amp;gt;&amp;lt;/p&amp;gt;
+
+
+
+      &amp;lt;td class=&quot;Chip_info&quot;&amp;gt;
+      &amp;lt;a href=&quot;&amp;lt;%=file.info%&amp;gt;&quot; class= &quot;btn btn-mini btn-info&quot;&amp;gt;Info&amp;lt;/a&amp;gt;    
+      &amp;lt;/td&amp;gt;
+
+      &amp;lt;td class=&quot;Pic&quot;&amp;gt;
+      &amp;lt;a href=&quot;&amp;lt;%=file.image%&amp;gt;&quot; class= &quot;btn btn-mini btn-info&quot;&amp;gt;Pic&amp;lt;/a&amp;gt;    
+      &amp;lt;/td&amp;gt;
+
+      &amp;lt;td class=&quot;Hist&quot;&amp;gt;
+      &amp;lt;a href=&quot;&amp;lt;%=file.hist%&amp;gt;&quot; class= &quot;btn btn-mini btn-info&quot;&amp;gt;Hist&amp;lt;/a&amp;gt;    
+      &amp;lt;/td&amp;gt;
+
+      &amp;lt;td class=&quot;Hist2&quot;&amp;gt;
+      &amp;lt;a href=&quot;&amp;lt;%=file.hist2%&amp;gt;&quot; class= &quot;btn btn-mini btn-info&quot;&amp;gt;His2&amp;lt;/a&amp;gt;    
+      &amp;lt;/td&amp;gt;
+
+
+        &amp;lt;td class=&quot;delete&quot;&amp;gt;
+        &amp;lt;button class=&quot;btn btn-mini btn-danger&quot;  data-url=&quot;&amp;lt;%=file.destroy%&amp;gt;&quot;&amp;gt; 
+          &amp;lt;i class=&quot;icon-trash icon-white&quot;&amp;gt;&amp;lt;/i&amp;gt;
+
+        &amp;lt;/button&amp;gt;
+
+      &amp;lt;/td&amp;gt; 
+
+
+
+    &amp;lt;/div&amp;gt;
+  &amp;lt;%end%&amp;gt;
+&amp;lt;%else%&amp;gt;
+
+&amp;lt;br class=&quot;clear&quot; /&amp;gt;
+&amp;lt;br /&amp;gt;
+&amp;lt;%end%&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The problem is that while running it, it destroys all objects automatically without me clicking on the button. Is it possible somehow to list uploads and only by clicking on the button, the corresponding upload will be deleted (destroy action will be called) and not all of uploads?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;edit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I use this &lt;a href=&quot;https://github.com/tors/jquery-fileupload-rails-paperclip-example&quot; rel=&quot;nofollow&quot;&gt;example for file upload&lt;/a&gt;
+He uses followint to delete the file:&lt;/p&gt;
+
+&lt;p&gt;model:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;delete_url&quot; =&amp;gt; upload_path(self)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;view:    &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;td class=&quot;delete&quot;&amp;gt;
+        &amp;lt;button class=&quot;btn btn-danger&quot;  data-url=&quot;{%=file.delete_url%}&quot;&amp;gt;
+          &amp;lt;i class=&quot;icon-trash icon-white&quot;&amp;gt;&amp;lt;/i&amp;gt;
+
+        &amp;lt;input type=&quot;checkbox&quot; name=&quot;delete&quot; value=&quot;1&quot;&amp;gt;
+      &amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So I tried &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;data-url=&quot;&amp;lt;%=file.upload_path(self)%&amp;gt;&quot;&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but it doesnt work&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15595726</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">ActionBar overlay with GridView padding to show entire first image?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="gridview"/><category scheme="http://stackoverflow.com/feeds/tags" term="android-actionbar"/><category scheme="http://stackoverflow.com/feeds/tags" term="padding"/>
+        <author>
+            <name>wufufufu</name>
+            <uri>http://stackoverflow.com/users/775447</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15595726/actionbar-overlay-with-gridview-padding-to-show-entire-first-image" />
+        <published>2013-03-24T06:09:12Z</published>
+        <updated>2013-03-24T15:56:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have an activity with a GridView inside it. The ActionBar is set to overlay mode.&lt;/p&gt;
+
+&lt;p&gt;Right now, you can only see half of the first image because the ActionBar cuts it in half.&lt;/p&gt;
+
+&lt;p&gt;How do I add padding to the interior of the GridView so that it initializes in such a way that you can see the entire first image?&lt;/p&gt;
+
+&lt;p&gt;edit: I&#39;m hiding the ActionBar whenever the user scrolls down at a certain rate or past a certain level.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15587524</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Is there a more efficient way to populate a dropdown than a loop?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="performance"/><category scheme="http://stackoverflow.com/feeds/tags" term="knockout.js"/>
+        <author>
+            <name>James Fleming</name>
+            <uri>http://stackoverflow.com/users/56502</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15587524/is-there-a-more-efficient-way-to-populate-a-dropdown-than-a-loop" />
+        <published>2013-03-23T13:49:46Z</published>
+        <updated>2013-03-24T15:56:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve been improving page performance, but when it comes to loading the various dropdowns I am losing too much time. is there a quicker way to populate the controls than this?&lt;/p&gt;
+
+&lt;p&gt;my.service.data.controls is an in-memory collection of collections of json data from an ajax call for the various controls in key/value pairs (Id, Name), Days, Years, Salutations, etc           &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$.each(my.service.data.controls.Days, function (i, p) {
+     days.push(new my.models.dropdown(selectedItem)
+     .Id(p.Id)
+     .Name(p.Id));
+});
+
+// for creating Position Models
+my.models.dropdown = function (selectedItem) {
+    var self = this;
+    self.Id = ko.observable();
+    self.Name = ko.observable();
+    // non-persitable properties
+    self.isSelected = ko.computed(function () {
+        return selectedItem() === self;
+    });
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15584774</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Mysql compare 2 values to 2 columns from vb6 to database using stored procedure</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="database"/><category scheme="http://stackoverflow.com/feeds/tags" term="vb6"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-insert"/>
+        <author>
+            <name>scarface23</name>
+            <uri>http://stackoverflow.com/users/2062096</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15584774/mysql-compare-2-values-to-2-columns-from-vb6-to-database-using-stored-procedure" />
+        <published>2013-03-23T08:20:50Z</published>
+        <updated>2013-03-24T15:56:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a &lt;code&gt;products&lt;/code&gt; table in my database with columns/fields:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ProductID&lt;/li&gt;
+&lt;li&gt;Productname&lt;/li&gt;
+&lt;li&gt;description&lt;/li&gt;
+&lt;li&gt;supplier&lt;/li&gt;
+&lt;li&gt;purchasedate&lt;/li&gt;
+&lt;li&gt;Quantity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, what I want to achieve is this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Every time I want to add new values in my &lt;code&gt;products&lt;/code&gt; table, the &quot;productname&quot; and &quot;supplier&quot; values of new input will compare all the values existing in &lt;code&gt;products&lt;/code&gt; table.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Scenarios:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If NEW productname and supplier values are already existing in &lt;code&gt;products&lt;/code&gt; table, the quantity of new value will add to the quantity of existing values&lt;/li&gt;
+&lt;li&gt;ELSE if it is not existing, then add the NEW values to the &lt;code&gt;products&lt;/code&gt; table.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Heres the tried code but it&#39;s not working:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Delimiter //
+CREATE PROCEDURE `wew`(pid int,pname varchar(50),pdesc varchar(50),psupp varchar(50),pdate date,pquant int)
+begin
+declare lloyd char default null;
+select productname from products where productname=pname LIMIT 1 into lloyd for update;
+if(lloyd) then
+update products set quantityleft=quantityleft+pquant where productname=pname;
+else
+insert into products (productid,productname,proddescription,supplier,lastpurchasedate,quantityleft) values(pid,pname,pdesc,psupp,pdate,pquant);
+end if;
+end;
+//
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Can you help with this one? Really confused with this.&lt;/p&gt;
+
+&lt;p&gt;DESC PRODUCT:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SQL result
+
+Host: localhost
+Database: prodpurchase
+Generation Time: Mar 24, 2013 at 03:52 PM
+Generated by: phpMyAdmin 3.2.4 / MySQL 5.1.41
+SQL query: Desc Products; 
+Rows: 7
+
+Field             Type            Null      Key      Default    Extra
+ProdID            int(5)          NO        PRI       NULL  auto_increment
+ProdName          varchar(50)      NO       UNI       NULL   
+ProdSupplier      varchar(250)     NO       UNI       NULL   
+ProdDescription   varchar(250)     NO        NULL    
+ProdDate          date             NO        NULL    
+ProdPrice         double            NO       0   
+ProdQuantity      int(50)        NO      NULL    
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15575952</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">a concise recipe for installing, configuring and running minitest under autotest</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby"/><category scheme="http://stackoverflow.com/feeds/tags" term="spork"/><category scheme="http://stackoverflow.com/feeds/tags" term="minitest"/><category scheme="http://stackoverflow.com/feeds/tags" term="autotest"/><category scheme="http://stackoverflow.com/feeds/tags" term="growl"/>
+        <author>
+            <name>fearless_fool</name>
+            <uri>http://stackoverflow.com/users/558639</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15575952/a-concise-recipe-for-installing-configuring-and-running-minitest-under-autotest" />
+        <published>2013-03-22T16:59:01Z</published>
+        <updated>2013-03-24T15:57:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In the past, I&#39;ve run Rails + RSpec + autotest.  Now I&#39;ve upgraded to ruby 2.0 and I want to use minitest in a non-Rails environment (I&#39;m using Padrino / DataMapper).  I&#39;m certain I&#39;m not alone in wanting this.&lt;/p&gt;
+
+&lt;p&gt;What would be &lt;strong&gt;really&lt;/strong&gt; useful is a concise recipe for installing and configuring things so the simple command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ autotest
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will start testing everything under /test.  I have searched SO and the InterWebs, and have yet to find such a recipe.  A recipe should include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;what gems should you include in your Gemfile?&lt;/li&gt;
+&lt;li&gt;what commands do you run to set up the environment?&lt;/li&gt;
+&lt;li&gt;what configuration and support files do you need to create (Rakefile?  .autotest?  etc...)&lt;/li&gt;
+&lt;li&gt;a means for test files to &lt;code&gt;require &#39;test_helper&#39;&lt;/code&gt; to take care of repetitive functions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Extra credit for showing how to configure growl and spork for the full-on XP experience!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15571145</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Change value of variable that&#39;s already set</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="variables"/>
+        <author>
+            <name>Bram Vanroy</name>
+            <uri>http://stackoverflow.com/users/1150683</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15571145/change-value-of-variable-thats-already-set" />
+        <published>2013-03-22T13:08:29Z</published>
+        <updated>2013-03-24T15:56:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;This might really be a very basic question, but I&#39;ve already tried a couple of things and it doesn&#39;t seem to work.&lt;/p&gt;
+
+&lt;p&gt;I have this var:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;w = $(&quot;#el&quot;).width();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I want to change &lt;code&gt;#el&lt;/code&gt;&#39;s width &lt;strong&gt;via the var&lt;/strong&gt;. So setting the width, by using the var &lt;code&gt;w&lt;/code&gt; without re-using the whole &lt;code&gt;$(&quot;#el&quot;).width()&lt;/code&gt;. How do I do that? I already tried the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;w = 50;
+w == 50;
+w = &quot;50px&quot;;
+w == &quot;50px&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But these don&#39;t seem to work.&lt;/p&gt;
+
+&lt;p&gt;So I want to use &lt;code&gt;w&lt;/code&gt; in a function to set &lt;code&gt;#el&lt;/code&gt;&#39;s width. So I don&#39;t want to use &lt;code&gt;$(&quot;#el&quot;).width()&lt;/code&gt; because I am going to use it a lot. I need to use that var.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

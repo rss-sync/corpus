@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-23T12:33:36-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c8c1f16717b05a9f787e054ada1ddd6dbb910364</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c8c1f16717b05a9f787e054ada1ddd6dbb910364"/>
+    <title>
+        Merge tag &#39;upstream-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jgarzik/libata-dev
+    </title>
+    <updated>2013-03-23T12:33:36-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/ata/Kconfig
+m drivers/ata/ahci.c
+m drivers/ata/ata_piix.c
+m drivers/ata/libata-acpi.c
+m drivers/ata/pata_samsung_cf.c
+m drivers/ata/sata_fsl.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;upstream-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jgarzik/libata-dev
+
+Pull libata updates from Jeff Garzik:
+ &quot;Simple stuff.  See one-line summaries.&quot;
+
+* tag &#39;upstream-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jgarzik/libata-dev:
+  pata_samsung_cf: use module_platform_driver_probe()
+  [libata] Avoid specialized TLA&#39;s in ZPODD&#39;s Kconfig
+  libata-acpi.c: fix copy and paste mistake in ata_acpi_register_power_resource
+  sata_fsl: Remove redundant NULL check before kfree
+  ahci: Add Device IDs for Intel Wellsburg PCH
+  ata_piix: Add MODULE_PARM_DESC to prefer_ms_hyperv&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/df2a8f39cdecdf59be797b9c86b26f90b37321e7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/df2a8f39cdecdf59be797b9c86b26f90b37321e7"/>
+    <title>
+        Merge branch &#39;i2c/for-current&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+    </title>
+    <updated>2013-03-23T12:32:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Documentation/i2c/busses/i2c-diolan-u2c
+m MAINTAINERS
+m drivers/i2c/busses/i2c-ismt.c
+m drivers/i2c/busses/i2c-tegra.c
+m drivers/i2c/muxes/i2c-mux-pca9541.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;i2c/for-current&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+
+Pull i2c fixes from Wolfram Sang:
+ &quot;One bugfix for the tegra driver.  Two updates regarding email
+  addresses and MAINTAINERS which I like to have up-to-date so people
+  can be reached immediately.  While we are here, there is on PCI_ID
+  addition.&quot;
+
+* &#39;i2c/for-current&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux:
+  MAINTAINERS: add maintainer entry for atmel i2c driver
+  i2c: Fix my e-mail address in drivers and documentation
+  i2c: iSMT: add Intel Avoton DeviceIDs
+  i2c: tegra: check the clk_prepare_enable() return value&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a4e71e7937461730998cef56cc924fe731b4d345</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a4e71e7937461730998cef56cc924fe731b4d345"/>
+    <title>
+        Merge git://www.linux-watchdog.org/linux-watchdog
+    </title>
+    <updated>2013-03-23T12:30:39-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/watchdog/sp5100_tco.c
+m drivers/watchdog/sp5100_tco.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://www.linux-watchdog.org/linux-watchdog
+
+Pull watchdog fixes from Wim Van Sebroeck:
+ &quot;Fix a boot issues and correct the AcpiMmioSel bitmask in the
+  sp5100_tco watchdog device driver&quot;
+
+* git://www.linux-watchdog.org/linux-watchdog:
+  watchdog: sp5100_tco: Set the AcpiMmioSel bitmask value to 1 instead of 2
+  watchdog: sp5100_tco: Remove code that may cause a boot failure&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c19b3b0f6eed552952845e4ad908dba2113d67b4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c19b3b0f6eed552952845e4ad908dba2113d67b4"/>
+    <title>
+        KMS: fix EDID detailed timing frame rate
+    </title>
+    <updated>2013-03-23T10:46:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/35aa6ccda1bc53ae8fa9043e7e943a29?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>torsten@lst.de</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/drm_edid.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>KMS: fix EDID detailed timing frame rate
+
+When KMS has parsed an EDID &quot;detailed timing&quot;, it leaves the frame rate
+zeroed.  Consecutive (debug-) output of that mode thus yields 0 for
+vsync.  This simple fix also speeds up future invocations of
+drm_mode_vrefresh().
+
+While it is debatable whether this qualifies as a -stable fix I&#39;d apply
+it for consistency&#39;s sake; drm_helper_probe_single_connector_modes()
+does the same thing already for all probed modes.
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Torsten Duwe &lt;duwe@lst.de&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/16dad1d743d31a104a849c8944e6b9eb479f6cd7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/16dad1d743d31a104a849c8944e6b9eb479f6cd7"/>
+    <title>
+        KMS: fix EDID detailed timing vsync parsing
+    </title>
+    <updated>2013-03-23T10:46:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/35aa6ccda1bc53ae8fa9043e7e943a29?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>torsten@lst.de</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/drm_edid.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>KMS: fix EDID detailed timing vsync parsing
+
+EDID spreads some values across multiple bytes; bit-fiddling is needed
+to retrieve these.  The current code to parse &quot;detailed timings&quot; has a
+cut&amp;paste error that results in a vsync offset of at most 15 lines
+instead of 63.
+
+See
+
+   http://en.wikipedia.org/wiki/EDID
+
+and in the &quot;EDID Detailed Timing Descriptor&quot; see bytes 10+11 show why
+that needs to be a left shift.
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Torsten Duwe &lt;duwe@lst.de&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5da273fe3fd137c6ae4acf74b7449500f5e4dc09</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5da273fe3fd137c6ae4acf74b7449500f5e4dc09"/>
+    <title>
+        Merge git://git.infradead.org/users/willy/linux-nvme
+    </title>
+    <updated>2013-03-22T16:43:53-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+m drivers/block/nvme.c
+m include/linux/nvme.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.infradead.org/users/willy/linux-nvme
+
+Pull NVMe driver update from Matthew Wilcox:
+ &quot;These patches have mostly been baking for a few months; sorry I didn&#39;t
+  get them in during the merge window.  They&#39;re all bug fixes, except
+  for the addition of the SMART log and the addition to MAINTAINERS.&quot;
+
+* git://git.infradead.org/users/willy/linux-nvme:
+  NVMe: Add namespaces with no LBA range feature
+  MAINTAINERS: Add entry for the NVMe driver
+  NVMe: Initialize iod nents to 0
+  NVMe: Define SMART log
+  NVMe: Add result to nvme_get_features
+  NVMe: Set result from user admin command
+  NVMe: End queued bio requests when freeing queue
+  NVMe: Free cmdid on nvme_submit_bio error&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/14629ed31467741d12f342c95621900646173519</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/14629ed31467741d12f342c95621900646173519"/>
+    <title>
+        Merge branch &#39;akpm&#39; (fixes from Andrew)
+    </title>
+    <updated>2013-03-22T16:41:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/rtc/rtc-at91rm9200.c
+m drivers/rtc/rtc-at91rm9200.h
+m drivers/rtc/rtc-da9052.c
+m drivers/video/ep93xx-fb.c
+m include/linux/irq_work.h
+m include/linux/kernel.h
+m include/linux/mmzone.h
+m include/linux/printk.h
+m ipc/mqueue.c
+m kernel/printk.c
+m kernel/sys.c
+m lib/bust_spinlocks.c
+m lib/dma-debug.c
+m mm/hugetlb.c
+m mm/memory_hotplug.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;akpm&#39; (fixes from Andrew)
+
+Merge misc fixes from Andrew Morton.
+
+* emailed patches from Andrew Morton &lt;akpm@linux-foundation.org&gt;:
+  mqueue: sys_mq_open: do not call mnt_drop_write() if read-only
+  mm/hotplug: only free wait_table if it&#39;s allocated by vmalloc
+  dma-debug: update DMA debug API to better handle multiple mappings of a buffer
+  dma-debug: fix locking bug in check_unmap()
+  drivers/rtc/rtc-at91rm9200.c: use a variable for storing IMR
+  drivers/video/ep93xx-fb.c: include &lt;linux/io.h&gt; for devm_ioremap()
+  drivers/rtc/rtc-da9052.c: fix for rtc device registration
+  mm: zone_end_pfn is too small
+  poweroff: change orderly_poweroff() to use schedule_work()
+  mm/hugetlb: fix total hugetlbfs pages count when using memory overcommit accouting
+  printk: Provide a wake_up_klogd() off-case
+  irq_work.h: fix warning when CONFIG_IRQ_WORK=n&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/38d78e587d4960d0db94add518d27ee74bad2301</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/38d78e587d4960d0db94add518d27ee74bad2301"/>
+    <title>
+        mqueue: sys_mq_open: do not call mnt_drop_write() if read-only
+    </title>
+    <updated>2013-03-22T16:41:21-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/665ad35243f663b932ceafebf74259ee?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>vdavydov@parallels.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m ipc/mqueue.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>mqueue: sys_mq_open: do not call mnt_drop_write() if read-only
+
+mnt_drop_write() must be called only if mnt_want_write() succeeded,
+otherwise the mnt_writers counter will diverge.
+
+mnt_writers counters are used to check if remounting FS as read-only is
+OK, so after an extra mnt_drop_write() call, it would be impossible to
+remount mqueue FS as read-only.  Besides, on umount a warning would be
+printed like this one:
+
+  =====================================
+  [ BUG: bad unlock balance detected! ]
+  3.9.0-rc3 #5 Not tainted
+  -------------------------------------
+  a.out/12486 is trying to release lock (sb_writers) at:
+  mnt_drop_write+0x1f/0x30
+  but there are no more locks to release!
+
+Signed-off-by: Vladimir Davydov &lt;vdavydov@parallels.com&gt;
+Cc: Doug Ledford &lt;dledford@redhat.com&gt;
+Cc: KOSAKI Motohiro &lt;kosaki.motohiro@jp.fujitsu.com&gt;
+Cc: &quot;Eric W. Biederman&quot; &lt;ebiederm@xmission.com&gt;
+Cc: Al Viro &lt;viro@zeniv.linux.org.uk&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ca4b3f302c90de5e516296e581c31c80125cd24b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ca4b3f302c90de5e516296e581c31c80125cd24b"/>
+    <title>
+        mm/hotplug: only free wait_table if it&#39;s allocated by vmalloc
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/012a3eca1603a7f217347dad0abaf3fa?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>wujianguo@huawei.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m mm/memory_hotplug.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>mm/hotplug: only free wait_table if it&#39;s allocated by vmalloc
+
+zone-&gt;wait_table may be allocated from bootmem, it can not be freed.
+
+Signed-off-by: Jianguo Wu &lt;wujianguo@huawei.com&gt;
+Reviewed-by: Tang Chen &lt;tangchen@cn.fujitsu.com&gt;
+Cc: Tang Chen &lt;tangchen@cn.fujitsu.com&gt;
+Cc: Jiang Liu &lt;jiang.liu@huawei.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/96e7d7a1e0fc7780b4c1981c787e42473aa91a95</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/96e7d7a1e0fc7780b4c1981c787e42473aa91a95"/>
+    <title>
+        dma-debug: update DMA debug API to better handle multiple mappings of a buffer
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/7ed349d4eea10b40951614eb1c3cb895?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>alexander.h.duyck@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m lib/dma-debug.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dma-debug: update DMA debug API to better handle multiple mappings of a buffer
+
+There were reports of the igb driver unmapping buffers without calling
+dma_mapping_error.  On closer inspection issues were found in the DMA
+debug API and how it handled multiple mappings of the same buffer.
+
+The issue I found is the fact that the debug_dma_mapping_error would
+only set the map_err_type to MAP_ERR_CHECKED in the case that the was
+only one match for device and device address.  However in the case of
+non-IOMMU, multiple addresses existed and as a result it was not setting
+this field once a second mapping was instantiated.  I have resolved this
+by changing the search so that it instead will now set MAP_ERR_CHECKED
+on the first buffer that matches the device and DMA address that is
+currently in the state MAP_ERR_NOT_CHECKED.
+
+A secondary side effect of this patch is that in the case of multiple
+buffers using the same address only the last mapping will have a valid
+map_err_type.  The previous mappings will all end up with map_err_type
+set to MAP_ERR_CHECKED because of the dma_mapping_error call in
+debug_dma_map_page.  However this behavior may be preferable as it means
+you will likely only see one real error per multi-mapped buffer, versus
+the current behavior of multiple false errors mer multi-mapped buffer.
+
+Signed-off-by: Alexander Duyck &lt;alexander.h.duyck@intel.com&gt;
+Cc: Joerg Roedel &lt;joro@8bytes.org&gt;
+Reviewed-by: Shuah Khan &lt;shuah.khan@hp.com&gt;
+Tested-by: Shuah Khan &lt;shuah.khan@hp.com&gt;
+Cc: Jakub Kicinski &lt;kubakici@wp.pl&gt;
+Cc: Konrad Rzeszutek Wilk &lt;konrad.wilk@oracle.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8d640a51ec9e9cdefa680b67ad55f933eefc5923</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/8d640a51ec9e9cdefa680b67ad55f933eefc5923"/>
+    <title>
+        dma-debug: fix locking bug in check_unmap()
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/7ed349d4eea10b40951614eb1c3cb895?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>alexander.h.duyck@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m lib/dma-debug.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dma-debug: fix locking bug in check_unmap()
+
+In check_unmap() it is possible to get into a dead-locked state if
+dma_mapping_error is called.  The problem is that the bucket is locked in
+check_unmap, and locked again by debug_dma_mapping_error which is called
+by dma_mapping_error.  To resolve that we must release the lock on the
+bucket before making the call to dma_mapping_error.
+
+[akpm@linux-foundation.org: restore 80-col trickery to be consistent with the rest of the file]
+Signed-off-by: Alexander Duyck &lt;alexander.h.duyck@intel.com&gt;
+Cc: Joerg Roedel &lt;joro@8bytes.org&gt;
+Reviewed-by: Shuah Khan &lt;shuah.khan@hp.com&gt;
+Tested-by: Shuah Khan &lt;shuah.khan@hp.com&gt;
+Cc: Jakub Kicinski &lt;kubakici@wp.pl&gt;
+Cc: Konrad Rzeszutek Wilk &lt;konrad.wilk@oracle.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0ef1594c017521ea89278e80fe3f80dafb17abde</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/0ef1594c017521ea89278e80fe3f80dafb17abde"/>
+    <title>
+        drivers/rtc/rtc-at91rm9200.c: use a variable for storing IMR
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/e0e9f626c149bd6d05ef3609d4df8fb9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>nicolas.ferre@atmel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/rtc/rtc-at91rm9200.c
+m drivers/rtc/rtc-at91rm9200.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>drivers/rtc/rtc-at91rm9200.c: use a variable for storing IMR
+
+On some revisions of AT91 SoCs, the RTC IMR register is not working.
+Instead of elaborating a workaround for that specific SoC or IP version,
+we simply use a software variable to store the Interrupt Mask Register
+and modify it for each enabling/disabling of an interrupt.  The overhead
+of this is negligible anyway.
+
+The interrupt mask register (IMR) for the RTC is broken on the AT91SAM9x5
+sub-family of SoCs (good overview of the members here:
+http://www.eewiki.net/display/linuxonarm/AT91SAM9x5 ).  The &quot;user visible
+effect&quot; is the RTC doesn&#39;t work.
+
+That sub-family is less than two years old and only has devicetree (DT)
+support and came online circa lk 3.7 .  The dust is yet to settle on the
+DT stuff at least for AT91 SoCs (translation: lots of stuff is still
+broken, so much that it is hard to know where to start).
+
+The fix in the patch is pretty simple: just shadow the silicon IMR
+register with a variable in the driver.  Some older SoCs (pre-DT) use the
+the rtc-at91rm9200 driver (e.g.  obviously the AT91RM9200) and they should
+not be impacted by the change.  There shouldn&#39;t be a large volume of
+interrupts associated with a RTC.
+
+Signed-off-by: Nicolas Ferre &lt;nicolas.ferre@atmel.com&gt;
+Reported-by: Douglas Gilbert &lt;dgilbert@interlog.com&gt;
+Cc: Jean-Christophe PLAGNIOL-VILLARD &lt;plagnioj@jcrosoft.com&gt;
+Cc: Ludovic Desroches &lt;ludovic.desroches@atmel.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e66b05873a7a76afc569da6382509471cba8d5ff</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e66b05873a7a76afc569da6382509471cba8d5ff"/>
+    <title>
+        drivers/video/ep93xx-fb.c: include &lt;linux/io.h&gt; for devm_ioremap()
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8ee6e94bd9be12c1bd0a37e68f61a6db?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>hartleys@visionengravers.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/video/ep93xx-fb.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>drivers/video/ep93xx-fb.c: include &lt;linux/io.h&gt; for devm_ioremap()
+
+Commit be8678149701 (&quot;drivers/video/ep93xx-fb.c: use devm_ functions&quot;)
+introduced a build error:
+
+  drivers/video/ep93xx-fb.c: In function &#39;ep93xxfb_probe&#39;:
+  drivers/video/ep93xx-fb.c:532: error: implicit declaration of function &#39;devm_ioremap&#39;
+  drivers/video/ep93xx-fb.c:533: warning: assignment makes pointer from integer without a cast
+
+Include &lt;linux/io.h&gt; to pickup the declaration of &#39;devm_ioremap&#39;.
+
+Signed-off-by: H Hartley Sweeten &lt;hsweeten@visionengravers.com&gt;
+Cc: Florian Tobias Schandinat &lt;FlorianSchandinat@gmx.de&gt;
+Acked-by: Ryan Mallon &lt;rmallon@gmail.com&gt;
+Cc: Damien Cassou &lt;damien.cassou@lifl.fr&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/925e8ea6bca2c9a590565634b27768d7042e089f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/925e8ea6bca2c9a590565634b27768d7042e089f"/>
+    <title>
+        drivers/rtc/rtc-da9052.c: fix for rtc device registration
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8429f33af10c165a6bdaafe01c94abb7?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>ashish.jangam@kpitcummins.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/rtc/rtc-da9052.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>drivers/rtc/rtc-da9052.c: fix for rtc device registration
+
+Add support for the virtual irq since now MFD only handles virtual irq
+Without this patch rtc device will fail in registration.
+
+(akpm: Ashish has a different version whcih will be needed for 3.8.x and
+earlier kernels)
+
+Signed-off-by: Ashish &lt;ashish.jangam@kpitcummins.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f9228b204f789493117e458d2fefae937edb7272</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f9228b204f789493117e458d2fefae937edb7272"/>
+    <title>
+        mm: zone_end_pfn is too small
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/623732cf5f611c013919d87a04c43b2d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rja@sgi.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/mmzone.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>mm: zone_end_pfn is too small
+
+Booting with 32 TBytes memory hits BUG at mm/page_alloc.c:552! (output
+below).
+
+The key hint is &quot;page 4294967296 outside zone&quot;.
+4294967296 = 0x100000000 (bit 32 is set).
+
+The problem is in include/linux/mmzone.h:
+
+  530 static inline unsigned zone_end_pfn(const struct zone *zone)
+  531 {
+  532         return zone-&gt;zone_start_pfn + zone-&gt;spanned_pages;
+  533 }
+
+zone_end_pfn is &quot;unsigned&quot; (32 bits).  Changing it to &quot;unsigned long&quot;
+(64 bits) fixes the problem.
+
+zone_end_pfn() was added recently in commit 108bcc96ef70 (&quot;mm: add &amp; use
+zone_end_pfn() and zone_spans_pfn()&quot;)
+
+Output from the failure.
+
+  No AGP bridge found
+  page 4294967296 outside zone [ 4294967296 - 4327469056 ]
+  ------------[ cut here ]------------
+  kernel BUG at mm/page_alloc.c:552!
+  invalid opcode: 0000 [#1] SMP
+  Modules linked in:
+  CPU 0
+  Pid: 0, comm: swapper Not tainted 3.9.0-rc2.dtp+ #10
+  RIP: free_one_page+0x382/0x430
+  Process swapper (pid: 0, threadinfo ffffffff81942000, task ffffffff81955420)
+  Call Trace:
+    __free_pages_ok+0x96/0xb0
+    __free_pages+0x25/0x50
+    __free_pages_bootmem+0x8a/0x8c
+    __free_memory_core+0xea/0x131
+    free_low_memory_core_early+0x4a/0x98
+    free_all_bootmem+0x45/0x47
+    mem_init+0x7b/0x14c
+    start_kernel+0x216/0x433
+    x86_64_start_reservations+0x2a/0x2c
+    x86_64_start_kernel+0x144/0x153
+  Code: 89 f1 ba 01 00 00 00 31 f6 d3 e2 4c 89 ef e8 66 a4 01 00 e9 2c fe ff ff 0f 0b eb fe 0f 0b 66 66 2e 0f 1f 84 00 00 00 00 00 eb f3 &lt;0f&gt; 0b eb fe 0f 0b 0f 1f 84 00 00 00 00 00 eb f6 0f 0b eb fe 49
+
+Signed-off-by: Russ Anderson &lt;rja@sgi.com&gt;
+Reported-by: George Beshers &lt;gbeshers@sgi.com&gt;
+Acked-by: Hedi Berriche &lt;hedi@sgi.com&gt;
+Cc: Cody P Schafer &lt;cody@linux.vnet.ibm.com&gt;
+Cc: Michal Hocko &lt;mhocko@suse.cz&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2ca067efd82939dfd87827d29d36a265823a4c2f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/2ca067efd82939dfd87827d29d36a265823a4c2f"/>
+    <title>
+        poweroff: change orderly_poweroff() to use schedule_work()
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/215fb523d4d201924db9aacd4532d52a?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>utrace</name>
+      <uri>https://github.com/utrace</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m kernel/sys.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>poweroff: change orderly_poweroff() to use schedule_work()
+
+David said:
+
+    Commit 6c0c0d4d1080 (&quot;poweroff: fix bug in orderly_poweroff()&quot;)
+    apparently fixes one bug in orderly_poweroff(), but introduces
+    another.  The comments on orderly_poweroff() claim it can be called
+    from any context - and indeed we call it from interrupt context in
+    arch/powerpc/platforms/pseries/ras.c for example.  But since that
+    commit this is no longer safe, since call_usermodehelper_fns() is not
+    safe in interrupt context without the UMH_NO_WAIT option.
+
+orderly_poweroff() can be used from any context but UMH_WAIT_EXEC is
+sleepable.  Move the &quot;force&quot; logic into __orderly_poweroff() and change
+orderly_poweroff() to use the global poweroff_work which simply calls
+__orderly_poweroff().
+
+While at it, remove the unneeded &quot;int argc&quot; and change argv_split() to
+use GFP_KERNEL.
+
+We use the global &quot;bool poweroff_force&quot; to pass the argument, this can
+obviously affect the previous request if it is pending/running.  So we
+only allow the &quot;false =&gt; true&quot; transition assuming that the pending
+&quot;true&quot; should succeed anyway.  If schedule_work() fails after that we
+know that work-&gt;func() was not called yet, it must see the new value.
+
+This means that orderly_poweroff() becomes async even if we do not run
+the command and always succeeds, schedule_work() can only fail if the
+work is already pending.  We can export __orderly_poweroff() and change
+the non-atomic callers which want the old semantics.
+
+Signed-off-by: Oleg Nesterov &lt;oleg@redhat.com&gt;
+Reported-by: Benjamin Herrenschmidt &lt;benh@kernel.crashing.org&gt;
+Reported-by: David Gibson &lt;david@gibson.dropbear.id.au&gt;
+Cc: Lucas De Marchi &lt;lucas.demarchi@profusion.mobi&gt;
+Cc: Feng Hong &lt;hongfeng@marvell.com&gt;
+Cc: Kees Cook &lt;keescook@chromium.org&gt;
+Cc: Serge Hallyn &lt;serge.hallyn@canonical.com&gt;
+Cc: &quot;Eric W. Biederman&quot; &lt;ebiederm@xmission.com&gt;
+Cc: &quot;Rafael J. Wysocki&quot; &lt;rjw@sisk.pl&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d00285884c0892bb1310df96bce6056e9ce9b9d9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d00285884c0892bb1310df96bce6056e9ce9b9d9"/>
+    <title>
+        mm/hugetlb: fix total hugetlbfs pages count when using memory overcommit accouting
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4e21b6c66f84dd0f75c24e8c5eafe5a6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>liwanp@linux.vnet.ibm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m mm/hugetlb.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>mm/hugetlb: fix total hugetlbfs pages count when using memory overcommit accouting
+
+hugetlb_total_pages is used for overcommit calculations but the current
+implementation considers only the default hugetlb page size (which is
+either the first defined hugepage size or the one specified by
+default_hugepagesz kernel boot parameter).
+
+If the system is configured for more than one hugepage size, which is
+possible since commit a137e1cc6d6e (&quot;hugetlbfs: per mount huge page
+sizes&quot;) then the overcommit estimation done by __vm_enough_memory()
+(resp.  shown by meminfo_proc_show) is not precise - there is an
+impression of more available/allowed memory.  This can lead to an
+unexpected ENOMEM/EFAULT resp.  SIGSEGV when memory is accounted.
+
+Testcase:
+  boot: hugepagesz=1G hugepages=1
+  the default overcommit ratio is 50
+  before patch:
+
+    egrep &#39;CommitLimit&#39; /proc/meminfo
+    CommitLimit:     55434168 kB
+
+  after patch:
+
+    egrep &#39;CommitLimit&#39; /proc/meminfo
+    CommitLimit:     54909880 kB
+
+[akpm@linux-foundation.org: coding-style tweak]
+Signed-off-by: Wanpeng Li &lt;liwanp@linux.vnet.ibm.com&gt;
+Acked-by: Michal Hocko &lt;mhocko@suse.cz&gt;
+Cc: &quot;Aneesh Kumar K.V&quot; &lt;aneesh.kumar@linux.vnet.ibm.com&gt;
+Cc: Hillf Danton &lt;dhillf@gmail.com&gt;
+Cc: KAMEZAWA Hiroyuki &lt;kamezawa.hiroyu@jp.fujitsu.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;		[3.0+]
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dc72c32e1fd872a9a4fdfe645283c9dcd68e556d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/dc72c32e1fd872a9a4fdfe645283c9dcd68e556d"/>
+    <title>
+        printk: Provide a wake_up_klogd() off-case
+    </title>
+    <updated>2013-03-22T16:41:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/42f59911a7dfc2e6d93714478348695e?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>fweisbec</name>
+      <uri>https://github.com/fweisbec</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/kernel.h
+m include/linux/printk.h
+m kernel/printk.c
+m lib/bust_spinlocks.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>printk: Provide a wake_up_klogd() off-case
+
+wake_up_klogd() is useless when CONFIG_PRINTK=n because neither printk()
+nor printk_sched() are in use and there are actually no waiter on
+log_wait waitqueue.  It should be a stub in this case for users like
+bust_spinlocks().
+
+Otherwise this results in this warning when CONFIG_PRINTK=n and
+CONFIG_IRQ_WORK=n:
+
+	kernel/built-in.o In function `wake_up_klogd&#39;:
+	(.text.wake_up_klogd+0xb4): undefined reference to `irq_work_queue&#39;
+
+To fix this, provide an off-case for wake_up_klogd() when
+CONFIG_PRINTK=n.
+
+There is much more from console_unlock() and other console related code
+in printk.c that should be moved under CONFIG_PRINTK.  But for now,
+focus on a minimal fix as we passed the merged window already.
+
+[akpm@linux-foundation.org: include printk.h in bust_spinlocks.c]
+Signed-off-by: Frederic Weisbecker &lt;fweisbec@gmail.com&gt;
+Reported-by: James Hogan &lt;james.hogan@imgtec.com&gt;
+Cc: James Hogan &lt;james.hogan@imgtec.com&gt;
+Cc: Steven Rostedt &lt;rostedt@goodmis.org&gt;
+Cc: Peter Zijlstra &lt;peterz@infradead.org&gt;
+Cc: Ingo Molnar &lt;mingo@kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/fe8d52614bd419cedef85ef55850fd090373f481</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/fe8d52614bd419cedef85ef55850fd090373f481"/>
+    <title>
+        irq_work.h: fix warning when CONFIG_IRQ_WORK=n
+    </title>
+    <updated>2013-03-22T16:41:19-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/7a0f6e863728e469eccde1dba075730f?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jahogan</name>
+      <uri>https://github.com/jahogan</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/irq_work.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>irq_work.h: fix warning when CONFIG_IRQ_WORK=n
+
+A randconfig caught repeated compiler warnings when CONFIG_IRQ_WORK=n
+due to the definition of a non-inline static function in
+&lt;linux/irq_work.h&gt;:
+
+  include/linux/irq_work.h +40 : warning: &#39;irq_work_needs_cpu&#39; defined but not used
+
+Make it inline to supress the warning.  This is caused commit
+00b42959106a (&quot;irq_work: Don&#39;t stop the tick with pending works&quot;) merged
+in v3.9-rc1.
+
+Signed-off-by: James Hogan &lt;james.hogan@imgtec.com&gt;
+Signed-off-by: Frederic Weisbecker &lt;fweisbec@gmail.com&gt;
+Cc: Steven Rostedt &lt;rostedt@goodmis.org&gt;
+Cc: Peter Zijlstra &lt;peterz@infradead.org&gt;
+Cc: Thomas Gleixner &lt;tglx@linutronix.de&gt;
+Cc: Ingo Molnar &lt;mingo@kernel.org&gt;
+Cc: Paul Gortmaker &lt;paul.gortmaker@windriver.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/81fc933f176cd95f757bfc8a98109ef422598b79</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/81fc933f176cd95f757bfc8a98109ef422598b79"/>
+    <title>
+        watchdog: sp5100_tco: Set the AcpiMmioSel bitmask value to 1 instead of 2
+    </title>
+    <updated>2013-03-22T15:21:55-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2d761596109ea78deecdbdebf69b820d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>mc74hc00@gmail.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/watchdog/sp5100_tco.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>watchdog: sp5100_tco: Set the AcpiMmioSel bitmask value to 1 instead of 2
+
+The AcpiMmioSel bit is bit 1 in the AcpiMmioEn register, but the current
+sp5100_tco driver is using bit 2.
+
+See 2.3.3 Power Management (PM) Registers page 150 of the
+AMD SB800-Series Southbridges Register Reference Guide [1].
+
+        AcpiMmioEn - RW – 8/16/32 bits - [PM_Reg: 24h]
+        Field Name        Bits  Default  Description
+        AcpiMMioDecodeEn  0     0b       Set to 1 to enable AcpiMMio space.
+        AcpiMMIoSel       1     0b       Set AcpiMMio registers to be memory-mapped or IO-mapped space.
+                                         0: Memory-mapped space
+                                         1: I/O-mapped space
+
+The sp5100_tco driver expects zero as a value of AcpiMmioSel (bit 1).
+
+Fortunately, no problems were caused by this typo, because the default
+value of the undocumented misused bit 2 seems to be zero.
+
+However, the sp5100_tco driver should use the correct bitmask value.
+
+[1] http://support.amd.com/us/Embedded_TechDocs/45482.pdf
+
+Signed-off-by: Takahisa Tanaka &lt;mc74hc00@gmail.com&gt;
+Signed-off-by: Paul Menzel &lt;paulepanter@users.sourceforge.net&gt;
+Signed-off-by: Wim Van Sebroeck &lt;wim@iguana.be&gt;
+Cc: stable &lt;stable@vger.kernel.org&gt;&lt;/pre>
+    </content>
+  </entry>
+</feed>

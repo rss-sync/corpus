@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Sun, 24 Mar 2013 14:03:27 GMT</pubDate>
+		<lastBuildDate>Sun, 24 Mar 2013 14:03:27 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-24</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/24/2013; 10:03:27 AM</microblog:localTime>
+		<item>
+			<description>RSS in the Sunday comics. :-)</description>
+			<link>http://3kk.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 14:03:27 GMT</pubDate>
+			<guid>http://3kk.r2.ly/?id=15776</guid>
+			<microblog:linkFull>http://akakensmith.wordpress.com/2013/03/24/rss-in-the-sunday-comics/</microblog:linkFull>
+			</item>
+		<item>
+			<description>Is the Meaning of Your Life to Make Babies?</description>
+			<link>http://3kj.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 12:13:52 GMT</pubDate>
+			<guid>http://3kj.r2.ly/?id=15775</guid>
+			<microblog:linkFull>http://blogs.scientificamerican.com/guest-blog/2013/03/24/is-the-meaning-of-your-life-to-make-babies/</microblog:linkFull>
+			<microblog:readCount>606</microblog:readCount>
+			</item>
+		<item>
+			<description>Photos: Tilda Swinton Is Sleeping In A Box At MoMA.</description>
+			<link>http://3ki.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 02:23:26 GMT</pubDate>
+			<guid>http://3ki.r2.ly/?id=15774</guid>
+			<microblog:linkFull>http://gothamist.com/2013/03/23/photos_tilda_swinton_is_sleeping_in.php</microblog:linkFull>
+			<microblog:readCount>1055</microblog:readCount>
+			</item>
+		<item>
+			<description>Staplers, the Attachment That&apos;s Still Making Noise.</description>
+			<link>http://3kh.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 00:07:21 GMT</pubDate>
+			<guid>http://3kh.r2.ly/?id=15773</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/24/business/staplers-the-attachment-thats-still-making-noise.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>696</microblog:readCount>
+			</item>
+		<item>
+			<description>I want to ride on Empire Builder Train - Chicago - Big Sky Country - Pacific Northwest.</description>
+			<link>http://3kg.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 23:26:09 GMT</pubDate>
+			<guid>http://3kg.r2.ly/?id=15772</guid>
+			<microblog:linkFull>http://www.amtrak.com/empire-builder-train</microblog:linkFull>
+			<microblog:readCount>617</microblog:readCount>
+			</item>
+		<item>
+			<description>The Future of RSS Isn&apos;t Another NetNewsWire. (I agree.)</description>
+			<link>http://3kf.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 23:05:08 GMT</pubDate>
+			<guid>http://3kf.r2.ly/?id=15771</guid>
+			<microblog:linkFull>http://carpeaqua.com/2013/03/18/the-future-of-rss-isnt-another-netnewswire/</microblog:linkFull>
+			<microblog:readCount>1146</microblog:readCount>
+			</item>
+		<item>
+			<description>NYT: More Older Americans Use Marijuana.</description>
+			<link>http://3ke.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 22:12:58 GMT</pubDate>
+			<guid>http://3ke.r2.ly/?id=15770</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/24/fashion/more-older-americans-use-marijuana.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>604</microblog:readCount>
+			</item>
+		<item>
+			<description>Jeb Bush on George&apos;s Paintings: He Would Like to Paint Your Dog, Probably.</description>
+			<link>http://3kd.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 21:19:46 GMT</pubDate>
+			<guid>http://3kd.r2.ly/?id=15769</guid>
+			<microblog:linkFull>http://gawker.com/5992120/jeb-bush-on-georges-paintings-he-would-like-to-paint-your-dog-probably</microblog:linkFull>
+			<microblog:readCount>533</microblog:readCount>
+			</item>
+		<item>
+			<description>Ever wonder how an outliner works? This howto explains.</description>
+			<link>http://3hf.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 20:54:44 GMT</pubDate>
+			<guid>http://3hf.r2.ly/?id=15768</guid>
+			<microblog:linkFull>http://smallpicture.com/outlinerHowto.html</microblog:linkFull>
+			<microblog:readCount>3495</microblog:readCount>
+			</item>
+		<item>
+			<description>This is a test. I added Google Analytics code to the smallpicture.com home page. Let&apos;s see if it works! :-)</description>
+			<link>http://3kc.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 20:51:50 GMT</pubDate>
+			<guid>http://3kc.r2.ly/?id=15767</guid>
+			<microblog:linkFull>http://smallpicture.com/</microblog:linkFull>
+			<microblog:readCount>467</microblog:readCount>
+			</item>
+		<item>
+			<description>WSJ: New research shows that we have grossly underestimated both the scope and the scale of animal intelligence.</description>
+			<link>http://3kb.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 20:06:48 GMT</pubDate>
+			<guid>http://3kb.r2.ly/?id=15766</guid>
+			<microblog:linkFull>http://online.wsj.com/article/SB10001424127887323869604578370574285382756.html</microblog:linkFull>
+			<microblog:readCount>1974</microblog:readCount>
+			</item>
+		<item>
+			<description>Synchronization sucks. (But we aren&apos;t always connected, that&apos;s the problem.)</description>
+			<link>http://3ka.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 19:51:20 GMT</pubDate>
+			<guid>http://3ka.r2.ly/?id=15765</guid>
+			<microblog:linkFull>http://tiamat.tsotech.com/synchronization-sucks</microblog:linkFull>
+			<microblog:readCount>609</microblog:readCount>
+			</item>
+		<item>
+			<description>Girls Outnumbered in New York&apos;s Elite Public Schools.</description>
+			<link>http://3k9.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 19:12:49 GMT</pubDate>
+			<guid>http://3k9.r2.ly/?id=15764</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/23/nyregion/girls-outnumbered-in-new-yorks-elite-public-schools.html?_r=0&amp;pagewanted=all</microblog:linkFull>
+			<microblog:readCount>579</microblog:readCount>
+			</item>
+		<item>
+			<description>I hope the press remembers this next time they are inclined to hand markets to giant companies. Software is made by people.</description>
+			<link>http://3k8.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 19:08:29 GMT</pubDate>
+			<guid>http://3k8.r2.ly/</guid>
+			<microblog:linkFull>http://3k7.r2.ly/</microblog:linkFull>
+			<microblog:readCount>112</microblog:readCount>
+			</item>
+		<item>
+			<description>I&apos;m glad that smart users like Fallows see the sense in working with developers who care about them.</description>
+			<link>http://3k7.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 19:06:52 GMT</pubDate>
+			<guid>http://3k7.r2.ly/?id=15762</guid>
+			<microblog:linkFull>http://www.theatlantic.com/technology/archive/2013/03/finale-for-now-on-googles-self-inflicted-trust-problem/274286/</microblog:linkFull>
+			<microblog:readCount>1015</microblog:readCount>
+			</item>
+		<item>
+			<description>Man, falsely convicted of murder, served 23 years in high security, is released and the next day has a heart attack.</description>
+			<link>http://3k4.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 16:22:19 GMT</pubDate>
+			<guid>http://3k4.r2.ly/?id=15761</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/24/nyregion/man-freed-from-prison-has-a-heart-attack.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>1200</microblog:readCount>
+			</item>
+		<item>
+			<description>Margaret Sullivan, an Ombud Who Cares.</description>
+			<link>http://3k3.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:50:58 GMT</pubDate>
+			<guid>http://3k3.r2.ly/?id=15760</guid>
+			<microblog:linkFull>http://www.nytexaminer.com/2013/03/margaret-sullivan-an-ombud-who-cares/</microblog:linkFull>
+			<microblog:readCount>580</microblog:readCount>
+			</item>
+		<item>
+			<description>Krugman: The Economics of Evil Google.</description>
+			<link>http://3k1.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:23:16 GMT</pubDate>
+			<guid>http://3k1.r2.ly/?id=15759</guid>
+			<microblog:linkFull>http://krugman.blogs.nytimes.com/2013/03/23/the-economics-of-evil-google/</microblog:linkFull>
+			<microblog:readCount>1077</microblog:readCount>
+			</item>
+		<item>
+			<description>Here&apos;s a pretty good explanation of why Google Reader is going away. They are doing a for-pay news product.</description>
+			<link>http://3jv.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:20:56 GMT</pubDate>
+			<guid>http://3jv.r2.ly/?id=15758</guid>
+			<microblog:linkFull>http://mashable.com/2013/03/18/google-play-store-newspapers/</microblog:linkFull>
+			<microblog:readCount>1602</microblog:readCount>
+			</item>
+		<item>
+			<description>Krugman: Psychological Roots of Austerity.</description>
+			<link>http://3k0.r2.ly/</link>
+			<pubDate>Sat, 23 Mar 2013 13:20:06 GMT</pubDate>
+			<guid>http://3k0.r2.ly/?id=15757</guid>
+			<microblog:linkFull>http://krugman.blogs.nytimes.com/2013/03/23/psychological-roots-of-austerity/?seid=auto&amp;smid=tw-NytimesKrugman</microblog:linkFull>
+			<microblog:readCount>681</microblog:readCount>
+			</item>
+		</channel>
+	</rss>
