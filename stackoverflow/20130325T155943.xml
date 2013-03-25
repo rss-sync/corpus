@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-25T15:59:42Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15619296</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">multiple form input arrays issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/><category scheme="http://stackoverflow.com/feeds/tags" term="forms"/>
+        <author>
+            <name>James Berry</name>
+            <uri>http://stackoverflow.com/users/2208193</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619296/multiple-form-input-arrays-issue" />
+        <published>2013-03-25T15:57:58Z</published>
+        <updated>2013-03-25T15:59:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i have a form with a check box array which facilitates my application
+ for the classes held in a competition and a input type &quot;text&quot; for the price of that class to enter &lt;/p&gt;
+
+&lt;p&gt;so i am looping from the database the id of the row for the class which hence is the val for the selected checkbox (class field)  now the price isn&#39;t stored in the database so in essence its just an input field for the user to enter in a price&lt;/p&gt;
+
+&lt;p&gt;ive set the input field as an price[] as the name element for the price field  so hence this is an array of prices in teh form submission&lt;/p&gt;
+
+&lt;p&gt;the issue im having is iterating through the arrays with foreach loops&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$classes= $_POST[&quot;classes&quot;];  == (checkbox )
+
+$price= $_POST[&quot;price&quot;];  == ( input text field )
+
+my foreach is like so 
+
+foreach($classes as $key=&amp;gt;$n){
+
+              // print_r($price[$key]);
+
+               mysql_query(&quot;INSERT INTO tbl_set_shows (show_id, class, price) 
+
+                             VALUES (
+                            &#39;$showid&#39;,
+                            &#39;$n&#39;,
+                            &#39;$price[$key]&#39;)&quot;)
+                  or die(mysql_error().&#39;error&#39;);            
+
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;issue is for example i check class option 1,2,3 in that order its fine i get the values for price and class perfectly in my table&lt;/p&gt;
+
+&lt;p&gt;however if i select say class 5, 10, 15   togetehr with the price input &lt;/p&gt;
+
+&lt;p&gt;i lose the value of price hence   // print_r($price[$key]);  which is empty if i dont follow that order&lt;/p&gt;
+
+&lt;p&gt;if anyone can assist and point me in the right direction with that id be very great-full&lt;/p&gt;
+
+&lt;p&gt;thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619295</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to post data to https website on GAE(Java)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-app-engine"/><category scheme="http://stackoverflow.com/feeds/tags" term="post"/><category scheme="http://stackoverflow.com/feeds/tags" term="https"/>
+        <author>
+            <name>user1568088</name>
+            <uri>http://stackoverflow.com/users/1568088</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619295/how-to-post-data-to-https-website-on-gaejava" />
+        <published>2013-03-25T15:57:53Z</published>
+        <updated>2013-03-25T15:57:53Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;On Google App Engine,I am using JAVA.
+I have some question about my project.&lt;/p&gt;
+
+&lt;p&gt;I want to get some data from a website which needs to login&lt;/p&gt;
+
+&lt;p&gt;Usually, I will use HttpURLConnection below to accomplish this job&lt;/p&gt;
+
+&lt;p&gt;The question is, the website is not &quot;http://...&quot; but &quot;https://..&quot;
+above code does not work.&lt;/p&gt;
+
+&lt;p&gt;how can I login to the website using java on GAE?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619289</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Python passing in a list of parameters to be used as dynamic properties</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="list"/><category scheme="http://stackoverflow.com/feeds/tags" term="parameter-passing"/><category scheme="http://stackoverflow.com/feeds/tags" term="args"/>
+        <author>
+            <name>blueblank</name>
+            <uri>http://stackoverflow.com/users/697364</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619289/python-passing-in-a-list-of-parameters-to-be-used-as-dynamic-properties" />
+        <published>2013-03-25T15:57:43Z</published>
+        <updated>2013-03-25T15:57:43Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class MultipleMacroFor(object):
+    def __init__(self, macro):
+        self.macro = macro
+
+    def renderable(self, macro_var):
+        return get_template_attribute(self.macro, macro_var)
+
+class ResponseItemMacros(MultipleMacroFor):
+    def __init__(self):
+        super(ResponseItemMacros, self).__init__(macro=&quot;macros/response_items.html&quot;)
+
+    @property
+    def general_macro(self):
+        return self.renderable(&#39;general_macro&#39;)
+
+RI = ResponseItemMacros()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which I want to turn into this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class MultipleMacroFor(object):
+    ??????????????????????????
+
+RI = MultipleMacroFor(macro=&quot;macros/response_items.html&quot;, macros=[&#39;general&#39;, &#39;etc&#39;, &#39;etal&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and have the list passed in be called as a property, only dynamically contructed based on the passed in list and not manually constructed as the first example. Only I don&#39;t know exactly how to do this atm. Any input appreciated. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619288</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">copy cloud9 ssh key to ubuntu</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ubuntu-11.04"/><category scheme="http://stackoverflow.com/feeds/tags" term="ssh-keys"/><category scheme="http://stackoverflow.com/feeds/tags" term="cloud9-ide"/>
+        <author>
+            <name>efr</name>
+            <uri>http://stackoverflow.com/users/1024794</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619288/copy-cloud9-ssh-key-to-ubuntu" />
+        <published>2013-03-25T15:57:40Z</published>
+        <updated>2013-03-25T15:57:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Triing to create a new workspace on &lt;strong&gt;cloud9&lt;/strong&gt; ide via ssh. Got ssh access to &lt;strong&gt;ubuntu 11.04&lt;/strong&gt; server. And want to edit files on this server using cloud9. Cloud9 gives me 339 chars length &lt;strong&gt;ssh key&lt;/strong&gt;. So I should copy this ssh key to ubuntu. I guess I should use command &lt;code&gt;ssh-copy-id&lt;/code&gt;. But how to do it?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619282</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Get cherrypy to run under apache</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="apache"/><category scheme="http://stackoverflow.com/feeds/tags" term="mod-wsgi"/><category scheme="http://stackoverflow.com/feeds/tags" term="wsgi"/><category scheme="http://stackoverflow.com/feeds/tags" term="cherrypy"/>
+        <author>
+            <name>JR93</name>
+            <uri>http://stackoverflow.com/users/787367</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619282/get-cherrypy-to-run-under-apache" />
+        <published>2013-03-25T15:57:24Z</published>
+        <updated>2013-03-25T15:57:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I cant seem to be able to get cherrpy to work under apache, I have tried the code from here &lt;a href=&quot;http://stackoverflow.com/questions/13677431/running-cherrypy-under-mod-wsgi&quot;&gt;Running CherryPy under mod_wsgi&lt;/a&gt; in my file which works 100%, but I cant get the example from the cherrpy wiki to work &lt;a href=&quot;http://tools.cherrypy.org/wiki/ModWSGI&quot; rel=&quot;nofollow&quot;&gt;http://tools.cherrypy.org/wiki/ModWSGI&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So far I have:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;Directory /test/wsgi&amp;gt;
+    Order allow,deny
+    Allow from all
+    &amp;lt;/Directory&amp;gt;
+    WSGIScriptAlias /test /test/wsgi/index.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;in my apache config file.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619276</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Declaring a 2d char array?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c"/>
+        <author>
+            <name>Eric Banderhide</name>
+            <uri>http://stackoverflow.com/users/639627</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619276/declaring-a-2d-char-array" />
+        <published>2013-03-25T15:57:11Z</published>
+        <updated>2013-03-25T15:59:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Is it possible to declare a 2D array like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;char words[128][25];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then only assign to it like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;int i=0;
+
+while(fscanf(fp,&quot;%s words[i++]) == EOF){  
+ printf(&quot;Copied&quot;);
+}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve seen it in a snippet of code, didn&#39;t understand so tried it out and just get a crash from codeblocks when it attempts to run this line. Is it a completely invalid way of using the array when it has been declared like that? It compiles fine it just doesn&#39;t run.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619274</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Cufon not working. Anyone please advise?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="design"/><category scheme="http://stackoverflow.com/feeds/tags" term="web"/><category scheme="http://stackoverflow.com/feeds/tags" term="cufon"/>
+        <author>
+            <name>Niladri Das</name>
+            <uri>http://stackoverflow.com/users/1033214</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619274/cufon-not-working-anyone-please-advise" />
+        <published>2013-03-25T15:57:10Z</published>
+        <updated>2013-03-25T15:57:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am unable to use this Cufon font on a website. Is there anything wrong with the code? I have attached a screenshot of the code. Not sure why the code is not implemented properly using the  tags.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.stack.imgur.com/K1DKS.jpg&quot; rel=&quot;nofollow&quot;&gt;http://i.stack.imgur.com/K1DKS.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Is there anything wrong with my code?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619273</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Joomla &quot;No input file specified&quot; on GoDaddy server</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="joomla"/>
+        <author>
+            <name>Josh</name>
+            <uri>http://stackoverflow.com/users/1347456</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619273/joomla-no-input-file-specified-on-godaddy-server" />
+        <published>2013-03-25T15:57:07Z</published>
+        <updated>2013-03-25T15:57:07Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;This error is well-documented, but nothing has worked for me. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; &quot;No input file specified&quot; output when visiting any url &lt;em&gt;with&lt;/em&gt; index.php in it.&lt;/p&gt;
+
+&lt;p&gt;For instance, &lt;em&gt;&lt;a href=&quot;http://example.com/index.php/any-url&quot; rel=&quot;nofollow&quot;&gt;http://example.com/index.php/any-url&lt;/a&gt;&lt;/em&gt;, produces &quot;No input file specified&quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://example.com/any-url/&quot; rel=&quot;nofollow&quot;&gt;http://example.com/any-url/&lt;/a&gt;&lt;/em&gt; works just fine.&lt;/p&gt;
+
+&lt;p&gt;This site was recently transferred from Network Solutions hosting to GoDaddy, and is using Joomla 2.5.9 and PHP 5.3.21.&lt;/p&gt;
+
+&lt;p&gt;The most recent solution I used, but failed, was from the &lt;a href=&quot;http://forum.joomla.org/viewtopic.php?p=2700376&quot; rel=&quot;nofollow&quot;&gt;Joomla forum&lt;/a&gt;. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619272</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Entity Framework Nullable Field and SQL Is Null Issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="linq"/><category scheme="http://stackoverflow.com/feeds/tags" term="entity-framework"/>
+        <author>
+            <name>Kunal</name>
+            <uri>http://stackoverflow.com/users/512366</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619272/entity-framework-nullable-field-and-sql-is-null-issue" />
+        <published>2013-03-25T15:57:03Z</published>
+        <updated>2013-03-25T15:58:25Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;There are tons of Q&amp;amp;A on stackoverflow related to my question , but I cannot deduce the reasoning of the issue and the solution that works best in this scenario;&lt;/p&gt;
+
+&lt;p&gt;So I&#39;ve  a method that allows you to pass a parentID, and based on the value records will be filtered using a LINQ query. The field in the database allows NULL values. Now If I compare &lt;strong&gt;fields using &quot;==&quot; operator&lt;/strong&gt; in the where clause , the sql emitted is wrong( it doesn&#39;t uses &#39;&lt;strong&gt;IS NULL&lt;/strong&gt;&#39; for the comparison), and hence query yields 0 results. I solved this using &lt;code&gt;Object.Equals(&lt;/code&gt;) method . That worked, but now I get an exception on passing a NON NULL value, an integer&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;**Unable to create a constant value of type &#39;System.Object&#39;. 
+Only primitive types or enumeration types are supported in this context**
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;so I wrote a simple method&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public void ICollection&amp;lt;ItemDTO&amp;gt; GetItemCollectionByParentID(?int parentID)
+{
+
+
+ using (TestEntities context = new Entities())
+            {
+                //ADO.NET Entity Framework...
+                var collection = (from c in context.ItemMappings
+                                  Where c.ParentID.Equals(parentID)
+                                  select new ItemDTO
+                                  {
+                                      ItemID = c.Item.ItemID,
+                                      ItemName = c.Item.ItemName,
+                                      ItemType = new ItemTypeDTO
+                                      {
+                                           TypeID = c.Item.Type.TypeID,
+                                           TypeName =c.Item.Type.TypeName
+                                      }
+                                  }).ToList();
+
+                return collection;
+            }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any ideas ???&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619271</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Implementing IEnumerable.GetEnumerator() in a wrapper dictionary class and wrapper Key struct</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term=".net"/><category scheme="http://stackoverflow.com/feeds/tags" term="dictionary"/>
+        <author>
+            <name>Maelstrom Yamato</name>
+            <uri>http://stackoverflow.com/users/671664</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619271/implementing-ienumerable-getenumerator-in-a-wrapper-dictionary-class-and-wrapp" />
+        <published>2013-03-25T15:56:58Z</published>
+        <updated>2013-03-25T15:56:58Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this struct contained within a &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class Class1&amp;lt;TKey1&amp;gt; : IDictionary&amp;lt;TKey1, Class2&amp;gt;
+{
+    #region Private Fields
+    private Dictionary&amp;lt;Key, Class2&amp;gt; _class2Manager = new Dictionary&amp;lt;Key, Class2&amp;gt;(new KeyEqualityComparer());
+    #endregion
+
+    #region Key
+    protected internal struct Key
+    {
+        private TKey1 _TKeyValue1;
+
+        public TKey1 TKeyValue
+        {
+            get { return _TKeyValue1; }
+            set { _TKeyValue1 = value; }
+        }
+        public Key(TKey1 keyValue)
+        {
+            _TKeyValue1 = keyValue;
+        }
+        ///Other Key Code
+    }
+    #endregion
+    ///Other Class1 Code
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am trying to emulate (implement) the dictionary functionality of my _class2Manager dictionary  within class1.  The trouble arises when I want to implement the &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/s9eb7a3t%28v=vs.100%29.aspx&quot; rel=&quot;nofollow&quot;&gt;GetEnumerator()&lt;/a&gt; method. I am not exactly sure how to convert the &lt;code&gt;IEnumerator&amp;lt;KeyValuePair&amp;lt;Key, Class2&amp;gt;&amp;gt;&lt;/code&gt;  object returned by the _class2Manager.GetEnumerator() into a IEnumerator&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;IEnumerator&amp;lt;KeyValuePair&amp;lt;TKey1, Class2&amp;gt;&amp;gt; IEnumerable&amp;lt;KeyValuePair&amp;lt;TKey1, Class2&amp;gt;&amp;gt;.GetEnumerator()
+{
+    IEnumerator&amp;lt;KeyValuePair&amp;lt;Key, Class2&amp;gt;&amp;gt; K = _MasterFrames.GetEnumerator();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How do I convert &lt;code&gt;IEnumerator&amp;lt;KeyValuePair&amp;lt;Key, Class2&amp;gt;&amp;gt;&lt;/code&gt; to &lt;code&gt;IEnumerator&amp;lt;KeyValuePair&amp;lt;TKey1, Class2&amp;gt;&amp;gt;&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve thought of &lt;a href=&quot;http://stackoverflow.com/questions/828342/what-is-the-best-way-to-convert-an-ienumerator-to-a-generic-ienumerator&quot;&gt;casting&lt;/a&gt;, but I don&#39;t think that is the exact thing I need to do to convert it properly.&lt;/p&gt;
+
+&lt;p&gt;Any suggestions are appreciated, thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619245</id>
+        <re:rank scheme="http://stackoverflow.com">-3</re:rank>
+        <title type="text">DateTime Feature in C#</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="date"/>
+        <author>
+            <name>Matt Hill</name>
+            <uri>http://stackoverflow.com/users/2123460</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619245/datetime-feature-in-c-sharp" />
+        <published>2013-03-25T15:55:53Z</published>
+        <updated>2013-03-25T15:59:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have to retrieve a date from the database in format YYYY-MM-DD and display it as the format:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mon 25th &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Currently my code looks like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Label fixtureDateLabel = new Label();
+fixtureDateLabel.Text = dReaderGameweekFixtures[&quot;fixtureDate&quot;].ToString();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How do I adapt this to display in the format I want?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619135</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">I want to mod how IE generates cookies</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="internet-explorer"/>
+        <author>
+            <name>Jackery Xu</name>
+            <uri>http://stackoverflow.com/users/1998248</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619135/i-want-to-mod-how-ie-generates-cookies" />
+        <published>2013-03-25T15:50:28Z</published>
+        <updated>2013-03-25T15:57:37Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;There are two different websites that people use, let&#39;s call them A and B. Now, as far as login page goes, A and B are nearly identical in design, but the user account logins for A and B are stored in separate datatables and information is different. When someone logs into A, IE will store their info in a cookie and will call it when going on B, even though they are not the same. Nowhere in the login web forms can I find code for generating the cookie, so I am assuming that everything is done within IE. I found the file &#39;index.dat&#39; that supposedly stores all of IE&#39;s cookies in each user&#39;s AppData folder, but I do not know how to access it, let alone change the way IE stores the cookies. &lt;/p&gt;
+
+&lt;p&gt;My goal is for IE to have distinct cookies for A and B.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619133</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Specific module has form import errors Django</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="forms"/><category scheme="http://stackoverflow.com/feeds/tags" term="module"/>
+        <author>
+            <name>Jeffrey McGuffee</name>
+            <uri>http://stackoverflow.com/users/2208099</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619133/specific-module-has-form-import-errors-django" />
+        <published>2013-03-25T15:50:20Z</published>
+        <updated>2013-03-25T15:58:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am having an issues importing forms fields in a specific module
+in my forms.py I have the following code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from django import forms
+from django.forms import ModelForm
+from koalified.seeker.models import *
+from django.contrib.auth.models import User
+
+class RegistrationForm(ModelForm):
+    username = forms.CharField(label=(u&#39;Username&#39;))
+    password = forms.CharField(label=(u&#39;Password&#39;), widget=forms.PasswordInput(render_value=False))
+    ver_password = forms.CharField(label=(u&#39; Verify Password&#39;), widget=forms.PasswordInput(render_value=False))
+    email = forms.EmailField()
+
+    class Meta:
+            model = Seeker
+            exclude = (&#39;user&#39;,&#39;verified&#39;,&#39;premium&#39;)
+
+    def clean_username(self):
+            &#39;&#39;&#39; Checking username availability &#39;&#39;&#39;
+            username = self.cleaned_data[&#39;username&#39;]
+            try:
+                    User.objects.get(username=username)
+            except User.DoesNotExist:
+                    if len(username)  &amp;gt;= 5 and len(username) &amp;lt; 21:
+                        return self.cleaned_data[&#39;username&#39;]
+                    else:
+                        raise forms.ValidationError(&quot;Username must be between 5 and 20 characters&quot;)
+            raise forms.ValidationError(&quot;That username is already in use&quot;)
+
+    def clean_ver_password(self):
+            password = self.cleaned_data.get(&#39;password&#39;)
+            ver_password = self.cleaned_data.get(&#39;ver_password&#39;)
+
+            if not ver_password:
+                    raise forms.ValidationError(&quot;You must confirm your password&quot;)
+            if password != ver_password:
+                    raise forms.ValidationError(&quot;Passwords do not match&quot;)
+            return ver_password
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I keep getting a view does not exist error, which I have researched and it suggested to go into the shell and try to import. Here is the following output of the import&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Traceback (most recent call last):
+    File &quot;&amp;lt;console&amp;gt;&quot;, line 1, in &amp;lt;module&amp;gt;
+    File &quot;/home/jmcguffee1/django.koalified.com/koalified/koalified/seeker/forms.py&quot;, line 6, in &amp;lt;module&amp;gt;
+    class RegistrationForm(ModelForm):
+    File &quot;/home/jmcguffee1/django.koalified.com/koalified/koalified/seeker/forms.py&quot;, line 7, in RegistrationForm
+    username = forms.CharField(label=(u&#39;Username&#39;))
+    AttributeError: &#39;module&#39; object has no attribute &#39;CharField&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have looked through some issues and have found that people may have had spelling issues, but I have tried this over and over again and can&#39;t get this to load the forms in my other modules work just fine such as my login form&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from django.contrib.auth.models import User
+from django import forms
+
+class LoginForm(forms.Form):
+    username = forms.CharField(label=(u&#39;Username&#39;))
+    password = forms.CharField(label=(u&#39;Password&#39;), widget=forms.PasswordInput(render_value=False))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have tried manually importing the fields and it works, i.e.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from django.forms.fields import CharField, EmailField
+username = CharField()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works fine
+I have gone back into my shell and imported django.forms and tried to load it from there&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;from django import forms
+      username = forms.CharField(label=(u&#39;Username&#39;))
+      username
+              &lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have checked for a cyclic call in my models.py and views.py and there is no other import for django forms. It seems that this specific module is not loading the form field properly. More information can be provided if this is not clear enough.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619110</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">The remote server returned an error: (553) File name not allowed</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/>
+        <author>
+            <name>baros</name>
+            <uri>http://stackoverflow.com/users/2072107</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619110/the-remote-server-returned-an-error-553-file-name-not-allowed" />
+        <published>2013-03-25T15:49:12Z</published>
+        <updated>2013-03-25T15:57:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I succesfully doing ftp web request. But in second line that&#39;s GetRequestStream. I&#39;ll take The remote server returned an error: (553) File name not allowed. &lt;/p&gt;
+
+&lt;p&gt;How to solve this error?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;FtpWebRequest reqFTP = CreateFtpWebRequest(ftpPath, WebRequestMethods.Ftp.UploadFile);
+
+Stream ftpstream = reqFTP.GetRequestStream();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;ftp path&lt;/code&gt;: &lt;a href=&quot;ftp://cdn.demo.com//var/www/firm/images/banner/308.jpg&quot; rel=&quot;nofollow&quot;&gt;ftp://cdn.demo.com//var/www/firm/images/banner/308.jpg&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619093</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">numbering unique values in a column</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="count"/><category scheme="http://stackoverflow.com/feeds/tags" term="awk"/><category scheme="http://stackoverflow.com/feeds/tags" term="unique"/><category scheme="http://stackoverflow.com/feeds/tags" term="sas"/>
+        <author>
+            <name>user1598034</name>
+            <uri>http://stackoverflow.com/users/1598034</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619093/numbering-unique-values-in-a-column" />
+        <published>2013-03-25T15:48:35Z</published>
+        <updated>2013-03-25T15:57:26Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a file where column one has a list of family identifiers &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;AB
+AB
+AB
+AB
+SAR
+SAR
+EAR
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;is there a way that I can create a new column where each repeat is numbered creating a new label for each repeat i.e.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;AB_1
+AB_2
+AB_3
+AB_4
+SAR_1
+SAR_2
+EAR_1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am able to do this in SAS but am looking for a bash option (possibly awk)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;data file;
+set file; 
+count+1;
+by name;
+if first.name then count=1;
+new_name=compress(name||&#39;_&#39;||count);
+run;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15619064</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Order select using the the values of in(....) SQL server</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="database"/><category scheme="http://stackoverflow.com/feeds/tags" term="query"/>
+        <author>
+            <name>user1961514</name>
+            <uri>http://stackoverflow.com/users/1961514</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15619064/order-select-using-the-the-values-of-in-sql-server" />
+        <published>2013-03-25T15:46:59Z</published>
+        <updated>2013-03-25T15:57:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Is there any way to order the result (for example)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT id,age, Location
+FROM Student 
+WHERE Location in (&#39;NY&#39;,&#39;DC&#39;,&#39;MI&#39;,&#39;TE&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;instead of having them as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;id     age     Location
+1       2       DC
+2       2       NY
+4       2       MI
+6       2       TE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The Result should be ordered as the order of in (&#39;NY&#39;,&#39;DC&#39;,&#39;MI&#39;,&#39;TE&#39;): &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;id     age     Location
+2       2       NY
+1       2       DC
+4       2       MI
+6       2       TE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I figured that It&#39;s possible by having a temp table and inserting the  &lt;code&gt;(&#39;NY&#39;,&#39;DC&#39;,&#39;MI&#39;,&#39;TE&#39;)&lt;/code&gt; into this table. Then using a left join will order it as wanted.&lt;/p&gt;
+
+&lt;p&gt;Is there a better solution.&lt;/p&gt;
+
+&lt;p&gt;Please Advise.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15618817</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Comparing 2 string arrays in C</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c"/>
+        <author>
+            <name>user2208106</name>
+            <uri>http://stackoverflow.com/users/2208106</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15618817/comparing-2-string-arrays-in-c" />
+        <published>2013-03-25T15:36:26Z</published>
+        <updated>2013-03-25T15:57:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;So i&#39;m comparing a string arrays of mixed letters and numbers to a array with the alphabet and then collecting the similar characters (i.e: only the letters) and putting it into a different string array and then printing it.&lt;/p&gt;
+
+&lt;p&gt;It works fine the first time around. Although the second time around, if the string being compared to the alphabet is smaller than a certain size it stuffs up and shows some extra letters and sometimes a question mark which comes out of no where.&lt;/p&gt;
+
+&lt;p&gt;This is the first time around output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Enter a string (1-40 characters): zxcvbnm,./asdfghjkl;qwertyuiop[]
+Output: abcdefghijklmnopqrstuvwxyz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then the second time around:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Enter a string (1-40 characters): abcdefg
+Output: abcdefgz?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See what I mean? &#39;z?&#39; popped up out of nowhere.&lt;/p&gt;
+
+&lt;p&gt;Could it be that theres some left over letters in the buffer or anything once the function is called again?&lt;/p&gt;
+
+&lt;p&gt;Thanks for all help guys!&lt;/p&gt;
+
+&lt;p&gt;here is the full code of the function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    char string[INPUT_LENGTH + 1];
+    char prompt[PROMPT_LENGTH + 1];
+    int i = 0;
+    /* Used for comparing the two strings. */
+    char alphabet[] = {&quot;abcdefghijklmnopqrstuvwxyz&quot;};
+    int x, y, strLen1;
+    int alphaLen = 27;
+    /* Used for the new array with only the letters. */
+    char letters[40];
+    int z = 0;
+
+    sprintf(prompt, &quot;Enter a string (1-40): &quot;, INPUT_LENGTH);
+
+    getString(string, INPUT_LENGTH, prompt);
+
+    /* Convert to lowercase. */
+    for (i = 0; string[i]; i++){
+        string[i] = tolower(string[i]);
+    }
+
+    strLen1= strlen(string);
+
+    for (x = 0; x &amp;lt; 26; x++){
+        for (y = 0; y &amp;lt; strLen1; y++){
+            if (alphabet[x] == string[y])
+            {
+                letters[z]=string[y];
+                /* Increment z, to insert anothe letter in an empty space. */
+                z++;
+            }
+        }
+    }
+    printf(&quot;Output: %s\n\n&quot;, letters);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15618711</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">JSON API action parameter for unknown object</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="json"/><category scheme="http://stackoverflow.com/feeds/tags" term="api"/><category scheme="http://stackoverflow.com/feeds/tags" term="reflection"/>
+        <author>
+            <name>theyshookhands</name>
+            <uri>http://stackoverflow.com/users/1299363</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15618711/json-api-action-parameter-for-unknown-object" />
+        <published>2013-03-25T15:31:44Z</published>
+        <updated>2013-03-25T15:58:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am creating a generic JSON API to handle any object with as little additional coding per object required. Here is the BaseController from which all other controllers (EmployeeController, ProductController, etc.) inherit:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public partial class BaseController&amp;lt;T&amp;gt; : Controller where T : ModelBase&amp;lt;T&amp;gt;, new()
+{
+    [RestHttpVerbFilter]
+    public ActionResult Index (long? Id, string Property, long? PropertyId, T Model, string Format, string HttpVerb)
+    {            
+        switch (HttpVerb)
+        {
+            case &quot;GET&quot;:
+                return Json(Get(Id.Value, Property, PropertyId), JsonRequestBehavior.AllowGet);
+            case &quot;POST&quot;:
+                return Json(Post(Id, Property, PropertyId, Model));
+            case &quot;PUT&quot;:
+                return Json(Put(Id.Value, Property, PropertyId, Model));
+            case &quot;DELETE&quot;:
+                return Json(Delete(Id, Property, PropertyId));
+        }
+        return Json(new { error = &quot;Unknown HTTP verb&quot; });
+    }        
+
+    internal object Post (long? Id, string Property, long? PropertyId, T Model)
+    {
+        if (!Id.HasValue &amp;amp;&amp;amp; string.IsNullOrEmpty(Property) &amp;amp;&amp;amp; !PropertyId.HasValue &amp;amp;&amp;amp; Repository.Add(Model))
+        {
+            return Get(Model.ID);
+        }            
+        return new { error = &quot;Unable to save new &quot; + typeof(T).Name };
+    }
+
+    internal object Put (long? Id, string Property, long? PropertyId, T Model)
+    {
+        if (Id.HasValue)
+        {
+            Model.ID = Id.Value;
+            if (string.IsNullOrEmpty(Property) &amp;amp;&amp;amp; !PropertyId.HasValue &amp;amp;&amp;amp; Repository.Update(Model))
+            {
+                return Get(Id.Value);
+            }
+        }
+        return new { error = &quot;Unable to update &quot; + typeof(T).Name };
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve removed some irrelevant code (Get, Delete). Right now, I have it set up so you can make &lt;code&gt;GET&lt;/code&gt; requests to something like &lt;code&gt;http://example.com/API/Venue/43/Events&lt;/code&gt;, which will return all the events at the Venue specified by the Id of 43. You are also able to &lt;code&gt;POST&lt;/code&gt; to &lt;code&gt;http://example.com/API/Venue&lt;/code&gt; to create a new Venue. I would like to be able to &lt;code&gt;POST&lt;/code&gt; to &lt;code&gt;http://example.com/API/Venue/43/Events&lt;/code&gt; to create a new Event for that Venue.&lt;/p&gt;
+
+&lt;p&gt;In the parameters for the &lt;code&gt;Index&lt;/code&gt; action, right now the &lt;code&gt;Model&lt;/code&gt; object picks up the Venue when it is posted. When I &lt;code&gt;POST&lt;/code&gt; an Event object to the action, the &lt;code&gt;Model&lt;/code&gt; parameter still picks it up. I have tried replacing &lt;code&gt;T Model&lt;/code&gt; with the following, resulting in the following issues:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;object Model&lt;/code&gt;, then casting it based on what URL it was &lt;code&gt;POST&lt;/code&gt;ed to. This gives a &lt;code&gt;System.InvalidCastException&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dynamic Model&lt;/code&gt;, then casting it with &lt;code&gt;(T)Model&lt;/code&gt;. This also gives a &lt;code&gt;System.InvalidCastException&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dynamic Model&lt;/code&gt;, then casting it with &lt;code&gt;Model as T&lt;/code&gt;. &lt;code&gt;Model&lt;/code&gt; is then &lt;code&gt;null&lt;/code&gt;, meaning the cast failed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IModelBase Model&lt;/code&gt;, an interface, which doesn&#39;t work because the modelbinder tries to instantiate it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would have thought that a &lt;code&gt;dynamic&lt;/code&gt; would have worked, but I can&#39;t seem to avoid the &lt;code&gt;InvalidCastException&lt;/code&gt;. The above code works, BTW, for the controller&#39;s object (&lt;code&gt;POST&lt;/code&gt;ing a Venue to &lt;code&gt;http://example.com/API/Venue&lt;/code&gt;).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15618592</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">2d array,adding it values in a weird pattern</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/>
+        <author>
+            <name>Prodan Dimitrow</name>
+            <uri>http://stackoverflow.com/users/2208002</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15618592/2d-array-adding-it-values-in-a-weird-pattern" />
+        <published>2013-03-25T15:25:28Z</published>
+        <updated>2013-03-25T15:57:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i started learning C# and programming a few months ago and have some problems. The idea here is we create a 2 dimensional array (the number of rows / columns are added by the user), the numbers need to be between 1 and 10. &lt;/p&gt;
+
+&lt;p&gt;Then when the array is created the number sequence ( 3-5-7-9-11 etc) is started in the first and finishes in the last column. The rest of the numbers in the columns are added via keyboard by the user starting with the first row (ignoring column 1 and the last column cause we have that added).&lt;/p&gt;
+
+&lt;p&gt;The questions are :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What will be the best way to check if the numbers of rows/columns are between 1 and 10? (I was thinking of IF-else but isn&#39;t there a better way ?)&lt;/li&gt;
+&lt;li&gt;How will i make it so that the number sequence 3-5-7 etc is started in the first and finishes in the last column?
+Yeah i feel lost.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Where i am at the moment : &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        Console.WriteLine(&quot;Add row value of 1-10&quot;);
+        string s1
+        s1 = Console.ReadLine();
+        int k = int.Parse(s1);
+
+        Console.WriteLine(&quot;Add column value of 1-10&quot;);
+
+        string s2;
+        s2 = Console.ReadLine();
+        int p = int.Parse(s2);
+        int[,] M = new int[k, p];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example : we added k(row) &amp;amp; p(coulmn) value of 4.So the array should look like :&lt;/p&gt;
+
+&lt;p&gt;3 x x 11&lt;/p&gt;
+
+&lt;p&gt;5 x x 13&lt;/p&gt;
+
+&lt;p&gt;7 x x 15&lt;/p&gt;
+
+&lt;p&gt;9 x x 17&lt;/p&gt;
+
+&lt;p&gt;Then the X&#39;s should be added again manually without overwriting the existing numbers .The value of the numbers doesnt matter.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15618591</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Fancy Effects on MKMapOverlay CGPath</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="path"/><category scheme="http://stackoverflow.com/feeds/tags" term="mkmapview"/><category scheme="http://stackoverflow.com/feeds/tags" term="overlay"/>
+        <author>
+            <name>user2135074</name>
+            <uri>http://stackoverflow.com/users/2135074</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15618591/fancy-effects-on-mkmapoverlay-cgpath" />
+        <published>2013-03-25T15:25:26Z</published>
+        <updated>2013-03-25T15:58:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using a MKOverlayView for drawing a path onto the apple maps. I&#39;d like to draw many short paths onto it, because I need to colorize the track depending on some other values. But I&#39;m getting some fancy effects doing it that way ... also my start- and ending points are connected, but I don&#39;t know why. After zooming in/out the fancy-effect-pattern changes and gets bigger/smaller. It seems that you can see the apple map tiles on my path ...&lt;/p&gt;
+
+&lt;p&gt;This is my code, its called inside the drawMapRect method of my overlay view.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for(int i = 0; i &amp;lt; tdpoints.pointCount-1; i++ ){
+    CGPoint firstCGPoint = [self pointForMapPoint:tdpoints.points[i]];
+    CGPoint secCGPoint = [self pointForMapPoint:tdpoints.points[i+1]];
+
+    if (lineIntersectsRect(tdpoints.points[i], tdpoints.points[i+1], clipRect)){            
+
+        double val1 = (arc4random() % 10) / 10.0f;
+        double val2 = (arc4random() % 10) / 10.0f;
+        double val3 = (arc4random() % 10) / 10.0f;
+
+
+        CGContextSetRGBStrokeColor(context, val1 ,val2, val3, 1.0f);
+        CGContextSetLineWidth(context, lineWidth);
+
+        CGContextBeginPath(context);
+        CGContextMoveToPoint(context,firstCGPoint.x,firstCGPoint.y);
+
+        CGContextAddLineToPoint(context, secCGPoint.x, secCGPoint.y);
+
+        CGContextStrokePath(context);
+        CGContextClosePath(context);
+
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://imageshack.us/photo/my-images/560/iossimulatorbildschirmf.jpg/&quot; rel=&quot;nofollow&quot;&gt;http://imageshack.us/photo/my-images/560/iossimulatorbildschirmf.jpg/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://imageshack.us/photo/my-images/819/iossimulatorbildschirmf.jpg/&quot; rel=&quot;nofollow&quot;&gt;http://imageshack.us/photo/my-images/819/iossimulatorbildschirmf.jpg/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I&#39;m adding my GPS Points like that. (From Breadcrumbs Apple Example)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CLLocationCoordinate2D coord = {.latitude = 49.1,.longitude =12.1f}; 
+[self drawPathWithLocations:coord];
+
+CLLocationCoordinate2D coord1 = {.latitude = 49.2,.longitude =12.2f}; 
+[self drawPathWithLocations:coord1];
+
+CLLocationCoordinate2D coord2 = {.latitude = 50.1,.longitude =12.9f}; 
+[self drawPathWithLocations:coord2];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;This is the adding Method:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-(void) drawPathWithLocations:(CLLocationCoordinate2D)coord{
+if (!self.crumbs)
+{
+
+    // This is the first time we&#39;re getting a location update, so create
+    // the CrumbPath and add it to the map.
+    //
+    _crumbs = [[CrumbPath alloc] initWithCenterCoordinate:coord];
+    [self.trackDriveMapView addOverlay:self.crumbs];
+
+    // On the first location update only, zoom map to user location
+    [_trackDriveMapView setCenterCoordinate:coord zoomLevel:_zoomLevel animated:NO];
+
+}   else
+{
+    // This is a subsequent location update.
+    // If the crumbs MKOverlay model object determines that the current location has moved
+    // far enough from the previous location, use the returned updateRect to redraw just
+    // the changed area.
+    //
+    // note: iPhone 3G will locate you using the triangulation of the cell towers.
+    // so you may experience spikes in location data (in small time intervals)
+    // due to 3G tower triangulation.
+    //
+
+    MKMapRect updateRect = [self.crumbs addCoordinate:coord];
+
+    if (!MKMapRectIsNull(updateRect))
+    {
+
+        // There is a non null update rect.
+        // Compute the currently visible map zoom scale
+        MKZoomScale currentZoomScale = (CGFloat)(self.trackDriveMapView.bounds.size.width / self.trackDriveMapView.visibleMapRect.size.width);
+        // Find out the line width at this zoom scale and outset the updateRect by that amount
+        CGFloat lineWidth = MKRoadWidthAtZoomScale(currentZoomScale);
+        updateRect = MKMapRectInset(updateRect, -lineWidth, -lineWidth);
+        // Ask the overlay view to update just the changed area.
+        [self.crumbView setNeedsDisplayInMapRect:updateRect];
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;This is the addCoordinate method:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    - (MKMapRect)addCoordinate:(CLLocationCoordinate2D)coord
+{
+   pthread_rwlock_wrlock(&amp;amp;rwLock);
+
+    // Convert a CLLocationCoordinate2D to an MKMapPoint
+    MKMapPoint newPoint = MKMapPointForCoordinate(coord);
+    MKMapPoint prevPoint = points[pointCount - 1];
+
+    // Get the distance between this new point and the previous point.
+    CLLocationDistance metersApart = MKMetersBetweenMapPoints(newPoint, prevPoint);
+
+    NSLog(@&quot;PUNKTE SIND %f METER AUSEINANDER ... &quot;, metersApart);
+
+    MKMapRect updateRect = MKMapRectNull;
+
+    if (metersApart &amp;gt; MINIMUM_DELTA_METERS)
+    {
+        // Grow the points array if necessary
+        if (pointSpace == pointCount)
+        {
+            pointSpace *= 2;
+            points = realloc(points, sizeof(MKMapPoint) * pointSpace);
+        }    
+
+        // Add the new point to the points array
+        points[pointCount] = newPoint;
+        pointCount++;
+
+        // Compute MKMapRect bounding prevPoint and newPoint
+        double minX = MIN(newPoint.x, prevPoint.x);
+        double minY = MIN(newPoint.y, prevPoint.y);
+        double maxX = MAX(newPoint.x, prevPoint.x);
+        double maxY = MAX(newPoint.y, prevPoint.y);
+
+        updateRect = MKMapRectMake(minX, minY, maxX - minX, maxY - minY);
+    }
+
+    pthread_rwlock_unlock(&amp;amp;rwLock);
+
+    return updateRect;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15618307</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Render rails partial with ajax call and remote =&gt; true</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="ajax"/>
+        <author>
+            <name>jtrinker</name>
+            <uri>http://stackoverflow.com/users/1759451</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15618307/render-rails-partial-with-ajax-call-and-remote-true" />
+        <published>2013-03-25T15:10:31Z</published>
+        <updated>2013-03-25T15:57:30Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a page, taxons#show, that lists a bunch of products, when you click a product it is suppose to take you to products#show, which is the individual product page. This page displays the partial _cart_form.html.erb, which has a bunch of functionality to add the product to cart, choose size, color, etc. &lt;/p&gt;
+
+&lt;p&gt;On Taxons#show, when you click a product, instead of going to the individual product page I would like to display a lightbox, on taxons#show, with the _cart_form.html.erb partial inside of it. I have the light box working, and when you click the image it correctly brings up the lightbox rather than go to the products#show page, but I&#39;m not sure how to render the partial inside of it. Here&#39;s the link I have so far:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;main-image&quot; id=&quot;single_&amp;lt;%= product.id %&amp;gt;&quot; data-productid=&quot;&amp;lt;%= product.id %&amp;gt;&quot;&amp;gt;
+      &amp;lt;%= link_to large_image(product, :itemprop =&amp;gt; &quot;image&quot;, :class =&amp;gt; &quot;product-image&quot;, :id =&amp;gt; product.id), product_path(product), :remote =&amp;gt; true, :html =&amp;gt; {:class =&amp;gt; &quot;product_popup&quot;}  %&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;!-- main-image--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And the lightbox code is a div that is display: none until clicked that looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;%# ******LIGHTBOX******* %&amp;gt;
+&amp;lt;div id=&quot;product_popup_&amp;lt;%= product.id %&amp;gt;&quot; class=&quot;product_popup&quot; data-popid=&quot;&amp;lt;%= product.id %&amp;gt;&quot;&amp;gt;
+        &amp;lt;div class=&quot;related-products&quot;&amp;gt;
+          &amp;lt;ul class=&quot;related_products_list&quot; id=&quot;related_products_list_&amp;lt;%= product.id %&amp;gt;&quot; data-listid=&quot;&amp;lt;%= product.id %&amp;gt;&quot;&amp;gt;
+         &amp;lt;% @related_products.each do |related_product| %&amp;gt;
+         &amp;lt;li class=&quot;related_products_item&quot;&amp;gt;&amp;lt;%= link_to large_image(related_product, :itemprop =&amp;gt; &quot;image&quot;, :data =&amp;gt; {:imageid =&amp;gt; related_product.id}, :id =&amp;gt; &quot;related_&quot; + related_product.id.to_s, :class =&amp;gt; &quot;related_products_image dimmed&quot;), url_for(related_product) %&amp;gt;&amp;lt;/li&amp;gt;
+         &amp;lt;% end %&amp;gt;
+    &amp;lt;/ul&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;popup-image&quot;&amp;gt;
+        &amp;lt;%= large_image(product, :itemprop =&amp;gt; &quot;image&quot;, :class =&amp;gt; &quot;product-image-popup&quot;) %&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;!-- popup-image --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Can anyone tell me how to render a partial when you click that link, inside of the lightbox? Thanks!&lt;/p&gt;
+
+&lt;p&gt;EDIT**&lt;/p&gt;
+
+&lt;p&gt;When I try to render the partial directly in the lightbox inside of taxons#show I get the the following NoMethod error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; NoMethodError in Spree/taxons#show
+
+ Showing    /home/telegraph/telegraph1/pants.telegraphbranding.com/app/views/spree/shared/_cart_form.html.erb where line #4 raised:
+
+undefined method `has_variants?&#39; for nil:NilClass
+Extracted source (around line #4):
+
+1: &amp;lt;%= form_for :order, :url =&amp;gt; populate_orders_path do |f| %&amp;gt;
+2:   &amp;lt;div id=&quot;inside-product-cart-form&quot; data-hook=&quot;inside_product_cart_form&quot;     itemprop=&quot;offers&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot;&amp;gt;
+3: 
+4:     &amp;lt;% if @product.has_variants? %&amp;gt;
+5:       &amp;lt;div id=&quot;product-variants&quot; class=&quot;columns five alpha&quot;&amp;gt;
+6:         &amp;lt;h6 class=&quot;product-section-title&quot;&amp;gt;&amp;lt;%= t(:variants) %&amp;gt;&amp;lt;/h6&amp;gt;
+7:         &amp;lt;ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15618260</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How change the background color for a blank cell in QTableWidget</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="qt"/><category scheme="http://stackoverflow.com/feeds/tags" term="qtablewidget"/><category scheme="http://stackoverflow.com/feeds/tags" term="qt4.8"/><category scheme="http://stackoverflow.com/feeds/tags" term="qtablewidgetitem"/>
+        <author>
+            <name>spy8888</name>
+            <uri>http://stackoverflow.com/users/180317</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15618260/how-change-the-background-color-for-a-blank-cell-in-qtablewidget" />
+        <published>2013-03-25T15:08:09Z</published>
+        <updated>2013-03-25T15:57:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;If a cell have some data，using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tableWidget-&amp;gt;item(8,0)-&amp;gt;setBackgroundColor(Qt::red);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will work.&lt;/p&gt;
+
+&lt;p&gt;But if a cell is blank it will fail.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15617693</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">validation is not work in Codeigniter</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="oop"/><category scheme="http://stackoverflow.com/feeds/tags" term="codeigniter"/><category scheme="http://stackoverflow.com/feeds/tags" term="design-patterns"/><category scheme="http://stackoverflow.com/feeds/tags" term="optimization"/>
+        <author>
+            <name>Atif Ali</name>
+            <uri>http://stackoverflow.com/users/1182036</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15617693/validation-is-not-work-in-codeigniter" />
+        <published>2013-03-25T14:40:20Z</published>
+        <updated>2013-03-25T15:57:30Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I was testing my code to disable JavaScript from browser when I found an error.&lt;/p&gt;
+
+&lt;p&gt;The error in form validation is if I post the form without having filled any data it does not show a validation error. I was debugging the issue I found by commenting out that line (&lt;code&gt;$obj = $this-&amp;gt;factory-&amp;gt;get_instance(&#39;vote&#39;);&lt;/code&gt; ), then it works fine. Whenever I remove comments, then the same behaviour happens. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; $obj = $this-&amp;gt;factory-&amp;gt;get_instance(&#39;rate&#39;);
+ $obj = $this-&amp;gt;factory-&amp;gt;get_instance(&#39;post&#39;);
+ $obj = $this-&amp;gt;factory-&amp;gt;get_instance(value&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;library class&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class factory
+{
+      function get_instance($class)
+      {
+        $product = APP PATH.&quot;controller/vote&quot; . $class.EXT;
+        if (class_exists($product)) {
+            return new $product();
+        }
+        else 
+        {
+            throw new Exception(&quot;Invalid product type given.&quot;);
+        }  
+      }    
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;controller&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class User extends MY_controller
+
+    function __construct() {
+        parent::__construct();
+        $this-&amp;gt;load-&amp;gt;library(&#39;factory&#39;);
+        $obj = $this-&amp;gt;factory-&amp;gt;get_instance(&#39;vote&#39;);
+        $data[&quot;object&quot;] = (object)array(&quot;obj_vote&quot; =&amp;gt; $obj);
+        $this-&amp;gt;load-&amp;gt;vars($data);
+    }
+
+    function add_record()
+    {
+      if($this-&amp;gt;form_validation-&amp;gt;run() == FALSE):
+              redirect(BASE_URL().&#39;loin/index/error&#39;);
+       else
+       {
+
+             insert data activity run 
+
+       }
+    }
+
+}
+
+
+view
+echo validation_error();
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15617569</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Global instance of class</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="iphone"/><category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="xcode"/>
+        <author>
+            <name>Daniel Wallman</name>
+            <uri>http://stackoverflow.com/users/2087307</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15617569/global-instance-of-class" />
+        <published>2013-03-25T14:34:37Z</published>
+        <updated>2013-03-25T15:57:04Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Im trying to make an instance of a class available in all methods in the .m file. Instead of doing this inside every method:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-(void)viewDidLoad
+{
+    Class *c = [Class new];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My attempt in the .h file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@interface RandomViewController : UIViewController
+{
+    Class *c [Class new];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But It does&#39;nt work, I get error &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Expected &#39;;&#39; at end of declaration list&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How would I make this possible?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15616987</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">AS3 - Getting a stream connection ip</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="actionscript-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="flash"/><category scheme="http://stackoverflow.com/feeds/tags" term="ip"/>
+        <author>
+            <name>Mike</name>
+            <uri>http://stackoverflow.com/users/2200684</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15616987/as3-getting-a-stream-connection-ip" />
+        <published>2013-03-25T14:07:20Z</published>
+        <updated>2013-03-25T15:58:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need to have debugging/logging information for a flash video player.&lt;/p&gt;
+
+&lt;p&gt;I need to display the client ip, along with the server ip of the stream... can this be done?&lt;/p&gt;
+
+&lt;p&gt;example stream: (actually it&#39;s a manifest that, upon load, retrieves the stream)
+&lt;a href=&quot;http://multiplatform-f.akamaihd.net/z/multi/april11/hdworld/hdworld_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,1280x720_1900_m,1280x720_2500_m,1280x720_3500_m,.mp4.csmil/manifest.f4m&quot; rel=&quot;nofollow&quot;&gt;http://multiplatform-f.akamaihd.net/z/multi/april11/hdworld/hdworld_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,1280x720_1900_m,1280x720_2500_m,1280x720_3500_m,.mp4.csmil/manifest.f4m&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Techs available to me:  Javascript, AS3 FLASH.
+basically a &quot;whatsmyip&quot; and a reverse ip lookup through flash/javascript.... possible without server side scripts?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15613234</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Dynamic linq on Dynamic properties</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="linq"/><category scheme="http://stackoverflow.com/feeds/tags" term="dynamic"/>
+        <author>
+            <name>user596107</name>
+            <uri>http://stackoverflow.com/users/596107</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15613234/dynamic-linq-on-dynamic-properties" />
+        <published>2013-03-25T10:58:12Z</published>
+        <updated>2013-03-25T15:57:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Can anyone help me with this:&lt;/p&gt;
+
+&lt;p&gt;I have collection of poco object with dynamic(ExpandoObject) property which need to be part of string condition in dynamic linq &lt;/p&gt;
+
+&lt;p&gt;ex.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class Test
+{
+   public int Id {get;set;}
+   dynamic DynamicProperty {get;set;}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dynamic property (&lt;code&gt;ExpandoObject&lt;/code&gt;) has a properties(&lt;code&gt;Id&lt;/code&gt; and &lt;code&gt;Name&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;how can i filter collection of Test objects using dynamic Linq, (how  should look like string where condition?):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;IList&amp;lt;Test&amp;gt; testList;
+
+testList.AsQueryable()
+        .Where(&quot;DynamicProperty.Id == 2 or DynamicProperty.Name == &quot;test&quot;&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15608161</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">SQL (big)query sequencial properties</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-bigquery"/>
+        <author>
+            <name>Tom Fishman</name>
+            <uri>http://stackoverflow.com/users/514748</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15608161/sql-bigquery-sequencial-properties" />
+        <published>2013-03-25T05:21:17Z</published>
+        <updated>2013-03-25T15:57:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;We have the denormalized data in bigquery:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;User,   Cities Lived, Time,  Other properites
+A       LD            1942
+A       SF            1902
+A       LA            2004
+A       TK            2012
+B       SF            1935
+B       SD            1972
+B       LA            1899
+C       ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What is the most efficient way to find the users that lived in SF before they lived in LA?&lt;/p&gt;
+
+&lt;p&gt;The output could be a list. In the above case, only &quot;A&quot; is listed.&lt;/p&gt;
+
+&lt;p&gt;It would be better if the list has both the date and the city:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A, 1902, SF, 2004, LA
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15607448</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Websphere that comes with RAD</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="websphere"/>
+        <author>
+            <name>user1600419</name>
+            <uri>http://stackoverflow.com/users/1600419</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15607448/websphere-that-comes-with-rad" />
+        <published>2013-03-25T04:05:11Z</published>
+        <updated>2013-03-25T15:58:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;We have some of our Java applications running over WebSphere 5.1 at work. I&#39;m in the process of trying to get my development environment set up.&lt;/p&gt;
+
+&lt;p&gt;Thus far I am thinking...&lt;/p&gt;
+
+&lt;p&gt;Spring STS
+Eclipse Developer tools for WebSphere Application Server version 7.0 
+WebSphere Application Server 7.0 Developers Edition &lt;/p&gt;
+
+&lt;p&gt;I believe Websphere 7.0 should be okay because we are using J2EE 1.3.&lt;/p&gt;
+
+&lt;p&gt;I did however manage to get my hands on a trial version of RAD with came shipped with WebSphere Application Server 5.1 however we don&#39;t plan to buy a license. &lt;/p&gt;
+
+&lt;p&gt;Can anyone give me advice as to whether I will be breaching licensing agreements if I rip out WAS 5.1 which came shipped with RAD? Is the version that came shipped with RAD a developer edition?&lt;/p&gt;
+
+&lt;p&gt;Thanks &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15596830</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Unable to login to ejabberd server using XMPP client in Android</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="xmpp"/><category scheme="http://stackoverflow.com/feeds/tags" term="ejabberd"/>
+        <author>
+            <name>Osama Mohammed Shaikh</name>
+            <uri>http://stackoverflow.com/users/1499553</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15596830/unable-to-login-to-ejabberd-server-using-xmpp-client-in-android" />
+        <published>2013-03-24T09:20:18Z</published>
+        <updated>2013-03-25T15:57:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to connect &amp;amp; login to ejabberd server using a XMPP client in Android. The XMPP client connects to the server but doesn&#39;t logs in. I am getting Exception message as &lt;strong&gt;No response from the server&lt;/strong&gt;. I don&#39;t know where is the problem.&lt;/p&gt;
+
+&lt;p&gt;Following is the code:&lt;/p&gt;
+
+&lt;p&gt;XMPP Client.java&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package org.apache.android.xmpp;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import org.jivesoftware.smack.PacketListener;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.filter.MessageTypeFilter;
+import org.jivesoftware.smack.filter.PacketFilter;
+import org.jivesoftware.smack.packet.Message;
+import org.jivesoftware.smack.packet.Packet;
+import org.jivesoftware.smack.util.StringUtils;
+
+import java.util.ArrayList;
+
+public class XMPPClient extends Activity {
+
+private ArrayList&amp;lt;String&amp;gt; messages = new ArrayList();
+private Handler mHandler = new Handler();
+private SettingsDialog mDialog;
+private EditText mRecipient;
+private EditText mSendText;
+private ListView mList;
+private XMPPConnection connection;
+
+/**
+ * Called with the activity is first created.
+ */
+@Override
+public void onCreate(Bundle icicle) {
+    super.onCreate(icicle);
+    Log.i(&quot;XMPPClient&quot;, &quot;onCreate called&quot;);
+    setContentView(R.layout.main);
+
+    mRecipient = (EditText) this.findViewById(R.id.recipient);
+    Log.i(&quot;XMPPClient&quot;, &quot;mRecipient = &quot; + mRecipient);
+    mSendText = (EditText) this.findViewById(R.id.sendText);
+    Log.i(&quot;XMPPClient&quot;, &quot;mSendText = &quot; + mSendText);
+    mList = (ListView) this.findViewById(R.id.listMessages);
+    Log.i(&quot;XMPPClient&quot;, &quot;mList = &quot; + mList);
+    setListAdapter();
+
+    // Dialog for getting the xmpp settings
+    mDialog = new SettingsDialog(this);
+
+    // Set a listener to show the settings dialog
+    Button setup = (Button) this.findViewById(R.id.setup);
+    setup.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View view) {
+            mHandler.post(new Runnable() {
+                public void run() {
+                    mDialog.show();
+                }
+            });
+        }
+    });
+
+    // Set a listener to send a chat text message
+    Button send = (Button) this.findViewById(R.id.send);
+    send.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View view) {
+            String to = mRecipient.getText().toString();
+            String text = mSendText.getText().toString();
+
+            Log.i(&quot;XMPPClient&quot;, &quot;Sending text [&quot; + text + &quot;] to [&quot; + to + &quot;]&quot;);
+            Message msg = new Message(to, Message.Type.chat);
+            msg.setBody(text);
+            connection.sendPacket(msg);
+            messages.add(connection.getUser() + &quot;:&quot;);
+            messages.add(text);
+            setListAdapter();
+        }
+    });
+}
+
+/**
+ * Called by Settings dialog when a connection is establised with the XMPP server
+ *
+ * @param connection
+ */
+public void setConnection
+        (XMPPConnection
+                connection) {
+    this.connection = connection;
+    if (connection != null) {
+        // Add a packet listener to get messages sent to us
+        PacketFilter filter = new MessageTypeFilter(Message.Type.chat);
+        connection.addPacketListener(new PacketListener() {
+            public void processPacket(Packet packet) {
+                Message message = (Message) packet;
+                if (message.getBody() != null) {
+                    String fromName = StringUtils.parseBareAddress(message.getFrom());
+                    Log.i(&quot;XMPPClient&quot;, &quot;Got text [&quot; + message.getBody() + &quot;] from [&quot; + fromName + &quot;]&quot;);
+                    messages.add(fromName + &quot;:&quot;);
+                    messages.add(message.getBody());
+                    // Add the incoming message to the list view
+                    mHandler.post(new Runnable() {
+                        public void run() {
+                            setListAdapter();
+                        }
+                    });
+                }
+            }
+        }, filter);
+    }
+}
+
+private void setListAdapter
+        () {
+    ArrayAdapter&amp;lt;String&amp;gt; adapter = new ArrayAdapter&amp;lt;String&amp;gt;(this,
+            R.layout.multi_line_list_item,
+            messages);
+    mList.setAdapter(adapter);
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;SettingDialog.java&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package org.apache.android.xmpp;
+
+import android.app.Dialog;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import org.jivesoftware.smack.ConnectionConfiguration;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.XMPPException;
+import org.jivesoftware.smack.packet.Presence;
+
+/**
+ * Gather the xmpp settings and create an XMPPConnection
+ */
+public class SettingsDialog extends Dialog implements android.view.View.OnClickListener {
+private XMPPClient xmppClient;
+
+public SettingsDialog(XMPPClient xmppClient) {
+    super(xmppClient);
+    this.xmppClient = xmppClient;
+}
+
+protected void onStart() {
+    super.onStart();
+    setContentView(R.layout.settings);
+    getWindow().setFlags(4, 4);
+    setTitle(&quot;XMPP Settings&quot;);
+    Button ok = (Button) findViewById(R.id.ok);
+    ok.setOnClickListener(this);
+}
+
+public void onClick(View v) {
+    String host = &quot;10.0.2.2&quot;;//getText(R.id.host);
+    String port = &quot;5222&quot;;//getText(R.id.port);
+    String service = &quot;@domain&quot;;//getText(R.id.service);
+    final String username = &quot;userid@domain&quot;;//getText(R.id.userid);
+    final String password = &quot;password&quot;;//getText(R.id.password);
+
+    // Create a connection
+    ConnectionConfiguration connConfig =
+            new ConnectionConfiguration(host, Integer.parseInt(port), service);
+    final XMPPConnection connection = new XMPPConnection(connConfig);
+
+    new Thread(new Runnable()
+    {
+        public void run()
+        {
+            try {
+                connection.connect();
+                Log.i(&quot;XMPPClient&quot;, &quot;[SettingsDialog] Connected to &quot; + connection.getHost());
+            } catch (XMPPException ex) {
+                Log.e(&quot;XMPPClient&quot;, &quot;[SettingsDialog] Failed to connect to &quot; + connection.getHost());
+                Log.e(&quot;XMPPClient&quot;, ex.toString());
+                xmppClient.setConnection(null);
+            }
+            try {
+                connection.login(username, password);
+                Log.i(&quot;XMPPClient&quot;, &quot;Logged in as &quot; + connection.getUser());
+
+                // Set the status to available
+                Presence presence = new Presence(Presence.Type.available);
+                connection.sendPacket(presence);
+                xmppClient.setConnection(connection);
+            } catch (XMPPException ex) {
+                Log.e(&quot;XMPPClient&quot;, &quot;[SettingsDialog] Failed to log in as &quot; + username);
+                Log.e(&quot;XMPPClient&quot;, ex.toString());
+                    xmppClient.setConnection(null);
+            }
+        }
+    }).start();
+
+    dismiss();
+}
+
+private String getText(int id) {
+    EditText widget = (EditText) this.findViewById(id);
+    return widget.getText().toString();
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please could anyone can help.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/14545340</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How to prevent mysql sleep injections?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-injection"/>
+        <author>
+            <name>dirtyhandsphp</name>
+            <uri>http://stackoverflow.com/users/1002795</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/14545340/how-to-prevent-mysql-sleep-injections" />
+        <published>2013-01-27T07:23:26Z</published>
+        <updated>2013-03-25T15:57:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Recently one hacker tried to slow the website using sleep injection. Although we are using precautions like &lt;strong&gt;mysql_real_escape_string()&lt;/strong&gt; to cover most of vulnerable inputs. we are passing id of the product through querystring and it makes the command as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$id = mysql_real_escape_string($_REQUEST[&#39;id&#39;]);
+$qry = &quot;Select * from products where id = &quot;.$id;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but hacker tried to provide input as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;?id=3 and sleep(4)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and query becomes&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Select * from products where id = 3 and sleep(4);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Although there are some possible solutions like
+1) Check if the product id is numeric or not
+2) Remove word sleep from input using some customized function&lt;/p&gt;
+
+&lt;p&gt;Is there any other method to stop this? or can you guys please help me which is the best method to prevent sleep injections.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

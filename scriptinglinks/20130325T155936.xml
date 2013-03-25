@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Mon, 25 Mar 2013 15:58:22 GMT</pubDate>
+		<lastBuildDate>Mon, 25 Mar 2013 15:58:22 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-25</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/25/2013; 11:58:22 AM</microblog:localTime>
+		<item>
+			<description>Little Outliner -- My first outliner in many many years. Runs in browser, written in JavaScript. Hope you like! :-)</description>
+			<link>http://3l9.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 15:58:21 GMT</pubDate>
+			<guid>http://3l9.r2.ly/?id=15800</guid>
+			<microblog:linkFull>http://littleoutliner.com/</microblog:linkFull>
+			</item>
+		<item>
+			<description>Small Picture: Little Outliner press guide.</description>
+			<link>http://3l8.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 25 Mar 2013 15:57:27 GMT</pubDate>
+			<guid>http://3l8.r2.ly/?id=15799</guid>
+			<microblog:linkFull>http://smallpicture.com/littleOutlinerPressGuide.html</microblog:linkFull>
+			</item>
+		<item>
+			<description>Things I wish I had known when starting Hipmunk.</description>
+			<link>http://3l6.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 11:39:22 GMT</pubDate>
+			<guid>http://3l6.r2.ly/?id=15798</guid>
+			<microblog:linkFull>http://www.tnooz.com/2013/03/25/news/things-i-wish-i-knew-when-starting-hipmunk/</microblog:linkFull>
+			<microblog:readCount>611</microblog:readCount>
+			</item>
+		<item>
+			<description>The Future of the Internet Is Still Ads -- And You&apos;re the Inventory.</description>
+			<link>http://3l5.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 10:57:05 GMT</pubDate>
+			<guid>http://3l5.r2.ly/?id=15797</guid>
+			<microblog:linkFull>http://www.wired.com/business/2013/03/marin-software-ipo/</microblog:linkFull>
+			<microblog:readCount>518</microblog:readCount>
+			</item>
+		<item>
+			<description>Is China engineering genius babies? Not exactly.</description>
+			<link>http://3l4.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 10:27:59 GMT</pubDate>
+			<guid>http://3l4.r2.ly/?id=15796</guid>
+			<microblog:linkFull>http://www.slate.com/articles/health_and_science/superman/2013/03/is_china_engineering_genius_babies_not_exactly.single.html</microblog:linkFull>
+			<microblog:readCount>494</microblog:readCount>
+			</item>
+		<item>
+			<description>Arikia: Leaving NYC.</description>
+			<link>http://3l3.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 02:58:20 GMT</pubDate>
+			<guid>http://3l3.r2.ly/?id=15795</guid>
+			<microblog:linkFull>http://millikandaily.com/2013/03/25/leaving-nyc/</microblog:linkFull>
+			<microblog:readCount>789</microblog:readCount>
+			</item>
+		<item>
+			<description>Derek Sivers on learning JavaScript.</description>
+			<link>http://3l2.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 02:08:15 GMT</pubDate>
+			<guid>http://3l2.r2.ly/?id=15794</guid>
+			<microblog:linkFull>http://sivers.org/learn-js</microblog:linkFull>
+			<microblog:readCount>824</microblog:readCount>
+			</item>
+		<item>
+			<description>Eloquent JavaScript.</description>
+			<link>http://3l1.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 02:07:13 GMT</pubDate>
+			<guid>http://3l1.r2.ly/?id=15793</guid>
+			<microblog:linkFull>http://eloquentjavascript.net/contents.html</microblog:linkFull>
+			<microblog:readCount>733</microblog:readCount>
+			</item>
+		<item>
+			<description>A format that he and @arrington and others ran a vicious campaign against. An open format that is good for the Internet.</description>
+			<pubDate>Mon, 25 Mar 2013 01:52:01 GMT</pubDate>
+			<guid isPermaLink="false">2295f88f616cfe726191d800ad3b3a18</guid>
+			</item>
+		<item>
+			<description>It&apos;s gracious to say he was wrong. He says now that RSS was responsible for a huge share of the flow on his blog.</description>
+			<link>http://3l0.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 01:51:15 GMT</pubDate>
+			<guid>http://3l0.r2.ly/?id=15791</guid>
+			<microblog:linkFull>http://techcrunch.com/2013/03/24/bees/</microblog:linkFull>
+			<microblog:readCount>1447</microblog:readCount>
+			</item>
+		<item>
+			<description>I would like to see @parislemon apologize for all his trash talk about RSS. Obviously he was wrong and now knows it.</description>
+			<link>http://3l0.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 01:48:59 GMT</pubDate>
+			<guid>http://3l0.r2.ly/?id=15790</guid>
+			<microblog:linkFull>http://techcrunch.com/2013/03/24/bees/</microblog:linkFull>
+			<microblog:readCount>1447</microblog:readCount>
+			</item>
+		<item>
+			<description>Do you see the white arrow in the FedEx logo?</description>
+			<link>http://3kz.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 01:38:00 GMT</pubDate>
+			<guid>http://3kz.r2.ly/?id=15789</guid>
+			<microblog:linkFull>http://www.fastcodesign.com/1671067/the-story-behind-the-famous-fedex-logo-and-why-it-works</microblog:linkFull>
+			<microblog:readCount>736</microblog:readCount>
+			</item>
+		<item>
+			<description>New York Public Library Blocks The Pirate Bay (and TorrentFreak).</description>
+			<link>http://3ky.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 01:35:59 GMT</pubDate>
+			<guid>http://3ky.r2.ly/?id=15788</guid>
+			<microblog:linkFull>http://torrentfreak.com/new-york-public-library-blocks-the-pirate-bay-and-torrentfreak-130320/</microblog:linkFull>
+			<microblog:readCount>458</microblog:readCount>
+			</item>
+		<item>
+			<description>Swallows are evolving to escape from a dangerous predator: the motor car.</description>
+			<link>http://3kw.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 00:47:32 GMT</pubDate>
+			<guid>http://3kw.r2.ly/?id=15787</guid>
+			<microblog:linkFull>http://www.economist.com/news/science-and-technology/21573949-swallows-are-evolving-escape-dangerous-predator-motor-car-road-kill?fsrc=scn%2Ftw%2Fte%2Fpe%2Froadkillstew</microblog:linkFull>
+			<microblog:readCount>535</microblog:readCount>
+			</item>
+		<item>
+			<description>How to Say Thanks And Improve Your Launch Day Success.</description>
+			<link>http://3kv.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 00:32:41 GMT</pubDate>
+			<guid>http://3kv.r2.ly/?id=15786</guid>
+			<microblog:linkFull>http://wadefoster.net/post/46139579305/how-to-say-thanks-and-improve-your-launch-day-success</microblog:linkFull>
+			<microblog:readCount>551</microblog:readCount>
+			</item>
+		<item>
+			<description>Jack in the Box&apos;s Hot Mess Burger Is Messy.</description>
+			<link>http://3ku.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 23:23:34 GMT</pubDate>
+			<guid>http://3ku.r2.ly/?id=15785</guid>
+			<microblog:linkFull>http://blogs.dallasobserver.com/cityofate/2013/02/breaking_jack_in_the_boxs_hot.php</microblog:linkFull>
+			<microblog:readCount>615</microblog:readCount>
+			</item>
+		<item>
+			<description>May Central Park&apos;s Unshakeable Faith That Spring Will Arrive Be An Example To Us All.</description>
+			<link>http://3kt.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 23:05:59 GMT</pubDate>
+			<guid>http://3kt.r2.ly/?id=15784</guid>
+			<microblog:linkFull>http://observer.com/2013/03/let-central-parks-unshakeable-faith-that-spring-will-arrive-be-an-example-to-us-all/</microblog:linkFull>
+			<microblog:readCount>553</microblog:readCount>
+			</item>
+		<item>
+			<description>Jeremy Lin Says Nerd Stereotype Fading as Harvard Gets NCAA Win.</description>
+			<link>http://3ks.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 22:37:10 GMT</pubDate>
+			<guid>http://3ks.r2.ly/?id=15783</guid>
+			<microblog:linkFull>http://www.bloomberg.com/news/2013-03-22/jeremy-lin-says-nerd-stereotype-fading-as-harvard-gets-ncaa-win.html</microblog:linkFull>
+			<microblog:readCount>489</microblog:readCount>
+			</item>
+		<item>
+			<description>F.A.A. May Loosen Curbs on Fliers&apos; Use of Electronics.</description>
+			<link>http://3kr.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 22:25:25 GMT</pubDate>
+			<guid>http://3kr.r2.ly/?id=15782</guid>
+			<microblog:linkFull>http://bits.blogs.nytimes.com/2013/03/24/disruptions-f-a-a-may-loosen-curbs-on-fliers-use-of-electronics/?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>552</microblog:readCount>
+			</item>
+		<item>
+			<description>Before @disqus updated, we had CSS that made comments more readable, but it broke in the upgrade. Ouch.</description>
+			<link>http://3kq.r2.ly/</link>
+			<pubDate>Sun, 24 Mar 2013 21:33:23 GMT</pubDate>
+			<guid>http://3kq.r2.ly/?id=15781</guid>
+			<microblog:linkFull>http://stackoverflow.com/questions/11942483/is-it-possible-to-override-css-in-disqus-2012-using-javascript-after-the-disqus</microblog:linkFull>
+			<microblog:readCount>543</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

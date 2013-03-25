@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-25T02:57:32-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c4052ba9dad9cc86cb3a1f0f8cb032514fa414be</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c4052ba9dad9cc86cb3a1f0f8cb032514fa414be"/>
+    <title>
+        Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+    </title>
+    <updated>2013-03-25T02:57:32-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/exynos/exynos_drm_fimd.c
+m drivers/gpu/drm/exynos/exynos_drm_g2d.c
+m drivers/gpu/drm/exynos/exynos_drm_gem.c
+m drivers/gpu/drm/exynos/exynos_drm_gem.h
+m drivers/gpu/drm/exynos/exynos_drm_vidi.c
+m drivers/gpu/drm/exynos/exynos_mixer.c
+m drivers/gpu/drm/i915/i915_drv.c
+m drivers/gpu/drm/i915/i915_drv.h
+m drivers/gpu/drm/i915/intel_display.c
+m drivers/gpu/drm/i915/intel_panel.c
+m drivers/gpu/drm/i915/intel_pm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+
+Pull drm fixes from Dave Airlie:
+ &quot;Exynos and Intel fixes.
+
+  The intel fixes are fairly straightforward, mostly reverts due to bugs
+  found.  The exynos one is a big larger since they found some issues
+  with the G2D engine and iommu interaction, and needed to verify the
+  operations a lot better than they were previously, otherwise a user
+  app can just crash the kernel with an iommu fault.&quot;
+
+* &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux:
+  Revert &quot;drm/i915: write backlight harder&quot;
+  drm/i915: don&#39;t disable the power well yet
+  Revert &quot;drm/i915: set TRANSCODER_EDP even earlier&quot;
+  drm/exynos: Check g2d cmd list for g2d restrictions
+  drm/exynos: Add a new function to get gem buffer size
+  drm/exynos: Deal with g2d buffer info more efficiently
+  drm/exynos: Clean up some G2D codes for readability
+  drm/exynos: Fix G2D core malfunctioning issue
+  drm/exynos: clear node object type at gem unmap
+  drm/exynos: Fix error routine to getting dma addr.
+  drm/exynos: Replaced kzalloc &amp; memcpy with kmemdup
+  drm/exynos: fimd: calculate the correct address offset
+  drm/exynos: Make mixer_check_timing static
+  drm/exynos: modify the compatible string for exynos fimd&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7ac8833f5920a4a58190743697c9c8920c2fab4e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/7ac8833f5920a4a58190743697c9c8920c2fab4e"/>
+    <title>
+        Merge branch &#39;drm-intel-fixes&#39; of git://people.freedesktop.org/~danvet/drm-intel into HEAD
+    </title>
+    <updated>2013-03-24T19:20:00-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/482d553e042192056107839bf3f6637e?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>airlied@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/i915/i915_drv.c
+m drivers/gpu/drm/i915/i915_drv.h
+m drivers/gpu/drm/i915/intel_display.c
+m drivers/gpu/drm/i915/intel_panel.c
+m drivers/gpu/drm/i915/intel_pm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;drm-intel-fixes&#39; of git://people.freedesktop.org/~danvet/drm-intel into HEAD
+
+Daniel writes:
+&quot;Just three revert/disable by default patches, one of them cc: stable
+(since the offending commit was cc: stable, too).&quot;
+
+* &#39;drm-intel-fixes&#39; of git://people.freedesktop.org/~danvet/drm-intel:
+  Revert &quot;drm/i915: write backlight harder&quot;
+  drm/i915: don&#39;t disable the power well yet
+  Revert &quot;drm/i915: set TRANSCODER_EDP even earlier&quot;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ac165b006bd877e240174edecd855d4eb005ffae</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ac165b006bd877e240174edecd855d4eb005ffae"/>
+    <title>
+        Merge branch &#39;exynos-drm-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into HEAD
+    </title>
+    <updated>2013-03-24T19:19:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/482d553e042192056107839bf3f6637e?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>airlied@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/exynos/exynos_drm_fimd.c
+m drivers/gpu/drm/exynos/exynos_drm_g2d.c
+m drivers/gpu/drm/exynos/exynos_drm_gem.c
+m drivers/gpu/drm/exynos/exynos_drm_gem.h
+m drivers/gpu/drm/exynos/exynos_drm_vidi.c
+m drivers/gpu/drm/exynos/exynos_mixer.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;exynos-drm-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into HEAD
+
+Inki writes:
+Includes bug fixes and code cleanups.
+And it considers some restrictions to G2D hardware.
+With this, the malfunction and page fault issues to g2d driver
+would be fixed.
+
+* &#39;exynos-drm-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos:
+  drm/exynos: Check g2d cmd list for g2d restrictions
+  drm/exynos: Add a new function to get gem buffer size
+  drm/exynos: Deal with g2d buffer info more efficiently
+  drm/exynos: Clean up some G2D codes for readability
+  drm/exynos: Fix G2D core malfunctioning issue
+  drm/exynos: clear node object type at gem unmap
+  drm/exynos: Fix error routine to getting dma addr.
+  drm/exynos: Replaced kzalloc &amp; memcpy with kmemdup
+  drm/exynos: fimd: calculate the correct address offset
+  drm/exynos: Make mixer_check_timing static
+  drm/exynos: modify the compatible string for exynos fimd&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3912a677f68f6084e0a7b6a1a29310ac1b083713</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/3912a677f68f6084e0a7b6a1a29310ac1b083713"/>
+    <title>
+        Merge tag &#39;pinctrl-fixes-for-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+    </title>
+    <updated>2013-03-24T10:11:29-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpio/gpiolib-of.c
+m drivers/pinctrl/mvebu/pinctrl-mvebu.c
+m drivers/pinctrl/pinconf.c
+m drivers/pinctrl/pinconf.h
+m drivers/pinctrl/pinctrl-abx500.c
+m drivers/pinctrl/pinmux.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;pinctrl-fixes-for-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+
+Pull pinctrl fixes from Linus Walleij:
+ &quot;Here are a few pinctrl fixes for the v3.9 rc series:
+   - Usecount bounds checking so we do not go below zero on mux
+     usecounts.
+   - Loop range checking in GPIO ranges in the DT range parser.
+   - Proper print in debugfs for pinconf state.
+   - Fix compilation bug in generic pinconf code.
+   - Minor bugfixes to abx500 and mvebu drivers.&quot;
+
+* tag &#39;pinctrl-fixes-for-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl:
+  pinmux: forbid mux_usecount to be set at UINT_MAX
+  pinctrl: mvebu: fix checking for SoC specific controls
+  pinctrl: generic: Fix compilation error
+  pinctrl: Print the correct information in debugfs pinconf-state file
+  pinctrl: abx500: Fix checking if pin use AlternateFunction register
+  gpio: fix wrong checking condition for gpio range&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/33b73e9b3ed450a000ad55901a92c22d70f3e92e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/33b73e9b3ed450a000ad55901a92c22d70f3e92e"/>
+    <title>
+        Merge branch &#39;x86/urgent&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-03-24T10:10:34-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/kernel/microcode_intel_early.c
+m arch/x86/lib/usercopy_64.c
+m drivers/firmware/Kconfig
+m drivers/firmware/efivars.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;x86/urgent&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull x86 fixes from Peter Anvin:
+ &quot;A collection of minor fixes, more EFI variables paranoia
+  (anti-bricking) plus the ability to disable the pstore either as a
+  runtime default or completely, due to bricking concerns.&quot;
+
+* &#39;x86/urgent&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  efivars: Fix check for CONFIG_EFI_VARS_PSTORE_DEFAULT_DISABLE
+  x86, microcode_intel_early: Mark apply_microcode_early() as cpuinit
+  efivars: Handle duplicate names from get_next_variable()
+  efivars: explicitly calculate length of VariableName
+  efivars: Add module parameter to disable use as a pstore backend
+  efivars: Allow disabling use as a pstore backend
+  x86-32, microcode_intel_early: Fix crash with CONFIG_DEBUG_VIRTUAL
+  x86-64: Fix the failure case in copy_user_handle_tail()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b1289371fcd580b4c412e6d05c4cb8ac8d277239</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b1289371fcd580b4c412e6d05c4cb8ac8d277239"/>
+    <title>
+        Revert &quot;drm/i915: write backlight harder&quot;
+    </title>
+    <updated>2013-03-24T05:23:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/7770a15dee3fab288538fceb4257cc5e?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>daniel.vetter@ffwll.ch</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/i915/intel_panel.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Revert &quot;drm/i915: write backlight harder&quot;
+
+This reverts commit cf0a6584aa6d382f802f2c3cacac23ccbccde0cd.
+
+Turns out that cargo-culting breaks systems. Note that we can&#39;t revert
+further, since
+
+commit 770c12312ad617172b1a65b911d3e6564fc5aca8
+Author: Takashi Iwai &lt;tiwai@suse.de&gt;
+Date:   Sat Aug 11 08:56:42 2012 +0200
+
+    drm/i915: Fix blank panel at reopening lid
+
+fixed a regression in 3.6-rc kernels for which we&#39;ve never figured out
+the exact root cause. But some further inspection of the backlight
+code reveals that it&#39;s seriously lacking locking. And especially the
+asle backlight update is know to get fired (through some smm magic)
+when writing specific backlight control registers. So the possibility
+of suffering from races is rather real.
+
+Until those races are fixed I don&#39;t think it makes sense to try
+further hacks. Which sucks a bit, but sometimes that&#39;s how it is :(
+
+References: http://www.mail-archive.com/intel-gfx@lists.freedesktop.org/msg18788.html
+Bugzilla: https://bugzilla.kernel.org/show_bug.cgi?id=47941
+Tested-by: Takashi Iwai &lt;tiwai@suse.de&gt;
+Cc: Jani Nikula &lt;jani.nikula@intel.com&gt;
+Cc: Takashi Iwai &lt;tiwai@suse.de&gt;
+Cc: stable@vger.kernel.org (the reverted commit was cc: stable, too)
+Signed-off-by: Daniel Vetter &lt;daniel.vetter@ffwll.ch&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2124b72e6283c4e84a55e71077fee91793f4c801</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/2124b72e6283c4e84a55e71077fee91793f4c801"/>
+    <title>
+        drm/i915: don&#39;t disable the power well yet
+    </title>
+    <updated>2013-03-24T05:22:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/03e73f995a8b7df482ad09838ceb98b6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>paulo.r.zanoni@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/i915/i915_drv.c
+m drivers/gpu/drm/i915/i915_drv.h
+m drivers/gpu/drm/i915/intel_pm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>drm/i915: don&#39;t disable the power well yet
+
+We&#39;re still not 100% ready to disable the power well, so don&#39;t disable
+it for now. When we disable it we break the audio driver (because some
+of the audio registers are on the power well) and machines with eDP on
+port D (because it doesn&#39;t use TRANSCODER_EDP).
+
+Also, instead of just reverting the code, add a Kernel option to let
+us disable it if we want. This will allow us to keep developing and
+testing the feature while it&#39;s not enabled.
+
+This fixes problems caused by the following commit:
+  commit d6dd9eb1d96d2b7345fe4664066c2b7ed86da898
+  Author: Daniel Vetter &lt;daniel.vetter@ffwll.ch&gt;
+  Date:   Tue Jan 29 16:35:20 2013 -0200
+       drm/i915: dynamic Haswell display power well support
+
+References: http://www.mail-archive.com/intel-gfx@lists.freedesktop.org/msg18788.html
+Cc: Takashi Iwai &lt;tiwai@suse.de&gt;
+Cc: Mengdong Lin &lt;mengdong.lin@intel.com&gt;
+Signed-off-by: Paulo Zanoni &lt;paulo.r.zanoni@intel.com&gt;
+Signed-off-by: Daniel Vetter &lt;daniel.vetter@ffwll.ch&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bba2181c49f1dddf8b592804a1b53cc1a3cf408a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/bba2181c49f1dddf8b592804a1b53cc1a3cf408a"/>
+    <title>
+        Revert &quot;drm/i915: set TRANSCODER_EDP even earlier&quot;
+    </title>
+    <updated>2013-03-24T05:22:32-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/7770a15dee3fab288538fceb4257cc5e?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>daniel.vetter@ffwll.ch</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/i915/intel_display.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Revert &quot;drm/i915: set TRANSCODER_EDP even earlier&quot;
+
+This reverts commit cc464b2a17c59adedbdc02cc54341d630354edc3.
+
+The reason is that Takashi Iwai reported a regression bisected to this
+commit:
+
+http://www.mail-archive.com/intel-gfx@lists.freedesktop.org/msg18788.html
+
+His machine has eDP on port D (usual desktop all-in-on setup), which
+intel_dp.c identifies as an eDP panel, but the hsw ddi code
+mishandles.
+
+Closer inspection of the code reveals that haswell_crtc_mode_set also
+checks intel_encoder_is_pch_edp when setting is_cpu_edp. On haswell
+that doesn&#39;t make much sense (since there&#39;s no edp on the pch), but
+what this function _really_ checks is whether that edp connector is on
+port A or port D. It&#39;s just that on ilk-ivb port D was on the pch ...
+
+So that explains why this seemingly innocent change killed eDP on port
+D. Furthermore it looks like everything else accidentally works, since
+we&#39;ve never enabled eDP on port D support for hsw intentionally (e.g.
+we still register the HDMI output for port D in that case).
+
+But in retrospective I also don&#39;t like that this leaks highly platform
+specific details into common code, and the reason is that the drm
+vblank layer sucks. So instead I think we should:
+- move the cpu_transcoder into the dynamic pipe_config tracking (once
+  that&#39;s merged).
+- fix up the drm vblank layer to finally deal with kms crtc objects
+  instead of int pipes.
+
+v2: Pimp commit message with the better diagnosis as discussed with
+Paulo on irc.
+
+Cc: Paulo Zanoni &lt;paulo.r.zanoni@intel.com&gt;
+Cc: Takashi Iwai &lt;tiwai@suse.de&gt;
+Reviewed-by: Paulo Zanoni &lt;paulo.r.zanoni@intel.com&gt;
+Signed-off-by: Daniel Vetter &lt;daniel.vetter@ffwll.ch&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b9726d9df8263fe756d2293ff01906f41f7d2776</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b9726d9df8263fe756d2293ff01906f41f7d2776"/>
+    <title>
+        Merge tag &#39;efi-for-3.9-rc4&#39; into x86/urgent
+    </title>
+    <updated>2013-03-23T21:49:51-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/94fc5944dd42729a2be89a74eeaa6038?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>hpa@linux.intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/firmware/efivars.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;efi-for-3.9-rc4&#39; into x86/urgent
+
+Signed-off-by: H. Peter Anvin &lt;hpa@linux.intel.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8bb9660418e05bb1845ac1a2428444d78e322cc7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/8bb9660418e05bb1845ac1a2428444d78e322cc7"/>
+    <title>
+        Linux 3.9-rc4
+    </title>
+    <updated>2013-03-23T16:52:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Makefile
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Linux 3.9-rc4&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a607a1143a58dcd31396649812df5cd3bb0d4294</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a607a1143a58dcd31396649812df5cd3bb0d4294"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending
+    </title>
+    <updated>2013-03-23T16:51:55-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/target/iscsi/iscsi_target_auth.c
+m drivers/target/target_core_file.h
+m drivers/target/target_core_pscsi.c
+m drivers/target/target_core_sbc.c
+m drivers/target/target_core_tpg.c
+m drivers/vhost/tcm_vhost.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending
+
+Pull SCSI target fixes from Nicholas Bellinger:
+ &quot;These are mostly minor fixes this time around.  The iscsi-target CHAP
+  big-endian bugfix and bump FD_MAX_SECTORS=2048 default patch to allow
+  1MB sized I/Os for FILEIO backends on &gt;= v3.5 code are both CC&#39;ed to
+  stable.
+
+  Also, there is a persistent reservations regression that has recently
+  been reported for &gt;= v3.8.x code, that is currently being tracked down
+  for v3.9.&quot;
+
+* git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending:
+  target/pscsi: Reject cross page boundary case in pscsi_map_sg
+  target/file: Bump FD_MAX_SECTORS to 2048 to handle 1M sized I/Os
+  tcm_vhost: Flush vhost_work in vhost_scsi_flush()
+  tcm_vhost: Add missed lock in vhost_scsi_clear_endpoint()
+  target: fix possible memory leak in core_tpg_register()
+  target/iscsi: Fix mutual CHAP auth on big-endian arches
+  target_core_sbc: use noop for SYNCHRONIZE_CACHE&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/22c3f2fff68abf1ccf88e1a72f61bfede7b91da0</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/22c3f2fff68abf1ccf88e1a72f61bfede7b91da0"/>
+    <title>
+        Merge tag &#39;md-3.9-fixes&#39; of git://neil.brown.name/md
+    </title>
+    <updated>2013-03-23T15:49:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/tile/configs/tilegx_defconfig
+m arch/tile/configs/tilepro_defconfig
+m drivers/md/md.c
+m drivers/md/md.h
+m drivers/md/raid5.c
+m drivers/md/raid5.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;md-3.9-fixes&#39; of git://neil.brown.name/md
+
+Pull md fixes from NeilBrown:
+ &quot;A few bugfixes for md
+
+   - recent regressions in raid5
+   - recent regressions in dmraid
+   - a few instances of CONFIG_MULTICORE_RAID456 linger
+
+  Several tagged for -stable&quot;
+
+* tag &#39;md-3.9-fixes&#39; of git://neil.brown.name/md:
+  md: remove CONFIG_MULTICORE_RAID456 entirely
+  md/raid5: ensure sync and DISCARD don&#39;t happen at the same time.
+  MD: Prevent sysfs operations on uninitialized kobjects
+  MD RAID5: Avoid accessing gendisk or queue structs when not available
+  md/raid5: schedule_construction should abort if nothing to do.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c8c1f16717b05a9f787e054ada1ddd6dbb910364</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c8c1f16717b05a9f787e054ada1ddd6dbb910364"/>
+    <title>
+        Merge tag &#39;upstream-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jgarzik/libata-dev
+    </title>
+    <updated>2013-03-23T12:33:36-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/ata/Kconfig
+m drivers/ata/ahci.c
+m drivers/ata/ata_piix.c
+m drivers/ata/libata-acpi.c
+m drivers/ata/pata_samsung_cf.c
+m drivers/ata/sata_fsl.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;upstream-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jgarzik/libata-dev
+
+Pull libata updates from Jeff Garzik:
+ &quot;Simple stuff.  See one-line summaries.&quot;
+
+* tag &#39;upstream-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jgarzik/libata-dev:
+  pata_samsung_cf: use module_platform_driver_probe()
+  [libata] Avoid specialized TLA&#39;s in ZPODD&#39;s Kconfig
+  libata-acpi.c: fix copy and paste mistake in ata_acpi_register_power_resource
+  sata_fsl: Remove redundant NULL check before kfree
+  ahci: Add Device IDs for Intel Wellsburg PCH
+  ata_piix: Add MODULE_PARM_DESC to prefer_ms_hyperv&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/df2a8f39cdecdf59be797b9c86b26f90b37321e7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/df2a8f39cdecdf59be797b9c86b26f90b37321e7"/>
+    <title>
+        Merge branch &#39;i2c/for-current&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+    </title>
+    <updated>2013-03-23T12:32:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Documentation/i2c/busses/i2c-diolan-u2c
+m MAINTAINERS
+m drivers/i2c/busses/i2c-ismt.c
+m drivers/i2c/busses/i2c-tegra.c
+m drivers/i2c/muxes/i2c-mux-pca9541.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;i2c/for-current&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+
+Pull i2c fixes from Wolfram Sang:
+ &quot;One bugfix for the tegra driver.  Two updates regarding email
+  addresses and MAINTAINERS which I like to have up-to-date so people
+  can be reached immediately.  While we are here, there is on PCI_ID
+  addition.&quot;
+
+* &#39;i2c/for-current&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux:
+  MAINTAINERS: add maintainer entry for atmel i2c driver
+  i2c: Fix my e-mail address in drivers and documentation
+  i2c: iSMT: add Intel Avoton DeviceIDs
+  i2c: tegra: check the clk_prepare_enable() return value&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a4e71e7937461730998cef56cc924fe731b4d345</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a4e71e7937461730998cef56cc924fe731b4d345"/>
+    <title>
+        Merge git://www.linux-watchdog.org/linux-watchdog
+    </title>
+    <updated>2013-03-23T12:30:39-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/watchdog/sp5100_tco.c
+m drivers/watchdog/sp5100_tco.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://www.linux-watchdog.org/linux-watchdog
+
+Pull watchdog fixes from Wim Van Sebroeck:
+ &quot;Fix a boot issues and correct the AcpiMmioSel bitmask in the
+  sp5100_tco watchdog device driver&quot;
+
+* git://www.linux-watchdog.org/linux-watchdog:
+  watchdog: sp5100_tco: Set the AcpiMmioSel bitmask value to 1 instead of 2
+  watchdog: sp5100_tco: Remove code that may cause a boot failure&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c19b3b0f6eed552952845e4ad908dba2113d67b4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c19b3b0f6eed552952845e4ad908dba2113d67b4"/>
+    <title>
+        KMS: fix EDID detailed timing frame rate
+    </title>
+    <updated>2013-03-23T10:46:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/35aa6ccda1bc53ae8fa9043e7e943a29?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>torsten@lst.de</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/drm_edid.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>KMS: fix EDID detailed timing frame rate
+
+When KMS has parsed an EDID &quot;detailed timing&quot;, it leaves the frame rate
+zeroed.  Consecutive (debug-) output of that mode thus yields 0 for
+vsync.  This simple fix also speeds up future invocations of
+drm_mode_vrefresh().
+
+While it is debatable whether this qualifies as a -stable fix I&#39;d apply
+it for consistency&#39;s sake; drm_helper_probe_single_connector_modes()
+does the same thing already for all probed modes.
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Torsten Duwe &lt;duwe@lst.de&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/16dad1d743d31a104a849c8944e6b9eb479f6cd7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/16dad1d743d31a104a849c8944e6b9eb479f6cd7"/>
+    <title>
+        KMS: fix EDID detailed timing vsync parsing
+    </title>
+    <updated>2013-03-23T10:46:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/35aa6ccda1bc53ae8fa9043e7e943a29?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>torsten@lst.de</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/drm_edid.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>KMS: fix EDID detailed timing vsync parsing
+
+EDID spreads some values across multiple bytes; bit-fiddling is needed
+to retrieve these.  The current code to parse &quot;detailed timings&quot; has a
+cut&amp;paste error that results in a vsync offset of at most 15 lines
+instead of 63.
+
+See
+
+   http://en.wikipedia.org/wiki/EDID
+
+and in the &quot;EDID Detailed Timing Descriptor&quot; see bytes 10+11 show why
+that needs to be a left shift.
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Torsten Duwe &lt;duwe@lst.de&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5da273fe3fd137c6ae4acf74b7449500f5e4dc09</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5da273fe3fd137c6ae4acf74b7449500f5e4dc09"/>
+    <title>
+        Merge git://git.infradead.org/users/willy/linux-nvme
+    </title>
+    <updated>2013-03-22T16:43:53-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+m drivers/block/nvme.c
+m include/linux/nvme.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.infradead.org/users/willy/linux-nvme
+
+Pull NVMe driver update from Matthew Wilcox:
+ &quot;These patches have mostly been baking for a few months; sorry I didn&#39;t
+  get them in during the merge window.  They&#39;re all bug fixes, except
+  for the addition of the SMART log and the addition to MAINTAINERS.&quot;
+
+* git://git.infradead.org/users/willy/linux-nvme:
+  NVMe: Add namespaces with no LBA range feature
+  MAINTAINERS: Add entry for the NVMe driver
+  NVMe: Initialize iod nents to 0
+  NVMe: Define SMART log
+  NVMe: Add result to nvme_get_features
+  NVMe: Set result from user admin command
+  NVMe: End queued bio requests when freeing queue
+  NVMe: Free cmdid on nvme_submit_bio error&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/14629ed31467741d12f342c95621900646173519</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/14629ed31467741d12f342c95621900646173519"/>
+    <title>
+        Merge branch &#39;akpm&#39; (fixes from Andrew)
+    </title>
+    <updated>2013-03-22T16:41:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/rtc/rtc-at91rm9200.c
+m drivers/rtc/rtc-at91rm9200.h
+m drivers/rtc/rtc-da9052.c
+m drivers/video/ep93xx-fb.c
+m include/linux/irq_work.h
+m include/linux/kernel.h
+m include/linux/mmzone.h
+m include/linux/printk.h
+m ipc/mqueue.c
+m kernel/printk.c
+m kernel/sys.c
+m lib/bust_spinlocks.c
+m lib/dma-debug.c
+m mm/hugetlb.c
+m mm/memory_hotplug.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;akpm&#39; (fixes from Andrew)
+
+Merge misc fixes from Andrew Morton.
+
+* emailed patches from Andrew Morton &lt;akpm@linux-foundation.org&gt;:
+  mqueue: sys_mq_open: do not call mnt_drop_write() if read-only
+  mm/hotplug: only free wait_table if it&#39;s allocated by vmalloc
+  dma-debug: update DMA debug API to better handle multiple mappings of a buffer
+  dma-debug: fix locking bug in check_unmap()
+  drivers/rtc/rtc-at91rm9200.c: use a variable for storing IMR
+  drivers/video/ep93xx-fb.c: include &lt;linux/io.h&gt; for devm_ioremap()
+  drivers/rtc/rtc-da9052.c: fix for rtc device registration
+  mm: zone_end_pfn is too small
+  poweroff: change orderly_poweroff() to use schedule_work()
+  mm/hugetlb: fix total hugetlbfs pages count when using memory overcommit accouting
+  printk: Provide a wake_up_klogd() off-case
+  irq_work.h: fix warning when CONFIG_IRQ_WORK=n&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/38d78e587d4960d0db94add518d27ee74bad2301</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/38d78e587d4960d0db94add518d27ee74bad2301"/>
+    <title>
+        mqueue: sys_mq_open: do not call mnt_drop_write() if read-only
+    </title>
+    <updated>2013-03-22T16:41:21-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/665ad35243f663b932ceafebf74259ee?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>vdavydov@parallels.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m ipc/mqueue.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>mqueue: sys_mq_open: do not call mnt_drop_write() if read-only
+
+mnt_drop_write() must be called only if mnt_want_write() succeeded,
+otherwise the mnt_writers counter will diverge.
+
+mnt_writers counters are used to check if remounting FS as read-only is
+OK, so after an extra mnt_drop_write() call, it would be impossible to
+remount mqueue FS as read-only.  Besides, on umount a warning would be
+printed like this one:
+
+  =====================================
+  [ BUG: bad unlock balance detected! ]
+  3.9.0-rc3 #5 Not tainted
+  -------------------------------------
+  a.out/12486 is trying to release lock (sb_writers) at:
+  mnt_drop_write+0x1f/0x30
+  but there are no more locks to release!
+
+Signed-off-by: Vladimir Davydov &lt;vdavydov@parallels.com&gt;
+Cc: Doug Ledford &lt;dledford@redhat.com&gt;
+Cc: KOSAKI Motohiro &lt;kosaki.motohiro@jp.fujitsu.com&gt;
+Cc: &quot;Eric W. Biederman&quot; &lt;ebiederm@xmission.com&gt;
+Cc: Al Viro &lt;viro@zeniv.linux.org.uk&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+</feed>

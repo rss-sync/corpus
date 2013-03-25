@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Make WordPress Core</title>
+	<atom:link href="https://make.wordpress.org/core/feed/" rel="self" type="application/rss+xml" />
+	<link>https://make.wordpress.org/core</link>
+	<description>WordPress Development Updates</description>
+	<lastBuildDate>Fri, 22 Mar 2013 23:00:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.6-alpha-23791</generator>
+	<atom:link rel='hub' href='https://make.wordpress.org/core/?pushpress=hub'/>
+		<item>
+		<title>Twenty Thirteen project update, March 19, 2013</title>
+		<link>https://make.wordpress.org/core/2013/03/19/twenty-thirteen-project-update-march-19-2013/</link>
+		<comments>https://make.wordpress.org/core/2013/03/19/twenty-thirteen-project-update-march-19-2013/#comments</comments>
+		<pubDate>Tue, 19 Mar 2013 19:32:47 +0000</pubDate>
+		<dc:creator>Lance Willett</dc:creator>
+				<category><![CDATA[post]]></category>
+		<category><![CDATA[3.6]]></category>
+		<category><![CDATA[theme]]></category>
+		<category><![CDATA[twentythirteen]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/?p=3141</guid>
+		<description><![CDATA[We&#8217;re in great shape to get to beta. Here is what we&#8217;re working on right now. Blocking older installs Tracked in #23819 — since Twenty Thirteen is 3.6+ only, older installs could see errors. We&#8217;d like to come up with a graceful way to not allow older versions of WordPress to install and run Twenty [...]]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;re in great shape to get to beta. Here is what we&#8217;re working on right now.</p>
+<p><strong>Blocking older installs</strong></p>
+<p>Tracked in<a href="http://core.trac.wordpress.org/ticket/23819"> #23819</a> — since Twenty Thirteen is 3.6+ only, older installs could see errors. We&#8217;d like to come up with a graceful way to not allow older versions of WordPress to install and run Twenty Thirteen.</p>
+<p>Maybe a nag function in the theme that puts up a warning? Forcing a change the previously activated theme upon activation? What are your thoughts?</p>
+<p>Relates to<a href="http://core.trac.wordpress.org/ticket/13780"> #13780</a> also.</p>
+<p><strong>Post formats integration</strong></p>
+<p>See<a href="http://core.trac.wordpress.org/ticket/23619"> #23619</a>,<a href="http://core.trac.wordpress.org/ticket/23620"> #23620</a>, and<a href="http://core.trac.wordpress.org/ticket/23621"> #23621</a> — we are waiting on the core functionality to be committed before we can change the theme code (images, videos, galleries, links).</p>
+<p><strong>Recently completed</strong></p>
+<ul>
+<li>HTML5 improvements to comment list, comment form, and search form (yay!)<a href="http://core.trac.wordpress.org/ticket/22005"> #22005</a>,<a href="http://core.trac.wordpress.org/ticket/23702"> #23702</a>, and<a href="http://core.trac.wordpress.org/ticket/23701"> #23701</a></li>
+<li>Solidify footer positioning when no JavaScript or no Masonry script available:<a href="http://core.trac.wordpress.org/ticket/23771"> #23771</a></li>
+<li>More gallery visual fixes:<a href="http://core.trac.wordpress.org/ticket/23773"> #23773</a> and<a href="http://core.trac.wordpress.org/ticket/23769"> #23769</a></li>
+</ul>
+<p><strong>Open issues</strong></p>
+<p>Here is a link to <a href="http://core.trac.wordpress.org/query?status=accepted&amp;status=assigned&amp;status=new&amp;status=reopened&amp;status=reviewing&amp;component=Bundled+Theme&amp;summary=~Thirteen&amp;group=milestone&amp;col=id&amp;col=summary&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=milestone&amp;order=priority">open tickets</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/03/19/twenty-thirteen-project-update-march-19-2013/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		</item>
+		<item>
+		<title>GSoC 2013</title>
+		<link>https://make.wordpress.org/core/2013/03/19/gsoc-2013/</link>
+		<comments>https://make.wordpress.org/core/2013/03/19/gsoc-2013/#comments</comments>
+		<pubDate>Tue, 19 Mar 2013 18:07:40 +0000</pubDate>
+		<dc:creator>Jen Mylo</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[gsoc]]></category>
+		<category><![CDATA[gsoc2013]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/2013/03/19/gsoc-2013/</guid>
+		<description><![CDATA[It&#8217;s time for us to apply for GSoC 2013 if we want to participate. I can take care of the application, but will need everyone&#8217;s help in producing the project ideas and mentor sections. &#8220;Why didn&#8217;t we get accepted last year?&#8221; We didn&#8217;t get accepted last year because our Ideas page wasn&#8217;t as good as [...]]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s time for us to apply for GSoC 2013 if we want to participate. I can take care of the application, but will need everyone&#8217;s help in producing the project ideas and mentor sections. </p>
+<h3>&#8220;Why didn&#8217;t we get accepted last year?&#8221;</h3>
+<p>We didn&#8217;t get accepted last year because our Ideas page wasn&#8217;t as good as it had been in past years, and they wanted to make room for some new orgs, so we got cut. Our ideas page wasn&#8217;t great because we were planning to embed students in regular cycle feature teams, but we didn&#8217;t write up all the potential features this might have included. This year we need to write out all the possible features. </p>
+<h3>PROJECT IDEAS:</h3>
+<p>The more project ideas the better, so things that aren&#8217;t targeted for the next cycle but that we might want to do as a plugin to get some traction for inclusion in a later release would be great projects, too. Project ideas can include core features, plugins, themes, unit tests, etc. This includes work on .org site things like the plugin used to power WordCamp sites. The projects must be <strong>code</strong>, though, not design, documentation, etc. List your project ideas in a comment on this post. Please give it a title, and a short one-paragraph description. If there&#8217;s a ticket or relevant thread somewhere, link to it. </p>
+<h3>POTENTIAL MENTORS:</h3>
+<p>Want to volunteer to be a mentor? You need to be good enough with wp coding that you currently don&#8217;t need oversight to generally get it right (though obviously we all can get better with more eyes on code), and have enough time to be available to your student for feedback and code review (at least once per week, though more often is better). The time commitment can be anywhere from one hour to ten hours per week, depending on how far along your student&#8217;s project is, and what there is for you to review (an hour or two a week is typical). You get a GSoC tshirt at the end. Want to be a mentor? Leave a comment on this post with a short/one-paragraph little bio about yourself, what kinds of projects you are interested in/qualified to mentor, and links to your website, wordpress.org profile, and twitter account.</p>
+<h3>LEAD DEVELOPERS:</h3>
+<p>I know you are right smack dab in trying to get this release out, which is why I&#8217;ll take care of the application and associated materials. That said, I&#8217;m a bit out of the loop with core plans, so coming up with the potential projects list on my own would mean they might not mesh with the actual goals/plans of core team very well. I&#8217;ll be looking to you guys to give me a sense of priority/possible plans for the next dev cycle, and to tell me who is qualified to mentor a project from the final list of volunteers. Will ping you offline for this.</p>
+<p>Not sure how to write up a project idea or your short mentor bio? Take a look at the <a href="http://codex.wordpress.org/GSoC2011">ideas page from 2011</a> for a guide.</p>
+<p>Note 1: This year BuddyPress will be applying as a standalone organization with WP as the vouching organization. I&#8217;ll be helping Paul Gibbs get their application going.</p>
+<p>Note 2: I haven&#8217;t announced it yet since it just happened, but we&#8217;ve been accepted as a mentoring organization for the <a href="https://live.gnome.org/OutreachProgramForWomen">Gnome Outreach Program for Women</a> for the summer session. Unlike GSoC, where Google foots the bill, we&#8217;ll have to raise the money to cover our interns for the Gnome program, so I&#8217;ll announce it along with a fundraising drive. The Gnome program is a little broader than GSoC, and does allow non-code projects, so things like design, ux, documentation, translation, community management, etc would all be possibilities there.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/03/19/gsoc-2013/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>Post Formats UI Update, 3/14</title>
+		<link>https://make.wordpress.org/core/2013/03/15/post-formats-ui-update-314/</link>
+		<comments>https://make.wordpress.org/core/2013/03/15/post-formats-ui-update-314/#comments</comments>
+		<pubDate>Fri, 15 Mar 2013 07:49:24 +0000</pubDate>
+		<dc:creator>Helen Hou-Sandi</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[3.6]]></category>
+		<category><![CDATA[post formats]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/?p=3106</guid>
+		<description><![CDATA[As noted in The Road to 3.6 Beta 1, we&#8217;ve got quite a bit going on for post formats. Many of the tickets are in need of testing (including unit tests) and then a commit. As always, there are a few different fronts: UI/administration, data, and parsing. Here&#8217;s where we are with each, and what [...]]]></description>
+				<content:encoded><![CDATA[<p>As noted in <a href="http://make.wordpress.org/core/2013/03/13/the-road-to-3-6-beta-1/">The Road to 3.6 Beta 1</a>, we&#8217;ve got quite a bit going on for post formats. Many of the tickets are in need of testing (including unit tests) and then a commit. As always, there are a few different fronts: UI/administration, data, and parsing. Here&#8217;s where we are with each, and what needs to get done. There&#8217;s a large variety of tasks here, and we are seeking contributors to help <img src='https://make.wordpress.org/core/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p><span id="more-3106"></span></p>
+<h3>UI / Administration</h3>
+<p><strong>Main ticket:<a href="http://core.trac.wordpress.org/ticket/19570"> #19570</a></strong></p>
+<p>@melchoyce <a href="http://cl.ly/072V1j1H1i3o">refreshed the layout wireframes</a> and we ran them by <a href='https://make.wordpress.org/core/mentions/jenmylo/' class='mention'>@jenmylo</a> for a gut check. The wireframes linked are for reference to see progression &#8211; quite a bit will be different, notably that the collapsing content editor will not actually do that and we probably won&#8217;t be able to get so adventurous with the status format. We are going to do the following and should aim for a commit addressing a good portion of this in the next several days:</p>
+<ul>
+<li>Remove the separate meta and field display for the image and gallery formats. Though it&#8217;s nice to guide a user through via UI, the image format did not really pose any issues in the user testing, and the whole uncoupled multiple gallery shift in 3.5 makes a separate field less sensible. With good parsing, just the content area should be enough for both. Image also still has the featured image metabox, which is confusing. One thing that we should try doing is having the &#8220;Add Media&#8221; button open the modal in the &#8220;Create Gallery&#8221; panel by default if in the gallery format. Knowing about galleries at all was an issue in user testing, not related to the post format.</li>
+<li><a href='https://make.wordpress.org/core/mentions/lessbloat/' class='mention'>@lessbloat</a> proposed a dropdown selector, in these mockups placed by the title: <a href="http://make.wordpress.org/core/2013/02/22/post-formats-ui-update-221/#comment-8182" rel="nofollow">http://make.wordpress.org/core/2013/02/22/post-formats-ui-update-221/#comment-8182</a>. Anything is better than tabs for this interaction, and I&#8217;m sorry that I used them even temporarily as they clearly became a distraction, so we are going to keep the dropdown idea, but try putting it where the screen icon is, per suggestion from Jen.</li>
+<li>@melchoyce is making some changes to the icons she&#8217;s been working on: <a href="http://core.trac.wordpress.org/ticket/19570#comment:78" rel="nofollow">http://core.trac.wordpress.org/ticket/19570#comment:78</a>. The standard post icon will be the pin, the gallery icon will become the image icon (since images are not necessarily photos), and the gallery icon should be something like the image icon with a stack behind it.</li>
+<li><a href='https://make.wordpress.org/core/mentions/lessbloat/' class='mention'>@lessbloat</a> is going to experiment with what can be done to make TinyMCE less intrusive in some formats where it&#8217;s not as much of a focal point, such as quote, audio, and video. Have warned him about what it means to re-initialize TinyMCE, but teeny mode seems that it would be ideal, and perhaps hide the Add Media button / move it into the TinyMCE toolbar instead, especially for the audio/video formats, so it doesn&#8217;t confuse the user as to what they should be using for which.</li>
+<li>Title should be somehow de-emphasized for some formats: aside, status, and image come to mind. A toggle to edit comes to mind, maybe like the way permalink slugs are edited. Titles need to be filled in based on content for those formats, a la P2. Might be nice to try to do something smart with image, like detecting an alt or title attribute for the fill-in, but at the very least, something better than (no title) or Auto Draft. This is less important for a second commit, but <strong>needs a body</strong>.</li>
+<li>Audio and video should have inline previews, whether it&#8217;s of oEmbed response, rendered HTML (sanitized per user cap, of course), or a media library item. We should hook up the media modal if possible, especially with the insert from URL panel. Related: #15490 (see farther below for more details on the ticket). <strong>Needs a body or bodies.</strong></li>
+<li>Screen option: no longer sure we actually need this with the less obtrusive dropdown for format selection, but if we keep it, it should just hide the switcher.</li>
+<li>No-JS: probably means a select dropdown (which should be the non-visible input that is changing with JS on) with a submit button next to it that saves a draft with that format, which will thereby change the screen once it loads again. Not sure what that means for a published post, though. Ideas about execution in that regard are very welcome. <strong>Needs a body or bodies.</strong></li>
+<li>Accessibility: need to check on ordering when tabbing through fields and make sure things like labels are done correctly. Also should make sure the switcher is accessible. <strong>Needs a body or bodies.</strong></li>
+</ul>
+<p><strong>Other tickets and tasks:</strong></p>
+<ul>
+<li><a href="http://core.trac.wordpress.org/ticket/23198">#23198</a> &#8211; TinyMCE class. <a href='https://make.wordpress.org/core/mentions/azaozz/' class='mention'>@azaozz</a> said he will take a look and get it polished and committed. Looking for it to be there on init as well as dynamically changing with the format. Hooray for editor styles <img src='https://make.wordpress.org/core/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </li>
+<li><strong></strong><a href="http://core.trac.wordpress.org/ticket/16047">#16047</a> &#8211; list table display/filtering. Once we have icons, we should drop those into place next to the post title, with each icon linking to filter the list table down to that format, and lose the column that was added. &#8220;Standard&#8221; (the pin) should not show.</li>
+<li><a href="http://core.trac.wordpress.org/ticket/23539">#23539</a> &#8211; previewing. Format should be dealt with the way category is (taxonomy); formats with meta fields are trickier to deal with given that post meta is not stored separately for revisions. <strong>Not sure where this stands.</strong></li>
+</ul>
+<p><strong>Bonus:</strong> @ryelle is working on a dashboard widget for one-click entry into writing a post in a given format, which should help with discoverability. Have suggested that work on this be done as a plugin for a couple reasons &#8211; so patches don&#8217;t go stale and so that if it doesn&#8217;t quite make it to core for one reason or another (whether that&#8217;s functionality or decision that it&#8217;s not for core), it&#8217;s available as something usable for those who want it and/or for user testing and data collection.</p>
+<h3>Data</h3>
+<ul>
+<li><a href="http://core.trac.wordpress.org/ticket/23347">#23347</a> — Theme fallback output. We need to remove gallery and image fallbacks along with removing them as separate meta. This needs some more work regarding more/excerpts and probably pagination as well &#8211; see <a href="http://core.trac.wordpress.org/ticket/23347#comment:41" rel="nofollow">http://core.trac.wordpress.org/ticket/23347#comment:41</a> for more details. Seems that placement before/after needs to be different per different formats &#8211; link should default to after as it is now, but audio, video, and quote should probably be before the_content. <strong>Needs a body.</strong></li>
+<li><a href="http://core.trac.wordpress.org/ticket/23282">#23282</a> &#8211; HTML5 audio / video and<a href="http://core.trac.wordpress.org/ticket/23673"> #23673</a> — video / audio metadata. These need to drop in together, and we should do it soon and let it soak. We can test patches all day, but nothing beats getting it into trunk for a wider audience and set of environments. There are concerns about needing jQuery on the front, but in the last dev chat we decided to at least drop it in and let it soak. <strong>Needs lead dev eye and blessing for commit ASAP, please.</strong></li>
+<li><a href="http://core.trac.wordpress.org/ticket/23726">#23726</a> — Show Audio and Video previews on Edit Attachment screen. Pretty much comes with the above.</li>
+<li>Provided that the link and quote formats continue to use a separate field for URL, they should probably be added to the pingback URLs. See<a href="http://core.trac.wordpress.org/ticket/18506"> #18506</a>.</li>
+<li>Meta doesn&#8217;t delete, because it&#8217;s not passed in $_POST if empty. Likely not a particularly complicated fix.</li>
+</ul>
+<h3>Parsing</h3>
+<p><strong>Tracking ticket:<a href="http://core.trac.wordpress.org/ticket/23725"> #23725</a></strong></p>
+<p>So many thanks to @wonderboymusic for leading the charge here. These need a commit very soon so that Twenty Thirteen can move on with practical usage. The biggest use cases are going to be image and gallery formats, as well as new theme, old data. Parsing functions will be available for use by devs, and in core should be used as fallbacks in the get_post_format_meta() function.</p>
+<ul>
+<li><a href="http://core.trac.wordpress.org/ticket/22960">#22960</a> — Extract images from content, attached to post, gallery, or arbitrary string. Has unit tests and patch. <strong>Needs testing and a lead dev eye and blessing.</strong></li>
+<li><a href="http://core.trac.wordpress.org/ticket/23570">#23570</a> — Extract a URL from an arbitrary string, HTML, or the current $post. Has unit tests and patch. <strong>Needs testing and a lead dev eye and blessing.</strong></li>
+<li><a href="http://core.trac.wordpress.org/ticket/23572">#23572</a> — Parse Audio / Video data out of arbitrary content or a post. Has patch, needs unit tests. Needs<a href="http://core.trac.wordpress.org/ticket/23282"> #23282</a> to go in first.</li>
+<li><a href="http://core.trac.wordpress.org/ticket/23625">#23625</a> — Parse chat as structured data. Has patch and unit tests, but needs to be scaled back and just allow for added formats (regex patterns) via plugins. Suggest that it just be split by lines, ignoring empties, with anything before the first colon becoming the label for that line (screen name, speaker, whatever you want to call it).</li>
+</ul>
+<h3>Documentation</h3>
+<ul>
+<li>Will need screen help text, possibly/probably its own panel. If we keep the screen option for post formats, would be smart to hide the panel if toggled off.</li>
+<li>Codex will need attention. I know of <a href="http://codex.wordpress.org/Post_Formats" rel="nofollow">http://codex.wordpress.org/Post_Formats</a>. Seems that user documentation needs to be separated from theme dev documentation.</li>
+</ul>
+<h3>Otherwise related</h3>
+<ul>
+<li><a href="http://core.trac.wordpress.org/ticket/15490">#15490</a> &#8211; oEmbed preview for insert from URL in media modal. We found in user testing that users go back to this panel for all sorts of things, including YouTube URLs and the like. There&#8217;s a working patch from <a href='https://make.wordpress.org/core/mentions/jtsternberg/' class='mention'>@jtsternberg</a> that could use a little finessing. The Ajax action is probably going to be helpful with audio/video inline previews on the edit post screen.</li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/03/15/post-formats-ui-update-314/feed/</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		</item>
+		<item>
+		<title>The Road to 3.6 Beta 1</title>
+		<link>https://make.wordpress.org/core/2013/03/13/the-road-to-3-6-beta-1/</link>
+		<comments>https://make.wordpress.org/core/2013/03/13/the-road-to-3-6-beta-1/#comments</comments>
+		<pubDate>Wed, 13 Mar 2013 19:51:37 +0000</pubDate>
+		<dc:creator>Mark Jaquith</dc:creator>
+				<category><![CDATA[post]]></category>
+		<category><![CDATA[3.6]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/?p=3112</guid>
+		<description><![CDATA[Our original schedule had us hitting beta 1 today, March 13th. We&#8217;re not quite there. Beta should mean that we&#8217;re feature complete, and we&#8217;re not. We could do what we&#8217;ve done in the past, and declare a beta, while continuing to do feature work, but that just devalues the meaning of &#8220;beta&#8221;. I want people [...]]]></description>
+				<content:encoded><![CDATA[<p>Our original schedule had us hitting beta 1 today, March 13th. We&#8217;re not quite there. Beta should mean that we&#8217;re feature complete, and we&#8217;re not. We could do what we&#8217;ve done in the past, and declare a beta, while continuing to do feature work, but that just devalues the meaning of &#8220;beta&#8221;. I want people in the WordPress ecosystem to trust that when we say &#8220;beta&#8221;, that means we&#8217;re feature complete and that they should start seriously testing their themes and plugins against trunk for issues. If we continue with feature development during the beta period, that will just shove back everyone&#8217;s testing to the RC period, which will translate to more issues going unnoticed and tarnishing the release.</p>
+<p>Consequently, I&#8217;m pushing the beta date back two weeks, to March 27th, and the release back one week to April 29th. If our beta period is actually a beta period (to work on bugs,  not features), three weeks should be plenty of time. Ditto for the two-week RC period, for major bugs. We&#8217;ve needed longer periods in the past because we&#8217;ve been doing major feature development through the beta period and into the RC period, which, as mentioned above, I don&#8217;t want to do again.</p>
+<p>Here is the major new-feature or new-feature-related stuff that needs to be settled and land in core (if they are going in at all) in the next two weeks (front-loaded as much as possible). Let&#8217;s redouble our efforts and get this sorted so we can get a beta out the door.</p>
+<p><strong>Revisions</strong></p>
+<ul>
+<li id="p2-task-3112-1"><label><input type="checkbox" name="p2_task[3112][1]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][1]" value="o" /><a href="http://core.trac.wordpress.org/ticket/16215"> #16215</a> – Revisions author &#8220;off by one&#8221; bug</label></li>
+<li id="p2-task-3112-2"><label><input type="checkbox" name="p2_task[3112][2]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][2]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23497"> #23497</a> — Finalize UI</label></li>
+</ul>
+<p><strong>Post Format UI</strong></p>
+<ul>
+<li id="p2-task-3112-3"><label><input type="checkbox" name="p2_task[3112][3]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][3]" value="o" /><a href="http://core.trac.wordpress.org/ticket/20564"> #20564</a> — Post meta revisions for PF meta</label></li>
+<li id="p2-task-3112-4"><label><input type="checkbox" name="p2_task[3112][4]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][4]" value="o" /><a href="http://core.trac.wordpress.org/ticket/19570"> #19570</a> — <i>Main UI tracking ticket</i></label></li>
+<li id="p2-task-3112-5"><label><input type="checkbox" name="p2_task[3112][5]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][5]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23282">#23282</a> — Add shortcodes for inline HTML5 audio / video (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-6"><label><input type="checkbox" name="p2_task[3112][6]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][6]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23673">#23673</a> — Add functions to generate metadata for video / audio (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-7"><label><input type="checkbox" name="p2_task[3112][7]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][7]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23198">#23198</a> — Pass post format as a class to TinyMCE init (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-8"><label><input type="checkbox" name="p2_task[3112][8]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][8]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/16047">#16047</a> — Post format display on edit.php (waiting on icons) (<a href='https://make.wordpress.org/core/mentions/helen/' class='mention'>@helen</a>)</del></label></li>
+<li id="p2-task-3112-9"><label><input type="checkbox" name="p2_task[3112][9]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][9]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23725"> #23725</a> — <i>Parsing tracking ticket</i></label></li>
+<li id="p2-task-3112-10"><label><input type="checkbox" name="p2_task[3112][10]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][10]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23726">#23726</a> — Show Audio and Video previews on Edit Attachment screen (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-11"><label><input type="checkbox" name="p2_task[3112][11]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][11]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/22960">#22960</a> — Add functions to extract images from content, attached to post, [gallery], or arbitrary string (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-12"><label><input type="checkbox" name="p2_task[3112][12]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][12]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23570">#23570</a> — Add functions to extract a URL from an arbitrary string, HTML, or the current $post (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-13"><label><input type="checkbox" name="p2_task[3112][13]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][13]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23572">#23572</a> — Add functions to parse Audio / Video data out of arbitrary content or a post (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-14"><label><input type="checkbox" name="p2_task[3112][14]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][14]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23625"> #23625</a> — Add function to extract or parse chat as structured data</label></li>
+<li id="p2-task-3112-15"><label><input type="checkbox" name="p2_task[3112][15]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][15]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23347"> #23347</a> — Theme fallbacks for post format meta data</label></li>
+</ul>
+<p><strong>Twenty Thirteen</strong></p>
+<ul>
+<li id="p2-task-3112-16"><label><input type="checkbox" name="p2_task[3112][16]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][16]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23619"> #23619</a> — use new URL extraction function for link post format</label></li>
+<li id="p2-task-3112-17"><label><input type="checkbox" name="p2_task[3112][17]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][17]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23620"> #23620</a> — extract video or image from post content and place above the title and post content</label></li>
+<li id="p2-task-3112-18"><label><input type="checkbox" name="p2_task[3112][18]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][18]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23621"> #23621</a> — use core functionality to find first image in gallery post format</label></li>
+<li id="p2-task-3112-19"><label><input type="checkbox" name="p2_task[3112][19]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][19]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/15080">#15080</a> — Comment Form Should use HTML5 input types (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-20"><label><input type="checkbox" name="p2_task[3112][20]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][20]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/20088">#20088</a> — Improve wp_list_comments() markup (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+</ul>
+<p><strong>Post locking</strong></p>
+<ul>
+<li id="p2-task-3112-21"><label><input type="checkbox" name="p2_task[3112][21]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][21]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23665">#23665</a> — One autosave per user per post — has patch needs testing and commit (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-22"><label><input type="checkbox" name="p2_task[3112][22]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][22]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23697"> #23697</a> — Needs some UI love for the lockout message and work around the avatar code</label></li>
+</ul>
+<p><strong>Nav Menus</strong></p>
+<ul>
+<li id="p2-task-3112-23"><label><input type="checkbox" name="p2_task[3112][23]" disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][23]" value="o" /><a href="http://core.trac.wordpress.org/ticket/23770"> #23770</a> — finalize UI for theme locations</label></li>
+<li id="p2-task-3112-24"><label><input type="checkbox" name="p2_task[3112][24]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][24]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/23450">#23450</a> — nav menu sources as accordion (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+<li id="p2-task-3112-25"><label><input type="checkbox" name="p2_task[3112][25]" checked='checked' disabled="disabled" value="1" /><input type="hidden" name="p2_task_ids[3112][25]" value="x" /> <del><a href="http://core.trac.wordpress.org/ticket/14045">#14045</a> — accessibility mode for nav menu editing (<a href='https://make.wordpress.org/core/mentions/markjaquith/' class='mention'>@markjaquith</a>)</del></label></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/03/13/the-road-to-3-6-beta-1/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>Twenty Thirteen project update, March 12 2013</title>
+		<link>https://make.wordpress.org/core/2013/03/12/twenty-thirteen-project-update-march-12-2013/</link>
+		<comments>https://make.wordpress.org/core/2013/03/12/twenty-thirteen-project-update-march-12-2013/#comments</comments>
+		<pubDate>Tue, 12 Mar 2013 22:12:31 +0000</pubDate>
+		<dc:creator>Lance Willett</dc:creator>
+				<category><![CDATA[post]]></category>
+		<category><![CDATA[3.6]]></category>
+		<category><![CDATA[theme]]></category>
+		<category><![CDATA[twentythirteen]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/?p=3109</guid>
+		<description><![CDATA[This week we are closing as many open issues as possible to prepare for code freeze. Blockers Here are the current blockers to getting to a code freeze tomorrow, as scheduled: Post formats: #23619 #23620 #23621 — waiting on the core functionality to be committed before we can change the theme code (images, videos, galleries, [...]]]></description>
+				<content:encoded><![CDATA[<p>This week we are closing as many open issues as possible to prepare for code freeze.</p>
+<p><strong>Blockers</strong></p>
+<p>Here are the current blockers to getting to a code freeze tomorrow, <a href="http://make.wordpress.org/core/version-3-6-project-schedule/">as scheduled</a>:</p>
+<ul>
+<li>Post formats:<a href="http://core.trac.wordpress.org/ticket/23619"> #23619</a><a href="http://core.trac.wordpress.org/ticket/23620"> #23620</a><a href="http://core.trac.wordpress.org/ticket/23621"> #23621</a> — waiting on the core functionality to be committed before we can change the theme code (images, videos, galleries, links)</li>
+<li><a href="http://core.trac.wordpress.org/ticket/15080">#15080</a>: Comment form HTML5 input types — just needs a commit</li>
+<li><a href="http://core.trac.wordpress.org/ticket/20088">#20088</a>: Improve <code>wp_list_comments()</code> markup — needs a code review from core team dev, then commit</li>
+</ul>
+<p><strong>Recently finished</strong></p>
+<ul>
+<li>Several passes at RTL, editor, and print styles</li>
+<li>Sidebar &amp; footer clearing:<a href="http://core.trac.wordpress.org/ticket/23557"> #23557</a></li>
+<li>Gallery visual fixes:<a href="http://core.trac.wordpress.org/ticket/23742"> #23742</a><a href="http://core.trac.wordpress.org/ticket/23649"> #23649</a><a href="http://core.trac.wordpress.org/ticket/23584"> #23584</a></li>
+<li>Color contrast for accessibility:<a href="http://core.trac.wordpress.org/ticket/23513"> #23513</a></li>
+</ul>
+<p><strong>Open issues</strong></p>
+<p>Here is a link to all remaining <a href="http://core.trac.wordpress.org/query?status=accepted&amp;status=assigned&amp;status=new&amp;status=reopened&amp;status=reviewing&amp;component=Bundled+Theme&amp;summary=~Thirteen&amp;group=milestone&amp;col=id&amp;col=summary&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=milestone&amp;order=priority">open tickets</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/03/12/twenty-thirteen-project-update-march-12-2013/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Autosave and Post Locking &#8211; 3/6</title>
+		<link>https://make.wordpress.org/core/2013/03/06/autosave-and-post-locking-35/</link>
+		<comments>https://make.wordpress.org/core/2013/03/06/autosave-and-post-locking-35/#comments</comments>
+		<pubDate>Wed, 06 Mar 2013 19:07:05 +0000</pubDate>
+		<dc:creator>Mike Schroder</dc:creator>
+				<category><![CDATA[post]]></category>
+		<category><![CDATA[3.6]]></category>
+		<category><![CDATA[autosave and post locking]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/?p=3089</guid>
+		<description><![CDATA[Improved user logout notification ( #23295 ) is now in core, and its UI has been tweaked to directly show the login box, rather than prompting first: There&#8217;s been discussion as to whether it&#8217;s better not to block the user&#8217;s access to the editor/current page when we detect that you no longer have a login [...]]]></description>
+				<content:encoded><![CDATA[<p><b>Improved user logout notification</b> (<a href="http://core.trac.wordpress.org/ticket/23295"> #23295</a> ) is now in core, and its UI has been tweaked to directly show the login box, rather than prompting first:</p>
+<p><a href="http://make.wordpress.org/core/files/2013/03/expired_login1.png"><img src="http://make.wordpress.org/core/files/2013/03/expired_login1.png" alt="expired_login" width="726" height="515" class="alignnone size-full wp-image-3095" /></a></p>
+<p>There&#8217;s been discussion as to whether it&#8217;s better not to block the user&#8217;s access to the editor/current page when we detect that you no longer have a login token, since it could stop a user while they&#8217;re in the middle of a sentence.  Any opinions either way?  Feel free to comment either here or on<a href="http://core.trac.wordpress.org/ticket/23295"> #23295</a>.</p>
+<p>A simple way to test the above is by removing your login cookie while working in WordPress (Firebug works well).</p>
+<p>On <b>local autosaves</b>, there was a decision to pivot from the previous UX posted here, and instead integrate with the new revisions model.  This code is still being worked on.</p>
+<p>In the land of <b>post locks</b>, <a href='https://make.wordpress.org/core/mentions/azaozz/' class='mention'>@azaozz</a> posted a patch on<a href="http://core.trac.wordpress.org/ticket/23697"> #23697</a>, that shows a dialog either when you visit a locked post, or when your post becomes locked.  If you are visiting an already locked post, you have the option to break the lock.  This is still in need of UX/UI love, but looks like this currently:</p>
+<p><a href="http://make.wordpress.org/core/files/2013/03/post_is_locked_ui.png"><img src="http://make.wordpress.org/core/files/2013/03/post_is_locked_ui.png" alt="post_is_locked_ui" class="alignnone size-full wp-image-3091" /></a></p>
+<p>Finally, a patch on<a href="http://core.trac.wordpress.org/ticket/23665"> #23665</a> allows for one autosave per user per post, rather than per post, to let us keep an autosave from before you lost a lock.  Testing on this, and the rest of the above welcome!</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/03/06/autosave-and-post-locking-35/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Twenty Thirteen project update, March 4 2013</title>
+		<link>https://make.wordpress.org/core/2013/03/04/twenty-thirteen-project-update-march-4-2013/</link>
+		<comments>https://make.wordpress.org/core/2013/03/04/twenty-thirteen-project-update-march-4-2013/#comments</comments>
+		<pubDate>Mon, 04 Mar 2013 23:57:58 +0000</pubDate>
+		<dc:creator>Lance Willett</dc:creator>
+				<category><![CDATA[post]]></category>
+		<category><![CDATA[3.6]]></category>
+		<category><![CDATA[theme]]></category>
+		<category><![CDATA[twentythirteen]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/?p=3083</guid>
+		<description><![CDATA[What we worked on last week Lots of fixes and improvements went in — thanks to everyone who reported and patched and tested. Bigger items discussed: 1. Fixing the sidebar (including discussion of dropping it completely). We decided to just swap primary and secondary sidebars for now. See #23644. 2. Remove fixed navbar for mobile [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>What we worked on last week</strong></p>
+<p><a href="http://core.trac.wordpress.org/log/trunk/wp-content/themes/twentythirteen/?action=stop_on_copy&amp;mode=stop_on_copy&amp;rev=23574&amp;stop_rev=23489&amp;limit=100">Lots of fixes and improvements went in</a> — thanks to everyone who reported and patched and tested.</p>
+<p>Bigger items discussed:</p>
+<p>1. Fixing the sidebar (including discussion of dropping it completely). We decided to just swap primary and secondary sidebars for now. See<a href="http://core.trac.wordpress.org/ticket/23644"> #23644</a>.<br />
+2. Remove fixed navbar for mobile &#8212; yes, let&#8217;s remove it. See<a href="http://core.trac.wordpress.org/ticket/23647"> #23647</a>.<br />
+3. Keep fixed navbar for desktop for now, but next step is to switch site title to menu there, try that out.</p>
+<p>IRC logs: <a href="https://irclogs.wordpress.org/chanlog.php?channel=wordpress-dev&amp;day=2013-02-26&amp;sort=asc#m563611">Tue Feb 26 2013</a> | <a href="https://irclogs.wordpress.org/chanlog.php?channel=wordpress-dev&amp;day=2013-02-28&amp;sort=asc#m565798">Thu Feb 28 2013</a></p>
+<p><strong>What we&#8217;re doing this week</strong></p>
+<p>More work on <a href="http://core.trac.wordpress.org/query?status=accepted&amp;status=assigned&amp;status=new&amp;status=reopened&amp;status=reviewing&amp;component=Bundled+Theme&amp;summary=~Thirteen&amp;group=milestone&amp;col=id&amp;col=summary&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=milestone&amp;order=priority">open tickets</a>.</p>
+<p>Big items to tackle next:</p>
+<ul>
+<li>Post format support:<a href="http://core.trac.wordpress.org/ticket/23619"> #23619</a><a href="http://core.trac.wordpress.org/ticket/23620"> #23620</a><a href="http://core.trac.wordpress.org/ticket/23621"> #23621</a></li>
+<li>Sidebar / footer clearing, still no perfect CSS-only solution. JS techniques are next. See<a href="http://core.trac.wordpress.org/ticket/23557"> #23557</a>.</li>
+<li>Gallery styles: portrait sized images,<a href="http://core.trac.wordpress.org/ticket/23649"> #23649</a> — and caption styles,<a href="http://core.trac.wordpress.org/ticket/23584"> #23584</a>.</li>
+</ul>
+<p>Non-theme tickets that affect Twenty Thirteen&#8217;s progress:</p>
+<ul>
+<li><a href="http://core.trac.wordpress.org/ticket/15080">#15080</a>: Comment Form Should use HTML5 input types for better accessibility</li>
+<li><a href="http://core.trac.wordpress.org/ticket/15081">#15081</a>: Search Form should use type=&#8217;search&#8217;</li>
+<li><a href="http://core.trac.wordpress.org/ticket/20088">#20088</a>: Improve wp_list_comments() comment markup</li>
+</ul>
+<h3>Want to get involved?</h3>
+<p>View <a href="http://core.trac.wordpress.org/query?status=accepted&amp;status=assigned&amp;status=new&amp;status=reopened&amp;status=reviewing&amp;component=Bundled+Theme&amp;summary=~Thirteen&amp;group=milestone&amp;col=id&amp;col=summary&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=milestone&amp;order=priority">open tickets</a>.</p>
+<p>Join us in IRC during office hours and we can get you started on a ticket or task.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/03/04/twenty-thirteen-project-update-march-4-2013/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>It was pointed out that when using the&#8230;</title>
+		<link>https://make.wordpress.org/core/2013/02/28/it-was-pointed-out-that-when-using-the/</link>
+		<comments>https://make.wordpress.org/core/2013/02/28/it-was-pointed-out-that-when-using-the/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 19:18:24 +0000</pubDate>
+		<dc:creator>Andrew Nacin</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[twentythirteen]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/2013/02/28/it-was-pointed-out-that-when-using-the/</guid>
+		<description><![CDATA[It was pointed out that when using the WordPress Beta Tester plugin, Twenty Thirteen wasn&#8217;t being updated. As of r23529, that&#8217;s now fixed. If you update twice (once to get r23529, again to update the theme), you should be all set to test and contribute.]]></description>
+				<content:encoded><![CDATA[<p>It was pointed out that when using the WordPress Beta Tester plugin, Twenty Thirteen wasn&#8217;t being updated. As of<a href="http://core.trac.wordpress.org/changeset/23529"> r23529</a>, that&#8217;s now fixed. If you update twice (once to get<a href="http://core.trac.wordpress.org/changeset/23529"> r23529</a>, again to update the theme), you should be all set to test and contribute.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/02/28/it-was-pointed-out-that-when-using-the/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Menus Update, 2/27</title>
+		<link>https://make.wordpress.org/core/2013/02/27/menus-update-227/</link>
+		<comments>https://make.wordpress.org/core/2013/02/27/menus-update-227/#comments</comments>
+		<pubDate>Wed, 27 Feb 2013 16:40:55 +0000</pubDate>
+		<dc:creator>lessbloat</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/2013/02/27/menus-update-227/</guid>
+		<description><![CDATA[We&#8217;ve all been distracted with other stuff these past 2 weeks. DrewAPicture put together a parent ticket for all of the remaining menu items. Remaining Tasks Menu items as accordion (@jkudish) Show the menu select area at all times (@DrawAPicture) Additional menus accessibility (@lessbloat) Menus help text changes (@DrawAPicture) Test delete link at the bottom [...]]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;ve all been distracted with other stuff these past 2 weeks.  DrewAPicture put together <a href="http://core.trac.wordpress.org/ticket/23607">a parent ticket</a> for all of the remaining menu items.  </p>
+<p><strong>Remaining Tasks</strong></p>
+<ul>
+<li>Menu items as accordion (@jkudish)</li>
+<li>Show the menu select area at all times (@DrawAPicture)</li>
+<li>Additional menus accessibility (<a href='https://make.wordpress.org/core/mentions/lessbloat/' class='mention'>@lessbloat</a>)</li>
+<li>Menus help text changes (@DrawAPicture)</li>
+<li>Test delete link at the bottom (<a href='https://make.wordpress.org/core/mentions/lessbloat/' class='mention'>@lessbloat</a>)</li>
+</ul>
+<p>I&#8217;d like to try and wrap all of these up ASAP.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/02/27/menus-update-227/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Post Formats UI Update, 2/21</title>
+		<link>https://make.wordpress.org/core/2013/02/22/post-formats-ui-update-221/</link>
+		<comments>https://make.wordpress.org/core/2013/02/22/post-formats-ui-update-221/#comments</comments>
+		<pubDate>Fri, 22 Feb 2013 20:56:46 +0000</pubDate>
+		<dc:creator>Helen Hou-Sandi</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[3.6]]></category>
+		<category><![CDATA[post formats]]></category>
+
+		<guid isPermaLink="false">http://make.wordpress.org/core/?p=3072</guid>
+		<description><![CDATA[First run commit, mostly for soaking of functionality, went into trunk on Monday. This includes fallback output for theme compat and fields in the admin. The admin UI does not represent anything final &#8211; especially of note is the tabs, which are essentially the way they are in order to reuse CSS and avoid adding [...]]]></description>
+				<content:encoded><![CDATA[<p>First run commit, mostly for soaking of functionality, went into trunk on Monday. This includes fallback output for theme compat and fields in the admin. The admin UI does not represent anything final &#8211; especially of note is the tabs, which are essentially the way they are in order to reuse CSS and avoid adding temporary code to core.</p>
+<p><span id="more-3072"></span></p>
+<p>Our next steps for the actual building of the UI are:</p>
+<ul>
+<li>Hook up the media modal to the gallery field.</li>
+<li>Doing some preview magic for audio/video, also possibly hooking up the media modal.</li>
+<li>Adding icons for each selector (currently tabs) and some of the inputs.</li>
+<li>Experimenting with interactions for the selector itself &#8211; it still seems that a selector that collapses on itself once a format has been chosen, rather than tabs that always show everything, will be better.</li>
+<li>Hiding the title and/or the content for some of the post types. @melchoyce&#8217;s wireframes show which formats should have the title hidden by default; note that we should always allow the title to be edited, even if hidden under a toggle. The same goes for the content &#8211; can be hidden for some of the post types where the content serves more as a description or commentary on the other data provided for the format (image, gallery, audio, video, and quote come to mind).</li>
+</ul>
+<p>Related to hiding the title, we need to add a way for titles to be smartly auto-generated/populated for those formats where a title isn&#8217;t prominently &#8220;required&#8221;. Some of the ones that also don&#8217;t need content may be served well with some smart detection if possible, e.g. the title of a video or image.</p>
+<p>After discussion about old and new themes and content, we&#8217;ve chosen to go a little more aggressive with compat output. We had previously attempted using the current add_theme_support( &#8216;post-formats&#8217; ) implementation to determine whether or not compat output should appear, but it quickly became apparent that it would create less-than-ideal situations with themes that supported post formats in the original style but have not updated. We&#8217;ve now introduced add_theme_support( &#8216;structured-post-formats&#8217; ) for themes to indicate that they handle the metadata for a given format(s) and that core need not add fallback output. See the commit message on <a href="http://core.trac.wordpress.org/changeset/23467">r23467</a> for more details.</p>
+<p>The next step for fallback output is to accommodate new-style themes (that is, themes that specifically handle metadata) with old-style content. The <a href="http://codex.wordpress.org/Post_Formats">Codex</a> has recommendations for content entry/handling that will help us figure out what might have previously been done for post format support. @wonderboymusic has started work on functions to parse out relevant format data from the content itself:<a href="http://core.trac.wordpress.org/ticket/23570"> #23570</a> (URL),<a href="http://core.trac.wordpress.org/ticket/23572"> #23572</a> (audio/video), and<a href="http://core.trac.wordpress.org/ticket/22960"> #22960</a> (getting images from a gallery shortcode, especially the first). We&#8217;ll need more for other formats, but this is a start. While that is going on, we&#8217;ve been discussing what the theme output layer would look like and how de-duplication would work. &#8220;Cutting&#8221; the parsed-out data from the content itself before display is, again, a bit aggressive, but seems likely to be the best way forward (noting that it would be on display only, not actually altering the user&#8217;s content). See post-dev chat IRC logs for more details: <a href="https://irclogs.wordpress.org/chanlog.php?channel=wordpress-dev&amp;day=2013-02-20&amp;sort=asc#m560171">https://irclogs.wordpress.org/chanlog.php?channel=wordpress-dev&#038;day=2013-02-20&#038;sort=asc#m560171</a></p>
+<p>Finally, note that we&#8217;ve created a <a href="http://core.trac.wordpress.org/query?status=accepted&amp;status=assigned&amp;status=new&amp;status=reopened&amp;status=reviewing&amp;component=Post+Formats&amp;order=priority">Post Formats</a> component in Trac. There will sometimes be some overlap between components, but especially for the 3.6 cycle, let&#8217;s put anything that relates to getting this feature working in that component so we have it handy.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://make.wordpress.org/core/2013/02/22/post-formats-ui-update-221/feed/</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+		</item>
+	</channel>
+</rss>
