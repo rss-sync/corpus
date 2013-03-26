@@ -1,0 +1,1758 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-26T13:10:33Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15637891</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">IE media query javascript &#39;response&#39; doesn&#39;t work</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="internet-explorer"/>
+        <author>
+            <name>Jefferson</name>
+            <uri>http://stackoverflow.com/users/1997884</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637891/ie-media-query-javascript-response-doesnt-work" />
+        <published>2013-03-26T13:10:09Z</published>
+        <updated>2013-03-26T13:10:09Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m building a mobile-first site, and I&#39;m stuck on the menu. &lt;br&gt;
+Everything works great in Firefox, Chrome, Safari &amp;amp; Opera; as you can see &lt;a href=&quot;http://jsfiddle.net/BtbHn/1/&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But ofcourse, the pathetic excuse of a browser abortion, internet explorer, doesn&#39;t support media queries. So I started browsing around and found the javascript solution for the &lt;strong&gt;I&lt;/strong&gt;diot &lt;strong&gt;E&lt;/strong&gt;xperience media query problem. &lt;em&gt;(See what I did there?)&lt;/em&gt; &lt;a href=&quot;https://github.com/scottjehl/Respond&quot; rel=&quot;nofollow&quot;&gt;Response - by scottjehl&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;So I quickly implemented the script and grabbed my cake to start celebrating this victory over the oozing scrotum of the browser world. But alas, the script did absolutely nothing, and I slipped back into my microsoft induced depression.&lt;/p&gt;
+
+&lt;p&gt;I implemented the script into my header like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;!--[if (lt IE 9) &amp;amp; (!IEMobile)]&amp;gt;
+    &amp;lt;script type=&quot;text/javascript&quot; src=&quot;js/respond.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+ &amp;lt;![endif]--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I added the comment before closing my mediaquery.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/*/mediaquery*/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Anyone got any idea what might be going wrong here?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637889</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Don&#39;t Know How to Add Existing Image Upload Capabilities to a New Form</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/>
+        <author>
+            <name>user1994804</name>
+            <uri>http://stackoverflow.com/users/1994804</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637889/dont-know-how-to-add-existing-image-upload-capabilities-to-a-new-form" />
+        <published>2013-03-26T13:10:02Z</published>
+        <updated>2013-03-26T13:10:02Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m a fairly novice webmaster whom is working hard to setup a classifieds for my users. (I&#39;m basically rebuilding a poorly written classifieds)&lt;/p&gt;
+
+&lt;p&gt;I had bought a cheap classifieds program so I&#39;d have something to learn PHP off of and I&#39;ve come a long ways but I&#39;m still a long ways off from understanding how to tie everything together with an existing image upload functionality and if anyone wouldn&#39;t mind helping me, I&#39;d be most appreciative.&lt;/p&gt;
+
+&lt;p&gt;Allow me to explain;&lt;/p&gt;
+
+&lt;p&gt;In this classifieds earliest days, a visitor had to add their listing (which was a bitch) THEN the visitor had to go looking for where they could upload their images. Needless to say, that wasn&#39;t cutting it.  &lt;/p&gt;
+
+&lt;p&gt;Fast Fwd to Present; Now I have a form on a page with several text inputs (ie; text, select, textarea and a checkbox) as well as on this form I have 4 image upload buttons as can be seen below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;form id=&quot;generalform&quot; class=&quot;container&quot; method=&quot;POST&quot;  action=&quot;addlistingprocess.php&quot; autocomplete=&quot;on&quot; enctype=&quot;multipart/form-data&quot; &amp;gt;
+
+        &amp;lt;div class=&#39;field&#39;&amp;gt;
+        &amp;lt;label for=&#39;TypeID&#39;&amp;gt;I&#39;m Selling A:&amp;lt;/label&amp;gt;
+        &amp;lt;select name=&#39;TypeID&#39;&amp;gt;
+        &amp;lt;option value=&#39;42&#39;&amp;gt;Motorcycle&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;43&#39;&amp;gt;New or Used Part&amp;lt;/option&amp;gt;
+        &amp;lt;/select&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Year&quot;&amp;gt;* Year:&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;number&quot; class=&quot;input&quot; name=&quot;Year&quot; maxlength=&quot;5&quot; min=&quot;1963&quot; max=&quot;2013&quot; value=&quot;2013&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;fatherID&quot;&amp;gt;* Make:&amp;lt;/label&amp;gt;
+        &amp;lt;select name=&#39;fatherID&#39;&amp;gt;
+        &amp;lt;option&amp;gt;-- Select Manufacturer --&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;10&#39;&amp;gt;Honda&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;35&#39;&amp;gt;Husqvarna&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;36&#39;&amp;gt;Kawasaki&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;37&#39;&amp;gt;KTM&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;38&#39;&amp;gt;Suzuki&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;39&#39;&amp;gt;Yamaha&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;40&#39;&amp;gt;Other&amp;lt;/option&amp;gt;
+        &amp;lt;option value=&#39;46&#39;&amp;gt;It&#39;s Vintage or Evo&amp;lt;/option&amp;gt;
+        &amp;lt;/select&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Model&quot;&amp;gt;* Model:&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;text&quot; class=&quot;input&quot; name=&quot;Model&quot; maxlength=&quot;20&quot; value=&quot;&amp;lt;?php if(isset($_POST[&#39;Model&#39;])) echo $_POST[&#39;Model&#39;]; ?&amp;gt;&quot; placeholder=&quot;(i.e. CRF450F, KX 450F...)&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Description&quot;&amp;gt;* Details About It:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;
+        &amp;lt;textarea name=&quot;Description&quot; rows=&quot;10&quot; cols=&quot;60&quot;&amp;gt;&amp;lt;?php if(isset($_POST[&#39;Description&#39;])) echo $_POST[&#39;Description&#39;]; ?&amp;gt;&amp;lt;/textarea&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Vin&quot;&amp;gt;VIN:&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;text&quot; class=&quot;input&quot; name=&quot;VIN&quot; maxlength=&quot;30&quot; value=&quot;&amp;lt;?php if(isset($_POST[&#39;VIN&#39;])) echo $_POST[&#39;VIN&#39;]; ?&amp;gt;&quot; placeholder=&quot;Optional&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Price&quot;&amp;gt;* Asking Price ($):&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;number&quot; class=&quot;input&quot; name=&quot;Price&quot; maxlength=&quot;10&quot; min=&quot;0&quot; value=&quot;&amp;lt;?php if(isset($_POST[&#39;Price&#39;])) echo $_POST[&#39;Price&#39;]; ?&amp;gt;&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;!--
+        &amp;lt;h4&amp;gt;Upload Up To 4 Images&amp;lt;/h4&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Image&quot;&amp;gt;Image 1&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;file&quot; class=&quot;fileuploadinput&quot; name=&quot;Image1&quot;&amp;gt;
+        &amp;lt;label for=&quot;Image&quot;&amp;gt;Image 2&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;file&quot; class=&quot;fileuploadinput&quot; name=&quot;Image2&quot;&amp;gt;
+        &amp;lt;label for=&quot;Image&quot;&amp;gt;Image 3&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;file&quot; class=&quot;fileuploadinput&quot; name=&quot;Image3&quot;&amp;gt;
+        &amp;lt;label for=&quot;Image&quot;&amp;gt;Image 4&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;file&quot; class=&quot;fileuploadinput&quot; name=&quot;Image4&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+                --&amp;gt;
+        &amp;lt;br&amp;gt;
+        &amp;lt;hr style=&quot;width:60%&quot;&amp;gt;
+        &amp;lt;br&amp;gt;
+
+        &amp;lt;h3&amp;gt;Where It&#39;s Located:&amp;lt;/h3&amp;gt;
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Address&quot;&amp;gt;Address:&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;text&quot; class=&quot;input&quot; id=&quot;Address&quot; name=&quot;Address&quot; maxlength=&quot;40&quot; placeholder=&quot;Optional&quot; /&amp;gt;
+        &amp;lt;p class=&quot;hint&quot;&amp;gt;40 Characters Maximum&amp;lt;/p&amp;gt;   
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;City&quot;&amp;gt;* City:&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;text&quot; class=&quot;input&quot; id=&quot;City&quot; name=&quot;City&quot; maxlength=&quot;20&quot; /&amp;gt;
+        &amp;lt;p class=&quot;hint&quot;&amp;gt;20 Characters Maximum&amp;lt;/p&amp;gt;   
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;State&quot;&amp;gt;* State / Province:&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;text&quot; class=&quot;input&quot; id=&quot;State&quot; name=&quot;State&quot; maxlength=&quot;20&quot; /&amp;gt;
+        &amp;lt;p class=&quot;hint&quot;&amp;gt;20 Characters Maximum&amp;lt;/p&amp;gt;   
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;ZIP&quot;&amp;gt;* ZIP:&amp;lt;/label&amp;gt;
+        &amp;lt;input type=&quot;text&quot; class=&quot;input&quot; id=&quot;ZIP&quot; name=&quot;ZIP&quot; maxlength=&quot;20&quot; /&amp;gt;
+        &amp;lt;p class=&quot;hint&quot;&amp;gt;20 Characters Maximum&amp;lt;/p&amp;gt;   
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&quot;field&quot;&amp;gt;
+        &amp;lt;label for=&quot;Country&quot;&amp;gt;* Country:&amp;lt;/label&amp;gt;
+        &amp;lt;select name=&quot;Country&quot;&amp;gt;
+&amp;lt;option selected=&quot;selected&quot; value=&quot;United States&quot;&amp;gt;United States&amp;lt;/option&amp;gt;
+&amp;lt;option value=&quot;Canada&quot;&amp;gt;Canada&amp;lt;/option&amp;gt;
+&amp;lt;option value=&quot;UK&quot;&amp;gt;UK&amp;lt;/option&amp;gt;
+&amp;lt;option value=&quot;Zimbabwe&quot;&amp;gt;Zimbabwe&amp;lt;/option&amp;gt;
+&amp;lt;/select&amp;gt;
+&amp;lt;/div&amp;gt;      
+        &amp;lt;input type=&quot;checkbox&quot; name=&quot;Inform&quot; value=&quot;1&quot; checked/&amp;gt; Keep Me Dialed In With Site Updates &amp;amp; Specials&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+
+        &amp;lt;input type=&quot;submit&quot; name=&quot;submit&quot; id=&quot;submit&quot; class=&quot;button&quot; value=&quot;Submit My Ad&quot;/&amp;gt;
+        &amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now here&#39;s the kicker, (and sorry for creating such a long post)&lt;/p&gt;
+
+&lt;p&gt;This classifieds already has an existing image upload functionality which I&#39;d like to retain as it handles resizing and displaying the images such as can  be seen here: 
+&lt;a href=&quot;http://classifieds.your-adrenaline-fix.com/detail.php?fatherID=10&amp;amp;TypeID=42&amp;amp;ListingID=7&quot; rel=&quot;nofollow&quot;&gt;http://classifieds.your-adrenaline-fix.com/detail.php?fatherID=10&amp;amp;TypeID=42&amp;amp;ListingID=7&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I want to tie this functionality to the form above, however, this program requires a lot of paramaters of which I have tried for weeks to understand, yet still don&#39;t. (However I have cleaned the sh^$ out of the code in an effort  to understand it)&lt;/p&gt;
+
+&lt;p&gt;I&#39;m going to close this thread with all applicable files as code and if anyone could help me with this I&#39;d be most grateful and I thank you all in advance.&lt;/p&gt;
+
+&lt;p&gt;This is images.php. (This is where a visitor had to navigate to AFTER creating their ad but it&#39;s also where a visitor can add or delete photos associated with their listing so I need to keep this)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+    include(&#39;header.php&#39;);  
+
+    if(!$superUser){
+        if(!$login){            
+            echo &quot;&amp;lt;h2&amp;gt;Please Login to Manage Photos&amp;lt;/h2&amp;gt;&quot;;
+            include(&#39;z-login-form.php&#39;);
+            include(&#39;no-ad-footer.php&#39;);
+            die();
+            }
+        }
+
+    if($_POST[&#39;POrder&#39;] != &quot;&quot;) {    
+        if (($_FILES[&#39;file&#39;][&#39;type&#39;] != &#39;image/jpeg&#39;) &amp;amp;&amp;amp; ($_FILES[&#39;file&#39;][&#39;type&#39;] != &#39;image/jpg&#39;) &amp;amp;&amp;amp; ($_FILES[&#39;file&#39;][&#39;type&#39;] != &#39;image/pjpeg&#39;)) {
+            echo &quot;&amp;lt;script&amp;gt;alert(&#39;Images Must be in jpg format and under 2 Mb&#39;);\n&quot;;
+            echo sprintf(&quot;window.location=&#39;images.php?TypeID=%s&amp;amp;ListingID=%s&#39;&quot;, $_POST[&#39;TypeID&#39;], $_POST[&#39;ListingID&#39;]);
+            echo &quot;&amp;lt;/script&amp;gt;&quot;;
+            include(&#39;no-ad-footer.php&#39;);
+            die();
+        }
+
+        chdir(&#39;admin/photos&#39;); 
+        require_once(&#39;upload.php&#39;);
+        chdir(&#39;../../&#39;);
+
+    if ($up-&amp;gt;ValidateUpload()) { 
+            $node = new sqlNode();
+            $node-&amp;gt;table = &quot;photos&quot;;
+            $node-&amp;gt;push(&quot;int&quot;,&quot;POrder&quot;,$_POST[&#39;POrder&#39;]);
+            $node-&amp;gt;push(&quot;text&quot;,&quot;Location&quot;,$new_name);
+            $node-&amp;gt;push(&quot;int&quot;,&quot;TypeID&quot;,$_POST[&#39;TypeID&#39;]);
+            $node-&amp;gt;push(&quot;int&quot;,&quot;ListingID&quot;,$_POST[&#39;ListingID&#39;]);
+
+            if(($result = $mysql-&amp;gt;insert($node)) === false)
+                die(&#39;Unable to push POrder, Location, TypeID and ListingID into table photos line 38&#39;);         
+        } else {
+            echo &quot;&amp;lt;font color=&#39;red&#39;&amp;gt;Unable to upload image&amp;lt;/font&amp;gt;&quot;;
+            }
+    }   
+
+    if(($_REQUEST[&#39;TypeID&#39;] != &quot;&quot;) &amp;amp;&amp;amp; ($_REQUEST[&#39;ListingID&#39;] != &quot;&quot;)) {     
+        if(!$superUser){
+            echo &quot;&amp;lt;a href=&#39;memberindex.php&#39;&amp;gt;Return to My Listings&amp;lt;/a&amp;gt;&quot;;
+        }       
+
+        $sql = sprintf(&quot;SELECT * FROM `types` WHERE ID = %s&quot;, intval($_REQUEST[&#39;TypeID&#39;]));
+        $result = $mysql-&amp;gt;exSql($sql) or die(&#39;Unable to Retrieve Type ID from table types&#39;);
+        if(mysql_num_rows($result)&amp;lt;1){
+            die(&#39;Less Than One Result Returned from table types. Line51 images.php&#39;);
+        }
+
+        if(!$superUser){
+            $sql = sprintf(&quot;SELECT * FROM `tt_%s` WHERE MemberID = %s AND ID = %s&quot;, abs(intval($_REQUEST[&#39;TypeID&#39;])), intval($_SESSION[&#39;memberID&#39;]), intval($_REQUEST[&#39;ListingID&#39;]));
+            $result = $mysql-&amp;gt;exSql($sql) or die(&#39;Unable to select data from table tt__&#39;);
+            if(mysql_num_rows($result)&amp;lt;1){
+                die(&quot;&amp;lt;script&amp;gt;window.location=&#39;logout.php&#39;;&amp;lt;/script&amp;gt;&quot;);
+            }
+        }
+
+        $node = new sqlNode();
+        $node-&amp;gt;table = &quot;photos&quot;;
+        $node-&amp;gt;select = &quot;*&quot;;
+        $node-&amp;gt;where = &quot;WHERE TypeID = &quot;.intval($_REQUEST[&#39;TypeID&#39;]).&quot; AND ListingID = &quot;.intval($_REQUEST[&#39;ListingID&#39;]);
+        $node-&amp;gt;orderby = &quot;ORDER BY `POrder` ASC&quot;;
+
+        if(($result = $mysql-&amp;gt;select($node)) === false )
+            die(&#39;Unable to Retrieve data from table photos&#39;);
+
+        $num_of_photos = mysql_num_rows($result);
+
+        echo &quot;&amp;lt;h2&amp;gt;Upload or Delete Photos&amp;lt;/h2&amp;gt;&quot;;
+
+        $showform = true;
+
+        if($showform) {     
+            echo &quot;&amp;lt;form action=&#39;images.php&#39; enctype=&#39;multipart/form-data&#39; method=&#39;POST&#39;&amp;gt;&quot;;
+            echo &quot;&amp;lt;input type=&#39;hidden&#39; name=&#39;TypeID&#39; value=&#39;&quot;.$_REQUEST[&#39;TypeID&#39;].&quot;&#39;&amp;gt;&quot;;
+            echo &quot;&amp;lt;input type=&#39;hidden&#39; name=&#39;ListingID&#39; value=&#39;&quot;.$_REQUEST[&#39;ListingID&#39;].&quot;&#39;&amp;gt;&quot;;
+            echo &quot;&amp;lt;input type=&#39;hidden&#39; name=&#39;Upload&#39; value=&#39;true&#39;&amp;gt;&quot;;
+            echo &quot;&amp;lt;input type=&#39;hidden&#39; name=&#39;POrder&#39; value=&#39;&quot;.($num_of_photos+1).&quot;&#39;&amp;gt;&quot;;
+
+            echo &quot;&amp;lt;table border=0&amp;gt;&quot;;
+            echo &quot;&amp;lt;tr&amp;gt;&quot;;
+            echo &quot;&amp;lt;td&amp;gt;Image 1&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;input type=&#39;file&#39; name=&#39;file&#39; accept=&#39;image/*&#39; id=&#39;file&#39;&amp;gt;&amp;lt;/td&amp;gt;&quot;; 
+            echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+            echo &quot;&amp;lt;tr&amp;gt;&quot;;
+            echo &quot;&amp;lt;td&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;input type=&#39;submit&#39; value=&#39;Upload File(s)&#39;&amp;gt;&amp;lt;/td&amp;gt;&quot;;
+            echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+            echo &quot;&amp;lt;/table&amp;gt;&quot;;
+            echo &quot;&amp;lt;/form&amp;gt;&quot;;
+        } else {
+            echo &quot;&amp;lt;font color=&#39;red&#39;&amp;gt;Max Number of Photos Reached&amp;lt;/font&amp;gt;&quot;;
+        }
+
+        if($num_of_photos &amp;gt;=1) {
+        //Print photo table
+        echo &quot;&amp;lt;br&amp;gt;&quot;;
+        echo &quot;&amp;lt;center&amp;gt;&amp;lt;strong&amp;gt;$num_of_photos Photo(s) Associated With This Listing&amp;lt;/strong&amp;gt;&amp;lt;/center&amp;gt;&quot;;      
+        echo &quot;&amp;lt;table class=&#39;subHeader&#39; align=&#39;center&#39;&amp;gt;&quot;;
+        echo &quot;&amp;lt;tr&amp;gt;&quot;;
+        echo &quot;&amp;lt;td&amp;gt;Photo&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Order&amp;amp;nbsp;|&amp;amp;nbsp;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Action&amp;lt;/td&amp;gt;&quot;;
+        echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+
+        //For each photo
+        while($photo = mysql_fetch_assoc($result)){
+            echo &quot;&amp;lt;tr&amp;gt;&quot;;
+            echo &quot;&amp;lt;td valign=top align=center&amp;gt;&quot;;
+            echo &quot;&amp;lt;a target=&#39;_blank&#39; href=&#39;admin/photos/uploads/&quot;.$photo[&#39;Location&#39;].&quot;&#39; title=&#39;Click To View Full Size Photo&#39;&amp;gt;&amp;lt;img src=&#39;admin/photos/uploads/small_thumbs/tn_&quot;.$photo[&#39;Location&#39;].&quot;&#39; border=0&amp;gt;&amp;lt;/a&amp;gt;&quot;;
+            echo &quot;&amp;lt;/td&amp;gt;&quot;;
+            echo &quot;&amp;lt;td&amp;gt;&quot;.$photo[&#39;POrder&#39;].&quot;&amp;lt;/td&amp;gt;&quot;;
+            echo &quot;&amp;lt;td&amp;gt;&quot;;
+            echo &quot;&amp;lt;a href=&#39;deleteimage.php?TypeID=&quot;.$photo[&#39;TypeID&#39;].&quot;&amp;amp;ListingID=&quot;.$photo[&#39;ListingID&#39;].&quot;&amp;amp;PhotoID=&quot;.$photo[&#39;ID&#39;].&quot;&#39;&amp;gt;Delete&amp;lt;/a&amp;gt;&quot;;
+            echo &quot;&amp;lt;/td&amp;gt;&quot;;
+            echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+        }
+
+        echo &quot;&amp;lt;/table&amp;gt;&quot;;
+    }
+    }
+            echo &quot;&amp;lt;/td&amp;gt;&quot;;
+            echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+            echo &quot;&amp;lt;/table&amp;gt;&quot;;  
+
+
+    include(&#39;no-ad-footer.php&#39;);
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;This is upload.php&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+require_once(&quot;UploadFile.class.php&quot;);   
+$up = new UploadImage($file, 2097152, 3000, 3000,&#39;file&#39;,&quot;uploads&quot;, $rename_file=true);
+
+if(true) {                                         
+    $new_name = $up-&amp;gt;CopyFile();
+    $imagefolder=&#39;.&#39;;
+    $thumbsfolder=&#39;.&#39;;
+    echo &quot;Creating thumbnail image...&amp;lt;br&amp;gt;&quot;;
+
+    function createthumb($name,$filename,$new_w,$new_h) {
+        $system=explode(&quot;.&quot;,$name);
+        if (preg_match(&quot;/jpg|jpeg/&quot;,$system[1])){$src_img=imagecreatefromjpeg($name);}
+        if (preg_match(&quot;/png/&quot;,$system[1])){$src_img=imagecreatefrompng($name);}
+        $old_x=imageSX($src_img);
+        $old_y=imageSY($src_img);
+        if ($old_x &amp;gt; $old_y) {
+            $thumb_w=$new_w;
+            $thumb_h=$old_y*($new_h/$old_x);
+        }
+        if ($old_x &amp;lt; $old_y) {
+            $thumb_w=$old_x*($new_w/$old_y);
+            $thumb_h=$new_h;
+        }
+        if ($old_x == $old_y){
+            $thumb_w=$new_w;
+            $thumb_h=$new_h;
+        }
+        $dst_img=ImageCreateTrueColor($thumb_w,$thumb_h);
+        imagecopyresampled($dst_img,$src_img,0,0,0,0,$thumb_w,$thumb_h,$old_x,$old_y); 
+        if (preg_match(&quot;/png/&quot;,$system[1])){
+            imagepng($dst_img,$filename); 
+        } else {
+            imagejpeg($dst_img,$filename); 
+        }
+
+        imagedestroy($dst_img); 
+        if(!imagedestroy($src_img)){
+            $return = @unlink($filename);
+            $return2 = @unlink($name);
+            // Return FALSE if not found
+            var_dump($return);
+            var_dump($return2);
+?&amp;gt;
+            &amp;lt;script&amp;gt;alert(&quot;Unable to resize photos. Please check file/folder permission in admin/photos.&quot;);window.location =&quot;index.php&quot;;&amp;lt;/script&amp;gt;
+&amp;lt;?php
+        }
+
+    }
+    createthumb(&quot;uploads/&quot; . $new_name,&quot;uploads/thumbs/tn_&quot; . $new_name,350,350);
+    createthumb(&quot;uploads/&quot; . $new_name,&quot;uploads/small_thumbs/tn_&quot; . $new_name,150,150);
+
+    function ditchtn($arr,$thumbname){
+        foreach ($arr as $item) {
+            if (!preg_match(&quot;/^&quot;.$thumbname.&quot;/&quot;,$item)){$tmparr[]=$item;}
+        }
+        return $tmparr;
+    }
+
+    function directory($dir,$filters){
+        $handle=opendir($dir);
+        $files=array();
+        if ($filters == &quot;all&quot;){while(($file = readdir($handle))!==false){$files[] = $file;}}
+        if ($filters != &quot;all&quot;){
+            $filters=explode(&quot;,&quot;,$filters);
+            while (($file = readdir($handle))!==false){
+                for ($f=0;$f&amp;lt;sizeof($filters);$f++):
+                    $system=explode(&quot;.&quot;,$file);
+                    if ($system[1] == $filters[$f]){$files[] = $file;}
+                endfor;
+            }
+        }
+        closedir($handle);
+        return $files;
+    }
+}
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;This is UpLoadFileclass.php&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php 
+function  RandomFile($pass_len=12) {                   
+            $allchar = &quot;abcdefghijklmnopqrstuvwxyz&quot; ; 
+            $str = &quot;&quot; ; 
+            mt_srand (( double) microtime() * 1000000 ); 
+              for ($i=0; $i&amp;lt;$pass_len; $i++) 
+                  $str .= substr( $allchar, mt_rand (0,25), 1 ) ; 
+                  return $str ;
+                  }    
+
+      class UploadImage {         
+                   var $image; 
+                   var $imagesize; 
+                   var $max_file_size; 
+                   var $max_file_height; 
+                   var $max_file_width; 
+                   var $allowed; 
+                   var $rename_file; 
+                   var $path; 
+
+       function UploadImage($image, $max_file_size, $max_file_height, $max_file_width, $field_name, $path, $rename_file=true) {                     
+             $this-&amp;gt;image=$image; 
+             $this-&amp;gt;max_file_size=$max_file_size; 
+             $this-&amp;gt;max_file_height=$max_file_height; 
+             $this-&amp;gt;max_file_width=$max_file_width; 
+             $this-&amp;gt;allowed = array( &quot;.jpg&quot;=&amp;gt;&quot;2&quot;, &quot;.jpeg&quot;=&amp;gt;&quot;2&quot;); 
+             $this-&amp;gt;field_name = $field_name; 
+             $this-&amp;gt;path = $path; 
+             $this-&amp;gt;rename_file = $rename_file; 
+        } 
+
+        function ValidateUpload() {            
+             if ($this-&amp;gt;max_file_size &amp;lt;  filesize($this-&amp;gt;image)) {                   
+                  print(&quot;&amp;lt;span style=\&quot;color:red;\&quot;&amp;gt;ERROR: Your File: &quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;].&quot; is &quot;.filesize($this-&amp;gt;image).&quot; KB, The max file size allowed is &quot;.$this-&amp;gt;max_file_size.&quot;&amp;lt;/span&amp;gt;&quot;); 
+                    return false;                  
+             }              
+                $this-&amp;gt;imagesize=getimagesize($this-&amp;gt;image); 
+
+                if ($this-&amp;gt;max_file_width &amp;lt; $this-&amp;gt;imagesize[0]) { 
+                    print(&quot;&amp;lt;span style=\&quot;color:red;\&quot;&amp;gt;ERROR:&amp;lt;br /&amp;gt;Your File: &quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;].&quot; is &quot;.$this-&amp;gt;imagesize[0].&quot; pixels wide, the max file width allowed is &quot;.$this-&amp;gt;max_file_width.&quot;&amp;lt;/span&amp;gt;&quot;);                     
+                    return false;                        
+                } 
+
+                 if ($this-&amp;gt;max_file_height &amp;lt; $this-&amp;gt;imagesize[1]) {                        
+                     print(&quot;&amp;lt;span style=\&quot;color:red;\&quot;&amp;gt;ERROR:&amp;lt;br /&amp;gt;Your File: &quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;].&quot; is &quot;.$this-&amp;gt;imagesize[1].&quot; pixels high, the max file height allowed is &quot;.$this-&amp;gt;max_file_height.&quot;&amp;lt;span&amp;gt;&quot;);                      
+                      return false;                        
+                }               
+                return true; 
+        } 
+
+        function PrintForm($max_file_size) {           
+              global $PHP_SELF;     
+              print(&quot;&amp;lt;form action=\&quot;$PHP_SELF\&quot; method=\&quot;POST\&quot; enctype=\&quot;multipart/form-data\&quot;&amp;gt;&amp;lt;/br&amp;gt;\n&quot;); 
+              print(&quot;&amp;lt;input type=file name=$this-&amp;gt;field_name&amp;gt;&amp;lt;br&amp;gt;\n&quot;);     
+              print(&quot;&amp;lt;input type=hidden name=max_file_size value=&quot;.$max_file_size.&quot;&amp;gt;&amp;lt;br&amp;gt;\n&quot;); 
+              print(&quot;&amp;lt;input type=submit name=submit&amp;gt;&amp;lt;br&amp;gt;\n&quot;); 
+              print(&quot;&amp;lt;/form&amp;gt;&quot;);                       
+            }
+
+        function CopyFile() {
+            if($this-&amp;gt;rename_file) {
+            global $name, $ext;     
+
+      switch($_FILES[$this-&amp;gt;field_name][&quot;type&quot;]) { 
+
+       case &#39;image/gif&#39;; 
+       $ext=&quot;gif&quot;; 
+       break; 
+
+        case &#39;image/jpeg&#39;; 
+       $ext=&quot;jpg&quot;; 
+       break; 
+
+        case &#39;image/pjpeg&#39;; 
+       $ext=&quot;jpg&quot;; 
+       break; 
+
+        case &#39;image/png&#39;; 
+       $ext=&quot;png&quot;; 
+       break; 
+
+        case &#39;application/x-shockwave-flash&#39;; 
+       $ext=&quot;swf&quot;; 
+       break; 
+
+       case &#39;image/psd&#39;; 
+       $ext=&quot;psd&quot;; 
+       break; 
+
+       case &#39;image/bmp&#39;; 
+       $ext=&quot;bmp&quot;; 
+       break; 
+     } 
+
+     $name=RandomFile();
+
+         if(!copy($_FILES[$this-&amp;gt;field_name][&quot;tmp_name&quot;],$this-&amp;gt;path.&quot;/&quot;.$name.&quot;.&quot;.$ext)){
+               print(&quot;&amp;lt;strong&amp;gt;There has been an error while uploading Filename:&quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;] .&quot;&amp;lt;/strong&amp;gt;&quot;);                  
+           } else {                
+               print(&quot;Filename: &quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;] .&quot; has been uploaded&quot;); 
+               //return  new file name
+               return $name.&quot;.&quot;.$ext;                
+           } 
+           } else { 
+           if(!file_exists($this-&amp;gt;path.&quot;/&quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;])) {                
+                     if(!copy($_FILES[$this-&amp;gt;field_name][&quot;tmp_name&quot;],$this-&amp;gt;path.&quot;/&quot;. $_FILES[$this-&amp;gt;field_name][&quot;name&quot;])) {
+                        print(&quot;There has been an error uploading&quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;].&quot;please try again&quot;);                  
+                        } else {
+                            print(&quot;Filename:&quot;.$_FILES[$this-&amp;gt;field_name][&quot;name&quot;].&quot; has been uploaded&quot;);                
+                   } 
+                   } else { 
+                   print(&quot;ERROR: A file by this name already exists&quot;); 
+                  } 
+                 } 
+                } 
+               } 
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once again, If anyone could help me to make sense of all of this, I&#39;d be most appreciative and I thank you all again (in advance)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637887</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Z_SOLO zlib embedded</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="embedded"/><category scheme="http://stackoverflow.com/feeds/tags" term="porting"/><category scheme="http://stackoverflow.com/feeds/tags" term="zlib"/>
+        <author>
+            <name>Stefan Olsson</name>
+            <uri>http://stackoverflow.com/users/2032525</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637887/z-solo-zlib-embedded" />
+        <published>2013-03-26T13:10:01Z</published>
+        <updated>2013-03-26T13:10:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have download the  latest zlib from the homepage and try to make it work in a small embedded envionment without any filesystem. I only want to compress/uncompress blocks of memory, no file system manipulation.&lt;/p&gt;
+
+&lt;p&gt;I have in the begining of zconf.h, zlib,h and zutil.h added the preproccesor directive&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#ifndef Z_SOLO
+#define Z_SOLO
+#endif
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and also copied the compress and uncompress functions to fix the &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;stream.zalloc = (alloc_func)malloc_threadsafe;
+stream.zfree = (free_func)free_threadsafe;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But when I execute the compress functions it will end up in a endless loop in the function &quot;fill_window&quot; (deflate.c)&lt;/p&gt;
+
+&lt;p&gt;Where &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;s-&amp;gt;window_size
+s-&amp;gt;lookahead
+s-&amp;gt;strstart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Are all 0 and therefore the line &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;n = read_buf(s-&amp;gt;strm, s-&amp;gt;window + s-&amp;gt;strstart + s-&amp;gt;lookahead, more);
+s-&amp;gt;lookahead += n;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there some initializing I have forgott ?&lt;/p&gt;
+
+&lt;p&gt;Regards&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637884</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">ActiveModel::MassAssignmentSecurity::Error in UsersController#create</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/>
+        <author>
+            <name>user2211662</name>
+            <uri>http://stackoverflow.com/users/2211662</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637884/activemodelmassassignmentsecurityerror-in-userscontrollercreate" />
+        <published>2013-03-26T13:09:55Z</published>
+        <updated>2013-03-26T13:09:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;While applying logging concept to my book catalog display, when a user is regestering I am coming acorss this sort of error.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   Can&#39;t mass-assign protected attributes: password_confirmation, password
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And my code in app/model/user.rb is as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   class User &amp;lt; ActiveRecord::Base
+     attr_accessible :name, :password_digest
+     validates :name, :presence =&amp;gt; true, :uniqueness =&amp;gt; true
+     has_secure_password 
+   end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And my code of create method in app/contollers/user_controller.rb&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     def create
+     @user = User.new(params[:user])
+
+       respond_to do |format|
+       if @user.save
+       format.html { redirect_to users_url, :notice =&amp;gt; &#39;User #{@user.name} was   successfully                  created.&#39; }
+    format.json { render :json =&amp;gt; @user, :status =&amp;gt; :created, :location =&amp;gt; @user }
+      else
+    format.html { render :action =&amp;gt; &quot;new&quot; }
+    format.json { render :json =&amp;gt; @user.errors, :status =&amp;gt; :unprocessable_entity }
+    end
+    end
+    end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any help please!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637879</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Concatenating Partial Path in Jade Template</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="node.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="express"/><category scheme="http://stackoverflow.com/feeds/tags" term="jade"/>
+        <author>
+            <name>JamesEggers</name>
+            <uri>http://stackoverflow.com/users/28540</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637879/concatenating-partial-path-in-jade-template" />
+        <published>2013-03-26T13:09:36Z</published>
+        <updated>2013-03-26T13:09:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a Jade template on an Express project that looks something like this (simplified for brevity):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;!!! 5
+head
+    ...
+body
+    include path/to/partial
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What I am trying to figure out is dynamically generate the partial&#39;s path so that I could easily swap out the partial based on a server variable.  Since &lt;code&gt;path/to/partial&lt;/code&gt; isn&#39;t a string, is there a way to provide the concatenation?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637878</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">SELECT in COALESCE in MySQL</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/>
+        <author>
+            <name>Sherlock</name>
+            <uri>http://stackoverflow.com/users/1329111</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637878/select-in-coalesce-in-mysql" />
+        <published>2013-03-26T13:09:35Z</published>
+        <updated>2013-03-26T13:09:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to do the following in MySQL:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;UPDATE
+    x
+SET
+    y = COALESCE(SELECT z FROM table WHERE a = b AND c = d AND e = f,
+                 SELECT z FROM table WHERE a = b AND c = d,
+                 SELECT z FROM table WHERE a = b);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It sounds very valid to me. I&#39;m trying to update a column with &lt;strong&gt;the best suitable value&lt;/strong&gt;. If I can find a record matching the 3 criteria -&gt; that&#39;s the one I need. Else the one suiting 2 criteria, else a record matching just one criterion.&lt;/p&gt;
+
+&lt;p&gt;I can do this in 3 update queries, but I don&#39;t understand why this isn&#39;t working. According to the manual:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Returns the first non-NULL value in the list, or NULL if there are no non-NULL values.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That&#39;s &lt;strong&gt;exactly&lt;/strong&gt; what I need.&lt;/p&gt;
+
+&lt;p&gt;Am I missing something here?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637822</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Select Rows Where A Column Contains Any Result From A SubQuery</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server-2008"/><category scheme="http://stackoverflow.com/feeds/tags" term="tsql"/>
+        <author>
+            <name>SkeetJon</name>
+            <uri>http://stackoverflow.com/users/831108</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637822/select-rows-where-a-column-contains-any-result-from-a-subquery" />
+        <published>2013-03-26T13:06:25Z</published>
+        <updated>2013-03-26T13:10:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;If have a table that contains a column of concatenated data using a delimiter i.e.  11111_22222_33333 (I know this is bad practice, but that&#39;s the data I have to work with)&lt;/p&gt;
+
+&lt;p&gt;I need to write a query that returns all rows that contain specific values of 22222 where the specific values are the result of a sub query. &lt;/p&gt;
+
+&lt;p&gt;So, what I am doing is follows...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT * FROM myTable WHERE myColumn IN (SELECT [Name] FROM subTable)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This runs but doesnt return any results as it&#39;s specifically matching 1111_2222_3333 to 2222. So what I need is a way of using a LIKE or something similar&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT * FROM myTable WHERE myColumn LIKE (SELECT [NAME] FROM subTable)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;gives the error &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Msg 512, Level 16, State 1, Line 1
+Subquery returned more than 1 value. This is not permitted when the subquery follows 
+=, !=, &amp;lt;, &amp;lt;=       , &amp;gt;, &amp;gt;= or when the subquery is used as an expression.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How would this be accomplished please? I am using Sql Server 2008 R2 to develop, but the solution needs to also be compatible with Server 2005&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637757</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Searching a full hash table</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c"/><category scheme="http://stackoverflow.com/feeds/tags" term="search"/><category scheme="http://stackoverflow.com/feeds/tags" term="hash"/>
+        <author>
+            <name>user1946033</name>
+            <uri>http://stackoverflow.com/users/1946033</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637757/searching-a-full-hash-table" />
+        <published>2013-03-26T13:02:45Z</published>
+        <updated>2013-03-26T13:10:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Considering the following code snippet:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#include&amp;lt;stdio.h&amp;gt;
+#include&amp;lt;conio.h&amp;gt;
+#define TABLESIZE 100
+
+sturct record{
+       int k;
+       int r;
+       }table[TABLESIZE];
+
+int tcount=0;
+
+int search_and_insert(int key,int rec){
+    int i;
+    i=h(key);
+    while(table[i].k!=key &amp;amp;&amp;amp; table[i].k!=NULL)
+                                              i=rh(i);
+
+    if(table[i].key==NULL){
+                           table[i].k=key;
+                           table[i].r=rec;
+                           tcount++;
+                           }
+    return i;
+    }
+
+int h(int key){
+
+    return key%1000;
+
+    } 
+
+int rh(int hkey){
+
+    int k;
+    if(hkey==99)
+    return 0;
+    return ((hkey+1)%1000);
+
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;while&lt;/code&gt; loop maybe an infinite loop if the table is already full,to remedy this problem,I can
+introduce an &lt;code&gt;if&lt;/code&gt; statement like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   if(tcount&amp;lt;TABLESIZE){
+    while(table[i].k!=key &amp;amp;&amp;amp; table[i].k!=NULL)
+                                              i=rh(i);/*Rehash*/
+
+    if(table[i].key==NULL){
+                           table[i].k=key;
+                           table[i].r=rec;
+                           tcount++;
+                         }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But according to me this gives rise to another problem, i.e. I won&#39;t be able to search for a record which already exists in the table , when the table is full or the search will provide a wrong result.&lt;/p&gt;
+
+&lt;p&gt;Can this problem be resolved?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637725</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">ORDER BY when using value gotten from sql function</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="tsql"/><category scheme="http://stackoverflow.com/feeds/tags" term="stored-procedures"/>
+        <author>
+            <name>Aleks</name>
+            <uri>http://stackoverflow.com/users/1563127</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637725/order-by-when-using-value-gotten-from-sql-function" />
+        <published>2013-03-26T13:00:57Z</published>
+        <updated>2013-03-26T13:09:43Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this SQL for creating the procedure:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;create procedure [dbo].[spGetProduct](@col_sort varchar(100), @dir_sort varchar(4), @filters nvarchar(max)) as
+begin
+declare @temp table (
+        row_num int,
+        product_id int,
+        product_name nvarchar(255),
+        produnit_name nvarchar(50)
+    )
+
+insert into @temp
+    EXEC(&#39;select * from (select (ROW_NUMBER() OVER (ORDER BY &#39;+@col_sort+&#39; &#39;+@dir_sort+&#39;)) row_num, product_id, product_name, dbo.fnGetUnitName(ing_produnit) produnit_name
+     from dbo.Products
+     where &#39;+@filters+&#39;) as tmp)
+
+select * from @temp
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Info:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dir_sort&lt;/code&gt; can be &lt;code&gt;asc&lt;/code&gt; or &lt;code&gt;desc&lt;/code&gt; and &lt;code&gt;col_sort&lt;/code&gt; is a string that contains one of the column names.&lt;/p&gt;
+
+&lt;p&gt;Filters in this case is irrelevant.&lt;/p&gt;
+
+&lt;p&gt;When &lt;code&gt;col_sort&lt;/code&gt; has the value &lt;code&gt;product_id&lt;/code&gt; or &lt;code&gt;product_name&lt;/code&gt; it is working fine, but when I call it with &lt;code&gt;produnit_name&lt;/code&gt; it throws error.&lt;/p&gt;
+
+&lt;p&gt;How can I order the data by that column in this case?  &lt;/p&gt;
+
+&lt;p&gt;Edit:&lt;/p&gt;
+
+&lt;p&gt;The error is: &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Invalid column name &#39;produnit_name&#39;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637697</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Toggle readonly attribute in input field</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="button"/><category scheme="http://stackoverflow.com/feeds/tags" term="uitextfield"/><category scheme="http://stackoverflow.com/feeds/tags" term="toggle"/><category scheme="http://stackoverflow.com/feeds/tags" term="readonly"/>
+        <author>
+            <name>Sowmya</name>
+            <uri>http://stackoverflow.com/users/1033200</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637697/toggle-readonly-attribute-in-input-field" />
+        <published>2013-03-26T12:59:39Z</published>
+        <updated>2013-03-26T13:10:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have created a form. Here is the &lt;strong&gt;&lt;a href=&quot;http://jsfiddle.net/Nedzj/1/&quot; rel=&quot;nofollow&quot;&gt;fiddle&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;By default all fields are in readonly state. What I need to do here is&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Active the text field to edit when use click on the &lt;code&gt;Edit button&lt;/code&gt; and edit button (Name and value) should turn into &lt;code&gt;SAVE button&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Once editing is done user should click on the &lt;code&gt;Save button&lt;/code&gt; and it should do the first step again, means change the button back to the original state i.e &lt;code&gt;Edit&lt;/code&gt; and text fields to &lt;code&gt;readonly&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;preferably looking for jquery solution.&lt;/p&gt;
+
+&lt;p&gt;Thank in advance!!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637683</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Why doesn&#39;t this simple Knockout.js example work?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="knockout.js"/>
+        <author>
+            <name>AntonSack</name>
+            <uri>http://stackoverflow.com/users/2128791</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637683/why-doesnt-this-simple-knockout-js-example-work" />
+        <published>2013-03-26T12:59:04Z</published>
+        <updated>2013-03-26T13:09:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am playing around with Knockout.js and created this simple example: &lt;a href=&quot;http://jsfiddle.net/JcTxT/30/&quot; rel=&quot;nofollow&quot;&gt;http://jsfiddle.net/JcTxT/30/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;term_grp&quot; data-role=&quot;fieldcontain&quot;&amp;gt;&amp;lt;a&amp;gt;Semester:&amp;lt;/a&amp;gt;
+
+&amp;lt;fieldset id=&quot;term_fields&quot; data-role=&quot;controlgroup&quot; data-type=&quot;horizontal&quot;&amp;gt;
+    &amp;lt;input type=&quot;radio&quot; name=&quot;term&quot; id=&quot;ss&quot; value=&quot;ss&quot; data-bind=&quot;checked: term&quot; /&amp;gt;
+    &amp;lt;label for=&quot;ss&quot;&amp;gt;Sommersemester&amp;lt;/label&amp;gt;
+    &amp;lt;input type=&quot;radio&quot; name=&quot;term&quot; id=&quot;ws&quot; value=&quot;ws&quot; data-bind=&quot;checked: term&quot; /&amp;gt;
+    &amp;lt;label for=&quot;ws&quot;&amp;gt;Wintersemester&amp;lt;/label&amp;gt;
+&amp;lt;/fieldset&amp;gt;
+Term is &amp;lt;span data-bind=&quot;text: pommes&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var aResult = {
+    term: ko.observable(&quot;ss&quot;),
+    pommes: &quot;TEST&quot;
+};
+
+$(document).on(&#39;pagebeforeshow&#39;, &#39;#mainPage&#39;, function () {
+    ko.applyBindings(aResult);
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I expected one of the radio button to be checked (the one with the value &quot;ss&quot; but this is not the case. Does anyone know, why?&lt;/p&gt;
+
+&lt;p&gt;Cheers&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637653</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">WPF DataGrid RowValidation Issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="wpf"/><category scheme="http://stackoverflow.com/feeds/tags" term="validation"/><category scheme="http://stackoverflow.com/feeds/tags" term="row"/>
+        <author>
+            <name>user2203652</name>
+            <uri>http://stackoverflow.com/users/2203652</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637653/wpf-datagrid-rowvalidation-issue" />
+        <published>2013-03-26T12:57:44Z</published>
+        <updated>2013-03-26T13:09:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have datagrid which has row validation with Virtualization on. I imprted large file with 48 column and 500 rows. It does validation for each visible rows (Virtualization) at the beginning. So if 10 rows are visible to user (it has scroll bar), it validates only 10 rows when data is imported, which is fine.&lt;/p&gt;
+
+&lt;p&gt;My Issue is: when I update any cell of datagrid, it does row validation again for 10 rows. I want data grid to validation only that updated row, not all visible rows. My current validation causes performance issue because of that.&lt;/p&gt;
+
+&lt;p&gt;Here Is Xaml:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;               &amp;lt;wpfc4:RhinoDataGrid.RowValidationRules&amp;gt;
+                    &amp;lt;wpfc4:CourseValidationRule  ValidationStep=&quot;RawProposedValue&quot;/&amp;gt;
+                &amp;lt;/wpfc4:RhinoDataGrid.RowValidationRules&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And Code is: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; public class CourseValidationRule : ValidationRule
+{
+    public override ValidationResult Validate(object value,
+        System.Globalization.CultureInfo cultureInfo)
+    {
+        ValidationResult vResult = ValidationResult.ValidResult;
+        DataRowView drView = (value as BindingGroup).Items[0] as DataRowView;
+        RhinoDataGrid rGrid = VisualTreeHelpers.FindVisualChild&amp;lt;RhinoDataGrid&amp;gt;(Application.Current.MainWindow);
+        for (int i = 0; i &amp;lt; drView.Row.ItemArray.Count(); i++)
+        {
+            string strVal = drView.Row.ItemArray[i].ToString();
+            if (strVal.Length &amp;gt; 10)
+            {
+                vResult = new ValidationResult(false,
+                &quot;error.&quot;);
+                break;
+            }
+        }
+        return vResult;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637599</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">How to extract a td from html</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="ajax"/>
+        <author>
+            <name>pooja agarwal</name>
+            <uri>http://stackoverflow.com/users/1968826</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637599/how-to-extract-a-td-from-html" />
+        <published>2013-03-26T12:55:07Z</published>
+        <updated>2013-03-26T13:10:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have one variable its having some html data. I want to extract one &lt;code&gt;td&lt;/code&gt; from that html.&lt;/p&gt;
+
+&lt;p&gt;If I give &lt;code&gt;alert(returnData)&lt;/code&gt; its giving the following output.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;tr class=&#39;addedrow&#39;&amp;gt;
+    &amp;lt;td id=&quot;abc&quot;&amp;gt;DOM-001
+        &amp;lt;input id=&quot;bill_details_1_narration&quot; name=&quot;bill_details[1][narration]&quot; type=&quot;hidden&quot; /&amp;gt;
+    &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;DOMSTAL O CAPSULES&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;
+        &amp;lt;select id=&quot;item_details_batch_number&quot; name=&quot;item_details[batch_number]&quot;&amp;gt;
+            &amp;lt;option value=&quot;47&quot;&amp;gt;BATCH-830&amp;lt;/option&amp;gt;
+        &amp;lt;/select&amp;gt;
+    &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;
+        &amp;lt;input id=&quot;bill_details_quantity&quot; name=&quot;bill_details[quantity]&quot; size=&quot;2&quot; type=&quot;text&quot; value=&quot;2.0&quot; /&amp;gt;
+    &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;
+        &amp;lt;input id=&quot;item_details_cost_price&quot; name=&quot;item_details[cost_price]&quot; size=&quot;2&quot; type=&quot;text&quot; value=&quot;23391.0&quot; /&amp;gt;
+    &amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here I want to extract the value &lt;code&gt;1&lt;/code&gt; from &lt;code&gt;bill_details_1_narration&lt;/code&gt;.   &lt;/p&gt;
+
+&lt;p&gt;How do I achieve this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15637566</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How to allow popups when url loads if it is NOT a physical click by the user in js</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="javascript-events"/>
+        <author>
+            <name>ganesh</name>
+            <uri>http://stackoverflow.com/users/2211603</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15637566/how-to-allow-popups-when-url-loads-if-it-is-not-a-physical-click-by-the-user-in" />
+        <published>2013-03-26T12:53:08Z</published>
+        <updated>2013-03-26T13:10:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to allow popups when site loads and if the root cause of an event is NOT a physical click by the user, then it&#39;s getting blocked. any help&lt;/p&gt;
+
+&lt;p&gt;My code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&quot;#buttonBtn&quot;).on(&#39;click&#39;,function(){
+    openpopup(&#39;temp&#39;+id)
+});
+
+$(&quot;#buttonBtn&quot;).trigger(&#39;click&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15636223</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Switching between front and back camera</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/>
+        <author>
+            <name>nilMoBile</name>
+            <uri>http://stackoverflow.com/users/452837</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15636223/switching-between-front-and-back-camera" />
+        <published>2013-03-26T11:42:16Z</published>
+        <updated>2013-03-26T13:09:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to create a custom camera app in which I need to switch between the front and back facing camera. So is it mandatory to create new camera instance every time for the type of &lt;code&gt;camera-id&lt;/code&gt; to make it work? I have tried setting in &lt;code&gt;camera-id&lt;/code&gt; to camera properties but it does not seem to work. Is there any other way to do this without re-instantiating the camera instance?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15634490</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Selenium enter text to field without an identifier</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="selenium"/>
+        <author>
+            <name>Jan</name>
+            <uri>http://stackoverflow.com/users/1740493</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15634490/selenium-enter-text-to-field-without-an-identifier" />
+        <published>2013-03-26T10:17:13Z</published>
+        <updated>2013-03-26T13:10:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I wonder if anyone know hoe to enter text into a field without any identifier. What happens is that i go to a website and are displayed a log on page in front of the web browser. If i now use F12 will I receive all the info about the page in the background except for the log in page.&lt;/p&gt;
+
+&lt;p&gt;Is there a way to blindly enter text, press tab, enter some more and then press enter?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15634423</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">pthread not working in php</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="multithreading"/><category scheme="http://stackoverflow.com/feeds/tags" term="php-5.3"/>
+        <author>
+            <name>Mohini</name>
+            <uri>http://stackoverflow.com/users/1353232</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15634423/pthread-not-working-in-php" />
+        <published>2013-03-26T10:14:31Z</published>
+        <updated>2013-03-26T13:09:43Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have downloaded the dll file from &lt;a href=&quot;http://windows.php.net/downloads/pecl/releases/pthreads/&quot; rel=&quot;nofollow&quot;&gt;http://windows.php.net/downloads/pecl/releases/pthreads/&lt;/a&gt; and enabled it in php.ini as below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;extension=pthreadVC2.dll
+extension=php_pthreads.dll
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have used below sample code mentioned in the url:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+class AsyncOperation extends Thread {
+public function __construct($arg){
+$this-&amp;gt;arg = $arg;
+}
+
+public function run(){
+if($this-&amp;gt;arg){
+  printf(&quot;Hello %s\n&quot;, $this-&amp;gt;arg);
+}
+}
+}
+$thread = new AsyncOperation(&quot;World&quot;);
+if($thread-&amp;gt;start())
+ $thread-&amp;gt;join();
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when i executed the code i got below error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Fatal error: Class &#39;Thread&#39; not found in C:\htdocs\threads\AsyncOperation.php 
+    on line 2 Call Stack: 0.0008 333464 1. {main}() 
+    C:\htdocs\threads\AsyncOperation.php:0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How to resolve this error.&lt;/p&gt;
+
+&lt;p&gt;Any help is appreciated&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15634422</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">PHPunit in zendframework 2</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="phpunit"/><category scheme="http://stackoverflow.com/feeds/tags" term="zend-framework2"/>
+        <author>
+            <name>Ramy1988</name>
+            <uri>http://stackoverflow.com/users/2206881</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15634422/phpunit-in-zendframework-2" />
+        <published>2013-03-26T10:14:30Z</published>
+        <updated>2013-03-26T13:10:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i&#39;m trying to use phpunit with zendframework and i&#39;m follwing the tutorial in &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://media.readthedocs.org/pdf/zf2/latest/zf2.pdf&quot; rel=&quot;nofollow&quot;&gt;https://media.readthedocs.org/pdf/zf2/latest/zf2.pdf&lt;/a&gt;
+and i don&#39;t know howa (or witch path is nedded ) to the controller &lt;/p&gt;
+
+&lt;p&gt;here is the code in Controller.php&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+namespace ApplicationTest\Controller;
+use Zend\Test\PHPUnit\Controller\AbstractHttpControllerTestCase;
+class IndexControllerTest extends AbstractHttpControllerTestCase
+{
+public function setUp()
+{
+$this-&amp;gt;setApplicationConfig(
+**include &#39;/path/to/application/config/test/application.config.php&#39;**
+);
+parent::setUp();
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;in the include line what should i put ? because i don&#39;t knowa where to find this file specially it menshed that it is under /config/test !&lt;/p&gt;
+
+&lt;p&gt;any help ?   &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15634273</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to like a facebook page through xcode?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="iphone"/><category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="facebook-iphone-sdk"/>
+        <author>
+            <name>Krishna</name>
+            <uri>http://stackoverflow.com/users/2165605</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15634273/how-to-like-a-facebook-page-through-xcode" />
+        <published>2013-03-26T10:07:12Z</published>
+        <updated>2013-03-26T13:10:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i want to like a page on facebook
+for example &lt;a href=&quot;https://www.facebook.com/pages/iPhone/109336685751749?fref=ts&quot; rel=&quot;nofollow&quot;&gt;https://www.facebook.com/pages/iPhone/109336685751749?fref=ts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the iPhone page on Facebook.
+How can i do it through xcode.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15630795</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Writing Hash of Hash</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="perl"/><category scheme="http://stackoverflow.com/feeds/tags" term="hash"/><category scheme="http://stackoverflow.com/feeds/tags" term="hashmap"/>
+        <author>
+            <name>Peus</name>
+            <uri>http://stackoverflow.com/users/2143932</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15630795/writing-hash-of-hash" />
+        <published>2013-03-26T06:34:09Z</published>
+        <updated>2013-03-26T13:09:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a hash containing this value.&lt;/p&gt;
+
+&lt;p&gt;Name of hash is PG_HASH&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    {
+      &#39;PG_3&#39; =&amp;gt; {
+                  &#39;REFUND&#39; =&amp;gt; &#39;-53702.00&#39;,
+                  &#39;PAYMENT&#39; =&amp;gt; &#39;1122787.00&#39;
+                },
+      &#39;PG_1&#39; =&amp;gt; {
+                  &#39;REFUND&#39; =&amp;gt; &#39;-72569.00&#39;,
+                  &#39;PAYMENT&#39; =&amp;gt; &#39;1112523.00&#39;
+                },
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Other than this I also have an array that contains value related to hash.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@array = {
+    pg_id =&amp;gt; $pg_id,
+    sum_type =&amp;gt; $sum_type,
+    sum_total =&amp;gt; $sum_total,
+    payment_ref =&amp;gt; $payment_ref,
+    payment_gateway =&amp;gt; $payment_gateway
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now I want to write a CSV file with headers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Pg_id  TYPE    Sumtotal   TYPE1    Sumtotal
+1      REFUND  -72569.00  PAYMENT  1112523.00
+3      REFUND  -53702.00  PAYMENT  1122787.00
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am unable to write the files in single row.
+I tried iterating over the parent hash but unable to match that with array.&lt;/p&gt;
+
+&lt;p&gt;Help&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15630776</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to login https://www.sandbox.paypal.com/ in personal test account</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="paypal"/><category scheme="http://stackoverflow.com/feeds/tags" term="paypal-sandbox"/><category scheme="http://stackoverflow.com/feeds/tags" term="paypal-adaptive-payments"/>
+        <author>
+            <name>user2210363</name>
+            <uri>http://stackoverflow.com/users/2210363</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15630776/how-to-login-https-www-sandbox-paypal-com-in-personal-test-account" />
+        <published>2013-03-26T06:32:32Z</published>
+        <updated>2013-03-26T13:10:17Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i have made an account on &lt;a href=&quot;https://developer.paypal.com/&quot; rel=&quot;nofollow&quot;&gt;https://developer.paypal.com/&lt;/a&gt; and after that create a personal account and a business account now i want to test these account to make a transaction on sandbox but on sandbox  there is a problem that i can&#39;t get access to login as personal account and as  business account &lt;a href=&quot;https://www.sandbox.paypal.com/&quot; rel=&quot;nofollow&quot;&gt;https://www.sandbox.paypal.com/&lt;/a&gt;    i used the email address and password of my personal account and business account .   how i can do test on paypal sandbox ?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15627119</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Selectively ignoring framing errors on serial ports</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="linux"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows"/><category scheme="http://stackoverflow.com/feeds/tags" term="serial-port"/>
+        <author>
+            <name>Miral</name>
+            <uri>http://stackoverflow.com/users/43534</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15627119/selectively-ignoring-framing-errors-on-serial-ports" />
+        <published>2013-03-26T00:10:15Z</published>
+        <updated>2013-03-26T13:09:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;For legacy reasons I need to make my program able to talk to a third-party device for which limited specs are available.  This in itself is not really an issue and I have some code that can talk to it just fine when it ignores all serial errors.&lt;/p&gt;
+
+&lt;p&gt;I would like it to not ignore errors, though -- but the problem is that every single message received from the device produces a framing error on the first byte (due to some odd design decision on the part of the manufacturer).&lt;/p&gt;
+
+&lt;p&gt;When the device transmits a response, it seems to assert a space on the line for 6 bit times, then a mark for 2 bit times, and then settles into normal framing (1 space start bit, 8 data bits, 2 mark stop bits).  Or to put it another way: the first byte transmitted appears to use 5-bit framing while every subsequent byte uses 8-bit framing; or that first byte is actually a really short break condition.  (Other than this quirk, the message format is fairly well designed and unambiguous.)  I&#39;m assuming that this was intended as some sort of interrupt wake-up signal, though I have no idea why it doesn&#39;t use the same framing as the rest of the message, or a genuine longer-than-one-character break condition.&lt;/p&gt;
+
+&lt;p&gt;Unsurprisingly, this annoys the OS, generating a framing error when it sees that first &quot;byte&quot;.  Currently I&#39;m using a Windows-based program to talk to this device (but may be migrating to Linux later).  On Windows, I&#39;m using overlapped I/O with &lt;code&gt;ReadFileEx&lt;/code&gt; to read the actual data and &lt;code&gt;ClearCommError&lt;/code&gt; to detect error conditions.  Unfortunately, this means that I get frame errors reported independently of data -- this is then treated as an error for the entire chunk of data being read (typically 8 bytes at a time, though sometimes more) and I can&#39;t really seem to localise it further.&lt;/p&gt;
+
+&lt;p&gt;(The framing error does occasionally corrupt the second byte in the incoming message as well, but fortunately that does not cause any problems in interpreting this particular message format.)&lt;/p&gt;
+
+&lt;p&gt;I&#39;d like to be able to identify which bytes specifically caused framing errors so that the port-handling code can pass this on to the protocol-handling code, and it can ignore errors that occur outside of the significant parts of the message.  But I don&#39;t want to lower performance (which is what I suspect would happen if I tried to read byte-by-byte; and I&#39;m not sure if that would even work anyway).&lt;/p&gt;
+
+&lt;p&gt;Is there a good way to do this?  Or would I be better off forgetting the whole idea and just ignoring framing errors entirely?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15626749</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Prime Tester for speed</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="performance"/><category scheme="http://stackoverflow.com/feeds/tags" term="testing"/><category scheme="http://stackoverflow.com/feeds/tags" term="code-efficiency"/><category scheme="http://stackoverflow.com/feeds/tags" term="processing-efficiency"/>
+        <author>
+            <name>Alaev</name>
+            <uri>http://stackoverflow.com/users/2192972</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15626749/prime-tester-for-speed" />
+        <published>2013-03-25T23:30:21Z</published>
+        <updated>2013-03-26T13:10:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I was given a homework assignment in Java to create classes that find Prime number and etc (you will see in code better).&lt;/p&gt;
+
+&lt;p&gt;My code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    class Primes {
+
+    public static boolean IsPrime(long num) {
+        if (num%2==0){
+            return false;
+        }
+
+        for (int i=3; i*i&amp;lt;=num;i+=2) {
+            if (num%i==0) {
+                return false;    
+            }
+        }
+        return true;
+    }   //  End boolen IsPrime
+
+    public static int[] primes(int min, int max){
+        int counter=0;
+        int arcount=0;
+
+        for (int i=min;i&amp;lt;max;i++){
+            if (IsPrime(i)){
+                counter++;
+            }   
+        }
+
+        int [] arr= new int[counter];
+        for (int i=min;i&amp;lt;max;i++){
+            if (IsPrime(i)){
+                arr[arcount]=i;
+                arcount++;
+            }               
+        }
+        return arr;
+    }   //  End Primes
+
+    public static String tostring (int [] arr){
+        String ans=&quot;&quot;;
+        for (int i=0; i&amp;lt;arr.length;i++){
+            ans= ans+arr[i]+ &quot; &quot;;
+        }
+        return ans;
+    }
+
+    public static int closestPrime(long num){
+        long e = 0 , d = 0 , f = num;
+        for (int i = 2; i &amp;lt;= num + 1 ; i++){
+            if ((num + 1) % i == 0){
+                if ((num + 1) % i == 0 &amp;amp;&amp;amp; (num + 1) == i){
+                    d = num + 1;
+                    break;
+                }
+                num++;
+                i = 1;
+            }
+        }
+        num = f;
+        for (int i = 2; i &amp;lt; num; i++){
+            if ((num - 1) % i == 0){
+                if ((num - 1) % i == 0 &amp;amp;&amp;amp; (num - 1) == i){
+                    e = num - 1;
+                    break;
+                }
+                num--;
+                i = 1;
+            }
+        }
+        num = f;
+        if (d - num &amp;lt; num - e) System.out.println(&quot;Closest Prime: &quot;+d);
+        else System.out.println(&quot;Closest Prime: &quot;+e);
+
+        return (int) num;
+    }   //  End closestPrime
+
+}//end class
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The goal of my code is to be faster (and correct). I&#39;m having difficulties achieving this. Suggestions?&lt;/p&gt;
+
+&lt;p&gt;**New code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Primes {
+
+     public static boolean IsPrime(int num) {
+
+         if (num==1){
+             return false;
+         }
+         for (int i=2; i&amp;lt;Math.sqrt(num);i++) {
+             if (num%i==0) {
+                 return false;
+             }
+         }
+         return true;
+     }
+          //  End boolen IsPrime
+
+     public static int[] primes(int min, int max){
+         int size=0;
+         int [] arrtemp= new int[max-min];
+
+         for (int i=min;i&amp;lt;max;i++){
+             if (IsPrime(i)){
+                 arrtemp[size]=i;
+                 size++;
+             }   
+         }
+
+         int [] arr= new int[size];
+         for (int i=0;i&amp;lt;size;i++){
+                arr[i]=arrtemp[i];
+
+             } 
+         return arr;
+
+     }  
+
+    public static String tostring (int [] arr){
+        String ans=&quot;&quot;;
+        for (int i=0; i&amp;lt;arr.length;i++){
+            ans= ans+arr[i]+ &quot; &quot;;
+        }
+        return ans;
+    }
+
+    public static int closestPrime(int num) {
+        int count=1;    
+        for (int i=num;;i++){
+
+            int plus=num+count, minus=num-count;
+            if (IsPrime(minus)){
+
+                return minus;
+
+            }
+
+            if (IsPrime(plus)) {
+                return plus;
+
+            }
+            count=count+1;
+        }
+    }   //  End closestPrime
+
+}//end class
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I did try to make it a bit better. what do you think, it can be improved more? (the speed test is still high...)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15622255</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">log4net: Roll by date, enumerate file by number</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="log4net"/><category scheme="http://stackoverflow.com/feeds/tags" term="log4netconfiguration"/>
+        <author>
+            <name>Pretzel</name>
+            <uri>http://stackoverflow.com/users/21244</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15622255/log4net-roll-by-date-enumerate-file-by-number" />
+        <published>2013-03-25T18:37:22Z</published>
+        <updated>2013-03-26T13:09:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Previously, my team had been using log4net to roll by maximum file size, and it was generating files like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;MyLog.log
+MyLog.log.1
+MyLog.log.2
+etc.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Recently, we&#39;ve switched to &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;rollingStyle value=&quot;Date&quot;/&amp;gt;
+&amp;lt;MaxSizeRollBackups value=&quot;14&quot;/&amp;gt;
+&amp;lt;datePattern value=&quot;yyyyMMdd&quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which now produces filenames like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;MyLog.log
+MyLog.log20130324
+MyLog.log20130323
+etc.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is it possible to roll by date and yet still have the log files enumerated like before? If so, how would I do this? I looked all over Log4net&#39;s website, but couldn&#39;t find a good reference on how to do this.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/14857212</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Avaya CMS data extraction in vba only works when single stepping</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="vba"/><category scheme="http://stackoverflow.com/feeds/tags" term="ms-access"/><category scheme="http://stackoverflow.com/feeds/tags" term="access-vba"/><category scheme="http://stackoverflow.com/feeds/tags" term="avaya"/>
+        <author>
+            <name>Sean Cheshire</name>
+            <uri>http://stackoverflow.com/users/1370425</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/14857212/avaya-cms-data-extraction-in-vba-only-works-when-single-stepping" />
+        <published>2013-02-13T15:40:32Z</published>
+        <updated>2013-03-26T13:09:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;When I run my code to retrieve data from a CMS report, if I single step through the code, the code works, but if I run it normally, it (eventually) fails, and MS Access stops responding.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&#39; Sets parameters for report
+cmsReport.SetProperty reportPrompt(1, 1), reportPrompt(1, 2)
+cmsReport.SetProperty reportPrompt(2, 1), reportPrompt(2, 2)
+cmsReport.SetProperty reportPrompt(3, 1), reportPrompt(3, 2)
+&#39; Runs report and extracts results
+EmptyClipboard
+b = cmsReport.ExportData(&quot;&quot;, 44, 0, True, True, True)
+Do While ClipboardEmpty
+    &#39; for some reason, avaya doesn&#39;t always copy to clipboard, so keep repeating it until it gives up the data!
+    b = cmsReport.ExportData(&quot;&quot;, 44, 0, True, True, True)
+Loop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the subroutines used for checking clipboard, and emptying it before I try to get the data into the clipboard:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Private Declare Function apiOpenClipboard Lib &quot;user32&quot; Alias &quot;OpenClipboard&quot; (ByVal hWnd As Long) As Long
+Private Declare Function apiEmptyClipboard Lib &quot;user32&quot; Alias &quot;EmptyClipboard&quot; () As Long
+Private Declare Function apiCloseClipboard Lib &quot;user32&quot; Alias &quot;CloseClipboard&quot; () As Long
+Private Declare Function CountClipboardFormats Lib &quot;user32&quot; () As Long
+
+Sub EmptyClipboard()
+If apiOpenClipboard(0&amp;amp;) &amp;lt;&amp;gt; 0 Then
+    Call apiEmptyClipboard
+    Call apiCloseClipboard
+End If
+End Sub
+
+Function ClipboardEmpty() As Boolean
+ClipboardEmpty = (CountClipboardFormats() = 0)
+End Function
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I use late binding for the objects, and I have Avaya CMS 16.2 installed.&lt;br&gt;
+I have tried setting the timeouts, with no success (either line, or both, fails to solve the issue)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cmsConnection.lTimeOutSecs = 60
+cmsConnection.bTimeOutEnable = False
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/14675274</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Chrome dev tools shows download status as canceled for dynamically generated file in Grails app</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="grails"/><category scheme="http://stackoverflow.com/feeds/tags" term="file-download"/><category scheme="http://stackoverflow.com/feeds/tags" term="extjs4.1"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-chrome-devtools"/>
+        <author>
+            <name>nogridbag</name>
+            <uri>http://stackoverflow.com/users/695318</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/14675274/chrome-dev-tools-shows-download-status-as-canceled-for-dynamically-generated-fil" />
+        <published>2013-02-03T17:41:40Z</published>
+        <updated>2013-03-26T13:09:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a requirement to generate an Excel file from some parameters sent in the request.  Everything appears to be working fine, but if I open up Chrome&#39;s dev tools, it marks the download in red and the Status column shows &quot;(canceled)&quot;. I can still open up the downloaded file perfectly fine.&lt;/p&gt;
+
+&lt;p&gt;I also used the net-internals to log further information but I&#39;m not exactly sure what I&#39;m looking for.&lt;/p&gt;
+
+&lt;p&gt;The final log messages show:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[st=52] DOWNLOAD_ITEM_COMPLETING
+                       --&amp;gt; bytes_so_far = &quot;6656&quot;
+                       --&amp;gt; final_hash = &quot;BLAHBLAHBLAH.....&quot;
+[st=80]    DOWNLOAD_FILE_DETACHED
+[st=80]    DOWNLOAD_FILE_CLOSED
+[st=93]    DOWNLOAD_ITEM_FINISHED
+                       --&amp;gt; auto_opened = &quot;no&quot;
+[st=94] -DOWNLOAD_ITEM_ACTIVE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The Grails / apache poi code to generate the file is fairly simple:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def downloadFile() {
+    def cellData = params.data
+
+    response.setContentType(&quot;application/vnd.ms-excel&quot;)
+    response.setHeader(&#39;Content-Disposition&#39;, &#39;attachment;filename=myfile.xls&#39;)
+    response.setStatus(HttpServletResponse.SC_OK)
+
+    Workbook wb = new HSSFWorkbook()
+    Sheet sheet = wb.createSheet(&quot;My Sheet&quot;)
+    Row row = sheet.createRow(0)
+    row.createCell(0).setCellValue(cellData)
+
+    ByteArrayOutputStream outByteStream = new ByteArrayOutputStream();
+    wb.write(outByteStream);
+    byte [] outArray = outByteStream.toByteArray();
+
+    response.setContentLength(outArray.length);
+    response.outputStream &amp;lt;&amp;lt; outArray
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And finally, in our Javascript app (we&#39;re using ExtJS 4) I&#39;ve tried multiple methods of downloading the file:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Appending a hidden form to the document (with action = the &quot;downloadFile&quot; controller method) and calling form.submit()&lt;/li&gt;
+&lt;li&gt;Appending a hidden iframe to the document (with src = the &quot;downloadFile&quot; controller method)&lt;/li&gt;
+&lt;li&gt;Using Ajax.request with isUpload: true and form: hiddenFormElement&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All three successfully download the file, but Chrome still shows status canceled.&lt;/p&gt;
+
+&lt;p&gt;I noticed this warning in the Chrome console:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Resource interpreted as Document but transferred with MIME type application/vnd.ms-excel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/12819423</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">The easiest way to check if all values of std::map are equal</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="stl"/><category scheme="http://stackoverflow.com/feeds/tags" term="stdmap"/>
+        <author>
+            <name>G-s</name>
+            <uri>http://stackoverflow.com/users/1421470</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/12819423/the-easiest-way-to-check-if-all-values-of-stdmap-are-equal" />
+        <published>2012-10-10T12:31:46Z</published>
+        <updated>2013-03-26T13:10:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;What is the easiest way to check if values of some std::map are equal for all the keys, without (at least, visible) iterating over all of them? Can it be done in one operation?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/12449510</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How could I sort columns based on criteria contained in a specific row (Matlab)?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="matlab"/><category scheme="http://stackoverflow.com/feeds/tags" term="sorting"/><category scheme="http://stackoverflow.com/feeds/tags" term="matrix"/>
+        <author>
+            <name>Kenny</name>
+            <uri>http://stackoverflow.com/users/1676035</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/12449510/how-could-i-sort-columns-based-on-criteria-contained-in-a-specific-row-matlab" />
+        <published>2012-09-16T18:27:49Z</published>
+        <updated>2013-03-26T13:09:45Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have data like the following matrix:
+A = [2 5 10 4 10; 2 4 5 1 2; 6 2 1 5 4];&lt;/p&gt;
+
+&lt;p&gt;A =&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; 2     5    10     4    10
+ 2     4     5     1     2
+ 6     2     1     5     4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I would like to sort the by the last row based on the following criteria:&lt;/p&gt;
+
+&lt;p&gt;if the difference between the first element (in the third row) and second element (in the third row) is less than or equal to 2 -- then move that column (the second in this case two columns to the right). Then do this for all columns until no two elements (of the last row) are within a difference of 2)  &lt;/p&gt;
+
+&lt;p&gt;B =&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; 2     5     4    10    10
+ 2     4     1     5     2
+ 6     2     5     1     4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where (6-2 = 4) (2-5 = 3) (5-1 = 4) (1-4 = 3)&lt;/p&gt;
+
+&lt;p&gt;Ultimately difference between all elements of the last row and element next to it is greater than 2.&lt;/p&gt;
+
+&lt;p&gt;Any suggestions?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/11022598</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Show subarray of color image</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="image"/><category scheme="http://stackoverflow.com/feeds/tags" term="matlab"/><category scheme="http://stackoverflow.com/feeds/tags" term="image-processing"/>
+        <author>
+            <name>Jorge Zapata</name>
+            <uri>http://stackoverflow.com/users/912744</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/11022598/show-subarray-of-color-image" />
+        <published>2012-06-13T20:12:02Z</published>
+        <updated>2013-03-26T13:10:19Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Given a color image I need to show just a subpart of the image, in matlab this would be something like showing a subarray from array image.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;I=imread(&#39;lena_std.tif&#39;);
+imshow(I(1:200,1:200);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With a grayscale image the above code shows correctly the subpart of the image wanted, however with a color image it shows a grayscale image. I know there is a 3&#176; dimension which in a color has a value of 3 (RGB), but I just don&#39;t know how to consider that dimension in order to show the subpart in color.&lt;/p&gt;
+
+&lt;p&gt;Can you help me please?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/6278316</id>
+        <re:rank scheme="http://stackoverflow.com">6</re:rank>
+        <title type="text">How to store array of hashes in redis</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="node.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="redis"/><category scheme="http://stackoverflow.com/feeds/tags" term="key-value-store"/>
+        <author>
+            <name>XMen</name>
+            <uri>http://stackoverflow.com/users/434893</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/6278316/how-to-store-array-of-hashes-in-redis" />
+        <published>2011-06-08T11:56:12Z</published>
+        <updated>2013-03-26T13:09:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to store array of hashes in redis , what is best way to code it ?&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

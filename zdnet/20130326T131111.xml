@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:s="http://www.zdnet.com/search" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <link>http://www.zdnet.com/</link>
+    <title>Latest Blog for ZDNet</title>
+    <description>Latest Blog for ZDNet</description>
+    <language>en</language>
+    <copyright>ZDNet</copyright>
+    <managingEditor>customerservice@zdnet.com (ZDNet Customer Services)</managingEditor>
+    <webMaster>uk-engineering@cbsinteractive.com (ZDNet Webmaster)</webMaster>
+    <pubDate>Tue, 26 Mar 2013 13:11:11 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Mar 2013 13:11:11 +0000</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <ttl>2</ttl>
+    <image>
+      <url>http://i.zdnet.com/images/spry/zdnet_300x300.jpg</url>
+      <link>http://www.zdnet.com/</link>
+      <title>Latest Blog for ZDNet</title>
+      <width>143</width>
+      <height>39</height>
+    </image>
+    <s:counts>
+      <start>0</start>
+      <return>20</return>
+      <found>41461</found>
+    </s:counts>
+    <item>
+      <guid isPermaLink="false">7000013121</guid>
+      <link><![CDATA[http://www.zdnet.com/platfora-goes-ga-asking-bi-and-big-data-to-say-i-do-7000013121/]]></link>
+      <title><![CDATA[Platfora goes GA, asking BI and Big Data to say "I do."]]></title>
+      <description><![CDATA[Platfora releases its BI for Big Data product to general availability, eschewing Hive and hand-coded MapReduce, while embracing in-memory queries.  ]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 13:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Andrew Brust]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-business-intelligence/">Business Intelligence</category>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="Platfora Screenshot" alt="Platfora Screenshot" src="http://cdn-static.zdnet.com/i/r/story/70/00/013121/platfora-screenshot-200x102.jpg?hash=BQWzAwN0A2&upscale=1" height="102" width="200"><figcaption>A Platfora bubble chart visualization</figcaption></figure>
+<p>When I started this blog a bit over a year ago, I felt convinced that the&nbsp;separation&nbsp;between Big Data and Business Intelligence was arbitrary and contrived. &nbsp;It would seem that San Mateo, CA-based <a href="http://www.platfora.com/">Platfora</a>, agrees as it is today releasing for general availability its namesake product, that seeks to bridge the BI-Big Data divide.</p>
+<p><strong>To your last dying day</strong><br>The Big Data world, which has orbited around Hadoop, and the BI world, which has orbited around OLAP cubes, charts and dashboards, have mutually maintained their segregated status quo. &nbsp;Big Data and BI are the Jets and the Sharks of the technology industry: they live in the same neighborhood and have much in&nbsp;common, but thrive on obsessing over their differences.</p>
+<p><a href="http://hive.apache.org">Apache Hive</a> has attempted to broker a peace between the warring clans, but has achieved dtente at best. &nbsp;Yes, most BI tools now connect to Hadoop via Hive, but using that technology, Hadoop keeps working in its batch mode ways, to the chagrin of BI tools that want quick results, so they can fire off subsequent queries.</p>
+<p><strong>Special sauce</strong><br>It would seem the folks at Platfora agree that a positive peace is possible, and that the mere truce brought about by Hive is at best a stopgap solution, and one that has outlived its usefulness. &nbsp;Platfora's namesake product is a business-user-friendly BI tool that combines an HTML 5-based user interface, a data visualization engine and an in-memory&nbsp;analytical&nbsp;database -- supporting what Platfora calls its "Fractal Cache" technology -- that maintains in-memory "lenses."</p>
+<p>Platfora is certified with the big three Hadoop distros: <a href="http://www.cloudera.com">Cloudera</a>'s Distribution Including Apache Hadoop (CDH), the <a href="http://www.hortonworks.com">Hortonworks</a> Data Platform (HDP), <a href="http://www.mapr.com">MapR</a> and even newcomer EMC/Greenplum <a href="http://www.greenplum.com/products/pivotal-hd">Pivotal HD</a>. &nbsp;My guess is that Platfora won't take long to obtain similar certification for <a href="http://www.intel.com/content/www/us/en/big-data/big-data-intel-distribution-for-apache-hadoop.html">Intel's Distribution for Apache Hadoop</a>, as well, although no such certification has been announced.</p>
+<p><strong>Same thing, only different</strong><br>I met with Platfora's Founder and CEO, <a href="http://www.linkedin.com/in/bwerther">Ben&nbsp;Werther</a>, at last week's <a href="http://event.gigaom.com/structuredata/">GigaOM Structure:Data</a> event at Chelsea Piers in New York City. &nbsp;Given my own opinion on the futility of separating Big Data and BI, I was very&nbsp;interested&nbsp;in what Mr. Werther had to say. &nbsp;But I was also skeptical. &nbsp;After all, <a href="https://ccp.cloudera.com/display/IMPALA10BETADOC/Introducing+Cloudera+Impala">Cloudera's Impala</a>, <a href="http://www.hadapt.com">Hadapt</a>, and numerous Massively Parallel Processing (MPP) data warehouse products all attempt to provide interactive (rather than batch) query capabilities over Hadoop, to enable BI-style analysis of Big Data. &nbsp;Why makes Platfora different?</p>
+<p>I'll&nbsp;withhold&nbsp;judgement until I see the product demoed in-depth, but for now I can at least convey what Werther told me: unlike various data warehouse solutions which must be supported by careful schema design and sometimes elaborate Extract, Transform and Load (ETL) processes, Platfora supports the same sort of just-in-time schema determination as Hadoop itself. &nbsp;Platfora also generates its own, optimized MapReduce jobs, providing a nice middle-ground between the tedium of hand-coded MapReduce and Hive's somewhat one-size-fits-all approach of generating MapReduce code by translating SQL queries.</p>
+<p><strong>Hadoop for the masses</strong><br>Effectively, Platfora is taking the concept of Pervasive BI and bringing it forward to the Big Data world. &nbsp;But the vision of Pervasive BI was never quite realized, so can Platfora make Pervasive Big Data a reality?</p>
+<p>I think it's a steep climb, but I'm glad someone's trying. &nbsp;And with Werther having served as a Senior Product Manager at both Siebel and Microsoft, Director of Product Management at Greenplum and VP of Products at <a >DataStax</a>,&nbsp;Platfora's certainly coming at it from the right vantage point.</p>
+<p>BI, SQL, and Hadoop are converging, with momentum that appears unstoppable. &nbsp;The only questions are how long will the convergence&nbsp;take, and who's solution(s) will win out.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013136</guid>
+      <link><![CDATA[http://www.zdnet.com/what-should-you-seek-in-a-cloud-services-partner-7000013136/]]></link>
+      <title><![CDATA[What should you seek in a cloud services partner?]]></title>
+      <description><![CDATA[Integrators and VARs focused on brokering cloud services should be able to demonstrate skills in aggregation, integration and customizations — or, perhaps, all three.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 12:50:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Heather Clancy]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-channel/">Channel</category>
+      <media:text type="html"><![CDATA[<p>By the end of next year, research firm Gartner predicts that about 30 percent of the Fortune 1000 will be working with at least two cloud services that they need to broker together for their external and internal users.</p>
+<p>As a result, spending on IT projects to integrate, customize or aggregate those services could reach an estimated $100 billion by that timeframe, according to one of its recent reports ("Examining the Magnitude of the Cloud Services Brokerage Opportunity").&nbsp;</p>
+<p>So, what exactly does your organization need as it considers its own transformation?</p>
+<p>Here's how Gartner's principal analyst Tiffani Bova describes the different models in her November 2012 report, <a href="http://www.gartner.com/id=2259417">"Service Provider Primer: Cloud Services Brokerage."</a> Here are her three basic definitions, which should guide how you go about assessing your own cloud services partner:</p>
+<ul>
+<li><strong>Aggregation</strong>: Skill sets that can help bring together multiple cloud services "at scale." That includes things like provisioning, single sign-on, unified billing, and management. This could be as simple as providing a dashboard where all of your employees access their cloud applications.</li>
+<li><strong>Integration</strong>: Obviously many of the same skill sets apply, but the focus is on bringing two services together for an "integrated result." It might involve linking two applications, for example, that are hosted in the cloud, so that updates in one are reflected in the other.&nbsp;</li>
+<li><strong>Customization</strong>: Pretty much as it sounds, the focus is on adding to or changing a services capabilities, maybe to accommodate processes that are specific to your organization or to change the interface.</li>
+</ul>
+<p>Gartner's research among CIOs and IT managers has shown that all of these skills (along with management) are considered important for carrying out cloud strategies or handling migrations more than half the time, but most IT organizations don't currently support them internally. Thus, the need for external cloud services brokers such as the ones that I've begun profiling here in Next-Gen Partner.&nbsp;</p>
+<p>Can you simply use your existing, traditional IT services provider to handle these projects? The answer is "maybe," especially if you're trying to integrate cloud capabilities tightly with existing IT infrastructure and their team hasn't resisted the transition because it presents a threat to its legacy business model.</p>
+<p>But look carefully for evidence of existing or previous cloud implementation and migration work that fits into the three areas above or your own project could become a grand experiment for both sides.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013099</guid>
+      <link><![CDATA[http://www.zdnet.com/no-windows-desktop-mode-no-7000013099/]]></link>
+      <title><![CDATA[No Windows desktop mode!? No!]]></title>
+      <description><![CDATA[The early look at Blue have some Windows experts thinking that Microsoft is getting ready to dump Windows 8's desktop mode once and for all in favor of Metro. No!]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 12:46:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Steven J. Vaughan-Nichols]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-cloud/">Cloud</category>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <category domain="http://www.zdnet.com/topic-linux/">Linux</category>
+      <category domain="http://www.zdnet.com/topic-microsoft/">Microsoft</category>
+      <category domain="http://www.zdnet.com/topic-operating-systems/">Operating Systems</category>
+      <category domain="http://www.zdnet.com/topic-software/">Software</category>
+      <category domain="http://www.zdnet.com/topic-windows-8/">Windows 8</category>
+      <media:text type="html"><![CDATA[<p>It comes as no surprise to anyone who reads my stories that I hate Windows 8's Metro interface. I'm not alone. <a href="http://www.zdnet.com/will-90-percent-of-users-always-hate-windows-8-7000012348/">Lots of people hate it</a>. But instead of switching back to an Aero style interface, perhaps the most respected technical Windows writer out there, blogger Paul Thurrott, looked at the <a href="http://www.zdnet.com/microsoft-readying-multiple-windows-blue-servers-and-a-blue-windows-rt-build-7000013041">leaked Windows Blue release</a> and thinks <a href="http://winsupersite.com/windows-8/virtual-hands-windows-8-blue-build-9364">Microsoft is planning on dumping Windows Desktop mode entirely</a>. No!</p>
+<figure class="alignRight"><img title="winsupersiteblueleak-200x136" alt="winsupersiteblueleak-200x136" src="http://cdn-static.zdnet.com/i/r/story/70/00/013099/winsupersiteblueleak-200x136-200x136.png?hash=ZzR2MwAuZQ&upscale=1" height="136" width="200"><figcaption>Will Metro be Windows' only interface soon? Some experts think so. </figcaption></figure>
+<p>I've thought all along that one way <a href="http://www.zdnet.com/five-ways-to-save-windows-8-7000012369">Microsoft could save Windows 8</a> from its current <a href="http://www.zdnet.com/five-reasons-why-windows-8-has-failed-7000012104/">market malaise</a> if it would make its desktop mode the primary interface instead of Metro.</p>
+<p>That isn't what Thurrott sees happening though. In fact, he sees the exact opposite.</p>
+<p>Thurrott wrote, "All the action in this build is in PC settings, and if you were looking for any further proof the desktop being eased out going forward, look no further than this. As noted in the previous report, there are a&nbsp;ton&nbsp;of new settings in there now, including many items that were previously only available in the desktop-based Control Panel interface. This is clearly an indication of how we get from here (Windows 8) to there (Windows 9, with potentially no desktop)." As further proof he observed, "The default apps interface has been completely Metro-ized in this release."</p>
+<p>Some observers, like ComputerWorld's Preston Gralla agree with him, "There's a reasonable chance that <a href="http://blogs.computerworld.com/windows/21950/windows-blue-shows-why-microsoft-may-kill-desktop-windows-9">Microsoft will finally get around to killing the Desktop in Windows 9</a>. With Windows 8, Microsoft did its best to make the Desktop at best an afterthought, relegating it to a tile on the Start screen. Windows 8 has been built for touch and the horizontal orientation of a tablet, and the Desktop has no place in that world."</p>
+<p>Others, such as Byte's Larry Seltzer, disagree: "Can anyone actually believe this? Earth to Paul:<a href="http://www.informationweek.com/byte/windows-blue9-no-desktop-no-way/240151632"> The Windows desktop is a major strength of the operating system</a>, "especially" as compared to the competition. There is an ocean of expertise and customized software out there on the Windows desktop, and Microsoft would never alienate these people."</p>
+<p>I'd agree with Seltzer, except... well Microsoft is already alienating those users. I know some Windows 8 PC users. The majority of them <a href="http://www.zdnet.com/how-to-make-windows-8-seem-normal-7000012206">zoom past Metro and get to a normal Windows Desktop </a>as fast as possible. If Thurrott is right, Windows users will be locked into Metro once and for all. That will fly as well as a lead brick.</p>
+<p>One source close to Microsoft told me he can't see Microsoft dumping the desktop anytime soon. "There's the little, itty-bitty problem of hundreds of thousands of desktop applications that will take years, if not longer, to migrate to WinRT API-based apps. Just bringing Office alone to WinRT will be a Manhattan Project."</p>
+<p>Of course, Microsoft does have one way around this problem: Move all its business apps. To the cloud and make them software-as-a-service (SaaS) apps. This fits in nicely with Ed Bott's vision of <a href="http://www.zdnet.com/microsofts-radical-new-business-plan-is-hidden-in-plain-sight-7000001750">Microsoft's future as cloud-based service provider with its own hardware line, Surface</a>.</p>
+<p>If moving its business applications to the cloud really is the plan then Microsoft could indeed leave Windows 8's desktop mode behind. I wouldn't be happy about it, and I don't see that I'd ever like Metro, but a combination of cloud services and Windows-based devices with Metro interfaces could win for Microsoft .</p>
+<p>It's beginning to look more and more like if you want a traditional desktop you're going to need to use Linux. Who'd thought it?&nbsp;</p>
+<p>As a long-time desktop Linux user that's fine by me, but I really wonder if Windows users really want to follow me to Linux or if they'd rather just have a working, Aero-style desktop instead of a cloud-based Metro device? I'd bet they'd really rather have their fine old desktop anyday.&nbsp;</p>
+<p><strong>Related Stories:</strong></p>
+<ul>
+<li><a href="http://www.zdnet.com/microsoft-readying-multiple-windows-blue-servers-and-a-blue-windows-rt-build-7000013041/">Microsoft readying multiple Windows Blue servers and a Blue Windows RT build</a></li>
+<li><a href="http://www.zdnet.com/windows-8-metro-interface-blues-7000013036/">Windows 8 Metro interface Blues</a></li>
+<li><a href="http://www.zdnet.com/new-alleged-windows-blue-build-shows-off-coming-interface-tweaks-7000013035/">New alleged Windows Blue build shows off coming interface tweaks</a></li>
+<li><a href="http://www.zdnet.com/microsoft-expected-to-update-its-full-suite-of-built-in-windows-8-apps-7000013004/">Microsoft expected to update its full suite of built-in Windows 8 apps</a></li>
+<li><a href="http://www.zdnet.com/five-reasons-why-windows-8-has-failed-7000012104/">Five reasons why Windows 8 has failed</a></li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013137</guid>
+      <link><![CDATA[http://www.zdnet.com/599-ultrabooks-by-the-holiday-season-is-too-little-too-late-7000013137/]]></link>
+      <title><![CDATA[$599 ultrabooks by the holiday season is too little, too late]]></title>
+      <description><![CDATA[The PC industry is essentially stagnant, and tinkering with existing form factors – which is what the Ultrabook essentially is – won't help that much.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 12:21:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Adrian Kingsley-Hughes]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-hardware/">Hardware</category>
+      <category domain="http://www.zdnet.com/topic-windows-8/">Windows 8</category>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="" alt="" src="http://cdn-static.zdnet.com/i/r/story/70/00/013137/2013-03-2612-12-34-200x136.jpg?hash=AzAuMzAxBT&upscale=1" height="136" width="200"></figure>
+<p>In an attempt to improve adoption rates, Intel is looking to push down the starting price of Ultrabook systems to $599 by the holiday season. While this will undoubtedly be nice for those looking for a bargain, it is unlikely to be enough to reinvigorate interest in the platform.</p>
+<p>Speaking at last week's Intel Solutions Summit (ISS) 2013 in Los Angeles, Kirk Skaugen, senior vice president and general manager of Intel's PC Client Group, <a href="http://www.crn.com/news/mobility/240151639/intel-planning-599-ultrabooks-by-holiday-season.htm">announced the price cut</a> to an audience of top OEMs.</p>
+<p>Skaugen also said that the early Ultrabooks were "just a retrofit of what was already in the market," and that new Haswell-based models would bring a whole raft of new features to the table, including touchscreens, faster drives, and all-day batteries.</p>
+<p>But the problem with this is that this is too little, too late. Despite Windows 8 getting off to a good start, with <a href="http://www.zdnet.com/microsoft-60-million-windows-8-licenses-sold-to-date-7000009549/">Microsoft selling 60 million licenses by the beginning of January</a>, it seems that most of these were sold to hardware OEMs and are sitting on shelves waiting for customers to buy new PCs. And in the meantime, people are discovering that Android and iOS tablets, and that they don't need a full operating system to do the things they want to get done.</p>
+<blockquote class="alignLeft">
+<p><strong>See also</strong>:&nbsp;<a href="http://www.zdnet.com/a-99-kindle-fire-would-annihilate-the-android-tablet-competition-7000012899/" target="_blank">A $99 Kindle Fire would annihilate the Android tablet competition</a></p>
+</blockquote>
+<p>Another factor placing a headwind on Ultrabooks is the aggressive product upgrade cycle from the likes of Apple and Samsung. These companies are building on the success of previous generations of hardware by releasing better models on a regular basis. Also, as more people get locked into the iOS or Android ecosystem, they're less likely to want to take a chance with a different platform, even if that platform is Windows, one that is familiar to most computer users.</p>
+<p>The holiday season is a long way away, and by then there will be a new iPad and iPhone, along with a slew of Android-powered devices, all tempting the money out of consumer's pockets.</p>
+<p>The PC market is stagnating, and tinkering with existing form factors – which is what the Ultrabook essentially is – won't help that much. The era of the PC is waning, and replacing it is the post-PC era, one dominated by low-power, low-cost, easy-to-use devices.</p>
+<p>The tide is turning and Ultrabooks isn't going to stop it from happening.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013119</guid>
+      <link><![CDATA[http://www.zdnet.com/citrix-rolls-out-cloudportal-update-eyes-anything-as-a-service-7000013119/]]></link>
+      <title><![CDATA[Citrix rolls out CloudPortal update, eyes anything as a service]]></title>
+      <description><![CDATA[Citrix aims to be the tool provider to companies providing cloud services internally and externally.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 12:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Larry Dignan]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <media:text type="html"><![CDATA[<p>On Tuesday, Citrix is aiming to become a software as a service enabler with the latest release of CloudPortal Business Manager 2.0, a platform designed to allow enterprises to deliver services via the cloud.</p>
+<figure class="alignRight"><img title="cloudportal" alt="cloudportal" src="http://cdn-static.zdnet.com/i/r/story/70/00/013119/cloudportal-200x52.png?hash=LzL0MQRmZG&upscale=1" height="52" width="200"></figure>
+<p>The company dubs its efforts as delivering anything as a service. That market is being targeted by infrastructure providers as a way to provision, optimize, manage user and deliver cloud services.</p>
+<p>For Citrix, the pitch is to allow IT to become a cloud broker of sorts. Citrix aims to be the tool provider to companies providing cloud services internally and externally.</p>
+<p>The approach is a twist on providing infrastructure and software, since it recognizes that the public cloud and external providers have a role in the computing resource pool.</p>
+<p>The latest release of CloudPortal Business Manager includes:</p>
+<ul>
+<li>A catalog of cloud services from infrastructure providers via a self-service portal.</li>
+<li>An ecosystem of software development kits and application programming interfaces to deliver cloud services.</li>
+<li>A dashboard of cloud provider health, performance, status and utilization.</li>
+<li>Metering of cloud services.</li>
+<li>User and workflow management tools.</li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013011</guid>
+      <link><![CDATA[http://www.zdnet.com/zendesk-revamps-ipad-app-for-mobile-customer-service-teams-7000013011/]]></link>
+      <title><![CDATA[Zendesk revamps iPad app for mobile customer service teams]]></title>
+      <description><![CDATA[Zendesk proposed a shift in enabling mobile customer service teams that has inspired a new focus on delivering performance metrics and customer history on-the-go.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 12:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Rachel King]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-apps/">Apps</category>
+      <category domain="http://www.zdnet.com/topic-cloud/">Cloud</category>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <category domain="http://www.zdnet.com/topic-ipad/">iPad</category>
+      <media:text type="html"><![CDATA[<figure><img title="zdnet-zendesk-new-ipad-app-1" alt="zdnet-zendesk-new-ipad-app-1" src="http://cdn-static.zdnet.com/i/r/story/70/00/013011/zdnet-zendesk-new-ipad-app-1-v2-620x394.jpg?hash=BGDjLJWzMJ&upscale=1" height="394" width="620"></figure>
+<p><strong>Zendesk</strong> has offered iPad support for a while now, but the customer service software provider went back to the drawing board for its new app.</p>
+<p>The addition of an iPad app just seems inevitable for almost any business these days —&nbsp;especially one dedicated to providing cloud-based software.</p>
+<p>But Zendesk offered a few rationales as to why it has made changes to the point where it is being described as "new" altogether.</p>
+<p>For one, since Zendesk first launched its iPad app two years ago, the San Francisco company cited that the percentage of companies providing customer service through a mobile app has doubled.</p>
+<p>Furthermore, Zendesk added that more than 60 percent of its clients have downloaded a mobile service app to at least one device —&nbsp;with its iPad app as the third most popular.</p>
+<p>Thus, Zendesk proposed that the shift enabling mobile customer service teams inspired a bigger focus on delivering performance metrics and customer history to employees while on-the-go.</p>
+<figure><img title="zdnet-zendesk-new-ipad-app-2" alt="zdnet-zendesk-new-ipad-app-2" src="http://cdn-static.zdnet.com/i/r/story/70/00/013011/zdnet-zendesk-new-ipad-app-2-620x462.jpg?hash=MJR4AJV4LJ&upscale=1" height="462" width="620"></figure>
+<p>Some of the new features included in this version of the iPad app are ticket activity revealing trends in volume of new tickets and efficiency in response, as well as a leaderboard displaying metrics at-a-glance. Those metrics consist of customer satisfaction, solved tickets, response time, and the productivity of the support team.</p>
+<p>The Zendesk for iPad is available now to download from the Apple App Store and <a href="/story/create/at%20www.zendesk.com/mobile">from Zendesk's website</a>.</p>
+<p><em>Screenshots via <a href="http://www.zendesk.com/">Zendesk</a></em></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013123</guid>
+      <link><![CDATA[http://www.zdnet.com/blackberry-z10-us-release-week-is-there-enough-in-bb10-to-attract-new-buyers-7000013123/]]></link>
+      <title><![CDATA[BlackBerry Z10 US release week: Is there enough in BB10 to attract new buyers?]]></title>
+      <description><![CDATA[This is the debut week of the Z10 on AT&T, Verizon, and T-Mobile, and at the same $200 price point as the iPhone, Android smartphones, and Windows Phone devices, I wonder if consumers will choose BlackBerry.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 12:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Matthew Miller]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-blackberry/">BlackBerry</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-atandt/">AT&amp;T</category>
+      <category domain="http://www.zdnet.com/topic-verizon/">Verizon</category>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="BlackBerry Z10 US release week: Is there enough in BB10 to attract new buyers?" alt="BlackBerry Z10 US release week: Is there enough in BB10 to attract new buyers?" src="http://cdn-static.zdnet.com/i/r/story/70/00/013123/bbz10-200x166.jpg?hash=MzZ4AmOyAz&upscale=1" height="166" width="200"></figure>
+<p>As <a href="http://www.tmonews.com/2013/03/t-mobile-retail-stores-readying-blackberry-z10-inventory-for-tomorrow/">T-Mobile</a> joins Verizon and AT&amp;T this week with the release of the BlackBerrry Z10, I continue to wonder why someone would buy a Z10 over an iPhone, Windows Phone, or Android smartphone. I've been enjoying the Z10 for over a month, but I like using my Nokia N9, and we all know how well MeeGo is doing right now.</p>
+<p>I have a great job where I get to try out lots of phones and thus part of the appeal of the Z10 is the new, fresh BlackBerry 10 operating system. I've been able to sideload many Android apps I use daily, but we <a href="http://www.zdnet.com/instagram-google-voice-and-more-run-on-blackberry-10-thanks-to-android-gallery-7000012187/">can't expect consumers to do this</a>, so there is still lots of work to do in BlackBerry World.</p>
+<p>The iPhone 5 is a solid smartphone, and for most people that come to me for advice, that is the phone they end up buying and they are often overwhelmingly pleased. The Galaxy S III, soon the S4, the Note II, the HTC One, and various Motorola Droid products are all solid Android smartphones. Nokia's Windows Phones are excellent smartphones with lots of value-added services. With all of these products that have a huge selection of apps I am not sure why someone would buy a Z10.</p>
+<p>The BlackBerry Z10 hardware is nothing especially unique, but it is solid. I like the smaller 4.2 inch display and form factor as it is very pocketable. The camera is OK, but those found on the iPhone 5, Lumia 920, and Galaxy Note II/SIII/S4 are all better.</p>
+<p>I imagine people who like BlackBerry devices will like the Z10 and upcoming Q10, but some previous BlackBerry owners have already moved on to something else, and there is nothing particularly compelling to bring them back. The BB10 experience is unique, but it also requires people to learn new gestures, and we didn't see lots of excitement for the PlayBook that has the same gesture-based UI.</p>
+<p>The Z10 will be out on Verizon, AT&amp;T, and T-Mobile this week, so we'll have to see what consumers think of it in a few weeks. At a price the same as leading smartphones, do you find anything compelling about the BlackBerry Z10?</p>
+<p><strong>Related stories</strong></p>
+<ul>
+<li>
+<p><a href="http://www.zdnet.com/blackberry-z10-is-an-efficient-communications-focused-device-7000011793/">BlackBerry Z10 is an efficient communications-focused device</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/blackberry-z10-review-7000010830/">BlackBerry Z10 review</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/blackberry-z10-daily-driver-thanks-to-these-10-apps-and-shortcuts-screenshot-gallery-7000011780/">BlackBerry Z10: Daily driver, thanks to these 10 apps and shortcuts</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/blackberry-10-and-the-z10-10-things-i-like-and-5-things-i-dont-7000010757/">BlackBerry 10 and the Z10: 10 things I like and 5 things I don't</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/blackberry-10-is-the-first-blackberry-to-fully-support-byod-7000010717/">BlackBerry 10 is the first BlackBerry to fully support BYOD</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/blackberry-z10-daily-driver-thanks-to-these-10-apps-and-shortcuts-screenshot-gallery-7000011780/">BlackBerry Z10: Daily driver thanks to these 10 apps and shortcuts (screenshot gallery)</a></p>
+</li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013111</guid>
+      <link><![CDATA[http://www.zdnet.com/check-your-data-usage-you-might-be-paying-for-too-much-7000013111/]]></link>
+      <title><![CDATA[Check your data usage: You might be paying for too much]]></title>
+      <description><![CDATA[The shared data plan lets me pool a lot of 4G data for use with multiple devices. I pay for a lot of data that I'm discovering I don't use.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 10:55:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[James Kendrick]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-4g/">4G</category>
+      <category domain="http://www.zdnet.com/topic-verizon/">Verizon</category>
+      <media:text type="html"><![CDATA[<figure><img title="4G LTE logo" alt="4G LTE logo" src="http://cdn-static.zdnet.com/i/r/story/70/00/013111/4g-lte-logo-200x77.jpg?hash=MGWuL2HmL2&upscale=1" height="77" width="200"></figure>
+<p>When Verizon launched the Share Everything Plan last year I signed up right away. I use a lot of mobile devices, and often on the 4G network, so the lure of a shared pool of data for one price was too much to pass up. I use 4G data frequently, so I signed up for the 10GB monthly pool to make sure I never go over the limit. Turns out I haven't come close to the cap in 6 months.</p>
+<figure><img title="JK VZW Data usage" alt="JK VZW Data usage" src="http://cdn-static.zdnet.com/i/r/story/70/00/013111/jk-vzw-data-usage-600x219.jpg?hash=BTWvAJSyBG&upscale=1" height="219" width="600"></figure>
+<p>I have three devices on the shared plan with Verizon: iPhone, iPad, and iPad mini. I used the iPhone 4S as my daily phone until picking up the Note 2 on Sprint a couple of months ago. Data usage on the iPhone is now almost nothing.</p>
+<p>See also: <a href="http://www.zdnet.com/blog/mobile-news/verizon-offers-buckets-of-data-with-the-share-everything-plan/8144">Verizon offers buckets of data with the Share Everything plan</a>&nbsp;| <a href="http://www.zdnet.com/verizon-messages-app-brings-text-messages-to-all-your-tablets-hands-on-7000013029/">Verizon Messages app brings text messages to all your tablets</a>&nbsp;| <a href="http://www.zdnet.com/exciting-work-venues-for-the-mobile-professional-7000011494/">Exciting work venues for the mobile professional</a></p>
+<p>That's not the case with the two iPads. I use one or both of them every day, often heavily. Sometimes, I use the iPad with a keyboard all day and a lot of that is on 4G. I often use the iPad mini&nbsp;as a mobile hotspot with one laptop or another.</p>
+<p>I use a 4G connection at least 3 hours a day, sometimes longer. My favorite coffee shop turned its wi-fi network off three months ago and I now always work there on my 4G connection.</p>
+<p>Because I use 4G so heavily, I've assumed my monthly usage was pushing up against the 10GB cap. I hadn't gone over it, so I haven't checked with Verizon for my actual usage until recently. That's when I realized that paying for 10GB may be an extravagance I don't really need.</p>
+<p>Looking at my usage statistics over the last 6 months has surprised me. The most data I've used in a month is only 1.48GB. I've averaged a paltry 1.04GB for the last 6 months. That my data usage is so low is shocking, knowing how many hours I use it each day.</p>
+<p>My usage is typical, mostly for online activities like web browsing. I watch the occasional YouTube video, but that's the only video stuff I do. I sometimes stream audio from either my Amazon MP3 cloud library or the iTunes cloud library. Audio is not as data-heavy as video, but I thought my usage was much higher for the audio streaming if nothing else.</p>
+<p>I pay $100/month for the 10GB cap, and while it's nice not worrying about going over, it's obvious I am paying for too much data. I could safely get by with 4GB or maybe 5GB if I wanted to be absolutely certain I never exceed the cap.</p>
+<p>This has shown me that it's a must to regularly check actual data usage with your carrier if you have a shared plan to make sure you're not paying for too much data.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013104</guid>
+      <link><![CDATA[http://www.zdnet.com/the-never-ending-saga-of-efi-boot-and-gpt-partitioning-7000013104/]]></link>
+      <title><![CDATA[The never-ending saga of EFI Boot and GPT partitioning]]></title>
+      <description><![CDATA[My previous post on LMDE uncovered a lot of confusion. Here's an explanation of how to get around the problems.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 10:45:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[J.A. Watson]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>My previous post <a href="http://www.zdnet.com/a-look-at-linux-mint-debian-edition-lmde-201303-7000013027/">on Linux Mint Debian Edition 201303</a> has obviously uncovered a lot of confusion about EFI booting and GPT partition tables.&nbsp; I hope that I can explain it all a bit more, with a couple of examples, to remove some of the confusion.&nbsp;</p>
+<p>Linux Mint Debian Edition 201303 says specifically in its release notes that it does not support EFI Boot or GPT disks.&nbsp; It doesn't say exactly what the problems are, though, and the devil is in the details...</p>
+<p>There are a number of ways to get around the EFI Boot problem, but none of them address the GPT partitioning problem:</p>
+<ul>
+<li>Most EFI/UEFI BIOS systems have configuration settings which allow you use 'Legacy Boot', which means booting from MBR-style boot records.</li>
+<li>LMDE, being a Debian derivative, can be configured with the 'grub-efi' package, to enable EFI Boot. Note that this can only be done after it has been installed, so it will almost certainly require the previous step, at least to get it to boot the installation media, because the LMDE Live media does not have EFI Boot capability.</li>
+<li>If you have another EFI-compatible Linux distribution already installed, and that distribution has a Grub which is able to boot other Linux distributions, you can set that up to boot LMDE. This works with <a href="http://www.zdnet.com/opensuse-12-3-in-depth-and-hands-on-7000012698/">openSuSE 12.3</a>, but it doesn't work with Fedora 18, and I have not tried it with Ubuntu 13.04 yet.</li>
+<li>If you install another boot manager, such as rEFInd, you can set that up to boot LMDE.</li>
+</ul>
+<p>However, none of these solves the GPT problem. Here's the lowdown on that.</p>
+<!-- Parsed pinbox:"10116770" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/a-look-at-linux-mint-debian-edition-lmde-201303-7000013027/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/story/70/00/013027/linux-mint-debian-edition-lmde-201303-released-220x165.png?hash=MTVmZwx2A2&upscale=1" alt="A look at Linux Mint Debian Edition (LMDE) 201303" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/a-look-at-linux-mint-debian-edition-lmde-201303-7000013027/">A look at Linux Mint Debian Edition (LMDE) 201303</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/a-look-at-linux-mint-debian-edition-lmde-201303-7000013027/">Read more</a></li></ul></div>
+<p>The LMDE release notes specifically say that it does not support GPT partitioned disks. Unfortunately it doesn't say that they can't be read (they can), and it doesn't say what will happen if you try to install to one (it can be catastrophic).</p>
+<p>What actually happens is that it interprets the GPT partition table incorrectly, and that causes it to get confused about what is where on the disk. In my case with LMDE, what it did was write the wrong partition information to the Grub configuration file, so it then tried to boot from the wrong partition, and it failed to boot. Not so catastrophic — it just didn't work.</p>
+<p>However, a few weeks ago I tried to install PCLinuxOS (also based on Debian Testing, and also without GPT support), on another GPT-based system (my <a href="http://www.zdnet.com/hp-pavilion-dm1-4310-ssd-installation-and-fun-with-efi-boot-7000008168/">HP dm1-4310</a>).&nbsp; In that case the disk partitions were a bit more complicated, because I had left the Windows Recovery partition in place, which meant a lower-numbered partition was at the end of the disk. PCLOS interpreted the partition table incorrectly, and the results were much more damaging.</p>
+<p>First, rather than use the existing swap partition, it wiped another existing Linux installation partition and used that for swap. Second, rather than installing to a new partition I had created for it, it wiped another (different) exiting Linux installation, and installed there. Not nice.</p>
+<p>So, here is the summary. LMDE does not support EFI Boot out of the box, but there are ways to get around that. It also does not support GPT partition tables, and there is no way around this other than wiping the disk and changing it to DOS BIOS/MBR partitioning. I'm quite sure this is what Clem meant when he wrote in the FAQ "you could do it but it would require wiping the disk".&nbsp; There is actually a slim chance that you could install successfully to a GPT disk, but that would require simple partitioning and a good bit of luck.</p>
+<p>I hope this clears things up a bit. Feel free to post questions and comments, as always...</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013131</guid>
+      <link><![CDATA[http://www.zdnet.com/java-based-attacks-remain-at-large-researchers-say-7000013131/]]></link>
+      <title><![CDATA[Java-based attacks remain at large, researchers say]]></title>
+      <description><![CDATA[Just how are Java attacks getting through?]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 10:38:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-malware/">Malware</category>
+      <category domain="http://www.zdnet.com/topic-oracle/">Oracle</category>
+      <media:text type="html"><![CDATA[<p>A new Websense report suggests that approximately 94 percent of endpoints which run Oracle's Java are vulnerable to at least one exploit, and we are ignoring updates at our own peril.&nbsp;</p>
+<p>According to security researchers <a href="http://community.websense.com/blogs/securitylabs/archive/2013/03/22/how-are-java-attacks-getting-through.aspx">at Websense</a>, it's not just zero-day attacks which remain a persistent threat; instead, Java exploits are now a popular tool for cybercriminals.</p>
+<p>With so many vulnerabilities, keeping browsers up-to-date can become an issue -- especially as Java has to be updated independently from our preferred browser, and a mobile, cross-browser workforce is difficult to manage securely. Keeping this in mind, the security team used their Advanced Classification Engine (ACE) and ThreatSeeker Network to both detect and analyze in real-time which versions of Java are currently in use across "tens of millions" of endpoints.</p>
+<p>The researchers found that the latest version of Java, version 1.7.17, is only in use by a dismal five percent of users, and many versions are months or years out of date -- just begging to be exploited.</p>
+<figure><img title="4621.Java Users - graph with release dates2.jog" alt="4621.Java Users - graph with release dates2.jog" src="http://cdn-static.zdnet.com/i/r/story/70/00/013131/4621-java-users-graph-with-release-dates2-jog-v2-620x432.png?hash=AzD4MQt1Aw&upscale=1" height="432" width="620"><figcaption>Global distribution of Java Runtime Environment versions based on active browser usage. [click to enlarge]</figcaption></figure>
+<p>Within the digital attack space, crimeware kits -- which can be purchase for as little as $200 -- often come supplied with Java-based exploits. The researcher's breakdown of vulnerabilities which have exploit kits available to attack them are thus:</p>
+<figure><img title="javakitco" alt="javakitco" src="http://cdn-static.zdnet.com/i/r/story/70/00/013131/javakitco-v1-620x170.jpg?hash=AGxjLmSyAJ&upscale=1" height="170" width="620"></figure>
+<p>The most widely detected version of Java currently in use is version 1.6.16. Over 75 percent of browsers are using Java versions which are at least 6 months old, whereas nearly two-thirds are a year out of date and 50 percent of Java versions in use are over two years behind the times in respect to Java vulnerabilities.</p>
+<p>All in all, the researchers say that the vulnerable population of browsers is pegged at a staggering 93.77 percent.</p>
+<p>Time to update folks.</p>
+<p>Charles Renert, vice president of Websense Security Labs <a href="http://www.securityweek.com/unpatched-java-versions-remain-widely-used-websense-says">told Security Week</a>:</p>
+<blockquote>
+<p>"Controls like patch management cannot eliminate risk exposure; they can only reduce risk to what you already know. Given the increasing frequency, severity and sophistication of the latest threats, the risk gap from unknown attacks across these kinds of vectors is on the rise.</p>
+<p>Rather than looking to update a single object or signature at a single point in time, companies must review the entire threat lifecycle and examine multiple opportunities to disrupt attacks."</p>
+</blockquote>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013125</guid>
+      <link><![CDATA[http://www.zdnet.com/cn/foxconn-invests-in-solar-power-in-china-7000013125/]]></link>
+      <title><![CDATA[Foxconn invests in solar power in China]]></title>
+      <description><![CDATA[Facing decreasing profits in cellphone manufacturing, Foxconn is now looking toward solar energy in China with plans to build 20 solar power generating plants.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 10:21:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Liu Jiayi]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-china/">China</category>
+      <category domain="http://www.zdnet.com/topic-tech-industry/">Tech Industry</category>
+      <media:text type="html"><![CDATA[<p>Foxconn&nbsp;has announced plans to&nbsp;build a solar&nbsp;power network in&nbsp;China encompassing new factories and plants.</p>
+<p>According&nbsp;to&nbsp;a statement released <a href="http://nntb.mofcom.gov.cn/article/shangwxw/201303/20130300049904.shtml" target="_blank">by the Chinese Ministry of Commerce</a>, the&nbsp;Taiwanese&nbsp;electronics manufacturer is&nbsp;investing in one&nbsp;research&nbsp;center,&nbsp;five&nbsp;solar-power&nbsp;components factories,&nbsp;and&nbsp;20&nbsp;solar-power&nbsp;generating&nbsp;plants&nbsp;in&nbsp;the&nbsp;southern&nbsp;province&nbsp;of&nbsp;Guangxi.</p>
+<p>Foxconn since 2012 has been&nbsp;shifting&nbsp;its&nbsp;focus&nbsp;toward solar&nbsp;power, pouring&nbsp;nearly&nbsp;100 billion&nbsp;yuan (US$16 million)&nbsp;in&nbsp;other&nbsp;provinces&nbsp;in&nbsp;China, where the&nbsp;government has provided solar&nbsp;manufacturers&nbsp;with&nbsp;heavy&nbsp;subsidies.</p>
+<p>In&nbsp;the&nbsp;face&nbsp;of&nbsp;competition,&nbsp;<a href="http://www.zdnet.com/blog/btl/hon-hai-foxconn-squeezed-on-demand-rising-salaries/75701">increasing&nbsp;labor&nbsp;cost and&nbsp;pressure</a>&nbsp;from business customers,&nbsp;Foxconn's&nbsp;cellphone&nbsp;subsidiary&nbsp;company had failed&nbsp;to&nbsp;meet&nbsp;market expectation&nbsp;and&nbsp;reported&nbsp;an <a href="http://www.zdnet.com/cn/foxconn-facing-net-loss-in-2012-from-weak-demand-7000010244/">annual&nbsp;loss</a> of US$316&nbsp;million&nbsp;in its fiscal&nbsp;2012.&nbsp;Hence, to&nbsp;some,&nbsp;the&nbsp;moves&nbsp;could&nbsp;be&nbsp;seen&nbsp;as&nbsp;part&nbsp;of&nbsp;a&nbsp;strategic&nbsp;plan.</p>
+<p>Despite&nbsp;last week <a href="http://www.zdnet.com/cn/major-chinese-solar-firm-suntech-goes-bankrupt-7000012936/">bankruptcy filing of&nbsp;SunTech</a>,&nbsp;China's&nbsp;biggest&nbsp;solar panel manufacturer,&nbsp;the outlook for the&nbsp;domestic market remains encouraging,&nbsp;according&nbsp;to&nbsp;Shen&nbsp;Hongwen,&nbsp;an&nbsp;analyst&nbsp;from&nbsp;<a href="http://www.ocn.com.cn/AboutUs/about.html" target="_blank">CIConsulting</a>&nbsp;company.&nbsp;Foxconn&nbsp;should&nbsp;be&nbsp;able&nbsp;to&nbsp;tap the&nbsp;expanding&nbsp;Chinese&nbsp;market&nbsp;by&nbsp;utilizing&nbsp;its&nbsp;financing&nbsp;power&nbsp;and&nbsp;management&nbsp;expertise, Shen said.</p>
+<p>However, the&nbsp;biggest&nbsp;challenge&nbsp;facing&nbsp;the&nbsp;<a href="http://www.zdnet.com/cn/chinas-solar-power-investment-to-hit-39-5b-by-2015-7000004255/">Chinese&nbsp;solar&nbsp;industry</a>&nbsp;is&nbsp;the&nbsp;gap&nbsp;between&nbsp;the&nbsp;high&nbsp;market&nbsp;demand&nbsp;and&nbsp;the&nbsp;low&nbsp;technological&nbsp;level&nbsp;of&nbsp;manufacturing.&nbsp;As&nbsp;part&nbsp;of&nbsp;the&nbsp;company's&nbsp;maneuver&nbsp;in&nbsp;the&nbsp;solar&nbsp;industry,&nbsp;Foxconn's&nbsp;investment&nbsp;in&nbsp;Guangxi&nbsp;should&nbsp;be&nbsp;seen as&nbsp;a&nbsp;decade-long&nbsp;strategic&nbsp;plan, said&nbsp;Shao&nbsp;Zhicheng,&nbsp;director&nbsp;of&nbsp;Jin&nbsp;Yin&nbsp;Dao&nbsp;research&nbsp;institute, in a <a href="http://news.mydrivers.com/1/258/258024.htm" target="_blank">report by news site MyDrivers.com</a>.</p>
+<p>&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013018</guid>
+      <link><![CDATA[http://www.zdnet.com/dell-software-chief-swainson-talks-scale-perception-growth-7000013018/]]></link>
+      <title><![CDATA[Dell Software chief Swainson talks scale, perception, growth]]></title>
+      <description><![CDATA[Dell's software leader, John Swainson, has a big challenge: Convince customers the traditionally hardware focused vendor has a breadth of applications to manage their infrastructure. ]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 10:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Larry Dignan]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-data-centers/">Data Centers</category>
+      <category domain="http://www.zdnet.com/topic-dell/">Dell</category>
+      <category domain="http://www.zdnet.com/topic-hardware/">Hardware</category>
+      <media:text type="html"><![CDATA[<p>John Swainson, head of Dell's software unit, has a tall order: Convince the business technology masses that his company is about more than hardware and scale his division.</p>
+<p>That challenge is one faced by a few hardware-centric players. Hewlett-Packard is increasingly talking about its software footprint as it applies to its hardware. Dell obviously wants to be about software too much like a mini-IBM. And even Samsung is playing up its software over its obvious hardware, supply chain and scale advantages.</p>
+<figure class="alignRight"><img title="swainsonmug" alt="swainsonmug" src="http://cdn-static.zdnet.com/i/r/story/70/00/013018/swainsonmug-200x182.png?hash=LwVkAwuvMJ&upscale=1" height="182" width="200"></figure>
+<p>Why the software fuss? Hardware is a tough business that's only going to get tougher amid cloud computing and a breed of C-level executives who see tablets and mobile devices replacing PCs and companies like Amazon Web Services nixing those data center build out plans.</p>
+<p>In other words, Swainson (right) and Dell have a lot to navigate once it goes private at some point in a leveraged buyout. On the obvious issue of going private, Swainson said Dell's plan for growing its software unit won't change. He added that he doesn't expect any customer concerns about going private either. "Being private doesn't affect us in the least. The corporate structure of Dell doesn't make a difference on how customers interact with our products or how we develop or sell them, said Swainson.</p>
+<p>Here's a recap of my conversation with Swainson:</p>
+<p><strong>What's scale for Dell's software unit?</strong> Swainson noted that the $1 billion in annual revenue mark is a key tipping point for software companies. Dell's software unit is on an annual run rate of about $1.5 billion and has 6,000 employees courtesy of the Quest Software acquisition. The Quest deal was all about scale and critical mass around engineering, product and sales, said Swainson. "Dell had a few acquisitions with Kace and Boomi and some rudimentary capability, but needed scale," said Swainson. "Big software businesses are more profitable and if you do it right you can gain tremendous volume of sales through products." The catch is that a software company at scale needs to grow sales and have a manageable roster of products. "Microsoft has a relatively small number of products," noted Swainson. To Swainson, Oracle CEO Larry Ellison has repeatedly proved the scale and software profit connection via that company's buying binge over the years. Dell Software won't be Oracle, but needs to be "significantly large in enough areas to create volume efficiency."</p>
+<p><em>My take:</em> The wild card is whether the conventional software models---perpetual licenses and maintenance---will continue to work as applications move to the cloud.</p>
+<p><strong>What's big enough?</strong> Swainson said that having a $1.5 billion revenue footprint inside of Dell, which $56.7 billion in revenue in fiscal 2013, may not be relevant enough. "What's big enough in the context of Dell?" asked Swainson, who committed to $2 billion to $3 billion in revenue in fiscal 2016. That revenue growth will be "organic primarily," but the $5 billion in annual sales for Dell Software will have to be hit at some point. "Generating 20 percent to 30 percent of operating income would be a good definition of big enough inside of Dell," said Swainson.</p>
+<p><em>My take:</em> The biggest perk of going private for Dell would be that it can use software as the glue tying together its hardware stack. Dell Software will have to grow organically and through acquisition.</p>
+<p><strong>Swainson's experience and how it applies to Dell.</strong> Swainson was CEO of CA for five years and was credited with turning the company around after years of scandal. However, Swainson said his experience at IBM may be more relevant to Dell. "This is more like IBM and making software relevant in a company with a hardware heritage," said Swainson. The aim for Dell, like IBM, is to tie software to hardware and services.</p>
+<p><em>My take:</em> The IBM model has worked for years, but it has been hard to emulate for rivals.</p>
+<figure><img title="dellsoftwareslide" alt="dellsoftwareslide" src="http://cdn-static.zdnet.com/i/r/story/70/00/013018/dellsoftwareslide-620x355.png?hash=LGHlAwyvZG&upscale=1" height="355" width="620"></figure>
+<p>&nbsp;</p>
+<p><strong>Dell Software's bets and narrative.</strong> The bets for Dell revolve around endpoint, cloud, systems management and security. Bring your own device is also a key theme. Swainson said that Dell Software doesn't have to do everything, but fill real needs. "The Dell narrative is to focus on make it easier to deploy technology and gain value from it quickly and manage work as it evolves from physical to virtual to private and public cloud," said Swainson. "We're not trying to have an exclusive narrative that we do everything. We'll partner with others for essential elements and fill in pieces." There's already a precedent for that approach in how Quest deals with Microsoft and managing Windows environments.</p>
+<p><em>My take:</em> It's an open question whether Dell's software unit can hit scale by filling in gaps.</p>
+<p><strong>The role of SaaS in Dell's software unit.</strong> Dell delivers its wares via SaaS in some cases, but the bulk of revenue will be license and maintenance, said Swainson. "There are lots of things to like about SaaS revenue. It's sticky and sustainable, but takes a long time to grow profits on a GAAP basis," said Swainson. Ultimately, Dell Software will see $200 million to $300 million in SaaS revenue if it grows to be as big as Swainson hopes. "Inside of the data center I don't see the shift to SaaS over the medium term or long term," said Swainson. "Think about the things most successful delivered as SaaS and they are applications delivered through a browser. We're likely to stick with infrastructure type technology because it's a natural fit for Dell." Systems management and low amounts of data latency don't scream SaaS generally speaking.</p>
+<p><em>My take:</em> The emphasis on getting big forces a more traditional software model. Should Dell consider disruption or size?</p>
+<p><strong>What's Dell's toughest sell?</strong> "Dell's first challenge is going to customers and showing the breadth of what we do," said Swainson. "People still associate Dell with desktop PCs. If you do a word association game Dell equals PCs." The solution for Dell is to become part of proofs of concepts in the enterprise.</p>
+<p><em>My take:</em> Dell's business will revolve around hardware for the foreseeable future so Swainson and his software army will need to evangelize.</p>
+<p><strong>When will Dell be thought of as a software player?</strong> "It takes a long time to change the perspective of customers in the marketplace. At IBM it took a decade to get the fact that company moved away from hardware to be a solution oriented company," said Swainson. "Dell only started a couple years ago. We're not to the point where people think of us having the breadth of an IBM, but with midsized customers we have a better story." Swainson said that in the long run, the only way to be seen as a software player is to "get in there and demonstrate capabilities." "When you get established in an industry and geography and make a few customers successful (awareness) happens virally," said Swainson. "But it's a multi-year process."</p>
+<p><em>My take:</em> Swainson is realistic about the time it takes to change the perception about Dell.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000012968</guid>
+      <link><![CDATA[http://www.zdnet.com/from-cars-to-keyboards-how-to-deal-with-fragmentation-the-blackberry-way-7000012968/]]></link>
+      <title><![CDATA[From cars to keyboards: How to deal with fragmentation the BlackBerry way]]></title>
+      <description><![CDATA[With two different screen sizes on the Z10 and Q10, do BlackBerry apps have to be different? No, but you might want a different approach for using them with a keyboard - or in a car.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 09:52:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Mary Branscombe]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-mobile-os/">Mobile OS</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-software-development/">Software Development</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <media:text type="html"><![CDATA[<p>This week, BlackBerry's flagship Z10 went on sale in the US — but it won't be the only BlackBerry 10 phone for long.</p>
+<p>The Z10 will soon be getting company from the <a href="http://www.zdnet.com/blackberry-q10-hands-on-with-the-elusive-keyboard-equipped-handset-7000010622/">Q10, the BlackBerry 10-running handset with a physical keyboard</a> and a correspondingly smaller screen. One of the questions about the pairing is how are the apps that look so good on the big screen Z10 going to fit onto its baby brother Q10? How many of <a href="http://www.zdnet.com/blackberry-10-breaks-100k-app-barrier-with-help-from-android-ports-7000012952/">the 100,000 apps</a> for the Z10 are going to be ready for the Q10? Plenty, according to Chris Smith, VP for the BlackBerry Application Platform.</p>
+<!-- Parsed pinbox:"10116267" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/the-hard-road-to-blackberry-10-blackberrys-ceo-on-why-he-ignored-advice-to-go-android-7000012197/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/library/global-thumbs/mobile-devices/blackberry-z10-rear-220x165.jpg?hash=ZQZ0LwD1MG&upscale=1" alt="The hard road to BlackBerry 10: BlackBerry's CEO on why he ignored advice to go Android" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/the-hard-road-to-blackberry-10-blackberrys-ceo-on-why-he-ignored-advice-to-go-android-7000012197/">The hard road to BlackBerry 10: BlackBerry's CEO on why he ignored advice to go Android</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/the-hard-road-to-blackberry-10-blackberrys-ceo-on-why-he-ignored-advice-to-go-android-7000012197/">Read more</a></li></ul></div>
+<p>"For a lot of apps we don't want the developer to have to think about the form factor at all. For the screen, the horizontal dimension is the same so it's just the vertical dimension that's changing - it's on the order of two-thirds to three-quarters of the size. If you have a scrolling list, it just has to scroll a little further. If you have a layout with elements on the side, we auto adjust that for you to fit on the form factor. You use the same assets and the controls and the container just handles that for you. For many of the apps, developers will not have to do anything, they'll just work right out of the box."</p>
+<p>If developers prefer, they can do a different layout for the different screen size. "You might want to put in some tweaks. You might decide when the screen is smaller, that you don't want users to scroll so you can put in another tab."</p>
+<p>The approach will be the same when BlackBerry 10 comes to the PlayBook, Smith says. "Developers will keep the same application logic, the same core in their app and they'll be able to tweak the layouts for the particular form factor. We had the opportunity to think about what the portfolio and the roadmap looks like for us and we designed the tools and framework to prepare for that. We can scale your assets to any number of form factors but we want to standardise on a few and not have fragmentation across a whole range of form factors and aspect ratios."</p>
+<p>The screen size isn't the only difference: the Q10 has 'type and go' commands that let you launch an app and start using it by typing (so you can type 'email Chris' to start an email addresses to Chris). Some form of that will come to the Z10, when BlackBerry decides on the best way to do it. But apps built to use 'type and go' will still work on the Z10, you'll just have to open them the usual way.</p>
+<p>Getting the balance of automatic adjustments versus developer choice is important. "We don't want to diminish one side of the experience to reach a lowest common denominator, we'd rather make it easy for developers to take advantage of the feature without requiring them to do something special in the device," says Smith.</p>
+<p>"There's an epic battle between developers and designers," adds product manager Tim Neil. "Designers want things pixel-perfect. If you ask them why they don't just make an icon bigger and let us scale it down, they say 'no, I can scale it better than anyone else can'."</p>
+<p>Too many images and assets for different screen sizes packed into an app can make the app much bigger of course, especially when some of those screens are retina screen. "There's a tug of war between the code size and getting things exactly the way graphic designers see it," agrees Neil. "Most developers find some kind of balance. We try to do the work in the framework so you can choose what's best for you, whether you want to handle it with downsizing or design beautiful, perfect, pixel by pixel."</p>
+<figure><img title="WP_20130212_010" alt="WP_20130212_010" src="http://cdn-static.zdnet.com/i/r/story/70/00/012968/wp20130212010-620x349.jpg?hash=A2HmMGSvLm&upscale=1" height="349" width="620"><figcaption>Putting BB 10 into cars isn't just about screen size.</figcaption></figure>
+<p>In the BlackBerry Experience Center on <a href="http://www.zdnet.com/behind-the-scenes-at-blackberry-in-photos-7000012291/">BlackBerry's campus in Waterloo, Ontario</a>, a concept car (not the Porsche or Bentley models BlackBerry sometimes shows off, more a wooden cartoon car with a PlayBook tucked into the dashboard) is on display.</p>
+<p>The QNX kernel inside BlackBerry 10 already powers a lot of in-car information systems. When BlackBerry CEO Thorsten Heins talks about mobile computing, the car is one of the mobile things he's thinking about. There are plenty of issues and regulations about what you can put on a screen inside a car so you don't distract the driver, so dealing with the different screen sizes inside different cars - like the 17-inch touchscreen in the Tesla Model S - won't be the only hurdle BlackBerry developers will have to deal with.</p>
+<p>Taking apps to the car might be more about sharing content or transferring information, Neil suggests. BlackBerry 10 can access content on another connected BlackBerry directly (think Bridge on the PlayBook reading your BlackBerry emails or the screen sharing option in BBM Video).</p>
+<p>"We have distributed processing, we have multiple screens. Where we believe we've got some interesting advantages is that these two things can connect and actually run as one virtual environment sharing each others' processes and doing crazy things. It opens up an interesting opportunity for device to device connections and integrating things when you get in the car beyond just displaying an app on the car screen."</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013127</guid>
+      <link><![CDATA[http://www.zdnet.com/stmicroelectronics-signs-european-loan-agreement-7000013127/]]></link>
+      <title><![CDATA[STMicroelectronics signs European loan agreement]]></title>
+      <description><![CDATA[French chipmaker STMicroelectronics has signed a loan agreement worth 350 million euros.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 09:39:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>STMicroelectronics has signed a loan agreement for 350 million euros ($450m) with the European Investment Bank.</p>
+<p>The French chipmaker announced the loan today, and the funds are aimed at improving research and development as well as strengthen the firm's finances. Signed with the European Investment Bank (EIB), the funds have not yet been used, but will "strengthen the long-established relationship between ST and EIB," according to a statement.</p>
+<p>The credit facility will also be used to support the design and development of devices for applications in the power, MEMS, microcontrollers, advanced analog and healthcare industries.</p>
+<p>STMicro has an option for disbursement until September 2014 with final maturity eight years thereafter.</p>
+<p>The firm also said that it has repaid senior bonds worth 350 million euros, and STMicro had a net cash position of $1.19 billion at the end of last year. Existing credit lines are worth $490 million.</p>
+<p>After failing to find a buyer, STMicro and Ericsson <a href="http://www.zdnet.com/st-ericsson-venture-broken-1600-jobs-axed-7000012733/">announced this month</a> that their joint venture, ST-Ericsson, would be wound down and split between the two companies on a 50-50 basis. Ericsson will take on the development of LTE products, whereas STMicro will assume existing products relating to the JV except anything related to LTE modems.</p>
+<p>Ericsson plans to secure 1,800 employees and contractors from Sweden, Germany, India and China, and STMicro will assume 950 members of staff in France and Italy to work on ST-related products.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013061</guid>
+      <link><![CDATA[http://www.zdnet.com/in/india-wont-miss-internet-bus-mr-schmidt-7000013061/]]></link>
+      <title><![CDATA[India won't miss Internet bus, Mr. Schmidt]]></title>
+      <description><![CDATA[Realities of India are very different from those in the United States. Therefore, it's possible that Internet speeds and regulations here pertaining to freedom on the Web don't suit Google even a decade from now.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 09:27:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Swati Prasad]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-broadband/">Broadband</category>
+      <category domain="http://www.zdnet.com/topic-google/">Google</category>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <category domain="http://www.zdnet.com/topic-education/">Education</category>
+      <media:text type="html"><![CDATA[<p>Google Chairman Eric Schmidt visited India last week and from all the interviews and news articles, I understood he had two key concerns about India. One, India was lagging behind in harnessing the power of the Internet because of its failure to invest in high-speed telecom networks. Two, India needs to change laws that hold Internet companies criminally responsible for material posted by users.</p>
+<figure class="alignRight"><img title="Eric Schmidt" alt="Eric Schmidt" src="http://cdn-static.zdnet.com/i/r/library/global-thumbs/people/eric-schmidt-google-200x150.jpg?hash=MQEwAQD4Az&upscale=1" height="150" width="200"><figcaption>Google Chairman Eric Schmidt</figcaption></figure>
+<p>"The Internet here feels&nbsp;like [what it was] in America in 1994," Schmidt said during an interview. But compare America of 1994 with America of 2013, then compare India of 1994 with India of 2013, and you will know why the Internet here feels like the Internet in America in 1994.&nbsp;</p>
+<p>In 1994, India was quite a different country. It was a third-world nation and a land of snake-charmers. People in Indian metros had not experienced the Internet. They had only heard about it from their friends and relatives living in America and other developed nations.</p>
+<p>We began experiencing the Internet only in late-1995 and 1996, and mostly from our offices. Internet was introduced in India (across cities like Mumbai, Delhi, Kolkata, Chennai, and Pune) on August 15, 1995. During those days, the Internet was more or less synonymous with Hotmail. Indian homes began acquiring dial-up connections in 1996.</p>
+<p>In mid-1990s, telecommunications was all about landline phones and pagers. In 1996, we saw mobile phones--the first mobile telephone service started on non-commercial basis on August 25, 1995, in Delhi. And within five years, the outsourcing phenomenon took birth.</p>
+<p>We have come a long way since the mid-1990s, Mr. Schmidt. Today, MNCs (multinational corporations) including Google look at India for growth. The country has 862 million <a href="http://www.zdnet.com/in/rural-india-to-help-add-48-9m-telco-subscribers-7000010398/">mobile phone subscribers</a>. Despite all the reported scams and lacunae in policy-making, India is still a very <a href="http://www.zdnet.com/in/indias-telecom-market-back-on-growth-path-7000011764/">attractive telecom market</a>. The market for smartphones is growing at over 50 percent in India. The country is also a booming market for tablets, laptops and smart TVs.</p>
+<p>During the last two decades, India has seen rapid urbanization. The number of cities and towns has increased from 5,161 in 2001 to 7,935 in 2011. India in 2011 had 53 metropolitan cities that had a&nbsp;<a href="http://www.censusindia.gov.in/2011-prov-results/paper2/data_files/India2/Table_3_PR_UA_Citiees_1Lakh_and_Above.pdf" target="_blank">population above 1 million</a>, as opposed to 35 in 2001.</p>
+<p>While so much has changed, a lot remains to be done. The education sector has not kept pace with economic growth and urbanization. India has the largest illiterate population, with 26 percent of its population unable to read or write. Even sectors like power, roads, and ports have failed to keep pace with economic growth, urbanization, and population&nbsp;growth.</p>
+<p>In fact, more than broadband, perhaps the country needs more toilets.</p>
+<p>A report released last week on the housing stock, amenities, and assets in slums--based on Census 2011--noted that one-third of identified slum households in India did not have toilets, but a sizeable percentage of the dwellings had electricity, mobile phone connections, and televisions. About 70 percent slum households had television and 72.7 percent slum households had telephones.</p>
+<p>The government is setting up the <a href="http://www.zdnet.com/india-eyes-nationwide-fiber-network-2062301356/">National Optical Fiber Network</a> (NOFN) to provide connectivity to 250,000 gram panchayats, or village self-governing bodies, in the country using optical fiber which would ensure broadband connectivity with adequate bandwidth.</p>
+<p>However, taking broadband to the villages of the country alone won't solve all problems. Unless people are educated and have electricity in their homes, there is little they can do with the broadband connection at their gram panchayat.</p>
+<h3>Greater scope to misuse Internet</h3>
+<p>Now let's examine Schmidt's second concern. A law passed by the Indian Parliament in 2011 holds <a href="http://www.zdnet.com/india-asks-web-firms-to-pre-screen-user-content-2062303126/">Internet companies liable</a> for "offensive" material posted by users. Critics of the legislation say it does not define what kind of material could be deemed offensive, thereby, opening the door for frivolous lawsuits against companies like Google.</p>
+<p>Addressing this concern, telecom minister Kabil Sibal mentioned India was wedded to the freedom of expression at an event organized by Google. His statement definitely&nbsp;was not convincing, especially seen in light of the recent news reports. Every day there is news about <a href="http://www.zdnet.com/india-refutes-claims-of-web-censorship-2062303610/">government agencies</a> keeping a <a href="http://www.zdnet.com/in/india-sets-up-social-media-monitoring-lab-7000012758/">closer watch</a> on the Internet.</p>
+<p>The fact is, there are many Indias inside India, and anything that is said on the Internet can have far-reaching repercussions. The Internet can be used to arouse communal sentiments, leading to riots. It can also be used to spread rumors, and spread terrorism.</p>
+<p>In short, due to widespread illiteracy, poverty, and religious and cultural diversity, there is a far greater scope to misuse the Internet in India than perhaps in most other countries.</p>
+<p>Moreover, freedom must come with some responsibility. During the Mumbai terror attacks of November 26, 2008, India saw how freedom without responsibility can hurt national interest when the television media reported events live from the affected locations in south Mumbai. This reckless coverage helped the masterminds of these attacks who were watching the live telecast, and were in touch with terrorists holed up inside Taj Hotel, Oberoi Hotel, and Nariman House.</p>
+<p>Having said that, I agree India needs to make its regulations less ambiguous. The responsibilities and liabilities of intermediaries like Google need to be well-defined.</p>
+<p>Over the last two decades, growth in India has been consumption-led and largely unplanned. Back in the mid-1990s, when mobile operators were busy rolling out their telecom networks, they would not have known that within the next decade, nearly half the Indian population would have a mobile phone.</p>
+<p>Similarly, it's tough to plan or predict the growth of broadband. If there is a business case for broadband, it is bound to see similar growth as mobile telephony.&nbsp;However, unlike mobile telephony, I doubt if growth in broadband can happen in isolation.</p>
+<p>So far, India has seen economic growth, but little development. And economic development can't happen without growth in infrastructure, basic amenities, and services like education and healthcare. Broadband is just one component of this infrastructure.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013030</guid>
+      <link><![CDATA[http://www.zdnet.com/crm-watchlist-2013-winners-consulting-and-systems-integrators-hook-up-part-1-7000013030/]]></link>
+      <title><![CDATA[CRM Watchlist 2013 Winners: Consulting and Systems Integrators hook up: Part 1]]></title>
+      <description><![CDATA[This is almost it. Another post a little on the big side so its split into two parts. But we end this year's CRM Watchlist 2013 with a discussion of the consulting companies and systems integrators who will have a big impact in 2013. Today, we look at the big boys - Accenture, CSC, and Ernst  and Young Advisory.  Plus a few cogent thoughts on the markets peppered throughout.
+]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 09:23:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Paul Greenberg]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <category domain="http://www.zdnet.com/topic-social-enterprise/">Social Enterprise</category>
+      <media:text type="html"><![CDATA[<p>We&rsquo;re finally there, the last Watchlist set of reviews in two parts, but before I go all boo-hoo on you, a commercial.</p>
+<p>And now a word from our sponsors:</p>
+<p><strong>The 2014 CRM Watchlist Registration is Now Open</strong></p>
+<p><em>On Wednesday February 20, 2013 at 7:00am ET, the CRM Watchlist 2014 registration process began. Yep, right in the middle of the 2013 reviews. Progress (and time) wait for no man (or woman). What that means is that if you are a technology company or consulting/systems integrator business that does "customer facing" things which means software or services products/solutions, you become a candidate for the CRM Watchlist 2014. That means that:</em></p>
+<ol>
+<li><em>You can request a 2014 registration form from me at</em><em>&nbsp;</em><a href="http://www.zdnet.com/mailto:paul-greenberg3@the56group.com">paul-greenberg3@the56group.com.</a></li>
+<li><em>When you receive it, fill it out exactly according to instructions and in return you will get the questionnaire for 2014 - either the vendor questionnaire or the consulting/SI questionnaire which are slightly different</em></li>
+<li><em>You have until November 30, 2013 to fill out the questionnaire.</em></li>
+<li><em>If you send in the registration form to me, I will presume that you are going to fill out the questionnaire by the due date and will start tracking you as soon send the registration back to me.&nbsp; Please don't waste my time and request the questionnaire and then not fill it out. I'm tracking you for the better part of a year if you do send it.</em></li>
+</ol>
+<p><strong>Previously on CRM Watchlist 2013:</strong></p>
+<ol>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-lifetime-achievement-ibm-institute-for-business-value-7000010289/">CRM Watchlist 2013 Lifetime Achievement: IBM Institute for Business Value</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-sweetest-suites-part-1-of-3-7000010719/">The Sweetest Suites: Part 1 of 3 &ndash; salesforce.com; Microsoft</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-sweetest-suites-part-2-of-3-7000010720/">The Sweetest Suites: Part 2 of 3 &ndash; SAP, Oracle</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-sweetest-suites-part-3-of-3-7000010994/">The Sweetest Suites: Part 3 of 3 &ndash; Infor, NetSuite, SugarCRM</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-marketing-puts-itself-out-there-7000011250/">Marketing Puts Itself Out There - Aprimo, Eloqua, Hubspot, Infusionsoft, Marketo, Neolane</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-customer-service-served-hot-7000011414/">Customer Service Served Hot &ndash; KANA, Moxie, Parature</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-three-kings-sales-process-analytics-7000011926/">Three Kings: Sales, Process, Analytics - Xactly, Lattice Engines, BPMonline, Pegasystems, Clarabridge</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-social-is-as-social-does-the-mainstream-part-1-7000012230/">Social is as Social Does the Mainstream Part 1 &ndash; Attensity, Gigya, Jive</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-social-is-as-social-does-the-mainstream-part-2-7000012280/">Social is as Social Does the Mainstream Part 2 - Get Satisfaction, Lithium, Nimble</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-heading-in-the-right-direction-young-and-hot-7000012704/">The Young and the Hot &ndash; CRM Idol winners Crowdtap and Artesian Solutions, + compelling companies who didn&rsquo;t win</a></li>
+</ol>
+<p>Now back to our regularly scheduled programming.</p>
+<h3>Overview</h3>
+<p>This is arguably the most difficult category because these companies have a huge variation in size and scope, operate very differently, are more strategic with their offerings than the technology vendors and have different criteria that I use to determine who wins. Plus, I have to look at the size and scope differently in terms of how they impact the market.</p>
+<p>For example, you can easily classify Accenture, CSC and Ernst and Young Advisory in the same category and then put Solvis Group and The Pedowitz Group in the same category.&nbsp; Now, there is NO way, as far as impact goes, that the latter competes with the former, yet here they are and companies like Cap Gemini and others aren&rsquo;t here.&nbsp; Plus a myriad of small companies who did actually submit questionnaires aren&rsquo;t here.&nbsp;</p>
+<p>To put the &ldquo;huh, then, why are they all winners in this category?&rdquo; to bed, here&rsquo;s what I can tell you without ratting myself out.&nbsp; Based on size, I look at either impact in global markets (the big boys) or impact in specific markets (the littler fellas).&nbsp; Simple. You&rsquo;ll see how that works when you read the specific reviews. I won&rsquo;t ignore that.&nbsp;</p>
+<p>Plus remember something, I&rsquo;m looking at how they impact the customer facing business world, not all of the business world. I can&rsquo;t handle more than that because I&rsquo;m not qualified nor smart enough to do that. So please don&rsquo;t lose sight of that here.</p>
+<p>Each of these companies has some things that they need to do that they aren&rsquo;t doing or that need tweaking, just like the technology vendors, but they are very different things than the vendors need. My criteria here are based on vendor-agnostic strategic services -&nbsp; though as you will see, I don&rsquo;t necessarily recommend vendor agnosticism as a religion. I like this category, because these companies, to one degree or another all do what I think CRM was put here to do &ndash; customer strategies that are designed to drive mutual benefit.&nbsp; Each company has a unique signature &ndash; some are more technology focused than others; some more thought leadership ready than others; some more generally visible than others; some more outer-directed than others; some more left-brained than others (though there is a very large left brained component that sits inside the cortex of each of them); but all are characterized by their ability to make a major impression on a market that obfuscates singular impressions routinely.</p>
+<p>Let&rsquo;s start looking at what that means for each of them.</p>
+<h3>The Big Guys</h3>
+<p>The three companies that won in this sub-category stand far and away ahead of the rest of the pack.&nbsp; They are all smart, strategically focused companies that plan programs that take granular thinking to a new level &ndash; yet have an expansive global sweep to what they do. They are successful at what they do, precisely because they know how to intelligently apply the right resources to the right customers with the right outcomes in mind &ndash; even though they are huge.</p>
+<p>Each of them is well attuned to the expanding markets be that geographic (e.g. China and India) or horizontal &ndash; marketing; or more broadly &ndash; digital transformation.&nbsp; They are big and competitive with not just each other but with many others who didn&rsquo;t make the list this year &ndash; Deloitte, IBM Global Services, PwC, Cognizant, Tata, Infosys, etc., and even the creative agencies who are on a tear and big enough to be competitive &ndash;LBi, Grey Global, Edelman among many.</p>
+<p>This got me to thinking and for the first time, I have a recommendation that encompasses all three of these large consultancies due to the need for a new set of skills as defined by the transformation of business over the past decade or so &ndash; thanks to the communications revolution that I relentlessly and endlessly drone on about.&nbsp; In other words, the competition for (wo)manpower.&nbsp; There is already a known shortage of available skills in multiple areas (<a href="http://www.mfauscette.com/software_technology_partn/2012/09/the-skills-gap-building-a-social-business.html">for more on this, see industry powerhouse influencer, IDC&rsquo;s Mike Fauscette here</a>) and there is no reason to sit back on one&rsquo;s heels and lament this. There are some things that can be done. Some are probably being done to some extent but need to be publicized more if they are.</p>
+<p>So here&rsquo;s my recommendation to all three.</p>
+<p><strong>Either create or expand programs for training young practitioners</strong> &ndash; Look, I&rsquo;m sure that all of these companies have some sort of program for training highly talented people for all the many of the contemporary skills needed. But these programs tend to be fairly small and limited to the god-like few. What I&rsquo;m suggesting is that each of these companies cast a wider net, work more closely with academia, invest more dollars and time and find people that may not be the best in class at 21 or 22 years old but can be trained to the skills needed in the new business world. This may not be a one-year investment program but it will pay off.&nbsp; Do what I know one vendor did a few years ago. Get together with a university and fund a specific program to educate and train students in a specific customer facing area.&nbsp; In return, get the first dibs on recruitment.</p>
+<p>To restate this a little differently. Job descriptions are changing. New ones are being added; old ones are being redefined. For example, community management is on the agenda as a business skill, where 10 years ago, it meant something very different and was something for the public sector.&nbsp; With those new jobs and rejiggered old ones, new skills are necessary. No one company can do it alone.&nbsp; Time to unite with the universities to establish comprehensive programs to attract, train and retain this new talent.&nbsp; (More on this in a future post).</p>
+<p>I&rsquo;m sure that all three of these companies are doing this already to some degree but I don&rsquo;t know about it because I can&rsquo;t find the information nor was it mentioned in their submissions anywhere with the exception of Accenture who threw out some impressive numbers at me for their internal training commitments (52 hours per employee per year). But consider this a calling out of the winners and those that didn&rsquo;t win to tell the world what they are doing and tell those students and skilled-practitioners-to-be how to go about participating. If I can&rsquo;t find the information easily, I&rsquo;m sure that the potential students have no idea they exist. Outreach is everything. So establish the programs if you don&rsquo;t have them or if you do, let us all know and tell us how to funnel those bright future digital transformers to those programs.&nbsp; Please.</p>
+<p>Okay, rant done. Let&rsquo;s get down to the reviews &ndash; the last five of 2013.&nbsp; BTW, I have over 45 companies who have requested the questionnaire for 2014 already &ndash; and about 15 others who haven&rsquo;t returned the registration form yet. That&rsquo;s 60 companies expressing interest &ndash; three weeks into the registration announcement.&nbsp; Oi.&nbsp; Looks like I&rsquo;m gonna be busy again. &nbsp;LOL. I laugh but I&rsquo;m cryin&rsquo; inside.</p>
+<p>First up&hellip;.</p>
+<p><strong>Accenture</strong></p>
+<p>Look, I&rsquo;m not going to keep repeating the story about my turnaround on my thinking about <a href="http://www.accenture.com/us-en/consulting/sales-customer-services-crm/Pages/index.aspx">Accenture</a> this year. I&rsquo;ve been happy with and watching them long enough to realize that a. not only people but companies can change and b. they are a megalith. So that&rsquo;s now relegated to the past, with no residual bad will.</p>
+<p>The overwhelming impression that I have about Accenture is that they are overwhelming. Their scope is so huge that it&rsquo;s genuinely hard to get my arms or head around it. One stat says it all &ndash; they have 25,000 CRM-related consultants (according to their submission to CRM Watchlist 2013). That&rsquo;s 25,000 &ndash; no accidental additional zeros. Just to be clear. 25K; twenty-five thousand. That is <strong><em>ten times</em></strong> the next biggest one that I&rsquo;ve seen or heard of.&nbsp; Just to keep throwing numbers at you &ndash; they are active in 40 different vertical industries. Their project scope tends to the most complex strategies, programs, and technology system enablement.&nbsp; They get hired to take care of these kind of massive programs because they can actually solve the entanglements that are often part of the complexity that exists as a legacy at the customer&rsquo;s sites.&nbsp; In fact, Accenture calls it &ldquo;reducing the complexity tax.&rdquo;</p>
+<p>When it comes to analyst relations, Accenture is arguably the only company in the world of big consultancies that gets how to do it right &ndash; largely due to the work of <a href="http://www.linkedin.com/pub/joseph-hughes/a/41b/7b5">CRM and Social Technologies Global Practice Lead Joe Hughes</a> and his colleagues <a href="http://www.linkedin.com/profile/view?id=3426663&amp;authType=name&amp;authToken=Hdw9&amp;trk=prof-sb-browse_map-name">Chris Boudreaux</a> and <a href="http://www.linkedin.com/profile/view?id=9596853&amp;authType=name&amp;authToken=0CHA&amp;trk=prof-sb-browse_map-name">Jason Breed</a>. Accenture has taken the impact of the non-traditional influencers into account and has made the connections with them &ndash; at the boutique and individual level as well as with the more traditional approaches to the institutional influencers. The only thing that they could probably do a bit more is develop a concrete program for the &ldquo;non-traditionals&rdquo; e.g. regularized briefings etc. But they are outstanding in their back and forth at the human level. They engage to the extent of course they can, with the community of customer-facing influencers that seems to be a unique grouping in the technology world.</p>
+<p>Interestingly, when you speak of Accenture&rsquo;s customer base and case studies, though they do as much more than all their fellow consultancies when it comes to strategy, more than any other company in their space, they compete directly with the systems integrators too, having strong technology partnerships. Rather than a totally agnostic focus &ndash; though they are generally agnostic &ndash; they have done a lot of vetting of a lot of technology vendors. They do their homework and then they choose large handfuls of those vendors who they use as their technology partners. More so than any other company characterized as a consultancy they do strategic services and technology implementations, a soup to nuts approach that doesn&rsquo;t characterize too many others of their ilk. Their competitors denigrate this approach saying that they then have a vested interest in their technology partners and to some extent that&rsquo;s true. BUT, if the technology works for the customer, then so what? As long as it&rsquo;s the right choice at the right price, why would anyone care how it was chosen or even which was chosen? If the end user knows in advance that this is the approach that Accenture (or whoever, really) uses, and is okay with it, and signs a contract, then it becomes caveat emptor, but a low risk version. The buyer buys in to the thinking not just the project.&nbsp; So, if you&rsquo;re a vendor agnostic company harping on this, be quiet. Vendor agnosticism works too &ndash; just not only.</p>
+<p>Another area that Accenture has been a leader for years has been thought leadership. They have an impressive body of work. It tends to the pragmatic more often than not. For example, this piece of work, <a href="http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Five-Branded-Generics-Strategies-to-Master-for-Global-Pharmaceuticals-in-Emerging-Markets.pdf">&ldquo;Five Branded Generics Strategies to Master for Global Pharmaceuticals in Emerging Markets&rdquo;</a> is a perfect representation of what I mean. &nbsp;They also do an annual review of how responsive national governments are to their citizenry &ndash; an incredibly useful and even politically valuable superb piece of work. They do what they call &ldquo;Pulse&rdquo; research which is more aimed at the Market trends, but its not their forte.&nbsp; Its not that it&rsquo;s bad, it&rsquo;s just not their primary focus. What makes their thought leadership interesting is that it really is at the level of best practices in markets they are expert in, so it can be taken for what it is &ndash; the things that they find work for companies that they are surveying being viewed with an Accenture subject matter expertise (SME) lens. I have a distinct suggestion for them, however, that I think they need to consider. For while they do really good research, their marketing of their thought leadership is meh.&nbsp; What that means is that if you see their thought leadership work even as late as 2 years ago, they were highly visible and had some mindshare. But the last couple of years, their mindshare (in this part of the universe) has receded a bit because they don&rsquo;t aggressively market the thought leadership the way they did or perhaps, the requirements for how it got marketed have changed and they haven&rsquo;t adjusted yet. I&rsquo;m not 100% sure why they haven&rsquo;t &ndash; but they haven&rsquo;t.</p>
+<p>Accenture operates with a scope that is unmatched in the world of consultancies and Sis. They do the work of a management consulting firm, a systems integrator, an agency and a facilitator &ndash; all at once. Mindboggling and clear winners when it comes to impacting the business. &nbsp;But, as always, there are things that they need to do.</p>
+<h3>What they need to do</h3>
+<p>I was actually hard pressed to find something that I would suggest they think about since they seem to think about a lot, but after some research and after discarding a few things I thought might be stretching it, here&rsquo;s what I came up with. No one&rsquo;s perfect. J</p>
+<ol>
+<li><strong>Do a better job of marketing their thought leadership</strong> &ndash; There is a significant body of thought leadership that this always busy organization has at its command. But in the last couple of years, they haven&rsquo;t aggressively marketed it.&nbsp; Rather than retrofit a marketing campaign to their existing body of work, I think they can actually take their fort&eacute; &ndash; pragmatic and well-supported best practices and create a new body of work that they can propagate aggressively.&nbsp; It would take the form of a series of specific guides to specific things that function as a series. The Accenture Guides to Whatever. In a sense, it would work something like <a href="http://www.eloqua.com/grande/">Eloqua&rsquo;s Grande Guides</a> or even more closely <a href="http://www.marketo.com/definitive-guides/">Marketo&rsquo;s Definitive Guides</a>. It would be along the line of a group of &ldquo;how to&rdquo; books.&nbsp; So build a library of these that reflect Accenture&rsquo;s successes and learning experiences, throw in some research that shows how best in class companies use these practices, write and format the guides; make them free; market the hell out of them. Additionally, they need to not just sponsor events, which they do prolifically and well, but hold events. They should host conclaves that bring together subject matter experts and other good minds who gather somewhere under the banner of Accenture &ndash; maybe an annual or twice a year leadership&hellip;forum&hellip;summit &ndash; and discuss the leading edge business concepts that 21<sup>st</sup> century businesses need to think about.&nbsp; Or whatever. But they need to not just follow other&rsquo;s leads in these things, but to do it themselves. Its them for them to climb the mountaintop, not just Photoshop a banner on top of it.</li>
+<li><strong>Be more visionary </strong>&ndash; Accenture is defined by its pragmatism &ndash; and to a certain extent, that&rsquo;s a good thing. But businesses of their scope and size have to show that they are ready to lead in the future too, not just the present. The transformation going on in business now is both permanent and long term and Accenture needs to prove they are ready for it. If you study how they execute and what they are doing and thinking, you know they are ready for it. BUT&hellip;.most people aren&rsquo;t doing the research that they would need to find that fact out. &nbsp;So Accenture needs to define a clear vision and it should permeate everything they do. I have an idea that I don&rsquo;t normally advocate so I won&rsquo;t say it here because it would be a best practice on vision for them, but a disaster for most other companies if they did it that way (I&rsquo;m such a tease).</li>
+</ol>
+<p><strong>CSC</strong></p>
+<p>It&rsquo;s funny about <a href="http://www.csc.com/management_consulting/offerings/16506/66678-crm_customer_relationship_management">CSC</a>.&nbsp; I&rsquo;ve known about them as a player for years &ndash; both in the public sector and their CRM practice.&nbsp;&nbsp; Hell, they are HQed in Falls Church Virginia, about 20 miles from my house and years ago (a decade) I occasionally partnered with them on CRM projects in the public sector.&nbsp; So my personal knowledge of this company has been extensive.</p>
+<p><a href="http://www.csc.com/investor_relations/press_releases/83650-csc_reports_fourth_quarter_and_fiscal_year_2012_results">But they are also a $16 billion global entity</a> that has reach everywhere and in many more areas than just public sector.</p>
+<p>But there often seemed to be something missing. Every time they took a step forward, they disappeared off the map for a little while following the step. While they made progress each year and actually were doing what I would say was &ldquo;sterling&rdquo; work, no one really knew that &ndash; except their partners and their customers.</p>
+<p>Good enough you say? No its not. The world of consultancies and systems integrators is incredibly competitive &ndash; even more competitive than the world of technology vendors.&nbsp; That means that visibility is EVERYTHING.&nbsp; You know, &ldquo;if a tree falls in the forest&hellip;.&rdquo;&nbsp;</p>
+<p>So what did they do? Something that wasn&rsquo;t being done for visibility (well, maybe a little) but was something that puts them on radar in many more places than otherwise.</p>
+<p><a href="http://www.csc.com/newsroom/press_releases/78814-csc_appoints_mike_lawrie_president_and_chief_executive_officer">They went and hired Mike Lawrie as CEO</a>.</p>
+<p>I knew Mike Lawrie (&ldquo;knew&rdquo; in the not personally sense) from his days at Siebel, where he was in charge of transforming that organization from its status as feared and hated to something that was much better than that. What was amazing, was that he was well on his way to succeeding at Siebel 2<sup>nd</sup> chapter when he was pushed out by Tom Siebel, who seems to have felt that the Siebel 1<sup>st</sup> chapter was just fine thank you and he was unable to complete what had been a very successful reinvention of the company.</p>
+<p>So when CSC hired him as CEO, it was a harbinger of good &ndash; and good it has been. Under his guidance, CSC has gotten its act together in a cogent, coherent, and visionary way. They have rebuilt their operating structure so that it coheres with delivering services within their Connected Enterprise framework; they have organized their narratives, and hashed out the supporting case studies. The Connected Enterprise value proposition and the array of offerings associated with it, from digital transformation strategies to software/cloud implementations is well thought out. They have a strong reference architecture (though&hellip;pet peeve&hellip;I wish that they would stop calling a custom system of record a &ldquo;bespoke&rdquo; system of record. Leave &ldquo;bespoke&rdquo; to a tailored suit, please. Rejiggering the English language isn&rsquo;t necessary, despite &ldquo;bespoke&rdquo; being all the rage) that is repeatable in the larger enterprises.&nbsp; They expanded their technology offerings &ndash; though they could do more there. They have a powerful vertical presence in a well-chosen group of industries.&nbsp; Their most prominent as it has been for well over a decade is public sector. But they also have a great presence in the retail, travel and transport, logistics, manufacturing, aerospace, insurance, retail &amp; investment banking, life sciences and automotive among others. In fact, in the automotive industry they are creating cutting edge solutions <a href="http://www.csc.com/auto/flxwd/94637-interactive_animation_driving_in_the_cloud_%E2%80%95_the_new_lifecycle_of_the_automobile">(Driving in the Cloud</a>) that truly show some promise &ndash; at least in concept. This is in line with their corporate vision, which is &ldquo;to be a next generation technology solutions and services provider.&rdquo; (See below on this one).</p>
+<p>With all of this, they also have a very good, experienced CRM management team in place, including<a href="http://www.linkedin.com/in/markwaltonhayfield"> EMEA thought leader Mark Walton Hayfield</a>.</p>
+<p>But they still have a ways to go to optimize their impact over the business world for years to come.</p>
+<h3>What they need to do</h3>
+<ol>
+<li><strong>Improve their thought leadership</strong> &ndash; CSC has a story to tell around the Connected Enterprise. Support it with content &ndash; and I don&rsquo;t mean a few white papers. Videos, day long events, speaking engagements etc. The narrative is crafted tightly, the strategies associated with it are solid and the tools available to support the construction well chosen, but a cohesive set of assets around the concept doesn&rsquo;t really exist in any noticeable way.&nbsp; You can pick up the thinking in some of the existing thought leadership here and there, but there is no really overt mention of it at the thought leadership level. I don&rsquo;t know, start with a day event using the <a href="http://lef.csc.com/">Leading Edge Forum</a> and between internal resources and 3<sup>rd</sup> parties, kick things into gear. But get better at a cohesive universal thought leadership program rather than point level documents.</li>
+<li><strong>No more, &ldquo;one step forward, where&rsquo;d you go?&rdquo;</strong> &ndash; Its time for them to do considerably more outreach than they do and make it more than an individual&rsquo;s crusade. Do you know there are only two people in the entire CRM practice of CSC that I&rsquo;ve had any interaction with? Mark Walton Hayfield &ndash; currently and frequently and <a href="http://www.linkedin.com/pub/alex-black/0/a22/8b0">Alex Black</a> &ndash; several times over the years. That&rsquo;s it. AND if I talk to the influencer community a similar story with maybe a variation on the name here and there &ndash; <a href="http://www.linkedin.com/in/cflanagan">former CSCer Claire Flanagan (now at Jive)</a> comes to mind &ndash; will be repeated over and over. CSC needs to evolve an outreach program that goes well beyond the traditional channels. They need to as a company recognized that the influentials landscape changed and they need to roll with that. Regular briefings to analysts/journalists/influencers &lsquo;round the world would be wise.</li>
+<li><strong>Vertical technology </strong>&ndash; They have real strength in the vertical industries. They are solutions focused, creative (the auto example above), truly innovative in their thinking. What they don&rsquo;t have is technology partnerships with vertical industry software/cloud providers. For example, <a href="http://www.crmidol.com/review/8/08/2012/customerconnect-portal">3CSI</a> &ndash; one of the CRM Idol semi-finalists last year is an automotive industry vertical social analytics company.&nbsp; Has anyone at CSC looked into them? CSC needs to expand their technology partnership portfolio in any case and this approach might be the most valuable to them. In order for them to do that, they have to do what Accenture does, investigate some of the emerging vendors and if it makes sense, put them through whatever ringer they need to be put through &ndash; and if they pass, partner.&nbsp;</li>
+</ol>
+<p>CSC is capable of impact over the next few years at a greater magnitude than one could ever think.&nbsp; But they have to break some molds and do some things that make incur some risk, but if they work, watch out. I&rsquo;m already watching out.</p>
+<p><strong>Ernst and Young Advisory</strong></p>
+<p>If you had asked me about Ernst and Young re: consulting a few years ago, I would have said, &ldquo;oh yeah, CapGemini/Ernst &amp; Young.</p>
+<p>I would have been on the mark.&nbsp; However, now, people, we are looking at a formidable organization &ndash; <a href="http://www.ey.com/GL/en/Services/Advisory">Ernst and Young Advisory (EYA)</a> who are part of the accounting firm, Ernst and Young.&nbsp; We&rsquo;re back to that again.&nbsp;&nbsp; But this time, these guys have serious chops. I mean SERIOUS chops.&nbsp;</p>
+<p>What impresses me about Ernst and Young Advisory that makes me think that 2013 is the beginning of their true global breakout (when it comes to impact) is that they have done so much right. They have assembled a powerful management team that combines operational leadership with field leadership with thought leadership. Two examples, <a href="http://www.linkedin.com/in/laurencebuchanan">Laurence Buchanan</a> and <a href="http://www.linkedin.com/pub/woodruff-driggs/3/3ab/514">Woody Driggs</a>. Laurence comes from CapGemini and prior to that SAP and Woody from Accenture. Woody ran the Accenture&rsquo;s global practice, he now runs EYA&rsquo;s. &nbsp;They each have a strong track record for execution but also have been highly active (and interactive) participants in the halls of industry thought leadership &ndash; and are much respected in those halls.</p>
+<p>If I had to characterize them, in light of the other consultancies, on the Watchlist or not, I&rsquo;d say they are a strategic services organization that has clear operational roots.&nbsp; For example, they described themselves in the overview to the submission with five key themes; help clients in:</p>
+<ul>
+<li>Driving growth</li>
+<li>Managing risk</li>
+<li>Improving the effectiveness of the finance function</li>
+<li>Improving operational effectiveness</li>
+<li>Managing talent</li>
+</ul>
+<p>Not terribly visionary on the surface of it, but a. it is helping businesses with realistic outcomes and b. I said not visionary on the surface of it; not, not visionary. In fact, while they don&rsquo;t have as clear a visionary approach, they are well attuned to contemporary trends so that their practices are able to handle strategies and programs for customer experience, social channel integration with other more traditional channels, and sales optimization strategies and systems. In other words, they are cognizant of contemporary trends and have made them translatable into business value.</p>
+<p>They also, to their credit, understand the rise of the agencies in the contemporary services world. Rather than try to compete with the agencies, they will work with the agencies when practicable &ndash; another proof point for EYA&rsquo;s eminently practicable approach to their customers and the market.</p>
+<p>They hit the right messages &ldquo;digital communications revolution,&rdquo; From consumer to co-creator&rdquo;, experiences are the differentiator.&rdquo; I could go on for several hours.</p>
+<p>But they also execute, with their 2500 CRM and social practitioners. They have an incredibly impressive body of work when it comes to case studies with clear measurable results.&nbsp; They range from building a multi-channel contact center for a telco to designing sales processes for a consumer electronics company (and implementing salesforce.com); to developing what they call a &ldquo;CRM master plan&rdquo; (a full bore strategy) for a heavy industry company; to creating a digital roadmap for a large retail bank.&nbsp; This is merely the tip of the iceberg when it comes to a broad range of projects that show a very deep and wide knowledge of the contemporary customer facing space.</p>
+<p>Like all companies that do best in class work, they have germane strategic frameworks and solid technical architectures to support those frameworks. What makes them interesting is that this leads to a business model that that they claim is &ldquo;technology vendor agnostic and independent&rdquo; which I found to be the case though of course, like any other company, they engage several of the vendors more than others.&nbsp; They work (according to them) &ldquo;client-side&rdquo; meaning, I guess, opportunistically. However, it does make me wonder where they get the trained implementation teams for these products if they are entirely agnostic?&nbsp; Getting them in an ad hoc way could drive costs up to the clients.&nbsp; I wonder if they might not be better off with trained technical staff.&nbsp; Vendor agnosticism and work client side is a smart approach but it has its price.</p>
+<p>Given that they hadn&rsquo;t been on my radar, as much due to my own oversight as their lack of proactivity, until Laurence Buchanan went there, I am genuinely amazed at their intelligence, their scope, their well-articulated programmatic approach, and their intelligent set of customer-facing, contemporary business models and frameworks. They have an impressive body of results and a significant group of referenceable customers which tells me that their customers must regard them highly &ndash; or they wouldn&rsquo;t willingly be referenceable.</p>
+<p>But they are up against the Accentures, Deloittes, <a href="http://www.gartner.com/technology/research/digital-marketing/magic-quadrant-digital-marketing-agencies.jsp">the rise of the agencies</a>, and a host of up and coming systems integrators who are moving into strategic services.&nbsp; So they have a couple things in particular they should do &ndash; specifically around outreach and visibility.</p>
+<h3>What they need to do</h3>
+<ol>
+<li><strong>Don&rsquo;t make the mistakes that CapGemini did</strong> &ndash; One of their great strengths is that they some significant parts of the CRM leadership from CapGemini in their ranks (e.g. Laurence Buchanan, Patrick James among others). That gives them the advantage of NOT making the same mistakes that the CapGemini leadership did make.&nbsp; Don&rsquo;t make me and the rest of the world think that the only things they do are in EMEA.&nbsp; Make the Americas (especially the U.S.) presence known, make the Asian presence obvious, make wherever you are as present as the EMEA group is. Right now, it&rsquo;s at the EMEA dominant level &ndash; actually, almost the EMEA only level. It&rsquo;s time to rectify this.</li>
+<li><strong>Institutionalize the individuals don&rsquo;t just individualize the institutions</strong> &ndash; EYA has a serious over focus on the institutional analysts. Even though there has been a great deal of effort put into their analyst relations program in the last 18 months or so, they are taking a somewhat archaic approach to it, with a focus on the institutional analysts pretty much to the exclusion of everyone else. I get it. The institutional analysts are still the analysts that customers go to and there is agony if one doesn&rsquo;t make a Magic Quadrant, Marketscope or Wave, but the winds of change are the winds of change &ndash;and the influencer world is changing. First, brand influencers aren&rsquo;t even necessarily analysts &ndash; but for the sake of argument, lets say they are. While the institutional analysts are without a doubt more important when it comes to customer influence, there is such a thing as market influence &ndash; meaning that the entire market including customers and many others look at what is said about a company &ldquo;out there&rdquo; not just when a phone call comes in or an MQ is released. That is as much in the realm of individual and boutique influencers as it is institutional &ndash; and even more so in particular disciplines. Time to expand the scope of AR for EYA to the boutique firms, and the individual analysts and continue with the larger firms too. Start with scheduled regular briefings or do what some of the vendors do &ndash; have someone who deals with the &ldquo;market influencers&rdquo; &ndash; they have programs for each. But do it.</li>
+</ol>
+<div>
+<p>I really like what I see and their impact is apparent at the customer level in particular. They often set a standard for the other competitors to meet in the quality of their work and the results they can show. But now is time for them to be big on the international stage. They are big in EMEA. Now let me see them in the Americas. They have arrived. But they have to arrive at a new and bigger place. Which, as a winner of CRM Watchlist 2013, I fully expect them to do.</p>
+</div>
+<p><strong><em>Next up and finally: Part 2 of the Consulting/Sis &ndash; Solvis Consulting and The Pedowitz Group</em></strong></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013126</guid>
+      <link><![CDATA[http://www.zdnet.com/is-tim-cook-no-more-than-an-administrator-7000013126/]]></link>
+      <title><![CDATA[Is Tim Cook no more than an 'administrator'?]]></title>
+      <description><![CDATA[A former Microsoft executive seems to imply the idea. ]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 09:00:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-microsoft/">Microsoft</category>
+      <media:text type="html"><![CDATA[<figure><img title="cook-and-jobs" alt="cook-and-jobs" src="http://cdn-static.zdnet.com/i/r/story/70/00/013126/cook-and-jobs-600x319.jpg?hash=LzZkAQpkMz&upscale=1" height="319" width="600"></figure>
+<p>Has Apple truly lost its way with Tim Cook at the helm?</p>
+<p>A former Microsoft executive has made this claim. Writing <a href="http://www.forbes.com/sites/forbesleadershipforum/2013/03/25/ex-microsoft-coo-has-apple-lost-its-vision/">a guest piece for Forbes</a>, former Chief Operating Officer Bob Herbold at Microsoft -- from 1994 to 2001 -- believes that the iPad and iPhone maker simply hasn't been the same since the former CEO was in control.</p>
+<p>Herbold argues that while Apple stock continues to lose its glitter in the eyes of investors, data and numbers only tell us half the story. Stock prices, he argues, are not based solely on product line success or the balance sheet, but also relate to the perceived future of a company -- and in order to keep shareholders interested, the belief that a firm has innovative and visionary leadership is a crucial component.</p>
+<p>While the late Steve Jobs is called the "ultimate visionary leader," Tim Cook, who replaced Jobs after the co-founder passed away in 2011, is implied to be nothing more than an office body. Although Cook is not mentioned by name, Herbold claims that Apple requires "a visionary leader, not an administrator."</p>
+<p>"The leader needs to be paranoid about making the core offerings of the organization more exciting and more impactful with its customers," Herbold writes. "That sounds simple, but doing it with clarity and speed is absolutely necessary. You must avoid any kind of bureaucracy that can water down the impact of your efforts or slow it to a snail's pace."</p>
+<p>In addition, Herbold says that in order to be the type of "visionary" leader modern-day businesses require, the CEO doesn't have to be a technology genius, but does have to have a high business acumen. Powerful, long-reaching business strategies are necessary, and deep, personal involvement with the details of your corporation is a must.</p>
+<p>Comparing former IBM CEO Lou Gerstner and Steve Jobs, the former Microsoft exec says that the time spent getting to know your customers, their opinions and their needs, can improve the success of your products. Gerstner spent three months simply talking to customers about their information-technology challenges and based IBM's strategy on this, whereas Jobs personally led the design and development of Apple's consumer products -- and perhaps Cook has fallen short of this expectation.</p>
+<p>As a parting shot, Herbold says that business managers must have "the guts to lead" to keep a firm competitive. It isn't about having charisma, but being strong-willed and knowing what you want to accomplish in the long-run.</p>
+<p>The former Microsoft executive finishes by commenting:</p>
+<blockquote>
+<p>"Apple could surprise us in the next six to nine months by emerging with yet another big new idea. On the other hand, I think the stock market is telling us that the public is beginning to believe that Apple really doesn't have strong visionary leadership. Apple will be a solid technology company but the Apple era may be on its way out."</p>
+</blockquote>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013057</guid>
+      <link><![CDATA[http://www.zdnet.com/in/schmidt-indian-web-innovations-will-come-from-solving-local-problems-7000013057/]]></link>
+      <title><![CDATA[Schmidt: Indian Web innovations will come from solving local problems]]></title>
+      <description><![CDATA[Google's executive chairman has urged the Indian government to focus on policies to improve and foster online businesses, rather than on censorship.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 07:07:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Abhishek Baxi]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-censorship/">Censorship</category>
+      <category domain="http://www.zdnet.com/topic-google/">Google</category>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <category domain="http://www.zdnet.com/topic-smbs/">SMBs</category>
+      <media:text type="html"><![CDATA[<p>Indian Web entrepreneurs should not aim for foreign markets to be successful but instead solve local problems in a way that's globally applicable, according to Google's executive chairman Eric Schmidt.<br><br>"We know that India's Internet infrastructure allows Indian engineers to solve the problems of small businesses in other countries. If India plays its cards right, we'll soon see Indian engineers and Indian small businesses tackling Indian problems first, then exporting the solutions that work best," he wrote last week <a href="http://timesofindia.indiatimes.com/home/opinion/edit-page/Which-internet-will-India-choose/articleshow/19044331.cms">in an opinion piece in The Times of India</a>, ahead of his attendance at the Big Tent Activate Summit in New Delhi.</p>
+<figure><img title="eric schmidt" alt="eric schmidt" src="http://cdn-static.zdnet.com/i/r/story/70/00/013057/eric-schmidt-460x276.jpg?hash=Z2MxZzHmMQ&upscale=1" height="276" width="460"><figcaption>Eric Schmidt (right) in conversation with Alan Rusbridger at Big Tent Activate Summit 2013</figcaption></figure>
+<p>During his trip, Schmidt met several Indian entrepreneurs and also wrote about successful online businesses in India like Kanaja, RedBus, and mDhil in his column.</p>
+<p>While Schmidt was gung-ho about India’s online opportunities, he called on the Indian government to opt for an "open Internet that benefits all" instead of a "highly regulated one that inhibits innovation." He said that society flourishes when this is a free and open Web with unbridled technological progress that allows information to be disseminated and consumed freely.</p>
+<p>He insisted that since one-fifth of the five billion people that will get online in the next decade will come from India, much of the country's cultural enrichment will come from Web startups and small businesses.</p>
+<p>At the Big Tent Activate Summit, in a <a href="http://www.ndtv.com/video/player/news/india-or-china-who-is-eric-schmidt-betting-on/269175">conversation</a> with Alan Rusbridger, editor of The Guardian, Schmidt also expressed his disappointment with the <a href="http://www.zdnet.com/in/internet-could-contribute-us100b-to-indias-gdp-by-2015-7000009056/" target="_self">Internet infrastructure</a> in the country.</p>
+<p>"The fact is that fiber solves every connectivity problem, but you (India) don't have enough of it. The telecom industry here is under-capitalized, and they don't have enough bandwidth. The Internet here feels like America in 1994, with tremendous upside," Schmidt said.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013118</guid>
+      <link><![CDATA[http://www.zdnet.com/chromebook-pixel-with-lte-cannot-step-down-to-3g-7000013118/]]></link>
+      <title><![CDATA[Chromebook Pixel with LTE cannot step down to 3G]]></title>
+      <description><![CDATA[While most 4G/LTE devices can step down to a 3G network when out of the 4G area, Google's laptop is stuck with only wi-fi.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 04:31:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[James Kendrick]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-4g/">4G</category>
+      <category domain="http://www.zdnet.com/topic-google/">Google</category>
+      <category domain="http://www.zdnet.com/topic-laptops/">Laptops</category>
+      <media:text type="html"><![CDATA[<p>The Chromebook Pixel with long-term evolution (LTE) will be shipping in just a few weeks, and while it's not likely that many will be buying such an expensive chromebook, those planning to do so should be aware of a limitation it has.</p>
+<figure><img title="00 Open running" alt="00 Open running" src="http://cdn-static.zdnet.com/i/r/story/70/00/013118/00-open-running-600x573.jpg?hash=MQN3AwR3BJ&upscale=1" height="573" width="600"><figcaption>(Image: James Kendrick/ZDNet)</figcaption></figure>
+<p>Looking at the specifications of the LTE Chromebook Pixel, I found it odd that Google very carefully indicates only LTE capability. Most devices with 4G LTE capability also have 3G radios allowing the device to step down to slower 3G when out of a 4G-covered area.</p>
+<figure><img title="Pixel LTE" alt="Pixel LTE" src="http://cdn-static.zdnet.com/i/r/story/70/00/013118/pixel-lte-480x234.jpg?hash=BTHjZQL2Lw&upscale=1" height="234" width="480"><figcaption>(Image: James Kendrick/ZDNet)</figcaption></figure>
+<p>I reached out to Google for confirmation of the Chromebook Pixel's limitation to just 4G LTE connections and the company confirmed it.</p>
+<p>While this isn't a tremendous limitation, since LTE is so much faster then 3G, those living in fringe areas of 4G coverage should be aware of the lack of 3G in the Pixel. If you live or frequently travel to an area on the edge of 4G coverage with Verizon and your phone drops often to 3G service, be aware that your Chromebook Pixel will not do so. You will be restricted to wi-fi only in such areas.</p>
+<p><strong>Related stories</strong></p>
+<ul>
+<li>
+<p><a href="http://www.zdnet.com/chromebook-pixel-run-ubuntu-alongside-chrome-os-7000012381/">Chromebook Pixel: Run Ubuntu alongside Chrome OS</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/chromebook-pixel-hands-on-photos-7000011694/">Chromebook Pixel hands on (photos)</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/the-chromebook-pixel-cost-me-a-lot-of-money-7000011711/">The Chromebook Pixel cost me a lot of money</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/macbook-pro-retina-display-vs-chromebook-pixel-on-video-7000011739/">MacBook Pro (Retina display) vs. Chromebook Pixel on video</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/chromebook-pixel-5-tips-and-tricks-including-pinch-to-zoom-7000011971/">Chromebook Pixel: 5 tips and tricks (including pinch to zoom)</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/new-samsung-chromebook-and-samsung-series-5-550-head-to-head-7000006091/">New Samsung Chromebook and Samsung Series 5 550 head-to-head</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/new-samsung-chromebook-arm-processor-and-249-7000006006/">New Samsung Chromebook: ARM processor and $249</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/samsung-chromebook-in-3g-slips-out-for-330-7000006062/">Samsung Chromebook in 3G slips out for $330</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/samsung-s5-550-chromebook-all-in-after-a-week-7000005814/">Samsung Series 5 550 Chromebook: All in after a week</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/11-good-chrome-web-apps-for-the-chromebook-7000005399/">11 good Chrome web apps for the Chromebook</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/samsung-series-5-550-chromebook-day-one-7000005315/">Samsung Series 5 550 Chromebook: Day one</a></p>
+</li>
+<li>
+<p><a href="http://www.zdnet.com/new-macbook-for-me-no-samsung-chromebook-on-the-way-7000005237/">New MacBook for me? No, a new Samsung Chromebook on the way</a></p>
+</li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013113</guid>
+      <link><![CDATA[http://www.zdnet.com/uk-intelligence-agency-stores-passwords-in-plain-text-7000013113/]]></link>
+      <title><![CDATA[UK intelligence agency stores passwords in plain text]]></title>
+      <description><![CDATA[Just the other week, we heard that the Australian Tax Office was storing passwords in plain text. This time, it's one of the UK's intelligence agencies.]]></description>
+      <pubDate><![CDATA[Tue, 26 Mar 2013 03:44:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Michael Lee]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-government-uk/">Government UK</category>
+      <category domain="http://www.zdnet.com/topic-united-kingdom/">United Kingdom</category>
+      <media:text type="html"><![CDATA[<p>There are some government agencies that most would expect to have a fair grasp of security, even for those systems that are not core to their operations. That's what we thought with the<a href="http://www.zdnet.com/the-taxpayer-funded-plain-text-password-store-7000012053/"> Australian Tax Office's Publication Ordering System</a>, but sadly, we were proven wrong.</p>
+<p>University student Dan Farrall <a href="http://danfarrall.com/gchq/" target="_blank">discovered</a> that his UK government's communication headquarters (GCHQ) careers site has been sending back passwords in complete plain text. For those of us outside of the UK, GCHQ is one of Britain's intelligence agencies, dealing primarily with signals intelligence and charged with "safeguarding Britain's electronic communications and digital space".</p>
+<p>It works with the nation's security services and secret intelligence services MI5 and MI6, and is thought of as the counterpart to the US National Security Agency or Australia's Defence Signals Directorate.</p>
+<p>As Farrall pointed out on his blog, apart from the harm to its reputation, the sort of information that would be held within these systems would be significant.</p>
+<p>We double-checked Farrall's claim and confirmed that the passwords were in fact being sent in plain text, and while we were at it, we started an application for a malware reverse engineer.</p>
+<figure><img title="gchq" alt="gchq" src="http://cdn-static.zdnet.com/i/r/story/70/00/013113/gchq-599x417.png?hash=BJMvAmIuZT&upscale=1" height="417" width="599"><figcaption>Password recovery email. (Image: Screenshot by Michael Lee/ZDNet)</figcaption></figure>
+<p>Aside from the usual residential information, the applications required passport numbers, reasons for wanting to apply, the relevant skills for the position being applied to, education history, and qualifications.</p>
+<p>I imagine that such information would be especially interesting to foreign nations that would like to narrow down and possibly turn tomorrow's government penetration testers, or tap those that work on discovering and patching vulnerabilities for the UK government.</p>
+<p>Farrall claimed to have contacted GCHQ about the issue at the end of February, but received no response.</p>
+<p>ZDNet has placed an enquiry with the agency and will update if we hear back.</p>]]></media:text>
+    </item>
+  </channel>
+</rss>

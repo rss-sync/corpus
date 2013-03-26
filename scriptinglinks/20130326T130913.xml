@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Tue, 26 Mar 2013 12:56:27 GMT</pubDate>
+		<lastBuildDate>Tue, 26 Mar 2013 12:56:27 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-26</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/26/2013; 8:56:27 AM</microblog:localTime>
+		<item>
+			<description>Scripting News: The missing HTML 5 local storage FAQ.</description>
+			<link>http://3lr.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 12:56:26 GMT</pubDate>
+			<guid>http://3lr.r2.ly/?id=15817</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/usersGuideToLocalStorage</microblog:linkFull>
+			</item>
+		<item>
+			<description>Why is 80 characters the &apos;standard&apos; limit for code width?</description>
+			<link>http://3lq.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 09:42:32 GMT</pubDate>
+			<guid>http://3lq.r2.ly/?id=15816</guid>
+			<microblog:linkFull>http://programmers.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width</microblog:linkFull>
+			<microblog:readCount>591</microblog:readCount>
+			</item>
+		<item>
+			<description>Boeing 787 Dreamliner completes test flight with new battery system.</description>
+			<link>http://3lp.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 09:35:03 GMT</pubDate>
+			<guid>http://3lp.r2.ly/?id=15815</guid>
+			<microblog:linkFull>http://www.guardian.co.uk/business/2013/mar/26/boeing-787-dreamliner-test-flight</microblog:linkFull>
+			<microblog:readCount>413</microblog:readCount>
+			</item>
+		<item>
+			<description>Pando Daily: Outliner pioneer, Winer, talks about upcoming Little Outliner. (Nice quote.)</description>
+			<link>http://3lo.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 09:34:10 GMT</pubDate>
+			<guid>http://3lo.r2.ly/?id=15814</guid>
+			<microblog:linkFull>http://pandodaily.com/news/outliner-pioneer-winer-talks-about-upcoming-little-outliner/</microblog:linkFull>
+			<microblog:readCount>406</microblog:readCount>
+			</item>
+		<item>
+			<description>Nick D&apos;Aloisio, 17, Sells Summly App to Yahoo.</description>
+			<link>http://3ln.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 09:22:13 GMT</pubDate>
+			<guid>http://3ln.r2.ly/?id=15813</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/26/business/media/nick-daloisio-17-sells-summly-app-to-yahoo.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>574</microblog:readCount>
+			</item>
+		<item>
+			<description>Margaret Sullivan: The Times&apos;s Work in Progress.</description>
+			<link>http://3ll.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 00:57:45 GMT</pubDate>
+			<guid>http://3ll.r2.ly/?id=15812</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/24/opinion/sunday/the-timess-work-in-progress.html?_r=0&amp;emc=rss&amp;partner=rssnyt</microblog:linkFull>
+			<microblog:readCount>634</microblog:readCount>
+			</item>
+		<item>
+			<description>New York Times closes another loophole in its digital paywall.</description>
+			<link>http://3lk.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 00:31:59 GMT</pubDate>
+			<guid>http://3lk.r2.ly/?id=15811</guid>
+			<microblog:linkFull>http://paidcontent.org/2013/03/25/new-york-times-closes-another-loophole-in-its-digital-paywall/</microblog:linkFull>
+			<microblog:readCount>1170</microblog:readCount>
+			</item>
+		<item>
+			<description>Twitter Platform Event. April 2nd, from 6:30pm to 9pm. San Francisco.</description>
+			<link>http://3lj.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 20:59:44 GMT</pubDate>
+			<guid>http://3lj.r2.ly/?id=15810</guid>
+			<microblog:linkFull>https://dev.twitter.com/form/twitter-platform-event</microblog:linkFull>
+			<microblog:readCount>497</microblog:readCount>
+			</item>
+		<item>
+			<description>AllThingsD: Dave Winer Launches Outliner Web App That Saves Everything Locally.</description>
+			<link>http://3li.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 20:30:49 GMT</pubDate>
+			<guid>http://3li.r2.ly/?id=15809</guid>
+			<microblog:linkFull>http://allthingsd.com/20130325/blogging-pioneer-dave-winer-launches-outliner-web-app-that-saves-everything-locally/</microblog:linkFull>
+			<microblog:readCount>737</microblog:readCount>
+			</item>
+		<item>
+			<description>The Betaworks guys, talking about their RSS reader, sounds like it&apos;s going to be a Google Reader clone.</description>
+			<link>http://3lh.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 20:07:24 GMT</pubDate>
+			<guid>http://3lh.r2.ly/?id=15808</guid>
+			<microblog:linkFull>http://blog.digg.com/post/46251309499/whats-next</microblog:linkFull>
+			<microblog:readCount>818</microblog:readCount>
+			</item>
+		<item>
+			<description>Small Picture Q&amp;A. Lots of questions, and a few answers. ;-)</description>
+			<link>http://3lg.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 19:52:49 GMT</pubDate>
+			<guid>http://3lg.r2.ly/?id=15807</guid>
+			<microblog:linkFull>http://4088.mediahackers.org/littleOutlinerQk#comment-841962291</microblog:linkFull>
+			<microblog:readCount>593</microblog:readCount>
+			</item>
+		<item>
+			<description>Screencast shows how to import an OPML subscription list into Little Outliner.</description>
+			<link>http://3lf.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 18:15:58 GMT</pubDate>
+			<guid>http://3lf.r2.ly/?id=15806</guid>
+			<microblog:linkFull>https://dl.dropbox.com/u/36518280/screencasts/importDemo2.m4v</microblog:linkFull>
+			<microblog:readCount>555</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: The magic of HTML 5 and S3.</description>
+			<link>http://3le.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 25 Mar 2013 17:26:52 GMT</pubDate>
+			<guid>http://3le.r2.ly/?id=15805</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/somethingTechiesWillAppreciate</microblog:linkFull>
+			<microblog:readCount>2119</microblog:readCount>
+			</item>
+		<item>
+			<description>Gizmodo: The Cleanest, Simplest Outliner Web App Around. #thanks!!</description>
+			<link>http://3ld.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 17:17:20 GMT</pubDate>
+			<guid>http://3ld.r2.ly/?id=15804</guid>
+			<microblog:linkFull>http://gizmodo.com/5992280/little-outliner-the-cleanest-simplest-outliner-web-app-around</microblog:linkFull>
+			<microblog:readCount>607</microblog:readCount>
+			</item>
+		<item>
+			<description>CNET: Dave Winer debuts &apos;classic&apos; Little Outliner.</description>
+			<link>http://3lc.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 17:13:23 GMT</pubDate>
+			<guid>http://3lc.r2.ly/?id=15803</guid>
+			<microblog:linkFull>http://news.cnet.com/8301-1023_3-57576134-93/dave-winer-debuts-classic-little-outliner/</microblog:linkFull>
+			<microblog:readCount>1519</microblog:readCount>
+			</item>
+		<item>
+			<description>Anton Zuiker: It&apos;s an outliner world.</description>
+			<link>http://3lb.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 16:24:53 GMT</pubDate>
+			<guid>http://3lb.r2.ly/?id=15802</guid>
+			<microblog:linkFull>http://mistersugar.com/2013/03/25/it-s-an-outliner-world</microblog:linkFull>
+			<microblog:readCount>1131</microblog:readCount>
+			</item>
+		<item>
+			<description>Video: Little Outliner demo.</description>
+			<link>http://3la.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 16:13:48 GMT</pubDate>
+			<guid>http://3la.r2.ly/?id=15801</guid>
+			<microblog:linkFull>http://littleoutliner.com/demo.html</microblog:linkFull>
+			<microblog:readCount>837</microblog:readCount>
+			</item>
+		<item>
+			<description>Little Outliner -- My first outliner in many many years. Runs in browser, written in JavaScript. Hope you like! :-)</description>
+			<link>http://3l9.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 15:58:21 GMT</pubDate>
+			<guid>http://3l9.r2.ly/?id=15800</guid>
+			<microblog:linkFull>http://littleoutliner.com/</microblog:linkFull>
+			<microblog:readCount>632</microblog:readCount>
+			</item>
+		<item>
+			<description>Small Picture: Little Outliner press guide.</description>
+			<link>http://3l8.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 25 Mar 2013 15:57:27 GMT</pubDate>
+			<guid>http://3l8.r2.ly/?id=15799</guid>
+			<microblog:linkFull>http://smallpicture.com/littleOutlinerPressGuide.html</microblog:linkFull>
+			<microblog:readCount>2110</microblog:readCount>
+			</item>
+		<item>
+			<description>Things I wish I had known when starting Hipmunk.</description>
+			<link>http://3l6.r2.ly/</link>
+			<pubDate>Mon, 25 Mar 2013 11:39:22 GMT</pubDate>
+			<guid>http://3l6.r2.ly/?id=15798</guid>
+			<microblog:linkFull>http://www.tnooz.com/2013/03/25/news/things-i-wish-i-knew-when-starting-hipmunk/</microblog:linkFull>
+			<microblog:readCount>726</microblog:readCount>
+			</item>
+		</channel>
+	</rss>
