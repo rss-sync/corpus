@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Wed, 27 Mar 2013 12:18:06 GMT</pubDate>
+		<lastBuildDate>Wed, 27 Mar 2013 12:18:06 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-27</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/27/2013; 8:18:06 AM</microblog:localTime>
+		<item>
+			<description>At Y Combinator Demo Day, many echoes of Kickstarter.</description>
+			<link>http://3m6.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 12:18:05 GMT</pubDate>
+			<guid>http://3m6.r2.ly/?id=15834</guid>
+			<microblog:linkFull>http://news.cnet.com/8301-1023_3-57576446-93/at-y-combinator-demo-day-many-echoes-of-kickstarter/</microblog:linkFull>
+			</item>
+		<item>
+			<description>Philip Greenspun, last year&apos;s Scripting News blogger-of-the-year, reviews Sheryl Sandberg&apos;s &quot;Lean in.&quot;</description>
+			<link>http://3m5.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 02:10:32 GMT</pubDate>
+			<guid>http://3m5.r2.ly/?id=15833</guid>
+			<microblog:linkFull>http://blogs.law.harvard.edu/philg/2013/03/26/lean-in-women-can-move-up-the-career-ladder-as-soon-as-men-change/</microblog:linkFull>
+			<microblog:readCount>606</microblog:readCount>
+			</item>
+		<item>
+			<description>I read about Flipboard&apos;s revolutionary curation feature in my river.</description>
+			<link>http://9n.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 01:44:37 GMT</pubDate>
+			<guid>http://9n.r2.ly/?id=15832</guid>
+			<microblog:linkFull>http://tabs.mediahackers.org/?panel=dave</microblog:linkFull>
+			<microblog:readCount>7578</microblog:readCount>
+			</item>
+		<item>
+			<description>Heat Still Not Fixated on Winning Streak.</description>
+			<link>http://3m4.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 01:08:50 GMT</pubDate>
+			<guid>http://3m4.r2.ly/?id=15831</guid>
+			<microblog:linkFull>http://www.nytimes.com/aponline/2013/03/26/sports/basketball/ap-bkn-streaking-heat.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>514</microblog:readCount>
+			</item>
+		<item>
+			<description>Let&apos;s Say FeedBurner Shuts Down...</description>
+			<link>http://3m3.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 00:52:32 GMT</pubDate>
+			<guid>http://3m3.r2.ly/?id=15830</guid>
+			<microblog:linkFull>http://css-tricks.com/lets-say-feedburner-shuts-down/</microblog:linkFull>
+			<microblog:readCount>709</microblog:readCount>
+			</item>
+		<item>
+			<description>HTML 5 local storage FAQ.</description>
+			<link>http://3lr.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 00:15:51 GMT</pubDate>
+			<guid>http://3lr.r2.ly/?id=15829</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/usersGuideToLocalStorage</microblog:linkFull>
+			<microblog:readCount>2232</microblog:readCount>
+			</item>
+		<item>
+			<description>WordPress.com Has Imported 15M Posts In The Last 30 Days, Remains A Top Safe Haven For Nomad Bloggers.</description>
+			<link>http://3m2.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 00:15:22 GMT</pubDate>
+			<guid>http://3m2.r2.ly/?id=15828</guid>
+			<microblog:linkFull>http://techcrunch.com/2013/03/26/wordpress-com-has-imported-15m-posts-in-the-last-30-days-remains-a-top-safe-haven-for-nomad-bloggers/</microblog:linkFull>
+			<microblog:readCount>480</microblog:readCount>
+			</item>
+		<item>
+			<description>Rabbi Herschel Schacter, Who Carried Word of Freedom to Buchenwald, Dies at 95.</description>
+			<link>http://3m1.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 23:24:31 GMT</pubDate>
+			<guid>http://3m1.r2.ly/?id=15827</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/27/nyregion/rabbi-herschel-schacter-who-carried-word-of-freedom-to-buchenwald-dies-at-95.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>988</microblog:readCount>
+			</item>
+		<item>
+			<description>Climber is a shameless Vine clone built for App.net.</description>
+			<link>http://3m0.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 23:12:58 GMT</pubDate>
+			<guid>http://3m0.r2.ly/?id=15826</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/26/4149428/climber-video-sharing-app-vine-clone-built-for-app-net</microblog:linkFull>
+			<microblog:readCount>429</microblog:readCount>
+			</item>
+		<item>
+			<description>Video: Little Outliner Import Demo.</description>
+			<link>http://3lz.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 21:50:43 GMT</pubDate>
+			<guid>http://3lz.r2.ly/?id=15825</guid>
+			<microblog:linkFull>http://www.youtube.com/watch?feature=youtu.be&amp;v=fAmEiCchNLs</microblog:linkFull>
+			<microblog:readCount>419</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;Reader Mode&quot; in Little Outliner is a nice way to send a greeting to someone with an outline. ;-)</description>
+			<link>http://3ly.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 19:17:40 GMT</pubDate>
+			<guid>http://3ly.r2.ly/?id=15824</guid>
+			<microblog:linkFull>http://littleoutliner.com/?reader=https%3A%2F%2Fdl.dropbox.com%2Fu%2F36518280%2Fmisc%2FdemoForGuy.opml</microblog:linkFull>
+			<microblog:readCount>500</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;It&apos;ll be fun to see what they build on top of this.&quot;</description>
+			<link>http://3lx.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 19:03:14 GMT</pubDate>
+			<guid>http://3lx.r2.ly/?id=15823</guid>
+			<microblog:linkFull>http://www.manton.org/2013/03/little_outliner.html</microblog:linkFull>
+			<microblog:readCount>586</microblog:readCount>
+			</item>
+		<item>
+			<description>It seems silly to live in a world limited by the machines of the past.</description>
+			<link>http://3lr.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 17:12:57 GMT</pubDate>
+			<guid>http://3lr.r2.ly/?id=15822</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/usersGuideToLocalStorage</microblog:linkFull>
+			<microblog:readCount>2232</microblog:readCount>
+			</item>
+		<item>
+			<description>The AARP is looking for some good Baby Boomer entrepreneurs to back.</description>
+			<link>http://3lw.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 17:03:31 GMT</pubDate>
+			<guid>http://3lw.r2.ly/?id=15821</guid>
+			<microblog:linkFull>http://gigaom.com/2013/03/26/the-aarp-is-looking-for-some-good-baby-boomer-entrepreneurs-to-back/</microblog:linkFull>
+			<microblog:readCount>508</microblog:readCount>
+			</item>
+		<item>
+			<description>A Day in the Life with Yeardley Smith, Voice Actor for Lisa Simpson From &apos;The Simpsons&apos;.</description>
+			<link>http://3lv.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 16:49:07 GMT</pubDate>
+			<guid>http://3lv.r2.ly/?id=15820</guid>
+			<microblog:linkFull>http://laughingsquid.com/a-day-in-the-life-with-yeardley-smith-voice-actor-for-lisa-simpson-from-the-simpsons/</microblog:linkFull>
+			<microblog:readCount>457</microblog:readCount>
+			</item>
+		<item>
+			<description>Dave Winer hat ein neues Baby. &quot;Es ist ein Outliner.&quot;</description>
+			<link>http://3lu.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 15:57:23 GMT</pubDate>
+			<guid>http://3lu.r2.ly/?id=15819</guid>
+			<microblog:linkFull>http://www.computerwoche.de/a/dave-winer-hat-ein-neues-baby,2535340</microblog:linkFull>
+			<microblog:readCount>408</microblog:readCount>
+			</item>
+		<item>
+			<description>Little Outliner 0.33. Fixed bugs in &quot;reader&quot; mode.</description>
+			<link>http://3lt.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 14:15:48 GMT</pubDate>
+			<guid>http://3lt.r2.ly/?id=15818</guid>
+			<microblog:linkFull>http://worknotes.smallpicture.com/march2013/littleOutliner033</microblog:linkFull>
+			<microblog:readCount>487</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: The missing HTML 5 local storage FAQ.</description>
+			<link>http://3lr.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 26 Mar 2013 12:56:26 GMT</pubDate>
+			<guid>http://3lr.r2.ly/?id=15817</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/usersGuideToLocalStorage</microblog:linkFull>
+			<microblog:readCount>2232</microblog:readCount>
+			</item>
+		<item>
+			<description>Why is 80 characters the &apos;standard&apos; limit for code width?</description>
+			<link>http://3lq.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 09:42:32 GMT</pubDate>
+			<guid>http://3lq.r2.ly/?id=15816</guid>
+			<microblog:linkFull>http://programmers.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width</microblog:linkFull>
+			<microblog:readCount>884</microblog:readCount>
+			</item>
+		<item>
+			<description>Boeing 787 Dreamliner completes test flight with new battery system.</description>
+			<link>http://3lp.r2.ly/</link>
+			<pubDate>Tue, 26 Mar 2013 09:35:03 GMT</pubDate>
+			<guid>http://3lp.r2.ly/?id=15815</guid>
+			<microblog:linkFull>http://www.guardian.co.uk/business/2013/mar/26/boeing-787-dreamliner-test-flight</microblog:linkFull>
+			<microblog:readCount>520</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

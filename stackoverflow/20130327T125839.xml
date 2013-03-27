@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-27T12:58:39Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15659409</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How do you display a string array in a text box c# windows forms</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows"/><category scheme="http://stackoverflow.com/feeds/tags" term="forms"/><category scheme="http://stackoverflow.com/feeds/tags" term="textbox"/>
+        <author>
+            <name>James Archer</name>
+            <uri>http://stackoverflow.com/users/2212979</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659409/how-do-you-display-a-string-array-in-a-text-box-c-sharp-windows-forms" />
+        <published>2013-03-27T12:57:57Z</published>
+        <updated>2013-03-27T12:57:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Hi I am new to c# and I having problems with my first windowss form application.&lt;/p&gt;
+
+&lt;p&gt;I have data coming in from s serial port and have worked out a way of processing and storing the data into 3 different string arrays.  What I cant work out is how to display the data in the arrays into their own individual text boxes, I would only want to display the data in the array pointed to by the current index position.&lt;/p&gt;
+
+&lt;p&gt;I have 3 text boxes in my windows forms design already they are named:
+textBoxmag, textBoxlat and textBoxlon
+I would like to display the variables string[] mag, string[] lat and string[] lon in their corresponding text boxes.&lt;/p&gt;
+
+&lt;p&gt;Please help me guys I properly stuck with this even though it may seem simple to you more experienced c# programmers.  Below is my code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication1
+{
+    public partial class Form1 : Form
+    {
+
+        string RxString;// where the raw serial data is stored
+        string[] mag = new string[1000];//where magnetic data is stored 
+        string[] lat = new string[1000];//where latidude data is stored
+        string[] lon = new string[1000];///where longitude data is stored 
+        string ends = &quot;\r\n&quot;;//end of data sentence identifier
+        string starts = &quot;G&quot;;//start of data sentence identifier
+
+        int i; //pointer to mag data in RxString
+        int j;//index mag data
+        int k;//pointer to lat data in RxString
+
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void buttonStart_Click(object sender, EventArgs e)
+        {
+            serialPort1.PortName = &quot;COM5&quot;;//define sierial port in which PIC is connected to
+            serialPort1.BaudRate = 4800;//set baud rate to match PIC
+
+            serialPort1.Open();
+            if (serialPort1.IsOpen)//if the port is open you can press the start button
+            {
+                buttonStart.Enabled = false;//start button disbaled
+                buttonStop.Enabled = true;//stop button enabled
+                textBox1.ReadOnly = false;//allow writing in text box
+            }
+        }
+
+        private void buttondtop_Click(object sender, EventArgs e)
+        {
+            if (serialPort1.IsOpen)
+            {
+                serialPort1.Close();
+                buttonStart.Enabled = true;
+                buttonStop.Enabled = false;
+                textBox1.ReadOnly = true;
+            }
+        }
+
+
+
+        private void DisplayText(object sender, EventArgs e)
+        {
+            textBox1.AppendText(RxString);//add watever is in raw data string to what is already in text box
+
+        }
+
+
+        private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)//activates when port is open and data in buffer
+        {
+            RxString = serialPort1.ReadExisting();//read raw data from serial port into string
+            this.Invoke(new EventHandler(DisplayText));//invoke allows it to call function diplay text
+
+            if (RxString.StartsWith(starts))//if the string starts with &quot;G&quot;
+            {
+                if ((RxString.Length &amp;gt; 36))//if there is aleast one string sentence
+                {
+                    if (RxString.EndsWith(ends))// if the string ends with &quot;\r\n&quot; process the string
+                        serialPort1.Close();//close serial port 
+                    lat[i] = RxString.Split(&#39;,&#39;)[0].Substring(4);// extract latitude store in string array
+                    i++;//increment index of latitude data array
+                    lon[j] = RxString.Split(&#39;,&#39;)[2];// extract longitude store in string array
+                    j++;//increment index of longitude data array
+                    mag[k] = RxString.Split(&#39;,&#39;)[3].Substring(7).Trim();// extract magnetic data store in string array
+                    k++;//increment index of magnteric data array
+                    RxString = null;//Reset raw data string
+                    serialPort1.Open();//open serial port ready for new string sentence
+                }
+            }
+            else RxString = null;// if the raw data string sentence does not start with &quot;G&quot; reset the array
+           }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (serialPort1.IsOpen) serialPort1.Close();
+        }
+
+        private void labellat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cheers
+Jim&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659404</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Ember Data, Relatioships, output of attribute</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ember.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="ember-data"/>
+        <author>
+            <name>Miha</name>
+            <uri>http://stackoverflow.com/users/1351518</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659404/ember-data-relatioships-output-of-attribute" />
+        <published>2013-03-27T12:57:46Z</published>
+        <updated>2013-03-27T12:57:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have two entities with fixtures data: person and role. When I load a person, it contains one role. I would like to show the name of role. here is relevant code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; App.User = DS.Model.extend({
+    name: DS.attr(&#39;string&#39;),
+    role: DS.belongsTo(&#39;App.Role&#39;),
+});
+
+App.Role = DS.Model.extend({
+    name: DS.attr(&#39;string&#39;),
+});
+App.User.FIXTURES = [{
+id:1,
+name:&#39;user&#39;,
+role:1
+}];
+App.Role.FIXTURES = [{
+id:1,
+name:&#39;reader&#39;,
+}]
+
+App.UsersRoute = Ember.Route.extend({
+ model: function() {
+  return App.User.find();
+ }
+});
+
+ &amp;lt;script type=&quot;text/x-handlebars&quot; data-template-name=&quot;users&quot;&amp;gt;
+           {{#each controller}}
+              {{name}} {{role.name}}
+           {{/each}}
+ &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the name of role is not displayed but if I change it to {{role.id}} the id of role is displayed&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659402</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Convert range of dates to an array with all days between</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="datetime"/>
+        <author>
+            <name>Sergi From</name>
+            <uri>http://stackoverflow.com/users/605737</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659402/convert-range-of-dates-to-an-array-with-all-days-between" />
+        <published>2013-03-27T12:57:45Z</published>
+        <updated>2013-03-27T12:57:45Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m stacked with one problem.&lt;/p&gt;
+
+&lt;p&gt;I have an array of data ranges:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var range_date_off=[&#39;31/03/2013&#39;,&#39;03/04/2013&#39;];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to convert this into this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var dates_off=[&#39;31/03/2013&#39;,&#39;01/04/2013&#39;,&#39;02/04/2013&#39;,&#39;03/04/2013&#39;];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I started doing it with a bucle, but the problem becomes when The month jumps to the other, any idea?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659399</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Get single value from an array</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/>
+        <author>
+            <name>user2053463</name>
+            <uri>http://stackoverflow.com/users/2053463</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659399/get-single-value-from-an-array" />
+        <published>2013-03-27T12:57:40Z</published>
+        <updated>2013-03-27T12:57:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have below array result&lt;/p&gt;
+
+&lt;p&gt;Array ( [0] =&gt; Item Object ( [name:protected] =&gt; My Super Cool Toy [price:protected] =&gt;      10.99 ) ) &lt;/p&gt;
+
+&lt;p&gt;I need to get [name:protected] =&gt; My Super Cool Toy from this array.&lt;/p&gt;
+
+&lt;p&gt;please tell me how to get it,&lt;/p&gt;
+
+&lt;p&gt;i will paste my classes below&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class ShoppingCart
+{
+private $items = array();
+private $n_items = 0;
+function addItem( Item $item )
+{
+$this-&amp;gt;items[] = $item;
+$this-&amp;gt;n_items = $this-&amp;gt;n_items + 1;
+print_r($this-&amp;gt;items);
+
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Item {
+protected $name;
+protected $price;
+
+ public function __construct($name, $price) {
+    $this-&amp;gt;name = $name;
+    $this-&amp;gt;price = $price;
+}
+
+public function getName() {
+    echo &quot;item is $this-&amp;gt;name&quot;;
+    return $this-&amp;gt;name;
+}
+
+public function getPrice() {
+    return $this-&amp;gt;price;
+}
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require_once(&#39;AddingMachine.php&#39;);
+require_once(&#39;item.php&#39;);
+//$arrayofnumbers = array(100,200);
+
+$objectname = new ShoppingCart();
+$objectname-&amp;gt;addItem(new Item(&#39;My Super Cool Toy&#39;, 10.99));
+
+ $obname = new Item($items,44);
+$obname-&amp;gt;getName();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659396</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">consuming soap web service, soap fault exception</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="web-services"/><category scheme="http://stackoverflow.com/feeds/tags" term="soap"/><category scheme="http://stackoverflow.com/feeds/tags" term="spring-ws"/><category scheme="http://stackoverflow.com/feeds/tags" term="jaxb2"/>
+        <author>
+            <name>shail</name>
+            <uri>http://stackoverflow.com/users/534618</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659396/consuming-soap-web-service-soap-fault-exception" />
+        <published>2013-03-27T12:57:35Z</published>
+        <updated>2013-03-27T12:57:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to write a client to consume web services done in .Net using SOAP.
+I am using Spring-ws webServiceTemplate with Jaxb2Marshaller.&lt;/p&gt;
+
+&lt;p&gt;I am getting following error,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;javax.xml.ws.soap.SOAPFaultException: There was an error generating the XML document.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I know this is too little information to be able to say anything but I really don&#39;t know what other info might be relevant. Can anybody help with some pointers please, or any other information required to give better idea of problem.&lt;/p&gt;
+
+&lt;p&gt;Many Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659394</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Is this a good way to set up a 2-level-navigation (two menus, one for each level) with highlighting including breadcrump using MvcSiteMapProvider?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="mvcsitemapprovider"/>
+        <author>
+            <name>DrCopyPaste</name>
+            <uri>http://stackoverflow.com/users/2186023</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659394/is-this-a-good-way-to-set-up-a-2-level-navigation-two-menus-one-for-each-level" />
+        <published>2013-03-27T12:57:34Z</published>
+        <updated>2013-03-27T12:57:34Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am just diving into the MVC SiteMapProvider and fiddling around with it, so this question is more about design than not being able to achieve what i want.
+I set up a simple MVC4 Web Application that uses MvcSiteMapProvider 3.3.4.&lt;/p&gt;
+
+&lt;p&gt;What i want to achieve with it is to have a 2 level site navigation; one for the top level that is displayed horizontally and one for the level below that to be displayed vertically.
+The submenu must only display the nodes that are hierarchically below the currently selected node.
+Additionally I want to have the active node highlighted in both levels, so the node that is actually selected and if it is a subnode I also want to highlight the parent node.&lt;/p&gt;
+
+&lt;p&gt;I was actually able to set things up so the result looks like what I wanted, but I do not really like how it looks like in code, so what I am asking here is whether this is a legit way to do this or if someone could enlighten me about a best practice that I am currently missing.&lt;/p&gt;
+
+&lt;p&gt;The hurdles I face to realize this are:&lt;/p&gt;
+
+&lt;p&gt;1) I only want to use one sitemap file and display different levels of it in different calls to the MvcSiteMap.Menu function(as said above level 1 is the horizontal one, level 2 is the vertical one, level 0 the sitemap&#39;s root node[which i do not want to see])&lt;/p&gt;
+
+&lt;p&gt;2) My second problem is that I have the Home-Controller&#39;s Index-Action as my root node but also as a subnode of the root node, because I want that extra level of hierarchy to put the other Home-Controller&#39;s actions into. Surely this needs some additional configuration to display a proper breadcrump later on, as it turned out this also makes highlighting the &quot;Home&quot;-Node if it is selected more difficult.&lt;/p&gt;
+
+&lt;p&gt;This in mind I set up the following sitemap:&lt;/p&gt;
+
+&lt;p&gt;(web.config section)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;siteMap defaultProvider=&quot;MvcSiteMapProvider&quot; enabled=&quot;true&quot;&amp;gt;
+      &amp;lt;providers&amp;gt;
+        &amp;lt;clear /&amp;gt;
+        &amp;lt;add name=&quot;MvcSiteMapProvider&quot; type=&quot;MvcSiteMapProvider.DefaultSiteMapProvider, MvcSiteMapProvider&quot; siteMapFile=&quot;~/Mvc.Sitemap&quot; securityTrimmingEnabled=&quot;true&quot; cacheDuration=&quot;5&quot; enableLocalization=&quot;true&quot; scanAssembliesForSiteMapNodes=&quot;true&quot; includeAssembliesForScan=&quot;&quot; excludeAssembliesForScan=&quot;&quot; attributesToIgnore=&quot;visibility&quot; nodeKeyGenerator=&quot;MvcSiteMapProvider.DefaultNodeKeyGenerator, MvcSiteMapProvider&quot; controllerTypeResolver=&quot;MvcSiteMapProvider.DefaultControllerTypeResolver, MvcSiteMapProvider&quot; actionMethodParameterResolver=&quot;MvcSiteMapProvider.DefaultActionMethodParameterResolver, MvcSiteMapProvider&quot; aclModule=&quot;MvcSiteMapProvider.DefaultAclModule, MvcSiteMapProvider&quot; siteMapNodeUrlResolver=&quot;MvcSiteMapProvider.DefaultSiteMapNodeUrlResolver, MvcSiteMapProvider&quot; siteMapNodeVisibilityProvider=&quot;MvcSiteMapProvider.FilteredSiteMapNodeVisibilityProvider, MvcSiteMapProvider&quot; siteMapProviderEventHandler=&quot;MvcSiteMapProvider.DefaultSiteMapProviderEventHandler, MvcSiteMapProvider&quot; /&amp;gt;
+      &amp;lt;/providers&amp;gt;
+&amp;lt;/siteMap&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(Mvc.Sitemap)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&amp;gt;
+&amp;lt;mvcSiteMap xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+            xmlns=&quot;http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0&quot;
+            xsi:schemaLocation=&quot;http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0 MvcSiteMapSchema.xsd&quot;
+            enableLocalization=&quot;true&quot;&amp;gt;
+
+  &amp;lt;mvcSiteMapNode title=&quot;Home&quot; controller=&quot;Home&quot; action=&quot;Index&quot;&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Home&quot; controller=&quot;Home&quot; action=&quot;Index&quot; visibility=&quot;!SiteMapPathHelper,*&quot;&amp;gt;
+      &amp;lt;mvcSiteMapNode title=&quot;HomeSub&quot; controller=&quot;Home&quot; action=&quot;Sub&quot;&amp;gt;
+      &amp;lt;/mvcSiteMapNode&amp;gt;
+    &amp;lt;/mvcSiteMapNode&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Menu1&quot; controller=&quot;Menu1&quot; action=&quot;Index&quot;&amp;gt;
+      &amp;lt;mvcSiteMapNode title=&quot;Menu1Sub&quot; controller=&quot;Menu1&quot; action=&quot;Sub&quot;&amp;gt;
+      &amp;lt;/mvcSiteMapNode&amp;gt;
+    &amp;lt;/mvcSiteMapNode&amp;gt;
+    &amp;lt;mvcSiteMapNode title=&quot;Menu2&quot; controller=&quot;Menu2&quot; action=&quot;Index&quot;&amp;gt;
+      &amp;lt;mvcSiteMapNode title=&quot;Menu2Sub&quot; controller=&quot;Menu2&quot; action=&quot;Sub&quot;&amp;gt;
+      &amp;lt;/mvcSiteMapNode&amp;gt;
+    &amp;lt;/mvcSiteMapNode&amp;gt;
+  &amp;lt;/mvcSiteMapNode&amp;gt;
+&amp;lt;/mvcSiteMap&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(Views\Shared\DisplayTemplates\MenuHelperModel.cshtml)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@model MvcSiteMapProvider.Web.Html.Models.MenuHelperModel
+@using System.Web.Mvc.Html
+@using MvcSiteMapProvider.Web.Html.Models
+
+&amp;lt;ul id=&quot;menu&quot;&amp;gt;
+    @{
+        string firstUrl = null;
+    }
+
+    @foreach (var node in Model.Nodes) {
+        string classes = node.IsCurrentNode | node.IsInCurrentPath | ( ((MvcSiteMapProvider.MvcSiteMapNode)SiteMap.CurrentNode).Action == node.Action &amp;amp;&amp;amp; ((MvcSiteMapProvider.MvcSiteMapNode)SiteMap.CurrentNode).Controller == node.Controller )
+            ? &quot;current&quot; : &quot;&quot;;
+
+        if (firstUrl == null)
+        {
+            firstUrl = node.Url;
+        }
+        else if (node.Url.Contains(firstUrl))
+        {
+            classes += &quot; child&quot;;
+        }
+
+        &amp;lt;li class=&quot;@classes&quot;&amp;gt;@Html.DisplayFor(m =&amp;gt; node) 
+            @if (node.Children.Any()) {
+                @Html.DisplayFor(m =&amp;gt; node.Children)
+            }
+        &amp;lt;/li&amp;gt;
+    }
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I render the main site menu with this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Html.MvcSiteMap(&quot;MvcSiteMapProvider&quot;).Menu(0, true, false, 1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;I read this like &quot;get me the Menu starting from the root node down to the level below that; put the root node into the same level as its children, but do not show me the root node&quot;.
+I don&#39;t get this call, because I would expect the same result is returned if I set startingNodeInChildLevel to false and leave showStartingNode as false, but it is not?
+How can this be written so it is easier to understand?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And my sub menu like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Html.MvcSiteMap(&quot;MvcSiteMapProvider&quot;).Menu(2, 1, true)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;To be honest I do not really understand this call either, I just stumbled upon it when I was trying out the different overloads of MvcSiteMap.Menu and it seems to do exactly what I need (reducing the shown nodes to only those under the selected parent node). Someone got a clarification about this what it does exactly?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A breadcrump is added with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Html.MvcSiteMap(&quot;MvcSiteMapProvider&quot;).SiteMapPath()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now since this seems to work for me, why do I even bother posting this?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Well it&#39;s the calls to MvcSiteMap.Menu that surely look confusing to anyone who reads this the first (or maybe the first dozen :-)) times.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The second thing I do not like about this current solution is the visibility setting in the Home-Controller&#39;s Index-Action-Node; I put it there so the Home-Node does not appear twice in the breadcrump if I selected the &quot;HomeSub&quot;-Link.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Third thing: is there a better way to determine whether the current node is selected (in the very specific case, that &quot;Home&quot; was selected, since it is also a subnode of &quot;Home&quot;? I added a check there for controller and action equality, because IsCurrentNode seems to compare the keys that the nodes have and those are different unfortunately.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I know this reads like a vague question at first, but I don&#39;t want to start a discussion here I want to know whether this is an okay way to do this (or what is the better/easier to read way) and whether someone could explain me those Menu-Calls and why I have to put the visibility-setting the way I did to make this work.&lt;/p&gt;
+
+&lt;p&gt;If you want to fiddle around with this, you can download this &quot;complete&quot; sample project &lt;a href=&quot;http://www.xup.in/dl,48759239/SiteMapSample2.zip/&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt; (Visual Studio 2012).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659393</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">End of statement expected. Auto add user to a role</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="vb.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="visual-studio-2012"/><category scheme="http://stackoverflow.com/feeds/tags" term="createuserwizard"/>
+        <author>
+            <name>user1957778</name>
+            <uri>http://stackoverflow.com/users/1957778</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659393/end-of-statement-expected-auto-add-user-to-a-role" />
+        <published>2013-03-27T12:57:33Z</published>
+        <updated>2013-03-27T12:57:33Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to automatically add a user to a role with the create user wizard tool in Visual Studio 2012. I found a solution but all I get is &quot;End of statement expected.&quot; error. Below is the code I have entered.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Protected Sub CreateUserWizard1_CreatedUser(sender As Object, e As EventArgs) Handles CreateUserWizard1.CreatedUser
+
+    protected void CreateUserWizard1_CreatedUser(object sender, EventArgs e)
+
+    Roles.AddUserToRole(CreateUserWizard1.UserName.ToString(), &quot;Customers&quot;)
+
+
+End Sub
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any help would be greatly appreciated. Thank You.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659378</id>
+        <re:rank scheme="http://stackoverflow.com">-5</re:rank>
+        <title type="text">Why using HTML for web pages</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/>
+        <author>
+            <name>user1841718</name>
+            <uri>http://stackoverflow.com/users/1841718</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659378/why-using-html-for-web-pages" />
+        <published>2013-03-27T12:56:53Z</published>
+        <updated>2013-03-27T12:58:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I know that my question maybe strange but until now I do not understand why using HTML for web pages ?  why do not we create web pages as normal text rather than using HTML and then write programs that parse it .&lt;/p&gt;
+
+&lt;p&gt;what is relationship between HTTP and HTML ?&lt;/p&gt;
+
+&lt;p&gt;can HTTP send data as files that is non HTML like txt and png ? if not , why ?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659351</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Should I create Images folder in netbeans</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="jframe"/>
+        <author>
+            <name>vijay</name>
+            <uri>http://stackoverflow.com/users/1852955</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659351/should-i-create-images-folder-in-netbeans" />
+        <published>2013-03-27T12:55:30Z</published>
+        <updated>2013-03-27T12:57:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am developing a java application in netbeans, to save image icons,  should i create a new images folder or there is already an images folder created?  &lt;/p&gt;
+
+&lt;p&gt;I have created an image folder in the project, to set an image icon to JFrame,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;URL iconURL = this.getClass().getResource(&quot;images\\images.jpg&quot;);
+
+    ImageIcon icon = new ImageIcon(iconURL);
+    frame.setIconImage(icon.getImage());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but it returns null pointer exception&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659338</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to find parent table for the row</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>Achaius</name>
+            <uri>http://stackoverflow.com/users/253986</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659338/how-to-find-parent-table-for-the-row" />
+        <published>2013-03-27T12:54:44Z</published>
+        <updated>2013-03-27T12:58:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a complex html file. I want to select a input[type=text] previous to the table when table row is clicked.&lt;/p&gt;
+
+&lt;p&gt;A html snippet goes here&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;input type=text/&amp;gt;
+&amp;lt;table&amp;gt;
+  &amp;lt;tr&amp;gt;
+  ...
+  &amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+
+$(&#39;tr&#39;).click(fuction() {
+  $(this).closest(&#39;table&#39;).prev(input[type=text]).val();
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This throws&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;`Uncaught TypeError: Object #&amp;lt;HTMLTableRowElement&amp;gt; has no method`closest
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How to write jquery selector to select the input when table row is clicked?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659329</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Regex words with accents</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="regex"/>
+        <author>
+            <name>user2088434</name>
+            <uri>http://stackoverflow.com/users/2088434</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659329/regex-words-with-accents" />
+        <published>2013-03-27T12:54:13Z</published>
+        <updated>2013-03-27T12:57:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this regex&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\b(t[&#250;u]s*)\b
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And i have this words:&lt;/p&gt;
+
+&lt;pre&gt;
+tu (works)
+t&#250; (doesnt work)
+tus (work)
+t&#250;s (work)
+&lt;/pre&gt;
+
+&lt;p&gt;Why can&#39;t I match &lt;code&gt;t&#250;&lt;/code&gt;?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659302</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Functions work even when headers have not been included - Visual Studio</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="visual-studio"/>
+        <author>
+            <name>Ambar</name>
+            <uri>http://stackoverflow.com/users/1364490</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659302/functions-work-even-when-headers-have-not-been-included-visual-studio" />
+        <published>2013-03-27T12:53:12Z</published>
+        <updated>2013-03-27T12:57:37Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I routinely notice while working in Visual C++ that some functions work even when their headers have not been included. For example, &lt;code&gt;tolower()&lt;/code&gt; works even when &lt;code&gt;ctype.h&lt;/code&gt; is not included.&lt;/p&gt;
+
+&lt;p&gt;This behaviour causes problems for me when I participate in online programming competitions, the program works fine and dandy when I run it on my computer but on submission, gives a &lt;code&gt;function not defined&lt;/code&gt; error. Is there any way to stop this behaviour?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659295</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Files are listed as modified directly after clone</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="git"/><category scheme="http://stackoverflow.com/feeds/tags" term="github"/>
+        <author>
+            <name>Sarah</name>
+            <uri>http://stackoverflow.com/users/2215628</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659295/files-are-listed-as-modified-directly-after-clone" />
+        <published>2013-03-27T12:52:44Z</published>
+        <updated>2013-03-27T12:57:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am new to git and github.
+I thought I understood the basics. But now I am confused. Because of problems with my computer I changed to another one and did a git clone from github. Then I wanted to switch branches and typeched checkout branch. This way I also did it on the other computer earlier.&lt;/p&gt;
+
+&lt;p&gt;&quot;But I got the following error: Your local changes to the following files would be overwritten by checkout:&quot;&lt;/p&gt;
+
+&lt;p&gt;MANY FILES&lt;/p&gt;
+
+&lt;p&gt;&quot;Please, commit your changes or stash them before you can switch branches.&quot;&lt;/p&gt;
+
+&lt;p&gt;How can they be changed just after cloning?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659250</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Java : How to read image as a string?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/>
+        <author>
+            <name>becks</name>
+            <uri>http://stackoverflow.com/users/1466060</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659250/java-how-to-read-image-as-a-string" />
+        <published>2013-03-27T12:50:39Z</published>
+        <updated>2013-03-27T12:58:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to read the images and get its stream which is like repeated strings of this&lt;/p&gt;
+
+&lt;p&gt;&quot;89504E470D0A1A0A0000000D4948445200000124000001150802000000C6BD0FB3000000017352474200AECE1CE9000000097048597300000EC400000EC401952B0E1B000050B849444154785EED7D0B745CD759EE09E5618742A5C6F1833CB01A6E630587565E2154EE0D579203756DE823764B1ACAEB5A70EBAB2C08588EDB&quot;&lt;/p&gt;
+
+&lt;p&gt;I tried &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;BufferedImage image = null;
+URL url = new URL(&quot;http://www.ex.com/image/pic.jpg&quot;);
+image = ImageIO.read(url);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but I didn&#39;t know how to get the image string like the above one.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659234</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Update ICollection from a IEnumerable in the controller</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="entity-framework"/><category scheme="http://stackoverflow.com/feeds/tags" term="entity"/>
+        <author>
+            <name>charlie_cat</name>
+            <uri>http://stackoverflow.com/users/541976</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659234/update-icollection-from-a-ienumerable-in-the-controller" />
+        <published>2013-03-27T12:49:38Z</published>
+        <updated>2013-03-27T12:57:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this code in my controller:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public ActionResult SaveRecommendedUserDetails(RecommendAFriendViewModel model)
+    {
+      if (ModelState.IsValid)
+      {
+        Entities.RecommendedUser recommendedUser = new Entities.RecommendedUser();
+        recommendedUser.Email = model.Email;
+        recommendedUser.Firstname = model.Firstname;
+        recommendedUser.Surname = model.Surname;
+        recommendedUser.Users_UserId = model.UserId;
+        recommendedUser.JobTitle = model.JobTitle;
+        recommendedUser.Department = model.Department;
+        ICollection&amp;lt;Entities.Group.Group&amp;gt; group;  
+
+        foreach (group in model.Groups)
+        {
+            //add the goups from my viewmodel to the entity??
+        }           
+
+        ZincService.RecommendedUserService.CreateRecommendedUser(recommendedUser);
+
+        return RedirectToAction(&quot;RecommendedUsers&quot;);
+      }
+      else
+      {
+        return View(&quot;Index&quot;, model);
+      }
+    }
+
+public class RecommendAFriendViewModel
+{
+public int UserId { get; set; }
+
+[LocalizedRequired]
+[DataType(DataType.EmailAddress)]
+public string Email { get; set; }
+
+[LocalizedRequired]
+public string Firstname { get; set; }
+
+[LocalizedRequired]
+public string Surname { get; set; }
+public string Department { get; set; }
+public string JobTitle { get; set; }
+public DateTime? DateAndTimeProcessed { get; set; }
+public DateTime? DateAndTimeRecommended { get; set; }
+public IEnumerable&amp;lt;DataModels.Group.GroupDataModel&amp;gt; Groups { get; set; }
+
+
+public class RecommendedUser
+{
+public virtual int RecommendedUserId { get; set; }
+public virtual string Firstname { get; set; }
+public virtual string Surname { get; set; }
+public virtual string Email { get; set; }
+public virtual string Department { get; set; }
+public virtual string JobTitle { get; set; }
+public virtual DateTime? DateAndTimeProcessed { get; set; }
+public virtual int Users_UserId { get; set; }
+public virtual DateTime? DateAndTimeRecommended { get; set; }
+public virtual int AssignedUserId { get; set; }
+public virtual ICollection&amp;lt;Group.Group&amp;gt; Groups { get; set; }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;can some one help please?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659217</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Convert text input to int or double depending on input</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="jtextfield"/>
+        <author>
+            <name>MrSnare</name>
+            <uri>http://stackoverflow.com/users/1944202</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659217/convert-text-input-to-int-or-double-depending-on-input" />
+        <published>2013-03-27T12:48:59Z</published>
+        <updated>2013-03-27T12:57:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a JFrame where I am taking the input from a text field and converting it to an Integer.
+I would also like to convert it to a double if it is a double and maybe return a message if it is neither a int or double. how can i do this?&lt;/p&gt;
+
+&lt;p&gt;My current code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; int textToInt = Integer.parseInt(textField[0].getText());
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659169</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Do not show checkbox value if checkbox not checked</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="if-statement"/><category scheme="http://stackoverflow.com/feeds/tags" term="checkbox"/><category scheme="http://stackoverflow.com/feeds/tags" term="checkboxes"/>
+        <author>
+            <name>GeorgeV</name>
+            <uri>http://stackoverflow.com/users/1243868</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659169/do-not-show-checkbox-value-if-checkbox-not-checked" />
+        <published>2013-03-27T12:47:05Z</published>
+        <updated>2013-03-27T12:57:45Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have the following code that is used to show some custom fields.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+    &amp;lt;tbody&amp;gt;
+&amp;lt;?php 
+foreach ($fields as $field) {
+$type = $field[&#39;s_type&#39;];
+$label = $field[&#39;s_label&#39;];
+$value = Attributes::newInstance()-&amp;gt;getValue($item_id, $field[&#39;pk_id&#39;]);
+if ($type == &#39;checkbox&#39;) {
+    if ($value == &#39;checked&#39;) $value = &#39;Yes&#39;;
+    else $value = &#39;No&#39;;
+}
+?&amp;gt;
+
+        &amp;lt;tr&amp;gt;
+            &amp;lt;td class=&#39;detail_label&#39;&amp;gt;&amp;lt;?php echo $label; ?&amp;gt;&amp;lt;/td&amp;gt;
+            &amp;lt;td class=&#39;detail_label&#39;&amp;gt;&amp;lt;?php echo $value; ?&amp;gt;&amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+&amp;lt;?php } ?&amp;gt;
+    &amp;lt;/tbody&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to not show the content in tr when checkbox value = &#39;No&#39; &lt;/p&gt;
+
+&lt;p&gt;Is it possible to do that?&lt;/p&gt;
+
+&lt;p&gt;Thanks for your help!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659119</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Small annoyance with template function</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="templates"/>
+        <author>
+            <name>demorge</name>
+            <uri>http://stackoverflow.com/users/939266</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659119/small-annoyance-with-template-function" />
+        <published>2013-03-27T12:44:41Z</published>
+        <updated>2013-03-27T12:58:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Ok, let&#39;s say I have a function like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;template &amp;lt;typename T&amp;gt;
+void Func(std::vector&amp;lt;T&amp;gt; x, T alpha = 1)
+{
+    // ... do stuff
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and I would like to use it with a complex type, like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;std::vector&amp;lt;std::complex&amp;lt;double&amp;gt;&amp;gt; x;
+Func(x, 5.5);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then the compiler complains (VS2010) that &lt;code&gt;template parameter &#39;T&#39; is ambiguous&lt;/code&gt; because it &lt;code&gt;could be &#39;double&#39; or &#39;std::complex&amp;lt;double&amp;gt;&#39;&lt;/code&gt;. Obvious fix, call it like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Func(x, std::complex&amp;lt;double&amp;gt;(5.5));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but, that, I don&#39;t want. Why can&#39;t it be converted to a complex type automatically?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659105</id>
+        <re:rank scheme="http://stackoverflow.com">-4</re:rank>
+        <title type="text">Transactions in c# for command builder and identify the table which caused exception</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/>
+        <author>
+            <name>Niloofar</name>
+            <uri>http://stackoverflow.com/users/1814925</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659105/transactions-in-c-sharp-for-command-builder-and-identify-the-table-which-caused" />
+        <published>2013-03-27T12:43:52Z</published>
+        <updated>2013-03-27T12:58:03Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need to insert some data into 3 different sql server tables. It must be a transaction so if one fails the other 2 roll back. one of my sql functions is through commandbuilder with data adapter and the other two are using sqlcommand with parameters.How can I write a transaction for them in c#? &lt;/p&gt;
+
+&lt;p&gt;Also I need to notify users if there was a duplicate key violation in any of those three tables and specify which table caused this exception so they know which value was repeated.How can I achieve this? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659031</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">XSLT - Copy grandchildren reordered</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="xslt"/>
+        <author>
+            <name>drewich</name>
+            <uri>http://stackoverflow.com/users/2215559</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659031/xslt-copy-grandchildren-reordered" />
+        <published>2013-03-27T12:40:51Z</published>
+        <updated>2013-03-27T12:57:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m quite new to XSLT and I was trying to copy an existent XML file I already have but with the tags reordered but I got stuck when trying to reorder grandchildren.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s say I have this input:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;grandParent&amp;gt;
+    &amp;lt;parent&amp;gt; 
+        &amp;lt;c&amp;gt;789&amp;lt;/c&amp;gt;
+        &amp;lt;b&amp;gt;
+           &amp;lt;b2&amp;gt;123&amp;lt;/b2&amp;gt;
+           &amp;lt;b1&amp;gt;456&amp;lt;/b1&amp;gt;
+        &amp;lt;/b&amp;gt;
+        &amp;lt;a&amp;gt;123&amp;lt;/a&amp;gt;
+    &amp;lt;/parent&amp;gt;
+    ....
+&amp;lt;/grandParent&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What I want to do is get the same XML file but changing the order of the tags to be a,b,c with b = b1, b2 in that order.
+So I started with the XSLT file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;xsl:template match=&quot;node()|@*&quot;&amp;gt;    &amp;lt;- This should copy everything as it is
+    &amp;lt;xsl:copy&amp;gt;
+           &amp;lt;xsl:apply-templates select=&quot;node()|@*&quot;/&amp;gt;
+     &amp;lt;/xsl:copy&amp;gt;
+&amp;lt;/xsl:template&amp;gt;
+&amp;lt;xsl:template match=&quot;grandParent/parent&quot;&amp;gt; &amp;lt;- parent elements will copy in this order
+    &amp;lt;xsl:copy&amp;gt;
+        &amp;lt;xsl:copy-of select=&quot;@*&quot;/&amp;gt;
+        &amp;lt;xsl:copy-of select=&quot;a&quot;/&amp;gt;
+        &amp;lt;xsl:copy-of select=&quot;b&quot;/&amp;gt;
+        &amp;lt;xsl:copy-of select=&quot;c&quot;/&amp;gt;
+    &amp;lt;/xsl:copy&amp;gt;
+&amp;lt;/xsl:template&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But &quot;xsl:copy-of select=&quot;b&quot;&quot; copies the elements as they are specified (b2, b1). 
+I tried using another xsl:template for &quot;grandParent/parent/b&quot; but wouldn&#39;t help. &lt;/p&gt;
+
+&lt;p&gt;Maybe I&#39;m not doing things the correct way... Any tips? &lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15659020</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">query results from 4 different tables with only 1 known value</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="oop"/>
+        <author>
+            <name>Nick Audenaerde</name>
+            <uri>http://stackoverflow.com/users/2164299</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15659020/query-results-from-4-different-tables-with-only-1-known-value" />
+        <published>2013-03-27T12:40:22Z</published>
+        <updated>2013-03-27T12:58:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;right now im working on a query and for my brain this is an overload since i just started php and mysql.&lt;/p&gt;
+
+&lt;p&gt;I have 4 tables &quot;Seminar, subscription, unsubscription, user&quot; and i need a little data from all of them.
+&quot;Seminar, title&quot;, &quot;subscription, active, datetime&quot;, &quot;user, firstname, lastname&quot; and &quot;unsubscription, reason&quot; Now I have only 1 value that i can use to get all this data and this is the seminar ID now i was wondering if that is enough to get the data from all tables.&lt;/p&gt;
+
+&lt;p&gt;Im really lost I hope someone can help me through this mess.&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+
+&lt;p&gt;I got a little knowledge from inner joins, left joins etc.&lt;/p&gt;
+
+&lt;p&gt;Here is my ERD
+&lt;a href=&quot;http://img594.imageshack.us/img594/8923/erdk.png&quot; rel=&quot;nofollow&quot;&gt;http://img594.imageshack.us/img594/8923/erdk.png&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15658941</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Vertical &amp; horizontal flow with line height on &lt;small&gt; tag</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="css"/>
+        <author>
+            <name>Scott Brown</name>
+            <uri>http://stackoverflow.com/users/527892</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15658941/vertical-horizontal-flow-with-line-height-on-small-tag" />
+        <published>2013-03-27T12:36:18Z</published>
+        <updated>2013-03-27T12:57:53Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m sorting out my typography for a new website and have a strange occurrence with the &lt;code&gt;&amp;lt;small&amp;gt;&lt;/code&gt; tag - it&#39;s throwing my line-height out. Everything else is fine (heading tags, paragraph etc) but the &lt;code&gt;small&lt;/code&gt; is throwing it out somewhere.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s an image of what I mean:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/FtzXV.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;My question is where is this extra little bit of &lt;code&gt;line-height&lt;/code&gt; coming from and how can I correct it?&lt;/p&gt;
+
+&lt;p&gt;There&#39;s a demo at &lt;a href=&quot;http://jsfiddle.net/nq2dt/&quot; rel=&quot;nofollow&quot;&gt;http://jsfiddle.net/nq2dt/&lt;/a&gt; and code below.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m using &lt;code&gt;rem&lt;/code&gt; units so this won&#39;t be compatible with IE8 and below for now. I&#39;m on Firefox 19.0.&lt;/p&gt;
+
+&lt;p&gt;HTML&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    &amp;lt;h1&amp;gt;Main Heading&amp;lt;/h1&amp;gt;
+    &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;&amp;lt;small&amp;gt;Small text goes here small text goes here small text goes here small text goes here small text goes here small text goes here small text goes here small text goes here small text goes here small text goes here small text goes here.&amp;lt;/small&amp;gt;&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div&amp;gt;
+    &amp;lt;h2&amp;gt;Sub heading&amp;lt;/h2&amp;gt;
+    &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;lt;/p&amp;gt;
+    &amp;lt;h3&amp;gt;Sub heading&amp;lt;/h3&amp;gt;
+    &amp;lt;p&amp;gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;CSS&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;html { font-size: 100%; }
+
+body { font-size: 1rem; line-height: 1.75rem; font-family: open sans; text-align: justify; margin: 0; }
+
+h1 { font-size: 2.625rem; margin: 0 0 1.75rem; }
+h2 { font-size: 1.625rem; margin: 0 0 1.75rem; }
+h3 { font-size: 1.25rem; margin: 0 0 1.75rem; }
+p { font-size: 1rem; margin: 0 0 1.75rem; line-height: 1.75rem; }
+small { font-size: 0.8125rem; }
+
+div { width: 48%; margin: 0 1%; float: left; }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15658862</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Javavscript Break Control</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/>
+        <author>
+            <name>user1513228</name>
+            <uri>http://stackoverflow.com/users/1513228</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15658862/javavscript-break-control" />
+        <published>2013-03-27T12:31:47Z</published>
+        <updated>2013-03-27T12:57:36Z</updated>
+        <summary type="html">
+            
+            &lt;pre&gt;&lt;code&gt;var KokkieArr = document.cookie.split(&quot;;&quot;);
+var CookieSayisi = parseInt(KokkieArr.length);
+if(CookieSayisi&amp;gt;0 &amp;amp;&amp;amp; strlen(KokkieArr[0])&amp;gt;6&amp;amp;&amp;amp;KokkieArr[0].split(&#39;=&#39;)[0]!=&#39;PHPSESSID&#39;) {
+   var MONEY = 0;        
+   for(i=0;i&amp;lt;=CookieSayisi;i++) {
+   var Bunun = KokkieArr[i].split(&#39;=&#39;)[0];
+}
+alert(&quot;aaaa&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}
+the alert not working. if i remove   &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var Bunun = KokkieArr[i].split(&#39;=&#39;)[0];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this code alert giving &quot;aaaa&quot; result  why not working? when i use include for any things?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15658038</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Dropdown without model in yii</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="yii"/>
+        <author>
+            <name>Aneesh</name>
+            <uri>http://stackoverflow.com/users/1595446</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15658038/dropdown-without-model-in-yii" />
+        <published>2013-03-27T11:47:13Z</published>
+        <updated>2013-03-27T12:57:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using a component for parsing a country api in yii. So in the form drop down list call the function for listing country. The function returned country list as array.
+form.php&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php echo $form-&amp;gt;labelEx($model,&#39;country&#39;); ?&amp;gt;
+&amp;lt;?php $cty=  Country::getCountry();
+      echo $form-&amp;gt;dropdownList($model,&#39;country&#39;, $cty , array(&#39;style&#39;=&amp;gt;&#39;width: 175px&#39;,&#39;empty&#39;=&amp;gt;array(&#39;empty&#39;=&amp;gt;Yii::t(&#39;app&#39;,&#39;Select Country&#39;))));?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now the country list loaded correctly in drop down, but when on saving time the corresponding id of country is saved. i want to save the country name in db.How it solved?  &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15657475</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Is there any way to change the dynamic library search path in Xcode</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="cocoa"/><category scheme="http://stackoverflow.com/feeds/tags" term="xcode4.5"/><category scheme="http://stackoverflow.com/feeds/tags" term="dylib"/><category scheme="http://stackoverflow.com/feeds/tags" term="install-name-tool"/>
+        <author>
+            <name>Amitg2k12</name>
+            <uri>http://stackoverflow.com/users/1565490</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15657475/is-there-any-way-to-change-the-dynamic-library-search-path-in-xcode" />
+        <published>2013-03-27T11:13:37Z</published>
+        <updated>2013-03-27T12:58:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Below is my scenario, &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In my Application i had to make use of libopus library , i downloaded and install, compile --&gt; install procedure is normal as its for any other open source library, &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I linked libopus.a with my application, the way i did is , by default it will get installed in /usr/local/lib, so i drag from there and add it to my application, &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Worked fine and no error on my machine, &lt;/p&gt;
+
+&lt;p&gt;On Another machine, i was expecting it to be run smoothly as i included this library statically, but its throwing error as &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dyld: Library not loaded: /usr/local/lib/libopus.0.dylib
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;so i concluded, libopus.a somehow including libopus.0.dylib also dynamically, &lt;/p&gt;
+
+&lt;p&gt;Now i am able ot add a copy phase in my build setting , so it will get copied in ../Framework folder &lt;/p&gt;
+
+&lt;p&gt;if i do otool -L libpus.a then it shows following result &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;otool -L /usr/local/lib/libopus.a
+Archive : /usr/local/lib/libopus.a
+/usr/local/lib/libopus.a(bands.o):
+/usr/local/lib/libopus.a(celt.o):
+/usr/local/lib/libopus.a(cwrs.o):
+/usr/local/lib/libopus.a(entcode.o):
+/usr/local/lib/libopus.a(entdec.o):
+/usr/local/lib/libopus.a(entenc.o):
+/usr/local/lib/libopus.a(repacketizer.o):
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It doesn&#39;t show as its depend upon the dylib library 
+&lt;strong&gt;Now my Question is&lt;br&gt;
+How to tell Application to look into this path first&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried following option, &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;install_name_tool but it seems it will work on other machine , so the user need to run this script NOT DEVELOPER, &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;trying to set the some option in the xcode to set the RUNTIME Search path to locate that particular dylib but not getting succeed  so far &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15638999</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">get pattern out of a file and grep all files associated with pattern out of a different directory</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="linux"/>
+        <author>
+            <name>Sander Van der Zeeuw</name>
+            <uri>http://stackoverflow.com/users/1494043</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15638999/get-pattern-out-of-a-file-and-grep-all-files-associated-with-pattern-out-of-a-di" />
+        <published>2013-03-26T14:01:28Z</published>
+        <updated>2013-03-27T12:58:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a list of file names like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;T0rain.Zfp691_0895.2_v2_deBruijn.txt
+Train.Hbp1_2241.2_v2_deBruijn.txt
+Train.Zfp740_0925.2_v2_deBruijn.txt
+Train.Hbp1_2241.3_v1_deBruijn.txt
+Train.Zfp740_0925.3_v1_deBruijn.txt
+Train.Hic1_2816.2_v1_deBruijn.txt
+Train.Zic1_0991.2_v1_deBruijn.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want to extract all names between Train. and _ like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Zfp691
+Hbp1
+Zfp740
+Hbp1
+zfp740
+Hic1
+Zic1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Than i have another list of files:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Zfp691.pwm.txt
+Hbp1.pwm.txt
+Zfp740.pwm.txt
+Hbp1.pwm.txt
+zfp740.pwm.txt
+Hic1.pwm.txt
+Zic1.pwm.txt
+Zic1.pwm.RC.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want to extract all cases which match so for example:&lt;/p&gt;
+
+&lt;p&gt;Train.Zic1_0991.2_v1_deBruijn.txt MATCHES Zic1.pwm.txt and Zic1.pwm.RC.txt&lt;/p&gt;
+
+&lt;p&gt;These output arguments are passed on to my R script. So the &lt;code&gt;SH&lt;/code&gt; script should give back the arguments = &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$i (Train.Zic1_0991.2_v1_deBruijn.txt) +  $j Zic1.pwm.txt
+$i (Train.Zic1_0991.2_v1_deBruijn.txt) +  $j Zic1.pwm.RC.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I don’t know if this is even possible. I started trying with this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+
+for i in input/*/testtrain/Train*deBruijn.txt
+do
+    $i 
+done
+
+for j in input/All_PWMs/*/*.txt
+do
+    $j 
+done
+
+echo qsub script3.sh $i $j
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here i try to give the arguments to script3.sh but this only give 1 combination back. Anyone a hint or a tip?? like how to match/grep the names. Or a different way of passing through arguments. &lt;/p&gt;
+
+&lt;p&gt;Script3.sh is for invoking R in linux command line. So the args are just passed through this file to invoke a single R job with 1 combination of debruijn and pwm.&lt;/p&gt;
+
+&lt;p&gt;The r script needs 1 debruijn.txt and 1 pwm.txt to be able to calculate the values i need.
+So for this example i will get 2 combinations:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;debruijn.txt and pwm1.txt   -----&amp;gt; pass the args to R as combination 1
+debruijn.txt and pwm2.txt   -----&amp;gt; pass the args to R as combination 2
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15302306</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Dreamweaver CS6 Default Colors.xml</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="dreamweaver"/>
+        <author>
+            <name>JaggsWaggert</name>
+            <uri>http://stackoverflow.com/users/1718254</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15302306/dreamweaver-cs6-default-colors-xml" />
+        <published>2013-03-08T20:01:14Z</published>
+        <updated>2013-03-27T12:57:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Could someone please provide me a link to the default Colors.xml file for Dreamweaver CS6? I&#39;ve updated my preferences to a dark color scheme and would like to revert back to the defaults. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15039756</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Retrieve huge number of records ( 300000 ) using a c# code from a table (Teradata Database)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="odbc"/><category scheme="http://stackoverflow.com/feeds/tags" term="teradata"/>
+        <author>
+            <name>user2102118</name>
+            <uri>http://stackoverflow.com/users/2102118</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15039756/retrieve-huge-number-of-records-300000-using-a-c-sharp-code-from-a-table-te" />
+        <published>2013-02-23T11:01:44Z</published>
+        <updated>2013-03-27T12:58:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a portion of a code where I need to get the data from the table for a particular condition 
+( where accountid = &#39;  &#39; ) . The data retreival is a very slow process . Retreving record it self takes 2 hours . I tried adding cocurrent threads to speed up the process , but did not have much benefit in terms of time . &lt;/p&gt;
+
+&lt;p&gt;It would be helpful if some one could suggest me a better and faster way for retreival .&lt;/p&gt;
+
+&lt;p&gt;PS : I am making an ODBC connection and then running a query and getting the output of the query . &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/14988243</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Retrieve and show a users facebook homefeed</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="facebook"/><category scheme="http://stackoverflow.com/feeds/tags" term="facebook-graph-api"/>
+        <author>
+            <name>Alekplay</name>
+            <uri>http://stackoverflow.com/users/1946090</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/14988243/retrieve-and-show-a-users-facebook-homefeed" />
+        <published>2013-02-20T19:24:24Z</published>
+        <updated>2013-03-27T12:57:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;So I&#39;m trying out the Facebook API functions, and finally got the authentication stuff to work. But now I&#39;m trying to display a users feed, more specifically only the story/message/description (doesn&#39;t know the difference) itself:
+&lt;img src=&quot;http://i.stack.imgur.com/v8GPa.png&quot; alt=&quot;Screenshot from Graph API Explorer&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;So, I have this code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function testAPI() {
+  console.log(&#39;Welcome!  Fetching your information.... &#39;);
+  FB.api(&#39;/me&#39;, function(response) {
+    console.log(&#39;Good to see you, &#39; + response.name + &#39;.&#39;);
+    alert(&#39;Good to see you, &#39; + response.name + &#39;.&#39;);
+  });
+  FB.api(&#39;/me/home&#39;, function(response) {
+    console.log(response.data);
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which gives me a bunch of arrays containing the different stories etc, which look like this:
+&lt;img src=&quot;http://i.stack.imgur.com/d2Un1.png&quot; alt=&quot;Screenshot from Console&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, what I want is how to display only the descriptions itself, after each other. How would you do this? This question is maybe more directly related to JS itself, than Facebook, but they use some special tags and names. Maybe use some sort of foreach code will do the trick?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance :)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/12597018</id>
+        <re:rank scheme="http://stackoverflow.com">5</re:rank>
+        <title type="text">Twitter Bootstrap Dropdowns Unclickable On Tablets</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="twitter-bootstrap"/><category scheme="http://stackoverflow.com/feeds/tags" term="tablet"/>
+        <author>
+            <name>user901398</name>
+            <uri>http://stackoverflow.com/users/901398</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/12597018/twitter-bootstrap-dropdowns-unclickable-on-tablets" />
+        <published>2012-09-26T07:51:47Z</published>
+        <updated>2013-03-27T12:57:33Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;On the menus for our site we have a button dropdown for user account options that changes dynamically based on their username and logged in status. It works great in the browsers, however, on Android tablets(using Firefox) we can&#39;t seem to click any of the links in the dropdown, although the links DO appear, whenever you click them the dropdown goes away and nothing happens.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m using the latest version of Bootstrap(2.1.1), with the &lt;a href=&quot;http://twitter.github.com/bootstrap/javascript.html#dropdowns&quot; rel=&quot;nofollow&quot; title=&quot;dropdown plugin&quot;&gt;dropdown plugin&lt;/a&gt;. It works on desktops, and it&#39;s clickable by the tablets, the links just close the popup when clicked.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s the code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     &amp;lt;div class=&quot;btn-group pull-right&quot;&amp;gt;
+        &amp;lt;a class=&quot;btn dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&amp;gt;
+          &amp;lt;i class=&quot;icon-user&quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;?php echo $_SESSION[&#39;username&#39;]; ?&amp;gt;
+          &amp;lt;span class=&quot;caret&quot;&amp;gt;&amp;lt;/span&amp;gt;
+        &amp;lt;/a&amp;gt;
+        &amp;lt;ul class=&quot;dropdown-menu&quot;&amp;gt;
+          &amp;lt;li&amp;gt;&amp;lt;a href=&quot;/Profile&quot;&amp;gt;Profile&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+          &amp;lt;li class=&quot;divider&quot;&amp;gt;&amp;lt;/li&amp;gt;
+          &amp;lt;li&amp;gt;&amp;lt;a href=&quot;#&quot; onClick=&quot;logOut();&quot;&amp;gt;Sign Out&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+      &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Does anyone know of a way to make the links clickable from tablets?&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

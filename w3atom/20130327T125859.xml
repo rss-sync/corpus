@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>W3C News</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/" />
+    <link rel="self" type="application/atom+xml" href="http://www.w3.org/News/atom.xml" />
+    <id>tag:www.w3.org,2008-09-29://4</id>
+    <updated>2013-03-26T15:20:19Z</updated>
+    
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type 4.34-en</generator>
+
+<entry>
+    <title>Last Call: HTML Media Capture</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9768" />
+    <id>tag:www.w3.org,2013://4.9768</id>
+
+    <published>2013-03-26T15:18:37Z</published>
+    <updated>2013-03-26T15:18:37Z</updated>
+
+    <summary>The Device APIs Working Group has published a Last Call Working Draft of HTML Media Capture. The HTML Media Capture specification defines an HTML form extension that facilitates user access to a device&apos;s media capture mechanism, such as a camera,...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Web Design and Applications" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web of Services" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Home Page Stories" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/2009/dap/">Device APIs Working Group</a> has published a Last Call Working Draft of <a href="http://www.w3.org/TR/2013/WD-html-media-capture-20130326/">HTML Media Capture</a>. The HTML Media Capture specification defines an HTML form extension that facilitates user access to a device's media capture mechanism, such as a camera, or microphone, from within a file upload control. Comments are welcome through 19 April. Learn more about the <a href="http://www.w3.org/2007/uwa/">Ubiquitous Web Applications Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Eleven SPARQL 1.1 Specifications are W3C Recommendations</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9766" />
+    <id>tag:www.w3.org,2013://4.9766</id>
+
+    <published>2013-03-21T13:58:56Z</published>
+    <updated>2013-03-21T13:58:56Z</updated>
+
+    <summary>The SPARQL Working Group has completed development of its full-featured system for querying and managing data using the flexible RDF data model. It has now published eleven Recommendations for SPARQL 1.1, detailed in SPARQL 1.1 Overview. SPARQL 1.1 extends the...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Home Page Stories" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Semantic Web" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/2009/sparql">SPARQL Working Group</a> has completed development of its full-featured system for querying and managing data using the flexible RDF data model. It has now published eleven Recommendations for SPARQL 1.1, detailed in <a href="http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/">SPARQL 1.1 Overview</a>. SPARQL 1.1 extends the 2008 Recommendation for <a href="http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/">SPARQL 1.0</a> by adding features to the query language such as <a href="http://www.w3.org/TR/2013/REC-sparql11-query-20130321/#aggregates">aggregates</a>, <a href="http://www.w3.org/TR/2013/REC-sparql11-query-20130321/#subqueries">subqueries</a>, <a href="http://www.w3.org/TR/2013/REC-sparql11-query-20130321/#negation">negation</a>, <a href="http://www.w3.org/TR/2013/REC-sparql11-query-20130321/#propertypaths">property paths</a>, and an expanded set of <a href="http://www.w3.org/TR/2013/REC-sparql11-query-20130321/#SparqlOps">functions and operators</a>. Beyond the query language, SPARQL 1.1 adds other features that were widely requested, including <a href="http://www.w3.org/TR/2013/REC-sparql11-update-20130321">update</a>, <a href="http://www.w3.org/TR/2013/REC-sparql11-service-description-20130321">service description</a>, a <a href="http://www.w3.org/TR/2013/REC-sparql11-results-json-20130321">JSON results format</a>, and support for <a href="http://www.w3.org/TR/2013/REC-sparql11-entailment-20130321">entailment reasoning</a>. Learn more about the <a href="http://www.w3.org/2001/sw/">Semantic Web Activity</a>.</p>
+ ]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Runtime and Security Model for Web Applications Draft Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9765" />
+    <id>tag:www.w3.org,2013://4.9765</id>
+
+    <published>2013-03-21T13:51:17Z</published>
+    <updated>2013-03-21T13:51:17Z</updated>
+
+    <summary>The System Applications Working Group has published a Working Draft of Runtime and Security Model for Web Applications. This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest,...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Home Page Stories" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web of Devices" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/2012/sysapps/">System Applications Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-runtime-20130321/">Runtime and Security Model for Web Applications</a>. This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can put into the background, put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply. Learn more about the <a href="http://www.w3.org/2007/uwa/">Ubiquitous Web Applications Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Tim Berners-Lee, Marc Andreessen, Vinton Cerf, Robert Kahn, and Louis Pouzin Awarded 2013 Queen Elizabeth Prize for Engineering</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9763" />
+    <id>tag:www.w3.org,2013://4.9763</id>
+
+    <published>2013-03-18T12:26:09Z</published>
+    <updated>2013-03-18T12:26:09Z</updated>
+
+    <summary> The Royal Academy of Engineering announced today that Tim Berners-Lee, Marc Andreessen, Vinton Cerf, Robert Kahn, and Louis Pouzin are the recipients of the new Queen Elizabeth Prize for Engineering, which recognizes &quot;outstanding advances in engineering that have changed...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Home Page Stories" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Top Story" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>
+<a class="imageLink" href="/People/Berners-Lee/"><img src="http://www.w3.org/2011/02/scarpetta_photos/.small/TIM_0072.png" alt="Tim Berners-Lee"/></a> The Royal Academy of Engineering <a href="http://qeprize.org/latestnews/">announced</a> today that <a href="/People/Berners-Lee/">Tim Berners-Lee</a>, 
+<a href="http://en.wikipedia.org/wiki/Marc_Andreessen">Marc Andreessen</a>,
+<a href="http://en.wikipedia.org/wiki/Vint_Cerf">Vinton Cerf</a>, <a
+href="http://en.wikipedia.org/wiki/Bob_Kahn">Robert Kahn</a>, and <a
+href="http://en.wikipedia.org/wiki/Louis_Pouzin">Louis Pouzin</a> are
+the recipients of the new <a href="http://qeprize.org/">Queen
+Elizabeth Prize for Engineering</a>, which recognizes "outstanding
+advances in engineering that have changed the world and benefited
+humanity." The award is shared by Berners-Lee for his invention of the
+Web, Andreessen for his work on the Mosaic browser, and Pouzin, Cerf, and Kahn for their pioneering work on fundamental Internet protocols.</p>
+
+<p>"The prize recognises what has been a roller-coaster ride of wonderful international collaboration," said Berners-Lee. "Bob and Vint’s work on building the internet was re-enforced by Louis’ work on datagrams and that enabled me to invent the Web. Marc’s determined and perceptive work built on these platforms a product which became widely deployed across nations and computing platforms. I am honoured to receive this accolade and humbled to share it with them. I want the Web to inspire and empower new generations of engineers --boys and, especially, girls-- who will build, in turn, their own platforms, to improve our global society. I hope the message behind this award, along with the work we are doing with the World Wide Web Foundation and W3C, will assist in achieving the vision of a web that is open, accessible and of value to all."</p>
+
+<p>Learn more about how the Web is expanding into a full-fledged
+programming environment for rich applications, documents, and data:
+the <a href="/standards/">Open Web Platform</a>.
+</p>
+]]>
+    </content>
+</entry>
+
+<entry>
+    <title>CSS Paged Media Module Level 3 Draft Published, CSS Print Profile Note Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9762" />
+    <id>tag:www.w3.org,2013://4.9762</id>
+
+    <published>2013-03-14T14:51:14Z</published>
+    <updated>2013-03-14T14:51:14Z</updated>
+
+    <summary>The Cascading Style Sheets (CSS) Working Group has published two documents today: A Working Draft of CSS Paged Media Module Level 3. This module describes the page model that partitions a flow into pages. It builds on the Box model...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web Design and Applications" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/Style/CSS/members">Cascading Style Sheets (CSS) Working Group</a> has published two documents today:</p>
+<ul class="show_items">
+<li>A Working Draft of <a href="http://www.w3.org/TR/2013/WD-css3-page-20130314/">CSS Paged Media Module Level 3</a>. This module describes the page model that partitions a flow into pages. It builds on the Box model module and introduces and defines the page model and paged media. It adds functionality for pagination, page margins, page size and orientation, headers and footers, widows and orphans, and image orientation. Finally it extends generated content to enable page numbering and running headers / footers.</li>
+<li>A Group Note of <a href="http://www.w3.org/TR/2013/NOTE-css-print-20130314/">CSS Print Profile</a>. This specification defines a subset of Cascading Style Sheets Level 2, revision 1 and CSS Paged Media Level 3 for printing across multiple devices and media types. It is designed for printing in situations where it is not feasible or desirable to install a printer-specific driver, and for situations were some variability in the output is acceptable. This profile is designed to work in conjunction with XHTML-Print and defines a minimum level of conformance as well as an extension set that provides stronger layout control for the printing of mixed text and images, tables and image collections.</li>
+</ul>
+<p> Learn more about the <a href="http://www.w3.org/Style/">Style Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Call for Review: PROV Family of Documents Published as Proposed Recommendations</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9760" />
+    <id>tag:www.w3.org,2013://4.9760</id>
+
+    <published>2013-03-12T14:27:06Z</published>
+    <updated>2013-03-12T14:27:06Z</updated>
+
+    <summary>The Provenance Working Group has published four Proposed Recommendation Documents along with corresponding supporting notes. You can find a complete list at the PROV Overview draft. These documents provide a framework for interchanging provenance on the Web. PROV enables one...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Semantic Web" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/2011/prov/">Provenance Working Group</a> has published four Proposed Recommendation Documents along with corresponding supporting notes. You can find a complete list at the <a href="http://www.w3.org/TR/2013/WD-prov-overview-20130312/">PROV Overview draft</a>. These documents provide a framework for interchanging provenance on the Web. PROV enables one to represent and interchange provenance information using widely available formats such as RDF and XML. In addition, it provides definitions for accessing provenance information, validating it, and mapping to Dublin Core. Comments are welcome through 9 April 2013. Learn more about the <a href="http://www.w3.org/standards/semanticweb/">Semantic Web</a>.</p>
+]]>
+    </content>
+</entry>
+
+<entry>
+    <title>WebDriver Draft Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9759" />
+    <id>tag:www.w3.org,2013://4.9759</id>
+
+    <published>2013-03-12T14:12:33Z</published>
+    <updated>2013-03-12T14:12:33Z</updated>
+
+    <summary>The Browser Testing and Tools Working Group has published a Working Draft of WebDriver. The WebDriver API aims to provide a synchronous API that can be used for a variety of use cases, though it is primarily designed to support...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Browsers and Authoring Tools" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web of Services" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/testing/browser/">Browser Testing and Tools Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-webdriver-20130312/">WebDriver</a>. The WebDriver API aims to provide a synchronous API that can be used for a variety of use cases, though it is primarily designed to support automated testing of web apps. This specification defines the WebDriver API, a platform and language-neutral interface and associated wire protocol that allows programs or scripts to introspect into, and control the behavior of a web browser. The WebDriver API is primarily intended to allow developers to write tests that automate a browser from a separate controlling process, but may also be implemented in such a way as to allow in-browser scripts to control a possibly separate browser. Learn more about the <a href="http://www.w3.org/testing/">Web Testing Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>CSS Custom Properties for Cascading Variables Module Level 1 Draft Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9758" />
+    <id>tag:www.w3.org,2013://4.9758</id>
+
+    <published>2013-03-12T14:06:33Z</published>
+    <updated>2013-03-12T14:06:33Z</updated>
+
+    <summary>The Cascading Style Sheets (CSS) Working Group has published a Working Draft of CSS Custom Properties for Cascading Variables Module Level 1. This module introduces cascading variables as a new primitive value type that is accepted by all CSS properties,...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web Design and Applications" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/Style/CSS/members">Cascading Style Sheets (CSS) Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-css-variables-20130312/">CSS Custom Properties for Cascading Variables Module Level 1</a>. This module introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them. Learn more about the <a href="http://www.w3.org/Style/">Style Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Two Last Call drafts: The RDF Data Cube Vocabulary, Data Catalog Vocabulary (DCAT)</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9757" />
+    <id>tag:www.w3.org,2013://4.9757</id>
+
+    <published>2013-03-12T13:31:40Z</published>
+    <updated>2013-03-12T13:31:40Z</updated>
+
+    <summary>The Government Linked Data Working Group has published two Last Call Working Drafts today: The RDF Data Cube Vocabulary. This is an RDF vocabulary for publishing multidimensional data, particularly statistical data. It is compatible with the cube model that underlies...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Semantic Web" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/2011/gld/">Government Linked Data Working Group</a> has published two Last Call Working Drafts today:</p>
+ <ul class="show_items">
+<li><a href="http://www.w3.org/TR/2013/WD-vocab-data-cube-20130312/">The RDF Data Cube Vocabulary</a>. This is an RDF vocabulary for publishing multidimensional data, particularly statistical data. It is compatible with the cube model that underlies SDMX (Statistical Data and Metadata eXchange), a widely used ISO standard. The Data Cube Vocabulary brings essential SDMX elements to RDF, providing a standard way for governments to publish statistical information as Linked Data. Comments are welcome through 08 April.</li>
+<li><a href="http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/">Data Catalog Vocabulary (DCAT)</a>. This is an RDF vocabulary for expressing the contents of data catalogs, such as government data portals. DCAT is for catalogs of all kinds of data (not just RDF data), but uses RDF to support easy aggregation of catalogs and construction of services which can search across many unrelated catalogs. Comments are welcome through 08 April.</li>
+</ul>
+<p>Learn more about the <a href="http://www.w3.org/2007/eGov/">eGovernment Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>HTML Image Description Extension Draft Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9756" />
+    <id>tag:www.w3.org,2013://4.9756</id>
+
+    <published>2013-03-12T13:18:03Z</published>
+    <updated>2013-03-12T13:18:03Z</updated>
+
+    <summary>The HTML Working Group today published HTML Image Description Extension as First Public Working Draft. This specification (&quot;HTML-longdesc&quot;) enables web authors to provide longer text descriptions for complex images. It defines the &quot;longdesc&quot; attribute to link descriptions with images in...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web Design and Applications" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/html/wg/">HTML Working Group</a> today published <a href="http://www.w3.org/TR/2013/WD-html-longdesc-20130312/">HTML Image Description Extension</a> as  First Public Working Draft. This specification ("HTML-longdesc") enables  web authors to provide longer text descriptions for complex images. It defines the "longdesc" attribute to link descriptions with images in HTML5 content. HTML-longdesc is an extension specification that is part of the HTML5 family of specifications, which enables it to evolve independently and be finalized more rapidly. It is developed by the <a href="http://www.w3.org/WAI/PF/html-accessibility-tf.html">HTML Accessibility Task Force</a> in coordination with the HTML WG and the <a href="http://www.w3.org/WAI/">WAI</a> Protocols and Formats Working Group (<a href="http://www.w3.org/WAI/PF/">PFWG</a>). HTML-longdesc is part of W3C's work to ensure that the Open Web Platform is <a href="http://www.w3.org/standards/webdesign/accessibility">accessible to people with disabilities</a>. Please see important additional information in the <a href="http://lists.w3.org/Archives/Public/w3c-wai-ig/2013JanMar/0148.html">call for review e-mail</a>. Learn more about the <a href="http://www.w3.org/MarkUp/Activity">HTML Activity</a> and the <a
+href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>WAI-ARIA 1.0 Authoring Practices Draft with Updated Guidance</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9751" />
+    <id>tag:www.w3.org,2013://4.9751</id>
+
+    <published>2013-03-07T16:35:35Z</published>
+    <updated>2013-03-07T16:35:35Z</updated>
+
+    <summary>The Protocols and Formats Working Group (PFWG) has published an updated Working Draft of WAI-ARIA 1.0 Authoring Practices: An author&apos;s guide to understanding and implementing Accessible Rich Internet Applications. It provides detailed advice and examples to make widgets, navigation, and...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web Design and Applications" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The Protocols and Formats Working Group (<a href="http://www.w3.org/WAI/PF/">PFWG</a>) has published an updated Working Draft of <a href="http://www.w3.org/TR/wai-aria-practices/">WAI-ARIA 1.0 Authoring Practices</a>: An author's guide to understanding and implementing Accessible Rich Internet Applications. It provides detailed advice and examples to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties. It is primarily for web application developers, and is also useful for user agent and assistive technology developers. Please send comments by 5 April 2013. Learn more from the <a href="http://lists.w3.org/Archives/Public/w3c-wai-ig/2013JanMar/0136.html">call for review e-mail</a> and read about the <a
+href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Metadata for the Multilingual Web - Usage Scenarios and Implementations Draft Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9750" />
+    <id>tag:www.w3.org,2013://4.9750</id>
+
+    <published>2013-03-07T16:32:16Z</published>
+    <updated>2013-03-07T16:32:16Z</updated>
+
+    <summary>The MultilingualWeb-LT Working Group has published the First Public Working Draft of Metadata for the Multilingual Web - Usage Scenarios and Implementations. This document introduces a variety of usage scenarios and applications for the Internationalization Tag Set (ITS) 2.0, ranging...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web Design and Applications" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web of Services" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/International/multilingualweb/lt/">MultilingualWeb-LT Working Group</a> has published the First Public Working Draft of <a href="http://www.w3.org/TR/2013/WD-mlw-metadata-us-impl-20130307/">Metadata for the Multilingual Web - Usage Scenarios and Implementations</a>. This document introduces a variety of usage scenarios and applications for the <a href="http://w3.org/TR/its20/">Internationalization Tag Set (ITS) 2.0</a>, ranging from simple machine translation or human translation quality check to training for machine translation systems or automatic text analysis. Many of the underlying implementations will be showcased in the upcoming <a 
+href="http://www.multilingualweb.eu/rome-showcase">W3C MultilingualWeb Workshop</a> 12-13 March in Rome. Learn more about the <a href="http://www.w3.org/International/">Internationalization Activity</a>.</p>
+]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Linked Data Platform 1.0 Draft Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9749" />
+    <id>tag:www.w3.org,2013://4.9749</id>
+
+    <published>2013-03-07T16:30:47Z</published>
+    <updated>2013-03-07T16:30:47Z</updated>
+
+    <summary>The Linked Data Platform (LDP) Working Group has published a Working Draft of Linked Data Platform 1.0. This document specifies a set of best practices and simple approach for a read-write Linked Data architecture, based on HTTP access to web...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Semantic Web" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/2012/ldp/">Linked Data Platform (LDP) Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-ldp-20130307/">Linked Data Platform 1.0</a>. This document specifies a set of best practices and simple approach for a read-write Linked Data architecture, based on HTTP access to web resources that describe their state using the RDF data model. Learn more about the <a href="http://www.w3.org/2001/sw/">Semantic Web Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Contacts Manager API Draft Published</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9748" />
+    <id>tag:www.w3.org,2013://4.9748</id>
+
+    <published>2013-03-07T16:26:24Z</published>
+    <updated>2013-03-07T16:26:24Z</updated>
+
+    <summary>The System Applications Working Group has published the First Public Working Draft of Contacts Manager API. This specification defines a System Level API which offers a simple interface to manage user&apos;s contacts stored in the system&apos;s address book. A typical...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Publication" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web of Devices" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>The <a href="http://www.w3.org/2012/sysapps/">System Applications Working Group</a> has published the First Public Working Draft of <a href="http://www.w3.org/TR/2013/WD-contacts-manager-api-20130307/">Contacts Manager API</a>. This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book. Learn more about the <a href="http://www.w3.org/2007/uwa/">Ubiquitous Web Applications Activity</a>.</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>W3C Workshop Report on Do Not Track and Beyond</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/News/2013.html#entry-9744" />
+    <id>tag:www.w3.org,2013://4.9744</id>
+
+    <published>2013-03-04T16:30:00Z</published>
+    <updated>2013-03-04T16:30:00Z</updated>
+
+    <summary>W3C today published the report from the W3C Workshop on Do Not Track and Beyond held at UC Berkeley in November 2012. We welcomed experts from academia, industry, civil society and regulators to discuss the status of the current work...</summary>
+    <author>
+        <name>W3C Staff</name>
+    </author>
+    
+        <category term="Web Design and Applications" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web of Services" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/">
+        
+        <![CDATA[<p>W3C today published the <a href="https://www.w3.org/2012/dnt-ws/report">report</a> from the <a href="https://www.w3.org/2012/dnt-ws">W3C Workshop on Do Not Track and Beyond</a> held at UC Berkeley in November 2012. We welcomed experts from academia, industry, civil society and regulators to discuss the status of the current work of the Tracking Protection Working Group on Do Not Track, as well as related and future standards initiatives. </p>
+
+<p>The Workshop reaffirmed the foundational assumption of a co-operative approach between the different stakeholders and identified a number of widely-shared views. We encourage those interested in ongoing work in this area to refer to the <a href="http://www.w3.org/2011/tracking-protection/">Tracking Protection Working Group</a>, the <a href="http://www.w3.org/Privacy/">Privacy Interest Group</a> and the <a href="http://www.w3.org/community/custexpdata/">Customer Experience Digital Data Community Group</a>.</p>
+
+<p>W3C thanks the participants and appreciates the support of the UC Berkeley <a href="http://www.truststc.org">TRUST Science and Technology Center</a> for hosting and of <a href="http://www.yahoo.com">Yahoo!</a> for sponsoring the event. Learn more about the <a href="http://www.w3.org/Privacy/">W3C Privacy Activity</a>.</p>
+]]>
+    </content>
+</entry>
+
+</feed>
