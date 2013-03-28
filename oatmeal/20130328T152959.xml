@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss1full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><!-- generator="FeedCreator 1.7.2" --><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://theoatmeal.com/feed/rss">
+        <title>The Oatmeal - Comics, Quizzes, &amp; Stories</title>
+        <description>The oatmeal tastes better than stale skittles found under the couch cushions</description>
+        <link>http://theoatmeal.com/</link>
+       <dc:date>2013-03-28T15:25:35+01:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/dog_paradox_book" />
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/tipping_tooting" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/state_of_oatmeal_2013" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/dinosaur_hotel" />
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/house" />
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/state_web_winter_2012" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/jack_stuef" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/christmas_tree" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/events" />
+            </rdf:Seq>
+        </items>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://feeds.feedburner.com/oatmealfeed" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="oatmealfeed" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+    <item rdf:about="http://theoatmeal.com/blog/dog_paradox_book">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-27T21:44:53+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>My Dog: The Paradox got turned into a book!</title>
+        <link>http://theoatmeal.com/blog/dog_paradox_book</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/dog_paradox_book"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/dog_paradox_book.png" alt="My Dog: The Paradox got turned into a book!" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;The comic about my dog got turned into a book that comes out on May 7th. &lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/dog_paradox_book"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/tipping_tooting">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-25T17:24:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Tipping and Tooting - A comic about people who wait tables</title>
+        <link>http://theoatmeal.com/comics/tipping_tooting</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/tipping_tooting"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/tipping_tooting.png" alt="Tipping and Tooting - A comic about people who wait tables" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;A comic about people who wait tables&lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/tipping_tooting"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/state_of_oatmeal_2013">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-02-07T20:35:04+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>The State of The Oatmeal</title>
+        <link>http://theoatmeal.com/blog/state_of_oatmeal_2013</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/state_of_oatmeal_2013"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/state_of_oatmeal_2013.png" alt="The State of The Oatmeal" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;Some updates about my website.&lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/state_of_oatmeal_2013"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/dinosaur_hotel">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-01-28T18:31:48+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>This is a blog post about dinosaurs, Tesla, and a hotel in Colorado</title>
+        <link>http://theoatmeal.com/blog/dinosaur_hotel</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/dinosaur_hotel"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/dinosaur_hotel.png" alt="This is a blog post about dinosaurs, Tesla, and a hotel in Colorado" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;This is a comic written for a hotelier who donated $35k to the Nikola Tesla Museum&lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/dinosaur_hotel"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/house">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-01-08T18:06:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>When your house is burning down, you should brush your teeth</title>
+        <link>http://theoatmeal.com/comics/house</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/house"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/house.png" alt="When your house is burning down, you should brush your teeth" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;20 years ago today my house burned downed, so I wrote a comic about it &lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/house"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/state_web_winter_2012">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-12-18T20:42:49+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>This is the web right now </title>
+        <link>http://theoatmeal.com/comics/state_web_winter_2012</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/state_web_winter_2012"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/state_web_winter_2012.png" alt="This is the web right now " class="border0" /&gt;&lt;/a&gt;&lt;p&gt;The state of the web, winter 2012 - 2013. &lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/state_web_winter_2012"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/jack_stuef">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-12-10T20:44:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>I wrote a response to Jack Stuef's BuzzFeed article about me</title>
+        <link>http://theoatmeal.com/blog/jack_stuef</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/jack_stuef"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/jack_stuef.png" alt="I wrote a response to Jack Stuef's BuzzFeed article about me" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;This is my response to an article Jack Stuef wrote about me for BuzzFeed.&lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/jack_stuef"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/christmas_tree">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-12-06T19:25:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>My Christmas tree smells spicy and magnificent</title>
+        <link>http://theoatmeal.com/blog/christmas_tree</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/christmas_tree"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/christmas_tree.png" alt="My Christmas tree smells spicy and magnificent" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;Photos of the Christmas tree in the Oatmeal office&lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/christmas_tree"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/events">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-12-03T19:34:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Upcoming Oatmeal Events</title>
+        <link>http://theoatmeal.com/blog/events</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/events"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/events.png" alt="Upcoming Oatmeal Events" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;A list of upcoming places I'll be. &lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/events"&gt;View&lt;/a&gt;</description>
+    </item>
+</rdf:RDF>

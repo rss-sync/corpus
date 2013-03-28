@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Thu, 28 Mar 2013 13:31:28 GMT</pubDate>
+		<lastBuildDate>Thu, 28 Mar 2013 13:31:28 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-28</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/28/2013; 9:31:28 AM</microblog:localTime>
+		<item>
+			<description>What if Twitter were, in every way, open.</description>
+			<link>http://3mr.r2.ly/</link>
+			<pubDate>Thu, 28 Mar 2013 13:31:26 GMT</pubDate>
+			<guid>http://3mr.r2.ly/?id=15853</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/makeATwitterOutOfRss</microblog:linkFull>
+			</item>
+		<item>
+			<description>Why everyone should register a domain name.</description>
+			<link>http://3mt.r2.ly/</link>
+			<pubDate>Thu, 28 Mar 2013 13:07:59 GMT</pubDate>
+			<guid>http://3mt.r2.ly/?id=15852</guid>
+			<microblog:linkFull>http://www.guardian.co.uk/commentisfree/2013/mar/28/why-everyone-should-register-domain-name</microblog:linkFull>
+			<microblog:readCount>414</microblog:readCount>
+			</item>
+		<item>
+			<description>WSJ: What Has Gotten Into J.R. Smith? (He&apos;s a great player.)</description>
+			<link>http://3ms.r2.ly/</link>
+			<pubDate>Thu, 28 Mar 2013 12:52:58 GMT</pubDate>
+			<guid>http://3ms.r2.ly/?id=15851</guid>
+			<microblog:linkFull>http://online.wsj.com/article/SB10001424127887324000704578386440452515434.html</microblog:linkFull>
+			<microblog:readCount>221</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Make a Twitter out of RSS.</description>
+			<link>http://3mr.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 28 Mar 2013 12:45:56 GMT</pubDate>
+			<guid>http://3mr.r2.ly/?id=15850</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/makeATwitterOutOfRss</microblog:linkFull>
+			<microblog:readCount>646</microblog:readCount>
+			</item>
+		<item>
+			<description>Easing Brain Fatigue With a Walk in the Park.</description>
+			<link>http://3mo.r2.ly/</link>
+			<pubDate>Thu, 28 Mar 2013 03:14:12 GMT</pubDate>
+			<guid>http://3mo.r2.ly/?id=15849</guid>
+			<microblog:linkFull>http://well.blogs.nytimes.com/2013/03/27/easing-brain-fatigue-with-a-walk-in-the-park/</microblog:linkFull>
+			<microblog:readCount>580</microblog:readCount>
+			</item>
+		<item>
+			<description>Brent Simmons: Why Developers Shouldn&apos;t Use iCloud Syncing, Even If It Worked.</description>
+			<link>http://3mn.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 23:16:44 GMT</pubDate>
+			<guid>http://3mn.r2.ly/?id=15848</guid>
+			<microblog:linkFull>http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy</microblog:linkFull>
+			<microblog:readCount>591</microblog:readCount>
+			</item>
+		<item>
+			<description>Two studies suggest that microbes play a role in weight loss.</description>
+			<link>http://3ml.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 22:56:26 GMT</pubDate>
+			<guid>http://3ml.r2.ly/?id=15847</guid>
+			<microblog:linkFull>http://www.technologyreview.com/news/512956/gut-microbes-could-help-us-lose-weight/</microblog:linkFull>
+			<microblog:readCount>564</microblog:readCount>
+			</item>
+		<item>
+			<description>Popular RSS App Reeder Announces Upcoming Support For Google Reader Alternative Feedbin.</description>
+			<link>http://3mk.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 22:29:58 GMT</pubDate>
+			<guid>http://3mk.r2.ly/?id=15846</guid>
+			<microblog:linkFull>http://www.cultofmac.com/221451/popular-rss-app-reeder-announces-upcoming-support-for-google-reader-alternative-feedbin/</microblog:linkFull>
+			<microblog:readCount>779</microblog:readCount>
+			</item>
+		<item>
+			<description>I live-blogged the Apple Press Conference in 1996. Thanks to Lee Joramo for digging this up. Archives!! :-)</description>
+			<link>http://3mj.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 22:21:19 GMT</pubDate>
+			<guid>http://3mj.r2.ly/?id=15845</guid>
+			<microblog:linkFull>http://scripting.com/davenet/misc/appleConf.html</microblog:linkFull>
+			<microblog:readCount>461</microblog:readCount>
+			</item>
+		<item>
+			<description>Doc is not only an NBB -- natural-born-blogger, he&apos;s also an NBO -- natural-born-outliner.</description>
+			<link>http://3mi.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 21:40:50 GMT</pubDate>
+			<guid>http://3mi.r2.ly/?id=15844</guid>
+			<microblog:linkFull>http://blogs.law.harvard.edu/doc/2013/03/27/some-public-bookmarks/</microblog:linkFull>
+			<microblog:readCount>473</microblog:readCount>
+			</item>
+		<item>
+			<description>Flickr: I was at the Apple the night Steve Jobs returned to Apple. HT @gruber</description>
+			<link>http://3mh.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 21:33:12 GMT</pubDate>
+			<guid>http://3mh.r2.ly/?id=15843</guid>
+			<microblog:linkFull>http://www.flickr.com/photos/tpoholmes/8590667121/in/set-72157633089256151/</microblog:linkFull>
+			<microblog:readCount>730</microblog:readCount>
+			</item>
+		<item>
+			<description>Netflix: Sci-Fi Giants The Wachowskis And J. Michael Straczynski Team-Up To Create &quot;Sense8.&quot;</description>
+			<link>http://3mf.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 18:51:55 GMT</pubDate>
+			<guid>http://3mf.r2.ly/?id=15842</guid>
+			<microblog:linkFull>http://www.prnewswire.com/news-releases/only-on-netflix-sci-fi-giants-the-wachowskis-and-j-michael-straczynski-team-up-to-create-sense8-200215501.html</microblog:linkFull>
+			<microblog:readCount>571</microblog:readCount>
+			</item>
+		<item>
+			<description>Andy DeSoto: Documenting your research with the Little Outliner. #righton</description>
+			<link>http://3me.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 17:33:22 GMT</pubDate>
+			<guid>http://3me.r2.ly/?id=15841</guid>
+			<microblog:linkFull>https://medium.com/what-i-learned-today/7e939aa04c0</microblog:linkFull>
+			<microblog:readCount>618</microblog:readCount>
+			</item>
+		<item>
+			<description>Google brings real-time NYC subway schedule data to Google Maps.</description>
+			<link>http://3mc.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 16:47:48 GMT</pubDate>
+			<guid>http://3mc.r2.ly/?id=15840</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/27/4153064/google-adds-real-time-nyc-transit-tracking-google-maps</microblog:linkFull>
+			<microblog:readCount>628</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: An open note to tech press/bloggers.</description>
+			<link>http://3mb.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 27 Mar 2013 15:30:30 GMT</pubDate>
+			<guid>http://3mb.r2.ly/?id=15839</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/anOpenNoteToTechPressbloggers</microblog:linkFull>
+			<microblog:readCount>2056</microblog:readCount>
+			</item>
+		<item>
+			<description>Zeldman: 140 Characters is a Joke.</description>
+			<link>http://3m9.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 14:50:46 GMT</pubDate>
+			<guid>http://3m9.r2.ly/?id=15838</guid>
+			<microblog:linkFull>http://www.zeldman.com/2013/03/27/140-characters-is-a-joke/</microblog:linkFull>
+			<microblog:readCount>583</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;When you select a headline, you are implicitly selecting all the headlines that are subordinate to it.&quot;</description>
+			<link>http://3m8.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 13:52:04 GMT</pubDate>
+			<guid>http://3m8.r2.ly/?id=15837</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/thinkingLikeAnOutliner</microblog:linkFull>
+			<microblog:readCount>1562</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Thinking like an outliner.</description>
+			<link>http://3m8.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 27 Mar 2013 13:45:25 GMT</pubDate>
+			<guid>http://3m8.r2.ly/?id=15836</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/thinkingLikeAnOutliner</microblog:linkFull>
+			<microblog:readCount>1562</microblog:readCount>
+			</item>
+		<item>
+			<description>Amyloo: Little Outliner puts outlining power into anybody&apos;s hands.</description>
+			<link>http://3m7.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 13:40:42 GMT</pubDate>
+			<guid>http://3m7.r2.ly/?id=15835</guid>
+			<microblog:linkFull>http://learnandteachonline.com/blog/index.php/news/little-outliner-puts-outlining-power-into-anybodys-hands#.UVL2zKvF3fI</microblog:linkFull>
+			<microblog:readCount>446</microblog:readCount>
+			</item>
+		<item>
+			<description>At Y Combinator Demo Day, many echoes of Kickstarter.</description>
+			<link>http://3m6.r2.ly/</link>
+			<pubDate>Wed, 27 Mar 2013 12:18:05 GMT</pubDate>
+			<guid>http://3m6.r2.ly/?id=15834</guid>
+			<microblog:linkFull>http://news.cnet.com/8301-1023_3-57576446-93/at-y-combinator-demo-day-many-echoes-of-kickstarter/</microblog:linkFull>
+			<microblog:readCount>489</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

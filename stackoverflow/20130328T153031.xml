@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-28T15:29:03Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15685845</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Redeploy application after jsf managed bean modification</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jsf-2"/><category scheme="http://stackoverflow.com/feeds/tags" term="jboss7.x"/><category scheme="http://stackoverflow.com/feeds/tags" term="managed-bean"/><category scheme="http://stackoverflow.com/feeds/tags" term="eclipse-indigo"/><category scheme="http://stackoverflow.com/feeds/tags" term="jboss-tools"/>
+        <author>
+            <name>tunnaruto</name>
+            <uri>http://stackoverflow.com/users/1234429</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685845/redeploy-application-after-jsf-managed-bean-modification" />
+        <published>2013-03-28T15:28:26Z</published>
+        <updated>2013-03-28T15:28:26Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Greeting,
+Why an application redeployment is needed for jsf managed bean modifications to take effect?&lt;/p&gt;
+
+&lt;p&gt;Development environment:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Eclipse Indigo.&lt;/li&gt;
+&lt;li&gt;JBoss as 7.&lt;/li&gt;
+&lt;li&gt;JBossAS Tools.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further explanation:&lt;br&gt;
+If i modify a jsf page, i can visualize the modification after simply refreshing the page. But this is not the case for jsf managed bean modifications where i have to redeploy the application to visualize them.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685843</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Using Javascript to sort an array of numeric arrays</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="sorting"/><category scheme="http://stackoverflow.com/feeds/tags" term="numbers"/>
+        <author>
+            <name>ckersch</name>
+            <uri>http://stackoverflow.com/users/2066336</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685843/using-javascript-to-sort-an-array-of-numeric-arrays" />
+        <published>2013-03-28T15:28:24Z</published>
+        <updated>2013-03-28T15:28:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In Javascript, if I have an array of arrays, like the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;X = [ [1,2,3,4],
+      [1,1,2,3],
+      [1,1,3],
+      [1,4],
+      [2,1,2],
+      [2,2]
+    ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Javascript sorts my array, comparing first entry first, then second, and so on, so that &lt;code&gt;X.sort()&lt;/code&gt; returns the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[ [1,1,2,3],
+  [1,1,3],
+  [1,2,3,4],
+  [1,4],
+  [2,1,2],
+  [2,2]
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which is what I want. The problem is that the comparison operator for comparing the elements in the arrays is lexicographical, so &lt;code&gt;[10,2] &amp;lt; [2,2]&lt;/code&gt;, and, for example, &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[10,2],[1,1,3],[2,2]].sort() -&amp;gt; [[1,1,3],[10,2],[2,2]]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need it to sort numerically, so that I get a sorted array of &lt;code&gt;[[1,1,3],[2,2],[10,2]]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I tried using a comparison function of &lt;code&gt;function(a,b){return (a-b) }&lt;/code&gt;, which would work for sorting an array of numbers, but this fails to properly sort my array, which makes sense (I think) because &lt;code&gt;[10,2] - [1,1,3]&lt;/code&gt; yields &lt;code&gt;NaN&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;How do I go about sorting an array of numeric arrays?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685840</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to load the JTable faster?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="performance"/><category scheme="http://stackoverflow.com/feeds/tags" term="jtable"/>
+        <author>
+            <name>vijay</name>
+            <uri>http://stackoverflow.com/users/1852955</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685840/how-to-load-the-jtable-faster" />
+        <published>2013-03-28T15:28:15Z</published>
+        <updated>2013-03-28T15:28:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have created 2 JTable in my class,&lt;/p&gt;
+
+&lt;p&gt;for the first JTable the data comes from server to arraylist and then to JTable&lt;/p&gt;
+
+&lt;p&gt;for the second JTable the data comes from local access database to JTable (no arraylist)&lt;/p&gt;
+
+&lt;p&gt;Both JTables will be displayed together when user click a button.&lt;/p&gt;
+
+&lt;p&gt;But it takes up to 1min to load and display both jtable on the interface.&lt;/p&gt;
+
+&lt;p&gt;Is there any way to load them faster?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685830</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">audio file isn&#39;t being played</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="silverlight"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows-phone-7"/><category scheme="http://stackoverflow.com/feeds/tags" term="xna"/><category scheme="http://stackoverflow.com/feeds/tags" term="isolatedstorage"/>
+        <author>
+            <name>max</name>
+            <uri>http://stackoverflow.com/users/1654995</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685830/audio-file-isnt-being-played" />
+        <published>2013-03-28T15:27:48Z</published>
+        <updated>2013-03-28T15:27:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;An audio file is saved to isolated storage but it isn&#39;t being played when clicked. i just show my code here.&lt;/p&gt;
+
+&lt;p&gt;method for reading back
+    using (var ISF = IsolatedStorageFile.GetUserStoreForApplication())
+                {
+                    if (ISF.FileExists(MusicFileToPlay))
+                    {
+                        using (var FS = ISF.OpenFile(MusicFileToPlay, FileMode.Open, FileAccess.Read))
+                        {
+                            mediaelement.Stop();
+                            mediaelement.SetSource(FS);&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                        mediaelement.Position = System.TimeSpan.FromSeconds(0);
+                        mediaelement.Volume = 20;
+                        mediaelement.Play();
+                        StatusTextBlock.Text = &quot;Playing....&quot;;
+                        //MediaPlayer.Play(
+                    }
+                }
+                else
+                {
+                    StatusTextBlock.Text = &quot;No file present to play....&quot;;
+                }
+            }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;method for storing into isolated storage&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private void SaveSoundsToStorage()
+    {
+        foreach (string music in fileNames)
+        {
+            string filename = String.Format(&quot;Sounds/{0}.mp3&quot;, music);
+            SaveHelper(filename, music + &quot;.mp3&quot;);
+        }
+    }
+
+private void SaveHelper(string filename, string savename)
+    {
+        using (var appStorage = IsolatedStorageFile.GetUserStoreForApplication())
+        {
+            if (appStorage.FileExists(savename))
+            {
+                //MessageBox.Show(&quot;File already exists&quot;);
+                return;
+            }
+            StreamResourceInfo SRI = Application.GetResourceStream(new Uri(filename, UriKind.Relative));
+            using (IsolatedStorageFileStream FS = new IsolatedStorageFileStream(savename, FileMode.CreateNew, FileAccess.ReadWrite, FileShare.None, appStorage))
+            {
+                try
+                {
+                    using (BinaryWriter BW = new BinaryWriter(FS))
+                    {
+                        long lg = 0;
+                        Stream s;
+                        try
+                        {
+                            if (SRI != null)
+                            {
+                                s = SRI.Stream;
+                                lg = s.Length;
+                            }
+                        }
+                        catch (Exception error)
+                        {
+                            MessageBox.Show(&quot;Stream resource exception:  &quot;+error.Message);
+                        }
+                        try
+                        {
+                            if (lg &amp;gt; appStorage.AvailableFreeSpace)
+                            {
+                                //No space available.Request more space
+                                Int64 spaceToAdd = lg;
+                                Int64 curAvail = appStorage.AvailableFreeSpace;
+
+                                // Request more quota space.
+                                if (!appStorage.IncreaseQuotaTo(appStorage.Quota + spaceToAdd))
+                                {
+                                    // The user clicked NO to the
+                                    // host&#39;s prompt to approve the quota increase.
+                                    return;
+                                }
+                                else
+                                {
+                                    // The user clicked YES to the
+                                    // host&#39;s prompt to approve the quota increase.
+                                }
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show(&quot;quota increase problem.&quot;);
+                        }
+
+                        byte[] buff = new byte[32];
+                        int count = 0;
+                        try
+                        {
+                            using (BinaryReader br = new BinaryReader(SRI.Stream))
+                            {
+                                while (count &amp;lt; lg)
+                                {
+                                    int actual = br.Read(buff, 0, buff.Length);
+                                    count += actual;
+                                    BW.Write(buff, 0, actual);
+                                    BW.Flush();
+                                }
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show(&quot;Error at binary reader.&quot;);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show(&quot;Binarywriter exception.&quot;);
+                }
+                //MessageBox.Show(filename + &quot; saved successfully.&quot;);
+                StatusTextBlock.Text = savename + &quot; saved succesfully&quot;;
+            }
+        }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685828</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">MS ACCESS - Creating Dynamic Headers from joined Crosstab queries</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ms-access-2010"/>
+        <author>
+            <name>user2209016</name>
+            <uri>http://stackoverflow.com/users/2209016</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685828/ms-access-creating-dynamic-headers-from-joined-crosstab-queries" />
+        <published>2013-03-28T15:27:44Z</published>
+        <updated>2013-03-28T15:27:44Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a SELECT statement that is based off two Crosstab queries (I&#39;ll call this MAIN). In my Crosstab queries I have used Parameters that are DateTime and the values come from a form. The Parameters that I&#39;m using are dynamic and will change.&lt;/p&gt;
+
+&lt;p&gt;From MAIN an Access Report will be based off of. This is the code for MAIN:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PARAMETERS [Forms]![frm_Main]![bx_Stress_DateT] DateTime, [Forms]![frm_Main]![bx_Stress_DateT1] DateTime, [Forms]![frm_Main]![bx_Stress_DateT5] DateTime;
+SELECT *
+FROM qry_1 AS V INNER JOIN qry_2 AS S ON (V.Risk_Factor = S.Risk_Factor) AND (V.Metric = S.Metric) AND (V.Portfolio = S.Portfolio);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There is no problem with that. But what i really want to do is in the SELECT statement i would like to use the Parameter values as the header. Somemthing like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT V.[Forms]![frm_Main]![bx_Stress_DateT] as Date_1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, Access give me the following error message: &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Microsoft Access database engine does not recognize &quot; as a valid field name or expression&lt;/em&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685811</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to make border of a span overlap border of a relative positioned div?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="css"/>
+        <author>
+            <name>Question Overflow</name>
+            <uri>http://stackoverflow.com/users/948920</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685811/how-to-make-border-of-a-span-overlap-border-of-a-relative-positioned-div" />
+        <published>2013-03-28T15:27:02Z</published>
+        <updated>2013-03-28T15:27:53Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to create a navigation tab using a span element within a nav element as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;nav&amp;gt;&amp;lt;span&amp;gt;span&amp;lt;/span&amp;gt;&amp;lt;/nav&amp;gt;
+&amp;lt;div id=relative&amp;gt;div&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This navigation tab is placed directly above a div containing the main content. The div is given a relative position so that elements (not shown) within it can be positioned absolutely with respect to it. For simplicity, the following shows the relevant css:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;span {
+    border: black solid 10px;
+}
+div {
+    border: orange solid 10px;
+}
+#relative {
+    position: relative;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A demonstration in &lt;a href=&quot;http://jsfiddle.net/3aexj/&quot; rel=&quot;nofollow&quot;&gt;jsFiddle&lt;/a&gt; shows the border of div overlapping on top of the border of the span when the former is changed from a static position to a relative position. I tried to reverse it back by given a high z-index, but to no avail. Can anyone show me a solution which doesn&#39;t involves introducing new elements or changing the display property of the current elements?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685798</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">&lt;h1&gt; &lt;/h1&gt; attributes inside javascript function</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/>
+        <author>
+            <name>user79292</name>
+            <uri>http://stackoverflow.com/users/79292</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685798/h1-h1-attributes-inside-javascript-function" />
+        <published>2013-03-28T15:26:31Z</published>
+        <updated>2013-03-28T15:28:44Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Hello I have this html as follow, How to inheritate h1 style attribute inside javascript function myFunction. After click it picks default h1 style. Thanks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+
+&amp;lt;style type=&quot;text/css&quot;&amp;gt;
+
+ body {
+    color: purple;
+    font: normal 18px Verdana, Arial, sans-serif;
+    background-color: white }
+
+ h1 {
+    color: Red;
+    font: normal 20px Verdana, Arial, sans-serif;
+    background-color: white }
+
+&amp;lt;/style&amp;gt;
+
+&amp;lt;body&amp;gt;
+
+&amp;lt;p id=&quot;demo&quot;&amp;gt;&amp;lt;h1&amp;gt;Click here.&amp;lt;/h1&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;button onclick=&quot;myFunction()&quot;&amp;gt;Check it&amp;lt;/button&amp;gt;
+
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+
+function myFunction()
+{
+    document.writeln(&quot;&amp;lt;h1&amp;gt;&quot;, &quot;Hello there&quot;, &quot;&amp;lt;/h1&amp;gt;&quot;);
+}
+
+&amp;lt;/script&amp;gt;
+
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685788</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">reason for program termination before method</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/>
+        <author>
+            <name>Fluxcapacitor</name>
+            <uri>http://stackoverflow.com/users/1906526</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685788/reason-for-program-termination-before-method" />
+        <published>2013-03-28T15:25:57Z</published>
+        <updated>2013-03-28T15:28:32Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Trying to learn why my program terminates prematurely. Runs the gallons to liters conversion method ok but stops there. Does not run the &quot;root&quot; method (purpose of which is to compute square roots for number 1 to 100). I believe this is more an issue of formatting than semantics. Thank you for help.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package gallons.to.liters;  
+
+public class converter {                    
+public static void main(String args[]) {    
+    double gallons;                          
+    double liters;          
+
+    gallons = 10;
+    liters = gallons * 3.7854;
+
+    System.out.println(&quot;The number of liters in &quot; + gallons + &quot; gallons is &quot; + 
+            liters);
+    System.out.println();
+
+}
+
+
+public static void root(String args[]) {
+    double counter;
+    double square;
+
+    square = 0;
+    counter = 0;
+
+    for(square = 0; square &amp;lt;= 100; square++); 
+        square = Math.sqrt(square);
+        counter++;
+        System.out.println(&quot;The square root of &quot; + counter + &quot; is &quot; +  
+                    square);
+
+
+
+}       
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685757</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Pass session variable to new page when link is clicked</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysqli"/>
+        <author>
+            <name>user2197354</name>
+            <uri>http://stackoverflow.com/users/2197354</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685757/pass-session-variable-to-new-page-when-link-is-clicked" />
+        <published>2013-03-28T15:24:38Z</published>
+        <updated>2013-03-28T15:28:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m having a bit of trouble with this. I have a search results page of books with various links, all linking to the same page (book.php) and I want to set a session variable to pass through to the new page which should display more info about the specific result link that is selected. I set the variable using the code below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$result = mysqli_query($con, $query) or die(&quot;Error in query $query: &quot; . mysqli_error());
+while ($row = mysqli_fetch_array($result)) {
+  ?&amp;gt;&amp;lt;a id=&quot;1&quot; href=&quot;book.php&quot; border=&quot;0&quot;&amp;gt;&amp;lt;img src=&quot;&amp;lt;?php echo $row[12]; ?&amp;gt;&quot; width=&quot;112px&quot; height=&quot;150px&quot; /&amp;gt;&amp;lt;/a&amp;gt;
+ &amp;lt;a href=&quot;book.php?booktitle=&#39;&amp;lt;?php echo $_SESSION[&#39;booktitle&#39;]=$row[1];?&amp;gt;&#39;&quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;?php echo  $row[1] . &quot;, (&quot; . $row[5] . &quot;)&quot;;?&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt;&amp;lt;?php
+echo $row[2];
+echo &quot;&amp;lt;br&amp;gt;&amp;lt;div style=&#39;text-align:right&#39;&amp;gt; &amp;lt;b&amp;gt;&amp;amp;pound;&quot; . $row[9] . &quot;&amp;lt;/b&amp;gt;&amp;lt;/div&amp;gt;&quot;;
+echo &quot;&amp;lt;b&amp;gt;Book description:&amp;lt;/b&amp;gt; &quot; . substr($row[3],0,320) . &quot;...&amp;lt;br /&amp;gt;&amp;lt;hr&amp;gt;&quot;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and I call it in book.php using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+include &quot;include.php&quot;;
+session_start();
+$book=$_SESSION[&#39;booktitle&#39;];
+
+$query = &quot;SELECT * FROM book WHERE booktitle=&#39;$book&#39;&quot;;
+$result = mysqli_query($con, $query) or die(&quot;Error in query $query: &quot; . mysqli_error());
+while ($row = mysqli_fetch_array($result)) {
+echo $row[1];
+} ?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Does anyone know why the same booktitle (1st result) is being echoed out when every link is clicked?&lt;/p&gt;
+
+&lt;p&gt;Any help would be greatly appreciated.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685731</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Condition on date from MySQL with PHP</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="query"/><category scheme="http://stackoverflow.com/feeds/tags" term="time"/>
+        <author>
+            <name>Rad</name>
+            <uri>http://stackoverflow.com/users/1034272</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685731/condition-on-date-from-mysql-with-php" />
+        <published>2013-03-28T15:23:46Z</published>
+        <updated>2013-03-28T15:28:26Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need some help on apparently a simple problem but i cant figure out how it works properly&lt;/p&gt;
+
+&lt;p&gt;I have dates stored in MySQL such as 01/02/2012 07:40:23&lt;/p&gt;
+
+&lt;p&gt;this date is extracted to php in $list[&#39;timeadded&#39;] variable.&lt;/p&gt;
+
+&lt;p&gt;I need to check if the difference between current date and that date is less or equal to 7 days then I will display the difference in term of number of days, otherwise echo closed.&lt;/p&gt;
+
+&lt;p&gt;Can somebody help me figuring this out ?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685706</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How can I make geom_boxplot outliers &quot;line up&quot; with jittered geom_points?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="r"/><category scheme="http://stackoverflow.com/feeds/tags" term="graphics"/><category scheme="http://stackoverflow.com/feeds/tags" term="ggplot"/>
+        <author>
+            <name>MikeTP</name>
+            <uri>http://stackoverflow.com/users/1215379</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685706/how-can-i-make-geom-boxplot-outliers-line-up-with-jittered-geom-points" />
+        <published>2013-03-28T15:23:11Z</published>
+        <updated>2013-03-28T15:27:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How can I make geom_boxplot outliers overlay perfectly with jittered geom_points? &lt;/p&gt;
+
+&lt;p&gt;For example, I want the outliers from geom_boxplot to be displayed as &quot;cross hairs&quot; over their actual points from geom_point after jittering?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(ggplot)
+p &amp;lt;- ggplot(mtcars, aes(factor(cyl), mpg)) + 
+  geom_boxplot(outlier.shape=10, outlier.size=8)  +
+  geom_point(aes(factor(cyl), mpg, color=mpg),  position=&quot;jitter&quot;, size=4)
+p
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/D0jFO.png&quot; alt=&quot;plot&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Any assistance would be greatly appreciated.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685684</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Javascript array association</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="arrays"/>
+        <author>
+            <name>FilipBenes</name>
+            <uri>http://stackoverflow.com/users/1816379</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685684/javascript-array-association" />
+        <published>2013-03-28T15:22:11Z</published>
+        <updated>2013-03-28T15:28:28Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a question about the best way of asociation of two arrays in javascript.
+In &lt;em&gt;items&lt;/em&gt; array the first number indicats the item id serving also as parent id in &lt;em&gt;promos&lt;/em&gt; array.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var items = [
+    [1, &#39;ZAPA BAR&#39;, &#39;50.081809, 14.43036],
+    [2, &#39;SUN Restaurant&#39;, 50.079809, 14.44436],
+    [3, &#39;Jazz Club&#39;, 50.068809, 14.432336]
+]
+
+var promos = [
+    [1, &#39;HAPPY HOURS&#39;]
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Even though I was looking for some javascript function I didn&#39;t find any which would give me the intented result - ZAPA BAR has HAPPY HOURS. &lt;/p&gt;
+
+&lt;p&gt;How to make javascript to compare just the first number in each line (the item id) not the other elements in the array like GPS coordinations. &lt;/p&gt;
+
+&lt;p&gt;The solution should be fast because there will be much more items than three.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685673</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to add new JPanel instance every time i click on JButton in JFrame in java swing</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="swing"/><category scheme="http://stackoverflow.com/feeds/tags" term="jpanel"/>
+        <author>
+            <name>Neha Mane</name>
+            <uri>http://stackoverflow.com/users/2220286</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685673/how-to-add-new-jpanel-instance-every-time-i-click-on-jbutton-in-jframe-in-java-s" />
+        <published>2013-03-28T15:21:44Z</published>
+        <updated>2013-03-28T15:27:42Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i am working in Eclipse.I have added panel from a differnt class extending JPanel to a JFrame of different class.
+I have added a &#39;New&#39; JButton on Frame.I added .setVisible(true); on action Listener event of that button.But when i Press &#39;New&#39; Button it shows the previous instance of JPanel.
+I want to add a new instance of that panel when i press a &#39;New&#39; JButton.
+Need Help.Java is new for me.
+Thanks in advance.......&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685666</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Changing Image Sizes Using Css?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="gallery"/><category scheme="http://stackoverflow.com/feeds/tags" term="lightbox"/>
+        <author>
+            <name>user2220339</name>
+            <uri>http://stackoverflow.com/users/2220339</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685666/changing-image-sizes-using-css" />
+        <published>2013-03-28T15:21:31Z</published>
+        <updated>2013-03-28T15:27:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have been trying for a couple of days now to configure my thumbnail gallery so all the images appear the same height and width. However when I change the Css code to, &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I get images that are all the same size but the aspect ratio is stretched ruining the images. is there not a way to resize the image container and not the image instead? allowing me to keep the aspect ratio. but resize the image still. (I dont mind if i cut off some of the image.)&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685625</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to select few rows having duplicate entries?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="phpmyadmin"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysqli"/>
+        <author>
+            <name>user2220234</name>
+            <uri>http://stackoverflow.com/users/2220234</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685625/how-to-select-few-rows-having-duplicate-entries" />
+        <published>2013-03-28T15:19:48Z</published>
+        <updated>2013-03-28T15:28:25Z</updated>
+        <summary type="html">
+            
+            &lt;pre&gt;&lt;code&gt;SELECT cat.category, cr.course, subcat.subcategory, vd.video_title, vd.video_length, vd.video_id
+    FROM category As cat
+    INNER JOIN subcategory as subcat 
+    ON cat.parent_id=subcat.parent_id
+    INNER JOIN courses As cr
+    ON cr.child_id=subcat.child_id
+    INNER JOIN video_details AS vd
+    ON vd.course_id=cr.course_id
+    WHERE cat.category=&#39;Engineering&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This query returns all the entries in videos_details table matching with category but
+the requirement is to fetch only first five entries from video_details table for each subcategory, of category in where clause.&lt;/p&gt;
+
+&lt;p&gt;The structure is like this
+For each category there are multiple subcategories
+and for each subcategories there are multiple courses
+for each courses there are multiple video records.&lt;/p&gt;
+
+&lt;p&gt;The above query will have multiple duplicate values in subcategory column, so how can I get only five rows of each duplicate value?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685603</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to show javascript (html?) graph in hudson</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="web-applications"/><category scheme="http://stackoverflow.com/feeds/tags" term="hudson"/><category scheme="http://stackoverflow.com/feeds/tags" term="hudson-plugins"/>
+        <author>
+            <name>user1948847</name>
+            <uri>http://stackoverflow.com/users/1948847</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685603/how-to-show-javascript-html-graph-in-hudson" />
+        <published>2013-03-28T15:19:00Z</published>
+        <updated>2013-03-28T15:28:17Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a piece of Javascript (html page??) that displays a graph of some data. The piece of code looks like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+
+    &amp;lt;!--Load the AJAX API--&amp;gt;
+    &amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://www.google.com/jsapi&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://code.jquery.com/jquery-1.7.1.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&quot;text/javascript&quot; src=&quot;stringformat.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+
+           ... script...
+
+    &amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+&amp;lt;!--Div that will hold the line graph--&amp;gt;
+    &amp;lt;div id=&quot;chart_div_netLatency&quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;div id=&quot;chart_div_mamaLatency&quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;div id=&quot;chart_div_fhLatency&quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;div id=&quot;chart_div_totalLatency&quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+    &amp;lt;input id=&quot;date-input&quot; style=margin-left:160px type=&quot;text&quot;  id=&quot;date&quot; name=&quot;date&quot; /&amp;gt;
+    &amp;lt;input type=&quot;button&quot; value=&quot;submit&quot; onClick=&quot;updateData();&quot;/&amp;gt;
+    &amp;lt;p style=margin-left:160px&amp;gt; Date format: YYYY.MM.DD &amp;lt;/p&amp;gt;
+
+    &amp;lt;img  style=margin-left:30px src=&quot;timeline.bmp&quot; alt=&quot;timeline&quot;/&amp;gt;
+
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Could anyone tell me if there&#39;s a way to show the graph produced by this script in Hudson.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685504</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How to show/hide (with animation if possible) a CheckBox within a LongListSelector</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows-phone-7"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows-phone-8"/><category scheme="http://stackoverflow.com/feeds/tags" term="expression-blend"/>
+        <author>
+            <name>Sent1nel</name>
+            <uri>http://stackoverflow.com/users/272446</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685504/how-to-show-hide-with-animation-if-possible-a-checkbox-within-a-longlistselect" />
+        <published>2013-03-28T15:15:01Z</published>
+        <updated>2013-03-28T15:27:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve been trawling the MSDN for hours now and can&#39;t find an example of how to show or hide a CheckBox within a list in Windows Phone 8. An example would be within the messaging application, where the user uses the Application Bar to press a &#39;multiple selection&#39; button. This allows the user to select multiple messages. &lt;/p&gt;
+
+&lt;p&gt;I&#39;ve came across some information about using Expression Blend and the &lt;code&gt;VisualStateManager&lt;/code&gt; but for some reason it does not seem to be capable of applying state groups to a &lt;code&gt;LongListSelector&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;All I want to do is create a list exactly like one within the messaging application of Windows Phone 8? Any help would be much appreciated.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/JVnfW.png&quot; alt=&quot;Before pressing Application Bar Button&quot;&gt; &lt;img src=&quot;http://i.stack.imgur.com/ZqVgE.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685441</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Need to remove all nines from this array</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="collections"/>
+        <author>
+            <name>user2134103</name>
+            <uri>http://stackoverflow.com/users/2134103</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685441/need-to-remove-all-nines-from-this-array" />
+        <published>2013-03-28T15:12:21Z</published>
+        <updated>2013-03-28T15:27:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;need a method which will remove all nines from &quot;myList&quot;. Anything helps, thank you.&lt;/p&gt;
+
+&lt;p&gt;import java.util.ArrayList;&lt;/p&gt;
+
+&lt;p&gt;public class ArrayListPractice 
+{
+    ArrayList  myList = new ArrayList ();&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public ArrayListPractice() 
+{
+    myList.add(6);
+    myList.add(2);
+    myList.add(7);
+    myList.add(3);
+    myList.add(12);
+    myList.add(1);
+    myList.add(9);
+    myList.add(9);
+    myList.add(3);
+    myList.add(5);
+    myList.add(9);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685341</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">User Input - Data Validation</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="winforms"/><category scheme="http://stackoverflow.com/feeds/tags" term="user-input"/><category scheme="http://stackoverflow.com/feeds/tags" term="input-validation"/>
+        <author>
+            <name>Clev231</name>
+            <uri>http://stackoverflow.com/users/1254470</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685341/user-input-data-validation" />
+        <published>2013-03-28T15:08:15Z</published>
+        <updated>2013-03-28T15:28:02Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m accepting a string value from the user via a text box in a form. It is then used in a query against a database table and although it is a string, I require the only characters entered to be whole numbers.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve tried various methods, such as the &lt;code&gt;INT32&lt;/code&gt; and &lt;code&gt;TryParse&lt;/code&gt; functions. However, I run into issues when attempting an &lt;code&gt;IF ELSE&lt;/code&gt; or &lt;code&gt;TRY CATCH&lt;/code&gt; to prevent anything from executing until the input is &#39;acceptable&#39;.&lt;/p&gt;
+
+&lt;p&gt;What is the easiest way to allow whole numbers only to be entered into the text box, or to identify anything but whole numbers and fail the execution?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15685311</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">jQuery JSON Array undefined / not an object</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="json"/><category scheme="http://stackoverflow.com/feeds/tags" term="internet-explorer-8"/><category scheme="http://stackoverflow.com/feeds/tags" term="background-color"/>
+        <author>
+            <name>Roy H</name>
+            <uri>http://stackoverflow.com/users/2051468</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15685311/jquery-json-array-undefined-not-an-object" />
+        <published>2013-03-28T15:07:08Z</published>
+        <updated>2013-03-28T15:28:21Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;As a Javascript novice, I&#39;m having a hard time figuring out the following issue: &lt;/p&gt;
+
+&lt;p&gt;I have an external JSON file with a list of colors. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[
+{&quot;num&quot;: &quot;1B2-5&quot;,&quot;nam&quot;: &quot;burntsienna&quot;,&quot;hex&quot;: &quot;EA7E5D&quot;,&quot;com&quot;: &quot;int2&quot;},
+{&quot;num&quot;: &quot;1B3-5&quot;,&quot;nam&quot;: &quot;cadetblue&quot;,&quot;hex&quot;: &quot;5F9EA0&quot;,&quot;col&quot;: &quot;int1&quot;},
+{&quot;num&quot;: &quot;1B1-6&quot;,&quot;nam&quot;: &quot;chartreuse&quot;,&quot;hex&quot;: &quot;7FFF00&quot;},
+{&quot;num&quot;: &quot;1B2-6&quot;,&quot;nam&quot;: &quot;chocolate&quot;,&quot;hex&quot;: &quot;D2691E&quot;,&quot;com&quot;: &quot;int2&quot;}
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At this point in the code, the background-color value of #background will be equal one of the values in the JSON file. I convert the background-color value to hex, remove the &#39;#&#39; character, and find its index number in the JSON array. I then declare variables for the corresponding properties using the index number. &lt;/p&gt;
+
+&lt;p&gt;I have shortened the code for the purpose of this example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(document).ready(function() {
+$.getJSON(&#39;_js/json.js&#39;, function(colors_list){ 
+
+    var pageColorPre = rgb2hex($(&#39;#background&#39;).css(&#39;background-color&#39;));
+    var pageColor = pageColorPre.toUpperCase().substr(1);
+    var pageColorIndex = findIndexByKeyValue(colors_list, &quot;hex&quot;, pageColor)
+
+    var nameByIndex = colors_list[pageColorIndex].nam
+    var numberByIndex = colors_list[pageColorIndex].num
+    var comByIndex = colors_list[pageColorIndex].com
+
+
+function findIndexByKeyValue(obj, key, value){
+    for (var i = 0; i &amp;lt; obj.length; i++) {
+        if (obj[i][key] == value) {
+        return i;
+        }
+      }
+      return null;
+}
+
+function rgb2hex(rgb) {
+ if (  rgb.search(&quot;rgb&quot;) == -1 ) {
+      return rgb;
+      } else {
+      rgb = rgb.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+))?\)$/);
+      function hex(x) {
+           return (&quot;0&quot; + parseInt(x).toString(16)).slice(-2);
+      }
+      return &quot;#&quot; + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]); 
+      }
+}
+});
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Even though the code works well in Safari, Firefox, and Chrome, when the browser reaches this line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var numberByIndex = colors_list[pageColorIndex].num
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I get the following errors when debugging: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;uncaught TypeError: cannot read property &#39;nam&#39; of undefined. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The code breaks in IE8 with the following message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&#39;colors_list[...] nam&#39;is null or not an object.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I thought perhaps since the &quot;com&quot; and &quot;col&quot; values are sometimes null, not every color has them, that might be an issue. However, I get the same error message even when only declaring a property such as &quot;nam&quot; or &quot;num&quot; which every color has. &lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15684981</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Function in AS3</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="actionscript-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="function"/><category scheme="http://stackoverflow.com/feeds/tags" term="parameters"/><category scheme="http://stackoverflow.com/feeds/tags" term="flash-cs5.5"/>
+        <author>
+            <name>Intan Mega</name>
+            <uri>http://stackoverflow.com/users/2010876</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15684981/function-in-as3" />
+        <published>2013-03-28T14:51:04Z</published>
+        <updated>2013-03-28T15:28:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i try to make a function like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    function splashlafadz(obj:MovieClip):void{
+var varsplash1 = new TimelineMax({delay:3});
+varsplash1.to(obj, 1, {alpha:100, x:427.85, y:208.90, ease:Back.easeOut, delay:1});
+varsplash1.to(obj, 1,{visible:false, delay:3});
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then, i have a movieclip named splash1..how can i apply that function to splash1?
+i try to use &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;splashlafadz.call(splash1);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but it getting error..
+how can i use the function to be used with a different movieclip?&lt;/p&gt;
+
+&lt;p&gt;Can I make a sound a parameter??so each of movieclip have a different sound?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15684543</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to Validate Collection of Times?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="ruby"/><category scheme="http://stackoverflow.com/feeds/tags" term="web-applications"/>
+        <author>
+            <name>Ari</name>
+            <uri>http://stackoverflow.com/users/223963</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15684543/how-to-validate-collection-of-times" />
+        <published>2013-03-28T14:31:52Z</published>
+        <updated>2013-03-28T15:28:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;d like to validate submitted collection of time strings both on the client and server side with javascript/coffeescript and ruby respectively. Upon validation the time values will be stored to the DB. Suggestions on how best to accomplish this are appreciated. Thanks.&lt;/p&gt;
+
+&lt;p&gt;I would like to validate:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The entered time is realizable &lt;/li&gt;
+&lt;li&gt;The time periods in the collection do NOT overlap.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Following is an example set of user submitted data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{&quot;start&quot;: &quot;10:00 AM&quot;, &quot;end&quot;: &quot;11:30 AM&quot;}, 
+ {&quot;start&quot;: &quot;11:30 AM&quot;, &quot;end&quot;: &quot;1:00 PM&quot;}]
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15684261</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Dynamic placement of Gmap pointers</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-maps"/><category scheme="http://stackoverflow.com/feeds/tags" term="typeerror"/>
+        <author>
+            <name>Andr&#233; Figueira</name>
+            <uri>http://stackoverflow.com/users/630193</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15684261/dynamic-placement-of-gmap-pointers" />
+        <published>2013-03-28T14:20:28Z</published>
+        <updated>2013-03-28T15:28:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a positioning system I am working with that uses gmap3.net jquery plugin for Googlemap interactions.&lt;/p&gt;
+
+&lt;p&gt;I can place the pointers without problem when it&#39;s static, but having difficulty doing so dynamically, I know there is an error, I just can&#39;t seem to spot it.&lt;/p&gt;
+
+&lt;p&gt;I managed to get the eval working it was just missing some parenthesis, however, the eval only  detects one object, it seems to ignore everything after a comma.&lt;/p&gt;
+
+&lt;p&gt;So Here is the Javascript which initiates the map change:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    //Clear old map
+    $(&#39;#map&#39;).gmap3(&#39;destroy&#39;).html(&#39;&#39;);
+
+    var ajaxURL = BASE_URL + &#39;ajax/getPeopleNearMe/&#39;;
+
+    $.ajax({
+        type: &#39;POST&#39;,
+        url: ajaxURL,
+        data: { 
+            filter: filter
+        },
+        success: function(data){
+
+            $(&#39;#map&#39;).gmap3({
+                getgeoloc:
+                {
+
+                    callback:function(latLng)
+                    {
+
+                        if(latLng)
+                        {
+
+                            //Found
+                            $(this).gmap3({
+                                marker:
+                                {                       
+                                    values:[eval(&quot;(&quot; + data + &quot;)&quot;],
+                                },
+                                map:
+                                {
+                                  options:
+                                  {
+                                    zoom:12,
+                                    mapTypeControl: false,
+                                    navigationControl: true,
+                                    streetViewControl: false
+                                  }
+
+                              }
+
+                            });
+
+                        } 
+                        else 
+                        {
+
+                            //Not found
+
+                        }
+
+                    }
+
+                }
+
+            });
+
+        }
+    });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then here is the PHP which is called on the get people near me function.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function getPeopleNearMe()
+{
+
+    $apiHandler = new APIHandler();
+
+$result = $apiHandler-&amp;gt;usersWithinRadius();
+
+$json = json_decode($result);
+
+$items = &#39;&#39;;
+
+if($json-&amp;gt;value-&amp;gt;results != null)
+{
+
+    if($json-&amp;gt;value-&amp;gt;numberOfResults &amp;gt; 0)
+    {
+
+        $count = 0;
+
+        foreach($json-&amp;gt;value-&amp;gt;results as $result)
+        {
+
+            $items .= &#39;
+            {
+                latLng:[&#39;.$result-&amp;gt;lat.&#39;,&#39;.$result-&amp;gt;lon.&#39;], 
+                options:
+                {
+                    shadow: 
+                    {
+
+                        url: &quot;&#39;.BASE_URL.&#39;css/png/markerBg.png&quot;,
+                        scaledSize: 
+                        {
+                            width:40,
+                            height:43.5
+                        }
+                    },
+                    icon: 
+                    {
+                        url: &quot;&#39;.$result-&amp;gt;user-&amp;gt;profileImage.&#39;&quot;,
+                        scaledSize: 
+                        {
+                            width:32,
+                            height:32
+                        },
+                        anchor: 
+                        {
+                            x: 16,
+                            y: 40
+                        }
+
+                    }
+
+                }
+
+              }&#39;;
+
+            if($count &amp;lt;= $json-&amp;gt;value-&amp;gt;numberOfResults){ $items .= &#39;,&#39;; $count++;} 
+
+        }
+
+    }
+
+}
+
+
+    echo $items;
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The error I am getting is a type error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;TypeError: &#39;
+                {
+                    latLng:[37.3323,-122.031], 
+                    options:
+                    {
+                        shadow: 
+                        {
+
+                            url: &quot;https://m.hollatme.com/css/png/markerBg.png&quot;,
+                            scaledSize: 
+                            {
+                                width:40,
+                                height:43.5
+                            }
+                        },
+                        icon: 
+                        {
+                            url: &quot;https://www.holla.com/img/resize/aHR0cHM6Ly9ob2xsYS1zdGF0aWMtaW1hZ2VzLnMzLmFtYXpvbmF3cy5jb20vcHJvZmlsZS84My8xMzYxODk2MDE2LmpwZw==/48/48/1&quot;,
+                            scaledSize: 
+                            {
+                                width:32,
+                                height:32
+                            },
+                            anchor: 
+                            {
+                                x: 16,
+                                y: 40
+                            }
+
+                        }
+
+                    }
+
+                  },
+                {
+                    latLng:[37.3343,-122.049], 
+                    options:
+                    {
+                        shadow: 
+                        {
+
+                            url: &quot;https://m.hollatme.com/css/png/markerBg.png&quot;,
+                            scaledSize: 
+                            {
+                                width:40,
+                                height:43.5
+                            }
+                        },
+                        icon: 
+                        {
+                            url: &quot;https://www.holla.com/img/resize/aHR0cHM6Ly9ob2xsYS1zdGF0aWMtaW1hZ2VzLnMzLmFtYXpvbmF3cy5jb20vcHJvZmlsZS8xNDEva2F5c2FtcGxlLmpwZw==/48/48/1&quot;,
+                            scaledSize: 
+                            {
+                                width:32,
+                                height:32
+                            },
+                            anchor: 
+                            {
+                                x: 16,
+                                y: 40
+                            }
+
+                        }
+
+                    }
+
+                  },
+                {
+                    latLng:[37.3323,-122.031], 
+                    options:
+                    {
+                        shadow: 
+                        {
+
+                            url: &quot;https://m.hollatme.com/css/png/markerBg.png&quot;,
+                            scaledSize: 
+                            {
+                                width:40,
+                                height:43.5
+                            }
+                        },
+                        icon: 
+                        {
+                            url: &quot;https://www.holla.com/img/resize/aHR0cHM6Ly9ob2xsYS1zdGF0aWMtaW1hZ2VzLnMzLmFtYXpvbmF3cy5jb20vcHJvZmlsZS8xNDIvMTM5Mzk0MF80NDcwMDYwOC5qcGc=/48/48/1&quot;,
+                            scaledSize: 
+                            {
+                                width:32,
+                                height:32
+                            },
+                            anchor: 
+                            {
+                                x: 16,
+                                y: 40
+                            }
+
+                        }
+
+                    }
+
+                  },&#39; is not a valid argument for &#39;in&#39; (evaluating &#39;&quot;address&quot; in O[L]&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I beleive the problem is that its seeing the data var as a string rather than an object.... But Have tried eval with no luck, not sure what else I could do... Thanks in advance!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15684189</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">(fluent) nHibernate not deleting items from collection when the business object is constructed by a contract converter</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="nhibernate"/><category scheme="http://stackoverflow.com/feeds/tags" term="fluent-nhibernate"/>
+        <author>
+            <name>Magicpork</name>
+            <uri>http://stackoverflow.com/users/1557527</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15684189/fluent-nhibernate-not-deleting-items-from-collection-when-the-business-object" />
+        <published>2013-03-28T14:16:45Z</published>
+        <updated>2013-03-28T15:28:04Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve been searching the answer to my questions for a few days and I&#39;ve tried most of tips/answers and even looked through hundred of lines of logs generated by nHibernate, but I can&#39;t find a way to get my mapping working.. nHiberante still refuses to generate any delete statement when it&#39;s asked to SaveOrUpdate.&lt;/p&gt;
+
+&lt;p&gt;I have three separate entities, Person, House and Room... in the real word, each Person will have one house and each house can have multiple rooms, the mapping between house and room is one-to-many as expected, and I wanted a one-to-one mapping between Person and House then I read on the fluent nHibernate wiki that says it&#39;s really a many(Person)-to-one(house) because there&#39;s nothing at the database level that stops multiple persons sharing the same house. I guess that makes sense so I have my database schema and  class map designed as below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE TABLE [dbo].[Person](
+    [PersonId] [int] IDENTITY(1,1) NOT NULL,
+    [HouseId] [int] NOT NULL
+)
+
+CREATE TABLE [dbo].[House](
+    [HouseId] [int] IDENTITY(1,1) NOT NULL,
+    [HouseName] [varchar](500) NOT NULL
+)
+
+CREATE TABLE [dbo].[Room](
+    [RoomId] [int] IDENTITY(1,1) NOT NULL,
+    [HouseId] [int] NOT NULL
+)
+
+
+HouseId on [Person] and [Room] are both foreign keys referencing HouseId from [House] table
+
+    public class PersonMap : ClassMap&amp;lt;Person&amp;gt;
+    {
+        public PersonMap()
+        {
+            Table(&quot;Person&quot;)
+            Id (x=&amp;gt;x.Id).Column(&quot;PersonId&quot;).GeneratedBy.Identity().UnsavedValue(0);
+            Reference(x=&amp;gt;x.House).Column(&quot;HouseId&quot;).ForeignKey(&quot;HouseId&quot;).Not.LazyLoad().Cascade.All();
+        }
+    }
+
+    public class HouseMap : HouseMap&amp;lt;Room&amp;gt;
+    {
+        public RoomMap()
+        {
+            Table(&quot;House&quot;)
+            Id (x=&amp;gt;x.Id).Column(&quot;HouseId&quot;).GeneratedBy.Identity().UnsavedValue(0);
+
+            HasMany(x =&amp;gt; x.Persons)
+                .KeyColumn(&quot;HouseId&quot;)
+                .Not.LazyLoad()
+                .Cascade.AllDeleteOrphan().Inverse();
+
+            HasMany(x =&amp;gt; x.Rooms)
+                .KeyColumn(&quot;HouseId&quot;)
+                .Not.LazyLoad()
+                .Cascade.AllDeleteOrphan().Inverse();
+        }
+    }
+
+    public class RoomMap : ClassMap&amp;lt;Room&amp;gt;
+    {
+        public RoomMap()
+        {
+            Table(&quot;Room&quot;)
+            Id (x=&amp;gt;x.Id).Column(&quot;RoomId&quot;).GeneratedBy.Identity().UnsavedValue(0);
+            Reference(x=&amp;gt;x.House).Column(&quot;HouseId&quot;).ForeignKey(&quot;HouseId&quot;).Not.LazyLoad().Cascade.All();
+        }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The class House holds two lists of type Person and Room respectively, and the class Person and Room both holds a reference back to the House object.&lt;/p&gt;
+
+&lt;p&gt;So I created an instance of House and set its two child lists Person(one 1) and Room(multiple rooms), and also link the properties of Person/Rooms back to House..and use session.SaveOrUpdate to save the Person it all works well.&lt;/p&gt;
+
+&lt;p&gt;Then I tried retrieve a instance of Person, and remove a room from Person.House.List and set room.House to null to fully break the reference, then use session.SaveOrUpdate to save the Person again (let&#39;s call it Person A), , nHibernate correctly generated delete statement to delete the orphan room that&#39;s not linked to its parent House any more.. so far so good...&lt;/p&gt;
+
+&lt;p&gt;Here is where my problem starts...in my application, I need to convert the object Person to a PersonContract and then sent it to the client, the client has the ability to remove a roomContract from PersonContract.HouseContract and send a copy of PersonContract back. Note in PersonContract, there&#39;re no bilateral reference, i.e. PersonContract has one property of HouseContract and HouseContract only contains a list of RoomContract so HouseContract does not keep a list of PersonContract and RoomContract doesn&#39;t have a HouseContract property.&lt;/p&gt;
+
+&lt;p&gt;Then on the server side, I&#39;ll convert the PersonContract back to a Person object and the converter is responsible for creating all new instances of Person,Room and houses and setting their Ids and build all bilateral references between them.&lt;/p&gt;
+
+&lt;p&gt;The problem is... when I then use session.SaveOrUpdate on the Person object (after contract conversion), nHibernate seems to ignore the fact a room has been removed from the collection but it does the update or insert job well..&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve carefully checked my contract converter to make sure all properties/references/Ids are properly set, and it looks exactly the same copy as the Person A above...but I don&#39;t understand why nHibernate is not doing the job here.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve overridden both Equals and GetHashCode on Person/Room/House to return its id.&lt;/p&gt;
+
+&lt;p&gt;Another fact I observed is when I use session.SaveOrUpdate on the after-conversion Person object, nHibernate is generating lots of Update statements even though the value hasn&#39;t really changed, it looks as if nHibernate is not aware of the state of the persisted Person object so choose to update everything by identifying it using Id...&lt;/p&gt;
+
+&lt;p&gt;I&#39;m quite new to nHibernate...so please let me know if I&#39;m doing something horribly wrong here :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: If I remove Inverse from one-to-many mapping between House and Room, then nHibernate will set the house ID of removed Room to NULL...better than not removing room at all but I really want it to remove orphaned rooms from DB..&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 2&lt;/strong&gt;: session.Merge on Person is working (SaveOrUpdate doesn&#39;t)....though I don&#39;t understand know why..&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15681667</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to save and open variables to a file using tkFileDialog?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python-2.7"/><category scheme="http://stackoverflow.com/feeds/tags" term="tkinter"/>
+        <author>
+            <name>lokesh</name>
+            <uri>http://stackoverflow.com/users/2173476</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15681667/how-to-save-and-open-variables-to-a-file-using-tkfiledialog" />
+        <published>2013-03-28T12:20:32Z</published>
+        <updated>2013-03-28T15:28:07Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to save few variables in a file using tkFileDialog save option.  and in later part i have to retrieve the same variables. i am not getting any idea how to do that.&lt;/p&gt;
+
+&lt;p&gt;Thank you&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15679838</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Using lawnchair with Typescript</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="local-storage"/><category scheme="http://stackoverflow.com/feeds/tags" term="typescript"/><category scheme="http://stackoverflow.com/feeds/tags" term="lawnchair"/>
+        <author>
+            <name>Grofit</name>
+            <uri>http://stackoverflow.com/users/476660</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15679838/using-lawnchair-with-typescript" />
+        <published>2013-03-28T10:50:18Z</published>
+        <updated>2013-03-28T15:27:44Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Got a simple problem, which was touched upon in a similar question around the &quot;this&quot; scope with typescript.&lt;/p&gt;
+
+&lt;p&gt;I have a storage service which wraps lawnchair for my local storage concerns. Now I am migrating this code over to Typescript I have come to an issue I cannot solve.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public GetAll(callback: Function) {
+           Lawnchair({ name: this.storeName }, function () {
+                this.all(callback);
+            });
+        };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now in the example above lawnchair makes &lt;em&gt;this&lt;/em&gt; become the actual store you are actioning, but Typescript will make it become the instance of the class you are using. So is there a way around this issue?&lt;/p&gt;
+
+&lt;p&gt;== Edit ==&lt;/p&gt;
+
+&lt;p&gt;Updated the question example slightly as to not confuse with the underlying lawnchair method and the surrounding classes method.&lt;/p&gt;
+
+&lt;p&gt;Here is the error I get when trying to compile:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The property &#39;all&#39; does not exist on value of type
+  &#39;LawnchairStorageService&#39;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Which is correct, that method does NOT exist on the containing class instance, it exists within the context of the lawnchair closure scopes &lt;em&gt;this&lt;/em&gt;.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15674900</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Fix multiple middle mouse click</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="windows"/><category scheme="http://stackoverflow.com/feeds/tags" term="autohotkey"/>
+        <author>
+            <name>Ben</name>
+            <uri>http://stackoverflow.com/users/1294207</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15674900/fix-multiple-middle-mouse-click" />
+        <published>2013-03-28T05:33:05Z</published>
+        <updated>2013-03-28T15:27:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Basically I have an issue where the middle mouse button when clicked does multiple very fast middle mouses. For example, if I open a link in a new tab with middle mouse it will open about 10 of that tab. I have tried all of the conventional methods to fix it, ie. driver fixes etc. What I want to try now is a bit of mouse debouncing with AHK (Auto Hot Key) for windows. &lt;/p&gt;
+
+&lt;p&gt;Essentially what I am thinking is to do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;while (forever)
+    if( capture the middle mouse)
+        sleep 500 ms
+        mouse click
+    end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Can anyone give some advice with this approach?&lt;/p&gt;
+
+&lt;p&gt;Alternatively i thought about making a middle mouse hotkey:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$MButton::  
+Loop  
+{
+sleep 500
+if not GetKeyState(&quot;MButton&quot;, &quot;P&quot;) 
+    break  ; Break out of the loop.
+}
+send {MButton}
+return
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Can anyone see any problems with this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15665552</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">jQuery UI Focus Stealing</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery-ui"/><category scheme="http://stackoverflow.com/feeds/tags" term="modal-dialog"/>
+        <author>
+            <name>Tarik</name>
+            <uri>http://stackoverflow.com/users/44852</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15665552/jquery-ui-focus-stealing" />
+        <published>2013-03-27T17:33:45Z</published>
+        <updated>2013-03-28T15:27:47Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Whenever I type something in the following Insert Hyperlink text input, all the words are going to &lt;code&gt;textarea&lt;/code&gt; behind it. OK and Cancel buttons are working fine but I cannot focus to text input.&lt;/p&gt;
+
+&lt;p&gt;We&#39;are using jQuery UI 1.10.1. It was working nicely with previous version of jQuery which was 1.8.x. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/BStcC.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve checked code behind of jQuery and it has the following methods called when opening a Modal Dialog:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;_focusTabbable: function () {
+    // Set focus to the first match:
+    // 1. First element inside the dialog matching [autofocus]
+    // 2. Tabbable element inside the content element
+    // 3. Tabbable element inside the buttonpane
+    // 4. The close button
+    // 5. The dialog itself
+    var hasFocus = this.element.find(&quot;[autofocus]&quot;);
+    if (!hasFocus.length) {
+        hasFocus = this.element.find(&quot;:tabbable&quot;);
+    }
+    if (!hasFocus.length) {
+        hasFocus = this.uiDialogButtonPane.find(&quot;:tabbable&quot;);
+    }
+    if (!hasFocus.length) {
+        hasFocus = this.uiDialogTitlebarClose.filter(&quot;:tabbable&quot;);
+    }
+    if (!hasFocus.length) {
+        hasFocus = this.uiDialog;
+    }
+    hasFocus.eq(0).focus();
+},
+
+_keepFocus: function (event) {
+    function checkFocus() {
+        var activeElement = this.document[0].activeElement,
+            isActive = this.uiDialog[0] === activeElement ||
+                $.contains(this.uiDialog[0], activeElement);
+        if (!isActive) {
+            this._focusTabbable();
+        }
+    }
+    event.preventDefault();
+    checkFocus.call(this);
+    // support: IE
+    // IE &amp;lt;= 8 doesn&#39;t prevent moving focus even with event.preventDefault()
+    // so we check again later
+    this._delay(checkFocus);
+},
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;that is taken from here: &lt;a href=&quot;http://code.jquery.com/ui/1.10.1/jquery-ui.js&quot; rel=&quot;nofollow&quot;&gt;http://code.jquery.com/ui/1.10.1/jquery-ui.js&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10384307</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Configure GridFS Chunksize in MongoDB</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mongodb"/><category scheme="http://stackoverflow.com/feeds/tags" term="gridfs"/>
+        <author>
+            <name>Matthias Huttar</name>
+            <uri>http://stackoverflow.com/users/1365872</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10384307/configure-gridfs-chunksize-in-mongodb" />
+        <published>2012-04-30T13:13:37Z</published>
+        <updated>2013-03-28T15:28:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m currently investigating to use MongoDB for storing E-Mail data. As E-Mails may become rather big in size (say 10 megs). &lt;/p&gt;
+
+&lt;p&gt;I believe that GridFS would be a good fit for this. What scares me a bit tough is, that the docs are not very clear about the shard size within gridFS. 
+From what I understand is, that the shard size in gridFS is not equal to the normal shard size but defaults to 256kb. Which sounds to me like a big waste of space, as many e-mails will not exceed 50kb in size.  &lt;/p&gt;
+
+&lt;p&gt;Is there a way to configure the shard size of files in GridFS to make it more adequate for storing mails? &lt;/p&gt;
+
+&lt;p&gt;Cheers, 
+Matthias&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/2531660</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Help with JPQL query</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jpa"/><category scheme="http://stackoverflow.com/feeds/tags" term="jpql"/><category scheme="http://stackoverflow.com/feeds/tags" term="openjpa"/>
+        <author>
+            <name>Robert</name>
+            <uri>http://stackoverflow.com/users/209794</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/2531660/help-with-jpql-query" />
+        <published>2010-03-28T02:12:58Z</published>
+        <updated>2013-03-28T15:28:03Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have to query a &lt;code&gt;Message&lt;/code&gt; that is in a provided list of &lt;code&gt;Groups&lt;/code&gt; and has not been &lt;code&gt;Deactivated&lt;/code&gt; by the current user. Here is some pseudo code to illustrate the properties and entities:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Message {
+  private int messageId; 
+  private String messageText;
+}
+
+class Group {
+  private String groupId;
+  private int messageId;
+}
+
+class Deactivated {
+  private String userId;
+  private int messageId;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is an idea of what I need to query for, it&#39;s the last AND clause that I don&#39;t know how to do (I made up the compound &lt;code&gt;NOT IN&lt;/code&gt; expression). Filtering the deactivated messages by userId can result in multiple messageIds, how can I check if that subset of rows does not contain the messageId?&lt;/p&gt;
+
+&lt;pre&gt;SELECT msg FROM Message msg, Group group, Deactivated unactive
+WHERE 
+  group.messageId = msg.messageId 
+  AND (group.groupId = &#39;groupA&#39; OR group.groupId = &#39;groupB&#39; OR ...) 
+  AND (&#39;someUserId&#39;, msg.messageId) NOT IN (unactive.userId, unactive.messageId)&lt;/pre&gt;
+
+&lt;p&gt;Note: The &lt;code&gt;...&lt;/code&gt; is there because I don&#39;t know the number of groupIds ahead of time. I receive them as a &lt;code&gt;Collection&amp;lt;String&amp;gt;&lt;/code&gt; so I&#39;ll need to traverse them and add them to the JPQL dynamically.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

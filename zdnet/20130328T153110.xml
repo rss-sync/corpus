@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:s="http://www.zdnet.com/search" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <link>http://www.zdnet.com/</link>
+    <title>Latest Blog for ZDNet</title>
+    <description>Latest Blog for ZDNet</description>
+    <language>en</language>
+    <copyright>ZDNet</copyright>
+    <managingEditor>customerservice@zdnet.com (ZDNet Customer Services)</managingEditor>
+    <webMaster>uk-engineering@cbsinteractive.com (ZDNet Webmaster)</webMaster>
+    <pubDate>Thu, 28 Mar 2013 15:31:10 +0000</pubDate>
+    <lastBuildDate>Thu, 28 Mar 2013 15:31:10 +0000</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <ttl>2</ttl>
+    <image>
+      <url>http://i.zdnet.com/images/spry/zdnet_300x300.jpg</url>
+      <link>http://www.zdnet.com/</link>
+      <title>Latest Blog for ZDNet</title>
+      <width>143</width>
+      <height>39</height>
+    </image>
+    <s:counts>
+      <start>0</start>
+      <return>20</return>
+      <found>41554</found>
+    </s:counts>
+    <item>
+      <guid isPermaLink="false">7000013256</guid>
+      <link><![CDATA[http://www.zdnet.com/nstic-led-id-plan-earmarks-4-million-to-secure-state-government-services-7000013256/]]></link>
+      <title><![CDATA[NSTIC-led ID plan earmarks $4 million to secure state government services]]></title>
+      <description><![CDATA[NSTIC and the Office of Management and Budget hope secure ID credentials add security, accuracy, speed to state, local government benefit programs online .]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 15:09:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[John Fontana]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-privacy/">Privacy</category>
+      <category domain="http://www.zdnet.com/topic-security/">Security</category>
+      <media:text type="html"><![CDATA[<p>The two-year-old initiative to create an identity layer for the Internet is backing a set of projects aimed at creating identity-based security to support state and local government services online.</p>
+<p>The National Program Office (NPO) of the National Strategy for Trusted Identities in Cyberspace (NSTIC) is working with the Office of Management and Budget (OMB) to fund at least <a href="http://fundedpilots.community.collaborativeforumonline.com/trusted-online-credentials-for-state-agencies">two projects that would split up to $4 million</a> and be aimed at developing verification systems to support citizen access to any number of services or agencies. A call for project proposals will go out in the next 45 days.</p>
+<p>The projects eventually selected will be aimed at showcasing integration with the NSTIC "identity ecosystem." Selection will favor projects that "demonstrate the potential for interoperability of an identity credential from a private identity provider with both state and federal programs."</p>
+<p>The idea is that a secure credential will not only facilitate use of services, but stimulate efforts to bring more services online and to make all services more secure. The hope is that the secure credential will integrate across agencies, speed up activation of services, and help track that the proper payments make it to the correct citizens.</p>
+<p>This is the second round of pilot programs NSTIC has launched this year. The earlier round, which drew 70 respondents, was a general call for plans to help build out NSTIC's proposed identity ecosystem.</p>
+<p>In Sept. 2012, the initial set of <a href="http://www.zdnet.com/nstic-launches-pilot-programs-with-9-million-in-grants-7000004639/">NSTIC pilot grants awarded $9 million to five projects</a>. The projects include a program within the <a href="http://www.zdnet.com/dmv-driving-virginias-next-gen-identity-system-7000012954/">Commonwealth of Virginia for creating a shared authentication across state agencies</a>.</p>
+<p>These new specific state and local government pilots will be funded by the OMB's Partnership Fund for Program Integrity Innovation, which is a federal program established by Congress in 2010.</p>
+<p>The Fund enables federal, state, local, and tribal agencies to pilot ideas for improving assistance programs in a controlled environment. NSTIC thinks state governments add value to its identity ecosystem strategy not only as credential providers, so-called identity providers (IdP) but, more important, as relying parties.</p>
+<p>Relying parties are those sites that agree to trust credentials issued by an IdP. To date, it has been difficult finding sites and organizations willing to be relying parties.</p>
+<p>There are other major hurdles involved in injecting identity into public benefits programs, including privacy, data storage, and high costs.</p>
+<p>As part of the NSTIC-OMB announcement, the pair gave these examples of issues that need to be addressed in any state government program:</p>
+<ul>
+<li>Concerns about applicant and beneficiary privacy, such as concerns that identity proofing techniques may be too intrusive, as well as concerns that data collected will be inappropriately shared with other programs or parties.</li>
+<li>Difficulties conducting identity proofing and ensuring that commonly-used identity proofing approaches can adequately cover the beneficiary population.</li>
+<li>High per-user costs of many identity solutions, some of which even exceed the budgets of agencies, particularly when the solution would only be used in a single service, as well as challenges demonstrating the ability to show how costs could be recovered.</li>
+<li>Security challenges faced by some states in demonstrating an ability to securely store sensitive information.</li>
+</ul>
+<p>NISTIC hopes that the pilot program will produce&nbsp;trusted online credentials that meet its four guiding principles &ndash; that identity solutions be privacy-enhancing and voluntary; secure and resilient; interoperable, and; cost-effective and easy to use.&nbsp;</p>
+<p>&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013255</guid>
+      <link><![CDATA[http://www.zdnet.com/mapr-canonical-bring-hadoop-to-ubuntu-7000013255/]]></link>
+      <title><![CDATA[MapR, Canonical bring Hadoop to Ubuntu]]></title>
+      <description><![CDATA[Linux and Hadoop vendors make Ubuntu-integrated MapR M3 available for download.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 15:08:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Andrew Brust]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p><a href="http://www.mapr.com">MapR</a>, a "Big 3" Hadoop provider, is partnering with <a href="http://www.canonical.com">Canonical</a> to make Hadoop an even bigger phenomenon than it is already. &nbsp;Specifically, the companies are making an Ubuntu-integrated MapR M3 distribution available for download.</p>
+<p>MapR M3 will be bundled with Ubuntu 12.04 LTS and 12.10 via the Ubuntu Partner Archive, and MapR's M5 distribution will be certified for Ubuntu, too.</p>
+<p>The two companies are also working together to develop a "Juju charm" to facilitate deployment of MapR into OpenStack cloud environments. &nbsp;The charm should be available by April 25th.</p>
+<p>As a kicker, MapR is making the source code for the component packages of its Hadoop distro&nbsp;publicly&nbsp;available on GitHub.</p>
+<p><strong>Pervasive Hadoop<br /></strong>If Hadoop is the de facto operating system for Big Data, then it certainly makes sense that it be part of a popular, general computing operating system, and deployable to open source cloud computing infrastructure. &nbsp;And given MapR's integration in, and partnerships with, Amazon Web Services Elastic MapReduce, Google Compute Engine and now Ubuntu Linux, the San Jose, CA company is taking a lead in embedded Hadoop trend.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013253</guid>
+      <link><![CDATA[http://www.zdnet.com/busy-week-for-windows-phone-includes-pandora-evernote-and-lumia-920-updates-7000013253/]]></link>
+      <title><![CDATA[Busy week for Windows Phone includes Pandora, Evernote, and Lumia 920 updates]]></title>
+      <description><![CDATA[Windows Phone development continues at a healthy pace with app releases and updates, new and exciting games, and firmware updates for the Nokia Lumia 920.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 14:32:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Matthew Miller]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-nokia/">Nokia</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-windows-phone/">Windows Phone</category>
+      <media:text type="html"><![CDATA[<p>This past week has been a great one for Windows Phone with the release, finally, of <a href="http://www.windowsphone.com/en-us/store/app/pandora/de2df279-485d-49bb-b53e-3f6a2a9401c1">Pandora</a>, an huge update to <a href="http://blog.evernote.com/blog/2013/03/27/evernote-for-windows-phone-update-redesigned-home-screen-shortcuts-better-tags-lists-and-more/">Evernote</a>, and game releases that include Temple Run and Run! Gravity Guy 2. We also saw a firmware update for the Nokia Lumia 920 and updates made to other Nokia HERE apps. Windows Phone is an exciting platform and it appears that developers are definitely interested.</p>
+<h3>Pandora</h3>
+<figure class="alignRight"><img title="Busy week for Windows Phone includes Pandora, Evernote, and Lumia 920 updates" alt="Busy week for Windows Phone includes Pandora, Evernote, and Lumia 920 updates" src="http://cdn-static.zdnet.com/i/r/story/70/00/013253/pandorawp-200x333.png?hash=AzR2LwLmLJ&upscale=1" height="333" width="200"></figure>
+<p>Pandora is one of those apps that people put on a checklist of must-have apps for a mobile operating system. Microsoft announced it was coming back at the Windows Phone 8 launch event and it has taken far longer than I thought to finally hit the Windows Phone Store. I installed it and will use it at times, but personally prefer using <a href="http://www.zdnet.com/microsoft-reveals-the-one-music-service-to-rule-them-all-with-xbox-music-7000005756/">Xbox Music</a> and <a href="http://www.zdnet.com/nokia-music-launches-in-the-us-for-3-99-per-month-7000011557/">Nokia Music</a>.</p>
+<h3>Evernote update</h3>
+<p>Evernote is one of my favorite apps, but the Windows Phone version has always lagged a bit behind the Android and iOS versions. This <a href="http://blog.evernote.com/blog/2013/03/27/evernote-for-windows-phone-update-redesigned-home-screen-shortcuts-better-tags-lists-and-more/">latest update</a> is a major improvement that makes Evernote one of my favorites on Windows Phone again.</p>
+<p>As you can see in the Evernote blog post, the home screen has been redesigned for quick note creation. You can also create shortcuts for notes that appear on this new home screen experience.</p>
+<p>Many folks tag their notes and in the past this was a bit cumbersome on the phone. Evernote improved this functionality, following a Windows Phone index format.</p>
+<p>One of the biggest improvements for me personally that will get my wife and I back on using Evernote for my Honey Do List is the support for checkboxes. In order to use Evernote for my lists, I need these and am pleased to see them included.</p>
+<h3>New games</h3>
+<p>We are seeing a bunch of new game releases on Windows Phone, including <a href="http://www.wpcentral.com/run-even-more-free-temple-run-windows-phone-8">Temple Run</a> and <a href="http://www.wpcentral.com/run-gravity-guy-2-now-exclusively-available-windows-phone-8">Run! Gravity Guy 2</a>, which is actually an exclusive for the Windows Phone 8 platform. Imagine that, a new game coming to Windows Phone before iOS.</p>
+<p>Windows Phone Central also posted that <a href="http://www.wpcentral.com/temple-run-more-games-coming">several more games</a> are coming to Windows Phone 8 soon, in celebration of the Game Developers Conference being held this week. New game titles include 6th Planet, Fling Theory, Orcs Must Survive, Ruzzle and Propel Man.</p>
+<p><strong>Related stories</strong></p>
+<ul>
+<li><a href="http://www.zdnet.com/nokia-lumia-920-or-htc-windows-phone-8x-a-purchase-made-with-the-head-instead-of-the-heart-7000007211/">Nokia Lumia 920 or HTC Windows Phone 8X; a purchase made with the head instead of the heart</a></li>
+<li><a href="http://www.zdnet.com/at-and-t-and-nokia-release-lumia-920-update-with-wifi-and-camera-fixes-7000009040/">AT&amp;T and Nokia release Lumia 920 update with WiFi and camera fixes</a></li>
+<li><a href="http://www.zdnet.com/high-school-basketball-video-test-updated-nokia-lumia-920-optical-image-stabilization-shows-off-7000008849/">High school basketball video test (updated): Nokia Lumia 920 optical image stabilization shows off</a></li>
+<li><a href="http://www.zdnet.com/nokia-lumia-accessory-lineup-may-get-customers-to-try-windows-phone-8-7000006931/">Nokia Lumia accessory lineup may get customers to try Windows Phone 8</a></li>
+<li><a href="http://www.zdnet.com/microsoft-windows-phone-8-guide-are-these-improvements-to-a-great-os-enough-7000006486/">Microsoft Windows Phone 8 guide: Are these improvements to a great OS enough?</a></li>
+<li><a href="http://www.zdnet.com/blog/cell-phones/another-zdnet-great-debate-lost-still-not-giving-up-on-windows-phone/7632">Another ZDNet Great Debate lost, still not giving up on Windows Phone</a></li>
+</ul>
+<h3>Nokia Lumia 920 and HERE updates</h3>
+<p>I turned on my Nokia Lumia 920 and saw there was a new <a href="http://www.wpcentral.com/att-nokia-lumia-920-1308-firmware-update-now-available">firmware update available</a> and understand it improves image quality, improves automatic display brightness adjustment, adds a handy storage tools utility, and more.</p>
+<p>I like the new storage utility that lets you see the details of where your 32GB is going on the device. You can clear out temporary storage, saved me 1.5GB of memory, and also note how much apps, media, and more is consuming.</p>
+<p>Nokia's HERE apps were all updated and they were likely just performance tweaks. Nokia also <a href="http://www.wpcentral.com/nokia-updates-two-systems-apps-lumia-line">updated a couple system apps</a> for their Lumia devices.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013251</guid>
+      <link><![CDATA[http://www.zdnet.com/lazaridis-bows-out-at-blackberry-7000013251/]]></link>
+      <title><![CDATA[Lazaridis bows out at BlackBerry]]></title>
+      <description><![CDATA[Mike Lazaridis, the legendary businessman that founded the former Research in Motion, will retire, the company announced this morning.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 14:21:08 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Andrew Nusca]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <media:text type="html"><![CDATA[<figure><img title="rim_mike_lazaridis-photo-med" alt="rim_mike_lazaridis-photo-med" src="http://cdn-static.zdnet.com/i/r/story/70/00/013251/rimmikelazaridis-photo-med-500x365.jpg?hash=BQOuMTR3Lm&upscale=1" height="365" width="500"><figcaption>Photo: BlackBerry</figcaption></figure>
+<p>It is the end of yet another era at the former Research in Motion.</p>
+<p>During its quarterly earnings call this morning, the newly-christened BlackBerry announced that Mike Lazaridis will retire as vice chairman and director of the Canadian company on May 1. The move, while mostly symbolic, is the latest milestone in the company's turnaround effort in which it replaced its leadership team and shed employees in response to rapidly declining revenues.</p>
+<!-- Parsed pinbox:"10116988" -->
+<div class="relatedContent alignRight"><h3>It's looking up for BlackBerry</h3><ul>
+<li><a href="http://www.zdnet.com/from-cars-to-keyboards-how-to-deal-with-fragmentation-the-blackberry-way-7000012968/">How to deal with fragmentation the BlackBerry way</a></li>
+
+<li><a href="http://www.zdnet.com/blackberry-z10-teardown-7000013091/">BlackBerry Z10 teardown</a></li>
+
+<li><a href="http://www.zdnet.com/blackberry-10-a-better-android-than-android-7000012967/">BlackBerry 10: A better Android than Android?</a></li>
+
+<li><a href="http://www.zdnet.com/blackberry-earnings-10-key-things-ceo-thorsten-heins-said-on-the-call-7000013249/">BlackBerry earnings: 10 key points</a></li>
+</ul></div>
+<p>"Mike revolutionized the mobile communications industry and is widely recognized as one of Canada's greatest innovators," chief executive Thorsten Heins said. "He's played a pivotal role in the last 15 months with the launch of BlackBerry 10. I deeply respect his desire to devote his full-time efforts to his new venture."</p>
+<p>That new venture is&nbsp;<a href="http://quantumvalleyinvestments.com">Quantum Valley Investments</a>, a $100 million investment fund that is focused on commercial applications in quantum information science. His interest in the field has been long-established, and&nbsp;his name adorns the "Quantum-Nano Centre" at the University of Waterloo in Canada. Lazaridis has indicated his interest in building a "Quantum Valley" in Canada.</p>
+<p>Lazaridis famously&nbsp;co-founded RIM almost 30 years ago. Until last year, he served as a co-CEO of the company alongside Jim Balsillie. The pair were a force to be reckoned with during RIM's "CrackBerry" heyday, when everyone on Capitol Hill seemed to have one and owners proudly displayed their "BlackBerry thumb" injuries. But they were increasingly seen as out-of-touch and a liability as the company's fortunes reversed when the mobile market moved to favor touchscreen devices. Under fire from investors (and virtually everyone else), the duo handed the reins over to Heins, then the company's chief operating officer.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013249</guid>
+      <link><![CDATA[http://www.zdnet.com/blackberry-earnings-10-key-things-ceo-thorsten-heins-said-on-the-call-7000013249/]]></link>
+      <title><![CDATA[BlackBerry earnings: 10 key things CEO Thorsten Heins said on the call]]></title>
+      <description><![CDATA[BlackBerry's earnings were better than expected, but still a mixed bag. Here are 10 points of interest chief executive Thorsten Heins made on the call that followed.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 13:38:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Andrew Nusca]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <media:text type="html"><![CDATA[<figure><img title="blackberry-ceo-thorsten-heins-med" alt="blackberry-ceo-thorsten-heins-med" src="http://cdn-static.zdnet.com/i/r/story/70/00/013249/blackberry-ceo-thorsten-heins-med-619x413.png?hash=LzH2LmZkLG&upscale=1" height="413" width="619"><figcaption>BlackBerry CEO Thorsten Heins during the BB10 launch in January 2013. (Photo: BlackBerry)</figcaption></figure>
+<p>So! The quarterly fiscal results for BlackBerry, the mobility company formerly known as RIM, were announced this morning.</p>
+<p>They were better than expected (one million Z10 smartphones sold!), but still a bit mixed. You can<a href="http://www.zdnet.com/blackberry-q4-better-than-expected-1m-blackberry-z10-devices-sold-7000013220/"> read the numbers in Zack Whittaker's news hit here</a> and piece them together <a href="http://www.zdnet.com/blackberry-q4-lives-to-die-another-day-7000013239/">in his follow-on analysis here</a>.</p>
+<p>Chief executive Thorsten Heins and CFO Brian Bidulka elaborated during a subsequent call with investors. They had quite a few interesting things to say.</p>
+<p>Ten quotes to note, plus my translations, below:</p>
+<p>1.)&nbsp;<strong>"It has not been easy, but the BlackBerry team is delivering."</strong> It's a brutally competitive market, and the former RIM was spinning its wheels in despair. Just getting the restructured company (approx. 12,700 employees) to set goals and meet them has been a fundamental achievement and improvement.</p>
+<p>2.)&nbsp;<strong>"We're seeing a new attitude and cultural shift in the company where we look to innovate faster and [ask] how to operate more efficiently."</strong> The worst of our existential crisis is behind us. We're looking forward.</p>
+<p>3.)&nbsp;<strong>"Revenues for BlackBerry 10 users are similar to other leading platforms."</strong>&nbsp;This is with regard to downloads. His point: the demand is there; we just need to meet it with the right products.</p>
+<p>4.) <strong>"Fifty-five percent&nbsp;of the Z10 customers globally are coming from platforms other than BlackBerry."</strong>&nbsp;We've got some traction with our flagship device; don't discount it just because of our corporate troubles.</p>
+<p>5.)&nbsp;<strong>"Our financial transformation was outstanding. To say it was challenging could be the understatement of the year."</strong>&nbsp;I may have goofed in what I said in those early days, but you can't deny that I'm getting our house in order based on the market in which we're now operating -- one that we no longer sit atop of.</p>
+<p>6.) <strong>"The&nbsp;Q10 launch in April is on track."</strong>&nbsp;That's a big deal for a company that has had serious problems in the past keeping promises. Given that the Q10 is the company's next QWERTY device, and that's the form factor used by its most dedicated customers, this matters.</p>
+<p>7.)&nbsp;<strong>"We are running a business, so we will continue to manage the short-term effectively while not compromising long-term strategy."</strong> I'm fully aware that as chief executive, I answer to both shareholders and customers. I'm doing my best.</p>
+<p>8.)&nbsp;<strong>"We plan to stay in the services industry and are actively building."</strong>&nbsp;There are possible revenue growth opportunities in the licensing of BlackBerry 10, BlackBerry messaging services, cross-platform offerings, plus all the security and enterprise services we've made our name on.</p>
+<p>9.)&nbsp;<strong>"Smartphones will play a major part, but our business includes expanding into other markets."</strong>&nbsp;This one's a&nbsp;Bidulka quote. Smartphones may be the big shiny object, but the real wins have been shoring up the company's supply chain and preparing it for an offensive, not defensive, strategy.</p>
+<p>10.) <strong>"We see strong interest from our corporate customers in maintaining the BlackBerry install base. It means something to them."</strong>&nbsp;We've spent decades building this brand, our loyal customers know we made a series of grave missteps in recent years but they're willing to give us the benefit of the doubt now that we've committed ourselves to a new strategy and leadership team.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013246</guid>
+      <link><![CDATA[http://www.zdnet.com/metropcs-shareholders-revolt-against-t-mobile-ceos-merger-tirade-7000013246/]]></link>
+      <title><![CDATA[MetroPCS shareholders revolt against T-Mobile CEO's merger tirade]]></title>
+      <description><![CDATA[When you're the head of a major U.S. cell network, or any other major company for that matter, with a merger still at the behest of the other firm's shareholders, it's best to choose your words carefully. Enter T-Mobile CEO John Legere who, well, didn't.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 13:19:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Zack Whittaker]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <media:text type="html"><![CDATA[<figure><img title="appmetropcstmobilebuypot" alt="appmetropcstmobilebuypot" src="http://cdn-static.zdnet.com/i/r/story/70/00/013246/appmetropcstmobilebuypot-620x368.jpg?hash=AzWuMzWxMJ&upscale=1" height="368" width="620"></figure>
+<p>The merger between T-Mobile USA and MetroPCS still has one hurdle to jump over: MetroPCS' shareholders, which are set to vote on the deal in just over two weeks time on April 12.</p>
+<p>While U.S. federal regulators have already <a href="http://www.zdnet.com/t-mobile-metropcs-set-to-merge-after-regulators-give-thumbs-up-7000012941/">approved the deal between the firms</a>, two MetroPCS shareholders are attempting to apply the brakes, by calling out T-Mobile chief executive John Legere who said on Tuesday that he expects the deal to go through.&nbsp;</p>
+<p>At <a href="http://www.zdnet.com/t-mobile-usa-kills-traditional-cell-contracts-in-subscriber-boost-bid-7000013107/">the New York launch</a> of T-Mobile's latest press event, Legere led an hour-long event in which is swore (give or take a couple) 11 times in total. Thankfully, Legere kept most of his swearing to a minimum when diplomatically discussing the MetroPCS merger.&nbsp;</p>
+<p>Yesterday, investor Paulson &amp; Co., which holds a 9.9 percent stake in the fifth largest U.S. cellular carrier,&nbsp;issued a statement (<a href="http://blogs.barrons.com/techtraderdaily/2013/03/27/pcs-paulson-fires-back-at-t-mobile-merger-comments/">via Barrons</a>) in which it "strenuously objects to [Legere's] characterization of MetroPCS shareholders as greedy because they believe the current terms of the merger are poor for MetroPCS shareholders."</p>
+<p>The war of words went on, taking a hefty swipe at T-Mobile USA's Germany-based parent company Deutsche Telekom:</p>
+<blockquote>
+<p>If anyone is being greedy here, it is Deutsche Telekom by stripping out $15 billion of senior debt at above market rates and terms for themselves before the proforma shareholders get anything. MetroPCS shareholders are left with a subordinated minority stake in an over leveraged equity stub. [...]&nbsp;We believe MetroPCS is worth more as a standalone company rather than with T-Mobile under these unfavorable terms.</p>
+</blockquote>
+<p>While Paulson &amp; Co. were expected to pass the deal without too much arm-flapping, now the largest shareholder warns Deutsche Telekom to "significantly reduce the debt they are taking back," or "increase MetroPCS' proforma share of the combined company."</p>
+<p>At the end of the day, it's the shareholders' who will accept or decline on the deal, and they want the very best deal to line their coffers. That's not being greedy, that's just business.&nbsp;</p>
+<p>To make matters worse, <a href="http://www.reuters.com/article/2013/03/28/metropcs-tmobileusa-iss-idUSL2N0CK01R20130328">Reuters reports</a> that influential proxy advisory firm ISS agreed on the most part with Paulson &amp; Co. and said shareholders should vote against the deal, citing the deal undervalued the company.&nbsp;</p>
+<!-- Parsed pinbox:"10116996" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/t-mobile-metropcs-set-to-merge-after-regulators-give-thumbs-up-7000012941/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/library/uk-thumbs/t-mobile-220x165.jpg?hash=Lwx4ZmNlBJ&upscale=1" alt="T-Mobile, MetroPCS set to merge after regulators give thumbs-up" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/t-mobile-metropcs-set-to-merge-after-regulators-give-thumbs-up-7000012941/">T-Mobile, MetroPCS set to merge after regulators give thumbs-up</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/t-mobile-metropcs-set-to-merge-after-regulators-give-thumbs-up-7000012941/">Read more</a></li></ul></div>
+<p>In a note to investors, ISS said because of the "negative market response" to the deal, citing a 14 percent dip in MetroPCS' share price since the announcement, "the lower equity split than justified by the contribution of [MetroPCS] to the combined entity, and the potential for PCS to continue to thrive as a stand-alone company, shareholders should vote against this transaction."</p>
+<p>That's finance talk for saying <a href="http://www.zdnet.com/t-mobile-metropcs-to-merge-in-1-5bn-deal-7000005189/">the 24 percent of the final company ownership that&nbsp;MetroPCS will ultimately get</a>&nbsp;isn't enough and should be balanced more equally between the two firms.&nbsp;Also if the deal completes, MetroPCS will declare a one-for-two stock split and dish out $1.5 billion in cash back to its shareholders.</p>
+<p>Leading the revolt is activist investor group P. Schoenfeld Asset Management, which owns 2.5 percent of MetroPCS' stock, which is fighting against the merger in a proxy battle against the deal.&nbsp;</p>
+<p>Combined, the two shareholder groups own 12 percent of MetroPCS' stock. Though a deal could still be struck in spite of the revolt&nbsp;—&nbsp;the company's second largest investor Madison Dearborn, which holds 8.3 percent of its stock, has already given its blessing and hasn't budged&nbsp;— it falls in T-Mobile (and therefore Deutsche Telekom's) best interests to keep the peace.</p>
+<p>There is a lesson here. When you're inches away from clearing a massive deal that could see a combined company of the fourth and fifth largest U.S. cell carrier take on the third largest company in that space, it's better to keep your mouth firmly shut.</p>
+<p>Or, at very least, say nice things and try not to ruffle too many feathers.&nbsp;</p>
+<p>And stop swearing.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013206</guid>
+      <link><![CDATA[http://www.zdnet.com/bluewolf-is-leader-of-the-pack-for-cloud-crm-solutions-7000013206/]]></link>
+      <title><![CDATA[Bluewolf is leader of the pack for cloud CRM solutions]]></title>
+      <description><![CDATA[By staying focused on solutions building on better customer intelligence, the New York-based integrator has become one of Salesforce.com's top partners on three different continents.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 12:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Heather Clancy]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-channel/">Channel</category>
+      <media:text type="html"><![CDATA[<figure><img title="Eric Headshot #1[1]" alt="Eric Headshot #1[1]" src="http://cdn-static.zdnet.com/i/r/story/70/00/013206/eric-headshot-11-v1-600x486.jpg?hash=MwLlZGqvLm&upscale=1" height="486" width="600"><figcaption>"We are always thinking about the next evolution of cloud or social or mobile as a way of helping our clients focus on their clients." -- Eric Berridge, Bluewolf CEO</figcaption></figure>
+<p>When it comes to deploying cloud-centric customer relationship management (CRM) applications, integrator Bluewolf is a fierce competitor. Not only is it one of Salesforce.com's longest standing deployment and integration partners -- one "born in the cloud" -- &nbsp;it holds the company's top partner status (Platinum) on three continents, a distinction no other services firm shares.</p>
+<p>Indeed,&nbsp;<a href="http://www.bluewolf.com/">Bluewolf</a>&nbsp;very well may have completed more Salesforce migration and implementation projects than any other next-gen integrator -- both for small and midsize businesses (SMBs) that are thinking cloud-first, as well as massive global organizations, such as pharmaceutical giant GlaxoSmithKline, which is using the Salesforce platform on iPads with its sales reps to collect more insight about products while they are visiting physicians' offices.&nbsp;&nbsp;</p>
+<p>"We are always thinking about the next evolution of cloud or social or mobile as a way of helping our clients focus on their clients," said Eric Berridge, co-founder and CEO of the New York-based firm.</p>
+<p>Focus is one of Bluewolf's key differentiators: you won't really see the services firm work with competitive CRM platforms, but the company has slowly built relationships and skills for deploying at least 25 other cloud applications that are part of the Salesforce and Force.com ecosystem, Berridge said.</p>
+<p>One example is the <a href="http://www.financialforce.com/">FinancialForce</a> "accounting engine," which helps finance employees and get closer to customer data and intelligence.&nbsp;</p>
+<p>You'll hear much more about Bluewolf's global aspirations in the coming 12 to 18 months, an agenda that is being driven by the needs of its top 50 clients, which envision a future in which their global sales teams can operate on a seamless single platform. Right now, many CRM deployments -- even those in the cloud -- are still managed on a country-by-country basis, Berridge said. (Bluewolf has offices in North America, Europe and Australia.)</p>
+<p>"We see organizations really trying to realize the benefits of a single global instance," Berridge said.</p>
+<p>Blueworld is building long-term relationships with its clients through a managed service called <a href="http://www.bluewolf.com/bluewolf-beyond-for-cloud-applications">Bluewolf Beyond</a>, which focuses on annual "innovation consulting" around cloud-centric technology approaches.</p>
+<p>The company is also doing its part&nbsp;<a >to promote skills associated</a> with cloud computing, which are still difficult to find.</p>
+<p>An example is its ongoing training program with Northeastern University to accelerate training on Salesforce and the Force.com platform. For the past several years, the integrator has given students the opportunity to work in its New York, San Francisco and London officers. This month, 20 student applicants are being trained to earn their Salesforce certified credentials.</p>
+<p>Bluewolf notes that "more employers are specifying Salesforce as a preferred skill set in their job descriptions." And the integrator is happy to help perpetuate those skills in the next generation of IT professionals.</p>
+<p>Related stories:</p>
+<p><a href="http://www.zdnet.com/bluewolf-on-state-of-salesforce-social-enterprise-needs-to-be-defined-7000004236/">Bluewolf on state of Salesforce: Social enterprise needs to be defined</a></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013220</guid>
+      <link><![CDATA[http://www.zdnet.com/blackberry-q4-better-than-expected-1m-blackberry-z10-devices-sold-7000013220/]]></link>
+      <title><![CDATA[BlackBerry Q4 better than expected; 1M BlackBerry Z10 devices sold]]></title>
+      <description><![CDATA[The smartphone maker, surprisingly, reports good bottom line results for its fiscal fourth quarter. Key takeaway: the firm is far from dead yet but its rehabilitation back into the smartphone market will be slow, difficult and it will face continued challenges ahead.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 11:51:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Zack Whittaker]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>After much chest pumping and feather fluffing from the Canadian smartphone maker in recent weeks&nbsp;— taking on <a href="http://www.zdnet.com/blackberry-ceo-knocks-samsungs-enterprise-plans-security-fear-or-fact-7000013003/">Samsung's enterprise plans</a> and <a href="http://news.cnet.com/8301-1035_3-57574852-94/blackberrys-heins-apples-ios-is-a-little-long-in-the-tooth/">calling Apple's iPhone user interface old</a> (though at least he said it "with all due respect" in true polite Canadian style)&nbsp;—&nbsp;BlackBerry has completed an early-stage turnaround with its latest financial earnings.</p>
+<!-- Parsed pinbox:"10116988" -->
+<div class="relatedContent alignRight"><h3>It's looking up for BlackBerry</h3><ul>
+<li><a href="http://www.zdnet.com/from-cars-to-keyboards-how-to-deal-with-fragmentation-the-blackberry-way-7000012968/">How to deal with fragmentation the BlackBerry way</a></li>
+
+<li><a href="http://www.zdnet.com/blackberry-z10-teardown-7000013091/">BlackBerry Z10 teardown</a></li>
+
+<li><a href="http://www.zdnet.com/blackberry-10-a-better-android-than-android-7000012967/">BlackBerry 10: A better Android than Android?</a></li>
+
+<li><a href="http://www.zdnet.com/blackberry-earnings-10-key-things-ceo-thorsten-heins-said-on-the-call-7000013249/">BlackBerry earnings: 10 key points</a></li>
+</ul></div>
+<p>BlackBerry reported fourth-quarter revenue&nbsp;of $2.7 billion, or 22&nbsp;cents a share.&nbsp;Profit stood at $98 million.&nbsp;Wall Street <a >was expecting</a> of 29 cents per share on revenue of $2.84 billion.&nbsp;</p>
+<p>While the expectations were low and the top line numbers are far from great, the bottom line fared much better than expected.</p>
+<p>It comes just one week after the launch of the smartphone maker's latest device, the BlackBerry Z10, was marred by "disappointing sales" <a href="http://www.theweek.co.uk/business/52193/blackberry-z10-revival-disappointing-sales">according to analysts</a>. That said, BlackBerry has improved its overall margins with its new Z10 device that has helped spin the company back around into profitability for the quarter, giving the firm extra room to breathe to release upcoming devices.</p>
+<p>By the numbers:</p>
+<ul>
+<li>6 million smartphones shipped during the fourth quarter, including 1 million BlackBerry 10 units;</li>
+<li>370,000 BlackBerry PlayBook tablets shipped during the same quarter;</li>
+<li>76 million BlackBerry users in total worldwide, down by 3 million;</li>
+<li>1 million subscribers lost quarter-over-quarter.</li>
+</ul>
+<p>BlackBerry, formerly known as Research in Motion, also noted that it ended the quarter with $2.9 billion&nbsp;in cash and equivalents, a $800 million&nbsp;increase from the previous quarter and 38 percent more than the same time a year ago.</p>
+<p>For the fiscal year, revenue was $11.1 billion, down 40 percent year-over-year from $18.4 billion. BlackBerry reported an adjusted net loss from continuing operations for fiscal 2013 was $317 million, or $0.60 per share.</p>
+<figure><img title="Screen Shot 2013-03-28 at 07.27.30" alt="Screen Shot 2013-03-28 at 07.27.30" src="http://cdn-static.zdnet.com/i/r/story/70/00/013220/screen-shot-2013-03-28-at-07-27-30-620x460.png?hash=MzR5MwV2MJ&upscale=1" height="460" width="620"><figcaption>BlackBerry's balance sheet for Q4/FY2012 (Credit: BlackBerry)</figcaption></figure>
+<p>BlackBerry chief executive Thorsten Heins said the changes the company has made have resulted in the company's "return to profitability" for the fourth quarter. Heins&nbsp;elaborated in prepared remarks:&nbsp;</p>
+<blockquote>
+<p>As we go into our new fiscal year, we are excited with the opportunities for the BlackBerry 10 platform, and the commitments we are seeing from our global developers and partners.</p>
+<p>We are also excited about the new, dynamic culture at BlackBerry, where we are laser-focused on continuing to drive efficiency and improve the Company's profitability while driving innovation. We have built an engine that is able to drive improved financial performance at lower volumes, which should allow us to generate additional benefits from higher volumes in the future.</p>
+</blockquote>
+<p>Since the last earnings call in late December when the firm's share price plummeted&nbsp;on the Nasdaq by more than 20 percent, BlackBerry's&nbsp;share price has been bumpy but surpassed its third-quarter highs of $14 per share. At its closing share price yesterday of $14.57, BlackBerry is currently no better or worse off than at the same time last year, almost exactly to the day.</p>
+<p>BlackBerry was trading up by more than 8 percent in premarket trading by 7:30 a.m. ET, but it was short lived. By 7:50 a.m. ET, it fell below yesterday's closing price before leveling out for market open.</p>
+<figure><img title="Screen Shot 2013-03-28 at 07.53.01" alt="Screen Shot 2013-03-28 at 07.53.01" src="http://cdn-static.zdnet.com/i/r/story/70/00/013220/screen-shot-2013-03-28-at-07-53-01-618x345.png?hash=ATIzMzMuMQ&upscale=1" height="345" width="618"><figcaption>$BBRY jumps then falls in pre-market trading on the morning of its Q4 earnings (Credit: Google)</figcaption></figure>
+<p>Looking ahead, the smartphone maker&nbsp;said it will continue to increase its marketing investment for the coming first quarter of fiscal 2014. The firm noted that it believes it will announce&nbsp;break-even financial results in the coming quarter based on its lower cost base, more efficient supply chain, and improved hardware margins</p>
+<p>BlackBerry's earnings call is scheduled at 8 a.m. ET, and we'll add updates accordingly.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013239</guid>
+      <link><![CDATA[http://www.zdnet.com/blackberry-q4-lives-to-die-another-day-7000013239/]]></link>
+      <title><![CDATA[BlackBerry Q4: Lives to die another day?]]></title>
+      <description><![CDATA[The BlackBerry maker powered through the fourth quarter with a better than expected bottom line, only a couple of months after announcing its reviving mobile platform. Faced with uncertainty still, there should be some cautious optimism for what happens next.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 11:50:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Zack Whittaker]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <media:text type="html"><![CDATA[<p>"No, Mr. Bond. I expect you to die!" Let's face it, we all did. Starting with the good news:</p>
+<p>BlackBerry is still alive. Its hair has fallen out and last rites have been read out a few times already, but its life support is still beeping and its heart is still beating.&nbsp;The even better news is that the firm didn't completely throw itself under the financial train this morning when it announced <a >better than expected bottom line results</a> for its fourth quarter and 2012 fiscal year.</p>
+<p>Frankly, it's all pretty much good news. But put down the party poppers and champagne. Don't get too excited just yet.</p>
+<figure><img title="upload-1-v1" alt="upload-1-v1" src="http://cdn-static.zdnet.com/i/r/story/70/00/013239/upload-1-v1-600x348.jpg?hash=MQZ5BQHlLz&upscale=1" height="348" width="600"><figcaption>BlackBerry chief executive Thorsten Heins showing off the two devices that could ultimately save the company. (Credit: Sarah Tew/CNET)</figcaption></figure>
+<p>From today's earnings, <a >BlackBerry reported a fourth quarter net profit</a>&nbsp;of $98 million, or 22 cents a share. For the fiscal year, the picture was still pretty bleak on the top line, reporting&nbsp;revenue of $11.1 billion, down 40 percent year-over-year.</p>
+<p>Current estimates show that while BlackBerry is expected to lose money every quarter in fiscal 2014, it can survive based on its cash flow, <a href="http://www.zdnet.com/can-blackberry-carve-a-new-niche-profits-7000013005/">says ZDNet's Larry Dignan</a>. Adding $800 million to its cash pile during the fourth quarter just bolstered its longevity significantly.</p>
+<!-- Parsed pinbox:"10116965" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/blackberry-q4-better-than-expected-1m-blackberry-z10-devices-sold-7000013220/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/story/70/00/013220/blackberry-q4-falls-flat-so-much-for-that-turnaround-v1-220x165.jpg?hash=BQp3A2R0Zz&upscale=1" alt="BlackBerry Q4 better than expected; 1M BlackBerry Z10 devices sold" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/blackberry-q4-better-than-expected-1m-blackberry-z10-devices-sold-7000013220/">BlackBerry Q4 better than expected; 1M BlackBerry Z10 devices sold</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/blackberry-q4-better-than-expected-1m-blackberry-z10-devices-sold-7000013220/">Read more</a></li></ul></div>
+<p>Thanks to a large-scale launch and some <a >willing buyers</a> — one with an order of 1 million devices, showing a great show of faith in the firm — the company has returned to profitability.</p>
+<p>But in&nbsp;context, it has&nbsp;only just released one of the two phones it has virtually rested all of its hopes of survival on in the U.S., after what was a <a >generally positive reception at its BlackBerry 10 launch</a> in January&nbsp;—&nbsp;if you forget the plummeting of its share price by 13 percent during the two hour long event.</p>
+<p >If you were expecting a fanfare this time around, just wait a few more months. The upcoming quarter will be the kicker.&nbsp;Only then should you begin to judge whether or not BlackBerry is on the comeback train, or just seeing a short-term hit from better than expected December holiday sales.&nbsp;</p>
+<p>The company's fourth quarter ended March 2 and its new BlackBerry 10 phones were launched in the U.S. on March 22. While the BlackBerry 10 platform and the two new phones — the touch-only Z10 and the keyboard-enabled Q10 —&nbsp;were announced in late January, nothing was launched in the largest smartphone penetration market BlackBerry was pitching its devices in: the United States.</p>
+<p>In spite of modest sales of the older BlackBerry 7 devices <a href="http://www.zdnet.com/7000013220">during the December holiday season</a>, BlackBerry pitched its already delayed BlackBerry 10 launch at the worst possible time for its financial reporting. Many potential BlackBerry 7 customers were waiting for the launch and release of BlackBerry 10 in what U.S. customers expected would be in late January.</p>
+<p>The BlackBerry Z10 had launched, after the January event and before the end of the fourth quarter, in four major markets: the U.K., Canada, the United Arab Emirates and India. Available on nearly every major carrier in the four regions, it was all but destined for a positive lead off the starting block.</p>
+<p>In total, the Z10 went on sale during the fourth quarter in about 25 countries on 650 carriers. Out of that, <a href="http://www.zdnet.com/blackberry-q4-better-than-expected-1m-blackberry-z10-devices-sold-7000013220/">just 1 million BlackBerry Z10 devices were sold</a>. That alone is not an impressive figure.&nbsp;</p>
+<p>The U.K., with <a href="http://www.zdnet.com/blog/london/blackberry-passes-8-million-mark-subscriber-milestone-in-uk/919">a BlackBerry population of about 8 million users</a> at its peak, is understood to have had worse than expected sales, in spite of some major retailers reporting sellouts in their stores.</p>
+<p>According to Canaccord Genuity analyst Michael Walkley, in the week following the late January launch in the country, he <a href="http://news.cnet.com/8301-1035_3-57567897-94/early-blackberry-z10-sales-may-not-have-been-so-hot-after-all/">cited a "limited initial supply"</a> of the BlackBerry Z10, with in some cases as few as 15 devices per store on offer to the general public, which led to a perception sales were doing better than expected.</p>
+<!-- Parsed pinbox:"10116966" -->
+<div class="relatedContent alignLeft"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/can-blackberry-carve-a-new-niche-profits-7000013005/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/story/70/00/013005/can-blackberrys-z10-carve-a-new-niche-profits-220x165.png?hash=ZJZkAzL2Z2&upscale=1" alt="Can BlackBerry carve a new niche, profits?" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/can-blackberry-carve-a-new-niche-profits-7000013005/">Can BlackBerry carve a new niche, profits?</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/can-blackberry-carve-a-new-niche-profits-7000013005/">Read more</a></li></ul></div>
+<p>India was the wildcard, though. <a >According to CNET</a>, the Z10 sold out early in countries like India and Canada — in some cases in as little as two days. However both Canaccord Genuity and Pacific Crest analysts cut their estimates for the number of smartphones sold through retailers in India after speaking to sources in both stores and the supply chain.&nbsp;</p>
+<p>&nbsp;India has a smartphone penetration rate of 10 percent, compared to the U.S. rate of 50 percent, <a  situation is anything to go by, BlackBerry may have seen a higher uptake in buyers, and therefore a better fourth quarter.</p>
+<p>Jefferies analyst Peter Misek believes BlackBerry's enterprise pitch, specifically in its&nbsp;mobile device management software, "will gain traction&nbsp;throughout this year, and as such "see a significant ramp in revenues next year." In-built consumer features, such as WhatsApp integration, "is a key feature for BlackBerry to have in order to gain traction in Europe and emerging markets," he said in a note to investors.</p>
+<p>Meanwhile, Macquarie analysts were too busy focusing on the Samsung Galaxy S4 saying two things to its BlackBerry investors: first that some enterprises may hold off on the Z10 until they can evaluate the Galaxy S4; and secondly, "the GS4 clearly beats the Z10 on all technical aspects as demonstrated in the following figure."&nbsp;(And that was in a note titled "BlackBerry" not "Samsung," by the way.)</p>
+<p>In the battle for the third-place slot, all eyes are on BlackBerry to see if it can carve out a space ahead of Windows Phone. Morgan Stanley analysts believes BlackBerry will fall flat on any attempt with its BlackBerry 10 platform. Instead,&nbsp;they believe BlackBerry 10 will primarily sell into existing BlackBerry 7 users rather than Android or iPhone converts, and as a result will only take a 3.5 percent global share by fiscal 2015.</p>
+<p>While the firm's death spiral spin has ground to a halt — a <a >phrase coined by BlackBerry chief executive Thorsten Heins</a> last July following a $643 million operating loss — things are not as bad as were forecast.</p>
+<p>Something else to look forward to came in <a  device in time for the December holiday season. The long-awaited keyboard-enabled BlackBerry Q10 will arrive in at most three months time.&nbsp;</p>
+<p>The next quarter, <a href="http://uk.blackberry.com/company/investors/events.html">due to be reported on June 28</a>, will show far more clearly — and fairly —&nbsp;how the smartphone maker is faring post the launch of its BlackBerry 10 devices in the U.S. market.</p>
+<p>Start on a good note, end on a good note. This might just catch on.&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013245</guid>
+      <link><![CDATA[http://www.zdnet.com/hytrust-3-0-enforces-polices-in-the-virtual-data-center-7000013245/]]></link>
+      <title><![CDATA[HyTrust 3.0 enforces polices in the virtual data center]]></title>
+      <description><![CDATA[Secondary approval is a standard policy in data centers for physical processes to prevent unauthorized or accidental actions that can be damaging.  HyTrust asks why isn't this the case in the virtual data center.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 11:05:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Dan Kusnetzky]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-virtualization/">Virtualization</category>
+      <media:text type="html"><![CDATA[<p>Many organizations require two approvals be given for actions that have serious impact on its operations. That means that people in the chain of command understand a given action enough to sign their name to the request.&nbsp; A single individual isn't allowed to make unilateral decisions in these matters. <a href="http://www.hytrust.com" target="_blank">HyTrust</a> wondered why this approach was used for the operations of the facilities in which IT workloads operate, but not often the case for managing virtual systems. So, when it designed HyTrust Appliance 3.0, it added the capability to enforce this type of workflow.</p>
+<h3>What HyTrust has to say about this capability</h3>
+<blockquote>VMware and other virtualization platforms do not provide adequate control, including viable methods of requiring additional level(s) of approval for actions that can result in negative consequences. So-called &ldquo;privileged users&rdquo; of an organization&rsquo;s virtualization platform typically have much greater administrative power than counterparts who manage physical data center infrastructure. They can copy, power off or delete a business-critical VM &ndash; accidentally or intentionally &ndash; with a few clicks from any location in the world, or any device. If it results in financial hits, where operational downtime costs organizations tens of thousands per hour, compliance violations or an internal security breach, the cost is too high. Recent publicized incidents of privileged users taking down virtual data center operations attest to the large financial hits that enterprises can&mdash;and have&mdash;taken when adequate virtualization controls were not in place. For the most part, however, such events go unreported.</blockquote>
+<h3>Snapshot analysis</h3>
+<p>It's often the case that IT administrators make snap judgements and implement changes in their virtual data center. Virtual machines can be started, stopped, duplicated or deleted based upon that individual's training and judgement. While most actions produce the desired results, a mistake or a malicious action can have terrible consequences.</p>
+<p>It is interesting that HyTrust decided to add this capability in version 3 of its appliance server.&nbsp; Asking managers or other administrators review and approve potentially dangerous actions could prevent the stopping of a critical process or deletion of an important virtual machine. It could also allow IT administration to better control the creation sibling virtual machines and prevent unlicensed and unauthorized copies of licensed software to execute in the data center.</p>
+<p>If your organization requires secondary approval for physical actions and would like to extend that set of controls into the virtual world, HyTrust just might be the tool for you.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013230</guid>
+      <link><![CDATA[http://www.zdnet.com/in/india-fastest-growing-smb-market-for-google-adwords-7000013230/]]></link>
+      <title><![CDATA[India fastest growing SMB market for Google AdWords]]></title>
+      <description><![CDATA[Small and midsize businesses are increasingly leveraging the Internet to generate more qualified leads and sales, and Google AdWords is doing well to grab its share of that digital advertising pie.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 11:04:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Abhishek Baxi]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-google/">Google</category>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <media:text type="html"><![CDATA[<p>Small and midsize businesses (SMBs) in India are using the Internet as a medium to generate more qualified leads and sales, and Google AdWords claims to deliver that value to businesses with their search engine advertising platform.</p>
+<p><a href="http://www.zdnet.com/google-adwords-overhaul-good-for-google-but-businesses-cringe-7000010938/" target="_self">Google AdWords</a> delivers relevant advertisements when someone is looking for a product or service on Google Search--making the ad more useful and relevant. The business only pays when someone clicks on the ad.</p>
+<p>"Facebook on the other hand is a display advertising solution and serves a different kind of marketing need," asserted Sandeep Menon, head of marketing at Google India.</p>
+<p>According to Menon, Google has been witnessing triple digit growth in terms of advertising revenues from SMBs in India. In the last two years, Google India has raced ahead to become the fastest growing <a href="http://www.zdnet.com/smb-survey-offers-glimpse-into-2013-it-spending-priorities-7000007360/" target="_self">SMB market</a> for Google globally.</p>
+<p>"With an estimated 47 million SMEs (small and midsize enterprises) in the country--India is a strategic market for Google. We have made significant investments in localizing our market outreach to tap the various clusters of SMEs. In the last year alone, we have significantly ramped up the efforts to maximize our reach and educate the Indian SME on the benefits of online advertising."</p>
+<p>Google India has been ramping up its efforts to educate SMEs about the power of <a href="http://www.zdnet.com/blog/btl/microsoft-to-advertisers-drop-dead/78811" target="_self">digital advertising</a> and evangelize the Google AdWords platform.</p>
+<p>It has now 10 Premier SME Partners in India and is aiming to have a sales workforce of over 10,000 people through this program in next year. The Google Engage program now has over 3,000 partners spread across 165 cities in India. Also, Google India has set up dedicated call centers who provide local language support in six Indian languages to SMEs who want to get online and start their campaigns.</p>
+<figure><img title="google ads" alt="google ads" src="http://cdn-static.zdnet.com/i/r/story/70/00/013230/google-ads-620x286.jpg?hash=AmNlAGLjMQ&upscale=1" height="286" width="620"><figcaption>Advertisement for Google AdWords. </figcaption></figure>
+<p>The advertising potential of Indian SMBs has interested Google for quite a while.</p>
+<p>In the past, Google has taken steps to help SMBs in India to gain from the digital economy by helping them establish online presence for free through their "India Get Your Business Online" campaign. In the last year and a half, they've developed and published free websites for over 175,000 SMBs from over 8,000 Indian cities.</p>
+<p>Obviously, this wasn't a CSR (Corporate Social Responsibility) exercise but an organized program to bring physical or offline businesses to Web adding them to the pool of potential digital advertisers.</p>
+<p><a href="http://www.kathana.in/" target="_blank">Kathana Jewelers</a>, a hybrid store making jewelry buying a visually appealing and hassle free experience for their consumers, started using AdWords with a modest budget of INR 20,000 (US$370) per month in 2010 and now have raised it to over INR 100,000. The revenue scaled phenomenally and today, AdWords accounts for 100 percent of their advertising budget.</p>
+<p>"AdWords worked great for our jewelry store and it was the best strategy that we invested in," said Aditya Gupta, director of marketing at Kathana Jewelers.</p>
+<p>While Google AdWords face stiff competition from <a href="http://www.zdnet.com/indias-online-firms-eye-aggressive-growth-via-facebook-7000011432/" target="_self">Facebook Marketing solutions</a> for the digital budgets in Indian SMBs, the huge market would keep the two companies, and other players, satiated. For businesses, digital advertising is helping them to effectively gain customer base and impact the top line with enhanced revenues in the long run.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013242</guid>
+      <link><![CDATA[http://www.zdnet.com/india-demands-nokia-383m-over-tax-evasion-claims-stay-issued-7000013242/]]></link>
+      <title><![CDATA[India demands Nokia $383M over tax evasion claims; stay issued]]></title>
+      <description><![CDATA[The Finnish phone maker is accused of evading taxes in the region, which could see the company dinged in its latest financial results.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 11:00:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Zack Whittaker]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <media:text type="html"><![CDATA[<figure><img title="espoo-finland" alt="espoo-finland" src="http://cdn-static.zdnet.com/i/r/story/70/00/013242/espoo-finland-620x412.jpg?hash=ZzEzMTAzMz&upscale=1" height="412" width="620"><figcaption>Nokia's headquarters in Espoo, Finland (Credit: Nokia)</figcaption></figure>
+<p>Nokia confirmed today it has been slapped with a tax demand by Indian tax authorities.</p>
+<p><a href="http://www.reuters.com/article/2013/03/28/us-nokia-india-courtorder-idUSBRE92R07G20130328">According to Reuters</a>, the Finnish phone maker was hit with the income tax fine of 20.8 billion rupees ($383m) after it was accused by Indian tax authorities for allegedly evading taxes in the country for five fiscal years.</p>
+<p>It comes only a month after one of Nokia's factories in India was <a href="http://www.zdnet.com/in/nokia-files-complaint-over-india-tax-raid-7000011212/">raided by the country's tax authorities</a>&nbsp;as part of an investigation into the firm's "excessive, unacceptable and inconsistent with Indian standards of fair play and governance."</p>
+<p>The tax demand was issued on March 15 but the order was only received by the company last week. An immediate stay was issued on the demand, allowing Nokia to appeal the decision.</p>
+<p>Nokia has a cash pile of €4.4 billion ($5.9bn) sitting in the bank, according to the firm's <a href="http://www.zdnet.com/nokia-q4-better-than-expected-lumia-sales-solid-7000009641/">latest financial earnings report in January</a>. But Nokia's lawyer said it would "not transfer of remit any funds outside India" except as part of an ordinary business transaction, until the next court hearing.&nbsp;</p>
+<p>Nokia did not outright deny the allegations, but instead reiterated its position claiming "it is in full compliance with local laws as well as the bilaterally negotiated tax treaty between the governments of India and Finland."</p>
+<p>The firm said it would also "defend itself vigorously."</p>
+<p>For Nokia, India is a crucial market due to its size and emerging market base. This month it emerged that Nokia's annual revenue in India&nbsp;— its second largest market after China&nbsp;— fell <a href="http://www.zdnet.com/in/nokias-india-revenue-falls-23-percent-7000012715/">by close to one-quarter</a>&nbsp;in 2012.</p>
+<p>It comes only months after a recent tax-related scandal hit the U.K. markets after it turned out just <a href="http://www.zdnet.com/amazon-google-microsoft-et-al-its-time-to-pay-your-tax-bills-7000006071/">how broken the tax laws are in the country</a>.</p>
+<p><strong>Update at 10:00 a.m. ET:</strong> with headline change to reflect that this is a tax demand, not a fine.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013031</guid>
+      <link><![CDATA[http://www.zdnet.com/crm-watchlist-2013-winners-consulting-and-systems-integrators-hook-up-part-2-7000013031/]]></link>
+      <title><![CDATA[CRM Watchlist 2013 Winners: Consulting and Systems Integrators hook up: Part 2   ]]></title>
+      <description><![CDATA[This is now truly the final post for the 2013 CRM Watchlist. It consumed 4 months of my life and thus if you read my  stuff, 4 months of yours. But it ends on a really good note. Today we look at the smaller impact players, two who affect particular markets. That would be Solvis Consulting and The Pedowitz Group. I'll make you read it to find out which markets they impact. Have fun and see you around.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 11:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Paul Greenberg]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-emerging-tech/">Emerging Tech</category>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <media:text type="html"><![CDATA[<p>Okay, a couple of days ago, we took a look at the big guys in the consulting services/systems integrators side. Now time for the little guys.</p>
+<p>One final time, a word from our sponsors:</p>
+<p><strong>The 2014 CRM Watchlist Registration is Now Open</strong></p>
+<p><em>On Wednesday February 20, 2013 at 7:00am ET, the CRM Watchlist 2014 registration process began. Yep, right in the middle of the 2013 reviews. Progress (and time) wait for no man (or woman). What that means is that if you are a technology company or consulting/systems integrator business that does "customer facing" things which means software or services products/solutions, you become a candidate for the CRM Watchlist 2014. That means that:</em></p>
+<ol>
+<li><em>You can request a 2014 registration form from me at</em><em>&nbsp;</em><a href="http://www.zdnet.com/mailto:paul-greenberg3@the56group.com">paul-greenberg3@the56group.com.</a></li>
+<li><em>When you receive it, fill it out exactly according to instructions and in return you will get the questionnaire for 2014 - either the vendor questionnaire or the consulting/SI questionnaire which are slightly different</em></li>
+<li><em>You have until November 30, 2013 to fill out the questionnaire.</em></li>
+<li><em>If you send in the registration form to me, I will presume that you are going to fill out the questionnaire by the due date and will start tracking you as soon send the registration back to me.&nbsp; Please don't waste my time and request the questionnaire and then not fill it out. I'm tracking you for the better part of a year if you do send it.</em></li>
+</ol>
+<p><strong>Previously on CRM Watchlist 2013:</strong></p>
+<ol>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-lifetime-achievement-ibm-institute-for-business-value-7000010289/">CRM Watchlist 2013 Lifetime Achievement: IBM Institute for Business Value</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-sweetest-suites-part-1-of-3-7000010719/">The Sweetest Suites: Part 1 of 3 &ndash; salesforce.com; Microsoft</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-sweetest-suites-part-2-of-3-7000010720/">The Sweetest Suites: Part 2 of 3 &ndash; SAP, Oracle</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-sweetest-suites-part-3-of-3-7000010994/">The Sweetest Suites: Part 3 of 3 &ndash; Infor, NetSuite, SugarCRM</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-marketing-puts-itself-out-there-7000011250/">Marketing Puts Itself Out There - Aprimo, Eloqua, Hubspot, Infusionsoft, Marketo, Neolane</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-customer-service-served-hot-7000011414/">Customer Service Served Hot &ndash; KANA, Moxie, Parature</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-three-kings-sales-process-analytics-7000011926/">Three Kings: Sales, Process, Analytics - Xactly, Lattice Engines, BPMonline, Pegasystems, Clarabridge</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-social-is-as-social-does-the-mainstream-part-1-7000012230/">Social is as Social Does the Mainstream Part 1 &ndash; Attensity, Gigya, Jive</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-social-is-as-social-does-the-mainstream-part-2-7000012280/">Social is as Social Does the Mainstream Part 2 - Get Satisfaction, Lithium, Nimble</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-heading-in-the-right-direction-young-and-hot-7000012704/">The Young and the Hot &ndash; CRM Idol winners Crowdtap and Artesian Solutions, + compelling companies who didn&rsquo;t win</a></li>
+<li><a href="http://www.zdnet.com/crm-watchlist-2013-winners-consulting-and-systems-integrators-hook-up-part-1-7000013030/" target="_blank">Consulting and Systems Integrators Hook Up: Part 1</a></li>
+</ol>
+<p>&nbsp;</p>
+<p>Now back to our regularly scheduled programming.</p>
+<h3>Small with Big Impact</h3>
+<p>The revenues of these two companies combined wouldn&rsquo;t even be the size of a big deal at one of the other three companies. Yet, Solvis Consulting Group and The Pedowitz Group (TPG) have a market impact which, while more narrowly focused, is also powerful in their specific domains. The two companies are every bit as worthy of the Watchlist award as the three other much bigger boys in this post.</p>
+<p>Impact, when focused well, is Impact with results. Both these excellent companies beat out a larger group of smaller consultancies.&nbsp; In the interests of transparency and disclosure and compliance and whatever other words need to be in a statement like this, I will say that each of the winners has a close friend of mine in a leadership position; but so did some of those who didn&rsquo;t make it.&nbsp; The irony is that the friend is a friend because they are so influential I couldn&rsquo;t help but meet them. The rest followed a normal human path.</p>
+<p>So, let&rsquo;s end the Watchlist for 2013 with a bang and talk about these two sector-powerful companies and the impact they are having and the challenges they face.</p>
+<p><strong>Solvis Consulting</strong></p>
+<p>What makes <a href="http://www.solvisconsulting.com/">Solvis Consulting</a> powerful isn&rsquo;t their size. It&rsquo;s how they approach their geography.&nbsp; When it comes to CRM, Solvis is a company that dominates CRM and related mindshare in Latin America (LATAM).</p>
+<p>Solvis was founded almost 20 years ago (1995) by experienced consultants who all knew each other from Cambridge Technology Partners.&nbsp; What makes them unique is that the founders and their families are still involved in the company 18 years later.&nbsp; Their culture is defined as a group of friends and family who enjoy working together. While that might sound too much like a marketing message to you. I assure you, having firsthand knowledge of it, it isn&rsquo;t a message. It is their culture.</p>
+<p>What&rsquo;s interesting though is that it isn&rsquo;t just personal. That would just be a group of friends. It&rsquo;s the culture that permeates a business that is attuned to the specific requirements of the Latin American marketplace. Solvis has offices in Mexico, Argentina and Colombia and has done business in multiple other countries across the South American continent, yet even across country, has retained the deep closeness that uniquely characterizes them. They have a business culture that actually encompasses lifestyle choices.</p>
+<p>Their focus is obviously CRM and, to that end, they provide services and technology. If I had to place the company in a category, I&rsquo;d call it a strategic services company.&nbsp; While they have technology partnerships &ndash; strategic and reseller among others &ndash; with Radian6 and salesforce, Get Satisfaction, Lithium, Fuze Digital and FullContact, the bulk of their revenue is derived from defining models and strategies and creating systems to support those models and strategies. The services range from <a href="http://solvisconsulting.typepad.com/seminariosocialmediamx/">educational</a> (&ldquo;How to Establish a CRM Strategy&rdquo;) to methodological (Social CRM Strategy service); <a href="http://www.solvisconsulting.com/solvis_home/2012/09/how-to-use-radian6-and-salesforcecom-to-manage-a-social-command-center.html">to developing command centers</a> (&ldquo;Social Command Centers&rdquo; to manage crises, do customer support; or even track and interact in the realm of social marketing).</p>
+<p>What makes their approach so potent is that they do what other consultancies should do &ndash; focus on outcomes. They aren&rsquo;t selling technologies, even with their reseller agreements with some of the tech vendors. They are focused on creating the framework and defining the systems necessary to achieve specific business outcomes for their clients. To be clear, that goes beyond &ldquo;solving business problems.&rdquo; Things that companies need aren&rsquo;t always repairs of drywall. Sometimes they need to construct a new building or build an extension on an already lovely building. We have to get past the standard &ldquo;solving business problems&rdquo; drivel and start focusing on valued outcomes. Solvis doesn&rsquo;t. They already do that.</p>
+<p>Their track record speaks for itself with a marquee set of customers &ndash; over 80 of them in Latin America &ndash; and some of the best known names on the continent &ndash; Telmex, Movistar, Aero Mexico, Ford, Social @Ogilvy, etc.</p>
+<p>They don&rsquo;t ignore thought leadership either. <a href="http://about.me/jesushoyos">The managing partner is Jesus Hoyos</a>, the leading CRM mind for the region and one whose influence has extended into North America and the Spanish speaking countries of Europe. With countless speaking engagements and writing, Solvis&rsquo; name is getting out all over the world. Jesus is evangelizing by doing what good thought leaders do &ndash; aim at mindshare not market share. He speaks to ideas and concepts, best practices and strategies; not Solvis and pricing.&nbsp;</p>
+<p>But, by their own admission they invest very little in marketing.&nbsp; Which of course, limits the ability to grow beyond a certain level. While you might think that this is due to a budgetary limitation, if that&rsquo;s what you think, then you are only partially right. The lightness of marketing spend is actually part of their fundamental dilemma &ndash; which is, how do you retain this incredibly close personal culture when you are growing in share of wallet and mindshare continually? &nbsp;They already have a powerful impact in Latin America and have reached a level of business that demands staff growth.&nbsp;</p>
+<p>So, what is it that Solvis has to do?</p>
+<p><strong>What they need to do</strong></p>
+<ol>
+<li><strong>Make a fundamental decision from which all things stem</strong> &ndash; They have a great culture. Everyone knows and loves everyone else at the company. It is a truly customer-centered company that walks the walk. When they recruit, they recruit highly skilled, very competent professionals who they know or who fit into the culture like a glove. But they are also a business that has reached a point or will soon that further growth will start depersonalizing the culture of the company, just because there are only so many people that they can hire who fit the cultural norm of the company before the skill sets needed become unavailable. In this, lies their fundamental dilemma &ndash; and how they answer this is from what all other answers grow.&nbsp;&nbsp; Do they grow and lose something of their culture or do they remain steady where they are and lose something of their business impact and limit their growth to tiny incremental growth?&nbsp; But keep the lifestyle. They have to make this decision soon because they seem to be at or close to that point. I can&rsquo;t make it. They are one of the few companies that I can say it&rsquo;s truly a personal decision.&nbsp; It&rsquo;s just a very hard decision.</li>
+<li><strong>Partner with other consultancies </strong>&ndash; This is one option that is only being proposed if they are trying to both grow and to maintain their culture. By partnering with other highly effective consultancies, they may (and I emphasize &ldquo;may&rdquo;) be able to diffuse the growth via the extended staff available through the consultancies that they are partnered with. The consultancies do some of the work that Solvis would have done if they were aimed at exponential growth and Solvis makes some margin without having to grow their staff. That, though adds some operational headaches but might be a way to not lose business while maintaining the family friendly culture that they do have.</li>
+<li><strong>Spend more on marketing </strong>&ndash; I&rsquo;m going on the assumption here that they&rsquo;re deciding to grow. If not, they really don&rsquo;t have much more they need to do; they have an organic sales opportunity machine but not one that provides the ability for huge pipelines. To get to that level, they will need start spending marketing dollars in the markets that they are interested in where they may not have traction.&nbsp; Perhaps some marketing spend in Peru (if they want to do business there) so that they have some visibility if no presence. That&rsquo;s just an example. I&rsquo;m not suggesting that per se. Just that they seriously consider relying less on the idea that thought leadership is a substitution for marketing.</li>
+</ol>
+<p>For a company this well balanced and this experienced, growth is inevitable. Not only do they have a profound knowledge of the LATAM market but they have the precise expertise needed for that and a clear cut strategy for capturing both mind and market share. THAT is why they are an impact player. But 2013 or maybe 2014 and the growth will begin to reach a point where the decisions have to be made. Whatever decision they make may affect the kind of impact they have in the future, but it won&rsquo;t affect whether or not they will be a major player in LATAM CRM. That they will always be.</p>
+<p><strong>The Pedowitz Group</strong></p>
+<p>While I was thinking through how to handle <a href="http://www.pedowitzgroup.com/">The Pedowitz Group (TPG)</a> &ndash; what I wanted to say, what I think they need do to &ndash; an image came to mind. This might sound peculiar but they are a dynamic elegant company.&nbsp; Yeah, elegant.&nbsp;</p>
+<p>Why elegant?</p>
+<p>Because there is very little that they haven&rsquo;t done under the leadership of the three primary partners &ndash; <a href="http://www.linkedin.com/in/jeffpedowitz">Jeff Pedowitz</a>, <a href="http://www.linkedin.com/pub/bruce-culbert-chief-service-officer/1/145/960">Bruce Culbert</a> and <a href="http://www.linkedin.com/in/dqaqish">Debby Qaqish</a>, that hasn&rsquo;t been smart, focused and sophisticated in both form and execution. Thus elegant.</p>
+<p>But elegant doesn&rsquo;t mean light weight. That very sophistication leads to recognized results. In the last year<a href="http://www.prweb.com/releases/2012/8/prweb9813059.htm">, TPG has been recognized by Inc. Magazine as one of the 500 fastest growing private companies in the United States in 2012</a>. <a href="http://www.zdnet.com/blog/crm/crm-watchlist-2012-winners-the-marketing-mavens/4074">They won the Watchlist last year for the first time</a>; they were recognized by the Atlanta Journal as one of the 50 fastest growing private companies in Atlanta.&nbsp; Meaning, they are doing something right.</p>
+<p>That all translates to revenues too. They have increased their revenue five consecutive years and in 2012 increased their profitability by 250%. They are cash flow positive, debt free and able to grow the business as the opportunities arise. &nbsp;You can&rsquo;t ask for much more than that, if you&rsquo;re looking at a company with a future.</p>
+<p>They call themselves a &ldquo;Revenue Marketing Agency&rdquo; which is important for two reasons. One is that it gives them a very specific focus around not <a href="http://www.pedowitzgroup.com/solutions/revenue-marketing-strategy/">only developing the marketing technology strategies</a> that are needed to move marketing forward &ndash; but also ties them to the contemporary trend that we are seeing everywhere &ndash; marketing objectives and sales objectives are being aligned, which results in the assignment of revenue objectives to marketing. They are perhaps <strong><em>the</em></strong> experts in this in the U.S. and possibly, the world.&nbsp;</p>
+<p>That gives them a unique perspective in what is the hottest sector of all customer-facing sectors in business &ndash; marketing. Marketing, which for several years, lagged behind the other customer facing departments &ndash; customer service and sales, has exploded forward with the advent of social and content marketing in particular and with the aforementioned alignment of sales and marketing in general. For example, a recent poll conducted by B2B magazine of extant marketers found that 96% of them had some involvement in social media.&nbsp; No longer is social either wow or experimental but for marketing professionals, being involved with it either programmatically or individually is necessary.</p>
+<p>This gives TPG a leg up on any competition. They are focused on B2B marketing and they have the in-house expertise to handle the end-to-end work from strategy to implementation for revenue marketing. (A parenthetical note: Eloqua and Marketo call this revenue performance management &ndash; which to me sounds like accounting, not marketing. I like TPG&rsquo;s characterization of it as revenue marketing way better. Eloqua and Marketo, please take note).&nbsp; They have served over 1000 B2B clients over the years and have the partnerships they need to handle the technology aspects of the strategic services that they provide. <a href="http://www.pedowitzgroup.com/about-us/meet-our-partners/">So, for example, they associate with (mostly through partnerships) 13 platforms. Those that are strategic are Marketo, Aprimo (now Teradata Applications), Oracle, Eloqua and ExactTarget</a>.&nbsp; (Noticeably missing is hot marketing technology company <a href="http://www.zdnet.com/crm-watchlist-2013-marketing-puts-itself-out-there-7000011250/" target="_blank">Neolane</a> which is more visible in Europe but is also becoming a serious player here. TPG might want to look into them if they haven't already) But they have point technology alliances too with companies ranging from Jive and Lithium for communities to Demandbase and Omniture for analytics.&nbsp; In other words, they cover their bases.</p>
+<p>But they don&rsquo;t stop with just the groundwork. They have an active market presence &ndash; how about that? A marketing company with a market presence &ndash; with visibility in print, on the air and over the web well beyond the scope of this post. They provide thought leadership in the space, not just speaking on topics like demand generation but also with a Revenue Marketing University dedicated to training and education in what they have their stake buried in.&nbsp; Their leadership constantly wins awards for being among the most influential in the world of marketing.</p>
+<p>Most importantly for both thought leadership and work, they have a comprehensive framework that covers both what is and what needs to be done. That means the &ldquo;what-is&rdquo; of the <a href="http://revmarketer.pedowitzgroup.com/rs/pedowitzgroup2/images/WP-Revenue-Marketing-Journey.pdf">Revenue Marketing Journey</a> to the &ldquo;what-needs-to-be-done&rdquo; of the <a href="http://revmarketer.pedowitzgroup.com/rs/pedowitzgroup2/images/WP-RMT.pdf">Revenue Marketing Transformation</a>. Attached to the latter in particular are toolsets such as the <a href="http://revmarketer.pedowitzgroup.com/RMT-Self-Assessment.html">RM6 assessment tool</a> to see what stage of the journey you are. &nbsp;</p>
+<p>But that doesn&rsquo;t obviate the need they have to do few more things that I think will increase their impact and skyrocket them to an entirely different level.&nbsp; What might that be, you ask? Let me tell you.</p>
+<p><strong>What they need to do</strong></p>
+<ol>
+<li><strong>Take a small calculated risk or two</strong> &ndash; One thing that is very apparent after dealing with them personally, doing the research and reading their submission is that they are not risk takers. Their commitment to &ldquo;repeatable, predictable, sustainable&rdquo; tends to not just be an outcome they are looking at achieving with their customers, but what makes them tick as a company &ndash; which is a good thing. However, most companies looking for dramatic leaps in impact and revenue, have to take some calculated risks. TPG can take small ones. For example, If you look at their Revenue Marketing Journey it is predicated on an old school look at where most companies are and could be in their marketing maturity.&nbsp; But, given the numbers we are seeing, is the traditional starting point of the 4Ps going to be the traditional starting point for marketers in 5 years? If not, their journey model will break. So, why not be a bit visionary (though not too much) and start prototyping the revenue marketing journey of five years from now? It&rsquo;s a bit of a risk, because it goes against their grain but if controlled can be a valuable addition to their arsenal of tools and frameworks at the point its needed. Which isn&rsquo;t too far off. That&rsquo;s one example of a small calculated risk.&nbsp; There are many. They should consider them.</li>
+<li><strong>Step up their analyst relations/influencer relations program </strong>&ndash; Interesting if you were to look at the &ldquo;who they know&rdquo; list of analysts and other influencers, it would be impressive. In fact, from the influencer side each of the three partners, especially Bruce Culbert, could be characterized as an influencer. But, when viewed through the lens of a formal AR/IR program (not so much PR), it&rsquo;s a whole other story. To boil it down, they don&rsquo;t really have one. They&rsquo;ve reached the stage where AR/IR can no longer be sustained as a personal effort &ndash; which it is with Bruce Culbert taking the lead. They need to bring someone in or hire a company to start regularized interactions with multiple kinds of influencers. This company has a shot at being a long term market leader in demand generation and revenue marketing &ndash; in fact the market maker in the latter. But that takes a sustained outreach that there is NO way that the leadership of the company can do by itself. Time to bite the bullet and get out there.</li>
+</ol>
+<p>I don&rsquo;t really think TPG needs to do much more than this. Elegance in their case, carries a lot of weight and a lot of sustainable impact. They are well positioned to be in the Inc. Top 50 fastest growing private companies someday pretty soon if they can keep up what they are doing. But they need to do the tweaking and, if they do, the rest will be history.</p>
+<h3>The End</h3>
+<p>Well, amazingly, that&rsquo;s it. I&rsquo;m done with the 2013 Watchlist. My life has a big (and entirely welcome) void in it now that the god-know-how-many words of reviews are done. But I&rsquo;m already onto the 2014 registrations (we have a few more than 60 so far) and I have to turn all these into a yearbook which will go out to those who are registered for the 2014 Watchlist and any of you who request it from me at <a href="/mailto:paul-greenberg3@the56group.com">paul-greenberg3@the56group.com</a>.&nbsp; Please ask for the CRM Watchlist 2013 Yearbook and I&rsquo;ll send it to you when it&rsquo;s ready in a couple of weeks.</p>
+<p>Thanks for being patient. I know that this was arduous but I also hope it was useful. If not, I&rsquo;m sorry.</p>
+<p>See you all next year.&nbsp;</p>
+<p>Next up, <a href="http://www.crmidol.com" target="_blank">CRM Idol</a>.&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013101</guid>
+      <link><![CDATA[http://www.zdnet.com/windows-blue-why-ie-11-is-taking-a-leaf-from-blackberrys-book-7000013101/]]></link>
+      <title><![CDATA[Windows Blue: Why IE 11 is taking a leaf from BlackBerry's book]]></title>
+      <description><![CDATA[IE 11 isn't pretending to be Firefox - it's showing up the sites that treat IE as a second-class browser.
+]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 10:56:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Mary Branscombe]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-browser/">Browser</category>
+      <category domain="http://www.zdnet.com/topic-windows/">Windows</category>
+      <category domain="http://www.zdnet.com/topic-web-development/">Web development</category>
+      <media:text type="html"><![CDATA[<p>For years, web developers have complained that Internet Explorer didn't follow standards.</p>
+<!-- Parsed pinbox:"10114025" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/microsofts-blue-wave-is-coming-to-more-than-just-windows-7000010998/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/story/70/00/010998/microsofts-blue-wave-is-coming-to-more-than-just-windows-220x165.png?hash=MGH3ZQOuZT&upscale=1" alt="Microsoft's 'Blue' wave is coming to more than just Windows" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/microsofts-blue-wave-is-coming-to-more-than-just-windows-7000010998/">Microsoft's 'Blue' wave is coming to more than just Windows</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/microsofts-blue-wave-is-coming-to-more-than-just-windows-7000010998/">Read more</a></li></ul></div>
+<p>Starting in IE8, Microsoft made a huge effort to turn IE into a standards-compliant browser. With the notable exception of WebGL, a graphics standard that runs code directly on your graphics card which Microsoft has rejected for security worries, IE10 does a great job on standards that are actually part of HTML5 and mature enough to not need developers to keep rewriting their sites. It doesn't have all the experimental prefixes that testing sites that focus on WebKit give points for (but then neither do many of the websites you actually use).</p>
+<p>The problem is that even though IE10 (and the version of IE10 on Windows Phone 8) can render pretty much everything WebKit based browsers can, it often doesn't get the chance. Web developers who've mistaken WebKit for the open web don't bother coding the advanced features of their site for anything but WebKit and they send IE users to 'downlevel' versions of the site intended for IE8 and 9.</p>
+<p>In some cases, they do their sums so badly that they mistake IE 10 for IE 6. In others, they declare that the site won't work in IE at all. It's always instructive in those cases to use the developer tools in IE to fool the site into thinking you're using Chrome or Firefox to see how much site actually works.</p>
+<p>The version of <a href="http://www.zdnet.com/microsoft-readying-multiple-windows-blue-servers-and-a-blue-windows-rt-build-7000013041/">IE 11 in the leaked build of Windows Blue</a> doesn't do quite that, which is a good thing: browsers trying to interpret prefixes marked for other browsers is not the way to get well-built web pages that take advantage of standards.</p>
+<p>What is seems to do (remember, <a href="http://www.zdnet.com/new-alleged-windows-blue-build-shows-off-coming-interface-tweaks-7000013035/">this is an unofficial leaked build</a>), is to use a brand new user agent string: IE instead of MSIE. Developers can still target IE specifically, but IE 11 won't be hampered by being sent to versions of pages designed for old builds of IE with bugs long since fixed.</p>
+<h3>BlackBerry's approach</h3>
+<p>It's a smart idea. So smart, that it's what BlackBerry is doing in the browser in BlackBerry 10 - and for the exact same reason.</p>
+<p>"We changed our user agent so it doesn't say BlackBerry but just BB," app platform product manager Tim Neil told me at the BlackBerry Jam event earlier this year. That avoids BlackBerry 10 users getting routed to sites designed for older BlackBerry browsers, or to a generic mobile site with fewer features when the BlackBerry 10 browser - which has the highest score on the HTML5 test site because it uses a very recent version of the WebKit engine - can actually load the WebKit-optimised sites usually reserved for iOS and Android.</p>
+<p>"If you don't recognise us, at least give us the desktop site," says Neil. "Maybe the site you're visiting has a great mobile jQuery view; we can use the new user agent to get that to you."</p>
+<p>It would be nice if more web developers didn't limit their worldview to WebKit (which isn't the de facto standard many assume it to be; see quite how different the different browsers using WebKit actually are at the useful <a href="http://www.quirksmode.org/css/columns/mobile.html%20" target="_blank">Quirks Mode site</a>). But changing the browser user agent is quite a creative way of shaking off the browser hacks and workarounds of the past.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013221</guid>
+      <link><![CDATA[http://www.zdnet.com/tablets-with-4g-lte-productivity-anywhere-7000013221/]]></link>
+      <title><![CDATA[Tablets with 4G mean productivity anywhere]]></title>
+      <description><![CDATA[A survey shows that the portability of tablets makes workers more productive in many different places. Put 4G connectivity into the mix and the sky is the limit.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 10:55:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[James Kendrick]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-4g/">4G</category>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <media:text type="html"><![CDATA[<p>A <a href="http://www.forrester.com/Forrsights+Hardware+Survey+Q3+2012/-/E-SUS1631">survey by Forrester</a> shows that the form factor of tablets, which is more portable than laptops, is the primary reason that IT decision makers deploy slates (or plan to do so) in the workplace. J P Gownder of Forrester calls this "<a href="http://www.zdnet.com/the-hyper-portability-of-tablets-drives-worker-productivity-7000013198/">hyper portability</a>" and elaborates on the benefits of such mobile devices.</p>
+<figure class="alignRight"><img title="Houston Zoo" alt="Houston Zoo" src="http://cdn-static.zdnet.com/i/r/story/70/00/013221/houston-zoo-v1-200x136.jpg?hash=AwWyBQR3Aw&upscale=1" height="136" width="200"></figure>
+<p>Gownder contends that the portability of tablets allows workers to be more productive in far more places than other devices. Such locations can range from different spots around the office to the local coffee shop.</p>
+<p>Adrian Kingsley-Hughes takes it even further by noting that it's the "<a href="http://www.zdnet.com/theres-more-to-tablet-productivity-than-hyper-portability-7000013204/">low drag</a>" of tablets that makes them work productively. They're easy to take out of the bag, have instant on, and are easy to maintain. Another good point of view on the little tablet.</p>
+<p>This subject is very dear to me, as I have been using tablets to work all over the place. I recently shared some of the <a href="http://www.zdnet.com/exciting-work-venues-for-the-mobile-professional-7000011494/">unique places I go to work</a> on a regular basis. The tablet makes this easy to do, but it's integrated 4G long-term evolution (LTE) connectivity that really makes this shine.</p>
+<p>Case in point: After reading Gownder's and Kingsley-Hughes' thoughtful pieces about why tablets are popular with IT folk, I was thinking about the unusual places I use them for productive work.</p>
+<p>When I decided to write this article about the freedom that 4G on a tablet provides so I can work anywhere, it was in a city park after eating a nice lunch outdoors. Without the 4G, I would have probably waited until I got back to civilization, ie wi-fi, to get this done. Hopefully, I would have remembered all the thoughts I had back at the park. Instead, I pulled my tablet out of the bag and in seconds was online and writing the article. I was able to tap into the thoughts that were all fresh in my mind.</p>
+<p>This isn't an infrequent experience in my work; it happens all the time. The tablet is always at hand and with its all-day battery life it is ready to go at a moment's notice. The integrated 4G connectivity completes the requirement to work absolutely anywhere I happen to be. In my line of work that means whenever the muse strikes me, I can capture it on the go. This is very powerful to me.</p>
+<p>When you take the hyper-portability, mix in the low drag quotient, and stir in some fast 4G you get a tasty dish that can be consumed almost anywhere, even in the park.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013197</guid>
+      <link><![CDATA[http://www.zdnet.com/the-answer-to-free-peer-to-peer-it-courses-and-everything-for-france-its-42-7000013197/]]></link>
+      <title><![CDATA[The answer to free, peer-to-peer IT courses and everything? For France, it's 42]]></title>
+      <description><![CDATA[After having shaken up France's mobile market, Xavier Niel is aiming to do the same with a new school offering free tuition but no diploma to thousands of students.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 10:35:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Valéry Marchive]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-it-employment/">IT Employment</category>
+      <media:text type="html"><![CDATA[<figure><img title="heart-of-code-42" alt="heart-of-code-42" src="http://cdn-static.zdnet.com/i/r/story/70/00/013197/heart-of-code-42-620x349.jpg?hash=BTMvZQIvAm&upscale=1" height="349" width="620"><figcaption>42 will be based at the Heart of Code building (artist's impression above) in Paris. Image: 42</figcaption></figure>
+<p>Xavier Niel, founder of the French mobile operator Free, unveiled a new project on Tuesday: a free, "peer-to-peer" school for would-be techies.</p>
+<p>The <a href="http://www.42.fr/">school, named 42</a> after Douglas Adams' sci-fi classic, <em>The Hitchhiker's Guide to the Galaxy</em>, will train 1,000 young people each year in IT skills including software development, network administration and security – all without charging tuition fees.</p>
+<p>And no diploma will be needed to get in to 42: instead would-be pupils, aged between 18 and 30, will have to demonstrate their abilities through online tests.</p>
+<p><a href="http://www.zdnet.fr/actualites/42-l-ecole-gratuite-pour-developpeurs-de-xavier-niel-ouvrira-en-novembre-39788642.htm">According to Niel</a>, "the current system produces cookie-cutter professionals. And in the meantime, 200,000 young people leave that system every year without a diploma. As a result, France is ranked 20<sup>th</sup> [globally] for digital skills. We need to revolutionise the way we teach." With 42, he claims to be offering "a new paradigm, something new that doesn't look like a school."&nbsp;</p>
+<p>&nbsp;So much so in fact, it won't provide any diploma recognised by French or European institutions.</p>
+<p>42 will be lead by three former executives from the Epitech IT school. One of them, Nicolas Sadirac, claims that "knowledge doesn’t matter anymore as information is now available online. What matters is to know how you use that knowledge." The schools will offer project-based learning using methods used by businesses."&nbsp;</p>
+<p>The school will offer "community teaching, where students continually learn from others and actively participate in others' learning, evaluating each other and allowing individuals' capacities to improve those of the whole: it's peer-to-peer learning," <a href="http://www.42.fr/notre-pedagogie-principes/">according to its site</a>.</p>
+<p>The school will be funded by Neil, who has already invested €20m in the project and plans to add €50m to that over the next ten years.&nbsp;</p>
+<p>Ionis Education Group, which manages Epita, Epitech and Etna schools, notes with tongue in cheek that it's "happy to see the fundamental principles of [42] were created and implemented at Epita and Epitech a long time ago."</p>
+<p>But Laurent Baudart, secretary general of the trade association Syntec Numrique,&nbsp; <a href="http://www.zdnet.fr/actualites/ecole-42-de-xniel-le-syntec-salue-l-initiative-la-concurrence-s-agace-39788672.htm">appreciates</a> the arrival of 42: "every initiative in this area, aimed at training and helping young people to find a job, should be welcomed, especially in a market that's recruiting. We're rather satisfied with this kind of initiative."</p>
+<p><iframe src="http://www.dailymotion.com/embed/video/xyhi5i" height="270" width="480"></iframe><br><a href="http://www.dailymotion.com/video/xyhi5i_locaux-42_school" target="_blank">Locaux 42</a> <em>par <a href="http://www.dailymotion.com/42Born2Code" target="_blank">42Born2Code</a></em></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013236</guid>
+      <link><![CDATA[http://www.zdnet.com/windows-phone-outsells-iphone-in-seven-markets-blackberry-in-26-7000013236/]]></link>
+      <title><![CDATA[Windows Phone outsells iPhone in seven markets, BlackBerry in 26 ]]></title>
+      <description><![CDATA[Windows Phone has reached a milestone in seven markets - but is topping the Ukrainian charts really a big deal?]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 10:33:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Liam Tung]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-microsoft/">Microsoft</category>
+      <category domain="http://www.zdnet.com/topic-nokia/">Nokia</category>
+      <category domain="http://www.zdnet.com/topic-eu/">EU</category>
+      <media:text type="html"><![CDATA[<p>Windows Phone handsets have outsold the iPhone in seven markets including India, analyst firm IDC has revealed, and beat out BlackBerry in 26.</p>
+<!-- Parsed pinbox:"10108259" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/windows-phone-8-a-tour-of-the-business-features-7000006600/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/library/global-thumbs/mobile-devices/nokia-lumia-920-220x165.jpg?hash=LJHkLGt4ZG&upscale=1" alt="Windows Phone 8: A tour of the business features" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/windows-phone-8-a-tour-of-the-business-features-7000006600/">Windows Phone 8: A tour of the business features</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/windows-phone-8-a-tour-of-the-business-features-7000006600/">Read more</a></li></ul></div>
+<p>The countries where Windows Phone pipped the iOS handset in Q4 2012 were Argentina, India, Poland, Russia, South Africa and the Ukraine. The seventh market was a collection of countries, including Croatia, that IDC labels "rest of central and eastern Europe".</p>
+<p>IDC mobile analyst Kevin Restivo <a href="http://bits.blogs.nytimes.com/2013/03/27/where-in-the-world-are-windows-phones-outselling-iphones/" target="_blank">told the <em>New York Times</em></a> there were a few qualifiers to the Windows Phone results. There's a 'Nokia effect' making Windows Phone popular where the Finnish company has traditionally been strong. Also, the grey market is sizable in some of the countries, and in Ukraine, South Africa and "rest of central and eastern Europe" fewer than 100,000 Windows Phone devices shipped in each market in the quarter.</p>
+<p>The report of the Windows Phone milestone stems from <a href="http://blogs.technet.com/b/microsoft_blog/archive/2013/03/26/looking-back-and-springing-ahead.aspx">a blog by Microsoft's head of communications Frank X Shaw</a> mocking <a href="http://www.zdnet.com/google-to-kill-off-google-reader-in-spring-cleaning-7000012581/">Google's most recent round of spring cleaning</a> that <a href="http://www.zdnet.com/goodbye-google-reader-here-are-five-rss-alternatives-7000012604/">saw the death of Google Reader</a>.</p>
+<p>Shaw also said Windows Phone had reach 10 percent smartphone market share in a number of countries. ZDNet has asked IDC for additional details on which markets that involves, but likely nations where Windows Phone has reached the 10 percent figure include Italy and Nokia's homeland, Finland. Consumer research firm Kantar World Panel noted that Windows Phone in the <a href="http://www.kantarworldpanel.com/Global/News/Windows-sees-strong-European-growth" target="_blank">12 weeks to December 23 accounted</a> for 13.9 percent of smartphone sales in Italy. Nokia's <a href="http://www.zdnet.com/nokias-2012-highs-and-lows-from-most-popular-us-windows-phone-to-finlands-biggest-lay-offs-7000009531/" target="_blank">cheaper Lumia 620 has proved popular there</a>, and more broadly across Europe, <a href="http://www.zdnet.com/uk/android-quitters-fuel-windows-phone-uk-growth-7000011773/" target="_blank">Windows Phone has been gaining users previously on Android</a>.&nbsp;</p>
+<p>Overall, IDC says Windows Phone and Windows Mobile devices accounted for <a href="http://www.idc.com/getdoc.jsp?containerId=prUS23946013" target="_blank">six percent of the 227 million smartphones shipped</a> worldwide in the fourth quarter of 2012. For the year, <a href="http://www.idc.com/getdoc.jsp?containerId=prUS23818212" target="_blank">Windows Phone made up 2.6 percent</a>, however, the analyst firm is predicting Windows Phone to be the fastest growing platform between now to 2016 with a compound annual growth rate of 71.3 percent.</p>
+<p>IDC expects Windows Phone to account for 11.4 percent of smartphone shipments by 2016, largely off the back of declining Android market share. It forecasts Apple's share of shipments to grow from 18.8 percent in 2012 to 19.1 percent by 2016, while Android 69.3 percent in 2012 declines to 63.8 percent. It predicts BlackBerry to be flat with four percent share.&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013234</guid>
+      <link><![CDATA[http://www.zdnet.com/law-to-ban-google-glass-on-the-road-unlikely-7000013234/]]></link>
+      <title><![CDATA[Law to ban Google Glass on the road unlikely]]></title>
+      <description><![CDATA[If you're in West Virginia and were irked by the potential ban on Google Glass, hope is at hand. ]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 09:33:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-emerging-tech/">Emerging Tech</category>
+      <category domain="http://www.zdnet.com/topic-google-apps/">Google Apps</category>
+      <media:text type="html"><![CDATA[<p>A potential ban on Google Glass while on the road -- before the product has been released -- may have seemed premature, but legislation may already be stopped in its tracks.</p>
+<figure class="alignRight"><img title="Google_Glass_sticker" alt="Google_Glass_sticker" src="http://cdn-static.zdnet.com/i/r/story/70/00/013234/googleglasssticker-200x235.png?hash=AwIvBGNlZG&upscale=1" height="235" width="200"><figcaption>A "Stop the Cyborgs" sticker on offer</figcaption></figure>
+<p>CNET's Chris Matyszczyk wrote an article <a href="http://news.cnet.com/8301-17852_3-57574607-71/google-glass-the-opposition-grows/">documenting the trend</a> of preventing "cyber spying" entering the physical space even more than it already has -- with particular attention on the privacy concerns that Google Glass could bring into being.</p>
+<p>One group, with a website called "Stop The Cyborgs," says that the product will prove to be the catalyst for a world where "privacy is impossible and corporate control total." Although many fight against technology that threatens to impede privacy, you could also argue with the widespread use of social networks including Facebook, GPS systems and our seemingly careless sharing of data, we may be in that kind of world already.</p>
+<p>The look of the product aside, if someone is wearing a pair of the glasses, you can't know if you're being recorded or not. Perhaps it is something about being monitored obviously and in real-time which disquiets us, where is it in our field of vision rather than simply a security camera on the street or a photo take on a night out that we can happily ignore.</p>
+<p>However, this isn't the only issue. If you'd like to wear your high-tech headgear on the road, fears that such technology may prove distracting have prompted a governmental response. Shortly after CNET's post went live,&nbsp;Republican legislator Gary. G. Howell, proposed a bill ahead of time to prevent wearable technology being legal to wear while you're in control of your vehicle. (Of course, using dashboard technology and apps isn't as distracting, is it?).</p>
+<p>The bill, <a href="http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=hb3057+intr.htm&amp;yr=2013&amp;sesstype=RS&amp;i=3057&amp;fb_source=message">H.B. 3057</a>, was designed to stop Google Glassers from wearing their headgear on roads in West Virginia. Although not against the invention itself, Howell said that it could be as distracting as texting -- and therefore could prompt a rise in accidents.</p>
+<p>However, it is <a href="http://news.cnet.com/8301-17852_3-57576716-71/no-google-glassing-and-driving-ban-likely-this-year/">unlikely to pass</a> this year.</p>
+<p>Why? This week, the House Committee on Roads and Transportation sat and discussed the coverage of the bill, but did not discuss the bill in itself -- which means that barring a "special committee meeting" before Monday, the proposed legislation will be dead in the water -- at least until next year.</p>
+<p>According to Howell, the general attitude on wearable technology and driving means that they "are going to have to look at the impact Google Glass and similar will have." We'll have to see what the next 12 months brings.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013231</guid>
+      <link><![CDATA[http://www.zdnet.com/china-remains-of-concern-in-sprint-softbank-deal-7000013231/]]></link>
+      <title><![CDATA[China remains of concern in Sprint-Softbank deal]]></title>
+      <description><![CDATA[As a condition for the merger to go ahead, the U.S. may ask for supervision over the purchase of network equipment, which may be a way to keep Chinese suppliers out of the equation. ]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 08:26:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-china/">China</category>
+      <media:text type="html"><![CDATA[<figure><img title="sprintceodanhesse3610" alt="sprintceodanhesse3610" src="http://cdn-static.zdnet.com/i/r/story/70/00/013231/sprintceodanhesse3610-610x336.jpg?hash=Amp1AmZ0Lz&upscale=1" height="336" width="610"></figure>
+<p>Concerns remain over integrating Chinese technology within U.S. infrastructure, and so the government is seeking ways to stop the process as politically as possible.</p>
+<p>In order to approve Softbank's acquisition of Sprint, the U.S. government may require the oversight of network equipment purchases, as reported by <a href="http://online.wsj.com/article/SB10001424127887323501004578386892265847764.html">The Wall Street Journal</a>. Chinese suppliers Huawei Technologies and ZTE have been <a href="http://www.zdnet.com/us-probes-huawei-zte-over-spy-concerns-2062305100/">under scrutiny</a> for some time, with concerns raised over their ties to the Chinese government and that their networking equipment could be used as a springboard for the country's alleged espionage activities.</p>
+<p>Two reports <a href="http://www.zdnet.com/dont-trust-huawei-and-zte-us-congressional-committee-warns-7000005378/">released last year</a> by the U.S. House of Representatives Intelligence Committee and the European Commission suggested that Huawei and ZTE could represent a threat to both the United States and Europe, as it is possible that malicious code is being built into telecoms equipment which could be used to infiltrate other countries' networks.</p>
+<p>The American report urged businesses not to buy the two firms' equipment, however, Chinese officials have said in response that such reports violate free-market principles -- and warned that it could cause a political divide between the two nations. Huawei and ZTE have both continually denied that their networking equipment is a security risk.</p>
+<p>In January this year, the FCC was asked to delay the Softbank-Sprint deal on the basis of national security concerns. Citing sources familiar with the situation, the publication says that in order for the $20 billion merger to go ahead, it is possible that suppliers originating from China could be kept out of the equation. In order to avoid political confrontation, supervision wouldn't specifically exclude gear from Huawei or ZTE, but as one source said, "You have to find a way to say, 'Don't buy from the Chinese,' without saying, 'Don't buy from the Chinese."</p>
+<p>In addition, one anonymous source said that both firms would be willing to stop using gear from both companies within their U.S. network if it meant the deal would receive the blessing of U.S. officials.</p>
+<p>Japanese wireless carrier Softbank intends to help <a href="http://www.zdnet.com/softbank-to-release-4bn-in-bonds-to-fund-sprint-deal-7000011670/">fund the acquisition</a> of the 70 percent stake in Sprint by releasing bonds worth $4 billion to investors. If the merger goes ahead, the firm's customer base will swell to 96 million subscribers in the U.S. and Japan, whereas its closest rival, DoCoMo, has approximately 60 million users.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013222</guid>
+      <link><![CDATA[http://www.zdnet.com/summly-sale-storytelling-hides-horrible-home-truths-7000013222/]]></link>
+      <title><![CDATA[Summly sale storytelling hides horrible home truths]]></title>
+      <description><![CDATA[Summly's presumed boy-genius founder and its $30 million sale to Yahoo got global media attention, thanks to classic dodgy startup-culture myth making. Time for a reality check.]]></description>
+      <pubDate><![CDATA[Thu, 28 Mar 2013 04:03:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Stilgherrian]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>You can see why the world's news media went for this story in such a big way. A mega-dollar buyout is the fantasy that inspires so many internet startups. That the buyer in Summly's case was Yahoo, widely perceived as some sort of underdog even though it's still the fourth most-visited website on the planet, doesn't do any harm to the narrative.</p>
+<p>And it certainly doesn't do any harm to have a photogenic teen-boy founder who can look straight down the barrel of a TV camera and deliver a plausible-sounding business proposition, while a seemingly awestruck Stephen Fry sits nearby, to create a <a href="http://player.vimeo.com/video/52014691">promotional video</a> that's not the least bit creepy at all, no sir!</p>
+<p>But remember that it's every startup's job, in its first year or two, to get attention and create that most valuable of online commodities, the buzz. You've got to get people talking, get media coverage, build a user base fast, and hope that venture-capital investors or an existing player picks you to be their sugar child.</p>
+<p>Summly is clearly winning this game for now, but how about we scrape away the surface mythology?</p>
+<p>Let's be clear. Young Nick d'Aloisio and his fledgling company haven't really written amazing new language-processing software. They've written a straightforward iOS application that links to natural language processing (NLP) software licensed from <a href="http://en.wikipedia.org/wiki/SRI_International">SRI International</a>, an organisation spun out of Stanford University in 1946 to develop science and technology for "knowledge, commerce, prosperity, and peace". Translation? "Winning the Cold War for America."</p>
+<p>SRI International has been doing NLP for decades. Some of its earlier work helped CIA analysts trawl through thousands of Soviet engineering documents by rewriting them into helpful summaries &mdash; just as Summly now does for news stories. More recently, it created a personal assistant that could respond to natural-language requests and called &mdash; well, how would you abbreviate "SRI International"?</p>
+<p>Now look at <a href="http://summly.com/about.html">Summly's about page</a>, and notice the solid mix of experienced internet executives and celebrity-name advisers like Ashton Kutcher and Yoko Ono. Note, too, that there are other investors, so, despite the media impression, d'Aloisio didn't just pocket $30 million.</p>
+<p>Cornell University professor Emin G&uuml;n Sirer is spot on in his blog post <a href="http://hackingdistributed.com/2013/03/26/summly/">What's Actually Wrong with Yahoo's Purchase of Summly</a>. The age of Summly's founder is irrelevant. Whether Yahoo is spending its $30m wisely is a matter for Yahoo. We need to get some perspective on what Summly actually does.</p>
+<p>"Let's get some perspective here: Summly wasn't reading <em>Ulysses</em> by James Joyce and extracting the fact that the three-masted ship Leopold Bloom sees on the horizon is a metaphor for the Holy Trinity, and therefore represents the Catholic Church. It wasn't reading a 12-page article in Harper's and extracting the cleverest puns and pop culture send-offs lovingly embedded by a writer who is good at his craft and earning below his potential. And it wasn't taking my blog posts and somehow conveying the nuanced ennui I harbor for bolt-on engineering," Sirer wrote.</p>
+<p>"It was summarizing news. <em>Articles that are already written with a TL;DR in the first paragraph.</em>" (Emphasis in original.)</p>
+<p>In Sirer's view, Summly is just another startup mashup.</p>
+<p>"They are the quintessential bolt-on engineers, taking a Japanese bike engine, slapping together a badly constructed frame aligned solely by eyeballs, and laying down a marketing blitz. That's why the story sells. 'You, too, can do it.' But do you want to?" he wrote.</p>
+<p>"In some sense, everyone is a bolt-on engineer ... Everybody stands on the shoulders of the giants that came before them, and all that. But it's critical to keep tabs on the ratio known as 'glue versus thought'. Sure, both imply progress and both are necessary. But the former is eminently mundane, replaceable, and outsource-able. The latter is typically what gives a company its edge, what is generally regarded as a competitive advantage."</p>
+<p>All that said, there's still the question of whether Yahoo is getting value for its $30 million. Obviously, it thinks so. It's got to do something: Despite being the fourth most-visited site, Yahoo is way down the list when it comes to eyeball time. According to Alexa, Yahoo users spend 9 minutes per day on the site. Users of chart-topping Google spend 15 minutes on that site, and Facebook users some 28 minutes at Zuckerberg's pad.</p>
+<p>Yahoo's recent purchases include a swathe of companies that'll help it reach the mobile market, or so it hopes. We shall see.</p>
+<p>But, as Sirer notes, "If Summly is an innovative company worth purchasing, I have some news for Yahoo: My AI [artificial intelligence] colleagues have tricks up their sleeves that will blow your minds!"</p>]]></media:text>
+    </item>
+  </channel>
+</rss>

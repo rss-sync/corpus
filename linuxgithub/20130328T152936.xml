@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-27T15:50:24-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9064171268d838b8f283fe111ef086b9479d059a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/9064171268d838b8f283fe111ef086b9479d059a"/>
+    <title>
+        Merge tag &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sfr/next-fixes
+    </title>
+    <updated>2013-03-27T15:50:24-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/kernel/epapr_paravirt.c
+m arch/powerpc/kernel/exceptions-64s.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sfr/next-fixes
+
+Pull powerpc build fixes from Stephen Rothwell:
+ &quot;Just a couple of build fixes for powerpc all{mod,yes}config.
+
+  Submitted by me since BenH is on vacation.&quot;
+
+* tag &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sfr/next-fixes:
+  powerpc: define the conditions where the ePAPR idle hcall can be supported
+  powerpc: make additional room in exception vector area&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/33b65f1e9ca51b2d1be4d66d2bbf6e874a022f0a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/33b65f1e9ca51b2d1be4d66d2bbf6e874a022f0a"/>
+    <title>
+        Merge tag &#39;stable/for-linus-3.9-rc4-tag&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/xen
+    </title>
+    <updated>2013-03-27T12:56:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/include/asm/xen/hypercall.h
+m arch/x86/xen/mmu.c
+m drivers/xen/Kconfig
+m drivers/xen/events.c
+m drivers/xen/fallback.c
+m drivers/xen/xen-acpi-processor.c
+m drivers/xen/xen-pciback/pci_stub.c
+m include/xen/interface/physdev.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;stable/for-linus-3.9-rc4-tag&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/xen
+
+Pull Xen bug-fixes from Konrad Rzeszutek Wilk:
+ &quot;This is mostly just the last stragglers of the regression bugs that
+  this merge window had.  There are also two bug-fixes: one that adds an
+  extra layer of security, and a regression fix for a change that was
+  added in v3.7 (the v1 was faulty, the v2 works).
+
+   - Regression fixes for C-and-P states not being parsed properly.
+   - Fix possible security issue with guests triggering DoS via
+     non-assigned MSI-Xs.
+   - Fix regression (introduced in v3.7) with raising an event (v2).
+   - Fix hastily introduced band-aid during c0 for the CR3 blowup.&quot;
+
+* tag &#39;stable/for-linus-3.9-rc4-tag&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/xen:
+  xen/events: avoid race with raising an event in unmask_evtchn()
+  xen/mmu: Move the setting of pvops.write_cr3 to later phase in bootup.
+  xen/acpi-stub: Disable it b/c the acpi_processor_add is no longer called.
+  xen-pciback: notify hypervisor about devices intended to be assigned to guests
+  xen/acpi-processor: Don&#39;t dereference struct acpi_processor on all CPUs.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f8966048c128eff4f57f7c9e7f71360ebd10e1a9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f8966048c128eff4f57f7c9e7f71360ebd10e1a9"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/hid
+    </title>
+    <updated>2013-03-27T11:18:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/hid/hid-ids.h
+m drivers/hid/hid-multitouch.c
+m drivers/hid/usbhid/hid-quirks.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/hid
+
+Pull HID fixes from Jiri Kosina:
+
+ - fix for potential 3.9 regression in handling of buttons for touchpads
+   following HID mt specification; potential because reportedly there is
+   no retail product on the market that would be using this feature, but
+   nevertheless we&#39;d better follow the spec.  Fix by Benjamin Tissoires.
+
+ - support for two quirky devices added by Josh Boyer.
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/hid:
+  HID: multitouch: fix touchpad buttons
+  HID: usbhid: fix build problem
+  HID: usbhid: quirk for MSI GX680R led panel
+  HID: usbhid: quirk for Realtek Multi-card reader&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a8c45289f215e137825bf9630d0abb41c1dc41ff</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a8c45289f215e137825bf9630d0abb41c1dc41ff"/>
+    <title>
+        Merge tag &#39;iommu-fixes-v3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+    </title>
+    <updated>2013-03-27T09:25:11-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/iommu/Kconfig
+m drivers/iommu/amd_iommu.c
+m drivers/iommu/amd_iommu_init.c
+m drivers/iommu/irq_remapping.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;iommu-fixes-v3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+
+Pull IOMMU fixes from Joerg Roedel:
+ &quot;Here are some fixes which have collected since Linux v3.9-rc1.
+
+  The most important one fixes a long-standing regressen which make
+  re-hotplugged devices unusable when AMD IOMMU is used.
+
+  The other patches fix build issues (build regression on OMAP and a
+  section mismatch).  One patch just removes a duplicate header include.&quot;
+
+* tag &#39;iommu-fixes-v3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu:
+  iommu/amd: Make sure dma_ops are set for hotplug devices
+  x86, io_apic: remove duplicated include from irq_remapping.c
+  iommu: OMAP: build only on OMAP2+
+  amd_iommu_init: remove __init from amd_iommu_erratum_746_workaround&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3e84f48edfd33b2e209a117c11fb9ce637cc9b67</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/3e84f48edfd33b2e209a117c11fb9ce637cc9b67"/>
+    <title>
+        vfs/splice: Fix missed checks in new __kernel_write() helper
+    </title>
+    <updated>2013-03-27T09:24:02-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b1fecf6b03fc62f894bef52b49551915?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>viro@ZenIV.linux.org.uk</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/read_write.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>vfs/splice: Fix missed checks in new __kernel_write() helper
+
+Commit 06ae43f34bcc (&quot;Don&#39;t bother with redoing rw_verify_area() from
+default_file_splice_from()&quot;) lost the checks to test existence of the
+write/aio_write methods.  My apologies ;-/
+
+Eventually, we want that in fs/splice.c side of things (no point
+repeating it for every buffer, after all), but for now this is the
+obvious minimal fix.
+
+Reported-by: Dave Jones &lt;davej@redhat.com&gt;
+Signed-off-by: Al Viro &lt;viro@zeniv.linux.org.uk&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c26377e62f4e6bfb4d99ef88526047209701a83f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c26377e62f4e6bfb4d99ef88526047209701a83f"/>
+    <title>
+        xen/events: avoid race with raising an event in unmask_evtchn()
+    </title>
+    <updated>2013-03-27T09:06:04-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/165795b13e2924561825937ccba88358?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>dvrabel</name>
+      <uri>https://github.com/dvrabel</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/xen/events.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>xen/events: avoid race with raising an event in unmask_evtchn()
+
+In unmask_evtchn(), when the mask bit is cleared after testing for
+pending and the event becomes pending between the test and clear, then
+the upcall will not become pending and the event may be lost or
+delayed.
+
+Avoid this by always clearing the mask bit before checking for
+pending.  If a hypercall is needed, remask the event as
+EVTCHNOP_unmask will only retrigger pending events if they were
+masked.
+
+This fixes a regression introduced in 3.7 by
+b5e579232d635b79a3da052964cb357ccda8d9ea (xen/events: fix
+unmask_evtchn for PV on HVM guests) which reordered the clear mask and
+check pending operations.
+
+Changes in v2:
+- set mask before hypercall.
+
+Cc: stable@vger.kernel.org
+Acked-by: Stefano Stabellini &lt;stefano.stabellini@eu.citrix.com&gt;
+Signed-off-by: David Vrabel &lt;david.vrabel@citrix.com&gt;
+Signed-off-by: Konrad Rzeszutek Wilk &lt;konrad.wilk@oracle.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d3eb2c89e7ba996e8781b22a6e7d0a895ef55630</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d3eb2c89e7ba996e8781b22a6e7d0a895ef55630"/>
+    <title>
+        xen/mmu: Move the setting of pvops.write_cr3 to later phase in bootup.
+    </title>
+    <updated>2013-03-27T09:06:03-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/3951a62cd7ed36690d9cd225e63a8872?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>konrad.wilk@oracle.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/xen/mmu.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>xen/mmu: Move the setting of pvops.write_cr3 to later phase in bootup.
+
+We move the setting of write_cr3 from the early bootup variant
+(see git commit 0cc9129d75ef8993702d97ab0e49542c15ac6ab9
+&quot;x86-64, xen, mmu: Provide an early version of write_cr3.&quot;)
+to a more appropiate location.
+
+This new location sets all of the other non-early variants
+of pvops calls - and most importantly is before the
+alternative_asm mechanism kicks in.
+
+Signed-off-by: Konrad Rzeszutek Wilk &lt;konrad.wilk@oracle.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/76fc253723add627cf28c09c79fb67e71f9e4782</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/76fc253723add627cf28c09c79fb67e71f9e4782"/>
+    <title>
+        xen/acpi-stub: Disable it b/c the acpi_processor_add is no longer called.
+    </title>
+    <updated>2013-03-27T09:06:02-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/3951a62cd7ed36690d9cd225e63a8872?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>konrad.wilk@oracle.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/xen/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>xen/acpi-stub: Disable it b/c the acpi_processor_add is no longer called.
+
+With the Xen ACPI stub code (CONFIG_XEN_STUB=y) enabled, the power
+C and P states are no longer uploaded to the hypervisor.
+
+The reason is that the Xen CPU hotplug code: xen-acpi-cpuhotplug.c
+and the xen-acpi-stub.c register themselves as the &quot;processor&quot; type object.
+
+That means the generic processor (processor_driver.c) stops
+working and it does not call (acpi_processor_add) which populates the
+
+         per_cpu(processors, pr-&gt;id) = pr;
+
+structure. The &#39;pr&#39; is gathered from the acpi_processor_get_info function
+which does the job of finding the C-states and figuring out PBLK address.
+
+The &#39;processors-&gt;pr&#39; is then later used by xen-acpi-processor.c (the one that
+uploads C and P states to the hypervisor). Since it is NULL, we end
+skip the gathering of _PSD, _PSS, _PCT, etc and never upload the power
+management data.
+
+The end result is that enabling the CONFIG_XEN_STUB in the build means that
+xen-acpi-processor is not working anymore.
+
+This temporary patch fixes it by marking the XEN_STUB driver as
+BROKEN until this can be properly fixed.
+
+CC: jinsong.liu@intel.com
+Signed-off-by: Konrad Rzeszutek Wilk &lt;konrad.wilk@oracle.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4c43755506ececbe903585265aa8408e937620a1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4c43755506ececbe903585265aa8408e937620a1"/>
+    <title>
+        HID: multitouch: fix touchpad buttons
+    </title>
+    <updated>2013-03-27T06:09:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/acca574abc6e37cd5118cbb0edec1071?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>benjamin.tissoires@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/hid/hid-multitouch.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>HID: multitouch: fix touchpad buttons
+
+Commit &quot;HID: multitouch: use the callback &quot;report&quot; instead...&quot; breaks the
+buttons of touchpads following the HID multitouch specification.
+The buttons were emmitted through hid-input, but as now the events
+are generated only in hid-multitouch, the buttons are not emmitted anymore.
+
+The input_event() call is far much simpler than the hid-input one as
+many of the different tests do not apply to multitouch touchpads.
+
+Signed-off-by: Benjamin Tissoires &lt;benjamin.tissoires@redhat.com&gt;
+Signed-off-by: Jiri Kosina &lt;jkosina@suse.cz&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c2a2876e863356b092967ea62bebdb4dd663af80</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c2a2876e863356b092967ea62bebdb4dd663af80"/>
+    <title>
+        iommu/amd: Make sure dma_ops are set for hotplug devices
+    </title>
+    <updated>2013-03-27T01:59:50-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ec0d89879cb2ca1e706d707a03405bf0?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>joro@8bytes.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/iommu/amd_iommu.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>iommu/amd: Make sure dma_ops are set for hotplug devices
+
+There is a bug introduced with commit 27c2127 that causes
+devices which are hot unplugged and then hot-replugged to
+not have per-device dma_ops set. This causes these devices
+to not function correctly. Fixed with this patch.
+
+Cc: stable@vger.kernel.org
+Reported-by: Andreas Degert &lt;andreas.degert@googlemail.com&gt;
+Signed-off-by: Joerg Roedel &lt;joro@8bytes.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/de55eb1d60d2ed0f1ba5e13226d91b3bfbe1c108</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/de55eb1d60d2ed0f1ba5e13226d91b3bfbe1c108"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+    </title>
+    <updated>2013-03-26T17:42:55-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/tty/vt/vc_screen.c
+m fs/dcache.c
+m fs/internal.h
+m fs/read_write.c
+m fs/splice.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+
+Pull vfs fixes from Al Viro:
+ &quot;stable fodder; assorted deadlock fixes&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs:
+  vt: synchronize_rcu() under spinlock is not nice...
+  Nest rename_lock inside vfsmount_lock
+  Don&#39;t bother with redoing rw_verify_area() from default_file_splice_from()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e8cd81693bbbb15db57d3c9aa7dd90eda4842874</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e8cd81693bbbb15db57d3c9aa7dd90eda4842874"/>
+    <title>
+        vt: synchronize_rcu() under spinlock is not nice...
+    </title>
+    <updated>2013-03-26T17:30:17-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b1fecf6b03fc62f894bef52b49551915?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>viro@zeniv.linux.org.uk</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/tty/vt/vc_screen.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>vt: synchronize_rcu() under spinlock is not nice...
+
+vcs_poll_data_free() calls unregister_vt_notifier(), which calls
+atomic_notifier_chain_unregister(), which calls synchronize_rcu().
+Do it *after* we&#39;d dropped -&gt;f_lock.
+
+Cc: stable@vger.kernel.org (all kernels since 2.6.37)
+Signed-off-by: Al Viro &lt;viro@zeniv.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7ea600b5314529f9d1b9d6d3c41cb26fce6a7a4a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/7ea600b5314529f9d1b9d6d3c41cb26fce6a7a4a"/>
+    <title>
+        Nest rename_lock inside vfsmount_lock
+    </title>
+    <updated>2013-03-26T15:25:57-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b1fecf6b03fc62f894bef52b49551915?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>viro@zeniv.linux.org.uk</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/dcache.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Nest rename_lock inside vfsmount_lock
+
+... lest we get livelocks between path_is_under() and d_path() and friends.
+
+The thing is, wrt fairness lglocks are more similar to rwsems than to rwlocks;
+it is possible to have thread B spin on attempt to take lock shared while thread
+A is already holding it shared, if B is on lower-numbered CPU than A and there&#39;s
+a thread C spinning on attempt to take the same lock exclusive.
+
+As the result, we need consistent ordering between vfsmount_lock (lglock) and
+rename_lock (seq_lock), even though everything that takes both is going to take
+vfsmount_lock only shared.
+
+Spotted-by: Brad Spengler &lt;spender@grsecurity.net&gt;
+Cc: stable@vger.kernel.org
+Signed-off-by: Al Viro &lt;viro@zeniv.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b175293ccc98ab84e93d25472d7422b4a897614b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b175293ccc98ab84e93d25472d7422b4a897614b"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net
+    </title>
+    <updated>2013-03-26T14:24:29-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Documentation/networking/ipvs-sysctl.txt
+m drivers/bluetooth/ath3k.c
+m drivers/bluetooth/btusb.c
+m drivers/net/bonding/bond_sysfs.c
+m drivers/net/ethernet/broadcom/bnx2x/bnx2x_dcb.c
+m drivers/net/ethernet/freescale/fec.c
+m drivers/net/ethernet/freescale/fec_ptp.c
+m drivers/net/ethernet/intel/igb/e1000_82575.c
+m drivers/net/ethernet/intel/igb/igb_hwmon.c
+m drivers/net/ethernet/intel/igb/igb_main.c
+m drivers/net/ethernet/intel/igb/igb_ptp.c
+m drivers/net/ethernet/intel/ixgbevf/ixgbevf_main.c
+m drivers/net/ethernet/lantiq_etop.c
+m drivers/net/ethernet/mellanox/mlx4/en_netdev.c
+m drivers/net/ethernet/mellanox/mlx4/eq.c
+m drivers/net/ethernet/mellanox/mlx4/resource_tracker.c
+m drivers/net/ethernet/nxp/lpc_eth.c
+m drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_main.c
+m drivers/net/ethernet/renesas/sh_eth.c
+m drivers/net/ethernet/renesas/sh_eth.h
+m drivers/net/ethernet/ti/cpsw.c
+m drivers/net/wireless/ath/ath9k/ar9003_calib.c
+m drivers/net/wireless/ath/ath9k/link.c
+m drivers/net/wireless/iwlegacy/3945-mac.c
+m drivers/net/wireless/mwifiex/cmdevt.c
+m drivers/net/wireless/mwifiex/init.c
+m drivers/net/wireless/mwifiex/main.h
+m drivers/net/wireless/mwifiex/scan.c
+m drivers/net/wireless/mwifiex/sta_ioctl.c
+m drivers/net/wireless/rtlwifi/usb.c
+m include/linux/thermal.h
+m include/linux/udp.h
+m include/net/flow_keys.h
+m include/net/ip_vs.h
+m include/net/ipip.h
+m include/uapi/linux/packet_diag.h
+m include/uapi/linux/unix_diag.h
+m net/8021q/vlan.c
+m net/bluetooth/sco.c
+m net/bridge/br_fdb.c
+m net/core/dev.c
+m net/core/flow_dissector.c
+m net/ipv4/af_inet.c
+m net/ipv4/ipconfig.c
+m net/ipv4/netfilter/Kconfig
+m net/ipv4/tcp_input.c
+m net/ipv4/tcp_output.c
+m net/ipv4/udp.c
+m net/ipv6/addrconf.c
+m net/ipv6/netfilter/ip6t_NPT.c
+m net/ipv6/udp.c
+m net/irda/af_irda.c
+m net/l2tp/l2tp_core.c
+m net/l2tp/l2tp_core.h
+m net/l2tp/l2tp_debugfs.c
+m net/l2tp/l2tp_ip.c
+m net/l2tp/l2tp_ip6.c
+m net/l2tp/l2tp_netlink.c
+m net/l2tp/l2tp_ppp.c
+m net/netfilter/ipvs/ip_vs_core.c
+m net/netfilter/ipvs/ip_vs_ctl.c
+m net/netfilter/ipvs/ip_vs_proto_sctp.c
+m net/netfilter/nf_conntrack_proto_dccp.c
+m net/netfilter/nf_conntrack_proto_gre.c
+m net/netfilter/nf_conntrack_proto_sctp.c
+m net/netfilter/nf_conntrack_proto_udplite.c
+m net/netfilter/nfnetlink_queue_core.c
+m net/netlink/genetlink.c
+m net/unix/af_unix.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net
+
+Pull networking fixes from David Miller:
+
+ 1) Always increment IPV4 ID field in encapsulated GSO packets, even
+    when DF is set.  Regression fix from Pravin B Shelar.
+
+ 2) Fix per-net subsystem initialization in netfilter conntrack,
+    otherwise we may access dynamically allocated memory before it is
+    actually allocated.  From Gao Feng.
+
+ 3) Fix DMA buffer lengths in iwl3945 driver, from Stanislaw Gruszka.
+
+ 4) Fix race between submission of sync vs async commands in mwifiex
+    driver, from Amitkumar Karwar.
+
+ 5) Add missing cancel of command timer in mwifiex driver, from Bing
+    Zhao.
+
+ 6) Missing SKB free in rtlwifi USB driver, from Jussi Kivilinna.
+
+ 7) Thermal layer tries to use a genetlink multicast string that is
+    longer than the 16 character limit.  Fix it and add a BUG check to
+    prevent this kind of thing from happening in the future.
+
+ From Masatake YAMATO.
+
+ 8) Fix many bugs in the handling of the teardown of L2TP connections,
+    UDP encapsulation instances, and sockets.  From Tom Parkin.
+
+ 9) Missing socket release in IRDA, from Kees Cook.
+
+10) Fix fec driver modular build, from Fabio Estevam.
+
+11) Erroneous use of kfree() instead of free_netdev() in lantiq_etop,
+    from Wei Yongjun.
+
+12) Fix bugs in handling of queue numbers and steering rules in mlx4
+    driver, from Moshe Lazer, Hadar Hen Zion, and Or Gerlitz.
+
+13) Some FOO_DIAG_MAX constants were defined off by one, fix from Andrey
+    Vagin.
+
+14) TCP segmentation deferral is unintentionally done too strongly,
+    breaking ACK clocking.  Fix from Eric Dumazet.
+
+15) net_enable_timestamp() can legitimately be invoked from software
+    interrupts, and in a way that is safe, so remove the WARN_ON().
+    Also from Eric Dumazet.
+
+16) Fix use after free in VLANs, from Cong Wang.
+
+17) Fix TCP slow start retransmit storms after SACK reneging, from
+    Yuchung Cheng.
+
+18) Unix socket release should mark a socket dead before NULL&#39;ing out
+    sock-&gt;sk, otherwise we can race.  Fix from Paul Moore.
+
+19) IPV6 addrconf code can try to free static memory, from Hong Zhiguo.
+
+20) Fix register mis-programming, NULL pointer derefs, and wrong PHC
+    clock frequency in IGB driver.  From Lior LevyAlex Williamson, Jiri
+    Benc, and Jeff Kirsher.
+
+21) skb-&gt;ip_summed logic in pch_gbe driver is reversed, breaking packet
+    forwarding.  Fix from Veaceslav Falico.
+
+* git://git.kernel.org/pub/scm/linux/kernel/git/davem/net: (65 commits)
+  ipv4: Fix ip-header identification for gso packets.
+  bonding: remove already created master sysfs link on failure
+  af_unix: dont send SCM_CREDENTIAL when dest socket is NULL
+  pch_gbe: fix ip_summed checksum reporting on rx
+  igb: fix PHC stopping on max freq
+  igb: make sensor info static
+  igb: SR-IOV init reordering
+  igb: Fix null pointer dereference
+  igb: fix i350 anti spoofing config
+  ixgbevf: don&#39;t release the soft entries
+  ipv6: fix bad free of addrconf_init_net
+  unix: fix a race condition in unix_release()
+  tcp: undo spurious timeout after SACK reneging
+  bnx2x: fix assignment of signed expression to unsigned variable
+  bridge: fix crash when set mac address of br interface
+  8021q: fix a potential use-after-free
+  net: remove a WARN_ON() in net_enable_timestamp()
+  tcp: preserve ACK clocking in TSO
+  net: fix *_DIAG_MAX constants
+  net/mlx4_core: Disallow releasing VF QPs which have steering rules
+  ...&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5d538483ea4920899233d51f3e9c48c75cc10b6d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5d538483ea4920899233d51f3e9c48c75cc10b6d"/>
+    <title>
+        Merge tag &#39;nfs-for-3.9-3&#39; of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+    </title>
+    <updated>2013-03-26T14:23:45-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/nfs/blocklayout/blocklayoutdm.c
+m fs/nfs/idmap.c
+m fs/nfs/nfs4filelayout.c
+m fs/nfs/nfs4proc.c
+m fs/nfs/pnfs.c
+m fs/nfs/pnfs.h
+m net/sunrpc/sched.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;nfs-for-3.9-3&#39; of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+
+Pull NFS client bugfixes from Trond Myklebust:
+ - Fix an NFSv4 idmapper regression
+ - Fix an Oops in the pNFS blocks client
+ - Fix up various issues with pNFS layoutcommit
+ - Ensure correct read ordering of variables in
+   rpc_wake_up_task_queue_locked
+
+* tag &#39;nfs-for-3.9-3&#39; of git://git.linux-nfs.org/projects/trondmy/linux-nfs:
+  SUNRPC: Add barriers to ensure read ordering in rpc_wake_up_task_queue_locked
+  NFSv4.1: Add a helper pnfs_commit_and_return_layout
+  NFSv4.1: Always clear the NFS_INO_LAYOUTCOMMIT in layoutreturn
+  NFSv4.1: Fix a race in pNFS layoutcommit
+  pnfs-block: removing DM device maybe cause oops when call dev_remove
+  NFSv4: Fix the string length returned by the idmapper&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/330305cc4a6b0cb75c22fc01b8826f0ad755550f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/330305cc4a6b0cb75c22fc01b8826f0ad755550f"/>
+    <title>
+        ipv4: Fix ip-header identification for gso packets.
+    </title>
+    <updated>2013-03-26T10:50:05-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/79acfdccb66676ca54ef48d5de05bbb2?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>pshelar@nicira.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m include/net/ipip.h
+m net/ipv4/af_inet.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ipv4: Fix ip-header identification for gso packets.
+
+ip-header id needs to be incremented even if IP_DF flag is set.
+This behaviour was changed in commit 490ab08127cebc25e3a26
+(IP_GRE: Fix IP-Identification).
+
+Following patch fixes it so that identification is always
+incremented.
+
+Reported-by: Cong Wang &lt;amwang@redhat.com&gt;
+Signed-off-by: Pravin B Shelar &lt;pshelar@nicira.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9fe16b78ee17579cb4f333534cf7043e94c67024</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/9fe16b78ee17579cb4f333534cf7043e94c67024"/>
+    <title>
+        bonding: remove already created master sysfs link on failure
+    </title>
+    <updated>2013-03-26T10:00:02-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2453bc0f2e603230ff87352367c2c8e4?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>vfalico@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/net/bonding/bond_sysfs.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>bonding: remove already created master sysfs link on failure
+
+If slave sysfs symlink failes to be created - we end up without removing
+the master sysfs symlink. Remove it in case of failure.
+
+Signed-off-by: Veaceslav Falico &lt;vfalico@redhat.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/14134f6584212d585b310ce95428014b653dfaf6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/14134f6584212d585b310ce95428014b653dfaf6"/>
+    <title>
+        af_unix: dont send SCM_CREDENTIAL when dest socket is NULL
+    </title>
+    <updated>2013-03-26T09:33:55-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ce22ec5e25dd7b10acc835353e1c4988?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>dingtianhong@huawei.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m net/unix/af_unix.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>af_unix: dont send SCM_CREDENTIAL when dest socket is NULL
+
+SCM_SCREDENTIALS should apply to write() syscalls only either source or destination
+socket asserted SOCK_PASSCRED. The original implememtation in maybe_add_creds is wrong,
+and breaks several LSB testcases ( i.e. /tset/LSB.os/netowkr/recvfrom/T.recvfrom).
+
+Origionally-authored-by: Karel Srot &lt;ksrot@redhat.com&gt;
+Signed-off-by: Ding Tianhong &lt;dingtianhong@huawei.com&gt;
+Acked-by: Eric Dumazet &lt;edumazet@google.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/465c0a165938992455357982d7f15ac105528b4a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/465c0a165938992455357982d7f15ac105528b4a"/>
+    <title>
+        Merge branch &#39;master&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jkirsher/net
+    </title>
+    <updated>2013-03-26T09:21:31-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/81279c43ce60f56aea992763d1ed612b?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>davem330</name>
+      <uri>https://github.com/davem330</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/net/ethernet/intel/igb/e1000_82575.c
+m drivers/net/ethernet/intel/igb/igb_hwmon.c
+m drivers/net/ethernet/intel/igb/igb_main.c
+m drivers/net/ethernet/intel/igb/igb_ptp.c
+m drivers/net/ethernet/intel/ixgbevf/ixgbevf_main.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;master&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jkirsher/net
+
+Jeff Kirsher says:
+
+====================
+This series contains updates to ixgbevf and igb.
+
+The ixgbevf calls to pci_disable_msix() and to free the msix_entries
+memory should not occur if device open fails.  Instead they should be
+called during device driver removal to balance with the call to
+pci_enable_msix() and the call to allocate msix_entries memory
+during the device probe and driver load.
+
+The remaining 4 of 5 igb patches are simple 1-3 line patches to fix
+several issues such as possible null pointer dereference, PHC stopping
+on max frequency, make sensor info static and SR-IOV initialization
+reordering.
+
+The remaining igb patch to fix anti-spoofing config fixes a problem
+in i350 where anti spoofing configuration was written into a wrong
+register.
+====================
+
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/76a0e68129d7d24eb995a6871ab47081bbfa0acc</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/76a0e68129d7d24eb995a6871ab47081bbfa0acc"/>
+    <title>
+        pch_gbe: fix ip_summed checksum reporting on rx
+    </title>
+    <updated>2013-03-26T09:20:29-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2453bc0f2e603230ff87352367c2c8e4?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>vfalico@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_main.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>pch_gbe: fix ip_summed checksum reporting on rx
+
+skb-&gt;ip_summed should be CHECKSUM_UNNECESSARY when the driver reports that
+checksums were correct and CHECKSUM_NONE in any other case. They&#39;re
+currently placed vice versa, which breaks the forwarding scenario. Fix it
+by placing them as described above.
+
+Signed-off-by: Veaceslav Falico &lt;vfalico@redhat.com&gt;
+Signed-off-by: David S. Miller &lt;davem@davemloft.net&gt;&lt;/pre>
+    </content>
+  </entry>
+</feed>

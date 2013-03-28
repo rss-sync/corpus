@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Daring Fireball</title>
+<subtitle>Mac and web curmudgeonry/nerdery. By John Gruber.</subtitle>
+<link rel="alternate" type="text/html" href="http://daringfireball.net/" />
+<link rel="self" type="application/atom+xml" href="http://daringfireball.net/index.xml" />
+<id>http://daringfireball.net/feeds/combo</id>
+
+<updated>2013-03-28T15:20:56Z</updated><rights>Copyright © 2013, John Gruber</rights><entry>
+	<title>Hashtags Considered #Harmful</title>
+	<link rel="alternate" type="text/html" href="http://www.niemanlab.org/2013/03/hashtags-considered-harmful/" />
+	<link rel="shorturl" href="http://df4.us/l4w" />
+	<id>tag:daringfireball.net,2013:/linked//6.27392</id>
+	<published>2013-03-28T15:17:58Z</published>
+	<updated>2013-03-28T15:20:56Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Daniel Victor, writing for Nieman Journalism Lab:</p>
+
+<blockquote>
+  <p>I’ve heard before: What’s the harm? Why not at least try to include #SuperBowl if every little bit helps? Somewhat of a fair point. Using a hashtag does no harm in the same way wood paneling does no harm to your station wagon, or a misspelled tattoo does no harm to your bicep.</p>
+
+<p>Here’s where I’ll join the rest in unquantifiable hoodoo: I believe hashtags are aesthetically damaging. I believe a tweet free of hashtags is more pleasing to the eye, more easily consumed, and thus more likely to be retweeted (which is a proven way of growing your audience).</p>
+</blockquote>
+
+<p>Hear, hear.</p>
+
+<div>
+<a  title="Permanent link to ‘Hashtags Considered #Harmful’"  href="http://daringfireball.net/linked/2013/03/28/hashtags">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Biggest Problem in Technology</title>
+	<link rel="alternate" type="text/html" href="http://www.newyorker.com/online/blogs/newsdesk/2013/03/the-biggest-problem-in-technology.html" />
+	<link rel="shorturl" href="http://df4.us/l4v" />
+	<id>tag:daringfireball.net,2013:/linked//6.27391</id>
+	<published>2013-03-28T14:58:28Z</published>
+	<updated>2013-03-28T15:00:43Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Matt Buchanan, for The New Yorker:</p>
+
+<blockquote>
+  <p>Given the advantages of time, distance, and a rational mind, it is relatively easy to see that basically everybody involved erred (though some far more severely than others). No one emerges unscathed: Richards’ public tweet shaming the pair was disproportionate to the inherent offense in their comments; the pair should not have made an unfunny dick joke — one that has been made too many times already — at a tech conference that emphasizes its diversity and code of conduct; PlayHaven should not have immediately fired the developer for the “inappropriate comments” (even if there were other factors, the timing is poor); vigilantes should not have launched attacks against SendGrid; SendGrid should not have fired Richards (again, if only for timing, not to mention that it sends the message that speaking out is wrong); and most of all, horrible people should not have bombarded Richards with threats of death and rape.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘The Biggest Problem in Technology’"  href="http://daringfireball.net/linked/2013/03/28/buchanan">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Where in the World Are Windows Phones Outselling iPhones?</title>
+	<link rel="alternate" type="text/html" href="http://bits.blogs.nytimes.com/2013/03/27/where-in-the-world-are-windows-phones-outselling-iphones/" />
+	<link rel="shorturl" href="http://df4.us/l4u" />
+	<id>tag:daringfireball.net,2013:/linked//6.27390</id>
+	<published>2013-03-28T00:09:38Z</published>
+	<updated>2013-03-28T00:12:57Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Nick Wingfield answers my question:</p>
+
+<blockquote>
+  <p>According to Kevin Restivo, an analyst at IDC, the countries where Windows Phone shipments exceeded those of iPhone during the fourth quarter were: Argentina, India, Poland, Russia, South Africa and Ukraine. A seventh “country” where Windows Phone shipments beat iPhone is actually a group of smaller countries, including Croatia, that IDC lumps together in a category called “rest of central and eastern Europe.”</p>
+</blockquote>
+
+<p>Some big countries on that list. None of them Apple strongholds, though.</p>
+
+<div>
+<a  title="Permanent link to ‘Where in the World Are Windows Phones Outselling iPhones?’"  href="http://daringfireball.net/linked/2013/03/27/windows-phone-world">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Why Developers Shouldn’t Use iCloud Syncing, Even if It Worked</title>
+	<link rel="alternate" type="text/html" href="http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy" />
+	<link rel="shorturl" href="http://df4.us/l4t" />
+	<id>tag:daringfireball.net,2013:/linked//6.27389</id>
+	<published>2013-03-27T21:36:54Z</published>
+	<updated>2013-03-27T21:49:07Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Brent Simmons, again:</p>
+
+<blockquote>
+  <p>Here’s the thing: half the mobile revolution is about designing and building apps for smartphones and tablets.</p>
+
+<p>The other half is about writing the web services that power those apps.</p>
+
+<p>How comfortable are you with outsourcing half your app to another company? The answer should be: not at all comfortable.</p>
+</blockquote>
+
+<p>Don&#8217;t take Brent&#8217;s word for it. <a href="http://www.asymco.com/2011/01/17/the-cook-doctrine/">Consider Tim Cook&#8217;s doctrine</a>: &#8220;We believe that we need to own and control the primary technologies behind the products we make.&#8221;</p>
+
+<div>
+<a  title="Permanent link to ‘Why Developers Shouldn’t Use iCloud Syncing, Even if It Worked’"  href="http://daringfireball.net/linked/2013/03/27/simmons-icloud">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Night Steve Jobs Returned to Apple</title>
+	<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/tpoholmes/sets/72157633089256151/" />
+	<link rel="shorturl" href="http://df4.us/l4s" />
+	<id>tag:daringfireball.net,2013:/linked//6.27388</id>
+	<published>2013-03-27T20:58:33Z</published>
+	<updated>2013-03-27T20:59:48Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Great set on Flickr from Tim Holmes.</p>
+
+<div>
+<a  title="Permanent link to ‘The Night Steve Jobs Returned to Apple’"  href="http://daringfireball.net/linked/2013/03/27/holmes-flickr">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Fans: Microsoft Is No Longer the Enemy</title>
+	<link rel="alternate" type="text/html" href="http://www.macworld.com/article/2031592/apple-fans-microsoft-is-no-longer-the-enemy.html" />
+	<link rel="shorturl" href="http://df4.us/l4r" />
+	<id>tag:daringfireball.net,2013:/linked//6.27387</id>
+	<published>2013-03-27T18:12:45Z</published>
+	<updated>2013-03-27T18:20:12Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Brent Simmons, writing at Macworld:</p>
+
+<blockquote>
+  <p>While I was visiting the Microsoft campus a few weeks ago—in suburban Redmond, just across Lake Washington from my beloved Seattle—I kept thinking of the old Vulcan proverb: “Only Nixon can go to China.”</p>
+
+<p>If Microsoft is China, then that makes me Nixon in this story, I realize.</p>
+</blockquote>
+
+<p>Couldn&#8217;t agree more with Brent on this one.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Fans: Microsoft Is No Longer the Enemy’"  href="http://daringfireball.net/linked/2013/03/27/simmons-nixon">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Lucky Number Seven</title>
+	<link rel="alternate" type="text/html" href="http://blogs.technet.com/b/microsoft_blog/archive/2013/03/26/looking-back-and-springing-ahead.aspx" />
+	<link rel="shorturl" href="http://df4.us/l4q" />
+	<id>tag:daringfireball.net,2013:/linked//6.27386</id>
+	<published>2013-03-26T23:36:34Z</published>
+	<updated>2013-03-26T23:38:53Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Frank X. Shaw, Microsoft:</p>
+
+<blockquote>
+  <p>Windows Phone has reached 10 percent market share in a number of countries, and according to IDC’s latest report, has shipped more than Blackberry in 26 markets and more than iPhone in seven.</p>
+</blockquote>
+
+<p>OK, I&#8217;ll bite: which seven?</p>
+
+<div>
+<a  title="Permanent link to ‘Lucky Number Seven’"  href="http://daringfireball.net/linked/2013/03/26/seven">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>MacUpdate March 2013 Bundle</title>
+	<link rel="alternate" type="text/html" href="http://deals.macupdate.com/bundle/affil/8000" />
+	<link rel="shorturl" href="http://df4.us/l4p" />
+	<id>tag:daringfireball.net,2013:/linked//6.27385</id>
+	<published>2013-03-26T22:59:57Z</published>
+	<updated>2013-03-26T23:06:18Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Last day to score this deal from MacUpdate: $600 of Mac software for just $50.</p>
+
+<div>
+<a  title="Permanent link to ‘MacUpdate March 2013 Bundle’"  href="http://daringfireball.net/linked/2013/03/26/macupdate">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Forecast</title>
+	<link rel="alternate" type="text/html" href="http://blog.forecast.io/post/46290267206/announcing-forecast" />
+	<link rel="shorturl" href="http://df4.us/l4n" />
+	<id>tag:daringfireball.net,2013:/linked//6.27383</id>
+	<published>2013-03-26T19:44:41Z</published>
+	<updated>2013-03-26T19:45:54Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Forecast:</p>
+
+<blockquote>
+  <p>About a year ago, we released a little app for the iPhone and iPad called Dark Sky, attempting to do something new and interesting for weather forecasting, a field we think had become pretty stagnant. Approaching 100k sales, it’s been fairly successful; however, we’ve been continually asked for more: international support, longer-term forecasting, an Android app, and so on.</p>
+
+<p>Rather than cram these things into Dark Sky, we decided to do something grander: create our own full-featured weather service from scratch, complete with 7-day forecasts that cover the whole world, beautiful weather visualizations, and a time machine for exploring the weather in the past and far future.</p>
+</blockquote>
+
+<p>Bold move.</p>
+
+<div>
+<a  title="Permanent link to ‘Forecast’"  href="http://daringfireball.net/linked/2013/03/26/forecast">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple’s Broken Promise: iCloud and Core Data</title>
+	<link rel="alternate" type="text/html" href="http://www.theverge.com/2013/3/26/4148628/why-doesnt-icloud-just-work" />
+	<link rel="shorturl" href="http://df4.us/l4m" />
+	<id>tag:daringfireball.net,2013:/linked//6.27382</id>
+	<published>2013-03-26T18:43:03Z</published>
+	<updated>2013-03-26T19:36:09Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Devastating piece by Ellis Hamburger for The Verge on the calamitous state of iCloud Core Data syncing: users want it, but it simply doesn&#8217;t work reliably.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple&#8217;s Broken Promise: iCloud and Core Data’"  href="http://daringfireball.net/linked/2013/03/26/icloud-hamburger">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+
+<link rel="alternate" type="text/html" href="http://ad.doubleclick.net/clk;268092430;93832602;g" />
+<link rel="shorturl" href="http://df4.us/l4o" />
+<id>tag:daringfireball.net,2013:/feeds/sponsors//11.27384</id>
+<author>
+	<name>Daring Fireball Department of Commerce</name>
+</author>
+   
+<published>2013-03-26T17:52:02-05:00</published>
+<updated>2013-03-26T17:53:31-05:00</updated>
+   
+<content type="html" xml:base="http://daringfireball.net/feeds/sponsors/" xml:lang="en"><![CDATA[
+<p>Squarespace: &#8220;The all-in-1 website builder we’ve been waiting for.&#8221; —Fast Company </p>
+
+<p>Websites • Domains • Commerce • 24/7 support</p>
+
+<p>Try Squarespace.com now for free.</p>
+
+]]></content>
+<title>[Sponsor] Squarespace</title></entry><entry>
+	<title>Just a Head Fake?</title>
+	<link rel="alternate" type="text/html" href="http://om.co/2013/03/24/iwatch-or-inot/" />
+	<link rel="shorturl" href="http://df4.us/l4l" />
+	<id>tag:daringfireball.net,2013:/linked//6.27381</id>
+	<published>2013-03-26T14:22:26Z</published>
+	<updated>2013-03-26T16:38:23Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Om Malik:</p>
+
+<blockquote>
+  <p>We have been privately musing that Apple’s iWatch might just be a head fake, a way to throw off the rivals (and even insiders at the company) and send them on a wild goose chase.</p>
+</blockquote>
+
+<p>How great would this be?</p>
+
+<p><strong>Update:</strong> Although I&#8217;m not sure what the point of fooling &#8220;insiders&#8221; would be. If this watch thing is a head fake, it&#8217;s meant only to misdirect competitors.</p>
+
+<p>The more likely scenario, of course, is that Apple <em>is</em> working on a watch or watch-like device. But some combination of Samsung, Google, Microsoft, and others will rush their smart watches to market first. Then, if Apple ships theirs (a big <em>if</em> &#8212; Apple scraps more projects than it ships), it will look and work like no other. Then, mysteriously, the next round of watches from all the other companies will somehow wind up looking like slightly clunkier versions of Apple&#8217;s. (Remember <a href="http://www.cnet.com/8301-31045_1-10429607-269.html">the &#8220;slates&#8221; Microsoft heralded at CES 2010</a>?)</p>
+
+<div>
+<a  title="Permanent link to ‘Just a Head Fake?’"  href="http://daringfireball.net/linked/2013/03/26/om-iwatch">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Visceral Apps</title>
+	<link rel="alternate" type="text/html" href="http://mysterioustrousers.com/news/2013/3/25/visceral-apps-and-you" />
+	<link rel="shorturl" href="http://df4.us/l4k" />
+	<id>tag:daringfireball.net,2013:/linked//6.27380</id>
+	<published>2013-03-25T20:33:34Z</published>
+	<updated>2013-03-25T20:37:49Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Great piece on modern UI design by Rob Foster at Mysterious Trousers:</p>
+
+<blockquote>
+  <p>So here’s my theory: I believe that introducing visceral elements into an app will take it past the point of just being awesome. It will make your app speak to the subconscious, built-in affinity that humans have for the physical properties I mentioned before. I believe that even if you designed the most perfect and useful app possible, that the act of adding in these visceral elements will make people love your app on an even deeper level.</p>
+</blockquote>
+
+<p>I would call this designing for feel, or maybe even designing for affection.</p>
+
+<div>
+<a  title="Permanent link to ‘Visceral Apps’"  href="http://daringfireball.net/linked/2013/03/25/visceral-apps">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Management-Free Organization</title>
+	<link rel="alternate" type="text/html" href="http://dilbert.com/blog/entry/the_managementfree_organization/" />
+	<link rel="shorturl" href="http://df4.us/l4j" />
+	<id>tag:daringfireball.net,2013:/linked//6.27379</id>
+	<published>2013-03-25T19:53:44Z</published>
+	<updated>2013-03-25T19:55:12Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Scott Adams:</p>
+
+<blockquote>
+  <p>I think the manager-free model only works for a business that has high margins and depends more on creating hits than cutting costs. The videogame business fits that model, as do many Internet businesses. And in both cases entrepreneurs can hire from anywhere in the world.</p>
+
+<p>So here&#8217;s my summary: Management only exists to compensate for its own poor hiring decisions.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘The Management-Free Organization’"  href="http://daringfireball.net/linked/2013/03/25/adams-management">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>A Review and Comparison of the Juice Pack Helium and Air for iPhone 5</title>
+	<link rel="alternate" type="text/html" href="http://davidchartier.com/iphone-battery-juice-pack-helium-air-compare/" />
+	<link rel="shorturl" href="http://df4.us/l4i" />
+	<id>tag:daringfireball.net,2013:/linked//6.27378</id>
+	<published>2013-03-25T19:48:26Z</published>
+	<updated>2013-03-25T19:52:49Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>David Chartier:</p>
+
+<blockquote>
+  <p>I honestly don’t understand why the Helium exists. To be clear, the Helium and Air are both great, but do enough people care so much about such a small difference in size, weight, and battery to warrant two separate cases released just weeks and $20 apart? It would be more understandable if there were more space between the two, perhaps if the Air had a 2000+ mAh battery and the necessary increase in overall size. Then again, I don’t work in the battery case industry, so maybe Mophie knows something I don’t.</p>
+</blockquote>
+
+<p>I had one of these for my iPhone 4 and 4S, but I&#8217;m seriously questioning if I&#8217;d ever even use one for my iPhone 5. And like Chartier, I wish they charged via Lightning rather than micro USB; I don&#8217;t want to pack the extra cable.</p>
+
+<div>
+<a  title="Permanent link to ‘A Review and Comparison of the Juice Pack Helium and Air for iPhone 5’"  href="http://daringfireball.net/linked/2013/03/25/chartier-mophie">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘Bozos and BlackBerrys’</title>
+	<link rel="alternate" type="text/html" href="http://www.muleradio.net/thetalkshow/35/" />
+	<link rel="shorturl" href="http://df4.us/l4h" />
+	<id>tag:daringfireball.net,2013:/linked//6.27377</id>
+	<published>2013-03-25T19:30:29Z</published>
+	<updated>2013-03-25T21:52:13Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Special guest Erica Ogg, senior writer and Apple beat reporter for GigaOM, joins me on this week&#8217;s episode of my podcast, The Talk Show, to discuss Apple’s hiring of Adobe CTO Kevin Lynch; Apple’s PR department; the BBC running a story on a survey conducted by a subsidiary of Samsung’s advertising agency; Eric Schmidt still using a BlackBerry; Google Keep; and Apple’s significantly updated Podcasts app.</p>
+
+<p>Brought to you by two excellent sponsors:</p>
+
+<ul>
+<li><a href="https://itunes.apple.com/us/app/basil-smart-recipe-book-for/id506590870?ls=1&amp;mt=8">Basil</a> — A smart cookbook for iPad.</li>
+<li><a href="http://www.ridiculousfishing.com/">Ridiculous Fishing</a> — An iOS game about fishing with miniguns, chainsaws, and hairdryers.</li>
+</ul>
+
+<div>
+<a  title="Permanent link to ‘&#8216;Bozos and BlackBerrys&#8217;’"  href="http://daringfireball.net/linked/2013/03/25/the-talk-show-035">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>So Long, Break-Even</title>
+	<link rel="alternate" type="text/html" href="http://www.asymco.com/2013/03/22/so-long-break-even/" />
+	<link rel="shorturl" href="http://df4.us/l4g" />
+	<id>tag:daringfireball.net,2013:/linked//6.27376</id>
+	<published>2013-03-25T16:21:42Z</published>
+	<updated>2013-03-25T16:23:05Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Horace Dediu makes the case that the iTunes Store is now a money maker for Apple.</p>
+
+<div>
+<a  title="Permanent link to ‘So Long, Break-Even’"  href="http://daringfireball.net/linked/2013/03/25/itunes-break-even">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Stanley Kubrick, ‘The Shining’, and New York City: The Filming Locations of ‘Eyes Wide Shut’</title>
+	<link rel="alternate" type="text/html" href="http://www.scoutingny.com/?p=6434" />
+	<link rel="shorturl" href="http://df4.us/l4f" />
+	<id>tag:daringfireball.net,2013:/linked//6.27375</id>
+	<published>2013-03-25T15:40:43Z</published>
+	<updated>2013-03-25T15:42:42Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Scouting NY:</p>
+
+<blockquote>
+  <p>I can imagine that Kubrick conspiracy theorists would argue that this is all intentional, adding to the movie’s dream-like feel. That by trapping Bill in the same three recurring New York streets, it’s like he’s in a nightmare he can’t escape. I could buy that to a certain extent.</p>
+
+<p>But a more practical way to look at it is that Kubrick was simply doing what every filmmaker does when shooting on a set. Film sets are limited in size, and you do everything in your power to give them scope, the sense of an outside world. Also, film sets cost money, and rather than tearing down and rebuilding, you try to use them in as many different ways as possible.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Stanley Kubrick, &#8216;The Shining&#8217;, and New York City: The Filming Locations of &#8216;Eyes Wide Shut&#8217;’"  href="http://daringfireball.net/linked/2013/03/25/ews">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The MacSparky Markdown Field Guide</title>
+	<link rel="alternate" type="text/html" href="http://macsparky.com/markdown/" />
+	<link rel="shorturl" href="http://df4.us/l4e" />
+	<id>tag:daringfireball.net,2013:/linked//6.27374</id>
+	<published>2013-03-23T22:17:22Z</published>
+	<updated>2013-03-23T22:40:26Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>New e-book from David Sparks and Eddie Smith, jam-packed with details, tips, app suggestions, and interactive content like screencasts and interviews. <a href="http://click.linksynergy.com/fs-bin/stat?id=TQ5lwGfcQQI&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fbook%252Fmarkdown%252Fid622433972%253Fmt%253D11%2526uo%253D4%2526partnerId%253D30">$10 in the iBookstore</a>. Have to admit, I&#8217;m a little proud about this.</p>
+
+<div>
+<a  title="Permanent link to ‘The MacSparky Markdown Field Guide’"  href="http://daringfireball.net/linked/2013/03/23/markdown-book">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Google’s Trust Problem</title>
+	<link rel="alternate" type="text/html" href="http://washingtonpost.com/blogs/wonkblog/wp/2013/03/21/googles-trust-problem/" />
+	<link rel="shorturl" href="http://df4.us/l4d" />
+	<id>tag:daringfireball.net,2013:/linked//6.27373</id>
+	<published>2013-03-23T17:28:01Z</published>
+	<updated>2013-03-23T17:43:24Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ezra Klein:</p>
+
+<blockquote>
+  <p>But I’m not sure I want to be a Google early adopter anymore. I love Google Reader. And I used to use Picnik all the time. I’m tired of losing my services.</p>
+</blockquote>
+
+<p>All companies cancel services and abandon apps. The difference with Google Reader is that they&#8217;ve canceled something beloved.</p>
+
+<div>
+<a  title="Permanent link to ‘Google&#8217;s Trust Problem’"  href="http://daringfireball.net/linked/2013/03/23/google-klein">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>CleanMyMac 2</title>
+	<link rel="alternate" type="text/html" href="http://www.macpaw.com/cleanmymac?utm_source=DF&amp;utm_medium=sponsorship&amp;utm_term=title&amp;utm_campaign=DF_march13" />
+	<link rel="shorturl" href="http://df4.us/l4c" />
+	<id>tag:daringfireball.net,2013:/linked//6.27372</id>
+	<published>2013-03-22T22:20:32Z</published>
+	<updated>2013-03-22T22:28:29Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>My thanks to MacPaw for sponsoring this week&#8217;s DF RSS feed to promote CleanMyMac 2.</p>
+
+<p>CleanMyMac 2 is a new utility designed to help you free up space on your hard drives. 
+It finds large files, tells you how long it&#8217;s been since you&#8217;ve used them, optimizes your iPhoto library, uninstalls apps, and more. All this, wrapped in a simple clean user interface.</p>
+
+<p>Try CleanMyMac 2 for free, or buy it now for 25 percent off using coupon code &#8220;DARINGFIREBALL&#8221; (valid until March 24).</p>
+
+<div>
+<a  title="Permanent link to ‘CleanMyMac 2’"  href="http://daringfireball.net/linked/2013/03/22/cleanmymac">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Security Hole Allows Apple Passwords to Be Reset With Only Email Address and Date of Birth</title>
+	<link rel="alternate" type="text/html" href="http://www.theverge.com/2013/3/22/4136242/major-security-hole-allows-apple-id-passwords-reset-with-email-date-of-birth" />
+	<link rel="shorturl" href="http://df4.us/l4b" />
+	<id>tag:daringfireball.net,2013:/linked//6.27371</id>
+	<published>2013-03-22T21:30:12Z</published>
+	<updated>2013-03-22T21:31:44Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Yikes.</p>
+
+<div>
+<a  title="Permanent link to ‘Security Hole Allows Apple Passwords to Be Reset With Only Email Address and Date of Birth’"  href="http://daringfireball.net/linked/2013/03/22/apple-id-reset">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Eric Schmidt Uses a BlackBerry</title>
+	<link rel="alternate" type="text/html" href="http://guardiannews.com/technology/2013/mar/21/eric-schmidt-blackberry-user" />
+	<link rel="shorturl" href="http://df4.us/l4a" />
+	<id>tag:daringfireball.net,2013:/linked//6.27370</id>
+	<published>2013-03-22T18:09:30Z</published>
+	<updated>2013-03-22T18:10:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Shocker.</p>
+
+<div>
+<a  title="Permanent link to ‘Eric Schmidt Uses a BlackBerry’"  href="http://daringfireball.net/linked/2013/03/22/schmidt">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>How Beer Gave Us Civilization</title>
+	<link rel="alternate" type="text/html" href="http://www.nytimes.com/2013/03/17/opinion/sunday/how-beer-gave-us-civilization.html" />
+	<link rel="shorturl" href="http://df4.us/l49" />
+	<id>tag:daringfireball.net,2013:/linked//6.27369</id>
+	<published>2013-03-22T16:31:42Z</published>
+	<updated>2013-03-22T16:32:34Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jeffrey P. Kahn, writing in the NYT:</p>
+
+<blockquote>
+  <p>To free up those, we needed something that would suppress the rigid social codes that kept our clans safe and alive. We needed something that, on occasion, would let us break free from our biological herd imperative — or at least let us suppress our angst when we did.</p>
+
+<p>We needed beer.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘How Beer Gave Us Civilization’"  href="http://daringfireball.net/linked/2013/03/22/beer">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Interest in ‘Skeuomorphism’ Over Time</title>
+	<link rel="alternate" type="text/html" href="http://www.splatf.com/2013/03/skeuomorphism-trend/" />
+	<link rel="shorturl" href="http://df4.us/l48" />
+	<id>tag:daringfireball.net,2013:/linked//6.27368</id>
+	<published>2013-03-22T16:12:35Z</published>
+	<updated>2013-03-22T16:30:15Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>The graph looks exactly like you think it does.</p>
+
+<div>
+<a  title="Permanent link to ‘Interest in &#8216;Skeuomorphism&#8217; Over Time’"  href="http://daringfireball.net/linked/2013/03/22/skeuomorphism">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Google Keep</title>
+	<link rel="alternate" type="text/html" href="http://googleblog.blogspot.com/2013/03/google-keepsave-whats-on-your-mind.html" />
+	<link rel="shorturl" href="http://df4.us/l47" />
+	<id>tag:daringfireball.net,2013:/linked//6.27367</id>
+	<published>2013-03-21T23:15:48Z</published>
+	<updated>2013-03-22T21:45:36Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Trust your thoughts and ideas to the makers of Google Reader. Good luck with that.</p>
+
+<div>
+<a  title="Permanent link to ‘Google Keep’"  href="http://daringfireball.net/linked/2013/03/21/keep">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Google Now Not Submitted to App Store</title>
+	<link rel="alternate" type="text/html" href="http://m.cnet.com/news/apple-google-google-now-not-submitted-to-app-store/57575626" />
+	<link rel="shorturl" href="http://df4.us/l46" />
+	<id>tag:daringfireball.net,2013:/linked//6.27366</id>
+	<published>2013-03-21T23:12:09Z</published>
+	<updated>2013-03-21T23:14:48Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Another shocker. (<a href="http://www.loopinsight.com/2013/03/21/google-admits-it-lied-about-submitting-google-now-to-apple/">Via Jim Dalrymple</a>.)</p>
+
+<div>
+<a  title="Permanent link to ‘Google Now Not Submitted to App Store’"  href="http://daringfireball.net/linked/2013/03/21/schmidt">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Update to Apple’s Podcasts App</title>
+	<link rel="alternate" type="text/html" href="http://gigaom.com/2013/03/21/apples-podcasts-app-gets-playlist-creation-icloud-syncing-and-custom-stations/" />
+	<link rel="shorturl" href="http://df4.us/l45" />
+	<id>tag:daringfireball.net,2013:/linked//6.27365</id>
+	<published>2013-03-21T22:41:41Z</published>
+	<updated>2013-03-21T23:02:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>RIP skeuomorphic reel-to-reel tape deck.</p>
+
+<div>
+<a  title="Permanent link to ‘Update to Apple’s Podcasts App’"  href="http://daringfireball.net/linked/2013/03/21/podcasts">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Engadget: ‘J.D. Power: Average Smartphone Satisfaction Is Up, Fights Are Fierce for Second Place’</title>
+	<link rel="alternate" type="text/html" href="http://www.engadget.com/2013/03/21/jd-power-average-smartphone-satisfaction-is-up/" />
+	<link rel="shorturl" href="http://df4.us/l44" />
+	<id>tag:daringfireball.net,2013:/linked//6.27364</id>
+	<published>2013-03-21T19:42:12Z</published>
+	<updated>2013-03-21T19:46:29Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Further sign that Apple is in trouble: the iPhone topped JD Power&#8217;s smartphone satisfaction survey for the ninth consecutive time, but they couldn&#8217;t even warrant a mention in Engadget&#8217;s headline.</p>
+
+<div>
+<a  title="Permanent link to ‘Engadget: &#8216;J.D. Power: Average Smartphone Satisfaction Is Up, Fights Are Fierce for Second Place&#8217;’"  href="http://daringfireball.net/linked/2013/03/21/jd-powers">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Introduces Two-Step Verification for Apple ID and iCloud Accounts</title>
+	<link rel="alternate" type="text/html" href="http://www.theverge.com/2013/3/21/4132500/apple-two-step-verification-icloud-accounts" />
+	<link rel="shorturl" href="http://df4.us/l43" />
+	<id>tag:daringfireball.net,2013:/linked//6.27363</id>
+	<published>2013-03-21T19:35:22Z</published>
+	<updated>2013-03-21T19:38:28Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Finally.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Introduces Two-Step Verification for Apple ID and iCloud Accounts’"  href="http://daringfireball.net/linked/2013/03/21/apple-id-two-step">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Microsoft Backs Away From Flash Ban in IE 10</title>
+	<link rel="alternate" type="text/html" href="http://m.cnet.com/news/microsoft-backs-away-from-flash-ban-in-ie10/57573755" />
+	<link rel="shorturl" href="http://df4.us/l42" />
+	<id>tag:daringfireball.net,2013:/linked//6.27362</id>
+	<published>2013-03-21T16:24:26Z</published>
+	<updated>2013-03-21T15:29:48Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Skating to where the puck used to be.</p>
+
+<div>
+<a  title="Permanent link to ‘Microsoft Backs Away From Flash Ban in IE 10’"  href="http://daringfireball.net/linked/2013/03/21/ie-flash">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Journamalism at Its Best</title>
+	<link rel="alternate" type="text/html" href="http://bbc.co.uk/news/business-21857393" />
+	<link rel="shorturl" href="http://df4.us/l41" />
+	<id>tag:daringfireball.net,2013:/linked//6.27361</id>
+	<published>2013-03-21T16:00:00Z</published>
+	<updated>2013-03-21T19:13:39Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>BBC News, &#8220;Apple Brand Less &#8216;Inspiring&#8217;, Survey Says&#8221;:</p>
+
+<blockquote>
+  <p>Smartphone rival Samsung is now seen as equally &#8220;inspiring&#8221; in the US, says the survey by consultancy Added Value.</p>
+</blockquote>
+
+<p>Added Value is <a href="http://www.wpp.com/wpp/companies/added-value">a subsidiary of WPP</a>. WPP <a href="https://www.google.com/search?q=samsung+wpp">is Samsung&#8217;s ad agency</a>. No mention of this in the story. Just reported as a legitimate unbiased survey. Stay classy, BBC News.</p>
+
+<p><strong>Update:</strong> The BBC subsequently added the following paragraph, but otherwise left the article as it stood:</p>
+
+<blockquote>
+  <p>AV is part of Sir Martin Sorrell&#8217;s marketing group WPP, whose clients include Samsung, Google and eBay.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Journamalism at Its Best’"  href="http://daringfireball.net/linked/2013/03/21/bbc-samsung-journamalism">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Case for a True Mac Pro Successor</title>
+	<link rel="alternate" type="text/html" href="http://hypercritical.co/2013/03/08/the-case-for-a-true-mac-pro-successor" />
+	<link rel="shorturl" href="http://df4.us/l40" />
+	<id>tag:daringfireball.net,2013:/linked//6.27360</id>
+	<published>2013-03-21T12:40:55Z</published>
+	<updated>2013-03-21T12:44:07Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Another one from Siracusa:</p>
+
+<blockquote>
+  <p>Let’s talk about the Lexus LFA, a halo car developed by Toyota over the course of ten years. (Lexus is Toyota’s luxury nameplate.) When the LFA was finally released in 2010, it sold for around $400,000. A year later, only 90 LFAs had been sold. At the end of 2012, production stopped, as planned, after 500 cars. [&#8230;]</p>
+
+<p>The explanation for the apparent insanity of this product is actually very simple. Akio Toyoda, the CEO of Toyota, loves fast cars. He fucking loves them! That’s it.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘The Case for a True Mac Pro Successor’"  href="http://daringfireball.net/linked/2013/03/21/mac-pro">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Self-Reliance</title>
+	<link rel="alternate" type="text/html" href="http://hypercritical.co/2013/03/19/self-reliance" />
+	<link rel="shorturl" href="http://df4.us/l3z" />
+	<id>tag:daringfireball.net,2013:/linked//6.27359</id>
+	<published>2013-03-21T12:31:38Z</published>
+	<updated>2013-03-21T12:32:42Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>John Siracusa scores the mobile industry:</p>
+
+<blockquote>
+  <p>So who’s winning? When pondering this, I find myself thinking about dependencies. What is each company doing for itself, and in what ways does each company rely on others? I think this balance, much more than profits or market share, is what will determine long-term success. Let’s see how the players stack up.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Self-Reliance’"  href="http://daringfireball.net/linked/2013/03/21/siracusa">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Vulnerabilities Continue to Weigh Down Samsung Android Phones</title>
+	<link rel="alternate" type="text/html" href="http://threatpost.com/en_us/blogs/vulnerabilities-continue-weigh-down-samsung-android-phones-032013" />
+	<link rel="shorturl" href="http://df4.us/l3y" />
+	<id>tag:daringfireball.net,2013:/linked//6.27358</id>
+	<published>2013-03-21T02:41:49Z</published>
+	<updated>2013-03-21T02:45:54Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Threatpost:</p>
+
+<blockquote>
+  <p>Independent Italian researcher Roberto Paleari discussed several bugs he recently found in Samsung Android phones in a post on his blog yesterday. Paleari claims that after taking some time to sit down with some of his devices, he found six exploitable bugs on older devices such as the Galaxy Tab and the newer Galaxy S3.</p>
+
+<p>All of the vulnerabilities can be exploited without privilege and according to Paleari, stem from “Samsung-specific software and customizations.”</p>
+</blockquote>
+
+<p>Shocker.</p>
+
+<div>
+<a  title="Permanent link to ‘Vulnerabilities Continue to Weigh Down Samsung Android Phones’"  href="http://daringfireball.net/linked/2013/03/20/samsung-vulns">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Learn the Ropes of Azure Mobile Services With Brent Simmons</title>
+	<link rel="alternate" type="text/html" href="http://www.windowsazure.com/en-us/develop/mobile/ios/" />
+	<link rel="shorturl" href="http://df4.us/l3x" />
+	<id>tag:daringfireball.net,2013:/linked//6.27357</id>
+	<published>2013-03-20T17:45:19Z</published>
+	<updated>2013-03-20T17:45:20Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Cloud services for iOS developers, from Microsoft.</p>
+
+<div>
+<a  title="Permanent link to ‘Learn the Ropes of Azure Mobile Services With Brent Simmons’"  href="http://daringfireball.net/linked/2013/03/20/brent-simmons-azure">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Why James Whittaker Left Google</title>
+	<link rel="alternate" type="text/html" href="http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx" />
+	<link rel="shorturl" href="http://df4.us/l3w" />
+	<id>tag:daringfireball.net,2013:/linked//6.27356</id>
+	<published>2013-03-20T17:44:02Z</published>
+	<updated>2013-03-20T19:15:16Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>James Whittaker:</p>
+
+<blockquote>
+  <p>The old Google made a fortune on ads because they had good
+content. It was like TV used to be: make the best show and you get
+the most ad revenue from commercials. The new Google seems more
+focused on the commercials themselves.</p>
+</blockquote>
+
+<p><strong>Update:</strong> Whoops, <a href="http://daringfireball.net/linked/2012/03/13/whittaker">that was a year-old post</a>. Sorry about that.</p>
+
+<div>
+<a  title="Permanent link to ‘Why James Whittaker Left Google’"  href="http://daringfireball.net/linked/2013/03/20/whittaker">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>New Apple VP of Technology Kevin Lynch Runs Over an iPhone With a Steamroller</title>
+	<link rel="alternate" type="text/html" href="http://www.youtube.com/watch?v=ZNtTfFDena4" />
+	<link rel="shorturl" href="http://df4.us/l3v" />
+	<id>tag:daringfireball.net,2013:/linked//6.27355</id>
+	<published>2013-03-20T05:42:25Z</published>
+	<updated>2013-03-20T05:42:27Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Yeah, that&#8217;s cool.</p>
+
+<div>
+<a  title="Permanent link to ‘New Apple VP of Technology Kevin Lynch Runs Over an iPhone With a Steamroller’"  href="http://daringfireball.net/linked/2013/03/20/lynch-steamroller">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>What I Mean by Bozo</title>
+	<link rel="alternate" type="text/html" href="http://www.forbes.com/sites/ericjackson/2012/01/31/why-every-company-needs-a-no-bozo-policy/" />
+	<link rel="shorturl" href="http://df4.us/l3u" />
+	<id>tag:daringfireball.net,2013:/linked//6.27354</id>
+	<published>2013-03-20T04:43:01Z</published>
+	<updated>2013-03-20T04:43:02Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Eric Jackson:</p>
+
+<blockquote>
+  <p>A bozo is someone who thinks they are much smarter and capable
+than they actually are. They constantly over-estimate their
+abilities and under-estimate the risks and threats around them.
+They typically don’t keep an open-mind. They look instead for data
+that confirms a previously held bias.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘What I Mean by Bozo’"  href="http://daringfireball.net/linked/2013/03/19/what-i-mean-by-bozo">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Exhibit B: Defending/Denying Flash Player’s Adverse Effect on Battery Life, a Mere Two Years Ago</title>
+	<link rel="alternate" type="text/html" href="http://daringfireball.net/linked/2010/11/08/lynch" />
+	<link rel="shorturl" href="http://df4.us/l3t" />
+	<id>tag:daringfireball.net,2013:/linked//6.27353</id>
+	<published>2013-03-20T01:58:02Z</published>
+	<updated>2013-03-20T02:10:37Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>I get that the guy worked for Adobe and had to play for the home team, but as CTO he backed a dying technology for years too long. In 2007 when the iPhone shipped Flash-free, that was one thing. But for Adobe to still be backing the Flash horse in 2010 when the iPad came out &#8212; they just looked silly. Flash Player had already lost. It was over. It was like <a href="http://www.youtube.com/watch?v=zKhEw7nD9C4">the Black Knight in <em>Monty Python and the Holy Grail</em></a> &#8212; Flash Player had had its arms cut off and Lynch was telling us it was &#8220;just a flesh wound&#8221;.</p>
+
+<p>Lynch wasn&#8217;t just an employee pushing the company line. As CTO, he was the guy who defined the company line &#8212; and his line had Adobe still pushing for Flash on mobile devices over three years after the iPhone shipped.</p>
+
+<div>
+<a  title="Permanent link to ‘Exhibit B: Defending/Denying Flash Player&#8217;s Adverse Effect on Battery Life, a Mere Two Years Ago’"  href="http://daringfireball.net/linked/2013/03/19/exhibit-b">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Exhibit A in the Case That Newly-Hired Apple VP of Technology Kevin Lynch Is a Bozo, a Bad Hire</title>
+	<link rel="alternate" type="text/html" href="http://blogs.adobe.com/conversations/2010/02/open_access_to_content_and_app.html" />
+	<link rel="shorturl" href="http://df4.us/l3s" />
+	<id>tag:daringfireball.net,2013:/linked//6.27352</id>
+	<published>2013-03-20T01:28:12Z</published>
+	<updated>2013-03-20T01:34:31Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>He wrote this, just three years ago:</p>
+
+<blockquote>
+  <p>Some have been surprised at the lack of inclusion of Flash Player
+on a recent magical device. […]</p>
+
+<p>We are now on the verge of delivering Flash Player 10.1 for
+smartphones with all but one of the top manufacturers. This
+includes Google’s Android, RIM’s Blackberry, Nokia, Palm Pre and
+many others across form factors including not only smartphones
+but also tablets, netbooks, and internet-connected TVs. Flash in
+the browser provides a competitive advantage to these devices
+because it will enable their customers to browse the whole Web.</p>
+</blockquote>
+
+<p>Well, how&#8217;d that work out? Those companies and platforms are now either (a) out of business, (b) on the verge of going out of business, or (c) have abandoned Flash Player entirely.</p>
+
+<blockquote>
+  <p>For example, the recent Nexus One from Google will rock with a
+great experience in the browser with Flash Player 10.1.</p>
+</blockquote>
+
+<p>Yeah, it rocked <a href="http://www.engadget.com/2010/01/05/nexus-one-previewed-with-flash-10-1-beta-careful-what-you-wish/">so hard</a> Google dropped Flash Player support from Android last year.</p>
+
+<blockquote>
+  <p>Even in the case of video, where Flash is enabling over 75% of
+video on the Web today, the coming HTML video implementations
+cannot agree on a common format across browsers, so users and
+content creators would be thrown back to the dark ages of video on
+the Web with incompatibility issues.</p>
+</blockquote>
+
+<p>And now here we are today in the dark ages of video, where we can only see by the light of the millions of HTML5 videos playing on Android, Windows Phone, BlackBerry, and iOS mobile devices.</p>
+
+<p>I have a bad feeling about this.</p>
+
+<div>
+<a  title="Permanent link to ‘Exhibit A in the Case That Newly-Hired Apple VP of Technology Kevin Lynch Is a Bozo, a Bad Hire’"  href="http://daringfireball.net/linked/2013/03/19/lynch-bozo">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2013/03/everything_else" />
+	<link rel="shorturl" href="http://df4.us/l3p" />
+	<id>tag:daringfireball.net,2013://1.27349</id>
+	<published>2013-03-19T21:31:56Z</published>
+	<updated>2013-03-19T22:34:19Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>You don&#8217;t start fights when you&#8217;re the champ, but you do fight back when someone else starts one.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="http://www.mondaynote.com/2013/03/17/apple-is-losing-the-war-of-words/">Jean-Louis Gassée</a>:</p>
+
+<blockquote>
+  <p>Yes, Apple is held to a (well earned) different standard. Once a
+challenger with an uncertain future, Apple has become The Man.
+Years ago, it could productively poke fun at Microsoft in the
+great <em>I’m a Mac, You’re a PC</em> campaign (the full series of ads is
+<a href="http://www.adweek.com/adfreak/apples-get-mac-complete-campaign-130552">here</a>), but the days of taking potshots at the incumbent are
+over. Because of its position at the top, Apple should have the
+grace to not trash its competitors, especially when the digs are
+humorless and further weakened by error.</p>
+</blockquote>
+
+<p>I semi-agree.<sup id="fnr1-2013-03-19"><a href="#fn1-2013-03-19">1</a></sup> It&#8217;s a delicate balance for Apple. What I don&#8217;t agree with (and I don&#8217;t think this quite is Gassée&#8217;s point, but I&#8217;ve seen others argue it) is the notion that, if they&#8217;re on top, it&#8217;s beneath Apple to denigrate its competitors through marketing in any way.</p>
+
+<p>The people who are getting the &#8220;Apple never did anything like this before&#8221; vapors from Apple&#8217;s throwing of sharp elbows in the direction of Samsung <a href="https://twitter.com/gruber/status/313488547300642818">seem to forget</a> that this is the same company that ran the John Hodgman/Justin Long &#8220;Get a Mac&#8221; campaign. Gassée argues that Apple&#8217;s days of throwing potshots are over. I disagree, but they do need to be deft about it.</p>
+
+<p><a href="http://allthingsd.com/20130316/hey-remember-how-awesome-the-iphone-is/">John Paczkowski nails it</a>:</p>
+
+<blockquote>
+  <p>So these “rare defensive” interviews? These “We Are The Champions”
+Web pages? They’re not tells.</p>
+
+<p>They’re marketing. They’re advertising. They’re part and parcel of
+a brutal battle over a lucrative and important market. And they’re
+not unusual. They’re business.</p>
+</blockquote>
+
+<p>You can&#8217;t market against your rival when you have no rival. Now Apple does, so now they are. The last thing Apple should do is ignore Samsung, to just sit there and take it, stoically. I think Microsoft took that stance against Apple&#8217;s &#8220;Get a Mac&#8221; campaign and it hurt them. When you&#8217;re the market leader, you do need to be more graceful, it&#8217;s harder, but you still need to fight. That&#8217;s why Pepsi will trash Coke by name, but Coke will never mention Pepsi. Note, for example, that Apple&#8217;s new &#8220;<a href="http://www.apple.com/iphone/why-iphone/">There&#8217;s iPhone. Then There&#8217;s Everything Else</a>&#8221; page never mentions &#8220;Android&#8221;, let alone &#8220;Samsung&#8221;, by name. It doesn&#8217;t have to. But remember Coke&#8217;s classic &#8220;The Real Thing&#8221; campaign? The implication was that Pepsi was something other than the real thing, and not even worth mentioning. That&#8217;s the same strategic line Apple is taking with Samsung.<sup id="fnr2-2013-03-19"><a href="#fn2-2013-03-19">2</a></sup></p>
+
+<p>You don&#8217;t start fights when you&#8217;re the champ, but you do fight back when someone else starts one.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1-2013-03-19">
+<p>Later in his piece, Gassée recommends that Apple engage a &#8220;powerhouse&#8221; PR firm to help sway opinion in its favor. I&#8217;d argue that Apple already has a powerhouse PR firm, and it very successfully engages in most of the tactics Gassée speaks of. But rather than a separate company, it&#8217;s completely internal to &#8212; and thus dedicated to &#8212; Apple.</p>
+
+<p>I very much agree with Gassée&#8217;s observation about Apple executives overusing superlative adjectives describing their own products. &#8220;One doesn’t brag about one’s performance in the boudoir; let happy partners sing your praise.&#8221;&nbsp;<a href="#fnr1-2013-03-19"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+
+<li id="fn2-2013-03-19">
+<p>Part of the genius of the &#8220;Get a Mac&#8221; campaign was that they never mentioned any particular PC maker by name, nor (at least to my recollection) &#8220;Microsoft&#8221; or even &#8220;Windows&#8221;. They did <a href="http://www.youtube.com/watch?v=MyGUrPxG1iM">call out &#8220;Vista&#8221;</a> in particular, but that simply might have been too juicy a target to resist. The framing was simply Macs vs. everything else. Sound familiar?&nbsp;<a href="#fnr2-2013-03-19"  class="footnoteBackLink"  title="Jump back to footnote 2 in the text.">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+
+    ]]></content>
+  <title>★ Everything Else</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2013/03/ceding_the_crown" />
+	<link rel="shorturl" href="http://df4.us/l2p" />
+	<id>tag:daringfireball.net,2013://1.27313</id>
+	<published>2013-03-15T05:55:43Z</published>
+	<updated>2013-03-15T06:13:22Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>They&#8217;re declaring &#8220;<em>The King is dead; long live the King</em>&#8221; not because the king has actually died or abdicated the thrown, but because they&#8217;re bored with the king and want to write a new coronation story.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>So Phil Schiller gave a <a href="http://daringfireball.net/linked/2013/03/13/schiller-wsj">second</a> eve-of-Galaxy-S4-launch interview, this one to Reuters reporter Poornima Gupta. The headline (&#8220;<a href="http://www.reuters.com/article/2013/03/14/us-apple-schiller-idUSBRE92C1FQ20130314">Apple&#8217;s Schiller Blasts Android, Samsung on Galaxy&#8217;s Eve</a>&#8221;) is spot-on, but here&#8217;s the second paragraph:</p>
+
+<blockquote>
+  <p>The marketing chief&#8217;s rare attack on a rival, on the eve of the
+Galaxy S4&#8217;s global premier in New York, underscores the extent
+of the pressure piled upon a company that once stood the
+undisputed leader of the smartphone arena, but ceded its crown
+to Samsung in 2012.</p>
+</blockquote>
+
+<p>Before I got to that final clause, I thought Gupta was on the cusp of making a salient point with regard to what&#8217;s going on with Apple and the news media today. Like most first-generation Apple products, the original iPhone was greeted by much skepticism. <em>Needs a keyboard. Needs a removable battery. Costs too much. Only on AT&amp;T.</em> Then, after a few years, it became obvious that the iPhone was in fact the way all modern smartphones should work &#8212; a touchscreen with very few hardware buttons and an app-based system, more computer-with-phone-features than phone-with-computer-features. And Apple had no serious competition. None. This is the period, from 2009–2011 or so, where <a href="http://www.wolframalpha.com/input/?i=aapl+market+cap+2006-2013">Apple’s stock rose coincident with its profits</a>, at a steady consistent pace. But as time goes on, I&#8217;m ever more convinced that many observers &#8212; including investors and reporters (especially those in the business press) &#8212; developed three bad assumptions:</p>
+
+<ol>
+<li><p>Apple&#8217;s lack of serious competition would, or at least might, result in an overwhelming market share advantage for the iPhone.</p></li>
+<li><p>Apple&#8217;s market success was primarily because the iPhone had no serious competition.</p></li>
+<li><p>If the time ever came that the iPhone <em>did</em> have serious competition, the iPhone (and thus Apple, given the importance of the iPhone to the company) would be in trouble, because Apple&#8217;s magic is in making something so far ahead that no one can compete with it, not in actually competing.</p></li>
+</ol>
+
+<p>Assumption #1 is bad because the iPhone never had a market share lead, or even close to one, whether you count only &#8220;smartphones&#8221; (where the iPhone sits around 20 percent worldwide) or all phone handsets (where the iPhone, as a premium product being compared to $20 candybar dumb phones, has never had more than single-digit market share). When Steve Jobs announced the iPhone in 2007, his  publicly-stated goal was a humble <a href="http://arstechnica.com/apple/2009/01/iphone-passes-1-percent-goal-for-2008-looking-good-for-2009/">1 percent of the total phone market</a>. Yesterday I linked to <a href="http://en.wikipedia.org/wiki/File:World_Wide_Smartphone_Sales_Share.png">this chart at Wikipedia</a>, showing that there has always been a market-share dominant smartphone OS &#8212; originally Symbian, and today Android &#8212; that the iPhone ran far behind in terms of sheer units.</p>
+
+<p>An overwhelming majority market share has never been Apple&#8217;s plan for the iPhone. A hope, perhaps. But not the plan. (Subscribers to misconception #1 &#8212; those who think the iPhone should have or perhaps even needs a majority share of the phones sold worldwide &#8212; are those clamoring for Apple to create a &#8220;low-cost iPhone&#8221;. See also my &#8220;<a href="http://daringfireball.net/2012/01/the_church_of_market_share">Church of Market Share</a>&#8221; piece from last year.)</p>
+
+<p>Assumption #2 in and of itself is not overly problematic, although it is wrong. The iPhone would have done just fine, albeit probably not <em>as</em> well as it actually did, even if then-market-leaders such as BlackBerry and Nokia had not faltered so badly. And it&#8217;s certainly the case that Apple would sell some number more of iPhones today if Samsung were doing a worse job designing, manufacturing, and (<a href="http://www.asymco.com/2012/11/29/the-cost-of-selling-galaxies/">especially</a>) marketing its phones. But &#8220;iPhone would do better with no serious competition&#8221;, which is true, is very different from &#8220;iPhone would falter if it had any serious competition&#8221;, which is false.</p>
+
+<p>But it&#8217;s when combined with #3 &#8212; and the obvious fact that in Samsung Apple does now have a serious competitor &#8212; that these Apple pessimists lose sight of reality. Apple is a great competitor. In the PC industry they&#8217;ve fought back from the brink of bankruptcy to become the most profitable and fastest-growing PC maker in the world. They came in and stole the music player market, and have dominated it for over a decade.</p>
+
+<p>But for some, the fact that Apple and the iPhone now face at least one serious (and successful) competitor somehow means that the iPhone is already losing. This is insane.</p>
+
+<p>By market share alone, one can argue that Samsung is winning, but as I&#8217;ve stated above (and repeatedly recently), the iPhone has <em>never</em> been close to a market share leader. By market share alone, <a href="http://www.asymco.com/2012/11/14/google-vs-samsung/">the iPhone is far behind even Nokia</a>.</p>
+
+<p>By profit share, on the other hand, <a href="http://www.forbes.com/sites/ericsavitz/2013/02/06/applesamsung-101-of-q4-handset-profits-103-for-2012/">according to Canaccord Genuity analyst T. Michael Walkley</a>, last year Apple took 69 percent of the handset industry&#8217;s profits; Samsung took 34. For just the last quarter, the numbers were 72 percent for Apple, 29 for Samsung. You will note that both the annual and quarterly numbers total more than 100 percent; that is because all other handset makers, combined, are losing money. This is rather astounding &#8212; Apple and Samsung have together destroyed the rest of the mobile handset industry.</p>
+
+<p>But this brings us back to Gupta&#8217;s report for Reuters, which I repeat below, this time with emphasis added:</p>
+
+<blockquote>
+  <p>The marketing chief&#8217;s rare attack on a rival, on the eve of the
+Galaxy S4&#8217;s global premier in New York, underscores the extent
+of the pressure piled upon a company that once stood the
+undisputed leader of the smartphone arena, <em>but ceded its crown
+to Samsung in 2012</em>.</p>
+</blockquote>
+
+<p>That&#8217;s a statement of fact, in a Reuters news (not opinion) story, about a company with 70 percent (and judging by last quarter, growing) of the industry&#8217;s profits. The same company that runs the best and most popular app store (including the most successful handheld gaming platform), and whose media entertainment ecosystem has, by far, <a href="http://www.macstories.net/news/mapping-the-entertainment-ecosystems-a-brief-revisit/">the best reach worldwide</a>. The same company whose platform <a href="http://daringfireball.net/linked/2012/11/26/andoid-ios-bartholomew">disproportionately dominates usage statistics</a>.</p>
+
+<p>Samsung has had a remarkable run over the last few years. <a href="http://news.cnet.com/8301-1035_3-57565757-94/samsung-quarterly-profit-jumps-76-percent-on-galaxy-sales/">They make more money</a> &#8212; profit, not merely revenue &#8212; from selling mobile phones <a href="http://www.cnbc.com/id/100392006">than Google makes</a> for all of its businesses combined. But by any measurable means other than market share what they&#8217;ve achieved is the number two spot, behind Apple. You can reasonably make the argument that they&#8217;re on their way to unseating Apple, that the momentum lead belongs to Samsung. (I would disagree, but cede that it&#8217;s possible.) But no facts today suggest that it has already happened.</p>
+
+<p>But that&#8217;s how news reporters increasingly are treating the state of the industry. The desire for the &#8220;<em>Oh, how the mighty Apple has fallen</em>&#8221; narrative is so strong that the narrative is simply being stated as fact, evidence to the contrary be damned. It&#8217;s reported as true simply because they want it to be true. They&#8217;re declaring &#8220;<em>The King is dead; long live the King</em>&#8221; not because the king has actually died or abdicated the throne, but because they&#8217;re bored with the king and want to write a new coronation story.</p>
+
+
+
+    ]]></content>
+  <title>★ Ceding the Crown</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2013/03/open_and_shut" />
+	<link rel="shorturl" href="http://df4.us/l0p" />
+	<id>tag:daringfireball.net,2013://1.27241</id>
+	<published>2013-03-01T08:24:30Z</published>
+	<updated>2013-03-01T23:34:11Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>Let&#8217;s put the old &#8220;open beats closed&#8221; axiom to bed.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Tim Wu, writing for The New Yorker &#8220;News Desk&#8221;, has done us all a grand favor by penning a sort of grand unified theory on how the &#8220;open beats closed&#8221; axiom can be true in the face of Apple&#8217;s decade-long success: &#8220;<a href="http://www.newyorker.com/online/blogs/newsdesk/2013/02/does-a-company-like-apple-need-a-genius-like-steve-jobs.html?currentPage=all">Does a Company Like Apple Need a Genius Like Steve Jobs?</a>&#8221; Wu&#8217;s conclusion: yes, Apple is falling back to earth sans Jobs, and the normalcy of open beating closed will return any moment now. Let&#8217;s consider his argument.</p>
+
+<p>Right from the start:</p>
+
+<blockquote>
+  <p>The old tech adage is that “open beats closed.” In other words,
+open technological systems, or those that allow
+interoperability, always beat their closed competitors. This is
+an article of faith for certain engineers. It’s also the lesson
+from Windows’ defeat of the Apple Macintosh in the
+nineteen-nineties, Google’s triumph in the early aughts, and,
+more broadly, the success of the Internet over its closed rivals
+(remember AOL?). But is it still true?</p>
+</blockquote>
+
+<p>Allow me to start by putting forth an alternative rule of thumb for commercial success in any market: better and earlier tend to beat worse and later. That is to say, successful products and services tend to be those that are superior qualitatively and which hit the market sooner. (Consider Microsoft&#8217;s travails in the smartphone market: the old Windows Mobile (née Windows CE) hit the market years before the iPhone and Android, but it sucked. Windows Phone is by all accounts a technically solid, well-designed system, but by the time it arrived the iPhone and Android were entrenched market leaders &#8212; it was too late.) You don&#8217;t have to be best or first, but the winners are likely to be those which fare well in both regards.</p>
+
+<p>There is nothing profound or insightful (<a href="https://twitter.com/BenedictEvans/status/306068527608123394">or original</a>) about this theory; it is simply common sense. My point though, is that open-vs.-closed has very little to do with commercial success, in and of itself. Openness carries no magic.</p>
+
+<p>Consider Wu&#8217;s purported canonical examples:</p>
+
+<p>&#8220;<em>Windows’ defeat of the Apple Macintosh in the nineteen-nineties</em>&#8221; &#8212; The Wintel duopoly certainly ate the Mac&#8217;s lunch in the &#8217;90s, but this coincided with the nadir of the Mac&#8217;s qualitative superiority. PCs were beige boxes; Macintoshes were slightly better-looking beige boxes. Windows 95 was vastly improved over Windows 3; the classic Mac OS had barely evolved in a decade, whilst Apple squandered its efforts on pie-in-the-sky next-generation systems that never saw the light of day &#8212; Taligent, Pink, Copland. Windows 95 even took to borrowing visual cues not from the Mac but from the best-looking OS of the day, <a href="http://www.guidebookgallery.org/guis/nextstep">NeXTStep</a>.</p>
+
+<p>Apple&#8217;s and the Mac&#8217;s problems in the &#8217;90s had nothing to do with Apple being more closed and everything to do with the quality of the products. And, as we now know, this &#8220;defeat&#8221; was only temporary. Apple, counting only Macintosh and no iOS devices, is the single-most profitable PC maker in the world, and in the top five in terms of unit sales. For the last six years, Mac sales have outgrown the PC industry as a whole <em>every single quarter</em>. The Mac&#8217;s resurgence had nothing to do with being more open, and everything to do with improved quality: a modern operating system, well-designed software, and hardware designs that the entire rest of the industry now copies <a href="http://gizmodo.com/5836128/samsungs-new-notebooks-are-super-skinny-macbook-clones-and-look-damn-good">slavishly</a> and <a href="http://www.engadget.com/2012/05/09/hp-apple-laptop-design-similarity/">shamelessly</a>.</p>
+
+<p>The Mac was closed in the ’80s and thrived, much like Apple does today: with a decent but minority market share, and very healthy profit margins. It began to suffer &#8212; both in terms of scarily dwindling market share and unprofitability &#8212; only in the mid-’90s. At this point, the Mac had become no more closed, but had become technically and aesthetically stagnant. And then came Windows 95, which altered the closed/open equation not one bit, but which closed the design quality gap with the Mac significantly. Windows thrived, the Mac withered, and it had nothing to do with openness and everything to do with engineering and design quality. Windows had gotten a lot better, and the Mac had not.</p>
+
+<p>Even more telling, and more damning to Wu&#8217;s use of this as a case study, is that soon after Windows 95, Apple radically opened up the Mac OS, in a use of the word &#8220;open&#8221; that Wu expressly states is what he means by the term: they licensed the OS to other PC makers <a href="http://en.wikipedia.org/wiki/Macintosh_clone">to produce Mac clones</a>. This was the most open decision &#8212; in Wu&#8217;s sense of the word <em>open</em> &#8212; in the entire history of Apple Computer Inc.</p>
+
+<p>And it nearly bankrupted the company.</p>
+
+<p>Mac OS&#8217;s share of the overall PC market remained stagnant, but Apple&#8217;s share of Mac hardware sales, particularly lucrative high-end models, plummeted.</p>
+
+<p>When Jobs and his team from NeXT took control of Apple, they shredded the licensing program, returned the company to its integrated control-the-whole-experience roots, and got to work on one thing: designing better &#8212; but absolutely closed &#8212; hardware and software. It worked.</p>
+
+<p>&#8220;<em>Google’s triumph in the early aughts</em>&#8221; &#8212; By this Wu surely means Google web search. What exactly is or ever was more &#8220;open&#8221; about Google&#8217;s web search than any of its competitors, then or now? Everything about it is closed: the source code, the ranking algorithms, even the setup and locations of Google&#8217;s vaunted data centers are famously kept secret. Google came to dominate search for one reason: it offered a vastly superior product. It was faster, far more accurate and clever, and visually far less cluttered.</p>
+
+<p>&#8220;<em>The success of the Internet over its closed rivals (remember AOL?)</em>&#8221; &#8212; Here Wu almost makes sense. The Internet truly is a triumph of openness, perhaps <em>the</em> triumph of openness. But AOL wasn&#8217;t really competing against &#8220;the Internet&#8221;. AOL is a service. The Internet is a worldwide communal system. You still need a service to connect to the Internet. AOL lost not to the Internet but to cable and DSL providers. And AOL was crap, badly-written, horribly-designed software that connected you to the Internet via appallingly slow and finicky dial-up modems.</p>
+
+<blockquote>
+  <p>The adage has been seriously questioned over the last few years,
+primarily because of one firm. Apple, ignoring the ideals of
+engineers and the preaching of tech pundits, steadfastly stuck to
+a semi-closed strategy &#8212; or an “integrated” one, as it likes to
+say &#8212; and defied the rule.</p>
+</blockquote>
+
+<p>The &#8220;rule&#8221; has been seriously questioned all along by some of us, because it&#8217;s horseshit; not that the opposite is true (that closed tends to beat open), but rather, that open-vs.-closed carries no special weight in determining success as a general rule. Apple is not an exception to the rule; rather, it is a perfect example that the rule is nonsense.</p>
+
+<blockquote>
+  <p>But now, over the last six months, in ways little and large, Apple
+has begun to stumble. Accuse me of overreading, but I propose a
+revision of the old adage: closed can beat open, but you have to
+be genius. Under normal conditions, in an unpredictable industry,
+and given regular levels of human error, open still beats closed.
+Stated a different way, a firm gets to be closed in exact
+proportion to its vision and design talent.</p>
+</blockquote>
+
+<p>Would not a simpler theory be that companies with visionary leaders and talented designers (or employees in general) tend to succeed? What Wu is arguing here is that &#8220;closed&#8221; companies are somehow more in need of vision and talent than &#8220;open&#8221; ones, which is folly. (Open <em>standards</em> certainly succeed more easily than closed ones, but that&#8217;s not what Wu is arguing here. He&#8217;s talking about companies and their success.)</p>
+
+<blockquote>
+  <p>To explain, I need to first be careful about what I mean by “open”
+and “closed,” words that are widely used in the tech industry, but
+with various meanings. The truth is that no company is completely
+open or completely closed; they exist on a spectrum, somewhat like
+the one that Alfred Kinsey used to describe human sexuality. Here,
+I mean it as the combination of three things.</p>
+
+<p>First, “open” and “closed” can refer to how permissive a tech firm
+is, with respect to who can partner with or interconnect with its
+products to reach consumers. We say an operating system like Linux
+is “open” because anyone can design a device that runs Linux. In
+contrast, Apple is very selective: it would never license iOS to
+run on a Samsung phone, or sell the Kindle in an Apple store.</p>
+</blockquote>
+
+<p>No, they likely wouldn&#8217;t sell Kindle hardware in an Apple Store, any more than they would sell Samsung phones or Dell computers. Nor do Dell or Samsung sell Apple products. But Apple does have the Kindle app in the App Store.</p>
+
+<blockquote>
+  <p>Second, openness can describe how impartially a tech company
+treats other firms in comparison to how it treats itself. Firefox,
+the browser, treats most Web sites about the same. Apple, in
+contrast, always treats itself better. (Try removing iTunes from
+your iPhone.)</p>
+</blockquote>
+
+<p>That&#8217;s the entirety of Wu&#8217;s second meaning of &#8220;open&#8221; &#8212; a comparison between a web browser and an operating system. But Apple has its own web browser, Safari, which, just like Firefox, treats all websites the same. And Mozilla now has its own mobile OS, on which, I&#8217;ll bet, there are at least some apps you cannot remove.</p>
+
+<blockquote>
+  <p>Third, and finally, it describes how open, or
+transparent, the company is about how its products work, and how
+to work with them. Open-source products, or those that rely on
+open standards, make their source code available widely.
+Meanwhile, a firm like Google might be open in many respects, but
+it guards things like its search-engine code very carefully. In
+tech, the standard metaphor to describe this last difference is
+that of a cathedral versus a bazaar.</p>
+</blockquote>
+
+<p>Wu even admits that Google&#8217;s crown jewels &#8212; its search engine and the amazing data centers that power it &#8212; are every bit as closed as much of Apple&#8217;s software and makes no mention of Apple&#8217;s leadership on open source projects like <a href="http://www.webkit.org/">WebKit</a> and <a href="http://llvm.org/">LLVM</a>.</p>
+
+<blockquote>
+  <p>Even Apple needs to be open enough not to annoy consumers too
+much. You can’t run Adobe’s Flash on an iPad, but you can plug
+nearly any kind of earphones into it.</p>
+</blockquote>
+
+<p>Flash? What year is it? You can&#8217;t run Flash on Amazon&#8217;s Kindle tablets, or Google&#8217;s Nexus tablets and phone either.</p>
+
+<blockquote>
+  <p>The idea that “open beats closed” is a new one. For most of the
+twentieth century, integration was widely believed to be the
+superior form of business organization. [&#8230;]</p>
+
+<p>The conventional wisdom began to change in the nineteen-seventies.
+In technology markets, from the eighties through the mid-aughts,
+open systems repeatedly defeated their closed competitors.
+Microsoft Windows defeated its rivals by being more open: unlike
+Apple’s operating system, which was technically superior, Windows
+ran on any hardware, and ran nearly any software.</p>
+</blockquote>
+
+<p>Again, the Mac was not defeated, and, looking at the decades-long history of the PC industry, the evidence suggests that openness has little to do with success, and with the Mac in particular, if anything it proves the opposite. The Mac&#8217;s roller-coaster trajectory &#8212; up in the ’80s, down in the ’90s, up in the ’00s and continuing through today &#8212; corresponds exactly to the competitive quality of Apple&#8217;s hardware and software, and not at all to its openness. The Mac has succeeded most when closed, least when open.</p>
+
+<blockquote>
+  <p>At the same time, Microsoft also defeated a vertically integrated
+I.B.M. (Remember Warp O.S.?)</p>
+</blockquote>
+
+<p>I do, but apparently Wu does not, because it was called &#8220;<a href="http://en.wikipedia.org/wiki/OS/2">OS/2 Warp</a>&#8221;.</p>
+
+<p>If openness is the key to Windows&#8217;s success, whither Linux on the desktop? Linux is truly open by anyone&#8217;s definition of the word, far more open than Windows could ever be. And it has been a nearly complete dud as a desktop operating system, where it has never been all that good, qualitatively.</p>
+
+<p>On the server though, where Linux has long been widely regarded as technically excellent &#8212; fast and reliable &#8212; it has been a tremendous success. If openness were key, Linux should have succeeded everywhere. It has not. It has only succeeded where it is actually good, as a system for servers.</p>
+
+<blockquote>
+  <p>Google was boldly open in its original design, and sailed past the
+selective pay-for-placement design of Yahoo.</p>
+</blockquote>
+
+<p>Describing Google&#8217;s evisceration of the first generation of search engines as having anything at all to do with &#8220;openness&#8221; is absurd. Google search was better &#8212; not just a little better, but way better, like 10 times better &#8212; in every single regard: accuracy, speed, clarity, and even visual design.</p>
+
+<p>Not one person, ever, tried Google search for the first time after years of using Yahoo, Altavista, and the like and said to themselves, &#8220;Wow, this is way more open!&#8221;</p>
+
+<blockquote>
+  <p>Most of the winner firms in the eighties to the aughts,
+like Microsoft, Dell, Palm, Google, and Netscape, were open. And
+the Internet itself, a government-funded project, was both
+incredibly open and incredibly successful. A movement was born,
+and with it the rule that “open beats closed.”</p>
+</blockquote>
+
+<p>Microsoft: Not really open, they just license their OSes &#8212; not for free but for, you know, money &#8212; to any company that will pay.</p>
+
+<p>Dell: Open how? Dell&#8217;s peak success had nothing to do with openness and everything to do with having figured out ways to produce commodity PCs cheaper and quicker than its competitors. When cheap fast production itself became a commodity, with the rise of outsourced Chinese manufacturing and assembly, Dell&#8217;s advantage disappeared, along with its relevance. And, not exactly a shining example of sustained success.</p>
+
+<p>Palm: More open than Apple how? And, uh, out of business.</p>
+
+<p>Netscape: They built browsers and servers for the truly open web, but their software was closed. And what cost them their lead in the browser market was a two-fold attack by Microsoft: (1) Microsoft made a better browser, and (2) in a completely <em>closed</em> (and eventually deemed-to-be-illegal) fashion, they used their control over the closed Windows operating system to bundle and favor IE over Netscape Navigator.</p>
+
+<blockquote>
+  <p>The triumph of open systems revealed a major defect in closed
+designs.</p>
+</blockquote>
+
+<p>Rather, Wu&#8217;s examples have revealed a major defect in his entire thesis: it is not true.</p>
+
+<blockquote>
+  <p>Which brings us to the aughts, and Apple’s great run. For about
+twelve years, Apple successfully beat the rule. But that’s because
+it had the best of all possible systems; namely, a dictator with
+absolute control who was also a genius. Steve Jobs was the
+corporate version of Plato’s ideal: the philosopher-king more
+effective than any democracy. The firm was dependent on one
+centralized mind, but he made very few mistakes. In a world
+without errors, closed beats open. Consequently, for a while,
+Apple bested its rivals.</p>
+</blockquote>
+
+<p>Wu&#8217;s approach to this entire subject is backwards. Rather than evaluate the facts and draw a conclusion regarding the importance of openness to commercial success, he instead started with a belief in the axiom and attempted to massage the facts to fit the dogma. Thus, Wu argues, Apple&#8217;s success over the past 15 years is not incontrovertible proof that the &#8220;open beats closed&#8221; axiom is false, but rather was the result of Steve Jobs having possessed singular abilities that trumped the power of openness. He, and he alone, could walk on water.</p>
+
+<p>Wu mentioned the word &#8220;iPod&#8221; not a single time in his essay, and &#8220;iTunes&#8221; only once &#8212; in the section quoted above about not being able to delete the iTunes app from an iPhone. Those are convenient omissions from a piece arguing that &#8220;open beats closed&#8221;. These are both canonical examples suggesting that other factors are more important to success &#8212; that better beats worse, integrated beats fragmented, simple beats complicated.<sup id="fnr1-2013-03-01"><a href="#fn1-2013-03-01">1</a></sup></p>
+
+<hr />
+
+<p>There&#8217;s an &#8220;infographic&#8221; that accompanies Wu&#8217;s article, and it is mind-bogglingly vapid. It must be seen to be believed.</p>
+
+<p><a href="http://www.newyorker.com/online/blogs/newsdesk/2013/02/idea-of-the-week-open-vs-closed.html" class="noborder">
+  <img
+    src="/misc/2013/03/newyorker-infographic.jpg"
+    alt="Vapid chart from The New Yorker, ostensibly showing the correlation between openness and market cap among Apple, Amazon, Google, and Microsoft."
+  /></a></p>
+
+<p>Market cap over time, so far so good. But the colors? Nick Traverse explains:</p>
+
+<blockquote>
+  <p>The infographic here shows the market capitalization of four big
+technology companies since 2006 &#8212; Amazon, Apple, Google, and
+Microsoft. Wu developed a metric for assessing the “openness” of
+companies, scored on three factors: interoperability, integration,
+and transparency. With 1 being closed, and 10 being open, here’s
+how they rank:</p>
+
+<p>Apple: 2.0 <br />
+Microsoft: 5.0 <br />
+Google: 5.7 <br />
+Amazon: 6.3</p>
+</blockquote>
+
+<p>That&#8217;s the extent of the work shown to justify these scores. Not only did Wu choose these attributes of &#8220;openness&#8221; arbitrarily and simply make up values for the interoperability / integration / transparency scores for each company, he doesn&#8217;t even reveal what these individual per-attribute scores are. All we get are these ostensibly quantitative overall scores: 2.0, 5.0, 5.7, 6.3. If pseudoscience gobbledygook were toxic, we&#8217;d all be dead having gazed upon this chart.</p>
+
+<p>Traverse continues:</p>
+
+<blockquote>
+  <p>Wu’s theory is that open should generally do better than closed,
+unless the closed company is run by a genius. And though this is
+just a smattering of data, the chart seems to bear the theory out.
+The stock prices of Microsoft, Google, and Amazon more or less
+correlate to their openness scores. Apple, the most closed of the
+four, does the best &#8212; until about a year after Steve Jobs dies.
+Since then, it has plummeted.</p>
+</blockquote>
+
+<p>The stock values over time are data; the openness scores are nonsense, a metric Tim Wu pulled out of his ass. But even if we accept everything in this chart as Wu and The New Yorker intend &#8212; that Wu&#8217;s openness scores are meaningful and accurate, and that stock price is a reliable measure of a company&#8217;s success &#8212; this graphic does not show any sort of correlation between openness and success, nor, even, that Apple is suffering without Steve Jobs.</p>
+
+<p>Traverse is correct that Apple&#8217;s stock price has dropped by about 30 percent in recent months, beginning about a year after Jobs&#8217;s death. But he neglects to mention that in the year after his death, the stock price rose so high that, despite the recent drop, it remains up, significantly, from the date of Jobs&#8217;s death.</p>
+
+<p>According to Wu, Apple&#8217;s stock should continue to slide; only time will tell if he&#8217;s right. But what of the other four companies he chose? Microsoft&#8217;s score of 5.0 is the lowest of the three and indeed its stock performance since 2006 (the beginning of the graphic) is the worst &#8212; pretty much completely flat. But Google&#8217;s 5.7 is halfway between Amazon&#8217;s 6.3 and Microsoft&#8217;s 5.0, but their stock price has fared only slightly better than Microsoft. None of these companies&#8217; stock prices show any correlation to the openness scores Wu assigned them, with the exception of Amazon. But how in the world did Amazon get a higher &#8220;openness&#8221; score than Google? Google released Android as an actual open source project; Amazon took Android and created their own closed source branch for the Kindle Fire. The Kindle e-readers are every bit as closed as the iPod. Transparency? Apple releases sales numbers for all of its product categories, each and every quarter. Apple releases numbers regarding how many apps have been downloaded from the App Store, how much money it has paid to developers, how many songs they&#8217;ve sold through iTunes, and how many books have been downloaded through iBooks. Amazon never releases sales numbers for anything &#8212; not for the Kindle, not for apps, nothing. Just <a href="http://www.loopinsight.com/2012/12/06/amazon-sells-34-apps-from-its-appstore-in-the-last-year/">bromides</a> about having sold &#8220;the most ever&#8221;, or such and such percent more than an earlier quarter. It&#8217;s hard to think of a reason why Amazon would score as more open than Google other than that their stock has done better in recent years and that Wu assigned the scores to fit the narrative.</p>
+
+<p>Not to mention that if Wu had chosen profitability rather than stock price as the metric for corporate success, the chart would show a <em>reverse</em> correlation between openness and success: Apple first, Microsoft second, Google third, and Amazon a distant fourth at nearly zero. (I&#8217;m not proposing that this would be any less nonsensical than Wu&#8217;s use of stock prices. For one thing, Amazon seemingly turns little-to-no profit <a href="http://www.slate.com/blogs/moneybox/2013/01/29/amazon_q4_profits_fall_45_percent.html">on purpose</a>. But it&#8217;s no less valid than Wu&#8217;s use of stock price, especially when comparing the three companies in the group that <em>are</em> pursuing profitability.)</p>
+
+<p>The dogmatic assumption that openness correlates to success, evidence to the contrary be damned, overcomplicates the argument. &#8220;Wu’s theory is that open should generally do better than closed, unless the closed company is run by a genius.&#8221; Take the open/closed stuff out of that premise, and you&#8217;re left with something like this: <em>Companies run by geniuses should generally do better than those which are not.</em> That sounds about right.</p>
+
+<hr />
+
+<p>Wu concludes his essay with this advice: </p>
+
+<blockquote>
+  <p>In the end, the better your vision and design skills, the more
+closed you can try to be. If you think your product designers can
+duplicate the nearly error-free performance of Jobs over the past
+twelve years, go for it. But if mere mortals run your firm, or if
+you’re facing an extremely unpredictable future, the economics of
+error suggest an open system is safer. Maybe rely on this test:
+wake up, look in the mirror, and ask yourself, Am I Steve Jobs?</p>
+</blockquote>
+
+<p>The key word here is &#8220;safer&#8221;. <em>Don&#8217;t try to do it all. Don&#8217;t do something different. Don&#8217;t rock the boat. Don&#8217;t question conventional wisdom. Go with the flow.</em></p>
+
+<p>That&#8217;s what bothers people about Apple. Everyone used Windows, why couldn&#8217;t Apple just settle for <a href="http://www.pcmag.com/article2/0,2817,1927885,00.asp">making stylish Windows machines</a>? Smartphones <a href="http://daringfireball.net/2009/07/mobile_phone_keyboards">required hardware keyboards</a> and <a href="http://www.pcworld.com/article/166330/iPhone_vs_Palm_Pre.html">removable batteries</a>; why did Apple make theirs with neither? Everyone knew you <a href="http://crackberry.com/breaking-rim-co-ceo-jim-balsillie-responds-steve-jobs-comments-made-during-apple-earnings-call">needed Flash Player for the &#8220;full web experience&#8221;</a>, why did Apple <a href="http://www.apple.com/hotnews/thoughts-on-flash/">drop it</a>? 16 years after the ad campaign, &#8220;Think Different&#8221; has proven itself to be more than glib marketing. It is a simple, serious motto that serves as a guiding light for the company.</p>
+
+<p>I think what Wu and his brethren believe is not that companies win by being &#8220;open&#8221;, but that they win by offering choices.</p>
+
+<p>Who is Apple to decide which apps are in the App Store? That no phone will have a hardware keyboard or removable battery? That modern devices are better off without Flash Player and Java?</p>
+
+<p>Where others offer choices, Apple makes decisions. What some of us appreciate is what so rankles the others &#8212; that those decisions have so often and consistently been right.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1-2013-03-01">
+<p>No mention, either, of <a href="http://daringfireball.net/2007/02/command_option_control">Apple&#8217;s leadership on eliminating DRM from music in the iTunes Store</a> &#8212; a stance surely more open than closed.&nbsp;<a href="#fnr1-2013-03-01"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+    ]]></content>
+  <title>★ Open and Shut</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2013/02/hammer_nail" />
+	<link rel="shorturl" href="http://df4.us/l07" />
+	<id>tag:daringfireball.net,2013://1.27223</id>
+	<published>2013-02-27T06:47:25Z</published>
+	<updated>2013-02-27T09:59:21Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>I&#8217;m not sure what&#8217;s worse, the content of this piece by Sam Gustin for Time magazine, or the pun in the headline, &#8220;Google Hits ‘Glass’ Pedal as Apple Returns to Earth&#8221;.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>I&#8217;m not sure what&#8217;s worse, the content of this piece by Sam Gustin for Time magazine, or the pun in the headline, &#8220;<a href="http://business.time.com/2013/02/26/google-hits-the-glass-pedal-as-apple-falls-to-earth/">Google Hits ‘Glass’ Pedal as Apple Returns to Earth</a>&#8221;:</p>
+
+<blockquote>
+  <p>In short, Apple expectations are returning to Earth. “Apple has
+had a tremendous run from 2001 until the end of last year,” says
+Kessler. “People want the company to invent a new category. In
+the past, they’ve done that so frequently and successfully that
+when they don’t seem to do it as much or as profoundly,
+questions arise.”</p>
+</blockquote>
+
+<p>The iPod in 2001, iPhone in 2007, iPad (which many critics pooh-poohed as &#8220;<a href="http://www.pcworld.com/article/187888/ipad_first_impressions.html">just a big iPhone</a>&#8221;) in 2010. So, so frequently &#8212; it&#8217;s a wonder how we ever kept up with Apple&#8217;s new category inventions.</p>
+
+<blockquote>
+  <p>Meanwhile, Google is hot. For example, Google’s new Chromebook
+Pixel laptop is garnering positive reviews. (“Thank you, Google.
+For obsoleting my MacBook,” as one CNET writer <a href="http://news.cnet.com/8301-1035_3-57570862-94/google-laptop-shows-apple-a-thing-or-two/">put it</a>.)</p>
+</blockquote>
+
+<p>That would be <a href="http://daringfireball.net/linked/2013/02/26/obsolete">the aforelinked</a> Brooke Crothers, a CNet opinion columnist. <a href="http://www.cnet.com/google-chromebook-pixel/">Here&#8217;s the official CNet hardware review of the Pixel</a> by Seth Rosenblatt, where it garnered a meager rating of &#8220;OK&#8221; and this bottom line:</p>
+
+<blockquote>
+  <p>The bottom line: Despite impressive hardware specs and solid
+industrial design, the Chromebook Pixel’s high price and cloud OS
+limitations make it impossible to recommend for the vast majority
+of users.</p>
+</blockquote>
+
+<p>In contrast, here are CNet&#8217;s ratings for all of Apple&#8217;s recent MacBooks:</p>
+
+<ul>
+<li><a href="http://www.cnet.com/macbook-pro-13-inch-retina-display/">13-inch MacBook Pro With Retina Display</a>: Excellent</li>
+<li><a href="http://www.cnet.com/laptops/apple-macbook-pro-with/4505-3121_7-35331572.html">15-inch MacBook Pro With Retina Display</a>: Excellent</li>
+<li><a href="http://www.cnet.com/laptops/apple-macbook-air-11/4505-3121_7-35330105.html">11-inch MacBook Air</a>: Excellent</li>
+<li><a href="http://www.cnet.com/laptops/apple-macbook-air-13/4505-3121_7-35330106.html">13-inch MacBook Air</a>: Excellent</li>
+</ul>
+
+<p>Nathan Edwards of The Wirecutter <a href="http://thewirecutter.com/2013/02/the-chromebook-pixel-is-not-for-you/">says the Pixel is &#8220;not for you&#8221;</a>. David Pierce at The Verge <a href="http://www.theverge.com/2013/2/25/4023830/google-chromebook-pixel-review">concludes his Pixel review thus</a>:</p>
+
+<blockquote>
+  <p>Everyone should want a Chromebook Pixel &#8212; I certainly do. But
+almost no one should buy one.</p>
+</blockquote>
+
+<p>In short, the Chromebook Pixel is interesting, but it&#8217;s not a well-regarded laptop. But it&#8217;s bad news for Apple, that&#8217;s for sure.</p>
+
+<p>Back to Gustin&#8217;s piece for Time:</p>
+
+<blockquote>
+  <p>And the company’s Google Glass wearable computing project &#8212;
+high-tech Internet-connected specs &#8212; is generating the sort of
+buzz usually reserved for Apple products. The futuristic eyewear
+will be available to consumers by the end of 2013, just in time
+for the holiday shopping season, according to several reports.</p>
+</blockquote>
+
+<p>So a product from Google that currently exists only as a pre-announced demo and somewhat-imminent $1500 developer preview &#8212; from the company that brought us the <a href="http://daringfireball.net/linked/2012/07/31/q">Nexus Q</a> and <a href="http://daringfireball.net/linked/2011/12/07/schmidt-google-tv">Google TV</a> &#8212; shows that Apple has lost its edge? OK, got it.</p>
+
+<p>It should be clear to anyone who pays even half attention to the industry that Google and Apple are polar opposites in numerous regards. The open-vs.-closed thing is tiresome and generally misleading, but here&#8217;s an area where Google really is open (by revealing Google Glass far in advance of it being finished) and Apple really is closed (in that they never reveal anything about products until they are finished or nearly so).</p>
+
+<p>Google Glass absolutely is generating buzz, but it&#8217;s not &#8220;the sort of buzz usually reserved for Apple products&#8221;. Glass has nerds excited; Apple products get the general public excited, and often <em>annoy</em> nerds by being iterative improvements that press the &#8220;<em>familiar but better</em>&#8221; button instead of the &#8220;<em>new and different</em>&#8221; button.</p>
+
+<p>On the one hand, we have actual shipping products from Apple that are critically acclaimed and selling in record numbers (and for record profits); on the other, a $1300 laptop that only runs a web browser and a HUD headset that will supposedly ship at the end of the year from Google. And this somehow shows that Apple is slumping. What Gustin is doing is taking anything and everything &#8212; Apple&#8217;s recent stock slump; the promise of Google Glass; the mere existence of the Chromebook Pixel, regardless of its price or critical ratings; the fact that Apple has spent the last three years doing what it does best, <a href="http://www.macworld.com/article/1151235/apple_rolls.html">iteratively improving and refining existing products</a> &#8212; and has forced these facts into supporting the narrative that Apple is, as he began arguing back in August, &#8220;<a href="http://business.time.com/2012/08/03/is-apple-losing-its-shine-after-steve-jobs/">losing its shine</a>&#8221; without Steve Jobs.</p>
+
+<p>I sense <a href="http://daringfireball.net/linked/2013/02/26/efrati-looking-at-it">a trend</a>.</p>
+
+
+
+    ]]></content>
+  <title>★ When All You Have Is an ‘Apple Is Doomed Without Steve Jobs’ Hammer, Everything Looks Like a Nail</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2013/02/bounding_asterisks" />
+	<link rel="shorturl" href="http://df4.us/kxa" />
+	<id>tag:daringfireball.net,2013://1.27118</id>
+	<published>2013-02-06T23:17:38Z</published>
+	<updated>2013-02-07T03:40:12Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>When did we (collectively) start putting asterisks around words for emphasis?</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Something <a href="http://daringfireball.net/linked/2013/02/06/real">else</a> caught my eye in <a href="http://www.nytimes.com/2013/02/07/technology/personaltech/microsofts-surface-pro-works-like-a-tablet-and-a-pc.html?_r=0">David Pogue&#8217;s review</a> of the Surface Pro today &#8212; the use of bounding asterisks for emphasis around the <em>cough</em>s:</p>
+
+<blockquote>
+  <p>For decades, Microsoft has subsisted on the milk of its two cash
+cows: Windows and Office. The company’s occasional ventures into
+hardware generally haven’t ended well: (*cough*) Zune, Kin
+Phone, Spot Watch (*cough*).</p>
+</blockquote>
+
+<p>Where by &#8220;emphasis&#8221; I mean &#8220;informing the reader of a shift in style or voice&#8221;, such as how foreign words are italicized in many publications and books. Using asterisks this way strikes me as an <a href="http://www.alsindependence.com/Internet_Slang.htm">Internet-ism</a>. I would think those <em>cough</em>s should be italicized; using bounding asterisks is a substitute in plain text contexts, something we collectively started doing in email, newsgroups, web comments and forums, Twitter, and various other input fields where computer software doesn&#8217;t allow proper italics (or bold, or any other formatting).<sup id="fnr1-2013-02-06"><a href="#fn1-2013-02-06">1</a></sup></p>
+
+<p>Or at least that was my hunch. So <a href="https://twitter.com/gruber/status/299261664568680449">I asked</a> on Twitter, and <a href="https://twitter.com/ironicsans/status/299279307338051584">David Friedman had the clever idea</a> to search <a href="http://books.google.com/ngrams/info">Google&#8217;s Ngram Viewer</a> for &#8220;*sigh*&#8221; and &#8220;*cough*&#8221;. <a href="http://books.google.com/ngrams/graph?content=%5B*cough*%5D%2C%5B*sigh*%5D&amp;year_start=1900&amp;year_end=2008&amp;corpus=15&amp;smoothing=5&amp;share=">The results are interesting</a>.</p>
+
+<p><a href="http://daringfireball.net/misc/2013/02/ngram-sigh-cough.png" class="noborder">
+<img
+  src = "/misc/2013/02/ngram-sigh-cough-cropped.png"
+  alt = "Chart showing the use of *sigh* and *cough* in books over the last 100 years."
+/></p>
+
+<p>Neither appeared in print until the mid-’60s, when <em>*sigh*</em> began appearing. But <em>*cough*</em> doesn&#8217;t appear until 1987. Both though, exploded in usage starting in 1997, and have risen steadily ever since. So I think I&#8217;m correct that this use of asterisks has been largely driven by Internet punctuation idioms.</p>
+
+<p>But what explains <em>*sigh*</em>&#8217;s rise in the ’60s? That was a head-scratcher for me. But I suspect <a href="https://twitter.com/ironicsans/status/299281214773284864">Friedman nailed it</a>: it stems from <a href="https://www.google.com/search?q=charlie+brown+sigh&amp;hl=en&amp;tbo=u&amp;tbm=isch&amp;source=univ&amp;sa=X&amp;ei=xdYSUZO5Dcjo0gGJtIHQDQ&amp;ved=0CC8QsAQ&amp;biw=1271&amp;bih=1019">Charles Schulz&#8217;s <em>Peanuts</em></a>.</p>
+
+<p><img
+  src = "/misc/2013/02/charlie-brown-sigh.png"
+  alt = "Charlie Brown, sighing, with the word ‘sigh’ surrounded by what look like asterisks."
+/></p>
+
+<p>What I wish I could do with Google&#8217;s Ngram Search is look for instances of these words actually italicized, to see if that treatment has dropped as bounding asterisks have risen.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1-2013-02-06">
+<p>Hence my adoption of asterisks-for-emphasis in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>; it was already a widely-used convention for Internet users. The only quibble some have is whether it best translates to italics or boldface.&nbsp;<a href="#fnr1-2013-02-06"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+    ]]></content>
+  <title>★ The Rise of Bounding Asterisks in Lieu of Italicization for Styling Text</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2013/02/the_c_word" />
+	<link rel="shorturl" href="http://df4.us/kx3" />
+	<id>tag:daringfireball.net,2013://1.27111</id>
+	<published>2013-02-06T04:30:25Z</published>
+	<updated>2013-02-06T05:45:01Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>Design is always about compromise.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Walt Mossberg, <a href="http://online.wsj.com/article/SB10001424127887324900204578285963270503862.html?mod=djemptech_t">reviewing the Microsoft Surface Pro</a>:</p>
+
+<blockquote>
+  <p>It&#8217;s too hefty and costly and power-hungry to best the leading
+tablet, Apple&#8217;s full-size iPad. It is also too difficult to use in
+your lap. It&#8217;s something of a tweener &#8212; a compromised tablet and
+a compromised laptop.</p>
+</blockquote>
+
+<p><a href="http://online.wsj.com/article/SB10001424052702303703004577474910029263198.html">From the Surface introduction event</a>, eight months ago:</p>
+
+<blockquote>
+  <p>Mr. Ballmer and other Microsoft executives repeatedly use the
+words &#8220;no compromises&#8221; to describe the tablet computers they
+envision running Windows 8 and Windows RT &#8212; which means that
+users will be able to use work-oriented tools like Microsoft Word
+and Excel programs, not just be used for watching movies and
+surfing the Web.</p>
+</blockquote>
+
+<p><a href="http://blogs.msdn.com/b/b8/archive/2011/08/31/designing-for-metro-style-and-the-desktop.aspx">Steven Sinofsky, back in August</a>:</p>
+
+<blockquote>
+  <p>Our goal was a no compromise design. […] We chose to take the
+approach of building a design without compromise. […] You don’t
+have to compromise! […] Our design goal was clear: no compromises.</p>
+</blockquote>
+
+<p>Joanna Stern, reviewing the Surface Pro for ABC News (headline: &#8220;<a href="http://abcnews.go.com/Technology/microsoft-surface-pro-review-tablet-laptop-hybrid-requires/story?id=18413678">A Tablet/Laptop Hybrid With Compromises</a>&#8221;):</p>
+
+<blockquote>
+  <p>As a tablet, the Surface Pro is not as strong as its competitors.
+It&#8217;s larger, the battery life can&#8217;t compete and still lacks
+critical apps. As a laptop it&#8217;s hampered by its smaller screen
+size, lack of a good mouse option and the fact that it doesn&#8217;t
+really sit on your lap. Putting the two together results in a
+breed that&#8217;s simply not as compelling as separate tablets and
+laptops.</p>
+</blockquote>
+
+<p>Tim Stevens, <a href="http://www.engadget.com/2013/02/05/microsoft-surface-pro-review/">reviewing the Surface Pro for Engadget</a>:</p>
+
+<blockquote>
+  <p>Finally, just getting into the tablet takes longer than the
+Android or iOS competition. Hit the power button and you&#8217;ll
+have to wait for about three to four seconds for the display to
+pop on. […]</p>
+
+<p>The Surface Pro comes about as close as we&#8217;ve yet experienced, but
+it&#8217;s still compromised at both angles of attack. When trying to be
+productive, we wished we had a proper laptop and, when relaxing on
+the couch, we wished we had a more finger-friendly desktop
+interface &#8212; though more native Windows 8 apps might solve the
+problem by keeping us from having to even go there.</p>
+</blockquote>
+
+<p>Harry McCracken, <a href="http://techland.time.com/2013/02/05/review-microsoft-surface-pro-the-surface-thats-more-pc-than-tablet/">reviewing it for Time</a>:</p>
+
+<blockquote>
+  <p>Microsoft likes to use the phrase “no compromises” when describing
+that versatility, but in fact, Surface Pro &#8212; like all computing
+devices &#8212; is a study in compromises. It’s bulkier than Surface RT
+because its components require more interior space. Microsoft’s
+stated battery life is five hours, compared to eight for Surface
+RT. Even the AC adapter is portlier.</p>
+</blockquote>
+
+<p>David Pierce, <a href="http://www.theverge.com/2013/2/5/3955130/microsoft-surface-pro-review">reviewing it for The Verge</a>:</p>
+
+<blockquote>
+  <p>It&#8217;s too big, too fat, and too reliant on its power cable to be a
+competitive tablet, and it&#8217;s too immutable to do everything a
+laptop needs to do.</p>
+</blockquote>
+
+<p><a href="http://daringfireball.net/2011/09/compromise">Yours truly, back in September 2011</a>:</p>
+
+<blockquote>
+  <p>Microsoft and Apple are going in two very different directions,
+especially when you compare iOS to Windows 8. Apple has embraced
+compromise. The compromises in iOS are, for many people in many
+contexts, what makes the iPad better than a Mac. The compromises
+enforce simplicity and obviousness in design, and at a technical
+level they lead to iOS’s excellent battery life.</p>
+
+<p>I do work on the road using a MacBook Air, not an iPad, because
+I’m one of those users for whom the iPad’s design compromises get
+in the way, and slow me down. But I like having the iPad as a
+separate device, for reading and video. The marvel of the iPad is
+not that it can replace a Mac. It’s that it opened the door to all
+sorts of things that a Mac was never all that good for.</p>
+</blockquote>
+
+<p>I was wrong to argue that only Apple had embraced compromise. The truth is, <a href="https://twitter.com/stop/status/299019199030886400"><em>all</em> design is about compromise</a>. Where Apple and Microsoft have forked is with regard to <em>what</em> they&#8217;re willing to compromise on.</p>
+
+
+
+    ]]></content>
+  <title>★ The C Word</title></entry></feed><!-- THE END -->
