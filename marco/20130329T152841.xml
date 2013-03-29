@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Marco.org</title><link>http://www.marco.org/</link><description>I’m Marco Arment, creator of Instapaper, technology writer, and coffee enthusiast.</description><item><title>→ Accidental Tech Podcast: The Forecast For iCloud</title><link>http://atp.fm/episodes/7-the-forecast-for-icloud</link><guid isPermaLink="false">http://atp.fm/episodes/7-the-forecast-for-icloud</guid><pubDate>Fri, 29 Mar 2013 10:46:09 EDT</pubDate><description>&lt;p&gt;This week&amp;#8217;s episode: Summly and Yahoo, retaining good tech talent, and iCloud data sync for apps: why it doesn&amp;#8217;t work well, whether it&amp;#8217;s fixable, and whether you should use it even if it gets fixed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="http://squarespace.com/atp"&gt;Squarespace&lt;/a&gt;: Use code &lt;strong&gt;ATP3&lt;/strong&gt; at checkout for 10% off.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/29/atp7"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Facebook To Reveal “Home On Android”</title><link>http://techcrunch.com/2013/03/28/facebook-android-phone/</link><guid isPermaLink="false">http://techcrunch.com/2013/03/28/facebook-android-phone/</guid><pubDate>Fri, 29 Mar 2013 00:55:51 EDT</pubDate><description>&lt;p&gt;It&amp;#8217;s rumored to be an HTC phone running Facebook&amp;#8217;s custom fork of Android full of Facebook apps to do everything. Your Facebook news feed will live in your pants &lt;em&gt;all the time&lt;/em&gt;. Who wouldn&amp;#8217;t want that?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With deeper control of a modified operating system would come huge opportunities to collect data on its users. Facebook knows that who you SMS and call are important indicators of who your closest friends are. Its own version of Android could give it that info, which could be used to refine everything from what content you’re shown in the news feed to which friends faces are used in ads you see.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sign me up!&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/29/fb-phone-home"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ The Magazine: Issue 13</title><link>http://the-magazine.org/13/editors-note</link><guid isPermaLink="false">http://the-magazine.org/13/editors-note</guid><pubDate>Thu, 28 Mar 2013 12:08:07 EDT</pubDate><description>&lt;p&gt;This week&amp;#8217;s issue of The Magazine is special: instead of running five articles of our typical length (about 1,500 words), we published two regular-length articles and an amazing, 7,500-word feature article by Pulitzer-winner (!) &lt;a href="http://elisanders.net/"&gt;Eli Sanders&lt;/a&gt;, with illustrations by &lt;a href="http://thismodernworld.com/"&gt;Tom Tomorrow&lt;/a&gt;, on the status and future of domestic drones &amp;#8212; from hobbyist to government uses &amp;#8212; and the potential ramifications to our society.&lt;/p&gt;
+
+&lt;p&gt;Since the app experience isn&amp;#8217;t ideal for articles this long, we&amp;#8217;ve split it into three parts. &lt;a href="http://the-magazine.org/13/ground-control-part-1"&gt;Here&amp;#8217;s part one&lt;/a&gt;. &lt;strong&gt;Highly recommended.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/28/the-magazine-ground-control"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Neutral: Frankenstein Car Monster</title><link>http://neutral.fm/episodes/11-frankenstein-car-monster</link><guid isPermaLink="false">http://neutral.fm/episodes/11-frankenstein-car-monster</guid><pubDate>Thu, 28 Mar 2013 09:58:12 EDT</pubDate><description>&lt;p&gt;In this episode: Replacing expensive built-in options with Automatic, low expectations for built-in car software, Mini cars, and targeting young buyers.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="http://squarespace.com/neutral"&gt;Squarespace&lt;/a&gt;: Use code &lt;strong&gt;NEUTRAL3&lt;/strong&gt; at checkout for 10% off.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Next week, we&amp;#8217;ll be off as Casey and I drive my new car in Germany. Neutral&amp;#8217;s final episode will be the following week, April 11, wrapping up this podcast mini-series. Thanks, everyone! It&amp;#8217;s been fun. (&lt;a href="http://atp.fm/"&gt;ATP&lt;/a&gt; will continue.)&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/28/neutral-11"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ What’s Actually Wrong with Yahoo’s Purchase of Summly</title><link>http://hackingdistributed.com/2013/03/26/summly/</link><guid isPermaLink="false">http://hackingdistributed.com/2013/03/26/summly/</guid><pubDate>Tue, 26 Mar 2013 23:08:44 EDT</pubDate><description>&lt;p&gt;Emin Gün Sirer:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let&amp;#8217;s leave aside three unrelated factoids, namely, the Summly founder is only 17 years old, the company was in existence for only 18 months and Yahoo reportedly paid $30M for it. &amp;#8230;&lt;/p&gt;
+  
+  &lt;p&gt;I want to first focus on this from a technologist&amp;#8217;s perspective, and there is only one germane fact: &lt;strong&gt;the company developed no Natural Language Processing technology of its own&lt;/strong&gt;.&lt;/p&gt;
+  
+  &lt;p&gt;They licensed the core engine from another company.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A lot of geeks have been yelling today about &lt;a href="http://allthingsd.com/20130325/yahoo-acquires-hipster-mobile-news-reader-summly-like-we-said-it-might/"&gt;the Summly acquisition&lt;/a&gt;, which is really a textbook acqui-hire: a startup that appeared to be missing its growth targets was acquired for a fairly modest price and immediately shut down by a big tech company in need of good talent.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t know if Emin&amp;#8217;s assertion about the tech is correct. We barely know anything about Summly because the press has utterly failed at telling us anything useful about it.&lt;/p&gt;
+
+&lt;p&gt;All we really know is that Nick D&amp;#8217;Aloisio is young. He started the company when he was 15. Did I mention he&amp;#8217;s young? And he started a company. And he was only 15!&lt;/p&gt;
+
+&lt;p&gt;Now he&amp;#8217;s a millionaire, and he&amp;#8217;s only 17! Can you believe that? A tech millionaire! He&amp;#8217;s only 17! And he must be smart. After all, he started the company when he was only 15. Young, smart, and now rich! &lt;a href="http://www.sfgate.com/technology/businessinsider/article/Here-s-What-The-Girlfriend-Of-Summly-s-4385271.php"&gt;What will his girlfriend think?&lt;/a&gt; (Really. Shameful.)&lt;/p&gt;
+
+&lt;p&gt;All we know about Summly itself is that it summarized web articles into three bullet points that occasionally made sense. And I only know that because I tried it while D&amp;#8217;Aloisio was barraging me with manipulative, fake-&amp;#8220;URGENT&amp;#8221; emails much like &lt;a href="http://gizmodo.com/5830076/how-i-made-a-15+year+old-app-developer-cry"&gt;these&lt;/a&gt; in late 2011. The summaries weren&amp;#8217;t good enough for me to try more than a few times. But the press never talked about the actual &lt;em&gt;product&lt;/em&gt; in their vapid articles about Nick D&amp;#8217;Aloisio&amp;#8217;s youth.&lt;/p&gt;
+
+&lt;p&gt;In the early days of Tumblr, David Karp didn&amp;#8217;t tell anyone his age. He hired me when he was 19, and I worked for him for over a year before I learned that &amp;#8212; and even then, I only knew because he &lt;a href="http://www.youtube.com/watch?v=mv4-1wOm_CE"&gt;let it slip&lt;/a&gt; in an interview. He wanted to keep it quiet for as long as he could because he knew that as soon as it got out, every story about Tumblr would just be about David&amp;#8217;s youth.&lt;/p&gt;
+
+&lt;p&gt;He was right. After that, he&amp;#8217;d give hours-long interviews with big newspaper and magazine writers, trying to tell them all about the product, and the article would come out as a vapid fluff piece about how young he was. It took &lt;em&gt;years&lt;/em&gt; for Tumblr to (mostly) get out from under that image in the press.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/26/summly"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Dark Sky makers launch Forecast.io weather site</title><link>http://blog.forecast.io/post/46290267206/announcing-forecast</link><guid isPermaLink="false">http://blog.forecast.io/post/46290267206/announcing-forecast</guid><pubDate>Tue, 26 Mar 2013 15:50:08 EDT</pubDate><description>&lt;p&gt;Previously, I had never found a weather website anywhere near as good as weather apps on iOS. Weather sites have always been so terrible that I&amp;#8217;d always just check the weather on my phone, even when sitting at my computer, because the thought of going to a weather site was so unappealing.&lt;/p&gt;
+
+&lt;p&gt;Now, I use &lt;a href="http://forecast.io/"&gt;Forecast&lt;/a&gt;. They were nice enough to let me beta-test the site, and it&amp;#8217;s great.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/26/forecast-io"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Sponsor: Rockland, by Igloo Software</title><link>http://www.igloosoftware.com/tour/release/rockland?ref=marco</link><guid isPermaLink="false">http://www.igloosoftware.com/tour/release/rockland?ref=marco</guid><pubDate>Tue, 26 Mar 2013 13:39:18 EDT</pubDate><description>&lt;p&gt;Say hello to Rockland, the latest update to Igloo&amp;#8217;s cloud intranet platform.&lt;/p&gt;
+
+&lt;p&gt;Igloo is now sporting responsive design. Your intranet design can be fully optimized for almost any device you&amp;#8217;re using (though we haven&amp;#8217;t tested it on the Tesla Model S). Create content, download documents — almost everything you can do on your desktop, you can do on your phone or &lt;del&gt;tablet&lt;/del&gt; iPad. Admins can even update CSS, user permissions, and page layouts right from their iPhones.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#8217;ve also built a multi-channel widget, allowing you to create custom views into multiple calendars, blogs, or forums in one spot. It&amp;#8217;s like a shared corporate calendar on buttered coffee.&lt;/p&gt;
+
+&lt;p&gt;There are updgrades everywhere: our calendar now supports Outlook (or Gmail) reminders, we&amp;#8217;ve added two new language packs (Italian and German. &lt;em&gt;Guten tag.&lt;/em&gt;), better timezone support, search updates, security improvements, and even a new mobile app dedicated to finding the latest information fast.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.igloosoftware.com/tour/release/rockland?ref=marco"&gt;Learn more about Rockland&lt;/a&gt; or &lt;a href="http://www.igloosoftware.com/try_igloo?ref=marco03"&gt;sign up to try Igloo today&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Igloo Software for sponsoring Marco.org this week.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/26/sponsor-igloo5"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>The power of the RSS reader</title><link>http://www.marco.org/2013/03/26/power-of-rss</link><guid isPermaLink="false">/2013/03/26/power-of-rss</guid><pubDate>Tue, 26 Mar 2013 13:31:51 EDT</pubDate><description>&lt;p&gt;With the decreasing use of RSS readers over the last few years, which will probably be accelerated by Google Reader&amp;#8217;s shutdown in July, many are bidding good riddance to a medium that they never used well.&lt;/p&gt;
+
+&lt;p&gt;RSS is easy to abuse. In 2011, I wrote &lt;a href="http://www.marco.org/2011/09/04/sane-rss-usage"&gt;Sane RSS usage&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You should be able to go on a disconnected vacation for three days, come back, and be able to skim most of your RSS-item titles reasonably without just giving up and marking all as read. You shouldn’t come back to hundreds or thousands of unread articles.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yet that&amp;#8217;s the most common complaint I hear about inbox-style RSS readers such as Google Reader, NetNewsWire, and Reeder: that people gave up on them because they were constantly filled with more unread items than they could handle.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;ve had that problem, you weren&amp;#8217;t using inbox-style RSS readers properly. Abandoning the entire idea of the RSS-inbox model because of inbox overload is like boycotting an all-you-can-eat buffet forever because you once ate too much there.&lt;/p&gt;
+
+&lt;p&gt;As I said in that 2011 post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;RSS is best for following a large number of infrequently updated sites:&lt;/strong&gt; sites that you’d never remember to check every day because they only post occasionally, and that your social-network friends won’t reliably find or link to.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Building on that, you shouldn&amp;#8217;t accumulate thousands of unread items, because you shouldn&amp;#8217;t subscribe to feeds that would generate that kind of &lt;em&gt;unread&lt;/em&gt; volume.&lt;/p&gt;
+
+&lt;p&gt;If a site posts many items each day and you barely read any of them, &lt;em&gt;delete that feed.&lt;/em&gt; If you find yourself hitting &amp;#8220;Mark all as read&amp;#8221; more than a couple of times for any feed, &lt;em&gt;delete that feed.&lt;/em&gt; You won&amp;#8217;t miss anything important. If they ever post anything great, enough people will link to it from elsewhere that you&amp;#8217;ll still see it.&lt;/p&gt;
+
+&lt;p&gt;The true power of the RSS inbox is keeping you informed of new posts that you probably &lt;em&gt;won&amp;#8217;t&lt;/em&gt; see linked elsewhere, or that you really don&amp;#8217;t want to miss if you scroll past a few hours of your Twitter timeline.&lt;/p&gt;
+
+&lt;p&gt;If you can&amp;#8217;t think of any sites you read that fit that description, you should consider broadening your horizons. (Sorry, I can&amp;#8217;t think of a nicer way to put that.)&lt;/p&gt;
+
+&lt;p&gt;Some of my RSS subscriptions that my Twitter people usually &lt;em&gt;don&amp;#8217;t&lt;/em&gt; link to: &lt;a href="http://thebrief.io/"&gt;The Brief&lt;/a&gt;, &lt;a href="http://what-if.xkcd.com/"&gt;xkcd&amp;#8217;s What If&lt;/a&gt;, &lt;a href="http://www.barefeats.com/"&gt;Bare Feats&lt;/a&gt;, &lt;a href="http://www.dansdata.com/"&gt;Dan&amp;#8217;s Data&lt;/a&gt; (and &lt;a href="http://www.howtospotapsychopath.com/"&gt;his blog&lt;/a&gt;), &lt;a href="http://ignorethecode.net/blog/"&gt;ignore the code&lt;/a&gt;, &lt;a href="http://www.joelonsoftware.com/"&gt;Joel on Software&lt;/a&gt;, &lt;a href="http://www.onefoottsunami.com/"&gt;One Foot Tsunami&lt;/a&gt;, &lt;a href="http://nshipster.com/"&gt;NSHipster&lt;/a&gt;, &lt;a href="http://prog21.dadgum.com/"&gt;Programming in the 21st Century&lt;/a&gt;, &lt;a href="http://www.neglectedpotential.com/"&gt;Neglected Potential&lt;/a&gt;, &lt;a href="http://collindonnell.com/"&gt;Collin Donnell&lt;/a&gt;, &lt;a href="http://squashed.tumblr.com/"&gt;Squashed&lt;/a&gt;, &lt;a href="http://tracks.ranea.org/"&gt;Coyote Tracks&lt;/a&gt;, &lt;a href="http://shapeof.com/pizzalab/"&gt;Mueller Pizza Lab&lt;/a&gt;, &lt;a href="http://bestof.metafilter.com"&gt;Best of MetaFilter&lt;/a&gt;, &lt;a href="http://theworstthingsforsale.com/"&gt;The Worst Things For Sale&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Many are interesting. Many are for professional development. Some are just fun.&lt;/p&gt;
+
+&lt;p&gt;But none of them update frequently enough that I&amp;#8217;d remember to check them regularly. (I imagine many of my RSS subscribers would put my site on their versions of this list.) If RSS readers go away, I won&amp;#8217;t suddenly start visiting all of these sites &amp;#8212; I&amp;#8217;ll probably just forget about most of them.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s not enough to interleave their posts into a &amp;#8220;river&amp;#8221; or &amp;#8220;stream&amp;#8221; paradigm, where only the most recent &lt;em&gt;N&lt;/em&gt; items are shown in one big, combined, reverse-chronological list (much like a Twitter timeline), because many of them would get buried in the noise of higher-volume feeds and people&amp;#8217;s tweets. The fundamental flaw in the stream paradigm is that items from different feeds don&amp;#8217;t have equal value: I don&amp;#8217;t mind missing a random New York Times post, but I&amp;#8217;ll regret missing the only Dan&amp;#8217;s Data post this month because it was buried under everyone&amp;#8217;s basketball tweets and nobody else I follow will link to it later.&lt;/p&gt;
+
+&lt;p&gt;Without RSS readers, the &lt;a href="http://en.wikipedia.org/wiki/Long_tail"&gt;long tail&lt;/a&gt; would be cut off. The rich would get richer: only the big-name sites get regular readership without RSS, so the smaller sites would only get scraps of occasional Twitter links from the few people who remember to check them regularly, and that number would dwindle.&lt;/p&gt;
+
+&lt;p&gt;Granted, this problem is mostly concentrated in the tech world where RSS readers really took off. But the tech world is huge, and it&amp;#8217;s the world we&amp;#8217;re in.&lt;/p&gt;
+
+&lt;p&gt;In a world where RSS readers are &amp;#8220;dead&amp;#8221;, it would be much harder for new sites to develop and maintain an audience, and it would be much harder for readers and writers to follow a diverse pool of ideas and source material. Both sides would do themselves a great disservice by promoting, accelerating, or glorifying the death of RSS readers.&lt;/p&gt;
+</description></item><item><title>→ What If The Google Reader Readers Just Don’t Come Back?</title><link>http://techcrunch.com/2013/03/24/bees/</link><guid isPermaLink="false">http://techcrunch.com/2013/03/24/bees/</guid><pubDate>Tue, 26 Mar 2013 12:28:02 EDT</pubDate><description>&lt;p&gt;MG Siegler:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I can’t help but get the feeling that the ramifications of Google killing off Reader are going to be far more wide-reaching than they may appear at first glance.&lt;/p&gt;
+  
+  &lt;p&gt;&amp;#8230; I think it’s just as likely that a large amount of those regular visitors go away and never come back.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;#8217;m a little worried about this possibility. Short-term, it will definitely be a problem. Long-term is the question.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/26/google-reader-readers"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Supreme Court On Gay Marriage: ‘Sure, Who Cares’</title><link>http://www.theonion.com/articles/supreme-court-on-gay-marriage-sure-who-cares,31812/</link><guid isPermaLink="false">http://www.theonion.com/articles/supreme-court-on-gay-marriage-sure-who-cares,31812/</guid><pubDate>Tue, 26 Mar 2013 11:55:41 EDT</pubDate><description>&lt;p&gt;The Onion:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Yeah, of course gay men and women can get married. Who gives a shit?” said Chief Justice John Roberts, who interrupted attorney Charles Cooper’s opening statement defending Proposition 8, which rescinded same-sex couples’ right to marry in California. “Why are we even seriously discussing this?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/26/supreme-court-on-gay-marriage"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Reading devices</title><link>http://www.marco.org/2013/03/24/mf-kindles-on-this-mf-plane</link><guid isPermaLink="false">/2013/03/24/mf-kindles-on-this-mf-plane</guid><pubDate>Sun, 24 Mar 2013 12:01:04 EDT</pubDate><description>&lt;p&gt;Nick Bilton reports that &lt;a href="http://bits.blogs.nytimes.com/2013/03/24/disruptions-f-a-a-may-loosen-curbs-on-fliers-use-of-electronics/"&gt;the FAA plans to permit reading devices during takeoff and landing&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;According to people who work with an industry working group that the Federal Aviation Administration set up last year to study the use of portable electronics on planes, the agency hopes to announce by the end of this year that it will relax the rules for reading devices during takeoff and landing. The change would not include cellphones.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Any progress would be nice, but this is a weird distinction: &amp;#8220;reading devices&amp;#8221; are OK, but phones aren&amp;#8217;t? The huge-phone/small-tablet markets are converging as we speak. Are 5-inch &amp;#8220;phablets&amp;#8221; considered phones or reading devices?&lt;/p&gt;
+
+&lt;p&gt;Is the Kindle Fire a reading device since it&amp;#8217;s named &amp;#8220;Kindle&amp;#8221;, even though it can do a lot more? Are iPads reading devices? How about an iPad Mini with an LTE radio? I assume iPhones would be prohibited as &amp;#8220;cellphones&amp;#8221;, but what about iPod Touches?&lt;/p&gt;
+
+&lt;p&gt;This silly distinction will only cause problems. Why attempt to confusingly and ineffectively draw that line?&lt;/p&gt;
+
+&lt;p&gt;If the distinction is about cellular radios, what about Kindles and iPads with 3G? And if the distinction is to prevent passengers from annoying each other by talking on the phone, does it also prohibit using Skype or FaceTime on a non-&amp;#8220;phone&amp;#8221; device?&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Why call out the use-case of &amp;#8220;reading&amp;#8221;, specifically? What about gaming devices? Media players? Can I read on a laptop if I don&amp;#8217;t use the tray table? If devices with keyboards aren&amp;#8217;t allowed, would a Surface Pro be permitted? Are flight attendants prepared to enforce and keep up with these distinctions?&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;re using an iPad, must you be &lt;em&gt;reading&lt;/em&gt; during taxi, takeoff, and landing instead of watching a movie or playing Super Stickman Golf 2? Am I allowed to listen to Phish in my headphones while I&amp;#8217;m reading? If not, are audiobooks or screen-readers allowed, or are we discriminating against the visually impaired?&lt;/p&gt;
+
+&lt;p&gt;Would I be permitted to be productive at all, or is only consumption allowed? Could I write? Code? Draw? Compose? Run some reports? Reboot a server? Why specifically make an exception for &lt;em&gt;reading&lt;/em&gt; with everything our modern devices can do?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Last year, the agency announced that an industry working group would study the issue. The group, which first met in January, comprises people from various industries, including &lt;strong&gt;Amazon,&lt;/strong&gt; the Consumer Electronics Association, Boeing, the Association of Flight Attendants, the Federal Communications Commission and aircraft makers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Oh. (Emphasis mine.)&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id="fn:1"&gt;
+&lt;p&gt;If reducing annoyance is a goal, why not &lt;a href="http://www.marco.org/2013/02/19/reclining-airplane-seats"&gt;lock the seats&lt;/a&gt; and prohibit tuna sandwiches?&amp;#160;&lt;a href="#fnref:1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</description></item><item><title>→ Google Graveyard</title><link>http://www.slate.com/articles/technology/map_of_the_week/2013/03/google_reader_joins_graveyard_of_dead_google_products.html</link><guid isPermaLink="false">http://www.slate.com/articles/technology/map_of_the_week/2013/03/google_reader_joins_graveyard_of_dead_google_products.html</guid><pubDate>Fri, 22 Mar 2013 17:25:38 EDT</pubDate><description>&lt;p&gt;I didn&amp;#8217;t even realize many of these were dead.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/22/google-graveyard"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Om responds to Thursday Sandwich</title><link>http://gigaom.com/2013/03/22/more-on-why-i-wont-use-google-keep-its-not-personal-its-business/</link><guid isPermaLink="false">http://gigaom.com/2013/03/22/more-on-why-i-wont-use-google-keep-its-not-personal-its-business/</guid><pubDate>Fri, 22 Mar 2013 17:01:17 EDT</pubDate><description>&lt;p&gt;Om Malik, continuing &lt;a href="http://www.marco.org/2013/03/21/thursday-sandwich"&gt;the conversation&lt;/a&gt; by clarifying his point:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is hard to trust Google anymore to make rational and consumer centric decisions. I said — nuanced as it might be — that I don’t trust Google to introduce new apps and keep them around, because despite what the company says, these apps are not their main business. Their main business is advertising and search — regardless of whatever nonsense you might read. &amp;#8230;&lt;/p&gt;
+  
+  &lt;p&gt;I am far more likely to believe in and use products that are the main focus of the company behind them. Online storage? Dropbox. Time-shifting web content? &amp;#8230; Instapaper. Short form communication? Twitter. Baby pictures and wedding photos to make single people miserable (or happy for being single)? Facebook.&lt;/p&gt;
+  
+  &lt;p&gt;The point is that a company whose main focus is a specific service or a singular product, like Evernote, is far more likely to focus its energies to build a business around it and keep it around.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It&amp;#8217;s a good distinction to make. I&amp;#8217;m more conservative about what I invest my time into and who I trust with my data.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/22/om-elaborates"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Accidental Tech Podcast: Live Like Other People</title><link>http://atp.fm/episodes/6-live-like-other-people</link><guid isPermaLink="false">http://atp.fm/episodes/6-live-like-other-people</guid><pubDate>Fri, 22 Mar 2013 13:47:19 EDT</pubDate><description>&lt;p&gt;This week&amp;#8217;s podcast: Buying a TV, regular people and high-DPI screens, the amazing Mac lineup that we barely care about, revisiting the Microsoft Store, and why Garageband&amp;#8217;s support of Audiobus is so interesting.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="http://squarespace.com/atp"&gt;Squarespace&lt;/a&gt;: Use code &lt;strong&gt;ATP3&lt;/strong&gt; at checkout for 10% off.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/22/atp6"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Your favorite Thursday sandwich</title><link>http://www.marco.org/2013/03/21/thursday-sandwich</link><guid isPermaLink="false">/2013/03/21/thursday-sandwich</guid><pubDate>Thu, 21 Mar 2013 19:29:37 EDT</pubDate><description>&lt;p&gt;I usually agree with Om Malik, but not this time, on &lt;a href="http://gigaom.com/2013/03/20/sorry-google-you-can-keep-it-to-yourself/"&gt;why he won&amp;#8217;t use Google Keep&lt;/a&gt;, Google&amp;#8217;s new Evernote clone:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It might actually be good, or even better than Evernote. But I still won’t use Keep. You know why? Google Reader.&lt;/p&gt;
+  
+  &lt;p&gt;I spent about seven years of my &lt;a href="http://gigaom.com/2013/03/13/chris-wetherll-google-reader/"&gt;online life on that service&lt;/a&gt;. I sent feedback, used it to annotate information and they killed it like a butcher slaughters a chicken. No conversation — dead. The service &lt;a href="http://www.buzzfeed.com/jwherrman/google-reader-still-sends-far-more-traffic-than-google"&gt;that drives more traffic than&lt;/a&gt; Google+ was sacrificed because it didn’t meet some vague corporate goals; users — many of them life long — be damned.&lt;/p&gt;
+  
+  &lt;p&gt;Looking from that perspective, it is hard to trust Google to keep an app alive. What if I spend months using the app, and then Google decides it doesn’t meet some arbitrary objective?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this business, you can&amp;#8217;t count on anything having longevity. To avoid new services that are likely to get shut down within a few years, you&amp;#8217;d have to avoid &lt;em&gt;every&lt;/em&gt; new tech product. Products and services lasting more than a few years are the exception, not the rule.&lt;/p&gt;
+
+&lt;p&gt;And unfortunately for users, Google doesn&amp;#8217;t owe anyone a &amp;#8220;conversation&amp;#8221; about what they do with their products. Companies can do whatever they want. They could shut down Gmail tomorrow if it made business sense. There wouldn&amp;#8217;t be a conversation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Users have no power.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We can complain about Google Reader&amp;#8217;s shutdown and start as many online petitions as we think will make a difference,&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; but we all have short memories and can&amp;#8217;t resist free stuff.&lt;/p&gt;
+
+&lt;p&gt;Want to really stick it to them? Stop using Google. All of it. Search, Gmail, Maps, the works. Delete your account and start using Bing. Ready?&lt;/p&gt;
+
+&lt;p&gt;&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;Yeah. That&amp;#8217;s the problem. You won&amp;#8217;t. I won&amp;#8217;t. Nobody will.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s not just Google. Everyone does this. Facebook introduces some giant privacy invasion or horrible redesign every six months, then when its users &amp;#8220;revolt&amp;#8221;, they roll back &lt;em&gt;some&lt;/em&gt; of it, and everyone forgets about it because they got what they wanted: Facebook still accomplished most of what they wanted to do, and the users feel like they matter. Almost nobody left Twitter when they started screwing over their API developers, almost nobody switches away from iOS when Apple controversially rejects an app, and almost nobody stopped going to your corner deli after they raised the price of your favorite Thursday sandwich.&lt;/p&gt;
+
+&lt;p&gt;They&amp;#8217;re not all evil or mean &amp;#8212; business owners often need to make decisions that anger some people. That&amp;#8217;s the nature of business, government, parenthood, and life. Facebook and Google need to collect more of your personal data and keep you on their sites longer so they can keep increasing their ad revenue. Twitter needs to take control of its product and its users&amp;#8217; attention away from third-party clients so it doesn&amp;#8217;t become an unprofitable dumb pipe like AOL Instant Messenger. Apple needs to keep the App Store locked down so people feel safe buying apps (and more iOS devices) and developers are forced to use Apple&amp;#8217;s services, APIs, and stores. Your corner deli needed to raise the price of your favorite Thursday sandwich because their health-insurance premium increased by 10% this year. The deli&amp;#8217;s health-insurance company needed to raise premiums by 10% because that&amp;#8217;s the most that New York State would permit, and how would the insurance company&amp;#8217;s CEO justify &lt;em&gt;not&lt;/em&gt; taking that opportunity for more profits to the board and shareholders?&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s business.&lt;/p&gt;
+
+&lt;p&gt;Google Keep will probably get as many users as Google&amp;#8217;s other low-priority side projects: not many. They&amp;#8217;ll probably shut it down within two years. A few people will complain then, too, and they&amp;#8217;ll be powerless then, too, but they&amp;#8217;ll keep using Google&amp;#8217;s stuff after that, too.&lt;/p&gt;
+
+&lt;p&gt;Users need to be &lt;em&gt;less&lt;/em&gt; trusting of specific products, services, and companies having too much power over their technical lives, jobs, and workflows.&lt;/p&gt;
+
+&lt;p&gt;In this business, &lt;strong&gt;expect turbulence.&lt;/strong&gt; And this is going to be increasingly problematic as (no turbulence pun intended) we move so much more to &amp;#8220;the cloud&amp;#8221;, which usually means services controlled by others, designed to use limited or no local storage of your data.&lt;/p&gt;
+
+&lt;p&gt;Always have one foot out the door. Be ready to go.&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;#8217;t cynical or pessimistic: it&amp;#8217;s realistic, pragmatic, and responsible.&lt;/p&gt;
+
+&lt;p&gt;If you use Gmail, what happens if Google locks you out of your account permanently and without warning? (&lt;a href="http://ehsanakhgari.org/blog/2012-04-13/how-i-lost-access-my-google-account-today"&gt;It happens&lt;/a&gt;.) What if they kill IMAP support and you rely on it? Or what if they simply start to suck otherwise? How easily can you move to a different email host?&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; How much disruption will it cause in your workflow? Does your email address end in &lt;code&gt;@gmail.com&lt;/code&gt;? What would have happened if we all switched to Wave? What happens if Facebook messages replace email for most people?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/19/free-works"&gt;Proprietary monocultures&lt;/a&gt; are so harmful because they hinder or prevent you from moving away.&lt;/p&gt;
+
+&lt;p&gt;This is why it&amp;#8217;s so important to keep as much of your data as possible in the most common, widespread, open-if-possible formats, in local files that you can move, copy, and back up yourself.&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; And if you care about developing a long-lasting online audience or presence, you&amp;#8217;re best served by &lt;a href="http://www.marco.org/2011/07/11/own-your-identity"&gt;owning your identity&lt;/a&gt; as much as possible.&lt;/p&gt;
+
+&lt;p&gt;Investing too heavily in someone else&amp;#8217;s proprietary system for too long rarely ends gracefully, but when it bites us, we have nobody to blame but ourselves.&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Has an online petition ever effected change? (The vague, unquantifiable, feel-good fallback of &amp;#8220;raising awareness&amp;#8221; doesn&amp;#8217;t count.)&amp;#160;&lt;a href="#fnref:1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id="fn:2"&gt;
+&lt;p&gt;This is why &lt;a href="http://www.marco.org/2011/04/05/let-us-pay-for-this-service-so-it-wont-go-down"&gt;I don&amp;#8217;t use Gmail&lt;/a&gt;.&amp;#160;&lt;a href="#fnref:2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id="fn:3"&gt;
+&lt;p&gt;I don&amp;#8217;t mind using Dropbox because it&amp;#8217;s compatible with responsible practices. If Dropbox goes away, you still have a folder full of files, and there will always be other ways to sync folders full of files between computers. Even if Dropbox&amp;#8217;s client somehow screws up and deletes all of its files, you can just restore them from a backup, because it&amp;#8217;s just a folder full of regular files on your computer.&lt;/p&gt;
+
+&lt;p&gt;When most &amp;#8220;cloud&amp;#8221; companies or proprietary platforms cease to exist, they fall out of the sky like a plane without power, and everything is lost. Dropbox failing or ceasing to exist would be more like a train losing power: it stops moving, but everything&amp;#8217;s still there and everyone&amp;#8217;s fine, albeit mildly inconvenienced.&amp;#160;&lt;a href="#fnref:3" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</description></item><item><title>→ Apple says there are no Google apps awaiting review in App Store</title><link>http://www.theverge.com/2013/3/21/4132588/apple-says-no-google-app-waiting-for-review-app-store</link><guid isPermaLink="false">http://www.theverge.com/2013/3/21/4132588/apple-says-no-google-app-waiting-for-review-app-store</guid><pubDate>Thu, 21 Mar 2013 16:00:19 EDT</pubDate><description>&lt;p&gt;When will the press stop listening to anything Eric Schmidt says?&lt;/p&gt;
+
+&lt;p&gt;Maybe right after &lt;a href="http://www.marco.org/2011/12/07/eric-schmidt-android-leads-the-iphone"&gt;developers start writing for Android before iOS&lt;/a&gt; and &lt;a href="http://www.theverge.com/2011/12/7/2618225/eric-schmidt-le-web-paris-google-tv-majority-all-tvs"&gt;Google TV is in the majority of new TVs&lt;/a&gt; by last summer.&lt;/p&gt;
+
+&lt;p&gt;Or maybe when &lt;a href="http://daringfireball.net/2010/08/creep_executive_officer"&gt;young adults are granted free name changes to distance themselves from their teenage social posts&lt;/a&gt; that Google keeps forever. (This one&amp;#8217;s at least a real problem, although his proposed solution would be both comical and ineffective.)&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/21/eric-schmidt-is-nuts"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Neutral: Driving To Ohio</title><link>http://neutral.fm/episodes/10-driving-to-ohio</link><guid isPermaLink="false">http://neutral.fm/episodes/10-driving-to-ohio</guid><pubDate>Thu, 21 Mar 2013 12:35:28 EDT</pubDate><description>&lt;p&gt;In this episode of our casual car podcast: LaFerrari, hybrid supercars, modern car complexity, electric vehicles&amp;#8217; future range, aspirational SUVs, and our dream cars. (Bonus at the end: What does John Siracusa drink?)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="http://squarespace.com/neutral"&gt;Squarespace&lt;/a&gt;: Use code &lt;strong&gt;NEUTRAL3&lt;/strong&gt; at checkout for 10% off.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/21/neutral-10"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Android under New Google</title><link>http://www.marco.org/2013/03/20/android-under-new-google</link><guid isPermaLink="false">/2013/03/20/android-under-new-google</guid><pubDate>Wed, 20 Mar 2013 19:54:44 EDT</pubDate><description>&lt;p&gt;Dan Frommer wrote &lt;a href="http://www.splatf.com/2013/03/android-rubin/"&gt;some interesting speculation about Android&lt;/a&gt; and called out some of its failings, but I disagree that this part represents Android failing to meet its goals:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Android has done little to radically disrupt the mobile industry.&lt;/strong&gt; The majority of power still belongs to the same telecom operators that ruled five years ago, and many of the same handset/component makers.&amp;nbsp;Google has helped Samsung boringly ascend and has accelerated decline at Nokia &lt;a href="http://www.splatf.com/2012/09/rim-share-chart/"&gt;and BlackBerry&lt;/a&gt;. It has perhaps stopped Apple from selling as many phones as it might in an Android-free world, and has helped prevent Microsoft from gaining a solid foothold in mobile. &amp;#8230;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It&amp;#8217;s true that the carrier model hasn&amp;#8217;t been disrupted, and in fact, Android has helped strengthen it (and build an uncomfortably close, &lt;a href="http://www.wired.com/business/2010/08/google-verizon-propose-open-vs-paid-internets/"&gt;&amp;#8220;open&amp;#8221;-internet-hostile&lt;/a&gt; relationship between Google and Verizon Wireless).&lt;/p&gt;
+
+&lt;p&gt;But back when the first iPhone was making a huge splash, when Google started taking Android seriously and quickly pivoted it from a BlackBerry ripoff into an iOS ripoff, I don&amp;#8217;t think they intended to disrupt the established carrier or retail models.&lt;/p&gt;
+
+&lt;p&gt;I think it was a &lt;em&gt;defensive&lt;/em&gt; move. Mainstream computing and internet usage were clearly moving away from PCs and toward mobile devices, and Google saw a potential future where their core business &amp;#8212; web search with their ads &amp;#8212; could be wiped out by a single Bing-exclusive deal on a dominant, locked-down platform.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Google needs Android to have substantial market share to prevent any other platform vendor from ever locking Google&amp;#8217;s most important services out of a major part of mainstream computing. It&amp;#8217;s the same reason Chrome and Chrome OS exist. In an industry dominated by vertically integrated control freaks, &lt;a href="http://hypercritical.co/2013/03/19/self-reliance"&gt;everyone must become one&lt;/a&gt; to ensure that nobody else can lock them out.&lt;/p&gt;
+
+&lt;p&gt;The flaw with the Android strategy is that, in practice, it doesn&amp;#8217;t prevent powerful manufacturers from forking it and cutting Google out. Google probably assumed that no single manufacturer would ever get powerful enough to create their own alternatives to Google&amp;#8217;s integrated apps, store, and services, and that Android would be deployed much like Windows on PCs: largely unmodified, with manufacturers all shipping almost the same software and differentiating themselves only in hardware. But as we&amp;#8217;ve seen already with Amazon and the Kindle Fire platform (and maybe soon, the powerful Samsung Galaxy line), that&amp;#8217;s not a safe assumption anymore.&lt;/p&gt;
+
+&lt;p&gt;So I agree with Frommer&amp;#8217;s conclusions: maybe big changes are on the horizon at Google to fix this. Old Google, in 2007, frequently toyed around with &amp;#8220;open&amp;#8221; projects that might not lead anywhere useful for the overall business. Old Google made Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx"&gt;New Google&lt;/a&gt; is much more strategic, cold, and focused. Let&amp;#8217;s see what they do to it.&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id="fn:1"&gt;
+&lt;p&gt;This concern isn&amp;#8217;t overly paranoid or unwarranted: it already happened with iOS 6 Maps. Sure, there&amp;#8217;s now a Google Maps app that you can download separately, but most iOS users aren&amp;#8217;t likely to bother, and it can never be as deeply integrated into other parts of iOS as Apple&amp;#8217;s native Maps service.&amp;#160;&lt;a href="#fnref:1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</description></item><item><title>→ Why I left Google</title><link>http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx</link><guid isPermaLink="false">http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx</guid><pubDate>Wed, 20 Mar 2013 19:03:33 EDT</pubDate><description>&lt;p&gt;This has been circulating again over the last few days:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As it turned out, sharing was not broken. Sharing was working fine and dandy, Google just wasn’t part of it. People were sharing all around us and seemed quite happy. A user exodus from Facebook never materialized. I couldn’t even get my own teenage daughter to look at Google+ twice, “social isn’t a product,” she told me after I gave her a demo, “social is &lt;i&gt;people&lt;/i&gt; and the people are on Facebook.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It&amp;#8217;s a year old, but it appears from the outside that it&amp;#8217;s still probably accurate.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/20/why-i-left-google"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Why Android Updates Are So Slow</title><link>http://gizmodo.com/5987508/why-android-updates-are-so-slow</link><guid isPermaLink="false">http://gizmodo.com/5987508/why-android-updates-are-so-slow</guid><pubDate>Tue, 19 Mar 2013 20:48:24 EDT</pubDate><description>&lt;p&gt;Good explanation of the process, but I think it gives too many of the involved parties a pass on their sluggish behavior. It seemingly asked the subjects, &amp;#8220;How long do you usually take to do each of these steps?&amp;#8221;, rather than &amp;#8220;How can you make this faster?&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Dismissing Apple&amp;#8217;s faster update speed with iOS as an &amp;#8220;illusion&amp;#8221; doesn&amp;#8217;t hold up to scrutiny. Apple has released &lt;a href="http://en.wikipedia.org/wiki/IOS_version_history#iOS_6.x"&gt;four&lt;/a&gt; iOS updates to all still-supported devices in the last two months, with one bugfix update (6.1.1) appearing just nine days after the previous update. Apple has a much smaller pool of devices to test, but that can&amp;#8217;t be the only thing they&amp;#8217;re doing differently and the only way the Android ecosystem could improve this fairly severe problem.&lt;/p&gt;
+
+&lt;p&gt;A better explanation of Android&amp;#8217;s slow update speed is buried in the article, but not given enough credence: Google doesn&amp;#8217;t do everyone&amp;#8217;s testing, so it&amp;#8217;s left to the manufacturers and carriers, who just don&amp;#8217;t give a shit about updating your year-old phone.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Consumers aren&amp;#8217;t completely powerless, though. Almost every phone on the market today can be rooted.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Android way: Our problems become your problems.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/19/why-android-updates-are-so-slow"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

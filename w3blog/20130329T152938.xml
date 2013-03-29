@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>W3C Blog</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/" />
+    <link rel="self" type="application/atom+xml" href="http://www.w3.org/QA/atom.xml" />
+   <id>tag:www.w3.org,2013:/QA//1</id>
+    <updated>2013-03-26T20:20:50Z</updated>
+    
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type 4.34-en</generator>
+ 
+
+<entry>
+    <title>Open Web Platform Weekly Summary - 2013-03-18 - 2013-03-24</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/openweb-weekly-2013-03-24.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9769</id>
+    
+    <published>2013-03-24T19:59:18Z</published>
+    <updated>2013-03-26T20:20:50Z</updated>
+    
+    <summary type="html">This is our weekly Openweb Platform Summary from March 18, 2013 to March 24, 2013. You can read again the last week blog post. Your comments are helpful.</summary>
+    <author>
+        <name>Karl Dubost</name>
+        <uri>http://www.la-grange.net/karl/</uri>
+    </author>
+    
+        <category term="CSS" />
+    
+        <category term="HTML" />
+    
+        <category term="Open Web" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>This is our <a href="https://duckduckgo.com/?q=%22Open+Web+Platform+Weekly+Summary%22+site%3Aw3.org%2FQA">weekly Openweb Platform Summary</a> from March 18, 2013 to March 24, 2013. You can read again the <a href="http://www.w3.org/QA/2013/03/open_web_platform_weekly_summa_1.html">last week</a> blog post. Your comments are helpful.</p>
+
+<h3 id="css-smooth-scrolling">[CSS] Smooth Scrolling</h3>
+
+<p>Sometimes Web designers wish to be able to create a smooth scrolling effect when adjusting the scroll position of a page. Tab Atkins (and someone else at Google) is <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0313.html">proposing</a> to modify <q><code>scrollTo</code> and <code>scrollBy</code> functions in <a href="http://dev.w3.org/csswg/cssom-view/">CSSOM View</a> to take a third parameter: an optional "smooth" string.  If omitted, the scroll is instant.</q> Boris Bzarsky (Mozilla) is <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0314.html">explaining</a> the current behavior in Mozilla. Simon Pieters (Opera) is <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0329.html">wondering</a> if there should be way to control the  time dependency of the scrolling.It could become also a good opportunity for users to have more control on it and deactivate it through user stylesheets. Read the <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/thread.html#msg313">full thread</a>.</p>
+
+<h3 id="css-first-child-without-parent">[CSS] <code>:first-child</code> without parent</h3>
+
+<p>CSS world is sometimes harsh. A <code>:first-child</code> can <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0290.html">never match a root element</a> because it has no parent element and so is not the child of any elements. Read the <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/thread.html#msg290">full thread</a>. The issue comes with <code>DocumentFragment</code> what should happen in this case. Boris Bzarsky and Tab Atkins outlined <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0326.html">some</a> <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0327.html">possibilities</a>.</p>
+
+<h3 id="css-orientation-of-input-typerange">[CSS] Orientation of <code>input type="range"</code></h3>
+
+<p>When using <code>&lt;input type="range"&gt;</code>, it might be useful to have it vertical or horizontal. Jonathan Watt was <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0365.html">working</a> on its support inside Mozilla and asking if there should be a property inside CSS for it. It seems that a specific attribute orientation is an intermediate solution in the meantime.</p>
+
+<h3 id="css-min-width-and-max-width-as-pseudo-classes">[CSS] <code>min-width</code> and <code>max-width</code> as pseudo-classes</h3>
+
+<p>Do we need <code>:min-width</code>/<code>:max-width</code> pseudo-classes for CSS layouts? A <a href="http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/">blog post</a> is explaining the issues related to Responsive Web design per elements and layout resizing when in a different context than the main document. This started a <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/thread.html#msg368">gigantic thread</a> on CSS list with very interesting concrete cases.</p>
+
+<h3 id="webapps-appcache-some-use-cases">[WebApps] Appcache, some use cases</h3>
+
+<p>Charles McCathieNeville (Yandex) has <a href="http://lists.w3.org/Archives/Public/public-webapps/2013JanMar/0949.html">posted use cases</a> related to appcache.</p>
+
+<h3 id="html-video-playlist">[HTML] <code>video</code> playlist</h3>
+
+<p>How would you <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=10711">implement the playlist in HTML</a>?</p>
+
+<h3 id="html-longdesc-is-back">[HTML] <code>longdesc</code> is back</h3>
+
+<p>If you have been living under a rock, you might not know, but <code>longdesc</code> attribute is in the process of being back in HTML5. Not yet done. There are still a <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=21341">few issues</a> to solve before.</p>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Open Web Platform Weekly Summary - 2013-03-11 - 2013-03-17</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/open_web_platform_weekly_summa_1.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9767</id>
+    
+    <published>2013-03-17T19:12:21Z</published>
+    <updated>2013-03-25T19:14:24Z</updated>
+    
+    <summary type="html">This is our weekly Openweb Platform Summary from March 11, 2013 to March 17, 2013. You can read again the last week blog post. Your comments are helpful. [DOM] Making Shadow DOM Subtrees Traversable When discussing about Shadow DOM, security...</summary>
+    <author>
+        <name>Karl Dubost</name>
+        <uri>http://www.la-grange.net/karl/</uri>
+    </author>
+    
+        <category term="CSS" />
+    
+        <category term="HTML" />
+    
+        <category term="HTTP" />
+    
+        <category term="Open Web" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>This is our <a href="https://duckduckgo.com/?q=%22Open+Web+Platform+Weekly+Summary%22+site%3Aw3.org%2FQA">weekly Openweb Platform Summary</a> from March 11, 2013 to March 17, 2013. You can read again the <a href="http://www.w3.org/QA/2013/03/openweb-weekly-2013-03-10.html">last week</a> blog post. Your comments are helpful.</p>
+
+<h3 id="dom-making-shadow-dom-subtrees-traversable">[DOM] Making Shadow DOM Subtrees Traversable</h3>
+
+<p>When discussing about Shadow DOM, security <a href="http://lists.w3.org/Archives/Public/public-webapps/2013JanMar/0800.html">questions</a> having been raised such as keeping the integrity of a Shadow DOM. Boris Zbarsky explained what are the <a href="http://lists.w3.org/Archives/Public/public-webapps/2013JanMar/0813.html">current ways to have access</a> to it.</p>
+
+<h3 id="css-selectors-logical-combinators-sets">[CSS] Selectors Logical Combinators / Sets</h3>
+
+<p>Brian Kardell <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0232.html">proposed</a> to have additional CSS constructs to combine selectors and/or create sets of selectors. He outlined his ideas in a <a href="http://briankardell.wordpress.com/2013/03/07/logical-psuedo-selectors-a-proposal/">blog post</a> too. François Remy <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0243.html">explained</a> the ideas of Brian on the list and outlining that <code>not</code> already exists, <code>or</code> can be emulated with commas and there is a missing <code>and</code> operator. He also <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0247.html">noted</a> that a full syntax for <code>:and</code>/<code>:or</code>/<code>:not</code> would be useful.</p>
+
+<h3 id="html-fetching-algorithm">[HTML] Fetching Algorithm</h3>
+
+<p>Anne van Kesteren (who is now working for Mozilla) is in the <a href="http://html5.org/temp/fetch.html">process of revising the fetching of data</a>. He is tackling the issues one by one for adding consistency to the Open Web Plaftorm. The <code>Origin</code> header is <a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2013Mar/0040.html">specified in different ways</a> depending on the interface. He also tested <a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2013Mar/thread.html#msg128">data urls and network errors</a>, <a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2013Mar/thread.html#msg167">HTTP Authentication</a>, <a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2013Mar/thread.html#msg76">crossorigin</a>, .</p>
+
+<h3 id="canvas-imagedata-allowing-preexisting-data">[Canvas] ImageData allowing preexisting data</h3>
+
+<p>Kenneth Russel is <a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2013Mar/0091.html">proposing</a> to get an <code>ImageData</code> constructor with preexisting data. Read the <a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2013Mar/thread.html#msg91">thread</a>.</p>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>DRM and the Open Web</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/drm_and_the_open_web.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9761</id>
+    
+    <published>2013-03-12T15:22:15Z</published>
+    <updated>2013-03-12T16:58:15Z</updated>
+    
+    <summary type="html">There&apos;s been lots of buzz about the proposed addition of &quot;Encrypted Media Extensions&quot; to HTML5, and the related extension of the HTML5 Working Group charter to include support for &quot;protected content.&quot; In the wake of the announcement that these are &quot;in-scope&quot; for HTML, we wanted to explain what this means -- and doesn&apos;t mean -- for W3C and the Open Web.</summary>
+    <author>
+        <name>Wendy Seltzer</name>
+        <uri>http://wendy.seltzer.org/blog/</uri>
+    </author>
+    
+        <category term="Open Web" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>There's been lots of buzz about the proposed addition of "<a href="http://dvcs.w3.org/hg/html-media/raw-file/tip/encrypted-media/encrypted-media.html" title="http://dvcs.w3.org/hg/html-media/raw-file/tip/encrypted-media/encrypted-media.html" >Encrypted Media Extensions</a>" to HTML5, and the related extension of the <a href="http://www.w3.org/html/wg/charter/2012/" title="http://www.w3.org/html/wg/charter/2012/" >HTML5 Working Group charter</a> to include support for "protected content." In the wake of the <a href="http://lists.w3.org/Archives/Public/public-html-admin/2013Feb/0122.html"  title="http://lists.w3.org/Archives/Public/public-html-admin/2013Feb/0122.html" >announcement</a> that these are "in-scope" for HTML, we wanted to explain what this means -- and doesn't mean -- for W3C and the Open Web.
+</p><p>W3C is not developing a new DRM system, nor are we embracing DRM as an organization. We do acknowledge that some in industry demand content protection and that DRM use is currently widespread. We also know that others find DRM anathema to the Open Web. In building the Open Web, we do not equate "open" content with material that must be available free of charge.
+</p><p>Given these competing demands, W3C is convening people with a range of viewpoints to investigate how to keep the Web maximally open (for instance, consistent with the W3C Royalty-Free Patent Policy) and to help us determine how content protection can interact with the Open Web. We invite those who are interested in the technical discussions about Encrypted Media Extensions to monitor or participate in the <a href="http://www.w3.org/html/wg/#who" title="http://www.w3.org/html/wg/#who">HTML Working Group</a>, which is open to all. That specification will undergo the same technical review and interoperability testing as other W3C specifications on the Recommendation Track.
+</p><p>To help crystallize the technical discussions around Encrypted Media and DRM, we're opening a new Restricted Media Community Group specifically to consider the paired challenges of openness and access-restriction. As a growing number of industries with current requirements related to content protection are embracing the Open Web Platform, we seek a solution that considers both today's business and technical realities and the long-term health of the Web. The <a href="http://www.w3.org/2011/webtv/"  title="http://www.w3.org/2011/webtv/">Web and TV Interest Group</a> is another place where these conversations happen, in <a href="http://www.w3.org/2011/webtv/wiki/Main_Page#Task_Forces" title="http://www.w3.org/2011/webtv/wiki/Main_Page#Task_Forces">task forces</a> producing requirements documents. The CG does not intend to develop specifications, although it might approach requirements documents from a user perspective. 
+</p><p>Join us at <a href="http://www.w3.org/community/restrictedmedia" title="Restricted Media CG">restrictedmedia</a> to continue the discussion.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Smart cities and the Web of Things at the Media Web Symposium</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/smart_cities_and_the_web_of_th.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9754</id>
+    
+    <published>2013-03-11T15:27:12Z</published>
+    <updated>2013-03-11T16:05:43Z</updated>
+    
+    <summary type="html">Fraunhofer FOKUS are once again hosting the Media Web Symposium, which will be held in Berlin on 14-15 March 2013. The first day is devoted to workshops and the second to plenary sessions. The focus will be on connected TVs,...</summary>
+    <author>
+        <name>Dave Raggett</name>
+        
+    </author>
+    
+        <category term="Conference" />
+    
+        <category term="Open Web" />
+    
+        <category term="Technology" />
+    
+        <category term="Web Applications" />
+    
+        <category term="Web of Devices" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>Fraunhofer FOKUS are once again hosting the <a href="http://www.fokus.fraunhofer.de/en/fokus_events/fame/mediawebsymposium2013/Program/detailed/index.html">Media Web Symposium</a>, which will be held in Berlin on 14-15 March 2013. The first day is devoted to workshops and the second to plenary sessions. The focus will be on connected TVs, multiscreen interaction, the Internet as the new broadcasting channel,  search, and the role of Web technologies in Smart Cities and the Internet of Things. I am giving two talks:</p>
+
+<ul>
+<li><a href="http://www.w3.org/2013/Talks/smart-cities-dsr-mws-2013.pdf">Smart cities as a web of people, things and services</a></li>
+<li><a href="http://www.w3.org/2013/Talks/beyond-desktop-dsr-mws-2013.pdf">Expanding the Web beyond desktop and mobile to the Web of Things</a></li>
+</ul>
+
+<p>Web technologies hold out the promise of making it easier to create services for the Internet of Things with a reduced learning curve and lowered costs compared to native platform development. This depends on the use of overlay networking to decouple applications and services from things best dealt with at a lower layer.</p>
+
+<p>Some examples of personal services include savings on utility bills through smart meters, extended warranty services for home devices with preventative maintenance based upon access to sensor data, home security for peace of mind, and home healthcare for a better quality of life, improved outcomes and reduced overall costs. Personal services require careful treatment of privacy. Public services make use of publicly accessible sensors and anonymised data. Examples include information on public transport systems, and directions to free parking spaces.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Good News about VP8 Licensing</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/good_news_about_vp8_licensing.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9753</id>
+    
+    <published>2013-03-11T02:03:04Z</published>
+    <updated>2013-03-11T22:21:37Z</updated>
+    
+    <summary type="html">I applaud the licensing agreement announced by Google, MPEG-LA, and additional patent-holders. The agreement appears to align with W3C&apos;s Patent Policy which has a goal of assuring that W3C Recommendations can be implemented on a Royalty-Free (RF) basis. Google has...</summary>
+    <author>
+        <name>Jeff Jaffe</name>
+        <uri>http://www.w3.org/People/Jeff/</uri>
+    </author>
+    
+        <category term="CEO" />
+    
+        <category term="Video" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>I applaud the licensing agreement <a
+href="http://www.businesswire.com/news/home/20130307006192/en/Google-MPEG-LA-Announce-Agreement-Covering-VP8">announced</a> by Google, MPEG-LA,
+and additional patent-holders. The agreement appears to align with <a
+href="http://www.w3.org/Consortium/Patent-Policy-20040205/">W3C's
+Patent Policy</a> which has a goal of assuring that W3C
+Recommendations can be implemented on a Royalty-Free (RF) basis. Google has
+also <a href="http://blog.webmproject.org/2013/03/vp8-and-mpeg-la.html">re-iterated</a> its goal to provide the web with a Royalty-Free video codec. </p>
+
+<p> Royalty-Free licensing terms have played an important role in making
+the Web the premier platform for innovation, and W3C adopted its
+patent policy to encourage the widest adoption of Web standards. This is the
+first high-quality video codec we are aware of available on Royalty-Free
+terms.</p>
+
+<p>Video is huge. In May 2012 <a
+href="http://www.cisco.com/en/US/solutions/collateral/ns341/ns525/ns537/ns705/ns827/white_paper_c11-481360_ns827_Networking_Solutions_White_Paper.html">Cisco
+predicted</a> that by 2016, video will be 55 percent of all consumer
+Internet traffic. Last month they <a
+href="http://www.cisco.com/en/US/solutions/collateral/ns341/ns525/ns537/ns705/ns827/white_paper_c11-520862.html">indicated
+</a> that by 2017, two-thirds of the world's mobile data traffic will
+be video. Given <a
+href="http://www.w3.org/QA/2013/02/interview_todd_anglin.html">support from developers</a> for using HTML5 to reach diverse platforms, and
+growing interest from the television, automotive, digital signage,
+digital publishing, gaming, and other industries, this decision to aim
+at royalty-free licensing is likely to give VP8 an advantage on the
+Web.</p>
+
+<p>Royalty-Free video is critical for the Web in general and has recently received attention for WebRTC. In November 2012 the W3C staff <a
+href="http://lists.w3.org/Archives/Public/public-webrtc/2012Nov/0002.html">conveyed</a>
+to the IETF that "there should be a royalty-free standard web
+infrastructure which should include Real Time Communications on the
+Web."  While W3C does not endorse a particular technology for WebRTC, we are quite pleased that there is finally a Royalty-Free codec to choose from.</p>
+
+<p>Congratulations to all parties involved for increasing the value of
+the Web for the global community.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Open Web Platform Weekly Summary - 2013-03-04 - 2013-03-10</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/openweb-weekly-2013-03-10.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9764</id>
+    
+    <published>2013-03-10T15:11:55Z</published>
+    <updated>2013-03-26T20:02:01Z</updated>
+    
+    <summary type="html">This is our weekly Openweb Platform Summary from March 4, 2013 to March 10, 2013. You can read again the last week blog post. Your comments are helpful. [CSS] Printed Pages Margins When printing a Web page, the browser is...</summary>
+    <author>
+        <name>Karl Dubost</name>
+        <uri>http://www.la-grange.net/karl/</uri>
+    </author>
+    
+        <category term="CSS" />
+    
+        <category term="Open Web" />
+    
+        <category term="Web Applications" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>This is our <a href="https://duckduckgo.com/?q=%22Open+Web+Platform+Weekly+Summary%22+site%3Aw3.org%2FQA">weekly Openweb Platform Summary</a> from March 4, 2013 to March 10, 2013. You can read again the <a href="http://www.w3.org/QA/2013/03/openweb-weekly-2013-03-03.html">last week</a> blog post. Your comments are helpful.</p>
+
+<h3 id="css-printed-pages-margins">[CSS] Printed Pages Margins</h3>
+
+<p>When printing a Web page, the browser is often adding margins and sometimes meta-information. Users can deactivate this manually, but what if the Web page could control this state. It's what Julian Viereck <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0060.html">is proposing</a>. A <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/thread.html#msg60">discussion followed</a> on the right way to do this and if it was a good idea.</p>
+
+<h3 id="css-display-box-a-separate-property">[CSS] Display Box, A Separate Property.</h3>
+
+<p>The <a href="http://dev.w3.org/csswg/css-display-3/">CSS Display Module</a> is currently a proposal by Tab Atkins and a few others to redefine the way the display property is working. At this time, it is not yet approved by the <a href="http://www.w3.org/Style/CSS/">CSS</a> WG. They are advocating a <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0095.html">complete separate property</a> for <code>display</code> and not a longhand property. It is common for CSS to have these constructs short/longhand. For example, think about <code>border</code> and <code>border-bottom</code>. Tab is exposing some of the issues with the value <code>none</code>. The <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/thread.html#msg95">thread</a> is about the suggestion.</p>
+
+<h3 id="css-overflow-inside-multicolumn-elements">[CSS] Overflow Inside Multicolumn Elements</h3>
+
+<p>There was a <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/0057.html">call recently for use cases</a> on overflow when the <a href="http://codepen.io/j4_james/pen/xtrJI">layout has multicolumns</a>. The current behavior in WebKit is slightly different from the other browsers. See the <a href="http://lists.w3.org/Archives/Public/www-style/2013Mar/thread.html#msg57">full discussion</a>.</p>
+
+<h3 id="web-components-the-first-editor-draft">Web Components, The First Editor Draft</h3>
+
+<p>Finally, the first <strong>editor's draft</strong> of <a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/components/index.html">Web components</a> has been published. As the abstract says: <q cite="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/components/index.html">Web Components are a way to include and reuse HTML documents in other HTML documents.</q> The Web components are enabled through a new link type and a <code>link</code> element. For example, </p>
+
+<pre><code>&lt;link rel="component" href="/components/heart.html"&gt;
+</code></pre>
+
+<p>Note that the value is not stable yet. And it might change in the future. See the <a href="http://lists.w3.org/Archives/Public/public-webapps/2013JanMar/thread.html#msg697">initial discussions</a> about it.</p>
+
+<h3 id="life-of-w3c">Life of W3C</h3>
+
+<ul>
+<li>There is a new <strong>proposed</strong> <a href="http://www.w3.org/2013/01/webperf.html">Web Performance Working Group Charter</a>. <a href="http://lists.w3.org/Archives/Public/public-new-work/2013Mar/0000.html">Comments on the charter</a> are open to the public until 4 April 2013.</li>
+</ul>
+]]>
+        
+
+    </content>
+</entry>
+
+<entry>
+    <title>Adding alpha channels or chroma keys to JPEG images</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/adding_alpha_channels_or_chrom.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9752</id>
+    
+    <published>2013-03-09T15:49:11Z</published>
+    <updated>2013-03-09T22:49:47Z</updated>
+    
+    <summary type="html">The GIF image format supports transparency, whilst PNG supports translucency, but neither are particularly good for photos, which compress much better with JPEG. A work around is to use the HTML5 canvas 2D context. The chroma-key.js library automatically applies alpha...</summary>
+    <author>
+        <name>Dave Raggett</name>
+        
+    </author>
+    
+        <category term="HTML" />
+    
+        <category term="Web Applications" />
+    
+        <category term="Web Design" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>The GIF image format supports transparency, whilst PNG supports translucency, but neither are particularly good for photos, which compress much better with JPEG. A work around is to use the HTML5 canvas 2D context. The <a href="http://www.w3.org/2013/chroma/chroma-key.js">chroma-key.js</a> library automatically applies alpha channels or chroma keys for all images with the associated attributes. The class and id attributes are copied to the generated canvas elements, so if you load the library before your script that adds event handlers all will be well, likewise for style rules that match the id or class values, but note that the img element will have been replaced by a canvas element. To support accessibility, the image's alt attribute is copied to the content of the canvas element. The data- prefix is used for the new attributes as per the HTML5 specification support for <a href="http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes">custom attributes</a>.</p>
+
+<ul>
+<li><a href="http://www.w3.org/2013/chroma/">Alpha and Chroma-key demo</a></li>
+</ul>
+
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_GB">Creative Commons Attribution 3.0 Unported License</a>.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Is it time for open standards for web payments?</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/is_it_time_for_open_standards.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9747</id>
+    
+    <published>2013-03-07T14:08:14Z</published>
+    <updated>2013-03-07T14:41:34Z</updated>
+    
+    <summary type="html">On native app stores, developers find it comparatively easy to bill users, either when they first install the app, or later with in-app billing for digital content. For web apps, developers are faced with a plethora of proprietary solutions often...</summary>
+    <author>
+        <name>Dave Raggett</name>
+        
+    </author>
+    
+        <category term="Mobile" />
+    
+        <category term="Open Web" />
+    
+        <category term="Web Applications" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>On native app stores, developers find it comparatively easy to bill users, either when they first install the app, or later with in-app billing for digital content. For web apps, developers are faced with a plethora of proprietary solutions often with a clumsy user experience, and to make matters worse, ads, the mainstay of desktop apps, don't work as well on mobile. Is it now time to consider work on standard ways to transfer money, demonstrate proof-of-purchase, and meet other payment needs?</p>
+
+<p>As part of the <a href="http://www.w3.org/wiki/Headlights2013#Web_Payments">headlights 2013 exercise</a>, W3C is now conducting a study with a view to gaining a better understanding about the potential for open standards for web payments. We plan to report back to the W3C Advisory Committee in June/July, and will probably follow up with a workshop later this year.</p>
+
+<p>We expect to collect information on the <a href="http://www.w3.org/wiki/Payments_Task_Force">payments task force wiki</a> and to prepare a questionnaire for web developers, as well as to seek input from a broad range of stakeholders. At this point, it tentatively looks like we need an API that is payment solution neutral, and as such can be built on top of existing (or new) payment technologies. In principle, this should allow for such things as proof of purchase, pre-paid vouchers, discount coupons, NFC for touch based payments, person to person payments, offline payments and so forth. The scope of any standards work that may follow is likely to start with a narrow focus, but it is valuable to get a broader understanding of the potential.</p>
+
+<p>The <a href="http://www.w3.org/wiki/Payments_Task_Force">Web Payments Task Force</a> is open to all, and we invite help from people with relevant expertise and an interest in realizing open standards for web payments. We're interested in help in understanding the ecosystem, figuring the best way to reach out to developer's and other key ecosystem stakeholders, and to provide insightful analysis on the path forward.  If you want to contribute, please subscribe to the mailing list, and help us to gather information and organize it on the wiki.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Closing the gap with native apps</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/closing_the_gap_with_native_ap.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9746</id>
+    
+    <published>2013-03-06T15:00:00Z</published>
+    <updated>2013-03-06T14:12:47Z</updated>
+    
+    <summary type="html">What more W3C should be doing to make Web apps ever more compelling alternatives to native applications on mobile?</summary>
+    <author>
+        <name>Dominique Hazaël-Massieux</name>
+        <uri>http://www.w3.org/People/Dom/</uri>
+    </author>
+    
+        <category term="Mobile" />
+    
+        <category term="Web Applications" />
+    
+        <category term="Web of Devices" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p style='float:right'><a href="http://www.flickr.com/photos/futureshape/566200801/" title="Mind/the/gap by futureshape, on Flickr"><img src="http://farm2.staticflickr.com/1205/566200801_89ede04e1f_m.jpg" width="240" height="180" alt="Mind/the/gap"><br /> <cite>Mind/the/gap</cite> by futureshape</a></p>
+
+<p>        I was last week at Mobile World Congress, one of the world
+        biggest events dedicated to mobile, and it was great to see so much enthusiasm on the role that HTML5, and by extension the
+        Web, can play on mobile devices.</p>
+
+<p> <a href="http://www.w3.org/html/logo/">HTML5 logos</a> plastering
+       booths, developers hunting for our "HTML5 everywhere"
+       t-shirts, the large number of people that stopped by at <a
+       href="https://www.w3.org/2013/MWC/">our booth</a> to learn how
+       they can be involved, and the various announcements on Web-based
+       operating systems (FirefoxOS, Tizen) all reinforced the Web's importance
+      on mobile.</p>
+
+ 
+<p>    A lot of the visitors at our booth had questions on the state of
+     various APIs or technologies they need. Every quarter I publish
+     answers to those questions in an <a
+     href="http://www.w3.org/2013/02/mobile-web-app-state/"> overview of Web apps 
+    technologies most relevant to mobile</a>. Yesterday I updated the
+    report, which I hope will allow all those interested in Web and mobile to 
+    track the abundant work happening in the field.</p>
+
+ 
+<p>        Yet, while it was great to see so much energy behind the Web, I
+        could not ignore those who were not so enthusiastic:
+        the ones that had tried to base their mobile
+        development on the Web but failed to do so due to a variety of
+        missing features, the ones that are investing in hybrid
+        applications but are encountering hard to workaround bugs, the
+        ones that have been hampered by specific performance issues in
+        implementations, or the many that reported that Web apps are
+        much harder to make known and monetize than their native
+        counterparts.</p>
+ 
+<p>        As part of our annual <a
+        href="http://www.w3.org/QA/2013/01/on_the_w3c_agenda_headlights_2_1.html">W3C headlights exercise</a>, I have agreed to lead a task force with the goal of tackling the most important ways in which Web applications lag behind native on mobile.</p>
+
+<p> Our goal is to take a broad view of that gap, identify where the Web platform remains weak, define where its strengths lie compared to other platforms, and based on that analysis, propose an action plan to reduce our most critical weaknesses and take greater advantage of our strong points.</p>
+ 
+<p>        The topic of comparing Web apps and native apps has been
+        discussed (and even <a
+        href="http://www.youtube.com/watch?v=fchbLzwtexk">sung</a>) at
+        great length; it is certainly not my goal to repeat these
+        discussions (and trust me, you don't want me to sing). Nor is my goal to
+        eliminate native apps: they've always co-existed with the Web
+        (even back when we called them software), and will probably continue do
+        so for a long time.</p>
+
+<p>        But it is also clear that many people would rather take
+        advantage of the ability of the Web to reach every device rather
+        than develop many versions of the same application, or would
+        rather keep control on their link with their users rather than
+        abandon it to an intermediary. The recent <a
+        href="http://www.w3.org/QA/2013/02/interview_todd_anglin.html">developer survey from Kendo UI</a> was certainly heartening in that regard. Still, many encounter a number of barriers when they try to do so.</p>
+
+ 
+<p>        Some of the barriers that I've heard mentioned frequently include:</p>
+<ul>
+<li>performance, in particular when it comes to user interfaces (e.g. scrolling), as it can affect the user experience dramatically; a whole <a href="http://www.w3.org/wiki/Headlights2013#HTML5_Performance">headlight project</a> is actually dedicated to the topic;</li>
+<li>discovery: how can developers expose their Web apps to their potential users? How can users rate and review Web apps? What is the right equivalent of application stores for the Web? How centralized would it be? How does it relate to search engine? How can we make it possible to discover context relevant Web apps?</li>
+<li>developer tools: when native SDKs come with full-fledged IDEs, debuggers, profilers, the experience for Web apps developers remain ad-hoc in the best cases; are there systematic problems in our technologies that have made it hard to build good developers tools? how much of a barrier is the design inconsistency among our technologies that the Web legacy requires us to keep around?</li>
+<li>capabilities (e.g. hardware integration): we have <a href="http://www.w3.org/2013/02/mobile-web-app-state/">already a lot of ongoing work</a> in this space, but are there items that are so important we should dedicate a lot more resources in getting them done faster? Should we boost the efforts such as what the <a href="http://www.w3.org/community/coremob/">CoreMob Community Group</a> has been doing to get greater convergence among implementors on a smaller set of features?</li>
+</ul>
+
+<p>Some of the probably under-used strengths of the Web as a platform would be:</p>
+<ul>
+<li>users don't need to install Web apps, removing the need to "garden our phones" (as I heard <a href="http://www.lukew.com/ff/entry.asp?1523">Scott Jenson eloquently put it</a>), and thus enabling use cases that are out of reach for native apps;</li>
+<li>the Web is pretty much the only contender when it comes to create apps that run in any connected device, and maybe more futuristically, that <a href="http://www.w3.org/QA/2011/11/from_hypertext_to_hyperdevices.html">break the device barriers completely</a> (e.g. in so called multi-screens scenarios).</li>
+</ul>
+
+<p>Part of the difficulty of this problem is that addressing these barriers, and taking advantage of these strengths depends on whether we're
+        talking of Web apps inside the browser context (with its
+        specific security contraints), Web-based native apps (as defined
+        by the <a href="http://www.w3.org/2012/sysapps/">W3C System
+        Applications Working Group</a>), or even hybrid apps.</p>
+
+<p> I have
+        started to <a
+        href="http://www.w3.org/wiki/Closing_the_gap_with_native">collect a lot of my still messy understanding</a> in the W3C wiki.</p>
+ 
+<p>        But the problem is broad enough that I or other people already
+        closely involved in W3C are likely to miss some important
+        perspectives.</p>
+ 
+<p>        So, what is it that you would fix to make the Web the best
+        platform out there on mobile? How would you fix it? Feel free to
+        either <a
+        href="http://lists.w3.org/Archives/Public/public-closingthegap/">join our mailing list</a>, <a href="mailto:dom@w3.org">send me mail</a> or simply post comments to this article if you want to share your views!</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Open Web Platform Weekly Summary - 2013-02-25 - 2013-03-03</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/03/openweb-weekly-2013-03-03.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9755</id>
+    
+    <published>2013-03-04T18:10:40Z</published>
+    <updated>2013-03-11T18:13:45Z</updated>
+    
+    <summary type="html">This is our weekly Openweb Platform Summary from February 25 to March 3, 2013. You can read again the last week blog post. Your comments are helpful.</summary>
+    <author>
+        <name>Karl Dubost</name>
+        <uri>http://www.la-grange.net/karl/</uri>
+    </author>
+    
+        <category term="HTML" />
+    
+        <category term="HTTP" />
+    
+        <category term="Open Web" />
+    
+        <category term="Web Applications" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>This is our <a href="https://duckduckgo.com/?q=%22Open+Web+Platform+Weekly+Summary%22+site%3Aw3.org%2FQA">weekly Openweb Platform Summary</a> from February 25 to March 3, 2013. You can read again the <a href="http://www.w3.org/QA/2013/02/openweb-weekly-03.html">last week</a> blog post. Your comments are helpful.</p>
+
+<h3 id="multi-get-for-http2">Multi-GET for HTTP2</h3>
+
+<p>Phillip Hallam-Baker is <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/0830.html">wondering</a> if a Multi-GET method would be useful for <a href="https://github.com/http2">HTTP2</a> to access directly a list of contents. The format would be something along</p>
+
+<pre><code>MGET &lt;Common Headers&gt; List &lt;URI, Content header&gt;
+</code></pre>
+
+<p>So after a browser has emitted a first <code>GET</code></p>
+
+<pre><code>GET /toplevel.html
+</code></pre>
+
+<p>It would then request a</p>
+
+<pre><code>MGET &lt;/image1.jpg /image2.jpg …&gt;
+</code></pre>
+
+<p>Read the <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/thread.html#msg830">thread</a></p>
+
+<h3 id="streams-and-blobs-in-webapps">Streams And Blobs in Webapps</h3>
+
+<p>Anne van Kestern has <a href="http://lists.w3.org/Archives/Public/public-webapps/2013JanMar/0569.html">mentionned</a> specific extensions to XMLHttpRequest by Mozilla.</p>
+
+<ul>
+<li><code>moz-blob</code>: for incremental reading</li>
+<li><code>moz-chunked-text</code> and <code>moz-chunked-arraybuffer</code>: for chunked reading.</li>
+</ul>
+
+<p>Microsoft has also an extension for streaming. This becomes particulary useful in the case of a video stream. A <a href="http://lists.w3.org/Archives/Public/public-webapps/2013JanMar/thread.html#msg569">discussion</a> followed on what should be included in the XMLHttpRequest specification.</p>
+
+<h3 id="test-cases-for-web-messaging">Test Cases for Web Messaging</h3>
+
+<p>Test cases are sometimes a very good way to learn a bit more about the code and the possible constructs. Microsoft has recently <a href="http://lists.w3.org/Archives/Public/public-webapps-testsuite/2013Feb/0026.html">sent a batch of test cases</a> for the <a href="http://dev.w3.org/html5/postmsg/">Web Messaging API</a>.</p>
+
+<h3 id="http2-encodings-and-time">HTTP2, Encodings And Time</h3>
+
+<p>Threads sometimes take a strange direction. The HTTP Working Group was <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/1111.html">discussing</a> about <a href="https://github.com/http2">HTTP2</a> Encoding and the possibility to <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/1115.html">stick</a> to UTF-8 <strong>only</strong>,  when a secondary dicussion started about date format and to maybe make the <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/1154.html">switch to ISO8601</a> for date formats. Read the <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/thread.html#msg1111">full thread</a>.</p>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Open Web Platform Weekly Summary - 2013-02-18 - 2013-02-24</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/02/openweb-weekly-04.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9741</id>
+    
+    <published>2013-02-26T21:25:34Z</published>
+    <updated>2013-02-26T22:32:19Z</updated>
+    
+    <summary type="html">HTTP2, CSS, Testing and a bit of Webapps: Another release of the weekly Openweb Platform Summary from February 19 to 25, 2013. Read, comment, participate.</summary>
+    <author>
+        <name>Karl Dubost</name>
+        <uri>http://www.la-grange.net/karl/</uri>
+    </author>
+    
+        <category term="CSS" />
+    
+        <category term="HTML" />
+    
+        <category term="HTTP" />
+    
+        <category term="Open Web" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p><a href="https://duckduckgo.com/?q=%22Open+Web+Platform+Weekly+Summary%22+site%3Aw3.org%2FQA">weekly Openweb Platform Summary</a> from February 17 to 24, 2013. You can read again <a href="http://www.w3.org/QA/2013/02/openweb-weekly-03.html">last week</a> version. Your comments are helpful.</p>
+
+<h3 id="css-animations-updates">CSS Animations Updates</h3>
+
+<p>A <a href="http://www.w3.org/TR/2013/WD-css3-animations-20130219/">new</a> Working <strong>Draft</strong> for <a href="http://dev.w3.org/csswg/css3-animations/">CSS Animations</a> has been <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0454.html">announced</a></p>
+
+<ul>
+<li>Adding the pseudoElement property to animation events</li>
+<li>animation-play-state can be set by the animation shorthand</li>
+<li>Better definition of error conditions e.g. keyframe selectors outside [0-100%] are ignored</li>
+</ul>
+
+<h3 id="indexeddb-error-type-for-key-generator-maximum-value">IndexedDB: Error Type for key generator maximum value</h3>
+
+<p>The key generator maximum value in IndexedDB is <code>9007199254740992</code>. When reached, an error is generated but it was not specified which type of errors.</p>
+
+<pre><code>store = db.createObjectStore('store', {autoIncrement: true});
+store.put('a', 9007199254740992);
+r = store.put('b');
+r.onerror = function(e) { alert(e.target.error.name); };
+</code></pre>
+
+<p>It <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=18558">is now</a>: <code>ConstraintError</code></p>
+
+<h3 id="variables-in-css-and-syntax">Variables in CSS and Syntax</h3>
+
+<p>The discussion about syntaxes for variables in CSS has been <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/thread.html#msg400">restarted</a> by Jens Meiert. See also this <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/thread.html#msg249">thread</a></p>
+
+<h3 id="testing-the-open-web-platform">Testing the Open Web Platform</h3>
+
+<p>Robin Berjon <a href="http://lists.w3.org/Archives/Public/www-archive/2013Feb/0062.html">checked</a> which areas of the Open Web Platform needed more tests. Here there is an opportunity for you to help.</p>
+
+<h3 id="styling-everything">Styling everything</h3>
+
+<p>Henrik Andersson <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0501.html">has mentionned</a> how impossible is it to style many elements in the browser.</p>
+
+<ul>
+<li>Scrollbars, both the main viewport ones, overflow caused ones and the
+ones belonging to frames</li>
+<li>The audio and video elements, when set to show playback controls</li>
+<li>Date and time input elements</li>
+<li>File upload elements</li>
+<li>The progress element</li>
+<li>The meter element</li>
+<li>The details element</li>
+<li>The drop down menu of size one select elements</li>
+</ul>
+
+<p>In the <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/thread.html#msg501">thread</a>, Tab Atkins has mentionned that it is not a lack of will, but it is  a very hard issue to address with a lot of work to do. We have a tendency to forget that it would be indeed cool to have this, but it also means that people need to dedicate time for it, and there are not that many talented people to write specifications and implementers to test them in parallels.</p>
+
+<h3 id="format-for-images-in-css-maybe">format() for images in CSS? Maybe.</h3>
+
+<p>How do you give hints to the browser that it is not necessary to load an image before it actually tries to download it. Let's say there is </p>
+
+<pre><code>background-image: image("whatever.webp", "whatever.jpg");
+</code></pre>
+
+<p>but the browser is not supporting webp. There should be a way to tell the browser that this is a webp image. Add a pinch of mime-type, mix slightly with explicit metadata and you get a <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/thread.html#msg352">long thread</a></p>
+
+<h3 id="http-2-is-on-github">HTTP 2 is on GitHub</h3>
+
+<p>It has been <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/thread.html#msg664">decided</a> that the work about HTTP2 would be done on <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/">W3C Mailing-List</a> and the work <a href="https://github.com/http2/http2-spec">edited on GitHub</a>. You can follow the <a href="https://github.com/http2/http2-spec/commits/master">commits</a> to the specification and the <a href="https://github.com/http2/http2-spec/issues">issues</a>. Finally, youcan also read the most <a href="http://http2.github.com/http2-spec/">current editor's draft</a>.</p>
+
+<h3 id="xhr-and-user-cancel-requests">XHR and user cancel requests</h3>
+
+<p>When an <a href="http://xhr.spec.whatwg.org/">XHR request</a> is going on and the user is aborting it, through esc for example. What should happen? Currently there is a difference in between the "natural" network abort and the ones cancelled by the users. Anne van Kesteren is <a href="http://lists.w3.org/Archives/Public/public-webapps/2013JanMar/thread.html#msg530">proposing</a> to remove the user specific ones.</p>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>I was Master of the Web... and you can be too!</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/02/be-master-of-the-web.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9738</id>
+    
+    <published>2013-02-26T13:41:59Z</published>
+    <updated>2013-02-26T15:32:57Z</updated>
+    
+    <summary type="html"> It&apos;s this time again: the W3C is searching for its new Webmaster. So I thought I would share my experience as a former Webmaster. Let&apos;s start with some history, as the Webmaster position is an old one here at...</summary>
+    <author>
+        <name>Alexandre Bertails</name>
+        <uri>http://www.bertails.org/</uri>
+    </author>
+    
+        <category term="W3C Life" />
+    
+        <category term="W3C・Resources" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>
+It's this time again: the <a href="http://www.w3.org/2013/02/Webmaster-position">W3C is searching for its new Webmaster</a>. So I thought I would share my experience as a former Webmaster.
+</p>
+
+<p>
+Let's start with some history, as the Webmaster position is an old one here at W3C. It's been there since the early days of the Web. Quickly, the Webmaster position was held by French people via an exchange program, and the tradition has persisted thus far.
+</p>
+
+<p>
+As a Webmaster, you belong to two of our domains: the <a href="http://www.w3.org/People/domain/systeam">Systems Team</a> and the <a href="http://www.w3.org/People/domain/comm">Communications Team</a>. In practice, there is little to no editorial work involved. The job is mostly technical.
+</p>
+
+<p>
+The Webmaster is in charge of enforcing the <a href="http://www.w3.org/2005/07/pubrules">Publication Rules</a>. As the <a href="http://www.w3.org/TR/">Technical Reports</a> are the most important deliverables produced at W3C, this is a very important task. The usual workflow is that <a href="http://www.w3.org/Consortium/activities">Working Groups</a> contact the Webmaster about new documents to be published, then the Webmaster enforces the quality rules before making the publication effective. Reactivity and diplomacy are definitely required and I'd say that you'll spend 30% of your time doing that.
+</p>
+
+<p>
+The Webmaster also does a lot of support for all of our users: the Public, the <a href="http://www.w3.org/Consortium/membership">Members</a> and the <a href="http://www.w3.org/People/">Team</a>. The Webmaster helps people to interact with our tools, makes sure that you can access the right resources on the Website, etc.
+</p>
+
+<p>
+So, what happens during the rest of the time? Well, it really depends on the Webmaster, her/his skills, what she/he likes to do and the needs for the W3C. It's a really wide spectrum. I was personally involved in a <a href="http://www.w3.org/TR/rdb-direct-mapping/">Working Group</a>, deployed our <a href="https://dvcs.w3.org/hg/">DVCS platform</a> and our <a href="http://www.sogo.nu/">calendaring systems</a>. I coded in PHP, Java and Scala, and had the opportunity to experiment new things while benefiting from the experience of my always awesome colleagues.
+</p>
+
+<p>
+And there is the rest... The Webmaster is required to move to <a href="http://en.wikipedia.org/wiki/Boston">Boston</a>, a very pleasant city, and work at MIT. Also, you get to work <strong>within</strong> W3C, so you become an insider! If you believe in Web standards and the role of W3C, then this is definitely a great experience. Oh, and you get to meet all these wonderful people that literally make the Web...
+</p>
+
+<p>
+So if you meet the requirements for the <a href="http://www.civiweb.com/FR/offre/57123.aspx">VI program</a> and are interested by the job, then I hope to hear from you soon.
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Interview: Todd Anglin on the Kendo UI Developer Survey (February 2013)</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/02/interview_todd_anglin.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9736</id>
+    
+    <published>2013-02-26T09:41:00Z</published>
+    <updated>2013-02-26T14:41:23Z</updated>
+    
+    <summary type="html">The Kendo UI survey of 5000 developers released today provides strong evidence of HTML5 adoption. For example, when asked &quot;How will you tackle the challenge of building apps for multiple mobile platforms?&quot; 70% of the developers surveyed answered &quot;adopt HTML5,&quot;...</summary>
+    <author>
+        <name>Ian Jacobs</name>
+        <uri>http://www.w3.org/People/Jacobs/</uri>
+    </author>
+    
+        <category term="HTML" />
+    
+        <category term="Interviews" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>The <a href="http://www.kendoui.com/surveys/global-developer-survey-2013.aspx ">Kendo UI survey of 5000 developers</a> released today provides strong evidence of HTML5 adoption. For example, when asked "How will you tackle the challenge of building apps for multiple mobile platforms?" 70% of the developers surveyed answered "adopt HTML5," and 14% planned one native implementation per target platform plus one "catch-all" HTML app for all other platforms.</p>
+
+<p>The survey results whetted my appetite for more information, so I contacted Todd Anglin, EVP Cross Platform Tools &amp; Services for Telerik, who leads the Kendo UI team at Telerik and played an active role in crafting the recent survey. Some of my questions were not addressed directly in the survey, but Todd offered great insights.</p>
+
+<p><b>Ian:</b> The survey makes clear that for multi-platform development, HTML5 is the preferred option. But I am curious: how many projects are cross-platform in practice? What proportion of projects focus on one or two target devices?</p>
+
+<p><b>Todd:</b> We conclude from a variety of studies that multi-platform development is already important. For instance, many companies have embraced a "bring your own device" (BYOD) policy for their employees, and the result, on average, is that enterprise applications must support 3 to 4 devices. Gartner reported last year that the average CIO must already support 3.5 different mobile platforms, and most expect that number to grow. In our survey, we found that about 40% of developers spend time developing the same app or feature for multiple platforms, another clear indicator of active multi-platform development. For those that do this kind of development, 70% of respondents noted HTML5 as their first choice for managing the multi-platform complexity.</p>
+
+<p><b>Ian:</b> Suppose I want to reach 4 platforms. Which is more economical: 4 native apps or 1 Web app with the tweaks required to make it work well for users on the different platforms?</p>
+
+<p><b>Todd:</b> Anecdotally, we know that when you take a native approach the costs extend medium-term. For each platform, you need to hire (or train) people with those skills, and you need to maintain those skills for the lifetime of the app. I think the HTML5-plus-tweaks approach will have lower costs in that sense- one set of skills, and likely more shared code.</p>
+
+<p><b>Ian:</b> With HTML5 you'll need to maintain the code and tweak it for new devices from time-to-time, but I assume that once you've solved an interoperability issue for a device in one app, you can reuse your solutions in future apps. That should reduce costs as well.</p>
+
+<p><b>Todd:</b> Yes, exactly! One of the indirect benefits of “standardizing” on standards, if you will, is that teams become masters in those skills. Rather than having developers that are “okay” in two or three (or more) different development platforms, you have developers that become deep experts in one. That facilitates faster problem solving, less context shifting, and, as you note, more ability to share lessons learned across development efforts.</p>
+
+<p><b>Ian:</b> It is my understanding that as more people are using the Open Web Platform, the demands on performance, capability, and interoperability are growing. The previous Kendo UI survey made clear that developers want broad interoperability. Do you find developers more or less satisfied with HTML5 compared to 1 year ago?</p>
+
+<p><b>Todd:</b> For reaching the growing diversity of platforms, HTML+JS is pretty much the only option today. People from so many industries want to solve the multi-platform problem, and HTML5 shows the greatest potential to tackle the challenge. So interest and investment are very high. We found that 80% of developers found HTML5 useful and 70% found it important. Even where they may be frustrated today, they are optimistic and think it's just a matter of time for run-times to meet their needs, for tools to appear, and so on. The rapid refresh of mobile devices also helps get improvements to market faster.</p>
+
+<p><b>Ian:</b> I thought hybrid apps would have been more popular than "pure" HTML5 but the survey says they are neck and neck.</p>
+
+<p><b>Todd:</b> I was surprised, too. I think we need to dig more into this question. People we speak with about "pure" apps have said they don't need hybrid, which suggests that what they are building can be delivered via the Web.  It seems they prefer to deploy via the Web given the complexity of app deployment, particularly when public app stores are not an option. But what I found most interesting was that the response rates were the same for all types and size of organizations. I expected biases between, say, global enterprise and start-ups. But the answers were consistent across categories. No matter the organization size, survey respondents showed near identical preference for developing apps with HTML5 versus native.</p>
+
+<p><b>Ian:</b> I also found interesting that people are tuning one version of an app for native and also creating a "catch-all" Web app for all others. Why?</p>
+
+<p><b>Todd:</b> We were happy to see that strategy validated. Having the HTML5 application insulates you against rapid changes in the market. Think about it: six years ago the dominant mobile platforms were Palm, Blackberry, and Windows Mobile. Today the dominant platforms (iOS, Android) are entirely different. And, as I mentioned earlier, the market for devices is only going to grow more fragmented with a whole wave of new platforms hitting in 2013. Having a HTML5 app is the only way you're going to scale and be ready to reach users on these new devices. Meanwhile, the validation of this “native + HTML5” app strategy also suggests that the decision is not black and white. You don’t have to be exclusively native or HTML5. A blended approach may be appropriate.</p>
+
+<p><b>Ian:</b> For the next survey, do you think you will ask about support for devices like television, ebooks, autos, and so on?</p>
+
+<p><b>Todd:</b> Good point. HTML5 covers such a broad space maybe 2013 is the year to branch out beyond mobile. We certainly believe HTML5 is the fastest way to reach the largest number of users on anything with a screen! And the latest survey seems to indicate that a large portion of developers agree.</p>
+
+<p><b>Ian:</b> Thank you, Todd!</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Open Web Platform Weekly Summary - 2013-02-11 - 2013-02-18</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/02/openweb-weekly-03.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9735</id>
+    
+    <published>2013-02-21T19:15:18Z</published>
+    <updated>2013-02-26T22:33:44Z</updated>
+    
+    <summary type="html">Another release of the weekly Openweb Platform Summary from February 11 to 18, 2013. This is a short one. You can read again last week version. Your comments are helpful.</summary>
+    <author>
+        <name>Karl Dubost</name>
+        <uri>http://www.la-grange.net/karl/</uri>
+    </author>
+    
+        <category term="CSS" />
+    
+        <category term="HTML" />
+    
+        <category term="Open Web" />
+    
+        <category term="Web Architecture" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>Another release of the <a href="https://duckduckgo.com/?q=%22Open+Web+Platform+Weekly+Summary%22+site%3Aw3.org%2FQA">weekly Openweb Platform Summary</a> from February 11 to 18, 2013. This is a short one. You can read again <a href="http://www.w3.org/QA/2013/02/openweb-weekly-02.html">last week</a> version. Your comments are helpful.</p>
+
+<h3 id="css-custom-filters-and-css-shaders-in-svg-wg">CSS Custom Filters and CSS Shaders in SVG WG</h3>
+
+<p><a href="http://www.w3.org/Style/CSS/">CSS</a> has a <strong>draft</strong> specification on how to apply effects to an element before rendering it. It allows for <a href="https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#custom-filter">custom filters effects</a> which is basically an extension point. The SVG Working Group <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0289.html">sent an email</a> asking if it would be possible to reserve <code>webgl</code> as a keyword for CSS Shaders (see also the <a href="http://www.w3.org/2013/02/06-svg-minutes.html#item05">SVG WG minutes</a>). Tab Atkins <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0290.html">recommended</a> to use the following syntax:</p>
+
+<pre><code>@support (filter-type(webgl)) {
+ @filter curl { ... }
+}
+</code></pre>
+
+<p>James Robinson noted that supporting WebGL and CSS shaders were different and suggested to use another keyword, which is ok with the SVG Working Group.</p>
+
+<h3 id="mouse-events-soon-to-be-ui-events">Mouse Events Soon To Be UI Events?</h3>
+
+<p>Anne van Kesteren (Mozilla) is <a href="http://lists.w3.org/Archives/Public/www-dom/2013JanMar/0128.html">proposing to move</a> all <a href="http://dev.w3.org/csswg/cssom-view/#extensions-to-the-mouseevent-interface">MouseEvent</a> into the <a href="https://dvcs.w3.org/hg/d4e/raw-file/tip/source_respec.htm">UI Events specification</a>.</p>
+
+<h3 id="proposal-to-add-getclientrect-method-to-caretposition">Proposal to add getClientRect method to CaretPosition</h3>
+
+<p>Scott Johnson (Mozilla) is <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0323.html">proposing</a> to add a new method, <code>getClientRect()</code>, to the <a href="http://dev.w3.org/csswg/cssom-view/#the-caretposition-interface"><code>CaretPosition</code> interface</a> (Editor's draft) for tracking changes to caret positions across reflows. During editing for example in a text area, the document layout might be changed which will require to place the caret at a new position. This new method would help.</p>
+
+<h3 id="css-fonts-and-case-matching">CSS Fonts and case matching</h3>
+
+<p>A new draft has been published for <a href="http://www.w3.org/TR/2013/WD-css3-fonts-20130212/">CSS Font</a> with a nice addition. No need to worry anymore if the fonts have been written with the appropriate uppercase letter or not. It is now <a href="http://www.w3.org/TR/2013/WD-css3-fonts-20130212/#font-family-casing">case insensitive</a>. If you write everything lowercase, it should still be working. See the <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0333.html">other changes</a>.</p>
+
+<h3 id="privacy-a-document-in-need-of-love">Privacy, a document in need of love</h3>
+
+<p>The W3C <a href="http://www.w3.org/2001/tag/">tag</a> doesn't have the <a href="http://lists.w3.org/Archives/Public/public-privacy/2013JanMar/0038.html">resources</a> to tackle the note on <a href="http://darobin.github.com/api-design-privacy/api-design-privacy.html">Patterns for Privacy by Design in Javascript APIs</a>. So if you are interesting by <strong>actively</strong> maintaining that document, it is time for you to join the <a href="http://www.w3.org/Privacy/">Privacy Interest Group</a> (open to the public).</p>
+
+<h3 id="css-parser-from-state-machine-to-recursive-descent">CSS Parser, from state machine to recursive-descent</h3>
+
+<p>Tab Atkins has <a href="http://lists.w3.org/Archives/Public/www-style/2013Feb/0322.html">rewritten</a> the algorithm for <a href="http://dev.w3.org/csswg/css3-syntax/#parsing">parsing CSS</a> from a <a href="https://en.wikipedia.org/wiki/Finite-state_machine">state machine</a> one to a <a href="https://en.wikipedia.org/wiki/Recursive_descent_parser">recursive-descent</a> one.</p>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>W3C HTML5 Training</title>
+    <link rel="alternate" type="text/html" href="http://www.w3.org/QA/2013/02/w3c_html5_training.html" />
+    <id>tag:www.w3.org,2013:/QA//1.9731</id>
+    
+    <published>2013-02-21T15:23:43Z</published>
+    <updated>2013-02-26T13:43:08Z</updated>
+    
+    <summary type="html">Finally! W3C is proud to present a new HTML5 training course, available online. The course starts 18 March and lasts six weeks. Do not miss the early bird rate - deadline is tomorrow night (22 Feb. 2013)! Learn HTML5 cool...</summary>
+    <author>
+        <name>Marie-Claire Forgue</name>
+        <uri>http://www.w3.org/People/mcf/</uri>
+    </author>
+    
+        <category term="Training" />
+    
+    <content type="html" xml:lang="en" xml:base="http://www.w3.org/QA/">
+        <![CDATA[<p>Finally! W3C is proud to present a new <a href="http://www.w3devcampus.com/html5-w3c-training/">HTML5 training course</a>, available online. The course starts 18 March and lasts six weeks. Do not miss the <a href="http://classroom.w3devcampus.com/enrol/index.php?id=24">early bird rate</a> - deadline is tomorrow night (<em>22 Feb. 2013</em>)!</p>
+
+<p>Learn HTML5 cool new features and techniques that will hep you build interactive, powerful and efficient Web sites and apps! Topics include video, animations, forms, semantics and APIs to create location-based services, and offline applications. You will have access to high quality content material, be trained by a first-class expert, and receive a certificate upon course completion.</p>
+
+<p>Our e-learning platform also hosts 3 other training courses - check when their next session starts:</p>
+<ul>
+	<li><a href="http://www.w3devcampus.com/mobile-web-and-application-best-practices-training/">Mobile Web 1: Best Practices</a></li>
+	<li><a href="http://www.w3devcampus.com/writing-great-web-applications-for-mobile/">Mobile Web 2: Programming Web Apps</a></li>
+	<li><a href="http://www.w3devcampus.com/buenas-practicas-en-web-movil/">Buenas Practicas en Web Móvil</a> (Mobile Web 1 in Spanish)</li>
+</ul>
+
+<p>If you'd wish to learn more about the W3C online training for developers program (<a href="http://www.w3devcampus.com/">W3DevCampus</a>), and why not propose a new course for our platform, please come visit us by the <a href="http://www.w3.org/2013/MWC/">W3C booth@MWC'13</a> next week. My "techie" colleagues Dom, Tobie, Dave will also be around for questions about the Web and automotive (<a href="http://www.w3.org/News/2013#entry-9730">just launched!</a>), NFC, mobile Web Apps, WebRTC, and much more. Have a look at the <a href="https://www.w3.org/2013/MWC/#demos">demos schedule</a> there too.</p>
+
+<a href="http://www.w3devcampus.com/html5-w3c-training/"><img class="alignleft" title="W3C HTML5 course banner" src="http://www.w3devcampus.com/wp-content/uploads/2013/01/banner-html5.png" alt="" width="306" height="44" /></a> ]]>
+        
+    </content>
+</entry>
+
+</feed> 
+

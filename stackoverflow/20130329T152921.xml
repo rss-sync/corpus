@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-29T15:29:21Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15706281</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">controlling zorder of points in ggplot2 in R?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="r"/><category scheme="http://stackoverflow.com/feeds/tags" term="ggplot2"/>
+        <author>
+            <name>user248237dfsf</name>
+            <uri>http://stackoverflow.com/users/248237</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706281/controlling-zorder-of-points-in-ggplot2-in-r" />
+        <published>2013-03-29T15:28:54Z</published>
+        <updated>2013-03-29T15:28:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Suppose I&#39;m plotting a dense scatter plot in ggplot2 in R where each point might be labeled by a different color:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; df &amp;lt;- data.frame(x=rnorm(500))
+&amp;gt; df$y = rnorm(500)*0.1 + df$x
+&amp;gt; df$label &amp;lt;- c(&quot;a&quot;)
+&amp;gt; df$label[50] &amp;lt;- &quot;point&quot;
+&amp;gt; df$size &amp;lt;- 2
+&amp;gt; ggplot(df) + geom_point(aes(x=x, y=y, color=label, size=size))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When I do this, the scatter point labeled &quot;point&quot; (green) is plotted on top of the red points which have the label &quot;a&quot;. What controls this z ordering in ggplot, i.e. what controls which point is on top of which? For example, what if I wanted all the &quot;a&quot; points to be on top of all the points labeled &quot;point&quot; (meaning they would sometimes partially or fully hide that point)? Does this depend on alphanumerical ordering of labels? thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706277</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">mongodb query watch</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mongodb"/>
+        <author>
+            <name>john smith</name>
+            <uri>http://stackoverflow.com/users/2102861</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706277/mongodb-query-watch" />
+        <published>2013-03-29T15:28:45Z</published>
+        <updated>2013-03-29T15:28:45Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Is there a tool I can use for mongodb to look at current and common queries?&lt;/p&gt;
+
+&lt;p&gt;I need to get this information to see what are the queries used most in order to build indexes efficiently.&lt;/p&gt;
+
+&lt;p&gt;Any help? Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706275</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">JS file reported as undefined on remote server...but its there and working when RDP into remote server</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="svn"/>
+        <author>
+            <name>toddv</name>
+            <uri>http://stackoverflow.com/users/339463</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706275/js-file-reported-as-undefined-on-remote-server-but-its-there-and-working-when" />
+        <published>2013-03-29T15:28:35Z</published>
+        <updated>2013-03-29T15:28:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Never seen this before, but I have Base.js in a folder that I am using on a page.  I see it checked in via Subversion in the folder when I RDP into the server.&lt;/p&gt;
+
+&lt;p&gt;I can even get it to work fine when I browse my app on the server using localhost/myapp.&lt;/p&gt;
+
+&lt;p&gt;But when VPN into my server, this ONE page and this ONE script (this is a large app with lots of scripts and lots of pages) breaks and says that Base.js is not defined.&lt;/p&gt;
+
+&lt;p&gt;I can RDP into the server, double click the file and have it open in Visual Studio ... it IS there!  This is crazy.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706273</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">.htaccess rewrite - redirect to a php file that redirects, want to keep original URL</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term=".htaccess"/><category scheme="http://stackoverflow.com/feeds/tags" term="mod-rewrite"/>
+        <author>
+            <name>NateTheGreatt</name>
+            <uri>http://stackoverflow.com/users/427781</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706273/htaccess-rewrite-redirect-to-a-php-file-that-redirects-want-to-keep-original" />
+        <published>2013-03-29T15:28:32Z</published>
+        <updated>2013-03-29T15:28:32Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Right now when the user types something like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;site.com/shirt/shirtid
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;They are redirected by a RewriteRule that says&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;RewriteRule ^shirt/([a-z][0-9a-z_]+)$ /utils/phurl/redirect.php?alias=$1 [L,R=301]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which then redirects them to the page which is assigned that alias.&lt;/p&gt;
+
+&lt;p&gt;When the PHP redirection happens (via header(Location:$url)), however, it changes the url from site.com/shirt/shirtid to the very long URL that I wanted shortened. Is there a way I can maintain the original URL through this entire redirection process?&lt;/p&gt;
+
+&lt;p&gt;E.g. User goes to site.com/shirt/shirtid, redirection process happens, URL in address bar remains site.com/shirt/shirtid&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706271</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Returning custom HTTP error reasons in Google Cloud Endpoints</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-app-engine"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-cloud-endpoints"/>
+        <author>
+            <name>Docent</name>
+            <uri>http://stackoverflow.com/users/792657</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706271/returning-custom-http-error-reasons-in-google-cloud-endpoints" />
+        <published>2013-03-29T15:28:28Z</published>
+        <updated>2013-03-29T15:28:28Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Google&#39;s own REST APIs return detailed response in case of an error, e.g:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+ &quot;error&quot;: {
+  &quot;errors&quot;: [
+   {
+&quot;domain&quot;: &quot;global&quot;,
+&quot;reason&quot;: &quot;invalidBookshelfId&quot;,
+&quot;message&quot;: &quot;Invalid bookshelf ID.&quot;
+   }
+  ],
+  &quot;code&quot;: 400,
+  &quot;message&quot;: &quot;Invalid bookshelf ID.&quot;
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there any way to achieve something similar in Google Cloud Endpoints for Python? I know it&#39;s possible to e.g. &lt;code&gt;raise endpoints.BadRequestException(&#39;Error message&#39;)&lt;/code&gt;, but in addition to the error message I would like to return &quot;code&quot; or &quot;reason&quot; as in example above.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706270</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Sort a Table[] in Lua</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="table"/><category scheme="http://stackoverflow.com/feeds/tags" term="sorting"/><category scheme="http://stackoverflow.com/feeds/tags" term="lua"/>
+        <author>
+            <name>user1773027</name>
+            <uri>http://stackoverflow.com/users/1773027</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706270/sort-a-table-in-lua" />
+        <published>2013-03-29T15:28:23Z</published>
+        <updated>2013-03-29T15:28:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a LUA table that I am trying to sort. The table&#39;s format is as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tableOfKills[PlayerName] = NumberOfKills
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which means, for example, if I had a player named Robin with a total of 8 kills and another named Jon with a total of 10 kills, the table would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tableOfKills[Robin] = 8
+tableOfKills[Jon]   = 10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How would I sort that type of table to show the highest kills first? Thanks in advance!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706268</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Error Creating Control in Visual Studio 2010(Asp.net)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/>
+        <author>
+            <name>user1421736</name>
+            <uri>http://stackoverflow.com/users/1421736</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706268/error-creating-control-in-visual-studio-2010asp-net" />
+        <published>2013-03-29T15:28:11Z</published>
+        <updated>2013-03-29T15:28:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i am facing a problem in Visual Studio 2010 while i m going to the designer view it shows an error 
+named 
+&quot;Error Creating Control ContentPlaceHolder1 
+The &#39;tagname&#39; attribute cannot contain spaces&quot;&lt;/p&gt;
+
+&lt;p&gt;if start from a new webform &gt;master and then &gt;child it shows the same problem&lt;/p&gt;
+
+&lt;p&gt;what i need to do 
+Plz Help&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706262</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Maintain UserID&#39;s, GroupID&#39;s and permissions while moving data from ubuntu to CentOS</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ubuntu"/><category scheme="http://stackoverflow.com/feeds/tags" term="permissions"/><category scheme="http://stackoverflow.com/feeds/tags" term="centos"/><category scheme="http://stackoverflow.com/feeds/tags" term="data-migration"/><category scheme="http://stackoverflow.com/feeds/tags" term="userid"/>
+        <author>
+            <name>Vijit Jain</name>
+            <uri>http://stackoverflow.com/users/2224836</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706262/maintain-userids-groupids-and-permissions-while-moving-data-from-ubuntu-to-ce" />
+        <published>2013-03-29T15:27:49Z</published>
+        <updated>2013-03-29T15:27:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I know there have been multiple answers for this question, but i cant seem to have any which will answer all my concerns&lt;/p&gt;
+
+&lt;p&gt;Here is my concern:
+i work for a small-business with roughly 20 users, i am assigned a task to upgrade the OS from Ubuntu, to CentOS. which uses LDAP server to map usernames
+now here comes the pain part of it, i am supposed to move the data from Ubuntu to CentOS, and at the same time i have to keep the file permissions, UserID&#39;s and GroupID&#39;s of the files intact, so they dont get all messy&lt;/p&gt;
+
+&lt;p&gt;i have been using the command
+cp -pr /src /dest&lt;/p&gt;
+
+&lt;p&gt;but have got confused, as i m not able to see the same userID&#39;s&lt;/p&gt;
+
+&lt;p&gt;is there something i m missing?
+or i am just getting paranoid for no reason&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706261</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Ruby on Rails - Group by consecutive dates and count</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="ruby"/><category scheme="http://stackoverflow.com/feeds/tags" term="count"/><category scheme="http://stackoverflow.com/feeds/tags" term="group-by"/>
+        <author>
+            <name>user2224695</name>
+            <uri>http://stackoverflow.com/users/2224695</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706261/ruby-on-rails-group-by-consecutive-dates-and-count" />
+        <published>2013-03-29T15:27:49Z</published>
+        <updated>2013-03-29T15:27:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this model and datas and i need...&lt;/p&gt;
+
+&lt;h2&gt;The model&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;class Quotum &amp;lt; ActiveRecord::Base
+
+  belongs_to: service
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;The datas&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;    | id |   arrival    |  service_id  |
+    ------------------------------------
+    | 1  |  03.05.2014  |      3       |
+    | 2  |  03.05.2014  |      3       |
+    | 3  |  04.05.2014  |      3       |
+    | 4  |  04.05.2014  |      3       |
+    | 5  |  03.05.2014  |      4       |
+    | 6  |  03.05.2014  |      4       |
+    | 7  |  04.05.2014  |      4       |
+    | 8  |  04.05.2014  |      4       |
+    | 9  |  08.05.2014  |      3       |
+    | 10 |  08.05.2014  |      3       |
+    | 11 |  09.05.2014  |      3       |
+    | 12 |  09.05.2014  |      3       |
+    | 13 |  08.05.2014  |      4       |
+    | 14 |  08.05.2014  |      4       |
+    | 15 |  09.05.2014  |      4       |
+    | 16 |  09.05.2014  |      4       |
+    ------------------------------------
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;...this in my views:&lt;/p&gt;
+
+&lt;p&gt;03.05.2014 - 04.05.2014 2 x 3/2 x 4&lt;br&gt;
+08.05.2014 - 09.05.2014 2 x 3/2 x 4&lt;/p&gt;
+
+&lt;p&gt;Some more informations:&lt;/p&gt;
+
+&lt;p&gt;It is a part of a booking engine for hotel rooms. The number of &quot;rooms&quot; is the number of rows (count).&lt;/p&gt;
+
+&lt;p&gt;service_id 3 means &quot;single_room&quot;&lt;br&gt;
+service_id 4 means &quot;double_room&quot;&lt;/p&gt;
+
+&lt;p&gt;So after all this should be the output:&lt;/p&gt;
+
+&lt;p&gt;03.05.2014 - 04.05.2014 - 2 x single_room/2 x double_room&lt;br&gt;
+08.05.2014 - 09.05.2014 - 2 x single_room/2 x double_room&lt;/p&gt;
+
+&lt;p&gt;My last result:&lt;/p&gt;
+
+&lt;p&gt;I found this SQL code &#187;Find sequence starts and ends&#171; (thanks to &lt;a href=&quot;http://www.artfulsoftware.com/queries.php&quot; rel=&quot;nofollow&quot;&gt;http://www.artfulsoftware.com/queries.php&lt;/a&gt;), but i can not fit it all together in Rails. Probably i should use &lt;code&gt;find_by_sql&lt;/code&gt; but raw SQL-Code is not the first choice. Or i must do some additional logic into a controller. But maybe it is just a SQL-Query.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT
+  a.arrival AS Start,
+  MIN( c.arrival ) AS End,
+  a.service_id
+FROM quota as a
+  LEFT JOIN quota AS b ON a.arrival = b.arrival + 1
+  LEFT JOIN quota AS c ON a.arrival &amp;lt;= c.arrival
+  LEFT JOIN quota AS d ON c.arrival = d.arrival - 1
+WHERE b.arrival is NULL
+  AND c.arrival is NOT NULL
+  AND d.arrival is NULL,
+GROUP BY a.arrival, a.service_id;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I tried also with &lt;code&gt;if-else-end&lt;/code&gt; szenario, but forget it.&lt;/p&gt;
+
+&lt;p&gt;Hope you can help me.&lt;/p&gt;
+
+&lt;p&gt;Ben&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706259</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Service broker queues are disabling themselves, can&#39;t unearth the reason</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="service-broker"/>
+        <author>
+            <name>Aushin</name>
+            <uri>http://stackoverflow.com/users/1430983</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706259/service-broker-queues-are-disabling-themselves-cant-unearth-the-reason" />
+        <published>2013-03-29T15:27:40Z</published>
+        <updated>2013-03-29T15:27:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In sys.transmission_queue the only information I&#39;m given is &quot;One or more messages could not be delivered to the local service targeted by this dialog.&quot;&lt;/p&gt;
+
+&lt;p&gt;If I re-enable one of the problem queues (there are five) and leave Activation set to OFF, the queue fills up with its messages.  If I then run the Activation SP, I process the messages correctly and without issue.  But as soon as I turn activation ON, if there are ANY messages in the queue, the queues will disable themselves again.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m completely lost.  Does anyone know how I can troubleshoot this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706234</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Why doesn&#39;t simple arithmetic work without casting?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="casting"/>
+        <author>
+            <name>Bart Friederichs</name>
+            <uri>http://stackoverflow.com/users/1145666</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706234/why-doesnt-simple-arithmetic-work-without-casting" />
+        <published>2013-03-29T15:26:22Z</published>
+        <updated>2013-03-29T15:29:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I just found that this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ushort i = 4;
+i = i + 4;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;gives a compiler error:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cannot implicitly convert type &#39;int&#39; to &#39;ushort&#39;. An explicit conversion exists (are you missing a cast?)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have to fix it thus:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ushort i = 4;
+i = (ushort)(i + 4);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What is the reason behind this? Shouldn&#39;t it be obvious and easy to use all data types?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706228</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Having issues with the Javascript Replace function</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/>
+        <author>
+            <name>Lomse</name>
+            <uri>http://stackoverflow.com/users/680900</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706228/having-issues-with-the-javascript-replace-function" />
+        <published>2013-03-29T15:25:51Z</published>
+        <updated>2013-03-29T15:29:08Z</updated>
+        <summary type="html">
+            
+            &lt;pre&gt;&lt;code&gt;var my_string = &quot;some text goes here!!!&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Why is it that &lt;code&gt;my_string.replace(&#39;!&#39;, &#39;*&#39;, my_string);&lt;/code&gt; only gives&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;some text goes here!!*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;instead of &lt;code&gt;some text goes here***&lt;/code&gt; ?&lt;/p&gt;
+
+&lt;p&gt;Any idea? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706165</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">copy data from one table to another in oracle - not working</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="oracle"/>
+        <author>
+            <name>uday</name>
+            <uri>http://stackoverflow.com/users/2045140</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706165/copy-data-from-one-table-to-another-in-oracle-not-working" />
+        <published>2013-03-29T15:22:01Z</published>
+        <updated>2013-03-29T15:28:07Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Am executing the below query and it results in an error. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;insert into me.attr ( EXPS)values( select EXPS from mine.attr where fiscal_year=2012 and accounting_period=11 and gaap_cd=&#39;ZA&#39; );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Error: insert into me.attr ( EXPS) values ( select EXPS from mine.attr
+  where fiscal_year=2012 and accounting_period=11 and gaap_cd=&#39;ZA&#39; )
+  Error at Command Line:31 Column:2 Error report: SQL Error: ORA-00936:
+  missing expression
+  00936. 00000 -  &quot;missing expression&quot;
+  *Cause:&lt;br&gt;
+  *Action:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Can someone please help me on the issue. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706148</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">auto size of label height and width in C#</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="winforms"/><category scheme="http://stackoverflow.com/feeds/tags" term="label"/>
+        <author>
+            <name>DarkenShooter</name>
+            <uri>http://stackoverflow.com/users/2029069</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706148/auto-size-of-label-height-and-width-in-c-sharp" />
+        <published>2013-03-29T15:21:15Z</published>
+        <updated>2013-03-29T15:28:12Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a label of size(47, 15) and my form size is(561, 270).
+When my label.text is so longer than the window size the last part of the text doesn&#39;t appear.How can i dynamically re-size the height and width of the label text with respect to my window.That is when the text is longer than the window then the text will be appear at some lines instead of one line. How can i do that????  &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15706145</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Trouble installing RMySQL on Windows 8</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="r"/><category scheme="http://stackoverflow.com/feeds/tags" term="rstudio"/><category scheme="http://stackoverflow.com/feeds/tags" term="rmysql"/>
+        <author>
+            <name>user721975</name>
+            <uri>http://stackoverflow.com/users/721975</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15706145/trouble-installing-rmysql-on-windows-8" />
+        <published>2013-03-29T15:20:59Z</published>
+        <updated>2013-03-29T15:28:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I followed the installation directions at &lt;a href=&quot;http://www.r-bloggers.com/installing-the-rmysql-package-on-windows-7/&quot; rel=&quot;nofollow&quot;&gt;R-Bloggers&lt;/a&gt; website. However once I do the &lt;code&gt;install.packages(&#39;RMySQL&#39;,type=&#39;source&#39;)&lt;/code&gt;, I get the following error. It appears that there is some conflict with regards to the path (Windows likes backward slashes whereas here the installer is trying to look up by unix style backward slashes). Any ideas what is going wrong?&lt;/p&gt;
+
+&lt;p&gt;--- Error Message ---&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;install.packages(&#39;RMySQL&#39;,type=&#39;source&#39;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Installing package(s) into ‘C:/Software/R-2.15.2/library’
+(as ‘lib’ is unspecified)&lt;/p&gt;
+
+&lt;p&gt;trying URL &#39;&lt;a href=&quot;http://cran.rstudio.com/src/contrib/RMySQL_0.9-3.tar.gz&quot; rel=&quot;nofollow&quot;&gt;http://cran.rstudio.com/src/contrib/RMySQL_0.9-3.tar.gz&lt;/a&gt;&#39;&lt;/p&gt;
+
+&lt;p&gt;Content type &#39;application/x-gzip&#39; length 165363 bytes (161 Kb)&lt;/p&gt;
+
+&lt;p&gt;opened URL&lt;/p&gt;
+
+&lt;p&gt;downloaded 161 Kb&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;installing &lt;em&gt;source&lt;/em&gt; package &#39;RMySQL&#39; ...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;** package &#39;RMySQL&#39; successfully unpacked and MD5 sums checked&lt;/p&gt;
+
+&lt;p&gt;checking for $MYSQL_HOME... C:\Software\xampp\mysql&lt;/p&gt;
+
+&lt;p&gt;cygwin warning:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;MS-DOS style path detected: C:\Software\xampp\mysql&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Preferred POSIX equivalent is: /cygdrive/c/Software/xampp/mysql&lt;/p&gt;
+
+&lt;p&gt;CYGWIN environment variable option &quot;nodosfilewarning&quot; turns off this warning.&lt;/p&gt;
+
+&lt;p&gt;Consult the user&#39;s guide for more details about POSIX paths:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;** libs
+Warning: this package has a non-empty &#39;configure.win&#39; file,&lt;/p&gt;
+
+&lt;p&gt;so building only the main architecture&lt;/p&gt;
+
+&lt;p&gt;cygwin warning:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;MS-DOS style path detected: C:/Software/R-215~1.2/etc/x64/Makeconf&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Preferred POSIX equivalent is: /cygdrive/c/Software/R-215~1.2/etc/x64/Makeconf&lt;/p&gt;
+
+&lt;p&gt;CYGWIN environment variable option &quot;nodosfilewarning&quot; turns off this warning.&lt;/p&gt;
+
+&lt;p&gt;Consult the user&#39;s guide for more details about POSIX paths:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;gcc -m64 -I&quot;C:/Software/R-215~1.2/include&quot; -DNDEBUG -I&quot;C:\Software\xampp\mysql&quot;/include    -I&quot;d:/RCompile/CRANpkg/extralibs64/local/include&quot;     -O2 -Wall  -std=gnu99 -mtune=core2 -c &lt;/p&gt;
+
+&lt;p&gt;RS-DBI.c -o RS-DBI.o&lt;/p&gt;
+
+&lt;p&gt;RS-DBI.c: In function &#39;RS_na_set&#39;:&lt;/p&gt;
+
+&lt;p&gt;RS-DBI.c:1219:11: warning: variable &#39;c&#39; set but not used [-Wunused-but-set-variable]&lt;/p&gt;
+
+&lt;p&gt;gcc -m64 -I&quot;C:/Software/R-215~1.2/include&quot; -DNDEBUG -I&quot;C:\Software\xampp\mysql&quot;/include    -I&quot;d:/RCompile/CRANpkg/extralibs64/local/include&quot;     -O2 -Wall  -std=gnu99 -mtune=core2 -c &lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c -o RS-MySQL.o&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c: In function &#39;RS_MySQL_fetch&#39;:&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c:657:13: warning: variable &#39;fld_nullOk&#39; set but not used [-Wunused-but-set-variable]&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c: In function &#39;RS_DBI_invokeBeginGroup&#39;:&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c:1137:30: warning: variable &#39;val&#39; set but not used [-Wunused-but-set-variable]&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c: In function &#39;RS_DBI_invokeNewRecord&#39;:&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c:1158:20: warning: variable &#39;val&#39; set but not used [-Wunused-but-set-variable]&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c: In function &#39;RS_MySQL_dbApply&#39;:&lt;/p&gt;
+
+&lt;p&gt;RS-MySQL.c:1219:38: warning: variable &#39;fld_nullOk&#39; set but not used [-Wunused-but-set-variable]&lt;/p&gt;
+
+&lt;p&gt;gcc -m64 -shared -s -static-libgcc -o RMySQL.dll tmp.def RS-DBI.o RS-MySQL.o &lt;/p&gt;
+
+&lt;p&gt;C:\Software\xampp\mysql/bin/libmySQL.dll -Ld:/RCompile/CRANpkg/extralibs64/local/lib/x64 -Ld:/RCompile/CRANpkg/extralibs64/local/lib -LC:/Software/R-215~1.2/bin/x64 -lR&lt;/p&gt;
+
+&lt;p&gt;gcc.exe: error: C:\Software\xampp\mysql/bin/libmySQL.dll: No such file or directory&lt;/p&gt;
+
+&lt;p&gt;ERROR: compilation failed for package &#39;RMySQL&#39;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;removing &#39;C:/Software/R-2.15.2/library/RMySQL&#39;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Warning in install.packages :
+  running command &#39;C:/Software/R-215~1.2/bin/x64/R CMD INSTALL -l &quot;C:/Software/R-2.15.2/library&quot;   &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;C:\Users\lenovo\AppData\Local\Temp\RtmpiIQAUp/downloaded_packages/RMySQL_0.9-3.tar.gz&#39; had status 1&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Warning in install.packages :&lt;/p&gt;
+
+&lt;p&gt;installation of package ‘RMySQL’ had non-zero exit status&lt;/p&gt;
+
+&lt;p&gt;The downloaded source packages are in
+    ‘C:\Users\lenovo\AppData\Local\Temp\RtmpiIQAUp\downloaded_packages’&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15705994</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">fixed bottom right but left top will be in the same axis</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="css3"/><category scheme="http://stackoverflow.com/feeds/tags" term="position"/><category scheme="http://stackoverflow.com/feeds/tags" term="fixed"/>
+        <author>
+            <name>Murat Bayral</name>
+            <uri>http://stackoverflow.com/users/2224805</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15705994/fixed-bottom-right-but-left-top-will-be-in-the-same-axis" />
+        <published>2013-03-29T15:11:55Z</published>
+        <updated>2013-03-29T15:27:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to make a div which is fixed on the bottom and right but top margin and left margin will always be 100px from the browser! It is very weird I know but I coulndt do it. Maybe it needs a javascript? or can I make it with css?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15705969</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Can I call a sql command parameter from another class?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="ms-access"/>
+        <author>
+            <name>bucketblast</name>
+            <uri>http://stackoverflow.com/users/1920019</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15705969/can-i-call-a-sql-command-parameter-from-another-class" />
+        <published>2013-03-29T15:09:57Z</published>
+        <updated>2013-03-29T15:27:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have 14 tables, with the usual sql common command parameters, insert, update etc. Beginners, like me, will have all the methods in the main class, like this...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;namespace TestApp
+{
+ public partial class TestNamTxt : Form
+ {
+    private OleDbConnection myCon;
+
+    public TestNamTxt()
+    {
+        InitializeComponent();
+    }
+
+    private void Form1_Load(object sender, EventArgs e)
+    {
+      myCon = new OleDbConnection();
+      myCon.ConnectionString = @&quot;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C\:... 
+                                 Database2.mdb&quot;)
+
+      myCon.Open();
+      ds1 = new DataSet();
+      string sql = &quot;SELECT * FROM Table1&quot;;
+      da = new System.Data.OleDb.OleDbDataAdapter(sql,myCon);
+      da.Fill(ds1, &quot;Foo&quot;);
+      myCon.Close();
+   };
+
+   private void Insertbtn_Click(object sender, EventArgs e)
+   {
+     OleDbCommand cmd = new OleDbCommand();
+     cmd.CommandType = CommandType.Text;
+     cmd.CommandText = &quot;INSERT INTO Table1 (ID, Name)&quot;;
+     cmd.Parameters.AddWithValue(&quot;@ID&quot;, IDTxt.Text);
+     cmd.Parameters.AddWithValue(&quot;@Name&quot;, NameTxt.Text);
+     cmd.Connection=myCon;   
+     myCon.Open();
+     cmd.ExecuteNonQuery();
+     myCon.Close();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Could I place code the above code in another class and in the Insertbtn method use the this method? Is there any tutorials or perhaps someone could demonstrate how &lt;strong&gt;this&lt;/strong&gt; could be done?  I am not sure what it is called on the description I have given here? Thanks in advance&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15705744</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">WCF REST Self-Hosted 400 Bad Request</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="wcf"/><category scheme="http://stackoverflow.com/feeds/tags" term="rest"/><category scheme="http://stackoverflow.com/feeds/tags" term="self-hosting"/>
+        <author>
+            <name>Jay</name>
+            <uri>http://stackoverflow.com/users/704552</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15705744/wcf-rest-self-hosted-400-bad-request" />
+        <published>2013-03-29T14:55:34Z</published>
+        <updated>2013-03-29T15:27:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m having a problem with a self-host WCF REST service.&lt;/p&gt;
+
+&lt;p&gt;When I try to issue a GET via browser or Fiddler, I get a 400 Bad Request.  Tracing is reporting an inner exception of XmlException &quot;The body of the message cannot be read because it is empty.&quot;&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t have any configuration in app.config (do I need any?).  I have tried changing WebServiceHost to ServiceHost, and WSDL is returned, but the operations still return 400.&lt;/p&gt;
+
+&lt;p&gt;What am I missing here?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Add Reference to System.ServiceModel and System.ServiceModel.Web
+using System;
+using System.Diagnostics;
+using System.ServiceModel;
+using System.ServiceModel.Description;
+using System.ServiceModel.Web;
+
+namespace WCFRESTTest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var baseAddress = new Uri(&quot;http://localhost:8000/&quot;);
+            var host = new WebServiceHost(typeof(RestService), baseAddress);
+
+            try
+            {
+                host.AddServiceEndpoint(typeof(IRestService), new WSHttpBinding(), &quot;RestService&quot;);
+
+                var smb = new ServiceMetadataBehavior();
+                smb.HttpGetEnabled = true;
+                host.Description.Behaviors.Add(smb);
+
+                host.Open();
+                Console.WriteLine(&quot;Service Running.  Press any key to stop.&quot;);
+                Console.ReadKey();
+            }
+            catch(CommunicationException ce)
+            {
+                host.Abort();
+                throw;
+            }
+        }
+    }
+
+    [ServiceContract]
+    public interface IRestService
+    {
+        [OperationContract]
+        [WebGet(UriTemplate = &quot;Test&quot;)]
+        bool Test();
+    }
+
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
+    public class RestService : IRestService
+    {
+        public bool Test()
+        {
+            Debug.WriteLine(&quot;Test Called.&quot;);
+            return true;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15705652</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">inserting EQUALOP error in SML</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sml"/><category scheme="http://stackoverflow.com/feeds/tags" term="smlnj"/>
+        <author>
+            <name>user2224723</name>
+            <uri>http://stackoverflow.com/users/2224723</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15705652/inserting-equalop-error-in-sml" />
+        <published>2013-03-29T14:49:36Z</published>
+        <updated>2013-03-29T15:27:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to swap elements in a list in ML. My swap function returns the error inserting EQUALOP. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;fun swap(n:int, i:int, deck:card list) =
+                local
+                    val card1_removed = nth(deck,i)
+                    val card2_removed = nth(deck,n)
+                in
+                    val deck = remove(deck,i)
+                    val deck = remove(deck,n)
+                    val deck = insert_at(deck,n,card1_removed)
+                    val deck = insert_at(deck,i,card2_removed)
+                    print_cards(deck);
+                end;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any suggestions?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15704751</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Altering Spring security 3.1 custom login standard names</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="hibernate"/><category scheme="http://stackoverflow.com/feeds/tags" term="spring-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="spring-security"/>
+        <author>
+            <name>apremalal</name>
+            <uri>http://stackoverflow.com/users/1400204</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15704751/altering-spring-security-3-1-custom-login-standard-names" />
+        <published>2013-03-29T13:57:31Z</published>
+        <updated>2013-03-29T15:28:27Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using spring security 3.1 with Hibernate and used  a Custom UserdetailsService class and a custom login page  for authentication.&lt;/p&gt;
+
+&lt;p&gt;Question is how can I get rid of using the standard spring security naming conventions in login form,&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;j_spring_security_check&lt;/code&gt;,&lt;br/&gt;
+&lt;code&gt;j_spring_security_logout&lt;/code&gt;,&lt;br/&gt;
+&lt;code&gt;j_username&lt;/code&gt; – Username,&lt;br/&gt;
+&lt;code&gt;j_password&lt;/code&gt; – Password&lt;/p&gt;
+
+&lt;p&gt;and use alternatives.&lt;/p&gt;
+
+&lt;p&gt;Spring security docs says that it is not a good practice to reveal these details.But I couldn&#39;t find any example on how to use custom urls for this purpose.&lt;/p&gt;
+
+&lt;p&gt;It will be greatly appreciated if someone could provide an example implementation. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15704680</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Flask handle_exception doesn&#39;t work with test_request_context</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="flask"/>
+        <author>
+            <name>cjauvin</name>
+            <uri>http://stackoverflow.com/users/787842</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15704680/flask-handle-exception-doesnt-work-with-test-request-context" />
+        <published>2013-03-29T13:53:17Z</published>
+        <updated>2013-03-29T15:28:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I noticed that &lt;code&gt;app.handle_exception&lt;/code&gt; doesn&#39;t seem to be called when the exception occurs with an &lt;code&gt;app.test_request_context&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from flask import *
+
+app = Flask(__name__)
+app.handle_exception = lambda e: &#39;exception!&#39;
+
+@app.route(&#39;/foo&#39;)
+def foo():
+    x = 1 / 0
+    return &#39;ok&#39;
+
+if __name__ == &#39;__main__&#39;:
+    #app.run(port=81) # handle_exception works here
+    with app.test_request_context(&#39;/foo&#39;):
+        print app.dispatch_request() # but not here
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is this the expected behavior?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15703991</id>
+        <re:rank scheme="http://stackoverflow.com">4</re:rank>
+        <title type="text">Use different versions of dll file in one app</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term=".net"/><category scheme="http://stackoverflow.com/feeds/tags" term="dll"/><category scheme="http://stackoverflow.com/feeds/tags" term="visual-studio-2012"/><category scheme="http://stackoverflow.com/feeds/tags" term="newtonsoft"/>
+        <author>
+            <name>Islam Ahmed</name>
+            <uri>http://stackoverflow.com/users/2165337</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15703991/use-different-versions-of-dll-file-in-one-app" />
+        <published>2013-03-29T13:14:15Z</published>
+        <updated>2013-03-29T15:28:09Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have an c# application with two libraries ( moon-apns, tweetsharp ) .. Each library has a reference for newtonsoft.json.dll but different versions ... My app build successfully but one library works fine and the other one throws an exception ( can&#39;t find the dll file ).&lt;/p&gt;
+
+&lt;p&gt;I think that when i build only one version goes to the bin folder, but i don&#39;t know what to do.&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15703972</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Can&#39;t get Autobahn example to work (js and python)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="autobahn"/>
+        <author>
+            <name>Fabian Henze</name>
+            <uri>http://stackoverflow.com/users/1110748</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15703972/cant-get-autobahn-example-to-work-js-and-python" />
+        <published>2013-03-29T13:12:43Z</published>
+        <updated>2013-03-29T15:28:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to get started with WAMP using the AutobahnPython and AutobahnJS library, but I can&#39;t get the official examples to work.
+Here is what I did:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip-2.7 install autobahn    # this gave me ab 0.5.14, but I tried 0.6-git too
+git clone git://github.com/tavendo/AutobahnPython.git
+git checkout maintenance_v0_5
+cd AutobahnPython/examples/wamp/authentication/
+python2.7 server.py debug
+firefox http://localhost:8080
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I get the following in the debug output of the server:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;2013-03-29 15:11:23+0100 [-] Log opened.
+2013-03-29 15:11:23+0100 [-] WampServerFactory starting on 9000
+2013-03-29 15:11:23+0100 [-] Starting factory &amp;lt;autobahn.wamp.WampServerFactory instance at 0x132b5a8&amp;gt;
+2013-03-29 15:11:23+0100 [-] WampServerFactory starting
+2013-03-29 15:11:23+0100 [-] Site starting on 8080
+2013-03-29 15:11:23+0100 [-] Starting factory &amp;lt;twisted.web.server.Site instance at 0x1779b90&amp;gt;
+2013-03-29 15:11:28+0100 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [29/Mar/2013:14:11:27 +0000] &quot;GET / HTTP/1.1&quot; 200 3429 &quot;-&quot; &quot;Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0&quot;
+2013-03-29 15:11:29+0100 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [29/Mar/2013:14:11:28 +0000] &quot;GET /favicon.ico HTTP/1.1&quot; 404 145 &quot;-&quot; &quot;Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0&quot;
+2013-03-29 15:11:29+0100 [MyServerProtocol,0,127.0.0.1] TX WAMP: [0, &quot;H0tcxzZW7g2aUKQ4&quot;, 1, &quot;Autobahn/0.5.14&quot;]
+2013-03-29 15:11:29+0100 [MyServerProtocol,0,127.0.0.1] registered remote method on http://api.wamp.ws/procedure#auth
+2013-03-29 15:11:29+0100 [MyServerProtocol,0,127.0.0.1] registered remote method on http://api.wamp.ws/procedure#authreq
+2013-03-29 15:11:29+0100 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [29/Mar/2013:14:11:28 +0000] &quot;GET /favicon.ico HTTP/1.1&quot; 404 145 &quot;-&quot; &quot;Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0&quot;
+2013-03-29 15:11:29+0100 [MyServerProtocol,0,127.0.0.1] RX WAMP: [2,&quot;0.42w1p52zq5g&quot;,&quot;http://api.wamp.ws/procedure#authreq&quot;,&quot;foobar&quot;,null]
+2013-03-29 15:11:29+0100 [MyServerProtocol,0,127.0.0.1] TX WAMP: [3, &quot;0.42w1p52zq5g&quot;, &quot;{\&quot;extra\&quot;: {}, \&quot;timestamp\&quot;: \&quot;2013-03-29T14:11:29Z\&quot;, \&quot;authid\&quot;: \&quot;PmRmYauw3-2S_4Wh\&quot;, \&quot;authkey\&quot;: \&quot;foobar\&quot;, \&quot;sessionid\&quot;: \&quot;H0tcxzZW7g2aUKQ4\&quot;, \&quot;authextra\&quot;: {\&quot;keylen\&quot;: 32, \&quot;salt\&quot;: \&quot;RANDOM SALT\&quot;, \&quot;iterations\&quot;: 10000}, \&quot;permissions\&quot;: {\&quot;rpc\&quot;: [{\&quot;call\&quot;: true, \&quot;uri\&quot;: \&quot;http://example.com/procedures/hello\&quot;}], \&quot;pubsub\&quot;: [{\&quot;prefix\&quot;: true, \&quot;uri\&quot;: \&quot;http://example.com/topics/\&quot;, \&quot;pub\&quot;: true, \&quot;sub\&quot;: true}]}}&quot;]
+2013-03-29 15:11:29+0100 [MyServerProtocol,0,127.0.0.1] RX WAMP: [2,&quot;0.35zpscr4dpf&quot;,&quot;http://api.wamp.ws/procedure#auth&quot;,&quot;4xs7OnDnqHP+DiMqLnK95s36eiEhMRbkbUcRPJRHoOY=&quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and finally the following error both server and client (browser log):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;2013-03-29 15:11:29+0100 [MyServerProtocol,0,127.0.0.1] TX WAMP: [4, &quot;0.35zpscr4dpf&quot;, &quot;http://api.wamp.ws/error#invalid-signature&quot;, &quot;signature for authentication request is invalid&quot;]
+2013-03-29 15:11:34+0100 [MyServerProtocol,0,127.0.0.1] RX WAMP: [7,&quot;http://example.com/topics/mytopic1&quot;,&quot;Hello, world!&quot;]
+2013-03-29 15:11:34+0100 [MyServerProtocol,0,127.0.0.1] no topic / publication handler registered for http://example.com/topics/mytopic1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Whats wrong here? is this my fault?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15694654</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How do I set the consistency level for a counter column family in Cassandra</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="cassandra"/>
+        <author>
+            <name>Alastor Moody</name>
+            <uri>http://stackoverflow.com/users/1647211</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15694654/how-do-i-set-the-consistency-level-for-a-counter-column-family-in-cassandra" />
+        <published>2013-03-29T00:45:55Z</published>
+        <updated>2013-03-29T15:28:22Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a keyspace already defined. Can I set the consistency level for a counter column family (read and write) to ALL without affecting the rest of the keyspace? I cannot figure out how to do it from the help in the cli, but I suppose it should be possible. Something along the lines of:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;update column family COUNTERS with ________
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am using the Java Hector API.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15689260</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">traitsui file dialog changes active window</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="enthought"/><category scheme="http://stackoverflow.com/feeds/tags" term="traitsui"/>
+        <author>
+            <name>aestrivex</name>
+            <uri>http://stackoverflow.com/users/2040716</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15689260/traitsui-file-dialog-changes-active-window" />
+        <published>2013-03-28T18:14:49Z</published>
+        <updated>2013-03-29T15:28:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a large application that has many small windows.  I wanted to use traitsui&#39;s file dialog to open some files from these windows.  However, when I do, the file dialog correctly spawns and picks a file, but it also consistently switches the active window to an undesirable window after it is finished.  I am really confused why.&lt;/p&gt;
+
+&lt;p&gt;Here is a simplified test which displays the same problem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from traitsui.api import *
+from traits.api import *
+from traitsui.file_dialog import *
+
+class BigApplication(HasTraits):
+  subwindow=Instance(HasTraits)
+  open_subwindow=Button(&#39;clickme&#39;)
+
+  traits_view=View(Item(name=&#39;open_subwindow&#39;),height=500,width=500)
+
+  def _subwindow_default(self):
+    return Subwindow()
+
+  def _open_subwindow_fired(self):
+    self.subwindow.edit_traits()
+
+class Subwindow(HasTraits):
+  f=File
+  some_option = Bool
+  openf=Button(&#39;Browse for file&#39;)
+
+  traits_view=View(Item(name=&#39;f&#39;,style=&#39;text&#39;),
+                Item(name=&#39;some_option&#39;),
+                Item(name=&#39;openf&#39;),buttons=OKCancelButtons)
+
+  def _openf_fired(self):
+    self.f=open_file()
+
+BigApplication().configure_traits()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When open_file returns and selects the desired file, the active window is switched to the BigApplication window and not back to the Subwindow window (so that the user can select some additional options before clicking OK).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15673843</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Authorization failure at different devices (Android Google Map API v2)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-maps"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-maps-android-api-2"/>
+        <author>
+            <name>user2174595</name>
+            <uri>http://stackoverflow.com/users/2174595</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15673843/authorization-failure-at-different-devices-android-google-map-api-v2" />
+        <published>2013-03-28T03:37:49Z</published>
+        <updated>2013-03-29T15:28:17Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I succeeded in running google map in my app on the tablet(ASUS TF201). However, it can&#39;t work on my other Android mobile phones(Samsung, HTC...).&lt;/p&gt;
+
+&lt;p&gt;I use SHA1 generated by keytool, register on google api console, and get the debug key. Import lib and set permission step by step.&lt;/p&gt;
+
+&lt;p&gt;Console appears this wherever I run it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[2013-03-28 11:19:18 - google-play-services_lib] Could not find google-play-services_lib.apk!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Appear on the tablet which works well,too.&lt;/p&gt;
+
+&lt;p&gt;Failure if it&#39;s with below logcat:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; 03-28 11:10:56.382: E/Google Maps Android API(32067): Failed to load map.  Could not contact Google servers.
+    03-28 11:03:54.165: E/Google Maps Android API(9610): Authorization failure.
+    03-28 11:03:55.135: D/dalvikvm(9610): GC_CONCURRENT freed 286K, 13% free 10643K/12231K, paused 24ms+3ms, total 89ms
+    03-28 11:03:55.580: E/Google Maps Android API(9610): Failed to load map.  Could not contact Google servers.
+    03-28 11:03:55.595: E/Google Maps Android API(9610): Failed to load map.  Could not contact Google servers.
+    03-28 11:03:56.085: E/Google Maps Android API(9610): Failed to load map.  Could not contact Google servers.
+    ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I can&#39;t find which steps I missed. Please give me some suggestion if you knew.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15538433</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">Unity3d how to reference swipe control from another script?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="unity3d"/><category scheme="http://stackoverflow.com/feeds/tags" term="swipe"/>
+        <author>
+            <name>Steve</name>
+            <uri>http://stackoverflow.com/users/1055954</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15538433/unity3d-how-to-reference-swipe-control-from-another-script" />
+        <published>2013-03-21T02:31:33Z</published>
+        <updated>2013-03-29T15:27:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have tried every which way possible to get this to work with no success. I have a swipe script and a game/control script. I am trying to reference the swipe control in my control script as the means to control my character. So far I am getting only one error from within Unity.&lt;/p&gt;
+
+&lt;p&gt;Assets/RuinRunStarterKit/Scripts/csTempleRun.cs(307,25): error CS1501: No overload for method &lt;code&gt;UpdatePlayer&#39; takes&lt;/code&gt;0&#39; arguments&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve tried adding TouchDetector.enTouchType within the parenthesis of UpdatePlayer but that gives me three errors rather than just one. I&#39;ve contacted numerous people and visited numerous sites looking for answers but have failed to yield a working result. I am not educated in programming. I have only researched online to figure out how to do something as far as programming goes. The second script I have here is from an Asset I purchased on the Unity Asset Store. I have contacted them for support for adding swipe controls and they emailed me the touch script but failed to tell me how to implement it. I just want to play this game on my phone with swipe as the controls. This is for personal use. I would really really appreciate it if someone could help me achieve the desired results. Again, I want to be able to control the character using swipe. Thank you. Here are my scripts:&lt;/p&gt;
+
+&lt;p&gt;TouchDetector.cs;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    using UnityEngine;
+    using System.Collections;
+
+    public class TouchDetector : MonoBehaviour {
+public delegate void deTouchEvent
+    (enTouchType touchType);
+
+public static event
+    deTouchEvent
+    evTouchEvent;
+
+public enum enTouchType
+{
+    SwipeLeft,
+    SwipeRight,
+    SwipeDown,
+    SwipeUp,
+}   
+
+void Start ()
+{   
+}   
+
+void Update ()
+{   
+    if (evTouchEvent == null)
+        return;
+
+    if (Input.GetKeyDown(KeyCode.UpArrow   )) evTouchEvent(enTouchType.SwipeUp   );
+    if (Input.GetKeyDown(KeyCode.DownArrow )) evTouchEvent(enTouchType.SwipeDown );
+    if (Input.GetKeyDown(KeyCode.LeftArrow )) evTouchEvent(enTouchType.SwipeLeft );
+    if (Input.GetKeyDown(KeyCode.RightArrow)) evTouchEvent(enTouchType.SwipeRight);
+
+    if (Input.touchCount &amp;gt; 0)
+    {
+        foreach (Touch t in Input.touches)
+        {
+            Vector3 swipe = t.deltaPosition * t.deltaTime;
+
+            if (swipe.y &amp;gt;  0.5f) evTouchEvent(enTouchType.SwipeUp   );
+            if (swipe.y &amp;lt; -0.5f) evTouchEvent(enTouchType.SwipeDown );
+            if (swipe.x &amp;gt;  0.5f) evTouchEvent(enTouchType.SwipeRight);
+            if (swipe.x &amp;lt; -0.5f) evTouchEvent(enTouchType.SwipeLeft );
+        }
+    }
+}
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;csTempleRun.cs;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    void Update () 
+    {   
+        UpdatePlayer();
+
+        if (m_player != null)
+        {
+            // Make the camera follow the player (if active)
+            SmoothFollow sF = (SmoothFollow)Camera.mainCamera.GetComponent(typeof(SmoothFollow));
+            sF.target = m_player.transform;         
+
+            // Check for collisions with interactive objects
+            UpdateCoins();
+            UpdateMines();
+
+            // Dynamically update the track
+            CreateNewCellsIfNeeded(false);
+        }       
+    }
+
+
+    private void UpdatePlayer(TouchDetector.enTouchType T)
+{
+    // if the player is dead (replaced with ragdoll) then exit since none of this code should fire.
+    if (m_player == null) 
+    {
+        return;     
+    }
+
+
+
+    // Gradually increase the players&#39; running speed, and update the animation to match.
+    m_playerRunSpeed += Time.deltaTime * 0.005f;
+    m_playerRunSpeed = Mathf.Clamp(m_playerRunSpeed, 0.5f, 3.0f);
+    m_player.animation[&quot;run&quot;].speed = m_playerRunSpeed * 2.0f;
+
+    // ****************************************************************************************
+    // INPUT
+
+    // Player can only turn if they are not already sliding / jumping.  
+    // Equally, sliding / jumping are mutually exclusive.
+
+    if (Input.GetKeyDown (KeyCode.LeftArrow)&amp;amp;&amp;amp; m_playerJump &amp;lt;= -1.0f &amp;amp;&amp;amp; m_playerSlide &amp;lt;=0.0f)
+    {
+        if (m_playerDirection == enCellDir.North) m_playerNextDirection = enCellDir.West;
+        if (m_playerDirection == enCellDir.East ) m_playerNextDirection = enCellDir.North;
+        if (m_playerDirection == enCellDir.South) m_playerNextDirection = enCellDir.East;
+        if (m_playerDirection == enCellDir.West ) m_playerNextDirection = enCellDir.South;
+    }
+
+    if (Input.GetKeyDown(KeyCode.RightArrow) &amp;amp;&amp;amp; m_playerJump &amp;lt;= -1.0f &amp;amp;&amp;amp; m_playerSlide &amp;lt;=0.0f)
+    {
+        if (m_playerDirection == enCellDir.North) m_playerNextDirection = enCellDir.East;
+        if (m_playerDirection == enCellDir.East ) m_playerNextDirection = enCellDir.South;
+        if (m_playerDirection == enCellDir.South) m_playerNextDirection = enCellDir.West;
+        if (m_playerDirection == enCellDir.West ) m_playerNextDirection = enCellDir.North;
+    }   
+
+    if (T==TouchDetector.enTouchType.SwipeDown &amp;amp;&amp;amp; m_playerJump &amp;lt;= -1.0f &amp;amp;&amp;amp; m_playerSlide &amp;lt;=0.0f)
+    {
+        m_playerSlide = 1.0f;
+        m_player.animation.Play(&quot;slide_fake&quot;);
+    }            
+
+    if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space)) &amp;amp;&amp;amp; m_playerJump &amp;lt;= -1.0f &amp;amp;&amp;amp; m_playerSlide &amp;lt;=0.0f)
+    {
+        AudioSource.PlayClipAtPoint(m_jumpAudio, m_player.transform.position);
+        m_playerJump = 1.0f;
+        m_playerYvel = 0.0f;
+        m_player.animation.Play(&quot;jump&quot;);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I hope I&#39;m not doing anything wrong by posting this script but I feel I need to post this in order to get the help I need. You&#39;ll notice in the csTempleRun.cs script that I replaced one of the KeyCode calls with TouchDetector.enTouchType.SwipeDown. Yet I am still getting an error. Thank you in advance for anyone&#39;s help. Thank you for your time as well.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15463112</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Stereo images rectification and disparity: which algorithms?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="image"/><category scheme="http://stackoverflow.com/feeds/tags" term="algorithm"/><category scheme="http://stackoverflow.com/feeds/tags" term="stereo-3d"/><category scheme="http://stackoverflow.com/feeds/tags" term="disparity-mapping"/>
+        <author>
+            <name>alessandro.francesconi</name>
+            <uri>http://stackoverflow.com/users/901046</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15463112/stereo-images-rectification-and-disparity-which-algorithms" />
+        <published>2013-03-17T16:22:18Z</published>
+        <updated>2013-03-29T15:28:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to figure out what are currently the two most efficent algorithms that permit, starting from a L/R pair of stereo images created using a traditional camera (so affected by some epipolar lines misalignment), to produce a pair of adjusted images plus their depth information by looking at their disparity.&lt;/p&gt;
+
+&lt;p&gt;Actually I&#39;ve found lots of papers about these two methods, like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&quot;Computing Rectifying Homographies for Stereo Vision&quot; (Zhang - seems one of the best for rectification only)&lt;/li&gt;
+&lt;li&gt;&quot;Three-step image rectiﬁcation&quot; (Monasse)&lt;/li&gt;
+&lt;li&gt;&quot;Rectification and Disparity&quot; (slideshow by Navab)&lt;/li&gt;
+&lt;li&gt;&quot;A fast area-based stereo matching algorithm&quot; (Di Stefano - seems a bit inaccurate)&lt;/li&gt;
+&lt;li&gt;&quot;Computing Visual Correspondence with Occlusions via Graph Cuts&quot; (Kolmogorov - this one produces a very good disparity map, with also occlusion informations, but is it efficient?)&lt;/li&gt;
+&lt;li&gt;&quot;Dense Disparity Map Estimation Respecting Image Discontinuities&quot; (Alvarez - toooo long for a first review)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Anyone could please give me some advices for orienting into this wide topic? &lt;/p&gt;
+
+&lt;p&gt;What kind of algorithm/method should I treat first, considering that I&#39;ll work on a very simple input: a pair of left and right images and nothing else, no more information (some papers are based on additional, pre-taken, calibration infos)?&lt;/p&gt;
+
+&lt;p&gt;Speaking about working implementations, the only interesting results I&#39;ve seen so far belongs to this piece of software, but only for automatic rectification, not disparity: &lt;a href=&quot;http://stereo.jpn.org/eng/stphmkr/index.html&quot; rel=&quot;nofollow&quot;&gt;http://stereo.jpn.org/eng/stphmkr/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried the &quot;auto-adjustment&quot; feature and seems really effective. Too bad there is no source code...&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/12945746</id>
+        <re:rank scheme="http://stackoverflow.com">7</re:rank>
+        <title type="text">iOS autolayout performance issue in portrait mode. [NSISEngine optimize]</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="autolayout"/>
+        <author>
+            <name>Tobi</name>
+            <uri>http://stackoverflow.com/users/384916</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/12945746/ios-autolayout-performance-issue-in-portrait-mode-nsisengine-optimize" />
+        <published>2012-10-18T01:16:31Z</published>
+        <updated>2013-03-29T15:28:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have encountered a very strange problem and i was wondering, if anyone could help me out here since i&#39;m totally lost. &lt;/p&gt;
+
+&lt;p&gt;Context:
+I am developing in app with a relatively simple hierarchy, just a few view controller but quite a lot of high-res images. They are presented in a ScrollView with some text etc. While testing it in portrait mode the scrollview didn&#39;t scroll smoothly at all. It seemed like the framerate drop to about 4-5 fps. First I thought it was because of the high-res images.&lt;/p&gt;
+
+&lt;p&gt;But then i turned the iPad to landscape mode and everything ran smoothly. Since the I have a separate xib-file for portrait and landscape. So I thought that there has to be a problem in the portrait-xib. As it turned out, there wasn&#39;t. Both had the same VC-class and where therefore using the same code and both xibs are almost identical except for the sizes and positions of the views. &lt;/p&gt;
+
+&lt;p&gt;To narrow down to the problem I used Instrument&#39;s TimeProfiler to see whats causing the problem. As it turned out, TimeProfiler showed some calls to [NSISEngine optimize] (triggered by NSLayoutConstraint). And in portrait mode there were both more calls and also those calls took much longer. Further down the tree I saw that in portrait mode NSISEngine optimize called [NSISEngine fixupIntegralizationViolations] and in landscape it didn&#39;t.&lt;/p&gt;
+
+&lt;p&gt;I even removed all the viewcontroller&#39;s from the app except for the rootVC and one other which is presented by the rootVC. The presented vc just contains some images, buttons and some animations. It has only one xib for both orientations and is (as all others too) layed out with autolayout. &lt;/p&gt;
+
+&lt;p&gt;The layout works as it should in both orientations and there are no ambiguities (as far as i can tell. at least &quot;po [[UIWindow keyWindow] _autolayoutTrace]&quot; doesn&#39;t show any).&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve attached a screenshot of the TimeProfile of the presentation process of the vc. One for portrait and one for landscape. As you can see, in landscape the calls to NSISEngine optimize take only a millisecond while in portrait they take over 3000ms.&lt;/p&gt;
+
+&lt;p&gt;Is there anyone who can tell me why that is? Or maybe has any idea what I can do to find out what the problem is? &lt;/p&gt;
+
+&lt;p&gt;Any help would be greatly appreciated!&lt;/p&gt;
+
+&lt;p&gt;Thx&lt;/p&gt;
+
+&lt;p&gt;Link to a larger version of the image: &lt;a href=&quot;http://www.pic-upload.de/view-16503686/iOS_AutoLayout_Performance_Issue.jpg.html&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/kVSen.jpg&quot; alt=&quot;Instruments Timeprofiler screenshot&quot;&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/11856632</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Run git gc on multiple repositories</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="git"/><category scheme="http://stackoverflow.com/feeds/tags" term="bash"/>
+        <author>
+            <name>linquize</name>
+            <uri>http://stackoverflow.com/users/1031218</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/11856632/run-git-gc-on-multiple-repositories" />
+        <published>2012-08-08T01:56:48Z</published>
+        <updated>2013-03-29T15:28:02Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a git repository root at &lt;code&gt;/git&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;There are different depth of paths, such as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/git/project/project1/module1.git
+/git/project/project1/module2.git
+/git/project/project2/dev/module1.git
+/git/library/libgit2.git
+/git/library/jquery/jquery.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How to I run &lt;code&gt;git gc&lt;/code&gt; recursively in all repos inside &lt;code&gt;/git&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;I would prefer to use a shell script to iterate over the repositories: If that directory is not a valid git repository, do not run &lt;code&gt;git gc&lt;/code&gt;.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

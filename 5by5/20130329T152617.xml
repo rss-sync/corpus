@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>5by5 Master Audio Feed</title>
+    <link>http://5by5.tv/</link>
+    <pubDate>Fri, 29 Mar 2013 00:00:00 GMT</pubDate>
+    <description>5by5 - All Audio Broadcasts</description>
+    <language>en-us</language>
+    <itunes:new-feed-url>http://feeds.5by5.tv/master</itunes:new-feed-url>
+    <itunes:subtitle>5by5 - All Audio Broadcasts</itunes:subtitle>
+    <itunes:author>5by5 and Dan Benjamin</itunes:author>
+    <itunes:summary>5by5 is an internet broadcast studio making podcasts for people like you.</itunes:summary>
+    <itunes:image href="http://5by5.tv/assets/5by5-itunes.jpg"/>
+    <itunes:keywords>5by5, 5x5, 5 by 5, five by five</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>5by5 Studios and Dan Benjamin</itunes:name>
+      <itunes:email>itunes@5by5.tv</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <item>
+      <title>The Big Web Show 86: Monkey Do</title>
+      <link>http://5by5.tv/bigwebshow/86</link>
+      <guid>http://5by5.tv/bigwebshow/86</guid>
+      <pubDate>Fri, 29 Mar 2013 00:00:00 GMT</pubDate>
+      <author>Jeffrey Zeldman</author>
+      <description>Jeffrey Zeldman interviews Monkey Do studio co-founders Michael Pick and Tim Murtaugh, the design and development team behind the A List Apart and An Event Apart redesigns, HTML5 Reset, Edible City, and client projects including Scientific American, World Science Festival, and EconoMonitor.
+
+Mike, Tim, and Jeffrey discuss the A List Apart redesign, responsive images and type, CSS Zen Garden, organic design processes, the future of CMS systems, designing a food truck app, and more.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/bigwebshow/2013/bigwebshow-086.mp3" length="26148415" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Jeffrey Zeldman interviews Monkey Do studio co-founders Michael Pick and Tim Murtaugh, the design and development team behind the A List Apart and An Event Apart redesigns, HTML5 Reset, Edible City, and client projects including Scientific American, World Science Festival, and EconoMonitor.&lt;/p&gt;
+
+&lt;p&gt;Mike, Tim, and Jeffrey discuss the A List Apart redesign, responsive images and type, CSS Zen Garden, organic design processes, the future of CMS systems, designing a food truck app, and more.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://monkeydo.biz" class="link" target="_blank"&gt;http://monkeydo.biz&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/mikepick" class="link" target="_blank"&gt;https://twitter.com/mikepick&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/murtaugh" class="link" target="_blank"&gt;https://twitter.com/murtaugh&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://html5reset.org" class="link" target="_blank"&gt;http://html5reset.org&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://github.com/murtaugh/HTML5-Reset" class="link" target="_blank"&gt;https://github.com/murtaugh/HTML5-Reset&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://alistapart.com" class="link" target="_blank"&gt;http://alistapart.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://aneventapart.com" class="link" target="_blank"&gt;http://aneventapart.com&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This episode is sponsored by Shutterstock.com. Get 30% off any package with discount code “BIGWEBSHOW3.”&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Jeffrey Zeldman</itunes:author>
+      <itunes:duration>53:52</itunes:duration>
+      <itunes:subtitle>Jeffrey Zeldman interviews Monkey Do studio co-founders Michael Pick and Tim Murtaugh, the design and development team behind the A List Apart and An Event Apart redesigns, HTML5 Reset, Edible City, and client projects including Scientific American, World</itunes:subtitle>
+      <itunes:summary>Jeffrey Zeldman interviews Monkey Do studio co-founders Michael Pick and Tim Murtaugh, the design and development team behind the A List Apart and An Event Apart redesigns, HTML5 Reset, Edible City, and client projects including Scientific American, World Science Festival, and EconoMonitor.
+
+Mike, Tim, and Jeffrey discuss the A List Apart redesign, responsive images and type, CSS Zen Garden, organic design processes, the future of CMS systems, designing a food truck app, and more.
+</itunes:summary>
+      <itunes:keywords>web design, mobile apps, content design, ux, web standards, jeffrey zeldman</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/7/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fbigwebshow%2F86&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 32: Thursday, 28 March, 2013</title>
+      <link>http://5by5.tv/news/32</link>
+      <guid>http://5by5.tv/news/32</guid>
+      <pubDate>Thu, 28 Mar 2013 16:00:00 GMT</pubDate>
+      <author>Haddie Cooke &amp; Dan Benjamin</author>
+      <description>The news for Thursday, 28 March, 2013.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-032.mp3" length="3193742" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Thursday, 28 March, 2013.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Haddie Cooke &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>5:59</itunes:duration>
+      <itunes:subtitle>The news for Thursday, 28 March, 2013.</itunes:subtitle>
+      <itunes:summary>The news for Thursday, 28 March, 2013.
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F32&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Frequency 112: The Inverse of the Wood </title>
+      <link>http://5by5.tv/frequency/112</link>
+      <guid>http://5by5.tv/frequency/112</guid>
+      <pubDate>Thu, 28 Mar 2013 14:00:00 GMT</pubDate>
+      <author>Haddie Cooke &amp; Dan Benjamin</author>
+      <description>Dan and Haddie are joined by Myke Hurley to discuss the news of the day and Haddie gets back at Myke for a previous American Fact quiz with a "Britishisms" quiz. Dan also discusses the running of a grand English manor and how it relates to Wayne Manor with Myke and much more.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/frequency/2013/frequency-112.mp3" length="23385679" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Dan and Haddie are joined by Myke Hurley to discuss the news of the day and Haddie gets back at Myke for a previous American Fact quiz with a "Britishisms" quiz. Dan also discusses the running of a grand English manor and how it relates to Wayne Manor with Myke and much more.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.bbc.co.uk/news/technology-21954636" class="link" target="_blank"&gt;BBC News - Global internet slows after &amp;#x27;biggest attack in history&amp;#x27;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The internet around the world has been slowed down in what security experts are describing as the biggest cyber-attack of its kind in history.A row between a spam-fighting group and hosting firm has sparked retaliation attacks affecting the wider internet.It is having an impact on popular services like Netflix - and experts worry it could escalate to affect banking and email systems.Five national cyber-police-forces are investigating the attacks.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://gizmodo.com/5992652" class="link" target="_blank"&gt;That Internet War Apocalypse Is a Lie&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;You might've read some headlines today—in very reputable publications—saying that there's an online attack underway. The biggest in history. Enough to slow down the internet. This would be exciting and scary, except it's just not true. The entire thing sounds so dramatic—the swarming DDoS onslaught is "jamming crucial infrastructure around the world," the NYT screams from the trenches—that it sounds just plausible enough. And indeed, the combatants in question have been battling it out online: a conflict between Spamhaus, a Dutch European group that tracks spammers and Cyberbunker, a Dutch hosting company accused of housing them. That's really happening: as far as we can tell, botnets acting on behalf of (or run by) Cyberbunker have been trying to crash Spamhaus for days with a strong stream of overload junk data.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/27/4152602/mailchimp-rewarding-users-ten-percent-off-two-step-security" class="link" target="_blank"&gt;MailChimp rewarding users with ten percent discount for enabling two-step authentication | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google and Apple can't exactly reward customers who make their accounts more secure with two-step authentication — not financially, anyway. Both companies provide free services that require no monthly fee. But for email marketing company MailChimp, it's actually a sensible option. Users that enable two-step security on their accounts will now receive a ten percent discount off their monthly bill.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.macworld.com/article/2031516/hands-on-with-audiobus-and-garageband.html" class="link" target="_blank"&gt;Hands on with Audiobus and GarageBand | Macworld&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;In a recent update, Apple made the iOS version of GarageBand compatible with the popular audio-channeling utility Audiobus. Although Apple provides ways for some apps to communicate with others—Facebook and Twitter hooks built into iOS, for example—until Audiobus came along, moving sound between iOS music apps was a clumsy process that required saving and exporting audio files and then importing them into compatible apps.What Audiobus brings to the table is the ability for compatible apps to communicate with one another, much as PC and Mac audio applications have been able to do for years.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.boyanslat.com/" class="link" target="_blank"&gt;Boyan Slat&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A great project for cleaning up the Garbage Patch in the Atlantic, which is not as cool as Charlie Brown's Pumpkin Patch.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/03/25/the-vamp-old-speakers/" class="link" target="_blank"&gt;Make Old Speakers Bluetooth-Enabled With This Little Gadget&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The London-based Paul Cocksedge Studio is raising funds on Kickstarter to further develop "The Vamp," a cube-like device that attaches to any speaker and adds Bluetooth capability. Instead of buying new Bluetooth speakers, The Vamp sort of makes the retro relevant again, as demonstrated in the video above.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/03/26/net-us-walmart-ecommerce-lockers-idUSBRE92P0WT20130326" class="link" target="_blank"&gt;Wal-Mart steps up its online game with help from stores | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Wal-Mart Stores Inc is ramping up plans to combine its physical stores with online technology, testing the use of lockers to hold goods ordered on the Internet until shoppers pick them up, as the world's largest retailer tries to catch up with e-commerce leader Amazon.com Inc.While Wal-Mart is the leading retailer overall with $466.1 billion in annual sales, it trails Amazon and a handful of other retailers when it comes to selling goods online.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/25/paytango/" class="link" target="_blank"&gt;Fingerprints Instead Of Credit Cards? YC-Backed PayTango Aims To Make Payments Work Through Biometrics | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;As a mechanism for payment, the credit card remains just as hardy as ever. It has so far defied the threat of mobile phones, and less plausibly, QR codes, among many other forms of payment.One YC-backed startup is betting that fingerprints and other forms of biometric identification may be the payment method of the future though. Called PayTango, they’re partnering with local universities to offer a quick and easy way for students to use their fingerprints to pay instead of credit cards.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/26/paul-graham-picky/" class="link" target="_blank"&gt;Paul Graham Says Y Combinator Is Pickier Than Ever, With ‘Hardly Any’ Bad Startups In Current Batch | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Before the pitches kicked off at today’s Y Combinator Demo Day, partner Paul Graham said the incubator was stricter than ever when selecting the current batch — there are 47 companies demonstrating today, compared to 75 in the last session.“There are hardly any startups in this batch that are bad,” Graham said.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/27/4154814/egypt-catches-divers-cutting-internet-cable" class="link" target="_blank"&gt;After service disruption, Egypt arrests three divers severing undersea internet cable | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Recent internet service disruption in parts of Africa, the Middle East, and Asia may have been the result of sabotage. Egypt's coastguard has caught three divers in the act of cutting an underwater internet cable off the port of Alexandria, fueling speculation that the incident could be connected to the outages that affected operator Seacom last week.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/26/4148302/print-your-own-google-glass-and-look-the-part" class="link" target="_blank"&gt;Print your own Google Glass and look the part | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Han Solo, Honest Abe, and even Aristotle are just a few of the people who look absolutely fantastic wearing their Google Glass computers. But unless you're a deep-pocketed developer from the US, chances are nil of getting anywhere near the audacious $1,500 spectacles. So why not do the next best thing and print a pair? That's exactly what Sander Veenhof and Klasien van de Zandschulp did, whom Thomas Ricker, the author of this article, discovered in an Amsterdam cafe cheerfully muttering nonsense into their oblivious eyewear.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.slate.com/blogs/browbeat/2013/03/26/star_trek_series_streaming_free_on_hulu_episodes_of_tng_voyager_enterprise.html" class="link" target="_blank"&gt;Star Trek series streaming free on Hulu: Episodes of TNG, Voyager, Enterprise, and the original that you should watch.&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;This week Hulu is offering free access to every episode of every series of Star Trek that’s ever aired—a true bonanza for trekkers who never quite got into Enterprise or who gave up on Voyager amidst the seven season slog through the Delta Quadrant but are intrigued by (accurate!) rumors that the later seasons are better. But the merely Trek-curious may find the sheer volume of content available daunting. Where to start? Embedded on this page are 10 excellent episodes that don’t lean heavily on long plot arcs or complicated elements of the larger Trek mythos.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/03/27/baseball-swing-technology/" class="link" target="_blank"&gt;New Technology Could Engineer the Perfect Baseball Swing&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;What if a baseball coach could truly determine what a player must do to hit the ball out of the park? New technology is underway that fuses physics and real-time data to help develop the perfect swing.The University of Michigan has been working on a small device that looks at the entire three-dimensional motion of the bat as you swing, and measures reaction time, speed and control.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.engadget.com/2013/03/27/google-glass-made-in-usa/" class="link" target="_blank"&gt;Google Glass will reportedly be built in America, at least initially&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;That $1,500 price tag for Google Glass Explorer Edition? Perhaps it makes a bit more sense considering that US labor will be used to manufacturer it. According to unnamed sources cited by Financial Times, the first run of production-quality Glass headsets will be built in Santa Clara, California. The reason? A lot is riding on the quality of Glass, and it's likely that Google just wants to keep a close eye on every single prototype that leaves the lab. In fact, it's not exactly uncommon -- the outfit did the same for its ill-fated Nexus Q, and Apple is building some of its iMacs here in the states as well.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/27/4153396/googles-knowledge-graph-expands-into-movies-on-android-tablets-thanks" class="link" target="_blank"&gt;Google&amp;#x27;s Knowledge Graph expands into movies on Android tablets thanks to facial recognition | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Not content to let Amazon hold the limelight with its new X-Ray for TV feature unveiled this morning, Google is unveiling a similar feature for movies in the Google Play store. On an Android tablet (and sadly, only on Android tablets), when you hit pause on a movie it will automatically fill the screen with relevant info cards for the actors and music from what you're watching. The information comes from Google's Knowledge Graph, but interestingly Google isn't figuring out which cards to display based solely on the movie's metadata. Instead, it's using facial recognition on the actors and Sound Search on the music to automatically figure out what to display.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/27/netflix-goes-sci-fi-with-its-next-original-series-sense8/" class="link" target="_blank"&gt;Netflix Goes Sci-Fi With Its Next Original Series, Sense8 | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Hot on the heels of Netflix’s original series House Of Cards, the company has announced that it will release a new sci-fi TV series to the platform called Sense8.The show is being developed under the guidance of the Wachowskis, who are responsible for smash hits like the Matrix series of films, V for Vendetta, Cloud Atlas and Speed Racer, as well as J. Michael Straczynski who is the creator behind Changeling, Thor, and Babylon 5.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mediadecoder.blogs.nytimes.com/2013/03/27/a-driving-force-behind-wikipedia-to-step-down/" class="link" target="_blank"&gt;A Driving Force Behind Wikipedia Will Step Down - NYTimes.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sue Gardner, who oversaw a period of rapid growth and evolution of Wikipedia, the free encyclopedia, said she would step down as executive director of the nonprofit foundation that runs it.In an interview on Wednesday, Ms. Gardner, 45, said she would leave in roughly six months, after the Wikimedia Foundation board had picked a successor.She said she wanted to advocate more directly on behalf of an open Internet, by starting a nonprofit group, writing a book or joining an advocacy organization.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.nytimes.com/2013/03/28/sports/the-barkley-marathons-few-know-how-to-enter-fewer-finish.html?pagewanted=all&amp;amp;_r=0" class="link" target="_blank"&gt;The Barkley Marathons - Few Know How to Enter - Fewer Finish - NYTimes.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A 60-hour time limit forces competitors to run, climb and bushwhack for three days with little or no sleep. They endure taunts from the race director, who deliberately keeps the competition’s entry procedure a mystery. It is a race in which there are no comfort stations, and runners cannot use a GPS device or a cellphone.Less than 2 percent of the nearly 800 ultrarunners who have subjected themselves to this punishment — 12 men, the same number as have walked on the moon — have finished the race in its current iteration. The only prize is that after 100 miles, they get to stop.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Numatic_International_Limited" class="link" target="_blank"&gt;Numatic International Limited - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Why UK Vacuums have faces.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.nytimes.com/video/2013/03/27/business/media/100000002141201/morning-men.html" class="link" target="_blank"&gt;Big Changes for ‘Today’ Show?&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The Times’s David Carr and Brian Stelter discuss the possibility of CNN’s Anderson Cooper replacing NBC’s Matt Lauer.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?v=X0fFvfJg6rU&amp;amp;feature=player_embedded" class="link" target="_blank"&gt;Peter Dinklage on The Daily Show - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Peter Dinklage who plays Tyrion Lannister on Game of Thrones coins a new phrase "nerdglaze" and someone has already snapped up nerdglaze.com and YES they did register it with Hover. Boom.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://nerdglaze.com/#1" class="link" target="_blank"&gt;Nerd Glaze on Strikingly&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/28/4156544/samsung-galaxy-s4-preorders-att-april-16th-249-99-price" class="link" target="_blank"&gt;Samsung Galaxy S4 preorders start at AT&amp;amp;T on April 16th for $249.99 | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;AT&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.techspot.com/news/52070-pc-game-sales-hit-20-billion-last-year-no-signs-of-slowing.html" class="link" target="_blank"&gt;PC game sales hit $20 billion last year, no signs of slowing - TechSpot&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Despite declining desktop shipments as well as an increased interest in mobile and social games, the PC gaming market is still holding strong with a growth of 8% last year according DFC analyst David Cole, who was quoted in a recent PC Gaming Alliance (PCGA) report. (The PCGA has released excerpts from two member-exclusive papers spanning all things PC gaming, but you'll have to pay for the full copies).&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.zdnet.com/windows-phone-outsells-iphone-in-seven-markets-blackberry-in-26-7000013236/" class="link" target="_blank"&gt;Windows Phone outsells iPhone in seven markets, BlackBerry in 26 | ZDNet&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The countries where Windows Phone pipped the iOS handset in Q4 2012 were Argentina, India, Poland, Russia, South Africa and the Ukraine. The seventh market was a collection of countries, including Croatia, that IDC labels "rest of central and eastern Europe".&lt;/p&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code FREQUENCY3 for 30% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Haddie Cooke &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>47:49</itunes:duration>
+      <itunes:subtitle>Dan and Haddie are joined by Myke Hurley to discuss the news of the day and Haddie gets back at Myke for a previous American Fact quiz with a "Britishisms" quiz. Dan also discusses the running of a grand English manor and how it relates to Wayne Manor wit</itunes:subtitle>
+      <itunes:summary>Dan and Haddie are joined by Myke Hurley to discuss the news of the day and Haddie gets back at Myke for a previous American Fact quiz with a "Britishisms" quiz. Dan also discusses the running of a grand English manor and how it relates to Wayne Manor with Myke and much more.
+</itunes:summary>
+      <itunes:keywords>frequency, dan benjamin, haddie cooke, news, tech, events, technology</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/41/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Ffrequency%2F112&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>In Beta 42: The Internet Doesn't Write an Apology</title>
+      <link>http://5by5.tv/inbeta/42</link>
+      <guid>http://5by5.tv/inbeta/42</guid>
+      <pubDate>Thu, 28 Mar 2013 02:00:00 GMT</pubDate>
+      <author>Gina Trapani &amp; Kevin Purdy</author>
+      <description>Gina and Kevin discuss what responsibility social networks have to moderate hate speech and death threats in light of the PyCon kerfuffle. Then, Kevin goes on a mission to find out exactly what it takes to leave email behind for real.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/inbeta/2013/inbeta-042.mp3" length="30227289" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Gina and Kevin discuss what responsibility social networks have to moderate hate speech and death threats in light of the PyCon kerfuffle. Then, Kevin goes on a mission to find out exactly what it takes to leave email behind for real.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="https://www.dropbox.com/s/yhg84q5sj2gbsak/Proof_of_In_Beta_stickers.jpg" class="link" target="_blank"&gt;Photo - Proof of In Beta stickers&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://allthingsd.com/20130327/fired-sendgrid-developer-evangelist-adria-richards-speaks-out/" class="link" target="_blank"&gt;Fired SendGrid Developer Evangelist Adria Richards Speaks Out - Liz Gannes - News - AllThingsD&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.wired.com/threatlevel/2012/07/ff_anonymous/all/" class="link" target="_blank"&gt;How Anonymous Picks Targets, Launches Attacks, and Takes Powerful Organizations Down&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/inbeta/21" class="link" target="_blank"&gt;5by5 | In Beta #21: Check Yourself Before You Wreck Yourself&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0743291484/5by5-20" class="link" target="_blank"&gt;The Year of Living Biblically: One Man&amp;#x27;s Humble Quest to Follow the Bible as Literally as Possible: A. J. Jacobs: 9780743291484: Amazon.com: Books&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.thefilterbubble.com/" class="link" target="_blank"&gt;The Filter Bubble&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://shopify.com/5by5"&gt;Shopify&lt;/a&gt;, and &lt;a href="http://getharvest.com/5by5"&gt;Harvest&lt;/a&gt; (use code 5BY5 for 50% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Gina Trapani &amp; Kevin Purdy</itunes:author>
+      <itunes:duration>1:02:20</itunes:duration>
+      <itunes:subtitle>The PyCon kerfuffle and Kevin's week-long attempt to leave email behind forever.</itunes:subtitle>
+      <itunes:summary>Gina and Kevin discuss what responsibility social networks have to moderate hate speech and death threats in light of the PyCon kerfuffle. Then, Kevin goes on a mission to find out exactly what it takes to leave email behind for real.
+</itunes:summary>
+      <itunes:keywords>web, open source software, oss, tools, mobile, social</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/37/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Finbeta%2F42&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 31: Wednesday, 27 March, 2013</title>
+      <link>http://5by5.tv/news/31</link>
+      <guid>http://5by5.tv/news/31</guid>
+      <pubDate>Wed, 27 Mar 2013 22:00:00 GMT</pubDate>
+      <author>Haddie Cooke &amp; Dan Benjamin</author>
+      <description>The news for Wednesday, 27 March, 2013.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-031.mp3" length="5724695" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Wednesday, 27 March, 2013.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Haddie Cooke &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>11:16</itunes:duration>
+      <itunes:subtitle>The news for Wednesday, 27 March, 2013.</itunes:subtitle>
+      <itunes:summary>The news for Wednesday, 27 March, 2013.
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F31&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Amplified 50: Fully Bearded Child</title>
+      <link>http://5by5.tv/amplified/50</link>
+      <guid>http://5by5.tv/amplified/50</guid>
+      <pubDate>Wed, 27 Mar 2013 17:00:00 GMT</pubDate>
+      <author>Jim Dalrymple &amp; Dan Benjamin</author>
+      <description>Jim and Dan talk about Apple's broken promise (iCloud), Google Reader, Fever, NetNewsWire, Black Pixel, Newsfire, iTunes Purchase fraud, WifiSLAM, the value of Apple stock, guitars, and more.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/amplified/2013/amplified-050.mp3" length="42435236" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Jim and Dan talk about Apple's broken promise (iCloud), Google Reader, Fever, NetNewsWire, Black Pixel, Newsfire, iTunes Purchase fraud, WifiSLAM, the value of Apple stock, guitars, and more.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=NfOHjeI-Bns" class="link" target="_blank"&gt;Voodoo Chile-Jimi Hendrix / Gayageum ver. by Luna - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Voodoo Chile-Jimi Hendrix / Gayageum ver. by Luna&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/26/4148628/why-doesnt-icloud-just-work" class="link" target="_blank"&gt;Apple&amp;#x27;s broken promise: why doesn&amp;#x27;t iCloud &amp;#x27;just work&amp;#x27;? | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;iCloud, perhaps more than any Apple software product, is meant to "just work." When Apple introduced iCloud, it made clear its hopes to eradicate settings menus and file systems in favor of automation. Steve Jobs pledged to do a better job than he did on MobileMe, Apple’s notoriously horrible stab at web services a few years ago. With iCloud, changes you make to documents on your computer show up instantly on your iPhone and vice versa. "It just works," Jobs exclaimed when he first demoed the service in 2011. "Everything happens automatically," Jobs continued, "and it’s really easy to tie your apps into iCloud’s storage system."&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/24/bees/" class="link" target="_blank"&gt;What If The Google Reader Readers Just Don’t Come Back? | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;If judged by my Twitter stream last week, the shutdown of Google Reader is the biggest story ever in the history of news. Of course, the reality is that Google is likely shutting down the product for a good reason: relatively few people used it, with less using it over time. More wood, fewer arrows, and all that.But that doesn’t mean this move isn’t a mistake for a couple reasons.The first is that Reader’s users, while again, relatively small in number, are hugely influential in the spread of news around the web. In a sense, Reader is the flower that allows the news bees to pollinate the social web. You know all those links you click on and re-share on Twitter and Facebook? They have to first be found somewhere, by someone. And I’d guess a lot of that discovery happens by news junkies using Reader.By killing the flower, Google could also kill the bees. That would be bad for all of us, even if we no longer use Reader or have any clue what RSS is.But the second reason worries me even more because it’s more quantifiable. By killing Reader, Google is likely to harm a lot of publishers, large and small, by eliminating a larger source of traffic.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/pipeline/8" class="link" target="_blank"&gt;5by5 | The Pipeline #8: Jason Kottke&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Dan Benjamin interviews Jason Kottke, the independent publisher of kottke.org since 1998. They discuss blogging for a living, general vs. niche blogs, content longevity, making the transition to full-time blogging, how taking a break (even for a week) can affect traffic, finding links, guest bloggers, the good and bad of comments, and more.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.feedafever.com/" class="link" target="_blank"&gt;Fever° Red hot. Well read.&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Your current feed reader is full of unread items. You’re hesitant to subscribe to any more feeds because you can't keep up with your existing subs. Maybe you've even abandoned feeds altogether.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://netnewswireapp.com/" class="link" target="_blank"&gt;NetNewsWire App&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://blackpixel.com/blog/2013/03/the-return-of-netnewswire.html" class="link" target="_blank"&gt;Black Pixel&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Given the discontinuation of Google Reader, I wanted to take a moment to talk about our plans for NetNewsWire.First, we intend to bring sync to future versions of NetNewsWire. It's too soon to go into details about this, but you should know that we recognize how extremely important it is and that it is a top priority for us.Second, even though we've been quiet about it, we have been working on new versions of NetNewsWire for Mac, iPhone, and iPad. We have some great new features and a modern design that we can't wait to show you.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.newsfirerss.com/" class="link" target="_blank"&gt;NewsFire™ (for Mac OS X)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Simple to use and packed with features, NewsFire makes it a joy to keep atop the constant flow of information on the web.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.dailymail.co.uk/news/article-2298771/Policeman-Doug-Crossan-reports-13-year-old-son-Cameron-FRAUD-running-3-700-iPad.html" class="link" target="_blank"&gt;Policeman Doug Crossan reports his 13-year-old son Cameron for FRAUD after running up a £3,700 bill on his iPad | Mail Online&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;When he discovered he had run up a ?3,700 bill on his father?s credit card playing games on his iPad, Cameron Crossan expected a very stern telling off at least.The 13-year-old was mortified by what he had done ? but worse was to come. For instead of punishing him, his father filed an official police complaint effectively accusing him of fraud.Doug Crossan, 48, said he was horrified when his credit card company informed him of the amount his son had spent on the games in Apple?s online App Store.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://blogs.wsj.com/digits/2013/03/23/apple-acquires-indoor-location-company-wifislam/" class="link" target="_blank"&gt;Apple Acquires Indoor Location Company WifiSLAM - Digits - WSJ&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple has acquired indoor-GPS company WifiSLAM, a sign that the war over indoor mobile location services is heating up.Apple paid around $20 million for the Silicon Valley-based company, according to a person familiar with the matter who said the deal closed recently.An Apple spokesman confirmed the deal saying the company “buys smaller technology companies from time to time” and generally doesn’t discuss its plans. He declined to comment further.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://seekingalpha.com/article/1261501-why-you-should-buy-apple-now" class="link" target="_blank"&gt;Why You Should Buy Apple Now - Seeking Alpha&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple (AAPL) is currently experiencing one of the worst sell-offs it has faced in the last decade. In this article, I will attempt to provide many reasons why the company's growth story isn't over and why the stock should be bought at these levels. Reasons for this include that recent growth worries are likely temporary, declining margin fears are overblown and manageable to the extent they occur, new product categories are coming, and that Apple is best positioned to continue to take over new product and service categories as much of the world's gross domestic product becomes tied into the mobile Internet -- and thus transformed and disrupted.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.imore.com/apple-rolls-out-fix-password-reset-security-hole-iforgot-site-back" class="link" target="_blank"&gt;Apple rolls out fix for password reset security hole, iForgot site back up | iMore.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple’s iForgot password reset page is now back online, and iMore has verified that the security hole, discovered earlier today in Apple’s password reset page, has been closed.Previously, after providing a victim’s Apple ID and date of birth, an attacker could send a URL to Apple that would change the password for that account, without needing to answer any security questions. In response, Apple blocked access to the password reset page, and a short while later took the entire site down in light of another loophole that still allowed the attack to be performed.This vulnerability came at an interesting time, just a day after Apple began to roll out its two-step verification system. Users who had already enrolled in the new system seem to have been immune from the password reset vulnerability.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.hooktheory.com/blog/i-analyzed-the-chords-of-1300-popular-songs-for-patterns-this-is-what-i-found/" class="link" target="_blank"&gt;I analyzed the chords of 1300 popular songs for patterns. This is what I found. | Blog – Hooktheory&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;In this article, we’ll look at the statistics gathered from 1300 choruses, verses, etc. of popular songs to discover the answer to a few basic questions. First we’ll look at the relative popularity of different chords based on the frequency that they appear in the chord progressions of popular music. Then we’ll begin to look at the relationship that different chords have with one another. For example, if a chord is found in a song, what can we say about the probability for what the next chord will be that comes after it?&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D" class="link" target="_blank"&gt;Tom Sawyer&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://shopify.com/5by5"&gt;Shopify&lt;/a&gt;, and &lt;a href="http://getharvest.com/5by5"&gt;Harvest&lt;/a&gt; (use code 5BY5 for 50% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Jim Dalrymple &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>1:27:39</itunes:duration>
+      <itunes:subtitle>Jim and Dan talk about Apple's broken promise (iCloud), Google Reader, Fever, NetNewsWire, Black Pixel, Newsfire, iTunes Purchase fraud, WifiSLAM, the value of Apple stock, guitars, and more.</itunes:subtitle>
+      <itunes:summary>Jim and Dan talk about Apple's broken promise (iCloud), Google Reader, Fever, NetNewsWire, Black Pixel, Newsfire, iTunes Purchase fraud, WifiSLAM, the value of Apple stock, guitars, and more.
+</itunes:summary>
+      <itunes:keywords>apple, mac, ipad, iphone, ios, guitars, music, recording</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/35/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Famplified%2F50&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Frequency 111: You Won't Leave My Office</title>
+      <link>http://5by5.tv/frequency/111</link>
+      <guid>http://5by5.tv/frequency/111</guid>
+      <pubDate>Wed, 27 Mar 2013 14:00:00 GMT</pubDate>
+      <author>Haddie Cooke &amp; Dan Benjamin</author>
+      <description>Dan and Haddie discuss the tech news of the day including Yahoo's aquisision of Summly, Twitter's verification processes, a Wolverine "tweaser", Capote's ashes, and T-Mobiles move to to iPhone. They are also joined by Jory Raphael of www.sensibleworld.com and 5by5 artwork fame.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/frequency/2013/frequency-111.mp3" length="33256831" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Dan and Haddie discuss the tech news of the day including Yahoo's aquisision of Summly, Twitter's verification processes, a Wolverine "tweaser", Capote's ashes, and T-Mobiles move to to iPhone. They are also joined by Jory Raphael of www.sensibleworld.com and 5by5 artwork fame.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.washingtonpost.com/business/technology/summly-and-its-teen-founder-snapped-up-by-yahoo/2013/03/26/88c5916a-960e-11e2-9e23-09dce87f75a1_story.html?hpid=z3" class="link" target="_blank"&gt;Summly and its teen founder snapped up by Yahoo - The Washington Post&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Nick D’Aloisio, the 17-year-old whose mobile startup Summly has been bought by Yahoo for about $30 million, talks about developing applications and his plans for the future. He speaks with Mark Barton on Bloomberg Television’s “Countdown.”&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.businessinsider.com/spotify-plans-to-take-on-netflix-and-hbo-with-streaming-video-service-2013-3?op=1" class="link" target="_blank"&gt;Spotify Plans To Take On Netflix And HBO With Streaming Video Service - Business Insider&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Spotify, the on-demand music service, is planning a major change.According to two sources briefed on the company's plans, Spotify intends to become an on-demand music and video service – one that would invest in original content and compete heads-on with Netflix.Ultimately, Spotify's metamorphosis would also put it into competition with content creators and providers such as HBO.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-1023_3-57576124-93/is-spotify-gearing-up-to-take-on-netflix-not-soon/" class="link" target="_blank"&gt;Is Spotify gearing up to take on Netflix? Not soon | Internet &amp;amp; Media - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Spotify, the largest on-demand music service with 24 million active listeners, is in the early stages of exploring a possible video service, according a person close to the company. But CEO Daniel Ek says building a Netlix competitor is not something the company is gearing up to do anytime soon."I won't rule it out because we're a company that looks at what we're doing incredibly long term," Ek said in a recent interview with CNET. "But right now, we're all focused on music."The idea of a Spotify video service came up in a report today on Business Insider. The story even suggested that Spotify would invest in creating original content, the way Netflix did with its "House of Cards" original series.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/03/25/star-trek-logo-london/" class="link" target="_blank"&gt;Star Trek Logo Appears Over London Sky for Earth Hour&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;As the hype for the upcoming movie "Star Trek Into Darkness" grows, Paramount Pictures decided to heat things up even more by displaying a huge, glowing Star Trek logo over London.Displayed during Earth Hour, the rotating logo was set up with 30 LED-bearing quadrocopter drones.The logo, created by Ars Electronica Futurelab&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://boingboing.net/2013/03/25/petition-force-congress-to-di.html" class="link" target="_blank"&gt;Petition: force Congress to display logos of their corporate backers on their clothes - Boing Boing&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The idea of forcing Congresscritters to wear NASCAR-style coveralls with the logos of their financial backers has been bandied about before, but here it is in official White House petition form.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/25/twitter-verification-has-more-to-do-with-being-good-at-twitter-than-with-identity/" class="link" target="_blank"&gt;Twitter Verification Has More To Do With Being Good At Twitter Than With Identity | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Twitter has done a great job at keeping the whole “blue badge” verification process a mystery. If curiosity eats away at you like it does me, you’re in luck. A new video from comedians Hari and Ashok Kondabolu, featuring Anil Dash who has around 500k followers, shows the magical transformation from start to finish.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/25/on-demand-car-service-uber-finally-embraces-microsoft-with-a-new-windows-phone-app/" class="link" target="_blank"&gt;On-Demand Car Service Uber Finally Embraces Microsoft With A New Windows Phone App | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The folks behind Uber, the on-demand car service, announced early yesterday that Windows Phone users now have a native app of their own, albeit one that doesn’t look quite as pretty as what iOS and Android users are privy to.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.tuaw.com/2013/03/25/uk-cop-turns-in-his-son-after-apple-refuses-to-refund-app-store/" class="link" target="_blank"&gt;UK cop turns in his son after Apple refuses to refund App Store spending spree | TUAW - The Unofficial Apple Weblog&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;UK father and police officer Doug Crossan took an extreme measure when he discovered his 13-year-old-son had racked up £3,700 (USD$5600) via in-app purchases on the iOS App Store. After Apple refused to rescind the charges, Crossan decided his next best move was to report his son to the authorities for fraud.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.tuaw.com/2013/03/25/foxconn-realizes-record-3-2-billion-profit-for-2012/" class="link" target="_blank"&gt;Foxconn realizes record $3.2 billion profit for 2012 | TUAW - The Unofficial Apple Weblog&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The success of the iPhone 5 and three new iPad models in 2012 not only raised Apple's profits to record levels, but has also helped manufacturer Foxconn to reach a all-time high $3.2 billion profit ($3.9 trillion New Taiwan dollars) during the year.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.startribune.com/business/199606811.html?refer=y" class="link" target="_blank"&gt;Best Buy poised to ax its venture capital unit | StarTribune.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Best Buy Co. Inc. is exiting the venture capital business.Over the past five years, the company’s venture capital unit — Best Buy Capital — had invested millions of dollars in eight early-stage start-ups with the hopes of exclusively selling new technology through its retail stores.But as new CEO Hubert Joly redirects Best Buy’s resources toward core store and online operations, the company is winding down Best Buy Capital, according to two sources with knowledge of the situation. Best Buy officials declined to comment, except to say the unit still exists.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/03/25/us-india-tech-staffing-idUSBRE92N0K820130325" class="link" target="_blank"&gt;Analysis: The end of Indian IT staffing as we know it | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;India's IT outsourcers are promoting "mini CEOs" capable of running businesses on their own, while trimming down on the hordes of entry-level computer coders they normally hire as they try to squeeze more profits out of their staff.The shift by Infosys Ltd and others is symptomatic of a maturing industry that wants more revenue from its own intellectual property instead of providing only labor-intensive, lower-margin information technology and back-office services.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-17938_105-57576176-1/maniglove-literally-puts-iphone-control-at-your-fingers/" class="link" target="_blank"&gt;ManiGlove literally puts iPhone control at your fingers | Crave - CNET&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;While we're waiting for Google Glass to reach the masses, there are plenty of other wearable technology options to keep us busy. One newcomer is the ManiGlove, an iPod and iPhone control glove raising funds on Kickstarter.The Version 1 ManiGlove looks a lot like a golfing glove, but it contains a rechargeable battery and Bluetooth for hooking up to your iPhone or iPod. Touch your thumb and different fingers together to change the volume, navigate songs, activate Siri, or control a PowerPoint presentation. Conductive pressure points trigger the commands.Originally, creator Scott Dixon thought up the glove as an easy way to control music while exercising. The glove is supposedly lightweight and breathable, so it can be worn even when you're out running and getting all hot and sweaty. The battery is good for about 15 hours on a charge, which should get you through a few marathons.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-17938_105-57576169-1/get-that-song-out-of-your-head-the-scientific-way/" class="link" target="_blank"&gt;Get that song out of your head the scientific way | Crave - CNET&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;According to a new study at Western Washington University, led by psychology professor Ira Hyman has discovered the best trick to getting that terrible song out of your head is solving puzzles -- sudoku, for example. But by far the most effective puzzle was five-letter anagrams.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/25/big-moment-for-vine-as-first-wolverine-movie-footage-comes-via-6-second-tweaser-instead-of-trailer/" class="link" target="_blank"&gt;Big Moment For Vine As First Wolverine Movie Footage Comes Via 6-Second “Tweaser” Instead Of Trailer | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Vine’s ready for its close-up. The first footage of new Marvel comics superhero film The Wolverine was released today through a Vine “tweaser” tweeted by director James Mangold. That’s a big departure from the modern tradition of first releasing a trailer on a film’s website, Apple’s trailer page and YouTube. Seems Hollywood has realized nothing leaves people wanting more like a great Vine.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://tech.fortune.cnn.com/2013/03/24/apple-negative-income-growth/" class="link" target="_blank"&gt;Fortune Tech: Technology blogs, news and analysis from Fortune Magazine&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The bad news is that every analyst we've surveyed -- even the most bullish -- believes that for the first time in a decade Apple (AAPL) will report that its income this quarter was lower than the same quarter the year before.&lt;/p&gt;
+
+&lt;p&gt;According to Thomson Financial, the consensus EPS for fiscal Q2 2013 on Friday was $10.18, down from $12.30 in Q2 2012. The analysts we've heard from so far are even more pessimistic. Their estimates range from a low of $9.23 to a high of $10.39 for a mean EPS of $9.85.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.slate.com/articles/health_and_science/superman/2013/03/is_china_engineering_genius_babies_not_exactly.html" class="link" target="_blank"&gt;Is China engineering genius babies? Not exactly. - Slate Magazine&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;What if science offered a way to stack the odds in favor of a healthy, gifted child? The idea is as thrilling as it is alarming. But how realistic is it? Last week, a widely shared story in the magazine Vice suggested it’s imminent and inevitable—just not in the hidebound United States. The article, headlined “China Is Engineering Genius Babies,” reports that our superpower frenemies in the East have hatched a grand plan to breed a crop of hyperproductive smartypants.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.dailymail.co.uk/news/article-2298089/Truman-Capotes-cremated-remains-invited-attend-Breakfast-Tiffanys-Broadway-premier.html" class="link" target="_blank"&gt;Truman Capote&amp;#x27;s cremated remains invited to attend &amp;#x27;Breakfast at Tiffany&amp;#x27;s&amp;#x27; Broadway premier | Mail Online&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Broadway producers who want big stars at their premier usually want ones with a pulse. But the folks who put Truman Capote's Breakfast at Tiffany's on Broadway wanted the late author's cremated remains at the play premier's after party, since Capote himself couldn't make it. They even went so far as to offer the ashes and their owner a flight from Los Angeles to New York for the show. Former wife of Johnny Carson, Joanne Carson, keeps the In Cold Blood author’s remains in the Bel Air bedroom where he died in 1984.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/26/4148212/t-mobile-to-carry-the-iphone-starting-on-april-12th-for-99-up-front" class="link" target="_blank"&gt;T-Mobile to carry the iPhone 5 on April 12th for $99 up front | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;At long last, T-Mobile will carrying the Apple iPhone starting on April 12th. The fourth place carrier announced the news during a press event in New York on Tuesday. T-Mobile, the fourth largest carrier in the US, is the last national carrier to offer the iPhone, following behind AT&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://arstechnica.com/apple/2013/03/os-x-app-launcher-quicksilver-ends-its-decade-long-beta/" class="link" target="_blank"&gt;OS X app launcher Quicksilver ends its decade-long beta | Ars Technica&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;After years of development, a shift from closed source to open source, and the advent of popular competitors like Alfred, the OS X productivity tool Quicksilver is finally leaving behind the beta tag it has been carrying around since 2003. According to the Quicksilver blog, the new release "means more than just a change in the version numbering system—it signifies a maturity of Quicksilver and a sign of what’s to come."Version 1.0.0, which supports OS X 10.6, 10.7, and 10.8 is available to download from Quicksilver's website. Quicksilver still has the same core feature set the app has always had: it allows users to quickly launch applications and open files with just a few keyboard shortcuts or mouse gestures (called "triggers" in Quicksilver-ese). The pitch for the app is very simple, but its extensive customization features and plugin library allow it to hook into many popular OS X apps, saving you the trouble of having to use your mouse to drag around and interact with the operating system. These plugins are another key focus for version 1.0.0, and the Quicksilver developers hope to be able to attract them back to the ecosystem.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://thedoghousediaries.com/4974" class="link" target="_blank"&gt;DOGHOUSE | Apple iWatch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.bissingers.com/category/browse-new.php?cat=101" class="link" target="_blank"&gt;Gummy Pandas | Gourmet Chocolate, Fruit Candy, Chocolate Gift Ideas | Bissinger’s&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B0043UAQD4/5by5-20" class="link" target="_blank"&gt;Bissingers Gourmet Gummy Pandas - Pomegranate White Tea (4 ounce): Amazon.com: Grocery &amp;amp; Gourmet Food&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://sensibleworld.com/news/year-of-icons/" class="link" target="_blank"&gt;Sensible World » A Year of Icons&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://notabli.com/" class="link" target="_blank"&gt;The Story of Your Kids&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Notabli helps parents easily capture, save, and share their kids’ notable moments with those they love. Notabli is all about kids and their amazing stories, filtered through the lens of their parents.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://www.google.com/search?q=roku+billboard&amp;amp;hl=en&amp;amp;safe=off&amp;amp;client=safari&amp;amp;rls=en&amp;amp;tbm=isch&amp;amp;tbo=u&amp;amp;source=univ&amp;amp;sa=X&amp;amp;ei=nBdTUb_mLsKQrgGvh4D4BA&amp;amp;ved=0CDAQsAQ&amp;amp;biw=1278&amp;amp;bih=768" class="link" target="_blank"&gt;roku billboard - Google Search&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/sensibleworld" class="link" target="_blank"&gt;Jory Raphael (sensibleworld) on Twitter&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code FREQUENCY3 for 30% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Haddie Cooke &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>1:08:22</itunes:duration>
+      <itunes:subtitle>Dan and Haddie discuss the tech news of the day including Yahoo's aquisision of Summly, Twitter's verification processes, a Wolverine "tweaser", Capote's ashes, and T-Mobiles move to to iPhone. They are also joined by Jory Raphael of www.sensibleworld.com</itunes:subtitle>
+      <itunes:summary>Dan and Haddie discuss the tech news of the day including Yahoo's aquisision of Summly, Twitter's verification processes, a Wolverine "tweaser", Capote's ashes, and T-Mobiles move to to iPhone. They are also joined by Jory Raphael of www.sensibleworld.com and 5by5 artwork fame.
+</itunes:summary>
+      <itunes:keywords>frequency, dan benjamin, haddie cooke, news, tech, events, technology</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/41/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Ffrequency%2F111&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Systematic 37: Jonathan Snook on the open source career</title>
+      <link>http://5by5.tv/systematic/37</link>
+      <guid>http://5by5.tv/systematic/37</guid>
+      <pubDate>Wed, 27 Mar 2013 02:00:00 GMT</pubDate>
+      <author>Brett Terpstra</author>
+      <description>Jonathan Snook joins Brett to discuss open source web development, building careers in tech and the (mostly cheery) disposition of the web developer community.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/systematic/2013/systematic-037.mp3" length="22210116" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Jonathan Snook joins Brett to discuss open source web development, building careers in tech and the (mostly cheery) disposition of the web developer community.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://snook.ca/" class="link" target="_blank"&gt;Snook.ca&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/snookca" class="link" target="_blank"&gt;Snook (snookca) on Twitter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://alpha.app.net/snookca" class="link" target="_blank"&gt;snookca on App.net&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://mixture.io/" class="link" target="_blank"&gt;Mixture - A rapid prototyping and static site generation tool for designers and developers&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://macsparky.com/markdown/" class="link" target="_blank"&gt;Markdown — MacSparky&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/reeder/id439845554?mt=12&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;Mac App Store - Reeder&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/reeder/id325502379?mt=8&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;Reeder for iPhone&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/reeder/id375661689?mt=8&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;Reeder for iPad for iPad&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html?source=email_rt_mc_body" class="link" target="_blank"&gt;Official Blog: A second spring of cleaning&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.feedafever.com/" class="link" target="_blank"&gt;Fever° Red hot. Well read.&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://superherojs.com/" class="link" target="_blank"&gt;Superhero.js&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://responsive.victorcoulon.fr/" class="link" target="_blank"&gt;Responsive Design Bookmarklet&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/aptus/id510487565?mt=12&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;Mac App Store - Aptus&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.fxnetworks.com/archer" class="link" target="_blank"&gt;Archer | Thursdays 10&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://shop.fxnetworks.com/archer-sterling-archer-mens-t-shirt/detail.php?p=294651&amp;amp;v=fx_shows_archer&amp;amp;pagemax=all" class="link" target="_blank"&gt;Archer Sterling Archer Men&amp;#x27;s T-Shirt&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This week's episode of Systematic is brought to you by &lt;a href="http://smilesoftware.com/systematic"&gt;TextExpander&lt;/a&gt; (use code &lt;strong&gt;SYSTEMATIC&lt;/strong&gt; for 20% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code &lt;strong&gt;DANSENTME3&lt;/strong&gt; for 30% off), &lt;a href="http://shopify.com/5by5"&gt;Shopify&lt;/a&gt;, and &lt;a href="http://getharvest.com/5by5"&gt;Harvest&lt;/a&gt; (use code &lt;strong&gt;5BY5&lt;/strong&gt; for 50% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Brett Terpstra</itunes:author>
+      <itunes:duration>45:34</itunes:duration>
+      <itunes:subtitle>Web developer Jonathan Snook guests to talk about building careers in tech.</itunes:subtitle>
+      <itunes:summary>Jonathan Snook joins Brett to discuss open source web development, building careers in tech and the (mostly cheery) disposition of the web developer community.
+</itunes:summary>
+      <itunes:keywords>productivity, work, creativity, mac, iOS</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/39/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fsystematic%2F37&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Back to Work 112: Touching Pizza and Robotron</title>
+      <link>http://5by5.tv/b2w/112</link>
+      <guid>http://5by5.tv/b2w/112</guid>
+      <pubDate>Tue, 26 Mar 2013 22:45:00 GMT</pubDate>
+      <author>Merlin Mann &amp; Dan Benjamin</author>
+      <description>TOPIC: Choosing Your Forks.
+
+This week, Dan and Merlin talk about some of the deeper and more slippery issues behind changes in our career and life.
+
+In particular, how do we go from a vague tickle to that feeling of full-blown intolerability that can end up driving a change? Are we looking backward at what we should be doing as we slavishly catalog our many petty aggrievements? Or, do we take two giant steps back and apply a cooler eye to what we really want to do next?
+
+Even before we find our forks in the road, how can we know a big decision might or should be coming our way? And, how do we stay current on that never-ending need to accept and plan for the changes we never could  have anticipated?
+
+It's tough at 23, it's super-hard at 30, and, brother, is it ever murder at 50.
+
+Sure, it's a little fruity, but, yeah: you need to write the story you really want to live. Rather than just cobbling together a flattering post-mortem on how you magically ended up where you are.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/b2w/2013/b2w-112.mp3" length="45842380" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;&lt;strong&gt;TOPIC&lt;/strong&gt;: Choosing Your Forks.&lt;/p&gt;
+
+&lt;p&gt;This week, Dan and Merlin talk about some of the deeper and more slippery issues behind changes in our career and life.&lt;/p&gt;
+
+&lt;p&gt;In particular, how do we go from a vague tickle to that feeling of full-blown &lt;em&gt;intolerability&lt;/em&gt; that can end up driving a change? Are we looking backward at what we &lt;em&gt;should&lt;/em&gt; be doing as we slavishly catalog our many petty aggrievements? Or, do we take two giant steps back and apply a cooler eye to what we really want to &lt;em&gt;do&lt;/em&gt; next?&lt;/p&gt;
+
+&lt;p&gt;Even before we find our forks in the road, how can we know a big decision might or should be coming our way? And, how do we stay current on that never-ending need to accept and plan for the changes we never could  have anticipated?&lt;/p&gt;
+
+&lt;p&gt;It's tough at 23, it's super-hard at 30, and, brother, is it ever murder at 50.&lt;/p&gt;
+
+&lt;p&gt;Sure, it's a little fruity, but, yeah: you need to write the story you really want to live. Rather than just cobbling together a flattering post-mortem on how you magically ended up where you are.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://tonx.org/pushatonx" class="link" target="_blank"&gt;[SPONSOR] We Source, Roast, and Ship Coffee. You Brew. | Tonx&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;You're about to join Merlin Mann on a coffee journey.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://smilesoftware.com/b2w" class="link" target="_blank"&gt;[SPONSOR] PDFpen: Mac PDF Editor - Edit, Sign, and Correct PDFs&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The all-purpose Mac PDF editor! Add signatures, text, and images. Make changes and correct typos. OCR scanned docs. Fill out forms. New in version 6: Microsoft® Word export!&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="www.squarespace.com/backtowork" class="link" target="_blank"&gt;[SPONSOR] Build a Website - Squarespace&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Everything You Need to Create an Exceptional Website&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://shutterstock.com/" class="link" target="_blank"&gt;[SPONSOR] Shutterstock&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Royalty-Free Subscription Stock Photography &amp;amp; Vector Art - Search and select from millions of high resolution royalty free images, stock photos, vector art, and stock photography.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://blog.squarespace.com/blog/gaining-momentum" class="link" target="_blank"&gt;Gaining Momentum — The Official Squarespace Blog&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Momentum is a beautiful, flexible design built especially for photographers and designers who are ready to take their work front and center. With this template, you have the option of showcasing your portfolio with the cinematic full-bleed image display, or preserving the original resolution and visual integrity with the centered image display. You can add information for each image, video, or project to add context to your galleries. Momentum is also our first multi-index template, created for folks that have multiple projects or galleries that they’d like to share. The index view shows all of your galleries with aspect-correct thumbnails, so that visitors can scroll through your work on one page, without interruption.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://vimeo.com/61987977" class="link" target="_blank"&gt;PDFpen for Mac Version 6 on Vimeo&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;PDFpen for the Mac version 6 has some great new features including a new user interface, conversion to Word, and auto form generation. This screencast shows off some of my favorite things about the new version.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theonion.com/articles/find-the-thing-youre-most-passionate-about-then-do,31742/" class="link" target="_blank"&gt;Find The Thing You&amp;#x27;re Most Passionate About, Then Do It On Nights And Weekends For The Rest Of Your Life | The Onion - America&amp;#x27;s Finest News Source&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;I can’t stress this enough: Do what you love…in between work commitments, and family commitments, and commitments that tend to pop up and take immediate precedence over doing the thing you love.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.merlinmann.com/roderick/ep-67-all-of-the-small-beer.html" class="link" target="_blank"&gt;Ep. 67: &amp;quot;All of the Small Beer&amp;quot; - Roderick on the Line - Merlin Mann&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The Problem: Fixing the problem at the attitude level.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.walgreens.com/store/c/pill-organization/ID=360531-tier2general" class="link" target="_blank"&gt;Pill Organization | Walgreens&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.boston.com/bostonglobe/ideas/articles/2011/07/17/a_whiff_of_history/?page=full" class="link" target="_blank"&gt;A whiff of history - The Boston Globe&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;But despite its primacy in our lives, our sense of smell is often overlooked when we record our history. We tend to connect with the past visually - we look at objects displayed in a museum, photographs in a documentary, the writing in a manuscript. Sometimes we might hear a vintage speech, or touch an ancient artifact and imagine what it was like to use it. But our knowledge of the past is almost completely deodorized.&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href="https://twitter.com/AdamSholds/status/316591826410811393"&gt;via&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/State-dependent_memory" class="link" target="_blank"&gt;State-dependent learning - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;State-dependent learning, or state-dependent memory, is the phenomenon in which the retrieval of a memory is most effective when an individual is in the same state of consciousness as it was when the memory was formed.[1] The term is typically used to describe states of consciousness induced by psychoactive drugs—most commonly, alcohol.[2]&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href="https://twitter.com/djbender/status/316591443563134976"&gt;via&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://www.youtube.com/watch?v=qFBPQhB1GMQ" class="link" target="_blank"&gt;How to Memorize a Deck of Cards with Dominic O&amp;#x27;Brien - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;This is a great clip from a Dutch TV show, in which Dominic O'Brien shows you how to memorize a deck of cards.&lt;/p&gt;
+
+&lt;p&gt;[via Athelstane Aamodt]&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://en.wikipedia.org/wiki/Transactive_memory" class="link" target="_blank"&gt;Transactive memory - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A transactive memory system is a mechanism through which groups collectively encode, store, and retrieve knowledge. Transactive memory was initially studied in couples and families where individuals had close relationships but was later extended to teams, larger groups, and organizations to explain how they develop a "group mind"&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href="https://twitter.com/emersunn/status/316593415489982465"&gt;via&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/1907486453/5by5-20" class="link" target="_blank"&gt;You Can Have an Amazing Memory: Learn Life-Changing Techniques and Tips from the Memory Maestro: Dominic O&amp;#x27;Brien: 9781907486456: Amazon.com: Books&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Never forget a name or a number again! Dominic O'Brien is legendary for winning the World Memory Championship eight times and outwitting the casinos of Las Vegas to win a fortune at blackjack. Here, for the first time, he reveals his secrets for memory mastery. Follow his brain-boosting techniques and turn your mind into a super-powered computer that will recall PIN numbers with ease, remember directions, and help bring you success in business, leisure, and relationships.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.muleradio.net/newdisruptors/3/" class="link" target="_blank"&gt;Good from the First Drop - The New Disruptors - Mule Radio Syndicate&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Tony Konecny, better known as Tonx, has been sourcing and roasting beans for a numbers of years, and recently founded Tonx Coffee, a subscription service that delivers whole beans from small batch roasting every two weeks. It’s not a bean of the month club. It’s a way to bypass the overchoice that one can face in specialty coffee shops, and get the assurance that the beans are fresh and good every time. In this episode, listen to Tonx and his ecommerce guru Nik Bauman talk about the joys of coffee and the joys of starting a business in which you can talk directly to your customers without anyone else getting in the way. There’s a brief interlude in which the host and a friend have a little Tonx tasting, too.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B007VL8Y2C/5by5-20" class="link" target="_blank"&gt;Amazon.com: Logitech Wireless Solar Keyboard K760 for Mac/iPad/iPhone (920-003884): Computers &amp;amp; Accessories&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Charges itself with lamplight or sunlight, indoors or outdoors; Fully charged, it works for at least three months-even in total darkness; Easy-switching Bluetooth connection enables switching from Mac to iPad or iPhone as simple and easy as pushing a button; Unique concave key design delivers fast, quiet typing, with more precision than your iPad or iPhone on-screen keyboard; From the PVC-free construction to the fully recyclable box, designed to reduce its environmental footprint&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://macsparky.com/blog/2013/3/new-field-guide-markdown" class="link" target="_blank"&gt;New Field Guide: Markdown — MacSparky&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Markdown started as a clever way to write for the web but has become so much more. This book demystifies Markdown, making it easy for anybody to learn. This book includes 130 pages and 27 screencasts totaling more than one and a half hours of video. There is also an additional hour of audio interviews. This book will take you from zero knowledge of Markdown to being a Markdown pro and change the way you write for the better.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.radiolab.org/2007/jun/07/" class="link" target="_blank"&gt;Memory and Forgetting - Radiolab&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Remembering is an unstable and profoundly unreliable process--it’s easy come, easy go as we learn how true memories can be obliterated, and false ones added. And Oliver Sacks joins us to tell the story of an amnesiac whose love for his wife and music transcend his 7-second memory.&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href="https://twitter.com/montewv/status/316594588838162433"&gt;via&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://www.youtube.com/watch?v=XS1SxufSPKU" class="link" target="_blank"&gt;Crazy: The Best Pick Pocket Ever On The Today Show - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apollo Rollins is a mind-blowing pickpocket.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.newyorker.com/reporting/2013/01/07/130107fa_fact_green" class="link" target="_blank"&gt;Adam Green: The Spectacular Thefts of Apollo Robbins, Pickpocket : The New Yorker&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A few years ago, at a Las Vegas convention for magicians, Penn Jillette, of the act Penn and Teller, was introduced to a soft-spoken young man named Apollo Robbins, who has a reputation as a pickpocket of almost supernatural ability. Jillette, who ranks pickpockets, he says, "a few notches below hypnotists on the show-biz totem pole," was holding court at a table of colleagues, and he asked Robbins for a demonstration, ready to be unimpressed. Robbins demurred, claiming that he felt uncomfortable working in front of other magicians. He pointed out that, since Jillette was wearing only shorts and a sports shirt, he wouldn?t have much to work with.&lt;/p&gt;
+
+&lt;p&gt;"Come on," Jillette said. "Steal something from me."&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/The_Rock-afire_Explosion" class="link" target="_blank"&gt;The Rock-afire Explosion - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The Rock-afire Explosion is an animatronic robot band that played in Showbiz Pizza Place from 1980 to 1990, and in various Showbiz Pizza locations between 1990-1992 as Showbiz rebranded and the band was steadily replaced by Chuck E. Cheese characters. The show was pioneering in many respects to other animatronics shows of the early 1980s, featuring life-sized characters capable of facial expression&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Steven_Seagal#Aikido" class="link" target="_blank"&gt;Steven Seagal - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Seagal moved to Japan in his late teens after he went to Japan with his father who was visiting for military purposes and met karate masters and decided to remain in Japan. He received his 1st dan degree (Shodan) under the direction of Koichi Tohei. He continued to train in aikido as a student of Seiseki Abe, Koichi Tohei (whose aikido organization, Ki Society, Seagal refused to join in favor of staying with the Aikikai), Kisaburo Osawa, Hiroshi Isoyama and the second doshu Kisshomaru Ueshiba. He attained a 7th dan degree and Shihan in aikido and became the first foreigner to operate an aikido dojo in Japan&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/quit/4" class="link" target="_blank"&gt;5by5 | Quit! #4: The Answer Is &amp;quot;Do Both&amp;quot;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Dan talks with Phil Coffman, Shlok Vaidya, Producer Robin Welch, and callers about so-called "moderate success", passion, starting out, paying your dues, making changes, the myth of job security, and finding a mentor.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/quit/14" class="link" target="_blank"&gt;5by5 | Quit! #14: Don&amp;#x27;t Run A Sh*tty Company&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Dan is joined by David Heinemeier Hansson, Shlok Vaidya, Producer Haddie Cooke to discuss telecommuting vs. being in the office.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/quit/9" class="link" target="_blank"&gt;5by5 | Quit! #9: Four O&amp;#x27;Clock In the Morning Courage&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Dan Benjamin is joined by Joel Bush, Shlok Vaidya, Tina Nikolova and producer Haddie Cooke to discuss what it means to have "four o'clock in the morning courage".&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Aikido" class="link" target="_blank"&gt;Aikido - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Aikido is performed by blending with the motion of the attacker and redirecting the force of the attack rather than opposing it head-on. This requires very little physical strength, as the aikid?ka (aikido practitioner) "leads" the attacker's momentum using entering and turning movements. The techniques are completed with various throws or joint locks.[5]&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.comixology.com/Guardians-of-the-Galaxy-Vol-3-1/digital-comic/JAN130642" class="link" target="_blank"&gt;Guardians of the Galaxy Vol. 3 #1 - Comics by comiXology&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;There's a new rule in the galaxy: No one touches Earth! Join the brightest stars in the Marvel U: Star-Lord, Gamora, Drax, Rocket Raccoon, Groot and Iron Man, as they embark upon one of the most explosive and eye-opening chapters of Marvel NOW!&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard" class="link" target="_blank"&gt;Søren Kierkegaard - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Søren Aabye Kierkegaard (/?s?r?n ?k??rk???rd/ or /?k??rk???r/&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Leap_of_faith" class="link" target="_blank"&gt;Leap of faith - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A leap of faith, in its most commonly used meaning, is the act of believing in or accepting something intangible or unprovable, or without empirical evidence.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.chrisbachalo.net/profile.html" class="link" target="_blank"&gt;Chris Bachalo Illustration : Profile&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;CHRIS BACHALO is internationally recognized as one of the most popular artists in the comic industry. His body of work covers a wide spectrum of genres ranging from the critically acclaimed “Sandman,” “Shade,” “Death, The High Cost of Living” and “Batman” series for DC to “Incredible Hulk,” “Uncanny X-Men,” “The Amazing Spider-man,” “Captain America” and the quirky pop favorite “Generation X,” which he co-created with Scott Lobdell for Marvel Comics. Generation X, became the first title from Marvel that was adapted into a live action film for Fox.The short story “The Wheel” written by Stardust and Beowulf writer Neil Gaimen and illustrated by Chris featured the Death character and was inducted into the library of Congress in 2003. It was created as part of a tribute to 911. His cover work for the title Hunter, The Age of Magic for DC was included as part of a New York gallery show for the Society of Illustrators. He is currently working on Marvels’ newest XMEN title, the critically acclaimed, Wolverine and the X-Men with Jason Aaron.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://maban.co.uk/" class="link" target="_blank"&gt;Anna Debenham, freelance front-end developer based in Brighton&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Freelance front end developer based in Brighton, UK&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.kungfugrippe.com/post/46263158122/the-doctor-is-in" class="link" target="_blank"&gt;“Hey, everybody! Look at me! I’m Dr. Octagon!” I... | kung fu grippe&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;“Hey, everybody! Look at me! I’m Dr. Octagon!”&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/systematic/35" class="link" target="_blank"&gt;5by5 | Systematic #35: Rob Corddry - Fiddling for Fun and Profit&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Rob Corddry (Daily Show, Hot Tub Time Machine, Warm Bodies...) guests to talk about screenwriting, GTD, workflows and why we spend our free time fiddling with all of the above.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://fountain.io/" class="link" target="_blank"&gt;Fountain | A markup language for screenwriting.&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Fountain is a simple markup syntax for writing, editing and sharing screenplays in plain, human-readable text. Fountain allows you to work on your screenplay anywhere, on any computer or tablet, using any software that edits text files.Taking its cues from John Gruber’s Markdown, Fountain files are eminently readable. When special syntax is required, it is straightforward and intuitive.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/mpu" class="link" target="_blank"&gt;5by5 | Mac Power Users&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Learn about getting the most from your Apple technology with focused topics and workflow guests. Creating Mac Power Users, one geek at a time since 2009.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Robotron:_2084" class="link" target="_blank"&gt;Robotron: 2084 - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Robotron: 2084 (also referred to as Robotron) is an arcade video game developed by Vid Kidz and released by Williams Electronics in 1982. It is a shooting game that features two-dimensional (2D) graphics. The game is set in the year 2084, in a fictional world where robots have turned against humans. The aim is to defeat endless waves of robots, rescue surviving humans, and earn as many points as possible.&lt;/p&gt;
+&lt;p&gt;This week's episode of &lt;a href="http://5by5.tv/b2w%20%22Back%20to%20Work%20on%205by5.tv"&gt;&lt;em&gt;Back to Work&lt;/em&gt;&lt;/a&gt; is generously sponsored by:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://shutterstock.com/" title="Stock Photos | Shutterstock: Royalty-Free Subscription Stock Photography &amp;amp; Vector Art - Search and select from millions of high resolution royalty free images, stock photos, vector art, and stock photography."&gt;Shutterstock&lt;/a&gt; (use code "&lt;strong&gt;&lt;code&gt;BACKTOWORK3&lt;/code&gt;&lt;/strong&gt;" for 30% off)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://smilesoftware.com/b2w" title="PDFpen: Mac PDF Editor - Edit, Sign, and Correct PDFs - PDFpen is a powerful Mac PDF editor: add text, images, and signatures to PDFs, make corrections on a PDF, fill out PDF forms, OCR scanned pages."&gt;Smile's PDF Pen Pro 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.squarespace.com/backtowork" title="Build a Website - Squarespace - Squarespace is the easiest way for anyone to create an exceptional website. Pages, galleries, blogs, domains, hosting, analytics, 24/7 support - all included."&gt;Squarespace&lt;/a&gt; (use offer code "&lt;strong&gt;&lt;code&gt;CASH&lt;/code&gt;&lt;/strong&gt;" for an additional 10% off).&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tonx.org/pushatonx" title="We Source, Roast, and Ship Coffee. You Brew. | Tonx - Tonx finds awesome coffee from around the world, roasts it, and ships it to your doorstep every other week."&gt;Tonx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content:encoded>
+      <itunes:author>Merlin Mann &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>1:34:43</itunes:duration>
+      <itunes:subtitle>TOPIC: Choosing Your Forks.</itunes:subtitle>
+      <itunes:summary>TOPIC: Choosing Your Forks.
+
+This week, Dan and Merlin talk about some of the deeper and more slippery issues behind changes in our career and life.
+
+In particular, how do we go from a vague tickle to that feeling of full-blown intolerability that can end up driving a change? Are we looking backward at what we should be doing as we slavishly catalog our many petty aggrievements? Or, do we take two giant steps back and apply a cooler eye to what we really want to do next?
+
+Even before we find our forks in the road, how can we know a big decision might or should be coming our way? And, how do we stay current on that never-ending need to accept and plan for the changes we never could  have anticipated?
+
+It's tough at 23, it's super-hard at 30, and, brother, is it ever murder at 50.
+
+Sure, it's a little fruity, but, yeah: you need to write the story you really want to live. Rather than just cobbling together a flattering post-mortem on how you magically ended up where you are.
+</itunes:summary>
+      <itunes:keywords>productivity, communication, work, barriers, constraints, tools, careers</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/19/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fb2w%2F112&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>On Taking Pictures 48: $500 and a Lollipop</title>
+      <link>http://5by5.tv/otp/48</link>
+      <guid>http://5by5.tv/otp/48</guid>
+      <pubDate>Tue, 26 Mar 2013 19:45:00 GMT</pubDate>
+      <author>Bill Wadman &amp; Jeffery Saddoris</author>
+      <description>Bill and Jeffery try to iron out the intricacies of copyright and usage, photography as part of a larger, happier life. Photographer and film director Gordon Parks as Photographer of the Week.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/otp/2013/otp-048.mp3" length="44298702" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Bill and Jeffery try to iron out the intricacies of copyright and usage, photography as part of a larger, happier life. Photographer and film director Gordon Parks as Photographer of the Week.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.complex.com/tech/2013/03/the-40-hottest-women-in-tech/gina-trapani" class="link" target="_blank"&gt;Gina Trapani — The 40 Hottest Women in Tech | Complex&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://gawker.com/5991978/top-40-hottest-women-in-tech-was-supposed-to-focus-on-their-beautiful-insides?utm_source=gawker.com&amp;amp;utm_medium=recirculation&amp;amp;utm_campaign=recirculation" class="link" target="_blank"&gt;Top 40 Hottest Women in Tech Was Supposed to Focus on Their Beautiful Insides&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://articles.latimes.com/2009/sep/13/business/fi-lazarus13" class="link" target="_blank"&gt;Controlling illegal use of copyrighted material on the Web - Los Angeles Times&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://waxy.org/2011/06/kind_of_screwed/" class="link" target="_blank"&gt;Kind of Screwed - Waxy.org&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://vimeo.com/61348049#" class="link" target="_blank"&gt;TAKE MY PICTURE on Vimeo&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.wendypaton.com/" class="link" target="_blank"&gt;WENDY PATON PHOTOGRAPHY&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://killingthebuddha.com/mag/exegesis/dear-mr-eggleston/" class="link" target="_blank"&gt;Dear Mr. Eggleston &amp;lt; Killing the Buddha&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0300126212/5by5-20" class="link" target="_blank"&gt;William Eggleston: Democratic Camera, Photographs and Video, 1961-2008&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.gordonparksfoundation.org/" class="link" target="_blank"&gt;The Gordon Parks Foundation&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://www.google.com/search?q=gordon+parks&amp;amp;hl=en&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ei=CLlRUe3dCYeYiAKhmoHABw&amp;amp;ved=0CAoQ_AUoAQ&amp;amp;biw=1263&amp;amp;bih=758" class="link" target="_blank"&gt;gordon parks - Google Search&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.nytimes.com/2006/03/08/arts/design/08parks.html?pagewanted=all&amp;amp;_r=1&amp;amp;" class="link" target="_blank"&gt;Gordon Parks, a Master of the Camera, Dies at 93 - New York Times&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B0000DG012/5by5-20" class="link" target="_blank"&gt;Amazon.com: American Photography DVD&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="" target="_blank"&gt;Shutterstock&lt;/a&gt; Use code PICTURES3 for 30% off.&lt;br /&gt;and &lt;a href="http://squarespace.com/otp" target="_blank"&gt;Squarespace&lt;/a&gt; Use the coupon code ‘OTP3’ at checkout to save 10% on your order and get a free domain name.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Bill Wadman &amp; Jeffery Saddoris</itunes:author>
+      <itunes:duration>1:31:34</itunes:duration>
+      <itunes:subtitle>Bill and Jeffery try to iron out the intricacies of copyright and usage, photography as part of a larger, happier life.</itunes:subtitle>
+      <itunes:summary>Bill and Jeffery try to iron out the intricacies of copyright and usage, photography as part of a larger, happier life. Photographer and film director Gordon Parks as Photographer of the Week.
+</itunes:summary>
+      <itunes:keywords>photography, camera, images, photos, pictures</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/48/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fotp%2F48&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Giant Size 18: A Little Flap in the Back (Shannon Wheeler)</title>
+      <link>http://5by5.tv/giantsize/18</link>
+      <guid>http://5by5.tv/giantsize/18</guid>
+      <pubDate>Mon, 25 Mar 2013 19:45:00 GMT</pubDate>
+      <author>Moisés Chiullan</author>
+      <description>Too Much Coffee Man sprang forth from the mind of then-Austinite video clerk Shannon Wheeler. He joins us to discuss his work and the nature of success, whether personal, creative, or financial. Do they have to be separate things?
+
+We also discuss The Bible. The Shannon of 20 years ago wouldn't believe he's working on this unique adaptation/presentation of the classic text.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/giantsize/2013/giantsize-018.mp3" length="28742830" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Too Much Coffee Man sprang forth from the mind of then-Austinite video clerk Shannon Wheeler. He joins us to discuss his work and the nature of success, whether personal, creative, or financial. Do they have to be separate things?&lt;/p&gt;
+
+&lt;p&gt;We also discuss The Bible. The Shannon of 20 years ago wouldn't believe he's working on this unique adaptation/presentation of the classic text.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="https://twitter.com/muchcoffee" class="link" target="_blank"&gt;Shannon Wheeler (MuchCoffee) on Twitter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.tmcm.com/tmcm/page/71/#jp-carousel-185" class="link" target="_blank"&gt;Shannon Wheeler - Online cartoons since 1995 ? A cartoon-a-day ? Too Much Coffee Man in color on weekends&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.tmcm.com/tmcm/" class="link" target="_blank"&gt;Shannon Wheeler - Online cartoons since 1995 ? A cartoon-a-day ? Too Much Coffee Man in color on weekends&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.staple-austin.org/" class="link" target="_blank"&gt;STAPLE! The Independent Media Expo&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.bettercomics.com/cc/conventions/conspast_dallasfantasy.htm" class="link" target="_blank"&gt;Complex City : Better Comics (c) 2002 : Complex City&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Dallas_Fantasy_Fair" class="link" target="_blank"&gt;Dallas Fantasy Fair - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.comixology.com/Too-Much-Coffee-Man-comiXology-Submit-Strips/comics-series/10271" class="link" target="_blank"&gt;Too Much Coffee Man: comiXology Submit Strips Digital Comics - Comics by comiXology&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://vulcanvideo.com/" class="link" target="_blank"&gt;Vulcan Video&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/The_Wages_of_Fear" class="link" target="_blank"&gt;The Wages of Fear - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Pre-Code_Hollywood" class="link" target="_blank"&gt;Pre-Code Hollywood - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?v=gFogTD0t5kM" class="link" target="_blank"&gt;Flintstones - Winston Cigarette Commerical - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Fat_Freddy&amp;#x27;s_Cat" class="link" target="_blank"&gt;Fat Freddy&amp;#x27;s Cat - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Fabulous_Furry_Freak_Brothers" class="link" target="_blank"&gt;The Fabulous Furry Freak Brothers - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/The_Life_and_Death_of_Colonel_Blimp" class="link" target="_blank"&gt;The Life and Death of Colonel Blimp - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Chris_Ware" class="link" target="_blank"&gt;Chris Ware - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Too_Much_Coffee_Man" class="link" target="_blank"&gt;Too Much Coffee Man - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?v=FIzGKhyoYuM" class="link" target="_blank"&gt;Too Much Coffee Man - Converse Commercial - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.crumbproducts.com/" class="link" target="_blank"&gt;The Official R. Crumb Website&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Lupo_the_Butcher" class="link" target="_blank"&gt;Lupo the Butcher - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?v=NOMUw2QOkLE" class="link" target="_blank"&gt;LUPO THE BUTCHER - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/From_Hell" class="link" target="_blank"&gt;From Hell - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/O._Henry" class="link" target="_blank"&gt;O. Henry - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://squarespace.com/5by5"&gt;Squarespace&lt;/a&gt; (use code INSERT CODE for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Moisés Chiullan</itunes:author>
+      <itunes:duration>59:06</itunes:duration>
+      <itunes:subtitle>Too Much Coffee Man sprang forth from the mind of then-Austinite video clerk Shannon Wheeler. He joins us to discuss his work and the nature of success, whether personal, creative, or financial. Do they have to be separate things?</itunes:subtitle>
+      <itunes:summary>Too Much Coffee Man sprang forth from the mind of then-Austinite video clerk Shannon Wheeler. He joins us to discuss his work and the nature of success, whether personal, creative, or financial. Do they have to be separate things?
+
+We also discuss The Bible. The Shannon of 20 years ago wouldn't believe he's working on this unique adaptation/presentation of the classic text.
+</itunes:summary>
+      <itunes:keywords>comics, art, geek, books</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/46/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fgiantsize%2F18&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Screen Time 31: They Solve Space Crimes (Wiley Wiggins)</title>
+      <link>http://5by5.tv/screentime/31</link>
+      <guid>http://5by5.tv/screentime/31</guid>
+      <pubDate>Mon, 25 Mar 2013 19:00:00 GMT</pubDate>
+      <author>Moisés Chiullan</author>
+      <description>Developer/actor/raconteur Wiley Wiggins (Dazed and Confused, Computer Chess, Thunderbeam) joins us to talk about being on various sides of creating independent content. We discuss his passion for true adventure (and programming) above all else.
+
+Did you know that people competed their computer chess programs against each other in the 80's? Now there's a movie about it. Did you know there are tons of free Adventure Time browser-based games available? We talk about them on the show. Ever find yourself reading a show description that asks too many questions? Oh.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/screentime/2013/screentime-031.mp3" length="26436553" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Developer/actor/raconteur Wiley Wiggins (Dazed and Confused, Computer Chess, Thunderbeam) joins us to talk about being on various sides of creating independent content. We discuss his passion for true adventure (and programming) above all else.&lt;/p&gt;
+
+&lt;p&gt;Did you know that people competed their computer chess programs against each other in the 80's? Now there's a movie about it. Did you know there are tons of free Adventure Time browser-based games available? We talk about them on the show. Ever find yourself reading a show description that asks too many questions? Oh.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker" class="link" target="_blank"&gt;The Legend of Zelda: The Wind Waker - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.gameinformer.com/b/news/archive/2013/01/23/the-legend-of-zelda-wind-waker-hd-coming-to-wii-u-this-fall.aspx" class="link" target="_blank"&gt;The Legend Of Zelda: Wind Waker HD Coming To Wii U This Fall - News - www.GameInformer.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://spelunkyworld.com/" class="link" target="_blank"&gt;Spelunky World&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.karakasagames.com/" class="link" target="_blank"&gt;Karakasa Games ?&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://wileywiggins.com/" class="link" target="_blank"&gt;Wiley Wiggins&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://spelunkyworld.com/whatis.html" class="link" target="_blank"&gt;Spelunky World&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.whitewhalegames.com/godofblades.html" class="link" target="_blank"&gt;White Whale Games :: God of Blades&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.mediamolecule.com/" class="link" target="_blank"&gt;Media Molecule - We make games&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://fantasticfest.com/arcade" class="link" target="_blank"&gt;Fantastic Arcade | Fantastic Fest&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://fantasticfest.com/news/entry/past_fantastic_arcade_titles_break_into_the_big_time" class="link" target="_blank"&gt;Past Fantastic Arcade titles break into the big-time | Fantastic Fest&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.kickstarter.com/projects/wileywiggins/thunderbeam-for-the-ipad" class="link" target="_blank"&gt;Thunderbeam! for the iPad by Wiley Wiggins — Kickstarter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://boingboing.net/2011/05/12/kickstarter-for-thun.html" class="link" target="_blank"&gt;Thunderbeam: a psychedelic, open-ended adventure game for iPad (Kickstarter) - Boing Boing&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://kotaku.com/5801159/1970s-science-fiction-comes-to-life-in-thunderbeam" class="link" target="_blank"&gt;1970&amp;#x27;s Science Fiction Comes to Life In Thunderbeam&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://juegosrancheros.com/30/events/fantastic-arcade-thunderbeam/" class="link" target="_blank"&gt;juegosrancheros.com — FANTASTIC ARCADE presents JUEGOS RANCHEROS: THUNDERBEAM Edition (w/ bonus J.S. JOUST-ing!)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Science_Ninja_Team_Gatchaman" class="link" target="_blank"&gt;Science Ninja Team Gatchaman - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Captain_Harlock" class="link" target="_blank"&gt;Captain Harlock - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.igf.com/" class="link" target="_blank"&gt;The 15th Annual Independent Games Festival&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Independent_Games_Festival" class="link" target="_blank"&gt;Independent Games Festival - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.adventuretimegamejam.com/" class="link" target="_blank"&gt;Gamemaking Frenzy&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.adventuretimegamejam.com/submissions" class="link" target="_blank"&gt;Gamemaking Frenzy | All Submissions&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.computerchessmovie.com/" class="link" target="_blank"&gt;COMPUTER CHESS&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.fortheloveofmovies.net/" class="link" target="_blank"&gt;For The Love Of Movies&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/wileywiggins" class="link" target="_blank"&gt;Wiley Wiggins (wileywiggins) on Twitter&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://squarespace.com/5by5"&gt;Squarespace&lt;/a&gt; (use code INSERT CODE for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Moisés Chiullan</itunes:author>
+      <itunes:duration>54:02</itunes:duration>
+      <itunes:subtitle>Developer/actor/raconteur Wiley Wiggins (Dazed and Confused, Computer Chess, Thunderbeam) joins us to talk about being on various sides of creating independent content. We discuss his passion for true adventure (and programming) above all else.</itunes:subtitle>
+      <itunes:summary>Developer/actor/raconteur Wiley Wiggins (Dazed and Confused, Computer Chess, Thunderbeam) joins us to talk about being on various sides of creating independent content. We discuss his passion for true adventure (and programming) above all else.
+
+Did you know that people competed their computer chess programs against each other in the 80's? Now there's a movie about it. Did you know there are tons of free Adventure Time browser-based games available? We talk about them on the show. Ever find yourself reading a show description that asks too many questions? Oh.
+</itunes:summary>
+      <itunes:keywords>movies, TV, media, games, HD, entertainment</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/40/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fscreentime%2F31&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Frequency 110: They Showed Up Dead</title>
+      <link>http://5by5.tv/frequency/110</link>
+      <guid>http://5by5.tv/frequency/110</guid>
+      <pubDate>Mon, 25 Mar 2013 16:00:00 GMT</pubDate>
+      <author>Haddie Cooke &amp; Dan Benjamin</author>
+      <description>Dan and Haddie discuss the latest in tech news including: the Dell take over, Jane Goodall's lies,   the Apollo rocket recovery and more. They also discuss who may wear a monocle and the intricacies of men's hats.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/frequency/2013/frequency-110.mp3" length="27276870" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Dan and Haddie discuss the latest in tech news including: the Dell take over, Jane Goodall's lies,   the Apollo rocket recovery and more. They also discuss who may wear a monocle and the intricacies of men's hats.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/24/michael-dell-may-lose-control-of-pc-maker-after-two-competing-buyout-bids-emerge/" class="link" target="_blank"&gt;Michael Dell May Lose Control Of PC Maker After Two Competing Buyout Bids Emerge | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Dell’s board is looking at two surprise takeover bids from Blackstone Group and billionaire activist investor Carl Icahn, reports Reuters citing sources close to the discussion. A special committee is deciding whether either proposal would trump an existing $24.4 billion buyout offer from the PC maker’s founder Michael Dell and private equity firm Silver Lake.The new bids mean that Michael Dell could potentially lose control of the company he founded in 1984 and that he and Silver Lake will most likely need to reconsider their original proposal to make it more attractive to Dell shareholders, some of whom have complained that its terms undervalue the PC maker.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/22/783178/" class="link" target="_blank"&gt;T-Mobile’s New LTE Network Spotted Being Tested In 8 Major U.S. Cities | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;While T-Mobile is more than a bit late to the LTE game, the company confirmed on Monday that their new network would be launching by the end of the month. Where it would launch, however, was kept under wraps.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/24/4142082/t-mobiles-new-contract-free-pricing-plans-are-live" class="link" target="_blank"&gt;T-Mobile&amp;#x27;s new contract-free pricing plans are live | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;As expected, T-Mobile has pulled the wraps off a new plan structure that eliminates two-year contracts altogether, part of its upcoming "Uncarrier" initiative to streamline pricing. A base price of $50 per month buys you 500MB of high-speed data (with overage-free throttled data after that), unlimited voice minutes, and unlimited texts&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.guardian.co.uk/technology/2013/mar/21/eric-schmidt-blackberry-user" class="link" target="_blank"&gt;Surprise! Google chairman Eric Schmidt uses.. a BlackBerry | Technology | guardian.co.uk&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;That's right: Eric Schmidt uses a BlackBerry. Why? He likes the keyboard, he says. One could question why Schmidt uses a BlackBerry: there are Android phones you can buy now! which offer a keyboard. Here's the Samsung Replenish in the US - though it reminds us of another make (can't think which just now) and only runs Gingerbread 2.3 - you know, from December 2010. Still, the reviews are good. (Plenty more here: tick the "QWERTY keyboard" box under "Style" on the left margin.)What's more, he thinks that Apple's iPad mini - the "small tablet" format that Google and Amazon have both made popular through their Nexus and Kindle Fire offerings - is "too small" compared to the large-format iPad.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/22/4135484/post-office-cant-legally-drop-saturday-mail-service-says-gao" class="link" target="_blank"&gt;Post Office can&amp;#x27;t legally drop Saturday mail service, says Congressional oversight office | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The Government Accountability Office (GAO), which investigates public expenditures for the US Congress, says a Post Office plan to drop Saturday mail delivery doesn't satisfy its legal obligations. In a letter, GAO General Counsel Susan Poling writes that an earlier rule requiring six-day delivery should be considered to extend into 2013, despite the Post Office's argument to the contrary.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/03/22/jane-goodall-plagiarizing-wikipedia/" class="link" target="_blank"&gt;Jane Goodall Apologizes for Plagiarizing Wikipedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;In an age when research is easier than ever and entire sentences can be copied and pasted without second thought, even the most venerable nonfiction writers can find themselves accused of plagiarism.That's appears to be the case with noted author and naturalist Jane Goodall, who was forced to apologize this week after a Washington Post investigation found Goodall's latest book contained more than a dozen passages copied from multiple websites, including Wikipedia.The passages all appear in Goodall's latest book, Seeds of Hope, which was cowritten by Gail Hudson, a writer and researcher who has contributed to two of Goodall's other books in the past. The passages in question range from short phrases to whole sentences.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/22/rovio-opens-angry-birds-space-encounter-exhibit-after-announcing-global-theme-park-plans/" class="link" target="_blank"&gt;Rovio Opens Angry Birds Space Encounter Exhibit After Announcing Global Theme Park Plans | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Rovio is yet again breaking into new businesses with the introduction of the first Angry Birds interactive attraction, as the Kennedy Space Center Visitor Complex is opening an Angry Birds Space Encounter Exhibit.The whole thing measures up to 4,500 square feet of pure Angry Birds wonder. Six stations are set up to let visitors interact with Angry Birds space-related activities and games. This is part of a slow build into Angry Birds-themed consumer attractions for Rovio, who has gone from a mobile game maker to merchandise phenom, with a newly released animated cartoon series being distributed through the games themselves.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/03/22/google-alerts-dying/" class="link" target="_blank"&gt;Are Google Alerts Dying?&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;In the wake of Google's killing of Google Reader, power users now have a new fear: Are Google Alerts next?Google Alerts is a service that allows users to receive email notifications of updated Google results for a search query or keyword. This lets users easily monitor an ongoing news story or be alerted of new stories mentioning a brand or individual. Google Alerts are actively used by marketers, social media managers, publicists, journalists and researchers. It's one of Google's oldest tools, and it's also one of the most useful — at least, when it works.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/03/22/kickstarter-games-pledges/" class="link" target="_blank"&gt;Kickstarter: $108 Million Pledged on Games&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Since crowdfunding website and service Kickstarter launched in 2009, a staggering $108.52 million has been pledged to games projects, both video and tabletop. Of that, $90.83 million went towards successful projects — those that met their funding goal and are either already on general release or in development.On the technology side, $47.99 million has been raised by pledges for projects, while $38.33 million of that sum went to successful ventures. In both cases, Kickstarter did not claim the shortfalls.What do these figures tell us? For a start, Kickstarter does rather well as it claims a percentage of each pledge. But more importantly that crowd funding is a very good means to raise capital for a good project.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/22/4135754/pepsi-attempts-to-make-its-bottle-more-iconic" class="link" target="_blank"&gt;Pepsi attempts to make its bottle more iconic with first redesign in 16 years | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Most consumers probably don't think about the design of their beverage bottles, but for a company like Pepsi, it's all part of a global brand image that the company is constantly tweaking. To that end, Pepsi just unveiled a new bottle for its 16 oz. and 20 oz. beverages, the first redesign those bottles have seen in 16 years. As AdAge notes, the new design features a swirled grip — a new design cue that the company hopes it can use to make its bottle a more effective and iconic marketing tool. While a bottle's shape might sound like a mundane detail best left for designers and marketing departments departments to obsess over, the bottle can be just as effective a branding tool as the logo itself — just take a look at Coca-Cola's iconic "contour bottle" design.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.ewal.net/2012/09/09/slow-wake-for-macbook-pro-retina/" class="link" target="_blank"&gt;&amp;quot;Fixing&amp;quot; Slow Wake for MacBook Pro w/ Retina Display - Ewal.net&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;What is actually happening is that these new MacBook Pro’s (and recent MacBook Air’s) have a new powersaving mode which Apple calls standby. Standby mode kicks in after the laptop has been in normal sleep mode for about an hour. When that happens, the contents of RAM are written to the hard drive and the RAM is powered down to further extend battery life. In theory, the laptop will last up to 30 days in standby mode. The trade off is that, when waking up, it takes a long time to reload 16 GB of RAM from the hard drive (even with SSD).&lt;/p&gt;
+
+&lt;p&gt;Note that if the laptop sleeps for less than an hour, then it will wake up nearly instantly. I’ve seen this myself in cases where I close the lid briefly while walking between meetings. This fact is the key to my workaround. It turns out that this 1 hour delay is configurable.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/03/22/us-kodak-shutterfly-lawsuit-idUSBRE92L0Z220130322" class="link" target="_blank"&gt;Shutterfly sues to shut down Kodak photo app | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Photo service Shutterfly Inc has sued to shut down an Eastman Kodak Co app that lets users purchase photo albums made from pictures stored on Facebook Inc's social media network, according to court documents.&lt;/p&gt;
+
+&lt;p&gt;Shutterfly bought the Kodak Gallery online photo business for $23.8 million last year, and as part of the deal Kodak agreed not to set up a duplicate business, according to court documents.&lt;/p&gt;
+
+&lt;p&gt;Shutterfly said in a complaint filed on Friday with the U.S. Bankruptcy Court in Manhattan that the "My Kodak Moments App" violates the sale agreement by setting up a competing business.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/24/4141286/windows-blue-screenshots-leak-smaller-live-tiles-options-ui" class="link" target="_blank"&gt;Windows Blue leaks online, includes smaller Live Tiles, new side-by-side Snap Views, and IE 11 | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;An early build of Windows Blue, the next version of Windows, has leaked online on the same day that Microsoft CEO Steve Ballmer celebrates his 57th birthday. Build 9364, a partner version that was originally compiled on March 15th, has been made available on file sharing sites and includes some of the new changes that Microsoft is building into its significant Windows 8 update. Leaked screenshots posted at Winforum show that the company is bringing smaller tile arrangements and even a larger desktop one to its Start Screen, along with greater control over the color personalization options, and a whole lot more.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://blogs.wsj.com/digits/2013/03/23/apple-acquires-indoor-location-company-wifislam/" class="link" target="_blank"&gt;Apple Acquires Indoor Location Company WifiSLAM - Digits - WSJ&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple has acquired indoor-GPS company WifiSLAM, a sign that the war over indoor mobile location services is heating up.Apple paid around $20 million for the Silicon Valley-based company, according to a person familiar with the matter who said the deal closed recently.An Apple spokesman confirmed the deal saying the company “buys smaller technology companies from time to time” and generally doesn’t discuss its plans. He declined to comment further. WifiSLAM could not immediately be reached for comment.The two-year-old startup has developed ways for mobile apps to detect a phone user’s location in a building using Wi-Fi signals.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://bits.blogs.nytimes.com/2013/03/24/disruptions-f-a-a-may-loosen-curbs-on-fliers-use-of-electronics/" class="link" target="_blank"&gt;Disruptions: F.A.A. May Loosen Curbs on Fliers&amp;#x27; Use of Electronics - NYTimes.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;According to people who work with an industry working group that the Federal Aviation Administration set up last year to study the use of portable electronics on planes, the agency hopes to announce by the end of this year that it will relax the rules for reading devices during takeoff and landing. The change would not include cellphones.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.usatoday.com/story/news/nation/2013/03/20/apollo-rocket-engines-moon-bezos/2003533/" class="link" target="_blank"&gt;Apollo moon rocket engines raised from Atlantic&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Two giant rocket engines that launched U.S. astronauts to the moon four decades ago have been recovered from the bottom of the Atlantic Ocean off Cape Canaveral by an expedition paid for by Amazon founder Jeff Bezos.&lt;/p&gt;
+
+&lt;p&gt;The F-1 engines, which powered the first-stage Saturn V boosters that fell back to Earth after their fuel was depleted, were found at a depth of 14,000 feet, Bezos' expedition announced Wednesday.&lt;/p&gt;
+
+&lt;p&gt;The recovery, after three weeks at sea, came almost a year after his team used state-of-the-art sonar to locate a debris field of battered, rusted F-1 engines and parts that Bezos described as "gorgeous."&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.flickr.com/photos/danbenjamin/8539736852/" class="link" target="_blank"&gt;Me and my Grandfather | Flickr - Photo Sharing!&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.flickr.com/photos/danbenjamin/8585775375/in/photostream/" class="link" target="_blank"&gt;Dan Benjamin | Flickr - Photo Sharing!&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code FREQUENCY3 for 30% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Haddie Cooke &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>55:55</itunes:duration>
+      <itunes:subtitle>Dan and Haddie discuss the latest in tech news including: the Dell take over, Jane Goodall's lies,   the Apollo rocket recovery and more. They also discuss who may wear a monocle and the intricacies of men's hats. </itunes:subtitle>
+      <itunes:summary>Dan and Haddie discuss the latest in tech news including: the Dell take over, Jane Goodall's lies,   the Apollo rocket recovery and more. They also discuss who may wear a monocle and the intricacies of men's hats.
+</itunes:summary>
+      <itunes:keywords>frequency, dan benjamin, haddie cooke, news, tech, events, technology</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/41/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Ffrequency%2F110&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 30: Monday, 25 March, 2013</title>
+      <link>http://5by5.tv/news/30</link>
+      <guid>http://5by5.tv/news/30</guid>
+      <pubDate>Mon, 25 Mar 2013 15:45:00 GMT</pubDate>
+      <author>Haddie Cooke &amp; Dan Benjamin</author>
+      <description>The news for Monday, 25 March, 2013.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-030.mp3" length="5272508" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Monday, 25 March, 2013.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Haddie Cooke &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>10:25</itunes:duration>
+      <itunes:subtitle>The news for Monday, 25 March, 2013.</itunes:subtitle>
+      <itunes:summary>The news for Monday, 25 March, 2013.
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F30&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Critical Path 77: Making Sausages</title>
+      <link>http://5by5.tv/criticalpath/77</link>
+      <guid>http://5by5.tv/criticalpath/77</guid>
+      <pubDate>Mon, 25 Mar 2013 02:00:00 GMT</pubDate>
+      <author>Horace Dediu &amp; Moisés Chiullan</author>
+      <description>The more we deconstruct and take apart iTunes, the more we come to respect how it cannot exist independent of the system it's a part of. Its scope and scale and its history and future all indicate that there is more to it than just a store and that it might be a platform in its own right. We get into some more details about all these details and talk about where it came from and where we think it will end up.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/criticalpath/2013/criticalpath-077.mp3" length="40237399" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The more we deconstruct and take apart iTunes, the more we come to respect how it cannot exist independent of the system it's a part of. Its scope and scale and its history and future all indicate that there is more to it than just a store and that it might be a platform in its own right. We get into some more details about all these details and talk about where it came from and where we think it will end up.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.asymco.com/2013/03/21/the-conundrum-of-itunes-recognition-of-revenues/" class="link" target="_blank"&gt;The Conundrum of iTunes’ Recognition of Revenues | asymco&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.asymco.com/2013/03/22/so-long-break-even/" class="link" target="_blank"&gt;So long, break-even | asymco&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/screentime/30" class="link" target="_blank"&gt;5by5 | Screen Time #30: TableTop Day (with Boyan Radakovich)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://tabletop.geekandsundry.com/" class="link" target="_blank"&gt;Geek and Sundry | TableTop&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://squarespace.com/5by5"&gt;Squarespace&lt;/a&gt; (use code INSERT CODE for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Horace Dediu &amp; Moisés Chiullan</itunes:author>
+      <itunes:duration>1:23:06</itunes:duration>
+      <itunes:subtitle>The more we deconstruct and take apart iTunes, the more we come to respect how is cannot exist independent of the system it's a part of. Its scope and scale and its history and future all indicate that there is more to it than just a store.</itunes:subtitle>
+      <itunes:summary>The more we deconstruct and take apart iTunes, the more we come to respect how it cannot exist independent of the system it's a part of. Its scope and scale and its history and future all indicate that there is more to it than just a store and that it might be a platform in its own right. We get into some more details about all these details and talk about where it came from and where we think it will end up.
+</itunes:summary>
+      <itunes:keywords>mobile, apple, iphone, ipad, ios, rim, blackberry, nokia, android, google</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/24/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fcriticalpath%2F77&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Mac Power Users 130: Computing with Kids</title>
+      <link>http://5by5.tv/mpu/130</link>
+      <guid>http://5by5.tv/mpu/130</guid>
+      <pubDate>Sun, 24 Mar 2013 17:30:00 GMT</pubDate>
+      <author>David Sparks &amp; Katie Floyd</author>
+      <description>David and Katie are joined by Natali Morris to talk about kids and technology. Topics include why it's important to introduce kids to tech, keeping children safe online, monitoring and limiting access and Natali's favorite apps and accessories.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/mpu/2013/mpu-130.mp3" length="45167102" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;David and Katie are joined by Natali Morris to talk about kids and technology. Topics include why it's important to introduce kids to tech, keeping children safe online, monitoring and limiting access and Natali's favorite apps and accessories.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://natalimorris.com/" class="link" target="_blank"&gt;Natali&amp;#x27;s Website&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/natalimorris" class="link" target="_blank"&gt;Natali on Twitter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.mommybeta.com/" class="link" target="_blank"&gt;Mommy Beta&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://pinterest.com/natalimorris/" class="link" target="_blank"&gt;Natali on Pinterest&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.macworld.com/article/2030156/configuring-parental-controls.html" class="link" target="_blank"&gt;Macworld: Configuring Parental Controls&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.macworld.com/article/2025807/limiting-your-kids-ios-use.html" class="link" target="_blank"&gt;Macworld: Limiting your kids&amp;#x27; iOS use&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.opendns.com/" class="link" target="_blank"&gt;OpenDNS&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.filetransporter.com/how-to/" class="link" target="_blank"&gt;Transporter How To Videos&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0393339750/5by5-20" class="link" target="_blank"&gt;The Shallows: What the Internet Is Doing to Our Brains&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://support.apple.com/kb/HT5509?viewlocale=en_US&amp;amp;locale=en_US" class="link" target="_blank"&gt;iOS: About Guided Access&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.imore.com/how-use-guided-access-put-your-ipad-or-iphone-guest-user-mode" class="link" target="_blank"&gt;How to put your iPad into &amp;quot;Guest User&amp;quot; mode with Guided Access&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B006BA8FLO/5by5-20" class="link" target="_blank"&gt;Woogie 2!&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.luvion.com/baby_monitors/" class="link" target="_blank"&gt;Luvion Baby Monitors&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.lorextechnology.com/product/info/Video+baby+monitor+/2000036" class="link" target="_blank"&gt;Lorex Baby Monitors&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.omnigroup.com/thesetup/" class="link" target="_blank"&gt;The OmniFocus Setup Videos&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.smule.com/magicpiano" class="link" target="_blank"&gt;Magic Piano&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://www.omnigroup.com/thesetup/" class="link" target="_blank"&gt;The OmniFocus Setup&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/sg/app/learn-abcs/id457284432?mt=8" class="link" target="_blank"&gt;Learn ABCs&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/grandpas-workshop/id555310530?mt=8" class="link" target="_blank"&gt;Grandpa&amp;#x27;s Workshop&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/au/app/counting-bear/id414967966?mt=8" class="link" target="_blank"&gt;Counting Bears&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://www.apple.com/findouthow/mac/#parentalcontrols" class="link" target="_blank"&gt;Apple Video on Parental Controls&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.duckduckmoose.com" class="link" target="_blank"&gt;Duck Duck Moose Apps&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Please Support our Sponsors:&lt;/p&gt;
+
+&lt;p&gt;The Omni Group
+&lt;a href="http://www.omnigroup.com/powerusers"&gt;We're passionate about productivity for Mac, iPhone and iPad&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Squarespace
+&lt;a href="http://www.squarespace.com/?channel=podcast&amp;subchannel=5by5&amp;source=5by5"&gt; Everything you need to create an amazing website.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hover
+&lt;a href="http://www.hover.com/macpowerusers"&gt;Domain name and email management made simple.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Frank and Oak
+&lt;a href="http://www.frankandoak.com/macpowerusers"&gt;A men’s online clothing store that makes shopping easy.&lt;br&gt;&lt;b&gt;Use discount code MACPOWER20 at checkout to get 20% OFF your order.&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>David Sparks &amp; Katie Floyd</itunes:author>
+      <itunes:duration>1:33:31</itunes:duration>
+      <itunes:subtitle>David and Katie are joined by Natali Morris to talk about kids and technology. Topics include why it's important to introduce kids to tech, keeping children safe online, monitoring and limiting access and Natali's favorite apps and accessories.</itunes:subtitle>
+      <itunes:summary>David and Katie are joined by Natali Morris to talk about kids and technology. Topics include why it's important to introduce kids to tech, keeping children safe online, monitoring and limiting access and Natali's favorite apps and accessories.
+</itunes:summary>
+      <itunes:keywords>mac, apple, power user, productivity, workflows</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/25/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fmpu%2F130&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Incomparable 132: Kind of Like a Dinosaur</title>
+      <link>http://5by5.tv/incomparable/132</link>
+      <guid>http://5by5.tv/incomparable/132</guid>
+      <pubDate>Sat, 23 Mar 2013 18:45:00 GMT</pubDate>
+      <author>Jason Snell</author>
+      <description>Don't make us angry... you wouldn't like us when we're angry. Our Comic Book Club talks all things Hulk. We begin with a discussion of two She-Hulk series, by John Byrne and Dan Slott, and then move to talk about Proper Hulk, Gray Hulk, Red Hulk, Planet Hulk, Ruffalo Hulk, and more! Plus: What are we reading? (Jason gets really excited about "Hawkeye," who is not a Hulk.) And, other than being green, how is the Hulk like parsley? Channel your inner rage and listen to this episode.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/incomparable/2013/incomparable-132.mp3" length="31536252" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Don't make us angry... you wouldn't like us when we're angry. Our Comic Book Club talks all things Hulk. We begin with a discussion of two She-Hulk series, by John Byrne and Dan Slott, and then move to talk about Proper Hulk, Gray Hulk, Red Hulk, Planet Hulk, Ruffalo Hulk, and more! Plus: What are we reading? (Jason gets really excited about "Hawkeye," who is not a Hulk.) And, other than being green, how is the Hulk like parsley? Channel your inner rage and listen to this episode.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://amzn.to/Xydqjm" class="link" target="_blank"&gt;Sensational She-Hulk (Byrne)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://amzn.to/Yz6CSH" class="link" target="_blank"&gt;She-Hulk: Single Green Female&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://amzn.to/14la6iR" class="link" target="_blank"&gt;Planet Hulk&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://amzn.to/X3miT5" class="link" target="_blank"&gt;Hawkeye Vol. 1: My Life as a Weapon&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://amzn.to/168RzEG" class="link" target="_blank"&gt;Avengers: Avengers World Vol. 1&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://amzn.to/ZdPTa3" class="link" target="_blank"&gt;Ultimate Comics Ultimates Vol. 1&lt;/a&gt;&lt;/h4&gt;
+</content:encoded>
+      <itunes:author>Jason Snell</itunes:author>
+      <itunes:duration>1:04:53</itunes:duration>
+      <itunes:subtitle>Hulk, She-Hulk, and other Hulks I've known.</itunes:subtitle>
+      <itunes:summary>Don't make us angry... you wouldn't like us when we're angry. Our Comic Book Club talks all things Hulk. We begin with a discussion of two She-Hulk series, by John Byrne and Dan Slott, and then move to talk about Proper Hulk, Gray Hulk, Red Hulk, Planet Hulk, Ruffalo Hulk, and more! Plus: What are we reading? (Jason gets really excited about "Hawkeye," who is not a Hulk.) And, other than being green, how is the Hulk like parsley? Channel your inner rage and listen to this episode.
+</itunes:summary>
+      <itunes:keywords>books, movies, tv, comics, sci-fi, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/30/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fincomparable%2F132&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Quit! 17: Four Hour Sleep Night</title>
+      <link>http://5by5.tv/quit/17</link>
+      <guid>http://5by5.tv/quit/17</guid>
+      <pubDate>Fri, 22 Mar 2013 23:45:00 GMT</pubDate>
+      <author>Dan Benjamin</author>
+      <description>Dan is joined by special guest Garrett Dimon to discuss starting and running businesses with less pain and fewer mistakes. Dan takes calls and helps people identify their opportunities and make decisions to redefine their careers.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/quit/2013/quit-017.mp3" length="38131306" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Dan is joined by special guest Garrett Dimon to discuss starting and running businesses with less pain and fewer mistakes. Dan takes calls and helps people identify their opportunities and make decisions to redefine their careers.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.theonion.com/articles/find-the-thing-youre-most-passionate-about-then-do,31742/" class="link" target="_blank"&gt;Find The Thing You&amp;#x27;re Most Passionate About, Then Do It On Nights And Weekends For The Rest Of Your Life | The Onion - America&amp;#x27;s Finest News Source&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://startingandsustaining.com/" class="link" target="_blank"&gt;Starting + Sustaining: A book and spreadsheet to help you launch and maintain a web application by Garrett Dimon&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://nextupdate.com/" class="link" target="_blank"&gt;Next Update&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://sifterapp.com/" class="link" target="_blank"&gt;Sifter - Simple Hosted Bug &amp;amp; Issue Tracking&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://garrettdimon.com/" class="link" target="_blank"&gt;GarrettDimon.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/garrettdimon" class="link" target="_blank"&gt;Garrett Dimon (garrettdimon) on Twitter&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://squarespace.com/5by5"&gt;Squarespace&lt;/a&gt; (use code DANSENTME3 for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Dan Benjamin</itunes:author>
+      <itunes:duration>1:18:53</itunes:duration>
+      <itunes:subtitle>Dan is joined by special guest Garrett Dimon to discuss starting and running businesses with less pain and fewer mistakes. Dan takes calls and helps people identify their opportunities and make decisions to redefine their careers.</itunes:subtitle>
+      <itunes:summary>Dan is joined by special guest Garrett Dimon to discuss starting and running businesses with less pain and fewer mistakes. Dan takes calls and helps people identify their opportunities and make decisions to redefine their careers.
+</itunes:summary>
+      <itunes:keywords>quit, work, job, awesome, garrett dimon, starting, sustaining</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/44/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fquit%2F17&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Geek Friday 66: It’s Our Grammar</title>
+      <link>http://5by5.tv/geekfriday/66</link>
+      <guid>http://5by5.tv/geekfriday/66</guid>
+      <pubDate>Fri, 22 Mar 2013 16:45:00 GMT</pubDate>
+      <author>Faith Korpi &amp; Jason Seifer</author>
+      <description>In this episode of Geek Friday, Faith and Jason talk about The Geek Friday Token, hipsters and flip phones, movies on Kickstarter, and much much more.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/geekfriday/2013/geekfriday-066.mp3" length="41853707" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;In this episode of Geek Friday, Faith and Jason talk about The Geek Friday Token, hipsters and flip phones, movies on Kickstarter, and much much more.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.zagg.com/keyboard-cases/index.php#zaggkeys-mini-7+ipad-mini" class="link" target="_blank"&gt;iPad Keyboards, Cases, &amp;amp; Stands | ZAGG&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://instagram.com/p/XD8IJ1owXs/" class="link" target="_blank"&gt;Photo by faitherina • Instagram&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.psfk.com/2013/03/oreo-robot-butler.html" class="link" target="_blank"&gt;Robot Butler Separates Oreo Cookies For Its Owner [Video] - PSFK - PSFK&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=gBgfpl0lcIo" class="link" target="_blank"&gt;OREO Separator Machine #4 — Creator: Robotic Butler HERB - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.painstaking.co/2013/03/20/the-geek-friday-token/" class="link" target="_blank"&gt;The Geek Friday Token | Painstaking.co&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.imdb.com/name/nm0935664/" class="link" target="_blank"&gt;Alex Winter - IMDb&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.wired.com/underwire/2013/03/exclusive-clip-napster-doc-downloaded/" class="link" target="_blank"&gt;Exclusive Clip: Relive Napster&amp;#x27;s Big Break in the Documentary Downloaded | Underwire | Wired.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.kickstarter.com/projects/559914737/the-veronica-mars-movie-project" class="link" target="_blank"&gt;The Veronica Mars Movie Project by Rob Thomas — Kickstarter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://science.time.com/2013/03/20/humanity-leaves-the-solar-system-35-years-later-voyager-offically-exits-the-heliosphere/" class="link" target="_blank"&gt;Report: Humanity Leaves the Solar System — Or Maybe Not | TIME.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://www.youtube.com/watch?v=4TdczoetXk4" class="link" target="_blank"&gt;&amp;quot;Mario&amp;quot; - SXSW 2011 Film Bumper - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Tekken_3" class="link" target="_blank"&gt;Tekken 3 - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://faitherina.com/" class="link" target="_blank"&gt;Trust Me, I&amp;#x27;m Faith&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://schedulingapp.com/" class="link" target="_blank"&gt;Make Perfect Work Schedules - Scheduling Employee Scheduling Software&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://geekfriday.com" class="link" target="_blank"&gt;Geek Friday dot com&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://squarespace.com/5by5"&gt;Squarespace&lt;/a&gt; (use code IDESOFMARCH for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Faith Korpi &amp; Jason Seifer</itunes:author>
+      <itunes:duration>57:42</itunes:duration>
+      <itunes:subtitle>In this episode of Geek Friday, Faith and Jason talk about The Geek Friday Token, hipsters and flip phones, movies on Kickstarter, and much much more.</itunes:subtitle>
+      <itunes:summary>In this episode of Geek Friday, Faith and Jason talk about The Geek Friday Token, hipsters and flip phones, movies on Kickstarter, and much much more.
+</itunes:summary>
+      <itunes:keywords>technology, tech, geek, tv, movies, comics, music, gear</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/29/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fgeekfriday%2F66&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Frequency 109: I Need a Rag!</title>
+      <link>http://5by5.tv/frequency/109</link>
+      <guid>http://5by5.tv/frequency/109</guid>
+      <pubDate>Fri, 22 Mar 2013 16:15:00 GMT</pubDate>
+      <author>Haddie Cooke &amp; Dan Benjamin</author>
+      <description>Dan and Haddie discuss the latest in tech news and events including the latest in Apple, the evolution of the computer interface, and the most detailed and illegal picture of the internet ever.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/frequency/2013/frequency-109.mp3" length="28543344" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Dan and Haddie discuss the latest in tech news and events including the latest in Apple, the evolution of the computer interface, and the most detailed and illegal picture of the internet ever.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.macrumors.com/2013/03/21/jony-ive-pushing-for-flat-design-in-ios-7-amid-greater-hardware-software-design-collaboration/" class="link" target="_blank"&gt;Jony Ive Pushing for &amp;#x27;Flat Design&amp;#x27; in iOS 7 Amid Greater Hardware-Software Design Collaboration - Mac Rumors&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Last October, Tim Cook tasked Jony Ive with leadership of the company's Human Interface teams in addition to his role as head of Industrial Design. This suggested that the company's hardware and software user interfaces could become more complimentary with one executive in charge of everything that users see and touch. The Wall Street Journal reports that this is indeed the case, with mobile software teams being briefed about new hardware prototypes earlier in the design cycle. Additionally, Ive is now sitting in on the human interface team's review sessions to examine new designs.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://9to5mac.com/2013/03/21/apple-beefs-up-icloud-apple-id-security-with-two-step-verification/" class="link" target="_blank"&gt;Apple beefs up iCloud, Apple ID security with two-step verification | 9to5Mac&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Today, Apple has rolled out a new two-step verification service for iCloud and Apple ID users. This functionality greatly enhances the security of Apple accounts because it requires users to use a trusted device and an extra security code.This security code can be sent via SMS or via the Find my iPhone iOS app (if it is installed). Users can now setup two-step authentication on their devices via the Apple ID website. Users need to access the security tab on this website to conduct the setup process.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://appleinsider.com/articles/13/03/21/apple-looks-to-protect-dropped-iphones-by-shifting-their-orientation-mid-flight" class="link" target="_blank"&gt;Apple looks to protect dropped iPhones by shifting their orientation mid-flight&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Published by the U.S. Patent and Trademark Office, Apple's "Protective Mechanism for an Electronic Device" patent filing looks to alleviate some or all of the damage when a device is accidentally dropped. While the invention can be applied to any electronic device with a processor, from a tablet to a laptop, it is most well-suited for those portables that users carry with them on a daily basis. For example, Apple's iPhone is specifically mentioned in the patent language.In order to work, the system needs a sensor or sensor array that can detect when a device is in freefall and how it is positioned relative to the ground.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-13579_3-57575626-37/apple-google-google-now-not-submitted-to-app-store/" class="link" target="_blank"&gt;Apple, Google: Google Now not submitted to App Store | Apple - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google Now has not been submitted yet to Apple's App Store, the iPhone maker told CNET. And Google itself has now confirmed this.Earlier today, Google Executive Chairman Eric Schmidt spoke at the Big Tent Summit in India and was asked when Google Now would be made available to iOS devices. In a coded response, Schmidt stopped short of calling out Apple but did seem to hint that the iPhone maker was playing a role in the app's availability on its platform.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/2300-11386_3-10016203.html" class="link" target="_blank"&gt;Stars come out for &amp;#x27;Game of Thrones&amp;#x27; screening (pictures) - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;"Game of Thrones" stars talk to the press last night in San Francisco where the red carpet was laid out at the Palace of Fine Arts for a special screening to kick off the series' third season. The hit HBO show held its official premiere earlier this week in Los Angeles.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/03/21/the-science-of-snoozing/" class="link" target="_blank"&gt;The Science of Snoozing [VIDEO]&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Feeling a little groggy? Droopy? Dopey? Sleepy? Another 'Seven Dwarfs' syndrome?It may not be because you didn't get enough sleep, but perhaps because you opted for a few extra minutes of it. ASAP Science explains that alarm clocks are really the enemy in the bedroom, because they disrupt your body's natural rhythms and attempts at rousing you awake.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/21/4127110/40-years-of-icons-the-evolution-of-the-modern-computer-interface" class="link" target="_blank"&gt;40 years of icons: the evolution of the modern computer interface | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;40 years of icons: the evolution of the modern computer interface&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/21/4133288/apple-to-finally-stop-accepting-apps-that-use-outdated-udid-device-identifier-may-1st" class="link" target="_blank"&gt;Apple to finally stop accepting apps that use outdated UDID device identifier on May 1st | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple announced it was deprecating the Unique Device Identifier back in August of 2011, and over 18 months later the company will formally start rejecting apps that continue to use it. In a brief post on Apple's Developer website, the company states that it won't accept apps that use UDIDs as of May 1st, and encourages developers to use two other options to provide similar functionality should they need it.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://motherboard.vice.com/blog/this-is-most-detailed-picture-internet-ever" class="link" target="_blank"&gt;This Is the Most Detailed Picture of the Internet Ever (and Making it Was Very Illegal) | Motherboard&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;In a newly published research paper, an unnamed data junkie explains how he used some stupid simple hacking techniques to build a 420,000-node botnet that helped him draw the most detailed map of the Internet known to man. Not only does it show where people are logging in, it also shows changes in traffic patterns over time with an impressive amount of precision.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/3/21/4133428/is-google-building-a-smart-watch-of-its-own" class="link" target="_blank"&gt;Google&amp;#x27;s Android unit reportedly building a smartwatch | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;According to a recent report from The Financial Times, Google might also be getting into the smartwatch game. And unlike Glass, which was developed in the company’s experimental X Lab, the watch (not pictured above) is said to be under development by the Android unit, possibly indicating that Google sees it as a more immediately viable product. According to FT’s source, the Google watch is separate from Samsung’s recently-announced effort.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.engadget.com/2013/03/22/fcc-chairman-genachowski-to-step-down/" class="link" target="_blank"&gt;FCC Chairman Julius Genachowski will step down &amp;#x27;in the coming weeks&amp;#x27;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Julius Genachowski will be stepping down from his position as FCC Chairman "in the coming weeks" according to a brief message on the FCC's webpage. We're expecting more detail in a live announcement at 10am, but this was no big surprise: the Wall Street Journal broke the news yesterday and speculation over Mr. Genachowski's tenure has lingered ever since an awkward exchange where he refused to commit to his future at this year's CES.In his four years at the commission, Genachowski worked to speed up the roll-out of broadband to rural communities, voiced concerns about the current phone unlocking policy and pushed to allocate more spectrum to WiFi use.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B003O6E986/5by5-20" class="link" target="_blank"&gt;Amazon.com: Forza Motorsport 4: Xbox 360: Video Games&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B000Y7U98W/5by5-20" class="link" target="_blank"&gt;Amazon.com: Sunshine [Blu-ray]: Cillian Murphy, Rose Byrne, Chris Evans, Michelle Yeoh, Troy Garity, Hiroyuki Sanada, Benedict Wong, Mark Strong, Cliff Curtis, Paloma Baeza, Archie Macdonald, Sylvie Macdonald, Alwin H. Küchler, Danny Boyle, Chris Gill, An&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B0013KTGAG/5by5-20" class="link" target="_blank"&gt;Amazon.com: Sunshine: Cillian Murphy, Rose Byrne, Cliff Curtis, Chris Evans: Amazon Instant Video&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/danbenjamin/status/315113081430736897/photo/1" class="link" target="_blank"&gt;Twitter / danbenjamin: The patch panel wire ...&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code FREQUENCY3 for 30% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Haddie Cooke &amp; Dan Benjamin</itunes:author>
+      <itunes:duration>58:48</itunes:duration>
+      <itunes:subtitle>Dan and Haddie discuss the latest in tech news and events including the latest in Apple, the evolution of the computer interface, and the most detailed and illegal picture of the internet ever. </itunes:subtitle>
+      <itunes:summary>Dan and Haddie discuss the latest in tech news and events including the latest in Apple, the evolution of the computer interface, and the most detailed and illegal picture of the internet ever.
+</itunes:summary>
+      <itunes:keywords>frequency, dan benjamin, haddie cooke, news, tech, events, technology</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/41/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Ffrequency%2F109&amp;user_id=danbenjamin"/>
+    </item>
+  </channel>
+</rss>
