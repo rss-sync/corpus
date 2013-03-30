@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-03-30T15:27:11Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15720168</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to forward calls to specified phone numbers based on the incoming extension number with android?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="application"/>
+        <author>
+            <name>John Jameson</name>
+            <uri>http://stackoverflow.com/users/2190252</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720168/how-to-forward-calls-to-specified-phone-numbers-based-on-the-incoming-extension" />
+        <published>2013-03-30T15:26:46Z</published>
+        <updated>2013-03-30T15:26:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;This question sounds a bit odd, and it is maybe impossible, but I really need to do something like this, and I need a cheap solution.&lt;/p&gt;
+
+&lt;p&gt;What I would like to do is to use and Android phone to forward incoming calls to specified numbers based on the extension number. Is it possible virtually? I do not have real extensions, just one Android device with only one phone number, so that is why I am thinking about extension numbers, I think this is the only way to identify the target number with a cellphone.&lt;/p&gt;
+
+&lt;p&gt;Sample:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;My number: 00491234567
+When user calls 00491234567-01 it will ring at 00490987654
+When user calls 00491234567-02 it will ring at 00490456789
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720167</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Android parsing of XML file Null Pointer Exception</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="xml"/><category scheme="http://stackoverflow.com/feeds/tags" term="parsing"/><category scheme="http://stackoverflow.com/feeds/tags" term="nullpointerexception"/>
+        <author>
+            <name>user2226067</name>
+            <uri>http://stackoverflow.com/users/2226067</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720167/android-parsing-of-xml-file-null-pointer-exception" />
+        <published>2013-03-30T15:26:42Z</published>
+        <updated>2013-03-30T15:26:42Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a method that reads in an XML file, parses it and loads the individual elements into an array.  The code itself works when it is included with an Activity class.  It needs to be used from 2 different Activities, so I created a utility class so I can call the one copy from each Activity needed.  However, when it runs from the utility class, I get a null point exception.  This tells me that I&#39;m breaking a rule of what I can do, and from where.&lt;/p&gt;
+
+&lt;p&gt;Here is the utility class.  The first Log.i appears in LogCat, but the 2nd does not.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Utils extends MainActivity
+{
+String debugTag          = DEBUG_TAG + &quot;/Utils&quot;;
+
+public void loadRankFile() throws XmlPullParserException, IOException
+{       
+    int     eventType      = -1;
+    boolean boolFoundRanks = false;
+    int     intCounter     = 0;
+
+    // this line appears in LogCat      
+    Log.i(debugTag, &quot;Inside loadRankFile utility.&quot;);
+
+    // this line causes the NPE     
+    XmlResourceParser scoutRanks = getResources().getXml(R.xml.scoutranks);
+
+    // this line does not appear in LogCat      
+    Log.i(debugTag, &quot;xml file loaded&quot;);
+.
+.
+.
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the code from the Activity that calls the method, above:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public void onCreate(Bundle savedInstanceState)
+{
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.rank_progress);
+
+    try
+    {
+        initSelectScout();
+        utilities.loadRankFile();
+        initSelectRank();
+    }
+    catch (IOException e)
+    {
+        Log.i(debugTag, &quot;Failure initializing Scout Progress activity items&quot;, e);
+    }       
+    catch (XmlPullParserException e)
+    {
+        Log.e(debugTag, &quot;Rank file parse error.&quot;, e);
+    }
+.
+.
+.
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m sure I&#39;m making a classic mistake, but I don&#39;t see it, and I haven&#39;t been able to find guidance as of yet.  Any feedback would be appreciated.  Another thing that I&#39;m confused by is how the loadRankFile method is found, since the method is in Utils.java but I&#39;m referencing it with utilities.loadRankFile.  I&#39;m rather new to Java and Android, so this is very much a learning experience for me.&lt;/p&gt;
+
+&lt;p&gt;Thank you in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720166</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Run 4 mac scripts with one executable command and admin privileges</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="bash"/>
+        <author>
+            <name>ArielN</name>
+            <uri>http://stackoverflow.com/users/2227334</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720166/run-4-mac-scripts-with-one-executable-command-and-admin-privileges" />
+        <published>2013-03-30T15:26:31Z</published>
+        <updated>2013-03-30T15:26:31Z</updated>
+        <summary type="html">
+            
+            &lt;h1&gt;!/bin/sh&lt;/h1&gt;
+
+&lt;p&gt;mkdir -p /Library/Internet\ Plug-Ins/disabled&lt;/p&gt;
+
+&lt;p&gt;mv /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin /Library/Internet\ Plug-Ins/disabled&lt;/p&gt;
+
+&lt;p&gt;ln -sf /System/Library/Java/Support/Deploy.bundle/Contents/Resources/JavaPlugin2_NPAPI.plugin /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin&lt;/p&gt;
+
+&lt;p&gt;ln -sf /System/Library/Frameworks/JavaVM.framework/Commands/javaws/usr/bin/javaws&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720165</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">JButton not working with textfield</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="user-interface"/><category scheme="http://stackoverflow.com/feeds/tags" term="jbutton"/><category scheme="http://stackoverflow.com/feeds/tags" term="jtextfield"/>
+        <author>
+            <name>Steve Moore</name>
+            <uri>http://stackoverflow.com/users/2227360</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720165/jbutton-not-working-with-textfield" />
+        <published>2013-03-30T15:26:21Z</published>
+        <updated>2013-03-30T15:26:21Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;im having a little trouble with this GUI. Im new to making GUI&#39;s so if its something basic im sorry for asking. I cant seem to find the answer to my problem anywhere on google. 
+The problem im having is when i click on any of the buttons i get an error when any one of the textfields are left empty. here is my code so far&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.JOptionPane;
+
+public class MainGUI extends JFrame implements ActionListener{
+
+ArrayList&amp;lt;Object&amp;gt; list;
+JTextField name, surname, age, height, weight;
+JComboBox&amp;lt;String&amp;gt; sportList, gender;
+JButton btnSave;
+JButton btnExit;
+JButton btnclrtxt;
+
+
+/**
+ * @param args
+ */
+public MainGUI() {
+    super(&quot;Adding members&quot;);
+    this.setLayout(new BorderLayout());
+    JPanel panel = new JPanel(new FlowLayout());
+    name = new JTextField(10);
+    surname = new JTextField(10);
+    age = new JTextField(10);
+    height = new JTextField(5);
+    weight = new JTextField(10);
+    gender = new JComboBox&amp;lt;String&amp;gt;(new String[] { &quot;Male&quot;, &quot;Female&quot; });
+    sportList = new JComboBox&amp;lt;String&amp;gt;(new String[] { &quot;Football&quot;,
+            &quot;HandBall&quot;, &quot;BasketBall&quot;, &quot;Rugby&quot;, &quot;Hockey&quot;, &quot;Tennis&quot; });
+
+    panel.add(new JLabel(&quot;Name:&quot;));
+    panel.add(name);
+    panel.add(new JLabel(&quot;Surname:&quot;));
+    panel.add(surname);
+    panel.add(new JLabel(&quot;Age:&quot;));
+    panel.add(age);
+    panel.add(new JLabel(&quot;Gender:&quot;));
+    panel.add(gender);
+    panel.add(new JLabel(&quot;Height:&quot;));
+    panel.add(height);
+    panel.add(new JLabel(&quot;Weight:&quot;));
+    panel.add(weight);
+    panel.add(new JLabel(&quot;Sport Speciality:&quot;));
+    panel.add(sportList);
+
+    btnSave = new JButton(&quot;Save member&quot;);
+    panel.add(btnSave);
+    btnSave.addActionListener(this);
+
+    btnclrtxt = new JButton(&quot;Clear text&quot;);
+    panel.add(btnclrtxt);
+    btnclrtxt.addActionListener(this);
+
+    btnExit = new JButton(&quot;Exit&quot;);
+    panel.add(btnExit);
+    btnExit.addActionListener(this);
+
+    this.pack();
+    this.add(panel);
+    this.setSize(400, 300);
+    this.setVisible(true);
+    this.setLocationRelativeTo(null);
+    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+}
+
+public static void main(String[] args) {
+    new MainGUI();
+          }
+
+public void actionPerformed(ActionEvent e) {
+
+            String namestr = name.getText().toLowerCase();
+    String surnameStr = surname.getText().toLowerCase();
+    int ageNum = Integer.parseInt(age.getText().toLowerCase());
+    double heightNum = Double.parseDouble(height.getText().toLowerCase());
+    double weightNum = Double.parseDouble(weight.getText().toLowerCase());
+    String sportsStr = sportList.getSelectedItem().toString();
+    String genderStr = gender.getSelectedItem().toString();
+
+              if(e.getSource()==btnSave)  {
+        list = new ArrayList&amp;lt;Object&amp;gt;();
+        list.add(&quot;Name is &quot;+namestr);
+        list.add(&quot;Surname is &quot;+surnameStr);
+        list.add(&quot;Age is &quot;+ageNum);
+        list.add(&quot;Height is &quot;+heightNum);
+        list.add(&quot;Weight is &quot;+weightNum);
+        list.add(&quot;Sport &quot;+sportsStr);
+        list.add(&quot;Gender &quot;+genderStr);
+        FileRead.writeFile(list);
+        System.out.println(&quot;Done!&quot;);
+                }
+
+    if(e.getSource()==btnExit)  {
+                dispose();
+                                    System.exit(0);
+                           }
+
+    if(e.getSource()==btnclrtxt)  {
+         name.setText(&quot;&quot;);
+         surname.setText(&quot;&quot;);
+         age.setText(&quot;&quot;);
+         height.setText(&quot;&quot;);
+         weight.setText(&quot;&quot;);
+               }
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720164</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Is it possible to add more than 500 rows of data into a database in 1 query in SQLite in AIR 3.6 project?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="flash"/><category scheme="http://stackoverflow.com/feeds/tags" term="sqlite"/><category scheme="http://stackoverflow.com/feeds/tags" term="air"/><category scheme="http://stackoverflow.com/feeds/tags" term="insert"/>
+        <author>
+            <name>SzRaPnEL</name>
+            <uri>http://stackoverflow.com/users/1331794</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720164/is-it-possible-to-add-more-than-500-rows-of-data-into-a-database-in-1-query-in-s" />
+        <published>2013-03-30T15:26:21Z</published>
+        <updated>2013-03-30T15:26:21Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m creating iPad app in Flash (AIR 3.6).
+I need to synchronize tons of data using SQLite database engine.
+I&#39;m receiving data from the server in JSON format which needs to be converted to Vector of data.&lt;/p&gt;
+
+&lt;p&gt;As far as I know Flash SQLite engine allows only 1 process of INSERT at a time, so I decided to add as much as I can in 1 query.
+I&#39;m using UNION ALL with INSERT but I encountered a limit of 500 unions after which SQLite engine refuses to cooperate.&lt;/p&gt;
+
+&lt;p&gt;Because of that I had to create a structure which adds up to 500 inserts with unions and runs until all of data will be inserted that way. For 2k+ rows it loops about 5times.
+I tried to insert data 1 by 1 but it took like 300 times what it is taking right now.&lt;/p&gt;
+
+&lt;p&gt;Finally:
+Is it possible to add more than 500 rows of data into a database in 1 query in SQLite in AIR 3.6 project?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720163</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Create preference activity look - Android</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="activity"/><category scheme="http://stackoverflow.com/feeds/tags" term="android-preferences"/>
+        <author>
+            <name>Someone</name>
+            <uri>http://stackoverflow.com/users/1725836</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720163/create-preference-activity-look-android" />
+        <published>2013-03-30T15:26:15Z</published>
+        <updated>2013-03-30T15:26:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to create an activity that look like preference activity. My activity contains tabs and I 
+am trying to create tab that look like preferences (EditText, Checkbox, ...).&lt;br&gt;
+I don&#39;t want to create real preference activity, but to create look like tab.  &lt;/p&gt;
+
+&lt;p&gt;How can I do that?&lt;br&gt;
+I am using Android API 8.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720159</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Mouseover tooltips on Raphael SVG paths</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="svg"/><category scheme="http://stackoverflow.com/feeds/tags" term="raphael"/>
+        <author>
+            <name>Lasse</name>
+            <uri>http://stackoverflow.com/users/1389494</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720159/mouseover-tooltips-on-raphael-svg-paths" />
+        <published>2013-03-30T15:25:49Z</published>
+        <updated>2013-03-30T15:25:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I use Raphael Sketchpad (a library under Raphael) to draw SVG paths.
+I want to fire events when a mouse over event occours on the paths, but I tried all examples I could find on this topic with no help, the mouse over event is not firing when I hit a path element, hovever I can easily attach a mouse over event listener to the SVG container, but that is not what I want to achieve.&lt;/p&gt;
+
+&lt;p&gt;Below is a snippet of the rendered HTML&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        &amp;lt;div id=&quot;sketchpad&quot; style=&quot;-moz-user-select: text;&quot;&amp;gt;
+            &amp;lt;div class=&quot;box&quot; id=&quot;demo-mouse&quot; style=&quot;-moz-user-select: text;&quot;&amp;gt;
+
+                &amp;lt;div style=&quot;background-color: rgba(255, 255, 255, 0.3); cursor: crosshair; -moz-user-select: text;&quot; id=&quot;canvas&quot;&amp;gt;
+&amp;lt;svg height=&quot;750&quot; version=&quot;1.1&quot; width=&quot;1200&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;overflow: hidden; position: relative; -moz-user-select: text;&quot;&amp;gt;&amp;lt;desc&amp;gt;Created with Rapha&#235;l 2.1.0&amp;lt;/desc&amp;gt;&amp;lt;defs/&amp;gt;
+&amp;lt;path style=&quot;stroke-opacity: 1; stroke-linecap: round; stroke-linejoin: round;&quot; fill=&quot;none&quot; stroke=&quot;#000000&quot; d=&quot;M287,226L311,259L337,280L349,287L359,294L378,309L396,318L399,320L405,323L406,325L408,328L409,328L410,329L411,329L413,326L414,320L416,296L418,280L418,267L420,233L423,220L427,208L430,186L432,177L432,174L432,160L432,157L432,150L430,139L429,134L429,129&quot; stroke-opacity=&quot;1&quot; stroke-width=&quot;1&quot; stroke-linecap=&quot;round&quot; text-anchor=&quot;&quot; stroke-linejoin=&quot;round&quot; transform=&quot;matrix(1,0,0,1,0,0)&quot;/&amp;gt;
+                &amp;lt;/div&amp;gt;
+
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any suggestions? If you want, I can supply with the mouse over jQuery selection code.&lt;/p&gt;
+
+&lt;p&gt;My goal is to have a toolbar displayed on the mouse position when the mouse hits a path (like QTip).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720157</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">What&#39;s a good library for loading 3d models/animations using lwjgl?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="3d"/><category scheme="http://stackoverflow.com/feeds/tags" term="lwjgl"/>
+        <author>
+            <name>Hackingroelz</name>
+            <uri>http://stackoverflow.com/users/1832015</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720157/whats-a-good-library-for-loading-3d-models-animations-using-lwjgl" />
+        <published>2013-03-30T15:25:43Z</published>
+        <updated>2013-03-30T15:25:43Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Is there a library that loads ONLY 3d models/animations? I don&#39;t want a huge framework, I just want some classes for loading and rendering 3d models.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720156</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to make a matrix dynamically adjusting to parent width without (JS with example)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="matrix"/>
+        <author>
+            <name>Zopper</name>
+            <uri>http://stackoverflow.com/users/1023519</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720156/how-to-make-a-matrix-dynamically-adjusting-to-parent-width-without-js-with-exam" />
+        <published>2013-03-30T15:25:41Z</published>
+        <updated>2013-03-30T15:25:59Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;See this example ( &lt;a href=&quot;http://jsfiddle.net/cpSbH/2/&quot; rel=&quot;nofollow&quot;&gt;http://jsfiddle.net/cpSbH/2/&lt;/a&gt; ) and try to resize the window to see what I mean - it is adjusting margins to get as much items on one row as possible, but also to fully use the space and avoid gaps on one side (or both if it would be centred).&lt;/p&gt;
+
+&lt;p&gt;Is it possible to achieve this without a javascript?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+&lt;p&gt;The code I wrote:&lt;/p&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;wrapper&quot;&amp;gt;
+ &amp;lt;div class=&quot;item&quot;&amp;gt;item&amp;lt;/div&amp;gt;
+ ...
+ &amp;lt;div class=&quot;item&quot;&amp;gt;item&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;JS:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(window).resize(function(){
+  var minMargin = 10;
+  var width = $(&quot;#wrapper&quot;).innerWidth();
+  var itemWidth = $(&#39;.item&#39;).outerWidth()+minMargin+minMargin
+
+  var count = Math.floor(width/itemWidth)
+  var space = width - (count*itemWidth);
+  var margin = (space/(count));
+
+  if(margin &amp;lt; minMargin) margin = minMargin;
+
+  margin = Math.floor(margin/2);
+  $(&#39;.item&#39;).css({&#39;margin-left&#39;:margin,&#39;margin-right&#39;:margin}); 
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720155</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Find all critical edges of an MST</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="algorithm"/><category scheme="http://stackoverflow.com/feeds/tags" term="language-agnostic"/><category scheme="http://stackoverflow.com/feeds/tags" term="graph-theory"/><category scheme="http://stackoverflow.com/feeds/tags" term="graph-algorithm"/><category scheme="http://stackoverflow.com/feeds/tags" term="minimum-spanning-tree"/>
+        <author>
+            <name>Nikunj Banka</name>
+            <uri>http://stackoverflow.com/users/1737817</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720155/find-all-critical-edges-of-an-mst" />
+        <published>2013-03-30T15:25:38Z</published>
+        <updated>2013-03-30T15:25:38Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this question from Robert Sedgewick&#39;s book on algorithms. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Critical edges. An MST edge whose deletion from the graph would cause the
+MST weight to increase is called a critical edge. Show how to find all critical edges in a
+graph in time proportional to E log E . Note : This question assumes that edge weights
+are not necessarily distinct (otherwise all edges in the MST are critical).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please suggest an algorithm that solves this problem. &lt;/p&gt;
+
+&lt;p&gt;One approach I can think of does the job in time E.V  . 
+My approach is to run the kruskal&#39;s algorithm. &lt;/p&gt;
+
+&lt;p&gt;But whenever we encounter an edge whose insertion in the MST creates a cycle and if that 
+cycle already contains an edge with the same edge weight, then, the edge already inserted will not be a critical edge (otherwise all other MST edges are critical edges).&lt;/p&gt;
+
+&lt;p&gt;Is this algorithm correct? Can I extend this algorithm to do the job in time E log E.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720153</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Problematic Empty Span &amp; Positioning</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="div"/><category scheme="http://stackoverflow.com/feeds/tags" term="positioning"/><category scheme="http://stackoverflow.com/feeds/tags" term="span"/>
+        <author>
+            <name>jtanner</name>
+            <uri>http://stackoverflow.com/users/365393</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720153/problematic-empty-span-positioning" />
+        <published>2013-03-30T15:25:23Z</published>
+        <updated>2013-03-30T15:25:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a problem with my site and it&#39;s frustrating me... When my header is set to position:absolute, my anchors &amp;amp; jumps work perfectly.  My header is 72px high.  I wanted a fixed header, so set position:fixed. I then modified my jump classes and reduced the style=top by 72px on each to account for the header.&lt;/p&gt;
+
+&lt;p&gt;The jumps work perfectly in FireFox... but Chrome &amp;amp; Safari fail miserably.  It&#39;s like they are completely ignoring my CSS.  When I inspect the elements using each appropriate built in debug tool, both Safari and Chrome will show the empty span as top:60px.&lt;/p&gt;
+
+&lt;p&gt;Can anyone help?&lt;/p&gt;
+
+&lt;p&gt;My website is here: &lt;a href=&quot;http://www.jamestanner.co.uk/j.php&quot; rel=&quot;nofollow&quot;&gt;http://www.jamestanner.co.uk/j.php&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&amp;amp; yes I&#39;ve cleared all caches etc, I&#39;m making sure all javascript &amp;amp; css is correct by viewing source and making sure changes are pushed through etc&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720128</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Spot div on same position</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/>
+        <author>
+            <name>Aneesh</name>
+            <uri>http://stackoverflow.com/users/1595446</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720128/spot-div-on-same-position" />
+        <published>2013-03-30T15:23:14Z</published>
+        <updated>2013-03-30T15:26:58Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to show hide image using javascript. Code works fine but image displays on different location. Now i want to show and hide the images on same spot. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;script type=&quot;text/javascript&quot;&amp;gt; 
+    function showImage()
+    {
+
+        if(document.getElementById(&#39;check&#39;).checked==true)
+        {
+            document.getElementById(&quot;image&quot;).style.visibility = &#39;visible&#39;; 
+            document.getElementById(&quot;images&quot;).style.visibility = &#39;hidden&#39;; 
+        }
+        else if(document.getElementById(&#39;check&#39;).checked==false)
+        {
+            document.getElementById(&quot;image&quot;).style.visibility = &#39;hidden&#39;; 
+            document.getElementById(&quot;images&quot;).style.visibility = &#39;visible&#39;; 
+        }
+
+    }
+&amp;lt;/script&amp;gt;
+&amp;lt;body onload=&quot;showImage()&quot;&amp;gt;
+    &amp;lt;font align=&quot;left&quot;&amp;gt;
+    &amp;lt;input type=&quot;checkbox&quot; id=&quot;check&quot; onclick=&quot;showImage()&quot; /&amp;gt;
+    Show Image
+
+    &amp;lt;div class=&quot;checkboxes&quot; id = &quot;image&quot; &amp;gt;
+        &amp;lt;img  class = &quot;jive-image&quot; height=&quot;125&quot; src =&quot;Tulips.jpg &quot;&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div id=&quot;images&quot;&amp;gt;
+        &amp;lt;img class = &quot;jive-image&quot; height=&quot;125&quot; src=&quot;Desert.jpg&quot;&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How it possible?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720119</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">if commands in python - roulette simulator</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="if-statement"/><category scheme="http://stackoverflow.com/feeds/tags" term="printing"/>
+        <author>
+            <name>joe oxley</name>
+            <uri>http://stackoverflow.com/users/2132618</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720119/if-commands-in-python-roulette-simulator" />
+        <published>2013-03-30T15:22:38Z</published>
+        <updated>2013-03-30T15:25:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to request a specific betting amount with a minimum, maximum and specific increments. When I run the following code, the program loops over every element in the array rather than stopping.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from pylab import *
+import random
+bank = 20000
+betrange=range(100,20100,100)    
+print &quot;Hello Kathy, welcome to the Golden Brighton casino. We have reserved a high roller table for your bank of 20,000. How much would you like to bet per spin? The table has a 100 minimum bet with a maximum of 20,000.&quot;
+print &quot;The available legal bets are as follows:&quot;
+bet=raw_input(&quot;Place your bets please:&quot;) 
+for i in range(len(betrange)):
+    if betrange[i] == bet: 
+       print bet,&quot;Your bet has been accepted, can you make a million?&quot;
+       break
+    else:
+       print bet,&quot;Please enter a legal bet. The table minimum is 100, with a maximum of 20000 in increments of 100.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720118</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">jQuery load after submit, with if statements</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="if-statement"/><category scheme="http://stackoverflow.com/feeds/tags" term="load"/><category scheme="http://stackoverflow.com/feeds/tags" term="submit"/>
+        <author>
+            <name>Arnolds Kļavenieks</name>
+            <uri>http://stackoverflow.com/users/2177369</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720118/jquery-load-after-submit-with-if-statements" />
+        <published>2013-03-30T15:22:28Z</published>
+        <updated>2013-03-30T15:25:33Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;My problem: document&#39;s not loading nsfw.html(don&#39;t judge me!) from else if statement after clicking submit button:&lt;br&gt;
+Jsfiddle: &lt;a href=&quot;http://jsfiddle.net/tKeYf/&quot; rel=&quot;nofollow&quot;&gt;jsfiddle.net/tKeYf/&lt;/a&gt;&lt;br&gt;
+But I guess it&#39;s not working there, so i uploaded it to my host: &lt;a href=&quot;http://arnolds.co.nf/this&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;form&amp;gt;
+    &amp;lt;input placeholder=&quot;Age&quot; maxlength=&quot;3&quot; size=&quot;3&quot; type=&quot;text&quot;&amp;gt;
+    &amp;lt;input type=&quot;submit&quot; value=&quot;Okay&quot;&amp;gt;
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;JavaScript:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(document).ready(function () {
+    // verification
+    $(&#39;title&#39;).html(&#39;jQuery`s working!&#39;);
+    // submit
+    $(&#39;input[type=submit]&#39;).click(function () {
+        var a = $(&#39;input[type=text]&#39;).val();
+        if (a == &#39;&#39;) {
+            alert(&#39;Enter Your Age!&#39;);
+        } else if (a &amp;lt; 18) {
+            alert(&#39;You Shall Not Pass!&#39;);
+        } else if (a &amp;gt;= 18) {
+            alert(&#39;Welcome Aboard!&#39;);
+
+            // Here&#39;s the problem!
+            $(&#39;html&#39;).load(&#39;nsfw.html&#39;);
+        } else {
+            alert(&#39;Age Is A Number!&#39;);
+        }
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720104</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Django simple REST with class based view</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="django"/>
+        <author>
+            <name>TheDude</name>
+            <uri>http://stackoverflow.com/users/1924996</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720104/django-simple-rest-with-class-based-view" />
+        <published>2013-03-30T15:20:11Z</published>
+        <updated>2013-03-30T15:26:12Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m new to Django and I&#39;m looking for a method to make class based views respond to GET,POST,PUT,DELETE with several methods in the class. e.g.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;index  #GET &lt;/li&gt;
+&lt;li&gt;show   #GET &lt;/li&gt;
+&lt;li&gt;new    #GET &lt;/li&gt;
+&lt;li&gt;edit   #GET &lt;/li&gt;
+&lt;li&gt;create #POST &lt;/li&gt;
+&lt;li&gt;update #PUT &lt;/li&gt;
+&lt;li&gt;delete #DELETE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My main reason is to organise my code in one class. Currently I&#39;m using a class to handle the new and create actions and another to handle the edit and update actions. This feels a bit clunky.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve used Spring, Symfony, Rails and they all provide an easy way to do this. There seems to be a lot of options with Django (tastypie, rest-framework) but I can&#39;t see any that support this exactly. Is there any way to support this?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15720024</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">The problemis that the button&#39;s OnClick works just fine in updating the database but using LinkButton has no effect</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="database"/><category scheme="http://stackoverflow.com/feeds/tags" term="button"/><category scheme="http://stackoverflow.com/feeds/tags" term="onclick"/><category scheme="http://stackoverflow.com/feeds/tags" term="linkbutton"/>
+        <author>
+            <name>Sumit Ghulyani</name>
+            <uri>http://stackoverflow.com/users/2227344</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15720024/the-problemis-that-the-buttons-onclick-works-just-fine-in-updating-the-database" />
+        <published>2013-03-30T15:11:54Z</published>
+        <updated>2013-03-30T15:25:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;//LinkButton usage&lt;/p&gt;
+
+&lt;p&gt;Update&lt;/p&gt;
+
+&lt;p&gt;//linkUpdate_Click&lt;/p&gt;
+
+&lt;p&gt;protected void linkUpdate_Click(object sender, EventArgs e)
+        {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        string DeptName = txtName.Text;
+        string Profile = txtProfile.Text;
+
+        string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings[&quot;connectionStringName&quot;].ConnectionString;
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            string sql = &quot;update Sectors set DeptName = &#39;&quot; + txtName.Text + &quot;&#39;,Profile=&#39;&quot; + txtProfile.Text + &quot;&#39; where DeptID =1&quot;;
+            connection.Open();
+            SqlCommand cmd = new SqlCommand(sql, connection);
+            cmd.ExecuteNonQuery();
+            Response.Redirect(&quot;Architecture.aspx&quot;);
+            connection.Close();
+        }
+
+
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15719724</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Construct JSON object from array on client-side?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="node.js"/>
+        <author>
+            <name>streetlight</name>
+            <uri>http://stackoverflow.com/users/1209702</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15719724/construct-json-object-from-array-on-client-side" />
+        <published>2013-03-30T14:41:01Z</published>
+        <updated>2013-03-30T15:26:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a string array like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[&#39;QWJvdXQ=&#39;,&#39;SG93IGl0IFdvcmtz&#39;,&#39;SG9tZQ==&#39;,&#39;Q29udHJpYnV0ZQ==&#39;,&#39;Q29udGFjdA==&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What I want to do, is turn it into something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[
+   {
+       &quot;id&quot; : &quot;QWJvdXQ=&quot;,
+       &quot;url&quot;: &quot;about.html&quot;
+
+   },
+   {
+       &quot;id&quot; : &quot;SG93IGl0IFdvcmtz&quot;,
+       &quot;url&quot;: &quot;how_it_works.html&quot;
+
+   },
+   {
+       &quot;id&quot; : &quot;SG9tZQ==&quot;,
+       &quot;url&quot;: &quot;index.html&quot;
+
+   },
+   {
+
+       &quot;id&quot; : &quot;Q29udHJpYnV0ZQ==&quot;,
+       &quot;url&quot;: &quot;contribute.html&quot;
+   },
+   {
+       &quot;id&quot; : &quot;Q29udGFjdA==&quot;
+       &quot;url&quot;: &quot;contact.html&quot;
+   }
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The attributes aren&#39;t the focus -- what I&#39;m basically trying to do is make each item in the array an object with the value as an value of an attribute, and add another (or more) key-value pairs into those objects.&lt;/p&gt;
+
+&lt;p&gt;Right now, I&#39;m trying to do this on the client-side, using jQuery and JS. I also am running node.js, so if this is easier to do on the server-side I&#39;m open to any suggestions. Any help is appreciated!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15719622</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Firefox: parent does not feel dynamic content width</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="firefox"/><category scheme="http://stackoverflow.com/feeds/tags" term="css-float"/>
+        <author>
+            <name>ReklatsMasters</name>
+            <uri>http://stackoverflow.com/users/1556249</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15719622/firefox-parent-does-not-feel-dynamic-content-width" />
+        <published>2013-03-30T14:28:50Z</published>
+        <updated>2013-03-30T15:25:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/vZkzR/1/&quot; rel=&quot;nofollow&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If the adjacent element of a parent floating, the parent does not feel the width of the element, if it is dynamic. In chrome and opera works fine.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;b-wrap&quot;&amp;gt;
+    &amp;lt;div class=&quot;b-content&quot;&amp;gt;
+        &amp;lt;div class=&quot;b-rect-left&quot;&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;b-rect-right&quot;&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;b-child-cont&quot;&amp;gt;джигурдаололо&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+.b-wrap {
+    background-color: red;
+    height: 50px;
+   float: left;
+}
+
+.b-content {
+    margin: 5px;
+    overflow: hidden;
+}
+
+.b-rect-left {
+    width: 40px;
+    height: 40px;
+   float: left;
+    background-color: orange;
+}
+
+.b-rect-right {
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: green;
+}
+
+.b-child-cont {
+    overflow: hidden;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15719592</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">php mail / submit a variable span</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="forms"/><category scheme="http://stackoverflow.com/feeds/tags" term="post"/><category scheme="http://stackoverflow.com/feeds/tags" term="phpmail"/>
+        <author>
+            <name>HarryChil</name>
+            <uri>http://stackoverflow.com/users/1936742</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15719592/php-mail-submit-a-variable-span" />
+        <published>2013-03-30T14:26:15Z</published>
+        <updated>2013-03-30T15:25:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to submit a &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; value to be mailed through php.&lt;/p&gt;
+
+&lt;p&gt;I want to submit the variable span &lt;code&gt;res1&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;form method=&quot;POST&quot; name=&quot;results&quot; action=&quot;message.php&quot;&amp;gt;
+      &amp;lt;span id=&quot;res1&quot;&amp;gt;Mail This:*this part varies*&amp;lt;/span&amp;gt;
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;using this handler:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$body .= $_REQUEST[&#39;#res1&#39;].&quot; \n&quot;;
+mail( $recipient, $subject, $body, &quot;From: $sender&quot; ) or die (&quot;Mail could not be sent.&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;d prefer for the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; to not be in the form; i&#39;m not sure if this is possible though?&lt;/p&gt;
+
+&lt;p&gt;Excuse my ignorance - never worked with server side stuff before! Thanks to anyone who can help me!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15719196</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">Reorder elements of UICollectionView</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="ios6"/><category scheme="http://stackoverflow.com/feeds/tags" term="uicollectionview"/><category scheme="http://stackoverflow.com/feeds/tags" term="uicollectionviewlayout"/>
+        <author>
+            <name>hpique</name>
+            <uri>http://stackoverflow.com/users/143378</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15719196/reorder-elements-of-uicollectionview" />
+        <published>2013-03-30T13:43:09Z</published>
+        <updated>2013-03-30T15:26:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Consider a &lt;code&gt;UICollectionView&lt;/code&gt; with flow layout and horizontal direction. By default, elements are ordered from top to bottom, left to right. Like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1 4 7 10 13 16
+2 5 8 11 14 17
+3 6 9 12 15 18
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In my case, the collection view is paged and it has been designed so that a specific number of elements fits in each page. Thus, a more natural ordering would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1 2 3   10 11 12
+4 5 6 - 13 14 15
+7 8 9   16 17 18
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What would be the simplest to achieve this, short of implementing my own custom layout?&lt;/p&gt;
+
+&lt;p&gt;Or in general, how do you implement a reordering function &lt;code&gt;f(n)&lt;/code&gt; on a flow layout?&lt;/p&gt;
+
+&lt;h2&gt;My approach so far&lt;/h2&gt;
+
+&lt;p&gt;My first approach was to subclass &lt;code&gt;UICollectionViewFlowLayout&lt;/code&gt; and override &lt;code&gt;layoutAttributesForItemAtIndexPath:&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSIndexPath *pagedIndexPath = [self reorderedIndexPathOfIndexPath:indexPath];
+    UICollectionViewLayoutAttributes *layout = [super layoutAttributesForItemAtIndexPath:reorderedIndexPath];
+    layout.indexPath = indexPath;
+    return layout;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where &lt;code&gt;reorderedIndexPathOfIndexPath:&lt;/code&gt; is &lt;code&gt;f(n)&lt;/code&gt;. By calling &lt;code&gt;super&lt;/code&gt;, I don&#39;t have to calculate the layout of each element manually. &lt;/p&gt;
+
+&lt;p&gt;Additionally, I had to override &lt;code&gt;layoutAttributesForElementsInRect:&lt;/code&gt;, which is the method the layout uses to choose which elements to display.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
+{
+    NSMutableArray *result = [NSMutableArray array];
+    NSInteger sectionCount = 1;
+    if ([self.collectionView.dataSource respondsToSelector:@selector(numberOfSectionsInCollectionView:)])
+    {
+        sectionCount = [self.collectionView.dataSource numberOfSectionsInCollectionView:self.collectionView];
+    }
+    for (int s = 0; s &amp;lt; sectionCount; s++)
+    {
+        NSInteger itemCount = [self.collectionView.dataSource collectionView:self.collectionView numberOfItemsInSection:s];
+        for (int i = 0; i &amp;lt; itemCount; i++)
+        {
+            NSIndexPath *indexPath = [NSIndexPath indexPathForItem:i inSection:s];
+            UICollectionViewLayoutAttributes *layout = [self layoutAttributesForItemAtIndexPath:indexPath];
+            if (CGRectIntersectsRect(rect, layout.frame))
+            {
+                [result addObject:layout];
+            }
+        }
+    }
+    return result;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here I just try every element and if it is within the given &lt;code&gt;rect&lt;/code&gt;, I return it.&lt;/p&gt;
+
+&lt;p&gt;If this approach is the way to go, I have the following more specific questions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Is there any way I can simplify the &lt;code&gt;layoutAttributesForElementsInRect:&lt;/code&gt; override, or make it more efficient?&lt;/li&gt;
+&lt;li&gt;Am I missing something?&lt;/li&gt;
+&lt;li&gt;In my case, &lt;code&gt;f(n)&lt;/code&gt; depends on the number of columns and rows of each page. Is there any way of extracting this information from &lt;code&gt;UICollectionViewFlowLayout&lt;/code&gt;, short of hardcoding it myself? I thought of querying &lt;code&gt;layoutAttributesForElementsInRect:&lt;/code&gt; with the bounds of the collection view, and deducing the rows and columns from there, but this also feels inefficient.&lt;/li&gt;
+&lt;/ul&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15718887</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Trouble with my python code: Load from file won&#39;t work as a function, has to be in game loop. Why?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="function"/><category scheme="http://stackoverflow.com/feeds/tags" term="readline"/>
+        <author>
+            <name>user2218093</name>
+            <uri>http://stackoverflow.com/users/2218093</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15718887/trouble-with-my-python-code-load-from-file-wont-work-as-a-function-has-to-be" />
+        <published>2013-03-30T13:08:47Z</published>
+        <updated>2013-03-30T15:25:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am writing a simple text based adventure game in python.  I will include all of the code because I have no idea what the problem is (it isn&#39;t too long and it&#39;s quite simple).  &lt;/p&gt;
+
+&lt;p&gt;In order to save, I am writing to a text file the name of the &#39;currentRoom&#39; and each item in &#39;you.inventory&#39;.  Then when I load I am using &#39;readline()&#39; to retrieve that data and reset the variables.  I&#39;ve got a &quot;game loop&quot; where I get the next command and perform whatever function matches the command.  When I wrote the following code for &#39;load&#39;, it wouldn&#39;t work correctly.  To test the save/load, I start the game pick up a few items and then go north to get into a position that is not the starting room, and save.  Then I quit, run the game again, enter the same name of course, and then give command &#39;load&#39;.  Note, the saved file is correct.  I even included a print statement in the load function that prints currentRoom.name, and it&#39;s correct, but then when I call the look function and it does the exact same &#39;print currentRoom.name&#39;, I&#39;ve been moved back to the starting room!?  Interestingly, the inventory is loaded fine, just the location is wrong.  I can&#39;t figure it out for the life of me.&lt;/p&gt;
+
+&lt;p&gt;In order to fix this, I had to move the load() function into the game loop body, under &#39;elif com == &quot;load&quot;..., rather than calling it as a function, and then it works!?  I suspect I&#39;m doing something wrong with global vs local variables, but I can&#39;t see what.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s the code: (sorry for the indentation errors, cut and paste didn&#39;t work well)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Character(object):
+inventory = []
+hitPoints = 20
+def __init__(self, name):
+    self.name=name
+
+class Room(object):
+  def __init__(self, name, exits):
+    self.name=name
+    self.exits=exits
+    self.contents=[]
+
+class Item(object):
+  def __init__(self, name, itemType, keyWords):
+    self.name = name
+    self.itemType = itemType
+    self.keyWords = keyWords
+def __repr__(self):
+    return self.name
+#Item types: weapon1 (one handed), weapon 2 (2handed), head, body, hands, feet, arms,     legs, ring, necklace
+#****************** I T E M S *************************
+
+sword1 = Item(&quot;A short sword&quot;, &quot;weapon1&quot;, [&quot;sword1&quot;,&quot;sword&quot;,&quot;shortsword&quot;])
+sword1.roomDescription = &quot;A short sword made of steel lies here.&quot;
+sword1.description = &quot;It is a small sword of average quality, made of steel.&quot;
+
+helmet1 = Item(&quot;A metal helmet&quot;, &quot;head&quot;, [&quot;helmet1&quot;, &quot;helmet&quot;, &quot;metal&quot;])
+helmet1.roomDescription = &quot;A simple metal helmet sits on the ground.&quot;
+helmet1.description = &quot;It&#39;s a simple helmet with a few dings and dents, but otherwise     good condition.&quot;
+
+coat1 = Item(&quot;A leather coat&quot;, &quot;body&quot;, [&quot;coat1&quot;, &quot;coat&quot;, &quot;leather&quot;])
+coat1.roomDescription = &quot;A rugged leather coat lies crumpled at your feet.&quot;
+coat1.description = &quot;It&#39;s a thick leather coat.  It looks like it might offer some protection.&quot;
+
+ring1 = Item(&quot;A brass ring&quot;, &quot;ring&quot;, [&quot;ring1&quot;, &quot;ring&quot;, &quot;brass&quot;])
+ring1.roomDescription = &quot;A small brass ring is here.&quot;
+ring1.description = &quot;It&#39;s a simple brass ring.  Not very exciting.&quot;
+
+necklace1 = Item(&quot;A silver necklace&quot;, &quot;necklace&quot;, [&quot;necklace1&quot;, &quot;necklace&quot;, &quot;brass&quot;])
+necklace1.roomDescription = &quot;A thin silver necklace has been cast aside.&quot;
+necklace1.description = &quot;It&#39;s a shiny silver necklace.&quot;
+
+#****************** PEOPLE AND NPC&#39;s *************************
+
+you = Character(&quot;Monty&quot;)
+
+#****************** R O O M S *************************
+
+r0 = Room(&quot;Purgatory&quot;, [])
+
+r1 = Room(&quot;Home&quot;,[&quot;north&quot;])
+r1.description = &quot;You are in your home.  It&#39;s a small room.  There is a door in the north wall.&quot;
+r1.contents = [sword1, sword1, ring1, necklace1, coat1]
+r1.id = &quot;r1&quot;
+
+r2 = Room(&quot;Main Street&quot;, [&quot;south&quot;])
+r2.description = &quot;You are north of your home in Main street.  The only exit is south.&quot;
+r2.contents = [helmet1, coat1, sword1, sword1, coat1, coat1, coat1, coat1, coat1, coat1,  coat1, coat1, coat1, coat1, coat1]
+r2.id = &quot;r2&quot;
+
+#****************** E X I T S *************************
+
+r1.n = r2
+r2.s = r1
+
+#****************** V A R I A B L E S *************************
+
+nextRoom=0
+nextMove=&quot;z&quot;
+quitVar=0
+currentRoom = r1
+
+#****************** F U N C T I O N S *************************
+
+def printExits():
+  print currentRoom.exits
+  return
+
+def look():
+  print currentRoom.name
+  print currentRoom.description
+  if currentRoom.contents != []:
+    for i in currentRoom.contents:
+        print &quot;- &quot;+i.roomDescription
+
+def save():
+f = open(you.name+&quot;saved.txt&quot;,&quot;w&quot;)
+f.write(currentRoom.id+&quot;\n&quot;)
+for i in you.inventory:
+    f.write(i.keyWords[0]+&quot;\n&quot;)
+f.write(&quot;*end*&quot;)
+f.close()
+print &quot;Saved!&quot;
+
+def load():
+f = open(you.name+&quot;saved.txt&quot;,&quot;r&quot;)
+currentRoom=eval(f.readline())
+tempItem=&quot;none&quot;
+while tempItem != &quot;*end*&quot;:
+    tempItem = f.readline()
+    if tempItem != &quot;*end*&quot;:
+        inventoryItem=eval(tempItem)
+        you.inventory.append(inventoryItem)
+f.close()
+print &quot;Loaded!&quot;
+print&quot;****&quot;,
+print currentRoom.name
+look()
+
+def printInventory():
+print &quot;You are carrying:&quot;
+if you.inventory ==[]:
+    print &quot;Nothing!&quot;
+    return
+for i in you.inventory:
+    print i
+
+def getItem(itemKeyword0, typed_string): #itemKeyword0 is first keyWord (same as variable name for object) in first item in room that matches typed input
+                                                   #typed_string is exactly what the user types following &#39;get &#39;
+if len(you.inventory)&amp;gt;=15:
+    print &quot;You can&#39;t carry any more!&quot;
+    return
+currentRoom.contents.remove(eval(itemKeyword0)) #remove picked up item from room
+you.inventory.append(eval(itemKeyword0))  #add picked up item to inventory
+print &#39;You get the %s.&#39; % (typed_string)
+
+def dropItem(itemKeyword0, typed_string): #itemKeyword0 is first keyWord in first item in inventory that matches typed string
+you.inventory.remove(eval(itemKeyword0)) #remove object from inventory that matches keyword0
+currentRoom.contents.append(eval(itemKeyword0)) #add object to room that matches keyword0
+print &#39;You drop the %s.&#39; % (typed_string)
+you.name = (raw_input(&quot;What is your name?&quot;)).lower()
+
+look()
+while quitVar &amp;lt; 1:
+  com = (raw_input(&quot;&amp;gt;&amp;gt;&quot;)).lower() #get next command in lower case
+  nextMove=&quot;z&quot; #reset nextMove
+  print &quot;&quot;
+  if com == &quot;help&quot;:
+    print&quot;north(n), south(s), east(e), west(w), quit, help, look(l), exits,   inventory(i), get, drop&quot;
+elif com == &quot;load&quot;:
+    load()
+elif com == &quot;quit&quot;:
+    quitVar += 10
+elif com == &quot;exits&quot;:
+    printExits()
+elif com == &quot;look&quot; or com == &quot;l&quot;:
+    look()
+elif com == &quot;get all&quot;:
+    itemGotCounter = 0 #needed counter to make it not say &#39;There&#39;s nothing here!&#39; after getting all
+    while len(currentRoom.contents)&amp;gt;0 and len(you.inventory)&amp;lt;15: #for some reason the following for i excluded the last item in the room.
+        for i in currentRoom.contents:
+            getItem(i.keyWords[0],i.keyWords[1])
+            itemGotCounter = 1
+    else:
+        if len(currentRoom.contents)==0 and itemGotCounter == 0:
+            print &quot;There&#39;s nothing here!&quot;
+        if len(you.inventory) &amp;gt;= 15:
+            print &quot;You can&#39;t carry any more!&quot;       
+elif com[0:4] == &quot;get &quot; and com != &quot;get all&quot;:
+    gottenItem = com[4:] #set equal to string user typed
+    for i in currentRoom.contents: #loop through room items, setting equal to i
+        if gottenItem in i.keyWords: #if typed string matches with i.keywords
+            getItem(i.keyWords[0], gottenItem) #send first keyword of item to getItem function, and send typed string
+            break
+    else:
+        print &quot;You do not see that here!&quot;
+elif com == &quot;drop all&quot;:
+    while len(you.inventory)&amp;gt;0:
+        for i in you.inventory:
+            dropItem(i.keyWords[0], i.keyWords[1])
+elif com[0:5] == &quot;drop &quot; and com != &quot;drop all&quot;:
+    droppedItem = com[5:] #equal to string user typed
+    if you.inventory == []: #check if user is carrying anything to drop
+        print &quot;You aren&#39;t carrying anything!&quot;
+    for i in you.inventory: #cycle through users inventory
+        if droppedItem in i.keyWords: #if typed string matches keywords in users inventory
+            dropItem(i.keyWords[0], droppedItem) #send first keyWord of that inventory item to dropItem function, and typed string
+            break
+    else:
+        print &quot;You don&#39;t have one!&quot;
+elif com == &quot;inventory&quot; or com == &quot;i&quot;:
+    printInventory()
+elif com == &quot;n&quot; or com == &quot;north&quot;:
+    if &quot;north&quot; in currentRoom.exits:
+        nextMove=&quot;n&quot;
+        nextRoom=currentRoom.n
+    else:
+        print &quot;You can&#39;t go that way!&quot;
+elif com == &quot;s&quot; or com == &quot;south&quot;:
+    if &quot;south&quot; in currentRoom.exits:
+        nextMove=&quot;s&quot;
+        nextRoom=currentRoom.s
+    else:
+        print &quot;You can&#39;t go that way!&quot;
+elif com == &quot;e&quot; or com == &quot;east&quot;:
+    if &quot;east&quot; in currentRoom.exits:
+        nextMove=&quot;e&quot;
+        nextRoom=currentRoom.e
+    else:
+        print &quot;You can&#39;t go that way!&quot;
+elif com == &quot;w&quot; or com == &quot;west&quot;:
+    if &quot;west&quot; in currentRoom.exits:
+        nextMove=&quot;w&quot;
+        nextRoom=currentRoom.w
+    else:
+        print &quot;You can&#39;t go that way!&quot;
+elif com == &quot;&quot;:
+    pass
+elif com == &quot;save&quot;:
+    save()
+
+else:
+    print &quot;Huh?&quot;
+print &quot;****&quot;
+print nextMove
+print currentRoom.name
+print &quot;****&quot;
+
+if nextMove !=&quot;z&quot;: #If a move has occurred, move to nextRoom and look
+    currentRoom = nextRoom
+    look()
+
+print &quot;See ya later, alligator!&quot;,
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15718733</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">Passing textbox data to DataGridView</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="vb.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="visual-studio-2010"/>
+        <author>
+            <name>aarviii</name>
+            <uri>http://stackoverflow.com/users/2227099</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15718733/passing-textbox-data-to-datagridview" />
+        <published>2013-03-30T12:53:03Z</published>
+        <updated>2013-03-30T15:25:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How can I pass data from my textboxes (in form1) to my DataGridView (in form2)?&lt;/p&gt;
+
+&lt;p&gt;here is the code i used.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    DataGridView1.ColumnCount = 2
+    DataGridView1.Columns(0).Name = &quot;Customer&quot;
+    DataGridView1.Columns(1).Name = &quot;Information&quot;
+
+    Dim FNAME As String = Form1.TBFNAME.Text.ToString
+
+
+    Dim row As String() = New String() {&quot;FULLNAME&quot;, FNAME}
+    DataGridView1.Rows.Add(row)
+    row = New String() {&quot;EMAIL&quot;, Form1.TBEADD.Text}
+    DataGridView1.Rows.Add(row)
+    row = New String() {&quot;ADDRESS&quot;, Form1.TBADDRESS.Text}
+    DataGridView1.Rows.Add(row)
+    row = New String() {&quot;CONTACT NO.&quot;, Form1.TBCONTACT.Text}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the dgv have two columns. and the passed data will appear to the 2nd column but whenever i already input the data it&#39;s still blank in the dgv&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15717702</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Custom extension function in select statment of an EF query</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="entity-framework"/>
+        <author>
+            <name>Rune G</name>
+            <uri>http://stackoverflow.com/users/2226873</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15717702/custom-extension-function-in-select-statment-of-an-ef-query" />
+        <published>2013-03-30T10:52:56Z</published>
+        <updated>2013-03-30T15:26:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In our database we have a table that looks like this which we have mapped to an entity in our Database-First EF model:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE TABLE Texts(
+  Id integer,
+  Eng nvarchar(max),
+  Nob nvarchar(max),
+  ...
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A row in this table may be quite large, so we only want to get the value of the column that is currently need by a language selection the user has done.&lt;/p&gt;
+
+&lt;p&gt;My idea was to have an extension function to do it for me, but I dont have any idea nor can&#39;t find any way to write it  (if it is even possible). I have tried a few variants, but (obviously) it failed with an exception that states that it cannot be translated into a store expression. So I am a bit stuck.&lt;/p&gt;
+
+&lt;p&gt;The idea of usage for this function is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;context.Codes.Where(row =&amp;gt; row.Id == 234).Select(row =&amp;gt; new {
+  row.Id,
+  Text = Text.GetLocalizedText(&quot;Eng&quot;) // This should generate an SQL that only retrieves the Eng 
+                                      // column of the Text navigation property (which is 
+                                      // connected to the Texts table.
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That should generate a select similar to this (which are similar to the example above except using Text.Eng directly):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT 
+[Extent1].[Id] AS [Id], 
+[Extent2].[Eng] AS [Eng]
+FROM  [dbo].[Codes] AS [Extent1]
+INNER JOIN [dbo].[Texts] AS [Extent2] ON [Extent1].[TextId] = [Extent2].[Id]
+WHERE 234 = [Extent1].[Id]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Does anyone know if this is possible, and if it is; how to write it? If it isn&#39;t possible, does anyone have any other idea on how to solve this without retrieving the whole Text entity with all of it&#39;s columns?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15713951</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to draw the graph in R?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="r"/>
+        <author>
+            <name>it_is_a_literature</name>
+            <uri>http://stackoverflow.com/users/1982032</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15713951/how-to-draw-the-graph-in-r" />
+        <published>2013-03-30T01:37:02Z</published>
+        <updated>2013-03-30T15:26:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I can get photo11 with the following code,how can  i fix my code to change photo1 into photo2?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;x = seq(0.5, 0.9, length = 200)
+y = dnorm(x,0.7,0.0458)
+plot(x, y,type=&quot;l&quot;,xlab=&quot;my_x_lab&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this is a photo1.jpg
+   &lt;img src=&quot;http://i.stack.imgur.com/LcVUI.jpg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;this is a photo2.jpg
+    &lt;img src=&quot;http://i.stack.imgur.com/QkwOW.jpg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;and ,how to fix my code to change photo2.jpg into photo3.jpg?there are&lt;br&gt;
+only two scales(0.7,0.8) in the x_lab.&lt;br&gt;
+this is a photo3.jpg&lt;br&gt;
+ &lt;img src=&quot;http://i.stack.imgur.com/lvxbm.jpg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;to fix the code to get rid of &lt;code&gt;y&lt;/code&gt;  in the y_lab to change photo3.jpg into photo4.jpg?
+this is a photo4.jpg.
+&lt;img src=&quot;http://i.stack.imgur.com/GGvUA.jpg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15708657</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Bootstrap overriding my style</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="twitter-bootstrap"/>
+        <author>
+            <name>luqita</name>
+            <uri>http://stackoverflow.com/users/1664266</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15708657/bootstrap-overriding-my-style" />
+        <published>2013-03-29T17:51:09Z</published>
+        <updated>2013-03-30T15:25:55Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;bootstrap.css is overriding my style... How can I avoid this to happen? How can I force the css to load first? &lt;/p&gt;
+
+&lt;p&gt;One thing that is a problem is that the website where it needs to be is using &lt;code&gt;@import&lt;/code&gt; to load the css files (this cannot be changed, the customer doesn&#39;t want to change that).&lt;/p&gt;
+
+&lt;p&gt;Any ideas?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;/em&gt;***&lt;/strong&gt;&lt;em&gt;Note&lt;/em&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;***&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I cannot modify the current site at all. I just have to include bootstrap.css without overriding anything else. Is this possible?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15693000</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">Access Violation Writing Location c++ [closed]</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="cplex"/>
+        <author>
+            <name>user1372020</name>
+            <uri>http://stackoverflow.com/users/1372020</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15693000/access-violation-writing-location-c" />
+        <published>2013-03-28T22:05:59Z</published>
+        <updated>2013-03-30T15:26:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am new to c++ and cplex so any help would be greatly appreciated.
+Problem:  I am running a column generation code. My code looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CPXENVptr *env = NULL;
+CPXLPptr *lp= null;
+
+
+
+  //---------COLUMN GENERATION BEGINS--------------------------------------------
+
+   printf(&quot;\nStarting column generation.\n&quot;);
+   num_iterations = 0;
+   total_cols_generated = 0;
+
+   while(1)
+   {
+   // we are about to do another pricing iteration
+   num_iterations++;
+
+
+   // get dual prices
+
+   status=CPXgetpi(env,lp,dual_value,0,num_customers-1);
+   if (status)
+   {
+      fprintf(stderr,&quot;CPXgetpi Failed.\n&quot;);
+      goto TERMINATE;
+   }
+
+   // call pricing routine
+
+   printf (&quot;\nPricing iteration %u.\n&quot;, num_iterations);
+
+   cols_generated = generate_column(env, lp, num_nodes, num_customers, TT, service_time, start_of_window, end_of_window, out_degree, neighbour, arc_cost, arc_time, dual_value);
+   total_cols_generated += cols_generated;
+
+   if (cols_generated == 0)
+         break;
+
+   // re-optimize the master problem
+
+   printf(&quot;Re-optimising master LP.\n&quot;);
+
+    status =  CPXdualopt (env, lp);
+
+   if ( status  ) {
+      printf (&quot;Failed to re-optimize master LP.\n&quot;);
+      getchar();
+      goto TERMINATE;
+   }
+
+   // get objective value
+
+   status  = CPXgetobjval (env, lp, &amp;amp;lower_bound);
+   if ( status ) {
+      fprintf (stderr,&quot;Failed to obtain objective value.\n&quot;);
+      goto TERMINATE;
+   }
+
+   // print stuff to screen
+
+    printf (&quot;Current cost of RMP solution is %.3f\n&quot;, lower_bound);
+    printf (&quot;\nPress a key\n&quot;);
+    getchar();
+
+} // end while
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On the second Optimisation (second time going in while ) it gives Access Violation Writing location at  status =  CPXdualopt (env, lp);. &lt;/p&gt;
+
+&lt;p&gt;Any idea?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15668464</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">ClassCastException in Java error Object[] to String[]</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="classcastexception"/>
+        <author>
+            <name>AndyApps</name>
+            <uri>http://stackoverflow.com/users/2217225</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15668464/classcastexception-in-java-error-object-to-string" />
+        <published>2013-03-27T20:10:50Z</published>
+        <updated>2013-03-30T15:26:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I get the error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Exception in thread &quot;main&quot; java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Ljava.lang.String;
+at Book.Organizer.Desk.RubCol.BookMainKeeper.main(BookMainKeeper.java:25)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I do not know how to fix this. Could anyone help me out by telling me what I&#39;m doing wrong?&lt;/p&gt;
+
+&lt;p&gt;Main (BookMainKeeper class):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class BookMainKeeper {
+
+/**
+ * @param args
+ */
+public static void main(String[] args) {
+
+    BagInterface&amp;lt;String&amp;gt; shelf1 = new pileBooks&amp;lt;String&amp;gt;();
+    BagInterface&amp;lt;String&amp;gt; shelf2 = new pileBooks&amp;lt;String&amp;gt;();
+    BagInterface&amp;lt;String&amp;gt; shelf3 = new pileBooks&amp;lt;String&amp;gt;();
+
+    shelf1.add(&quot;Java 3rd Edition&quot;);
+    shelf1.add(&quot;Pre-Calculus 2nd Edition&quot;);
+    shelf1.add(&quot;Lava World&quot;);
+
+    String[] check = shelf2.toArray();
+
+    System.out.println(shelf2.toArray());
+
+}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;pileBooks class that uses BagInterface:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class pileBooks&amp;lt;T&amp;gt; implements BagInterface&amp;lt;T&amp;gt; {
+
+private final T[] bag; 
+private static final int DEFAULT_CAPACITY = 25;
+private int numberOfEntries;
+
+/** Creates an empty bag whose initial capacity is 25. */
+public pileBooks() 
+{
+    this(DEFAULT_CAPACITY);
+} // end default constructor
+
+/** Creates an empty bag having a given initial capacity.
+@param capacity  the integer capacity desired */
+public pileBooks(int capacity) 
+{
+    numberOfEntries = 0;
+    // the cast is safe because the new array contains null entries
+    @SuppressWarnings(&quot;unchecked&quot;)
+    T[] tempBag = (T[])new Object[capacity]; // unchecked cast
+    bag = tempBag;
+} // end constructor
+
+/**gets the current size of the bag
+ * @return numberOfEntries
+ */
+public int getCurrentSize() {
+    return numberOfEntries;
+}
+
+/** Sees whether this bag is full.
+   @return true if this bag is full, or false if not */
+public boolean isFull() 
+{
+    return numberOfEntries == bag.length;
+} // end isFull
+
+/**It checks if the bag is empty or not
+ * @return True if numberOfEntries equals 0, False if otherwise
+ */
+public boolean isEmpty() {
+    return numberOfEntries == 0;
+}
+
+/** Adds a new entry to this bag.
+@param newEntry  the object to be added as a new entry
+@return true if the addition is successful, or false if not */
+public boolean add(T newEntry) 
+{
+    boolean result = true;
+    if(isFull())
+    {
+        result = false;
+    }
+    else
+    {
+        bag[numberOfEntries]= newEntry;
+        numberOfEntries++;
+    }
+    return result;
+} // end add
+
+/** Removes one unspecified entry from this bag, if possible.
+   @return either the removed entry, if the removal
+           was successful, or null */
+    public T remove()
+    {
+        T result = null;
+        if(numberOfEntries&amp;gt;0)
+        {
+            result = bag[numberOfEntries-1];
+            bag[numberOfEntries - 1]=null;
+            numberOfEntries--;
+        }
+        return result;
+    } // end remove
+
+/** Removes one occurrence of a given entry from this bag.
+   @param anEntry  the entry to be removed
+   @return true if the removal was successful, or false otherwise */
+public boolean remove(T anEntry) 
+{
+    int index = getIndexOf(anEntry);
+    T result = removeEntry(index);
+    return anEntry.equals(result);
+} // end remove
+
+/**
+ * Removes entry by verifying it&#39;s index
+ * @param index = variable to check, if it is -1, the entry was not found
+ * and it will exit, if it is 0 or higher, it means it was found in the bag
+ * @return if index is -1, it returns result as null
+ * if index is 0 or higher, it will put bag[index] in the variable result
+ * and returns result
+ */
+protected T removeEntry(int index) {
+    T result = null;
+    int check = numberOfEntries;
+    if(index != -1)
+    {
+
+        while((index &amp;lt; numberOfEntries) &amp;amp;&amp;amp; ((check-1) != numberOfEntries)){
+
+
+
+            if(index == (numberOfEntries-1))
+            {
+                result = bag[numberOfEntries-1];
+                bag[numberOfEntries-1] = null;
+                numberOfEntries--;
+                break;
+            }
+            else
+            {
+                result = bag[index];
+                bag[index] = bag [numberOfEntries-1];
+                bag[numberOfEntries-1] = null;
+                numberOfEntries--;
+                break;
+            }
+        }
+    }
+    return result;
+}
+
+
+
+/**
+ * verfifies if anEntry is inside the bag, if it is found, it assigns
+ * i to the variable index
+ * @param anEntry = object to search for inside the bag
+ * @return index, -1 if anEntry was not found
+ * whatever is contained in variable &#39;i&#39; if it is found
+ */
+private int getIndexOf(T anEntry) {
+    int index=-1;
+    for(int i=0;i&amp;lt;bag.length;i++)
+    {
+        if(anEntry.equals(bag[i]))
+        {
+            index = i;
+            break;
+        }
+    }
+    return index;
+}
+
+
+
+
+
+
+
+/** Removes all entries from this bag. */
+public void clear() 
+{
+    while(!isEmpty())
+        remove();
+} // end clear
+
+
+
+
+/** Counts the number of times a given entry appears in this bag.
+ @param anEntry  the entry to be counted
+ @return the number of times anEntry appears in the bag */
+public int getFrequencyOf(T anEntry) 
+{
+    int counter = 0;
+    for(int index = 0; index &amp;lt; numberOfEntries; index++)
+    {
+        if (anEntry.equals(bag[index]))
+        {
+            counter++;
+        }
+    }
+    return counter;
+} // end getFrequencyOf
+
+
+
+
+
+
+/** Tests whether this bag contains a given entry.
+ @param anEntry  the entry to locate
+ @return true if this bag contains anEntry, or false otherwise */
+public boolean contains(T anEntry) 
+{
+    boolean found = false;
+    for(int index = 0; !found &amp;amp;&amp;amp; (index&amp;lt;numberOfEntries); index++)
+    {
+        if(anEntry.equals(bag[index]))
+        {
+            found = true;
+        }
+    }
+    return found;
+} // end contains
+
+
+
+
+
+
+/** Retrieves all entries that are in this bag.
+ @return a newly allocated array of all the entries in the bag */
+public T[] toArray()
+{
+    //the cast is safe because the new array Contains null entries
+    @SuppressWarnings(&quot;unchecked&quot;)
+    T[] result = (T[])new Object[numberOfEntries];//unchecked cast
+    for(int index=0;index &amp;lt; numberOfEntries; index++)
+    {
+        result[index]=bag[index];
+    }
+    return result;
+
+} // end toArray
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;BagInterface used in pileBooks class :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; //An interface that describes the operations of a bag of objects.
+ public interface BagInterface&amp;lt;T&amp;gt; {
+
+ /** Gets the current number of entries in this bag.
+ @return the integer number of entries currently in the bag */
+ public int getCurrentSize();
+
+ /** Sees whether this bag is full.
+ @return true if the bag is full, or false if not */
+ public boolean isFull();
+
+ /** Sees whether this bag is empty.
+ @return true if the bag is empty, or false if not */
+ public boolean isEmpty();
+
+ /** Adds a new entry to this bag.
+ @param newEntry the object to be added as a new entry
+ @ return true if the addition was successful, or false if not */
+ public boolean add(T newEntry);
+
+ /** Removes one unspecified entry from this bag, if possible.
+ @return either the removed entry, if the removal was successful, or null */
+ public T remove();
+
+ /** Removes one occurrence of a given entry from this bag, if possible.
+ @param anEntry the entry to be removed
+ @return true if the removal was successful, or false if not */
+ public boolean remove(T anEntry);
+
+ /** Removes all entries from this bag. */
+ public void clear();
+
+ /** Counts the number of times a given entry appears in this bag.
+ @param anEntry the entry to be counted
+ @return the number of times anEntry appears in the bag */
+ public int getFrequencyOf(T anEntry);
+
+ /** Test whether this bag contains a given entry.
+ @param anEntry the entry to locate
+ @return true if the bag contains anEntry, or false otherwise */
+ public boolean contains(T anEntry);
+
+ /** Creates an array of all the entries that are in this bag.
+ @return a newly allocated array of all entries in the bag */
+ public T[] toArray();
+
+
+ }// end BagInterface
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15638142</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Wordpress Media Uploader restrictions</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="wordpress"/><category scheme="http://stackoverflow.com/feeds/tags" term="backbone.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="plupload"/><category scheme="http://stackoverflow.com/feeds/tags" term="wordpress-3.5"/>
+        <author>
+            <name>Nick</name>
+            <uri>http://stackoverflow.com/users/897549</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15638142/wordpress-media-uploader-restrictions" />
+        <published>2013-03-26T13:22:53Z</published>
+        <updated>2013-03-30T15:26:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m developing a plugin for Wordpress which uses the new 3.5 media uploader.  I have different custom user roles who can upload a logo of their company.  The problem is that when i use the media uploader, everyone sees the whole gallery.  I somehow need to restrict users to either their own folder for uploading or in some other way disable the gallery view for some user roles.  Is this possible to do with WP Media Uploader or i need to make a custom file uploading field?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/14790408</id>
+        <re:rank scheme="http://stackoverflow.com">-16</re:rank>
+        <title type="text">virtual , static , volatile , extern, can someone explain differences among them with an example? [closed]</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="c"/><category scheme="http://stackoverflow.com/feeds/tags" term="types"/>
+        <author>
+            <name>banarun</name>
+            <uri>http://stackoverflow.com/users/2020229</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/14790408/virtual-static-volatile-extern-can-someone-explain-differences-among-them" />
+        <published>2013-02-09T16:56:20Z</published>
+        <updated>2013-03-30T15:26:28Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In C++ I find these keywords before declaration of data type. Can someone explain the difference with some sample code and are there any other keywords that can be used before declaration of data type ?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/14628381</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">WordPress JS errors in Post section after upgrade to 3.5.1</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="wordpress"/><category scheme="http://stackoverflow.com/feeds/tags" term="wordpress-3.5"/>
+        <author>
+            <name>senvikal</name>
+            <uri>http://stackoverflow.com/users/660136</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/14628381/wordpress-js-errors-in-post-section-after-upgrade-to-3-5-1" />
+        <published>2013-01-31T14:41:13Z</published>
+        <updated>2013-03-30T15:25:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;After upgrading to WordPress Version 3.5.1, I am getting a few JS errors and hence not able to use some basic WP features in the admin panel.&lt;/p&gt;
+
+&lt;p&gt;E.g. On post edit page I am not able to switch the editor to html mode, not able to click on any link (Edit), tabs, etc.&lt;/p&gt;
+
+&lt;p&gt;Please suggest what action should be taken or is it a WordPress upgrade issue? Did a reinstall but no change.&lt;/p&gt;
+
+&lt;p&gt;The errors I noticed in firebug console are as follows . . . .&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;TypeError: e is undefined
+
+TypeError: $(...).pointer is not a function $(’.insert-media’).pointer( options ).pointer(‘open’);
+
+TypeError: switchEditors is undefined switchEditors.switchto(this);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+</feed>

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Sat, 30 Mar 2013 03:19:18 GMT</pubDate>
+		<lastBuildDate>Sat, 30 Mar 2013 03:19:18 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-03-29</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>3/29/2013; 11:19:18 PM</microblog:localTime>
+		<item>
+			<description>Reuters: Big depositors in Cyprus to lose far more than feared.</description>
+			<link>http://3o4.r2.ly/</link>
+			<pubDate>Sat, 30 Mar 2013 03:19:18 GMT</pubDate>
+			<guid>http://3o4.r2.ly/?id=15895</guid>
+			<microblog:linkFull>http://www.reuters.com/article/2013/03/30/us-cyprus-parliament-idUSBRE92G03I20130330?feedName=worldNews&amp;feedType=RSS</microblog:linkFull>
+			</item>
+		<item>
+			<description>AP: Some Savers in Cyprus May Lose 60 Percent.</description>
+			<link>http://3o3.r2.ly/</link>
+			<pubDate>Sat, 30 Mar 2013 02:41:53 GMT</pubDate>
+			<guid>http://3o3.r2.ly/?id=15894</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/30/business/global/some-savers-in-cyprus-may-lose-60-percent.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>298</microblog:readCount>
+			</item>
+		<item>
+			<description>In Pyongyang, Bluster, Fakery And Real Risks.</description>
+			<link>http://3o2.r2.ly/</link>
+			<pubDate>Sat, 30 Mar 2013 02:11:12 GMT</pubDate>
+			<guid>http://3o2.r2.ly/?id=15893</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/03/30/world/asia/in-pyongyang-bluster-fakery-and-real-risks.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>345</microblog:readCount>
+			</item>
+		<item>
+			<description>December: The Flickr API is a national treasure.</description>
+			<link>http://1x5.r2.ly/</link>
+			<pubDate>Sat, 30 Mar 2013 00:20:34 GMT</pubDate>
+			<guid>http://1x5.r2.ly/?id=15892</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2012/december/aNationalTreasure</microblog:linkFull>
+			<microblog:readCount>6908</microblog:readCount>
+			</item>
+		<item>
+			<description>Heat prez Pat Riley tells Celtics&apos; Ainge to STFU.</description>
+			<link>http://3o1.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 23:34:13 GMT</pubDate>
+			<guid>http://3o1.r2.ly/?id=15891</guid>
+			<microblog:linkFull>http://espn.go.com/nba/truehoop/miamiheat/story/_/id/9113282/heat-prez-pat-riley-tells-celtics-ainge-stfu</microblog:linkFull>
+			<microblog:readCount>378</microblog:readCount>
+			</item>
+		<item>
+			<description>Password denied: when will Apple get serious about security?</description>
+			<link>http://3nz.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 18:46:28 GMT</pubDate>
+			<guid>http://3nz.r2.ly/?id=15890</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/3/29/4158594/password-denied-when-will-apple-get-serious-about-security</microblog:linkFull>
+			<microblog:readCount>572</microblog:readCount>
+			</item>
+		<item>
+			<description>Arikia: Chasing Cholera in Haiti.</description>
+			<link>http://3ny.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 18:34:26 GMT</pubDate>
+			<guid>http://3ny.r2.ly/?id=15889</guid>
+			<microblog:linkFull>https://medium.com/medium-for-haiti/6398075fc300</microblog:linkFull>
+			<microblog:readCount>410</microblog:readCount>
+			</item>
+		<item>
+			<description>DailyJS: A JavaScript Blog.</description>
+			<link>http://3nx.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 17:54:41 GMT</pubDate>
+			<guid>http://3nx.r2.ly/?id=15888</guid>
+			<microblog:linkFull>http://dailyjs.com/</microblog:linkFull>
+			<microblog:readCount>526</microblog:readCount>
+			</item>
+		<item>
+			<description>We are making software for creative people -- writers, designers and programmers.</description>
+			<link>http://3nu.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 17:29:49 GMT</pubDate>
+			<guid>http://3nu.r2.ly/?id=15887</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/imNotMakingBloggingTools</microblog:linkFull>
+			<microblog:readCount>1556</microblog:readCount>
+			</item>
+		<item>
+			<description>Amazon Likely Paid $1 Billion for Goodreads. #whoa</description>
+			<link>http://3nw.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 17:28:08 GMT</pubDate>
+			<guid>http://3nw.r2.ly/?id=15886</guid>
+			<microblog:linkFull>http://www.businessweek.com/articles/2013-03-29/amazon-likely-paid-1-billion-for-goodreads</microblog:linkFull>
+			<microblog:readCount>805</microblog:readCount>
+			</item>
+		<item>
+			<description>Thread: I&apos;m not making blogging tools. :-)</description>
+			<link>http://3nu.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 29 Mar 2013 17:10:59 GMT</pubDate>
+			<guid>http://3nu.r2.ly/?id=15885</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/imNotMakingBloggingTools</microblog:linkFull>
+			<microblog:readCount>1556</microblog:readCount>
+			</item>
+		<item>
+			<description>NPR To Discontinue Talk Of The Nation.</description>
+			<link>http://3ns.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 13:39:41 GMT</pubDate>
+			<guid>http://3ns.r2.ly/?id=15884</guid>
+			<microblog:linkFull>http://www.npr.org/blogs/thetwo-way/2013/03/29/175677788/zombies?cc=share&amp;sc=tw</microblog:linkFull>
+			<microblog:readCount>546</microblog:readCount>
+			</item>
+		<item>
+			<description>Photo Shows North Korea&apos;s &apos;U.S. Mainland Strike Plan&apos;: L.A., D.C. and Austin, Texas.</description>
+			<link>http://3nr.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 13:21:52 GMT</pubDate>
+			<guid>http://3nr.r2.ly/?id=15883</guid>
+			<microblog:linkFull>http://gawker.com/5992872/photo-shows-north-koreas-us-mainland-strike-plan-la-dc-and-austin-texas</microblog:linkFull>
+			<microblog:readCount>588</microblog:readCount>
+			</item>
+		<item>
+			<description>It&apos;s @nakedjen&apos;s professor&apos;s 40th birthday. So nice to see a *happy* couple! :-)</description>
+			<link>http://3nq.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 12:59:55 GMT</pubDate>
+			<guid>http://3nq.r2.ly/?id=15882</guid>
+			<microblog:linkFull>http://www.nakedjen.com/nakedjen/2013/03/tick-tock.html</microblog:linkFull>
+			<microblog:readCount>525</microblog:readCount>
+			</item>
+		<item>
+			<description>Font Awesome is what its name says it is. Lovely. Problem-solver.</description>
+			<link>http://3np.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 12:42:19 GMT</pubDate>
+			<guid>http://3np.r2.ly/?id=15881</guid>
+			<microblog:linkFull>http://fortawesome.github.com/Font-Awesome/design.html</microblog:linkFull>
+			<microblog:readCount>567</microblog:readCount>
+			</item>
+		<item>
+			<description>Bill Keller would not be be a good choice to lead Columbia Journalism School into the future.</description>
+			<link>http://3no.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 12:35:04 GMT</pubDate>
+			<guid>http://3no.r2.ly/?id=15880</guid>
+			<microblog:linkFull>http://www.washingtonpost.com/blogs/erik-wemple/wp/2013/03/28/nyts-keller-talked-with-columbia-about-journalism-dean-job/</microblog:linkFull>
+			<microblog:readCount>426</microblog:readCount>
+			</item>
+		<item>
+			<description>Charles Pierce listens with fingers in both ears, stomping his feet screaming &quot;I can&apos;t hear you!&quot;</description>
+			<link>http://3nn.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 11:21:24 GMT</pubDate>
+			<guid>http://3nn.r2.ly/?id=15879</guid>
+			<microblog:linkFull>http://www.esquire.com/blogs/politics/obama-dinner-with-republicans-032813</microblog:linkFull>
+			<microblog:readCount>561</microblog:readCount>
+			</item>
+		<item>
+			<description>Justin Davidson Explores the Addictive World of SimCity.</description>
+			<link>http://3nl.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 11:08:11 GMT</pubDate>
+			<guid>http://3nl.r2.ly/?id=15878</guid>
+			<microblog:linkFull>http://nymag.com/arts/architecture/features/sim-city-justin-davidson-2013-4/index1.html</microblog:linkFull>
+			<microblog:readCount>421</microblog:readCount>
+			</item>
+		<item>
+			<description>Food stamps feed impoverished Americans. I never understood the problem some people have. 1/2 are children.</description>
+			<link>http://3nk.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 08:10:11 GMT</pubDate>
+			<guid>http://3nk.r2.ly/?id=15877</guid>
+			<microblog:linkFull>http://www.theatlantic.com/business/archive/2013/03/the-most-important-thing-to-remember-about-americas-food-stamp-boom/274443/</microblog:linkFull>
+			<microblog:readCount>619</microblog:readCount>
+			</item>
+		<item>
+			<description>Kempinski Freezes &apos;Hotel Of Doom&apos; Plans In North Korea.</description>
+			<link>http://3nj.r2.ly/</link>
+			<pubDate>Fri, 29 Mar 2013 07:45:55 GMT</pubDate>
+			<guid>http://3nj.r2.ly/?id=15876</guid>
+			<microblog:linkFull>http://www.nknews.org/2013/03/kempinski-freezes-hotel-of-doom-plans-in-north-korea/</microblog:linkFull>
+			<microblog:readCount>586</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Watts Up With That?</title>
+	<atom:link href="http://wattsupwiththat.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wattsupwiththat.com</link>
+	<description>The world&#039;s most viewed site on global warming and climate change</description>
+	<lastBuildDate>Sat, 30 Mar 2013 15:21:23 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='wattsupwiththat.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>http://0.gravatar.com/blavatar/4ae0d93aaa7120fa2db03ea003672e7e?s=96&#038;d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png</url>
+		<title>Watts Up With That?</title>
+		<link>http://wattsupwiththat.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://wattsupwiththat.com/osd.xml" title="Watts Up With That?" />
+	<atom:link rel='hub' href='http://wattsupwiththat.com/?pushpress=hub'/>
+		<item>
+		<title>Dr. Michael Mann, Smooth Operator</title>
+		<link>http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/</link>
+		<comments>http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/#comments</comments>
+		<pubDate>Sat, 30 Mar 2013 14:26:04 +0000</pubDate>
+		<dc:creator>Willis Eschenbach</dc:creator>
+				<category><![CDATA[climate ugliness]]></category>
+		<category><![CDATA[Geophysical Research Letters]]></category>
+		<category><![CDATA[Michael Mann]]></category>
+		<category><![CDATA[smoothing]]></category>
+		<category><![CDATA[Steve McIntyre]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83134</guid>
+		<description><![CDATA[Guest Post by Willis Eschenbach People sometimes ask why I don&#8217;t publish in the so-called scientific journals. Here&#8217;s a little story about that. Back in 2004, Michael Mann wrote a mathematically naive piece about how to smooth the ends of &#8230; <a href="http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83134&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/48436671f14543831cf0e1cf99a89f0d?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">weschenbach</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-1.jpg" medium="image">
+			<media:title type="html">smoothing fig 1</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-1.jpg" medium="image">
+			<media:title type="html">smoothing fig 1</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-02.jpg" medium="image">
+			<media:title type="html">smoothing fig 02</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-03.jpg" medium="image">
+			<media:title type="html">smoothing fig 03</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-04.jpg" medium="image">
+			<media:title type="html">smoothing fig 04</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-051.jpg" medium="image">
+			<media:title type="html">smoothing fig 05</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-08.jpg" medium="image">
+			<media:title type="html">smoothing fig 08</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-09.jpg" medium="image">
+			<media:title type="html">smoothing fig 09</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>James Hansen Says Coal Is Greening The Planet!?!</title>
+		<link>http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/#comments</comments>
+		<pubDate>Sat, 30 Mar 2013 00:30:34 +0000</pubDate>
+		<dc:creator>Willis Eschenbach</dc:creator>
+				<category><![CDATA[Alarmism]]></category>
+		<category><![CDATA[carbon sequestration]]></category>
+		<category><![CDATA[airborne fraction]]></category>
+		<category><![CDATA[atmospheric co2]]></category>
+		<category><![CDATA[Carbon sequestration]]></category>
+		<category><![CDATA[fossil fuel emissions]]></category>
+		<category><![CDATA[James Hansen]]></category>
+		<category><![CDATA[nitrogen deposition]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83103</guid>
+		<description><![CDATA[Guest Post by Willis Eschenbach There&#8217;s an interesting measure of atmospheric CO2, called the &#8220;airborne fraction&#8221;. The airborne fraction is the fraction of the CO2 emitted each year which remains in the atmosphere. When humans emit say 9 gigatonnes of &#8230; <a href="http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83103&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/feed/</wfw:commentRss>
+		<slash:comments>97</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/48436671f14543831cf0e1cf99a89f0d?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">weschenbach</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/hansen2012-figure-3-display.jpg" medium="image">
+			<media:title type="html">hansen2012 figure 3 display</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/hansen2012-figure-3-mine.jpg" medium="image">
+			<media:title type="html">hansen2012 figure 3 mine</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/hansen2012-figure-3-mine-2.jpg" medium="image">
+			<media:title type="html">hansen2012 figure 3 mine 2</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/global-carbon-emissions-by-fuel-type.jpg" medium="image">
+			<media:title type="html">global carbon emissions by fuel type</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/what-coal-did-today.jpg" medium="image">
+			<media:title type="html">what coal did today</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Gore to speak at Stanford &#8211; open to the public</title>
+		<link>http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 20:59:24 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Al Gore]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83101</guid>
+		<description><![CDATA[From Al Gore to Speak at Stanford March 21, 2013 Former Vice President Al Gore will give a lecture on climate change on Tuesday, April 23, in honor of former Senior Fellow Stephen Schneider, a world-renowned climate scientist who died &#8230; <a href="http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83101&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/feed/</wfw:commentRss>
+		<slash:comments>65</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://woods.stanford.edu/sites/all/themes/stanford/img/logo.png" medium="image" />
+	</item>
+		<item>
+		<title>The puzzle: why have rising temperatures been on a &#8216;Twenty-year hiatus&#8221;?</title>
+		<link>http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 18:00:54 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[Economist]]></category>
+		<category><![CDATA[greenhouse gas]]></category>
+		<category><![CDATA[James Hansen]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83095</guid>
+		<description><![CDATA[Not sure that &#8220;sceptical fringe&#8221; would apply here, but I&#8217;ll take the press where we can get it. See my comments below. &#8211; Anthony Twenty-year hiatus in rising temperatures has climate scientists puzzled &#124; The Australian DEBATE about the reality &#8230; <a href="http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83095&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/feed/</wfw:commentRss>
+		<slash:comments>155</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/20year_australian.png?w=233" medium="image">
+			<media:title type="html">20year_australian</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/07/watts_et_al_2012-figure20-conus-compliant-nonc-noaa.png?w=640&#38;h=487" medium="image">
+			<media:title type="html">Watts_et_al_2012 Figure20 CONUS Compliant-NonC-NOAA</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Antarctic summer effect confined to peninsula</title>
+		<link>http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 16:00:39 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Antarctic]]></category>
+		<category><![CDATA[Antarctic Peninsula]]></category>
+		<category><![CDATA[British Antarctic Survey]]></category>
+		<category><![CDATA[Journal of Geophysical Research]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83085</guid>
+		<description><![CDATA[From the British Antarctic Survey , at least they didn&#8217;t pull a Steig and try to claim the observed effect on the Peninsula affects the entire continent. The peninsula is essentially a different Koppen climate class than the main continent, &#8230; <a href="http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83085&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/feed/</wfw:commentRss>
+		<slash:comments>29</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2011/02/antarcticatemps19572006111.jpg?w=300&#38;h=273" medium="image">
+			<media:title type="html">antarcticatemps1957200611[1]</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Newsbytes: The Met office blunders again &#8211; warm bias in forecasting</title>
+		<link>http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 14:56:21 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[forecasting]]></category>
+		<category><![CDATA[MetOffice]]></category>
+		<category><![CDATA[BBC Weather]]></category>
+		<category><![CDATA[Met Office]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83087</guid>
+		<description><![CDATA[From The GWPF and Dr. Benny Peiser Met Office Apologises For Wrong Forecast &#8211; And Makes Another One  Warm Bias: The Met Office&#8217;s Disastrous Track Record Met Office apologises for warning of &#8216;dry spell&#8217; before wettest April on record. &#8211;The &#8230; <a href="http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83087&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/feed/</wfw:commentRss>
+		<slash:comments>62</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2008/09/met_office_forecast_computer-520.jpg?w=300" medium="image">
+			<media:title type="html">DART - Digital Advanced Reckoning Technology</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>A misinterpreted claim about a NASA press release, CO2, solar flares, and the thermosphere is making the rounds</title>
+		<link>http://wattsupwiththat.com/2013/03/28/a-misinterpreted-claim-about-a-nasa-press-release-co2-solar-flares-and-the-thermosphere-is-making-the-rounds/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/a-misinterpreted-claim-about-a-nasa-press-release-co2-solar-flares-and-the-thermosphere-is-making-the-rounds/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 04:20:49 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Carbon dioxide]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[ridiculae]]></category>
+		<category><![CDATA[solar flare]]></category>
+		<category><![CDATA[Atmosphere of Earth]]></category>
+		<category><![CDATA[Coronal mass ejection]]></category>
+		<category><![CDATA[Langley Research Center]]></category>
+		<category><![CDATA[Solar flare]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83061</guid>
+		<description><![CDATA[I loathe having to write this story because I truly dislike giving any attention to the people who are known as the &#8220;slayers&#8221; from the &#8220;Slaying the Sky Dragon&#8221; book. They now operate under the moniker of &#8220;Principia Scientific&#8221;. But, &#8230; <a href="http://wattsupwiththat.com/2013/03/28/a-misinterpreted-claim-about-a-nasa-press-release-co2-solar-flares-and-the-thermosphere-is-making-the-rounds/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83061&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/a-misinterpreted-claim-about-a-nasa-press-release-co2-solar-flares-and-the-thermosphere-is-making-the-rounds/feed/</wfw:commentRss>
+		<slash:comments>119</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://science.nasa.gov/media/medialibrary/2012/03/22/no_spike_strip.jpg/image_full" medium="image">
+			<media:title type="html">Solar Storms Dumps Gigawatts (Nitric Oxide Spike, 558px))</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/earths_energy_balance_5891.jpg" medium="image">
+			<media:title type="html">earths_energy_balance_589[1]</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/principia_bogus.png?w=137" medium="image">
+			<media:title type="html">Principia_bogus</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Second Lewandowsky conspiracy theory paper delinked from journal</title>
+		<link>http://wattsupwiththat.com/2013/03/28/second-lewandowsky-conspiracy-theory-paper-withdrawn/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/second-lewandowsky-conspiracy-theory-paper-withdrawn/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 22:01:33 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Stephan Lewandowsky]]></category>
+		<category><![CDATA[Conspiracy theory]]></category>
+		<category><![CDATA[John Cook]]></category>
+		<category><![CDATA[Retraction Watch]]></category>
+		<category><![CDATA[Skeptical Science]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83040</guid>
+		<description><![CDATA[I&#8217;ve been waiting to get some confirmation on this since yesterday , and now that I have it, I can state that the link to the second Lew paper Recursive fury: Conspiracist ideation in the blogosphere in response to research on &#8230; <a href="http://wattsupwiththat.com/2013/03/28/second-lewandowsky-conspiracy-theory-paper-withdrawn/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83040&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/second-lewandowsky-conspiracy-theory-paper-withdrawn/feed/</wfw:commentRss>
+		<slash:comments>67</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Spencer, Ridley, and Gavin on Fox tonight</title>
+		<link>http://wattsupwiththat.com/2013/03/28/spencer-ridley-and-gavin-on-fox-tonight/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/spencer-ridley-and-gavin-on-fox-tonight/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 21:36:03 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Gavin Schmidt]]></category>
+		<category><![CDATA[global warming]]></category>
+		<category><![CDATA[John Stossel]]></category>
+		<category><![CDATA[Matt Ridley]]></category>
+		<category><![CDATA[Roy Spencer]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83034</guid>
+		<description><![CDATA[Readers may recall that Dr. Mann had an unprofessional visceral reaction to the invitation. Kudos to Dr. Gavin Schmidt for taking the invitation and to follow through with it in a professional manner*. Dr. Roy Spencer writes: Stossel Show: Schmidt, &#8230; <a href="http://wattsupwiththat.com/2013/03/28/spencer-ridley-and-gavin-on-fox-tonight/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83034&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/spencer-ridley-and-gavin-on-fox-tonight/feed/</wfw:commentRss>
+		<slash:comments>112</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/fox-business1.jpg" medium="image">
+			<media:title type="html">fox-business[1]</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Almost Friday Funny &#8211; rotten to the core</title>
+		<link>http://wattsupwiththat.com/2013/03/28/almost-friday-funny-rotten-to-the-core/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/almost-friday-funny-rotten-to-the-core/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 19:29:58 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Humor]]></category>
+		<category><![CDATA[paleoclimatology]]></category>
+		<category><![CDATA[politics]]></category>
+		<category><![CDATA[Cartoon]]></category>
+		<category><![CDATA[Hockey Stick]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83031</guid>
+		<description><![CDATA[Josh writes: Apologies for the lack of cartoons this month but I have been snowed under (!) with the day job. Even sadder when the Climate Blogosphere has had so much hilarious material on offer. This cartoon was inspired by &#8230; <a href="http://wattsupwiththat.com/2013/03/28/almost-friday-funny-rotten-to-the-core/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83031&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/almost-friday-funny-rotten-to-the-core/feed/</wfw:commentRss>
+		<slash:comments>34</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/rotten_to_the_core1.jpg" medium="image">
+			<media:title type="html">Rotten_to_the_core[1]</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>McIntyre&#8217;s dissection of the Cook-Lewandowsky &#8220;Lying/deceiving/incompetence&#8221; complex</title>
+		<link>http://wattsupwiththat.com/2013/03/28/mcintyres-dissection-of-the-cook-lewandowsky-lyingdeceivingincompetence-complex/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/mcintyres-dissection-of-the-cook-lewandowsky-lyingdeceivingincompetence-complex/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 17:26:39 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[climate ugliness]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[Stephan Lewandowsky]]></category>
+		<category><![CDATA[Conspiracy theory]]></category>
+		<category><![CDATA[Geoff Chambers]]></category>
+		<category><![CDATA[John Cook]]></category>
+		<category><![CDATA[Skeptical Science]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83025</guid>
+		<description><![CDATA[You don&#8217;t need a degree in psychology to figure this one out, you simply need to be an astute observer. Steve McIntyre writes: Last fall, Geoff Chambers and Barry Woods established beyond a shadow of a doubt that no blog &#8230; <a href="http://wattsupwiththat.com/2013/03/28/mcintyres-dissection-of-the-cook-lewandowsky-lyingdeceivingincompetence-complex/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83025&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/mcintyres-dissection-of-the-cook-lewandowsky-lyingdeceivingincompetence-complex/feed/</wfw:commentRss>
+		<slash:comments>47</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/cook_lewandowsky11.jpg" medium="image">
+			<media:title type="html">cook_lewandowsky1[1]</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Cold cities use more energy than warm cities</title>
+		<link>http://wattsupwiththat.com/2013/03/28/cold-cities-use-more-energy-than-warm-cities/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/cold-cities-use-more-energy-than-warm-cities/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 16:54:32 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[energy]]></category>
+		<category><![CDATA[heating and cooling]]></category>
+		<category><![CDATA[Institute of Physics]]></category>
+		<category><![CDATA[University of Michigan]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=82983</guid>
+		<description><![CDATA[From the Institute of Physics , comes this piece of research that suggests all the summer energy we use on air conditioning in warm climates doesn&#8217;t compare to the energy used to keep warm in cold climates. Cold cities less &#8230; <a href="http://wattsupwiththat.com/2013/03/28/cold-cities-use-more-energy-than-warm-cities/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=82983&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/cold-cities-use-more-energy-than-warm-cities/feed/</wfw:commentRss>
+		<slash:comments>73</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://farm3.static.flickr.com/2737/4474291634_9be3969b72_m.jpg" medium="image">
+			<media:title type="html">88.365_air_conditioner_row</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Howler of the day &#8211; pure comedy gold from Greg Laden</title>
+		<link>http://wattsupwiththat.com/2013/03/28/howler-of-the-day-pure-gold-from-greg-laden/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/howler-of-the-day-pure-gold-from-greg-laden/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 16:46:08 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[climate ugliness]]></category>
+		<category><![CDATA[Denialism]]></category>
+		<category><![CDATA[Winged Monkey]]></category>
+		<category><![CDATA[Wizard of Oz]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=82963</guid>
+		<description><![CDATA[Note to Greg, Tom Nelson found it for me, no crystal ball or Oz powers needed. Climate Change Denialism – Greg Laden&#8217;s Blog Anthony Watts has responded on his blog but if I put a link to it he will &#8230; <a href="http://wattsupwiththat.com/2013/03/28/howler-of-the-day-pure-gold-from-greg-laden/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=82963&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/howler-of-the-day-pure-gold-from-greg-laden/feed/</wfw:commentRss>
+		<slash:comments>75</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Climate Craziness of the Week &#8211; the new climate forcing</title>
+		<link>http://wattsupwiththat.com/2013/03/28/climate-craziness-of-the-week-the-new-climate-forcing/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/climate-craziness-of-the-week-the-new-climate-forcing/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 15:38:37 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[carbon tax]]></category>
+		<category><![CDATA[Climate Craziness of the Week]]></category>
+		<category><![CDATA[Gail Collins]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=82959</guid>
+		<description><![CDATA[Taxes are the new climate forcing. I kid you not. From the NYT, columnist Gail Collins: But a carbon tax/fee is the key to controlling climate change. That or just letting the next generation worry about whether the Jersey Shore &#8230; <a href="http://wattsupwiththat.com/2013/03/28/climate-craziness-of-the-week-the-new-climate-forcing/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=82959&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/climate-craziness-of-the-week-the-new-climate-forcing/feed/</wfw:commentRss>
+		<slash:comments>63</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Newsbytes: Britain Blocks Climate Change From G8 Agenda</title>
+		<link>http://wattsupwiththat.com/2013/03/28/newsbytes-britain-blocks-climate-change-from-g8-agenda/</link>
+		<comments>http://wattsupwiththat.com/2013/03/28/newsbytes-britain-blocks-climate-change-from-g8-agenda/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 13:53:56 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[newsbytes]]></category>
+		<category><![CDATA[Benny Peiser]]></category>
+		<category><![CDATA[Brian Hoskins]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[Committee on Climate Change]]></category>
+		<category><![CDATA[Global Warming Policy Foundation]]></category>
+		<category><![CDATA[Intergovernmental Panel on Climate Change]]></category>
+		<category><![CDATA[James Hansen]]></category>
+
+		<guid isPermaLink="false">https://wattsupwiththat.wordpress.com/?p=82957</guid>
+		<description><![CDATA[From the GWPF and Dr. Benny Peiser Climate Sceptics Promoted To Key Government Positions The UK&#8217;s lead G8 negotiator rejected moves from Germany and France to make climate change a key talking point. Officials from the two countries are said &#8230; <a href="http://wattsupwiththat.com/2013/03/28/newsbytes-britain-blocks-climate-change-from-g8-agenda/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=82957&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/28/newsbytes-britain-blocks-climate-change-from-g8-agenda/feed/</wfw:commentRss>
+		<slash:comments>63</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

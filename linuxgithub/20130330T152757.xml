@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-29T15:28:33-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/46a1f21a679abaaeae6db9969963dc998c9f1c1c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/46a1f21a679abaaeae6db9969963dc998c9f1c1c"/>
+    <title>
+        PNP: List Rafael Wysocki as a maintainer
+    </title>
+    <updated>2013-03-29T15:28:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb5463756b84f5d75667bda5645218a6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rafael.j.wysocki@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>PNP: List Rafael Wysocki as a maintainer
+
+The Adam Belay&#39;s e-mail address in MAINTAINERS under PNP SUPPORT
+is not valid any more and I started to maintain that code in the
+meantime as a matter of fact, so list myself as a maintainer of it
+along with Bjorn and remove the Adam&#39;s entry from it.
+
+Signed-off-by: Rafael J. Wysocki &lt;rafael.j.wysocki@intel.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b92eded4b7e6facc4e4ba07de89a3fc24de99552</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b92eded4b7e6facc4e4ba07de89a3fc24de99552"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client
+    </title>
+    <updated>2013-03-29T11:47:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/block/rbd.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client
+
+Pull ceph fix from Sage Weil:
+ &quot;This fixes a regression introduced during the last merge window when
+  mapping non-existent images.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client:
+  rbd: don&#39;t zero-fill non-image object requests&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6e2a4505dba0cae8faa701426185dfb7b49f537c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6e2a4505dba0cae8faa701426185dfb7b49f537c"/>
+    <title>
+        rbd: don&#39;t zero-fill non-image object requests
+    </title>
+    <updated>2013-03-29T11:32:07-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/17473c8dd27516724006cfed6d0b469d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>alexelder</name>
+      <uri>https://github.com/alexelder</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/block/rbd.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>rbd: don&#39;t zero-fill non-image object requests
+
+A result of ENOENT from a read request for an object that&#39;s part of
+an rbd image indicates that there is a hole in that portion of the
+image.  Similarly, a short read for such an object indicates that
+the remainder of the read should be interpreted a full read with
+zeros filling out the end of the request.
+
+This behavior is not correct for objects that are not backing rbd
+image data.  Currently rbd_img_obj_request_callback() assumes it
+should be done for all objects.
+
+Change rbd_img_obj_request_callback() so it only does this zeroing
+for image objects.  Encapsulate that special handling in its own
+function.  Add an assertion that the image object request is a bio
+request, since we assume that (and we currently don&#39;t support any
+other types).
+
+This resolves a problem identified here:
+    http://tracker.ceph.com/issues/4559
+
+The regression was introduced by bf0d5f503dc11d6314c0503591d258d60ee9c944.
+
+Reported-by: Dan van der Ster &lt;dan@vanderster.com&gt;
+Signed-off-by: Alex Elder &lt;elder@inktank.com&gt;
+Reviewed-off-by: Sage Weil &lt;sage@inktank.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3615db41c4b82896de450b6b4e3dab2420dcae51</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/3615db41c4b82896de450b6b4e3dab2420dcae51"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+    </title>
+    <updated>2013-03-29T11:13:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/ctree.c
+m fs/btrfs/disk-io.c
+m fs/btrfs/extent-tree.c
+m fs/btrfs/extent_io.c
+m fs/btrfs/extent_io.h
+m fs/btrfs/file-item.c
+m fs/btrfs/file.c
+m fs/btrfs/inode.c
+m fs/btrfs/ordered-data.c
+m fs/btrfs/qgroup.c
+m fs/btrfs/scrub.c
+m fs/btrfs/send.c
+m fs/btrfs/volumes.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+
+Pull btrfs fixes from Chris Mason:
+ &quot;We&#39;ve had a busy two weeks of bug fixing.  The biggest patches in here
+  are some long standing early-enospc problems (Josef) and a very old
+  race where compression and mmap combine forces to lose writes (me).
+  I&#39;m fairly sure the mmap bug goes all the way back to the introduction
+  of the compression code, which is proof that fsx doesn&#39;t trigger every
+  possible mmap corner after all.
+
+  I&#39;m sure you&#39;ll notice one of these is from this morning, it&#39;s a small
+  and isolated use-after-free fix in our scrub error reporting.  I
+  double checked it here.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs:
+  Btrfs: don&#39;t drop path when printing out tree errors in scrub
+  Btrfs: fix wrong return value of btrfs_lookup_csum()
+  Btrfs: fix wrong reservation of csums
+  Btrfs: fix double free in the btrfs_qgroup_account_ref()
+  Btrfs: limit the global reserve to 512mb
+  Btrfs: hold the ordered operations mutex when waiting on ordered extents
+  Btrfs: fix space accounting for unlink and rename
+  Btrfs: fix space leak when we fail to reserve metadata space
+  Btrfs: fix EIO from btrfs send in is_extent_unchanged for punched holes
+  Btrfs: fix race between mmap writes and compression
+  Btrfs: fix memory leak in btrfs_create_tree()
+  Btrfs: fix locking on ROOT_REPLACE operations in tree mod log
+  Btrfs: fix missing qgroup reservation before fallocating
+  Btrfs: handle a bogus chunk tree nicely
+  Btrfs: update to use fs_state bit&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ed176886b68fbc450ddbe808684a142fcad72b56</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ed176886b68fbc450ddbe808684a142fcad72b56"/>
+    <title>
+        ia64 idle: delete stale (*idle)() function pointer
+    </title>
+    <updated>2013-03-29T11:12:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4f4a1afa06be96dc0a4b75b4ae8f3492?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>lenb</name>
+      <uri>https://github.com/lenb</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/ia64/kernel/process.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ia64 idle: delete stale (*idle)() function pointer
+
+Commit 3e7fc708eb41 (&quot;ia64 idle: delete pm_idle&quot;) in 3.9-rc1 didn&#39;t
+finish the job, leaving an un-initialized reference to (*idle)().
+
+[ Haven&#39;t seen a crash from this - but seems like we are just being
+  lucky that &quot;idle&quot; is zero so it does get initialized before we jump to
+  randomland  - Len ]
+
+Reported-by: Lars-Peter Clausen &lt;lars@metafoo.de&gt;
+Signed-off-by: Len Brown &lt;len.brown@intel.com&gt;
+Signed-off-by: Tony Luck &lt;tony.luck@intel.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/67e17c1100d741469ce22c09ba98b55fc2aaad50</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/67e17c1100d741469ce22c09ba98b55fc2aaad50"/>
+    <title>
+        Merge branch &#39;for-curr&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+    </title>
+    <updated>2013-03-29T11:00:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+m arch/arc/include/asm/dma-mapping.h
+m arch/arc/include/asm/elf.h
+m arch/arc/include/asm/entry.h
+m arch/arc/include/asm/kgdb.h
+m arch/arc/include/asm/ptrace.h
+m arch/arc/include/asm/syscalls.h
+m arch/arc/include/uapi/asm/ptrace.h
+m arch/arc/kernel/entry.S
+m arch/arc/kernel/kgdb.c
+m arch/arc/kernel/setup.c
+m arch/arc/kernel/sys.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-curr&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+
+Pull arc architecture fixes from Vineet Gupta:
+ &quot;This includes fix for a serious bug in DMA mapping API, make
+  allyesconfig wreckage, removal of bogus email-list placeholder in
+  MAINTAINERS, a typo in ptrace helper code and last remaining changes
+  for syscall ABI v3 which we are finally starting to transition-to
+  internally.
+
+  The request is late than I intended to - but I was held up with
+  debugging a timer link list corruption, for which a proposed fix to
+  generic timer code was sent out to lkml/tglx earlier today.&quot;
+
+* &#39;for-curr&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc:
+  ARC: Fix the typo in event identifier flags used by ptrace
+  arc: fix dma_address assignment during dma_map_sg()
+  ARC: Remove SET_PERSONALITY (tracks cross-arch change)
+  ARC: ABIv3: fork/vfork wrappers not needed in &quot;no-legacy-syscall&quot; ABI
+  ARC: ABIv3: Print the correct ABI ver
+  ARC: make allyesconfig build breakages
+  ARC: MAINTAINERS update for ARC&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d8fe29e9dea8d7d61fd140d8779326856478fc62</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d8fe29e9dea8d7d61fd140d8779326856478fc62"/>
+    <title>
+        Btrfs: don&#39;t drop path when printing out tree errors in scrub
+    </title>
+    <updated>2013-03-29T07:18:59-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b6a9ea274e0df3cd4a45469f25963fff?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>jbacik@fusionio.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/scrub.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Btrfs: don&#39;t drop path when printing out tree errors in scrub
+
+A user reported a panic where we were panicing somewhere in
+tree_backref_for_extent from scrub_print_warning.  He only captured the trace
+but looking at scrub_print_warning we drop the path right before we mess with
+the extent buffer to print out a bunch of stuff, which isn&#39;t right.  So fix this
+by dropping the path after we use the eb if we need to.  Thanks,
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Josef Bacik &lt;jbacik@fusionio.com&gt;
+Signed-off-by: Chris Mason &lt;chris.mason@fusionio.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/09a9f1d27892255cfb9c91203f19476765e2d8d1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/09a9f1d27892255cfb9c91203f19476765e2d8d1"/>
+    <title>
+        Revert &quot;mm: introduce VM_POPULATE flag to better deal with racy userspace programs&quot;
+    </title>
+    <updated>2013-03-28T17:45:51-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1f497eea8b5af7c581de15728ccf3e4b?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>walken@google.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/mm.h
+m include/linux/mman.h
+m mm/fremap.c
+m mm/mlock.c
+m mm/mmap.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Revert &quot;mm: introduce VM_POPULATE flag to better deal with racy userspace programs&quot;
+
+This reverts commit 186930500985 (&quot;mm: introduce VM_POPULATE flag to
+better deal with racy userspace programs&quot;).
+
+VM_POPULATE only has any effect when userspace plays racy games with
+vmas by trying to unmap and remap memory regions that mmap or mlock are
+operating on.
+
+Also, the only effect of VM_POPULATE when userspace plays such games is
+that it avoids populating new memory regions that get remapped into the
+address range that was being operated on by the original mmap or mlock
+calls.
+
+Let&#39;s remove VM_POPULATE as there isn&#39;t any strong argument to mandate a
+new vm_flag.
+
+Signed-off-by: Michel Lespinasse &lt;walken@google.com&gt;
+Signed-off-by: Hugh Dickins &lt;hughd@google.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0776ce03b1348d39ba3035ea3ee3d268a42912ce</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/0776ce03b1348d39ba3035ea3ee3d268a42912ce"/>
+    <title>
+        Merge tag &#39;usb-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+    </title>
+    <updated>2013-03-28T15:54:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/usb/core/hcd.c
+m drivers/usb/core/usb-acpi.c
+m drivers/usb/gadget/Kconfig
+m drivers/usb/host/ehci-sched.c
+m drivers/usb/host/xhci-mem.c
+m drivers/usb/host/xhci-pci.c
+m drivers/usb/host/xhci-ring.c
+m drivers/usb/host/xhci.c
+m drivers/usb/host/xhci.h
+m drivers/usb/phy/Kconfig
+m drivers/usb/serial/ftdi_sio.c
+m drivers/usb/serial/ftdi_sio_ids.h
+m drivers/usb/serial/usb-serial.c
+m include/linux/usb/hcd.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;usb-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+
+Pull USB fixes from Greg Kroah-Hartman:
+ &quot;Here are some USB fixes to resolve issues reported recently, as well
+  as a new device id for the ftdi_sio driver.&quot;
+
+* tag &#39;usb-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb:
+  usb: ftdi_sio: Add support for Mitsubishi FX-USB-AW/-BD
+  usb: Fix compile error by selecting USB_OTG_UTILS
+  USB: serial: fix hang when opening port
+  USB: EHCI: fix bug in iTD/siTD DMA pool allocation
+  xhci: Don&#39;t warn on empty ring for suspended devices.
+  usb: xhci: Fix TRB transfer length macro used for Event TRB.
+  usb/acpi: binding xhci root hub usb port with ACPI
+  usb: add find_raw_port_number callback to struct hc_driver()
+  usb: xhci: fix build warning&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/045ecc26a06459c5c88eade6e545bb109a1cdb38</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/045ecc26a06459c5c88eade6e545bb109a1cdb38"/>
+    <title>
+        Merge tag &#39;tty-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+    </title>
+    <updated>2013-03-28T15:53:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/tty/serial/8250/8250_core.c
+m drivers/tty/serial/8250/8250_pci.c
+m drivers/tty/serial/8250/Kconfig
+m drivers/tty/serial/8250/Makefile
+m drivers/tty/serial/atmel_serial.c
+m drivers/tty/serial/xilinx_uartps.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;tty-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+
+Pull TTY/serial fixes from Greg Kroah-Hartman:
+ &quot;Here are some tty/serial driver fixes for 3.9.
+
+  The big thing here is the fix for the huge mess we caused renaming the
+  8250 driver accidentally in the 3.7 kernel release, without realizing
+  that there were users of the module options that suddenly broke.  This
+  is now resolved, and, to top the injury off, we have a backwards-
+  compatible option for those users who got used to the new name since
+  3.7.  Ugh, sorry about that.
+
+  Other than that, some other minor fixes for issues that have been
+  reported by users.&quot;
+
+* tag &#39;tty-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty:
+  Xilinx: ARM: UART: clear pending irqs before enabling irqs
+  TTY: 8250, deprecated 8250_core.* options
+  TTY: 8250, revert module name change
+  serial: 8250_pci: Add WCH CH352 quirk to avoid Xscale detection
+  tty: atmel_serial_probe(): index of atmel_ports[] fix&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/865752ed0a2ca1288ab8e638265066d6f5264da9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/865752ed0a2ca1288ab8e638265066d6f5264da9"/>
+    <title>
+        Merge tag &#39;staging-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+    </title>
+    <updated>2013-03-28T15:52:54-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/staging/comedi/drivers/s626.c
+m drivers/staging/zcache/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;staging-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+
+Pull staging driver fixes from Greg Kroah-Hartman:
+ &quot;Here are two tiny staging driver fixes to resolve issues that have
+  been reported.&quot;
+
+* tag &#39;staging-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging:
+  staging: comedi: s626: fix continuous acquisition
+  staging: zcache: fix typo &quot;64_BIT&quot;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/97f084b8e64fb69ad1ede987c98c443f440a8aa1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/97f084b8e64fb69ad1ede987c98c443f440a8aa1"/>
+    <title>
+        Merge tag &#39;driver-core-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+    </title>
+    <updated>2013-03-28T15:52:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/sysfs/dir.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;driver-core-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+
+Pull sysfs fixes from Greg Kroah-Hartman:
+ &quot;Here are two fixes for sysfs that resolve issues that have been found
+  by the Trinity fuzz tool, causing oopses in sysfs.  They both have
+  been in linux-next for a while to ensure that they do not cause any
+  other problems.&quot;
+
+* tag &#39;driver-core-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core:
+  sysfs: handle failure path correctly for readdir()
+  sysfs: fix race between readdir and lseek&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1b6a4db220cf04114980694685b668bad4ca030d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/1b6a4db220cf04114980694685b668bad4ca030d"/>
+    <title>
+        Merge tag &#39;char-misc-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+    </title>
+    <updated>2013-03-28T15:51:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/extcon/extcon-max77693.c
+m drivers/extcon/extcon-max8997.c
+m drivers/misc/mei/hw-me.c
+m drivers/misc/mei/init.c
+m drivers/misc/mei/mei_dev.h
+m drivers/misc/mei/pci-me.c
+m drivers/misc/vmw_vmci/vmci_datagram.c
+m include/linux/mfd/max77693-private.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;char-misc-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+
+Pull char/misc driver fixes from Greg Kroah-Hartman:
+ &quot;Here are some small char/misc driver fixes that resolve issues
+  recently reported against the 3.9-rc kernels.  All have been in
+  linux-next for a while.&quot;
+
+* tag &#39;char-misc-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc:
+  VMCI: Fix process-to-process DRGAMs.
+  mei: ME hardware reset needs to be synchronized
+  mei: add mei_stop function to stop mei device
+  extcon: max77693: Initialize register of MUIC device to bring up it without platform data
+  extcon: max77693: Fix bug of wrong pointer when platform data is not used
+  extcon: max8997: Check the pointer of platform data to protect null pointer error&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dfca53fb166bc2a0a1ec36efedad30946e0b0652</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/dfca53fb166bc2a0a1ec36efedad30946e0b0652"/>
+    <title>
+        Merge tag &#39;pm+acpi-3.9-rc5&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+    </title>
+    <updated>2013-03-28T13:47:31-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/include/uapi/asm/msr-index.h
+m drivers/acpi/apei/cper.c
+m drivers/acpi/pci_root.c
+m drivers/acpi/sleep.c
+m drivers/cpufreq/acpi-cpufreq.c
+m drivers/cpufreq/cpufreq_stats.c
+m drivers/cpufreq/intel_pstate.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;pm+acpi-3.9-rc5&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+
+Pull ACPI and power management fixes from Rafael J Wysocki:
+
+ - Fix for a recent cpufreq regression related to acpi-cpufreq and
+   suspend/resume from Viresh Kumar.
+
+ - cpufreq stats reference counting fix from Viresh Kumar.
+
+ - intel_pstate driver fixes from Dirk Brandewie and Konrad Rzeszutek
+   Wilk.
+
+ - New ACPI suspend blacklist entry for Sony Vaio VGN-FW21M from Fabio
+   Valentini.
+
+ - ACPI Platform Error Interface (APEI) fix from Chen Gong.
+
+ - PCI root bridge hotplug locking fix from Yinghai Lu.
+
+* tag &#39;pm+acpi-3.9-rc5&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm:
+  PCI / ACPI: hold acpi_scan_lock during root bus hotplug
+  ACPI / APEI: fix error status check condition for CPER
+  ACPI / PM: fix suspend and resume on Sony Vaio VGN-FW21M
+  cpufreq: acpi-cpufreq: Don&#39;t set policy-&gt;related_cpus from .init()
+  cpufreq: stats: do cpufreq_cpu_put() corresponding to cpufreq_cpu_get()
+  intel-pstate: Use #defines instead of hard-coded values.
+  cpufreq / intel_pstate: Fix calculation of current frequency
+  cpufreq / intel_pstate: Add function to check that all MSRs are valid&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8b1e54c48f3298ac84cafca13ad65901117b43a9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/8b1e54c48f3298ac84cafca13ad65901117b43a9"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+    </title>
+    <updated>2013-03-28T13:46:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/crypto/caam/caamalg.c
+m drivers/crypto/caam/compat.h
+m drivers/crypto/talitos.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+
+Pull crypto fixes from Herbert Xu:
+ &quot;This removes IPsec ESN support from the talitos/caam drivers since
+  they were implemented incorrectly, causing interoperability problems
+  if ESN is used with them.&quot;
+
+* git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6:
+  Revert &quot;crypto: caam - add IPsec ESN support&quot;
+  Revert &quot;crypto: talitos - add IPsec ESN support&quot;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d3f72cfb7aa2c92debecacddf65fdef582f238a3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d3f72cfb7aa2c92debecacddf65fdef582f238a3"/>
+    <title>
+        Merge tag &#39;arm64-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/cmarinas/linux-aarch64
+    </title>
+    <updated>2013-03-28T13:45:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm64/mm/mmu.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;arm64-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/cmarinas/linux-aarch64
+
+Pull arm64 fix from Catalin Marinas:
+ &quot;Fix IS_ENABLED() usage typo (missing CONFIG_ prefix).&quot;
+
+* tag &#39;arm64-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/cmarinas/linux-aarch64:
+  ARM64: early_printk: Fix check for CONFIG_ARM64_64K_PAGES&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5e248509b67f82102b9bfbf43d6efa04ba8252aa</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5e248509b67f82102b9bfbf43d6efa04ba8252aa"/>
+    <title>
+        Merge tag &#39;fbdev-fixes-3.9-rc4&#39; of git://gitorious.org/linux-omap-dss2/linux
+    </title>
+    <updated>2013-03-28T13:44:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/video/omap/omapfb_main.c
+m drivers/video/omap2/displays/panel-tpo-td043mtea1.c
+m drivers/video/omap2/dss/dss_features.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;fbdev-fixes-3.9-rc4&#39; of git://gitorious.org/linux-omap-dss2/linux
+
+Pull fbdev fixes from Tomi Valkeinen:
+ &quot;Since Florian is still away/inactive, I volunteered to collect fbdev
+  fixes for 3.9 and changes for 3.10.  I didn&#39;t receive any other fbdev
+  fixes than OMAP yet, but I didn&#39;t want to delay this further as
+  there&#39;s a compilation fix for OMAP1.  So there could be still some
+  fbdev fixes on the way a bit later.
+
+  This contains:
+
+   - Fix OMAP1 compilation
+   - OMAP display fixes&quot;
+
+* tag &#39;fbdev-fixes-3.9-rc4&#39; of git://gitorious.org/linux-omap-dss2/linux:
+  omapdss: features: fix supported outputs for OMAP4
+  OMAPDSS: tpo-td043 panel: fix data passing between SPI/DSS parts
+  omapfb: fix broken build on OMAP1&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2c3de1c2d7d68c6ba4c1ecd82c68285f34d9609e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/2c3de1c2d7d68c6ba4c1ecd82c68285f34d9609e"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+    </title>
+    <updated>2013-03-28T13:43:46-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/namespace.c
+m fs/pnode.c
+m fs/pnode.h
+m fs/proc/root.c
+m fs/sysfs/mount.c
+m include/linux/fs_struct.h
+m include/linux/mount.h
+m include/linux/user_namespace.h
+m ipc/mqueue.c
+m kernel/pid_namespace.c
+m kernel/user.c
+m kernel/user_namespace.c
+m net/core/scm.c
+m security/yama/yama_lsm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+
+Pull userns fixes from Eric W Biederman:
+ &quot;The bulk of the changes are fixing the worst consequences of the user
+  namespace design oversight in not considering what happens when one
+  namespace starts off as a clone of another namespace, as happens with
+  the mount namespace.
+
+  The rest of the changes are just plain bug fixes.
+
+  Many thanks to Andy Lutomirski for pointing out many of these issues.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace:
+  userns: Restrict when proc and sysfs can be mounted
+  ipc: Restrict mounting the mqueue filesystem
+  vfs: Carefully propogate mounts across user namespaces
+  vfs: Add a mount flag to lock read only bind mounts
+  userns:  Don&#39;t allow creation if the user is chrooted
+  yama:  Better permission check for ptraceme
+  pid: Handle the exit of a multi-threaded init.
+  scm: Require CAP_SYS_ADMIN over the current pidns to spoof pids.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/482b0b5d82bd916cc0c55a2abf65bdc69023b843</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/482b0b5d82bd916cc0c55a2abf65bdc69023b843"/>
+    <title>
+        usb: ftdi_sio: Add support for Mitsubishi FX-USB-AW/-BD
+    </title>
+    <updated>2013-03-28T08:50:22-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f091c60db6bebb191341c9bf17854573?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>kernelbee</name>
+      <uri>https://github.com/kernelbee</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/usb/serial/ftdi_sio.c
+m drivers/usb/serial/ftdi_sio_ids.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>usb: ftdi_sio: Add support for Mitsubishi FX-USB-AW/-BD
+
+It enhances the driver for FTDI-based USB serial adapters
+to recognize Mitsubishi Electric Corp. USB/RS422 Converters
+as FT232BM chips and support them.
+https://search.meau.com/?q=FX-USB-AW
+
+Signed-off-by: Konstantin Holoborodko &lt;klh.kernel@gmail.com&gt;
+Tested-by: Konstantin Holoborodko &lt;klh.kernel@gmail.com&gt;
+Cc: stable &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Greg Kroah-Hartman &lt;gregkh@linuxfoundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/82d130ff390be67d980d8b6f39e921c0b1d8d8e0</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/82d130ff390be67d980d8b6f39e921c0b1d8d8e0"/>
+    <title>
+        Btrfs: fix wrong return value of btrfs_lookup_csum()
+    </title>
+    <updated>2013-03-28T06:51:31-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/5199e3daad6b6192c3d3d8fa4a60cd99?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>miaoxie</name>
+      <uri>https://github.com/miaoxie</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/file-item.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Btrfs: fix wrong return value of btrfs_lookup_csum()
+
+If we don&#39;t find the expected csum item, but find a csum item which is
+adjacent to the specified extent, we should return -EFBIG, or we should
+return -ENOENT. But btrfs_lookup_csum() return -EFBIG even the csum item
+is not adjacent to the specified extent. Fix it.
+
+Signed-off-by: Miao Xie &lt;miaox@cn.fujitsu.com&gt;
+Signed-off-by: Josef Bacik &lt;jbacik@fusionio.com&gt;&lt;/pre>
+    </content>
+  </entry>
+</feed>

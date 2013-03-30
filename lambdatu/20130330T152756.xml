@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://lambda-the-ultimate.org">
+<channel>
+ <title>Lambda the Ultimate - Programming Languages Weblog</title>
+ <link>http://lambda-the-ultimate.org</link>
+ <description>Programming languages news, articles and discussion</description>
+ <language>en</language>
+<item>
+ <title>Who&#039;s online </title>
+ <link>http://lambda-the-ultimate.org/node/4703</link>
+ <description>&lt;p &gt;Earlier today I enabled a drupal feature that list the names of users currently online. It was on the bottom of the right-hand navigation bar, and looked something like this:
+&lt;p &gt;&lt;b &gt;Who&#039;s online&lt;/b&gt;&lt;br &gt;
+There are currently 7 users and 887 guests online.&lt;br &gt;
+Online users:&lt;/p&gt;
+&lt;p &gt;    Matt M&lt;br &gt;
+    Ehud Lamm&lt;br &gt;
+    Mattias Engdegård&lt;br &gt;
+    naasking&lt;br &gt;
+    Andreas Rossberg&lt;br &gt;
+    ...&lt;/p&gt;
+&lt;p &gt;Some might see this as a privacy violation or otherwise object. Since I heard complaints I disabled this feature. What do you think? &lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/3">Admin</category>
+ <pubDate>Wed, 27 Mar 2013 14:51:20 -0400</pubDate>
+</item>
+<item>
+ <title>What is the most bizarre thing you have seen done with TeX?</title>
+ <link>http://lambda-the-ultimate.org/node/4702</link>
+ <description>&lt;p &gt;A fun &lt;a href=&quot;http://tex.stackexchange.com/questions/104248/what-is-the-most-bizarre-thing-you-have-seen-done-with-tex&quot;&gt;thread at stackexhange&lt;/a&gt;.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/5">Fun</category>
+ <pubDate>Wed, 27 Mar 2013 03:46:40 -0400</pubDate>
+</item>
+<item>
+ <title>Dependent Types for JavaScript</title>
+ <link>http://lambda-the-ultimate.org/node/4700</link>
+ <description>&lt;p &gt;&lt;a href=&quot;http://cseweb.ucsd.edu/~rchugh/research/nested/djs.pdf&quot;&gt;Dependent Types for JavaScript&lt;/a&gt;, by Ravi Chugh, David Herman, Ranjit Jhala:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+We present Dependent JavaScript (DJS), a statically-typed dialect of the imperative, object-oriented, dynamic language. DJS supports the particularly challenging features such as run-time type-tests, higher-order functions, extensible objects, prototype inheritance, and arrays through a combination of nested reﬁnement types, strong updates to the heap, and heap unrolling to precisely track prototype hierarchies. With our implementation of DJS, we demonstrate that the type system is expressive enough to reason about a variety of tricky idioms found in small examples drawn from several sources, including the popular book JavaScript: The Good Parts and the SunSpider benchmark suite.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;Some good progress on inferring types for a very dynamic language. Explicit type declarations are placed in comments that start with &quot;/*:&quot;.&lt;/p&gt;
+&lt;pre &gt;
+/*: x∶Top → {ν ∣ite Num(x) Num(ν) Bool(ν)} */
+function negate(x) {
+    if (typeof x == &quot;number&quot;) { return 0 - x; }
+    else { return !x; }
+}
+&lt;/pre&gt;&lt;br &gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/12">Object-Functional</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/19">Theory</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/21">Type Theory</category>
+ <pubDate>Sat, 23 Mar 2013 11:08:40 -0400</pubDate>
+</item>
+<item>
+ <title>Concurrent Revisions</title>
+ <link>http://lambda-the-ultimate.org/node/4699</link>
+ <description>&lt;p &gt;&lt;a href=&quot;http://research.microsoft.com/en-us/projects/revisions/&quot;&gt;Concurrent Revisions&lt;/a&gt; is a Microsoft Research project doing interesting work in making concurrent programming scalable and easier to reason about. These papers work have been mentioned a number of times here on LtU, but none of them seem to have been officially posted as stories.&lt;/p&gt;
+&lt;p &gt;Concurrent Revisions are a distributed version control-like abstraction [1] for concurrently mutable state that requires clients to specify merge functions that make fork-join deterministic, and so make concurrent programs inherently composable. The library provide default merge behaviour for various familiar objects like numbers and lists, and it seems somewhat straightforward to provide a merge function for many other object types.&lt;/p&gt;
+&lt;p &gt;They&#039;ve also extended the work to seamlessly integrate incremental and parallel computation [2] in a fairly intuitive fashion, in my opinion.&lt;/p&gt;
+&lt;p &gt;Their latest work [3] extends these concurrent revisions to distributed scenarios with disconnected operations, which operate much like distributed version control works with source code, with guarantees of eventual consistency.&lt;/p&gt;
+&lt;p &gt;All in all, a very promising approach, and deserving of wider coverage.&lt;/p&gt;
+&lt;p &gt;[1] Sebastian Burckhardt and Daan Leijen, &lt;a href=&quot;http://research.microsoft.com/apps/pubs/default.aspx?id=145511&quot;&gt;Semantics of Concurrent Revisions&lt;/a&gt;, in European Symposium on Programming (ESOP&#039;11), Springer Verlag, Saarbrucken, Germany, March 2011&lt;br &gt;
+[2] Sebastian Burckhardt, Daan Leijen, Caitlin Sadowski, Jaeheon Yi, and Thomas Ball, &lt;a href=&quot;http://research.microsoft.com/apps/pubs/default.aspx?id=150180&quot;&gt;Two for the Price of One: A Model for Parallel and Incremental Computation&lt;/a&gt;, in Proceedings of the ACM International Conference on Object Oriented Programming Systems Languages and Applications (OOPSLA&#039;11), ACM SIGPLAN, Portland, Oregon, 22 October 2011&lt;br &gt;
+[3] Sebastian Burckhardt, Manuel Fahndrich, Daan Leijen, and Benjamin P. Wood, &lt;a href=&quot;http://research.microsoft.com/apps/pubs/default.aspx?id=163842&quot;&gt;Cloud Types for Eventual Consistency&lt;/a&gt;, in Proceedings of the 26th European Conference on Object-Oriented Programming (ECOOP), Springer, 15 June 2012&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/14">OOP</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/16">Parallel/Distributed</category>
+ <pubDate>Mon, 18 Mar 2013 09:29:01 -0400</pubDate>
+</item>
+<item>
+ <title>Feature-Oriented Programming with Object Algebras</title>
+ <link>http://lambda-the-ultimate.org/node/4697</link>
+ <description>&lt;p &gt;&lt;a href=&quot;http://www.cs.utexas.edu/~wcook/Drafts/2012/FOPwOA.pdf&quot;&gt;Feature-Oriented Programming with Object Algebras&lt;/a&gt;, by Bruno C.d.S. Oliveira, Tijs van der Storm, Alex Loh, William R. Cook:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;Object algebras are a new programming technique that enables a simple solution to basic extensibility and modularity issues in programming languages. While object algebras excel at deﬁning modular features, the composition mechanisms for object algebras (and features) are still cumbersome and limited in expressiveness. In this paper we leverage two well-studied type system features, intersection types and type-constructor polymorphism, to provide object algebras with expressive and practical composition mechanisms. Intersection types are used for deﬁning expressive run-time composition operators (combinators) that produce objects with multiple (feature) interfaces. Type-constructor polymorphism enables generic interfaces for the various object algebra combinators. Such generic interfaces can be used as a type-safe front end for a generic implementation of the combinators based on reﬂection. Additionally, we also provide a modular mechanism to allow diﬀerent forms of self-references in the presence of delegation-based combinators. The result is an expressive, type-safe, dynamic, delegation-based composition technique for object algebras, implemented in Scala, which eﬀectively enables a form of Feature-Oriented Programming using object algebras.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;A follow-up to &lt;a href=&quot;http://lambda-the-ultimate.org/node/4572&quot;&gt;Object Algebras&lt;/a&gt;, this new paper addresses a few of the limitations described in that LtU thread by adding type constructor polymorphism to increase their safety. The paper describes an implementation in Scala, which is the only widely available statically typed OOP language with a sufficiently powerful type system needed to support FOP.&lt;/p&gt;
+&lt;p &gt;This new work also describes some composition mechanisms for object algebras in the context of more expressive languages.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/14">OOP</category>
+ <pubDate>Sat, 16 Mar 2013 10:53:52 -0400</pubDate>
+</item>
+<item>
+ <title>Twenty Reasons Why You Should Use Boxer (Instead of LOGO) </title>
+ <link>http://lambda-the-ultimate.org/node/4695</link>
+ <description>&lt;p &gt;An &lt;a href=&quot;http://www.soe.berkeley.edu/boxer/20reasons.pdf&quot;&gt;old paper&lt;/a&gt; on boxer that I found while reviewing related work for a paper I&#039;m writing, abstract:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;Boxer was designed as a successor to Logo, with the same educational goals in mind. Whereas Logo has incrementally added features over the years, Boxer changes the&lt;br &gt;
+core computational structures of the language and environment. The aim is to make&lt;br &gt;
+learning easier and more rewarding, especially over the long term.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;As an early graphical language, it is quite interesting. It is one of the first works I know of that dive into concreteness (they call naive realism):&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;Here, the idea is that the user of a computer system can pretend that what appears on the screen is the computer system. That is, you don’t need to do a lot of mental work interpreting an abstract presentation that relates only indirectly to the fact of the matter (as, for example, imagining something called a variable that is changed or accessed by commands). Instead, naive realism means that everything in the system must have a visual presentation that allows easy interaction with it, including creating it, changing it, moving it, and deleting it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;As well as one of the first languages to use spatial relationships in programming (the only other I know being...agent sheets): &lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;Boxer uses space and spatial relations systematically to represent aspects of “abstract” computation. In particular, Boxer has a wonderfully transparent hierarchical structure of boxes inside of boxes that represents huge ranges of computational meanings.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;But what I really like is this notion of pokability:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+Logo has always, unfortunately, distinguished in one way or another the mode of creating procedures from the mode of executing them...you cannot easily—or at all!—see the effects of a procedure at the same time that you look at its form. This makes learning by inspecting difficult; you have to flip back and forth between different areas to see a procedure and its effects. In addition, it rules out a mode of learning by interacting with pieces of code, which is very powerful and characteristic of Boxer. For example, if you look at a line of code in Boxer and wonder what it will do, you can just double-click on that line, and it will be executed. This also turns out to be an extremely powerful debugging technique. If something goes wrong, you can just step through the process by executing one line at a time. That is, the inherent inspectabiliy of Boxer is extended with “pokability.” &lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;And so on....&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/1">LtU Forum</category>
+ <pubDate>Tue, 12 Mar 2013 04:01:23 -0400</pubDate>
+</item>
+<item>
+ <title>How OCaml type checker works -- or what polymorphism and garbage collection have in common</title>
+ <link>http://lambda-the-ultimate.org/node/4694</link>
+ <description>&lt;p &gt;&lt;a href=&quot;http://okmij.org/ftp/ML/generalization.html&quot;&gt;How OCaml type checker works -- or what polymorphism and garbage collection have in common&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+There is more to Hindley-Milner type inference than the Algorithm W. In 1988, Didier Rémy was looking to speed up the type inference in Caml and discovered an elegant method of type generalization. Not only it is fast, avoiding the scan of the type environment. It smoothly extends to catching of locally-declared types about to escape, to type-checking of universals and existentials, and to implementing MLF.&lt;/p&gt;
+&lt;p &gt;Alas, both the algorithm and its implementation in the OCaml type checker are little known and little documented. This page is to explain and popularize Rémy&#039;s algorithm, and to decipher a part of the OCaml type checker. The page also aims to preserve the history of Rémy&#039;s algorithm.&lt;/p&gt;
+&lt;p &gt;The attraction of the algorithm is its insight into type generalization as dependency tracking -- the same sort of tracking used in automated memory management such as regions and generational garbage collection. Generalization can be viewed as finding dominators in the type-annotated abstract syntax tree with edges for shared types. Fluet and Morrisett&#039;s type system for regions and MetaOCaml environment classifiers use the generalization of a type variable as a criterion of region containment. Uncannily, Rémy&#039;s algorithm views the region containment as a test if a type variable is generalizable.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;As usual with Oleg, there&#039;s a &lt;em &gt;lot&lt;/em&gt; going on here. Personally, I see parallels with &quot;lambda with letrec&quot; and &quot;call-by-push-value,&quot; although making the connection with the latter takes some squinting through some of Levy&#039;s work other than his CBPV thesis. Study this to understand OCaml type inference and/or MLF, or for insights into region typing, or, as the title suggests, for suggestive analogies between polymorphism and garbage collection.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/11">Functional</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/21">Type Theory</category>
+ <pubDate>Sun, 10 Mar 2013 12:25:50 -0400</pubDate>
+</item>
+<item>
+ <title>Socio-PLT: Principles for Programming Language Adoption</title>
+ <link>http://lambda-the-ultimate.org/node/4691</link>
+ <description>&lt;p &gt;In their &lt;a href=&quot;http://www.eecs.berkeley.edu/~lmeyerov/projects/socioplt/paper0413.pdf&quot;&gt;survey paper&lt;/a&gt; and their &lt;a href=&quot;http://www.eecs.berkeley.edu/~lmeyerov/projects/socioplt/viz/index.html&quot;&gt;website&lt;/a&gt;, Leo Meyerovich and Ari Rabkin take Jared Diamond approach to explaining Programming Language adoption.&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+Why do some programming languages fail and others succeed? What does the answer tell us about programming language design, implementation, and principles? To help answer these and other questions, we argue for examining the sociological groundings of programming language theory: socio-PLT.&lt;br &gt;
+Researchers in the social sciences have studied adoption in many contexts. We show how their findings are applicable to programming language design.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;There are also videos of talks available from &lt;a href=&quot;http://www.infoq.com/presentations/Socio-PLT&quot;&gt;Splash 2012&lt;/a&gt; and &lt;a href=&quot;http://www.youtube.com/watch?v=v2ITaI4y7_0&quot;&gt;Google Tech Talks&lt;/a&gt;.&lt;/p&gt;
+&lt;p &gt;See also &lt;a href=&quot;http://lambda-the-ultimate.org/node/4593&quot;&gt;previous discussions&lt;/a&gt;.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/6">General</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/18">Teaching &amp; Learning</category>
+ <pubDate>Tue, 26 Feb 2013 22:49:10 -0500</pubDate>
+</item>
+<item>
+ <title>Simple Generators v. Lazy Evaluation</title>
+ <link>http://lambda-the-ultimate.org/node/4690</link>
+ <description>&lt;p &gt;Oleg Kiselyov, Simon Peyton-Jones and Amr Sabry: &lt;a href=&quot;http://okmij.org/ftp/continuations/PPYield/index.html&quot;&gt;Simple Generators&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;Incremental stream processing, pervasive in practice, makes the best case for lazy evaluation. Lazy evaluation promotes modularity, letting us glue together separately developed stream producers, consumers and transformers. Lazy list processing has become a cardinal feature of Haskell. It also brings the worst in lazy evaluation: its incompatibility with effects and unpredictable and often extraordinary use of memory. Much of the Haskell programming lore are the ways to get around lazy evaluation.&lt;/p&gt;
+&lt;p &gt;We propose a programming style for incremental stream processing based on typed simple generators. It promotes modularity and decoupling of producers and consumers just like lazy evaluation. Simple generators, however, expose the implicit suspension and resumption inherent in lazy evaluation as computational effects, and hence are robust in the presence of other effects. Simple generators let us accurately reason about memory consumption and latency. The remarkable implementation simplicity and efficiency of simple generators strongly motivates investigating and pushing the limits of their expressiveness.&lt;/p&gt;
+&lt;p &gt;To substantiate our claims we give a new solution to the notorious pretty-printing problem. Like earlier solutions, it is linear, backtracking-free and with bounded latency. It is also modular, structured as a cascade of separately developed stream transducers, which makes it simpler to write, test and to precisely analyze latency, time and space consumption. It is compatible with effects including IO, letting us read the source document from a file, and format it as we read.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;This is fascinating work that shows how to gain the benefits of lazy evaluation - decoupling of producers, transformers, and consumers of data, and producing only as much data as needed - in a strict, effectful setting that works well with resources that need to be disposed of once computation is done, e.g. file handles.&lt;/p&gt;
+&lt;p &gt;The basic idea is that of Common Lisp signal handling: use a hierarchical, dynamically-scoped chain of handler procedures, which get called - on the stack, without unwinding it - to parameterize code.  In this case, the producer code (which e.g. reads a file character by character) is the parameterized code: every time data (a character) is produced, it calls the dynamically innermost handler procedure with the data (it &lt;em &gt;yields&lt;/em&gt; the data to the handler). This handler is the data consumer (it could e.g. print the received character to the console).  Through dynamic scoping, each handler may also have a super-handler, to which it may yield data. In this way, data flows containing multiple transformers can be composed.&lt;/p&gt;
+&lt;p &gt;I especially like &lt;a href=&quot;https://github.iu.edu/sabry/PPYield/blob/master/simple_gen.ml&quot;&gt;the OCaml version of the code&lt;/a&gt;, which is just a page of code, implementing a dynamically-scoped chain of handlers. After that we can already write &lt;a href=&quot;https://github.iu.edu/sabry/PPYield/blob/master/simple_gen.ml#L39&quot;&gt;map and fold&lt;/a&gt; in this framework (fold using a loop and a state cell, notably.)  There&#039;s &lt;a href=&quot;https://github.iu.edu/sabry/PPYield/blob/master/yany.ml&quot;&gt;more sample code&lt;/a&gt;.&lt;/p&gt;
+&lt;p &gt;This also ties in with &lt;a href=&quot;http://lambda-the-ultimate.org/node/4349&quot;&gt;mainstream yield&lt;/a&gt;.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/5">Fun</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/10">Paradigms</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/17">Software Engineering</category>
+ <pubDate>Thu, 21 Feb 2013 08:30:55 -0500</pubDate>
+</item>
+<item>
+ <title>Photoshop 1.0 Source Code</title>
+ <link>http://lambda-the-ultimate.org/node/4688</link>
+ <description>&lt;p &gt;Some people are amazed that &lt;a href=&quot;http://computerhistory.org/atchm/adobe-photoshop-source-code/&quot;&gt;it&#039;s in Pascal&lt;/a&gt;... HN discussion is &lt;a href=&quot;http://news.ycombinator.com/item?id=5215737&quot;&gt;here&lt;/a&gt;. &lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/7">History</category>
+ <pubDate>Thu, 14 Feb 2013 04:57:37 -0500</pubDate>
+</item>
+<item>
+ <title>Cognitive Architectures: A Way Forward for the Psychology of Programming</title>
+ <link>http://lambda-the-ultimate.org/node/4687</link>
+ <description>&lt;blockquote &gt;&lt;p &gt;
+Michael Hansen presents the ACT-R cognitive architecture, a simulation framework for psychological models, showing how it could be used to measure the impact of various programming paradigms.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;&lt;a href=&quot;http://www.infoq.com/presentations/Cognitive-Architectures&quot;&gt;Video&lt;/a&gt; &lt;/p&gt;
+&lt;p &gt;This describes an interesting attempt to formalize comparison of programming languages from point of view of cognitive psychology. There are also some some interesting references from the presentation.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/1">LtU Forum</category>
+ <pubDate>Tue, 12 Feb 2013 13:48:02 -0500</pubDate>
+</item>
+<item>
+ <title>Ada 2012 Language Standard Approved by ISO</title>
+ <link>http://lambda-the-ultimate.org/node/4661</link>
+ <description>&lt;blockquote&gt;
+December 18, 2012 - The Ada Resource Association
+(ARA) and Ada-Europe today announced the approval and publication of
+the latest version of the Ada programming language by the Geneva-based
+International Organization for Standardization (ISO).  The language
+revision, known as Ada 2012, was under the auspices of ISO/IEC
+JTC1/SC22/WG9 and was conducted by the Ada Rapporteur Group (ARG)
+subunit of WG9, with sponsorship in part from the ARA and Ada-Europe.
+The formal approval of the standard was issued on November 20 by
+ISO/IEC JTC 1, and the standard was published on December 15.&lt;/blockquote&gt;&lt;p&gt;
+I am glad to say that the major area of improvement is the ability to specify contracts, something I was urging the Ada community to do back in 2002. The new features include the ability to specify preconditions and postconditions for subprograms,
+and invariants for private types. Another important area that received attention in this iteration is multi-core programming.&lt;p&gt;
+So if you are serious about mission critical software, head on to the &lt;a href=&quot;http://www.ada2012.org&quot;&gt;web site&lt;/a&gt; and see what you have been missing. </description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/6">General</category>
+ <pubDate>Sat, 22 Dec 2012 10:29:59 -0500</pubDate>
+</item>
+<item>
+ <title>What will programming look like in 2020? </title>
+ <link>http://lambda-the-ultimate.org/node/4655</link>
+ <description>&lt;p &gt;Things are too quiet lately, so maybe its time to start a fun thread. I used this question as a lead in to a presentation on live programming I recently gave at a working group, but I thought it would be fun to gather a bunch of predictions if anyone is willing. &lt;/p&gt;
+&lt;p &gt;What will programming look like in 2020? Keep in mind that programming in 2012 mostly resembles programming in 2004, so could we even expect any significant changes 8 years from now in the programmer experience? Consider the entire programming stack of language, environment, process, libraries, search technology, and so on.  &lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/1">LtU Forum</category>
+ <pubDate>Wed, 12 Dec 2012 20:02:42 -0500</pubDate>
+</item>
+<item>
+ <title>Eighth draft of Scheme R7RS-small published</title>
+ <link>http://lambda-the-ultimate.org/node/4652</link>
+ <description>&lt;p &gt;The &lt;a href=&quot;http://trac.sacrideo.us/wg/raw-attachment/wiki/WikiStart/r7rs-draft-8.pdf&quot;&gt;eighth draft&lt;/a&gt; of the Scheme R7RS-small standard has just been published.  This draft contains editorial corrections to the seventh draft, as well as changing the definition of eqv? on inexact numbers to the style of R6RS operational equivalence.&lt;/p&gt;
+&lt;p &gt;This draft will be used for the ratification vote by the Scheme community, though we will continue to correct mistakes before the final draft.  Details on the ratification vote will be published at &lt;a href=&quot;http://scheme-reports.org&quot;&gt;scheme-reports.org&lt;/a&gt; and on the &lt;i &gt;scheme-reports@scheme-reports.org&lt;/i&gt; mailing list.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/1">LtU Forum</category>
+ <pubDate>Sat, 08 Dec 2012 01:02:26 -0500</pubDate>
+</item>
+<item>
+ <title>A module system for the C family</title>
+ <link>http://lambda-the-ultimate.org/node/4649</link>
+ <description>&lt;p &gt;Doug Gregor of Apple presented a talk on &quot;A module system for the C family&quot; at the 2012 LLVM Developers&#039; Meeting.&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+The C preprocessor has long been a source of problems for programmers and tools alike. Programmers must contend with widespread macro pollution and include-ordering problems due to ill-behaved headers. Developers habitually employ various preprocessor workarounds, such as LONG_MACRO_PREFIXES, include guards, and the occasional #undef of a library macro to mitigate these problems. Tools, on the other hand, must cope with the inherent scalability problems associated with parsing the same headers repeatedly, because each different preprocessing context could effect how a header is interpreted---even though the programmer rarely wants it. Modules seeks to solve this problem by isolating the interface of a particular library and compiling it (once) into an efficient, serialized representation that can be efficiently imported whenever that library is used, improving both the programmer&#039;s experience and the scalability of the compilation process.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;&lt;a href=&quot;http://llvm.org/devmtg/2012-11/Gregor-Modules.pdf&quot;&gt;Slide[PDF]&lt;/a&gt; and &lt;a href=&quot;http://llvm.org/devmtg/2012-11/videos/Gregor-Modules.mp4&quot;&gt;Video[MP4]&lt;/a&gt;&lt;/p&gt;
+&lt;p &gt;Slides and videos from other presentations from the meeting are also &lt;a href=&quot;http://llvm.org/devmtg/2012-11/&quot;&gt;available&lt;/a&gt;.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <pubDate>Wed, 05 Dec 2012 13:24:02 -0500</pubDate>
+</item>
+</channel>
+</rss>
