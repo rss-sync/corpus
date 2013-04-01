@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-03-31T15:12:43-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/07961ac7c0ee8b546658717034fe692fd12eefa9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/07961ac7c0ee8b546658717034fe692fd12eefa9"/>
+    <title>
+        Linux 3.9-rc5
+    </title>
+    <updated>2013-03-31T15:12:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Makefile
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Linux 3.9-rc5&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0bb44280b5ac45e5e911009e66c1d273bea4ccc6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/0bb44280b5ac45e5e911009e66c1d273bea4ccc6"/>
+    <title>
+        Merge branch &#39;fixes&#39; of git://git.infradead.org/users/vkoul/slave-dma
+    </title>
+    <updated>2013-03-31T11:41:47-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/dma/dw_dmac.c
+m drivers/dma/dw_dmac_regs.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;fixes&#39; of git://git.infradead.org/users/vkoul/slave-dma
+
+Pull slave-dmaengine fixes from Vinod Koul:
+ &quot;Two fixes for slave-dmaengine.
+
+  The first one is for making slave_id value correct for dw_dmac and
+  the other one fixes the endieness in DT parsing&quot;
+
+* &#39;fixes&#39; of git://git.infradead.org/users/vkoul/slave-dma:
+  dw_dmac: adjust slave_id accordingly to request line base
+  dmaengine: dw_dma: fix endianess for DT xlate function&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a7b436d356d0bdc6156e286f9c251beed1961d2d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a7b436d356d0bdc6156e286f9c251beed1961d2d"/>
+    <title>
+        Merge branch &#39;v4l_for_linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+    </title>
+    <updated>2013-03-31T11:40:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/media/i2c/m5mols/m5mols_core.c
+m drivers/media/pci/bt8xx/bttv-driver.c
+m drivers/media/platform/exynos-gsc/gsc-core.c
+m drivers/media/platform/s5p-fimc/fimc-core.c
+m drivers/media/platform/s5p-fimc/fimc-lite-reg.c
+m drivers/media/platform/s5p-fimc/fimc-lite.c
+m drivers/media/platform/s5p-fimc/fimc-mdevice.c
+m drivers/media/platform/s5p-mfc/s5p_mfc.c
+m drivers/media/platform/s5p-mfc/s5p_mfc_enc.c
+m drivers/media/rc/Kconfig
+m drivers/media/v4l2-core/Makefile
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;v4l_for_linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+
+Pull media fixes from Mauro Carvalho Chehab:
+ &quot;For a some fixes for Kernel 3.9:
+   - subsystem build fix when VIDEO_DEV=y, VIDEO_V4L2=m and I2C=m
+   - compilation fix for arm multiarch preventing IR_RX51 to be selected
+   - regression fix at bttv crop logic
+   - s5p-mfc/m5mols/exynos: a few fixes for cameras on exynos hardware&quot;
+
+* &#39;v4l_for_linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media:
+  [media] [REGRESSION] bt8xx: Fix too large height in cropcap
+  [media] fix compilation with both V4L2 and I2C as &#39;m&#39;
+  [media] m5mols: Fix bug in stream on handler
+  [media] s5p-fimc: Do not attempt to disable not enabled media pipeline
+  [media] s5p-mfc: Fix encoder control 15 issue
+  [media] s5p-mfc: Fix frame skip bug
+  [media] s5p-fimc: send valid m2m ctx to fimc_m2m_job_finish
+  [media] exynos-gsc: send valid m2m ctx to gsc_m2m_job_finish
+  [media] fimc-lite: Fix the variable type to avoid possible crash
+  [media] fimc-lite: Initialize &#39;step&#39; field in fimc_lite_ctrl structure
+  [media] ir: IR_RX51 only works on OMAP2&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d299c29039aae518d0e70fc26fb158a80dfcd31a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d299c29039aae518d0e70fc26fb158a80dfcd31a"/>
+    <title>
+        Merge tag &#39;for-linus-20130331&#39; of git://git.kernel.dk/linux-block
+    </title>
+    <updated>2013-03-31T11:38:59-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+m block/blk-flush.c
+m block/partition-generic.c
+m drivers/block/Kconfig
+m drivers/block/cciss.c
+m drivers/block/loop.c
+m drivers/block/mg_disk.c
+m drivers/block/mtip32xx/mtip32xx.c
+m drivers/block/rsxx/Makefile
+m drivers/block/rsxx/config.c
+m drivers/block/rsxx/core.c
+m drivers/block/rsxx/cregs.c
+m drivers/block/rsxx/dma.c
+m drivers/block/rsxx/rsxx.h
+m drivers/block/rsxx/rsxx_cfg.h
+m drivers/block/rsxx/rsxx_priv.h
+m drivers/block/xen-blkback/blkback.c
+m drivers/block/xen-blkback/common.h
+m drivers/block/xen-blkback/xenbus.c
+m drivers/block/xen-blkfront.c
+m include/xen/interface/io/blkif.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;for-linus-20130331&#39; of git://git.kernel.dk/linux-block
+
+Pull block fixes from Jens Axboe:
+ &quot;Alright, this time from 10K up in the air.
+
+  Collection of fixes that have been queued up since the merge window
+  opened, hence postponed until later in the cycle.  The pull request
+  contains:
+
+   - A bunch of fixes for the xen blk front/back driver.
+
+   - A round of fixes for the new IBM RamSan driver, fixing various
+     nasty issues.
+
+   - Fixes for multiple drives from Wei Yongjun, bad handling of return
+     values and wrong pointer math.
+
+   - A fix for loop properly killing partitions when being detached.&quot;
+
+* tag &#39;for-linus-20130331&#39; of git://git.kernel.dk/linux-block: (25 commits)
+  mg_disk: fix error return code in mg_probe()
+  rsxx: remove unused variable
+  rsxx: enable error return of rsxx_eeh_save_issued_dmas()
+  block: removes dynamic allocation on stack
+  Block: blk-flush: Fixed indent code style
+  cciss: fix invalid use of sizeof in cciss_find_cfgtables()
+  loop: cleanup partitions when detaching loop device
+  loop: fix error return code in loop_add()
+  mtip32xx: fix error return code in mtip_pci_probe()
+  xen-blkfront: remove frame list from blk_shadow
+  xen-blkfront: pre-allocate pages for requests
+  xen-blkback: don&#39;t store dev_bus_addr
+  xen-blkfront: switch from llist to list
+  xen-blkback: fix foreach_grant_safe to handle empty lists
+  xen-blkfront: replace kmalloc and then memcpy with kmemdup
+  xen-blkback: fix dispatch_rw_block_io() error path
+  rsxx: fix missing unlock on error return in rsxx_eeh_remap_dmas()
+  Adding in EEH support to the IBM FlashSystem 70/80 device driver
+  block: IBM RamSan 70/80 error message bug fix.
+  block: IBM RamSan 70/80 branding changes.
+  ...&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dbf520a9d7d4d5ba28d2947be11e34099a5e3e20</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/dbf520a9d7d4d5ba28d2947be11e34099a5e3e20"/>
+    <title>
+        Revert &quot;lockdep: check that no locks held at freeze time&quot;
+    </title>
+    <updated>2013-03-31T11:38:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/7f5c70c079d81f6445dee3ba480b788c?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>paul@pwsan.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/debug_locks.h
+m include/linux/freezer.h
+m kernel/exit.c
+m kernel/lockdep.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Revert &quot;lockdep: check that no locks held at freeze time&quot;
+
+This reverts commit 6aa9707099c4b25700940eb3d016f16c4434360d.
+
+Commit 6aa9707099c4 (&quot;lockdep: check that no locks held at freeze time&quot;)
+causes problems with NFS root filesystems.  The failures were noticed on
+OMAP2 and 3 boards during kernel init:
+
+  [ BUG: swapper/0/1 still has locks held! ]
+  3.9.0-rc3-00344-ga937536 #1 Not tainted
+  -------------------------------------
+  1 lock held by swapper/0/1:
+   #0:  (&amp;type-&gt;s_umount_key#13/1){+.+.+.}, at: [&lt;c011e84c&gt;] sget+0x248/0x574
+
+  stack backtrace:
+    rpc_wait_bit_killable
+    __wait_on_bit
+    out_of_line_wait_on_bit
+    __rpc_execute
+    rpc_run_task
+    rpc_call_sync
+    nfs_proc_get_root
+    nfs_get_root
+    nfs_fs_mount_common
+    nfs_try_mount
+    nfs_fs_mount
+    mount_fs
+    vfs_kern_mount
+    do_mount
+    sys_mount
+    do_mount_root
+    mount_root
+    prepare_namespace
+    kernel_init_freeable
+    kernel_init
+
+Although the rootfs mounts, the system is unstable.  Here&#39;s a transcript
+from a PM test:
+
+  http://www.pwsan.com/omap/testlogs/test_v3.9-rc3/20130317194234/pm/37xxevm/37xxevm_log.txt
+
+Here&#39;s what the test log should look like:
+
+  http://www.pwsan.com/omap/testlogs/test_v3.8/20130218214403/pm/37xxevm/37xxevm_log.txt
+
+Mailing list discussion is here:
+
+  http://lkml.org/lkml/2013/3/4/221
+
+Deal with this for v3.9 by reverting the problem commit, until folks can
+figure out the right long-term course of action.
+
+Signed-off-by: Paul Walmsley &lt;paul@pwsan.com&gt;
+Cc: Mandeep Singh Baines &lt;msb@chromium.org&gt;
+Cc: Jeff Layton &lt;jlayton@redhat.com&gt;
+Cc: Shawn Guo &lt;shawn.guo@linaro.org&gt;
+Cc: &lt;maciej.rutecki@gmail.com&gt;
+Cc: Fengguang Wu &lt;fengguang.wu@intel.com&gt;
+Cc: Trond Myklebust &lt;Trond.Myklebust@netapp.com&gt;
+Cc: Ingo Molnar &lt;mingo@redhat.com&gt;
+Cc: Ben Chan &lt;benchan@chromium.org&gt;
+Cc: Oleg Nesterov &lt;oleg@redhat.com&gt;
+Cc: Tejun Heo &lt;tj@kernel.org&gt;
+Cc: Rafael J. Wysocki &lt;rjw@sisk.pl&gt;
+Cc: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/13d2080db3472b3399ba32e6026960de5d32a344</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/13d2080db3472b3399ba32e6026960de5d32a344"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending
+    </title>
+    <updated>2013-03-30T13:13:05-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/target/target_core_transport.c
+m drivers/vhost/tcm_vhost.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending
+
+Pull SCSI target fixes from Nicholas Bellinger:
+ &quot;This includes the bug-fix for a &gt;= v3.8-rc1 regression specific to
+  iscsi-target persistent reservation conflict handling (CC&#39;ed to
+  stable), and a tcm_vhost patch to drop VIRTIO_RING_F_EVENT_IDX usage
+  so that in-flight qemu vhost-scsi-pci device code can detect the
+  proper vhost feature bits.
+
+  Also, there are two more tcm_vhost patches still being discussed by
+  MST and Asias for v3.9 that will be required for the in-flight qemu
+  vhost-scsi-pci device patch to function properly, and that should
+  (hopefully) be the last target fixes for this round.&quot;
+
+* git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending:
+  target: Fix RESERVATION_CONFLICT status regression for iscsi-target special case
+  tcm_vhost: Avoid VIRTIO_RING_F_EVENT_IDX feature bit&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bce95c63ef1bcf528ea45c41505eb4c21560d92d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/bce95c63ef1bcf528ea45c41505eb4c21560d92d"/>
+    <title>
+        dw_dmac: adjust slave_id accordingly to request line base
+    </title>
+    <updated>2013-03-29T16:04:07-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45c10d2e747e2d82fd7c9753f8391c52?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>andriy.shevchenko@linux.intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/dma/dw_dmac.c
+m drivers/dma/dw_dmac_regs.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dw_dmac: adjust slave_id accordingly to request line base
+
+On some hardware configurations we have got the request line with the offset.
+The patch introduces convert_slave_id() helper for that cases. The request line
+base is came from the driver data provided by the platform_device_id table.
+
+Signed-off-by: Mika Westerberg &lt;mika.westerberg@linux.intel.com&gt;
+Signed-off-by: Andy Shevchenko &lt;andriy.shevchenko@linux.intel.com&gt;
+Cc: Viresh Kumar &lt;viresh.kumar@linaro.org&gt;
+Acked-by: Viresh Kumar &lt;viresh.kumar@linaro.org&gt;
+Signed-off-by: Vinod Koul &lt;vinod.koul@intel.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f73bb9b35596e045feacdf4d2fd32cfb087e2411</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f73bb9b35596e045feacdf4d2fd32cfb087e2411"/>
+    <title>
+        dmaengine: dw_dma: fix endianess for DT xlate function
+    </title>
+    <updated>2013-03-29T16:04:07-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f1897d8cf2fe6c8e75a0c9add2d05b0c?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>arndb</name>
+      <uri>https://github.com/arndb</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/dma/dw_dmac.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dmaengine: dw_dma: fix endianess for DT xlate function
+
+As reported by Wu Fengguang&#39;s build robot tracking sparse warnings, the
+dma_spec arguments in the dw_dma_xlate are already byte swapped on
+little-endian platforms and must not get swapped again. This code is
+currently not used anywhere, but will be used in Linux 3.10 when the
+ARM SPEAr platform starts using the generic DMA DT binding.
+
+Signed-off-by: Arnd Bergmann &lt;arnd@arndb.de&gt;
+Reported-by: Fengguang Wu &lt;fengguang.wu@intel.com&gt;
+Acked-by: Viresh Kumar &lt;viresh.kumar@linaro.org&gt;
+Signed-off-by: Vinod Koul &lt;vinod.koul@intel.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/46a1f21a679abaaeae6db9969963dc998c9f1c1c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/46a1f21a679abaaeae6db9969963dc998c9f1c1c"/>
+    <title>
+        PNP: List Rafael Wysocki as a maintainer
+    </title>
+    <updated>2013-03-29T15:28:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb5463756b84f5d75667bda5645218a6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rafael.j.wysocki@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>PNP: List Rafael Wysocki as a maintainer
+
+The Adam Belay&#39;s e-mail address in MAINTAINERS under PNP SUPPORT
+is not valid any more and I started to maintain that code in the
+meantime as a matter of fact, so list myself as a maintainer of it
+along with Bjorn and remove the Adam&#39;s entry from it.
+
+Signed-off-by: Rafael J. Wysocki &lt;rafael.j.wysocki@intel.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b92eded4b7e6facc4e4ba07de89a3fc24de99552</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b92eded4b7e6facc4e4ba07de89a3fc24de99552"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client
+    </title>
+    <updated>2013-03-29T11:47:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/block/rbd.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client
+
+Pull ceph fix from Sage Weil:
+ &quot;This fixes a regression introduced during the last merge window when
+  mapping non-existent images.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client:
+  rbd: don&#39;t zero-fill non-image object requests&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6e2a4505dba0cae8faa701426185dfb7b49f537c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6e2a4505dba0cae8faa701426185dfb7b49f537c"/>
+    <title>
+        rbd: don&#39;t zero-fill non-image object requests
+    </title>
+    <updated>2013-03-29T11:32:07-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/17473c8dd27516724006cfed6d0b469d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>alexelder</name>
+      <uri>https://github.com/alexelder</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/block/rbd.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>rbd: don&#39;t zero-fill non-image object requests
+
+A result of ENOENT from a read request for an object that&#39;s part of
+an rbd image indicates that there is a hole in that portion of the
+image.  Similarly, a short read for such an object indicates that
+the remainder of the read should be interpreted a full read with
+zeros filling out the end of the request.
+
+This behavior is not correct for objects that are not backing rbd
+image data.  Currently rbd_img_obj_request_callback() assumes it
+should be done for all objects.
+
+Change rbd_img_obj_request_callback() so it only does this zeroing
+for image objects.  Encapsulate that special handling in its own
+function.  Add an assertion that the image object request is a bio
+request, since we assume that (and we currently don&#39;t support any
+other types).
+
+This resolves a problem identified here:
+    http://tracker.ceph.com/issues/4559
+
+The regression was introduced by bf0d5f503dc11d6314c0503591d258d60ee9c944.
+
+Reported-by: Dan van der Ster &lt;dan@vanderster.com&gt;
+Signed-off-by: Alex Elder &lt;elder@inktank.com&gt;
+Reviewed-off-by: Sage Weil &lt;sage@inktank.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3615db41c4b82896de450b6b4e3dab2420dcae51</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/3615db41c4b82896de450b6b4e3dab2420dcae51"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+    </title>
+    <updated>2013-03-29T11:13:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/ctree.c
+m fs/btrfs/disk-io.c
+m fs/btrfs/extent-tree.c
+m fs/btrfs/extent_io.c
+m fs/btrfs/extent_io.h
+m fs/btrfs/file-item.c
+m fs/btrfs/file.c
+m fs/btrfs/inode.c
+m fs/btrfs/ordered-data.c
+m fs/btrfs/qgroup.c
+m fs/btrfs/scrub.c
+m fs/btrfs/send.c
+m fs/btrfs/volumes.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+
+Pull btrfs fixes from Chris Mason:
+ &quot;We&#39;ve had a busy two weeks of bug fixing.  The biggest patches in here
+  are some long standing early-enospc problems (Josef) and a very old
+  race where compression and mmap combine forces to lose writes (me).
+  I&#39;m fairly sure the mmap bug goes all the way back to the introduction
+  of the compression code, which is proof that fsx doesn&#39;t trigger every
+  possible mmap corner after all.
+
+  I&#39;m sure you&#39;ll notice one of these is from this morning, it&#39;s a small
+  and isolated use-after-free fix in our scrub error reporting.  I
+  double checked it here.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs:
+  Btrfs: don&#39;t drop path when printing out tree errors in scrub
+  Btrfs: fix wrong return value of btrfs_lookup_csum()
+  Btrfs: fix wrong reservation of csums
+  Btrfs: fix double free in the btrfs_qgroup_account_ref()
+  Btrfs: limit the global reserve to 512mb
+  Btrfs: hold the ordered operations mutex when waiting on ordered extents
+  Btrfs: fix space accounting for unlink and rename
+  Btrfs: fix space leak when we fail to reserve metadata space
+  Btrfs: fix EIO from btrfs send in is_extent_unchanged for punched holes
+  Btrfs: fix race between mmap writes and compression
+  Btrfs: fix memory leak in btrfs_create_tree()
+  Btrfs: fix locking on ROOT_REPLACE operations in tree mod log
+  Btrfs: fix missing qgroup reservation before fallocating
+  Btrfs: handle a bogus chunk tree nicely
+  Btrfs: update to use fs_state bit&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ed176886b68fbc450ddbe808684a142fcad72b56</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ed176886b68fbc450ddbe808684a142fcad72b56"/>
+    <title>
+        ia64 idle: delete stale (*idle)() function pointer
+    </title>
+    <updated>2013-03-29T11:12:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4f4a1afa06be96dc0a4b75b4ae8f3492?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>lenb</name>
+      <uri>https://github.com/lenb</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/ia64/kernel/process.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ia64 idle: delete stale (*idle)() function pointer
+
+Commit 3e7fc708eb41 (&quot;ia64 idle: delete pm_idle&quot;) in 3.9-rc1 didn&#39;t
+finish the job, leaving an un-initialized reference to (*idle)().
+
+[ Haven&#39;t seen a crash from this - but seems like we are just being
+  lucky that &quot;idle&quot; is zero so it does get initialized before we jump to
+  randomland  - Len ]
+
+Reported-by: Lars-Peter Clausen &lt;lars@metafoo.de&gt;
+Signed-off-by: Len Brown &lt;len.brown@intel.com&gt;
+Signed-off-by: Tony Luck &lt;tony.luck@intel.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/67e17c1100d741469ce22c09ba98b55fc2aaad50</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/67e17c1100d741469ce22c09ba98b55fc2aaad50"/>
+    <title>
+        Merge branch &#39;for-curr&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+    </title>
+    <updated>2013-03-29T11:00:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m MAINTAINERS
+m arch/arc/include/asm/dma-mapping.h
+m arch/arc/include/asm/elf.h
+m arch/arc/include/asm/entry.h
+m arch/arc/include/asm/kgdb.h
+m arch/arc/include/asm/ptrace.h
+m arch/arc/include/asm/syscalls.h
+m arch/arc/include/uapi/asm/ptrace.h
+m arch/arc/kernel/entry.S
+m arch/arc/kernel/kgdb.c
+m arch/arc/kernel/setup.c
+m arch/arc/kernel/sys.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-curr&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+
+Pull arc architecture fixes from Vineet Gupta:
+ &quot;This includes fix for a serious bug in DMA mapping API, make
+  allyesconfig wreckage, removal of bogus email-list placeholder in
+  MAINTAINERS, a typo in ptrace helper code and last remaining changes
+  for syscall ABI v3 which we are finally starting to transition-to
+  internally.
+
+  The request is late than I intended to - but I was held up with
+  debugging a timer link list corruption, for which a proposed fix to
+  generic timer code was sent out to lkml/tglx earlier today.&quot;
+
+* &#39;for-curr&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc:
+  ARC: Fix the typo in event identifier flags used by ptrace
+  arc: fix dma_address assignment during dma_map_sg()
+  ARC: Remove SET_PERSONALITY (tracks cross-arch change)
+  ARC: ABIv3: fork/vfork wrappers not needed in &quot;no-legacy-syscall&quot; ABI
+  ARC: ABIv3: Print the correct ABI ver
+  ARC: make allyesconfig build breakages
+  ARC: MAINTAINERS update for ARC&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d8fe29e9dea8d7d61fd140d8779326856478fc62</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d8fe29e9dea8d7d61fd140d8779326856478fc62"/>
+    <title>
+        Btrfs: don&#39;t drop path when printing out tree errors in scrub
+    </title>
+    <updated>2013-03-29T07:18:59-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b6a9ea274e0df3cd4a45469f25963fff?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>jbacik@fusionio.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/scrub.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Btrfs: don&#39;t drop path when printing out tree errors in scrub
+
+A user reported a panic where we were panicing somewhere in
+tree_backref_for_extent from scrub_print_warning.  He only captured the trace
+but looking at scrub_print_warning we drop the path right before we mess with
+the extent buffer to print out a bunch of stuff, which isn&#39;t right.  So fix this
+by dropping the path after we use the eb if we need to.  Thanks,
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Josef Bacik &lt;jbacik@fusionio.com&gt;
+Signed-off-by: Chris Mason &lt;chris.mason@fusionio.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f85eda8d75d37a3796cee7f5a906e50e3f13d9e1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f85eda8d75d37a3796cee7f5a906e50e3f13d9e1"/>
+    <title>
+        target: Fix RESERVATION_CONFLICT status regression for iscsi-target special case
+    </title>
+    <updated>2013-03-28T23:42:47-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/3315863798ff20913c88fe28cef7312a?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>nab@linux-iscsi.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/target/target_core_transport.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>target: Fix RESERVATION_CONFLICT status regression for iscsi-target special case
+
+This patch fixes a regression introduced in v3.8-rc1 code where a failed
+target_check_reservation() check in target_setup_cmd_from_cdb() was causing
+an incorrect SAM_STAT_GOOD status to be returned during a WRITE operation
+performed by an unregistered / unreserved iscsi initiator port.
+
+This regression is only effecting iscsi-target due to a special case check
+for TCM_RESERVATION_CONFLICT within iscsi_target_erl1.c:iscsit_execute_cmd(),
+and was still correctly disallowing WRITE commands from backend submission
+for unregistered / unreserved initiator ports, while returning the incorrect
+SAM_STAT_GOOD status due to the missing SAM_STAT_RESERVATION_CONFLICT
+assignment.
+
+This regression was first introduced with:
+
+commit de103c93aff0bed0ae984274e5dc8b95899badab
+Author: Christoph Hellwig &lt;hch@lst.de&gt;
+Date:   Tue Nov 6 12:24:09 2012 -0800
+
+    target: pass sense_reason as a return value
+
+Go ahead and re-add the missing SAM_STAT_RESERVATION_CONFLICT assignment
+during a target_check_reservation() failure, so that iscsi-target code
+sends the correct SCSI status.
+
+All other fabrics using target_submit_cmd_*() with a RESERVATION_CONFLICT
+call to transport_generic_request_failure() are not effected by this bug.
+
+Reported-by: Jeff Leung &lt;jleung@curriegrad2004.ca&gt;
+Cc: Christoph Hellwig &lt;hch@lst.de&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Nicholas Bellinger &lt;nab@linux-iscsi.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5dade71050e799d8679698a6145e2ba46cdeac2a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5dade71050e799d8679698a6145e2ba46cdeac2a"/>
+    <title>
+        tcm_vhost: Avoid VIRTIO_RING_F_EVENT_IDX feature bit
+    </title>
+    <updated>2013-03-28T23:42:47-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/3315863798ff20913c88fe28cef7312a?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>nab@linux-iscsi.org</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/vhost/tcm_vhost.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>tcm_vhost: Avoid VIRTIO_RING_F_EVENT_IDX feature bit
+
+This patch adds a VHOST_SCSI_FEATURES mask minus VIRTIO_RING_F_EVENT_IDX
+so that vhost-scsi-pci userspace will strip this feature bit once
+GET_FEATURES reports it as being unsupported on the host.
+
+This is to avoid a bug where -&gt;handle_kicks() are missed when EVENT_IDX
+is enabled by default in userspace code.
+
+(mst: Rename to VHOST_SCSI_FEATURES + add comment)
+
+Acked-by: Michael S. Tsirkin &lt;mst@redhat.com&gt;
+Reviewed-by: Asias He &lt;asias@redhat.com&gt;
+Cc: Paolo Bonzini &lt;pbonzini@redhat.com&gt;
+Signed-off-by: Nicholas Bellinger &lt;nab@linux-iscsi.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/09a9f1d27892255cfb9c91203f19476765e2d8d1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/09a9f1d27892255cfb9c91203f19476765e2d8d1"/>
+    <title>
+        Revert &quot;mm: introduce VM_POPULATE flag to better deal with racy userspace programs&quot;
+    </title>
+    <updated>2013-03-28T17:45:51-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1f497eea8b5af7c581de15728ccf3e4b?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>walken@google.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/mm.h
+m include/linux/mman.h
+m mm/fremap.c
+m mm/mlock.c
+m mm/mmap.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Revert &quot;mm: introduce VM_POPULATE flag to better deal with racy userspace programs&quot;
+
+This reverts commit 186930500985 (&quot;mm: introduce VM_POPULATE flag to
+better deal with racy userspace programs&quot;).
+
+VM_POPULATE only has any effect when userspace plays racy games with
+vmas by trying to unmap and remap memory regions that mmap or mlock are
+operating on.
+
+Also, the only effect of VM_POPULATE when userspace plays such games is
+that it avoids populating new memory regions that get remapped into the
+address range that was being operated on by the original mmap or mlock
+calls.
+
+Let&#39;s remove VM_POPULATE as there isn&#39;t any strong argument to mandate a
+new vm_flag.
+
+Signed-off-by: Michel Lespinasse &lt;walken@google.com&gt;
+Signed-off-by: Hugh Dickins &lt;hughd@google.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0776ce03b1348d39ba3035ea3ee3d268a42912ce</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/0776ce03b1348d39ba3035ea3ee3d268a42912ce"/>
+    <title>
+        Merge tag &#39;usb-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+    </title>
+    <updated>2013-03-28T15:54:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/usb/core/hcd.c
+m drivers/usb/core/usb-acpi.c
+m drivers/usb/gadget/Kconfig
+m drivers/usb/host/ehci-sched.c
+m drivers/usb/host/xhci-mem.c
+m drivers/usb/host/xhci-pci.c
+m drivers/usb/host/xhci-ring.c
+m drivers/usb/host/xhci.c
+m drivers/usb/host/xhci.h
+m drivers/usb/phy/Kconfig
+m drivers/usb/serial/ftdi_sio.c
+m drivers/usb/serial/ftdi_sio_ids.h
+m drivers/usb/serial/usb-serial.c
+m include/linux/usb/hcd.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;usb-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+
+Pull USB fixes from Greg Kroah-Hartman:
+ &quot;Here are some USB fixes to resolve issues reported recently, as well
+  as a new device id for the ftdi_sio driver.&quot;
+
+* tag &#39;usb-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb:
+  usb: ftdi_sio: Add support for Mitsubishi FX-USB-AW/-BD
+  usb: Fix compile error by selecting USB_OTG_UTILS
+  USB: serial: fix hang when opening port
+  USB: EHCI: fix bug in iTD/siTD DMA pool allocation
+  xhci: Don&#39;t warn on empty ring for suspended devices.
+  usb: xhci: Fix TRB transfer length macro used for Event TRB.
+  usb/acpi: binding xhci root hub usb port with ACPI
+  usb: add find_raw_port_number callback to struct hc_driver()
+  usb: xhci: fix build warning&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/045ecc26a06459c5c88eade6e545bb109a1cdb38</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/045ecc26a06459c5c88eade6e545bb109a1cdb38"/>
+    <title>
+        Merge tag &#39;tty-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+    </title>
+    <updated>2013-03-28T15:53:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/tty/serial/8250/8250_core.c
+m drivers/tty/serial/8250/8250_pci.c
+m drivers/tty/serial/8250/Kconfig
+m drivers/tty/serial/8250/Makefile
+m drivers/tty/serial/atmel_serial.c
+m drivers/tty/serial/xilinx_uartps.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;tty-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+
+Pull TTY/serial fixes from Greg Kroah-Hartman:
+ &quot;Here are some tty/serial driver fixes for 3.9.
+
+  The big thing here is the fix for the huge mess we caused renaming the
+  8250 driver accidentally in the 3.7 kernel release, without realizing
+  that there were users of the module options that suddenly broke.  This
+  is now resolved, and, to top the injury off, we have a backwards-
+  compatible option for those users who got used to the new name since
+  3.7.  Ugh, sorry about that.
+
+  Other than that, some other minor fixes for issues that have been
+  reported by users.&quot;
+
+* tag &#39;tty-3.9-rc4&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty:
+  Xilinx: ARM: UART: clear pending irqs before enabling irqs
+  TTY: 8250, deprecated 8250_core.* options
+  TTY: 8250, revert module name change
+  serial: 8250_pci: Add WCH CH352 quirk to avoid Xscale detection
+  tty: atmel_serial_probe(): index of atmel_ports[] fix&lt;/pre>
+    </content>
+  </entry>
+</feed>

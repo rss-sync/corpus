@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-04-01T11:56:10Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15743024</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Looking for a smart way to add new landing pages that are 90% simmilar. (asp.net)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/>
+        <author>
+            <name>krs000</name>
+            <uri>http://stackoverflow.com/users/2231942</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15743024/looking-for-a-smart-way-to-add-new-landing-pages-that-are-90-simmilar-asp-net" />
+        <published>2013-04-01T11:55:36Z</published>
+        <updated>2013-04-01T11:55:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In an Asp.net website, I keep adding new landing pages by creating a new page that derives from a common master page. These &quot;new&quot; pages are 90% he same (only background image differs).&lt;/p&gt;
+
+&lt;p&gt;I ended up in my solution with 10+ similar .aspx pages. Is there a way to do this smarter. (not having to add a  different .aspx for every &quot;new&quot; page)?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15743021</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to run commands like sudo grails in ubuntu?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="grails"/><category scheme="http://stackoverflow.com/feeds/tags" term="ubuntu"/><category scheme="http://stackoverflow.com/feeds/tags" term="path"/>
+        <author>
+            <name>batman</name>
+            <uri>http://stackoverflow.com/users/1500898</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15743021/how-to-run-commands-like-sudo-grails-in-ubuntu" />
+        <published>2013-04-01T11:55:30Z</published>
+        <updated>2013-04-01T11:55:30Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m very new to Ubuntu and I&#39;m trying to run grails with sudo permission like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo grails
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but I&#39;m getting:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo: grails: command not found
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;what should I do?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15743019</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to list matching records in postregsql</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="postgresql"/>
+        <author>
+            <name>Technical Amit</name>
+            <uri>http://stackoverflow.com/users/2164717</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15743019/how-to-list-matching-records-in-postregsql" />
+        <published>2013-04-01T11:55:23Z</published>
+        <updated>2013-04-01T11:55:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am working on search section where comparing input values with the stored records. Database having value like AB 09 C D 1234. I have explode (with space) input string to match with stored value but when I given input like AB09 CD 1234, it does not result above record. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT * FROM some_vehicle WHERE vehicle_number ILIKE E\&#39;%AB09 CD 1234%&#39; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;vehicle_number in db = AB 09 C D 1234
+input string = AB09 CD 1234&lt;/p&gt;
+
+&lt;p&gt;I want to result having every possible scenario with combination of input string. Is there any way to do that in postgresql?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15743017</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to integrate Masonry &amp; sencha-touch 2 (Phonegap Application)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sencha-touch-2"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery-masonry"/>
+        <author>
+            <name>Jignesh Pandya</name>
+            <uri>http://stackoverflow.com/users/1089822</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15743017/how-to-integrate-masonry-sencha-touch-2-phonegap-application" />
+        <published>2013-04-01T11:55:18Z</published>
+        <updated>2013-04-01T11:55:18Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Am trying to do and prepare layout like pinterest using sencha; but am not getting any help or documentation on integrating jQuery Masonry &amp;amp; sencha-touch 2.&lt;/p&gt;
+
+&lt;p&gt;Please guide me... &lt;/p&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15743016</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">PHP add function in EOF</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysqli"/><category scheme="http://stackoverflow.com/feeds/tags" term="eof"/>
+        <author>
+            <name>B.B King</name>
+            <uri>http://stackoverflow.com/users/2035091</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15743016/php-add-function-in-eof" />
+        <published>2013-04-01T11:55:14Z</published>
+        <updated>2013-04-01T11:55:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i need to add any function for my result id in &lt;code&gt;EOF&lt;/code&gt; but i see this line in page and not work my function. how to fix this?!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{design_num(&#39;61&#39;)}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;my PHP:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$stmt-&amp;gt;bind_result($Id,$first_name, $last_name);
+
+$content = &amp;lt;&amp;lt;&amp;lt; EOF
+  &amp;lt;tr&amp;gt;
+  &amp;lt;td style=&quot;text-align:center;&quot;&amp;gt;{design_num($Id)}&amp;lt;/td&amp;gt; 
+  &amp;lt;td style=&quot;text-align:right;&quot;&amp;gt;&amp;lt;a href=&quot;#&quot;&amp;gt;{$first_name}&amp;lt;/td&amp;gt;
+  &amp;lt;td style=&quot;text-align:right;&quot;&amp;gt;{$last_name}&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;                                                     
+EOF;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15743013</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Compare Date &amp; Time in JQuery</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>Amit Pandey</name>
+            <uri>http://stackoverflow.com/users/787336</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15743013/compare-date-time-in-jquery" />
+        <published>2013-04-01T11:55:06Z</published>
+        <updated>2013-04-01T11:55:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to some message by date comparing in jquery. 
+    &lt;strong&gt;for example:&lt;/strong&gt;
+    I have a &lt;strong&gt;text box&lt;/strong&gt; value as &quot;04/01/2013 13:15:32&quot; filled by userend.
+    And a current date time in jquery variable as &quot;04/01/2013 18:30:12&quot;
+    if text box value is less then current datetime then show a message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function foo(){
+
+    usrDate = jQuery(&quot;#txtDate&quot;).val(); //getting user input date time
+    currentDate = new Date(); //system current date
+    currentMonth = currentDate.getMonth() + 01;
+    currentDay = currentDate.getDate();
+    currentYear = currentDate.getFullYear();
+    currentHours = currentDate.getHours();
+    currentMinutes = currentDate.getMinutes();
+    currentSeconds = currentDate.getSeconds();
+    currentcpDateTime = currentMonth + &quot;/&quot; + currentDay + &quot;/&quot; + currentYear + &quot; &quot; + currentHours + &quot;:&quot; + currentMinutes + &quot;:&quot; + currentSeconds;
+       if (usrDate &amp;gt; currentcpDateTime ) {
+       alert(&quot;you can not choose date greater then current&quot;);   
+    }
+   else {
+      alert(&quot;valid date&quot;);
+ }
+}
+
+
+each time wrong result. :( 
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15743008</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">when i select a branch it not worked in mozilla but same thing when i work on crome it working fine</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby"/>
+        <author>
+            <name>Rohit Lingayat</name>
+            <uri>http://stackoverflow.com/users/2143102</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15743008/when-i-select-a-branch-it-not-worked-in-mozilla-but-same-thing-when-i-work-on-cr" />
+        <published>2013-04-01T11:54:41Z</published>
+        <updated>2013-04-01T11:54:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;def create
+    if params[:project][:due_date] == &quot;Click calender to select date&quot;
+     params[:project][:due_date]= &#39;&#39;&lt;br&gt;
+    end
+    if params[:project][:roi_follow_up_date] == &quot;Click calender to select date&quot;
+     params[:project][:roi_follow_up_date]= &#39;&#39;
+    end
+    @project = Project.new(params[:project])
+    Rails.logger.info(&quot;in create&quot;)
+    Rails.logger.info(params[:project])&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@project.uploads_to_attach = params[:uploads_to_attach]
+@project.captures_to_attach = params[:captures_to_attach]
+
+@project.user_id = current_user.id
+@project.company_id = current_user.company.id
+@project.is_draft = false
+
+@project.expiration_date = Time.now + 7.days
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742977</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Php and MySql - copy data from one to another table</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/>
+        <author>
+            <name>LjekiDex</name>
+            <uri>http://stackoverflow.com/users/2004853</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742977/php-and-mysql-copy-data-from-one-to-another-table" />
+        <published>2013-04-01T11:53:00Z</published>
+        <updated>2013-04-01T11:55:04Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I just want to know how it is possible to do coping data from one table column to another in same database , this down is not working with my version of MySQL but it should be working.  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;UPDATE table1 SET table1.column1 = 
+(SELECT table2.column2 FROM table2 WHERE table1.city = table2.city) 
+WHERE listing =&#39;5&#39; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Do you have some idea ?
+Thanks !&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742970</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">java...based on Collections</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/>
+        <author>
+            <name>vinodh</name>
+            <uri>http://stackoverflow.com/users/2231914</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742970/java-based-on-collections" />
+        <published>2013-04-01T11:52:42Z</published>
+        <updated>2013-04-01T11:54:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;import java.util.ArrayList;
+import java.util.*;&lt;/p&gt;
+
+&lt;p&gt;class Employee1 implements Comparable{
+    int empno;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;String name;
+Employee1(int i,String j){
+    empno=i;
+    name=j;
+}
+public int compareTo(Employee1 e1)
+{
+    Employee1 e2=this;
+    Integer i1=e1.empno;
+    Integer i2=e2.empno;
+    return i1.compareTo(i2);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}
+public class Employee{&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;static public void display(ArrayList&amp;lt;Employee1&amp;gt; i){
+for(Employee1 o:i){
+    System.out.println(o.empno);
+}
+}
+public static void main(String[] args) {
+    ArrayList&amp;lt;Employee1&amp;gt; ob=new ArrayList&amp;lt;Employee1&amp;gt;();
+Employee1 e1=new Employee1(1001,&quot;A&quot;);
+Employee1 e2=new Employee1(1002,&quot;B&quot;);
+
+ob.add(e2);
+ob.add(e1);
+Collections.sort(ob);
+display(ob);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}
+}&lt;/p&gt;
+
+&lt;p&gt;Hi.... here the output should be 1001   1002 ....but the output is  1002 1001....&lt;/p&gt;
+
+&lt;p&gt;According to my view....first i passed the e2 object that means 1002 is passed..and then 
+e1 is passed ...that is 1001....accordng to the statement from above...
+  i1.compareTo(i2);..........it is so as........1001.compareTo(1002);......
+here 1001 &amp;lt; 1002...so, hence 1001&#39;s place does shift...it remains like that...and so the output should be... 1001 1002.......???&lt;/p&gt;
+
+&lt;p&gt;I want to know ..If is there anything wrong with my view...please guide me....   &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742960</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">substring in hashmap</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="hashmap"/><category scheme="http://stackoverflow.com/feeds/tags" term="substring"/>
+        <author>
+            <name>user2231937</name>
+            <uri>http://stackoverflow.com/users/2231937</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742960/substring-in-hashmap" />
+        <published>2013-04-01T11:52:10Z</published>
+        <updated>2013-04-01T11:54:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to create a Map and use that Map later.
+I am creating map like this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;String line = &quot;0010020 027071040YN Address Line 1&quot;;
+Map.put(line.substring(0,8).toString(), line.substring(8).toString());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;so my Map looks like &lt;code&gt;&quot;0010020=027071040YN Address Line 1&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;And it is working fine.But when i am trying to retrieve this entry from Map, i am not able to do it.
+I am trying to retrieve like this:-&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;String temp= Map.get(&quot;0010020&quot;).toString();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The same thing is working fine if i don&#39;t use substring while putting data into Map. But i need to use substring. Please let me know how to proceed&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742948</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Routing with new parameter on link click , MVC3</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-routing"/>
+        <author>
+            <name>user1659480</name>
+            <uri>http://stackoverflow.com/users/1659480</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742948/routing-with-new-parameter-on-link-click-mvc3" />
+        <published>2013-04-01T11:51:16Z</published>
+        <updated>2013-04-01T11:55:25Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In Global.asax.cs&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;routes.MapRoute(
+            &quot;Default&quot;, // Route name
+            &quot;{controller}/{action}/{id}&quot;, // URL with parameters
+            new { controller = &quot;Home&quot;, action = &quot;Menu&quot;, id = UrlParameter.Optional, PageName=&quot;Index&quot; } // Parameter defaults
+        );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want this parameter &lt;code&gt;PageName&lt;/code&gt; to be &quot;&lt;code&gt;Index&lt;/code&gt;&quot; only for the first Home page loading. After that on menu link click i need to transfer the &lt;code&gt;PageName&lt;/code&gt; corresponding to the link and not the value &quot;Index&quot;.&lt;/p&gt;
+
+&lt;p&gt;So in my &lt;code&gt;_Layout.cshtml&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;foreach(...)
+{
+     @Html.ActionLink(item.Title, &quot;Menu&quot;, &quot;Home&quot;, new { PageName = item.PageName, role = &quot;Admin&quot; }, null)
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Currently for all link click only the parameter written on &lt;code&gt;routemap&lt;/code&gt; is taken. Which is unintended.&lt;/p&gt;
+
+&lt;p&gt;After some search, i found this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;RouteLink(item.Title, item.PageName, new { controller = &quot;Home&quot;, action = &quot;Menu&quot;, role = &quot;Admin&quot; })
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please tell me whether routelink is the solution for this issue.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742941</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to remove the special characters when getting the data using json in android?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/>
+        <author>
+            <name>user1448108</name>
+            <uri>http://stackoverflow.com/users/1448108</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742941/how-to-remove-the-special-characters-when-getting-the-data-using-json-in-android" />
+        <published>2013-04-01T11:50:15Z</published>
+        <updated>2013-04-01T11:55:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am working on android application. I need to get the data from PHP webservice. The response which I am getting from PHP server is shown below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;String response = [{id:100,category:local,count1:58,count2:86},{id:101,category:server/local,count1:18,count2:27},
+{id:102,category:server &amp;amp; local,count1:19,count2:28}];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I am getting the following message when I am trying to seperate the data using JSON. 
+&lt;strong&gt;org.json.JSONException: Unterminated object at character&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;How to remove special characters and get the data using JSON array? Please help me in this regard.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742936</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to isolate CSS in a website gadget?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="gadget"/>
+        <author>
+            <name>unique_programmer</name>
+            <uri>http://stackoverflow.com/users/2149052</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742936/how-to-isolate-css-in-a-website-gadget" />
+        <published>2013-04-01T11:50:05Z</published>
+        <updated>2013-04-01T11:54:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a livescore website and I am trying to make a gadget of that website to show part of it in others websites,the problem that I face is how to isolate my code (JavaScript and CSS) from the code of the host site for my gadget.
+I use an &quot;anonymous function&quot; like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(function() {
+
+// Localize jQuery variable
+var jQuery;
+
+/******** Load jQuery if not present *********/
+if (window.jQuery === undefined || window.jQuery.fn.jquery !== &#39;1.8.3&#39;) {
+    var script_tag = document.createElement(&#39;script&#39;);
+    script_tag.setAttribute(&quot;type&quot;,&quot;text/javascript&quot;);
+    script_tag.setAttribute(&quot;src&quot;,
+        &quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js&quot;);
+    if (script_tag.readyState) {
+      script_tag.onreadystatechange = function () { // For old versions of IE
+          if (this.readyState == &#39;complete&#39; || this.readyState == &#39;loaded&#39;) {
+              scriptLoadHandler();
+          }
+      };
+    } else { // Other browsers
+      script_tag.onload = scriptLoadHandler;
+    }
+    // Try to find the head, otherwise default to the documentElement
+    (document.getElementsByTagName(&quot;head&quot;)[0] || document.documentElement).appendChild(script_tag);
+} else {
+    // The jQuery version on the window is the one we want to use
+    jQuery = window.jQuery;
+    main();
+}
+
+/******** Called once jQuery has loaded ******/
+function scriptLoadHandler() {
+    // Restore $ and window.jQuery to their previous values and store the
+    // new jQuery in our local jQuery variable
+    jQuery = window.jQuery.noConflict(true);
+    // Call our main function
+    main(); 
+}
+
+/******** Our main function ********/
+function main() { 
+    jQuery(document).ready(function($) {
+    /******* Load CSS *******/
+    var css_link = $(&quot;&amp;lt;link&amp;gt;&quot;, { 
+            rel: &quot;stylesheet&quot;, 
+            type: &quot;text/css&quot;, 
+            href: &quot;http://localhost/aaa/widget/widget.css&quot; 
+        });
+        css_link.appendTo(&#39;head&#39;);          
+        var txt;
+        txt=&#39;&amp;lt;div id=&quot;wrapper&quot;&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;ul class=&quot;tabs&quot;&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;li id=&quot;fixtures_tab&quot;&amp;gt;&amp;lt;a href=&quot;#fixtures&quot;&amp;gt;All&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;li id=&quot;live_tab&quot;&amp;gt;&amp;lt;a href=&quot;#live&quot;&amp;gt;Live&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;li id=&quot;finished_tab&quot;&amp;gt;&amp;lt;a href=&quot;#finished&quot;&amp;gt;finished&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;li id=&quot;program_tab&quot;&amp;gt;&amp;lt;a href=&quot;#program&quot;&amp;gt;Program&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;li id=&quot;postpond_tab&quot;&amp;gt;&amp;lt;a href=&quot;#postpond&quot;&amp;gt;Postpond&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;li id=&quot;selected_tab&quot;&amp;gt;&amp;lt;a id=&quot;f&quot; href=&quot;#fav&quot;&amp;gt;Selected (0)&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;/ul&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;div class=&quot;tab-container&quot;&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;div id=&quot;fixtures&quot; class=&quot;tab-content&quot;&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;get_All_Today_Matches();&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;div id=&quot;live&quot; class=&quot;tab-content&quot;&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;div id=&quot;finished&quot; class=&quot;tab-content&quot;&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;div id=&quot;program&quot; class=&quot;tab-content&quot;&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;div id=&quot;postpond&quot; class=&quot;tab-content&quot;&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;div id=&quot;fav&quot; class=&quot;tab-content&quot;&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;/div&amp;gt;&#39;;
+        txt=txt+&#39;&amp;lt;/div&amp;gt;&#39;;
+        $(&#39;#widget-container&#39;).html(txt);
+    });
+}
+
+})(); // We call our anonymous function immediately 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;everything is going fine for the JQuery but not for CSS (the CSS file is loaded and worked fine but some of the hosting site CSS is effecting my CSS) I have no control on the hosting site CSS and I think that I have isolated my code well by using anonymous function but why is my CSS affected by the website orginal CSS ??? help me please i have been at this point for a while&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742934</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">very simple copying a file from my jar</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="file"/><category scheme="http://stackoverflow.com/feeds/tags" term="jar"/><category scheme="http://stackoverflow.com/feeds/tags" term="path"/><category scheme="http://stackoverflow.com/feeds/tags" term="copy"/><category scheme="http://stackoverflow.com/feeds/tags" term="where"/>
+        <author>
+            <name>user74670</name>
+            <uri>http://stackoverflow.com/users/2208504</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742934/very-simple-copying-a-file-from-my-jar" />
+        <published>2013-04-01T11:50:01Z</published>
+        <updated>2013-04-01T11:55:30Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Ok, so I wanted to open a pdf file that I put it in my jar, so I needed to copy the file from the jar to my disk, and I did so by the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;InputStream is = Jar.class.getResourceAsStream(&quot;images/lol.pdf&quot;);
+OutputStream os = new FileOutputStream(&quot;753951741.pdf&quot;);
+byte[] buffer = new byte[4096];
+int length;
+while ((length = is.read(buffer)) &amp;gt; 0)
+    os.write(buffer, 0, length);
+os.close();
+is.close();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;my question is:how do I control where the file is created?
+When I execute the program It&#39;s created under C:/Users/Buba
+Thanks in advance :)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742926</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to find where the records exists in the array or not using c#</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="linq"/><category scheme="http://stackoverflow.com/feeds/tags" term="lambda"/>
+        <author>
+            <name>Pa1</name>
+            <uri>http://stackoverflow.com/users/2119645</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742926/how-to-find-where-the-records-exists-in-the-array-or-not-using-c-sharp" />
+        <published>2013-04-01T11:49:37Z</published>
+        <updated>2013-04-01T11:55:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am having an array of elements and records. I want to display all the records that only contains records in the array.&lt;/p&gt;
+
+&lt;p&gt;For eg:&lt;/p&gt;
+
+&lt;p&gt;array contains: &lt;code&gt;[1,2,3]&lt;/code&gt;
+records contains: &lt;code&gt;[1,2,3,4,5,6,7,8,9,10]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I want to display only &lt;code&gt;1,2,3&lt;/code&gt; records. How to compare this in c#&lt;/p&gt;
+
+&lt;p&gt;Sorry for my english. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742906</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">NativeSQLQueryPlan in Hibernate?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="hibernate"/><category scheme="http://stackoverflow.com/feeds/tags" term="outofmemoryerror"/>
+        <author>
+            <name>Arjit</name>
+            <uri>http://stackoverflow.com/users/1800611</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742906/nativesqlqueryplan-in-hibernate" />
+        <published>2013-04-01T11:48:38Z</published>
+        <updated>2013-04-01T11:54:31Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to know that why hibernate generates &lt;code&gt;NativeSQLQueryPlan&lt;/code&gt; (query plan for native queries). Also, how can I skip query cache plan for my native queries?&lt;/p&gt;
+
+&lt;p&gt;I am doing some bulk data operation, and there I am firing native queries, but I am getting &lt;code&gt;OutOfMemoryException&lt;/code&gt; because hibernate is caching &lt;code&gt;ResultSet&lt;/code&gt; and query plans. I only have native queries in my logic (no named query).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742820</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">C basic pointer issue</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c"/><category scheme="http://stackoverflow.com/feeds/tags" term="pointers"/>
+        <author>
+            <name>Aurum</name>
+            <uri>http://stackoverflow.com/users/1878139</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742820/c-basic-pointer-issue" />
+        <published>2013-04-01T11:43:13Z</published>
+        <updated>2013-04-01T11:54:30Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;What is wrong with this code? It gives the following error:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;error:&quot;../new.c&quot;, line 24: Error:  #144: a value of type &quot;int&quot; cannot
+  be used to initialize an entity of type &quot;int *&quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Code:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;int * splitString( char string[], int n )
+{
+    int *newArray = malloc(sizeof(int) * n);
+
+    // CODE
+
+    return ( newArray );
+}
+
+int main( void )
+{
+    int *x = splitString( string, n );
+
+    // use it
+
+    free(x);
+
+    return ( 0 );
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742789</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Need MySQL query to update/add record into table1 from table2</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-update"/>
+        <author>
+            <name>Karter</name>
+            <uri>http://stackoverflow.com/users/1992388</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742789/need-mysql-query-to-update-add-record-into-table1-from-table2" />
+        <published>2013-04-01T11:41:16Z</published>
+        <updated>2013-04-01T11:55:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want MySQL query to update/Add table1 if data exist in table2&lt;/p&gt;
+
+&lt;p&gt;If record not exist in table1 than add record (from table2)
+otherwise update it.&lt;/p&gt;
+
+&lt;p&gt;Thanking you in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742643</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Generating files by reading excel sheet</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="excel"/><category scheme="http://stackoverflow.com/feeds/tags" term="file"/>
+        <author>
+            <name>user1970168</name>
+            <uri>http://stackoverflow.com/users/1970168</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742643/generating-files-by-reading-excel-sheet" />
+        <published>2013-04-01T11:31:44Z</published>
+        <updated>2013-04-01T11:55:19Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;There is a excel file which is having  lot of file names in one of its column . I need to write a java code that should read those file names and generate the same in destination.Can any one help me ?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742605</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">query for first and last day of month</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="query"/>
+        <author>
+            <name>PookPook</name>
+            <uri>http://stackoverflow.com/users/1035483</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742605/query-for-first-and-last-day-of-month" />
+        <published>2013-04-01T11:29:10Z</published>
+        <updated>2013-04-01T11:54:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;If I have the name of the month, how can I have the first and last day of that month in SQL?&lt;/p&gt;
+
+&lt;p&gt;I have this query to returns the month names:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;DECLARE @StartDate  DATETIME,
+        @EndDate    DATETIME;
+
+SELECT   @StartDate = &#39;20110501&#39;        
+        ,@EndDate   = &#39;20110801&#39;;
+
+
+SELECT  DATENAME(MONTH, DATEADD(MONTH, x.number, @StartDate)) AS MonthName
+FROM    master.dbo.spt_values x
+WHERE   x.type = &#39;P&#39;        
+AND     x.number &amp;lt;= DATEDIFF(MONTH, @StartDate, @EndDate)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/pye1k.png&quot; alt=&quot;results&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, how can i get the first and last day of that months? changing the query.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742474</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Making ENV variables accessible in development</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="environment-variables"/>
+        <author>
+            <name>Richlewis</name>
+            <uri>http://stackoverflow.com/users/1150534</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742474/making-env-variables-accessible-in-development" />
+        <published>2013-04-01T11:21:18Z</published>
+        <updated>2013-04-01T11:55:03Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;When storing sensitive credentials I normally create a yml file and load it like so in my development.rb&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;APP_CONFIG = YAML.load_file(&quot;#{Rails.root}/config/config.yml&quot;)[Rails.env]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I can then access like so&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;APP_CONFIG[&quot;google_secret&quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Problem is Heroku doesn&#39;t like this so i need to set ENV variables locally to make integration easier. so i have created a env.rb file like so&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ENV[&#39;google_key&#39;] = &#39;xxx&#39;
+ENV[&#39;google_secret&#39;] = &#39;xxx&#39;
+ENV[&#39;application_key&#39;] = &#39;xxx&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and to accesss it i thought i could use &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;x = ENV[&#39;application_key&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But its not finding the variable, how do I load them in the development environment?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15742294</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">javascript files invoked inside HTML tags not working</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/>
+        <author>
+            <name>user2231775</name>
+            <uri>http://stackoverflow.com/users/2231775</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15742294/javascript-files-invoked-inside-html-tags-not-working" />
+        <published>2013-04-01T11:08:55Z</published>
+        <updated>2013-04-01T11:55:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;&lt;code&gt;.js&lt;/code&gt; files are present inside the HTML file inside   tag but no output seen.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;%@ Page Language=&quot;C#&quot; AutoEventWireup=&quot;true&quot; CodeBehind=&quot;jqplot.aspx.cs&quot; Inherits=&quot;jqplots.jqplot&quot; %&amp;gt;
+
+    &amp;lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&amp;gt;
+
+    &amp;lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; runat = &quot;server&quot;&amp;gt;
+    &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt; MyPage&amp;lt;/title&amp;gt;
+        &amp;lt;link href=&quot;Styles/jquery.jqplot.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&amp;gt;
+        &amp;lt;link href=&quot;Styles/Site.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&amp;gt;
+        &amp;lt;link href=&quot;Styles/jquery.jqplot.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&amp;gt; 
+        &amp;lt;script src=&quot;Scripts/jqplot.BezierCurveRenderer.js&quot; type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&quot;Scripts/jqplot.barchart.js&quot; type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+    &amp;lt;/head&amp;gt;
+    &amp;lt;/html&amp;gt;
+
+
+
+**barchart.js**
+
+
+ &amp;lt;script type=&quot;text/javascript&quot; language=&quot;javascript&quot;&amp;gt;
+        $(document).ready(function () {
+            var s1 = [200, 600, 700, 1000];
+            var s2 = [460, -210, 690, 820];
+            var s3 = [-260, -440, 320, 200];
+            // Can specify a custom tick Array.
+            // Ticks should match up one for each y value (category) in the series.
+            var ticks = [&#39;May&#39;, &#39;June&#39;, &#39;July&#39;, &#39;August&#39;];
+            var plot1 = $.jqplot(&#39;chart1&#39;, [s1, s2, s3], {
+            // The &quot;seriesDefaults&quot; option is an options object that will
+            // be applied to all series in the chart.
+
+                seriesDefaults: {
+                     renderer: $.jqplot.BarRenderer,
+                     rendererOptions: { fillToZero: true }
+                },
+                // Custom labels for the series are specified with the &quot;label&quot;
+                // option on the series option. Here a series option object
+                // is specified for each series.
+            series: [
+    { label: &#39;Hotel&#39; },
+    { label: &#39;Event Regristration&#39; },
+    { label: &#39;Airfare&#39; }
+        ],
+            // Show the legend and put it outside the grid, but inside the
+            // plot container, shrinking the grid to accomodate the legend.
+            // A value of &quot;outside&quot; would not shrink the grid and allow
+            // the legend to overflow the container.
+                legend: {
+                    show: true,
+                placement: &#39;outsideGrid&#39;
+                },
+                    axes: {
+                    // Use a category axis on the x axis and use our custom ticks.
+                    xaxis: {
+                         renderer: $.jqplot.CategoryAxisRenderer,
+                        ticks: ticks
+                    },
+                // Pad the y axis just a little so bars can get close to, but
+                // not touch, the grid boundaries. 1.2 is the default padding.
+                yaxis: {
+                    pad: 1.05,
+                    tickOptions: { formatString: &#39;$%d&#39; }
+                    }
+                }
+            });
+        });
+
+    &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15737812</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">AndEngine: how to attach a child twice</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="andengine"/>
+        <author>
+            <name>realjin</name>
+            <uri>http://stackoverflow.com/users/816109</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15737812/andengine-how-to-attach-a-child-twice" />
+        <published>2013-04-01T04:55:22Z</published>
+        <updated>2013-04-01T11:55:18Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I create a text, register a MoveXModifier (i.e. modA) to the text, and attach the text to a scene, it works well.&lt;/p&gt;
+
+&lt;p&gt;Then I bind a listener to the modifier, and what I do in the &lt;code&gt;onFinish()&lt;/code&gt; method of the listener is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;set the text invisible;&lt;/li&gt;
+&lt;li&gt;do some calculation;&lt;/li&gt;
+&lt;li&gt;clear modifiers of the text;&lt;/li&gt;
+&lt;li&gt;create a new MoveXModifier(i.e. modB) and register it to the original text, set the text visible;&lt;/li&gt;
+&lt;li&gt;attach it to the scene again.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The first modifier(modA) works well, but the second modifier (modB) didn&#39;t functions as I assume, the text just stay there, seems that I can&#39;t attach the same text twice.&lt;/p&gt;
+
+&lt;p&gt;(PS: I set the text invisible to ensure that the text is brought by modB again rather than by modA just once).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15717778</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Sherlock Actionbar Custom Font</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="actionbarsherlock"/><category scheme="http://stackoverflow.com/feeds/tags" term="custom-font"/>
+        <author>
+            <name>Harsha M V</name>
+            <uri>http://stackoverflow.com/users/155196</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15717778/sherlock-actionbar-custom-font" />
+        <published>2013-03-30T11:01:29Z</published>
+        <updated>2013-04-01T11:55:28Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to change the font of the &lt;strong&gt;Action Bar Title&lt;/strong&gt;, &lt;strong&gt;Tabs&lt;/strong&gt; and &lt;strong&gt;Menu Items&lt;/strong&gt; to Roboto.&lt;/p&gt;
+
+&lt;p&gt;I am trying to figure out if this can be done via Styles ? since i am not able to create a custom view for these which is the best way to assign the custm font.&lt;/p&gt;
+
+&lt;p&gt;I have gone through the following links&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/a/14681975/155196&quot;&gt;http://stackoverflow.com/a/14681975/155196&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/8607707/how-to-set-a-custom-font-in-the-actionbar-title&quot;&gt;How to Set a Custom Font in the ActionBar Title?&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15689762</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to pass the application context into a broadcast receiver while keeping the constructor empty</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="constructor"/><category scheme="http://stackoverflow.com/feeds/tags" term="broadcastreceiver"/><category scheme="http://stackoverflow.com/feeds/tags" term="context"/><category scheme="http://stackoverflow.com/feeds/tags" term="pass"/>
+        <author>
+            <name>CalvinWylie</name>
+            <uri>http://stackoverflow.com/users/1871322</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15689762/how-to-pass-the-application-context-into-a-broadcast-receiver-while-keeping-the" />
+        <published>2013-03-28T18:42:12Z</published>
+        <updated>2013-04-01T11:54:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Im currently working on a Live Wallpaper which need to keep track of the number of unread SMSs.
+When an SMS is received i update the SMSCount like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public void onReceive(Context context, Intent intent) {
+    final Uri SMS_INBOX = Uri.parse(&quot;content://sms/inbox&quot;);
+
+    Cursor c = context.getContentResolver().query(SMS_INBOX,
+                                                  null,
+                                                  &quot;read = 0&quot;,
+                                                  null,
+                                                  null);
+    mSMSCount = c.getCount();
+    c.close();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which work fine. However, the value is updated only when a message is received so before that it gives an incorrect value (SMSCounts initialised value). So to initialise SMSCount to the right value i would have to initialise it with the above code. The problem being that it requires a context. When i try and pass the application context into the Broadcast receiver&#39;s constructor i get a &quot;no empty constructor&quot; exception.&lt;/p&gt;
+
+&lt;p&gt;help me please&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/12325856</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">Why Does XmlReader Encoding Behave Differently From XmlTextReader Encoding?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="xml"/><category scheme="http://stackoverflow.com/feeds/tags" term="character-encoding"/>
+        <author>
+            <name>Mark Rucker</name>
+            <uri>http://stackoverflow.com/users/1066291</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/12325856/why-does-xmlreader-encoding-behave-differently-from-xmltextreader-encoding" />
+        <published>2012-09-07T21:50:51Z</published>
+        <updated>2013-04-01T11:54:32Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have an XML file that is ANSI encoded.&lt;/p&gt;
+
+&lt;p&gt;I have tried reading it using two different Microsoft XmlReader implementations:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;XmlReader reader = XmlReader.Create(new StreamReader(fileImport.FileContent, true));&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;XmlReader reader = new XmlTextReader(fileImport.FileContent)&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The first one, &lt;code&gt;XmlReader.Create&lt;/code&gt;, which uses &lt;code&gt;StreamReader&lt;/code&gt; for its Encoding, works great. &lt;/p&gt;
+
+&lt;p&gt;The second one, &lt;code&gt;new XmlTextReader&lt;/code&gt;, throws an XmlException with the Message &#39;Invalid character in the given encoding.&#39;&lt;/p&gt;
+
+&lt;p&gt;If you read the MSDN documentation for both of these they both detect Encoding from the byte order marks and if that fails fall back to UTF-8. So why is the encoding different on both of them despite the documentation saying they work the same way. I&#39;m afraid of using the code that works without fully understanding why it works.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;XmlTextReader&lt;/code&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.xml.xmltextreader.encoding.aspx&quot; rel=&quot;nofollow&quot;&gt;[msdn]&lt;/a&gt;
+&lt;img src=&quot;http://i.stack.imgur.com/FIolC.png&quot; alt=&quot;XmlTextReader.Encoding property&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;StreamReader&lt;/code&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/7bc2hwcb.aspx&quot; rel=&quot;nofollow&quot;&gt;[msdn]&lt;/a&gt;
+&lt;img src=&quot;http://i.stack.imgur.com/80Stu.png&quot; alt=&quot;StreamReader constructor&quot;&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10723299</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Vim, how to delete empty lines to &quot;_ automatically?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="vim"/>
+        <author>
+            <name>Hongying</name>
+            <uri>http://stackoverflow.com/users/403840</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10723299/vim-how-to-delete-empty-lines-to-automatically" />
+        <published>2012-05-23T15:35:04Z</published>
+        <updated>2013-04-01T11:55:17Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;How can we remove the content to &lt;code&gt;&quot;_&lt;/code&gt; when we are deleting empty lines with &lt;code&gt;*N*dd&lt;/code&gt;, or &lt;code&gt;d*motion*&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT1：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For example, I&#39;ve written &quot;Hello&quot; elsewhere, I want something like the following.
+I will yank that line with &quot;yy&quot;, and put it twice. &lt;/p&gt;
+
+&lt;p&gt;But after putting it for the first time, I would like to &quot;N+dd&quot; some empty lines nearby to &quot;_ without explicitly indicating the register _.  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Hello 
+world
+
+Hello
+for another time
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT2：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can we achieve this by letting vim check the deleted content and edit the registers ?&lt;/p&gt;
+
+&lt;p&gt;Though mapping leader-key d to &quot;_d works well, but when I&#39;m working in this way I still have to tell myself &quot;Hey, you are deleting empty lines, and you should use special keys&quot;. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10717671</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">JPA2: composite keys (unable to map)</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="spring"/><category scheme="http://stackoverflow.com/feeds/tags" term="hibernate"/><category scheme="http://stackoverflow.com/feeds/tags" term="jpa"/><category scheme="http://stackoverflow.com/feeds/tags" term="jpa-2.0"/><category scheme="http://stackoverflow.com/feeds/tags" term="spring-data-jpa"/>
+        <author>
+            <name>Techky</name>
+            <uri>http://stackoverflow.com/users/1106225</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10717671/jpa2-composite-keys-unable-to-map" />
+        <published>2012-05-23T10:03:57Z</published>
+        <updated>2013-04-01T11:54:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to map using JPA2 the following database structure:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ASSET
+ID: assetId
+...
+
+PARTY
+ID: partyId
+...
+
+PARTYASSET
+ID: partyId
+ID: assetId
+ID: relationshipType
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The primary key of PARTYASSET is a composite of the foreign keys of PARTY and ASSET and an additional column: relationshipType.&lt;/p&gt;
+
+&lt;p&gt;Because of the column relationshipType, I cannot use the @ManyToMany annotation I have to use the @ManyToOne and @OneToMany as described in this link:
+&lt;a href=&quot;http://en.wikibooks.org/wiki/Java_Persistence/ManyToMany&quot; rel=&quot;nofollow&quot;&gt;http://en.wikibooks.org/wiki/Java_Persistence/ManyToMany&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have tried the following guide, which was not helpful:
+&lt;a href=&quot;http://www.kawoolutions.com/Technology/JPA,_Hibernate,_and_Co./JPA_Composite_Key_Variants#JPA_2.0_@IdClass&quot; rel=&quot;nofollow&quot;&gt;http://www.kawoolutions.com/Technology/JPA,_Hibernate,_and_Co./JPA_Composite_Key_Variants#JPA_2.0_@IdClass&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Could you please help me?&lt;/p&gt;
+
+&lt;p&gt;I have tried the followings:
+(The inheritance is for other purposes)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Party class&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name = &quot;type&quot;, discriminatorType = DiscriminatorType.STRING)
+@DiscriminatorValue(&quot;PARTY&quot;)
+public class Party implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long partyId;
+
+    @OneToMany(mappedBy = &quot;party&quot;)
+    private Set&amp;lt;PartyAsset&amp;gt; partyAsset;
+    ... 
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Asset class&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name = &quot;type&quot;, discriminatorType = DiscriminatorType.STRING)
+@DiscriminatorValue(&quot;ASSET&quot;)
+public class Asset implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long assetid;
+
+    @OneToMany(mappedBy = &quot;asset&quot;)
+    private Set&amp;lt;PartyAsset&amp;gt; partyAsset;
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;&lt;strong&gt;Using @IdClass:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;PartyAsset class&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Entity
+@IdClass(PartyAssetPK.class)
+public class PartyAsset implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    public static enum RelationshipType {
+        OWNER, TENANT, SECONDARY_CONTACT, SUPPLIER
+    }
+
+    @Id
+    @Enumerated(EnumType.STRING)
+    private RelationshipType relationshipType;
+
+    @Id
+    @ManyToOne
+    @JoinColumn(name=&quot;partyId&quot;)
+    private Party party;
+
+    @Id
+    @ManyToOne
+    @JoinColumn(name=&quot;assetId&quot;)
+    private Asset asset;
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;PartyAssetPK class&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class PartyAssetPK implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    private Long partyId;
+    private Long assetId;
+    private PartyAsset.RelationshipType relationshipType;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The code above throws the exception:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Property of @IdClass not found in entity PartyAsset: assetId&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;&lt;strong&gt;Alternative of @IdClass&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;PartyAsset class&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Entity
+@IdClass(PartyAssetPK.class)
+public class PartyAsset implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    private Long partyId;
+    @Id
+    private Long assetId;
+
+    public static enum RelationshipType {
+        OWNER, TENANT, SECONDARY_CONTACT, SUPPLIER
+    }
+
+    @Id
+    @Enumerated(EnumType.STRING)
+    private RelationshipType relationshipType;
+
+    @ManyToOne
+    @JoinColumn(name=&quot;partyId&quot;)
+    @MapsId(&quot;partyId&quot;)
+    private Party party;
+
+    @ManyToOne
+    @JoinColumn(name=&quot;assetId&quot;)
+    @MapsId(&quot;assetId&quot;)
+    private Asset asset;    
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This throws the exception:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No supertype found&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;&lt;strong&gt;Using @EmbeddedId&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;PartyAsset class&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Entity
+public class PartyAsset implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    @EmbeddedId
+    public PartyAssetPK id;
+
+    public static enum RelationshipType {
+        OWNER, TENANT, SECONDARY_CONTACT, SUPPLIER
+    }
+
+    @MapsId(&quot;relationshipType&quot;)
+    @Enumerated(EnumType.STRING)
+    private RelationshipType relationshipType;
+
+    @ManyToOne
+    @JoinColumn(name=&quot;partyId&quot;)
+    @MapsId(&quot;partyId&quot;)
+    private Party party;
+
+    @ManyToOne
+    @JoinColumn(name=&quot;assetId&quot;)
+    @MapsId(&quot;assetId&quot;)
+    private Asset asset;    
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;PartyAssetPK class&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Embeddable
+public class PartyAssetPK implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    private Long partyId;
+    private Long assetId;
+    private PartyAsset.RelationshipType relationshipType;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This throws the exception;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Caused by: org.springframework.beans.factory.BeanCreationException:
+  Error creating bean with name &#39;entityManagerFactoryBean&#39; defined in
+  class
+  com.ardan1.propertymanagement.test.config.TestApplicationContext:
+  Invocation of init method failed; nested exception is
+  java.lang.NullPointerException Caused by:
+  java.lang.NullPointerException    at java.util.Hashtable.put(Unknown
+  Source)   at java.util.Properties.setProperty(Unknown Source)     at
+  org.hibernate.cfg.annotations.SimpleValueBinder.setType(SimpleValueBinder.java:227)
+    at
+  org.hibernate.cfg.annotations.PropertyBinder.makePropertyAndValue(PropertyBinder.java:188)
+    at
+  org.hibernate.cfg.annotations.PropertyBinder.makePropertyValueAndBind(PropertyBinder.java:203)
+    at
+  org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:2013)
+    at
+  org.hibernate.cfg.AnnotationBinder.fillComponent(AnnotationBinder.java:2385)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have the following libraries (using Maven):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;hibernate.version&amp;gt;4.1.2&amp;lt;/hibernate.version&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.hibernate&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;hibernate-core&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;${hibernate.version}&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.hibernate&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;hibernate-entitymanager&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;${hibernate.version}&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.hibernate&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;hibernate-validator&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;4.2.0.Final&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework.data&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-data-jpa&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;1.0.3.RELEASE&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/10099711</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">mailto link is not working in Chorme Browser(Browser Version :18.0.1025.152 m)?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-chrome"/>
+        <author>
+            <name>Kushal</name>
+            <uri>http://stackoverflow.com/users/66143</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/10099711/mailto-link-is-not-working-in-chorme-browserbrowser-version-18-0-1025-152-m" />
+        <published>2012-04-11T04:15:27Z</published>
+        <updated>2013-04-01T11:54:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;mailto link is not working in Google chorme browser(Ver:18.0.1025.152 m)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&quot;mailto:someone@example.com?cc=someoneelse@example.com&amp;amp;bcc=andsomeoneelse@example.com&amp;amp;subject=Summer%20Party&amp;amp;body=You%20are%20invited%20to%20a%20big%20summer%20party!&quot;&amp;gt;Send mail!&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I used the above code in ff and chrome. It works fine in ff but not in chrome
+And you can test the following link also &lt;a href=&quot;http://www.w3schools.com/Html/tryit.asp?filename=tryhtml_mailto2&quot; rel=&quot;nofollow&quot;&gt;http://www.w3schools.com/Html/tryit.asp?filename=tryhtml_mailto2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+
+&lt;p&gt;I think it is problem with chrome settings. Any one know how to change settings? Please help me&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/3546870</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">ASP.NET MVC string formatting c# - show 20 characters of 100 - trim/cut string</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="string"/>
+        <author>
+            <name>Ragims Ragimovs</name>
+            <uri>http://stackoverflow.com/users/291120</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/3546870/asp-net-mvc-string-formatting-c-sharp-show-20-characters-of-100-trim-cut-str" />
+        <published>2010-08-23T10:57:33Z</published>
+        <updated>2013-04-01T11:55:07Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a small trouble.
+I want to show just a part of a string for example:&lt;/p&gt;
+
+&lt;p&gt;Instead: &quot;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.&quot; &lt;/p&gt;
+
+&lt;p&gt;Just a: &quot;Lorem ipsum dolor sit amet, consetetur sadipscing...&quot;&lt;/p&gt;
+
+&lt;p&gt;Which method can I use to do that?&lt;/p&gt;
+
+&lt;p&gt;Thanks for a help and take care, Ragims&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

@@ -1,0 +1,821 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Haiku</title>
+    <link>http://dev.haiku-os.org/timeline</link>
+    <description>Trac Timeline</description>
+    <language>en-US</language>
+    <generator>Trac 1.0.1</generator>
+    <image>
+      <title>Haiku</title>
+      <url>http://dev.haiku-os.org/chrome/site/logo.png</url>
+      <link>http://dev.haiku-os.org/timeline</link>
+    </image>
+    <item>
+      <title>Ticket #9600 (WebM files are losing all the frames.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 02:52:59 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9600</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9600/1364784779840485</guid>
+      <description>&lt;p&gt;
+WebM files are losing all the frames im Haiku. Audio works.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9599 (Could not find codec parameters) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 02:34:41 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9599</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9599/1364783681183474</guid>
+      <description>&lt;p&gt;
+I have BeOS_DemoVideo_20minutes (DivX).avi . MediaPlayer reads the file but it takes a lot of time. In two of three cases, the system is frozen for several seconds, and CPU utilization was 100%. Then I hear the sound, but the image loses a frames, it is also fast. In the VLC video is correct, but there is no sound.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9598 (MediaPlayer crashed when copying a file.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 01:54:51 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9598</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9598/1364781291563697</guid>
+      <description>&lt;p&gt;
+While watching the video clip I decided to copy it to a flash stick. File size is 1.17 GiB. After copying approximately 900 MB, the copy process stopped, MediaPlayer crashed. Tracker has been blocked. I could not kill it and restart.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9597 (After a certain time I lose sound.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 01:44:07 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9597</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9597/1364780647657288</guid>
+      <description>&lt;p&gt;
+After a few hours of using Haiku, when I want to listen  music, or watch movie, I have no sound! After boot sound works good. Restart of Media Services in Media preflet do not help.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I do not know from when this error occurs. Over the last few days I use Haiku many hours a day. That is probably why I notice this.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9596 (Shifted and incorrectly blended semigraphics in Terminal app) created</title>
+      
+        <dc:creator>jezek2</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 18:53:50 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9596</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9596/1364756030261999</guid>
+      <description>&lt;p&gt;
+I've attached screenshot of Midnight Commander running in Terminal (in Haiku &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45432" title="Haiku Revision 45432"&gt;hrev45432&lt;/a&gt;) that shows these two problems:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+a) the text rendering seems to be shifted up by 1-2 pixels, most noticeable on the semigraphics&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+b) it's incorrectly blended in these overlapping areas&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a style="padding:0; border:none" href="http://dev.haiku-os.org/attachment/ticket/9596/mc-terminal.png"&gt;&lt;img src="http://dev.haiku-os.org/raw-attachment/ticket/9596/mc-terminal.png" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #7475 (ethernet ar81xx does not show in network prefs.) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 18:47:29 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/7475#comment:10</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/7475#comment:10/1364755649605176</guid>
+      <description>duplicate</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9595 (Tracker windows do not receive focus) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 18:17:13 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9595</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9595/1364753833716078</guid>
+      <description>&lt;p&gt;
+On a blank workspace, open a Tracker window and then another program.  Close the other program using Alt + W.  The Tracker window should receive the focus, but it doesn't.  &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+From &lt;a class="ext-link" href="https://dev.haiku-os.org/ticket/7280#comment:4"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;this discussion&lt;/a&gt; I wonder if instead of the desktop being avoided, all Tracker windows are being avoided, instead.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9523 (Multi-thread build broken due to libnetapi) closed</title>
+      
+        <dc:creator>kallisti5</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 16:40:20 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9523#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9523#comment:3/1364748020189082</guid>
+      <description>fixed: &lt;p&gt;
+this was resolved in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45363" title="Haiku Revision 45363"&gt;hrev45363&lt;/a&gt;. Some HttpAuth was missing from openssl grist.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9259 (DriveSetup: Wrong optical drive size) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 16:32:19 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9259#comment:5</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9259#comment:5/1364747539834473</guid>
+      <description>fixed: &lt;p&gt;
+Thanks for the note!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>PackageManagement/TODO edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 10:16:42 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=22</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=22/1364725002033119</guid>
+      <description>&lt;p&gt;
+Add MIME DB item.
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/TODO?action=diff&amp;amp;version=22"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9594 ([net_server] IPv6 Link Local prevents proper interface deletion) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 08:04:15 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9594</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9594/1364717055921613</guid>
+      <description>&lt;p&gt;
+This is &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45432" title="Haiku Revision 45432"&gt;hrev45432&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;ifconfig del /dev/net/ipro1000/0
+&lt;/pre&gt;&lt;p&gt;
+deletes the interface from ifconfig, but leaves it in net_device_interfaces list. &lt;br /&gt;
+So if one tries to bring back the interface he will get an error:&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;ifconfig /dev/net/ipro1000/0 up
+ifconfig: Couldn't add interface: General system error
+&lt;/pre&gt;&lt;p&gt;
+Removing &lt;strong&gt;/system/add-ons/kernel/network/protocols/ipv6&lt;/strong&gt; module &lt;br /&gt;
+or commenting out &lt;a class="ext-link" href="http://cgit.haiku-os.org/haiku/tree/src/servers/net/NetServer.cpp#n556"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;_ConfigureIPv6LinkLocal&lt;/a&gt; fixes it.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9593 (Bookmarks do not support long names.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 02:42:17 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9593</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9593/1364697737124569</guid>
+      <description>&lt;p&gt;
+This bug is easy to reproduce on the TuneTracker website.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>PackageManagement/TODO edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 21:51:50 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=21</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=21/1364680310065632</guid>
+      <description>&lt;p&gt;
+Add B_HPKG_ATTRIBUTE_ID_PACKAGE_PROVIDES_TYPE item.
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/TODO?action=diff&amp;amp;version=21"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9028 (Something is wrong with the allocation of CPU time.) reopened</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 21:05:00 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9028#comment:17</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9028#comment:17/1364677500164876</guid>
+      <description></description>
+      <category>reopenedticket</category>
+    </item><item>
+      <title>Ticket #9592 ([Keymap] don't invalidate everything in KeyboardLayoutView) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:39:46 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9592</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9592/1364665186540394</guid>
+      <description>&lt;p&gt;
+From &lt;a class="new ticket" href="http://dev.haiku-os.org/ticket/8370#comment:13" title="enhancement: Onscreen keyboard (new)"&gt;ticket:8370#comment:13&lt;/a&gt;:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+"The trick is to only invalidate the area that changed, and make your code in Draw() smart enough not to update everything everytime.&lt;br /&gt;
+Which the &lt;a class="ext-link" href="http://cgit.haiku-os.org/haiku/tree/src/preferences/keymap/KeyboardLayoutView.cpp#n315"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;KeyboardLayoutView&lt;/a&gt; currently doesn't do, though."&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9591 ([Network] it shouldn't be possible to auto-config an interface with no ...) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:21:29 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9591</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9591/1364664089434777</guid>
+      <description>&lt;p&gt;
+Currently ifconfig configures link-local address on interfaces with no link.&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;&amp;lt;mmlr_thinkpad&amp;gt; it's just buggy/not fully implemented
+&amp;lt;mmlr_thinkpad&amp;gt; it doesn't actually check the link state
+&amp;lt;mmlr_thinkpad&amp;gt; indeed for wireless networks this will have to be reworked anyway
+&amp;lt;mmlr_thinkpad&amp;gt; or any network where link != usable
+&amp;lt;mmlr_thinkpad&amp;gt; dailup, vpn for example
+&amp;lt;mmlr_thinkpad&amp;gt; or maybe "link" should be reworked so that it actually means usable
+&amp;lt;mmlr_thinkpad&amp;gt; for wireless link usually means an association with an ap is there
+&amp;lt;mmlr_thinkpad&amp;gt; for wpa this doesn't mean that the link is actually usable though, because the wpa handshake needs to be completed first
+&amp;lt;mmlr_thinkpad&amp;gt; usually you don't notice that as it's rather quick and the dhcp requests are simply retried
+&amp;lt;mmlr_thinkpad&amp;gt; it's not exactly correct either way though
+&lt;/pre&gt;</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9590 ([Network] preflet doesn't update the list of interfaces on the fly) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:09:53 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9590</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9590/1364663393455722</guid>
+      <description>&lt;p&gt;
+This is &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45428" title="Haiku Revision 45428"&gt;hrev45428&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The Network preflet doesn't reflect changes to the list of interfaces.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+To reproduce:&lt;br /&gt;
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Open the preflet
+&lt;/li&gt;&lt;li&gt;ifconfig del /dev/net/ipro1000/0 ifconfig /dev/net/foo/0 up
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+Same applies to NetworkStatus.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #5957 (Network Preference crashes on Apply button on a system without network ...) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:08:27 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/5957</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/5957/1364663307720219</guid>
+      <description></description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9589 (WD Elements USB drive not found) created</title>
+      
+        <dc:creator>markh</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 16:14:22 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9589</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9589/1364660062455172</guid>
+      <description>&lt;p&gt;
+I have a WD Elements 500GB external USB drive.&lt;br /&gt;
+If I attach it to the computer, Haiku writes the following in the syslog, but doesn't do anything else with it:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+KERN: usb hub 83: KERN: port 1: new device connected&lt;br /&gt;
+KERN: usb_disk: device reports a lun count of 1&lt;br /&gt;
+KERN: usb_disk: vendor_identification    "WD      "&lt;br /&gt;
+KERN: usb_disk: product_identification   "Elements 1042   "&lt;br /&gt;
+KERN: usb_disk: product_revision_level   "1019"&lt;br /&gt;
+KERN: usb_disk: unhandled ioctl 24&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I can attach an USB stick and that is recognized fine. I am using it to boot Haiku from the stick.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9588 (Needed Icons and art work.) created</title>
+      
+        <dc:creator>richienyhus</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 09:36:10 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9588</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9588/1364636170486757</guid>
+      <description>&lt;p&gt;
+This ticket is here to keep track of icons that are missing or will be needed in the future and any other system art work desired.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;3D System Icons&lt;/strong&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Network Share Icon is still in the old style. &lt;a class="new ticket" href="http://dev.haiku-os.org/ticket/9554" title="bug: [Tracker] doesn't scale built-in bitmap icons (new)"&gt;#9554&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;System bin icons CortexAddOnHost and Spamdbm. &lt;a class="reopened ticket" href="http://dev.haiku-os.org/ticket/1429" title="enhancement: Icons for some of the servers use old style. (reopened)"&gt;#1429&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;x-pdf &amp;amp; x-vnd.agmsmith file type icons &lt;a class="reopened ticket" href="http://dev.haiku-os.org/ticket/1429" title="enhancement: Icons for some of the servers use old style. (reopened)"&gt;#1429&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;GLife screensaver
+&lt;/li&gt;&lt;li&gt;Dictionary | system accessories
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+&lt;strong&gt;2D Toolbar Icons&lt;/strong&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Spell check | Word Processors
+&lt;/li&gt;&lt;li&gt;Bookmark | BePdf, browers &amp;amp;c
+&lt;/li&gt;&lt;li&gt;shredder | misc
+&lt;/li&gt;&lt;li&gt;Show sidebar | BePdf
+&lt;/li&gt;&lt;li&gt;Find Next | Misc, Bepdf
+&lt;/li&gt;&lt;li&gt;Find Last | Misc
+&lt;/li&gt;&lt;li&gt;Add row to table | Word Processors
+&lt;/li&gt;&lt;li&gt;Add column to table | Word Processors
+&lt;/li&gt;&lt;li&gt;Remove row from table | Word Processors
+&lt;/li&gt;&lt;li&gt;Remove column from table | Word Processors
+&lt;/li&gt;&lt;li&gt;New mail Icon | Mail apps
+&lt;/li&gt;&lt;li&gt;New word doc | Word Processors
+&lt;/li&gt;&lt;li&gt;Merge cells | Word Processors
+&lt;/li&gt;&lt;li&gt;split cell | Word Processors
+&lt;/li&gt;&lt;li&gt;Add Bookmark | Word Processors, browsers
+&lt;/li&gt;&lt;li&gt;Overline text | Word Processors
+&lt;/li&gt;&lt;li&gt;Add Symbol | Word Processors, Misc
+&lt;/li&gt;&lt;li&gt;Add 12 pt space | Word Processors
+&lt;/li&gt;&lt;li&gt;Remove 12 pt space | Word Processors
+&lt;/li&gt;&lt;li&gt;1.5 line spacing | Word Processors
+&lt;/li&gt;&lt;li&gt;Force Left to Right text | Word Processors
+&lt;/li&gt;&lt;li&gt;Force Right to Left text | Word Processors
+&lt;/li&gt;&lt;li&gt;Edit Header | Word Processors
+&lt;/li&gt;&lt;li&gt;Edit Footer | Word Processors
+&lt;/li&gt;&lt;li&gt;Remove Header | Word Processors
+&lt;/li&gt;&lt;li&gt;Remove Footer | Word Processors
+&lt;/li&gt;&lt;li&gt;appointment-new | calendar
+&lt;/li&gt;&lt;li&gt;folder-new | misc
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+&lt;strong&gt;Other Artwork&lt;/strong&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;weather-clear
+&lt;/li&gt;&lt;li&gt;weather-clear-night
+&lt;/li&gt;&lt;li&gt;weather-few-clouds
+&lt;/li&gt;&lt;li&gt;weather-few-clouds-night
+&lt;/li&gt;&lt;li&gt;weather-fog
+&lt;/li&gt;&lt;li&gt;weather-overcast
+&lt;/li&gt;&lt;li&gt;weather-severe-alert
+&lt;/li&gt;&lt;li&gt;weather-showers
+&lt;/li&gt;&lt;li&gt;weather-showers-scattered
+&lt;/li&gt;&lt;li&gt;weather-snow
+&lt;/li&gt;&lt;li&gt;weather-storm
+&lt;/li&gt;&lt;li&gt;appointment-missed
+&lt;/li&gt;&lt;li&gt;appointment-soon
+&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #7761 (Debugger return values) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 01:22:35 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/7761#comment:6</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/7761#comment:6/1364606555071344</guid>
+      <description>fixed: &lt;p&gt;
+Barring bugs this should more or less be complete as of &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45425" title="Haiku Revision 45425"&gt;hrev45425&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9532 ([Terminal] keep color control enabled after selecting color scheme) closed</title>
+      
+        <dc:creator>siarzhuk</dc:creator>
+
+      <pubDate>Fri, 29 Mar 2013 15:29:28 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9532#comment:4</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9532#comment:4/1364570968076981</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45423" title="Haiku Revision 45423"&gt;hrev45423&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9587 ([PATCH] Localizing libprint.a) created</title>
+      
+        <dc:creator>mt</dc:creator>
+
+      <pubDate>Fri, 29 Mar 2013 11:41:32 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9587</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9587/1364557292759124</guid>
+      <description>&lt;p&gt;
+Hi, I tried to localize libprint.a, but my patch forces to translate same strings  (over 80 strings !) for each drivers. any idea for translating static library?&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>PackageManagement/PackagesStatus edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Fri, 29 Mar 2013 11:24:51 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?version=3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?version=3/1364556291957835</guid>
+      <description> (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?action=diff&amp;amp;version=3"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9586 (Using the keyboard to select whole words) reopened</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 19:09:44 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9586#comment:2</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9586#comment:2/1364497784189989</guid>
+      <description>&lt;p&gt;
+My bad, it's specific to Web+.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>reopenedticket</category>
+    </item><item>
+      <title>PackageManagement/PackagesStatus edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 18:13:31 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?version=2</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?version=2/1364494411557948</guid>
+      <description> (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?action=diff&amp;amp;version=2"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>PackageManagement edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 17:50:15 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement?version=8</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement?version=8/1364493015966224</guid>
+      <description>&lt;p&gt;
+Add PackagesStatus link
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement?action=diff&amp;amp;version=8"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>PackageManagement/PackagesStatus created</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 17:47:29 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?version=1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/PackagesStatus?version=1/1364492849069968</guid>
+      <description></description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9586 (Using the keyboard to select whole words) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 17:23:47 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9586#comment:1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9586#comment:1/1364491427053913</guid>
+      <description>invalid: &lt;p&gt;
+We already have this. I believe it's cmd+shift in our case though.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9586 (Using the keyboard to select whole words) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 17:20:13 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9586</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9586/1364491213447126</guid>
+      <description>&lt;p&gt;
+Haiku lacks a feature from Windows that can be pretty handy.  When you are selecting with the keyboard, you can hold down Ctrl while pressing Shift+arrow to select a word at a time.  Would this be difficult to implement OS-wide?&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>PackageManagement edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 15:23:48 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement?version=7</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement?version=7/1364484228209489</guid>
+      <description>&lt;p&gt;
+Add PackagingPolicy link
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement?action=diff&amp;amp;version=7"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>PackageManagement/PackagingPolicy created</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 15:21:21 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/PackagingPolicy?version=1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/PackagingPolicy?version=1/1364484081968388</guid>
+      <description></description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9585 (Pe's keyboard shortcuts inconsistent with other apps using Dvorak keymap) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Thu, 28 Mar 2013 11:46:01 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9585</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9585/1364471161940377</guid>
+      <description>&lt;p&gt;
+Most BeOS and Haiku apps (not to mention Windows works this way too) I've come across remap the Z/X/C/V keys for the undo/cut/copy/paste and other common shortcuts.  Though it's less intuitive, it is the norm, so I would say Dvorak typists in general are used to hitting e.g. Alt+I or Ctrl+I, where I is physically the I key on the keyboard that the keymap maps to C, to copy.  Pe for some reason undoes this, so you have to physically hit Alt+C even using the Dvorak keymap, which Pe correctly tells you under that keymap is Alt+J.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is confusing.  You have to use one set of keyboard shortcuts under Pe and then think differently in whatever other app you are copying/pasting from/to.  It should all work one way, and if you really want to do this, have some kind of preflet option in Keymap that lets you choose to either remap them all (as is normal) or DON'T remap when it comes to keyboard shortcuts (as would have been nice from the beginning and if other OSes had this support too.)  I have a feeling this would be a lot more work than just changing Pe to fit the norm.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+On &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4h.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #2446 (Add Cc: text field to mails shown when it's not empty (easy)) closed</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 22:34:48 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/2446#comment:11</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/2446#comment:11/1364423688531985</guid>
+      <description>fixed: &lt;p&gt;
+Applied in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45418" title="Haiku Revision 45418"&gt;hrev45418&lt;/a&gt;. Thanks for the patch!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9548 ([PATCH] Printserver: Add JIS B5 paper size) closed</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 22:14:23 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9548#comment:4</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9548#comment:4/1364422463550544</guid>
+      <description>fixed: &lt;p&gt;
+Applied in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45417" title="Haiku Revision 45417"&gt;hrev45417&lt;/a&gt;. Thanks!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9583 (Appearance: fix translation of "Scroll bar:" string) closed</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 22:10:34 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9583#comment:4</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9583#comment:4/1364422234909011</guid>
+      <description>fixed: &lt;p&gt;
+Applied in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45416" title="Haiku Revision 45416"&gt;hrev45416&lt;/a&gt;.  Thanks!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9580 ([PATCH] Fix signature duplication of printer drivers) closed</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 22:02:57 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9580#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9580#comment:3/1364421777916567</guid>
+      <description>fixed: &lt;p&gt;
+Applied in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45415" title="Haiku Revision 45415"&gt;hrev45415&lt;/a&gt;. Thanks!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9584 (installoptionalpackage beoscompatibility gives error) closed</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 21:48:11 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9584#comment:7</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9584#comment:7/1364420891127778</guid>
+      <description>fixed: &lt;p&gt;
+Implemented in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45414" title="Haiku Revision 45414"&gt;hrev45414&lt;/a&gt;.  Thanks!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9584 (installoptionalpackage beoscompatibility gives error) reopened</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 21:32:32 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9584#comment:5</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9584#comment:5/1364419952151895</guid>
+      <description></description>
+      <category>reopenedticket</category>
+    </item><item>
+      <title>Ticket #9584 (installoptionalpackage beoscompatibility gives error) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 20:38:41 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9584#comment:1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9584#comment:1/1364416721046665</guid>
+      <description>invalid: &lt;p&gt;
+Yes. The warning is there to tell app devs that those links won't be available forever, since they're mainly there for badly written apps which hardcoded paths instead of using find_directory().&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9584 (installoptionalpackage beoscompatibility gives error) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 20:36:20 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9584</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9584/1364416580106297</guid>
+      <description>&lt;pre class="wiki"&gt;/&amp;gt; installoptionalpackage beoscompatibility
+To be installed:  BeOSCompatibility
+Warning: Adding BeOS compatibility symlinks. This will go away. Please fix your apps!
+/boot/common/cache/tmp/install-optpkg.sh: line 286: AddDirectoryToHaikuImage: command not found
+Generating a list of Package Names ...
+... done.
+/&amp;gt;
+&lt;/pre&gt;&lt;p&gt;
+Did it actually install?&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is on &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9583 (Appearance: fix translation of "Scroll bar:" string) created</title>
+      
+        <dc:creator>dsjonny</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 16:34:53 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9583</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9583/1364402093574009</guid>
+      <description>&lt;p&gt;
+Using 45413 nightly. The Appearance pereference has a missing translation: "Scroll bar:" on the Look and Feel panel.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Patch has been added.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9582 (x86_64 nightly missing Radeon driver, Shortcuts preflet) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 15:44:10 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9582#comment:4</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9582#comment:4/1364399050183116</guid>
+      <description>duplicate: &lt;p&gt;
+Indeed, forgot about that one.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9582 (x86_64 nightly missing Radeon driver, Shortcuts preflet) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 15:39:21 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9582</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9582/1364398761109515</guid>
+      <description>&lt;p&gt;
+I have two Haiku partitions, so how I normally install a nightly is to boot into my non-nightly partition, format the nightly partition, mount a raw nightly image, and run Installer from the mounted image.  However, when I tried downloading x86_64 of &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt;, it said it couldn't open Installer with application Installer.  So, I just used Tracker to drag all the files from the mounted image onto my now-empty nightly partition, then ran makebootable on it just in case.  It boots up fine on my Sempron 3100+ (yay!) but there seem to be standard things missing, two mentioned in the title.  Because there's no driver the display gets set to 1024x768 and when I try to up it to 1280, the screen goes blank until it times out and resets to 1024.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Anyway, do these things not build yet under 64?  Here's a list of what's included&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+~&amp;gt; ls -R /boot/home/config/settings/deskbar/&lt;br /&gt;
+/boot/home/config/settings/deskbar/:&lt;br /&gt;
+Applications  Demos  Desktop applets  Preferences&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+/boot/home/config/settings/deskbar/Applications:&lt;br /&gt;
+ActivityMonitor  DriveSetup  StyledEdit  WebPositive&lt;br /&gt;
+Debugger         Installer   Terminal&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+/boot/home/config/settings/deskbar/Demos:&lt;br /&gt;
+BSnow  Cortex  FontDemo  OverlayImage  Pairs  Sudoku&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+/boot/home/config/settings/deskbar/Desktop applets:&lt;br /&gt;
+NetworkStatus  ProcessController&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+/boot/home/config/settings/deskbar/Preferences:&lt;br /&gt;
+Appearance        FileTypes  Media          Printers     Touchpad&lt;br /&gt;
+Backgrounds       Keyboard   Mouse          Screen       Tracker&lt;br /&gt;
+DataTranslations  Keymap     Network        ScreenSaver  VirtualMemory&lt;br /&gt;
+Deskbar           Locale     Notifications  Time&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9581 (Add Liberation Fonts to Haiku (and aliases)) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 12:57:32 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9581</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9581/1364389052673351</guid>
+      <description>&lt;p&gt;
+Haiku right now has very few fonts. Especially when it comes to web browsing, a lot of sites want Arial, Times, and Courier New. These fonts are proprietary, but Red Hat created the Liberation fonts (&lt;a class="ext-link" href="https://fedorahosted.org/liberation-fonts/"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;https://fedorahosted.org/liberation-fonts/&lt;/a&gt;) which are metrically compatible with them.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+However, it's not just that the fonts have to be installed. When a program requests "Times New Roman" &lt;strong&gt;and Times ISN'T installed&lt;/strong&gt; (someone may install the real "Times New Roman" of their own accord) Haiku should set the font to be "Liberation Serif". The same should happen with "Arial" and "Courier New".&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The font aliases shouldn't just be for Web+. GoBe Productive may open a document and request one of these fonts because the document has it.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9580 ([PATCH] Fix signature duplication of printer drivers) created</title>
+      
+        <dc:creator>mt</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 11:14:10 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9580</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9580/1364382850139122</guid>
+      <description>&lt;p&gt;
+Hi, Signature of PCL5, PCL6 and Postscript printer driver are duplicated, so this patch fix it.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9577 (Z-index of menu is wrong) closed</title>
+      
+        <dc:creator>axeld</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 11:13:36 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9577#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9577#comment:3/1364382816792871</guid>
+      <description>invalid: &lt;p&gt;
+Indeed.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9579 (Implement a simple way to set default apps/handlers) created</title>
+      
+        <dc:creator>Giova84</dc:creator>
+
+      <pubDate>Wed, 27 Mar 2013 00:31:05 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9579</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9579/1364344265775521</guid>
+      <description>&lt;p&gt;
+Currently we can set preferred apps using File Types panel, and works good. But the usage could be obscure (especially for a newbie). As example i suggest to implement a way to set the default browser.&lt;br /&gt;
+In my case, inside File Types, i have set Qupzilla as default browser, and to do this i have set Qupzilla to handle html files, http url, https url, fpt url and any mime type related to web. I was able to do this because i know very well Haiku, but is not a quick way, because every mime type that i have set, may be not  easy to find in the list (eg html file is under "text" category and web urls are categorized under applications, and a new "web" category would be also fine :-).&lt;br /&gt;
+The same, obviously, could be done for MediaPlayers: i have set another mediaplayer in a quick way setting this on the root category of audio and video, but a new window "Set preferred applications" would be a more clear and elegant way :-)&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9561 (KDL when mounting exports located in directory deeper than 1 level) closed</title>
+      
+        <dc:creator>pdziepak</dc:creator>
+
+      <pubDate>Tue, 26 Mar 2013 20:19:15 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9561#comment:4</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9561#comment:4/1364329155810392</guid>
+      <description>fixed: &lt;p&gt;
+Thank you for your patch. However, I have already decided to not to keep path names in a flatten form at all thus the whole function causing this bug has been removed.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45411" title="Haiku Revision 45411"&gt;hrev45411&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+PS For future reference names like &lt;tt&gt;pathEnd&lt;/tt&gt; are preferred over &lt;tt&gt;path_end&lt;/tt&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9558 (KDL when trying to run git clone on a nfs4 mount) closed</title>
+      
+        <dc:creator>pdziepak</dc:creator>
+
+      <pubDate>Tue, 26 Mar 2013 20:15:26 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9558#comment:2</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9558#comment:2/1364328926642162</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45411" title="Haiku Revision 45411"&gt;hrev45411&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item>
+   </channel>
+</rss>

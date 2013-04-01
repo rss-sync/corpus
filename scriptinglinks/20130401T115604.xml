@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Mon, 01 Apr 2013 10:18:23 GMT</pubDate>
+		<lastBuildDate>Mon, 01 Apr 2013 10:18:23 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-04-01</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>4/1/2013; 6:18:23 AM</microblog:localTime>
+		<item>
+			<description>Surprised that Seth Godin participates in the April 1 web idiocy.</description>
+			<link>http://3oy.r2.ly/</link>
+			<pubDate>Mon, 01 Apr 2013 10:18:23 GMT</pubDate>
+			<guid>http://3oy.r2.ly/?id=15931</guid>
+			<microblog:linkFull>http://sethgodin.typepad.com/seths_blog/2013/04/is-the-new-kindle-zero-the-sign-of-things-to-come.html</microblog:linkFull>
+			</item>
+		<item>
+			<description>Paul Williams, Father of Rock Criticism, Is Dead at 64. #crawdaddy</description>
+			<link>http://3ox.r2.ly/</link>
+			<pubDate>Mon, 01 Apr 2013 03:05:14 GMT</pubDate>
+			<guid>http://3ox.r2.ly/?id=15930</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/01/arts/music/paul-williams-father-of-rock-criticism-is-dead-at-64.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>551</microblog:readCount>
+			</item>
+		<item>
+			<description>I&apos;m on the web team. And you should be too! :-)</description>
+			<link>http://3o9.r2.ly/</link>
+			<pubDate>Mon, 01 Apr 2013 00:51:19 GMT</pubDate>
+			<guid>http://3o9.r2.ly/?id=15929</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/imOnTheWebTeam</microblog:linkFull>
+			<microblog:readCount>4701</microblog:readCount>
+			</item>
+		<item>
+			<description>Spike Lee is gorgeously fluent in New Yorkese.</description>
+			<link>http://3ow.r2.ly/</link>
+			<pubDate>Mon, 01 Apr 2013 00:12:34 GMT</pubDate>
+			<guid>http://3ow.r2.ly/?id=15928</guid>
+			<microblog:linkFull>http://www.nytimes.com/2012/08/04/nyregion/spike-lee-to-stick-with-his-knicks.html?pagewanted=all</microblog:linkFull>
+			<microblog:readCount>558</microblog:readCount>
+			</item>
+		<item>
+			<description>Facebook has threaded comments. Wow. I had that in my software in 1981. Zuck wasn&apos;t even a zygote.</description>
+			<link>http://3ov.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 22:55:44 GMT</pubDate>
+			<guid>http://3ov.r2.ly/?id=15927</guid>
+			<microblog:linkFull>http://www.buzzfeed.com/charliewarzel/facebook-is-taking-on-reddits-ask-me-anything-series</microblog:linkFull>
+			<microblog:readCount>861</microblog:readCount>
+			</item>
+		<item>
+			<description>Google jokes about killing YouTube in 2013, but people aren&apos;t laughing. (The year Google Reader died.)</description>
+			<link>http://3ou.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 22:02:58 GMT</pubDate>
+			<guid>http://3ou.r2.ly/?id=15926</guid>
+			<microblog:linkFull>http://neosmart.net/blog/2013/google-jokes-about-killing-youtube-but-people-arent-laughing/</microblog:linkFull>
+			<microblog:readCount>791</microblog:readCount>
+			</item>
+		<item>
+			<description>Knicks&apos; Carmelo Anthony Can Learn From Paul Pierce&apos;s Career Arc.</description>
+			<link>http://3ot.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 21:53:40 GMT</pubDate>
+			<guid>http://3ot.r2.ly/?id=15925</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/01/sports/basketball/knicks-carmelo-anthony-can-learn-from-paul-pierces-career-arc.html?emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>554</microblog:readCount>
+			</item>
+		<item>
+			<description>Re programmers: We simply can&apos;t be trusted to never say anything we mean.</description>
+			<link>http://3os.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 21:40:04 GMT</pubDate>
+			<guid>http://3os.r2.ly/?id=15924</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/whyArentProgrammersSpeakingForProgramming</microblog:linkFull>
+			<microblog:readCount>1039</microblog:readCount>
+			</item>
+		<item>
+			<description>Thread: Why don&apos;t programmers speak for programming?</description>
+			<link>http://3os.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 21:09:26 GMT</pubDate>
+			<guid>http://3os.r2.ly/?id=15923</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/whyArentProgrammersSpeakingForProgramming</microblog:linkFull>
+			<microblog:readCount>1039</microblog:readCount>
+			</item>
+		<item>
+			<description>Dog in Small Belarus Village Inherits $1 Million.</description>
+			<link>http://3or.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 20:40:49 GMT</pubDate>
+			<guid>http://3or.r2.ly/?id=15922</guid>
+			<microblog:linkFull>http://en.rian.ru/world/20130331/180361493.html</microblog:linkFull>
+			<microblog:readCount>603</microblog:readCount>
+			</item>
+		<item>
+			<description>The World&apos;s New Tallest Skyscraper Will Be in Azerbaijan.</description>
+			<link>http://3oq.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 18:55:58 GMT</pubDate>
+			<guid>http://3oq.r2.ly/?id=15921</guid>
+			<microblog:linkFull>http://curbed.com/archives/2012/02/09/please-welcome-the-new-new-worlds-tallest-skyscraper.php</microblog:linkFull>
+			<microblog:readCount>655</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Ten-year Berkman Thursday reunion meetup on April 25.</description>
+			<link>http://3o6.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sun, 31 Mar 2013 18:27:24 GMT</pubDate>
+			<guid>http://3o6.r2.ly/?id=15920</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/berkmanThursdayReunion</microblog:linkFull>
+			<microblog:readCount>1296</microblog:readCount>
+			</item>
+		<item>
+			<description>Emergency workers in NYC are keeping and publishing &quot;gore books.&quot;</description>
+			<link>http://3op.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 18:15:11 GMT</pubDate>
+			<guid>http://3op.r2.ly/?id=15919</guid>
+			<microblog:linkFull>http://www.nypost.com/p/news/local/emts_are_pic_and_twisted_WHMpohpsktzM2epWfrXw9I</microblog:linkFull>
+			<microblog:readCount>663</microblog:readCount>
+			</item>
+		<item>
+			<description>2003: Here&apos;s the deal -- we can&apos;t win the war in Iraq. (Glad I put my stake in the ground.)</description>
+			<link>http://3on.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 15:39:42 GMT</pubDate>
+			<guid>http://3on.r2.ly/?id=15918</guid>
+			<microblog:linkFull>http://essaysfromexodus.scripting.com/davesDoctrine</microblog:linkFull>
+			<microblog:readCount>506</microblog:readCount>
+			</item>
+		<item>
+			<description>Congratulations to TechCrunch, they got the 1st April Idiot&apos;s post for 2013.</description>
+			<link>http://3ol.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 15:27:00 GMT</pubDate>
+			<guid>http://3ol.r2.ly/?id=15917</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theCreepiestApril1WebPage</microblog:linkFull>
+			<microblog:readCount>2445</microblog:readCount>
+			</item>
+		<item>
+			<description>Can Hackers Be Heroes? (Did they interview any hackers?)</description>
+			<link>http://3om.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 14:39:30 GMT</pubDate>
+			<guid>http://3om.r2.ly/?id=15916</guid>
+			<microblog:linkFull>http://www.youtube.com/watch?feature=youtu.be&amp;v=NVtrA7juc-w</microblog:linkFull>
+			<microblog:readCount>780</microblog:readCount>
+			</item>
+		<item>
+			<description>&quot;The Board of Ed liked the idea so much they stole it and usurped it.&quot;</description>
+			<link>http://3ok.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 13:47:09 GMT</pubDate>
+			<guid>http://3ok.r2.ly/?id=15915</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theSoulOfTheNewEngineer</microblog:linkFull>
+			<microblog:readCount>1911</microblog:readCount>
+			</item>
+		<item>
+			<description>Thread: The creepiest April 1 web page?</description>
+			<link>http://3ol.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sun, 31 Mar 2013 13:39:58 GMT</pubDate>
+			<guid>http://3ol.r2.ly/?id=15914</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theCreepiestApril1WebPage</microblog:linkFull>
+			<microblog:readCount>2445</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: The soul of the new developer.</description>
+			<link>http://3ok.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sun, 31 Mar 2013 13:03:34 GMT</pubDate>
+			<guid>http://3ok.r2.ly/?id=15913</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theSoulOfTheNewEngineer</microblog:linkFull>
+			<microblog:readCount>1911</microblog:readCount>
+			</item>
+		<item>
+			<description>What we create together can be much much bigger than anything a single company can do.</description>
+			<link>http://3o9.r2.ly/</link>
+			<pubDate>Sun, 31 Mar 2013 02:38:09 GMT</pubDate>
+			<guid>http://3o9.r2.ly/?id=15912</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/imOnTheWebTeam</microblog:linkFull>
+			<microblog:readCount>4701</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

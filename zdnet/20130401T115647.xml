@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:s="http://www.zdnet.com/search" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <link>http://www.zdnet.com/</link>
+    <title>Latest Blog for ZDNet</title>
+    <description>Latest Blog for ZDNet</description>
+    <language>en</language>
+    <copyright>ZDNet</copyright>
+    <managingEditor>customerservice@zdnet.com (ZDNet Customer Services)</managingEditor>
+    <webMaster>uk-engineering@cbsinteractive.com (ZDNet Webmaster)</webMaster>
+    <pubDate>Mon, 01 Apr 2013 12:56:47 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Apr 2013 12:56:47 +0100</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <ttl>2</ttl>
+    <image>
+      <url>http://i.zdnet.com/images/spry/zdnet_300x300.jpg</url>
+      <link>http://www.zdnet.com/</link>
+      <title>Latest Blog for ZDNet</title>
+      <width>143</width>
+      <height>39</height>
+    </image>
+    <s:counts>
+      <start>0</start>
+      <return>20</return>
+      <found>41647</found>
+    </s:counts>
+    <item>
+      <guid isPermaLink="false">7000013325</guid>
+      <link><![CDATA[http://www.zdnet.com/my-infuriatingly-unsuccessful-quest-for-a-good-media-asset-management-tool-7000013325/]]></link>
+      <title><![CDATA[My infuriatingly unsuccessful quest for a good media asset management tool]]></title>
+      <description><![CDATA[The one in which David's search for a comprehensive, powerful, fast, and flexible media asset management program turns out to be a complete bust. There is ranting. There is whining. Good times.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 10:30:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[David Gewirtz]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-google/">Google</category>
+      <category domain="http://www.zdnet.com/topic-diy/">DIY</category>
+      <media:text type="html"><![CDATA[<p>I'm giving up. I don't normally give up when it comes to tech projects, but I'm out of time and I am so, totally, completely, tear-my-hair-out, out of patience.</p>
+<p>Oh, and no, this isn't about Linux. Surprised?</p>
+<p>Over the past two weeks I have continually lowered my requirement set, reduced my "must haves," given up on my "like to haves," to the point where there's nothing left, not really.</p>
+<p>It's about image management. Sigh. Don't start telling me image management is easy, <a href="http://picasa.google.com/">Picasa</a>, yada yada, <a href="http://www.adobe.com/products/photoshop-elements.html">Elements Organizer</a> yada yada, <a href="http://www.adobe.com/products/photoshop-lightroom.html">Lightroom</a>, yada yada, <a href="http://www.adobe.com/products/bridge.html">Bridge</a>... <em>whatever.</em> I've heard it all. I've tried it all.</p>
+<p>I give a lot of presentations. A very lot. I spend hours, days, weeks, months of my life in PowerPoint. No need to pity me. I actually quite like PowerPoint. But the point is, to make these presentations more interesting and explain things more clearly, I use a lot of images.</p>
+<p><strong>Not just photos. Images. And here's where things begin to break down.</strong></p>
+<p>There are two completely different class of images out there: bitmap-based images and vector-based images. Photos are bitmaps, filled with lots and lots of pixels of information. The more pixels you have, the higher-resolution the image.</p>
+<p>Vector-based images are line drawings with fills. Rather than huge matrices filled with dots, vectors are actual line and curve formulas, linked together in a format that describes an illustration.</p>
+<p>Bitmaps only scale if you have a boatload of bits. Vector images scale naturally, because the formula just recalculates for the larger size. Vectors, therefore, are ideal for drawings and illustrations, rather than photos and paintings.</p>
+<p>Photoshop does bitmaps. Illustrator does vectors. Photo file formats are things like JPEG, TIFF, PNG, GIF, RAW, and so on. Vector file formats are things like EPS and AI.</p>
+<p><strong>With me so far?</strong></p>
+<p>I have thousands of images, both bitmap and vector. In the case of photos, I've taken quite a few myself. I've also bought a lot of stock images. In the case of vectors, I've bought most of them, but modified some of them in Illustrator and Photoshop to best suit my presentations.</p>
+<p>The problem is, finding the right image has been getting out of control. It can take an hour or more to just find an image in my library. Yes, I've organized my folders as best as possible, and I can easily dig through and see thumbnails, but I wanted a better way.</p>
+<p>I wanted to search by keyword, review images quickly, search across collections, choose based on metadata, file type, and more. I wanted a way to find an image in 30 seconds instead of 30 minutes. I wanted an image organizer.</p>
+<p>Here then, are the simple set of specs I started out with:</p>
+<ul>
+<li>I wanted to have a database-based organizer, so that searches would be fast and all the files wouldn't have to be scanned for each search.</li>
+<li>I wanted that database to hold all my media asset files (both vector and bitmap).</li>
+<li>And I wanted that system to allow relatively easy drag-and-drop from the desktop to the application so I could get content in and out of the system while composing presentations, without losing track of the flow of the actual lesson I was preparing.</li>
+</ul>
+<p>Oh, and it would be nice to have this on a network, so I could easily do my work either at my desk or on my laptop.</p>
+<p><strong>I am in a foul mood. Enter the photo organizer category.</strong></p>
+<p>There is a very large category of software called the <em>photo organizer.</em> As you might imagine, these products organize <em>photos</em>. Right away, you can see the problem, right? Photos. Bitmaps. They know <em>nothing</em> of illustrations and vector graphic files.</p>
+<p>I set these products aside for a while as I searched for a more comprehensive asset management tool. In terms of standalone products, the only one I found was called <a href="http://www.extensis.com/portfolio-standalone/">Portfolio from Extensis</a>. This product hasn't been updated since 2011, and its main version number hasn't changed since something like 2005. The company also didn't respond to requests for information.</p>
+<p>There is a category called "Digital Asset Management" out there as well. These are enterprise-level products, often Web based. You can begin to tell they'll be trouble because there's no price for the product on the site. Almost all providers of DAM tools have a "let us have an expert call you" button.</p>
+<p>Here's a hint: I have two remaining days to implement the entire solution, and if I have to have an expert call me (apparently, a unique phrase for DAM solutions), then I can pretty much be assured it's not going to save me time (and most likely will be way outside my budget).</p>
+<p>I even tried SharePoint. I have <a href="http://www.zdnet.com/my-big-email-switch-why-i-picked-office-365-over-google-apps-7000013143/">Office 365</a>, which comes with a SharePoint account, and SharePoint has a Media Asset Management application. Feh. It will store files, but it is about as interactive and drag-and-droppy as a dead fish. On top of that, PDF files loaded into SharePoint's media management system show as default files. They couldn't even be bothered to render a thumbnail of the PDF.</p>
+<p>Plus, after two or three calls to Microsoft, no one could answer whether or not it's possible to grow my 10GB SharePoint disk quota to a larger capacity, if I needed it to store more images.</p>
+<p>Major fail.</p>
+<p>So I decided to lower my expectations. Rather than organizing all my images together, I'd create one bucket for bitmaps and one bucket for vectors. After all, the market is clogged with photo organizing tools.</p>
+<p>The Big Kahuna of photo organizing tools is Adobe Lightroom. I'll get back to that in a minute. First, let me talk about all the other photo organizing tools, with a particular nod of "WTF" to Google's Picasa.</p>
+<p>Most photo organizing tools try to be editors as well. I just ignored that part. I didn't want red-eye correction, I wanted to find pictures with eyes in them. But most of the tools will catalog JPEGs and camera RAW. Some can handle PNGs and TIFFs, and a few handle old-school GIF images.</p>
+<p>With one or two exceptions, the database catalog in these systems resides on your local system. This is a single-user application, and if you try to move the database somewhere else, there's no end of complaining on the part of the application.</p>
+<p><strong>Next up, I rant some more, talk about Picasa's weirdnesses and Lightroom's fail, and rant more. Good times, good times...</strong></p><p>Picasa is special though. Picasa doesn't just open once you install it. Picasa gives you a choice: scan your entire hard drive, or just major folders. There's no "don't scan because I want to tell your where my stuff is" option. So Picasa scans. It found hundreds of folders filled with various parts from previous projects, none of which I wanted in my database.</p>
+<p>What gave me the willies about Picasa, though, was its insistence that it wanted to share my images on Google+. I avoided this by refusing to log into Google with Picasa, but it made me nervous. I have a lot of licensed images I'm allowed to use in my own works, but not that I'm allowed to publish as standalone images. I didn't want Picasa to just upload all my files, willy-nilly.</p>
+<p>And, besides, Picasa only handled bitmaps anyway.</p>
+<p>With most of the other photo organizers, there's really not much of a difference. They all were a bit sucky in one way or another (I downloaded and tried at least eight of them beyond the usual suspects), and since there was a well-regarded professional option, I decided to discard the consumer products and look, once again, to Adobe.</p>
+<p><strong>This is where Lightroom comes into the picture. </strong></p>
+<p>No matter who you talk to, when you start talking about professional photo management, Lightroom comes up. So I bought Lightroom. I found a good one-day discount deal, but still, there's a hundred bucks down the toilet.</p>
+<p>Lightroom is a little more fussy than some of the other photo organizers, in that it doesn't recognize PNG files. PNG files have pretty much replaced GIF images in Web design, are used all over the Web, and have the happy property of being able to be transparent, so if you want to stick a person in a presentation, you don't have to bring the background along with it.</p>
+<p>Lightroom doesn't like PNG. Apparently, PNG doesn't handle metadata in a way that Lightroom considers robust enough, so if you have PNG images, well, you're just out of luck.</p>
+<p>I don't need PNG images, but I do need transparent images. TIFF also supports transparent images and Lightroom supports TIFF. So I bought a couple of batch converter programs that convert from PNG to TIFF. For those of you keeping track, there went another hundred bucks, flushed away.</p>
+<p>Can you see where this is going? Lightroom couldn't read the TIFFs produced by the conversion programs, although Photoshop could. But if I couldn't organize them in Lightroom, then I pretty much couldn't use Lightroom. And yes, I could convert the PNG images to transparent TIFFs in Photoshop, but even with some of Photoshop's batch settings, my desire to save time managing images was rapidly becoming a second full-time job (well, technically, it would be a fourth full-time job, but who's counting?).</p>
+<p>And I haven't even talked about the curation process required to assign appropriate keywords, and so forth. We're not even <em>there</em> yet. That's another nightmare and lifetime of organizing, all on its own.</p>
+<p>If you've been following along, you've figured out that Adobe's gift to professional photographers, Lightroom, couldn't cut the mustard with my project. Not only couldn't it handle vectors, it also couldn't handle PNGs or converted TIFFs.</p>
+<p><strong>Exit Lightroom, enter Bridge.</strong></p>
+<p>Bridge is the other "must-have" Adobe solution for managing files. The win with Bridge is that it can read all the different file formats, including the vector formats. Yay that.</p>
+<p>But Bridge doesn't have a central database. Every time you enter a directory and want to see the images in it (or in its subdirectories), or search the images in it, Bridge does a new scan. I selected one collection of a mere 2500 photos and I tested Bridge on it. Ten minutes to do a scan. Leave the directory to look somewhere else and come back. Ten minutes again.</p>
+<p>This, essentially, makes Bridge too slow to use. But the kicker was that Bridge won't show transparent PNGs as transparent.</p>
+<p>It insists on putting a white background on them, so it's impossible, visually, to tell which PNGs are transparent, and which have a white background, unless you go ahead and open the image up in Photoshop -- which defeats the whole purpose of trying to use an organizer tool for quick image searches.</p>
+<p><strong>So where does this all leave me? Cranky. Very, very, very cranky.</strong></p>
+<p>Lightroom can't organize vectors, won't read PNGs, and won't understand converted transparent TIFFs. Bridge takes a lifetime to scan large directories of images (which is the whole point) and won't display transparent PNGs as transparent. The other photo organizers break in similar ways, and won't display vectors.</p>
+<p>Worse, the curation process &mdash; trying to sort out, label, and keyword thousands upon thousands of images &mdash; is a job for a team of people over six months, not one lone professor working in the comfort of his home office.</p>
+<p>I have to say that it astonishes me that there isn't a widely available solution to this. I'm flabbergasted (love that word!) that Adobe doesn't have just the perfect solution to this problem (beyond the somewhat anemic Bridge) because solving this sort of image management problem is at the heart of what Adobe does.</p>
+<p><strong>I'm also disappointed in the Web-based and enterprise-based solutions.</strong></p>
+<p>First, the barrier of entry is huge. There appears to be a disconnect between the needs of a professional designer with thousands of images and a large corporation buying an enterprise package.</p>
+<p>Second, most of the Web gallery and enterprise solutions still use relatively primative upload dialogs and download buttons. There are very few solutions that will let you drag from a Web page into a desktop application, or to the desktop, and do it for a bunch of images, and those that do also seem to think the only type of image that exists is based on bitmaps.</p>
+<p>Say what you will about cloud computing, the true, native desktop application is still better at some types of interaction.</p>
+<p><strong>So, I've given up on this project.</strong></p>
+<p>I have had two days until I need to start my next major series of PowerPoints, and I'll be doing them straight for about six weeks, so there's clearly no way I can solve this in two days. I'll probably spend a day doing a little disk file system housekeeping, but other than that, my search for media asset management is a complete bust.</p>
+<p>Did I mention that I'm cranky? I want a cookie.</p>
+<p><strong>UPDATE:</strong> Well, I haven't completely given up. I never really do when there's a problem to be solved. I'm working on a new approach. Rather than look for a good media asset management tool, I've decided to focus on super-charged file managers, and see which ones are available with good media extensions. I've been looking at one over the weekend and it shows promise. So, stay tuned. There's probably another article on this topic coming real soon now.</p>
+<p>I still want a cookie.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013341</guid>
+      <link><![CDATA[http://www.zdnet.com/extrahop-application-aware-performance-management-7000013341/]]></link>
+      <title><![CDATA[ExtraHop - application aware performance management]]></title>
+      <description><![CDATA[It is hard to disagree with the statement that organizations are dealing with a complex environment. ExtraHop believes that performance management tools should go beyond merely watching operational logs or instrumenting applications to being application aware. My question is how this differs from the approach offers by others.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 10:27:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Dan Kusnetzky]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>ExtraHop dropped by to let me know about their newest messaging in their quest to be the leading application and end user experience performance monitoring company. The company believes that APM and EUEM tools should cut across all of the tiers of a distributed, multi-tier application environment to gather operational data and should be built to understand how applications work.&nbsp; That capability, the company would say, would allow tools to be able to easily detect anomolies and allow IT administrators to prevent slow downs and failures.</p>
+<p>They believe that tools should be able to follow <strong><em>and understand</em></strong> the entire flow of communication between and among application components, operating systems, data managers, storage systems and network components. In their words, products should be able to do the following:</p>
+<ul>
+<li>Be able to tell if there is communication going on at all - this is what a traditional network probe offers</li>
+<li>Understand who is talking with whom - this is was a network flow management tool offers</li>
+<li>Understand what words are part of the conversation - this was what a packet inspection tool offers</li>
+<li>Understand what words are typically used together - this is what a multi-packet inspection tool offers</li>
+<li>Understand both sides of the conversation - they're calling this full-stream assembly</li>
+<li>Understand what is being said - they're calling this full-content analysis</li>
+<li>Understand what the conversation means - they're calling this transaction analysis</li>
+</ul>
+<p>ExtraHop would pose that the best way to accomplish this is fully understanding the network dialog going on between systems and components rather than merely instrumenting individual pieces or inserting monitoring tools into application or virtualization managers.</p>
+<p>While what ExtraHop has to say rings true to me, I've heard the same things said by many others. A few other competitors that are singing similar songs that come immediately to mind are eG Innovations, Netuitive and Prelert. I'm sure that if I did a bit of research on the subject, I'd come up with ten or fifteen other competitors.</p>
+<p>Some of these competitors are trying to add "machine intelligence" or "predictive analytics" to the tools that are monitoring and managing complex distributed systems.</p>
+<p>In the end, it appears that competitors in this market are all bringing very interesting approaches and technology to the market, but are having trouble articulating what they do without using the exact same language being used by others. ExtraHop faces this challenge.</p>
+<p>So, an IT decision-maker is just going to have to do his/her own homework and speak with a number of competitors to decide which tool or combination of tools would best fit their own organization's requirements. </p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013320</guid>
+      <link><![CDATA[http://www.zdnet.com/why-torvalds-loves-the-chromebook-pixel-its-all-about-the-display-7000013320/]]></link>
+      <title><![CDATA[Why Torvalds loves the Chromebook Pixel: It's all about the display]]></title>
+      <description><![CDATA[The Google Chromebook Pixel's most well-known fan is Linux's Linus Torvalds. In recent Google+ posts, Torvalds explains exactly what he loves the most about the Pixel: Its remarkable display.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 10:12:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Steven J. Vaughan-Nichols]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-google/">Google</category>
+      <category domain="http://www.zdnet.com/topic-hardware/">Hardware</category>
+      <category domain="http://www.zdnet.com/topic-linux/">Linux</category>
+      <media:text type="html"><![CDATA[<p>Yes, the <a href="http://www.zdnet.com/chromebook-wars-pixel-vs-samsung-series-5-550-7000011871/)">Google Chromebook Pixel, at $1,299 for the Wi-Fi only model, is quite expensive</a>. But, in <a href="http://www.zdnet.com/linus-torvalds-really-likes-googles-chromebook-pixel-7000012168">Linus Torvalds, Linux's creator, it's found a powerful friend</a>. Why? Torvalds explained, "<a href="https://plus.google.com/u/0/+LinusTorvalds/posts/AVDrM8pVTgA?cfem=1">To make a long story short: it's all about the screen.</a>"</p>
+<p>Torvalds has always loved the Chromebook Pixel's display. He praised it for its "<a href="http://www.zdnet.com/chromebooks-biggest-fan-linus-torvalds-7000012842/">beautiful screen</a>" when he first started using it. It wasn't <a href="http://www.zdnet.com/the-secret-origins-of-googles-chrome-os-7000012215/">Chrome OS—Google's lightweight Linux that uses the Chrome Web browser for its interface--</a>or the Pixel's other hardware, for him it really is all about the screen.</p>
+<p>As Torvalds explained:</p>
+<blockquote>
+<p>To make a long story short: it's all about the screen. There really isn't anything else special about the machine. Everything else is very much just "adequate", and you know what? It really doesn't matter. The screen was what got me interested, and perhaps more importantly, the screen is what makes it work.</p>
+<p>I could write a much longer post talking about the weaknesses, because quite frankly, the rest of the machine really isn't all that special. You can get much better things. But I ended up deleting all my comments about the shortfall of the other individual components, because in the end it just didn't matter to me. The rest was "good enough" to make it work, and the screen sells the machine to me.</p>
+</blockquote>
+<p>Specifically, the Chromebook Pixel comes with a 1.8GHz Intel Core i5 processor. For memory, it has 4 GBs of RAM and a 32-GB SSD for local storage and a <a href="http://www.zdnet.com/cloud-storage-price-wars-ahead-7000012220">terabyte of free Google Drive cloud storage for three years</a>. It also comes with 802.11 a/b/g/n Wi-FI, an HD camera, a pair of USB 2.0 ports, a 2-in-1 SD/MMC card reader; and DisplayPort. The display, which is what makes Torvalds happy, has a 12.85-inch diagonal and features 2560 x 1700 resolution with a 239 pixels per inch display, which is better than Apple MacBookPro (MBP) Retina display.</p>
+<p>Torvalds has found that a lot of people seem to have trouble grasping why the Pixel's display is so much better than the vast majority of laptop screens, so he decided to show them. He wrote, "Since some <a href="https://plus.google.com/u/0/102150693225130002912/posts/TDMUKQw3Lif">people continually seem to be confused about the point of higher-resolution screens</a>, I'm doing a small example of why you want it, especially if you're working with lots of text (ie email or source code)."</p>
+<p>Here is an approximation of a display "with a 1080p screen (it's just scaled down using cubic interpolation using gimp: actually redrawing the fonts with a smaller font-size would result in slightly different output, but it's fairly representative)."</p>
+<figure><img title="Screenshot-1080" alt="Screenshot-1080" src="http://cdn-static.zdnet.com/i/r/story/70/00/013320/screenshot-1080-600x579.png?hash=L2WuMJDmZ2&upscale=1" height="579" width="600"><figcaption>A "high-quality" 1080 x 720 display: Bad. (Credit: Linus Torvalds)</figcaption></figure>
+<p>Torvalds continued, "Remember, this is the <strong>good</strong> kind of screen some people claim is great. Most laptops actually have a 768p screen, which would just be unreadable."</p>
+<figure><img title="1780Screenshot" alt="1780Screenshot" src="http://cdn-static.zdnet.com/i/r/story/70/00/013320/1780screenshot-600x233.png?hash=Z2IxZTR5MQ&upscale=1" height="233" width="600"><figcaption>The Chromebook Pixel's 2560 x 1700 display: Good. (Credit: Linus Torvalds)</figcaption></figure>
+<p>And then here's "part of a real screenshot from my Pixel, using a font that I actually use and find readable on that screen. Yes, it's a smallish font, but it really <strong>is</strong> readable, and it's small enough that I see about 50 emails at the same time (it's a crop of my lkml [Linux Kernel Mailing List] folder in Gmail in the 'compact' view using Chrome, in case people care)."</p>
+<p>Torvalds concluded: "And you know what? Yes, you can actually read the 1080p version. But compare the two, and ask yourself which one you think causes less eye strain because it's clearer and easier to read. And if you still think that 1080p is 'good enough,' I can only say that you're either (a) stupid as f*ck or (b) in deep denial."</p>
+<p>I see his point. He's not the only one to feel that way. As ZDNet's own mobile guru James Kendrick recently said, "<a href="http://www.zdnet.com/chromebook-pixel-spoiling-me-for-other-chromebooks-7000013287/">The high resolution, even higher than the famous Retina Display, is simply wonderful to use</a>. Text displays razor sharp and graphics pop." I agree. The Pixel's display is simply stunning.</p>
+<p>Is it worth the money? For Torvalds sure. But, as he said, "So don't get me wrong: it's absolutely not a perfect machine, and the price is unquestionably too high for any kind of widespread use. But I'm hoping it's the beginning of a trend, and we'll see more than just the Pixel and the [Retina Display] MBP with good screens."</p>
+<p>Torvalds may be right. Once you get used to the Pixel's display, other laptops' display look second-rate.&nbsp;</p>
+<p><strong>Related Stories:</strong></p>
+<ul>
+<li><a href="http://www.zdnet.com/chromebooks-biggest-fan-linus-torvalds-7000012842/">Chromebook's biggest fan: Linus Torvalds</a></li>
+<li><a href="http://www.zdnet.com/linus-torvalds-really-likes-googles-chromebook-pixel-7000012168/">Linus Torvalds really likes Google's Chromebook Pixel</a></li>
+<li><a href="http://www.zdnet.com/chromebook-pixel-spoiling-me-for-other-chromebooks-7000013287/">Chromebook Pixel: Spoiling me for other Chromebooks</a></li>
+<li><a href="http://www.zdnet.com/android-plus-chrome-os-equals-googles-future-operating-system-7000012635/">Android plus Chrome OS equals Google's future operating system</a></li>
+<li><a href="http://www.zdnet.com/chromebook-wars-pixel-vs-samsung-series-5-550-7000011871/">Chromebook wars: Pixel vs. Samsung Series 5 550</a></li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013329</guid>
+      <link><![CDATA[http://www.zdnet.com/i-admit-i-am-a-fanboy-7000013329/]]></link>
+      <title><![CDATA[I admit I am a fanboy]]></title>
+      <description><![CDATA[As a result of the constant barrage of accusations that I am a fanboy, I must admit that it's true.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 09:53:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[James Kendrick]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-android/">Android</category>
+      <category domain="http://www.zdnet.com/topic-ios/">iOS</category>
+      <category domain="http://www.zdnet.com/topic-ipad/">iPad</category>
+      <category domain="http://www.zdnet.com/topic-laptops/">Laptops</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <category domain="http://www.zdnet.com/topic-windows-8/">Windows 8</category>
+      <media:text type="html"><![CDATA[<figure><img title="JK Gear" alt="JK Gear" src="http://cdn-static.zdnet.com/i/r/story/70/00/013329/jk-gear-600x312.jpg?hash=MTAuZTWuLz&upscale=1" height="312" width="600"><figcaption>Galaxy Note 2 not depicted as it was used to take this photo. Image credit: James Kendrick CBSi/ZDNet</figcaption></figure>
+<p>"You're a fanboy, how dare you say that Chrome OS is good enough for you? Are you an idiot?"</p>
+<p>"You never say anything positive about Windows 8, you must be paid by Apple!"</p>
+<p>"The iPad is far superior to Android tablets, you moron!"</p>
+<p>"I can't believe you'd say that the Note 2 is a great phone. The iPhone is better, you fandroid."</p>
+<p>That represents the gist of a lot of correspondence I receive on a continual basis, cleaned up for publication. The focus of the outrage largely follows whatever topic I have covered at the time. The constant barrage of such vehement reactions has led me to realize I am indeed a fanboy.</p>
+<h3>I am a fanboy, but of what exactly?</h3>
+<p>I love mobile technology and meet the definition of a fanboy when I think about it. I love everything about mobile technology, from the advances I have seen in the field over the years to the fantastic hardware of today. I love how much I can do with just about every mobile gadget at my disposal. I am fanatical about mobile tech, so obviously I am a fanboy.</p>
+<p>You have to look at the gear I use and what I think about it to understand how much of a fanboy I really am.</p>
+<p>My <a href="http://www.zdnet.com/samsung-galaxy-note-2-big-enough-to-be-worth-the-trouble-7000010723/">Galaxy Note 2</a> is a fantastic phone that I love. I can do all sorts of things with it that were unheard of just a few years ago. I like Android, I like the apps, and I like the hardware.&nbsp;</p>
+<p>My iPhone 4S is not the latest model from Apple but it's still a nice phone for me. I like the OS, I like the apps, and I like the hardware.&nbsp;</p>
+<p>I adore the newest acquisition in my moble arsenal, the <a href="http://www.zdnet.com/hp-envy-x2-video-review-good-laptop-great-tablet-7000012924/">HP Envy x2</a> laptop that becomes a tablet with a snap. I like the hardware, I like Windows 8, I like a few Metro apps and a big assortment of desktop apps. I love the long battery life that lets me keep going and going.</p>
+<p>I like the <a href="http://www.zdnet.com/hp-envy-x2-video-review-good-laptop-great-tablet-7000012924/">Chromebook Pixel</a> with its superb hardware and the Chrome OS that suits me just fine. I like the web apps and how they run on the outstanding display. I really like how much I can get done with it.</p>
+<p>I like my <a href="http://www.zdnet.com/macbook-pro-retina-display-vs-chromebook-pixel-on-video-7000011739/">13-inch MacBook Pro</a> with the Retina Display. I like OS X, I like the apps I run, and I like the great hardware design.</p>
+<p>I like my <a href="http://www.zdnet.com/must-have-apps-for-the-nexus-7-7000001328/">Nexus 7</a> and the good value it represents. The hardware is great and I like it, and the Android OS is very nice. The apps are as good as any out there and make it all work nicely.</p>
+<p>I like my <a href="http://www.zdnet.com/9-best-ipad-keyboards-hands-on-march-2013-7000012718/">iPad </a>with its Retina Display. I like iOS, although <a href="http://www.zdnet.com/apples-ios-in-desperate-need-of-a-facelift-7000012781/">I wish it would get a facelift</a>. I like the apps and how I can use it all heavily and still have lots of battery life left.</p>
+<p>I like my iPad mini which has all the good things I like about its bigger sibling (except the Retina Display). I love reading ebooks on it.</p>
+<h3>I'm the ultimate fanboy with commitment issues</h3>
+<p>There you have it, my confession that I am a total fanboy of mobile tech. I love using it every day, and delight in all I can accomplish with it. I get excited when new tech comes along and rush to get my hands on it.</p>
+<p>Based on the gear I am fanatical about as detailed above, I'm not just a fanboy of mobile tech. I am obviously a Windows 8 fanboy, an iPad fanboy, Android fanboy, Note 2 fanboy, Nexus 7 fanboy, iPhone fanboy, iOS fanboy, OS X fanboy, iPad mini fanboy, Chrome OS fanboy, Chromebook Pixel fanboy, Apple fanboy, MacBook Pro fanboy, Microsoft fanboy, Google fanboy, and HP Envy x2 fanboy.</p>
+<p>That's a whole lot of fanboyism going on, and I admit it freely. I like it all and get excited about it on a regular basis.</p>
+<p>I enjoy using it all, not just one platform or gadget. I revel in how each platform has grown into the mature platform it is today. I love how hardware, whether smartphone, tablet, or laptop, has gotten smaller, more portable, and more powerful than ever.</p>
+<p>To answer the inevitable question of which one gadget would I want to be stranded on a deserted island with, I can't tell you. In a perfect world I'd be stranded with all of it. That way I could go months before all the batteries run dry.</p>
+<p>I am indeed the ultimate fanboy with commitment issues.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013247</guid>
+      <link><![CDATA[http://www.zdnet.com/leverage-key-indian-startup-online-communities-7000013247/]]></link>
+      <title><![CDATA[Leverage key Indian startup online communities ]]></title>
+      <description><![CDATA[What are some of the interesting online communities to follow in the Indian startup industry? Here's a look at a few of the popular ones and why you should join them.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 07:40:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Srinivas Kulkarni]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <media:text type="html"><![CDATA[<style type="text/css"><!--
+P { margin-bottom: 0.21cm; }
+--></style>
+<p>I wrote a blog a couple of weeks ago about how to be a better <a href="http://www.zdnet.com/in/tips-on-being-community-evangelist-for-your-startup-7000012622/" target="_blank">community evangelist</a> for your product startup. Well, one of the key things I wrote about in that blog was about how participation in various online and offline communities and how that will help you in terms of how that will help you in terms of building a better network as a community evangelist.</p>
+<p>Here I'll take a look at some of the interesting online communities within the Indian startup ecosystem where you can actively participate to:&nbsp;</p>
+<ol>
+<li>Enhance learning of their own</li>
+<li>Provide or add value to the startup ecosystem</li>
+<li>Network with likeminded folks who are entrepreneurs as well as executioners</li>
+</ol>
+<p>Overall it is important that, as a person in the startup ecosystem you should make your brand presence felt as an individual. Not only that, it should be a great opportunity for you to learn especially if you are new to the industry and want to know the who's who and interact as well as learn from them. Also note, that some of these online communities have offline presence and it always helps to mix both of it especially if you have one within your city.</p>
+<p>Of course there are plenty of groups and communities that will help you identify, network or hire and at the same time talk about your product and get insights on various aspects within the Indian startup ecosystem, But you have to ensure that you maintain a proper balance and adhere to the guidelines that'll help you interact and participate better in these communities.</p>
+<p>By adhering to guidelines I don't mean, just the policies and guidelines of the startup communities. What I want to say is how you make that difference in terms of connecting with people and be that change agent for your startup. Maybe as a product manager, marketer, community evangelist or as the founder of the startup yourself. </p>
+<p>So here's a look at a few interesting groups ands communities within the Indian Startup ecosystem:&nbsp;</p>
+<h3 >A. Headstart Network</h3>
+<figure class="alignRight"><img title="Headstart 1" alt="Headstart 1" src="http://cdn-static.zdnet.com/i/r/story/70/00/013247/headstart-1-v5-200x52.png?hash=MGp2BGp0BG&upscale=1" height="52" width="200"></figure>
+<p>They have various groups on Facebook, Google Groups and LinkedIn. But being one of the earliest communities in the startup ecosystem you will find a lot of members from the startup community who have been part of it for a while and of course a lot of new members who have just joined the community too. From Inviting developers, designers to contact card providers. <br><br>From sharing office spaces to specific contacts from various verticals you'll find a lot of threads in various groups across platforms of Headstart network. Very recently, Headstart also started hosting <a >Hackerspace Hackathons</a>, as mentioned on their blog. These events are quite a treat especially in Mumbai where hackathons aren't that common as opposed to Bangalore.&nbsp;</p>
+<p >Headstart.in</a> is also the group that hosts Startup Saturday in different cities of India. So of course, while you communicate with the community through its various social channels, it's also a good idea to attend Startup Saturdays. They happen on the second saturday of every month in various cities such as Bangalore, Pune, Kochi, Chennai, Mumbai, Delhi, Ahmedabad, Gurgaon, Kolkata and even Goa and Navi Mumbai. <br><br>Head there especially if you are new and want to network with them and it's always a good idea to know who the people are if you are a member of these communities online:</p>
+<ol>
+<li><a href="https://groups.google.com/group/headstart-network" target="_blank">Headstart Network - Google Group</a> -- 6,000+ members</li>
+<li><a href="https://www.facebook.com/groups/headstarters/" target="_blank">Headstart Network – Facebook Group</a> -- 4,500+ members</li>
+<li><a href="http://www.linkedin.com/groups?gid=39715&amp;trk=myg_ugrp_ovr" target="_blank">Headstart Network – LinkedIn Group</a> -- 1,800+ members&nbsp;</li>
+</ol>
+<h3>B. Startup Saturday Groups</h3>
+<figure class="alignRight"><img title="StartupSaturday" alt="StartupSaturday" src="http://cdn-static.zdnet.com/i/r/story/70/00/013247/startupsaturday-185x76.png?hash=AJRmLzZ2Mw&upscale=1" height="76" width="185"></figure>
+<p >Startup Saturday</a> also have various groups on Facebook and members there are pretty active there too. Also of course, if you are part of the google groups of Headstart.in you should be able to connect and interact there as well.</p>
+<h3 >&nbsp;</h3>
+<h3 >C. Hackerstreet.in</h3>
+<p>Yes, for those who don't know yet, <a href="http://www.hackerstreet.in" target="_blank">Hackerstreet</a> is certainly similar to Hacker News. But it has a lot of Indian hackers and product builders as part of the community. Certainly it's nothing overly inspirational as a product, but over the years it has built itself as a good Q&amp;A thread based forum or discussion group. At the same time a great way to interact, build, learn and network with innovators across the startup ecosystem in India. So if you have any queries within the Indian startup community, fire away. This is the place where you'll find a lot of folks active at the same time you'll be able to interact with them on a one-one level.&nbsp;</p>
+<h3 >D. NextBigCommunity (Formerly Pluggd.in Forum)</h3>
+<p><a href="http://forum.nextbigwhat.com/" target="_blank">forum.nextbigwhat.com</a> which was formerly the Pluggd.in forum, is also one of the quite older communities in the Indian startup community. It certainly has various threads and posts, including startup ideas, specific threads on design UI/UX, with various categories on specific resources on how-to's, technology, support functions, research, hacks and tricks etc.&nbsp; </p>
+<h3 >E. OpenCoffeeClub.in</h3>
+<figure class="alignRight"><img title="Open Coffee Club" alt="Open Coffee Club" src="http://cdn-static.zdnet.com/i/r/story/70/00/013247/opencoffeeclub-200x44.png?hash=ATEuBJD4AJ&upscale=1" height="44" width="200"></figure>
+<p>Those who have been in the startup industry for a while know about Open Coffee Club for for Internet entrepreneurs in London opened by Saul Klein, one of the founders of Skype.<br><br>India also has its <a href="http://www.opencoffeeclub.in" target="_blank">OpenCoffeeClub.in</a> which essentially collaborates on various aspects of startups such as peer support for technical problems, startup infrastructures, networking for hiring and recruiting, post or seek funding opportunities and etc. However, it also further bifurcates within Google groups and other communities of OpenCoffeeClub.in which are city specific, e.g. Pune, Chennai, Bangalore, Mumbai have different pages or google groups with their respective members.</p>
+<p>But overall, this community isn't that active based on the threads within the groups and forums, still worth a try from the perspective of being updated. Would make sense for you to sign up for their list or join their google groups so that you don't miss out on any updates.</p>
+<h3 >F. Quora <strong><br></strong></h3>
+<p>In my <a href="http://www.zdnet.com/in/indian-startups-leading-the-buzz-on-quora-7000013032/" target="_blank">article</a> last week I've already outlined a bunch of startup India topics on Quora which cover various groups and people who are part of a great community within Indian startups on Quora. I'd certainly like to say, that being part of those groups would give you great insights on the ecosystem and of course opportunity to learn and connect overall. <br><br>Some of the top topics are these:</p>
+<ol>
+<li><a href="http://www.quora.com/Startups-in-Bangalore" target="_blank">Startups in Bangalore&nbsp;</a></li>
+<li><a href="http://www.quora.com/Startups-in-Pune" target="_blank">Startups in Pune&nbsp;</a></li>
+<li><a href="http://www.quora.com/Startups-in-Mumbai" target="_blank">Startups in Mumbai</a></li>
+<li><a href="http://www.quora.com/Startups-in-New-Delhi" target="_blank">Startups in New Delhi</a></li>
+<li><a href="http://www.quora.com/Startups-in-Hyderabad" target="_blank">Startups in Hyderabad</a></li>
+<li><a href="http://www.quora.com/Startups-in-Chennai" target="_blank">Startups in Chennai</a></li>
+<li><a href="http://www.quora.com/Startups-in-Kolkata" target="_blank">Startups in Kolkatta</a></li>
+<li><a href="http://www.quora.com/Venture-Capital-in-India" target="_blank">Venture Capital in India</a></li>
+<li><a href="http://www.quora.com/Entrepreneurship-in-India" target="_blank">Entrepreneurship in India</a></li>
+<li><a href="http://www.quora.com/Indian-Entrepreneurs" target="_blank">Indian Entrepreneurs</a></li>
+</ol>
+<h3 >G. LinkedIn Groups</h3>
+<p >A bunch of groups on LinkedIn that would also make good especially if you want to read up what's happening within the startup community and probably interact at a more direct level. These are some of those groups that might be useful to you.</p>
+<ol>
+<li><a href="http://www.linkedin.com/groups?home=&amp;gid=2272371&amp;trk=anet_ug_hm&amp;goback=%2Egmp_2272371" target="_blank">Startup Network India</a></li>
+<li><a href="http://www.linkedin.com/groups/SMEs-Startups-India-3088479?home=&amp;gid=3088479&amp;trk=anet_ug_hm&amp;goback=%2Emyg" target="_blank">SMEs &amp; Startups India</a></li>
+<li><a href="http://www.linkedin.com/groups?gid=45466&amp;goback=%2Emyg" target="_blank">Indian Startups</a></li>
+<li><a href="http://www.linkedin.com/groups/Indian-Web-Startups-103563?gid=103563&amp;goback=%2Emyg" target="_blank">Indian Web Startups</a></li>
+<li><a href="http://www.linkedin.com/groups?gid=39715&amp;goback=%2Eanp_39715_1364459983691_1" target="_blank">Headstart Network</a></li>
+</ol>
+<p>If you think there are some other vibrant communities that could be part of this list, I would love to hear from you.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013321</guid>
+      <link><![CDATA[http://www.zdnet.com/10-best-techy-april-fools-pranks-through-the-ages-7000013321/]]></link>
+      <title><![CDATA[10 best techy April Fools' pranks through the ages]]></title>
+      <description><![CDATA[Don't worry, you won't see any April Fools' jokes here on ZDNet, but there have been some crackers over the years. Here's just a few.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 07:30:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Zack Whittaker]]></media:credit>
+      <s:doctype><![CDATA[Gallery]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>Google <a href="http://www.washingtonpost.com/blogs/arts-post/post/8-bit-google-maps-googles-most-fun-april-fools-day-prank-ever/2012/04/01/gIQA4DPLpS_blog.html">transformed its Maps app into an 8-bit version</a> "designed for the Nintendo Entertainment System," similar to that of a Mario-like adventure game. Dubbed "Quest," Google's April Fools' prank for 2012 converted ordinary maps into a clunky, low-resolution mapping application, launching many back into the early 1990s.</p><p>Toshiba "launched" something not so strange for this day and age, with Google Glass on deck, in form of a heads-up-display monocle device. Infused with 3D-technology, <a href="http://us.toshiba.com/spectacle">"Spectacle" used two triangular polarizing lenses</a> melded in parallel and encased in lightweight tungsten carbide. But, of course, it didn't really exist.&nbsp;</p><p>For years, rumors swirled that Microsoft might buy Yahoo. On April Fools' Day 2008, InfoWorld ran a piece that "confirmed" Microsoft would buy out the Web giant, including online properties and ad platform, along with its datacenters. All that for the <a href="http://www.infoworld.com/t/business/microsoft-yahoo-agree-buyout-price-826">handsome sum of $44.6 billion</a>, it would have pegged at more than two-thirds of then Microsoft chief executive Bill Gates' personal wealth.</p><p>Twitter was already relatively popular by 2009 but was far from the platform that it is today. It was enough for London-based newspaper <a href="http://www.guardian.co.uk/media/2009/apr/01/guardian-twitter-media-technology">The Guardian to defect to a microblogging platform</a> after 188 years of printed publications. The project would have involved rewriting the entire newspaper's archive, dating back to 1831, in 140 character tweets. "OMG Hitler invades Poland, allies declare war," was one example given.&nbsp;</p><p>Apple already has the rounded rectangle patent, but in 2012 popular technology news site The Register "reported" that Apple had <a href="http://www.theregister.co.uk/2012/04/01/apple_patent/">patented the actual rectangle shape</a>. It came around the time that Walter Isaacson's biography of Steve Jobs was publicized amid Jobs' claims he would "go to thermonuclear war" over patents. Simply put, while untrue, the site summed it up in a single line: "Yes, Apple is asserting a patent on the rectangle." <a href="http://www.google.com/patents/US1042012">The actual patent</a> claimed in the article relates to air-valve fobs for radiators.</p><p>TorrentFreak said in 2009 that, amid piracy suits and counter-letters from the rogue file-sharing site, that Warner Bros. had acquired The Pirate Bay <a href="http://torrentfreak.com/warner-bros-acquires-the-pirate-bay-090401/">in a deal worth $13 billion</a>. It was of course a prank pulled in good humor by the piracy-enabling site, used by millions worldwide to download the latest movies, music and television. Oh, and porn. Lots and lots of porn.</p><p>Millions use AdBlock around the world to block annoying Flash and image-based advertisements on websites. For April Fools' Day, the creators of the popular Chrome and Safari plugin <a href="http://adblockforchrome.blogspot.com/2012/03/inturdusing-catblock.html">replaced ads with pictures of cats</a> -- transforming some of the most popular sites on the Web with kitty-based imagery. But the prank was such so successful that it was spun out as a separate project and made available to the public.</p><p>Hulu has alwas kept ahead of the technological curve, except for April Fools' Day 2011 when the site <a href="http://web.archive.org/web/20110402164938/http:/www.hulu.com/index.htm">reverted back to how it might have looked in pre-Web 2.0 days</a>. With older fonts, such as Times New Roman, and poor graphics and animated GIFs, along with two buttons at the bottom for Netscape and Internet Explorer, the video streaming network pulled off a prank that likely made many to think back to the warm and comforting days of CompuServe and AOL.&nbsp;</p><p>Yahoo's former chief executive Carol Bartz was famed above many thing for swearing <a href="http://techcrunch.com/2010/05/24/carol-bartz-talkes-with-michael-arrington-at-techcrunch-disrupt/">following a mini tirade at former TechCrunch editor Michael Arrington</a>. To get in on the joke and turn what could've been a bit of a tricky public relations problem <a href="http://ycorpblog.com/2010/04/01/fcc-carol/">into something funny for April Fools' Day in 2010</a>, the Web giant published a piece on claims the Federal Communication Commission's (FCC) was "looking into" her swearing after she allegedly swore incessantly on television. But, as with many of these jokes, it never actually happened.</p><p>Amazon may be a bit fusty in the enterprise space with little but business to go on, but its cloud-based platform division thought it would liven things up for 2009's April Fools' Day by announcing it would <a href="http://aws.typepad.com/aws/2009/03/up-up-and-away-cloud-computing-reaches-for-the-sky.html">take its cloud computing platform to the actual clouds</a>. The plan would be to deliver servers running EC2 instances connected via WiMAX (the alternative to LTE) and lasers to communicate with ground. Alas, it was pure rubbish but Amazon still pulled a good one.</p><p>There's a bonus: the Conficker worm. The kicker here is that it was actually real and set to 'blow up' on April 1, 2009. But <a href="http://news.cnet.com/countdown-to-conficker-a-bust-so-far">nothing actually happened</a>. The worm spread through machines across the world and was set to activate and receive instructions, in what was thought to be one of the largest botnets of the time, but command servers never sent the instructions. While most weren't laughing, it turned out to be on the most part a busted flush.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013307</guid>
+      <link><![CDATA[http://www.zdnet.com/google-nexus-7-pre-orders-kick-off-in-india-7000013307/]]></link>
+      <title><![CDATA[Google Nexus 7 pre-orders kick off in India]]></title>
+      <description><![CDATA[Pre-orders of the tablet have started one week ahead of the official release date as it goes up against Apple's iPad mini and Samsung's Galaxy Note 8.0, but how much will the Indian market embrace it?]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 06:46:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Nitin Puri]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-google/">Google</category>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <media:text type="html"><![CDATA[<figure><img title="google-nexus-7-cnet" alt="google-nexus-7-cnet" src="http://cdn-static.zdnet.com/i/r/library/global-thumbs/mobile-devices/google-nexus-7-cnet-620x465.jpg?hash=LGEuMwVkMw&upscale=1" height="465" width="620"><figcaption>Google Nexus 7 at INR 15,999 (US$295)</figcaption></figure>
+<p>Google has already starting taking orders for the Nexus 7 in India in advance of its April 5 release date. While shipping of the new device won't officially begin until April 5, orders can be placed online at the Google Playstore.</p>
+<p><a title="The Nexus 7" href="http://www.zdnet.com/obstacles-face-nexus-7s-success-in-asia-7000001707/" target="_self">The Nexus 7</a> is priced at INR 15,999 (US$295) for the 16 GB internal storage, expandable to 32 GB variant, with a shipping time of 3 to 7 days. Hailed as the lightest tablet, at just 340 grams, the specifications include the Google Android 4.2 OS Jellybean, running on a NVIDIA Tegra 3 quad core processor with 1 GB of RAM. It also has a separate 12 core graphics processing unit (GPU) for gaming, in addition to an accelerometer, gyroscope, and magnetometer.</p>
+<p>The display itself is a 7-inch backlit IPS HD display with 1200 X 800 resolution, and is covered by Corning Gorilla Glass for protection. The camera is quite basic, as it's just a 1.2 MP front camera and to add to the disappointment, there is no rear camera either. Furthermore, in contrast to other tablets, there is no SIM card slot orsupport. The Nexus 7 tablet connects only via Wi-Fi, but also has Bluetooth and <a href="http://www.zdnet.com/smartphone-payments-via-nfc-dont-ditch-your-wallet-just-yet-7000011846/" target="_self">Near Field Communications (NFC)</a> support, in addition to USB, MicroUSB, and GPS.</p>
+<p>What I find interesting is both the lack of a SIM card slot or support, but the inclusion of NFC support.</p>
+<p>Perhaps this is Google's way of trying to push Indian consumers to embrace devices with NFC in order to also introduce mobile payments and machine to machine (M2M) communications within India. That being said, most retailers in India are not equipped with both the technology and training for this to be implemented yet.</p>
+<p>Some of the preloaded apps include, and no surprise here, Google apps such as Chrome, Gmail, Google+ and YouTube, in addition to accessing Google Play, which is Google’s online store of over 600,000 apps. The Nexus 7 will also have <a href="http://www.zdnet.com/fun-things-to-do-with-google-now-on-the-nexus-7-7000001611/" target="_self">Google Now</a>, which provides cards of information as the day progresses. For example, the weather report is given first thing in the morning, and traffic updates are provided as you commute to work. Also, other items such as scheduled meetings and bookings for movies and flights will also appear with Google Now on the cards.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013313</guid>
+      <link><![CDATA[http://www.zdnet.com/new-facebook-phone-reportedly-to-be-unveiled-7000013313/]]></link>
+      <title><![CDATA[New Facebook phone reportedly to be unveiled]]></title>
+      <description><![CDATA[Making its run in the rumor circles for years now, Facebook has sent out a media invite to their California headquarters on Thursday, April 4, entitled "Come See Our New Home On Android".]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 06:22:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Nitin Puri]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-htc/">HTC</category>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-social-enterprise/">Social Enterprise</category>
+      <media:text type="html"><![CDATA[<figure><a href="http://www.pocket-lint.com/news-gallery/50647/facebook-android-media-event/2" target="_blank"><img title="Facebook's “Come See Our New Home On Android” invitation. " alt="Facebook's “Come See Our New Home On Android” invitation. " src="http://cdn-static.zdnet.com/i/r/story/70/00/013313/facebook-android-media-event-1-620x605.jpg?hash=BTLjATEzBQ&upscale=1" height="605" width="620"></a><figcaption>Facebook's "Come See Our New Home On Android" invitation. </figcaption></figure>
+<p>Rumored to be a collaboration between Taiwan's HTC, the <a href="http://www.zdnet.com/forget-the-facebook-phone-make-free-calls-via-wifi-and-messenger-on-ios-devices-7000009928/" target="_self">Facebook phone</a> is smartphone whose software is a customized version of the Google Android 4.2 OS. <a title="According to sources" href="http://skift.com/2013/03/30/here-comes-the-facebook-phone-and-tightens-grip-on-social-travel/" target="_blank">According to sources</a>, this smartphone will reportedly have 4.3-inch screen, 5 MP rear camera and 1.6 MP front camera for video calls, and 16 GB of storage. No details on the price as of yet as the smartphone will be built into Facebook’s features and services, and is intended to increase user's mobile access to Facebook.</p>
+<p>The real question is whether this second attempt between <a href="http://www.zdnet.com/facebooks-android-play-could-be-boon-for-htc-7000013288/" target="_self">HTC</a> and Facebook will be a success, as their first attempt in 2011 with the ChaCha and Salsa phones was considered a failure, and sales were consequently discontinued after a few months.</p>
+<p>That being said, of the more than 1 billion users of Facebook, 680 million users access Facebook via mobile devices. Naturally, this is a niche area and market for Facebook to dive into and make a name.</p>
+<p>However, almost every smartphone now already has Facebook access, either pre-installed or downloadable as an app. Would consumers really embrace a new Facebook-driven smartphone, throw away their old ones, and buy a new one?</p>
+<p>In recent months, the aura of Facebook and its dominance in social media has been tapering off. Many users no longer find Facebook to be as enjoyable and relaxing as it first was, more so as other social media networks have appeared, such as Tumblr.</p>
+<p>Furthermore, users are beginning to realize that at the end of the day, in some cases having a very active Facebook profile can in fact go against you, both in personal and professional directions.</p>
+<p>We've all heard the stories of the employees who call in sick on a Friday, only to be tagged in a drinking party picture on Saturday, and then fired by Monday. It's not just the pictures that speak a thousand words, as most human resource departments do in fact login to Facebook to determine a candidate's fit within an organization.</p>
+<p>On the contrary, it's also been said having no social media presence can also go against you. That is, if you can't be found anywhere online, are you a social deviant and do you have something to hide? Clearly, a balance and fine line between personal and professional needs to be drawn when <a href="http://www.zdnet.com/personal-relationships-key-to-facebooks-asia-advertising-success-7000002434/" target="_self">using Facebook</a>.</p>
+<p>In regards to the Facebook phone, personally I feel it would just consume my day with updates and posts, which I can do without during normal business hours. Then again, I'm quite content with the Facebook app I have on my phone, so I won't be rushing out to <a href="http://www.zdnet.com/blog/hardware/why-a-facebook-phone-doesnt-stand-a-chance/20574" target="_self">buy a Facebook phone</a> to begin with.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000012611</guid>
+      <link><![CDATA[http://www.zdnet.com/uk/mobile-health-monitoring-sms-keeps-it-simple-7000012611/]]></link>
+      <title><![CDATA[Mobile Health Monitoring: SMS Keeps it Simple]]></title>
+      <description><![CDATA[In the midst of complicated new mobile medical technology and apps, SMS is still as useful as ever.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 05:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Diarmuid Mallon]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>When you hear &lsquo;mobile health monitoring,&rsquo; your mind may conjure up <a href="http://rockcenter.nbcnews.com/_news/2013/01/24/16677207-the-key-to-better-health-care-may-already-be-in-your-pocket-and-its-not-your-wallet?lite%5D">images of shiny gadgets, smartphones, apps and implanted microchips that can work together to perform a cardiogram</a>, say, or alert you that you&rsquo;re about to have an asthma attack. They make the future of medicine look like part Star Trek sickbay, part Six Million Dollar Man and/or Bionic Woman. And there&rsquo;s certainly plenty of momentum in that direction.</p>
+<p>But what if you need to create a service that can reach the widest possible audience? Step forward the trusty workhorse of mobile services &ndash; SMS.</p>
+<p>In South Africa, SMS was used to enable viewers of the TV show <a href="http://www.makutanojunction.org.uk">Makutano Junction</a> to text in to get more information about HIV/AIDS.</p>
+<p>UNICEF Malawi is using <a href="http://www.rapidsms.org/case-studies/malawi-nutritional-surviellence/">SMS to track child malnutrition</a>. Health workers submit children&rsquo;s height, weight, age and other basic data as text messages via a system called RapidSMS, which performs calculations on the data, and instantly alerts the workers of their patients&rsquo; health status. The new process is helping to identify and help more children with moderate malnutrition.</p>
+<p>A university in Spain used <a href="http://www.ncbi.nlm.nih.gov/pubmed/15494086">SMS to help diabetic patients</a> monitor their disease by sending blood sugar levels and body weight to a server. The server reciprocated once a month with a &lsquo;calculated glycosylated haemoglobin&rsquo; result, which tells the patients how well they&rsquo;ve managed their blood glucose levels.</p>
+<p>Sometimes the simplest solution is the best solution.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013334</guid>
+      <link><![CDATA[http://www.zdnet.com/easter-is-for-easter-eggs-mac-style-7000013334/]]></link>
+      <title><![CDATA[Easter is for Easter eggs, Mac style]]></title>
+      <description><![CDATA[The latest Mac OS X hidden tricks, aka Easter eggs.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 03:37:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[David Morgenstern]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-operating-systems/">Operating Systems</category>
+      <category domain="http://www.zdnet.com/topic-software-development/">Software Development</category>
+      <media:text type="html"><![CDATA[<p>Mac users have always appreciated "Easter eggs," or little tricks and hacks hidden deep in the system, system tools and applications. The very first 128K Mac featured a hardware version, the signatures of the Mac development time molded into the plastic case.</p>
+<p>The Easter Egg Archive has a nice list of <a href="http://www.eeggs.com/tree/1141.html" target="_blank">Mac OS X Easter Eggs</a>. Some can be reached only through the Terminal. The Easter Eggs are listed in order of scores they've received. All are interesting.</p>
+<p>The top Easter Egg, with a 9.2 score, isn't really much of an Easter Egg. But it is cute. It's about the text to Here's to the Crazy Ones from the <a href="http://www.zdnet.com/did-apple-kill-the-adverb-7000000443/" target="_self">Think Different ad campaign</a> introduced at the October Seybold Seminars San Francisco in 1997.</p>
+<p>In the icon for TextEdit, you can see some text. What is it? It's a very important piece of Mac and Apple history.</p>
+<blockquote>
+<p>Dear Kate,</p>
+<p>Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes - the ones who see things differently. They're not fond of rules and they have no respect for the status quo. You can praise them, disagree with them, quote them, disbelieve them, glorify or vilify them. About the only thing that you can't do is ignore them. Because they change things.</p>
+<p>Take care,</p>
+<p>John Appleseed</p>
+</blockquote>
+<p>According to the Archive, the double cuteness is that John Appleseed is the sample name used to demonstrate Mac applications such as Address Book or on the iPhone; and Kate is an open source Linux text editor in KDE.</p>
+<p><strong>Check out: <a href="http://www.zdnet.com/old-images-rediscovered-in-mac-se-rom-7000003797/" target="_self">Old images rediscovered in Mac SE ROM</a></strong></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013279</guid>
+      <link><![CDATA[http://www.zdnet.com/cn/chinese-media-slam-apples-arrogance-7000013279/]]></link>
+      <title><![CDATA[Chinese media slam Apple's 'arrogance']]></title>
+      <description><![CDATA[In a series of editorial spanning a week, state-owned newspaper People's Daily criticizes Apple's discriminatory policies and arrogance toward Chinese consumers. Other local media note the significance of this heavy focus. ]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 02:55:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Cyrus Lee]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-apple/">Apple</category>
+      <category domain="http://www.zdnet.com/topic-iphone/">iPhone</category>
+      <category domain="http://www.zdnet.com/topic-china/">China</category>
+      <media:text type="html"><![CDATA[<p>China's state-owned newspaper People's Daily launched a week-long editorial lashing out at Apple's discriminatory policies and arrogant treatment of Chinese consumers.</p>
+<p><a href="http://finance.people.com.cn/n/2013/0325/c1004-20898468.html" target="_blank">The first article</a> titled "Apple bit 'God'"--in reference to a Chinese&nbsp;idiom which states "customers are God"--was&nbsp;published in the Chinese-language paper&nbsp;on March 25 criticized the tech giant's discriminatory acts toward Chinese iPhone users with regard to its after-sales service policy.&nbsp;</p>
+<p>Over four days through to March 29, the newspaper published four more articles or commentaries on Apple which were also picked up by other local media, titled "<a href="http://news.sohu.com/20130326/n370735444.shtml" target="_blank">What has Apple been doing wrong</a>", "<a href="http://star.news.sohu.com/20130327/n370519470.shtml" target="_blank">Apple must fix unparalleled arrogance</a>", "<a href="http://news.sohu.com/20130328/n370733726.shtml" target="_blank">Apple avoided taxes totaling billions of dollars a year</a>", as well as "<a href="http://bj.people.com.cn/n/2013/0329/c339741-18376987.html" target="_blank">Changes to Apple's maintenance warranty only superficial</a>".</p>
+<p>Earlier on March 15, which was World Consumer Rights Day, the country's state-owned TV broadcaster <a href="http://www.zdnet.com/cctv-claims-discriminatory-practices-by-apple-in-china-7000012729/">China Central Television Station (CCTV) had&nbsp;alleged</a> that&nbsp;when Chinese consumers sent in their defective&nbsp;iPhones,&nbsp;they only get a refurbished iPhone with the back cover from the original phone. In comparison, consumers in&nbsp;other countries will receive a refurbished iPhone. Chinese consumers will need to pay an extra 580 yuan (US$92) if it prefers a new cover, according to the report.</p>
+<p>In a immediate reply to the reports, Apple simply said the team had been "working to surpass the expectations of consumers, and highly values the opinions and suggestions from every consumer". In a later statement, the American company said its warranty policy was "higher than the national standard". People's Daily denounced Apple's response to the problems in a "self-praise" way.</p>
+<p>On March 28, U.S.-based People's Daily&nbsp;reporter Chen Yiming also <a >published a story</a>on the newspaper stating he &nbsp;had been trying to interview Apple's headquarter on the issue, but had been blocked by the company's Chinese and U.S. public relations representatives.</p>
+<p>It is rare for a Chinese government-backed newspaper to focus on one single company in consecutive editorials that span almost a week. An&nbsp;<a href="http://sh.sina.com.cn/citylink/jk/t_sjbj/2013-03-28/1508186913.html" target="_blank">opinion piece by Sina.com</a>&nbsp;questioned if People's Daily heavy focus on Apple's indifference toward Chinese consumers put the American company's China&nbsp;footprint in crisis. The report&nbsp;recalled that when CCTV 12 years ago&nbsp;slammed Toshiba for its discriminatory acts regarding laptop maintainance involving Chinese consumers, Toshiba's market share dropped out of the top 10 in China after topping the market for consecutive four years.</p>
+<p>Five years ago, after CCTV's reports on Hewlett-Packard's laptop quality issues, the IT vendor's market shares also slumped from the then-16.6 percent to 5 percent.</p>
+<p>In a reply to Chinese newspaper The Beijing News, Apple's Beijing-based spokesperson said there were now conference calls between the company's local and Cupertino headquarter everyday.&nbsp;"We might not even release a statement [to media reports] in the past [but would now do so]. We are trying to make changes," said the spokesperson.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013317</guid>
+      <link><![CDATA[http://www.zdnet.com/tom-davenport-big-data-is-too-important-to-be-left-to-the-quants-7000013317/]]></link>
+      <title><![CDATA[Tom Davenport: big data is too important to be left to the 'quants']]></title>
+      <description><![CDATA[The author and visiting Harvard professor says everyone should have a role in analytics. 'Narratives' might tell a clearer story.]]></description>
+      <pubDate><![CDATA[Mon, 01 Apr 2013 01:58:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Joe McKendrick]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-cloud/">Cloud</category>
+      <category domain="http://www.zdnet.com/topic-data-centers/">Data Centers</category>
+      <media:text type="html"><![CDATA[<p><strong>One of the challenges with big data -- or with most data analytics efforts over the years -- is that it has typically been relegated to analysts and holders of Ph.Ds in mathematics or statistics. Thus, it's been highly intimidating territory for most business decision-makers. Organizations are striving to compete on analytics, and hiding the processes and management of data analysis in a back room isn't going to cut it anymore.</strong></p>
+<figure class="alignLeft"><img title="Thomas Davenport-from tomdavenport.com website" alt="Thomas Davenport-from tomdavenport.com website" src="http://cdn-static.zdnet.com/i/r/story/70/00/013317/thomas-davenport-from-tomdavenport-com-website-200x363.jpg?hash=LGqzAwqxAw&upscale=1" height="363" width="200"><figcaption>Photo credit: TomDavenport.com</figcaption></figure>
+<p>That's the view of Tom Davenport, visiting professor at Harvard University and co-author of the seminal work <em>Competing on Analytics: The New Science of Winning. </em>I recently had the opportunity to chat with Davenport, and the <a href="/story/edit/7000013317/www.smartplanet.com/blog/bulletin/q-a-tom-davenport-urges-more-clarity-in-data-analytics/15226" target="_blank">Q&amp;A</a> is posted at CBS interactive's SmartPlanet site.</p>
+<p>Davenport, who is also a senior advisor to Deloitte Analytics, spoke about the difficulties of converting to an analytics-driven culture.&nbsp; He is finalizing a new book, <em>Keeping Up with the Quants: Your Guide to Understanding and Using Analytics</em>, which makes the case for better communicating analytics to business decision-makers.&nbsp;&nbsp;</p>
+<p>We touched upon a number of topics, and I was curious why he felt the existing BI and analytics tools that have been on the market -- graphic tools, dashboards, balanced scorecards and the like — weren't up to the task. Davenport says it's time for a new type of platform for communicating data analytics results -- a more "narrative" approach.</p>
+<p>"We’ve all grown up on pie charts and bar charts, but there are probably at least tens, if not hundreds of alternative approaches to visual analytics," he explains. "Narratives are a pretty good way to convey information in the past, so maybe we should be converting our data and analysis into stories. People are starting to do that more. Most analysts were unfortunately not trained in how you communicate effectively about analytics, so we’ve got a long way to go in terms of doing a better job of that."</p>
+<p>I also asked Davenport about the role of cloud platforms in promoting greater availability of analytics, and he says cloud isn't quite there yet.&nbsp; Here's what he had to say: "It's certainly making a difference in terms of analytics on big data, because its almost infinitely expandable, much cheaper, people don’t have to build up the capability to analyze huge amounts of data all the time. They can expand to suit their needs. There are cloud-based versions of most of the visual analytics offerings, but they don’t tend to be sophisticated yet as the on-premises ones, so I think its not really driving things yet. For basic big data processing and computation and analysis, visual stuff, narrative stuff -- not as much at this point."</p>
+<p>There is also a tendency to move or embed analytics into applications, with end-users fairly oblivious to what types of algorithms are spitting out the answers being acted on by applications. Isn't automation making it less necessary to understand the machinations of analytics? Too much reliance on automation may be a dangerous thing, Davenport responds. "We saw the challenge in financial services; you have situations like the flash crash, where there were all these automated trading things happening, and we had no idea why. The real challenge is going to be being able to trace the logic and how the algorithms work when things go wrong, so we can intervene and override."</p>
+<p>&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013326</guid>
+      <link><![CDATA[http://www.zdnet.com/do-ios-users-really-want-mobile-web-applications-7000013326/]]></link>
+      <title><![CDATA[Do iOS users really want mobile web applications?]]></title>
+      <description><![CDATA[Should apps go native or web wild? It's a complex proposition for some developers. ]]></description>
+      <pubDate><![CDATA[Sun, 31 Mar 2013 22:59:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[David Morgenstern]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-ios/">iOS</category>
+      <category domain="http://www.zdnet.com/topic-iphone/">iPhone</category>
+      <category domain="http://www.zdnet.com/topic-ipad/">iPad</category>
+      <category domain="http://www.zdnet.com/topic-mobile-os/">Mobile OS</category>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-software-development/">Software Development</category>
+      <media:text type="html"><![CDATA[<p>I recently wrote several posts on <a href="http://www.zdnet.com/more-options-coming-for-mac-and-ios-native-rss-clients-7000013054/" target="_blank">native clients for RSS reading and management</a> following the announcement that Google would kill its aggregation service and Google Reader. A number of developers and readers pointed me to web applications while others announced forthcoming iOS-native clients. Which approach is better?</p>
+<p>Petr Kral, cofounder of <a href="http://www.skimr.co" target="_blank">Skimr</a>, wrote to say that the company was also planning to release native clients. I asked him about the rationale. He said the cause wasn't as much technological as demand on the customer side.</p>
+<p>Kral said that he recalled the 2007 announcement of iPhone application solutions at the Worldwide Developers Conference. Some developers were disappointed in the lack of an SDK for native applications, rather than the Web 2.0 approach voiced by Apple management.</p>
+<blockquote>
+<p>I can remember Scott Forstall taking the stage and talking about apps &mdash; Web apps that is. Developers were supposed to create these for the iOS platform. They would have all the benefits that web apps inherently have (immediate updates, etc.). That was before Apple allowed developers to create native apps.</p>
+<p>It made perfect sense. I was just that the browser technology was not quite there yet at the time of the announcement. Apple was simply too early.</p>
+</blockquote>
+<p>In March 2008, Apple rolled out its <a href="http://www.zdnet.com/blog/apple/reporters-notebook-apples-iphone-sdk-rollout/1388" target="_self">App Store and detailed the roadmap for its iOS SDK</a>. At the time, John Doerr, the Silicon Valley legendary venture capitalist, said that iOS the "creation of the third great computing platform."</p>
+<blockquote>
+<p>"Today, we're witnessing history: that's the launching of the SDK, the creation of the third great platform, the iPhone and the iPod Touch. Think about it. What the iPhone is all about is in your pocket, you have something that's broadband, and connected all the time. It's persona, it knows who you are and where you are. That's a big deal, a really big deal. It's bigger than the personal computer."</p>
+</blockquote>
+<p>However, Kral says that while customers and mobile device makers now see native apps as being faster, better and more responsive, the web app is quickly attaining parity. He pointed to projects such as <a href="http://famo.us" target="_blank">famo.us</a>, as a primee xample.</p>
+<blockquote>
+<p>When we were building Skimr, we just couldn't see a real benefit that a native app would bring. After all, Skimr is a very simple service. Turns out we were quite naive. Users demand native apps! So, we decided to give them what they request.</p>
+<p>We have solid product plan and some of the features that users are requesting go against it [the plan], so we reject them. But a native app is just a distribution method really, so there is no harm in creating a few of these. It will just take some time.</p>
+</blockquote>
+<p>Perhaps the selection of the approach depends on the application and its expectations from users? A simple content application, such as Skimr or a sports stats app, may come closer to the advantages of web apps than a complex app that wants connections with hardware-only services such as GPS, and photos or video streams from cameras. Developers also need to consider whether their app needs to take advantage of software and network services such as notification services, which can only be accessed through a native application.</p>
+<blockquote>
+<p>All in all, my bet is that a few years from now (maybe sooner), users won't be able to tell a difference between a native app and a web-based app and it will really come down to what will be the preferred solution of a given developer (cost, time to market).</p>
+</blockquote>
+<p>Note that I'm not going into monetization here. Now, I prefer paying for updates and not have advertisements clogging my interface. Developers have to figure that part out.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013322</guid>
+      <link><![CDATA[http://www.zdnet.com/healthcare-analytics-market-to-exceed-10b-by-2017-7000013322/]]></link>
+      <title><![CDATA[Healthcare analytics market to exceed $10B by 2017]]></title>
+      <description><![CDATA[If you've been wondering where the growth is in IT, one area is healthcare. Just one segment alone, healthcare analytics, is projected to grow past $10 billion by 2017]]></description>
+      <pubDate><![CDATA[Sun, 31 Mar 2013 21:44:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Denise Amrich]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-health/">Health</category>
+      <media:text type="html"><![CDATA[<p>With all the <a href="http://www.zdnet.com/dells-directors-forecast-a-grim-future-for-the-pc-industry-7000013303/">doom and gloom</a> we've been reading about the PC market recently, many of you may be wondering where, exactly, the growth opportunities are in IT.</p>
+<p>Well, wonder no more. The answer is healthcare IT. I've been <a href="http://www.zdnet.com/blog/health/">talking about</a> the growing need for electronic health records for quite some time now, and certainly EHR is a growth market.</p>
+<p>But what can you do with all that information? How can we move from gathering information for more effective billing to gathering and processing information for more effective healthcare itself?</p>
+<p>Assuming we get past the privacy issues (by anonymizing data appropriately), if we can can gather and process enormous streams of health data, and if we can possibly do that in real-time or even near real-time, we might have the opportunity to get ahead of disease vectors and outbreaks.</p>
+<p>If you want to learn more about how big data works in real-time, our own David Gewirtz did a webcast on the subject last week. Go ahead and watch <a href="http://www.techrepublic.com/webcasts/live-webcast-data-go-vroom-how-to-keep-up-with-the-volume-velocity-and-variety-of-big-data-in-real-time/32874423">Data go vroom! How to keep up with the volume, velocity, and variety of big data in real-time</a>. It's free and definitely worth a view.</p>
+<p>But what about the opportunity for jobs and IT industry growth? Well, that's where it gets interesting. Industry analysis firm <a href="http://www.marketsandmarkets.com/PressReleases/healthcare-data-analytics.asp">Markets and Markets</a> recently published a report detailing the growth of healthcare analytics.</p>
+<p>The bottom line is pretty amazing. The global healthcare analytics market is growing at a Compound Annual Growth Rate of 23.7% from 2012 to 2017. That puts just the analytics segment of the healthcare market at $10.8 billion within four years.</p>
+<p>So, if I were you, I'd make sure I spent some time learning about big data, real-time analytics, and take a few statistics classes. Odds are, it will be worth it.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013319</guid>
+      <link><![CDATA[http://www.zdnet.com/just-how-much-do-people-hate-windows-8-7000013319/]]></link>
+      <title><![CDATA[Just how much do people hate Windows 8?]]></title>
+      <description><![CDATA[Some of you don’t like Windows 8. And thanks to Internet comments and social media, you have lots of ways to express your loathing. But a closer look at one well-known real-world rating says Windows 8 might be more popular than you think.]]></description>
+      <pubDate><![CDATA[Sun, 31 Mar 2013 20:31:06 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Ed Bott]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>Windows 8 might be the most polarizing product that Microsoft has ever introduced.</p>
+<p>In fact, it might be one of the most polarizing tech products to ever see the light of day.</p>
+<p>There’s no question that Windows 8 has a large number of outright haters. It’s even inspired comparisons with the much-loathed Windows Vista.</p>
+<p>But it’s hard to tell whether that outpouring of anger is simply the echo chamber amplifying a vocal minority or whether it truly represents a widespread negative opinion.</p>
+<p>So instead of guessing, I went looking for data. And I found it in a familiar place: the product pages of Amazon.com, where thousands of Windows upgraders in the past six years have left ratings (on the familiar scale of 1 to 5 stars) and detailed feedback about their purchase.</p>
+<p>I went through more than 3000 ratings for upgrade versions of the three most recent versions of Windows and tallied those ratings to measure the love/hate rating&nbsp;for each one. (For details on methodology, see the end of this post.)</p>
+<p>The verdict?</p>
+<p>Windows 8 is indeed less popular than Windows 7, which has very high approval ratings. But it’s far more popular than Windows Vista, which was well and truly hated.</p>
+<p>Here’s the story, in one easy chart that uses the same format as Amazon’s ratings:</p>
+<figure><img title="amazon-windows-ratings-by-version-620px" alt="amazon-windows-ratings-by-version-620px" src="http://cdn-static.zdnet.com/i/r/story/70/00/013319/amazon-windows-ratings-by-version-620px-620x267.png?hash=AmOyAGR1BQ&upscale=1" height="267" width="620"></figure>
+<p>A few conclusions leap off that chart.</p>
+<p>In my experience, a 4- or 5-star rating is a solid thumbs-up. A rating of 2 or 3 stars&nbsp;means “Meh.” And a 1-star rating is the equivalent of a raised middle finger. If you read the reviews that accompany 1-star ratings,&nbsp;you’ll find equal parts rage and buyer’s remorse.</p>
+<p>By that standard, Windows Vista is a world-class villain, an object of scorn and ridicule, with 42 percent&nbsp;of all reviewers giving it the lowest possible rating.</p>
+<p>By contrast, a mere 17 percent of Windows 7 reviewers hated it enough to award it&nbsp;a one-finger salute. And Windows 8 was right smack in the middle of those two, with 29 percent of reviewers giving it just 1 star.</p>
+<p>Slightly more than 50&nbsp;percent all Windows 8 buyers like it. That’s less than the whopping 67 percent&nbsp;approval rating for Windows 7, but far beyond the puny 38 percent of Vista buyers who gave it a thumbs-up vote.</p>
+<p>In fact, as a measure of how deeply despised Vista was, note that the number of 1-star ratings&nbsp;was higher than the total of 4- and 5-star ratings. That’s not the case at all with the more recent versions.</p>
+<p>The average rating for Windows 7 on Amazon’s 1-5 scale is 3.7. Compare that with the very poor 2.7 rating for Windows Vista. Once again, Windows 8 is right smack in the middle of those two, earning an average rating of 3.2.</p>
+<p>For the sake of comparison, I looked at the most recent version of OS X that Amazon sold. Apple sells the newer Lion and Mountain Lion online only, but Snow Leopard, which was released around the same time as Windows 7, is only marginally more popular than its Windows rival. Snow Leopard earns an average rating of 3.9, compared to Windows 7’s 3.7. And, you know, "haters gonna hate.” For the proof, note that 14 percent of Snow Leopard buyers gave the Apple OS a 1-star rating. That's only 3 points lower than the "I hate Windows 7" score.</p>
+<p>I suspect that none of these conclusions are surprising to the Microsoft managers and product planners who released Windows 8. They had to know that some of their design decisions were going to be unpopular. People don’t like it when you move their cheese. Time will tell if those customers move elsewhere or slowly come around.</p>
+<p>There's certainly precedent for a version of Windows to improve its approval rating over time. I've argued before that Windows 8 and Windows XP share some striking similarities in their initial hostile response (see <a href="http://www.zdnet.com/windows-8-is-the-new-xp-7000006095/">"Windows 8 is the new Windows XP"</a>). Windows XP might be remembered fondly now, but it took a while for Microsoft customers to feel that love. Here are the ratings from Amazon for the original release of Windows XP and for Windows XP Service Pack 2, which was a major update:</p>
+<figure><img title="amazon-xp-ratings-by-version-620px" alt="amazon-xp-ratings-by-version-620px" src="http://cdn-static.zdnet.com/i/r/story/70/00/013319/amazon-xp-ratings-by-version-620px-485x282.png?hash=ZmRlAJR2Lm&upscale=1" height="282" width="485"></figure>
+<p>In its initial release, Windows XP wasn't exactly loved, and its overall approval rating at Amazon remained below 3.5 throughout its life. Windows XP's 57 percent total of 4- and 5-star ratings isn't much higher than what Windows 8 is earning today. And the number of haters actually increased slightly with the SP2 update. Like I said, haters gonna hate.&nbsp;</p>
+<p>One other encouraging note, from Redmond’s perspective,&nbsp;is that there have been more ratings for Windows on Amazon in the first five months of&nbsp;its existence than Windows 7 has garnered in 3-1/2 years. That suggests a phenomenal level of interest.</p>
+<p>If this were a political race, a&nbsp;50 percent overall approval rating&nbsp;would be&nbsp;a solid base from which to start. In this product category, it indicates a product that needs some attention. Microsoft’s announced plan to release more frequent updates like Windows Blue, due later this year, gives it an opportunity to deal with some of the criticisms. But it’s uncertain whether Windows 8 can ever achieve the popularity of its predecessor, which suggests that Windows 7 will be around for a long, long time.</p>
+<p><em>Notes on methodology: I gathered ratings from Amazon.com on March 31, 2013, for the following products, all in retail boxed upgrade packaging: Windows 8 Pro; Windows 7 Home Premium, Professional, and Ultimate; Windows Vista Home Premium (original and SP1), Business, and Ultimate; and Windows XP Home and Professional (both original and SP2).</em></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013314</guid>
+      <link><![CDATA[http://www.zdnet.com/vizio-announces-pricing-for-new-windows-8-laptops-all-in-one-desktops-7000013314/]]></link>
+      <title><![CDATA[Vizio announces pricing for new Windows 8 laptops, all-in-one desktops]]></title>
+      <description><![CDATA[The company goes premium with its latest PCs, each of which will cost more than $1,000. ]]></description>
+      <pubDate><![CDATA[Sun, 31 Mar 2013 10:40:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Sean Portnoy]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-laptops/">Laptops</category>
+      <category domain="http://www.zdnet.com/topic-pcs/">PCs</category>
+      <media:text type="html"><![CDATA[<figure><img title="vizio-windows-8-touchscreen-laptops-desktops" alt="vizio-windows-8-touchscreen-laptops-desktops" src="http://cdn-static.zdnet.com/i/r/story/70/00/013314/vizio-windows-8-touchscreen-laptops-desktops-620x256.png?hash=ZQt4ZJAyMw&upscale=1" height="256" width="620"></figure>
+<p>With<a > its first round of computers</a>, Vizio tried the approach that made it wildly successful with its HDTVs: decent quality at a very affordable price. But with its latest group of desktops and laptops, Vizio is going upscale.</p>
+<p>Introduced at this year's CES, the new Windows 8 touchscreen-enabled Vizio PC lineup has just received its pricing, and not one of the four new systems costs less than $1,000. The least expensive model is the&nbsp;CT14T-B0 14-inch laptop, which features an AMD APU processor and a $1,089 price tag. But adding an Intel Core i7 processor instead boosts the price to&nbsp;$1,419.99.</p>
+<p>The 15.6-inch thin-and-light laptop starts at&nbsp;$1,189.99 with AMD inside, whereas the Core i7 flavor of the same machine runs&nbsp;$1,469.99. Note that while these notebooks include touchscreen capabilities, they are not convertible &nbsp;models with tablet functionality that justify the high price. But they are being marketed as super-svelte competitors designed to take on the MacBook Air, with similar aluminum unibody construction and solid state storage.</p>
+<p>Pricing for premium all-in-one desktop PCs tends to run a little higher, so the sticker price for Vizio's new desktops appears a bit more in line with the overall marketplace. The 24-inch CA24T-B0 starts at&nbsp;$1,279.99, and includes an&nbsp;AMD A10-4600M processor, 8GB of RAM, 1TB hard drive, and built-in 802.11ac Wi-Fi capabilities. A version using a Core i7 CPU instead will run $1,439.99.&nbsp;&nbsp;</p>
+<p>There's no AMD version of the 27-inch all-in-one, with the CA27T-A5 coming with a Core i7-3630QM processor and similar components as the 24-inch model (albeit with a bigger screen). It will set you back $1,549.99.</p>
+<p>You can order select new models from Microsoft's online store or the full lineup through Vizio's website. Are these priced too high for your PC budget, or do you think they are priced right to make Vizio as successful in the PC market as it is selling HDTVs? Let us know your thoughts in the Talkback section below.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013308</guid>
+      <link><![CDATA[http://www.zdnet.com/diplomat-services-orchestrator-a-cio-job-description-five-years-from-now-7000013308/]]></link>
+      <title><![CDATA[Diplomat, services orchestrator: a CIO job description five years from now ]]></title>
+      <description><![CDATA[Predictions about the changing roles of chief information officers: less technology management, more business management. ]]></description>
+      <pubDate><![CDATA[Sat, 30 Mar 2013 15:11:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Joe McKendrick]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-cloud/">Cloud</category>
+      <media:text type="html"><![CDATA[<p><strong>Chief information officers -- as well as other IT leaders -- will be less hands-on tech specialists, and more high-level consultants to their businesses. They won't be competely controlling technology budgets, but still will be responsible for the security, scalability and reliability of any technology the business uses.&nbsp;</strong></p>
+<figure class="alignRight"><img title="Marketing Staff-US Bureau of Labor Statistics" alt="Marketing Staff-US Bureau of Labor Statistics" src="http://cdn-static.zdnet.com/i/r/story/70/00/013308/marketing-staff-us-bureau-of-labor-statistics-200x143.jpg?hash=BJH5ZzEyMQ&upscale=1" height="143" width="200"><figcaption>Photo credit: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook</figcaption></figure>
+<p>In recent posts here at this site, we've discussed the possibilities of CIOs sharing technology initiatives with the likes of "chief digital officers" and chief marketing officers. Also, cloud computing positions IT leaders less as technology shop managers and more as high-level consultants responsible for identifying and procuring both extrenal and internal technology resources.</p>
+<p>What's the future job description of the chief information officer going to look like a couple of years from now? Antonio Piraino, CTO of ScienceLogic <a href="http://www.idgconnect.com/blog-abstract/749/antonio-piraino-global-the-developing-role-cio-why-it-changing-way-we-do-business" target="_blank">provides</a> this glimpse of rising skills in a post at <em>IDG Connect:</em></p>
+<p><strong>Less technology-exertion, more people-insertion:</strong> "The customer is the focus of the CIO strategy, not the product/infrastructure," says Piraino.</p>
+<p><strong>Less power broker - more services orchestrator:</strong> Here we see the shift from technology guru to business guru, Piraino says. "The CIO will be more responsible for financials, legalities, security, and extensibility of services, and less responsible for technical robustness, integration, and infrastructure operations (including governance policies)."</p>
+<p><strong>Less concession, more compliance:</strong> Given the global nature of business, there will need to be greater attention paid to various government regulations and mandates. Local cloud computing laws are a prime example. Piraino elevates this discussion way above merely filling out forms and delivering reports: "As cloud computing use grows, governments will become more involved in regulation, creating a worldwide opportunity for CIOs to chance their job role to that of an international power broker, ambassador, and even diplomat."</p>
+<p><strong>Less security, more protection:</strong> Again, global business demands global leadership. "CIOs need to become experts in cyber-security and the nuances amongst different countries."</p>
+<p><strong>Less cost, more work:</strong> IT systems are getting more complex, and sprawl is on the rise. "Centralizing control of data and applications through centralized management systems, as well as the use of virtual desktop, are areas that CIOs are becoming far more engaged in."</p>
+<p><strong>Less reaction, more vision:</strong>&nbsp; CIOs are moving to "the role of proactive defender of proprietary business concerns, and also that of creator of new business productivity tools and information that help us get ahead of the market we're after."&nbsp;&nbsp;&nbsp;&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013304</guid>
+      <link><![CDATA[http://www.zdnet.com/lenovo-introduces-thinkcentre-edge-62z-all-in-one-desktop-is-its-18-5-inch-screen-too-small-7000013304/]]></link>
+      <title><![CDATA[Lenovo introduces ThinkCentre Edge 62z all-in-one desktop: Is its 18.5-inch screen too small?]]></title>
+      <description><![CDATA[The $549 starting price tag is small enough, but is the workstation's LCD too tiny?]]></description>
+      <pubDate><![CDATA[Fri, 29 Mar 2013 23:20:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Sean Portnoy]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-pcs/">PCs</category>
+      <media:text type="html"><![CDATA[<figure><img title="lenovo-thinkcentre-edge-62z-all-in-one-desktop-pc" alt="lenovo-thinkcentre-edge-62z-all-in-one-desktop-pc" src="http://cdn-static.zdnet.com/i/r/story/70/00/013304/lenovo-thinkcentre-edge-62z-all-in-one-desktop-pc-620x600.jpg?hash=ZmSyLmNkLw&upscale=1" height="600" width="620"></figure>
+<p>All-in-one enterprise desktop PCs make a lot of sense to save valuable space for packed-in employees. But everyone also agrees that bigger screen sizes make for better worker productivity. Those two trends are in conflict in the new <a >Lenovo ThinkCentre Edge 62z</a>, its latest all-in-one that bucks the trend for bigger desktop monitors.</p>
+<p>That's because the 62z (a follow-up to <a href="http://www.zdnet.com/lenovo-thinkcentre-edge-92z-an-aio-for-smes-7000005119" target="_self">its larger 92z sibling</a>) squeezes in an 18.5-inch LCD, which Lenovo says yields a 65-percent savings in space over a 20-inch monitor. And in its defense, the company isn't marketing the PC as a traditional corporate machine, pitching it instead to schools and space-starved work areas like nurse's stations.</p>
+<p>Still, a sub-19-inch desktop screen in 2013 might be hard for some workers to deal with -- unless they are so unlucky to have even smaller legacy screens. What no one can object to is the pricing, as the 62z starts at just $549. Notably, it offers Windows 7 Professional instead of Windows 8.&nbsp;You can get up to an Intel Core i3 Ivy Bridge processor, 8GB of RAM, and 1TB of hard drive, and you even get a DVD drive thrown in for good measure.&nbsp;</p>
+<p>Speaking of measure, is the 62z the right size for Lenovo's customers? We'll find out when it becomes available in May.</p>
+<p>[Via <a href="http://www.engadget.com/2013/03/28/lenovo-thinkcentre-edge-62z-stuffs-an-all-in-one-into-a-tiny-space/" target="_blank">Engadget</a>]&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013303</guid>
+      <link><![CDATA[http://www.zdnet.com/dells-directors-forecast-a-grim-future-for-the-pc-industry-7000013303/]]></link>
+      <title><![CDATA[Dell's directors forecast a grim future for the PC industry]]></title>
+      <description><![CDATA[A lengthy proxy statement submitted to the SEC by Dell's board of directors makes a forceful case for taking the company private. A Special Committee sees a gloomy future for the PC industry and even worse prospects if Dell tries to compete with more agile rivals.]]></description>
+      <pubDate><![CDATA[Fri, 29 Mar 2013 22:36:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Ed Bott]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-apple/">Apple</category>
+      <category domain="http://www.zdnet.com/topic-microsoft/">Microsoft</category>
+      <category domain="http://www.zdnet.com/topic-pcs/">PCs</category>
+      <category domain="http://www.zdnet.com/topic-byod-and-the-consumerization-of-it/">BYOD and the Consumerization of IT</category>
+      <media:text type="html"><![CDATA[<p>Dell Inc. filed a <a href="http://phx.corporate-ir.net/phoenix.zhtml?c=101133&amp;p=IROL-secToc&amp;TOC=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9vdXRsaW5lLnhtbD9yZXBvPXRlbmsmaXBhZ2U9ODgzMDY0NCZzdWJzaWQ9NTc%3d&amp;ListAll=1">special proxy statement</a> with the U.S. Securities and Exchange Commission today, laying out its plans to take the company private.</p>
+<p>ZDNet’s Rachel King has details on what the proposed transaction <a href="http://www.zdnet.com/dells-latest-sec-filing-paints-picture-of-ceos-future-employment-7000013301/">will mean for the company’s founder and CEO, Michael Dell</a>.</p>
+<p>My eye&nbsp;was drawn to a lengthy bulleted list that begins on page 47, laying out the reasons why anyone holding Dell stock might want to sell. The section, under the heading “Reasons for the Merger,” was prepared by a Special Committee made up of “four independent and disinterested directors of the Company.” (The Wall Street Journal [subscribers only] has <a href="http://blogs.wsj.com/deals/2013/03/29/dells-special-committee-includes-ex-goldman-analyst-reagan-adviser/">a list of the four directors</a>, with bios.)</p>
+<p>The Special Committee argues that the proposed all-cash buyout represents a premium of between 25% and 37% of the Dell share price before the offer became public. If you’re a shareholder, they say, you should jump at the buyout to avoid being exposed to the “various risks and uncertainties related to continued ownership of Common Stock.” What follows is a remarkably downbeat portrait of Dell’s bleak position in a PC industry&nbsp;whose future&nbsp;is uncertain at best.</p>
+<p>Year over year, PC shipments have begun to show steep declines after slowing for the past five years, as data from Gartner Research confirms:</p>
+<figure><img title="pc-industry-2007-2012" alt="pc-industry-2007-2012" src="http://cdn-static.zdnet.com/i/r/story/70/00/013303/pc-industry-2007-2012-620x355.png?hash=BGt4AGyyLw&upscale=1" height="355" width="620"></figure>
+<p>The picture in 2009-2010 was slightly distorted by the worldwide recession, with shipments down sharply in 2009 as the economy struggled to come back from the 2008 banking crisis, with a bounceback in 2010 that consisted in no small part of deferred sales. If you assume that half of the shipments in 2010 were deferred from 2009, then the percentage increase in shipments over the past six years is 13, 11, 9, 7, 4, -3.</p>
+<p>Even without adjusting for those unusual factors, the trend line is unmistakably down, and with the current economic malaise in Europe there’s&nbsp;every indication&nbsp;that the negative trend will continue.</p>
+<p>That’s the starting point for the Dell Special Committee’s list of negatives, which&nbsp;opens&nbsp;by citing&nbsp;“decreasing revenues in the market for desktop and notebook PCs and the significant uncertainties as to whether, or when, this decrease will end…” The Special Committee blames the slowdown on a variety of factors:</p>
+<ul>
+<li>continued macroeconomic pressures</li>
+<li>lengthening replacement cycles</li>
+<li>the uncertain adoption of the Windows 8 operating system</li>
+<li>unexpected slowdowns in enterprise Windows 7 upgrades, and</li>
+<li>increasing substitution of smartphones and tablets for PCs.</li>
+</ul>
+<p>The industry as a whole is also under pressure thanks to “the increasing usage of alternative PC operating systems to Microsoft Windows.” Presumably that’s a reference to both Apple’s OS X, which is applying pressure at the high end of the market, and Google’s Chrome OS, which has scored some recent gains with extremely low-priced models from Samsung and Acer.</p>
+<p>The Special Committee also notes “the increasing importance of the smartphone and tablet markets.”&nbsp;That&nbsp;trend is especially&nbsp;unfortunate for Dell, which “currently has vey little presence” in that market.</p>
+<p>Dell’s historic strength in high-volume sales to large corporations is also at&nbsp;risk, the Special Committee says, citing&nbsp;“increasing adoption of ‘bring your own device’ policies by businesses, which allow employees to make their own decisions regarding which computers and/or other electronic devices.” That’s followed by a dry bit of understatement about unnamed competitors “whose products presently have greater appeal to consumers than the Company’s current products.” Ouch.</p>
+<p>Even if the PC industry can keep the volume of PC shipments up, revenues are still a big problem across the board, thanks to “ongoing downward pricing pressure and trend towards commoditization in the desktop and notebook personal computer market.”</p>
+<p>Several of Dell’s competitors, most notably Lenovo and ASUS, have scored gains in this down market. The secret of their success? At least in part, they’ve grown by concentrating on the low end of the market. That’s a problem for Dell, the report says. Dell’s strength has been in “higher-margin premium PC products,” the Special Committee says. The current PC market, especially in developing economies, has seen a “shift in demand … to lower-margin value products, a segment in which the Company has historically been much less competitive.”</p>
+<p>Michael Dell, who would presumably remain as&nbsp;CEO&nbsp;of&nbsp;the&nbsp;post-buyout company that bears his name, clearly wants to get out of the increasingly cutthroat PC business, where margins are slim and getting slimmer.</p>
+<p><strong>More recent coverage about Dell and the PC industry's troubles on <em>ZDNet</em></strong>:</p>
+<ul>
+<li><a href="http://www.zdnet.com/whats-behind-the-slump-in-pc-sales-can-the-industry-turn-around-7000009231/">What's behind the slump in PC sales? Can the industry turn around?</a></li>
+<li><a href="http://www.zdnet.com/dells-latest-sec-filing-paints-picture-of-ceos-future-employment-7000013301/">Dell's latest SEC filing paints picture of CEO's future employment</a></li>
+<li><a href="http://www.zdnet.com/what-will-the-new-dell-look-like-7000013193/">What will the new Dell look like?</a></li>
+<li><a >Dell: As Blackstone, Icahn circle, is there 'significant upside' left?</a></li>
+<li><a href="http://www.zdnet.com/why-icahns-dell-plan-could-be-a-fud-nightmare-7000012268/">Why Icahn's Dell plan could be a FUD nightmare</a></li>
+<li><a href="http://www.zdnet.com/blackstone-considering-last-minute-bid-for-dell-7000012808/">Blackstone considering last minute bid for Dell</a></li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013301</guid>
+      <link><![CDATA[http://www.zdnet.com/dells-latest-sec-filing-paints-picture-of-ceos-future-employment-7000013301/]]></link>
+      <title><![CDATA[Dell's latest SEC filing paints picture of CEO's future employment]]></title>
+      <description><![CDATA[Dell has filed a whopping 274-page outline and case for its shift to operating as a private company.]]></description>
+      <pubDate><![CDATA[Fri, 29 Mar 2013 20:56:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Rachel King]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-dell/">Dell</category>
+      <category domain="http://www.zdnet.com/topic-government-us/">Government US</category>
+      <category domain="http://www.zdnet.com/topic-legal/">Legal</category>
+      <category domain="http://www.zdnet.com/topic-pcs/">PCs</category>
+      <media:text type="html"><![CDATA[<figure><img title="michaek-dell" alt="michaek-dell" src="http://cdn-static.zdnet.com/i/r/library/michaek-dell-620x202.jpg?hash=ZGD5MzZ2MT&upscale=1" height="202" width="620"></figure>
+<p>The neverending saga about the future of <strong>Dell</strong> continues as the PC maker has filed a whopping 274-page proxy statement outlining its case to go private.</p>
+<p>The Round Rock, Texas-based company filed a Form PREM14A with the U.S. Securities and Exchange Commission on Friday, explaining to shareholders in legalese about some of the rationales for going private and what Dell could look like after all is said and done.</p>
+<p>Wedged in between numerous recommendations from the board and scheduling meetings for votes, there's also a snippet about the role of the company's founder and CEO, Michael Dell.</p>
+<p>Dell's <a href="http://phx.corporate-ir.net/phoenix.zhtml?c=101133&amp;p=irol-SECText&amp;TEXT=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9maWxpbmcueG1sP2lwYWdlPTg4MzA2NDQmRFNFUT0xJlNFUT0xMTgmU1FERVNDPVNFQ1RJT05fUEFHRSZleHA9JnN1YnNpZD01Nw%3d%3d">legacy and future with his own business</a> has been called into serious question in the last few weeks.</p>
+<p>Amid reports of a potential buyout by&nbsp;private equity investment firm Blackstone, <a href="http://www.zdnet.com/report-blackstone-asked-hurd-about-leading-dell-after-buyout-7000012916/">it was even rumored</a> that Dell would be replaced (either forcibly or due to his own resignation) by Oracle president and former HP chief Mark Hurd.</p>
+<p>While everything involving the future of Dell (including who will sit at the top) is up in the air at this point, the SEC filing <a href="http://phx.corporate-ir.net/phoenix.zhtml?c=101133&amp;p=irol-SECText&amp;TEXT=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9maWxpbmcueG1sP2lwYWdlPTg4MzA2NDQmRFNFUT0xJlNFUT0xMTgmU1FERVNDPVNFQ1RJT05fUEFHRSZleHA9JnN1YnNpZD01Nw%3d%3d">does highlight a few things</a>:</p>
+<blockquote>
+<p><em>Term</em>. The term of Mr. Dell’s employment is indefinite and may only be terminated (i) by Mr. Dell; or (ii) by Parent’s board of directors (a) for cause at any time or (b) following a change in control of Parent or an initial public offering, whichever occurs earlier.</p>
+<p><em>Base Salary</em>. Mr. Dell will be entitled to receive an initial annual base salary of $950,000. The base salary will be subject to annual review by Parent’s board of directors and may be increased, but not decreased.</p>
+<p><em>Annual Bonus</em>. Mr. Dell will be eligible to earn an annual bonus pursuant to the bonus plan applicable to senior executive officers of the Company, with a target equal to 200% of base salary.</p>
+</blockquote>
+<p>But it looks like there are a few catches too.</p>
+<p>Along with a few notes about golden parachutes and stock options, Michael Dell is also going to be tied to a confidentiality agreement about all "sensitive" info related to the Dell corporation and its subsidiaries as well as all "intellectual property created by him during and within the scope of his employment."</p>
+<p>The <a href="http://phx.corporate-ir.net/phoenix.zhtml?c=101133&amp;p=IROL-secToc&amp;TOC=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9vdXRsaW5lLnhtbD9yZXBvPXRlbmsmaXBhZ2U9ODgzMDY0NCZzdWJzaWQ9NTc%3d&amp;ListAll=1">full 274-page filing</a> is available online now.</p>
+<p><strong>More recent coverage about the bids for Dell on <em>ZDNet</em></strong>:</p>
+<ul>
+<li><a href="http://www.zdnet.com/what-will-the-new-dell-look-like-7000013193/">What will the new Dell look like?</a></li>
+<li><a href="http://www.zdnet.com/dell-software-chief-swainson-talks-scale-perception-growth-7000013018/">Dell Software chief Swainson talks scale, perception, growth</a></li>
+<li><a href="http://www.zdnet.com/dell-as-blackstone-icahn-circle-is-there-significant-upside-left-7000013078/">Dell: As Blackstone, Icahn circle, is there 'significant upside' left?</a></li>
+<li><a href="http://www.zdnet.com/why-icahns-dell-plan-could-be-a-fud-nightmare-7000012268/">Why Icahn's Dell plan could be a FUD nightmare</a></li>
+<li><a href="http://www.zdnet.com/blackstone-considering-last-minute-bid-for-dell-7000012808/">Blackstone considering last minute bid for Dell</a></li>
+</ul>]]></media:text>
+    </item>
+  </channel>
+</rss>

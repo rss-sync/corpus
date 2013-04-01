@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Watts Up With That?</title>
+	<atom:link href="http://wattsupwiththat.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wattsupwiththat.com</link>
+	<description>The world&#039;s most viewed site on global warming and climate change</description>
+	<lastBuildDate>Mon, 01 Apr 2013 11:43:02 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='wattsupwiththat.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>http://0.gravatar.com/blavatar/4ae0d93aaa7120fa2db03ea003672e7e?s=96&#038;d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png</url>
+		<title>Watts Up With That?</title>
+		<link>http://wattsupwiththat.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://wattsupwiththat.com/osd.xml" title="Watts Up With That?" />
+	<atom:link rel='hub' href='http://wattsupwiththat.com/?pushpress=hub'/>
+		<item>
+		<title>February 2013 Global Land+Sea Surface Temperature Anomaly Update</title>
+		<link>http://wattsupwiththat.com/2013/04/01/february-2013-global-landsea-surface-temperature-anomaly-update/</link>
+		<comments>http://wattsupwiththat.com/2013/04/01/february-2013-global-landsea-surface-temperature-anomaly-update/#comments</comments>
+		<pubDate>Mon, 01 Apr 2013 10:21:26 +0000</pubDate>
+		<dc:creator>Bob Tisdale</dc:creator>
+				<category><![CDATA[MetOffice]]></category>
+		<category><![CDATA[NASA GISS]]></category>
+		<category><![CDATA[NCDC]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83246</guid>
+		<description><![CDATA[It has been a while since I’ve presented the GISS, UK Met Office and NCDC global land surface air temperature plus sea surface temperature products. I’ve decided to add them to the datasets I update monthly. I’ll present each of &#8230; <a href="http://wattsupwiththat.com/2013/04/01/february-2013-global-landsea-surface-temperature-anomaly-update/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83246&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/04/01/february-2013-global-landsea-surface-temperature-anomaly-update/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+	
+		<media:content url="http://0.gravatar.com/avatar/f5a509e99cb56e419d34907175907fe5?s=96&#38;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">bobtisdale</media:title>
+		</media:content>
+
+		<media:content url="http://bobtisdale.files.wordpress.com/2013/04/01-gistemp.png" medium="image">
+			<media:title type="html">01 GISTEMP</media:title>
+		</media:content>
+
+		<media:content url="http://bobtisdale.files.wordpress.com/2013/04/02-hadcrut4.png" medium="image">
+			<media:title type="html">02 HADCRUT4</media:title>
+		</media:content>
+
+		<media:content url="http://bobtisdale.files.wordpress.com/2013/04/03-ncdc1.png" medium="image">
+			<media:title type="html">03 NCDC</media:title>
+		</media:content>
+
+		<media:content url="http://bobtisdale.files.wordpress.com/2013/04/04-comparison1.png" medium="image">
+			<media:title type="html">04 Comparison</media:title>
+		</media:content>
+
+		<media:content url="http://bobtisdale.files.wordpress.com/2013/04/05-comparison-short1.png" medium="image">
+			<media:title type="html">05 Comparison Short</media:title>
+		</media:content>
+
+		<media:content url="http://bobtisdale.files.wordpress.com/2013/04/06-average1.png" medium="image">
+			<media:title type="html">06 Average</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Quote of the week &#8211; &#8216;bad eggs&#8217; in the Marcott et al non-stick omelete recipe</title>
+		<link>http://wattsupwiththat.com/2013/03/31/quote-of-the-week-bad-eggs-in-the-marcott-et-al-omelete-recipe/</link>
+		<comments>http://wattsupwiththat.com/2013/03/31/quote-of-the-week-bad-eggs-in-the-marcott-et-al-omelete-recipe/#comments</comments>
+		<pubDate>Mon, 01 Apr 2013 05:46:40 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Marcott et al proxy paper]]></category>
+		<category><![CDATA[paleoclimatology]]></category>
+		<category><![CDATA[Marcott et al]]></category>
+		<category><![CDATA[National Science Foundation]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83229</guid>
+		<description><![CDATA[This is a scathing and revealing comment from another scientist regarding the Marcott et al affair. The context of it all has an odor of hydrogen sulfide about it. There are a few bad eggs, with the Real Climate mafia &#8230; <a href="http://wattsupwiththat.com/2013/03/31/quote-of-the-week-bad-eggs-in-the-marcott-et-al-omelete-recipe/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83229&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/31/quote-of-the-week-bad-eggs-in-the-marcott-et-al-omelete-recipe/feed/</wfw:commentRss>
+		<slash:comments>35</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2009/04/qotw_cropped.jpg?w=300" medium="image">
+			<media:title type="html">qotw_cropped</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/marcott21.jpg" medium="image">
+			<media:title type="html">marcott2[1]</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Weekly Climate and Energy News Roundup</title>
+		<link>http://wattsupwiththat.com/2013/03/31/weekly-climate-and-energy-news-roundup-85/</link>
+		<comments>http://wattsupwiththat.com/2013/03/31/weekly-climate-and-energy-news-roundup-85/#comments</comments>
+		<pubDate>Mon, 01 Apr 2013 02:15:46 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Climate News Roundup]]></category>
+		<category><![CDATA[Science & Environmental Policy Project]]></category>
+
+		<guid isPermaLink="false">https://wattsupwiththat.wordpress.com/?p=83223</guid>
+		<description><![CDATA[The Week That Was: 2013-03-30 (March 30, 2013)  Brought to You by SEPP (www.SEPP.org) The Science and Environmental Policy Project ################################################### Quote of the Week: The first principle is that you must not fool yourself&#8211;and you are the easiest person &#8230; <a href="http://wattsupwiththat.com/2013/03/31/weekly-climate-and-energy-news-roundup-85/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83223&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/31/weekly-climate-and-energy-news-roundup-85/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/07/sepp_necoast.jpg" medium="image">
+			<media:title type="html">SEPP_NECoast</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Marcott issues a FAQ on their paper</title>
+		<link>http://wattsupwiththat.com/2013/03/31/marcott-issues-a-faq-on-thei-paper/</link>
+		<comments>http://wattsupwiththat.com/2013/03/31/marcott-issues-a-faq-on-thei-paper/#comments</comments>
+		<pubDate>Mon, 01 Apr 2013 01:51:39 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Marcott et al proxy paper]]></category>
+		<category><![CDATA[Holocene]]></category>
+		<category><![CDATA[Temperature record]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83216</guid>
+		<description><![CDATA[This is from Real Climate, who played the &#8220;he who must not be named&#8221; game again in not pointing out criticisms. Gavin dissapoints. UPDATE: McIntyre responded earlier today with The Marcott Filibuster Marcott et al have posted their long-promised FAQ at &#8230; <a href="http://wattsupwiththat.com/2013/03/31/marcott-issues-a-faq-on-thei-paper/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83216&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/31/marcott-issues-a-faq-on-thei-paper/feed/</wfw:commentRss>
+		<slash:comments>37</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://www.realclimate.org/images//ProxySites_vs_Global1-1024x907.png" medium="image">
+			<media:title type="html">ProxySites_vs_Global</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Easter puzzle: the Chinese Egg</title>
+		<link>http://wattsupwiththat.com/2013/03/31/easter-puzzle-the-chinese-egg/</link>
+		<comments>http://wattsupwiththat.com/2013/03/31/easter-puzzle-the-chinese-egg/#comments</comments>
+		<pubDate>Sun, 31 Mar 2013 14:44:17 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Curious things]]></category>
+
+		<guid isPermaLink="false">https://wattsupwiththat.wordpress.com/?p=83190</guid>
+		<description><![CDATA[By Christopher Monckton of Brenchley Since this is the time of year for Easter eggs, here is a Chinese puzzle. The object is to break the egg into nine pieces, as shown, and rearrange them into the shape of a &#8230; <a href="http://wattsupwiththat.com/2013/03/31/easter-puzzle-the-chinese-egg/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83190&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/31/easter-puzzle-the-chinese-egg/feed/</wfw:commentRss>
+		<slash:comments>43</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/clip_image002_thumb10.jpg" medium="image">
+			<media:title type="html">clip_image002</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The Mail on Sunday takes on the CCC</title>
+		<link>http://wattsupwiththat.com/2013/03/31/the-mail-on-sunday-takes-on-the-ccc/</link>
+		<comments>http://wattsupwiththat.com/2013/03/31/the-mail-on-sunday-takes-on-the-ccc/#comments</comments>
+		<pubDate>Sun, 31 Mar 2013 14:29:27 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Climate News]]></category>
+		<category><![CDATA[media]]></category>
+		<category><![CDATA[Brian Hoskins]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[Committee on Climate Change]]></category>
+		<category><![CDATA[David Rose]]></category>
+		<category><![CDATA[Mail on Sunday]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83186</guid>
+		<description><![CDATA[David Rose of the Mail on Sunday is having a go at the Committee on Climate Change for their denial of the points raised in his article last week and this graph, which was sourced from NCAR and used in &#8230; <a href="http://wattsupwiththat.com/2013/03/31/the-mail-on-sunday-takes-on-the-ccc/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83186&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/31/the-mail-on-sunday-takes-on-the-ccc/feed/</wfw:commentRss>
+		<slash:comments>109</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://i.dailymail.co.uk/i/pix/2013/03/30/article-2301757-1903167F000005DC-59_634x480.jpg" medium="image" />
+	</item>
+		<item>
+		<title>“Global warming predictions prove accurate”– Guardian</title>
+		<link>http://wattsupwiththat.com/2013/03/31/global-warming-predictions-prove-accurate-guardian/</link>
+		<comments>http://wattsupwiththat.com/2013/03/31/global-warming-predictions-prove-accurate-guardian/#comments</comments>
+		<pubDate>Sun, 31 Mar 2013 11:30:48 +0000</pubDate>
+		<dc:creator>Paul Homewood</dc:creator>
+				<category><![CDATA[forecasting]]></category>
+		<category><![CDATA[global warming]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[David Rose]]></category>
+		<category><![CDATA[Myles Allen]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83119</guid>
+		<description><![CDATA[Guest post by Paul Homewood http://www.guardian.co.uk/environment/2013/mar/27/climate-change-model-global-warming The Mail on Sunday ran an article by David Rose a couple of weeks ago, pointing out just how woeful most climate models had been in predicting global temperatures in the last decade or &#8230; <a href="http://wattsupwiththat.com/2013/03/31/global-warming-predictions-prove-accurate-guardian/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83119&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/31/global-warming-predictions-prove-accurate-guardian/feed/</wfw:commentRss>
+		<slash:comments>110</slash:comments>
+	
+		<media:content url="http://0.gravatar.com/avatar/6cb53b0c2439d15f5923b437211b662d?s=96&#38;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">notalotofpeopleknowthat</media:title>
+		</media:content>
+
+		<media:content url="http://notalotofpeopleknowthat.files.wordpress.com/2013/03/image_thumb59.png?w=354&#38;h=479" medium="image">
+			<media:title type="html">image</media:title>
+		</media:content>
+
+		<media:content url="http://notalotofpeopleknowthat.files.wordpress.com/2013/03/image_thumb60.png?w=404&#38;h=241" medium="image">
+			<media:title type="html">image</media:title>
+		</media:content>
+
+		<media:content url="http://notalotofpeopleknowthat.files.wordpress.com/2013/03/image_thumb61.png?w=404&#38;h=254" medium="image">
+			<media:title type="html">image</media:title>
+		</media:content>
+
+		<media:content url="http://i90.photobucket.com/albums/k247/dhm1353/Climate%20Change/HansenvUAH.png" medium="image">
+			<media:title type="html">http://i90.photobucket.com/albums/k247/dhm1353/Climate%20Change/HansenvUAH.png</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The Pitfalls of Data Smoothing</title>
+		<link>http://wattsupwiththat.com/2013/03/30/the-pitfalls-of-data-smoothing/</link>
+		<comments>http://wattsupwiththat.com/2013/03/30/the-pitfalls-of-data-smoothing/#comments</comments>
+		<pubDate>Sun, 31 Mar 2013 02:59:32 +0000</pubDate>
+		<dc:creator>Willis Eschenbach</dc:creator>
+				<category><![CDATA[climate data]]></category>
+		<category><![CDATA[ClimateAudit]]></category>
+		<category><![CDATA[data smoothing]]></category>
+		<category><![CDATA[John Daly]]></category>
+		<category><![CDATA[smoothing]]></category>
+		<category><![CDATA[spurious correlation]]></category>
+		<category><![CDATA[Steve McIntyre]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83158</guid>
+		<description><![CDATA[Guest Post by Willis Eschenbach Since we&#8217;ve been discussing smoothing in datasets, I thought I&#8217;d repost something that Steve McIntyre had graciously allowed me to post on his amazing blog ClimateAudit back in 2008. Let me start by saying that when &#8230; <a href="http://wattsupwiththat.com/2013/03/30/the-pitfalls-of-data-smoothing/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83158&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/30/the-pitfalls-of-data-smoothing/feed/</wfw:commentRss>
+		<slash:comments>81</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/48436671f14543831cf0e1cf99a89f0d?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">weschenbach</media:title>
+		</media:content>
+
+		<media:content url="http://i863.photobucket.com/albums/ab195/weschenbach/chang_correlation_smoothing_0_12-1_zpsc7ec14bd.jpg" medium="image" />
+
+		<media:content url="http://i863.photobucket.com/albums/ab195/weschenbach/chang_correlation_smoothing_0_12-1_zpsc7ec14bd.jpg" medium="image" />
+
+		<media:content url="http://i863.photobucket.com/albums/ab195/weschenbach/chang_correlation_smoothing_all-1_zpsfef4937c.jpg" medium="image" />
+
+		<media:content url="http://i863.photobucket.com/albums/ab195/weschenbach/chang_correlation_smoothing_random-1_zpse51125c7.jpg" medium="image" />
+
+		<media:content url="http://i863.photobucket.com/albums/ab195/weschenbach/chang_correlation-1_zps422e8fda.jpg" medium="image" />
+	</item>
+		<item>
+		<title>Crowdsourcing the WUWT Paleoclimate Reference Page &#8211; Continued</title>
+		<link>http://wattsupwiththat.com/2013/03/30/crowdsourcing-the-wuwt-paleoclimate-reference-page-continued/</link>
+		<comments>http://wattsupwiththat.com/2013/03/30/crowdsourcing-the-wuwt-paleoclimate-reference-page-continued/#comments</comments>
+		<pubDate>Sat, 30 Mar 2013 23:55:20 +0000</pubDate>
+		<dc:creator>justthefactswuwt</dc:creator>
+				<category><![CDATA[paleoclimatology]]></category>
+		<category><![CDATA[climate]]></category>
+		<category><![CDATA[IPCC]]></category>
+		<category><![CDATA[Mann]]></category>
+		<category><![CDATA[Page]]></category>
+		<category><![CDATA[paleoclimate]]></category>
+		<category><![CDATA[reconstruction]]></category>
+		<category><![CDATA[Reference]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=81840</guid>
+		<description><![CDATA[Image Credit: Photobucket.com &#8211; GISP2 &#8211; Moberg &#8211; Keigwin &#8211; HadCRUT3 By WUWT regular &#8220;Just The Facts&#8221; During the first crowdsourcing thread for the under construction WUWT Paleoclimate Reference Page, we had a number solid recommendations and WUWT moderator D.B. &#8230; <a href="http://wattsupwiththat.com/2013/03/30/crowdsourcing-the-wuwt-paleoclimate-reference-page-continued/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=81840&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/30/crowdsourcing-the-wuwt-paleoclimate-reference-page-continued/feed/</wfw:commentRss>
+		<slash:comments>47</slash:comments>
+	
+		<media:content url="http://0.gravatar.com/avatar/3cb67d46933b358cc0314a038a357808?s=96&#38;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">justthefactswuwt</media:title>
+		</media:content>
+
+		<media:content url="http://i90.photobucket.com/albums/k247/dhm1353/Climate%20Change/Sargasso_GISP2_Moberg.png" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/14.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/gwma-002_op_987x740.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/2000-years-of-global-temperatures.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/06/ld2_1kyr11.png" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://i90.photobucket.com/albums/k247/dhm1353/Climate%20Change/Subatlantic_Had.png" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://i90.photobucket.com/albums/k247/dhm1353/Climate%20Change/Sargasso_GISP2_Moberg.png" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/warm_periods.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/gisp2_10ke.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/vostok-10kd.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2011/01/easterbrook_fig5.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/vostok_to_10kybp.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://i90.photobucket.com/albums/k247/dhm1353/Climate%20Change/HolHad.png" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://i90.photobucket.com/albums/k247/dhm1353/Climate%20Change/GISP2_Ljung_HadCRUT_10kya.png" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2009/12/noaa_gisp2_icecore_anim_hi-def3.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/sg2wav.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/vostok-last-12000-years-web.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/data4-climate-changes-lg.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/gisp2temperatureafter.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/bender-nsf.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/gisp2temperaturexaxisprafter.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/02/vostok-140kc.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/6a010536b58035970c0134840e51fd970c.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/800px-ice-core-isotope.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/image023.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/vostok_co2_airt.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/vostok-400kd.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/450-thousand.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/ice_age_temperature_rev.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/epica2d.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/vostok.jpg" medium="image">
+			<media:title type="html">Sea Surface Temperature Anomaly in Nino 3.4 Region</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/tempvsco267m.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/late-cretaceous.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/6a010536b58035970c011572416077970b.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/tempco2570mlefttorightafter.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/temp_co2_750_mya.gif" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/10/geological_timescale.jpg" medium="image">
+			<media:title type="html"> Global, Arctic &#38; Antarctic Sea Ice Area - 1979 to Present</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Dr. Michael Mann, Smooth Operator</title>
+		<link>http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/</link>
+		<comments>http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/#comments</comments>
+		<pubDate>Sat, 30 Mar 2013 14:26:04 +0000</pubDate>
+		<dc:creator>Willis Eschenbach</dc:creator>
+				<category><![CDATA[climate ugliness]]></category>
+		<category><![CDATA[Geophysical Research Letters]]></category>
+		<category><![CDATA[Michael Mann]]></category>
+		<category><![CDATA[smoothing]]></category>
+		<category><![CDATA[Steve McIntyre]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83134</guid>
+		<description><![CDATA[Guest Post by Willis Eschenbach People sometimes ask why I don&#8217;t publish in the so-called scientific journals. Here&#8217;s a little story about that. Back in 2004, Michael Mann wrote a mathematically naive piece about how to smooth the ends of &#8230; <a href="http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83134&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/30/dr-michael-mann-smooth-operator/feed/</wfw:commentRss>
+		<slash:comments>192</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/48436671f14543831cf0e1cf99a89f0d?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">weschenbach</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-1.jpg" medium="image">
+			<media:title type="html">smoothing fig 1</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-1.jpg" medium="image">
+			<media:title type="html">smoothing fig 1</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-02.jpg" medium="image">
+			<media:title type="html">smoothing fig 02</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-03.jpg" medium="image">
+			<media:title type="html">smoothing fig 03</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-04.jpg" medium="image">
+			<media:title type="html">smoothing fig 04</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-051.jpg" medium="image">
+			<media:title type="html">smoothing fig 05</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-08.jpg" medium="image">
+			<media:title type="html">smoothing fig 08</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/smoothing-fig-09.jpg" medium="image">
+			<media:title type="html">smoothing fig 09</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>James Hansen Says Coal Is Greening The Planet!?!</title>
+		<link>http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/#comments</comments>
+		<pubDate>Sat, 30 Mar 2013 00:30:34 +0000</pubDate>
+		<dc:creator>Willis Eschenbach</dc:creator>
+				<category><![CDATA[Alarmism]]></category>
+		<category><![CDATA[carbon sequestration]]></category>
+		<category><![CDATA[airborne fraction]]></category>
+		<category><![CDATA[atmospheric co2]]></category>
+		<category><![CDATA[Carbon sequestration]]></category>
+		<category><![CDATA[fossil fuel emissions]]></category>
+		<category><![CDATA[James Hansen]]></category>
+		<category><![CDATA[nitrogen deposition]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83103</guid>
+		<description><![CDATA[Guest Post by Willis Eschenbach There&#8217;s an interesting measure of atmospheric CO2, called the &#8220;airborne fraction&#8221;. The airborne fraction is the fraction of the CO2 emitted each year which remains in the atmosphere. When humans emit say 9 gigatonnes of &#8230; <a href="http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83103&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/james-hansen-says-coal-is-greening-the-planet/feed/</wfw:commentRss>
+		<slash:comments>162</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/48436671f14543831cf0e1cf99a89f0d?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">weschenbach</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/hansen2012-figure-3-display.jpg" medium="image">
+			<media:title type="html">hansen2012 figure 3 display</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/hansen2012-figure-3-mine.jpg" medium="image">
+			<media:title type="html">hansen2012 figure 3 mine</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/hansen2012-figure-3-mine-2.jpg" medium="image">
+			<media:title type="html">hansen2012 figure 3 mine 2</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/global-carbon-emissions-by-fuel-type.jpg" medium="image">
+			<media:title type="html">global carbon emissions by fuel type</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/what-coal-did-today.jpg" medium="image">
+			<media:title type="html">what coal did today</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Gore to speak at Stanford &#8211; open to the public</title>
+		<link>http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 20:59:24 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Al Gore]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83101</guid>
+		<description><![CDATA[From Al Gore to Speak at Stanford March 21, 2013 Former Vice President Al Gore will give a lecture on climate change on Tuesday, April 23, in honor of former Senior Fellow Stephen Schneider, a world-renowned climate scientist who died &#8230; <a href="http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83101&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/gore-to-speak-at-stanfor-open-to-the-public/feed/</wfw:commentRss>
+		<slash:comments>78</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://woods.stanford.edu/sites/all/themes/stanford/img/logo.png" medium="image" />
+	</item>
+		<item>
+		<title>The puzzle: why have rising temperatures been on a &#8216;Twenty-year hiatus&#8221;?</title>
+		<link>http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 18:00:54 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[Economist]]></category>
+		<category><![CDATA[greenhouse gas]]></category>
+		<category><![CDATA[James Hansen]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83095</guid>
+		<description><![CDATA[Not sure that &#8220;sceptical fringe&#8221; would apply here, but I&#8217;ll take the press where we can get it. See my comments below. &#8211; Anthony Twenty-year hiatus in rising temperatures has climate scientists puzzled &#124; The Australian DEBATE about the reality &#8230; <a href="http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83095&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/the-puzzle-why-have-rising-temperatures-been-on-a-twenty-year-hiatus/feed/</wfw:commentRss>
+		<slash:comments>194</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2013/03/20year_australian.png?w=233" medium="image">
+			<media:title type="html">20year_australian</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2012/07/watts_et_al_2012-figure20-conus-compliant-nonc-noaa.png?w=640&#38;h=487" medium="image">
+			<media:title type="html">Watts_et_al_2012 Figure20 CONUS Compliant-NonC-NOAA</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Antarctic summer effect confined to peninsula</title>
+		<link>http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 16:00:39 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[Antarctic]]></category>
+		<category><![CDATA[Antarctic Peninsula]]></category>
+		<category><![CDATA[British Antarctic Survey]]></category>
+		<category><![CDATA[Journal of Geophysical Research]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83085</guid>
+		<description><![CDATA[From the British Antarctic Survey , at least they didn&#8217;t pull a Steig and try to claim the observed effect on the Peninsula affects the entire continent. The peninsula is essentially a different Koppen climate class than the main continent, &#8230; <a href="http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83085&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/antarctic-summer-effect-confined-to-peninsula/feed/</wfw:commentRss>
+		<slash:comments>33</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2011/02/antarcticatemps19572006111.jpg?w=300&#38;h=273" medium="image">
+			<media:title type="html">antarcticatemps1957200611[1]</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Newsbytes: The Met office blunders again &#8211; warm bias in forecasting</title>
+		<link>http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/</link>
+		<comments>http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/#comments</comments>
+		<pubDate>Fri, 29 Mar 2013 14:56:21 +0000</pubDate>
+		<dc:creator>Anthony Watts</dc:creator>
+				<category><![CDATA[forecasting]]></category>
+		<category><![CDATA[MetOffice]]></category>
+		<category><![CDATA[BBC Weather]]></category>
+		<category><![CDATA[Met Office]]></category>
+
+		<guid isPermaLink="false">http://wattsupwiththat.com/?p=83087</guid>
+		<description><![CDATA[From The GWPF and Dr. Benny Peiser Met Office Apologises For Wrong Forecast &#8211; And Makes Another One  Warm Bias: The Met Office&#8217;s Disastrous Track Record Met Office apologises for warning of &#8216;dry spell&#8217; before wettest April on record. &#8211;The &#8230; <a href="http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=wattsupwiththat.com&#038;blog=1799261&#038;post=83087&#038;subd=wattsupwiththat&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>http://wattsupwiththat.com/2013/03/29/newsbytes-the-met-office-blunders-again-warm-bias-in-forecasting/feed/</wfw:commentRss>
+		<slash:comments>66</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/1783e222c2b280876825014ecb507d8b?s=96&#38;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&#38;r=G" medium="image">
+			<media:title type="html">Anthony Watts</media:title>
+		</media:content>
+
+		<media:content url="http://wattsupwiththat.files.wordpress.com/2008/09/met_office_forecast_computer-520.jpg?w=300" medium="image">
+			<media:title type="html">DART - Digital Advanced Reckoning Technology</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>
