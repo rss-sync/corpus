@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer</title>
+		<link>http://scripting.com/</link>
+		<description>Dave Winer's "Scripting News" weblog, started in April 1997, bootstrapped the blogging revolution.</description>
+		<language>en-us</language>
+		<pubDate>Thu, 04 Apr 2013 02:44:52 GMT</pubDate>
+		<lastBuildDate>Thu, 04 Apr 2013 02:44:52 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" path="/rsscloud/pleaseNotify" port="5337" protocol="http-post" registerProcedure=""></cloud>
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-04-03</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>4/3/2013; 10:44:52 PM</microblog:localTime>
+		<item>
+			<description>&lt;p>I love outliner people. They are so cool. And when I ship new outliners that are where people are looking for them, and today that is on the web -- I get to meet a lot of outliner people. And that makes me feel great!! &lt;/p>
+&lt;p>We need better tools for thinking. With those tools we might do more of it, and be more effective. I want the thinkers to be more powerful. That's it, that's why I work on outlining software. It's for the thinking.&lt;/p>
+&lt;p>The rest of it, open formats, keeping choice in the software, valuing users, that's all so we do more thinking.&lt;/p>
+</description>
+			<link>http://3qj.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 04 Apr 2013 02:44:27 GMT</pubDate>
+			<guid>http://3qj.r2.ly/?id=15986</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/whyIDoOutliners</microblog:linkFull>
+			<title>Thread: I do outliners for the thinking.</title>
+			<microblog:opml>
+&lt;outline created="Thu, 04 Apr 2013 02:39:20 GMT" pgfnum="22040" text="I love outliner people. They are so cool. And when I ship new outliners that are where people are looking for them, and today that is on the web -- I get to meet a lot of outliner people. And that makes me feel great!! ">&lt;/outline>
+&lt;outline created="Thu, 04 Apr 2013 02:40:40 GMT" pgfnum="22043" text="We need better tools for thinking. With those tools we might do more of it, and be more effective. I want the thinkers to be more powerful. That's it, that's why I work on outlining software. It's for the thinking.">&lt;/outline>
+&lt;outline created="Thu, 04 Apr 2013 02:41:16 GMT" pgfnum="22044" text="The rest of it, open formats, keeping choice in the software, valuing users, that's all so we do more thinking.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="http://www.salon.com/2013/03/21/without_honeybees_we_may_cease_to_be/">&lt;img src="http://static.scripting.com/larryKing/images/2013/04/02/bee.gif" width="145" height="105" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named bee.gif">&lt;/a>&lt;a href="http://www.theatlantic.com/technology/archive/2013/04/a-little-outliner-named-little-outliner/274586/">Nice writeup&lt;/a> by James Fallows of &lt;a href="http://littleoutliner.com/">Little Outliner&lt;/a>, much appreciated.&lt;/p>
+&lt;p>The story he tells is pretty typical of the software industry. He wrote about an online outliner a few years ago, but it's gone now. His favorite outliner, Grandview -- long-gone. My early outliners, gone too. A few products took their place, but nothing like the great start we got at the beginning of the PC software era.&lt;/p>
+&lt;p>What changed is the way we finance software. &lt;/p>
+&lt;p>And that seems to be a story reporters appreciate now, because one of their most-used products, Google Reader, is going away. Probably wouldn't happen if a smaller company made it, if they depended on revenue from the product to make payroll.&lt;/p>
+&lt;p>The wave that's undermining journalism crashed over software many years ago. That's why when journalists want us to make their mission the center of our attention, it's a bit of &lt;a href="http://en.wikipedia.org/wiki/Narcissism">narcissism&lt;/a> on their part. Because what's happening to their profession happened to mine long ago.&lt;/p>
+&lt;p>We human beings aren't that good at creating sustainable systems. The &lt;a href="http://www.salon.com/2013/03/21/without_honeybees_we_may_cease_to_be/">bees&lt;/a> are dying. The globe is &lt;a href="http://arstechnica.com/science/2013/04/oceans-continue-to-warm-especially-the-deeps/">warming&lt;/a>. And we lose great ideas in software, and it takes generations to reinvent them, only to lose them again. &lt;/p>
+&lt;p>I'm bringing back a little of it now. Outliners are my thing. Now let's see if we can make this work as a business. :-)&lt;/p>
+</description>
+			<link>http://3pm.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 02 Apr 2013 21:51:00 GMT</pubDate>
+			<guid>http://3pm.r2.ly/?id=15958</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/wereNotDoingSoftwareRight</microblog:linkFull>
+			<microblog:readCount>2317</microblog:readCount>
+			<title>Scripting News: We're not doing software right.</title>
+			<microblog:opml>
+&lt;outline created="Tue, 02 Apr 2013 21:42:09 GMT" pgfnum="21999" text="&amp;lt;a href=&amp;quot;http://www.salon.com/2013/03/21/without_honeybees_we_may_cease_to_be/&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/04/02/bee.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;105&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named bee.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;http://www.theatlantic.com/technology/archive/2013/04/a-little-outliner-named-little-outliner/274586/&amp;quot;&amp;gt;Nice writeup&amp;lt;/a&amp;gt; by James Fallows of &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;Little Outliner&amp;lt;/a&amp;gt;, much appreciated.">&lt;/outline>
+&lt;outline created="Tue, 02 Apr 2013 21:42:21 GMT" pgfnum="22000" text="The story he tells is pretty typical of the software industry. He wrote about an online outliner a few years ago, but it's gone now. His favorite outliner, Grandview -- long-gone. My early outliners, gone too. A few products took their place, but nothing like the great start we got at the beginning of the PC software era.">&lt;/outline>
+&lt;outline created="Tue, 02 Apr 2013 21:43:29 GMT" pgfnum="22001" text="What changed is the way we finance software. ">&lt;/outline>
+&lt;outline created="Tue, 02 Apr 2013 21:43:38 GMT" pgfnum="22002" text="And that seems to be a story reporters appreciate now, because one of their most-used products, Google Reader, is going away. Probably wouldn't happen if a smaller company made it, if they depended on revenue from the product to make payroll.">&lt;/outline>
+&lt;outline created="Tue, 02 Apr 2013 21:44:25 GMT" pgfnum="22003" text="The wave that's undermining journalism crashed over software many years ago. That's why when journalists want us to make their mission the center of our attention, it's a bit of &amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Narcissism&amp;quot;&amp;gt;narcissism&amp;lt;/a&amp;gt; on their part. Because what's happening to their profession happened to mine long ago.">&lt;/outline>
+&lt;outline created="Tue, 02 Apr 2013 21:45:25 GMT" pgfnum="22004" text="We human beings aren't that good at creating sustainable systems. The &amp;lt;a href=&amp;quot;http://www.salon.com/2013/03/21/without_honeybees_we_may_cease_to_be/&amp;quot;&amp;gt;bees&amp;lt;/a&amp;gt; are dying. The globe is &amp;lt;a href=&amp;quot;http://arstechnica.com/science/2013/04/oceans-continue-to-warm-especially-the-deeps/&amp;quot;&amp;gt;warming&amp;lt;/a&amp;gt;. And we lose great ideas in software, and it takes generations to reinvent them, only to lose them again. ">&lt;/outline>
+&lt;outline created="Tue, 02 Apr 2013 21:46:10 GMT" pgfnum="22005" text="I'm bringing back a little of it now. Outliners are my thing. Now let's see if we can make this work as a business. :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>As you may know, we shipped &lt;a href="http://littleoutliner.com/">Little Outliner&lt;/a> one week ago today. &lt;/p>
+&lt;p>It's done pretty well. I've been watching our stats page regularly and there always seem to be at least a couple dozen people using it. Sometimes as many as a thousand people are outlining with our simple browser-based notepad. &lt;/p>
+&lt;p>But all the users, and esp Kyle and myself, want the full-featured product. And we'll have something for you to try out, pretty soon. We did most of the development on the full product before releasing Little Outliner. We wanted to be sure the basic outlining code works, and we wanted to start off with the simple, no-brainer product. &lt;/p>
+&lt;p>We will always have Little Outliner, because power-user products can get too complicated for beginners. Just like a ski mountain has a bunny slope, with a hot cup of cocoa close-by, we want to make sure there's a super-easy outliner so people can get comfortable with the idea.&lt;/p>
+&lt;p>Okay, so we've built a rich product, it's coming soon -- but I want to also hook up tools to produce different ways of viewing text that was written and organized in the outliner. The prototypical example of this is a slide show. That's what MORE did so well, why it won all the awards, and caught the attention of the press and investors, Guy Kawasaki and Apple, and a whole boatload of users. So that's where we begin with the plug-in story today. &lt;/p>
+&lt;p>We've created a little slide-show renderer, using the beautiful JavaScript presentations of &lt;a href="http://lab.hakim.se/reveal-js/#/">reveal.js&lt;/a>. Then we added an &lt;a href="http://static.scripting.com/larryKing/images/2013/03/31/screen1.gif">icon&lt;/a> to the left side-bar of Little Outliner that takes the content of the bar cursor outline and shoots it over to the presenter. It in turn sends back the HTML which we then display in a preview &lt;a href="http://static.scripting.com/larryKing/images/2013/03/31/screen2.gif">window&lt;/a>. All this is done with interfaces that are every bit as simple as they sound. &lt;/p>
+&lt;p>All this is accomplished with OPML, which is an incredible way to package up a structure of text to ship between programs. It's almost a whole language unto itself for specifying the arrangement of text. And as you know, we have an easy editor for producing OPML (the world-famous Little Outliner you've heard so much about). And with all the experimentation that's been done in JavaScript tools for presenting stuff, the outliner is the missing element that makes this stuff truly user-friendly. If you don't believe me, have a look at the docs for &lt;a href="http://lab.hakim.se/reveal-js/#/">reveal.js&lt;/a>. Or &lt;a href="http://markdalgleish.com/projects/bespoke.js/">bespoke.js&lt;/a>. Or &lt;a href="http://bartaz.github.com/impress.js/#/bored">impress.js&lt;/a>. All of them produce wonderfully animated presentations, but you have to be a real glutton for tech detail to even begin to create your own. But with an outliner it's dramatically easy.&lt;/p>
+&lt;p>So now we're ready to show, dear developer, how plug-ins will work with our outliner. Right now you have to jump through a few hoops to enable the demo. This howto shows you what to do.&lt;/p>
+&lt;p>&lt;a href="http://worknotes.smallpicture.com/march2013/pluginDemo">http://worknotes.smallpicture.com/march2013/pluginDemo&lt;/a>&lt;/p>
+&lt;p>Hope you like! :-)&lt;/p>
+</description>
+			<link>http://3p1.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 01 Apr 2013 17:26:57 GMT</pubDate>
+			<guid>http://3p1.r2.ly/?id=15935</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/outlinerPlugins</microblog:linkFull>
+			<microblog:readCount>3307</microblog:readCount>
+			<title>Scripting News: Outliner plug-ins.</title>
+			<microblog:opml>
+&lt;outline created="Mon, 01 Apr 2013 17:00:21 GMT" pgfnum="21895" text="As you may know, we shipped &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;Little Outliner&amp;lt;/a&amp;gt; one week ago today. ">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:00:39 GMT" pgfnum="21896" text="It's done pretty well. I've been watching our stats page regularly and there always seem to be at least a couple dozen people using it. Sometimes as many as a thousand people are outlining with our simple browser-based notepad. ">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:01:21 GMT" pgfnum="21897" text="But all the users, and esp Kyle and myself, want the full-featured product. And we'll have something for you to try out, pretty soon. We did most of the development on the full product before releasing Little Outliner. We wanted to be sure the basic outlining code works, and we wanted to start off with the simple, no-brainer product. ">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:02:40 GMT" pgfnum="21898" text="We will always have Little Outliner, because power-user products can get too complicated for beginners. Just like a ski mountain has a bunny slope, with a hot cup of cocoa close-by, we want to make sure there's a super-easy outliner so people can get comfortable with the idea.">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:03:31 GMT" pgfnum="21899" text="Okay, so we've built a rich product, it's coming soon -- but I want to also hook up tools to produce different ways of viewing text that was written and organized in the outliner. The prototypical example of this is a slide show. That's what MORE did so well, why it won all the awards, and caught the attention of the press and investors, Guy Kawasaki and Apple, and a whole boatload of users. So that's where we begin with the plug-in story today. ">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:05:19 GMT" pgfnum="21900" text="We've created a little slide-show renderer, using the beautiful JavaScript presentations of &amp;lt;a href=&amp;quot;http://lab.hakim.se/reveal-js/#/&amp;quot;&amp;gt;reveal.js&amp;lt;/a&amp;gt;. Then we added an &amp;lt;a href=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/31/screen1.gif&amp;quot;&amp;gt;icon&amp;lt;/a&amp;gt; to the left side-bar of Little Outliner that takes the content of the bar cursor outline and shoots it over to the presenter. It in turn sends back the HTML which we then display in a preview &amp;lt;a href=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/31/screen2.gif&amp;quot;&amp;gt;window&amp;lt;/a&amp;gt;. All this is done with interfaces that are every bit as simple as they sound. ">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:06:46 GMT" pgfnum="21902" text="All this is accomplished with OPML, which is an incredible way to package up a structure of text to ship between programs. It's almost a whole language unto itself for specifying the arrangement of text. And as you know, we have an easy editor for producing OPML (the world-famous Little Outliner you've heard so much about). And with all the experimentation that's been done in JavaScript tools for presenting stuff, the outliner is the missing element that makes this stuff truly user-friendly. If you don't believe me, have a look at the docs for &amp;lt;a href=&amp;quot;http://lab.hakim.se/reveal-js/#/&amp;quot;&amp;gt;reveal.js&amp;lt;/a&amp;gt;. Or &amp;lt;a href=&amp;quot;http://markdalgleish.com/projects/bespoke.js/&amp;quot;&amp;gt;bespoke.js&amp;lt;/a&amp;gt;. Or &amp;lt;a href=&amp;quot;http://bartaz.github.com/impress.js/#/bored&amp;quot;&amp;gt;impress.js&amp;lt;/a&amp;gt;. All of them produce wonderfully animated presentations, but you have to be a real glutton for tech detail to even begin to create your own. But with an outliner it's dramatically easy.">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:12:39 GMT" pgfnum="21903" text="So now we're ready to show, dear developer, how plug-ins will work with our outliner. Right now you have to jump through a few hoops to enable the demo. This howto shows you what to do.">&lt;/outline>
+&lt;outline text="&amp;lt;a href=&amp;quot;http://worknotes.smallpicture.com/march2013/pluginDemo&amp;quot;&amp;gt;http://worknotes.smallpicture.com/march2013/pluginDemo&amp;lt;/a&amp;gt;">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 17:22:56 GMT" pgfnum="21904" text="Hope you like! :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>It's been 10 years since the Berkman-Thursday group started, and with it, blogging at Harvard. It all happened at the same time Facebook was booting up on campus. &lt;/p>
+&lt;p>It was an &lt;a href="http://blogs.law.harvard.edu/bloggroup/about/">informal group&lt;/a> that met at &lt;a href="http://cyber.law.harvard.edu/">Berkman Center&lt;/a> every Thursday evening. Our goal was to boot up a blogging community at the university and in the surrounding community. It was the first university at the time to offer blogging. We needed a way to create a pulse, a weekly event that was open to anyone where you could learn about blogging, and we could learn from each other. &lt;/p>
+&lt;p>It evolved in a number of directions. New software came out of the group. We planned and succesfully ran the first blogging conferences in the US. We taught a lot of people how to blog. And the sessions themselves were a lot like blog posts. Someone comes in with an idea, talks about it, we ask questions and discuss it. We discussed the things we were writing on our blogs. &lt;/p>
+&lt;p>The group continued running as a weekly seminar series until a couple of years ago. &lt;/p>
+&lt;p>Now we're approaching the 10th anniversary and some of the members have expressed an interest in a reunion. I've asked for space at Berkman, and they got pretty excited about the idea, so we're having a &lt;i>Old Timers Day&lt;/i> meetup on April 25 at Berkman Center at 7PM, &lt;a href="https://maps.google.com/maps?q=23+Everett+St,+Cambridge,+MA&amp;hl=en&amp;sll=40.697488,-73.979681&amp;sspn=1.086989,1.274414&amp;oq=23+everett+St,+cam&amp;hnear=23+Everett+St,+Cambridge,+Middlesex,+Massachusetts+02138&amp;t=m&amp;z=17">23 Everett Street&lt;/a>. &lt;/p>
+&lt;p>We'll talk about what we've been doing, what we learned, how life evolved in the last ten years, what we got right and what we got wrong, and what role the Thursday evening meetings played for us. I will also show off the software I've been developing, Little Outliner and other goodies. Some of them will already be shipping by the end of April. ;-) &lt;/p>
+&lt;p>There should be room for 25-30 people. I've set up an Eventbrite page. &lt;/p>
+&lt;p>&lt;a href="http://berkmanthursday2013.eventbrite.com/">http://berkmanthursday2013.eventbrite.com/&lt;/a>&lt;/p>
+&lt;p>Hope to see you in Cambridge on April 25. &lt;/p>
+&lt;p>PS: Here's the archive of Scripting News for &lt;a href="http://scripting.com/2003/03.html">March 2003&lt;/a>. You'll see a lot of the developments at Berkman recorded there. &lt;/p>
+</description>
+			<link>http://3o6.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sun, 31 Mar 2013 18:27:24 GMT</pubDate>
+			<guid>http://3o6.r2.ly/?id=15920</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/berkmanThursdayReunion</microblog:linkFull>
+			<microblog:readCount>2388</microblog:readCount>
+			<title>Scripting News: Ten-year Berkman Thursday reunion meetup on April 25.</title>
+			<microblog:opml>
+&lt;outline text="It's been 10 years since the Berkman-Thursday group started, and with it, blogging at Harvard. It all happened at the same time Facebook was booting up on campus. ">&lt;/outline>
+&lt;outline created="Sat, 30 Mar 2013 17:29:30 GMT" pgfnum="21719" text="It was an &amp;lt;a href=&amp;quot;http://blogs.law.harvard.edu/bloggroup/about/&amp;quot;&amp;gt;informal group&amp;lt;/a&amp;gt; that met at &amp;lt;a href=&amp;quot;http://cyber.law.harvard.edu/&amp;quot;&amp;gt;Berkman Center&amp;lt;/a&amp;gt; every Thursday evening. Our goal was to boot up a blogging community at the university and in the surrounding community. It was the first university at the time to offer blogging. We needed a way to create a pulse, a weekly event that was open to anyone where you could learn about blogging, and we could learn from each other. ">&lt;/outline>
+&lt;outline text="It evolved in a number of directions. New software came out of the group. We planned and succesfully ran the first blogging conferences in the US. We taught a lot of people how to blog. And the sessions themselves were a lot like blog posts. Someone comes in with an idea, talks about it, we ask questions and discuss it. We discussed the things we were writing on our blogs. ">&lt;/outline>
+&lt;outline text="The group continued running as a weekly seminar series until a couple of years ago. ">&lt;/outline>
+&lt;outline text="Now we're approaching the 10th anniversary and some of the members have expressed an interest in a reunion. I've asked for space at Berkman, and they got pretty excited about the idea, so we're having a &amp;lt;i&amp;gt;Old Timers Day&amp;lt;/i&amp;gt; meetup on April 25 at Berkman Center at 7PM, &amp;lt;a href=&amp;quot;https://maps.google.com/maps?q=23+Everett+St,+Cambridge,+MA&amp;amp;hl=en&amp;amp;sll=40.697488,-73.979681&amp;amp;sspn=1.086989,1.274414&amp;amp;oq=23+everett+St,+cam&amp;amp;hnear=23+Everett+St,+Cambridge,+Middlesex,+Massachusetts+02138&amp;amp;t=m&amp;amp;z=17&amp;quot;&amp;gt;23 Everett Street&amp;lt;/a&amp;gt;. ">&lt;/outline>
+&lt;outline created="Sat, 30 Mar 2013 17:32:49 GMT" pgfnum="21720" text="We'll talk about what we've been doing, what we learned, how life evolved in the last ten years, what we got right and what we got wrong, and what role the Thursday evening meetings played for us. I will also show off the software I've been developing, Little Outliner and other goodies. Some of them will already be shipping by the end of April. ;-) ">&lt;/outline>
+&lt;outline created="Sat, 30 Mar 2013 17:34:14 GMT" pgfnum="21721" text="There should be room for 25-30 people. I've set up an Eventbrite page. ">&lt;/outline>
+&lt;outline created="Sat, 30 Mar 2013 17:34:39 GMT" pgfnum="21722" text="&amp;lt;a href=&amp;quot;http://berkmanthursday2013.eventbrite.com/&amp;quot;&amp;gt;http://berkmanthursday2013.eventbrite.com/&amp;lt;/a&amp;gt;">&lt;/outline>
+&lt;outline created="Sat, 30 Mar 2013 17:34:40 GMT" pgfnum="21723" text="Hope to see you in Cambridge on April 25. ">&lt;/outline>
+&lt;outline created="Sat, 30 Mar 2013 18:19:34 GMT" pgfnum="21724" text="PS: Here's the archive of Scripting News for &amp;lt;a href=&amp;quot;http://scripting.com/2003/03.html&amp;quot;&amp;gt;March 2003&amp;lt;/a&amp;gt;. You'll see a lot of the developments at Berkman recorded there. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="http://www.amazon.com/McFarlane-Toys-Series-Stoudemire-Action/dp/B00483KC9O/ref=sr_1_5?s=toys-and-games&amp;ie=UTF8&amp;qid=1364735786&amp;sr=1-5&amp;keywords=mcfarlane+toys+basketball+knicks">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/31/amare.gif" width="125" height="236" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named amare.gif">&lt;/a>The worst tradition of the net is the April Fools news article.&lt;/p>
+&lt;p>I have something to announce. I'm quitting. No I'm not. Fooled you!&lt;/p>
+&lt;p>My competitor is a jerk. Haha. You're a fool.&lt;/p>
+&lt;p>None of it is funny, and while sometimes you are surprised, the surprise almost never feels good, or right.&lt;/p>
+&lt;p>It's bad enough that the people who indulge in this idiocy hurt their own reps, but it also makes it hard to do any communication on April 1. North Korea is threatening nuclear war. Haha. April Fools. Cyprus is having a run on the banks. No they're not. But what if they are? What if there really is astounding news on April 1? Are you prepared to believe it? &lt;/p>
+&lt;p>It would be good if we were all more circumspect about what we read.&lt;/p>
+&lt;p>But journalists joking about inaccuracy in their reporting is like a surgeon leaving his or her lunch in your chest. Or a programmer deliberately putting a virus on your hard disk. Lies are the stuff we're supposed to be fighting against, not actively inviting in.&lt;/p>
+&lt;p>If I come across something totally awful, I'll put a pointer here. Feel free to do the same in a comment.&lt;/p>
+&lt;p>1. TechCrunch wins the award for the &lt;a href="http://techcrunch.com/2013/03/31/youtube-announces-that-it-has-been-an-8-year-contest-will-shut-down-on-april-1-to-determine-the-winner/">first&lt;/a> inane April Idiocy post. &lt;/p>
+&lt;p>2. &lt;a href="https://twitter.com/scottradcliff/status/318474542320349184">Scott Radcliffe&lt;/a> says he can't wait for Google's announcement tomorrow. So I ask him what they're going to announce and he says he was saying he hates 4/1 in a roundabout way. Oh. Ouch.&lt;/p>
+&lt;p>3. &lt;a href="http://sethgodin.typepad.com/seths_blog/2013/04/is-the-new-kindle-zero-the-sign-of-things-to-come.html">Seth Godin's&lt;/a> is noteworthy because he's the &lt;i>last person&lt;/i> I'd expect to partake in the idiocy. Peer pressure? The idea of a $0 Kindle is interesting. Since when does Godin have leaks of product announcements, esp for one of his biggest customers (if not his biggest). It was misleading for a fraction of a second, and then made me want to throw up.&lt;/p>
+&lt;p>Yours truly,&lt;/p>
+&lt;p>Dave Winer, 3/31/13&lt;/p>
+</description>
+			<link>http://3ol.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sun, 31 Mar 2013 13:39:58 GMT</pubDate>
+			<guid>http://3ol.r2.ly/?id=15914</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theCreepiestApril1WebPage</microblog:linkFull>
+			<microblog:readCount>3396</microblog:readCount>
+			<title>Thread: The creepiest April 1 web page?</title>
+			<microblog:opml>
+&lt;outline created="Sun, 31 Mar 2013 13:32:23 GMT" pgfnum="21787" text="&amp;lt;a href=&amp;quot;http://www.amazon.com/McFarlane-Toys-Series-Stoudemire-Action/dp/B00483KC9O/ref=sr_1_5?s=toys-and-games&amp;amp;ie=UTF8&amp;amp;qid=1364735786&amp;amp;sr=1-5&amp;amp;keywords=mcfarlane+toys+basketball+knicks&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/31/amare.gif&amp;quot; width=&amp;quot;125&amp;quot; height=&amp;quot;236&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named amare.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;The worst tradition of the net is the April Fools news article.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:32:40 GMT" pgfnum="21788" text="I have something to announce. I'm quitting. No I'm not. Fooled you!">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:32:54 GMT" pgfnum="21789" text="My competitor is a jerk. Haha. You're a fool.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:33:10 GMT" pgfnum="21790" text="None of it is funny, and while sometimes you are surprised, the surprise almost never feels good, or right.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:33:39 GMT" pgfnum="21791" text="It's bad enough that the people who indulge in this idiocy hurt their own reps, but it also makes it hard to do any communication on April 1. North Korea is threatening nuclear war. Haha. April Fools. Cyprus is having a run on the banks. No they're not. But what if they are? What if there really is astounding news on April 1? Are you prepared to believe it? ">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:35:07 GMT" pgfnum="21792" text="It would be good if we were all more circumspect about what we read.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:35:17 GMT" pgfnum="21793" text="But journalists joking about inaccuracy in their reporting is like a surgeon leaving his or her lunch in your chest. Or a programmer deliberately putting a virus on your hard disk. Lies are the stuff we're supposed to be fighting against, not actively inviting in.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:36:29 GMT" pgfnum="21795" text="If I come across something totally awful, I'll put a pointer here. Feel free to do the same in a comment.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 15:25:33 GMT" pgfnum="21808" text="1. TechCrunch wins the award for the &amp;lt;a href=&amp;quot;http://techcrunch.com/2013/03/31/youtube-announces-that-it-has-been-an-8-year-contest-will-shut-down-on-april-1-to-determine-the-winner/&amp;quot;&amp;gt;first&amp;lt;/a&amp;gt; inane April Idiocy post. ">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 21:32:00 GMT" pgfnum="21876" text="2. &amp;lt;a href=&amp;quot;https://twitter.com/scottradcliff/status/318474542320349184&amp;quot;&amp;gt;Scott Radcliffe&amp;lt;/a&amp;gt; says he can't wait for Google's announcement tomorrow. So I ask him what they're going to announce and he says he was saying he hates 4/1 in a roundabout way. Oh. Ouch.">&lt;/outline>
+&lt;outline created="Mon, 01 Apr 2013 12:16:45 GMT" pgfnum="21887" text="3. &amp;lt;a href=&amp;quot;http://sethgodin.typepad.com/seths_blog/2013/04/is-the-new-kindle-zero-the-sign-of-things-to-come.html&amp;quot;&amp;gt;Seth Godin's&amp;lt;/a&amp;gt; is noteworthy because he's the &amp;lt;i&amp;gt;last person&amp;lt;/i&amp;gt; I'd expect to partake in the idiocy. Peer pressure? The idea of a $0 Kindle is interesting. Since when does Godin have leaks of product announcements, esp for one of his biggest customers (if not his biggest). It was misleading for a fraction of a second, and then made me want to throw up.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:36:49 GMT" pgfnum="21796" text="Yours truly,">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:36:53 GMT" pgfnum="21797" text="Dave Winer, 3/31/13">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=019-0015-00EN6">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/31/knicksUniform.gif" width="83" height="225" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named knicksUniform.gif">&lt;/a>Just read this &lt;a href="http://www.nytimes.com/2013/03/31/nyregion/software-engineering-school-was-teachers-idea-but-its-been-done-citys-way.html?emc=rss&amp;partner=rss&amp;_r=0">story&lt;/a> in today's NY Times about the Stuyvesant High School teacher who wanted to make an elite school to teach &lt;a href="http://en.wikipedia.org/wiki/Computer_science">computer science&lt;/a> to young gifted New Yorkers.&lt;/p>
+&lt;p>It was a Fred Wilson thing. Fred Wilson is to developers what &lt;a href="http://www.nytimes.com/2012/08/04/nyregion/spike-lee-to-stick-with-his-knicks.html?pagewanted=all">Spike Lee&lt;/a> is to the Knicks. The guy who shows up at every game and roots the team on, through thick and thin, no matter if they start a Brooklyn team (Lee is also a cultural icon of Brooklyn). He loves the orange and blue uniforms of the Knicks and Madison Square Garden. Only in this sport, the fan is confused for the great player by the opinion leaders and gatekeepers. As if all there were to being a champion is having a lot of money (you might argue the opposite is true, the most interesting players are the ones who don't have any money, but hunger for recognition).&lt;/p>
+&lt;p>The Board of Ed liked the idea so much they stole it and usurped it, and now instead of creating great young talent to flow into Fred's NY startups, they'll create Certified Cisco maintenence guys. Or people who can keep Windows networks running as long as Microsoft is making them. Or Oracle databases.&lt;/p>
+&lt;p>The fight is a familiar one. Should we create hackers for Wall Street or for the nascent high tech startup industry that's trying to get a foothold in NYC. Fred of course wants the flow for Foursquare and Stack Exchange and Etsy etc. And Bloomberg wants them for Chase, Citibank and the Department of Sanitation. &lt;/p>
+&lt;p>There is a third possibility. Tell the captains of finance to back off, and let's create some developers who are capable of taking us in new directions. Not into Wilson's companies or Bloomberg's. &lt;/p>
+&lt;p>Not much chance of that of course. ;-)&lt;/p>
+&lt;p>So we'll still have Spike Lee coaching the team. Let's keep everything on a steady predictable course. As long as it makes me richer. (Paraphrasing.)&lt;/p>
+&lt;p>New York has always been run for the benefit of the already-rich at the expense of the gifted artist. Maybe it's not true in every art, but it totally so in the art of creating great world-changing software. In a few years when these kids are ready to work there will be a new league, and no one is prepared today to teach them the skills they will need for that. So it doesn't matter much who controls the curriculum. The really smart ones will figure it out. And they will surprise us and teach us a lot. (And if there's any sanity we will get to teach them a thing or two as well.)&lt;/p>
+&lt;p>PS: I went to Bronx Science, which is an elite public school, like Stuyvesant. Neither they nor I discovered, while I was a student there, that I had a talent for tech, and my media hacking was seen as a social behavior problem. So I don't have a lot of faith in the idea of elite NYC high schools. However, the students taught each other a lot, and we created our own fun. Which is kind of what I'm getting at in this piece. &lt;/p>
+&lt;p>PPS: In addition to teaching kids how to be great commercial developers, I'd teach them how to create open systems without lock-in. That's the equivalent of the scientific method for software design. Schools have an obligation to teach the idealism of art, not only the craft. &lt;/p>
+</description>
+			<link>http://3ok.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sun, 31 Mar 2013 13:03:34 GMT</pubDate>
+			<guid>http://3ok.r2.ly/?id=15913</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/theSoulOfTheNewEngineer</microblog:linkFull>
+			<microblog:readCount>3043</microblog:readCount>
+			<title>Scripting News: The soul of the new developer.</title>
+			<microblog:opml>
+&lt;outline created="Sun, 31 Mar 2013 12:36:03 GMT" pgfnum="21776" text="&amp;lt;a href=&amp;quot;http://www.newegg.com/Product/Product.aspx?Item=019-0015-00EN6&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/31/knicksUniform.gif&amp;quot; width=&amp;quot;83&amp;quot; height=&amp;quot;225&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named knicksUniform.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;Just read this &amp;lt;a href=&amp;quot;http://www.nytimes.com/2013/03/31/nyregion/software-engineering-school-was-teachers-idea-but-its-been-done-citys-way.html?emc=rss&amp;amp;partner=rss&amp;amp;_r=0&amp;quot;&amp;gt;story&amp;lt;/a&amp;gt; in today's NY Times about the Stuyvesant High School teacher who wanted to make an elite school to teach &amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Computer_science&amp;quot;&amp;gt;computer science&amp;lt;/a&amp;gt; to young gifted New Yorkers.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 12:36:53 GMT" pgfnum="21777" text="It was a Fred Wilson thing. Fred Wilson is to developers what &amp;lt;a href=&amp;quot;http://www.nytimes.com/2012/08/04/nyregion/spike-lee-to-stick-with-his-knicks.html?pagewanted=all&amp;quot;&amp;gt;Spike Lee&amp;lt;/a&amp;gt; is to the Knicks. The guy who shows up at every game and roots the team on, through thick and thin, no matter if they start a Brooklyn team (Lee is also a cultural icon of Brooklyn). He loves the orange and blue uniforms of the Knicks and Madison Square Garden. Only in this sport, the fan is confused for the great player by the opinion leaders and gatekeepers. As if all there were to being a champion is having a lot of money (you might argue the opposite is true, the most interesting players are the ones who don't have any money, but hunger for recognition).">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 12:38:14 GMT" pgfnum="21778" text="The Board of Ed liked the idea so much they stole it and usurped it, and now instead of creating great young talent to flow into Fred's NY startups, they'll create Certified Cisco maintenence guys. Or people who can keep Windows networks running as long as Microsoft is making them. Or Oracle databases.">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 12:39:50 GMT" pgfnum="21779" text="The fight is a familiar one. Should we create hackers for Wall Street or for the nascent high tech startup industry that's trying to get a foothold in NYC. Fred of course wants the flow for Foursquare and Stack Exchange and Etsy etc. And Bloomberg wants them for Chase, Citibank and the Department of Sanitation. ">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 12:41:20 GMT" pgfnum="21781" text="There is a third possibility. Tell the captains of finance to back off, and let's create some developers who are capable of taking us in new directions. Not into Wilson's companies or Bloomberg's. ">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:26:14 GMT" pgfnum="21785" text="Not much chance of that of course. ;-)">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 12:42:43 GMT" pgfnum="21782" text="So we'll still have Spike Lee coaching the team. Let's keep everything on a steady predictable course. As long as it makes me richer. (Paraphrasing.)">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 12:43:32 GMT" pgfnum="21783" text="New York has always been run for the benefit of the already-rich at the expense of the gifted artist. Maybe it's not true in every art, but it totally so in the art of creating great world-changing software. In a few years when these kids are ready to work there will be a new league, and no one is prepared today to teach them the skills they will need for that. So it doesn't matter much who controls the curriculum. The really smart ones will figure it out. And they will surprise us and teach us a lot. (And if there's any sanity we will get to teach them a thing or two as well.)">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 12:50:11 GMT" pgfnum="21784" text="PS: I went to Bronx Science, which is an elite public school, like Stuyvesant. Neither they nor I discovered, while I was a student there, that I had a talent for tech, and my media hacking was seen as a social behavior problem. So I don't have a lot of faith in the idea of elite NYC high schools. However, the students taught each other a lot, and we created our own fun. Which is kind of what I'm getting at in this piece. ">&lt;/outline>
+&lt;outline created="Sun, 31 Mar 2013 13:47:28 GMT" pgfnum="21799" text="PPS: In addition to teaching kids how to be great commercial developers, I'd teach them how to create open systems without lock-in. That's the equivalent of the scientific method for software design. Schools have an obligation to teach the idealism of art, not only the craft. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/30/cable.gif" width="145" height="89" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named cable.gif">Any company that takes content off the web and puts it in a private silo is playing on its own team. There are lots of companies doing this, so there are lots of teams. I'm on the team that puts all the content on the web. That means that every bit can have an address. That means it can all be plugged into other applications. So our work multiplies. The value of ideas deposited on the web is much greater than ideas that are trapped in a silo. There are lots of people, companies, universities, libraries, open source projects and governments in "web team" space. It may seem naive for any single company to throw its lot in with us, but when you see the full picture, you see it's actually the other way around. What we create together can be much much bigger than anything a single company can do. &lt;/p>
+&lt;p>PS: &lt;a href="http://littleoutliner.com/">Little Outliner&lt;/a> is on the web team too. ;-)&lt;/p>
+</description>
+			<link>http://3o9.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Sat, 30 Mar 2013 20:51:30 GMT</pubDate>
+			<guid>http://3o9.r2.ly/?id=15900</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/imOnTheWebTeam</microblog:linkFull>
+			<microblog:readCount>5134</microblog:readCount>
+			<title>Scripting News: I'm on the web team.</title>
+			<microblog:opml>
+&lt;outline created="Sat, 30 Mar 2013 20:42:43 GMT" pgfnum="21732" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/30/cable.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;89&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named cable.gif&amp;quot;&amp;gt;Any company that takes content off the web and puts it in a private silo is playing on its own team. There are lots of companies doing this, so there are lots of teams. I'm on the team that puts all the content on the web. That means that every bit can have an address. That means it can all be plugged into other applications. So our work multiplies. The value of ideas deposited on the web is much greater than ideas that are trapped in a silo. There are lots of people, companies, universities, libraries, open source projects and governments in &amp;quot;web team&amp;quot; space. It may seem naive for any single company to throw its lot in with us, but when you see the full picture, you see it's actually the other way around. What we create together can be much much bigger than anything a single company can do. ">&lt;/outline>
+&lt;outline created="Sat, 30 Mar 2013 21:33:04 GMT" pgfnum="21733" text="PS: &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;Little Outliner&amp;lt;/a&amp;gt; is on the web team too. ;-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>First, I really appreciate &lt;a href="http://gigaom.com/2013/03/28/watch-out-internet-dave-winer-is-back-in-the-business-of-making-blogging-tools/">Mathew Ingram's writeup&lt;/a> in Gigaom about what we're doing at &lt;a href="http://smallpicture.com/">Small Picture&lt;/a>. If you haven't read it, and you're a regular here, go read it now. Lots of good stuff. ;-)&lt;/p>
+&lt;p>However.. (you knew that was coming)&lt;/p>
+&lt;p>We are not making blogging tools. &lt;/p>
+&lt;p>We are making software for creative people -- writers, designers and programmers. Inevitably that means it will connect to blogging systems, because blogs are fixtures in the world of 2013 and beyond. And it's certainly possible that one can create a blogging system using our backend (not released yet). But our business is not what his headline says it is.&lt;/p>
+&lt;p>Mathew is totally entitled to his interpretation. &lt;/p>
+&lt;p>And of course I'm entitled to comment on his interpretation. :-)&lt;/p>
+&lt;p>Why this is important?&lt;/p>
+&lt;p>1. Our product should not be evalutated based on its capability as a blogging tool.&lt;/p>
+&lt;p>2. We see blogging products as complementary to ours, not competitive.&lt;/p>
+&lt;p>3. I even made a &lt;a href="https://medium.com/i-m-h-o/349109119cee">proposition&lt;/a> to vendors of blogging tools, and the offer is still open (and I will make it again, in new contexts as the software develops).&lt;/p>
+&lt;p>I want to make great editing tools, for writers, designers and programmers. &lt;/p>
+&lt;p>That's our mantra, at least one of them. ;-)&lt;/p>
+&lt;p>And finally thanks to Mathew for such a thoughtful and otherwise accurate piece.&lt;/p>
+&lt;p>PS: I can totally see why it's confusing, esp based on some of the things I've said. I will try to be more careful about that! :-)&lt;/p>
+</description>
+			<link>http://3nu.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 29 Mar 2013 17:10:59 GMT</pubDate>
+			<guid>http://3nu.r2.ly/?id=15885</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/imNotMakingBloggingTools</microblog:linkFull>
+			<microblog:readCount>1962</microblog:readCount>
+			<title>Thread: I'm not making blogging tools. :-)</title>
+			<microblog:opml>
+&lt;outline created="Fri, 29 Mar 2013 13:03:27 GMT" pgfnum="21644" text="First, I really appreciate &amp;lt;a href=&amp;quot;http://gigaom.com/2013/03/28/watch-out-internet-dave-winer-is-back-in-the-business-of-making-blogging-tools/&amp;quot;&amp;gt;Mathew Ingram's writeup&amp;lt;/a&amp;gt; in Gigaom about what we're doing at &amp;lt;a href=&amp;quot;http://smallpicture.com/&amp;quot;&amp;gt;Small Picture&amp;lt;/a&amp;gt;. If you haven't read it, and you're a regular here, go read it now. Lots of good stuff. ;-)">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:04:00 GMT" pgfnum="21645" text="However.. (you knew that was coming)">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:04:06 GMT" pgfnum="21646" text="We are not making blogging tools. ">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:04:13 GMT" pgfnum="21647" text="We are making software for creative people -- writers, designers and programmers. Inevitably that means it will connect to blogging systems, because blogs are fixtures in the world of 2013 and beyond. And it's certainly possible that one can create a blogging system using our backend (not released yet). But our business is not what his headline says it is.">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:05:28 GMT" pgfnum="21648" text="Mathew is totally entitled to his interpretation. ">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:11:28 GMT" pgfnum="21656" text="And of course I'm entitled to comment on his interpretation. :-)">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:05:51 GMT" pgfnum="21649" text="Why this is important?">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:06:02 GMT" pgfnum="21650" text="1. Our product should not be evalutated based on its capability as a blogging tool.">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:06:19 GMT" pgfnum="21651" text="2. We see blogging products as complementary to ours, not competitive.">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:06:34 GMT" pgfnum="21652" text="3. I even made a &amp;lt;a href=&amp;quot;https://medium.com/i-m-h-o/349109119cee&amp;quot;&amp;gt;proposition&amp;lt;/a&amp;gt; to vendors of blogging tools, and the offer is still open (and I will make it again, in new contexts as the software develops).">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:06:44 GMT" pgfnum="21653" text="I want to make great editing tools, for writers, designers and programmers. ">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:07:06 GMT" pgfnum="21654" text="That's our mantra, at least one of them. ;-)">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:07:17 GMT" pgfnum="21655" text="And finally thanks to Mathew for such a thoughtful and otherwise accurate piece.">&lt;/outline>
+&lt;outline created="Fri, 29 Mar 2013 13:16:11 GMT" pgfnum="21657" text="PS: I can totally see why it's confusing, esp based on some of the things I've said. I will try to be more careful about that! :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>As developers rush to fill the Google Reader hole, it seems everyone is trying to reproduce Google Reader, almost verbatim. It's understandable. There are a huge number of fans of Google Reader who will be without  Google Reader as of July 1. So when they tell you what they want, it's no surprise that what they come up with is basically, Google Reader.&lt;/p>
+&lt;p>I think/hope they will be well-served. &lt;/p>
+&lt;p>But there's an opportunity to do something different that might be equally interesting. Without asking users what they want, create a product based on a different hypothesis.&lt;/p>
+&lt;ul>
+	&lt;li>A famous platform vendor once &lt;a href="http://scripting.com/2001/01/03.html#aStory">asked&lt;/a> me if the users were asking for ThinkTank, my first product, before I created it. He had a point. There were no users before there was a product. So they couldn't ask. Because they didn't exist.&lt;/li>
+	&lt;/ul>
+&lt;p>The hypothesis: What if Twitter were, in every way, open. &lt;/p>
+&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/28/rssTShirt.gif" width="150" height="150" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named rssTShirt.gif">What would that look like?&lt;/p>
+&lt;p>1. First, it would look like Twitter. There would be a box at the top of the page that asks What's Happening, and below that a sequence of new items from people you follow, in reverse-chronologic order.&lt;/p>
+&lt;p>2. It would be easy to follow someone. When you're looking at their profile page, there would be a big easy to see button that says Follow. It would not say Follow in Product X or Follow in Product Y, etc. It would not open up a huge dialog with a list of products you could follow it in. It would say Follow. And when you click it you Follow that person. No questions asked.&lt;/p>
+&lt;p>3. It's a web app. No synchronization among different clients. Supply an API if you like. But like Twitter it's always reverse-chronologic, and it doesn't remember what you haven't read. Yes, some users won't like that. They will use the other kind of RSS app, the ones that synch between clients. (See the first paragraph of this piece.)&lt;/p>
+&lt;p>4. No lock-in. That's where it gets tricky. But it's a different kind of tricky than the people cloning Google Reader will encounter. Over there, you have to synchronize news items among lots of possible clients. Here you have to let the user tell you where she stores her subscriptions (and that will determine who gets the message when the user clicks on the Follow button). Beyond that, every developer could experiment with different scanning possibilities, and different presentations, and different whatevers.&lt;/p>
+&lt;p>This is my dream system. I would happily make components for it. I'm just one user, for sure, and you might have to think a bit more to do this one vs the straight Google Reader clone. But there's also more opportunity to innovate. And it won't just be a repeat of the last 8 years.&lt;/p>
+</description>
+			<link>http://3mr.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 28 Mar 2013 12:45:56 GMT</pubDate>
+			<guid>http://3mr.r2.ly/?id=15850</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/makeATwitterOutOfRss</microblog:linkFull>
+			<microblog:readCount>4420</microblog:readCount>
+			<title>Scripting News: Make a Twitter out of RSS.</title>
+			<microblog:opml>
+&lt;outline created="Thu, 28 Mar 2013 12:14:07 GMT" pgfnum="21558" text="As developers rush to fill the Google Reader hole, it seems everyone is trying to reproduce Google Reader, almost verbatim. It's understandable. There are a huge number of fans of Google Reader who will be without  Google Reader as of July 1. So when they tell you what they want, it's no surprise that what they come up with is basically, Google Reader.">&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:15:18 GMT" pgfnum="21559" text="I think/hope they will be well-served. ">&lt;/outline>
+&lt;outline collapse="true" created="Thu, 28 Mar 2013 12:15:38 GMT" pgfnum="21560" text="But there's an opportunity to do something different that might be equally interesting. Without asking users what they want, create a product based on a different hypothesis.">
+	&lt;outline created="Thu, 28 Mar 2013 12:37:08 GMT" pgfnum="21568" text="A famous platform vendor once &amp;lt;a href=&amp;quot;http://scripting.com/2001/01/03.html#aStory&amp;quot;&amp;gt;asked&amp;lt;/a&amp;gt; me if the users were asking for ThinkTank, my first product, before I created it. He had a point. There were no users before there was a product. So they couldn't ask. Because they didn't exist.">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:16:13 GMT" pgfnum="21561" text="The hypothesis: What if Twitter were, in every way, open. ">&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:16:21 GMT" pgfnum="21562" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/28/rssTShirt.gif&amp;quot; width=&amp;quot;150&amp;quot; height=&amp;quot;150&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named rssTShirt.gif&amp;quot;&amp;gt;What would that look like?">&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:16:29 GMT" pgfnum="21563" text="1. First, it would look like Twitter. There would be a box at the top of the page that asks What's Happening, and below that a sequence of new items from people you follow, in reverse-chronologic order.">&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:17:19 GMT" pgfnum="21564" text="2. It would be easy to follow someone. When you're looking at their profile page, there would be a big easy to see button that says Follow. It would not say Follow in Product X or Follow in Product Y, etc. It would not open up a huge dialog with a list of products you could follow it in. It would say Follow. And when you click it you Follow that person. No questions asked.">&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:20:51 GMT" pgfnum="21566" text="3. It's a web app. No synchronization among different clients. Supply an API if you like. But like Twitter it's always reverse-chronologic, and it doesn't remember what you haven't read. Yes, some users won't like that. They will use the other kind of RSS app, the ones that synch between clients. (See the first paragraph of this piece.)">&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:18:33 GMT" pgfnum="21565" text="4. No lock-in. That's where it gets tricky. But it's a different kind of tricky than the people cloning Google Reader will encounter. Over there, you have to synchronize news items among lots of possible clients. Here you have to let the user tell you where she stores her subscriptions (and that will determine who gets the message when the user clicks on the Follow button). Beyond that, every developer could experiment with different scanning possibilities, and different presentations, and different whatevers.">&lt;/outline>
+&lt;outline created="Thu, 28 Mar 2013 12:23:06 GMT" pgfnum="21567" text="This is my dream system. I would happily make components for it. I'm just one user, for sure, and you might have to think a bit more to do this one vs the straight Google Reader clone. But there's also more opportunity to innovate. And it won't just be a repeat of the last 8 years.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>We just did a great rollout, the &lt;a href="http://littleoutliner.com/">product&lt;/a> is fantastic. This is going to move tech in a new direction. It'll create new standards. I'm absolutely sure of it.&lt;/p>
+&lt;p>Yet, even with my track record as one who leads change in technology, the release of this software has gotten almost no note from leading tech bloggers and reporters.&lt;/p>
+&lt;p>That's okay, because it'll happen without them. Last time I pushed something through, it didn't get support from the press either. And the time before that. We &lt;i>can&lt;/i> make it happen without their help.&lt;/p>
+&lt;p>I think they're comfortable with big software ideas coming from big companies. But I can't make change happen within the context of a big corporation. Too much second-guessing, too many strategy taxes, too many phony business models. So I choose to do it as an independent. &lt;/p>
+&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/27/bike.gif" width="145" height="88" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named bike.gif">I think software is like other creative arts -- music, architecture, cooking, even design of everyday things like bikes and clothes. It takes a relentless focus on the act of using, and what kind of effect you want to create. Learning from others, and stealing from the best. Only. ;-)&lt;/p>
+&lt;p>We can do it on our own but it would be &lt;i>easier&lt;/i> if we got help from influencers and gatekeepers. So if you like anything that I helped bring about, blogging, RSS and podcasting and a few other things, please have a look at &lt;a href="http://littleoutliner.com/">Little Outliner&lt;/a>. It's a little product, yes -- but one with very big ambitions. ;-)&lt;/p>
+&lt;p>These are early days, the &lt;a href="http://littleoutliner.com/">product&lt;/a> is very simple, and well-&lt;a href="http://smallpicture.com/outlinerHowto.html">documented&lt;/a>. We went to great lengths to &lt;a href="http://smallpicture.com/littleOutlinerPressGuide.html">make&lt;/a> it &lt;a href="http://littleoutliner.com/demo.html">easy&lt;/a> to understand. &lt;/p>
+&lt;p>Helping users understand new relevant technology &lt;i>is&lt;/i> what you do, after all. &lt;/p>
+&lt;p>PS: I did not include comments on this post because this is the kind of thing that attracts a lot of trolls. &lt;/p>
+&lt;p>PPS: To users, this is why you haven't heard much about Little Outliner in the tech press. There's nothing wrong with the product. &lt;/p>
+</description>
+			<link>http://3mb.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 27 Mar 2013 15:30:30 GMT</pubDate>
+			<guid>http://3mb.r2.ly/?id=15839</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/anOpenNoteToTechPressbloggers</microblog:linkFull>
+			<microblog:readCount>2448</microblog:readCount>
+			<title>Scripting News: An open note to tech press/bloggers.</title>
+			<microblog:opml>
+&lt;outline created="Wed, 27 Mar 2013 14:58:47 GMT" pgfnum="21483" text="We just did a great rollout, the &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;product&amp;lt;/a&amp;gt; is fantastic. This is going to move tech in a new direction. It'll create new standards. I'm absolutely sure of it.">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 14:59:10 GMT" pgfnum="21484" text="Yet, even with my track record as one who leads change in technology, the release of this software has gotten almost no note from leading tech bloggers and reporters.">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 14:59:38 GMT" pgfnum="21485" text="That's okay, because it'll happen without them. Last time I pushed something through, it didn't get support from the press either. And the time before that. We &amp;lt;i&amp;gt;can&amp;lt;/i&amp;gt; make it happen without their help.">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 15:02:19 GMT" pgfnum="21487" text="I think they're comfortable with big software ideas coming from big companies. But I can't make change happen within the context of a big corporation. Too much second-guessing, too many strategy taxes, too many phony business models. So I choose to do it as an independent. ">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 15:03:07 GMT" pgfnum="21488" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/27/bike.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;88&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named bike.gif&amp;quot;&amp;gt;I think software is like other creative arts -- music, architecture, cooking, even design of everyday things like bikes and clothes. It takes a relentless focus on the act of using, and what kind of effect you want to create. Learning from others, and stealing from the best. Only. ;-)">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 15:00:14 GMT" pgfnum="21486" text="We can do it on our own but it would be &amp;lt;i&amp;gt;easier&amp;lt;/i&amp;gt; if we got help from influencers and gatekeepers. So if you like anything that I helped bring about, blogging, RSS and podcasting and a few other things, please have a look at &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;Little Outliner&amp;lt;/a&amp;gt;. It's a little product, yes -- but one with very big ambitions. ;-)">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 15:09:05 GMT" pgfnum="21491" text="These are early days, the &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;product&amp;lt;/a&amp;gt; is very simple, and well-&amp;lt;a href=&amp;quot;http://smallpicture.com/outlinerHowto.html&amp;quot;&amp;gt;documented&amp;lt;/a&amp;gt;. We went to great lengths to &amp;lt;a href=&amp;quot;http://smallpicture.com/littleOutlinerPressGuide.html&amp;quot;&amp;gt;make&amp;lt;/a&amp;gt; it &amp;lt;a href=&amp;quot;http://littleoutliner.com/demo.html&amp;quot;&amp;gt;easy&amp;lt;/a&amp;gt; to understand. ">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 15:06:33 GMT" pgfnum="21490" text="Helping users understand new relevant technology &amp;lt;i&amp;gt;is&amp;lt;/i&amp;gt; what you do, after all. ">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 15:29:36 GMT" pgfnum="21493" text="PS: I did not include comments on this post because this is the kind of thing that attracts a lot of trolls. ">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 15:29:56 GMT" pgfnum="21494" text="PPS: To users, this is why you haven't heard much about Little Outliner in the tech press. There's nothing wrong with the product. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/27/tales.gif" width="165" height="218" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named tales.gif">I'm sure Bob Stepno won't mind if I use his &lt;a href="http://smallpicture.com/questions.html#comment-843254327">question/suggestion&lt;/a> as an example of how outliners are different from most other programs. &lt;/p>
+&lt;p>On our Q&amp;A &lt;a href="http://smallpicture.com/questions.html">page&lt;/a>, he asked how do you select-all in an outline. He was disappointed that when you press Cmd-A it only selects the siblings at the same level as the bar cursor headline. He felt it should select all the text in the outline.&lt;/p>
+&lt;p>My answer was that like almost every operation in an outliner, select-all is &lt;i>scoped.&lt;/i> When you select a headline, you are implicitly selecting all the headlines that are subordinate to it. So if you want to select everything in an outline, move the cursor to one of the summits, and do the select-all there. &lt;/p>
+&lt;p>This is fundamentally different from the way a word processor or spreadsheet works, but it's exactly the way the Finder or Windows Explorer works, which are also scoped. When you select-all in a folder, it doesn't select all the files on your computer -- it just selects the files in the folder you're working in. &lt;/p>
+&lt;p>Why does it work this way? Well, an outline can logically contain many documents, not just one. For example, I'm writing this blog post in an outline that contains all my posts dating back to March of last year. If I did a &lt;a href="http://static.scripting.com/larryKing/images/2013/03/27/selectAllInBlogPost.gif">select-all here&lt;/a>, I'd want it to select all the text in this post, not all the text in all posts. However if I wanted to select everything, I could do that, by putting the cursor on the top level headline, as illustrated in this &lt;a href="http://static.scripting.com/larryKing/images/2013/03/27/selectAllTop.gif">screen shot&lt;/a>.&lt;/p>
+</description>
+			<link>http://3m8.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 27 Mar 2013 13:45:25 GMT</pubDate>
+			<guid>http://3m8.r2.ly/?id=15836</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/thinkingLikeAnOutliner</microblog:linkFull>
+			<microblog:readCount>2198</microblog:readCount>
+			<title>Scripting News: Thinking like an outliner.</title>
+			<microblog:opml>
+&lt;outline created="Wed, 27 Mar 2013 13:25:47 GMT" pgfnum="21474" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/27/tales.gif&amp;quot; width=&amp;quot;165&amp;quot; height=&amp;quot;218&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named tales.gif&amp;quot;&amp;gt;I'm sure Bob Stepno won't mind if I use his &amp;lt;a href=&amp;quot;http://smallpicture.com/questions.html#comment-843254327&amp;quot;&amp;gt;question/suggestion&amp;lt;/a&amp;gt; as an example of how outliners are different from most other programs. ">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 13:45:45 GMT" pgfnum="21478" text="On our Q&amp;amp;A &amp;lt;a href=&amp;quot;http://smallpicture.com/questions.html&amp;quot;&amp;gt;page&amp;lt;/a&amp;gt;, he asked how do you select-all in an outline. He was disappointed that when you press Cmd-A it only selects the siblings at the same level as the bar cursor headline. He felt it should select all the text in the outline.">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 13:27:19 GMT" pgfnum="21475" text="My answer was that like almost every operation in an outliner, select-all is &amp;lt;i&amp;gt;scoped.&amp;lt;/i&amp;gt; When you select a headline, you are implicitly selecting all the headlines that are subordinate to it. So if you want to select everything in an outline, move the cursor to one of the summits, and do the select-all there. ">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 13:28:34 GMT" pgfnum="21476" text="This is fundamentally different from the way a word processor or spreadsheet works, but it's exactly the way the Finder or Windows Explorer works, which are also scoped. When you select-all in a folder, it doesn't select all the files on your computer -- it just selects the files in the folder you're working in. ">&lt;/outline>
+&lt;outline created="Wed, 27 Mar 2013 13:29:46 GMT" pgfnum="21477" text="Why does it work this way? Well, an outline can logically contain many documents, not just one. For example, I'm writing this blog post in an outline that contains all my posts dating back to March of last year. If I did a &amp;lt;a href=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/27/selectAllInBlogPost.gif&amp;quot;&amp;gt;select-all here&amp;lt;/a&amp;gt;, I'd want it to select all the text in this post, not all the text in all posts. However if I wanted to select everything, I could do that, by putting the cursor on the top level headline, as illustrated in this &amp;lt;a href=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/27/selectAllTop.gif&amp;quot;&amp;gt;screen shot&amp;lt;/a&amp;gt;.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;a href="http://en.wikipedia.org/wiki/HTML5">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/26/html5.gif" width="125" height="125" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named html5.gif">&lt;/a>After a few thousand people looked at &lt;a href="http://littleoutliner.com/">Little Outliner&lt;/a> yesterday, it's clear that some users are uncomfortable with the idea of local  storage. For many, apparently this is the first time they have encoutered this HTML 5 feature. &lt;/p>
+&lt;p>I looked for a user-oriented FAQ on local storage but all I found were descriptions of the feature for developers. And for developers, there really isn't that much to know. I've put the details under this headline, you can expand it if you care.&lt;/p>
+&lt;ul>
+	&lt;li>There's a new browser object called localStorage. It behaves like any other JavaScript object except it persists. That means the next time the user comes back to your site, the storage will still be there, exactly as it was last time they visited.&lt;/li>
+	&lt;li>In most browsers the object is attached to a single domain, so joe.userland.com and mary.userland.com will have different localStorage objects. Apparently Firefox is different, in that joe and mary share a localStorage object. There are reasons to do it either way. It would be nice if they all did it the &lt;i>same&lt;/i> way. ;-)&lt;/li>
+	&lt;/ul>
+&lt;p>So here are some answers to frequently asked question.&lt;/p>
+&lt;p>1. Where is local storage stored? It varies from browser to browser. Some users have explored in the system settings folders on various operating systems and found the files. They look like they're SQL databases. &lt;/p>
+&lt;p>2. How much space does it use? The per-domain limit is 5MB.&lt;/p>
+&lt;p>3. When you clear the cache does local storage get cleared too? I don't know. &lt;/p>
+&lt;p>4. Isn't local storage like cookies? Yes, it's very much like cookies, except cookies are limited to 4K, and local storage can go up to 5MB. The difference in size reflects the difference in times. When cookies were invented, in the mid-90s, computers had a lot less memory. Today it's not uncommon for a new computer to have a terabyte of disk space. 5MB today is like what 4K was back then. It seems silly to live in a world limited by the machines of the past. But cookies couldn't change without risking breakage, of the web itself. So local storage was a good answer. Also local storage is simpler to program than cookies, but not so much simpler as to make a huge difference.&lt;/p>
+&lt;p>5. Isn't this a potentially dangerous feature? We are very responsible about our software, we just want people to make outlines and be happy and want to use the new stuff we come out with. This is a business for us. So we would never use it in a harmful way. Not only would it be against our interest, but it would be professionally unthinkable. That said, localStorage &lt;i>is&lt;/i> a potentially dangerous feature, in the hands of a malicious website. This is something the browser vendors will probably have to address sooner or later. Probably sooner. ;-)&lt;/p>
+&lt;p>6. How can I get rid of what you stored on my computer? I can only answer for our product. If you delete all the text in your outline, that will get rid of most of what we store. There will still be an empty outline in local storage, and a count of the number of times you saved. That takes up about 140 characters, or coincidentally, the size of a tweet. If even this is too much to bear, we can add a way for you to delete that too. (I imagine someone will say that it is, so I'm already preparing to write the code.)&lt;/p>
+&lt;p>If you have other questions, ask them below and we'll try to answer them, the best we can.&lt;/p>
+</description>
+			<link>http://3lr.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 26 Mar 2013 12:56:26 GMT</pubDate>
+			<guid>http://3lr.r2.ly/?id=15817</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/usersGuideToLocalStorage</microblog:linkFull>
+			<microblog:readCount>2851</microblog:readCount>
+			<title>Scripting News: The missing HTML 5 local storage FAQ.</title>
+			<microblog:opml>
+&lt;outline created="Tue, 26 Mar 2013 12:17:41 GMT" pgfnum="21414" text="&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/HTML5&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/26/html5.gif&amp;quot; width=&amp;quot;125&amp;quot; height=&amp;quot;125&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named html5.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;After a few thousand people looked at &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;Little Outliner&amp;lt;/a&amp;gt; yesterday, it's clear that some users are uncomfortable with the idea of local  storage. For many, apparently this is the first time they have encoutered this HTML 5 feature. ">&lt;/outline>
+&lt;outline collapse="true" created="Tue, 26 Mar 2013 12:19:02 GMT" pgfnum="21415" text="I looked for a user-oriented FAQ on local storage but all I found were descriptions of the feature for developers. And for developers, there really isn't that much to know. I've put the details under this headline, you can expand it if you care.">
+	&lt;outline created="Tue, 26 Mar 2013 12:19:57 GMT" pgfnum="21417" text="There's a new browser object called localStorage. It behaves like any other JavaScript object except it persists. That means the next time the user comes back to your site, the storage will still be there, exactly as it was last time they visited.">&lt;/outline>
+	&lt;outline created="Tue, 26 Mar 2013 12:20:19 GMT" pgfnum="21418" text="In most browsers the object is attached to a single domain, so joe.userland.com and mary.userland.com will have different localStorage objects. Apparently Firefox is different, in that joe and mary share a localStorage object. There are reasons to do it either way. It would be nice if they all did it the &amp;lt;i&amp;gt;same&amp;lt;/i&amp;gt; way. ;-)">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:22:23 GMT" pgfnum="21419" text="So here are some answers to frequently asked question.">&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:22:39 GMT" pgfnum="21420" text="1. Where is local storage stored? It varies from browser to browser. Some users have explored in the system settings folders on various operating systems and found the files. They look like they're SQL databases. ">&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:23:34 GMT" pgfnum="21421" text="2. How much space does it use? The per-domain limit is 5MB.">&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:39:28 GMT" pgfnum="21425" text="3. When you clear the cache does local storage get cleared too? I don't know. ">&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:39:50 GMT" pgfnum="21426" text="4. Isn't local storage like cookies? Yes, it's very much like cookies, except cookies are limited to 4K, and local storage can go up to 5MB. The difference in size reflects the difference in times. When cookies were invented, in the mid-90s, computers had a lot less memory. Today it's not uncommon for a new computer to have a terabyte of disk space. 5MB today is like what 4K was back then. It seems silly to live in a world limited by the machines of the past. But cookies couldn't change without risking breakage, of the web itself. So local storage was a good answer. Also local storage is simpler to program than cookies, but not so much simpler as to make a huge difference.">&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:30:41 GMT" pgfnum="21423" text="5. Isn't this a potentially dangerous feature? We are very responsible about our software, we just want people to make outlines and be happy and want to use the new stuff we come out with. This is a business for us. So we would never use it in a harmful way. Not only would it be against our interest, but it would be professionally unthinkable. That said, localStorage &amp;lt;i&amp;gt;is&amp;lt;/i&amp;gt; a potentially dangerous feature, in the hands of a malicious website. This is something the browser vendors will probably have to address sooner or later. Probably sooner. ;-)">&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:28:04 GMT" pgfnum="21422" text="6. How can I get rid of what you stored on my computer? I can only answer for our product. If you delete all the text in your outline, that will get rid of most of what we store. There will still be an empty outline in local storage, and a count of the number of times you saved. That takes up about 140 characters, or coincidentally, the size of a tweet. If even this is too much to bear, we can add a way for you to delete that too. (I imagine someone will say that it is, so I'm already preparing to write the code.)">&lt;/outline>
+&lt;outline created="Tue, 26 Mar 2013 12:34:21 GMT" pgfnum="21424" text="If you have other questions, ask them below and we'll try to answer them, the best we can.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>We just shipped a &lt;a href="http://littleoutliner.com/">new product&lt;/a>, promoted the hell out of it (with great results, thanks!), the site is getting huge traffic, but our server is as quiet as it was yesterday. &lt;/p>
+&lt;p>Because this web app uses no server resources. ;-)&lt;/p>
+&lt;p>That's the magic of HTML 5 &lt;a href="http://threads2.scripting.com/2013/march/usersGuideToLocalStorage">local storage&lt;/a>, and static pages on S3. &lt;/p>
+&lt;p>Thanks to the W3C and to Werner Vogels (for persisting in getting the ability to access the root of a domain from an S3 bucket). As a result, we get unlimited scaling with zero investment. Consider this an endorsement for both innovations. &lt;/p>
+&lt;p>Now, that said, in future incarnations, we will have a server component, and scaling &lt;i>will&lt;/i> be an issue. But for right now we can bask in the glory. ;-)&lt;/p>
+</description>
+			<link>http://3le.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 25 Mar 2013 17:26:52 GMT</pubDate>
+			<guid>http://3le.r2.ly/?id=15805</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/somethingTechiesWillAppreciate</microblog:linkFull>
+			<microblog:readCount>2954</microblog:readCount>
+			<title>Scripting News: The magic of HTML 5 and S3.</title>
+			<microblog:opml>
+&lt;outline created="Mon, 25 Mar 2013 17:22:18 GMT" pgfnum="21376" text="We just shipped a &amp;lt;a href=&amp;quot;http://littleoutliner.com/&amp;quot;&amp;gt;new product&amp;lt;/a&amp;gt;, promoted the hell out of it (with great results, thanks!), the site is getting huge traffic, but our server is as quiet as it was yesterday. ">&lt;/outline>
+&lt;outline created="Mon, 25 Mar 2013 17:26:20 GMT" pgfnum="21380" text="Because this web app uses no server resources. ;-)">&lt;/outline>
+&lt;outline created="Mon, 25 Mar 2013 17:23:00 GMT" pgfnum="21377" text="That's the magic of HTML 5 &amp;lt;a href=&amp;quot;http://threads2.scripting.com/2013/march/usersGuideToLocalStorage&amp;quot;&amp;gt;local storage&amp;lt;/a&amp;gt;, and static pages on S3. ">&lt;/outline>
+&lt;outline created="Mon, 25 Mar 2013 17:23:11 GMT" pgfnum="21378" text="Thanks to the W3C and to Werner Vogels (for persisting in getting the ability to access the root of a domain from an S3 bucket). As a result, we get unlimited scaling with zero investment. Consider this an endorsement for both innovations. ">&lt;/outline>
+&lt;outline created="Mon, 25 Mar 2013 17:27:41 GMT" pgfnum="21381" text="Now, that said, in future incarnations, we will have a server component, and scaling &amp;lt;i&amp;gt;will&amp;lt;/i&amp;gt; be an issue. But for right now we can bask in the glory. ;-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description></description>
+			<link>http://3l8.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Mon, 25 Mar 2013 15:57:27 GMT</pubDate>
+			<guid>http://3l8.r2.ly/?id=15799</guid>
+			<microblog:linkFull>http://smallpicture.com/littleOutlinerPressGuide.html</microblog:linkFull>
+			<microblog:readCount>2758</microblog:readCount>
+			<title>Small Picture: Little Outliner press guide.</title>
+			</item>
+		<item>
+			<description>&lt;p>On Monday of this week, somewhat quietly, we released the docs for the &lt;a href="http://threads2.scripting.com/2013/march/doYouLoveOutliners">outliner&lt;/a> we've been developing at Small Picture, Inc.&lt;/p>
+&lt;p>&lt;a href="http://smallpicture.com/outlinerHowto.html">http://smallpicture.com/outlinerHowto.html&lt;/a>&lt;/p>
+&lt;p>The docs are interesting, if you like outliners -- but also interesting because they illustrate something important about the outliner. It's very easy to include in a web page. &lt;/p>
+&lt;p>There's a practice outliner right there on the docs page. Kind of subtle. ;-)&lt;/p>
+&lt;p>It's written in JavaScript. Yet it's indistinguishable from the outliners we've been using, for many years, running native on Windows and Mac. This outliner runs in any HTML-5 compatible browser, on any OS. &lt;/p>
+&lt;p>You install the software by reloading the page. &lt;/p>
+&lt;p>Next Monday we'll show the next bit in our queue. And the Monday after that, the next one, etc. &lt;/p>
+&lt;p>Our cup runneth over! (Finally.)&lt;/p>
+</description>
+			<link>http://3ji.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 22 Mar 2013 15:33:35 GMT</pubDate>
+			<guid>http://3ji.r2.ly/?id=15741</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/itsAnOutliner</microblog:linkFull>
+			<microblog:readCount>1712</microblog:readCount>
+			<title>Scripting News: It's an outliner!</title>
+			<microblog:opml>
+&lt;outline created="Fri, 22 Mar 2013 15:25:21 GMT" pgfnum="21097" text="On Monday of this week, somewhat quietly, we released the docs for the &amp;lt;a href=&amp;quot;http://threads2.scripting.com/2013/march/doYouLoveOutliners&amp;quot;&amp;gt;outliner&amp;lt;/a&amp;gt; we've been developing at Small Picture, Inc.">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 15:25:41 GMT" pgfnum="21098" text="&amp;lt;a href=&amp;quot;http://smallpicture.com/outlinerHowto.html&amp;quot;&amp;gt;http://smallpicture.com/outlinerHowto.html&amp;lt;/a&amp;gt;">&lt;/outline>
+&lt;outline collapse="true" created="Fri, 22 Mar 2013 15:25:44 GMT" pgfnum="21099" text="The docs are interesting, if you like outliners -- but also interesting because they illustrate something important about the outliner. It's very easy to include in a web page. ">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 15:46:25 GMT" pgfnum="21105" text="There's a practice outliner right there on the docs page. Kind of subtle. ;-)">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 15:26:16 GMT" pgfnum="21100" text="It's written in JavaScript. Yet it's indistinguishable from the outliners we've been using, for many years, running native on Windows and Mac. This outliner runs in any HTML-5 compatible browser, on any OS. ">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 15:43:51 GMT" pgfnum="21104" text="You install the software by reloading the page. ">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 15:27:21 GMT" pgfnum="21101" text="Next Monday we'll show the next bit in our queue. And the Monday after that, the next one, etc. ">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 15:27:50 GMT" pgfnum="21102" text="Our cup runneth over! (Finally.)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/21/glue.gif" width="114" height="271" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named glue.gif">We have a problem to solve.&lt;/p>
+&lt;p>How to create stable systems out of the Internet we have now.&lt;/p>
+&lt;p>What we've created is far too fragile. &lt;/p>
+&lt;p>It's nice that the Bigco's have their business models. But that's not the point.&lt;/p>
+&lt;p>I want to connect my writing with yours, and have it be readable by people no matter what device they use, where ever they are, no matter what kind of net connection they have, today and 20 years from today.&lt;/p>
+&lt;p>Ignore the ups and downs of the giants. They come and go.&lt;/p>
+&lt;p>Very dramatic, but also very predictable, and mostly off-topic.&lt;/p>
+&lt;p>The question is this: How do we work together to create lasting value?&lt;/p>
+</description>
+			<link>http://3j9.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Fri, 22 Mar 2013 02:56:11 GMT</pubDate>
+			<guid>http://3j9.r2.ly/?id=15733</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/thisIsMarcosFirstTimeAround</microblog:linkFull>
+			<microblog:readCount>2160</microblog:readCount>
+			<title>Scripting News: Ignore the Bigco's.</title>
+			<microblog:opml>
+&lt;outline created="Fri, 22 Mar 2013 02:51:50 GMT" pgfnum="21056" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/21/glue.gif&amp;quot; width=&amp;quot;114&amp;quot; height=&amp;quot;271&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named glue.gif&amp;quot;&amp;gt;We have a problem to solve.">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 02:52:20 GMT" pgfnum="21058" text="How to create stable systems out of the Internet we have now.">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 02:52:29 GMT" pgfnum="21059" text="What we've created is far too fragile. ">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 02:55:06 GMT" pgfnum="21064" text="It's nice that the Bigco's have their business models. But that's not the point.">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 02:52:53 GMT" pgfnum="21060" text="I want to connect my writing with yours, and have it be readable by people no matter what device they use, where ever they are, no matter what kind of net connection they have, today and 20 years from today.">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 02:53:28 GMT" pgfnum="21061" text="Ignore the ups and downs of the giants. They come and go.">&lt;/outline>
+&lt;outline created="Fri, 22 Mar 2013 02:54:29 GMT" pgfnum="21063" text="Very dramatic, but also very predictable, and mostly off-topic.">&lt;/outline>
+&lt;outline collapse="true" created="Fri, 22 Mar 2013 02:53:42 GMT" pgfnum="21062" text="The question is this: How do we work together to create lasting value?">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>Google's &lt;a href="http://en.wikipedia.org/wiki/Don't_be_evil">motto&lt;/a> is "Don't be evil."&lt;/p>
+&lt;p>Paraphrasing HL Mencken's &lt;a href="http://www.goodreads.com/quotes/532804-when-somebody-says-it-s-not-about-the-money-it-s-about">motto&lt;/a> -- "When somebody says 'don't be evil'-- they're being evil."&lt;/p>
+&lt;ul>
+	&lt;li>The literal quote: "When somebody says it's not about the money, it's about the money."&lt;/li>
+	&lt;/ul>
+&lt;p>Now, the thing to know about evil is there's good evil and bad evil.&lt;/p>
+&lt;p>Unlike cholesterol, both are bad for you, but good evil is hard to pin on the purveyor. He makes it seem like someone else is the problem. Bad evil is the kind that comes with a bull's eye on your back that says "Hit me -- please." Google does the latter kind.&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Mr._Burns">&lt;img src="http://static.scripting.com/larryKing/images/2013/03/21/mrBurns.gif" width="95" height="236" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named mrBurns.gif">&lt;/a>It would have been so easy to ease the pain of Reader withdrawal by putting some effort into creating a scapegoat. Someone to blame for the trouble users are having. "At least Google did xxx," their supporters might say. But their withdrawal has all the care and sensitivity of DuPont refusing to clean up a chemical &lt;a href="http://www.epa.gov/superfund/sites/">disaster site&lt;/a>. Sure it happens all the time, quietly -- but the &lt;a href="https://www.google.com/search?hl=en&amp;gl=us&amp;tbm=nws&amp;q=death+of+google+reader">death&lt;/a> of Google Reader is not and could not be quiet. All the reporters and bloggers use it! And there's no one to blame but Larry and Sergey. Who end up looking like &lt;a href="http://en.wikipedia.org/wiki/Mr._Burns">Mr Burns&lt;/a> on The Simpsons. &lt;/p>
+&lt;p>The fact that they're so bad at evil is encouraging. Maybe deep down inside they aren't. Maybe they truly don't see that the 1 or 2 million people, or how ever many use GR, are actual people, like members of their family, who liked Google, but now will have a hard time doing that when they associate the name with the pain of withdrawal they &lt;a href="http://gigaom.com/2013/03/20/sorry-google-you-can-keep-it-to-yourself/">feel&lt;/a>, from the void of news flow.&lt;/p>
+</description>
+			<link>http://3iz.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 21 Mar 2013 12:54:36 GMT</pubDate>
+			<guid>http://3iz.r2.ly/?id=15725</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/googleIsNoGoodAtBeingEvil</microblog:linkFull>
+			<microblog:readCount>3453</microblog:readCount>
+			<title>Scripting News: Google is no good at being evil.</title>
+			<microblog:opml>
+&lt;outline created="Thu, 21 Mar 2013 12:30:41 GMT" pgfnum="20946" text="Google's &amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Don't_be_evil&amp;quot;&amp;gt;motto&amp;lt;/a&amp;gt; is &amp;quot;Don't be evil.&amp;quot;">&lt;/outline>
+&lt;outline collapse="true" created="Thu, 21 Mar 2013 12:31:04 GMT" pgfnum="20947" text="Paraphrasing HL Mencken's &amp;lt;a href=&amp;quot;http://www.goodreads.com/quotes/532804-when-somebody-says-it-s-not-about-the-money-it-s-about&amp;quot;&amp;gt;motto&amp;lt;/a&amp;gt; -- &amp;quot;When somebody says 'don't be evil'-- they're being evil.&amp;quot;">
+	&lt;outline created="Thu, 21 Mar 2013 12:41:35 GMT" pgfnum="20952" text="The literal quote: &amp;quot;When somebody says it's not about the money, it's about the money.&amp;quot;">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Thu, 21 Mar 2013 12:31:28 GMT" pgfnum="20948" text="Now, the thing to know about evil is there's good evil and bad evil.">&lt;/outline>
+&lt;outline created="Thu, 21 Mar 2013 12:31:45 GMT" pgfnum="20949" text="Unlike cholesterol, both are bad for you, but good evil is hard to pin on the purveyor. He makes it seem like someone else is the problem. Bad evil is the kind that comes with a bull's eye on your back that says &amp;quot;Hit me -- please.&amp;quot; Google does the latter kind.">&lt;/outline>
+&lt;outline created="Thu, 21 Mar 2013 12:32:37 GMT" pgfnum="20950" text="&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Mr._Burns&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/21/mrBurns.gif&amp;quot; width=&amp;quot;95&amp;quot; height=&amp;quot;236&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named mrBurns.gif&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;It would have been so easy to ease the pain of Reader withdrawal by putting some effort into creating a scapegoat. Someone to blame for the trouble users are having. &amp;quot;At least Google did xxx,&amp;quot; their supporters might say. But their withdrawal has all the care and sensitivity of DuPont refusing to clean up a chemical &amp;lt;a href=&amp;quot;http://www.epa.gov/superfund/sites/&amp;quot;&amp;gt;disaster site&amp;lt;/a&amp;gt;. Sure it happens all the time, quietly -- but the &amp;lt;a href=&amp;quot;https://www.google.com/search?hl=en&amp;amp;gl=us&amp;amp;tbm=nws&amp;amp;q=death+of+google+reader&amp;quot;&amp;gt;death&amp;lt;/a&amp;gt; of Google Reader is not and could not be quiet. All the reporters and bloggers use it! And there's no one to blame but Larry and Sergey. Who end up looking like &amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Mr._Burns&amp;quot;&amp;gt;Mr Burns&amp;lt;/a&amp;gt; on The Simpsons. ">&lt;/outline>
+&lt;outline created="Thu, 21 Mar 2013 12:35:19 GMT" pgfnum="20951" text="The fact that they're so bad at evil is encouraging. Maybe deep down inside they aren't. Maybe they truly don't see that the 1 or 2 million people, or how ever many use GR, are actual people, like members of their family, who liked Google, but now will have a hard time doing that when they associate the name with the pain of withdrawal they &amp;lt;a href=&amp;quot;http://gigaom.com/2013/03/20/sorry-google-you-can-keep-it-to-yourself/&amp;quot;&amp;gt;feel&amp;lt;/a&amp;gt;, from the void of news flow.">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/20/mirror.gif" width="125" height="181" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named mirror.gif">I've heard it said that it's impolite to talk about someone on Twitter without addressing your comment to them by using their handle, prefaced by an @. I disagree. If you're going to call someone an asshole, it's impolite to address it to them. If you're objectifying them, saying something you wouldn't say to their face -- then don't say it to their face dammit. :-)&lt;/p>
+&lt;p>I know because I'm sometimes on the receiving end of this. &lt;/p>
+&lt;p>Oh that &lt;a href="https://twitter.com/davewiner">@davewiner&lt;/a>, he's such an idiot.&lt;/p>
+&lt;p>I would much prefer if they left the @ off it. Otherwise I have to look at that idiotic thing over and over until it scrolls off. If you think it's going to get a reply, no way. And if you think I give a shit, I don't. It's just annoying to see a bit of stupidity staying there, like a turd in a toilet that someone refuses to flush. So I usually just &lt;a href="http://scripting.com/stories/2011/01/06/whyYouGotBlocked.html">block&lt;/a> em. :-)&lt;/p>
+&lt;p>Sometimes it &lt;i>makes sense&lt;/i> to say something about someone you wouldn't want them to see.&lt;/p>
+&lt;p>For example. The other day at lunch I was saying that Carmelo Anthony, the star of the Knicks, is never going to lead the team to a championship. I wouldn't want Anthony, a fine player, and a nice guy, to see that. I doubt if it would motivate him. And sheez it's not his fault he's in the same division as Lebron James (or for that matter occupying the same NBA as Lebron James). Even Kevin Durant, who is a great leader and player, and totally capable of being a champion, probably can't overcome the audacity and tenacity of the Miami Heat. At least not for the next few years.&lt;/p>
+&lt;p>So I vote for leaving off the at-sign if you're saying trash about a celeb. &lt;/p>
+</description>
+			<link>http://3ig.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Wed, 20 Mar 2013 14:46:26 GMT</pubDate>
+			<guid>http://3ig.r2.ly/?id=15711</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/twitterquette</microblog:linkFull>
+			<microblog:readCount>2562</microblog:readCount>
+			<title>Scripting News: I vote for leaving off the at-sign if you're saying trash about a celeb.</title>
+			<microblog:opml>
+&lt;outline created="Wed, 20 Mar 2013 14:33:22 GMT" pgfnum="20831" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/20/mirror.gif&amp;quot; width=&amp;quot;125&amp;quot; height=&amp;quot;181&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named mirror.gif&amp;quot;&amp;gt;I've heard it said that it's impolite to talk about someone on Twitter without addressing your comment to them by using their handle, prefaced by an @. I disagree. If you're going to call someone an asshole, it's impolite to address it to them. If you're objectifying them, saying something you wouldn't say to their face -- then don't say it to their face dammit. :-)">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:34:41 GMT" pgfnum="20832" text="I know because I'm sometimes on the receiving end of this. ">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:34:50 GMT" pgfnum="20833" text="Oh that &amp;lt;a href=&amp;quot;https://twitter.com/davewiner&amp;quot;&amp;gt;@davewiner&amp;lt;/a&amp;gt;, he's such an idiot.">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:34:58 GMT" pgfnum="20834" text="I would much prefer if they left the @ off it. Otherwise I have to look at that idiotic thing over and over until it scrolls off. If you think it's going to get a reply, no way. And if you think I give a shit, I don't. It's just annoying to see a bit of stupidity staying there, like a turd in a toilet that someone refuses to flush. So I usually just &amp;lt;a href=&amp;quot;http://scripting.com/stories/2011/01/06/whyYouGotBlocked.html&amp;quot;&amp;gt;block&amp;lt;/a&amp;gt; em. :-)">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:36:07 GMT" pgfnum="20835" text="Sometimes it &amp;lt;i&amp;gt;makes sense&amp;lt;/i&amp;gt; to say something about someone you wouldn't want them to see.">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:36:37 GMT" pgfnum="20836" text="For example. The other day at lunch I was saying that Carmelo Anthony, the star of the Knicks, is never going to lead the team to a championship. I wouldn't want Anthony, a fine player, and a nice guy, to see that. I doubt if it would motivate him. And sheez it's not his fault he's in the same division as Lebron James (or for that matter occupying the same NBA as Lebron James). Even Kevin Durant, who is a great leader and player, and totally capable of being a champion, probably can't overcome the audacity and tenacity of the Miami Heat. At least not for the next few years.">&lt;/outline>
+&lt;outline created="Wed, 20 Mar 2013 14:39:32 GMT" pgfnum="20837" text="So I vote for leaving off the at-sign if you're saying trash about a celeb. ">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/19/tacoBellDog.gif" width="187" height="229" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named tacoBellDog.gif">When I was a fellow at NYU, I moderated a panel on the topic of Sources Go Direct. My panelists didn't buy it. So we wandered in an unsatisfying way (to me at least) around various ideas of what media is about.&lt;/p>
+&lt;p>One of the speakers was &lt;a href="http://en.wikipedia.org/wiki/Nick_Denton">Nick Denton&lt;/a>, founder, publisher and ego of Gawker. Nick says that media is about gate-keeping. Your power and value is in what you let through and what you don't. He said that at the beginning of the blogging era, I had that power (me, as in Dave). He recounted a visit he and his partner made to Palo Alto, probably around 2001 or 2002 or so. They were running a startup called Moreover, and according to Nick, they wanted me to write about it on Scripting News. I didn't know. &lt;/p>
+&lt;p>And I sure didn't want to be a gatekeeper! To me it's a silly idea, and antithetical to what blogging is about. I want you to say what you have to say and if I'm interested or &lt;i>when&lt;/i> I'm interested, I'll read it -- and not because I have to or because there's nothing else to read. We were going from the time of scarcity to overload, and that's what I wanted. Not gatekeeping. Because look who's doing the gatekeeping, some miserable person who will be dead in at most 70 years and probably a lot sooner. &lt;/p>
+&lt;p>I once &lt;a href="http://scripting.com/davenet/1998/05/06/yoQuieroScriptingNews.html">wrote&lt;/a> about how we're all barking, farting Chihuahuas pretending our will means anything. I was thinking about the wonderful character in the Taco Bell commercials. I guess he didn't sell burritos and tacos and challupas or whatever, but I loved the dog, and now that I think of him, I miss him too. I wish they'd bring him back. I'd trade the dog for a million bankruptcy attorney ambulance-chasing mesothelioma profiteers. &lt;/p>
+&lt;ul>
+	&lt;li>"The universe is so damned big. Billions and billions of galaxies. Every one of them filled with chihuahuas and captains of industry. None of them get out of it alive. What's it all about? Who knows? No one."&lt;/li>
+	&lt;li>I was thinking of Bill Gates. &lt;/li>
+	&lt;li>&lt;iframe width="420" height="315" src="http://www.youtube.com/embed/M8sZ1DWsAHE" frameborder="0" allowfullscreen>&lt;/iframe>&lt;/li>
+	&lt;/ul>
+&lt;p>Nick is now a gatekeeper, I suppose -- and I guess he must have a soft spot for me, because anytime I want publicity from Gawker I seem to be able to get it. I wonder who he's turning down and why. &lt;/p>
+&lt;p>And then I think of people I know who really are gatekeepers. And then I think of the great scene in The Godfather where all the bosses get together to tell Don Corleone to share his politicians with them. He says if you let my son come back to America you can have the politicians and judges. Now that I can get behind. An old man, in his final years, wants the comfort of his son, to drink wine with, and to tell stories to. What could be better than that! :-)&lt;/p>
+</description>
+			<link>http://3hx.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 19 Mar 2013 14:21:31 GMT</pubDate>
+			<guid>http://3hx.r2.ly/?id=15693</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/areWeAllGatekeepers</microblog:linkFull>
+			<microblog:readCount>2764</microblog:readCount>
+			<title>Scripting News: To the Chihuahuas!</title>
+			<microblog:opml>
+&lt;outline created="Tue, 19 Mar 2013 13:58:05 GMT" pgfnum="20755" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/19/tacoBellDog.gif&amp;quot; width=&amp;quot;187&amp;quot; height=&amp;quot;229&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named tacoBellDog.gif&amp;quot;&amp;gt;When I was a fellow at NYU, I moderated a panel on the topic of Sources Go Direct. My panelists didn't buy it. So we wandered in an unsatisfying way (to me at least) around various ideas of what media is about.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 13:59:11 GMT" pgfnum="20756" text="One of the speakers was &amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Nick_Denton&amp;quot;&amp;gt;Nick Denton&amp;lt;/a&amp;gt;, founder, publisher and ego of Gawker. Nick says that media is about gate-keeping. Your power and value is in what you let through and what you don't. He said that at the beginning of the blogging era, I had that power (me, as in Dave). He recounted a visit he and his partner made to Palo Alto, probably around 2001 or 2002 or so. They were running a startup called Moreover, and according to Nick, they wanted me to write about it on Scripting News. I didn't know. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:01:18 GMT" pgfnum="20757" text="And I sure didn't want to be a gatekeeper! To me it's a silly idea, and antithetical to what blogging is about. I want you to say what you have to say and if I'm interested or &amp;lt;i&amp;gt;when&amp;lt;/i&amp;gt; I'm interested, I'll read it -- and not because I have to or because there's nothing else to read. We were going from the time of scarcity to overload, and that's what I wanted. Not gatekeeping. Because look who's doing the gatekeeping, some miserable person who will be dead in at most 70 years and probably a lot sooner. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:08:21 GMT" pgfnum="20761" text="I once &amp;lt;a href=&amp;quot;http://scripting.com/davenet/1998/05/06/yoQuieroScriptingNews.html&amp;quot;&amp;gt;wrote&amp;lt;/a&amp;gt; about how we're all barking, farting Chihuahuas pretending our will means anything. I was thinking about the wonderful character in the Taco Bell commercials. I guess he didn't sell burritos and tacos and challupas or whatever, but I loved the dog, and now that I think of him, I miss him too. I wish they'd bring him back. I'd trade the dog for a million bankruptcy attorney ambulance-chasing mesothelioma profiteers. ">
+	&lt;outline created="Tue, 19 Mar 2013 14:13:35 GMT" pgfnum="20762" text="&amp;quot;The universe is so damned big. Billions and billions of galaxies. Every one of them filled with chihuahuas and captains of industry. None of them get out of it alive. What's it all about? Who knows? No one.&amp;quot;">&lt;/outline>
+	&lt;outline created="Tue, 19 Mar 2013 14:13:45 GMT" pgfnum="20763" text="I was thinking of Bill Gates. ">&lt;/outline>
+	&lt;outline text="&amp;lt;iframe width=&amp;quot;420&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;http://www.youtube.com/embed/M8sZ1DWsAHE&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;">&lt;/outline>
+	&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:03:16 GMT" pgfnum="20758" text="Nick is now a gatekeeper, I suppose -- and I guess he must have a soft spot for me, because anytime I want publicity from Gawker I seem to be able to get it. I wonder who he's turning down and why. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 14:03:52 GMT" pgfnum="20759" text="And then I think of people I know who really are gatekeepers. And then I think of the great scene in The Godfather where all the bosses get together to tell Don Corleone to share his politicians with them. He says if you let my son come back to America you can have the politicians and judges. Now that I can get behind. An old man, in his final years, wants the comfort of his son, to drink wine with, and to tell stories to. What could be better than that! :-)">&lt;/outline>
+</microblog:opml>
+			</item>
+		<item>
+			<description>&lt;p>&lt;img src="http://static.scripting.com/larryKing/images/2013/03/19/houseOfCards.gif" width="145" height="186" border="0" style="float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;" alt="A picture named houseOfCards.gif">On February 5, I wrote a piece called &lt;a href="http://threads2.scripting.com/2013/february/restructuringNews">House of News&lt;/a>, in which I suggested that the news industry might do a recalc along the lines of the one Netflix did, in deciding to give its users all the episodes of House of Cards, at once -- instead of emulating the old TV serial distribution system, the one that existed before the net.&lt;/p>
+&lt;p>They did something remarkable, Netflix did -- that most companies can't seem to do. They viewed the world through the eyes of their users. And decided simply to give them exactly what they wanted.&lt;/p>
+&lt;p>I wrote that piece before we knew that Google Reader would be shutting down in July. &lt;/p>
+&lt;p>What we don't know is &lt;a href="http://www.tulsaworld.com/business/article.aspx?articleid=20130319_52_E3_Google20338">why&lt;/a> Google shut it down. But one possible reason is that they are trying to give the news industry what it wants, and in doing so, not only not giving the users what they want, but &lt;i>willfully throwing out the work of the users,&lt;/i> in building their own distribution system for news.&lt;/p>
+&lt;p>As hobbled as Google Reader was, it was largely a creation of its users. They did the programming for themselves. They chose what channels of news they wanted to listen to, assembling a highly customized news flow and sharing their discoveries.&lt;/p>
+&lt;p>If I could say one thing to the the execs of the news industry, it would be this. Stop viewing today through the lens of the past. View it from the point of view of the future. Look back to today and imagine how you could get to the future we all know is coming. And when you do that, I think you'll see that it's time for something new and Netflix-like. A news system where the users have even more power to shape the news that they will receive from you. &lt;/p>
+&lt;p>It's long-past time to trust the users and just do what they want you to do. You will probably be surprised at how profitable that turns out to be. Imho of course.&lt;/p>
+</description>
+			<link>http://3ht.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 19 Mar 2013 12:45:16 GMT</pubDate>
+			<guid>http://3ht.r2.ly/?id=15689</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/march/timeForAHulufornews</microblog:linkFull>
+			<microblog:readCount>3283</microblog:readCount>
+			<title>Scripting News: Time for a Hulu-for-News?</title>
+			<microblog:opml>
+&lt;outline created="Tue, 19 Mar 2013 12:38:18 GMT" pgfnum="20730" text="&amp;lt;img src=&amp;quot;http://static.scripting.com/larryKing/images/2013/03/19/houseOfCards.gif&amp;quot; width=&amp;quot;145&amp;quot; height=&amp;quot;186&amp;quot; border=&amp;quot;0&amp;quot; style=&amp;quot;float: right; padding-left: 25px; padding-bottom: 10px; padding-top: 10px; padding-right: 15px;&amp;quot; alt=&amp;quot;A picture named houseOfCards.gif&amp;quot;&amp;gt;On February 5, I wrote a piece called &amp;lt;a href=&amp;quot;http://threads2.scripting.com/2013/february/restructuringNews&amp;quot;&amp;gt;House of News&amp;lt;/a&amp;gt;, in which I suggested that the news industry might do a recalc along the lines of the one Netflix did, in deciding to give its users all the episodes of House of Cards, at once -- instead of emulating the old TV serial distribution system, the one that existed before the net.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:39:18 GMT" pgfnum="20731" text="They did something remarkable, Netflix did -- that most companies can't seem to do. They viewed the world through the eyes of their users. And decided simply to give them exactly what they wanted.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:39:48 GMT" pgfnum="20732" text="I wrote that piece before we knew that Google Reader would be shutting down in July. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:40:00 GMT" pgfnum="20733" text="What we don't know is &amp;lt;a href=&amp;quot;http://www.tulsaworld.com/business/article.aspx?articleid=20130319_52_E3_Google20338&amp;quot;&amp;gt;why&amp;lt;/a&amp;gt; Google shut it down. But one possible reason is that they are trying to give the news industry what it wants, and in doing so, not only not giving the users what they want, but &amp;lt;i&amp;gt;willfully throwing out the work of the users,&amp;lt;/i&amp;gt; in building their own distribution system for news.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:40:46 GMT" pgfnum="20734" text="As hobbled as Google Reader was, it was largely a creation of its users. They did the programming for themselves. They chose what channels of news they wanted to listen to, assembling a highly customized news flow and sharing their discoveries.">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:41:38 GMT" pgfnum="20735" text="If I could say one thing to the the execs of the news industry, it would be this. Stop viewing today through the lens of the past. View it from the point of view of the future. Look back to today and imagine how you could get to the future we all know is coming. And when you do that, I think you'll see that it's time for something new and Netflix-like. A news system where the users have even more power to shape the news that they will receive from you. ">&lt;/outline>
+&lt;outline created="Tue, 19 Mar 2013 12:43:02 GMT" pgfnum="20736" text="It's long-past time to trust the users and just do what they want you to do. You will probably be surprised at how profitable that turns out to be. Imho of course.">&lt;/outline>
+</microblog:opml>
+			</item>
+		</channel>
+	</rss>

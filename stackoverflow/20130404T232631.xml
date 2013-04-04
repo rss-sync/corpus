@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-04-04T23:24:34Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/15823439</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Symfony 2.1 with PHPPDF</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="symfony2"/>
+        <author>
+            <name>gram74</name>
+            <uri>http://stackoverflow.com/users/2237776</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823439/symfony-2-1-with-phppdf" />
+        <published>2013-04-04T23:23:57Z</published>
+        <updated>2013-04-04T23:23:57Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to include an image (a jpg file) into a pdf being created using the phppdf bundle of Symfony 2.1.3.&lt;/p&gt;
+
+&lt;p&gt;I am able to create pdf&#39;s but cannot get them to include images. &lt;/p&gt;
+
+&lt;p&gt;I am using, inside the twig template:&lt;/p&gt;
+
+&lt;p&gt;img src=&quot;{{ pdf_image(&#39;gimage.jpg&#39;) }}&quot; /&lt;/p&gt;
+
+&lt;p&gt;I have tried putting the jpg in a number of different places and tried a number of different paths e.g. img src=&quot;{{ pdf_image(&#39;XX/XX/XX/gimage.jpg&#39;) }}&quot; / but nothing works. I have also tried the path to the image without pdf_image.&lt;/p&gt;
+
+&lt;p&gt;Can anyone help?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823437</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Issues with an event timetable</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/>
+        <author>
+            <name>rsz</name>
+            <uri>http://stackoverflow.com/users/1430562</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823437/issues-with-an-event-timetable" />
+        <published>2013-04-04T23:23:48Z</published>
+        <updated>2013-04-04T23:23:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to do a events timetable but i&#39;m facing various problems.
+The events are stored in a database table.&lt;/p&gt;
+
+&lt;p&gt;Table design:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&#39;id&#39; AUTO_INCREMENT field
+&#39;mikortol&#39; is a varchar field which containts the beginning of the event in this format: HH:MM
+&#39;meddig&#39; is a varchar field which containts the end of the event in this format: HH:MM
+&#39;napok&#39; is an INT field which contains the actual number of the day when the event starts and ends
+&#39;hetek&#39; is an INT field which contains the number of the week when the event starts and ends
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In my php code i am selecting these records from the table. I&#39;m exploding the &lt;code&gt;mikortol&lt;/code&gt; and &lt;code&gt;meddig&lt;/code&gt; field. And then i have there 2 for loops which are literating first through the hours of the day from 7:00 to 22:00 and i&#39;m checking if these against the records which i&#39;m querying from the database. If it matches then i&#39;m checking the hours between the start and end times. And as i said if there is a match then i am adding a &lt;code&gt;rowspan&lt;/code&gt; to the &lt;code&gt;td&lt;/code&gt; attribute and then the cycle is going to continue.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+$printnot = false;
+$napokk = array(&quot;&quot;,&quot;H&#233;tf&#245;&quot;,&quot;Kedd&quot;,&quot;Szerda&quot;,&quot;Cs&#252;t&#246;rt&#246;k&quot;,&quot;P&#233;ntek&quot;,&quot;Szombat&quot;,&quot;Vas&#225;rnap&quot;);
+$q = $db-&amp;gt;prepare(&quot;SELECT * FROM orarend WHERE hetek=:hetek&quot;);
+$q-&amp;gt;execute(array(&quot;:hetek&quot; =&amp;gt; 1));
+echo &quot;&amp;lt;table class=&#39;table&#39;&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&quot;;
+while($r = $q-&amp;gt;fetch(PDO::FETCH_ASSOC))
+{
+ for($i=0;$i&amp;lt;=7;$i++)
+{
+echo &quot;&amp;lt;td&amp;gt;&quot;.$napokk[$i].&quot;&amp;lt;/td&amp;gt;&quot;;
+ }
+  echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+ $ch = true;
+ for($i=6;$i&amp;lt;=22;$i++)
+ {
+ echo &quot;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&quot;.$i.&quot;:&quot;;
+ if ($ch) echo &quot;00&quot;;
+ echo &quot;&amp;lt;/td&amp;gt;&quot;;
+for($j=1;$j&amp;lt;=7;$j++)
+{
+$mikortol = $r[&#39;mikortol&#39;];
+$meddig = $r[&#39;meddig&#39;];
+$mikortol = explode(&quot;:&quot;,$mikortol);
+$meddig = explode(&quot;:&quot;,$meddig);
+$rowspan = $meddig[0]-$mikortol[0];
+if ( ($r[&#39;napok&#39;] == $j) AND ((int)$mikortol[0] == $i) AND (!$printnot))
+{
+echo &quot;&amp;lt;td rowspan=&#39;&quot;.$rowspan.&quot;&#39;&amp;gt;Edzes&amp;lt;/td&amp;gt;&quot;;
+}
+if ( ($r[&#39;napok&#39;] == $j) AND ((int)$mikortol[0] == $i))
+{
+if ($printnot == true)
+echo &#39;&#39;;
+}
+else
+$printnot = false;
+if (((int)$mikortol[0] != $i) OR ($r[&#39;napok&#39;] != $j) OR ($printnot == false))
+echo &quot;&amp;lt;td&amp;gt;a&amp;lt;/td&amp;gt;&quot;;
+}
+echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+}
+
+}
+echo &quot;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;&quot;;
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The problem is that the code is always printing out all the td elements and doe&#39;s not leave the specified elements out where the rowspan is active.
+&lt;img src=&quot;http://i.stack.imgur.com/4s3Zh.png&quot; alt=&quot;The expected results&quot;&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823434</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Orchard how to make homepage address also accessible by index</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="orchardcms"/><category scheme="http://stackoverflow.com/feeds/tags" term="orchardcms-1.6"/>
+        <author>
+            <name>bong</name>
+            <uri>http://stackoverflow.com/users/893079</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823434/orchard-how-to-make-homepage-address-also-accessible-by-index" />
+        <published>2013-04-04T23:23:18Z</published>
+        <updated>2013-04-04T23:23:18Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Supposed my home page at the moment is: www.myorchard.com&lt;/p&gt;
+
+&lt;p&gt;How do I make it when user access www.myorchard.com/index also goes to home page?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823433</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Returning unique rows from mutliple joined tables</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="tsql"/>
+        <author>
+            <name>JulesII</name>
+            <uri>http://stackoverflow.com/users/2247071</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823433/returning-unique-rows-from-mutliple-joined-tables" />
+        <published>2013-04-04T23:23:17Z</published>
+        <updated>2013-04-04T23:23:17Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Hi I have an issue with joins on several tables I hope you will be able to help; I’m using SQL SERVER 2012 SSMS T-SQL.  I have 12 tables the common field in all is PERS_ID however this is not unique in all tables.  In addition to PERS_ID rows have start and end dates which run concurrently so PERS_ID and a date makes a row unique.  I need to return all rows from the main Personnel table and only rows from the other tables where the PERS_ID and a date match.  However this is not as straightforward as that as the start and end dates are ranges so the selected date is not an absolute match but between Start date and end date.  I&#39;ve created a stored procedure to select distinct rows from all the fields I require from the tables and left outer joined the main personnel table with PERS_ID in all the other tables.  The where clause is where a parsed in date is between the start and end date on the main personnel table and between the start and end dates on any of the other tables.  I cannot get the SP to return all rows from the main table.  Any help would be really appreciated.  I can supply the SP if required.
+Regards JulesII&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823429</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Tabstrip not refreshing after onclick</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>Saroj</name>
+            <uri>http://stackoverflow.com/users/2238253</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823429/tabstrip-not-refreshing-after-onclick" />
+        <published>2013-04-04T23:23:05Z</published>
+        <updated>2013-04-04T23:23:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I had a popup window, which opens from the button inside tabstrip content and i want my tabstrip to reload once the window is closed. But it is not reloading from my below script. Why??&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    $(document).ready(function () {
+            $(&quot;.k-window-action.k-link&quot;).click(function () {
+
+            var tabStrip = $(&quot;#abc&quot;).data(&quot;kendoTabStrip&quot;); //finding tabstrip
+            var tabContent = $(&quot;#abc&quot;).data(&quot;kendoTabStrip&quot;).contentHolder(1); //selecting particular tab
+            tabStrip.reload(tabContent); //reloading the tab
+            }); 
+        });
+    &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823428</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How To View Database Diagram?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-4"/><category scheme="http://stackoverflow.com/feeds/tags" term="visual-studio-2012"/><category scheme="http://stackoverflow.com/feeds/tags" term="ef-code-first"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server-2012"/>
+        <author>
+            <name>Komenge Mwandila</name>
+            <uri>http://stackoverflow.com/users/619010</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823428/how-to-view-database-diagram" />
+        <published>2013-04-04T23:22:59Z</published>
+        <updated>2013-04-04T23:22:59Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am working on a project which requires me to write several &lt;code&gt;POCO classes&lt;/code&gt; using &lt;code&gt;Entity Framework Code First&lt;/code&gt;. There is a lot of  entity relationships and inheritance going on and its hard to keep track of everything just looking at the code. Now, as we know, &lt;code&gt;Entity Framework Code First&lt;/code&gt; yields an &lt;code&gt;.mdf&lt;/code&gt; file as your database, and i was thinking for verification, a database diagram would server me better.&lt;/p&gt;
+
+&lt;p&gt;Is it possible for me to view my database diagram in this scenario, and how may i do so??&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823427</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Pinterest like pins height?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="height"/><category scheme="http://stackoverflow.com/feeds/tags" term="pinterest"/>
+        <author>
+            <name>user2247064</name>
+            <uri>http://stackoverflow.com/users/2247064</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823427/pinterest-like-pins-height" />
+        <published>2013-04-04T23:22:59Z</published>
+        <updated>2013-04-04T23:22:59Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i make a webpage like pinterest using &lt;a href=&quot;http://isotope.metafizzy.co/&quot; rel=&quot;nofollow&quot;&gt;isotope&lt;/a&gt; js. but i have some problem with the pin&#39;s height. i want to use  some 3d transform css effect in pins but they needs to actually height value. every pin&#39;s heights are different so i couldnt use same height. i could used height auto but auto isnt working on 3d css transforms. So only i can use exact height like &quot;430px&quot;&lt;/p&gt;
+
+&lt;p&gt;my question is how to add each pins exact height value using jquery? 
+helping your imagination: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;**Pinterest Pin style**
+element.style {
+top: 0px;
+left: 500px;
+height: 767px;
+visibility: visible;
+}
+
+**my Pins** 
+position: absolute;
+left: 0px;
+top: 0px;
+-webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+opacity: 1; **// this value from isotope but no height value** 
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823425</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Business Process Manager for Pyramid framework</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="pyramid"/><category scheme="http://stackoverflow.com/feeds/tags" term="workflow-engine"/>
+        <author>
+            <name>Acc Enq</name>
+            <uri>http://stackoverflow.com/users/2023632</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823425/business-process-manager-for-pyramid-framework" />
+        <published>2013-04-04T23:22:54Z</published>
+        <updated>2013-04-04T23:22:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Does anyone know a Business Process Manager (or a workflow engine) for Pyramid framework.
+I could find one for &lt;a href=&quot;https://django-ws.readthedocs.org/en/latest/index.html&quot; rel=&quot;nofollow&quot;&gt;Django&lt;/a&gt; but nothing yet for Pyramid. &lt;/p&gt;
+
+&lt;p&gt;If there is nothing then I am thinking of using &lt;a href=&quot;https://github.com/knipknap/SpiffWorkflow/wiki&quot; rel=&quot;nofollow&quot;&gt;Spiff Workflow&lt;/a&gt;. Has anyone used it with Pyramid, if so then please let me know your experience (or suggest if there is anything better out there)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823372</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">id selector issue in</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/>
+        <author>
+            <name>Robin Stevens</name>
+            <uri>http://stackoverflow.com/users/2246739</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823372/id-selector-issue-in" />
+        <published>2013-04-04T23:18:14Z</published>
+        <updated>2013-04-04T23:23:38Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Squbo.com&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;#home-squbo&lt;/code&gt; works ( just click the big squbo area )&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;#dennisrodman&lt;/code&gt; does not work ( click dennis when he appears top right ) &lt;code&gt;#dennisrodman&lt;/code&gt; is inside &lt;code&gt;#home-20&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&quot;#home-20&quot;).load(&quot;system/controls/home-20.php&quot;);
+
+var refreshId = setInterval(function () {
+    $(&quot;#home-20&quot;).load(&#39;system/controls/home-20.php?randval=&#39; + Math.random());
+}, 20000);
+
+$(&quot;#home-squbo&quot;).load(&quot;system/controls/home-squbo.php&quot;).click(function () {
+    $(&quot;#home&quot;).hide();
+    $(&quot;#squbo&quot;).show();
+});
+
+$(&quot;#dennisrodman&quot;).load(&quot;system/controls/home-squbo.php&quot;).click(function () {
+    $(&quot;#home&quot;).hide();
+    $(&quot;#squbo&quot;).show();
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I guess by being inside &lt;code&gt;#home-20&lt;/code&gt; the div is not available or something else complex&lt;/p&gt;
+
+&lt;p&gt;Complex like ../../../exampl.php is unless you know about it&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823355</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">MySQLdb return average of results</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="aggregate-functions"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql-python"/>
+        <author>
+            <name>john</name>
+            <uri>http://stackoverflow.com/users/2040544</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823355/mysqldb-return-average-of-results" />
+        <published>2013-04-04T23:16:21Z</published>
+        <updated>2013-04-04T23:23:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Its possible to return the average of selected data using MySQL, however I can&#39;t seem to do this using MySQLdb, my code is as follows &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cursor = database.cursor() 
+cursor.execute (&quot;SELECT AVG(points) FROM table WHERE entry =%s AND id =%s&quot;, (e_id, g_id))
+average = cursor.fetchone()
+print average
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Would anyone know how to do this..?&lt;/p&gt;
+
+&lt;p&gt;EDIT: the error I was getting was 1064, &quot;You have an error in your SQL syntax...&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823344</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Eager Loading from the model in Laravel 4</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="laravel"/><category scheme="http://stackoverflow.com/feeds/tags" term="eager-loading"/><category scheme="http://stackoverflow.com/feeds/tags" term="laravel-4"/><category scheme="http://stackoverflow.com/feeds/tags" term="laravel-3"/>
+        <author>
+            <name>Ben</name>
+            <uri>http://stackoverflow.com/users/795016</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823344/eager-loading-from-the-model-in-laravel-4" />
+        <published>2013-04-04T23:15:32Z</published>
+        <updated>2013-04-04T23:23:27Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In Laravel 3, one could do the following in the model (&lt;a href=&quot;http://laravel.com/docs/database/eloquent#eager&quot; rel=&quot;nofollow&quot;&gt;http://laravel.com/docs/database/eloquent#eager&lt;/a&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Book extends Eloquent 
+{
+     public $includes = array(&#39;author&#39;);     // this line
+
+     public function author()
+     {
+           return $this-&amp;gt;belongs_to(&#39;Author&#39;);
+     }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which was useful if loading the same models often.&lt;/p&gt;
+
+&lt;p&gt;In Laravel 4, adding &quot;this line&quot; doesn&#39;t seem to do cause eager loading though. It also doesn&#39;t seem to be mentioned in the docs (&lt;a href=&quot;http://four.laravel.com/docs/eloquent#eager-loading&quot; rel=&quot;nofollow&quot;&gt;http://four.laravel.com/docs/eloquent#eager-loading&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Has it been replaced by something else or is this functionality simply gone?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Update:&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve looked at the source for model (so nice to read). It&#39;s now:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/**
+ * The relations to eager load on every query.
+ *
+ * @var array
+ */
+protected $with = array();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there any way that I can suggest this to be added (back) to the documentation (it seems like one of those little things that can easily be overlooked)?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823297</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Generate a page with php based on what user clicks</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="generate"/>
+        <author>
+            <name>user2230549</name>
+            <uri>http://stackoverflow.com/users/2230549</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823297/generate-a-page-with-php-based-on-what-user-clicks" />
+        <published>2013-04-04T23:12:04Z</published>
+        <updated>2013-04-04T23:24:03Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;So I&#39;ve made a database of guilds of a MMO.  People can go there and filter the gaming guilds based on numerous different options and displays it all in a nifty table.  Example:&lt;/p&gt;
+
+&lt;p&gt;Guild Name - Focus - Leaders
+Guild 1    - PvP   - Bob
+Guild 2    - PvE   - Fred&lt;/p&gt;
+
+&lt;p&gt;Now what I want to do is make it so the guild name is a link that takes a user to that guilds page.  But the page doesn&#39;t exist until that person clicks on the link, I create a temple called viewguild.php and if person clicks &quot;Guild 1&quot; it takes them to &lt;a href=&quot;http://somesite.com/viewguild.php?name=guild1&quot; rel=&quot;nofollow&quot;&gt;http://somesite.com/viewguild.php?name=guild1&lt;/a&gt;.  And I have this done! By using this code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &#39;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a href=&quot;viewguild.php?id=&#39;.$guild2.&#39;&quot;&amp;gt;&#39;.$guild2.&#39;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;it creates the link just fine! But my problem is, I can&#39;t seem to get my php file, viewguild.php, to generate information based on the guild name the person clicked.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m very sorry if this has been answered before, I&#39;ve been searching for days but I&#39;m not search exactly what to search for.&lt;/p&gt;
+
+&lt;p&gt;Thanks for any help!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823250</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">PHP returning output of other user request</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="session"/><category scheme="http://stackoverflow.com/feeds/tags" term="iis"/><category scheme="http://stackoverflow.com/feeds/tags" term="fastcgi"/>
+        <author>
+            <name>Ran Gualberto</name>
+            <uri>http://stackoverflow.com/users/902079</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823250/php-returning-output-of-other-user-request" />
+        <published>2013-04-04T23:08:10Z</published>
+        <updated>2013-04-04T23:24:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m facing the problem with PHP response. I used Ajax with 3 seconds delay to check the user&#39;s logs. When the user account used simultaneously with two users, one must be kicked. I used to track the log id in db if equal with the session. The problem is some users are getting kicked even there is no other user using his/her account. I tried to &lt;code&gt;print_r&lt;/code&gt; the query statements and it is returning different values. It might be the response for other users.  &lt;/p&gt;
+
+&lt;p&gt;I&#39;m using IIS server and FastCGI for PHP response.     &lt;/p&gt;
+
+&lt;p&gt;Can somebody tell me how this possible and give me ideas to solve this issue? Thanks.  &lt;/p&gt;
+
+&lt;p&gt;Here some of the codes :&lt;/p&gt;
+
+&lt;p&gt;Putting session value When logging in : &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$_SESSION[&#39;name_of_user&#39;]  = $row[&#39;name&#39;];
+  $_SESSION[&#39;email_of_user&#39;] = $row[&#39;email&#39;];
+  $_SESSION[&#39;sec_of_code&#39;] = $random;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Checking logs in DB using Ajax : &lt;/p&gt;
+
+&lt;p&gt;` public function CheckLogStatus( $name, $email, $sess_code ){ &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$qry = &quot;Select log from $this-&amp;gt;tablename where name=&#39;$name&#39; and email=&#39;$email&#39;&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;//when I print this statement it returns different values of $name and $email&lt;/p&gt;
+
+&lt;p&gt;$result = mysql_query( $qry ) or die(mysql_error()); &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     if( !$selResult = mysql_fetch_array($result) ){
+
+     return false;
+}
+
+if(!isset($_SESSION)){ session_start(); }
+
+if( !isset( $selResult[&#39;log&#39;] ) &amp;amp;&amp;amp; $selResult[&#39;log&#39;] != &#39;&#39; ){ 
+
+             if( $selResult[&#39;log&#39;] != $sess_code ) {
+           //$_SESSION[&#39;LOGS&#39;] = &#39;USED&#39;;
+        return false;
+    }
+}
+
+   return true;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}` &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823237</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">PHP preg_match text extraxtion</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="regex"/><category scheme="http://stackoverflow.com/feeds/tags" term="preg-match"/><category scheme="http://stackoverflow.com/feeds/tags" term="text-extraction"/>
+        <author>
+            <name>Mahmoud El Selimy</name>
+            <uri>http://stackoverflow.com/users/1909836</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823237/php-preg-match-text-extraxtion" />
+        <published>2013-04-04T23:06:19Z</published>
+        <updated>2013-04-04T23:22:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have this string inside a paragraph:&lt;/p&gt;
+
+&lt;p&gt;Today&#39;s quote is: &#39;Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.&#39;&lt;/p&gt;
+
+&lt;p&gt;I need to extract this sentence &quot;Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.&quot;&lt;/p&gt;
+
+&lt;p&gt;I am not familiar with regular expressions so I would like a little help here.
+I tried:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;preg_match(&quot;Today&#39;s quote is: &#39;[a-zA-Z0-9]&#39;&quot;,$response, $matches);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Off course as I imagined it&#39;s not working. Any help would be appreciated. Thanks in advance.&lt;/p&gt;
+
+&lt;p&gt;Edit:
+Also I need to include &quot;_&quot; and &quot;-&quot; with the alphanumeric expression.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823210</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">How to create a php contact form and enable it to send successfully?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="forms"/><category scheme="http://stackoverflow.com/feeds/tags" term="email"/>
+        <author>
+            <name>user2244961</name>
+            <uri>http://stackoverflow.com/users/2244961</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823210/how-to-create-a-php-contact-form-and-enable-it-to-send-successfully" />
+        <published>2013-04-04T23:03:23Z</published>
+        <updated>2013-04-04T23:23:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to create a contact form using PHP. When i click send it says it has been successfully sent but the recipient never actually receives it. What do i need to do to fix this? Thanks in advance&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823138</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">What is the best way of automating Windows Service(Created using C# in Visual Studio 2010) Deployment using TFS?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="msbuild"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows-services"/><category scheme="http://stackoverflow.com/feeds/tags" term="build-automation"/>
+        <author>
+            <name>user2133617</name>
+            <uri>http://stackoverflow.com/users/2133617</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823138/what-is-the-best-way-of-automating-windows-servicecreated-using-c-sharp-in-visu" />
+        <published>2013-04-04T22:55:23Z</published>
+        <updated>2013-04-04T23:24:18Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have created windows service using Visual Studio 2010. I did a lot of research about automating the installation process. Got lots of advice but none did work for me. The windows service i have created has lots of dependencies. And i would like client to have no UI interaction during the installation. I have created a setup project for this which includes all my dependencies within the installer. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Process involved:
+- Create a build for windows service
+- Push the setup file(.msi) to remote location
+- Call the .msi and install the service silently without user interaction.
+
+What i did so far:
+-Created a powershell script to push files to remote location
+-Execute powershell script and install the service
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please keep in mind that powershell script &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sc create &quot;servicename&quot; binpath=&quot;somepath&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;is used for installing service from a project directory not for installing .msi file created using Setup Project these are two vast different things. If you don&#39;t understand this don&#39;t answer please.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Possible solutions:
+- Use (http://www.msbuildextensionpack.com/help/4.0.5.0/html/258a18b7-2cf7-330b-e6fe-8bc45db381b9.htm) msbuild extension pack.
+- Use buildarguments to call msbuild extension pack to install windows service. 
+-Use (http://msdn.microsoft.com/en-us/library/x8zx72cd.aspx) Exec Task
+-Use WIX(Windows Installer Xml)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now my question is. How can i push windows service installer to remote location? And how can create custom build arguments and use either msbuild extension pack or Exec Task and install the service?&lt;/p&gt;
+
+&lt;p&gt;I know this sounds stupid and irritating question for someone who hasn&#39;t installed the service using (.MSI) created by the Setup Project. But its my requirements which i am trying to solve since weeks in the enterprise environment.&lt;/p&gt;
+
+&lt;p&gt;Any help will really be appriciated. Thanks...&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823137</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">call external js file based on &quot;media screen&quot; value</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="external"/><category scheme="http://stackoverflow.com/feeds/tags" term="media"/>
+        <author>
+            <name>l736k</name>
+            <uri>http://stackoverflow.com/users/1311449</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823137/call-external-js-file-based-on-media-screen-value" />
+        <published>2013-04-04T22:55:22Z</published>
+        <updated>2013-04-04T23:22:59Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m tryin this but it is not working:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;script src=&quot;js/menu-collapser.js&quot; type=&quot;text/javascript&quot; media=&quot;media screen and (max-width: 599px)&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+...
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;//menu-collapser.js :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jQuery(document).ready(function($){
+    $(&#39;.main-navigation li ul&#39;).hide();
+    $(&#39;.main-navigation li&#39;).has(&#39;ul&#39;).click(function() {
+        $(this).children().toggle();
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Do you have an idea on how to do this in the right way? The script work if used directly in the header with the  tags.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823105</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to add a value from a HTML form to a value in a database</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/>
+        <author>
+            <name>Andy Dominguez</name>
+            <uri>http://stackoverflow.com/users/2247021</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823105/how-to-add-a-value-from-a-html-form-to-a-value-in-a-database" />
+        <published>2013-04-04T22:52:46Z</published>
+        <updated>2013-04-04T23:24:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to create a form to allow a user to update data from the form to the existing amount in the database. Here is what I have so far it appears to double the value. I was thinking I needed to pull the value from the database and then add the data from the form.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php 
+$username = &quot;username&quot;;
+$password = &quot;password&quot;;
+$hostname = &quot;localhost&quot;;
+
+//connection to the database
+$dbhandle = mysql_connect($hostname, $username, $password)
+ or die(&quot;Unable to connect to MySQL&quot;);
+echo &quot;&amp;lt;font face=tahoma color=#ff000&amp;gt;&amp;lt;b&amp;gt;Connected to MySQL&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&quot;;
+
+//select a database to work with
+$selected = mysql_select_db(&quot;pdogclan_points&quot;,$dbhandle)
+  or die(&quot;Did this change&quot;);
+
+// Formulate Query
+$_POST[&quot;filter&quot;];
+$memid = mysql_real_escape_string($_POST[&quot;Member_ID&quot;]);
+$query = sprintf(&quot;SELECT Member_ID, Bank, Reward_1, Reward_2, Reward_3 FROM Points_Rewards WHERE Member_ID = &#39;$memid&#39;&quot;) or die(&quot;Could Not Formulate the Query&quot;);
+
+//execute the SQL query and return records
+$result = mysql_query($query);
+
+// Check result
+// This shows the actual query sent to MySQL, and the error. Useful for debugging.
+if (!$result) {
+    $message  = &#39;Invalid query: &#39; . mysql_error() . &quot;\n&quot;;
+   $message .= &#39;Whole query: &#39; . $query;
+    die($message);
+}
+
+//fetch tha data from the database
+while ($row = mysql_fetch_array($result))   
+echo &quot;&amp;lt;table width=750 cellspacing=2 cellpadding=2 border=2&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;td bgcolor=#000000 width=150&amp;gt;&amp;lt;font face=tahoma color=white&amp;gt;ID: {$row[&#39;Member_ID&#39;]}&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;&quot;. 
+            &quot;&amp;lt;td width=150&amp;gt;&amp;lt;font face=tahoma&amp;gt;Bank: {$row[&#39;Bank&#39;]}&amp;lt;/td&amp;gt;&quot;. 
+            &quot;&amp;lt;td width=150&amp;gt;&amp;lt;font face=tahoma&amp;gt;Reward 1: {$row[&#39;Reward_1&#39;]}&amp;lt;/td&amp;gt;&quot;. 
+            &quot;&amp;lt;td width=150&amp;gt;&amp;lt;font face=tahoma&amp;gt;Reward 2: {$row[&#39;Reward_2&#39;]}&amp;lt;/td&amp;gt; &quot;. 
+            &quot;&amp;lt;td width=150&amp;gt;&amp;lt;font face=tahoma&amp;gt;Reward 3: {$row[&#39;Reward_3&#39;]}&amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+  &amp;lt;/table&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/font&amp;gt;&quot;;//display the results
+// Formulate Update Query
+$_POST[&quot;submit&quot;];
+$memid = mysql_real_escape_string($_POST[&quot;Member_ID&quot;]);
+$query = sprintf(&quot;SELECT Member_ID, Bank, Reward_1, Reward_2, Reward_3 FROM Points_Rewards WHERE Member_ID = &#39;$memid&#39;&quot;) or die(&quot;Could Not Formulate the Query&quot;);
+
+while ($row = mysql_fetch_array($result))
+{
+$bankdb = $row[&#39;Bank&#39;];
+$reward1db = $row[&#39;Reward_1&#39;];
+$reward2db = $row[&#39;Reward_2&#39;];
+$reward3db = $row[&#39;Reward_3&#39;];
+}
+echo $bank;
+echo $reward1;
+echo $reward2;
+echo $reward3;
+$memid = mysql_real_escape_string($_POST[&quot;Member_ID&quot;]);
+$bank = $_POST[&#39;bank&#39;];
+$reward1 = $_POST[&#39;reward1&#39;];
+$reward2 = $_POST[&#39;reward2&#39;];
+$reward3 = $_POST[&#39;reward3&#39;];
+
+
+
+$query = &quot;UPDATE Points_Rewards Set Bank = (&#39;$bank&#39; + &#39;$bankdb&#39;), Reward_1 =    (&#39;$reward1&#39; + &#39;$reward1&#39;), Reward_2 = (&#39;$reward2&#39; + &#39;$reward2&#39;), Reward_3 = (&#39;$reward3&#39; + &#39;$reward3&#39;) WHERE Member_ID = &#39;$memid&#39;&quot;;
+$result = mysql_query($query) or die(mysql_error());
+
+
+
+if(mysql_query($query)){
+echo &quot;updated&quot;;}
+else{
+echo &quot;fail&quot;;}
+
+//close the connection
+mysql_close($dbhandle);
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15823033</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Get a very large string in javascript variable</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/>
+        <author>
+            <name>vish_anything</name>
+            <uri>http://stackoverflow.com/users/2247018</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15823033/get-a-very-large-string-in-javascript-variable" />
+        <published>2013-04-04T22:46:19Z</published>
+        <updated>2013-04-04T23:24:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am writing a webpage for reading notices/messages which requires me to take the notice as input from a database. I am taking the input using php and passing it to a javascript function using echo.&lt;/p&gt;
+
+&lt;p&gt;Now the  problem is that if the notice is very large(&gt;1000 characters or something) the function stops working. Is there a way to store large strings in javascript variables?&lt;/p&gt;
+
+&lt;p&gt;Thankn you in advance.&lt;/p&gt;
+
+&lt;p&gt;The javascript function goes like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function display(subject, notice, from,to)
+{
+    alert(notice);
+    document.getElementById(&#39;reader_default&#39;).innerHTML=&#39;&#39;;
+    document.getElementById(&#39;subject&#39;).innerHTML=&quot;SUBJECT : &quot;+subject;
+    document.getElementById(&#39;from&#39;).innerHTML=&quot;From: &quot;+from;
+    document.getElementById(&#39;to&#39;).innerHTML=&quot;To: &quot;+to;
+    document.getElementById(&#39;noticedisp&#39;).innerHTML=&quot;&quot;+notice;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The php variable pass goes like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &#39;&amp;lt;a href=&quot;javascript:void(0)&quot; onclick=&quot;display(\&#39;&#39;.ucfirst($subject).&#39;\&#39;,\&#39;&#39;.$notice.&#39;\&#39;,\&#39;&#39;.ucfirst($hostel).&#39; Hostel&#39;.&#39;\&#39;,\&#39;&#39;.$toid.&#39;\&#39;)&quot; style=&quot;padding:2%; text-decoration:none; color:#0033CC;&quot;&amp;gt;&#39;.ucfirst($subject).&#39;&amp;lt;/a&amp;gt;&#39;.&#39;&amp;lt;br /&amp;gt;&amp;lt;span style=&quot;padding:2%;&quot;&amp;gt;&amp;lt;i&amp;gt;From: &amp;lt;/i&amp;gt;&#39;.ucfirst($hostel).&#39;Hostel&amp;lt;/span&amp;gt;&amp;lt;br/&amp;gt;&#39;.&#39;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;First I provided the following string:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie luctus lectus, nec volutpat ipsum porta sit amet. Phasellus ut egestas sapien. Curabitur mauris erat, eleifend quis adipiscing sollicitudin, posuere tempor ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut erat nibh. Maecenas malesuada lacus pulvinar risus placerat convallis. Cras vitae urna in elit aliquam mollis a eu nisi. Nulla id molestie ante. Aenean faucibus interdum nibh, in tristique dui viverra eu. Nulla facilisi. Integer at placerat augue.&lt;/p&gt;
+  
+  &lt;p&gt;Sed quis risus dolor, in tristique est. Maecenas non tellus vel quam blandit elementum. Sed vestibulum dolor non mi eleifend luctus. Proin interdum mollis congue. Fusce quis consequat augue. Integer dictum lectus a ligula egestas in volutpat odio tincidunt. Sed placerat dictum velit quis dapibus.&lt;/p&gt;
+  
+  &lt;p&gt;Cras non quam ut neque auctor hendrerit. Phasellus tincidunt dapibus metus, id rutrum purus fringilla vel. Pellentesque ac sapien elit. Maecenas nibh justo, lobortis id volutpat a, bibendum egestas enim. Vivamus sit amet justo vel tortor ullamcorper molestie ac sed nibh. Donec adipiscing dui sed odio hendrerit quis aliquet turpis posuere. Donec pharetra mi ut odio luctus sodales. Donec elit nisi, cursus elementum cursus at, scelerisque quis ante. Nunc vel ipsum ut nibh dictum tempus ut ut tortor. Donec dignissim pharetra scelerisque. Curabitur pellentesque urna a velit ultricies at lacinia leo euismod. Nulla id dolor ut odio ultrices accumsan in id erat. Aliquam lorem turpis, tristique nec tincidunt id, lacinia sit amet ante. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When this didn&#39;t work after trying everything, I shortened the string to:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie luctus lectus, nec volutpat ipsum porta sit amet. Phasellus ut egestas sapien. Curabitur mauris erat, eleifend quis adipiscing sollicitudin, posuere tempor ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut erat nibh. Maecenas malesuada lacus pulvinar risus placerat convallis. Cras vitae urna in elit aliquam mollis a eu nisi. Nulla id molestie ante. Aenean faucibus interdum nibh, in tristique dui viverra eu. Nulla facilisi. Integer at placerat augue.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And this works!!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15822988</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">keep http authentication private in a public github repo?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="heroku"/><category scheme="http://stackoverflow.com/feeds/tags" term="github"/><category scheme="http://stackoverflow.com/feeds/tags" term="http-basic-authentication"/>
+        <author>
+            <name>Kevin Hough</name>
+            <uri>http://stackoverflow.com/users/2203521</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15822988/keep-http-authentication-private-in-a-public-github-repo" />
+        <published>2013-04-04T22:42:31Z</published>
+        <updated>2013-04-04T23:23:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a public Github repo for an app that I&#39;d like to add authentication to. I plan to use basic http authentication, but this would require that I store the username and password in the configuration file (or similar), which is public.&lt;/p&gt;
+
+&lt;p&gt;This would mean that anyone could find the username and password in the public configuration file.&lt;/p&gt;
+
+&lt;p&gt;Is there a way to keep authentication secure (i.e., private) without creating a completely private repo?&lt;/p&gt;
+
+&lt;p&gt;Or perhaps a way to bypass Github during a Heroku push so that the live (Heroku) environment receives the authentication credentials without having to retrieve them from the public Github repo?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15822984</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Alias to Enums Types C#</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term=".net"/>
+        <author>
+            <name>Flezcano</name>
+            <uri>http://stackoverflow.com/users/1874080</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15822984/alias-to-enums-types-c-sharp" />
+        <published>2013-04-04T22:42:23Z</published>
+        <updated>2013-04-04T23:23:52Z</updated>
+        <summary type="html">
+            
+            &lt;pre&gt;&lt;code&gt;public enum eEstado
+{
+    Active = 3,
+    Inactive = 4
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to settle diferent names(like alias) to the enum properties. For example, for &quot;Activo&quot;, something like &quot;Activo&quot; and others. Also I need to get that String from the value (3, or 4).&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15822962</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Values not being posted from Partial View MVC4</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="razor"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-4"/><category scheme="http://stackoverflow.com/feeds/tags" term="controller"/>
+        <author>
+            <name>cdlong</name>
+            <uri>http://stackoverflow.com/users/773423</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15822962/values-not-being-posted-from-partial-view-mvc4" />
+        <published>2013-04-04T22:40:14Z</published>
+        <updated>2013-04-04T23:23:09Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;For some reason my partial view is always returning null values to the controller. I&#39;ve tried implementing this in several different ways (including editor templates) but here&#39;s my latest.&lt;/p&gt;
+
+&lt;p&gt;Basically I&#39;m rendering a view with a jquery ui datepicker. When the user picks a date I then render my partial view. The partial view is being rendered correctly but when I submit the partial view it&#39;s returning a null object to the controller&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View Model:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class Attendance
+{
+    public int RecordId { get; set; }
+    public int GroupId { get; set; }
+    public int MemberId { get; set; }
+    public string MemberName { get; set; }
+    public System.DateTime Date { get; set; }
+    public bool Present { get; set; }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Parent View:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@{
+    ViewBag.Title = &quot;Take Attendance&quot;;
+}
+
+&amp;lt;h2&amp;gt;Take Attendance&amp;lt;/h2&amp;gt;
+
+@Html.Hidden(&quot;GroupId&quot;, (int)ViewBag.GroupId)
+
+&amp;lt;div&amp;gt;
+@Html.Label(&quot;Select A Date&quot;)
+@Html.JQueryUI().Datepicker(&quot;attendanceDate&quot;,ViewBag.AttendanceDate)
+                .OnSelect(&quot;attendanceDate.onSelect&quot;)
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div id=&quot;attendanceRecords&quot;&amp;gt;
+&amp;lt;/div&amp;gt;
+
+
+@section scripts
+{
+    &amp;lt;script src=&quot;@Url.Content(&quot;../../Scripts/Views/TakeAttendance.js&quot;)&quot; type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Partial View:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@model IEnumerable&amp;lt;AT.Manager.Models.Attendance&amp;gt;
+
+@using (Html.BeginForm(&quot;TakeAttendance&quot;, &quot;Groups&quot;)) {
+    @Html.ValidationSummary(true)
+
+    &amp;lt;table&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;th&amp;gt;Name&amp;lt;/th&amp;gt;
+            &amp;lt;th&amp;gt;Present?&amp;lt;/th&amp;gt;
+        &amp;lt;/tr&amp;gt;
+        @for (int i = 0; i &amp;lt; Model.Count(); i++ )
+        {
+            &amp;lt;tr&amp;gt;
+                &amp;lt;td&amp;gt;@Html.DisplayFor(model =&amp;gt; Model.ElementAt(i).MemberName)&amp;lt;/td&amp;gt;
+                &amp;lt;td&amp;gt;@Html.EditorFor(model =&amp;gt; Model.ElementAt(i).Present)&amp;lt;/td&amp;gt;
+                &amp;lt;td&amp;gt;@Html.HiddenFor(model =&amp;gt; Model.ElementAt(i).GroupId)&amp;lt;/td&amp;gt;
+                &amp;lt;td&amp;gt;@Html.HiddenFor(model =&amp;gt; Model.ElementAt(i).MemberId)&amp;lt;/td&amp;gt;
+                &amp;lt;td&amp;gt;@Html.HiddenFor(model =&amp;gt; Model.ElementAt(i).RecordId)&amp;lt;/td&amp;gt;
+            &amp;lt;/tr&amp;gt;                      
+        }
+    &amp;lt;/table&amp;gt;
+    &amp;lt;p&amp;gt;
+        &amp;lt;input type=&quot;submit&quot; value=&quot;Create&quot; /&amp;gt;
+    &amp;lt;/p&amp;gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Controller Action:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public ActionResult TakeAttendance(IEnumerable&amp;lt;Attendance&amp;gt; records)
+{
+    if (ModelState.IsValid)
+    {
+        var newRecords = records.Select(x =&amp;gt; new da.Attendance() { Id = x.RecordId, GroupId = x.GroupId, MemberId = x.MemberId, Date = x.Date });
+        AttendanceRepository attendanceRepo = new AttendanceRepository();
+        newRecords.Each(x =&amp;gt; attendanceRepo.InsertOrUpdate(x));
+        return RedirectToAction(&quot;Index&quot;);
+    }
+    else
+    {
+        return View();
+    }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any suggestions would be much appreciated.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15822865</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Loading a nib from a path</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/>
+        <author>
+            <name>user1137704</name>
+            <uri>http://stackoverflow.com/users/1137704</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15822865/loading-a-nib-from-a-path" />
+        <published>2013-04-04T22:30:50Z</published>
+        <updated>2013-04-04T23:24:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Currently I&#39;ve been loading nibs programmatically in my app using [NSBundle mainBundle] loadNibNamed:. All I want to do is just contain all my nibs in a subfolder (and their referenced images), but it seems near impossible to load these. loadNibNamed doesn&#39;t allow a path to be specified. I&#39;ve done a ton of searching and can&#39;t find any suitable way. Everything else I&#39;ve tried gives an exception.
+I&#39;ve tried loading the data from file and unarchiving it, but it says it&#39;s an incomprehensible archive.
+UINib has the same problem as NSBundle.&lt;/p&gt;
+
+&lt;p&gt;There has to be a way to specify the file path, just like loading any other file.&lt;/p&gt;
+
+&lt;p&gt;I want the final contents to be an NSArray just like loadNibNamed: returned.&lt;/p&gt;
+
+&lt;p&gt;Any insight would be helpful.&lt;/p&gt;
+
+&lt;p&gt;The closest I got was using [NSBundle bundleWithPath:] and specifiying the fullpath. It says the path is not yet loaded, and throws and exception. Why is it not loaded?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15822792</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">counting the number of function calls in a C program</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="bash"/><category scheme="http://stackoverflow.com/feeds/tags" term="sed"/><category scheme="http://stackoverflow.com/feeds/tags" term="awk"/><category scheme="http://stackoverflow.com/feeds/tags" term="grep"/>
+        <author>
+            <name>axesdenied</name>
+            <uri>http://stackoverflow.com/users/1619556</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15822792/counting-the-number-of-function-calls-in-a-c-program" />
+        <published>2013-04-04T22:24:16Z</published>
+        <updated>2013-04-04T23:23:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;A C source program is given. Determine, for each defined function in
+the source, the number of calls, and the line where the call occurs.&lt;/p&gt;
+
+&lt;p&gt;The best thing I could come up with is &lt;code&gt;grep -c &#39;function (&#39; code.c&lt;/code&gt;
+However this only works if I know the function name, and it will only provide the number of calls (considering there is no prototype in that file). Not sure with what else to start so any advice would be well met.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15819429</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">SetInterval/Slider is not working with Chrome</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/>
+        <author>
+            <name>Paulo Martins</name>
+            <uri>http://stackoverflow.com/users/753484</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15819429/setinterval-slider-is-not-working-with-chrome" />
+        <published>2013-04-04T18:55:04Z</published>
+        <updated>2013-04-04T23:23:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using a Circular Content Carousel from codrops, with some modifications.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m trying to make the slider autoscroll with setInterval call. In IE and Firefoxe it works fine, but in Chrome it only slides once and never more. Can anyone check what is wrong with my setInterval code?&lt;/p&gt;
+
+&lt;p&gt;Here is the piece of code I&#39;m using for the auto scroll:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var autoscroll = setInterval(function() {
+    aux.navigate( 1, $el, $wrapper, settings, cache );
+},5000);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to call the aux.navigate with the variables given, its one way of making the slider scroll forever.&lt;/p&gt;
+
+&lt;p&gt;Here is the full code of the Slider with my modifications (the auto scroll piece of code is near the end, in the end of the methodes part):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(function($) {
+
+var aux     = {
+
+        // navigates left / right
+        navigate    : function( dir, $el, $wrapper, opts, cache ) {
+
+            var scroll      = opts.scroll,
+                factor      = 1,
+                idxClicked  = 0;
+
+            if( cache.expanded ) {
+                scroll      = 1; // scroll is always 1 in full mode
+                factor      = 3; // the width of the expanded item will be 3 times bigger than 1 collapsed item 
+                idxClicked  = cache.idxClicked; // the index of the clicked item
+            }
+
+            // clone the elements on the right / left and append / prepend them according to dir and scroll
+            if( dir === 1 ) {
+                $wrapper.find(&#39;div.ca-item:lt(&#39; + scroll + &#39;)&#39;).each(function(i) {
+                    $(this).clone(true).css( &#39;left&#39;, ( cache.totalItems - idxClicked + i ) * cache.itemW * factor + &#39;px&#39; ).appendTo( $wrapper );
+                });
+            }
+            else {
+                var $first  = $wrapper.children().eq(0);
+
+                $wrapper.find(&#39;div.ca-item:gt(&#39; + ( cache.totalItems  - 1 - scroll ) + &#39;)&#39;).each(function(i) {
+                    // insert before $first so they stay in the right order
+                    $(this).clone(true).css( &#39;left&#39;, - ( scroll - i + idxClicked ) * cache.itemW * factor + &#39;px&#39; ).insertBefore( $first );
+                });
+            }
+
+            // animate the left of each item
+            // the calculations are dependent on dir and on the cache.expanded value
+            $wrapper.find(&#39;div.ca-item&#39;).each(function(i) {
+                var $item   = $(this);
+                $item.stop().animate({
+                    left    :  ( dir === 1 ) ? &#39;-=&#39; + ( cache.itemW * factor * scroll ) + &#39;px&#39; : &#39;+=&#39; + ( cache.itemW * factor * scroll ) + &#39;px&#39;
+                }, opts.sliderSpeed, opts.sliderEasing, function() {
+                    if( ( dir === 1 &amp;amp;&amp;amp; $item.position().left &amp;lt; - idxClicked * cache.itemW * factor ) || ( dir === -1 &amp;amp;&amp;amp; $item.position().left &amp;gt; ( ( cache.totalItems - 1 - idxClicked ) * cache.itemW * factor ) ) ) {
+                        // remove the item that was cloned
+                        $item.remove();
+                    }                       
+                    cache.isAnimating   = false;
+                });
+            });
+
+        },
+        // opens an item (animation) -&amp;gt; opens all the others
+        openItem    : function( $wrapper, $item, opts, cache ) {
+            cache.idxClicked    = $item.index();
+            // the item&#39;s position (1, 2, or 3) on the viewport (the visible items) 
+            cache.winpos        = aux.getWinPos( $item.position().left, cache );
+
+
+            $wrapper.find(&#39;div.ca-item&#39;).not( $item ).hide();
+
+            $wrapper.find(&#39;div.ca-item-main&#39;).hide();
+
+            //$item.find(&#39;div.ca-content-wrapper&#39;).stop().animate({ sera a solu&#231;&#227;o para nao haver espa&#231;o branco ao fim do scroll em fullscreen??
+            $item.find(&#39;div.ca-content-wrapper&#39;).css( &#39;left&#39;, cache.itemW + &#39;px&#39; ).stop().animate({
+                width   : cache.itemW * 3 + &#39;px&#39;,
+                left    : &#39;0px&#39;
+            }, opts.itemSpeed, opts.itemEasing)
+            .end()
+            .stop()
+            .animate({
+                left    : &#39;0px&#39;
+            }, opts.itemSpeed, opts.itemEasing, function() {
+                cache.isAnimating   = false;
+                cache.expanded      = true;
+
+                aux.openItems( $wrapper, $item, opts, cache );
+            });
+
+        },
+        // opens all the items
+        openItems   : function( $wrapper, $openedItem, opts, cache ) {
+            var openedIdx   = $openedItem.index();
+
+            $wrapper.find(&#39;div.ca-item&#39;).each(function(i) {
+                var $item   = $(this),
+                    idx     = $item.index();
+
+                if( idx !== openedIdx ) {
+                    $item.css( &#39;left&#39;, - ( openedIdx - idx ) * ( cache.itemW * 3 ) + &#39;px&#39; ).show().find(&#39;div.ca-content-wrapper&#39;).css({
+                        left    : &#39;0px&#39;,
+                        width   : cache.itemW * 3 + &#39;px&#39;
+                    });
+                }
+            });
+        },
+        // close all the items
+        // the current one is animated
+        closeItems  : function( $wrapper, $openedItem, opts, cache ) {
+            var openedIdx   = $openedItem.index();
+
+            $openedItem.find(&#39;div.ca-content-wrapper&#39;).stop().animate({
+                width   : &#39;0px&#39;
+            }, opts.itemSpeed, opts.itemEasing)
+            .end()
+            .stop()
+            .animate({
+                left    : cache.itemW * ( cache.winpos - 1 ) + &#39;px&#39;
+            }, opts.itemSpeed, opts.itemEasing, function() {
+                cache.isAnimating   = false;
+                cache.expanded      = false;
+            });
+
+            $wrapper.find(&#39;div.ca-item&#39;).each(function(i) {
+                var $item   = $(this),
+                    idx     = $item.index();
+
+                $item.find(&#39;div.ca-item-main&#39;).show();
+
+                if( idx !== openedIdx ) {
+                    $item.find(&#39;div.ca-content-wrapper&#39;).css({
+                        width   : &#39;0px&#39;
+                    })
+                    .end()
+                    .css( &#39;left&#39;, ( ( cache.winpos - 1 ) - ( openedIdx - idx ) ) * cache.itemW + &#39;px&#39; )
+                    .show();
+                }
+            });
+        },
+        // gets the item&#39;s position (1, 2, or 3) on the viewport (the visible items)
+        // val is the left of the item
+        getWinPos   : function( val, cache ) {
+            switch( val ) {
+                case 0                  : return 1; break;
+                case cache.itemW        : return 2; break;
+                case cache.itemW * 2    : return 3; break;
+            }
+        }
+    },
+    methods = {
+        init        : function( options ) {
+
+            if( this.length ) {
+
+                var settings = {
+                    sliderSpeed     : 500,          // speed for the sliding animation
+                    sliderEasing    : &#39;easeOutExpo&#39;,// easing for the sliding animation
+                    itemSpeed       : 500,          // speed for the item animation (open / close)
+                    itemEasing      : &#39;easeOutExpo&#39;,// easing for the item animation (open / close)
+                    scroll          : 1             // number of items to scroll at a time
+                };
+
+                return this.each(function() {
+
+                    // if options exist, lets merge them with our default settings
+                    if ( options ) {
+                        $.extend( settings, options );
+                    }
+
+                    var $el             = $(this),
+                        $wrapper        = $el.find(&#39;div.ca-wrapper&#39;),
+                        $items          = $wrapper.children(&#39;div.ca-item&#39;),
+                        cache           = {};
+
+                    // save the with of one item    
+                    cache.itemW         = $items.width();
+                    // save the number of total items
+                    cache.totalItems    = $items.length;
+
+                    // add navigation buttons
+                    if( cache.totalItems &amp;gt; 3 )  
+                        $el.prepend(&#39;&amp;lt;div class=&quot;ca-nav&quot;&amp;gt;&amp;lt;span class=&quot;ca-nav-prev&quot;&amp;gt;Previous&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;ca-nav-next&quot;&amp;gt;Next&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&#39;) 
+
+                    // control the scroll value
+                    if( settings.scroll &amp;lt; 1 )
+                        settings.scroll = 1;
+                    else if( settings.scroll &amp;gt; 3 )
+                        settings.scroll = 3;    
+
+                    var $navPrev        = $el.find(&#39;span.ca-nav-prev&#39;),
+                        $navNext        = $el.find(&#39;span.ca-nav-next&#39;);
+
+                    // hide the items except the first 3
+                    $wrapper.css( &#39;overflow&#39;, &#39;hidden&#39; );
+
+                    // the items will have position absolute 
+                    // calculate the left of each item
+                    $items.each(function(i) {
+                        $(this).css({
+                            position    : &#39;absolute&#39;,
+                            left        : i * cache.itemW + &#39;px&#39;
+                        });
+                    });
+
+                    // click to open the item(s)
+                    $el.find(&#39;a.ca-more&#39;).live(&#39;click.contentcarousel&#39;, function( event ) {
+                        if( cache.isAnimating ) return false;
+                        cache.isAnimating   = true;
+                        var $item   = $(this).closest(&#39;div.ca-item&#39;);
+                        aux.openItem( $wrapper, $item, settings, cache );
+                        return false;
+                    });
+
+                    // click to close the item(s)
+                    $el.find(&#39;a.ca-close&#39;).live(&#39;click.contentcarousel&#39;, function( event ) {
+                        if( cache.isAnimating ) return false;
+                        cache.isAnimating   = true;
+                        var $item   = $(this).closest(&#39;div.ca-item&#39;);
+                        aux.closeItems( $wrapper, $item, settings, cache );
+                        return false;
+                    });
+
+                    // navigate left
+                    $navPrev.bind(&#39;click.contentcarousel&#39;, function( event ) {
+                        if( cache.isAnimating ) return false;
+                        cache.isAnimating   = true;
+                        aux.navigate( -1, $el, $wrapper, settings, cache );
+                    });
+
+                    // navigate right
+                    $navNext.bind(&#39;click.contentcarousel&#39;, function( event ) {
+                        if( cache.isAnimating ) return false;
+                        cache.isAnimating   = true;
+                        aux.navigate( 1, $el, $wrapper, settings, cache );
+                    });
+
+                    // adds events to the mouse
+                    $el.bind(&#39;mousewheel.contentcarousel&#39;, function(e, delta) {
+                        if(delta &amp;gt; 0) {
+                            if( cache.isAnimating ) return false;
+                            cache.isAnimating   = true;
+                            aux.navigate( -1, $el, $wrapper, settings, cache );
+                        }   
+                        else {
+                            if( cache.isAnimating ) return false;
+                            cache.isAnimating   = true;
+                            aux.navigate( 1, $el, $wrapper, settings, cache );
+                        }   
+                        return false;
+                    });
+
+
+                    var autoscroll = setInterval(function() {
+                    aux.navigate( 1, $el, $wrapper, settings, cache );
+                    },1000);
+
+                });
+            }
+        }
+    };
+
+$.fn.contentcarousel = function(method) {
+    if ( methods[method] ) {
+        return methods[method].apply( this, Array.prototype.slice.call( arguments, 1 ));
+    } else if ( typeof method === &#39;object&#39; || ! method ) {
+        return methods.init.apply( this, arguments );
+    } else {
+        $.error( &#39;Method &#39; +  method + &#39; does not exist on jQuery.contentcarousel&#39; );
+    }
+};
+
+})(jQuery);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have tried a lot of combintions of code, searched a lot, but can&#39;t make it to work on Chrome, in other browsers it works fine. Thanks a lot for any teaching and helping about this.&lt;/p&gt;
+
+&lt;p&gt;**PS/EDIT:&lt;/p&gt;
+
+&lt;p&gt;I added the Slider to a temporary server, you can find it working online here with the full code: &lt;a href=&quot;http://ceh.ilch.uminho.pt/test/&quot; rel=&quot;nofollow&quot;&gt;http://ceh.ilch.uminho.pt/test/&lt;/a&gt;**&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15809898</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Mapkit draw route problems</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="iphone"/><category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="mkmapview"/><category scheme="http://stackoverflow.com/feeds/tags" term="mapkit"/>
+        <author>
+            <name>DAddict</name>
+            <uri>http://stackoverflow.com/users/2207080</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15809898/mapkit-draw-route-problems" />
+        <published>2013-04-04T11:31:06Z</published>
+        <updated>2013-04-04T23:23:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am developing an application in which I need to draw a route between two points using lat/long.&lt;/p&gt;
+
+&lt;p&gt;I have used google API to get polylines and drawing it after decoding it.&lt;/p&gt;
+
+&lt;p&gt;Problems:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Route is not in the middle of the road (Attached image_1)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While zooming in/out route doesn&#39;t draw completely (Attached image_2)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/6MyB3.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/3PEen.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/EQvdE.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is the code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    if(!routeView)
+        routeView = [[UIImageView alloc] initWithFrame:CGRectMake(0, self.mapView.frame.origin.y, mapView.frame.size.width, self.mapView.frame.size.height)];
+    routeView.userInteractionEnabled = NO;
+    [mapView addSubview:routeView];
+
+    [self.lat1 resignFirstResponder];
+    [self.long1 resignFirstResponder];
+    [self.lat2 resignFirstResponder];
+    [self.long2 resignFirstResponder];
+
+    NSString* saddr = [NSString stringWithFormat:@&quot;%@,%@&quot;,self.lat1.text,self.long1.text];
+
+    NSString* daddr = [NSString stringWithFormat:@&quot;%@,%@&quot;,self.lat2.text,self.long2.text];
+
+    NSString* apiUrlStr = [NSString stringWithFormat:@&quot;http://maps.apple.com/maps/api/directions/json?origin=%@&amp;amp;destination=%@&amp;amp;sensor=false&quot;, saddr, daddr];
+
+    NSURL* apiUrl = [NSURL URLWithString:apiUrlStr];
+
+    NSError *error;
+    NSString *apiResponse = [NSString stringWithContentsOfURL:apiUrl encoding:NSUTF8StringEncoding error:&amp;amp;error];
+
+
+    NSData *responseData = [apiResponse dataUsingEncoding:NSUTF8StringEncoding];
+
+
+    NSError* error1;
+    NSDictionary* json = [NSJSONSerialization JSONObjectWithData:responseData
+                                                         options:NSJSONReadingMutableLeaves
+                                                           error:&amp;amp;error1];
+    NSLog(@&quot;Error: %@\n%@&quot;,[error1 localizedDescription],[error1 localizedFailureReason]);
+
+
+   if([[json objectForKey:@&quot;status&quot;] isEqualToString:@&quot;OK&quot;])
+    {
+        NSArray *routes1 = [json objectForKey:@&quot;routes&quot;];
+        NSDictionary *route = [routes1 lastObject];
+
+        if (route)
+        {
+            NSString *overviewPolyline = [[route objectForKey: @&quot;overview_polyline&quot;] objectForKey:@&quot;points&quot;];
+
+            routes = [self decodePolyLine:overviewPolyline];
+
+            //NSLog(@&quot;%@&quot;,[routes objectAtIndex:0]);
+
+            [self updateRouteView];
+            [self centerMap];
+        }
+    }
+
+
+-(void) updateRouteView
+{
+ CGContextRef context =     CGBitmapContextCreate(nil,
+                                                 routeView.frame.size.width,
+                                              routeView.frame.size.height,
+                                              8,
+                                              4 * routeView.frame.size.width,
+                                              CGColorSpaceCreateDeviceRGB(),
+                                              kCGImageAlphaPremultipliedLast);
+
+CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+CGContextSetRGBFillColor(context, 0.0, 0.0, 1.0, 1.0);
+CGContextSetLineWidth(context, 3.0);
+
+for(int i = 0; i &amp;lt; routes.count; i++) {
+    CLLocation* location = [routes objectAtIndex:i];
+    CGPoint point = [mapView convertCoordinate:location.coordinate toPointToView:routeView];
+
+    if(i == 0) {
+        CGContextMoveToPoint(context, point.x, routeView.frame.size.height - point.y);
+    } else {
+        CGContextAddLineToPoint(context, point.x, routeView.frame.size.height - point.y);
+    }
+}
+
+CGContextStrokePath(context);
+
+CGImageRef image = CGBitmapContextCreateImage(context);
+UIImage* img = [UIImage imageWithCGImage:image];
+
+routeView.image = img;
+CGContextRelease(context);
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15800713</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Change the {user} for a Maven project</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="maven"/><category scheme="http://stackoverflow.com/feeds/tags" term="licensing"/><category scheme="http://stackoverflow.com/feeds/tags" term="netbeans-7.3"/>
+        <author>
+            <name>OldCurmudgeon</name>
+            <uri>http://stackoverflow.com/users/823393</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15800713/change-the-user-for-a-maven-project" />
+        <published>2013-04-04T00:43:42Z</published>
+        <updated>2013-04-04T23:24:17Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have added:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;licenses&amp;gt;
+  &amp;lt;license&amp;gt;
+    &amp;lt;name&amp;gt;The Apache Software License, Version 2.0&amp;lt;/name&amp;gt;
+    &amp;lt;url&amp;gt;http://www.apache.org/licenses/LICENSE-2.0.txt&amp;lt;/url&amp;gt;
+    &amp;lt;distribution&amp;gt;repo&amp;lt;/distribution&amp;gt;
+    &amp;lt;comments&amp;gt;A business-friendly OSS license&amp;lt;/comments&amp;gt;
+  &amp;lt;/license&amp;gt;
+&amp;lt;/licenses&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to my pom file and the Apache license neatly appears in each new source file I create. However, the license text appears as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/*
+ * Copyright 2013 MyUserName.
+ *
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+   ...
+ */
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want it to be&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/*
+ * Copyright 2013 OldCurmudgeon &amp;lt;--- Note the new name.
+ *
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+   ...
+ */
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this field looks like it comes from a &lt;code&gt;{user}&lt;/code&gt; property, or so the template suggests. Is there any way I can change that on a per-project basis?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;The answer&lt;/strong&gt; after some experimenting with the offered options below.&lt;/p&gt;
+
+&lt;p&gt;I was right about the pom file change - I chose the Apache-2.0 License. You will obviously need to make adjustments for your choice of license.&lt;/p&gt;
+
+&lt;p&gt;Add to your pom file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;licenses&amp;gt;
+  &amp;lt;license&amp;gt;
+    &amp;lt;name&amp;gt;The Apache Software License, Version 2.0&amp;lt;/name&amp;gt;
+    &amp;lt;url&amp;gt;http://www.apache.org/licenses/LICENSE-2.0.txt&amp;lt;/url&amp;gt;
+    &amp;lt;distribution&amp;gt;repo&amp;lt;/distribution&amp;gt;
+    &amp;lt;comments&amp;gt;A business-friendly OSS license&amp;lt;/comments&amp;gt;
+  &amp;lt;/license&amp;gt;
+&amp;lt;/licenses&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Change the Java templates &lt;em&gt;(Tools/Templates/Java/Java Class(and any others as you wish)/Open In Editor(button))&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Change:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; ...
+ * @author ${user}
+ ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; ...
+ * @author ${project.property.user}
+ ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then change the license file &lt;em&gt;(Tools/Templates/Licences/The license you chose/Open In Editor(button))&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;...
+${licensePrefix}Copyright ${date?date?string(&quot;yyyy&quot;)} ${project.organization!user}.
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;...
+${licensePrefix}Copyright ${date?date?string(&quot;yyyy&quot;)} ${project.property.user}.
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then add to your pom file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;properties&amp;gt;
+  &amp;lt;!-- For the License --&amp;gt;
+  &amp;lt;user&amp;gt;OldCurmudgeon&amp;lt;/user&amp;gt;
+&amp;lt;/properties&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And you&#39;re done. Shame I had to change the license file. Perhaps in a later release of NetBeans this won&#39;t be necessary.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15541725</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">GlassFish Load balancer configurator plugin installs 64-bit binaries on a 32-bit machine</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="glassfish"/>
+        <author>
+            <name>GetUsername</name>
+            <uri>http://stackoverflow.com/users/572510</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15541725/glassfish-load-balancer-configurator-plugin-installs-64-bit-binaries-on-a-32-bit" />
+        <published>2013-03-21T07:28:37Z</published>
+        <updated>2013-04-04T23:22:52Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m running GlassFish 3.1.2.2 and iPlanet 7 on 32-bit Ubuntu 12.10&lt;br&gt;
+I&#39;m installing GlassFish Load balancer configurator plugin v3.1.2.2.&lt;br&gt;
+Installation process goes OK and doesn&#39;t report any errors:    &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;INFO: Started installation of GlassFish Load Balancer Plugin&lt;br&gt;
+  INFO: Detected Oracle iPlanet Web Server version as 7.x&lt;br&gt;
+  INFO: Completed installation of GlassFish Load Balancer Plugin&lt;br&gt;
+  INFO: GlassFish load-balancer plugin installation completed successfully.  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But when I&#39;m trying to start iPlanet instance it reports an error:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ADMIN3603: Error while starting the server:
+  failure: CORE2253: Error running Init function load-modules: dlopen of .../webserver7/plugins/lbplugin/bin/libpassthrough.so failed (.../webserver7/plugins/lbplugin/bin/libpassthrough.so: wrong ELF class: ELFCLASS64)
+  failure: server initialization failed &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&#39;m checking that libpassthrough.so with:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;file libpassthrough.so    &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and it reports that   &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;libpassthrough.so: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, stripped&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Any ideas how can I make Load balancer plugin to install the 32-bit version of binaries?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/9499848</id>
+        <re:rank scheme="http://stackoverflow.com">5</re:rank>
+        <title type="text">Sublime Text 2 code snippet</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sublimetext"/>
+        <author>
+            <name>jb1785</name>
+            <uri>http://stackoverflow.com/users/549057</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/9499848/sublime-text-2-code-snippet" />
+        <published>2012-02-29T13:16:11Z</published>
+        <updated>2013-04-04T23:23:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I just started using Sublime Text 2 yesterday and I&#39;m liking it a lot. However, I am trying to set up a code snippet that I would use all the time. The problem is that the editor isn&#39;t recognizing it at all. I saved it in my Packages/User folder. The snippet is below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;snippet&amp;gt;
+    &amp;lt;content&amp;gt;&amp;lt;![CDATA[echo &quot;&amp;lt;pre&amp;gt;&quot;.print_r(${0:var},true).&quot;&amp;lt;/pre&amp;gt;&quot;;]]&amp;gt;&amp;lt;/content&amp;gt;
+    &amp;lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&amp;gt;
+    &amp;lt;tabTrigger&amp;gt;pre&amp;lt;/tabTrigger&amp;gt;
+    &amp;lt;!-- Optional: Set a scope to limit where the snippet will trigger --&amp;gt;
+    &amp;lt;scope&amp;gt;source.php&amp;lt;/scope&amp;gt;
+    &amp;lt;description&amp;gt;print r with pre tags&amp;lt;/description&amp;gt;
+&amp;lt;/snippet&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any idea what I&#39;m doing wrong?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/3412565</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">What is the difference between a Decision Tree and a Bayesian Network?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="bayesian"/><category scheme="http://stackoverflow.com/feeds/tags" term="decisiontrees"/><category scheme="http://stackoverflow.com/feeds/tags" term="bayesian-networks"/>
+        <author>
+            <name>iceburn</name>
+            <uri>http://stackoverflow.com/users/383330</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/3412565/what-is-the-difference-between-a-decision-tree-and-a-bayesian-network" />
+        <published>2010-08-05T07:24:11Z</published>
+        <updated>2013-04-04T23:22:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;If I understand it right, both use Bayes Theorem to generate an acyclic graph and calculate percentages based on functions applied at every node.&lt;/p&gt;
+
+&lt;p&gt;What is the difference?&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

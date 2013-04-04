@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-04-04T15:56:28-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d08d528dc1848fb369a0b27cdb0749d8f6f38063</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d08d528dc1848fb369a0b27cdb0749d8f6f38063"/>
+    <title>
+        Merge tag &#39;pm+acpi-3.9-rc6&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+    </title>
+    <updated>2013-04-04T15:56:28-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/acpi/Kconfig
+m drivers/acpi/acpi_i2c.c
+m drivers/acpi/processor_idle.c
+m drivers/base/power/qos.c
+m drivers/cpufreq/cpufreq-cpu0.c
+m drivers/cpufreq/cpufreq_governor.h
+m drivers/i2c/busses/i2c-designware-platdrv.c
+m drivers/spi/spi-pxa2xx.c
+m drivers/spi/spi.c
+m drivers/usb/core/port.c
+m include/linux/devfreq.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;pm+acpi-3.9-rc6&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+
+Pull ACPI and power management fixes from Rafael Wysocki:
+
+ - Revert of a recent cpuidle change that caused Nehalem machines to
+   hang on boot from Alex Shi.
+
+ - USB power management fix addressing a crash in the port device
+   object&#39;s release routine from Rafael J Wysocki.
+
+ - Device PM QoS fix for a potential deadlock related to sysfs interface
+   from Rafael J Wysocki.
+
+ - Fix for a cpufreq crash when the /cpus Device Tree node is missing
+   from Paolo Pisati.
+
+ - Fix for a build issue on ia64 related to the Boot Graphics Resource
+   Table (BGRT) from Tony Luck.
+
+ - Two fixes for ACPI handles being set incorrectly for device objects
+   that don&#39;t correspond to any ACPI namespace nodes in the I2C and SPI
+   subsystems from Rafael J Wysocki.
+
+ - Fix for compiler warnings related to CONFIG_PM_DEVFREQ being unset
+   from Rajagopal Venkat.
+
+ - Fix for a symbol definition typo in cpufreq_governor.h from Borislav
+   Petkov.
+
+* tag &#39;pm+acpi-3.9-rc6&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm:
+  ACPI / BGRT: Don&#39;t let users configure BGRT on non X86 systems
+  cpuidle / ACPI: recover percpu ACPI processor cstate
+  ACPI / I2C: Use parent&#39;s ACPI_HANDLE() in acpi_i2c_register_devices()
+  cpufreq: Correct header guards typo
+  ACPI / SPI: Use parent&#39;s ACPI_HANDLE() in acpi_register_spi_devices()
+  cpufreq: check OF node /cpus presence before dereferencing it
+  PM / devfreq: Fix compiler warnings for CONFIG_PM_DEVFREQ unset
+  PM / QoS: Avoid possible deadlock related to sysfs access
+  USB / PM: Don&#39;t try to hide PM QoS flags from usb_port_device_release()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b6a9b7f6b1f21735a7456d534dc0e68e61359d2c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b6a9b7f6b1f21735a7456d534dc0e68e61359d2c"/>
+    <title>
+        mm: prevent mmap_cache race in find_vma()
+    </title>
+    <updated>2013-04-04T11:46:28-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1bc75367f2b0b1de20fb22e1854f2f76?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jstancek</name>
+      <uri>https://github.com/jstancek</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m mm/mmap.c
+m mm/nommu.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>mm: prevent mmap_cache race in find_vma()
+
+find_vma() can be called by multiple threads with read lock
+held on mm-&gt;mmap_sem and any of them can update mm-&gt;mmap_cache.
+Prevent compiler from re-fetching mm-&gt;mmap_cache, because other
+readers could update it in the meantime:
+
+               thread 1                             thread 2
+                                        |
+  find_vma()                            |  find_vma()
+    struct vm_area_struct *vma = NULL;  |
+    vma = mm-&gt;mmap_cache;               |
+    if (!(vma &amp;&amp; vma-&gt;vm_end &gt; addr     |
+        &amp;&amp; vma-&gt;vm_start &lt;= addr)) {    |
+                                        |    mm-&gt;mmap_cache = vma;
+    return vma;                         |
+     ^^ compiler may optimize this      |
+        local variable out and re-read  |
+        mm-&gt;mmap_cache                  |
+
+This issue can be reproduced with gcc-4.8.0-1 on s390x by running
+mallocstress testcase from LTP, which triggers:
+
+  kernel BUG at mm/rmap.c:1088!
+    Call Trace:
+     ([&lt;000003d100c57000&gt;] 0x3d100c57000)
+      [&lt;000000000023a1c0&gt;] do_wp_page+0x2fc/0xa88
+      [&lt;000000000023baae&gt;] handle_pte_fault+0x41a/0xac8
+      [&lt;000000000023d832&gt;] handle_mm_fault+0x17a/0x268
+      [&lt;000000000060507a&gt;] do_protection_exception+0x1e2/0x394
+      [&lt;0000000000603a04&gt;] pgm_check_handler+0x138/0x13c
+      [&lt;000003fffcf1f07a&gt;] 0x3fffcf1f07a
+    Last Breaking-Event-Address:
+      [&lt;000000000024755e&gt;] page_add_new_anon_rmap+0xc2/0x168
+
+Thanks to Jakub Jelinek for his insight on gcc and helping to
+track this down.
+
+Signed-off-by: Jan Stancek &lt;jstancek@redhat.com&gt;
+Acked-by: David Rientjes &lt;rientjes@google.com&gt;
+Signed-off-by: Hugh Dickins &lt;hughd@google.com&gt;
+Cc: stable@vger.kernel.org
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/22d1e6f4c509eea39fd9232a01697e1cf08ff8a8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/22d1e6f4c509eea39fd9232a01697e1cf08ff8a8"/>
+    <title>
+        Merge tag &#39;upstream-3.9-rc6&#39; of git://git.infradead.org/linux-ubifs
+    </title>
+    <updated>2013-04-04T08:41:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/ubifs/super.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;upstream-3.9-rc6&#39; of git://git.infradead.org/linux-ubifs
+
+Pull UBIFS fix from Artem Bityutskiy:
+ &quot;Make the space fixup feature work in the case when the file-system is
+  first mounted R/O and then remounted R/W.&quot;
+
+* tag &#39;upstream-3.9-rc6&#39; of git://git.infradead.org/linux-ubifs:
+  UBIFS: make space fixup work in the remount case&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6cb437acd93a01fdbd6bac9c78ac8159c644e576</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6cb437acd93a01fdbd6bac9c78ac8159c644e576"/>
+    <title>
+        Merge branch &#39;pm-fixes&#39; into fixes
+    </title>
+    <updated>2013-04-04T08:41:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb5463756b84f5d75667bda5645218a6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rafael.j.wysocki@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/base/power/qos.c
+m drivers/cpufreq/cpufreq-cpu0.c
+m drivers/cpufreq/cpufreq_governor.h
+m drivers/usb/core/port.c
+m include/linux/devfreq.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;pm-fixes&#39; into fixes
+
+* pm-fixes:
+  cpufreq: Correct header guards typo
+  cpufreq: check OF node /cpus presence before dereferencing it
+  PM / devfreq: Fix compiler warnings for CONFIG_PM_DEVFREQ unset
+  PM / QoS: Avoid possible deadlock related to sysfs access
+  USB / PM: Don&#39;t try to hide PM QoS flags from usb_port_device_release()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/fc1a7fe8b6442a941a8af0cdcc9ff6b666707d60</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/fc1a7fe8b6442a941a8af0cdcc9ff6b666707d60"/>
+    <title>
+        Merge branch &#39;acpi-fixes&#39; into fixes
+    </title>
+    <updated>2013-04-04T08:40:59-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb5463756b84f5d75667bda5645218a6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rafael.j.wysocki@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/acpi/Kconfig
+m drivers/acpi/acpi_i2c.c
+m drivers/acpi/processor_idle.c
+m drivers/i2c/busses/i2c-designware-platdrv.c
+m drivers/spi/spi-pxa2xx.c
+m drivers/spi/spi.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;acpi-fixes&#39; into fixes
+
+* acpi-fixes:
+  ACPI / BGRT: Don&#39;t let users configure BGRT on non X86 systems
+  cpuidle / ACPI: recover percpu ACPI processor cstate
+  ACPI / I2C: Use parent&#39;s ACPI_HANDLE() in acpi_i2c_register_devices()
+  ACPI / SPI: Use parent&#39;s ACPI_HANDLE() in acpi_register_spi_devices()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/014642cb0a08d1b12c6089c48c7ba6002a0f6811</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/014642cb0a08d1b12c6089c48c7ba6002a0f6811"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/hid
+    </title>
+    <updated>2013-04-04T08:40:45-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/hid/hid-core.c
+m drivers/hid/hid-ids.h
+m drivers/hid/hid-magicmouse.c
+m drivers/media/radio/radio-ma901.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/hid
+
+Pull HID fixes from Jiri Kosina:
+
+ - Workaround for device ID conflict between Masterkit MA901 usb radio
+   device and Atmel V-USB devices, to avoid regressions from older
+   kernels, by Alexey Klimov
+
+ - fix for possible race during input device registration in magicmouse
+   driver, by Benjamin Tissoires
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/hid:
+  HID: magicmouse: fix race between input_register() and probe()
+  media: radio-ma901: return ENODEV in probe if usb_device doesn&#39;t match
+  HID: fix Masterkit MA901 hid quirks&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8d448270fee5675adf81df9e35c2ec341735558f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/8d448270fee5675adf81df9e35c2ec341735558f"/>
+    <title>
+        Merge tag &#39;gpio-fixes-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-gpio
+    </title>
+    <updated>2013-04-04T08:40:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpio/gpio-ich.c
+m drivers/gpio/gpio-stmpe.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;gpio-fixes-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-gpio
+
+Pull GPIO fixes from Linus Walleij:
+ &quot;Two GPIO fixes for the v3.9 series:
+   - Fix erroneous return value in the ICH driver
+   - Make the STMPE driver proper properly on device tree boots&quot;
+
+* tag &#39;gpio-fixes-v3.9&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-gpio:
+  gpio: stmpe: pass DT node to irqdomain
+  gpio-ich: Fix value returned by ichx_gpio_request&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f1a9a149abc86903e81dd1b2e720f3f89874384b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/f1a9a149abc86903e81dd1b2e720f3f89874384b"/>
+    <title>
+        HID: magicmouse: fix race between input_register() and probe()
+    </title>
+    <updated>2013-04-04T00:49:56-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/acca574abc6e37cd5118cbb0edec1071?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>benjamin.tissoires@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/hid/hid-magicmouse.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>HID: magicmouse: fix race between input_register() and probe()
+
+Since kernel 3.7, it appears that the input registration occured before
+the end of magicmouse_setup_input(). This is shown by receiving a lot of
+&quot;EV_SYN SYN_REPORT 1&quot; instead of normal &quot;EV_SYN SYN_REPORT 0&quot;.
+This value means that the output buffer is full, and the user space
+is loosing events.
+
+Using .input_configured guarantees that the race is not occuring, and that
+the call of &quot;input_set_events_per_packet(input, 60)&quot; is taken into account
+by input_register().
+
+Fixes:
+https://bugzilla.redhat.com/show_bug.cgi?id=908604
+
+Cc: stable@vger.kernel.org
+Reported-and-Tested-By: Clarke Wixon &lt;cwixon@usa.net&gt;
+Signed-off-by: Benjamin Tissoires &lt;benjamin.tissoires@redhat.com&gt;
+Signed-off-by: Jiri Kosina &lt;jkosina@suse.cz&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/66ade474237745a57b7e87da9a93c7ec69fd52bb</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/66ade474237745a57b7e87da9a93c7ec69fd52bb"/>
+    <title>
+        Merge branch &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm
+    </title>
+    <updated>2013-04-03T16:15:17-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/Kconfig
+m arch/arm/include/asm/delay.h
+m arch/arm/include/asm/highmem.h
+m arch/arm/include/asm/mmu_context.h
+m arch/arm/include/asm/tlbflush.h
+m arch/arm/kernel/entry-common.S
+m arch/arm/kernel/head.S
+m arch/arm/kernel/hw_breakpoint.c
+m arch/arm/kernel/setup.c
+m arch/arm/kernel/smp.c
+m arch/arm/kernel/smp_tlb.c
+m arch/arm/kvm/vgic.c
+m arch/arm/lib/delay.c
+m arch/arm/mm/cache-l2x0.c
+m arch/arm/mm/context.c
+m arch/arm/mm/mmu.c
+m arch/arm/mm/proc-v7.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm
+
+Pull ARM fixes from Russell King:
+ &quot;Another round of ARM fixes, which include:
+   - Fixing a problem with LPAE mapping sections
+   - Reporting of some hwcaps on Krait CPUs
+   - Avoiding repetitive warnings in the breakpoint code
+   - Fixing a build error noticed on Dove platforms with PJ4 CPUs
+   - Fix masking of level 2 cache revision.
+   - Fixing timer-based udelay()
+   - A larger fix for an erratum causing people major grief with Cortex
+     A15 CPUs&quot;
+
+* &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm:
+  ARM: 7690/1: mm: fix CONFIG_LPAE typos
+  ARM: 7689/1: add unwind annotations to ftrace asm
+  ARM: 7685/1: delay: use private ticks_per_jiffy field for timer-based delay ops
+  ARM: 7684/1: errata: Workaround for Cortex-A15 erratum 798181 (TLBI/DSB operations)
+  ARM: 7682/1: cache-l2x0: fix masking of RTL revision numbering and set_debug init
+  ARM: iWMMXt: always enable iWMMXt support with PJ4 CPUs
+  ARM: 7681/1: hw_breakpoint: use warn_once to avoid spam from reset_ctrl_regs()
+  ARM: 7678/1: Work around faulty ISAR0 register in some Krait CPUs
+  ARM: 7680/1: Detect support for SDIV/UDIV from ISAR0 register
+  ARM: 7679/1: Clear IDIVT hwcap if CONFIG_ARM_THUMB=n
+  ARM: 7677/1: LPAE: Fix mapping in alloc_init_section for unaligned addresses
+  ARM: KVM: vgic: take distributor lock on sync_hwstate path
+  ARM: KVM: vgic: force EOIed LRs to the empty state&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cbfa0e7204159515e63321142bcc2d6dcb854045</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/cbfa0e7204159515e63321142bcc2d6dcb854045"/>
+    <title>
+        Merge tag &#39;ext4_for_linus_stable&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+    </title>
+    <updated>2013-04-03T11:21:13-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/ext4/extents.c
+m fs/ext4/indirect.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;ext4_for_linus_stable&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+
+Pull ext4 fixes from Ted Ts&#39;o:
+ &quot;Unfortunately, we introduced some big-endian bugs during the last
+  merge window.  Fortunately, Cai and Christian noticed before 3.9
+  shipped.&quot;
+
+* tag &#39;ext4_for_linus_stable&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4:
+  ext4: fix big-endian bugs which could cause fs corruptions&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cd0e4a9dd432b2f0209d84b5b2420695c1fd3eb7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/cd0e4a9dd432b2f0209d84b5b2420695c1fd3eb7"/>
+    <title>
+        Merge branch &#39;for_linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+    </title>
+    <updated>2013-04-03T10:49:27-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/reiserfs/xattr.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for_linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+
+Pull reiserfs fix from Jan Kara:
+ &quot;A fix for reiserfs xattr bug exposed by changes to lookup_one_len()&quot;
+
+* &#39;for_linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs:
+  reiserfs: Fix warning and inode leak when deleting inode with xattrs&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/17eb3d8fbe4c573426fc99946040305e79c07803</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/17eb3d8fbe4c573426fc99946040305e79c07803"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+    </title>
+    <updated>2013-04-03T10:48:22-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/s390/include/asm/pgtable.h
+m arch/s390/lib/uaccess_pt.c
+m drivers/dma/Kconfig
+m drivers/media/platform/Kconfig
+m drivers/s390/block/scm_blk.c
+m drivers/s390/block/scm_drv.c
+m drivers/s390/char/tty3270.c
+m drivers/spi/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+
+Pull s390 fixes from Martin Schwidefsky:
+ &quot;Just a bunch of bugfixes&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux:
+  s390/mm: provide emtpy check_pgt_cache() function
+  s390/uaccess: fix page table walk
+  s390/3270: fix minor_start issue
+  s390/uaccess: fix clear_user_pt()
+  s390/scm_blk: fix error return code in scm_blk_init()
+  s390/scm_block: fix printk format string
+  drivers/Kconfig: add several missing GENERIC_HARDIRQS dependencies&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8cde7ad17e4f4ff8d12ff60dd09c0a291cb0b61c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/8cde7ad17e4f4ff8d12ff60dd09c0a291cb0b61c"/>
+    <title>
+        ext4: fix big-endian bugs which could cause fs corruptions
+    </title>
+    <updated>2013-04-03T09:37:17-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/054b3d21dabcfe204da7dc9e689ec8ea?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>wenqing.lz@taobao.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/ext4/extents.c
+m fs/ext4/indirect.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ext4: fix big-endian bugs which could cause fs corruptions
+
+When an extent was zeroed out, we forgot to do convert from cpu to le16.
+It could make us hit a BUG_ON when we try to write dirty pages out.  So
+fix it.
+
+[ Also fix a bug found by Dmitry Monakhov where we were missing
+  le32_to_cpu() calls in the new indirect punch hole code.
+
+  There are a number of other big endian warnings found by static code
+  analyzers, but we&#39;ll wait for the next merge window to fix them all
+  up.  These fixes are designed to be Obviously Correct by code
+  inspection, and easy to demonstrate that it won&#39;t make any
+  difference (and hence, won&#39;t introduce any bugs) on little endian
+  architectures such as x86.  --tytso ]
+
+Signed-off-by: Zheng Liu &lt;wenqing.lz@taobao.com&gt;
+Signed-off-by: &quot;Theodore Ts&#39;o&quot; &lt;tytso@mit.edu&gt;
+Reported-by: CAI Qian &lt;caiqian@redhat.com&gt;
+Reported-by: Christian Kujau &lt;lists@nerdbynature.de&gt;
+Cc: Dmitry Monakhov &lt;dmonakhov@openvz.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4e1db26a0b42e2b6e27c05d68adcc01709c2eed2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4e1db26a0b42e2b6e27c05d68adcc01709c2eed2"/>
+    <title>
+        ARM: 7690/1: mm: fix CONFIG_LPAE typos
+    </title>
+    <updated>2013-04-03T08:45:51-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/732d22af0cd39583b3f4d992ea284f10?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>pebolle</name>
+      <uri>https://github.com/pebolle</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/kernel/head.S
+m arch/arm/kernel/setup.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: 7690/1: mm: fix CONFIG_LPAE typos
+
+CONFIG_LPAE doesn&#39;t exist: the correct option is CONFIG_ARM_LPAE, so fix
+up the two typos under arch/arm/.
+
+The fix to head.S is slightly scary, but this is just for setting up
+an early io-mapping for the serial port when running on a big-endian,
+LPAE system. Since these systems don&#39;t exist in the wild (at least, I
+have no access to one outside of kvmtool, which doesn&#39;t provide a serial
+port suitable for earlyprintk), then we can revisit the code later if it
+causes any problems.
+
+Signed-off-by: Paul Bolle &lt;pebolle@tiscali.nl&gt;
+Signed-off-by: Will Deacon &lt;will.deacon@arm.com&gt;
+Signed-off-by: Russell King &lt;rmk+kernel@arm.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b21e023ba4003fe4b5c32540e4aee5991c019e92</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b21e023ba4003fe4b5c32540e4aee5991c019e92"/>
+    <title>
+        ARM: 7689/1: add unwind annotations to ftrace asm
+    </title>
+    <updated>2013-04-03T08:45:50-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9fcaef36fca1d879b24d59cc1c33cfa8?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>rabinv</name>
+      <uri>https://github.com/rabinv</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/kernel/entry-common.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: 7689/1: add unwind annotations to ftrace asm
+
+Add unwind annotations to the ftrace assembly code so that the function
+tracer&#39;s stacktracing options (func_stack_trace, etc.) work when
+CONFIG_ARM_UNWIND is enabled.
+
+Signed-off-by: Rabin Vincent &lt;rabin@rab.in&gt;
+Signed-off-by: Russell King &lt;rmk+kernel@arm.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6f3d90e55660ba42301b5e9c7eed332cc9f70fd7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6f3d90e55660ba42301b5e9c7eed332cc9f70fd7"/>
+    <title>
+        ARM: 7685/1: delay: use private ticks_per_jiffy field for timer-based delay ops
+    </title>
+    <updated>2013-04-03T08:45:50-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9238e9c5166f51a7993dca43157b285f?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>will.deacon@arm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/include/asm/delay.h
+m arch/arm/kernel/smp.c
+m arch/arm/lib/delay.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: 7685/1: delay: use private ticks_per_jiffy field for timer-based delay ops
+
+Commit 70264367a243 (&quot;ARM: 7653/2: do not scale loops_per_jiffy when
+using a constant delay clock&quot;) fixed a problem with our timer-based
+delay loop, where loops_per_jiffy is scaled by cpufreq yet used directly
+by the timer delay ops.
+
+This patch fixes the problem in a more elegant way by keeping a private
+ticks_per_jiffy field in the delay ops, independent of loops_per_jiffy
+and therefore not subject to scaling. The loop-based delay continues to
+use loops_per_jiffy directly, as it should.
+
+Acked-by: Nicolas Pitre &lt;nico@linaro.org&gt;
+Signed-off-by: Will Deacon &lt;will.deacon@arm.com&gt;
+Signed-off-by: Russell King &lt;rmk+kernel@arm.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/93dc68876b608da041fe40ed39424b0fcd5aa2fb</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/93dc68876b608da041fe40ed39424b0fcd5aa2fb"/>
+    <title>
+        ARM: 7684/1: errata: Workaround for Cortex-A15 erratum 798181 (TLBI/DSB operations)
+    </title>
+    <updated>2013-04-03T08:45:49-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/23136fca891d323c70dc6c149d66bfeb?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>catalin.marinas@arm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/Kconfig
+m arch/arm/include/asm/highmem.h
+m arch/arm/include/asm/mmu_context.h
+m arch/arm/include/asm/tlbflush.h
+m arch/arm/kernel/smp_tlb.c
+m arch/arm/mm/context.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: 7684/1: errata: Workaround for Cortex-A15 erratum 798181 (TLBI/DSB operations)
+
+On Cortex-A15 (r0p0..r3p2) the TLBI/DSB are not adequately shooting down
+all use of the old entries. This patch implements the erratum workaround
+which consists of:
+
+1. Dummy TLBIMVAIS and DSB on the CPU doing the TLBI operation.
+2. Send IPI to the CPUs that are running the same mm (and ASID) as the
+   one being invalidated (or all the online CPUs for global pages).
+3. CPU receiving the IPI executes a DMB and CLREX (part of the exception
+   return code already).
+
+Signed-off-by: Catalin Marinas &lt;catalin.marinas@arm.com&gt;
+Signed-off-by: Russell King &lt;rmk+kernel@arm.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6e7aceeb7c70b9ebad79bcfe91fcf738826e8e6d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6e7aceeb7c70b9ebad79bcfe91fcf738826e8e6d"/>
+    <title>
+        ARM: 7682/1: cache-l2x0: fix masking of RTL revision numbering and set_debug init
+    </title>
+    <updated>2013-04-03T08:45:48-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/501443a74a3c1c6d1fa95bc13963bf09?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rob.herring@calxeda.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/mm/cache-l2x0.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: 7682/1: cache-l2x0: fix masking of RTL revision numbering and set_debug init
+
+Commit b8db6b8 (ARM: 7547/4: cache-l2x0: add support for Aurora L2 cache
+ctrl) moved the masking of the part ID which caused the RTL version to be
+lost. Commit 6248d06 (ARM: 7545/1: cache-l2x0: make outer_cache_fns a
+field of l2x0_of_data) changed how .set_debug is initialized. Both commits
+break commit 74ddcdb (ARM: 7608/1: l2x0: Only set .set_debug
+on PL310 r3p0 and earlier) which uses the RTL version to conditionally set
+.set_debug function pointer. Commit b8db6b8 also caused the printed cache
+ID to be missing the version information.
+
+Fix this by reverting how the part number is masked so the RTL version
+info is maintained. The cache-id-part DT property does not set the RTL
+bits so masking them should have no effect. Also, re-arrange the order
+of the function pointer init so the .set_debug function can be overridden.
+
+Reported-by: Paolo Pisati &lt;paolo.pisati@canonical.com&gt;
+Signed-off-by: Rob Herring &lt;rob.herring@calxeda.com&gt;
+Cc: Gregory CLEMENT &lt;gregory.clement@free-electrons.com&gt;
+Cc: Yehuda Yitschak &lt;yehuday@marvell.com&gt;
+Signed-off-by: Russell King &lt;rmk+kernel@arm.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/698613b63817f2f6ca79831cd1c37aae67025323</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/698613b63817f2f6ca79831cd1c37aae67025323"/>
+    <title>
+        ARM: iWMMXt: always enable iWMMXt support with PJ4 CPUs
+    </title>
+    <updated>2013-04-03T08:40:33-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/da783337a3b32c2fa3d96ea5f9e9e429?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>rmk+kernel@arm.linux.org.uk</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: iWMMXt: always enable iWMMXt support with PJ4 CPUs
+
+Jason Cooper reports these build errors:
+arch/arm/kernel/built-in.o: In function `iwmmxt_do&#39;:
+/.../arch/arm/kernel/pj4-cp0.c:36: undefined reference to `iwmmxt_task_release&#39;
+/.../arch/arm/kernel/pj4-cp0.c:40: undefined reference to `iwmmxt_task_switch&#39;
+make: *** [vmlinux] Error 1
+
+This is caused because the PJ4 code explicitly references the iWMMXt
+code, but doesn&#39;t require it to be built.  Fix this by ensuring that
+iWMMXt is always enabled with PJ4.
+
+Reported-by: Jason Cooper &lt;jason@lakedaemon.net&gt;
+Signed-off-by: Russell King &lt;rmk+kernel@arm.linux.org.uk&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e66cd5372d09d58002b2779a3bcdc564d6348883</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e66cd5372d09d58002b2779a3bcdc564d6348883"/>
+    <title>
+        ACPI / BGRT: Don&#39;t let users configure BGRT on non X86 systems
+    </title>
+    <updated>2013-04-03T04:17:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/97a86ccb04dc44d68b465c7e98d2ac5c?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>tony.luck@intel.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/acpi/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ACPI / BGRT: Don&#39;t let users configure BGRT on non X86 systems
+
+Fengguang Wu&#39;s 0-Day kernel build testing backend found the
+following build error for an allmodconfig build on ia64:
+
+   drivers/built-in.o: In function `show_yoffset&#39;:
+&gt;&gt; bgrt.c:(.text+0xe5a71): undefined reference to `bgrt_tab&#39;
+&gt;&gt; bgrt.c:(.text+0xe5a91): undefined reference to `bgrt_tab&#39;
+   drivers/built-in.o: In function `show_xoffset&#39;:
+&gt;&gt; bgrt.c:(.text+0xe5b51): undefined reference to `bgrt_tab&#39;
+&gt;&gt; bgrt.c:(.text+0xe5b71): undefined reference to `bgrt_tab&#39;
+   drivers/built-in.o: In function `show_type&#39;:
+&gt;&gt; bgrt.c:(.text+0xe5c31): undefined reference to `bgrt_tab&#39;
+   drivers/built-in.o:bgrt.c:(.text+0xe5c51): more undefined references to `bgrt_tab&#39; follow
+   drivers/built-in.o: In function `bgrt_init&#39;:
+   bgrt.c:(.init.text+0x8931): undefined reference to `bgrt_image&#39;
+   bgrt.c:(.init.text+0x8932): undefined reference to `bgrt_image_size&#39;
+   bgrt.c:(.init.text+0x8950): undefined reference to `bgrt_image&#39;
+   bgrt.c:(.init.text+0x8960): undefined reference to `bgrt_image_size&#39;
+
+The problem is that all these undefined names are provided by
+arch/x86/platform/efi/efi-bgrt.c - which is obviously not available
+to the ia64 build.
+
+It doesn&#39;t seem useful to provide the BGRT support for Itanium
+(many systems are headless and have no graphics at all). So
+just don&#39;t let users configure this driver on non-X86 machines.
+
+Reported-by: Fengguang Wu &lt;fengguang.wu@intel.com&gt;
+Acked-by: H. Peter Anvin &lt;hpa@zytor.com&gt;
+Signed-off-by: Tony Luck &lt;tony.luck@intel.com&gt;
+Signed-off-by: Rafael J. Wysocki &lt;rafael.j.wysocki@intel.com&gt;&lt;/pre>
+    </content>
+  </entry>
+</feed>

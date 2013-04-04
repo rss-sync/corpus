@@ -1,0 +1,786 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Haiku</title>
+    <link>http://dev.haiku-os.org/timeline</link>
+    <description>Trac Timeline</description>
+    <language>en-US</language>
+    <generator>Trac 1.0.1</generator>
+    <image>
+      <title>Haiku</title>
+      <url>http://dev.haiku-os.org/chrome/site/logo.png</url>
+      <link>http://dev.haiku-os.org/timeline</link>
+    </image>
+    <item>
+      <title>Ticket #9624 (AX88772B USB Ethernet. Read::MISMATCH of the frame length) created</title>
+      
+        <dc:creator>kallisti5</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 22:14:00 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9624</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9624/1365113640223603</guid>
+      <description>&lt;p&gt;
+Asus USB Ethernet dongle using the usb_asix driver.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Get a large number of the following error paired with stalling network communications:&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;KERN: usb_asix:06.09.160:Read::MISMATCH of the frame length: hdr 153; received:154
+&lt;/pre&gt;&lt;p&gt;
+hdr is always one less than received.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9623 (Add GitHub to list of code search locations) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 21:11:34 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9623</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9623/1365109894836795</guid>
+      <description>&lt;p&gt;
+GitHub now has a code search feature. You can search Haiku's code there by going here:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="ext-link" href="https://github.com/search?q=repo%3Ahaiku%2Fhaiku&amp;amp;type=Code"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;https://github.com/search?q=repo%3Ahaiku%2Fhaiku&amp;amp;type=Code&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+...and adding your search term to the box.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #5369 (BGLView  glitch) closed</title>
+      
+        <dc:creator>kallisti5</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 21:07:09 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/5369#comment:6</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/5369#comment:6/1365109629986547</guid>
+      <description>fixed: &lt;p&gt;
+Likely.  All of our viewport math was redone.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+If this still exists, please reopen or submit a new case mentioning this one.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Thanks!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9622 (no sound on Thinkpad x120e in hrev45438 gcc2h) created</title>
+      
+        <dc:creator>tidux</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 18:23:47 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9622</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9622/1365099827347750</guid>
+      <description>&lt;p&gt;
+This laptop has probably one of the screwier edge cases for the HDA driver - it has a primary sound card with speaker and headphone output, and a second sound card that allows HDMI audio output.  Both of these use the HDA driver on Linux.  Only one soundcard shows up under Haiku.  The only output listed is "left headphones," but no sound actually comes out of the headphone port on the left side of the system.  Attached are the syslog, sysinfo, and listdev for the machine in question.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9621 (Tracker and MediaPlayer don't recognize filetype without extension) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 17:39:52 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9621</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9621/1365097192709054</guid>
+      <description>&lt;p&gt;
+In the BeOS days, one of the cool features was that the system knew what a file was without an extension.  As such, I have many files around without extensions.  If I try to open one of these on &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45407" title="Haiku Revision 45407"&gt;hrev45407&lt;/a&gt;, MediaPlayer says it's not a known type, and Tracker's Identify command does not change the file icon.  I rename the file with '.mp4', and MediaPlayer plays it fine, and its icon changes in Tracker.  After that I can even rename it back to having no extension, and it still works.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9620 (DiskProbe ignores mouse wheel events) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 13:10:27 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9620</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9620/1365081027893569</guid>
+      <description>&lt;p&gt;
+Scrollbars do nothing as well, but I'd like the mouse wheel more.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9619 (Haiku does not have POSIX's ptrace library) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 13:08:01 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9619</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9619/1365080881229571</guid>
+      <description>&lt;p&gt;
+Some applications rely on it (e.g. Qt Creator).&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9618 (Display DataTranslators in a tree view) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 13:06:30 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9618</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9618/1365080790407542</guid>
+      <description>&lt;p&gt;
+Right now it makes no sense to have "StyledEdit files" right next to "TGA images". They should be grouped in a tree view based on category (e.g. "images", "text documents" or something like that).&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9617 (Several FSs put/free the root node in unmount()) created</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 10:25:20 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9617</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9617/1365071120211628</guid>
+      <description>&lt;p&gt;
+At a quick glance several FSs (at least rootfs, devfs, bfs, reiserfs, maybe others) put or free their root node in their &lt;tt&gt;unmount()&lt;/tt&gt; hook. Since the VFS calls the &lt;tt&gt;put_vnode()&lt;/tt&gt; or &lt;tt&gt;remove_vnode()&lt;/tt&gt; hook for each node before calling &lt;tt&gt;unmount()&lt;/tt&gt;, all nodes have already been freed at that time, though.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #8943 (Haiku crashes at boot on Acer Aspire X1200) closed</title>
+      
+        <dc:creator>xyzzy</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 09:18:05 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/8943#comment:65</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/8943#comment:65/1365067085740962</guid>
+      <description>invalid</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9614 (Haiku will no longer boot on ThinkPad X41) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 06:30:55 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9614</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9614/1365057055575394</guid>
+      <description>duplicate</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9603 (Built-in card reader KDLs when card inserted) closed</title>
+      
+        <dc:creator>kallisti5</dc:creator>
+
+      <pubDate>Thu, 04 Apr 2013 01:57:34 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9603#comment:13</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9603#comment:13/1365040654438499</guid>
+      <description>&lt;p&gt;
+ah. This is a 100% duplicate of my issue :D&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="new ticket" href="http://dev.haiku-os.org/ticket/9489" title="bug: Divide Error Exception - GPT Partition Table Driver (new)"&gt;#9489&lt;/a&gt; shows an identical error&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9616 (MediaConverter doesn't convert to OGG or MP3 and converts to WAV with ...) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 23:58:31 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9616</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9616/1365033511611198</guid>
+      <description>&lt;p&gt;
+I tried converting some MP4 videos to audio-only ogg vorbis or MPEG w/ AC-3 (same as MP3?).  Every file I tried resulted in a small file (only a few kb) quickly created.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Raw audio in a WAV container worked; however, despite "no video" in the video encoding section, the WAV files, when opened in MediaPlayer, show the original video somehow.  (I didn't even know WAV could do that.)&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The MP4s in question play fine in MediaPlayer, which also plays other OGGs just fine.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid.  AC '97 Audio, Dolby 5.1 (6-channel)&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9615 (MediaPlayer crashes on video change) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 23:29:38 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9615</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9615/1365031778572796</guid>
+      <description>&lt;p&gt;
+Hadn't had this happen before, but I have a few .mp4 videos, and if I put them in a playlist and hit the next-track button, or let the video play until it finishes and goes to the next track, it crashes immediately.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+If I put a non-video in the playlist, moving from the non-video to a video works fine, but moving from a video to anything else produces this crash.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9614 (Haiku will no longer boot on ThinkPad X41) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 23:09:25 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9614</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9614/1365030565275100</guid>
+      <description>&lt;p&gt;
+Haiku was booting at one point on my HDD-less X41.  Lately however no matter whether I use a USB stick or an external USB cardreader with an SD card, on &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid, all the icons light up on the boot screen and then I get this (attached)&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9613 (WebPositive often forgets logon credentials, despite option checked) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 22:47:43 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9613</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9613/1365029263204967</guid>
+      <description>&lt;p&gt;
+The past bunch of times I've visited dev.haiku-os.org and clicked "Log in" I've had to re-enter my name and password, despite every time checking off the "remember" option.    It's not every time, though, and it remembers during a session at least (like if I open a new tab, I'm logged in already.)  But it does seem that most times that I reboot the computer it forgets, if not all.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid.  Any clues?&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9612 (CSS3 Gradients are broken) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 22:11:08 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9612</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9612/1365027068054879</guid>
+      <description>&lt;p&gt;
+They don't render correctly. See background on &lt;a class="ext-link" href="http://html5test.com"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;http://html5test.com&lt;/a&gt; or navbar and dropdowns at &lt;a class="ext-link" href="https://github.com"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;https://github.com&lt;/a&gt; for examples.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9611 ("about:blank" in Web+ opens Haiku about dialog...) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 22:08:03 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9611</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9611/1365026883586735</guid>
+      <description>&lt;p&gt;
+...instead of showing a blank page.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9610 (Folders on desktop don't have the "directory up" button in Tracker) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 22:04:24 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9610</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9610/1365026664854936</guid>
+      <description>&lt;ol&gt;&lt;li&gt;Enable navigator interface in Tracker preferences
+&lt;/li&gt;&lt;li&gt;Create a folder on the desktop
+&lt;/li&gt;&lt;li&gt;Double-click to open in a Tracker window
+&lt;/li&gt;&lt;li&gt;The "up" button is disabled.
+&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;
+You can also open by opening your Home directory, double-clicking Desktop, then double-clicking the folder. The up button will be disabled, the back button will not be.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9609 (BootManager in Haiku x86_64 Installer is not available) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 20:47:40 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9609#comment:1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9609#comment:1/1365022060594740</guid>
+      <description>invalid: &lt;p&gt;
+Please don't file tickets for missing components on x86-64. There is already a ticket tracking the list of those, and there are a lot of components from a standard Haiku install that are not yet 64-bit safe. As an end user, there is simply no good reason to be using it at the moment, the images are primarily available for development testing and nothing more at this point.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9609 (BootManager in Haiku x86_64 Installer is not available) created</title>
+      
+        <dc:creator>Luposian</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 20:44:04 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9609</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9609/1365021844762987</guid>
+      <description>&lt;p&gt;
+When I go to install a boot menu, using Haiku x86_64's Installer, it says it's not available.  Or, more precisely, it says it exactly this way:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+"&lt;strong&gt;BootManager, the application to configure&lt;br /&gt;
+the Haiku boot menu, could not be&lt;br /&gt;
+launched.&lt;/strong&gt;"&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I end up having to use the standard Haiku's (x86) Installer to create a boot menu, which is, at the very least, an inconvenience, because I have to boot up the CD to get to it.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9608 (WebPositive: debug window) created</title>
+      
+        <dc:creator>dsjonny</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 20:05:46 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9608</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9608/1365019546985584</guid>
+      <description>&lt;p&gt;
+It would be very useful if the Web+ can show debug informations. It can be a very big help for web developers to optimize the site for Web+. For example: we would get info about javascript or css errors.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9607 (WebPositive: print/save function) created</title>
+      
+        <dc:creator>dsjonny</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 20:03:04 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9607</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9607/1365019384816546</guid>
+      <description>&lt;p&gt;
+It would be useful if we can print / save a webpage with Web+. For save we can use similar way as printing to file: for example save to PDF.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9572 (Haiku x86_64 built in Haiku x86_64 boots/crashes) closed</title>
+      
+        <dc:creator>tqh</dc:creator>
+
+      <pubDate>Wed, 03 Apr 2013 08:05:06 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9572#comment:34</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9572#comment:34/1364976306314956</guid>
+      <description>invalid</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9606 (Termcap: 'tput cols' always shows 80) created</title>
+      
+        <dc:creator>zzzzz</dc:creator>
+
+      <pubDate>Tue, 02 Apr 2013 23:28:02 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9606</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9606/1364945282236003</guid>
+      <description>&lt;p&gt;
+In Terminal 'tput cols' command always shows 80. No matter, if resized manually or by setting from the menu. Seems to me like hardcoded value.&lt;br /&gt;
+  &lt;br /&gt;
+On the other hand the output of 'tput cols' on Linux, say under konsole, after window having been resized is updated to the current value of terminal emulator window width in chars. &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Tested on &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45428" title="Haiku Revision 45428"&gt;hrev45428&lt;/a&gt; gcc4 x86, ticket filled as suggested on IRC by diver.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9116 (liblocale.so: Bad port ID) closed</title>
+      
+        <dc:creator>axeld</dc:creator>
+
+      <pubDate>Tue, 02 Apr 2013 22:41:51 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9116#comment:9</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9116#comment:9/1364942511829482</guid>
+      <description>fixed: &lt;p&gt;
+Well, thanks for the investigation in the first place! This actually will also fix a bug in my background branch at github where the client memory allocator may survive the death of the application.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9605 (Web+ displays text documents as HTML) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Tue, 02 Apr 2013 14:22:31 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9605</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9605/1364912551409224</guid>
+      <description>&lt;p&gt;
+E.g. &lt;a class="ext-link" href="ftp://ftp.mrunix.net/pub/webalizer/README"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;ftp://ftp.mrunix.net/pub/webalizer/README&lt;/a&gt; is hard to read because linebreaks are treated as regular whitespace in HTML, but it's not an HTML page.  Not sure how firefox does it but wrapping in a &amp;lt;pre&amp;gt; tag in such cases would be an easy way to increase usability.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4h.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9463 (WiFi auto-connect = ticket to jail) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Tue, 02 Apr 2013 07:02:25 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9463#comment:5</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9463#comment:5/1364886145585554</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45435" title="Haiku Revision 45435"&gt;hrev45435&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9604 (PatchBay update for Haiku) created</title>
+      
+        <dc:creator>Pete</dc:creator>
+
+      <pubDate>Tue, 02 Apr 2013 01:54:20 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9604</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9604/1364867660436679</guid>
+      <description>&lt;p&gt;
+I've generated a new version of PatchBay, edited to conform (hopefully!) to Haiku coding standards, and using Haiku's ToolTip mechanism rather than the custom code in the original.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I've added a vector icon for the "Unknown Devices" it displays, and given it a Desktop icon as well.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This ticket is a follow-on from &lt;a class="assigned ticket" href="http://dev.haiku-os.org/ticket/9159" title="bug: PatchBay not showing tooltips (assigned)"&gt;#9159&lt;/a&gt;, but following Philippe's suggestion there I've started a new ticket.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+As noted there, this code should be in .../apps rather than .../tests/... so if it's OK, can someone please move it there in the repository?&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9603 (Built-in card reader KDLs when card inserted) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 21:33:56 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9603</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9603/1364852036221761</guid>
+      <description>&lt;p&gt;
+I have an eMachines T3104 (motherboard: &lt;a class="ext-link" href="http://www.via.com.tw/en/products/chipsets/k8-series/k8m800/"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;VIA K8M800&lt;/a&gt;) with a card reader they describe as&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+"Media Reader:         8-in-1 digital media manager (Secure Digital (SD), Smart Media, Micro Drive, Memory Stick, Memory Stick Pro, Compact Flash, Mulitimedia Card, USB 2.0)"&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+When I insert an SD card that works fine on a Windows box, it turns on a green light (whether I've yet to get past the BIOS or not.)&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+In Haiku's DriveSetup on &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid, the empty slots seem to show (see screenshot.)  However, it doesn't let me mount or modify anything after inserting a card.  Lately when I insert the card, I don't even get a chance to modify anything, because I get KDL'd with a division exception on "media checker".&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I'm not sure if this has ever worked or what, and I only have Haiku and BeOS on this machine to work with.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9602 (Tracker keyboard shortcut for location bar) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 21:21:41 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9602</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9602/1364851301667948</guid>
+      <description>&lt;p&gt;
+Currently (&lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4h) in Tracker there's no way to move to the location bar without the mouse.  Might I suggest Alt+L, a la Web+?&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9601 ([attansic_l1] crashes on boot) created</title>
+      
+        <dc:creator>bob_ok</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 12:58:49 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9601</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9601/1364821129427063</guid>
+      <description>&lt;p&gt;
+Attansic L1 driver (Atheros L1 chip on ASUS M3A motherboard) crashes in KDL on boot and if I move/rename the driver, then after complete booting without the networking it goes into KDL again after I put driver file back and restart net_server.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Couldn't get syslog, so I took the photo.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a style="padding:0; border:none" href="http://dev.haiku-os.org/attachment/ticket/9601/attansic_l1.jpg"&gt;&lt;img width="400px" alt="Attansic L1 KDL on Boot" title="Attansic L1 KDL on Boot" src="http://dev.haiku-os.org/raw-attachment/ticket/9601/attansic_l1.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9600 (WebM files are losing all the frames.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 02:52:59 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9600</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9600/1364784779840485</guid>
+      <description>&lt;p&gt;
+WebM files are losing all the frames im Haiku. Audio works.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9599 (Could not find codec parameters) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 02:34:41 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9599</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9599/1364783681183474</guid>
+      <description>&lt;p&gt;
+I have BeOS_DemoVideo_20minutes (DivX).avi . MediaPlayer reads the file but it takes a lot of time. In two of three cases, the system is frozen for several seconds, and CPU utilization was 100%. Then I hear the sound, but the image loses a frames, it is also fast. In the VLC video is correct, but there is no sound.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9598 (MediaPlayer crashed when copying a file.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 01:54:51 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9598</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9598/1364781291563697</guid>
+      <description>&lt;p&gt;
+While watching the video clip I decided to copy it to a flash stick. File size is 1.17 GiB. After copying approximately 900 MB, the copy process stopped, MediaPlayer crashed. Tracker has been blocked. I could not kill it and restart.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9597 (After a certain time I lose sound.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Mon, 01 Apr 2013 01:44:07 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9597</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9597/1364780647657288</guid>
+      <description>&lt;p&gt;
+After a few hours of using Haiku, when I want to listen  music, or watch movie, I have no sound! After boot sound works good. Restart of Media Services in Media preflet do not help.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I do not know from when this error occurs. Over the last few days I use Haiku many hours a day. That is probably why I notice this.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9596 (Shifted and incorrectly blended semigraphics in Terminal app) created</title>
+      
+        <dc:creator>jezek2</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 18:53:50 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9596</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9596/1364756030261999</guid>
+      <description>&lt;p&gt;
+I've attached screenshot of Midnight Commander running in Terminal (in Haiku &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45432" title="Haiku Revision 45432"&gt;hrev45432&lt;/a&gt;) that shows these two problems:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+a) the text rendering seems to be shifted up by 1-2 pixels, most noticeable on the semigraphics&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+b) it's incorrectly blended in these overlapping areas&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a style="padding:0; border:none" href="http://dev.haiku-os.org/attachment/ticket/9596/mc-terminal.png"&gt;&lt;img src="http://dev.haiku-os.org/raw-attachment/ticket/9596/mc-terminal.png" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #7475 (ethernet ar81xx does not show in network prefs.) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 18:47:29 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/7475</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/7475/1364755649605176</guid>
+      <description>duplicate</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9595 (Tracker windows do not receive focus) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 18:17:13 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9595</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9595/1364753833716078</guid>
+      <description>&lt;p&gt;
+On a blank workspace, open a Tracker window and then another program.  Close the other program using Alt + W.  The Tracker window should receive the focus, but it doesn't.  &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45413" title="Haiku Revision 45413"&gt;hrev45413&lt;/a&gt; gcc4hybrid.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+From &lt;a class="ext-link" href="https://dev.haiku-os.org/ticket/7280#comment:4"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;this discussion&lt;/a&gt; I wonder if instead of the desktop being avoided, all Tracker windows are being avoided, instead.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9523 (Multi-thread build broken due to libnetapi) closed</title>
+      
+        <dc:creator>kallisti5</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 16:40:20 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9523#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9523#comment:3/1364748020189082</guid>
+      <description>fixed: &lt;p&gt;
+this was resolved in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45363" title="Haiku Revision 45363"&gt;hrev45363&lt;/a&gt;. Some HttpAuth was missing from openssl grist.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9259 (DriveSetup: Wrong optical drive size) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 16:32:19 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9259#comment:5</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9259#comment:5/1364747539834473</guid>
+      <description>fixed: &lt;p&gt;
+Thanks for the note!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>PackageManagement/TODO edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 10:16:42 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=22</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=22/1364725002033119</guid>
+      <description>&lt;p&gt;
+Add MIME DB item.
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/TODO?action=diff&amp;amp;version=22"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9594 ([net_server] IPv6 Link Local prevents proper interface deletion) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 08:04:15 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9594</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9594/1364717055921613</guid>
+      <description>&lt;p&gt;
+This is &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45432" title="Haiku Revision 45432"&gt;hrev45432&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;ifconfig del /dev/net/ipro1000/0
+&lt;/pre&gt;&lt;p&gt;
+deletes the interface from ifconfig, but leaves it in net_device_interfaces list. &lt;br /&gt;
+So if one tries to bring back the interface he will get an error:&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;ifconfig /dev/net/ipro1000/0 up
+ifconfig: Couldn't add interface: General system error
+&lt;/pre&gt;&lt;p&gt;
+Removing &lt;strong&gt;/system/add-ons/kernel/network/protocols/ipv6&lt;/strong&gt; module &lt;br /&gt;
+or commenting out &lt;a class="ext-link" href="http://cgit.haiku-os.org/haiku/tree/src/servers/net/NetServer.cpp#n556"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;_ConfigureIPv6LinkLocal&lt;/a&gt; fixes it.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9593 (Bookmarks do not support long names.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Sun, 31 Mar 2013 02:42:17 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9593</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9593/1364697737124569</guid>
+      <description>&lt;p&gt;
+This bug is easy to reproduce on the TuneTracker website.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>PackageManagement/TODO edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 21:51:50 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=21</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/TODO?version=21/1364680310065632</guid>
+      <description>&lt;p&gt;
+Add B_HPKG_ATTRIBUTE_ID_PACKAGE_PROVIDES_TYPE item.
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/TODO?action=diff&amp;amp;version=21"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9028 (Something is wrong with the allocation of CPU time.) reopened</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 21:05:00 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9028#comment:17</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9028#comment:17/1364677500164876</guid>
+      <description></description>
+      <category>reopenedticket</category>
+    </item><item>
+      <title>Ticket #9592 ([Keymap] don't invalidate everything in KeyboardLayoutView) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:39:46 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9592</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9592/1364665186540394</guid>
+      <description>&lt;p&gt;
+From &lt;a class="new ticket" href="http://dev.haiku-os.org/ticket/8370#comment:13" title="enhancement: Onscreen keyboard (new)"&gt;ticket:8370#comment:13&lt;/a&gt;:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+"The trick is to only invalidate the area that changed, and make your code in Draw() smart enough not to update everything everytime.&lt;br /&gt;
+Which the &lt;a class="ext-link" href="http://cgit.haiku-os.org/haiku/tree/src/preferences/keymap/KeyboardLayoutView.cpp#n315"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;KeyboardLayoutView&lt;/a&gt; currently doesn't do, though."&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9591 ([net_server] it shouldn't be possible to auto-config an interface with no ...) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:21:29 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9591</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9591/1364664089434777</guid>
+      <description>&lt;p&gt;
+Currently ifconfig configures link-local address on interfaces with no link.&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;&amp;lt;mmlr_thinkpad&amp;gt; it's just buggy/not fully implemented
+&amp;lt;mmlr_thinkpad&amp;gt; it doesn't actually check the link state
+&amp;lt;mmlr_thinkpad&amp;gt; indeed for wireless networks this will have to be reworked anyway
+&amp;lt;mmlr_thinkpad&amp;gt; or any network where link != usable
+&amp;lt;mmlr_thinkpad&amp;gt; dailup, vpn for example
+&amp;lt;mmlr_thinkpad&amp;gt; or maybe "link" should be reworked so that it actually means usable
+&amp;lt;mmlr_thinkpad&amp;gt; for wireless link usually means an association with an ap is there
+&amp;lt;mmlr_thinkpad&amp;gt; for wpa this doesn't mean that the link is actually usable though, because the wpa handshake needs to be completed first
+&amp;lt;mmlr_thinkpad&amp;gt; usually you don't notice that as it's rather quick and the dhcp requests are simply retried
+&amp;lt;mmlr_thinkpad&amp;gt; it's not exactly correct either way though
+&lt;/pre&gt;</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9590 ([Network] preflet doesn't update the list of interfaces on the fly) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:09:53 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9590</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9590/1364663393455722</guid>
+      <description>&lt;p&gt;
+This is &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45428" title="Haiku Revision 45428"&gt;hrev45428&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The Network preflet doesn't reflect changes to the list of interfaces.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+To reproduce:&lt;br /&gt;
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Open the preflet
+&lt;/li&gt;&lt;li&gt;ifconfig del /dev/net/ipro1000/0 ifconfig /dev/net/foo/0 up
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+Same applies to NetworkStatus.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #5957 (Network Preference crashes on Apply button on a system without network ...) closed</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Sat, 30 Mar 2013 17:08:27 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/5957#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/5957#comment:3/1364663307720219</guid>
+      <description></description>
+      <category>closedticket</category>
+    </item>
+   </channel>
+</rss>

@@ -1,0 +1,791 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="https://bits.wikimedia.org/static-1.21wmf12/skins/common/feed.css?303-4"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+		<id>https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;feed=atom&amp;action=history</id>
+		<title>Template:In the news - Revision history</title>
+		<link rel="self" type="application/atom+xml" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;feed=atom&amp;action=history"/>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;action=history"/>
+		<updated>2013-04-04T23:27:06Z</updated>
+		<subtitle>Revision history for this page on the wiki</subtitle>
+		<generator>MediaWiki 1.21wmf12</generator>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548733850&amp;oldid=prev</id>
+		<title>David Levy: formatting</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548733850&amp;oldid=prev"/>
+				<updated>2013-04-04T21:46:18Z</updated>
+		
+		<summary type="html">&lt;p&gt;formatting&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 21:46, 4 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;[[Roger Ebert]]&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;nbsp;&amp;amp;ndash;&amp;amp;nbsp;&lt;/span&gt;[[Phil Ramone]]&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&lt;span class=&quot;diffchange diffchange-inline&quot;&gt; {{nowrap|&lt;/span&gt;[[Roger Ebert]]&lt;span class=&quot;diffchange diffchange-inline&quot;&gt; –}} {{nowrap|&lt;/span&gt;[[Phil Ramone]]&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;}} &lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– --&amp;gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– --&amp;gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548728451:newid:548733850 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>David Levy</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548728451&amp;oldid=prev</id>
+		<title>The Rambling Man: fix</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548728451&amp;oldid=prev"/>
+				<updated>2013-04-04T21:07:07Z</updated>
+		
+		<summary type="html">&lt;p&gt;fix&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 21:07, 4 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&amp;amp;nbsp;[[Roger Ebert]]nbsp;&amp;amp;ndash;&amp;amp;nbsp;[[Phil Ramone]]&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&amp;amp;nbsp;[[Roger Ebert]]&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;&lt;/span&gt;nbsp;&amp;amp;ndash;&amp;amp;nbsp;[[Phil Ramone]]&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– --&amp;gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– --&amp;gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548728376:newid:548728451 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>The Rambling Man</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548728376&amp;oldid=prev</id>
+		<title>The Rambling Man: add RD</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548728376&amp;oldid=prev"/>
+				<updated>2013-04-04T21:06:34Z</updated>
+		
+		<summary type="html">&lt;p&gt;add RD&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 21:06, 4 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 15:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&amp;amp;nbsp;[[Phil Ramone]]&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;nbsp;[[Roger Ebert]]nbsp;&amp;amp;ndash;&lt;/span&gt;&amp;amp;nbsp;[[Phil Ramone]]&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– --&amp;gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &amp;lt;!--'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– --&amp;gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548723960:newid:548728376 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>The Rambling Man</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548723960&amp;oldid=prev</id>
+		<title>The Rambling Man: Undid revision 548722807 by Jayron32 (talk) sorry Jayron32, but there was no clear consensus for the inclusion of the whole article, RD yes, but there's debate over the quality of the update</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548723960&amp;oldid=prev"/>
+				<updated>2013-04-04T20:36:39Z</updated>
+		
+		<summary type="html">&lt;p&gt;Undid revision 548722807 by &lt;a href=&quot;/wiki/Special:Contributions/Jayron32&quot; title=&quot;Special:Contributions/Jayron32&quot;&gt;Jayron32&lt;/a&gt; (&lt;a href=&quot;/wiki/User_talk:Jayron32&quot; title=&quot;User talk:Jayron32&quot;&gt;talk&lt;/a&gt;) sorry Jayron32, but there was no clear consensus for the inclusion of the whole article, RD yes, but there&amp;#039;s debate over the quality of the update&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 20:36, 4 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |image  = &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;File:Soyuz-TMA-08M-Mission-Patch.png&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |size   = &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |size   = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;100x100px&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |title  = &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |title  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Soyuz-TMA-08M mission patch&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |link   = &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |link   = &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Soyuz-TMA-08M mission patch&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 4}} Film critic '''[[Roger Ebert]]''' dies after a long bout with cancer.&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} More than 50 people die in '''[[2013 Argentina floods|floods]]''' resulting from record-breaking rainfall in [[La Plata]] and [[Buenos Aires]], Argentina.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} More than 50 people die in '''[[2013 Argentina floods|floods]]''' resulting from record-breaking rainfall in [[La Plata]] and [[Buenos Aires]], Argentina.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 13:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 12:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 29}} '''[[Soyuz TMA-08M]]''' ''(mission patch pictured)'' transports three astronauts to the [[International Space Station]] via a new route, reducing the journey's duration from two days to six hours.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;lt;!--&lt;/span&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;--&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;nbsp;[[Phil Ramone]]&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– '''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– '''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;lt;!--&lt;/span&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;--&amp;gt;&lt;/span&gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{documentation}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{documentation}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548722807:newid:548723960 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>The Rambling Man</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548722807&amp;oldid=prev</id>
+		<title>Jayron32: +Roger Ebert, - oldest, - stale RDs</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548722807&amp;oldid=prev"/>
+				<updated>2013-04-04T20:28:53Z</updated>
+		
+		<summary type="html">&lt;p&gt;+Roger Ebert, - oldest, - stale RDs&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 20:28, 4 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{In the news/image&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |image  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;File:Soyuz-TMA-08M-Mission-Patch.png&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |image  = &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |size   = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;100x100px&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |size   = &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |title  = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Soyuz-TMA-08M mission patch&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |title  = &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |link   = &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |link   = &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |border = no&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;Soyuz-TMA-08M mission patch&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 4}} Film critic '''[[Roger Ebert]]''' dies after a long bout with cancer.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} More than 50 people die in '''[[2013 Argentina floods|floods]]''' resulting from record-breaking rainfall in [[La Plata]] and [[Buenos Aires]], Argentina.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} More than 50 people die in '''[[2013 Argentina floods|floods]]''' resulting from record-breaking rainfall in [[La Plata]] and [[Buenos Aires]], Argentina.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 12:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 13:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 29}} '''[[Soyuz TMA-08M]]''' ''(mission patch pictured)'' transports three astronauts to the [[International Space Station]] via a new route, reducing the journey's duration from two days to six hours.&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;amp;nbsp;[[Phil Ramone]]&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;lt;!--&lt;/span&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}''':&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;--&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;&amp;lt;!--&lt;/span&gt;'''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– &lt;span class=&quot;diffchange diffchange-inline&quot;&gt;--&amp;gt;&lt;/span&gt;'''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;!--  Please consider keeping ongoing news stories on ITN if the article keeps getting updated.  --&amp;gt;&amp;lt;div style=&quot;text-align: right;&quot; class=&quot;noprint&quot;&amp;gt;'''[[n:Main Page|Wikinews]]'''&amp;amp;nbsp;– '''{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}'''{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– '''[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]'''&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; &amp;lt;noinclude&amp;gt; &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{active editnotice}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{documentation}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{documentation}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548663559:newid:548722807 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Jayron32</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548663559&amp;oldid=prev</id>
+		<title>The Rambling Man: hyphen</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548663559&amp;oldid=prev"/>
+				<updated>2013-04-04T13:55:54Z</updated>
+		
+		<summary type="html">&lt;p&gt;hyphen&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 13:55, 4 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} More than 50 people die in '''[[2013 Argentina floods|floods]]''' resulting from record&lt;span class=&quot;diffchange diffchange-inline&quot;&gt; &lt;/span&gt;breaking rainfall in [[La Plata]] and [[Buenos Aires]], Argentina.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} More than 50 people die in '''[[2013 Argentina floods|floods]]''' resulting from record&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;-&lt;/span&gt;breaking rainfall in [[La Plata]] and [[Buenos Aires]], Argentina.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548652566:newid:548663559 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>The Rambling Man</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548652566&amp;oldid=prev</id>
+		<title>Tone: {{*mp|April 3}} More than 50 people die in '''floods''' resulting from record breaking rainfall in La Plata and Buenos Aires, Argentina.</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548652566&amp;oldid=prev"/>
+				<updated>2013-04-04T12:33:51Z</updated>
+		
+		<summary type="html">&lt;p&gt;{{*mp|April 3}} More than 50 people die in &amp;#039;&amp;#039;&amp;#039;&lt;a href=&quot;/wiki/2013_Argentina_floods&quot; title=&quot;2013 Argentina floods&quot;&gt;floods&lt;/a&gt;&amp;#039;&amp;#039;&amp;#039; resulting from record breaking rainfall in &lt;a href=&quot;/wiki/La_Plata&quot; title=&quot;La Plata&quot;&gt;La Plata&lt;/a&gt; and &lt;a href=&quot;/wiki/Buenos_Aires&quot; title=&quot;Buenos Aires&quot;&gt;Buenos Aires&lt;/a&gt;, Argentina.&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 12:33, 4 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} More than 50 people die in '''[[2013 Argentina floods|floods]]''' resulting from record breaking rainfall in [[La Plata]] and [[Buenos Aires]], Argentina.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium-producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548555253:newid:548652566 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Tone</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548555253&amp;oldid=prev</id>
+		<title>Floquenbeam: add a hyphen (or dash, or whatever it's called)</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548555253&amp;oldid=prev"/>
+				<updated>2013-04-03T21:28:41Z</updated>
+		
+		<summary type="html">&lt;p&gt;add a hyphen (or dash, or whatever it&amp;#039;s called)&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 21:28, 3 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium&lt;span class=&quot;diffchange diffchange-inline&quot;&gt; &lt;/span&gt;producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium&lt;span class=&quot;diffchange diffchange-inline&quot;&gt;-&lt;/span&gt;producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548517893:newid:548555253 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Floquenbeam</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548517893&amp;oldid=prev</id>
+		<title>Tone: Amid '''rising tensions''', North Korea closes off entry to the Kaesŏng Industrial Region and restarts a plutonium producing reactor at [[Yongbyon Nuclear Scientific Research</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548517893&amp;oldid=prev"/>
+				<updated>2013-04-03T17:32:27Z</updated>
+		
+		<summary type="html">&lt;p&gt;Amid &amp;#039;&amp;#039;&amp;#039;&lt;a href=&quot;/wiki/North_Korea%E2%80%93South_Korea_relations#2013&quot; title=&quot;North Korea–South Korea relations&quot;&gt;rising tensions&lt;/a&gt;&amp;#039;&amp;#039;&amp;#039;, &lt;a href=&quot;/wiki/North_Korea&quot; title=&quot;North Korea&quot;&gt;North Korea&lt;/a&gt; closes off entry to the &lt;a href=&quot;/wiki/Kaesong_Industrial_Region&quot; title=&quot;Kaesong Industrial Region&quot;&gt;Kaesŏng Industrial Region&lt;/a&gt; and restarts a plutonium producing reactor at [[Yongbyon Nuclear Scientific Research&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 17:32, 3 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 3}} Amid '''[[North Korea–South Korea relations#2013|rising tensions]]''', [[North Korea]] closes off entry to the [[Kaesong Industrial Region|Kaesŏng Industrial Region]] and restarts a plutonium producing reactor at [[Yongbyon Nuclear Scientific Research Center#Restart_of_operation_in_2013|Yongbyon]].&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 29}} '''[[Soyuz TMA-08M]]''' ''(mission patch pictured)'' transports three astronauts to the [[International Space Station]] via a new route, reducing the journey's duration from two days to six hours.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 29}} '''[[Soyuz TMA-08M]]''' ''(mission patch pictured)'' transports three astronauts to the [[International Space Station]] via a new route, reducing the journey's duration from two days to six hours.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 26}} [[Madagascar]] '''[[2013 Madagascar locust infestation|experiences]]''' its worst [[locust]] infestation since the 1950s.&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548493990:newid:548517893 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Tone</name></author>	</entry>
+
+	<entry>
+		<id>//en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548493990&amp;oldid=prev</id>
+		<title>Spencer: +UN, -HK</title>
+		<link rel="alternate" type="text/html" href="https://en.wikipedia.org/w/index.php?title=Template:In_the_news&amp;diff=548493990&amp;oldid=prev"/>
+				<updated>2013-04-03T14:48:00Z</updated>
+		
+		<summary type="html">&lt;p&gt;+UN, -HK&lt;/p&gt;
+&lt;table class='diff diff-contentalign-left'&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+			&lt;tr style='vertical-align: top;'&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Previous revision&lt;/td&gt;
+			&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 14:48, 3 April 2013&lt;/td&gt;
+			&lt;/tr&gt;&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 7:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt; |alt    = Soyuz-TMA-08M mission patch&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;}}&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;+&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 2}} The [[United Nations General Assembly]] adopts the '''[[Arms Trade Treaty]]''' to limit the international trade of weapons.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} [[India]]'s [[Supreme Court of India|Supreme Court]] denies patent protection for a modified version of the cancer drug '''[[imatinib]]'''.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|April 1}} In [[Burma]], private daily newspapers '''[[Media of Burma|go on sale]]''' for the first time since 1964. &lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 29}} '''[[Soyuz TMA-08M]]''' ''(mission patch pictured)'' transports three astronauts to the [[International Space Station]] via a new route, reducing the journey's duration from two days to six hours.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 29}} '''[[Soyuz TMA-08M]]''' ''(mission patch pictured)'' transports three astronauts to the [[International Space Station]] via a new route, reducing the journey's duration from two days to six hours.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 26}} [[Madagascar]] '''[[2013 Madagascar locust infestation|experiences]]''' its worst [[locust]] infestation since the 1950s.&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 26}} [[Madagascar]] '''[[2013 Madagascar locust infestation|experiences]]''' its worst [[locust]] infestation since the 1950s.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;−&lt;/td&gt;
+  &lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;{{*mp|March 25}} [[Hong Kong]]'s [[Court of Final Appeal (Hong Kong)|Court of Final Appeal]] '''[[Vallejos v. Commissioner of Registration|rules]]''' that [[Foreign domestic helpers in Hong Kong|foreign domestic workers]] are not allowed to become [[Hong Kong residents|Hong Kong permanent residents]].&lt;/div&gt;&lt;/td&gt;
+  &lt;td colspan=&quot;2&quot; class=&quot;diff-empty&quot;&gt;&amp;#160;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;td class=&quot;diff-marker&quot;&gt;&amp;#160;&lt;/td&gt;
+  &lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;&amp;lt;/ul&amp;gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;!-- diff cache key enwiki:diff:version:1.11a:oldid:548425560:newid:548493990 --&gt;
+&lt;/table&gt;</summary>
+		<author><name>Spencer</name></author>	</entry>
+
+	</feed>

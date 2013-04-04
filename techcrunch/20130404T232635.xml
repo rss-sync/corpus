@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>TechCrunch</title>
+	
+	<link>http://techcrunch.com</link>
+	<description>TechCrunch is a group-edited blog that profiles the companies, products and events defining and transforming the new web.</description>
+	<lastBuildDate>Thu, 04 Apr 2013 23:14:36 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain="techcrunch.com" port="80" path="/?rsscloud=notify" registerProcedure="" protocol="http-post" />
+<image><link>http://www.techcrunch.com</link><url>http://www.techcrunch.com/wp-content/themes/techcrunchmu/images/techcrunch_logo.png</url><title>TechCrunch</title></image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://techcrunch.com/osd.xml" title="TechCrunch" />
+	
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Techcrunch" /><feedburner:info uri="techcrunch" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://techcrunch.com/?pushpress=hub" /><feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/Techcrunch" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+		<title>Google Says Facebook Home Demonstrates Android's Openness, Framing Apple As Restrictive</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/yNcSrDQvL3M/</link>
+		<comments>http://techcrunch.com/2013/04/04/google-says-facebook-home-demonstrates-androids-openness-framing-apple-as-restrictive/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 22:54:49 +0000</pubDate>
+		<dc:creator>Drew Olanoff</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[home]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apple]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792556</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/7173944255_fab17d35f3_z.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="7173944255_fab17d35f3_z" style="float: left; margin: 0 10px 7px 0;" />Google&#8217;s statement on Facebook&#8217;s introduction of &#8220;Home&#8221; was short and sweet, but very telling, so let&#8217;s dissect it a little bit. As we noted earlier, Facebook went with Android first because of its flexibility, basically it&#8217;s easy to customize. Other platforms, not so much. Zuckerberg even mentioned that Windows Phone might be a bit easier to work with, calling it out as &#8220;somewhere in the middle&#8221; of Android and iOS. Here&#8217;s what Google said to us a little while ago: The Android platform has spurred the development of hundreds of different types of devices. This latest device demonstrates the openness and flexibility that has made Android so popular. You&#8217;ll notice that the first thing that the company says is that there are &#8220;hundreds&#8221; of different types of devices running its mobile operating system. In the past, that&#8217;s been seen as a bad thing, due to fragmentation. Here, Google is clearly positioning this as an advantage, that is has more choices for consumers than say, Apple has. Secondly, &#8220;this latest device,&#8221; being the HTC First, which is pre-installed with Facebook Home, demonstrates flexibility. There&#8217;s that word again. Clearly, Google is firing a rocket at its competitor Apple, which is notoriously very stiff when it comes to customization. In Apple&#8217;s mind, its users don&#8217;t know what they want to see until it shows it to them. By letting a company like Facebook take over the first experience a user has when it wakes up their phone, they are giving away pretty much everything. Again, Google points this out as a competitive advantage. In an extended version of the statement to VentureBeat, Google made sure to pump up its own products at the same time: And it’s a win for users who want a customized Facebook experience from Google Play — the heart of the Android ecosystem — along with their favorite Google services like Gmail, Search, and Google Maps. In this added bit, Google makes sure to bring the attention back to its baked-in Android services, like search, email and maps. Is that Google getting a little bit jealous of all of the fuss over Facebook? Not at all. These companies are competitive in the sense that they&#8217;re both after eyeballs, but when it comes to social interactions, they couldn&#8217;t be more different. Forget the Google+ argument here, it wasn&#8217;t built to be a competitor to Facebook. Google owns search and email]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/7173944255_fab17d35f3_z.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="7173944255_fab17d35f3_z" style="float: left; margin: 0 10px 7px 0;" /><p>Google&#8217;s statement on Facebook&#8217;s <a href="http://techcrunch.com/2013/04/04/facebook-home-launch/">introduction of &#8220;Home&#8221;</a> was short and sweet, but very telling, so let&#8217;s dissect it a little bit. As we noted earlier, Facebook <a href="http://techcrunch.com/2013/04/04/facebook-home-starts-with-android-but-ios-would-be-a-tough-sell-to-apple/">went with Android first</a> because of its flexibility, basically it&#8217;s easy to customize. </p>
+<p>Other platforms, not so much. Zuckerberg even mentioned that Windows Phone might be a bit easier to work with, calling it out as &#8220;somewhere in the middle&#8221; of Android and iOS.</p>
+<p>Here&#8217;s what Google said to us a little while ago:</p>
+<blockquote><p>The Android platform has spurred the development of hundreds of different types of devices. This latest device demonstrates the openness and flexibility that has made Android so popular.</p></blockquote>
+<p>You&#8217;ll notice that the first thing that the company says is that there are &#8220;hundreds&#8221; of different types of devices running its mobile operating system. In the past, that&#8217;s been seen as a bad thing, <a href="http://techcrunch.com/2012/05/11/this-is-what-developing-for-android-looks-like/">due to fragmentation</a>. Here, Google is clearly positioning this as an advantage, that is has more choices for consumers than say, Apple has.</p>
+<p>Secondly, &#8220;this latest device,&#8221; being the <a href="http://techcrunch.com/2013/04/04/hands-on-with-the-htc-first-running-the-gesture-powered-facebook-home-video/">HTC First</a>, which is pre-installed with Facebook Home, demonstrates flexibility. There&#8217;s that word again. Clearly, Google is firing a rocket at its competitor Apple, which is notoriously very stiff when it comes to customization. In Apple&#8217;s mind, its users don&#8217;t know what they want to see until it shows it to them. By letting a company like Facebook take over the first experience a user has when it wakes up their phone, they are giving away pretty much everything. Again, Google points this out as a competitive advantage.</p>
+<p>In an <a target="_blank" href="http://venturebeat.com/2013/04/04/google-responds-to-facebook-home-with-hugs-and-kisses/#D3UHlmKXCEFhjm0o.99">extended version of the statement to VentureBeat</a>, Google made sure to pump up its own products at the same time:</p>
+<blockquote><p>And it’s a win for users who want a customized Facebook experience from Google Play — the heart of the Android ecosystem — along with their favorite Google services like Gmail, Search, and Google Maps.</p></blockquote>
+<p>In this added bit, Google makes sure to bring the attention back to its baked-in Android services, like search, email and maps. Is that Google getting a little bit jealous of all of the fuss over Facebook? Not at all. These companies are competitive in the sense that they&#8217;re both after eyeballs, but when it comes to social interactions, they couldn&#8217;t be more different. Forget the Google+ argument here, it wasn&#8217;t built to be a competitor to Facebook. Google owns search and email for a reason, they&#8217;re better products than what others offer.</p>
+<p>Both Facebook and Google are the winners here. Facebook doesn&#8217;t have to build its own phone or operating system, and Google gets to keep pointing out the fact that customization is something that consumers want, and Apple doesn&#8217;t deliver on. The two companies are using each other, and as MG Siegler pointed out, <a href="http://techcrunch.com/2013/04/04/there-is-no-fork/">are strange bedfellows</a>.</p>
+<p>Yes, Facebook has partnered with Apple to bring users a way to update a status message quicker, but it&#8217;s clear after seeing Facebook Home today, that it&#8217;s simply not enough interaction for the social network. For those who spend a good bit of time using Facebook on their mobile device, they will soon tire of having to wake up their phone, find the Facebook app, open it and read their notifications. Once they see a friend or colleague with the HTC First or another Android device with Facebook Home installed, they will wonder why they can&#8217;t do the same thing on their iPhone.</p>
+<p>Other companies like Facebook are going to start getting interested in this approach as well, as far as introducing customized launchers for their userbase. Tumblr founder and CEO David Karp was at the Home event today, don&#8217;t you think he might go back to New York City and talk to his team about what a Tumblr-themed version of Android would look and act like? Of course he is. What about Dropbox&#8217;s Drew Houston, who was also at the event? Could filesharing become a driving force of your mobile experience? It depends on what type of user you are.</p>
+<p>Don&#8217;t get me wrong, Apple isn&#8217;t in the corner crying right now, but some folks at the company have to be looking at today&#8217;s news and starting to think of ways to win back developers who want to follow Facebook&#8217;s lead and might start focusing on Android first.</p>
+<p>Facebook Home has finally made the Android/Open Vs. iOS/Closed a mainstream issue.</p>
+<p>[Photo credit: <a target="_blank" href="http://www.flickr.com/photos/xlordashx/7173944255/sizes/l/">Flickr</a>]</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792556/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=yNcSrDQvL3M:lBY9wj6oc7Q:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=yNcSrDQvL3M:lBY9wj6oc7Q:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=yNcSrDQvL3M:lBY9wj6oc7Q:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=yNcSrDQvL3M:lBY9wj6oc7Q:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=yNcSrDQvL3M:lBY9wj6oc7Q:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=yNcSrDQvL3M:lBY9wj6oc7Q:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=yNcSrDQvL3M:lBY9wj6oc7Q:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=yNcSrDQvL3M:lBY9wj6oc7Q:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/yNcSrDQvL3M" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/google-says-facebook-home-demonstrates-androids-openness-framing-apple-as-restrictive/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/7173944255_fab17d35f3_z.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/7173944255_fab17d35f3_z.jpg?w=150" medium="image">
+			<media:title type="html">7173944255_fab17d35f3_z</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/b0be7dc9dffd2413ec89e6ebb54da179?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">thatdrew</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/google-says-facebook-home-demonstrates-androids-openness-framing-apple-as-restrictive/</feedburner:origLink></item>
+		<item>
+		<title>Facebook Isn't Forking Android, They're Spooning With It</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/faXWJdge_7k/</link>
+		<comments>http://techcrunch.com/2013/04/04/there-is-no-fork/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 22:25:48 +0000</pubDate>
+		<dc:creator>Mg Siegler</dc:creator>
+				<category><![CDATA[Column]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[facebook phone]]></category>
+		<category><![CDATA[facebook]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792539</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-28-22-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 3.28.22 PM" style="float: left; margin: 0 10px 7px 0;" />Facebook is <a href="http://techcrunch.com/2010/09/19/anatomy-of-a-pr-spin-aka-how-to-lie-like-a-pro/">absolutely</a>, <a href="http://techcrunch.com/2010/09/22/zuckerberg-interview-facebook-phone/">positively</a>, <a href="http://techcrunch.com/2012/09/11/mark-zuckerberg-a-facebook-phone-just-doesnt-make-any-sense/">100 percent</a> not working on a phone.
+
+The first rule of tech news <a target="_blank" href="http://parislemon.com/post/13133436583/facebook-not-building-a-phone">remains intact</a>: when a company says they’re <a target="_blank" href="http://parislemon.com/post/13133436583/facebook-not-building-a-phone">definitely not</a> doing something, it’s as sure a sign as you can get that <a href="http://techcrunch.com/2010/09/19/facebook-phone/">they will eventually do said thing</a>.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-28-22-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 3.28.22 PM" style="float: left; margin: 0 10px 7px 0;" /><p>Facebook is <a href="http://techcrunch.com/2010/09/19/anatomy-of-a-pr-spin-aka-how-to-lie-like-a-pro/">absolutely</a>, <a href="http://techcrunch.com/2010/09/22/zuckerberg-interview-facebook-phone/">positively</a>, <a href="http://techcrunch.com/2012/09/11/mark-zuckerberg-a-facebook-phone-just-doesnt-make-any-sense/">100 percent</a> not working on a phone.</p>
+<p>The first rule of tech news <a target="_blank" href="http://parislemon.com/post/13133436583/facebook-not-building-a-phone">remains intact</a>: when a company says they&#8217;re <a target="_blank" href="http://parislemon.com/post/28085517274/timing-is-everything">definitely not</a> doing something, it’s as sure a sign as you can get that they will eventually do <a href="http://techcrunch.com/2010/09/19/facebook-phone/">said thing</a>.</p>
+<p>“Today we’re finally gonna talk about that Facebook Phone…,” Facebook CEO Mark Zuckerberg said only slightly in jest to kick off today’s event. He then went on to give the same type of semantics argument he’s been giving for years. “So we’re not building a phone. And we’re not building an operating system.” Both are technically true statements.</p>
+<p>And yet. Boom. Facebook Phone.</p>
+<p>Here’s the thing: you can argue semantics about basically anything in the world. Does Apple actually build the iPhone? Or does Foxconn? Does Amazon build their own OS? Or does Google? Is the phone I held in my hand today real? Or are we in The Matrix?</p>
+<p><a href="http://techcrunch.com/2013/03/28/facebook-android-phone/">We all knew</a> the <a href="http://techcrunch.com/2010/09/19/facebook-is-secretly-building-a-phone/">Facebook Phone</a> <a href="http://techcrunch.com/2011/02/15/facebook-android-phone-os/">was</a> <a href="http://techcrunch.com/2013/01/12/facebook-phone-yes-again/">coming</a>. And here it is. Far more interesting to me now is what exactly it means for the ecosystem in general.</p>
+<p>“You don’t need to fork Android to do this,” Zuckerberg said at the beginning of his keynote. This is a theme that would come up again and again throughout the presentation. At one point, there was even a cute blue and white fork icon that was crossed out. You simply must understand: Facebook is not forking Android!</p>
+<p>But why does that matter? It doesn’t.</p>
+<p>There’s this negative connotation around the term “forking,” perhaps because a few others, notably Amazon, have forked Android in a way Google probably would not prefer. But the forking argument is another semantics one. No, Facebook isn’t technically forking Android, but what they’re doing is arguably more invasive. As <a target="_blank" href="https://twitter.com/parislemon/status/319864558363742210">I tweeted</a> earlier, they’re essentially “spooning” it.</p>
+<p>And make no mistake, Facebook is the big spoon here.</p>
+<p>Sure, Facebook is saying all the right things now. How many times today did we hear about how great it is that Android is so “open”? And yes, Google did have to approve this new HTC First (Facebook Phone) device in order for it to be certified to carry the Google Apps and Play Store. But my sense is still that this tone may change in the coming months as Google and Facebook find themselves more at odds. We’ll see.</p>
+<p>As Zuckerberg himself said today, “The home screen is really the soul of your phone.” Why would Google not want to own that soul? Especially on an OS they built? They may be fine with Facebook Home for now, but the countdown to Google+ Home or, more interestingly, Google Now Home, is officially on. And when that hits&#8230;</p>
+<p>Facebook tried to convey something that wasn’t technically true during the keynote today. They tried to make us believe that Facebook Home is just another app. Or perhaps more accurately, a better kind of app. That is technically true of the version that will be in the Google Play store next week. But the version that will come pre-installed on the HTC First is <a href="http://techcrunch.com/2013/04/04/facebook-htc-modified-android/">different</a>.</p>
+<p>That version uses hooks in Android that are not normally exposed to standard apps. This is to allow Facebook Home to show all third-party app notifications, not just the ones coming from Facebook’s app. The downloadable Google Play version of Facebook Home will not be able to do this. HTC, using their previous experience from their “Sense” skins, did this for Facebook, as I understand it. And that’s why Google had to approve it beforehand. (Which, again, they did.)</p>
+<p>Now, maybe Google opens up these hooks in a future version of Android and this difference is moot. Or maybe they don’t. You have to wonder why they haven’t yet, especially with so many other “skins” out there in the Android world. Today, though, the difference remains.</p>
+<p>And so, while not forking Android, Facebook isn’t exactly just building your standard app, either. And if the technical argument isn’t enough to convince you, just think about how many other app makers partner with OEMs. And how many get key space inside the retail stores of a carrier partner?</p>
+<p>This Facebook Phone is a bigger deal than Facebook wants to let on. And understandably so. You don’t announce you’re going to rob someone’s house before you rob it. And just because, in the case of Android, Google left the doors unlocked, it doesn’t mean it’s not a robbery.</p>
+<p>(The situation becomes much more gray when you consider that, technically, Google invited them in by way of a third-party guest. But that would still be robbery. Even if they helped move around some furniture before they left with the goods. But now I’m way too deep in the woods&#8230;)</p>
+<p>If Facebook Home isn’t any good, none of this will likely matter. I only got to play around with it for a few minutes today, but I was generally impressed by how smooth everything seemed to operate. It seems almost un-Android-like in that regard. But giving good demo is not the same as being a good product. So we’ll have to wait and see on that front, as well.</p>
+<p>Still, I think today’s maneuver was a very smart one by Facebook. They’re not forking Android because that implies something bad. They’re spooning with Android, which is fine — nice, even. Never mind the fact that Google probably won’t be too fond of either eventually for the same underlying reasons.</p>
+<p>These days, Samsung doesn’t seem to mention Android too often even though they’re so reliant on the OS. But Google seems okay with that as the Search and Play revenues continue to flow in. Similarly, Facebook didn’t mention the Android-maker too often today, and I doubt they will going forward with this and future Facebook Phones. And Google should be okay with that as long as the Search and Play revenues continue to flow in.</p>
+<p>But what if Facebook Home eventually swaps out Google Search for the search engine of their investor and close partner, Microsoft? Or what if they put Facebook Search front and center instead? Or what if <a href="http://techcrunch.com/2013/04/04/facebook-home-boots-google-search-off-the-homescreen-on-most-android-phones/">people search less</a> in general because they just use this device for Facebook services and little else? Or what if Facebook decides to use their own app store instead of Google Play?</p>
+<p>Or what if Google, sick of seeing Samsung, Amazon, and now Facebook fondle Android, decides that they want to own the branding of their creation? Again, what if they want to be the “soul of your phone”? There are a lot of variables here going forward.</p>
+<p>“It is possible that they go back on their commitment to openness. But I don&#8217;t think they will. And it would take a lot of effort,” Zuckerberg said when asked about Google today. That reeks of one of those statements that will come back to haunt. Or maybe he’s just being disingenuous, feigning naiveness — because, again, maybe he’s the thief to Google’s joker.</p>
+<p>For now, Facebook and Google are strange bedfellows, spooning.</p>
+<p><em>[photo: flickr/<a target="_blank" href="http://www.flickr.com/photos/kubina/2168212843/">Jeff Kubina</a>]</em></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792539/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=faXWJdge_7k:Z1r76LppeUU:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=faXWJdge_7k:Z1r76LppeUU:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=faXWJdge_7k:Z1r76LppeUU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=faXWJdge_7k:Z1r76LppeUU:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=faXWJdge_7k:Z1r76LppeUU:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=faXWJdge_7k:Z1r76LppeUU:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=faXWJdge_7k:Z1r76LppeUU:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=faXWJdge_7k:Z1r76LppeUU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/faXWJdge_7k" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/there-is-no-fork/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-28-22-pm.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-28-22-pm.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2013-04-04 at 3.28.22 PM</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/710187cd963df0f92d11ddb31e6ae3db?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">MG</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/there-is-no-fork/</feedburner:origLink></item>
+		<item>
+		<title>Second Life Founder Raises $2.4M For New Stealth Startup, High Fidelity</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/T58DDKEqHFU/</link>
+		<comments>http://techcrunch.com/2013/04/04/second-life-founder-raises-2-4m-for-new-stealth-startup-high-fidelity/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 22:17:27 +0000</pubDate>
+		<dc:creator>Leena Rao</dc:creator>
+				<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792511</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/high-fidelity.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="High Fidelity" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://highfidelity.io/">High Fidelity,</a> a new startup from Second Life founder <a target="_blank" href="http://www.crunchbase.com/person/philip-rosedale">Philip Rosedale,</a> has raised $2.4 million out of a $3.4 million round, according to a new <a target="_blank" href="http://www.sec.gov/Archives/edgar/data/1573621/000157362113000002/xslFormDX01/primary_doc.xml">SEC filing.</a> Listed in the filing are Rosedale, Freddy Heiberger, and Ryan Karpf (Heiberger and Karpf and ex- Linden Lab staffers, and co-founders of Rosedale's last startup Coffee and Power).]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/high-fidelity.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="High Fidelity" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://highfidelity.io/">High Fidelity,</a> a new startup from Second Life founder <a target="_blank" href="http://www.crunchbase.com/person/philip-rosedale">Philip Rosedale,</a> has raised $2.4 million out of a $3.4 million round, according to a new <a target="_blank" href="http://www.sec.gov/Archives/edgar/data/1573621/000157362113000002/xslFormDX01/primary_doc.xml">SEC filing.</a> Listed in the filing are Rosedale, Freddy Heiberger, and Ryan Karpf (Heiberger and Karpf and ex- Linden Lab staffers, and co-founders of Rosedale&#8217;s last startup Coffee and Power).</p>
+<p>There aren&#8217;t too many details of what High Fidelity does, but according to the site, the company is working on developing &#8220;big ideas.&#8221; Some examples of this are: &#8220;What will the information spaces of the future look like? 20 years ago the web didn&#8217;t exist. What&#8217;s next? How will address schemas and navigational metaphors evolve to keep pace with computing power?&#8221;</p>
+<p>In a job posting on the site, High Fidelity writes that the startup is &#8220;prototyping the technology and user experience of a next-generation virtual reality system. It is an expansive vision with a number of moving parts that are each unique and compelling new technology.&#8221; With the company&#8217;s experience developing for Second Life, we&#8217;re curious to see what a next-generation virtual reality system looks like.</p>
+<p>Rosedale previously <a href="http://techcrunch.com/2011/11/01/second-life-founder-launches-coffee-power-a-jeff-bezos-backed-marketplace-for-skill-based-jobs/">launched Coffee and Power</a> in 2011 as an online marketplace where people can buy and sell small jobs. The marketplace included its own virtual currency and payment system, live communications and public chat, a game-like rating and review system, and a real-world facility where users can meet and work together. It also opened up a co-working space in San Francisco where users could meet in a safe public area to work together and conduct transactions and services. The startup raised $1 million in funding from Amazon CEO and founder Jeff Bezos, Greylock Partners, Mitch Kapor, Catamount Ventures and Kevin Rose.</p>
+<p>It&#8217;s unclear what the future is for Coffee and Power. The startup <a target="_blank" href="http://blog.coffeeandpower.com/2012/10/24/sunsetting-casual-coworking-at-cp/">sunsetted</a> its co-working space in San Francisco last October and the actual site seems to be <a target="_blank" href="http://coffeeandpower.com/">shut down.</a> But the company&#8217;s <a target="_blank" href="http://www.workclub.net/#!/welcome">Workclub</a> mobile app is still alive.</p>
+<p>One thing is for sure, anything Rosedale and the former Second Life team puts its hands on should be interesting (especially if the startup is working on some of the bold initiatives outlined on the High Fidelity homepage).</p>
+<p>We reached out to Rosedale for comment and will update if and when we hear back.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792511/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=T58DDKEqHFU:Fd-1ylbRMSU:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=T58DDKEqHFU:Fd-1ylbRMSU:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=T58DDKEqHFU:Fd-1ylbRMSU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=T58DDKEqHFU:Fd-1ylbRMSU:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=T58DDKEqHFU:Fd-1ylbRMSU:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=T58DDKEqHFU:Fd-1ylbRMSU:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=T58DDKEqHFU:Fd-1ylbRMSU:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=T58DDKEqHFU:Fd-1ylbRMSU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/T58DDKEqHFU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/second-life-founder-raises-2-4m-for-new-stealth-startup-high-fidelity/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/high-fidelity.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/high-fidelity.jpg?w=150" medium="image">
+			<media:title type="html">High Fidelity</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/bbce6c3c48f821c81c019600a5589ae6?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">leena</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/second-life-founder-raises-2-4m-for-new-stealth-startup-high-fidelity/</feedburner:origLink></item>
+		<item>
+		<title>Google Launches Drive App Data Folders, Lets Developers Safely Store Configuration Files And Other Data</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/KvbykiZ615w/</link>
+		<comments>http://techcrunch.com/2013/04/04/google-launches-drive-app-data-folders-lets-developers-safely-store-configuration-files-and-other-data/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 22:12:48 +0000</pubDate>
+		<dc:creator>Drew Olanoff</dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Google-Drive]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792531</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/8371218391_9b6af76a2d_z.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="8371218391_9b6af76a2d_z" style="float: left; margin: 0 10px 7px 0;" />If you&#8217;re a developer building web or mobile apps that use Google Drive for storing information, you&#8217;ve probably found that users really can&#8217;t be trusted not to delete or move that data. Once the user does that, the app experience won&#8217;t be so great and the data that the app needs to run isn&#8217;t there to use. Today, Google has introduced &#8220;app data folders&#8221; which are protected and can&#8217;t be seen by users within their Drive account. Other apps can&#8217;t see the files either, so there is now an added layer of security to fight off bad actors who build apps to swipe information or do other damage. The Google Drive team suggests that these app data folders are used for configuration files, app state data or files that shouldn&#8217;t be modified in any way. Even though users can&#8217;t see the data, they can see how much space it is taking up on their devices and clear the data at any time. Here&#8217;s what you&#8217;ll see as a user in your manage apps panel: Additionally, &#8220;custom properties&#8221; can be added to Drive files that will allow developers to create searchable fields that are either app-specific or are to be shared with other apps. More information about the Drive SDK can be found on StackOverflow, a site oddly not owned or operated by Google. [Photo credit: Flickr]]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/8371218391_9b6af76a2d_z.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="8371218391_9b6af76a2d_z" style="float: left; margin: 0 10px 7px 0;" /><p>If you&#8217;re a developer building web or mobile apps that use Google Drive for storing information, you&#8217;ve probably found that users really can&#8217;t be trusted not to delete or move that data. Once the user does that, the app experience won&#8217;t be so great and the data that the app needs to run isn&#8217;t there to use.</p>
+<p>Today, Google has <a target="_blank" href="http://googleappsdeveloper.blogspot.com/2013/04/more-ways-for-apps-to-write-to-drive.html">introduced &#8220;app data folders&#8221;</a> which are protected and can&#8217;t be seen by users within their Drive account. Other apps can&#8217;t see the files either, so there is now an added layer of security to fight off bad actors who build apps to swipe information or do other damage.</p>
+<p>The Google Drive team suggests that these app data folders are used for configuration files, app state data or files that shouldn&#8217;t be modified in any way. Even though users can&#8217;t see the data, they can see how much space it is taking up on their devices and clear the data at any time.</p>
+<p>Here&#8217;s what you&#8217;ll see as a user in your manage apps panel:</p>
+<p><a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2013/04/image00.png"></a></p>
+<p>Additionally, &#8220;custom properties&#8221; can be added to Drive files that will allow developers to create searchable fields that are either app-specific or are to be shared with other apps.</p>
+<p>More information about the <a target="_blank" href="http://stackoverflow.com/questions/tagged/google-drive-sdk">Drive SDK can be found on StackOverflow</a>, a site oddly not owned or operated by Google.</p>
+<p>[Photo credit: <a target="_blank" href="http://www.flickr.com/photos/jennerosity/8371218391/">Flickr</a>]</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792531/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=KvbykiZ615w:EmDle3nK98Y:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=KvbykiZ615w:EmDle3nK98Y:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=KvbykiZ615w:EmDle3nK98Y:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=KvbykiZ615w:EmDle3nK98Y:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=KvbykiZ615w:EmDle3nK98Y:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=KvbykiZ615w:EmDle3nK98Y:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=KvbykiZ615w:EmDle3nK98Y:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=KvbykiZ615w:EmDle3nK98Y:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/KvbykiZ615w" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/google-launches-drive-app-data-folders-lets-developers-safely-store-configuration-files-and-other-data/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/8371218391_9b6af76a2d_z.jpg?w=137" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/8371218391_9b6af76a2d_z.jpg?w=137" medium="image">
+			<media:title type="html">8371218391_9b6af76a2d_z</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/b0be7dc9dffd2413ec89e6ebb54da179?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">thatdrew</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/image00.png" medium="image">
+			<media:title type="html">image00</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/google-launches-drive-app-data-folders-lets-developers-safely-store-configuration-files-and-other-data/</feedburner:origLink></item>
+		<item>
+		<title>Facebook Home Boots Google Search Off The Homescreen On Most Android Phones</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/2SuWyd8ISLE/</link>
+		<comments>http://techcrunch.com/2013/04/04/facebook-home-boots-google-search-off-the-homescreen-on-most-android-phones/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 21:46:07 +0000</pubDate>
+		<dc:creator>Greg Kumparak</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Video]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[facebook home]]></category>
+		<category><![CDATA[android]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792465</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-05-09-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 3.05.09 PM" style="float: left; margin: 0 10px 7px 0;" />Shortly after Facebook's Home announcement, I got to chat with Tom Allison, Facebook's Android Engineering Manager. We discussed his favorite parts of Home, how much they changed the underlying OS, and the biggest challenges they faced during Home's development.
+
+Plus: A bonus look at Home running on a Samsung Galaxy Note 2, and a peek at how Home can happily co-exist with your old homescreen.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-05-09-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 3.05.09 PM" style="float: left; margin: 0 10px 7px 0;" /><script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=577&#038;width=640&#038;height=450&#038;colorPallet=%230A9600&#038;hasCompanion=false&#038;relatedMode=2&#038;videoControlDisplayColor=%23000000&#038;playList=517734187&#038;shuffle=0&#038;videoGroupID=133503&#038;autoStart=false&#038;playerActions=16407"></script>
+<p>Shortly after this morning&#8217;s Facebook Home announcement, I had the opportunity to chat with Tom Allison, Facebook&#8217;s Engineering Manager for Android. We discussed his favorite parts of Home, how much they had to change the underlying OS (read: not much), and the biggest challenges they faced during Home&#8217;s development.</p>
+<p>One thing I found particularly interesting: while the version of Facebook Home that ships with the just-announced HTC First will have Google search built in, the version they&#8217;ve built for everyone else to download will not. On the handsets that don&#8217;t come with this pre-installed, you&#8217;ll need to pop into Chrome, open up a dedicated search app, or drop down into your old homescreen (which is surprisingly easy — check out the video of it below.)</p>
+<p>Why does that matter? Remember: search (or, more accurately, advertisements on search results) is a pretty massive part of Google&#8217;s business model. Having search on the homescreen makes searching an impulse, thus increasing the volume of searches dramatically. If Facebook manages to get this thing on as many devices as they clearly hope to, it could put a bit of a dent in whatever money Google is pulling in from their Android efforts by way of search.</p>
+<p>Speaking of homescreens: if you&#8217;re looking to install Facebook Home but don&#8217;t want to lose access to your phone&#8217;s original homescreen (be it Samsung&#8217;s TouchWiz, HTC&#8217;s Sense, or the stock Android homescreen) and the widgets that come with, don&#8217;t fret. We spotted Home running on a Galaxy Note 2 earlier, and managed to get a quick demo of how the two homescreens can co-exist. You don&#8217;t have to flip through settings, toggle anything on or off, or reset your phone — just tap the &#8220;More&#8230;&#8221; button tucked away into the app drawer, and you&#8217;re there. When you&#8217;re done, the device&#8217;s home key takes you right back into Facebook Home.</p>
+<p>(Pardon the sketchy audio here — we were in a crowded room, and my iPhone apparently got scared and covered its ears)</p>
+<script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=577&#038;width=640&#038;height=450&#038;colorPallet=%230A9600&#038;hasCompanion=false&#038;relatedMode=2&#038;videoControlDisplayColor=%23000000&#038;playList=517734308&#038;shuffle=0&#038;videoGroupID=133503&#038;autoStart=false&#038;playerActions=16407"></script>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792465/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2SuWyd8ISLE:W0WndQnqo5c:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2SuWyd8ISLE:W0WndQnqo5c:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2SuWyd8ISLE:W0WndQnqo5c:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2SuWyd8ISLE:W0WndQnqo5c:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=2SuWyd8ISLE:W0WndQnqo5c:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2SuWyd8ISLE:W0WndQnqo5c:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=2SuWyd8ISLE:W0WndQnqo5c:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2SuWyd8ISLE:W0WndQnqo5c:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/2SuWyd8ISLE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/facebook-home-boots-google-search-off-the-homescreen-on-most-android-phones/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-05-09-pm.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-3-05-09-pm.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2013-04-04 at 3.05.09 PM</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/86f75cc66896ab9b0602715f082803d6?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">gregkumparak</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/facebook-home-boots-google-search-off-the-homescreen-on-most-android-phones/</feedburner:origLink></item>
+		<item>
+		<title>Without Strong Shareholder Support, Ray Lane Steps Down As HP's Chairman Of The Board</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/TRyTeu3wul0/</link>
+		<comments>http://techcrunch.com/2013/04/04/without-strong-shareholder-support-ray-lane-steps-down-as-hps-chairman-of-the-board/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 21:03:27 +0000</pubDate>
+		<dc:creator>Alex Williams</dc:creator>
+				<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792462</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/raylane.jpeg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="raylane" style="float: left; margin: 0 10px 7px 0;" />With waning shareholder support, Ray Lane has stepped down as HP&#8217;s chairman of the board. Board member Ralph Whitworth will take Lane&#8217;s seat as chairman. Whitworth is chairman of Relational Investors. Also resigning are two other HP directors, John Hammergren and G. Kennedy Thompson. Lane, a managing partner at Kleiner Perkins Caufield &#38; Byers, has been under pressure to resign. In March, the effort took a new turn when some of the larger shareholders sought to block the re-election of Lane and the other board members due to their lack of scrutiny over acquisitions. In particular, the discontent stems from the acquisition of Autonomy, which HP acquired in 20011 for $11 billion. A year later, the company wrote off $8.8 billion from the acquisition. According to the Wall Street Journal, Lane decided to resign after getting re-elected to the board with only 58.9 percent of the vote. Whitworth said Lane did not feel he had a mandate from the shareholders to remain chairman of the board. HP has  seen tremendous turmoil. In 2006, Patricia Dunn resigned over a spying scandal. In 2010, the board ousted Mark Hurd and hired Léo Apotheker, who led the Autonomy acquisition. He was fired last year and replaced by Meg Whitman, the current CEO.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/raylane.jpeg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="raylane" style="float: left; margin: 0 10px 7px 0;" /><p>With waning shareholder support, Ray Lane has stepped down as HP&#8217;s chairman of the board. Board member Ralph Whitworth will take Lane&#8217;s seat as chairman. Whitworth is chairman of Relational Investors. Also resigning are two other HP directors, John Hammergren and G. Kennedy Thompson.</p>
+<p>Lane, a managing partner at Kleiner Perkins Caufield &amp; Byers, has been under pressure to resign. In March, the effort took a new turn when some of the larger shareholders <a target="_blank" href="http://www.businessweek.com/news/2013-03-05/hp-chairman-lane-among-directors-opposed-by-iss">sought to block the re-election of Lane</a> and the other board members due to their lack of scrutiny over acquisitions. In particular, the discontent stems from the acquisition of Autonomy, which HP acquired in 20011 for $11 billion. A year later, the company wrote off $8.8 billion from the acquisition.</p>
+<p>According to the <a target="_blank" href="http://online.wsj.com/article/SB10001424127887323646604578402791487880644.html">Wall Street Journal</a>, Lane decided to resign after getting re-elected to the board with only 58.9 percent of the vote. Whitworth said Lane did not feel he had a mandate from the shareholders to remain chairman of the board.</p>
+<p>HP has  seen tremendous turmoil. In 2006, Patricia Dunn resigned over a spying scandal. In 2010, the board ousted Mark Hurd and hired Léo Apotheker, who led the Autonomy acquisition. He was fired last year and replaced by Meg Whitman, the current CEO.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792462/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=TRyTeu3wul0:2vvIYRjLj1k:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=TRyTeu3wul0:2vvIYRjLj1k:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=TRyTeu3wul0:2vvIYRjLj1k:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=TRyTeu3wul0:2vvIYRjLj1k:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=TRyTeu3wul0:2vvIYRjLj1k:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=TRyTeu3wul0:2vvIYRjLj1k:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=TRyTeu3wul0:2vvIYRjLj1k:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=TRyTeu3wul0:2vvIYRjLj1k:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/TRyTeu3wul0" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/without-strong-shareholder-support-ray-lane-steps-down-as-hps-chairman-of-the-board/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/raylane.jpeg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/raylane.jpeg?w=150" medium="image">
+			<media:title type="html">raylane</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/b4e205744ae2f9b44921d103b4d80e54?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">Alex Williams</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/without-strong-shareholder-support-ray-lane-steps-down-as-hps-chairman-of-the-board/</feedburner:origLink></item>
+		<item>
+		<title>The Inspiring Tenacity Of Roger Ebert's Last Words</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/c9xG2RnDXMc/</link>
+		<comments>http://techcrunch.com/2013/04/04/the-inspiring-tenacity-of-roger-eberts-last-words/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 21:00:20 +0000</pubDate>
+		<dc:creator>Gregory Ferenstein</dc:creator>
+				<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792473</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/33ebert.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="33ebert" style="float: left; margin: 0 10px 7px 0;" />Only a day before legendary film critic Roger Ebert passed away, he tweeted a final farewell at the Chicago-Sun Times, promising to pioneer new digital projects, in addition to a hefty schedule of movie reviews. At the ripe age of 70 and the cheery survivor of salivary cancer that left him him without a jaw or voice, Ebert proved that neither age nor disease could stand in the way of a pioneering mind. After cancer stole Ebert&#8217;s powers of speech, he turned to Twitter, becoming an instant sensation. &#8220;But there&#8217;s something seductive about it: The stream, the flow, the chatter, the sudden bursts of news, the snark, the gossip, time itself tweet-tweet-tweeting away,&#8221; he wrote for the Times. As of less than a month ago, his movie whit was still sharp as ever. He even braved the stage at TED, giving a speech entirely read by Apple&#8217;s monotone voice app, and the help of his close confidants. &#8220;People who need a voice should know that most computers already come with built-in speaking systems,&#8221; he said. &#8221; I&#8217;ve got to say, in first grade, they said I talked too much, and now I still can.&#8221; His optimism for technology is worth quoting at length: All of this has happened in the blink of an eye. It is unimaginable what will happen next. It makes me incredibly fortunate to live at this moment in history. Indeed, I am lucky to live in history at all, because without intelligence and memory there is no history. For billions of years, the universe evolved completely without notice. Now we live in the age of the Internet, which seems to be creating a form of global consciousness. And because of it, I can communicate as well as I ever could. We are born into a box of time and space. We use words and communication to break out of it and to reach out to others. For me, the Internet began as a useful tool and now has become something I rely on for my actual daily existence. I cannot speak; I can only type so fast. Computer voices are sometimes not very sophisticated, but with my computer, I can communicate more widelythan ever before. I feel as if my blog, my email, Twitter and Facebook have given me a substitute for everyday conversation. They aren&#8217;t an improvement, but they&#8217;re the best I can do. They]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/33ebert.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="33ebert" style="float: left; margin: 0 10px 7px 0;" /><blockquote class='twitter-tweet' lang='en'><p>My Leave of Presence: An update  http://
+<a href="http://j.mp/YRRHq8"> j.mp/YRRHq8</a></p>&mdash; <br />Roger Ebert (@ebertchicago) <a href='http://twitter.com/#!/ebertchicago/status/319316948045422593' data-datetime='2013-04-03T05:14:27+00:00'>April 03, 2013</a></blockquote>
+<p>Only a day before legendary film critic Roger Ebert passed away, he tweeted a final farewell at the <em>Chicago-Sun Times</em>, promising to pioneer new digital projects, in addition to a hefty schedule of movie reviews. At the ripe age of 70 and the cheery survivor of salivary cancer that left him him without a jaw or voice, Ebert proved that neither age nor disease could stand in the way of a pioneering mind.</p>
+<p>After cancer stole Ebert&#8217;s powers of speech, he turned to Twitter, becoming an instant sensation. &#8220;But there&#8217;s something seductive about it: The stream, the flow, the chatter, the sudden bursts of news, the snark, the gossip, time itself tweet-tweet-tweeting away,&#8221; <a target="_blank" href="http://blogs.suntimes.com/ebert/2011/09/how_to_win_friends_and_influen.html">he wrote</a> for the Times.</p>
+<p>As of less than a month ago, his movie whit was still sharp as ever.</p>
+<blockquote class='twitter-tweet' lang='en'><p>G.I.JOE: RETALIATION. Maybe you should just play with your dolls instead. Richard Roeper&#039;s review on my site: http://
+<a href="http://j.mp/111oN7L"> j.mp/111oN7L</a></p>&mdash; <br />Roger Ebert (@ebertchicago) <a href='http://twitter.com/#!/ebertchicago/status/317795555617144832' data-datetime='2013-03-30T00:28:59+00:00'>March 30, 2013</a></blockquote>
+<p>He even braved the stage at TED, giving a speech entirely read by Apple&#8217;s monotone voice app, and the help of his close confidants. &#8220;People who need a voice should know that most computers already come with built-in speaking systems,&#8221; he said. &#8221; I&#8217;ve got to say, in first grade, they said I talked too much, and now I still can.&#8221;</p>
+<iframe src="http://embed.ted.com/talks/roger_ebert_remaking_my_voice.html" height="315" width="560" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
+<p>His optimism for technology is worth quoting at length:</p>
+<blockquote><p>All of this has happened in the blink of an eye. It is unimaginable what will happen next. It makes me incredibly fortunate to live at this moment in history. Indeed, I am lucky to live in history at all, because without intelligence and memory there is no history. For billions of years, the universe evolved completely without notice. Now we live in the age of the Internet, which seems to be creating a form of global consciousness. And because of it, I can communicate as well as I ever could. We are born into a box of time and space. We use words and communication to break out of it and to reach out to others.</p>
+<p>For me, the Internet began as a useful tool and now has become something I rely on for my actual daily existence. I cannot speak; I can only type so fast. Computer voices are sometimes not very sophisticated, but with my computer, I can communicate more widelythan ever before. I feel as if my blog, my email, Twitter and Facebook have given me a substitute for everyday conversation. They aren&#8217;t an improvement, but they&#8217;re the best I can do. They give me a way to speak. Not everybody has the patience of my wife, Chaz.</p>
+<p>But online, everybody speaks at the same speed.</p></blockquote>
+<p>Ebert received an immediate outpouring of support from every imaginable outlet and personality, with links to past gems</p>
+<blockquote class='twitter-tweet' lang='en'><p>Ever a class act, @<a href="https://twitter.com/EbertChicago">EbertChicago</a> made me love movies even more. <a href="http://bit.ly/Y0z147"> bit.ly/Y0z147</a> <a href="http://twitter.com/search?q=%23RIP" title="#RIP">#RIP</a></p>&mdash; <br />Seth Green (@SethGreen) <a href='http://twitter.com/#!/SethGreen/status/319899749367042048' data-datetime='2013-04-04T19:50:18+00:00'>April 04, 2013</a></blockquote>
+<blockquote class='twitter-tweet' lang='en'><p>Maltin: &quot;[Ebert] legitimized the idea of talking about movies, of discussing and debating the merits of movies&quot; <a href="http://wapo.st/10CmlRg"> wapo.st/10CmlRg</a></p>&mdash; <br />The Washington Post (@washingtonpost) <a href='http://twitter.com/#!/washingtonpost/status/319908591857442818' data-datetime='2013-04-04T20:25:26+00:00'>April 04, 2013</a></blockquote>
+<blockquote class='twitter-tweet' lang='en'><p>RT @<a href="https://twitter.com/pjdoland">pjdoland</a>: Nothing was funnier than Siskel and Ebert when the camera stopped: <a href="http://buff.ly/XTawdu"> buff.ly/XTawdu</a></p>&mdash; <br />&nbsp; (@daveweigel) <a href='http://twitter.com/#!/daveweigel/status/319904923598848002' data-datetime='2013-04-04T20:10:51+00:00'>April 04, 2013</a></blockquote>
+<p>Ebert was brilliant and inspiring to his last days. A lesson for us all. His last words, written for the Times: &#8220;So on this day of reflection I say again, thank you for going on this journey with me. I&#8217;ll see you at the movies&#8221;</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792473/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=c9xG2RnDXMc:YcGKDBzVhkY:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=c9xG2RnDXMc:YcGKDBzVhkY:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=c9xG2RnDXMc:YcGKDBzVhkY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=c9xG2RnDXMc:YcGKDBzVhkY:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=c9xG2RnDXMc:YcGKDBzVhkY:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=c9xG2RnDXMc:YcGKDBzVhkY:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=c9xG2RnDXMc:YcGKDBzVhkY:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=c9xG2RnDXMc:YcGKDBzVhkY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/c9xG2RnDXMc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/the-inspiring-tenacity-of-roger-eberts-last-words/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/33ebert.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/33ebert.jpg?w=150" medium="image">
+			<media:title type="html">33ebert</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/36fb0b62cd32125bebf1806040529d3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">ferenstein</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/the-inspiring-tenacity-of-roger-eberts-last-words/</feedburner:origLink></item>
+		<item>
+		<title>Facebook's Gokul Rajaram, Google's Neal Mohan, And Twitter's Kevin Weil Will Discuss The Ad Landscape At Disrupt NY</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/q7oJUvIgnFg/</link>
+		<comments>http://techcrunch.com/2013/04/04/disrupt-ny-ad-panel/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 20:58:10 +0000</pubDate>
+		<dc:creator>Anthony Ha</dc:creator>
+				<category><![CDATA[Advertising]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[Neal Mohan]]></category>
+		<category><![CDATA[Gokul Rajaram]]></category>
+		<category><![CDATA[Kevin Weil]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=791952</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/ny-disrupt-2013-logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="ny-disrupt-2013-logo" style="float: left; margin: 0 10px 7px 0;" />I'm happy to announce that I'll be discussing the latest trends in digital advertising with representatives from Facebook, Google, and Twitter at the end of April during TechCrunch Disrupt in New York.
+
+My goal for the panel is to give attendees from both Madison Avenue and the startup world an overview of the latest products and opportunities from the major online ad platforms. We'll talk about successful campaigns, best practices, and long-term strategy, and I'll do my best to pry out concrete details about future plans.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/ny-disrupt-2013-logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="ny-disrupt-2013-logo" style="float: left; margin: 0 10px 7px 0;" /><p>I&#8217;m happy to announce that I&#8217;ll be discussing the latest trends in digital advertising with representatives from Facebook, Google, and Twitter at the end of April during TechCrunch Disrupt in New York.</p>
+<p>My goal for the panel is to give attendees from both Madison Avenue and the startup world an overview of the latest products and opportunities from the major online ad platforms. We&#8217;ll talk about successful campaigns, best practices, and long-term strategy, and I&#8217;ll do my best to pry out concrete details about future plans.</p>
+<p><a href="http://techcrunch.com/2013/04/04/disrupt-ny-ad-panel/194150v2-max-250x250/" rel="attachment wp-att-791983"></a>One of the panelists is <a target="_blank" href="http://www.crunchbase.com/person/kevin-weil">Kevin Weil</a>, senior director of revenue products at Twitter. Weil leads product development and strategy for Twitter&#8217;s ad platform. He was previously the product manager for Twitter&#8217;s advertising-facing data products and the tech lead for Twitter analytics.</p>
+<p><a href="http://techcrunch.com/2013/04/04/disrupt-ny-ad-panel/129523v1-max-250x250/" rel="attachment wp-att-791984"></a>We&#8217;ll also have <a target="_blank" href="http://www.crunchbase.com/person/neal-mohan">Neal Mohan</a>, Google&#8217;s vice president of display advertising products. Mohan joined Google through the DoubleClick acquisition in 2008, and he&#8217;s now in charge of display ad products on both desktop and mobile, including the Google Display Network, AdSense, AdMob, Ad Exchange, InviteMedia, AdMeld and the DoubleClick suite.</p>
+<p><a href="http://techcrunch.com/2013/04/04/disrupt-ny-ad-panel/16642v3-max-250x250/" rel="attachment wp-att-791988"></a>Our final panelist is <a target="_blank" href="http://www.crunchbase.com/person/gokul-rajaram">Gokul Rajaram</a>, product director for ads at Facebook. Rajaram leads the roadmap and execution for Facebook&#8217;s ad products. He also has experience at Google, where he helped launch AdSense and was product lead on the DoubleClick acquisition.</p>
+<p>Disrupt NY starts on April 27 with our <a href="http://techcrunch.com/events/disrupt-ny-2013/hackathon/">24-hour Hackathon</a>. The conference officially kicks off at the Manhattan Center on April 29 with a schedule filled with speakers, product demos, and the Startup Battlefield, where 30 startups compete for the Disrupt Cup and a giant $50,000 check.</p>
+<p>Early-bird, general-admission tickets are available until April 11. Or <a href="http://techcrunch.com/events/disrupt-ny-2013/hackathon/">sign up for the Hackathon</a> for a chance for the same ticket for free.</p>
+<p><em>Our sponsors help make Disrupt happen. If you are interested in learning more about sponsorship opportunities, please contact our sponsorship team here <a target="_blank" href="mailto:sponsors@techcrunch.com">sponsors@techcrunch.com</a>.</em></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/791952/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=q7oJUvIgnFg:iYd_z6NIewI:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=q7oJUvIgnFg:iYd_z6NIewI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=q7oJUvIgnFg:iYd_z6NIewI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=q7oJUvIgnFg:iYd_z6NIewI:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=q7oJUvIgnFg:iYd_z6NIewI:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=q7oJUvIgnFg:iYd_z6NIewI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=q7oJUvIgnFg:iYd_z6NIewI:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=q7oJUvIgnFg:iYd_z6NIewI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/q7oJUvIgnFg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/disrupt-ny-ad-panel/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/ny-disrupt-2013-logo.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/ny-disrupt-2013-logo.jpg?w=150" medium="image">
+			<media:title type="html">ny-disrupt-2013-logo</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/72b358648f4587cc2a11895c32b8e979?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">anthha</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/194150v2-max-250x250.png?w=150" medium="image">
+			<media:title type="html">kevin weil</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/129523v1-max-250x250.jpg?w=150" medium="image">
+			<media:title type="html">neal mohan</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/16642v3-max-250x250.png?w=121" medium="image">
+			<media:title type="html">Gokul Rajaram</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/disrupt-ny-ad-panel/</feedburner:origLink></item>
+		<item>
+		<title>Film Critic Roger Ebert Dead At 70</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/6kWU4BvCATw/</link>
+		<comments>http://techcrunch.com/2013/04/04/film-critic-roger-ebert-dead-at-70/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 20:49:21 +0000</pubDate>
+		<dc:creator>John Biggs</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[obituary]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792466</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-4-47-49-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 4.47.49 PM" style="float: left; margin: 0 10px 7px 0;" />In the annals of criticism it is often the case that a writer is cursed in life and forgotten in death. For Roger Ebert, voluminous historian of the cinema and its most astute critic, neither of these was the case.
+]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-4-47-49-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 4.47.49 PM" style="float: left; margin: 0 10px 7px 0;" /><p>In the annals of criticism it is often the case that a writer is cursed in life and forgotten in death. For Roger Ebert, voluminous historian of the cinema and its most astute critic, neither of these was the case.</p>
+<p>Ebert, along with his counterpoint, Gene Siskel, defined the modern movie review and brought the figurative <i>Cahiers du Cinéma</i> down from their lofty perch and into our living rooms. He was affable, honest, and as a longtime columnist for the Chicago Sun-Times, so prolific &#8211; 306 reviews in the last year alone and over 200 a year prior to that &#8211; as to make many journalists look like withering failures.  </p>
+<p>His kindness and blunt judgements made his writing a treat and I can only imagine how it felt to be the recipient of his attention. A person&#8217;s work is their child and he was a strong scold and virtuous champion.</p>
+<p>Ebert, who suffered from thyroid and salivary gland cancer, died today at age 70. He recently announced a <a target="_blank" href="http://blogs.suntimes.com/ebert/2013/04/a_leave_of_presense.html">sort of retirement</a> after finding that his cancer had returned. He is survived by his wife, Chaz Hammel-Smith Ebert.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792466/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=6kWU4BvCATw:O7qC8l5SngU:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=6kWU4BvCATw:O7qC8l5SngU:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=6kWU4BvCATw:O7qC8l5SngU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=6kWU4BvCATw:O7qC8l5SngU:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=6kWU4BvCATw:O7qC8l5SngU:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=6kWU4BvCATw:O7qC8l5SngU:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=6kWU4BvCATw:O7qC8l5SngU:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=6kWU4BvCATw:O7qC8l5SngU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/6kWU4BvCATw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/film-critic-roger-ebert-dead-at-70/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-4-47-49-pm.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-4-47-49-pm.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2013-04-04 at 4.47.49 PM</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/c0a943f484a32e62ed3bc81dd0dd25da?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">john</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/film-critic-roger-ebert-dead-at-70/</feedburner:origLink></item>
+		<item>
+		<title>SFO Serves Cease-And-Desist Letters To Keep Ride-Sharing Companies From Operating At The Airport</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/ZLjdiPGO5rg/</link>
+		<comments>http://techcrunch.com/2013/04/04/sfo-hates-ride-sharing/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 20:42:51 +0000</pubDate>
+		<dc:creator>Ryan Lawler</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[SideCar]]></category>
+		<category><![CDATA[Lyft]]></category>
+		<category><![CDATA[instantcab]]></category>
+		<category><![CDATA[sfo]]></category>
+		<category><![CDATA[ride-sharing]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792425</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/sfo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="sfo" style="float: left; margin: 0 10px 7px 0;" />Last week, InstantCab announced to the world that it had received a partial cease-and-desist letter from the San Francisco International Airport, asking it to stop picking up and dropping off passengers there. Well, apparently it wasn&#8217;t alone, as other new transportation startups had also received the same notice last month. SideCar, for instance, confirmed that it received a cease-and-desist letter in early March. Zimride&#8217;s Lyft hasn&#8217;t responded to our inquiries, but we&#8217;ve heard that it too was one of the companies hit with a C&#38;D notice. InstantCab, which operates a hybrid service with both community and taxi drivers, was actually the last of the companies to be served with a notice by SFO. And that notice applied to its community drivers only, not the taxi e-hail side of its business. The letters served to remind companies like Lyft and SideCar that the site is operated by the City and County of San Francisco and the Airport Commission, and also as a reminder that they didn&#8217;t have permits to operate on SFO premises. Without a permit, the notices say that continued operation of community driver services at SFO will be considered &#8220;an unlawful trespass.&#8221; In particular, the notice says those services are violating a couple of airport rules and regulations, including this one: Rule 3.3(E): No person shall enter or remain on Airport property and buy, sell, peddle or offer for sale or purchase any goods, merchandise, property or services of any kind whatsoever, on or from Airport property, without the express written consent of the Director or the Director’s duly authorized representative. Like every other airport in the world, SFO allows regulated taxi services to pick up and drop off passengers on the premises. Black car and limo services have been driving passengers to and from SFO for decades. And over the past few years, Uber has even provided a transportation alternative to those flying in and out of the airport &#8212; although Uber drivers are mostly indistinguishable from limo services, in part because the company partners with them for its UberBLACK and UberSUV service. The key distinguishing feature of the services hit by cease-and-desist letters by SFO seems to be that they employ community drivers who are not licensed by the San Francisco Municipal Transportation Agency or the California Public Utilities Commission. In that respect, SFO isn&#8217;t the first to try to outlaw these services. Lyft and SideCar (along]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/sfo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="sfo" style="float: left; margin: 0 10px 7px 0;" /><p>Last week, InstantCab announced to the world that it had <a target="_blank" href="http://blog.instantcab.com/post/46881211570/letter-from-the-san-francisco-international-airport">received a partial cease-and-desist letter from the San Francisco International Airport</a>, asking it to stop picking up and dropping off passengers there. Well, apparently it wasn&#8217;t alone, as other new transportation startups had also received the same notice last month.</p>
+<p>SideCar, for instance, confirmed that it received a cease-and-desist letter in early March. Zimride&#8217;s Lyft hasn&#8217;t responded to our inquiries, but we&#8217;ve heard that it too was one of the companies hit with a C&amp;D notice. InstantCab, which operates a hybrid service with both community and taxi drivers, was actually the last of the companies to be served with a notice by SFO. And that notice applied to its community drivers only, not the taxi e-hail side of its business.</p>
+<p>The letters served to remind companies like Lyft and SideCar that the site is operated by the City and County of San Francisco and the Airport Commission, and also as a reminder that they didn&#8217;t have permits to operate on SFO premises. Without a permit, the notices say that continued operation of community driver services at SFO will be considered &#8220;an unlawful trespass.&#8221; In particular, the notice says those services are violating a couple of airport rules and regulations, including this one:</p>
+<blockquote><p>Rule 3.3(E): No person shall enter or remain on Airport property and buy, sell, peddle or offer for sale or purchase any goods, merchandise, property or services of any kind whatsoever, on or from Airport property, without the express written consent of the Director or the Director’s duly authorized representative.</p></blockquote>
+<p>Like every other airport in the world, SFO allows regulated taxi services to pick up and drop off passengers on the premises. Black car and limo services have been driving passengers to and from SFO for decades. And over the past few years, Uber has even provided a transportation alternative to those flying in and out of the airport &#8212; although Uber drivers are mostly indistinguishable from limo services, in part because the company partners with them for its UberBLACK and UberSUV service.</p>
+<p>The key distinguishing feature of the services hit by cease-and-desist letters by SFO seems to be that they employ community drivers who are not licensed by the San Francisco Municipal Transportation Agency or the California Public Utilities Commission.</p>
+<p>In that respect, SFO isn&#8217;t the first to try to outlaw these services. Lyft and SideCar (along with Uber and Tickengo) had all <a href="http://techcrunch.com/2012/10/08/cpuc-ride-sharing-c-and-d/">received C&amp;D notices from the CPUC</a> last year before the agency backtracked and began examining the possibility of <a href="http://techcrunch.com/2012/12/20/cpuc-lyft-sidecar/">creating a new regulatory framework for ride-sharing services</a>. And SideCar has received some pushback from local regulators in markets, such as Philadelphia and Austin, cities it recently expanded into.</p>
+<p>The wild card here is Uber, which to our knowledge hasn&#8217;t yet received notice from SFO. While it&#8217;s quietly served the airport&#8217;s passengers since launching in San Francisco years ago, it recently joined the ride-sharing brigade by contracting community drivers for its lower-priced UBERx service.</p>
+<p>Photo Credit: <a target="_blank" href="http://www.flickr.com/photos/93755244@N00/4142552587/">Håkan Dahlström</a> via <a target="_blank" href="http://compfight.com">Compfight</a> <a target="_blank" href="http://creativecommons.org/licenses/by/2.0/">cc</a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792425/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZLjdiPGO5rg:QL_34n1tAUs:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZLjdiPGO5rg:QL_34n1tAUs:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZLjdiPGO5rg:QL_34n1tAUs:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZLjdiPGO5rg:QL_34n1tAUs:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ZLjdiPGO5rg:QL_34n1tAUs:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZLjdiPGO5rg:QL_34n1tAUs:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ZLjdiPGO5rg:QL_34n1tAUs:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZLjdiPGO5rg:QL_34n1tAUs:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/ZLjdiPGO5rg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/sfo-hates-ride-sharing/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/sfo.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/sfo.jpg?w=150" medium="image">
+			<media:title type="html">sfo</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/3c5a6332c8200dfda8d15c74ebcc06d1?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">ryanlawler</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/sfo-hates-ride-sharing/</feedburner:origLink></item>
+		<item>
+		<title>Indiegogo Suffers DDOS Aimed At YourAnonymousNews Campaign</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/MLxZ9q2-JFU/</link>
+		<comments>http://techcrunch.com/2013/04/04/indiegogo-suffers-ddos-thanks-to-youranonnews/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 20:20:08 +0000</pubDate>
+		<dc:creator>John Biggs</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[anonymous]]></category>
+		<category><![CDATA[YAN]]></category>
+		<category><![CDATA[hacks]]></category>
+		<category><![CDATA[indiegogo]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=791919</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-1-31-45-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 1.31.45 PM" style="float: left; margin: 0 10px 7px 0;" />When there is no central authority, who has the authority to sell t-shirts? That question came to a head over the past few days when <a target="_blank" href="http://youranonnews.tumblr.com">YourAnonNews</a> announced it planned to <a target="_blank" href="http://www.indiegogo.com/projects/your-anon-news">create something like a newswire</a> for Anonymous news.
+]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-1-31-45-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 1.31.45 PM" style="float: left; margin: 0 10px 7px 0;" /><p>When there is no central authority, who has the authority to sell t-shirts? That question came to a head over the past few days when <a target="_blank" href="http://youranonnews.tumblr.com">YourAnonNews</a> announced it planned to <a target="_blank" href="http://www.indiegogo.com/projects/your-anon-news">create something like a newswire</a> for Anonymous news.</p>
+<p>The project, called YAN, is described thus:</p>
+<div style="margin-left:30px;margin-right:30px;padding-left:15px;border-left:3px solid #ccc;font-style:italic;">Over the past two years Your Anon News (YAN) has been many things to many people and has continuously evolved under the guidance of numerous contributors. Since our humble beginnings as a new account we have always resisted being held to the constraints placed upon mainstream media outlets, but were limited to the tools available to us via Twitter and Tumblr. Those of us contributing to YAN have always desired to expand our capabilities and to report, not just aggregate, the news.</div>
+<p>A noble cause, to be sure. The result, however, is that Indiegogo was hit by a DDOS attack of unclear origin. <a href="http://techcrunch.com/tag/Indiegogo">Indiegogo</a> had few details to share, but it&#8217;s interesting to see how quickly, we assume, Anonymous pulled a solid Ouroboros and began to eat itself.</p>
+<p>Indiegogo founder Slava Rubin apologized for the outage and wrote: &#8220;Any campaigns scheduled to conclude this week will have the option of extending until Sunday by contacting our 24&#215;7 Customer Happiness team.&#8221;</p>
+<p>YAN&#8217;s mission here is a little odd &#8211; they want to break us free from mainstream media through video and reporting, etc. and they think they only need $2,000 to do so &#8211; and their perks, including T-shirts and mugs, seem to be a bit more like the things you&#8217;d get from the local public radio station than a nefarious organization purporting to shake the crown of power, but them&#8217;s the breaks.</p>
+<p>As of right now Indiegogo seems to be working fine but the team there is working hard to bolster the servers against future attacks.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/791919/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=MLxZ9q2-JFU:o9hBZFWIpKA:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=MLxZ9q2-JFU:o9hBZFWIpKA:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=MLxZ9q2-JFU:o9hBZFWIpKA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=MLxZ9q2-JFU:o9hBZFWIpKA:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=MLxZ9q2-JFU:o9hBZFWIpKA:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=MLxZ9q2-JFU:o9hBZFWIpKA:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=MLxZ9q2-JFU:o9hBZFWIpKA:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=MLxZ9q2-JFU:o9hBZFWIpKA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/MLxZ9q2-JFU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/indiegogo-suffers-ddos-thanks-to-youranonnews/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-1-31-45-pm.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-1-31-45-pm.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2013-04-04 at 1.31.45 PM</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/c0a943f484a32e62ed3bc81dd0dd25da?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">john</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/indiegogo-suffers-ddos-thanks-to-youranonnews/</feedburner:origLink></item>
+		<item>
+		<title>Meet Swirl It, A Location-Focused iOS App For Wine Drinking And Discovery [TCTV]</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/F5bfHKuIQBA/</link>
+		<comments>http://techcrunch.com/2013/04/04/swirl-it-wine-app-iphone/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 19:41:05 +0000</pubDate>
+		<dc:creator>Colleen Taylor</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=791533</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-12-40-00-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 12.40.00 PM" style="float: left; margin: 0 10px 7px 0;" />Amidst all this coverage of snazzy new products from big established companies, it's always a huge breath of fresh air to talk to the little guys -- budding independent entrepreneurs passionately making clever new apps and services. In many ways, these are the people that actually keep the tech industry interesting. 
+
+That's why it was great to meet <a target="_blank" href="http://swirlitapp.com/ourstory">Brittany Hawkins</a> of <a target="_blank" href="http://swirlitapp.com">Swirl It</a>, a new <a target="_blank" href="https://itunes.apple.com/us/app/swirl-it!/id458466780?ls=1&#38;mt=8">app for the iPhone</a> for helping you keep track of the wines you try and discover potential new favorites. ]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-12-40-00-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 12.40.00 PM" style="float: left; margin: 0 10px 7px 0;" /><p><script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=577&#038;width=640&#038;height=450&#038;colorPallet=%230A9600&#038;hasCompanion=false&#038;relatedMode=2&#038;videoControlDisplayColor=%23000000&#038;playList=517733279&#038;shuffle=0&#038;videoGroupID=133503&#038;autoStart=false&#038;playerActions=16407"></script><br />
+Amidst all this coverage of snazzy new products from big established companies, it&#8217;s always a huge breath of fresh air to talk to the little guys &#8212; budding independent entrepreneurs passionately making clever new apps and services. In many ways, these are the people that actually keep the tech industry interesting. </p>
+<p>That&#8217;s why it was great to meet <a target="_blank" href="http://swirlitapp.com/ourstory">Brittany Hawkins</a> of <a target="_blank" href="http://swirlitapp.com">Swirl It</a>, a new <a target="_blank" href="https://itunes.apple.com/us/app/swirl-it!/id458466780?ls=1&amp;mt=8">app for the iPhone</a> for helping you keep track of the wines you try and discover potential new favorites. </p>
+<p><a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-12-35-23-pm.png"></a>Swirl It is a bit of a passion project, as both Hawkins and <a target="_blank" href="http://swirlitapp.com/ourstory">her co-founder Nic Werner</a> have very busy full-time jobs at other tech companies (Sharethrough and Slashdot, respectively.) After meeting on a &#8220;co-founder date&#8221; two years back and bonding over their wish to bring an accessible wine-focused app to market, the pair have worked nights and weekends to make Swirl It a reality. At the moment, the company is totally bootstrapped.</p>
+<p>One of the big differentiators for Swirl It is how it has a huge focus on location &#8212; the idea is that while a label might help us pick out a wine to begin with, often what we end up really associate a wine with is the where and when &#8212; that great Chardonnay you tried out at that one restaurant, or that affordable Rose your friend brought to a picnic. Swirl It&#8217;s database has 15,000 wines and 5,000 locations, with more being added daily.</p>
+<p>We brought Hawkins by TechCrunch TV to give us a hands-on look at Swirl It and talk about what sets it apart from other apps for the <a target="_blank" href="http://en.wikipedia.org/wiki/Oenophilia">oenophile</a> set. My first impression is that Swirl is a well-designed app that fulfills a definite need simply and effectively &#8212; it&#8217;ll be fun to see how it takes off in the days ahead now that it&#8217;s out in the wild. </p>
+<p>Check it all out in the video embedded above.</p>
+<p>Here are some screenshots of Swirl It:<br />
+<a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2013/04/swirlit2.jpg"></a>  <a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2013/04/swirlit1.jpg"></a>    <a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2013/04/swirlit3.jpg"></a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/791533/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=F5bfHKuIQBA:J_5OjbWImfY:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=F5bfHKuIQBA:J_5OjbWImfY:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=F5bfHKuIQBA:J_5OjbWImfY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=F5bfHKuIQBA:J_5OjbWImfY:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=F5bfHKuIQBA:J_5OjbWImfY:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=F5bfHKuIQBA:J_5OjbWImfY:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=F5bfHKuIQBA:J_5OjbWImfY:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=F5bfHKuIQBA:J_5OjbWImfY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/F5bfHKuIQBA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/swirl-it-wine-app-iphone/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-12-40-00-pm.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-12-40-00-pm.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2013-04-04 at 12.40.00 PM</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/4978d78871dc3ed1a4264d051e6c9193?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">colleentechcrunch</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-12-35-23-pm.png" medium="image">
+			<media:title type="html">swirlit logo</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/swirlit2.jpg" medium="image">
+			<media:title type="html">swirlit2</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/swirlit1.jpg" medium="image">
+			<media:title type="html">swirlit1</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/swirlit3.jpg" medium="image">
+			<media:title type="html">swirlit3</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/swirl-it-wine-app-iphone/</feedburner:origLink></item>
+		<item>
+		<title>9flats, The European Airbnb Competitor, Now Accepting Bitcoin Payments</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/AVy_2wbvKTY/</link>
+		<comments>http://techcrunch.com/2013/04/04/9flats-bitcoin/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 19:35:27 +0000</pubDate>
+		<dc:creator>Steve O'Hear</dc:creator>
+				<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[9flats]]></category>
+		<category><![CDATA[Bitcoin]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792135</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/now_accepting.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Now_Accepting" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://www.9flats.com">9flats</a>, which operates a short rentals marketplace similar to and <a href="http://techcrunch.com/2012/08/06/9flats-acquires-istopover-to-put-the-heat-on-airbnb-doubles-its-rentals-capacity/">competing</a> with Airbnb, has flicked the switch on Bitcoin support. The Berlin-headquartered startup now accepts Bitcoin payment, alongside its existing support for various credits cards and PayPal.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/now_accepting.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Now_Accepting" style="float: left; margin: 0 10px 7px 0;" /><p>When Bitcoin made headlines last month for reaching the billion-dollar mark, it became a lot harder to scoff at the crypto-currency. What may have started off as an uber-geeky experiment, backed by anarchists and crazy digital libertarians alone, is garnering more and more legitimacy by the day. And as Rip Empson <a href="http://techcrunch.com/2013/03/28/bitcoin-how-an-unregulated-decentralized-virtual-currency-just-became-a-billion-dollar-market/">recently wrote</a>, much of that legitimacy comes from a growing number of startups who have began to support Bitcoin payments.</p>
+<p>Today, <a target="_blank" href="http://www.9flats.com">9flats</a>, which operates a short rentals marketplace similar to and <a href="http://techcrunch.com/2012/08/06/9flats-acquires-istopover-to-put-the-heat-on-airbnb-doubles-its-rentals-capacity/">competing</a> with Airbnb, has flicked the switch on its own Bitcoin support. The Berlin-headquartered startup now accepts Bitcoin payment, alongside various credits cards and PayPal. There&#8217;s one caveat, however. Bitcoin payment will only be accepted for instant bookings, which make up roughly 50% of 9flats bookings. That&#8217;s because the nature of Bitcoins and, presumably, its volatility, means that 9flats is unable to pre-authorize payments and then charge later when the host accepts.</p>
+<p>Sensibly, 9flats is shielding itself from future fluctuations in the crypto-currency by immediately exchanging Bitcoin payments to Euros, thus it isn&#8217;t storing any Bitcoins, protecting itself and its users (the 9flats hosts) from any exposure to the currency. Or, to put it another way, there is no risk if the bubble bursts between a user booking accommodation on 9flats and the host getting paid.</p>
+<p>In addition, via third-party provider BitPay.com, Bitcoin prices on 9flats are calculated and converted in real-time.</p>
+<p>But, besides generating easy PR, why go to the trouble of adding Bitcoin support at all? 9flats CEO Stephan Uhrenbacher says that &#8220;interest in Bitcoin is soaring like crazy&#8221; and that the company had a number of requests from customers in parts of the world where online payment is a hassle. He also says the company was surprised by the ease of integration. &#8220;When you pay online with Bitcoin on 9flats, you can see the transaction live, it is even faster and more seamless than other forms of online payments.&#8221;</p>
+<p>Candidly, however, Uhrenbacher adds: &#8220;Nobody knows if Bitcoin is the new future currency or just a gigantic bubble. Nevertheless it is amazing how well the concept works in practice.&#8221;</p>
+<p>One thing that did occur to me, however, is given the perceived anonymous nature of Bitcoin compared to other payment methods, might that not increase the risk for hosts accepting guests into their home, over say those using a credit card. But then again, <a target="_blank" href="http://en.bitcoin.it/wiki/Anonymity">arguably</a>, Bitcoin isn&#8217;t all that anonymous after all. Meanwhile, credit card or PayPal identity isn&#8217;t impenetrable, either.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792135/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AVy_2wbvKTY:n2fb_OBVbtc:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AVy_2wbvKTY:n2fb_OBVbtc:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AVy_2wbvKTY:n2fb_OBVbtc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AVy_2wbvKTY:n2fb_OBVbtc:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=AVy_2wbvKTY:n2fb_OBVbtc:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AVy_2wbvKTY:n2fb_OBVbtc:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=AVy_2wbvKTY:n2fb_OBVbtc:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AVy_2wbvKTY:n2fb_OBVbtc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/AVy_2wbvKTY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/9flats-bitcoin/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/now_accepting.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/now_accepting.png?w=150" medium="image">
+			<media:title type="html">Now_Accepting</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/95b8a6df6d265cf57a4d89ee4856ea98?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">Steve O'Hear</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/with_iphone.jpg?w=225" medium="image">
+			<media:title type="html">With_iPhone</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/9flats-bitcoin/</feedburner:origLink></item>
+		<item>
+		<title>HTC And Facebook Confirm They Modified Android To Optimize The “First” Phone For Home</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/oe4VMvH_Ne0/</link>
+		<comments>http://techcrunch.com/2013/04/04/facebook-htc-modified-android/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 19:18:45 +0000</pubDate>
+		<dc:creator>Josh Constine</dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Video]]></category>
+		<category><![CDATA[facebook phone]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792350</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/facebook-modified-android-os1.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Facebook Modified Android OS" style="float: left; margin: 0 10px 7px 0;" />While Facebook's press event focused on the "Home" app that runs on unforked Androids, HTC and Facebook have confirmed to me they modified Android to give the HTC First phone features not available in the downloadable Home app. This lets the First pipe in email and calendar notifications to its homescreen. And with the Facebook Home Program, other OEMs can get Facebook's help fiddling with Android]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/facebook-modified-android-os1.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Facebook Modified Android OS" style="float: left; margin: 0 10px 7px 0;" /><p>While Facebook&#8217;s press event focused on the &#8220;Home&#8221; app that runs on unforked Androids, HTC and Facebook have confirmed to me they modified Android to give the HTC First phone features not available in the downloadable Home app. This lets the First pipe in email and calendar notifications to its homescreen. And with the Facebook Home Program, other OEMs can get Facebook&#8217;s help fiddling with Android.</p>
+<p>&#8220;Yes we had to implement some framework changes and some hooks to do the system notifications&#8221;, explained HTC Partner Manager Michael Goodwin. He tells us &#8220;all the things that could appear in your Android notification tray can appear within Facebook Home&#8221; thanks to the changes to Android.</p>
+<p>During the event, Facebook CEO Mark Zuckerberg and Director Of Product Adam Mosseri also mentioned during the event that the HTC First was optimized to give the best possible Home experience.</p>
+<p>[Update: After the event, I got to sit down with Mosseri, who told me "We didn't fork Android, we extended it. HTC was helpful, and they actually wrote the code. We've worked with OEMs a lot and we pre-load a lot but we've created new APIs with a partner before but they were pretty convenient." He then compared Google's openness to Apple's reliability, explaining "Apple and Android have taken very different approaches.    Apple's want to ensure quality with control. I love iPhones, but Androids afford more opportunity. That's good and bad. There's more risk. People could make bad experience with [Android].&#8221;</p>
+<p>These details <a href="http://techcrunch.com/2013/03/28/facebook-android-phone/">confirm the intel from my sources</a> last week that Facebook would debut an HTC handset running a modified version of Android that would give it extra functionality. The HTC First is <a target="_blank" href="http://www.att.com/shop/wireless/devices/htc/first-black.html?source=ICHPATHPT10FACpyL&amp;wtExtndSource=vanity#fbid=_tLS2otG3K1">now available for pre-order</a> for $99.99 from AT&amp;T, and will ship on April 10th for arrival on April 12th.</p>
+<p>HTC&#8217;s President Jason Mackenzie explained why HTC put in this extra effort to optimize Home for the First. &#8220;It&#8217;s to provide a consistent experience. To offer the easiest, simplest solution for the customer. They shouldn&#8217;t have to get Chat Heads or messages from Facebook one way, and find out if you have text messages or email some other way. This delivers on Facebook and Mark&#8217;s vision of bringing your friends to the forefront instead of the applications.&#8221;</p>
+<p>Home from Google Play only shows Facebook content on the homescreen, whereas on the HTC First and its flavor of Android you can get Google Calendar, Microsoft Outlook email, info about available Wi-Fi networks, and more notifications fed into your homescreen. Additionally, on the HTC First, you&#8217;ll be able to swipe up to to show your app shortcuts, and then swipe right to reveal a Google Search bar that doesn&#8217;t exist in the downloadable version of Home.</p>
+<p>So in fact, the &#8220;Facebook Phone&#8221; by HTC will offer a less-exclusively Facebook experience than just downloading the Facebook Home app for standard Androids.</p>
+<p>Now the question is what do other handset makers will do? Facebook has created the <a target="_blank" href="https://www.facebook.com/home/partners">Facebook Home Program</a> for OEMs, which &#8220;gives partners access to Facebook resources and partnership guidelines, helping them create a high quality Facebook experience for their customers.&#8221; Facebook&#8217;s goal is to partner with more OEMs to get Android customized for more phones. That could put &#8220;Facebook Phones&#8221; in more stores, potentially earn the social network some cash if they sell well, and get more people using Facebook all day long.</p>
+<p><em>Watch the video interview with Michael Goodwin of HTC for more details.</em></p>
+<script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=577&#038;width=640&#038;height=450&#038;colorPallet=%230A9600&#038;hasCompanion=false&#038;relatedMode=2&#038;videoControlDisplayColor=%23000000&#038;playList=517734158&#038;shuffle=0&#038;videoGroupID=133503&#038;autoStart=false&#038;playerActions=16407"></script>
+<p><a href="http://techcrunch.com/tag/facebook-phone/"></a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792350/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=oe4VMvH_Ne0:btU9RgC5sFA:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=oe4VMvH_Ne0:btU9RgC5sFA:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=oe4VMvH_Ne0:btU9RgC5sFA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=oe4VMvH_Ne0:btU9RgC5sFA:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=oe4VMvH_Ne0:btU9RgC5sFA:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=oe4VMvH_Ne0:btU9RgC5sFA:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=oe4VMvH_Ne0:btU9RgC5sFA:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=oe4VMvH_Ne0:btU9RgC5sFA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/oe4VMvH_Ne0" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/facebook-htc-modified-android/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/facebook-modified-android-os1.jpg?w=79" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/facebook-modified-android-os1.jpg?w=79" medium="image">
+			<media:title type="html">Facebook Modified Android OS</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/fd3b857e7f0024396cdbd36c4c102a5d?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">joshsc</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/facebook-home-on-modified-android-htc.jpg?w=233" medium="image">
+			<media:title type="html">Facebook Home On Modified Android HTC</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/fb-phone-banner.jpg" medium="image">
+			<media:title type="html">facebook phone</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/facebook-htc-modified-android/</feedburner:origLink></item>
+		<item>
+		<title>Mozilla Moves Ahead With Its Plans For A Common Web API For Payments</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/B-Aoh4h0Dnw/</link>
+		<comments>http://techcrunch.com/2013/04/04/mozilla-moves-ahead-with-its-plans-for-a-common-web-api-for-payments/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 19:15:40 +0000</pubDate>
+		<dc:creator>Frederic Lardinois</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[payments]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[api]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=791957</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/03/mozilla_logo.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="mozilla_logo" style="float: left; margin: 0 10px 7px 0;" />Mozilla is working with payment vendors and the W3C standards body to create a common API to make online payments, both on desktop and mobile, easier and more secure. To get this process going, Mozilla has implemented a new and experimental JavaScript API into its new Firefox OS for smartphones that will eventually allow web apps to accept payments. Mozilla argues that having a common API for handling payments that can be integrated with multiple payment vendors will open up new business models for developers and publishers. This new API, navigator.mozPay(), Mozilla says, was inspired by Google&#8217;s Wallet for Digital Goods API and will ship in Firefox OS first and then be added to Firefox for Android and desktop Firefox later. While it&#8217;s currently a very experimental API (and still incomplete), Mozilla expects that it will be usable enough to &#8220;process live payments on the first Firefox OS phones and evolve quickly from real-world usage.&#8221; The question to ask here, of course, is why bother, given that online payments don&#8217;t seem to be a major issue for users and developers, thanks to services like PayPal and Stripe. Mozilla, however, argues that users should have more choice when it comes to how they want to pay for goods online (be they virtual or physical). Users, the organization also notes, still have to type in their credit card numbers, which &#8220;is like giving someone the keys to your expensive car, letting them drive it around the block in a potentially dangerous neighborhood (the web) and saying please don’t get carjacked!&#8221; With navigator.mozPay(), developers will be able to grant permission to each payment provider they want to work with and use a very straightforward process for handling these payments that&#8217;s more about exchanging tokens than exchanging credit card information. You can find more details about how to implement and test the current version of this API here.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/03/mozilla_logo.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="mozilla_logo" style="float: left; margin: 0 10px 7px 0;" /><p>Mozilla is <a target="_blank" href="https://hacks.mozilla.org/2013/04/introducing-navigator-mozpay-for-web-payments/">working</a> with payment vendors and the W3C standards body to create a <a target="_blank" href="https://wiki.mozilla.org/WebAPI/WebPayment">common API</a> to make online payments, both on desktop and mobile, easier and more secure. To get this process going, Mozilla has implemented a new and experimental <a target="_blank" href="https://wiki.mozilla.org/WebAPI/WebPayment">JavaScript API</a> into its new Firefox OS for smartphones that will eventually allow <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Apps/Publishing/In-app_payments">web apps to accept payments</a>. Mozilla argues that having a common API for handling payments that can be integrated with multiple payment vendors will open up new business models for developers and publishers.</p>
+<p>This new API, navigator.mozPay(), Mozilla says, was inspired by Google&#8217;s <a target="_blank" href="https://developers.google.com/commerce/wallet/digital/docs/index">Wallet for Digital Goods API</a> and will ship in Firefox OS first and then be added to Firefox for Android and desktop Firefox later. While it&#8217;s currently a very experimental API (and still <a target="_blank" href="https://wiki.mozilla.org/WebAPI/WebPayment#Testing">incomplete</a>), Mozilla expects that it will be usable enough to &#8220;process live payments on the first Firefox OS phones and evolve quickly from real-world usage.&#8221;</p>
+<p>The question to ask here, of course, is why bother, given that online payments don&#8217;t seem to be a major issue for users and developers, thanks to services like <a target="_blank" href="http://paypal.com">PayPal</a> and <a target="_blank" href="https://stripe.com/">Stripe</a>. Mozilla, however, argues that users should have more choice when it comes to how they want to pay for goods online (be they virtual or physical). Users, the organization also notes, still have to type in their credit card numbers, which &#8220;is like giving someone the keys to your expensive car, letting them drive it around the block in a potentially dangerous neighborhood (the web) and saying <em>please don’t get carjacked!&#8221;</em></p>
+<p>With navigator.mozPay(), developers will be able to grant permission to each payment provider they want to work with and use a <a target="_blank" href="https://wiki.mozilla.org/WebAPI/WebPayment#Payment_flow_overview">very straightforward process</a> for handling these payments that&#8217;s more about exchanging tokens than exchanging credit card information.</p>
+<p>You can find more details about how to implement and test the current version of this API <a target="_blank" href="https://wiki.mozilla.org/WebAPI/WebPayment">here</a>.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/791957/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=B-Aoh4h0Dnw:xLSlDhFF5Do:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=B-Aoh4h0Dnw:xLSlDhFF5Do:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=B-Aoh4h0Dnw:xLSlDhFF5Do:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=B-Aoh4h0Dnw:xLSlDhFF5Do:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=B-Aoh4h0Dnw:xLSlDhFF5Do:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=B-Aoh4h0Dnw:xLSlDhFF5Do:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=B-Aoh4h0Dnw:xLSlDhFF5Do:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=B-Aoh4h0Dnw:xLSlDhFF5Do:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/B-Aoh4h0Dnw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/mozilla-moves-ahead-with-its-plans-for-a-common-web-api-for-payments/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/03/mozilla_logo.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/03/mozilla_logo.png?w=150" medium="image">
+			<media:title type="html">mozilla_logo</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">fredericlardinois</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/mozilla-moves-ahead-with-its-plans-for-a-common-web-api-for-payments/</feedburner:origLink></item>
+		<item>
+		<title>Orange France, EE In The UK Will Get First Facebook Home HTC First Phones In Europe In Summer 2013</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/Tc4FVz4uDcY/</link>
+		<comments>http://techcrunch.com/2013/04/04/orange-france-ee-in-the-uk-will-get-first-facebook-home-phones-in-europe-in-summer-2013/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 19:13:46 +0000</pubDate>
+		<dc:creator>Ingrid Lunden</dc:creator>
+				<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Media]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[facebook home]]></category>
+		<category><![CDATA[facebook]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792364</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/15-1.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="15 (1)" style="float: left; margin: 0 10px 7px 0;" />Facebook <a href="http://techcrunch.com/2013/04/04/att-and-france-telecom-the-first-carriers-for-facebook-home-staring-with-99-99-htc-first-device/">announced them earlier</a>, and now <a target="_blank" href="http://www.orange.fr">Orange France</a> and <a target="_blank" href="http://www.ee.co.uk/">EE</a> in the UK have confirmed it: they will be the first two carriers in Europe to carry the 4G HTC First, the first Android device with Facebook's new Android launcher, Facebook Home, embedded in it. Although AT&#38;T revealed pricing and preorders from today -- at $99 -- the two European carriers are still mum on how much it will cost and other details, except to note that the devices will be available this summer.
+]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/15-1.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="15 (1)" style="float: left; margin: 0 10px 7px 0;" /><p>Facebook <a href="http://techcrunch.com/2013/04/04/att-and-france-telecom-the-first-carriers-for-facebook-home-staring-with-99-99-htc-first-device/">announced them earlier</a>, and now <a target="_blank" href="http://www.orange.fr">Orange France</a> and <a target="_blank" href="http://www.ee.co.uk/">EE</a> in the UK have confirmed it: they will be the first two carriers in Europe to carry the 4G HTC First, the first Android device with Facebook&#8217;s new Android launcher, Facebook Home, embedded in it. Although AT&amp;T revealed pricing and preorders from today &#8212; at $99 &#8212; the two European carriers are still mum on how much it will cost and other details, except to note that the devices will be available this summer.</p>
+<p>But in an interview earlier today with <a target="_blank" href="http://www.bloomberg.com/news/2013-04-03/france-telecom-ceo-says-frugal-buyers-threaten-sales-of-iphone.html">Bloomberg</a>, Stephane Richard, CEO of France Telecom, owner of Orange and part-owner of EE, noted that mobile consumers in FT&#8217;s markets were becoming more &#8220;frugal&#8221; and less inclined to spend top dollar for mobile handsets. That could spell opportunity for the HTC First and other Facebook Home phones if they come with pricetag&#8217;s similar to the one in the U.S.</p>
+<p>&#8220;Orange has worked with Facebook to bring the best possible Facebook experience to our customers around the world for years, from increasing mobile access to Facebook in emerging markets to the launch of Home today,&#8221; said Jean-Paul Cottet, Executive Vice President, Marketing &amp; Innovation at Orange, in a statement. &#8220;We are proud to be Facebook’s exclusive partner in bringing the HTC First, with the most advanced and richest mobile Facebook experience available, to our customers.&#8221;</p>
+<p>France Telecom, which owns both Orange France and half of EE (with T-Mobile), has been a longstanding partner of Facebook&#8217;s rolling out services both in Europe and in the rest of its footprint, which is strong in emerging markets in Africa &#8212; a key target for Facebook as it looks to sign up its &#8220;next billion&#8221; users, as Zuckerberg has described them.</p>
+<p>Those projects have included France Telecom developing services like <a href="http://techcrunch.com/2012/11/21/the-facebook-mobile-plot-thickens-orange-inks-deal-for-social-calling-service-starting-summer-2013/">Party Call</a>, a social calling service that has yet to launch but will likely make its way to the Facebook Home device, as well as services so that users in <a href="http://techcrunch.com/2012/02/16/facebooks-mobile-net-widens-as-orange-turns-on-access-in-africa/">emerging markets</a> with less extensive mobile data networks and low smartphone penetration can use the devices.</p>
+<p>Facebook Home, and a keenly-priced HTC First, will be one more piece in that strategy.</p>
+<p>More details <a target="_blank" href="http://www.facebook.com/Orange.France">here</a> and <a target="_blank" href="http://www.ee.co.uk/Facebook">here</a>.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792364/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Tc4FVz4uDcY:7PK8M0yUNTs:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Tc4FVz4uDcY:7PK8M0yUNTs:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Tc4FVz4uDcY:7PK8M0yUNTs:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Tc4FVz4uDcY:7PK8M0yUNTs:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=Tc4FVz4uDcY:7PK8M0yUNTs:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Tc4FVz4uDcY:7PK8M0yUNTs:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=Tc4FVz4uDcY:7PK8M0yUNTs:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Tc4FVz4uDcY:7PK8M0yUNTs:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/Tc4FVz4uDcY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/orange-france-ee-in-the-uk-will-get-first-facebook-home-phones-in-europe-in-summer-2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/15-1.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/15-1.png?w=150" medium="image">
+			<media:title type="html">15 (1)</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/6648ec93043f0f368091adece63c6d52?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">ingridlunden</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/orange-france-ee-in-the-uk-will-get-first-facebook-home-phones-in-europe-in-summer-2013/</feedburner:origLink></item>
+		<item>
+		<title>Facebook Home Wants To Own The Conversations Of Text-Obsessed Teens</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/A5F30CYPKnA/</link>
+		<comments>http://techcrunch.com/2013/04/04/facebook-home-wants-to-own-the-conversations-of-text-obsessed-teens/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 19:11:31 +0000</pubDate>
+		<dc:creator>Gregory Ferenstein</dc:creator>
+				<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792340</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/flickr-tammy-mcgary.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="flickr-tammy-mcgary" style="float: left; margin: 0 10px 7px 0;" />The average teenager now sends a staggering 1,800 texts a month. This scale is why Facebook announced a new chat-centric smartphone application, Home, hoping to snag the lucrative data of a new generation of hyper-connected, text-obsessed teens. Once the social center for yuppie Ivy League 20-somethings, Facebook will launch Home on a super-cheap $99 Android smartphone, expanding the social network to the rest of the youth market of high-schoolers with little more than piggy-bank money to spend on technology. Home&#8217;s signature feature, appropriately titled &#8220;Chat Heads,&#8221; is &#8220;a way you can talk to your friends no matter what you&#8217;re doing in your phone, no matter what app you&#8217;re in,&#8221; explained Joey Flynn, a Facebook product designer. When users share an Instagram photo, for instance, a chat thread is conveniently kept live, right underneath the shutter. As our own Jordan Crook reported, &#8220;[Mark Zuckerberg] explained that Messaging shouldn’t be treated like any other app, though it often is treated that way in the current ecosystem&#8230;If you page through to another app, like a game or Instagram, the &#8216;chat head&#8217; (as it were) stays right there in the corner, ready and waiting for interaction. The chat head even has an unread count to show how many photos you’ve missed.&#8221; If you haven&#8217;t witnessed the socialization habits of 21st-century teens, it&#8217;s quite a sight. Teens roam in groups, seamlessly juggling dozens of conversations with geographically disparate friends, sharing photos and gossip in a flurry of thumb taps. To the next generation, there is practically no distinction between a friend five feet away or 500 miles. If Home can be the technological solution that permits teens to share even more information, they&#8217;ll flock in droves to Facebook, giving the social network an extraordinary dataset of human conversation. Everyday chatting is rich with data on events, consumer preferences and hidden friendships. Much like Google advertises to Gmail users based on the textual scans of their emails, chats could make Facebook&#8217;s ad targeting smarter. Even if Facebook doesn&#8217;t plan on scanning chats, it makes the social network the default home of an entire generation. I suspect that many of my colleagues in the tech press will dismiss Chat Heads as a boring &#8212; if not irritating &#8212; feature. However, they&#8217;re not the target. The first Facebook generation uses the Internet to occasionally browse, comment and announce social activity. The next generation lives on the Internet as a]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/flickr-tammy-mcgary.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="flickr-tammy-mcgary" style="float: left; margin: 0 10px 7px 0;" /><p>The average teenager now sends a staggering <a target="_blank" href="http://www.huffingtonpost.com/2012/03/19/texting-and-teens_n_1365650.html">1,800 texts a month</a>. This scale is why Facebook announced a <a href="http://techcrunch.com/2013/04/04/facebooks-new-home-puts-focus-on-messaging-with-chat-heads/">new chat-centric smartphone application</a>, Home, hoping to snag the lucrative data of a new generation of hyper-connected, text-obsessed teens.</p>
+<p>Once the social center for yuppie Ivy League 20-somethings, Facebook will <a href="http://techcrunch.com/2013/04/04/att-and-france-telecom-the-first-carriers-for-facebook-home-staring-with-99-99-htc-first-device/">launch</a> Home on a super-cheap $99 Android smartphone, expanding the social network to the rest of the youth market of high-schoolers with little more than piggy-bank money to spend on technology.</p>
+<p></p>
+<p>Home&#8217;s signature feature, appropriately titled &#8220;Chat Heads,&#8221; is &#8220;a way you can talk to your friends no matter what you&#8217;re doing in your phone, no matter what app you&#8217;re in,&#8221; <a target="_blank" href="http://news.cnet.com/8301-1035_3-57577965-94/facebook-launches-chat-heads-for-staying-in-touch-with-friends/">explained</a> Joey Flynn, a Facebook product designer. When users share an Instagram photo, for instance, a chat thread is conveniently kept live, right underneath the shutter.</p>
+<p>As our own Jordan Crook reported, &#8220;[Mark Zuckerberg] explained that Messaging shouldn’t be treated like any other app, though it often is treated that way in the current ecosystem&#8230;If you page through to another app, like a game or Instagram, the &#8216;chat head&#8217; (as it were) stays right there in the corner, ready and waiting for interaction. The chat head even has an unread count to show how many photos you’ve missed.&#8221;</p>
+<p>If you haven&#8217;t witnessed the socialization habits of 21st-century teens, it&#8217;s quite a sight. Teens roam in groups, seamlessly juggling dozens of conversations with geographically disparate friends, sharing photos and gossip in a flurry of thumb taps. To the next generation, there is practically no distinction between a friend five feet away or 500 miles.</p>
+<p>If Home can be the technological solution that permits teens to share even more information, they&#8217;ll flock in droves to Facebook, giving the social network an extraordinary dataset of human conversation. Everyday chatting is rich with data on events, consumer preferences and hidden friendships.</p>
+<p>Much like Google advertises to Gmail users based on the <a href="http://techcrunch.com/2011/03/29/gmail-to-roll-out-ads-that-learn-from-your-inbox/">textual scans</a> of their emails, chats could make Facebook&#8217;s ad targeting smarter. Even if Facebook doesn&#8217;t plan on scanning chats, it makes the social network the default home of an entire generation.</p>
+<p>I suspect that many of my colleagues in the tech press will dismiss Chat Heads as a boring &#8212; if not irritating &#8212; feature. However, they&#8217;re not the target.</p>
+<p>The first Facebook generation uses the Internet to occasionally browse, comment and announce social activity. The next generation <em>lives</em> on the Internet as a constant extension of their physical social life. This is the next evolution of the Internet, and Facebook wants to own it.</p>
+<p>[<a target="_blank" href="http://www.flickr.com/photos/47152453@N07/6633059033/"><em>Image Credit: Flickr User Tammy McGary</em></a>]</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792340/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=A5F30CYPKnA:DmXosBDEKqM:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=A5F30CYPKnA:DmXosBDEKqM:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=A5F30CYPKnA:DmXosBDEKqM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=A5F30CYPKnA:DmXosBDEKqM:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=A5F30CYPKnA:DmXosBDEKqM:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=A5F30CYPKnA:DmXosBDEKqM:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=A5F30CYPKnA:DmXosBDEKqM:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=A5F30CYPKnA:DmXosBDEKqM:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/A5F30CYPKnA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/facebook-home-wants-to-own-the-conversations-of-text-obsessed-teens/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/flickr-tammy-mcgary.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/flickr-tammy-mcgary.jpg?w=150" medium="image">
+			<media:title type="html">flickr-tammy-mcgary</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/36fb0b62cd32125bebf1806040529d3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">ferenstein</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/15-1.png" medium="image">
+			<media:title type="html">15 (1)</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/facebook-home-wants-to-own-the-conversations-of-text-obsessed-teens/</feedburner:origLink></item>
+		<item>
+		<title>“In The Studio,” Paddle8′s Aditya Julka Discuses Building Niche Online Marketplaces</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/cgApGuIeX0Q/</link>
+		<comments>http://techcrunch.com/2013/04/04/paddle8/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 19:10:59 +0000</pubDate>
+		<dc:creator>Semil Shah</dc:creator>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=789744</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/paddle8.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="paddle8" style="float: left; margin: 0 10px 7px 0;" />"In the Studio" opens up Q2 of 2013 by hosting a three-time founder who, after stints in engineering and the biomedical industry in India, happened to team up with a young leader in the art world to create one of the art world's most <a target="_blank" href="http://venturebeat.com/2012/02/08/paddle8-founder-collective-funding-fine-art/">fascinating</a> online auction houses.
+
+<a target="_blank" href="http://www.linkedin.com/pub/aditya-julka/1/447/937">Aditya Julka</a>, a co-founder of online art and collectible marketplace <a target="_blank" href="http://www.paddle8.com/about">Paddle8</a>, has carved an unusual path of entrepreneurship. After growing up and studying in India, Julka began his career as a healthcare entrepreneur, founding two companies before he came stateside to pursue his MBA. After graduation, he moved to NYC and started what would become Paddle8, though the business initial began as a lead-gen engine for collectors, but Julka and his team quickly identified that, given the intricacies of the art world, the web could enable an interesting marketplace so long as they were able to secure the right art "supply."]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/paddle8.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="paddle8" style="float: left; margin: 0 10px 7px 0;" /><script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=577&#038;width=640&#038;height=450&#038;colorPallet=%230A9600&#038;hasCompanion=false&#038;relatedMode=2&#038;videoControlDisplayColor=%23000000&#038;playList=517718482&#038;shuffle=0&#038;videoGroupID=133503&#038;autoStart=false&#038;playerActions=16407"></script>
+<p><strong>Editor&#8217;s Note:</strong> <em><a target="_blank" href="http://blog.semilshah.com/about">Semil Shah</a> is a contributor to </em>TechCrunch<em>. You can follow him on Twitter at <a target="_blank" href="http://www.twitter.com/semil">@semil</a>.</em></p>
+<p>&#8220;In the Studio&#8221; opens up Q2 of 2013 by hosting a three-time founder who, after stints in engineering and the biomedical industry in India, happened to team up with a young leader in the art world to create one of the art world&#8217;s most <a target="_blank" href="http://venturebeat.com/2012/02/08/paddle8-founder-collective-funding-fine-art/">fascinating</a> online auction houses.</p>
+<p><a target="_blank" href="http://www.linkedin.com/pub/aditya-julka/1/447/937">Aditya Julka</a>, a co-founder of online art and collectible marketplace <a target="_blank" href="http://www.paddle8.com/about">Paddle8</a>, has carved an unusual path of entrepreneurship. After growing up and studying in India, Julka began his career as a healthcare entrepreneur, founding two companies before he came stateside to pursue his MBA. After graduation, he moved to NYC and started what would become Paddle8, though the business initial began as a lead-gen engine for collectors, but Julka and his team quickly identified that, given the intricacies of the art world, the web could enable an interesting marketplace so long as they were able to secure the right art &#8220;supply.&#8221;</p>
+<p>In this video, Julka and I discuss how Paddle8 was formed, how it transitioned from lead-gen to an auction format, lessons he&#8217;s gleaned from trying to build an online marketplace in a very complex, opaque industry, and how art moves from the artist to gallery to collector, and the potential re-sale options collector&#8217;s have. In these cases, art holders may have to sell art back to the gallery and get a haircut in return, or for works under $100,000, aren&#8217;t suitable for the big offline auction houses. This video would be valuable to anyone building an online marketplace, and Julka poses <a target="_blank" href="http://www.youtube.com/watch?v=E2a0lpYD6hk">hard</a> questions for these entrepreneurs &#8212; namely, to investigate any marketplace idea by asking &#8220;Why haven&#8217;t Amazon or eBay tried to go after this market?&#8221; The answer to that question, Julka believes, will help guide a startup to focus on being truly unique.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/789744/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=cgApGuIeX0Q:hUbhCcebwL4:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=cgApGuIeX0Q:hUbhCcebwL4:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=cgApGuIeX0Q:hUbhCcebwL4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=cgApGuIeX0Q:hUbhCcebwL4:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=cgApGuIeX0Q:hUbhCcebwL4:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=cgApGuIeX0Q:hUbhCcebwL4:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=cgApGuIeX0Q:hUbhCcebwL4:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=cgApGuIeX0Q:hUbhCcebwL4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/cgApGuIeX0Q" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/paddle8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/paddle8.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/paddle8.jpg?w=150" medium="image">
+			<media:title type="html">paddle8</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/2ff53f7e1cc86d3ebaa74bda2180f3af?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">semilshah</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/paddle8/</feedburner:origLink></item>
+		<item>
+		<title>Hands-On With The HTC First Running The Gesture-Powered Facebook Home [TCTV]</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/XY35Ha7wcHI/</link>
+		<comments>http://techcrunch.com/2013/04/04/hands-on-with-the-htc-first-running-the-gesture-powered-facebook-home-video/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 18:46:49 +0000</pubDate>
+		<dc:creator>Josh Constine</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Video]]></category>
+		<category><![CDATA[facebook phone]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792331</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-11-50-32-am.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 11.50.32 AM" style="float: left; margin: 0 10px 7px 0;" />The Facebook Home experience is based around next-level gesture control. Here you can watch us swipe, fling, and pop Facebook content in our hands-on demo of the new HTC First handset that comes with Home pre-installed. Compared to Facebook&#8217;s flagship suite of native mobile apps, Home on the HTC First is much more responsive. You could even call it (gasp!) fun to use. Watch that in the video embedded above, and stay tuned for footage of our chat with Facebook Home product designer Justin Stahl.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-11-50-32-am.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 11.50.32 AM" style="float: left; margin: 0 10px 7px 0;" /><p><script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=577&#038;width=640&#038;height=450&#038;colorPallet=%230A9600&#038;hasCompanion=false&#038;relatedMode=2&#038;videoControlDisplayColor=%23000000&#038;playList=517734091&#038;shuffle=0&#038;videoGroupID=133503&#038;autoStart=false&#038;playerActions=16407"></script><br />
+The <a href="http://techcrunch.com/2013/04/04/facebook-home-launch/">Facebook Home</a> experience is based around next-level gesture control. Here you can watch us swipe, fling, and pop Facebook content in our hands-on demo of the new <a href="http://techcrunch.com/2013/04/04/meet-the-htc-first-the-first-android-smartphone-to-come-preloaded-with-facebook-home/">HTC First handset</a> that comes with Home pre-installed. Compared to Facebook&#8217;s flagship suite of native mobile apps, Home on the HTC First is much more responsive. You could even call it (gasp!) fun to use.</p>
+<p>Watch that in the video embedded above, and stay tuned for footage of our chat with Facebook Home product designer Justin Stahl.</p>
+<p><a href="http://techcrunch.com/tag/facebook-phone/"></a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792331/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=XY35Ha7wcHI:m9CxgqFiW7Y:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=XY35Ha7wcHI:m9CxgqFiW7Y:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=XY35Ha7wcHI:m9CxgqFiW7Y:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=XY35Ha7wcHI:m9CxgqFiW7Y:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=XY35Ha7wcHI:m9CxgqFiW7Y:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=XY35Ha7wcHI:m9CxgqFiW7Y:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=XY35Ha7wcHI:m9CxgqFiW7Y:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=XY35Ha7wcHI:m9CxgqFiW7Y:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/XY35Ha7wcHI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/hands-on-with-the-htc-first-running-the-gesture-powered-facebook-home-video/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-11-50-32-am.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-11-50-32-am.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2013-04-04 at 11.50.32 AM</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/fd3b857e7f0024396cdbd36c4c102a5d?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">joshsc</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/fb-phone-banner.jpg" medium="image">
+			<media:title type="html">facebook phone</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/hands-on-with-the-htc-first-running-the-gesture-powered-facebook-home-video/</feedburner:origLink></item>
+		<item>
+		<title>Chairs Only Have Bit Parts In Facebook's First Official Facebook Home Ad</title>
+		<link>http://feedproxy.google.com/~r/Techcrunch/~3/pKHllAwAALE/</link>
+		<comments>http://techcrunch.com/2013/04/04/chairs-only-have-bit-parts-in-facebooks-first-official-facebook-home-ad/#comments</comments>
+		<pubDate>Thu, 04 Apr 2013 18:36:43 +0000</pubDate>
+		<dc:creator>Darrell Etherington</dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[facebook phone]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=792305</guid>
+		<description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-2-35-06-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 2.35.06 PM" style="float: left; margin: 0 10px 7px 0;" />Facebook has posted its first official promotional video for Facebook Home to its YouTube account, and unfortunately it isn't the bizarre video set on an airplane they showed during their presentation earlier today. Instead, it uses the classic method of tugging at your heart strings and playing on your disconnectedness from real-life relationships to suggest how much a device could help with that.]]></description>
+				<content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-2-35-06-pm.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2013-04-04 at 2.35.06 PM" style="float: left; margin: 0 10px 7px 0;" /><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='360' src='http://www.youtube.com/embed/Lep_DSmSRwE?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span>
+<p>Facebook has posted its first official promotional video for Facebook Home to its YouTube account, and unfortunately it isn&#8217;t the bizarre video set on an airplane they showed during their presentation earlier today. Instead, it uses the classic method of tugging at your heart strings and playing on your disconnectedness from real-life relationships to suggest how much a device could help with that.</p>
+<p>The idea that using a phone will somehow bring you closer to your immediate real-world family and friends more so than, say, actually interacting with them in person is nothing if not a little bit ridiculous. And that comes through in the way that people in the video are either A) laughing and having fun with friends, or B) checking out Facebook Home on what looks like the new <a title="Meet The HTC First, The First Android Phone To Come Preloaded With Facebook Home" href="http://techcrunch.com/2013/04/04/meet-the-htc-first-the-first-android-smartphone-to-come-preloaded-with-facebook-home/">HTC First hardware</a>, but never truly C) doing both at once.</p>
+<p>Maybe saddest of all is that Facebook no longer seems to care so much about its similarity to chairs. Now it&#8217;s more like &#8220;hugs are like Facebook.&#8221; Or &#8220;Facebook Home is like your friends, only more social.&#8221;</p>
+<span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='360' src='http://www.youtube.com/embed/c7SjvLceXgU?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span>
+<p><a href="http://techcrunch.com/tag/facebook-phone/"></a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/792305/"></a> <div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=pKHllAwAALE:jzd7qWAc5cY:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=pKHllAwAALE:jzd7qWAc5cY:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=pKHllAwAALE:jzd7qWAc5cY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=pKHllAwAALE:jzd7qWAc5cY:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=pKHllAwAALE:jzd7qWAc5cY:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=pKHllAwAALE:jzd7qWAc5cY:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=pKHllAwAALE:jzd7qWAc5cY:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=pKHllAwAALE:jzd7qWAc5cY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/pKHllAwAALE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://techcrunch.com/2013/04/04/chairs-only-have-bit-parts-in-facebooks-first-official-facebook-home-ad/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-2-35-06-pm.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/screen-shot-2013-04-04-at-2-35-06-pm.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2013-04-04 at 2.35.06 PM</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/188039e12983eb749171a75cfd01378d?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">etherin</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2013/04/fb-phone-banner.jpg" medium="image">
+			<media:title type="html">facebook phone</media:title>
+		</media:content>
+	<feedburner:origLink>http://techcrunch.com/2013/04/04/chairs-only-have-bit-parts-in-facebooks-first-official-facebook-home-ad/</feedburner:origLink></item>
+	</channel>
+</rss>

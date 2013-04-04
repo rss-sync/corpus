@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Thu, 04 Apr 2013 23:25:42 GMT</pubDate>
+		<lastBuildDate>Thu, 04 Apr 2013 23:25:42 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-04-04</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>4/4/2013; 7:25:42 PM</microblog:localTime>
+		<item>
+			<description>MIT Tech Review: First Impressions of the Facebook Home App for Smartphones.</description>
+			<link>http://3r1.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 23:25:42 GMT</pubDate>
+			<guid>http://3r1.r2.ly/?id=16000</guid>
+			<microblog:linkFull>http://www.technologyreview.com/news/513341/the-facebook-phone-is-finally-here-but-who-wants-it/</microblog:linkFull>
+			</item>
+		<item>
+			<description>How Google Analytics Got Started. #urchin</description>
+			<link>http://3qz.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 23:04:48 GMT</pubDate>
+			<guid>http://3qz.r2.ly/?id=15999</guid>
+			<microblog:linkFull>http://www.attendly.com/the-real-story-on-how-google-analytics-got-started/</microblog:linkFull>
+			<microblog:readCount>247</microblog:readCount>
+			</item>
+		<item>
+			<description>NYT: Roger Ebert, Film Critic, Dies.</description>
+			<link>http://3qy.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 21:24:14 GMT</pubDate>
+			<guid>http://3qy.r2.ly/?id=15998</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/05/movies/roger-ebert-film-critic-dies.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>466</microblog:readCount>
+			</item>
+		<item>
+			<description>Eric Cantor Will Consider Higher Taxes -- or not.</description>
+			<link>http://3qx.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 21:20:51 GMT</pubDate>
+			<guid>http://3qx.r2.ly/?id=15997</guid>
+			<microblog:linkFull>http://nymag.com/daily/intelligencer/2013/04/siren-eric-cantor-will-consider-higher-taxes.html</microblog:linkFull>
+			<microblog:readCount>284</microblog:readCount>
+			</item>
+		<item>
+			<description>Steven Levy cover story on Zuck. Levy is the king of &quot;access journalism&quot; in tech.</description>
+			<link>http://3qw.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 21:17:36 GMT</pubDate>
+			<guid>http://3qw.r2.ly/?id=15996</guid>
+			<microblog:linkFull>http://www.wired.com/magazine/2013/04/facebookqa/</microblog:linkFull>
+			<microblog:readCount>851</microblog:readCount>
+			</item>
+		<item>
+			<description>Seattle&apos;s Living Computer museum,</description>
+			<link>http://3qv.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 21:07:12 GMT</pubDate>
+			<guid>http://3qv.r2.ly/?id=15995</guid>
+			<microblog:linkFull>http://bits.blogs.nytimes.com/2013/04/04/a-place-where-old-computers-go-to-live/?seid=auto&amp;smid=tw-nytimesbits</microblog:linkFull>
+			<microblog:readCount>318</microblog:readCount>
+			</item>
+		<item>
+			<description>Wired: Facebook&apos;s &apos;Phone&apos; Is Another Triumph of Mediocrity.</description>
+			<link>http://3qu.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 20:42:03 GMT</pubDate>
+			<guid>http://3qu.r2.ly/?id=15994</guid>
+			<microblog:linkFull>http://www.wired.com/gadgetlab/2013/04/facebooks-phone-is-a-triumph-of-mediocrity/</microblog:linkFull>
+			<microblog:readCount>1131</microblog:readCount>
+			</item>
+		<item>
+			<description>Reagan Daughter Says He&apos;d Have Backed Gay Marriage.</description>
+			<link>http://3qt.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 20:27:46 GMT</pubDate>
+			<guid>http://3qt.r2.ly/?id=15993</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/04/us/politics/reagan-daughter-says-hed-have-backed-gay-marriage.html?pagewanted=all</microblog:linkFull>
+			<microblog:readCount>309</microblog:readCount>
+			</item>
+		<item>
+			<description>Cleveland Plain Dealer to Curtail Delivery and Cut Staff.</description>
+			<link>http://3qs.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 20:12:40 GMT</pubDate>
+			<guid>http://3qs.r2.ly/?id=15992</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/05/business/media/cleveland-paper-to-curtail-delivery-and-cut-staff.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>361</microblog:readCount>
+			</item>
+		<item>
+			<description>Facebook Home revamps any Android phone to make it about &apos;people, not apps&apos;.</description>
+			<link>http://3qp.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 17:27:30 GMT</pubDate>
+			<guid>http://3qp.r2.ly/?id=15991</guid>
+			<microblog:linkFull>http://www.theverge.com/2013/4/4/4183172/facebook-home-android</microblog:linkFull>
+			<microblog:readCount>548</microblog:readCount>
+			</item>
+		<item>
+			<description>I love outliner people. They are so cool.</description>
+			<link>http://3qj.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 15:11:02 GMT</pubDate>
+			<guid>http://3qj.r2.ly/?id=15990</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/whyIDoOutliners</microblog:linkFull>
+			<microblog:readCount>2469</microblog:readCount>
+			</item>
+		<item>
+			<description>MP3 quote of Anthony Hopkins playing Richard Nixon, talking to a portrait of JFK.</description>
+			<link>http://3qm.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 13:07:26 GMT</pubDate>
+			<guid>http://3qm.r2.ly/?id=15989</guid>
+			<microblog:linkFull>https://s3.amazonaws.com/mp3.newsjunk.com/hopkinsNixon.mp3</microblog:linkFull>
+			<microblog:readCount>431</microblog:readCount>
+			</item>
+		<item>
+			<description>North Korea&apos;s official Twitter and Flickr feeds taken over by hackers.</description>
+			<link>http://3ql.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 13:01:45 GMT</pubDate>
+			<guid>http://3ql.r2.ly/?id=15988</guid>
+			<microblog:linkFull>http://www.guardian.co.uk/world/2013/apr/04/north-korea-twitter-flickr-hackers</microblog:linkFull>
+			<microblog:readCount>610</microblog:readCount>
+			</item>
+		<item>
+			<description>We need better tools for thinking.</description>
+			<link>http://3qj.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 03:06:31 GMT</pubDate>
+			<guid>http://3qj.r2.ly/?id=15987</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/whyIDoOutliners</microblog:linkFull>
+			<microblog:readCount>2469</microblog:readCount>
+			</item>
+		<item>
+			<description>Thread: I do outliners for the thinking.</description>
+			<link>http://3qj.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Thu, 04 Apr 2013 02:44:27 GMT</pubDate>
+			<guid>http://3qj.r2.ly/?id=15986</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/whyIDoOutliners</microblog:linkFull>
+			<microblog:readCount>2469</microblog:readCount>
+			</item>
+		<item>
+			<description>MIT is strengthening campus security.</description>
+			<link>http://3qi.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 02:21:39 GMT</pubDate>
+			<guid>http://3qi.r2.ly/?id=15985</guid>
+			<microblog:linkFull>http://web.mit.edu/itgc/letters/security-memo.html</microblog:linkFull>
+			<microblog:readCount>1147</microblog:readCount>
+			</item>
+		<item>
+			<description>John Hamm is voice of American Airlines in new ad campaign.</description>
+			<link>http://3qh.r2.ly/</link>
+			<pubDate>Thu, 04 Apr 2013 01:04:38 GMT</pubDate>
+			<guid>http://3qh.r2.ly/?id=15984</guid>
+			<microblog:linkFull>http://adage.com/article/news/american-airlines-revamp-hopes-revive-travel/239264/</microblog:linkFull>
+			<microblog:readCount>769</microblog:readCount>
+			</item>
+		<item>
+			<description>Googlers exultant over launch of Blink browser engine.</description>
+			<link>http://3qg.r2.ly/</link>
+			<pubDate>Wed, 03 Apr 2013 23:00:43 GMT</pubDate>
+			<guid>http://3qg.r2.ly/?id=15983</guid>
+			<microblog:linkFull>http://news.cnet.com/8301-1023_3-57577850-93/googlers-exultant-over-launch-of-blink-browser-engine/?part=rss&amp;subj=news&amp;tag=title</microblog:linkFull>
+			<microblog:readCount>757</microblog:readCount>
+			</item>
+		<item>
+			<description>Google creates Blink, a new open source HTML rendering engine.</description>
+			<link>http://3qf.r2.ly/</link>
+			<pubDate>Wed, 03 Apr 2013 21:58:47 GMT</pubDate>
+			<guid>http://3qf.r2.ly/?id=15982</guid>
+			<microblog:linkFull>http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html</microblog:linkFull>
+			<microblog:readCount>863</microblog:readCount>
+			</item>
+		<item>
+			<description>This bitcoin primer. Read it if you really want to understand the core idea.</description>
+			<link>http://3qd.r2.ly/</link>
+			<pubDate>Wed, 03 Apr 2013 21:21:23 GMT</pubDate>
+			<guid>http://3qd.r2.ly/?id=15981</guid>
+			<microblog:linkFull>http://coinlab.com/pdfs/a-bitcoin-primer.pdf</microblog:linkFull>
+			<microblog:readCount>1366</microblog:readCount>
+			</item>
+		</channel>
+	</rss>
