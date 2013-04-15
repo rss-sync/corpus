@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>5by5 Master Audio Feed</title>
+    <link>http://5by5.tv/</link>
+    <pubDate>Mon, 15 Apr 2013 02:15:00 GMT</pubDate>
+    <description>5by5 - All Audio Broadcasts</description>
+    <language>en-us</language>
+    <itunes:new-feed-url>http://feeds.5by5.tv/master</itunes:new-feed-url>
+    <itunes:subtitle>5by5 - All Audio Broadcasts</itunes:subtitle>
+    <itunes:author>5by5 and Dan Benjamin</itunes:author>
+    <itunes:summary>5by5 is an internet broadcast studio making podcasts for people like you.</itunes:summary>
+    <itunes:image href="http://5by5.tv/assets/5by5-itunes.jpg"/>
+    <itunes:keywords>5by5, 5x5, 5 by 5, five by five</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>5by5 Studios and Dan Benjamin</itunes:name>
+      <itunes:email>itunes@5by5.tv</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <item>
+      <title>Mac Power Users 133: Alfred 2</title>
+      <link>http://5by5.tv/mpu/133</link>
+      <guid>http://5by5.tv/mpu/133</guid>
+      <pubDate>Mon, 15 Apr 2013 02:15:00 GMT</pubDate>
+      <author>David Sparks &amp; Katie Floyd</author>
+      <description>David and Katie take a deep dive into Alfred 2.0, an application launcher and productivity application for Mac.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/mpu/2013/mpu-133.mp3" length="44287148" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;David and Katie take a deep dive into Alfred 2.0, an application launcher and productivity application for Mac.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.alfredapp.com" class="link" target="_blank"&gt;Alfred&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.alfredapp.com/powerpack/" class="link" target="_blank"&gt;Alfred PowerPack&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.screencastsonline.com/mac/show/0393/" class="link" target="_blank"&gt;ScreenCastsOnline: Alfred v2 Masterclass - Part 1&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.screencastsonline.com/mac/show/0394/" class="link" target="_blank"&gt;ScreenCastsOnline: Alfred v2 Masterclass - Part 2&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.screencastsonline.com/mac/show/0395/" class="link" target="_blank"&gt;ScreenCastsOnline: Alfred v2 Masterclass - Part 3&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://technicallysimple.com/screencasts/alfred-2-hotkeys/" class="link" target="_blank"&gt;TechnicallySimple: Alfred 2 Hotkeys Screencast&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://macpowerusers.com/2009/07/mpu-007-launchbar-blackbelt/" class="link" target="_blank"&gt;MPU 007: LaunchBar Blackbelt&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://qsapp.com" class="link" target="_blank"&gt;QuickSilver&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.43folders.com/2007/03/05/tms-comma-trick" class="link" target="_blank"&gt;The Merlin Show: Screencast on Quicksilver&amp;#x27;s &amp;quot;Comma Trick&amp;quot;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.alfredworkflow.com/#Clean%20Up%20Icons" class="link" target="_blank"&gt;Alfred 2 Workflow List&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.alfredforum.com/topic/655-wolframalpha-workflow/" class="link" target="_blank"&gt;Wolfram|Alpha workflow&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.alfredforum.com/topic/713-recent-docs-folders-apps-favorites-interaction-with-open-and-save-dialogs-now-with-auto-path-30/" class="link" target="_blank"&gt;Recent Docs, Folders, Apps + Favorites&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://markable.in/" class="link" target="_blank"&gt;Markable&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.filetransporter.com/how-to/" class="link" target="_blank"&gt;Transporter Videos&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/connected-data/id613859212?mt=8" class="link" target="_blank"&gt;Connected Data App&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.rogueamoeba.com/airfoil/" class="link" target="_blank"&gt;Airfoil&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.studiostudio.nl/en/information/?lang=project-dyslexie" class="link" target="_blank"&gt;Dyslexis Typeface&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Please Support our Sponsors:&lt;/p&gt;
+
+&lt;p&gt;Fujitsu ScanSnap
+&lt;a href="http://www.ez.com/ssmpu"&gt; ScanSnap: Your productive, mobile, efficient, paperless life starts here!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Transporter
+&lt;a href="http://filetransporter.com/mpu"&gt; Transporter: A new way to share, access and protect files.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hover
+&lt;a href="http://www.hover.com/macpowerusers"&gt;Domain name and email management made simple.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BeeDocs
+&lt;a href="http://www.beedocs.com"&gt;The most simple way to make beautiful multimedia timelines.&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>David Sparks &amp; Katie Floyd</itunes:author>
+      <itunes:duration>1:31:28</itunes:duration>
+      <itunes:subtitle>David and Katie take a deep dive into Alfred 2.0, an application launcher and productivity application for Mac.</itunes:subtitle>
+      <itunes:summary>David and Katie take a deep dive into Alfred 2.0, an application launcher and productivity application for Mac.
+</itunes:summary>
+      <itunes:keywords>mac, apple, power user, productivity, workflows</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/25/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fmpu%2F133&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Incomparable 135: Total Party Kill</title>
+      <link>http://5by5.tv/incomparable/135</link>
+      <guid>http://5by5.tv/incomparable/135</guid>
+      <pubDate>Sun, 14 Apr 2013 05:00:00 GMT</pubDate>
+      <author>Jason Snell</author>
+      <description>Get out your 20-sided dice and join us in a game of Dungeons and Dragons. Scott McNulty is our DM. Jason, Ren, Dan, Steve, and Tony are our party. Things don't go well.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/incomparable/2013/incomparable-135.mp3" length="46618930" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Get out your 20-sided dice and join us in a game of Dungeons and Dragons. Scott McNulty is our DM. Jason, Ren, Dan, Steve, and Tony are our party. Things don't go well.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?v=J3aloiVheL4" class="link" target="_blank"&gt;The Incomparable Plays D&amp;amp;D (Video)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The undedited Google Hangout version of our episode.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://cl.ly/image/3u0n2e3n370L" class="link" target="_blank"&gt;A map of our dungeon&lt;/a&gt;&lt;/h4&gt;
+</content:encoded>
+      <itunes:author>Jason Snell</itunes:author>
+      <itunes:duration>1:36:18</itunes:duration>
+      <itunes:subtitle>We play "Dungeons &amp; Dragons."</itunes:subtitle>
+      <itunes:summary>Get out your 20-sided dice and join us in a game of Dungeons and Dragons. Scott McNulty is our DM. Jason, Ren, Dan, Steve, and Tony are our party. Things don't go well.
+</itunes:summary>
+      <itunes:keywords>books, movies, tv, comics, sci-fi, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/30/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fincomparable%2F135&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 43: Friday, April 12, 2013</title>
+      <link>http://5by5.tv/news/43</link>
+      <guid>http://5by5.tv/news/43</guid>
+      <pubDate>Fri, 12 Apr 2013 19:30:00 GMT</pubDate>
+      <author>Myke Hurley</author>
+      <description>The news for Friday, April 12, 2013
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-043.mp3" length="4389306" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Friday, April 12, 2013&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/11/4213452/hugo-teso-full-airplane-flight-control-using-android-app" class="link" target="_blank"&gt;Aircraft security exploit gives researcher full access to navigation controls | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A hacker could gain complete control over a plane's navigation using an Android smartphone, according to a new report from security researcher Hugo Teso. Forbes reports that Teso demonstrated how using a custom application on his Samsung Galaxy, he was able to exploit certain systems in a plane's electronics. This gave him full control over navigation, as long as the plane remained in autopilot, and limited control over lesser functions such as cockpit lights. If the aircraft's pilots did not eventually engage manual controls, a hacker could accomplish any number of malicious actions, such as crashing one aircraft into another.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://dealbook.nytimes.com/2013/04/11/as-big-investors-emerge-bitcoin-gets-ready-for-its-close-up/" class="link" target="_blank"&gt;As Big Investors Emerge, Bitcoin Gets Ready for Its Close-Up - NYTimes.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Cameron and Tyler Winklevoss have been many things in a short time: Olympic rowers. Nemeses of Mark Zuckerberg. Characters on “The Simpsons.” Now they can add a new label: bitcoin moguls.The 31-year-old identical twins have amassed since last summer what appears to be one of the single largest portfolios of the online currency that has caused such a stir in financial and technology circles. An array of speculators have now bid up the price of the bitcoin to the point where the outstanding supply of the digital money was worth $1.3 billion at last count. The Winklevii — as they are popularly known — say they own nearly 1 percent of that, or some $11 million.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.businessweek.com/articles/2013-04-11/foursquare-gets-41-million-investment-time-to-grow" class="link" target="_blank"&gt;Foursquare Gets $41 Million Investment, Time to Grow - Businessweek&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;When Dennis Crowley debuted Foursquare, his location-based social media app, at South by Southwest in 2009, he got rave reviews. The tech blog Mashable called Foursquare the “breakout mobile app” of the event. VentureBeat called it “the next Twitter.” At this year’s SXSW, Crowley, 36, had to remind people his company still exists. In early April the company got $41 million from private equity fund Silver Lake Partners and venture capital firms Andreessen Horowitz, Union Square Ventures, O’Reilly AlphaTech Ventures, and Spark Capital. The bulk of the money is a multiyear loan from Silver Lake&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/11/googles-afterlife/" class="link" target="_blank"&gt;Google’s New Inactive Account Manager Gives You Control Over Your Digital Afterlife | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;What will happen to your Gmail, YouTube, Google Drive and Google  accounts after you die? That’s probably not something you really want to think about, but as more and more of our data now lives online, that’s sadly a question that comes up with some regularity. Today, Google is launching its Inactive Account Manager on the Google Account settings page, which sets out to set up a system that allows you to tell Google “what you want done with your digital assets when you die or can no longer use your account.”&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://allthingsd.com/20130411/yep-linkedin-acquires-newsreader-startup-pulse-for-90-million/" class="link" target="_blank"&gt;Yep, LinkedIn Acquires Newsreader Startup Pulse for $90 Million - Mike Isaac - Social - AllThingsD&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;LinkedIn announced on Thursday it has acquired mobile news aggregation startup Pulse, as Kara Swisher reported last month that it would, signaling another step by the massive professional network toward becoming an online content powerhouse.It’s a big buy for LinkedIn, costing a cool $90 million, according to the company.The app, which collects news articles from a range of topics chosen by users and presents them in a clean, stylish format, rose to the top of Apple’s App Store ranks just a few years ago, quickly becoming a favorite among the many newsreaders currently available. Pulse currently claims more than 30 million users globally who read more than ten million stories daily using the app.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://online.wsj.com/article_email/SB10001424127887323741004578415661035812902-lMyQjAxMTAzMDEwMTExNDEyWj.html" class="link" target="_blank"&gt;Microsoft Plans 7-Inch Tablet - WSJ.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The software giant is developing a new lineup of its Surface tablets, including a 7-inch version expected to go into mass production later this year, said people familiar with the company's plans. Chasing the likes of the iPad Mini, Microsoft plans to launch a 7-inch version of its Surface tablet this year. The WSJ’s Yun-hee Kim talks about why the company is jumping into this hot corner of the tablet market.Microsoft's tablet ambitions, combined with planned price breaks for its flagship software and updates in coming months to its Windows operating software, paint the picture of a company trying to move more quickly than ever to counter urgent threats to its $75 billion software empire.One person familiar with Microsoft's product plans said the 7-inch tablets weren't part of the company's strategy last year, but Microsoft executives realized they needed a response to the rapidly growing popularity of smaller tablets&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-1035_3-57579190-94/blackberry-denies-abnormally-high-return-rate-for-z10-phone/" class="link" target="_blank"&gt;BlackBerry denies abnormally high return rate for Z10 phone | Mobile - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;BlackBerry shares took a hit today after a few analysts criticized the tepid launch of the Z10 phone in the U.S., with one analyst claiming that the return rate was higher than the sales rate. Another said sales have dropped significantly at carrier stores.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/04/11/us-zuckerberg-immigration-idUSBRE93A0SM20130411" class="link" target="_blank"&gt;Facebook&amp;#x27;s Zuckerberg calls for U.S. immigration reform | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Facebook Inc Chief Executive Mark Zuckerberg said the U.S. needs to fix a "strange" immigration policy that prevents promising but undocumented students from contributing to the country's future and doesn't provide enough visas for foreign workers with advanced skills."We have a strange immigration policy for a nation of immigrants. And it's a policy unfit for today's world," the 28-year-old founder of the world's largest Internet social network said in an opinion column in The Washington Post on Thursday.Comprehensive immigration reform and improvements in the U.S. education system were needed, Zuckerberg said in the article, which formally introduced a new advocacy group of Silicon Valley bigwigs.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.npr.org/blogs/thetwo-way/2013/04/11/176907278/tepid-reception-to-windows-8-blamed-for-drop-in-pc-sales" class="link" target="_blank"&gt;Tepid Reception To Windows 8 Blamed For Drop In PC Sales : The Two-Way : NPR&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sales of new PCs plummeted nearly 14 percent globally in the first three months of the year, and much of the blame is being placed on Microsoft's new Windows 8 operating system.International Data Corp. reported Wednesday that shipments of PCs totaled 76.3 million worldwide in the first quarter of 2013, down 13.9 percent from the same period the previous year."PC shipments were down significantly across all regions compared to a year ago," IDC said, blaming "fading mini notebook shipments and competition from tablets and smartphones ... as well as a weak reception for Windows 8."&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/11/4214728/agreement-between-apple-and-universal-music-on-iradio-is-imminent" class="link" target="_blank"&gt;Apple and Universal Music agreement on streaming iRadio service imminent | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple is expected to sign its first internet radio licensing agreement with a major record label perhaps as soon as next week, multiple sources with knowledge of the talks have told The Verge. Universal Music Group, the largest of the major record companies, has reached the final stages of the negotiations and Warner Music is close behind, the sources said.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://thenextweb.com/twitter/2013/04/12/twitters-music-service-may-launch-as-early-as-this-friday/?fromcat=all" class="link" target="_blank"&gt;Twitter reportedly set to release music app on Friday, April 12 - The Next Web&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;According to Mike Isaac and Peter Kafka of AllThingsD, Twitter intends to launch its music service on Friday. Citing “sources familiar with the matter,” the duo’s report indicates that Twitter’s musical debut isn’t merely soon, but is expected today. We Are Hunted announced that it had joined Twitter, and celebrity Ryan Seacrest tweeted about using the service.&lt;/p&gt;
+
+&lt;p&gt;Twitter has also released a landing page titled '#music' that allows you to authorize a 'Twitter Trending Music App', but does nothing more at this stage.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/12/4216202/o2-launches-refresh-plan-uncouples-phone-and-airtime-costs" class="link" target="_blank"&gt;O2 Refresh plan in UK decouples tariff from smartphone costs | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;UK mobile operator O2 has unveiled a new smartphone plan aimed at helping its customers upgrade to the very latest phones without incurring an expensive penalty. Named O2 Refresh, the carrier's new 24 month plan splits the cost of the smartphone and airtime, allowing customers to upgrade their handset at any time, paying only for the cost of the outstanding handset portion of their contract.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/12/4216838/facebook-updates-messenger-adds-chat-heads" class="link" target="_blank"&gt;Chat Heads come to Facebook Messenger for Android | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Facebook has pushed an update for its Android Messenger app, allowing users to take advantage of the new Chat Heads feature. Like in Facebook Home, the Messenger app displays a round icon with the face of whoever you're talking to, regardless of the app you are using. Now, you'll be able to tap the chat head to reply to both SMS and Facebook messages, giving you a little piece of Facebook Home without having to install the full launcher app.&lt;/p&gt;
+
+&lt;p&gt;Facebook Home launched in the US today for selected Android devices&lt;/p&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://vinshare.it"&gt;Vin&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Myke Hurley</itunes:author>
+      <itunes:duration>8:29</itunes:duration>
+      <itunes:subtitle>The news for Friday, April 12, 2013</itunes:subtitle>
+      <itunes:summary>The news for Friday, April 12, 2013
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F43&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Geek Friday 69: The Kind of Day Where Fiber Makes Me Laugh</title>
+      <link>http://5by5.tv/geekfriday/69</link>
+      <guid>http://5by5.tv/geekfriday/69</guid>
+      <pubDate>Fri, 12 Apr 2013 17:45:00 GMT</pubDate>
+      <author>Faith Korpi &amp; Jason Seifer</author>
+      <description>In the 69th episode of Geek Friday, Faith and Jason discuss iOS gestures, fictional vehicles made real, reading, jazz hands, and more.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/geekfriday/2013/geekfriday-069.mp3" length="37627002" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;In the 69th episode of Geek Friday, Faith and Jason discuss iOS gestures, fictional vehicles made real, reading, jazz hands, and more.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.poemhunter.com/poem/kiss-of-my-love/" class="link" target="_blank"&gt;Kiss of my Love by Udiah (witness to Yah)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://9gag.com/gag/6991451" class="link" target="_blank"&gt;9GAG - Fictional vehicles made real&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://iml.jou.ufl.edu/projects/fall10/chateloin_m/articles/quick-ways-to-improve-your-diction-and-speak-better.html" class="link" target="_blank"&gt;Confident Speaking&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://cgi.ebay.com/ebaymotors/British-Centurion-Main-Battle-Tank-Armor-Tracked-Military-Vehicle-/271186784158?pt=Military_Vehicles&amp;amp;hash=item3f23fdef9e#ht_500wt_1182" class="link" target="_blank"&gt;British Centurion Main Battle Tank. Armor Tracked Military Vehicle in Military Vehicles | eBay Motors&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.cultofmac.com/222441/five-secret-ios-gestures-you-need-to-know-about-feature/" class="link" target="_blank"&gt;Five Secret iOS Gestures You Need To Know About [Feature] | Cult of Mac&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Arthur_Murray" class="link" target="_blank"&gt;Arthur Murray &lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://faitherina.com/blog/2013/4/6/bad-words" class="link" target="_blank"&gt;!#@$% and *&lt;sup&gt;$%&lt;sup&gt;$@&lt;/sup&gt;&lt;/sup&gt; — Trust Me, I&amp;#x27;m Faith&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://theseifersmile.com/" class="link" target="_blank"&gt;The Seifer Smile&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://schedulingapp.com/" class="link" target="_blank"&gt;Make Perfect Work Schedules - Scheduling Employee Scheduling Software&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://gazelle.com"&gt;Gazelle&lt;/a&gt;, and &lt;a href="http://5by5.ting.com"&gt;Ting&lt;/a&gt;.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Faith Korpi &amp; Jason Seifer</itunes:author>
+      <itunes:duration>51:43</itunes:duration>
+      <itunes:subtitle>In the 69th episode of Geek Friday, Faith and Jason discuss iOS gestures, fictional vehicles made real, reading, jazz hands, and more.</itunes:subtitle>
+      <itunes:summary>In the 69th episode of Geek Friday, Faith and Jason discuss iOS gestures, fictional vehicles made real, reading, jazz hands, and more.
+</itunes:summary>
+      <itunes:keywords>technology, tech, geek, tv, movies, comics, music, gear</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/29/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fgeekfriday%2F69&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Web Ahead 51: Rendering Engines, Vendor Prefixes &amp; Chrome Blink</title>
+      <link>http://5by5.tv/webahead/51</link>
+      <guid>http://5by5.tv/webahead/51</guid>
+      <pubDate>Fri, 12 Apr 2013 00:45:00 GMT</pubDate>
+      <author>Jen Simmons</author>
+      <description>Chrome recently announced they will replacing the webkit rendering engine with a new one, named Blink. What's up with that? To find out, Chris Wilson and Paul Irish join Jen Simmons to explain rendering engines and vendor prefixes.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/webahead/2013/webahead-051.mp3" length="37900299" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Chrome recently announced they will replacing the webkit rendering engine with a new one, named Blink. What's up with that? To find out, Chris Wilson and Paul Irish join Jen Simmons to explain rendering engines and vendor prefixes.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html" class="link" target="_blank"&gt;Chromium Blog: Blink: A rendering engine for the Chromium project&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.chromium.org/blink/developer-faq" class="link" target="_blank"&gt;Developer FAQ - The Chromium Projects&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?v=TlJob8K_OwE&amp;amp;feature=player_embedded" class="link" target="_blank"&gt;Blink Questions Answered - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://paulirish.com/2013/webkit-for-developers/" class="link" target="_blank"&gt;WebKit for Developers - Paul Irish&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.chromestatus.com/features" class="link" target="_blank"&gt;Chromium Feature Dashboard&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://code.google.com/p/chromium/issues/list" class="link" target="_blank"&gt;Issues - chromium - An open-source project to help move the web forward. - Google Project Hosting&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Layout_engine_usage_share-2009-01-07.svg/2000px-Layout_engine_usage_share-2009-01-07.svg.png" class="link" target="_blank"&gt;2000px-Layout_engine_usage_share-2009-01-07.svg.png 2,000×1,050 pixels&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/paul_irish" class="link" target="_blank"&gt;Paul Irish (paul_irish) on Twitter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://plus.google.com/113127438179392830442/posts" class="link" target="_blank"&gt;Paul Irish - Google+&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/cwilso" class="link" target="_blank"&gt;Chris Wilson (cwilso) on Twitter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://plus.google.com/+ChrisWilson/posts" class="link" target="_blank"&gt;Chris Wilson - Google+&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.jensimmons.com/" class="link" target="_blank"&gt;Blog | Jen Simmons&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://aneventapart.com"&gt;An Event Apart&lt;/a&gt;, the design conference for people who make websites. Use discount code &lt;code&gt;AEAWBHD&lt;/code&gt; for $50 off per person for two or three day tickets. And by the &lt;a href="http://rwdsummit.com"&gt;Responsive Web Design Summit&lt;/a&gt;, a three-day online conference about performance, strategy and technical details of responsive web design. Use code &lt;code&gt;WEBAHEAD&lt;/code&gt; for 20% off.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Jen Simmons</itunes:author>
+      <itunes:duration>1:18:19</itunes:duration>
+      <itunes:subtitle>Chrome recently announced they will replacing the webkit rendering engine with a new one, named Blink. What's up with that? To find out, Chris Wilson and Paul Irish join Jen Simmons to explain rendering engines and vendor prefixes.</itunes:subtitle>
+      <itunes:summary>Chrome recently announced they will replacing the webkit rendering engine with a new one, named Blink. What's up with that? To find out, Chris Wilson and Paul Irish join Jen Simmons to explain rendering engines and vendor prefixes.
+</itunes:summary>
+      <itunes:keywords>web, chrome, web standards</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/26/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fwebahead%2F51&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Big Web Show 88: Greg Storey</title>
+      <link>http://5by5.tv/bigwebshow/88</link>
+      <guid>http://5by5.tv/bigwebshow/88</guid>
+      <pubDate>Thu, 11 Apr 2013 20:30:00 GMT</pubDate>
+      <author>Jeffrey Zeldman</author>
+      <description>Greg Storey (@Brilliantcrank) of Happy Cog and Airbag Industries is Jeffrey's guest in Episode No. 88 of The Big Web Show.
+
+The two designers discuss the Austin tech and design scene; on-premises versus remote worker models; Greg's upcoming book (with Carl Smith) for people transitioning to web design; new methods of publishing on multiple platforms; modern web typography; and the inspiration behind the Digital PM Summit.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/bigwebshow/2013/bigwebshow-088.mp3" length="26415284" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Greg Storey (@Brilliantcrank) of Happy Cog and Airbag Industries is Jeffrey's guest in Episode No. 88 of The Big Web Show.&lt;/p&gt;
+
+&lt;p&gt;The two designers discuss the Austin tech and design scene; on-premises versus remote worker models; Greg's upcoming book (with Carl Smith) for people transitioning to web design; new methods of publishing on multiple platforms; modern web typography; and the inspiration behind the Digital PM Summit.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="https://twitter.com/Brilliantcrank" class="link" target="_blank"&gt;https://twitter.com/Brilliantcrank&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.airbagindustries.com" class="link" target="_blank"&gt;http://www.airbagindustries.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.gregstorey.com" class="link" target="_blank"&gt;http://www.gregstorey.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://happycog.com" class="link" target="_blank"&gt;http://happycog.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://dpm2013.com" class="link" target="_blank"&gt;http://dpm2013.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://bureauofdigitalaffairs.com" class="link" target="_blank"&gt;http://bureauofdigitalaffairs.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://alistapart.com/article/readingdesign" class="link" target="_blank"&gt;http://alistapart.com/article/readingdesign&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.magplus.com" class="link" target="_blank"&gt;http://www.magplus.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://xoxco.com/packagr/" class="link" target="_blank"&gt;http://xoxco.com/packagr/&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://takingyourtalenttotheweb.com" class="link" target="_blank"&gt;http://takingyourtalenttotheweb.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.fivesimplesteps.com" class="link" target="_blank"&gt;http://www.fivesimplesteps.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://dribbble.com/Brilliantcrank" class="link" target="_blank"&gt;http://dribbble.com/Brilliantcrank&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://instagram.com/brilliantcrank" class="link" target="_blank"&gt;http://instagram.com/brilliantcrank&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by An Event Apart (&lt;a href="http://aneventapart.com" target="_blank"&gt;http://aneventapart.com&lt;/a&gt;).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Jeffrey Zeldman</itunes:author>
+      <itunes:duration>54:25</itunes:duration>
+      <itunes:subtitle>Greg Storey (@Brilliantcrank) of Happy Cog and Airbag Industries is Jeffrey's guest in Episode No. 88 of The Big Web Show.</itunes:subtitle>
+      <itunes:summary>Greg Storey (@Brilliantcrank) of Happy Cog and Airbag Industries is Jeffrey's guest in Episode No. 88 of The Big Web Show.
+
+The two designers discuss the Austin tech and design scene; on-premises versus remote worker models; Greg's upcoming book (with Carl Smith) for people transitioning to web design; new methods of publishing on multiple platforms; modern web typography; and the inspiration behind the Digital PM Summit.
+</itunes:summary>
+      <itunes:keywords>web design, mobile apps, content design, ux, web standards, jeffrey zeldman</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/7/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fbigwebshow%2F88&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 42: Thursday, April 11, 2013</title>
+      <link>http://5by5.tv/news/42</link>
+      <guid>http://5by5.tv/news/42</guid>
+      <pubDate>Thu, 11 Apr 2013 20:30:00 GMT</pubDate>
+      <author>Myke Hurley</author>
+      <description>The news for Thursday, April 11, 2013
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-042.mp3" length="4345631" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Thursday, April 11, 2013&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/10/4208970/next-xbox-tv-entertainment-plans" class="link" target="_blank"&gt;Exclusive: Microsoft&amp;#x27;s next Xbox will take over your TV, interact with your cable box | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Microsoft is investing in TV in a big way with its next Xbox console as part of a fight for the living room. Multiple sources familiar with the company's Xbox plans have revealed to The Verge that Microsoft will introduce a feature that lets its next-generation console take over a TV and set-top box in a similar way to Google TV. The Verge understands that the next Xbox will require an online connection to use the entertainment services, allowing them to be always-on for streaming and access to TV signals.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/11/4212054/next-xbox-launch-titles-ryse-forza" class="link" target="_blank"&gt;Next-generation Xbox launch titles include &amp;#x27;Ryse&amp;#x27; and a new &amp;#x27;Forza&amp;#x27; | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Microsoft is working on a number of launch titles for its new Xbox console. One of the first games to launch on the next Xbox will be Ryse, according to multiple sources familiar with Microsoft's Xbox plans. Microsoft originally unveiled Ryse at E3 2011, promising an exclusive Xbox 360 release with Kinect functionality. A release has never materialized for Xbox 360 and the company has remained fairly silent about the title's progress, noting that it was still in development in mid-2012 and again earlier this year. The Verge understands that Crytek, along with Microsoft Studios, has been rewriting the game to take advantage of its next-generation console, due later this year.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://allthingsd.com/20130410/apples-ouster-of-appgratis-is-just-the-start-of-an-app-store-crackdown/" class="link" target="_blank"&gt;Why Apple Pulled AppGratis From the App Store - John Paczkowski - Mobile - AllThingsD&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sources familiar with Apple’s thinking tell AllThingsD that AppGratis’ ouster was a first step in a broader enforcement action generally targeted at app-discovery apps that run afoul of clauses 2.25 and 5.6 which forbid apps that promote apps other than a developer’s own, and prohibit developers from using push notifications to deliver marketing messages.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/10/well-that-was-fast-twitter-shut-down-ribbons-newly-launched-in-stream-payments-feature-built-using-twitter-card-technology/" class="link" target="_blank"&gt;Well, That Was Fast: Twitter Already Shut Down Ribbon’s Newly Launched In-Stream Payments Feature | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;This morning, payments startup Ribbon announced support for “in-stream” payments on Twitter.com, allowing users to click a button directly within a tweet in order to make a purchase without having to leave the Twitter.com website. However, it appears that Twitter has already shut this feature down – almost immediately after its public debut.Ribbon Co-founder Hany Rashwan has confirmed that Twitter has indeed shut them down, and the company is now in the process of trying to contact Twitter to discuss. It’s possible that the way Ribbon implemented the in-stream payments using Twitter Cards (via the Player Card model) was a violation of Twitter’s Terms of Service.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://online.wsj.com/article_email/SB10001424127887324695104578414973888155516-lMyQjAxMTAzMDEwMDExNDAyWj.html" class="link" target="_blank"&gt;IDC: Global PC Shipments Drop 13.9% in First Quarter - WSJ.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Worldwide shipments of personal computers fell 13.9% in the first quarter, according to market researcher IDC, in the biggest decline since the firm began issuing quarterly numbers in 1994.&lt;/p&gt;
+
+&lt;p&gt;The grim estimate of 76.3 million units shipped is the latest sign that consumers are shifting their dollars to smartphones and tablets rather than PCs, while responses such as convertible laptops and Microsoft Corp.'s touch-oriented Windows 8 operating system haven't stemmed the cannibalization.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/10/dropbox-for-teams-gets-dropped-in-re-branding-to-reflect-business-focus/" class="link" target="_blank"&gt;Dropbox For Teams Gets Dropped In Re-Branding To Reflect “Business” Focus | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Dropbox is renaming Dropbox Teams to better reflect its change in business focus. The move comes in tandem with Dropbox’s new support for single sign on (SSO) and partnerships with Okta and other identity providers.Dropbox for Business will replace the old name, reflecting the company’s change in focus to be more on larger business customers than teams within organizations.In particular, this means support for Active Directory (AD), the traditional mechanism companies use to authenticate and manage an employee’s corporate identity.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://allthingsd.com/20130410/in-midst-of-mobile-pivot-mozilla-ceo-kovacs-to-step-down-later-this-year/" class="link" target="_blank"&gt;In Midst of Mobile Pivot, Mozilla CEO Kovacs to Step Down - Kara Swisher - Mobile - AllThingsD&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Gary Kovacs, who has been CEO of Mozilla for just over two years, will be stepping down later this year, the company announced Wednesday to employees. The Mountain View, Calif.-based open source software nonprofit foundation (which is also a for-profit company) said it will be searching for a new leader immediately to replace Kovacs, who will remain on the board of Mozilla.“After three years of a lot of change to move the organization faster forward, I wanted to move back to something more commercial,” said Kovacs in an interview yesterday, in which he outlined the many changes made at Mozilla since he arrived, including adding staff, opening global offices and, most of all, doubling down in mobile. “It is really a different Mozilla.”&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.businessinsider.com/bitcoin-plunges-2013-4?op=1" class="link" target="_blank"&gt;Bitcoin Plunges - Business Insider&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;It's shaping up to be a pretty ugly day for Bitcoin.After soaring past $250 earlier, it's tumbled all the way down to current levels around $150.Bitcoin is now 44 percent off its intraday high of $266.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/10/4208166/yokohama-mistakenly-tweets-north-korean-missile-strike" class="link" target="_blank"&gt;Japanese city accidentally tweets North Korean missile launch | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Residents in the Japanese city of Yokohama came in for a shock earlier today after city officials mistakenly posted a tweet stating that North Korea had launched a missile. According to ABC News, the city posted the tweet around noon local time, exclaiming "North Korea has launched a missile," sharing it with @yokohama_saigai's 40,000 followers for around 20 minutes.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.engadget.com/2013/04/10/google-forms-the-glass-collective-to-invest-in-eye-technology/" class="link" target="_blank"&gt;Google forms the Glass Collective to invest in eye technology entrepreneurs&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google believes that it's naive to build a wearable technology like Google Glass and expect successful businesses to simply materialize from thin air; those firms will need a financial nudge, too. Accordingly, Google is forming the Glass Collective to invest in projects centering on its eyewear. The partnership will see Google Ventures, Andreessen Horowitz and Kleiner Perkins Caufield &amp;amp; Byers unite on seed funding for those US-based startups which show promise in areas like communication and navigation. The group hasn't named any targets for its cash, but it's obviously very early days for both Glass and the Collective -- Google needs more developers in the field before it can shower companies with support.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.washingtonpost.com/blogs/federal-eye/wp/2013/04/10/postal-service-withdraws-plan-to-end-saturday-mail-delivery/?wpisrc=al_comboNP_p" class="link" target="_blank"&gt;Postal Service withdraws plan to end Saturday mail delivery&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The U.S. Postal Service announced Wednesday that it would cancel plans to end Saturday mail delivery this summer, saying the new stopgap budget that Congress recently passed would prohibit the move.The postal service’s board of governors made the decision Tuesday, according to a statement from the agency.“The board believes that Congress has left it with no choice but to delay this implementation at this time,” the board said in the statement. “The board also wants to ensure that customers of the Postal Service are not unduly burdened by ongoing uncertainties and are able to adjust their business plans accordingly.”&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/04/10/alexis-ohanian-cispa/?utm_medium=feed&amp;amp;utm_source=feedburner&amp;amp;utm_campaign=Feed%3A+Mashable+%28Mashable%29" class="link" target="_blank"&gt;Reddit Co-Founder Wants Google, Facebook and Twitter to Fight CISPA&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;As lawmakers prepare to discuss the controversial Cyber Intelligence Sharing and Protection Act, or CISPA, Internet freedom activists are ramping up their campaign against it. On Wednesday, the advocacy group Fight for the Future published a video of Reddit co-founder Alexis Ohanian calling for online giants to speak up and fight against CISPA.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/04/10/us-usa-fiscal-cybersecurity-idUSBRE93913S20130410" class="link" target="_blank"&gt;Obama budget makes cybersecurity a growing U.S. priority | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;President Barack Obama proposed on Wednesday increased spending to protect U.S. computer networks from Internet-based attacks in a sign that the government aims to put more resources into the emerging global cyber arms race.Obama's budget proposal for the 2014 fiscal year, which begins October 1, calls for more military "hackers" to head off escalating cyber threats from China, Iran, Russia and other countries. It would also bolster defenses for government and private-sector computer networks.Intelligence officials said last month that cyber attacks and espionage have supplanted terrorism as the top security threat facing the United States, and military officials sounded the alarm as well.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.androidcentral.com/samsung-announces-58-inch-and-63-inch-galaxy-mega-smartphone" class="link" target="_blank"&gt;Samsung announces 5.8-inch and 6.3-inch Galaxy Mega smartphones | Android Central&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;After a couple of weeks of rumors, Samsung has today officially confirmed the Galaxy Mega series -- a line of big-screen smartphones aimed to straddle the space between the traditional phone and tablet markets. The official names, as rumored, are Galaxy Mega 5.8 and Galaxy Mega 6.3.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/11/4213956/whats-cooler-than-a-million-dollars-winklevoss-twins-own-1-percent-of" class="link" target="_blank"&gt;What&amp;#x27;s cooler than a million dollars? Winklevoss twins claim to own 1 percent of all Bitcoin | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;They may not have invented Facebook, but twin tech entrepreneurs Tyler and Cameron Winklevoss — better known to the world as the Winklevoss twins, or Winkelvii — are deep into the next big online trend. The brothers claim to have amassed one of the largest portfolios of Bitcoin in the world, worth around $1.3 million, or about 1 percent of the entire currency's dollar value equivalent, as the New York Times Dealbook reports.That staggering amount comes in a little less than a year, as the brothers are only reported to have begun "dabbling" in Bitcoin starting last summer. “We have elected to put our money and faith in a mathematical framework that is free of politics and human error,” Tyler Winklevoss told Dealbook.&lt;/p&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://vinshare.it"&gt;Vin&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Myke Hurley</itunes:author>
+      <itunes:duration>8:23</itunes:duration>
+      <itunes:subtitle>The news for Thursday, April 11, 2013</itunes:subtitle>
+      <itunes:summary>The news for Thursday, April 11, 2013
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F42&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>5by5 Specials 15: Dan Benjamin on Michael Wolf's NextMarket</title>
+      <link>http://5by5.tv/specials/15</link>
+      <guid>http://5by5.tv/specials/15</guid>
+      <pubDate>Thu, 11 Apr 2013 16:15:00 GMT</pubDate>
+      <author>Dan Benjamin</author>
+      <description>Dan Benjamin is interviewed by Michael Wolf for the NextMarket Podcast. They talk about a the state of the podcast market, 5by5's early days, how Dan manages being so involved with all aspects of 5by5, how he determines what type of role he should take as podcast host for each show, and we wrap up by Dan sharing some insights into the advertising and monetization of podcasts.
+
+https://soundcloud.com/nextmarket/5by5s-dan-benjamin-on-being
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/specials/2013/specials-015.mp3" length="60135973" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Dan Benjamin is interviewed by Michael Wolf for the NextMarket Podcast. They talk about a the state of the podcast market, 5by5's early days, how Dan manages being so involved with all aspects of 5by5, how he determines what type of role he should take as podcast host for each show, and we wrap up by Dan sharing some insights into the advertising and monetization of podcasts.&lt;/p&gt;
+
+&lt;p&gt;https://soundcloud.com/nextmarket/5by5s-dan-benjamin-on-being&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="https://soundcloud.com/nextmarket/5by5s-dan-benjamin-on-being" class="link" target="_blank"&gt;Dan Benjamin on Michael Wolf&amp;#x27;s NextMarket&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://soundcloud.com/nextmarket/a-podcast-about-the-podcast" class="link" target="_blank"&gt;A Podumentary&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Michael Wolf talks to Adam Carolla, Ira Glass, Stephen Dubner, Leo Laporte, Dan Benjamin and others about the state of the podcast market in this 'podumentary: a podcast about the podcast'.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Dan Benjamin</itunes:author>
+      <itunes:duration>49:47</itunes:duration>
+      <itunes:subtitle>Dan Benjamin is interviewed by Michael Wolf for the NextMarket Podcast.</itunes:subtitle>
+      <itunes:summary>Dan Benjamin is interviewed by Michael Wolf for the NextMarket Podcast. They talk about a the state of the podcast market, 5by5's early days, how Dan manages being so involved with all aspects of 5by5, how he determines what type of role he should take as podcast host for each show, and we wrap up by Dan sharing some insights into the advertising and monetization of podcasts.
+
+https://soundcloud.com/nextmarket/5by5s-dan-benjamin-on-being
+</itunes:summary>
+      <itunes:keywords>special, apple, iphone, ios, mac os x, geek, web</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/31/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fspecials%2F15&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>5by5 Specials 14: Dan Benjamin Interviewed for Show Me Your Mic #8</title>
+      <link>http://5by5.tv/specials/14</link>
+      <guid>http://5by5.tv/specials/14</guid>
+      <pubDate>Thu, 11 Apr 2013 16:00:00 GMT</pubDate>
+      <author>Dan Benjamin</author>
+      <description>Dan Benjamin is interviewed by Chris Enns for episode 8 of Show Me Your Mic.
+
+Dan talks with Chris about the gamut of podcasting from his start on the Hivelogic podcast to where he is now, networks vs individual podcasts, getting unstuck when podcasting, taking care of sponsors and plenty of fun discussion on life as a podcaster.
+
+Original episode on SSKTN.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/specials/2013/specials-014.mp3" length="42543221" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Dan Benjamin is interviewed by Chris Enns for episode 8 of Show Me Your Mic.&lt;/p&gt;
+
+&lt;p&gt;Dan talks with Chris about the gamut of podcasting from his start on the Hivelogic podcast to where he is now, networks vs individual podcasts, getting unstuck when podcasting, taking care of sponsors and plenty of fun discussion on life as a podcaster.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.ssktn.com/smym/dan-benjamin/"&gt;Original episode on SSKTN.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.ssktn.com/smym/dan-benjamin/" class="link" target="_blank"&gt;Dan Benjamin on Episode 8 of Show Me Your Mic&lt;/a&gt;&lt;/h4&gt;
+</content:encoded>
+      <itunes:author>Dan Benjamin</itunes:author>
+      <itunes:duration>57:52</itunes:duration>
+      <itunes:subtitle>Dan Benjamin is interviewed by Chris Enns for episode 8 of Show Me Your Mic.</itunes:subtitle>
+      <itunes:summary>Dan Benjamin is interviewed by Chris Enns for episode 8 of Show Me Your Mic.
+
+Dan talks with Chris about the gamut of podcasting from his start on the Hivelogic podcast to where he is now, networks vs individual podcasts, getting unstuck when podcasting, taking care of sponsors and plenty of fun discussion on life as a podcaster.
+
+Original episode on SSKTN.
+</itunes:summary>
+      <itunes:keywords>special, apple, iphone, ios, mac os x, geek, web</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/31/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fspecials%2F14&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Old Tech News 6: The Android Switch</title>
+      <link>http://5by5.tv/otn/6</link>
+      <guid>http://5by5.tv/otn/6</guid>
+      <pubDate>Thu, 11 Apr 2013 16:00:00 GMT</pubDate>
+      <author>Andy Ihnatko</author>
+      <description>Yup, after six years with my iPhone, I recently switched to Android. This is the first of a two-part show that explains why, starting with the key features of Android that make this Samsung Galaxy S III a better choice for me.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/otn/2013/otn-006.mp3" length="20077768" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Yup, after six years with my iPhone, I recently switched to Android. This is the first of a two-part show that explains why, starting with the key features of Android that make this Samsung Galaxy S III a better choice for me.&lt;/p&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://squarespace.com/oldtechnews"&gt;Squarespace&lt;/a&gt; (use code OLDTECH for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Andy Ihnatko</itunes:author>
+      <itunes:duration>39:23</itunes:duration>
+      <itunes:subtitle>Yup, after six years with my iPhone, I recently switched to Android. This is the first of a two-part show that explains why, starting with the key features of Android that make this Samsung Galaxy S III a better choice for me.</itunes:subtitle>
+      <itunes:summary>Yup, after six years with my iPhone, I recently switched to Android. This is the first of a two-part show that explains why, starting with the key features of Android that make this Samsung Galaxy S III a better choice for me.
+</itunes:summary>
+      <itunes:keywords>news, tech, andy ihnatko, chicago sun times</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/43/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fotn%2F6&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 41: Wednesday, April 10, 2013</title>
+      <link>http://5by5.tv/news/41</link>
+      <guid>http://5by5.tv/news/41</guid>
+      <pubDate>Wed, 10 Apr 2013 17:15:00 GMT</pubDate>
+      <author>Myke Hurley</author>
+      <description>The news for Wednesday, April 10, 2013
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-041.mp3" length="4290879" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Wednesday, April 10, 2013&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/9/4196022/windows-phone-8-1080p-resolution-support-gdr3-update" class="link" target="_blank"&gt;Windows Phone 8 will support 1080p displays by the end of the year | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Microsoft is planning to update Windows Phone 8 to support 1080p resolutions. Sources familiar with Microsoft's Windows Phone plans have revealed to The Verge that the company will issue an update later this year that brings support for the 1080p resolution and new 5-inch and higher devices. Windows Phone 8 currently supports WVGA, WXGA, and 720p resolutions.The update, known as a General Distribution Release (GDR3) for Windows Phone, will set the stage for new devices set to debut for the holidays.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://thenextweb.com/apple/2013/04/09/apple-says-that-some-users-may-be-experiencing-imessage-service-issues/" class="link" target="_blank"&gt;Apple experiences iMessage and Facetime service issues - The Next Web&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Yesterday, Apple was facing downtime issues with their messaging systems. According to Apple’s Support page the total downtime appears to have been just over 5 hours.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://paidcontent.org/2013/04/09/aols-new-publisher-tool-to-compete-with-google-armstrong-says-its-back-in-ad-tech-game/" class="link" target="_blank"&gt;AOL’s new publisher tool to compete with Google, Armstrong says it’s back in “ad tech game” — paidContent&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;AOL announced a new product for publishers called Marketplace, which integrates various elements of its ad tech platforms. The move comes as AOL redoubles its efforts to bring in revenue unrelated to its legacy copper wire business.“This gets us back into the ad tech game in a serious manner,” said CEO Tim Armstrong, speaking at the AdTech conference in San Francisco on Tuesday.The new Marketplace product, which will compete with offerings from Google and Adobe, is intended to provide publishers with an alternative to using multiple companies to carry out the process of selling and serving digital advertisements.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://thenextweb.com/google/2013/04/10/google-play-music-arrives-in-7-more-countries-including-new-zealand-australia-austria-and-ireland/" class="link" target="_blank"&gt;Google Play Music arrives in 7 more countries, including New Zealand, Australia, Austria, and Ireland - The Next Web&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google is expanding its service coverage of its music service. We initially heard reports of the nearly two-year old service being available in Australia and New Zealand. Readers have shared with us that prior to today, if they visited music.google.com, the site would be unavailable. However, following the redesign of the Google Play Store, it appears the service has been enabled. A post by Google has confirmed the launch.A Google  post has indicated that the service is also now available in five more countries, including Austria, Belgium, Luxembourg, Ireland, and Portugal. Users can store up to 20,000 songs on Google Play for free and have it streamed instantly to their Android device. With many more countries now supported, Google is including music from established local artists. However, for those not currently signed to a record label, Google is releasing a Google Play artist hub for their respective country enabling them to sell music directly to their fans.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/09/google-gives-3m-global-impact-award-grant-to-three-organizations-to-support-global-human-trafficking-hotline/" class="link" target="_blank"&gt;Google Gives $3M Global Impact Award Grant To Three Organizations To Support “Global Human Trafficking Hotline” | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google’s non-profit arm announced its Global Impact Awards program last December and has announced three organizations that would be receiving $3 million in grants. All of these organizations are focused on setting up human trafficking helplines to help identify potential victims and provide them with support, no matter where they are in the world.The three organizations — Polaris Project, Liberty Asia and La Strada International — are working together to form a “Global Human Trafficking Hotline Network.”In Google’s announcement today, the company says that 21 million people are enslaved in one way or another globally and generating $32 billion in profit for those who are managing the illegal activity. The hope for these organizations is that they can collect data from all local helpline services to be able to view patterns and triangulate the hotspots in the world that are most egregious. Dating back to 2011, Google has invested $14.5 million into anti-trafficking efforts.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/09/box-updates-its-outlook-plugin-and-makes-it-available-for-users-with-free-accounts-too/" class="link" target="_blank"&gt;Box Updates Its Outlook Plugin And Makes It Available For Users With Free Accounts, Too | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Desktop-based email clients aren’t exactly a hot topic these days, but millions of users still rely on their trusty Outlook client. To bridge the gap between Outlook on the desktop and the web, the popular online content-sharing and management service Box has long offered an add-on that allows Outlook users to use Box for managing email attachments. Until today, this add-on was only available for paying Business and Enterprise customers, but starting now, even users with free Box accounts can install this plugin.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/9/4206794/apple-and-yahoo-in-talks-to-build-a-deeper-ios-partnership" class="link" target="_blank"&gt;Apple and Yahoo reportedly in talks to build a deeper iOS partnership | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple is in talks with Yahoo to bring more of the search company's data to the iPhone, iPad, and iPod touch, reports The Wall Street Journal. Yahoo has long been one of the data providers for iOS devices — the default stocks and weather apps pull data from Yahoo, and Siri uses the company for things like sports statistics as well. Now, the companies are discussing ways to get more Yahoo data, including expanded sports data and content from Yahoo News onto iOS, presumably through Siri or other built-in apps.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.engadget.com/2013/04/09/boxee-tv-becomes-boxee-cloud-dvr-adds-free-basic-dvr-service/" class="link" target="_blank"&gt;Boxee TV becomes Boxee Cloud DVR, adds free &amp;#x27;Basic&amp;#x27; DVR service&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Following the trend of everything accentuating its connection to the "cloud," Boxee has rebranded its new box as the Boxee Cloud DVR. GigaOm reports the company made the shift to emphasize its DVR features as a differentiator from other $99 set-tops like those offered by Roku and Apple. Other than the name change and a website redesign, one other new tack is a free "Basic" service package. Buyers still get the "All-access" $10 service tier free for a month upfront on a trial basis, which has unlimited storage and playback across different devices.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/10/4207894/google-babel-cross-platform-messaging-platform-rumors" class="link" target="_blank"&gt;Google Babel: an ambitious messaging platform rumored ahead of I/O event | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Over the past couple of weeks, rumors have been swirling that Google is working on a cross-platform messaging service called Babel that will tie together all of its existing communication products, from Google Talk and Hangouts to Voice and Google  Messenger. If the rumors are correct, it will do everything from provide a single, synced conversation list across all your devices, to turn a group discussion into a Hangout video chat with a single touch.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/10/4206532/panic-status-board-app-ipad-widgets-airplay-streaming" class="link" target="_blank"&gt;Panic debuts Status Board app, a widget hub for iPad | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The app developer Panic has released only a small number of apps in the more than a decade that its been around, but its apps are often regarded as well-made and polished. Panic is today introducing Status Board, an app that turns an iPad into a news ticker, a calendar, and a widget hub all at once. The app imports data from the device, automatically filling up the screen with your Twitter feed, unread emails, and the local weather in discrete blocks not unlike what you'd find on Apple's Dashboard.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.imore.com/t-mobile-usa-will-offer-free-iphone-5-iphone-users-switching-another-carrier" class="link" target="_blank"&gt;T-Mobile USA will offer free iPhone 5 to iPhone users switching from another carrier | iMore.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;T-Mobile USA is offering an iPhone 5 for free on activation when you switch from another carrier and trade in your current iPhone 4 or 4S. The offer is available through Father’s Day, June 16, and customers who take advantage of this deal will receive a $120 credit that can be put towards things like monthly payments, outstanding bills, or accessories.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.polygon.com/2013/4/10/4208682/simcity-mac-release-date" class="link" target="_blank"&gt;SimCity launching June 11 on Mac, get both PC and Mac versions with single purchase | Polygon&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;SimCity will be available June 11 on Mac OS X, and users who buy either that version or the existing Windows PC version will receive copies on both platforms, publisher Electronic Arts announced today. Let's just hope they've fixed their system issues by then..&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://thenextweb.com/google/2013/04/10/google-launches-playbook-guides-a-new-resource-for-youtube-creators/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed:+TheNextWeb+(The+Next+Web+All+Stories)" class="link" target="_blank"&gt;Google launches Playbook Guides: Strategies for YouTube creators in verticals like music and sports - The Next Web&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google has just announced the release of Playbook Guides, a new resource for YouTube creators making content in common categories like music, sports, education, media companies and non-profits.Augmenting its Creator Playbook, the original resource for YouTube best practices, Google says Playbook Guides offer “tailored tips and strategies specific to the type of content you create.”&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/admin/broadcasts/news" class="link" target="_blank"&gt;Admin | Info for The News&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;The news for Wednesday, April 10, 2013&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Myke Hurley</itunes:author>
+      <itunes:duration>8:17</itunes:duration>
+      <itunes:subtitle>Sponsored by [Vin](http://vinshare.it)</itunes:subtitle>
+      <itunes:summary>The news for Wednesday, April 10, 2013
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F41&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>In Beta 44: Playing Zuck's Advocate</title>
+      <link>http://5by5.tv/inbeta/44</link>
+      <guid>http://5by5.tv/inbeta/44</guid>
+      <pubDate>Wed, 10 Apr 2013 15:15:00 GMT</pubDate>
+      <author>Gina Trapani &amp; Kevin Purdy</author>
+      <description>Kevin and Gina discuss Facebook Home: who it's for, its impact on the Android ecosystem, what makes sense about its intentions but misses in implementation, and what the tech press often gets wrong about open source and Android.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/inbeta/2013/inbeta-044.mp3" length="31335284" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Kevin and Gina discuss Facebook Home: who it's for, its impact on the Android ecosystem, what makes sense about its intentions but misses in implementation, and what the tech press often gets wrong about open source and Android.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="https://www.facebook.com/home" class="link" target="_blank"&gt;Facebook Home&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.androidpolice.com/2013/04/01/apk-teardown-exclusive-the-htc-myst-facebook-phone-the-facebook-app-is-now-a-launcher-looks-like-theyre-planning-a-play-store-release-too/" class="link" target="_blank"&gt;[APK Teardown Exclusive] The HTC Myst Facebook Phone - The Facebook App Is Now A Launcher, Looks Like They&amp;#x27;re Planning A Play Store Release, Too&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/9/4206168/facebook-home-review-android" class="link" target="_blank"&gt;Facebook Home review: are people more important than apps? | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2010/01/28/baby-boomers-social-media/" class="link" target="_blank"&gt;Baby Boomers and Seniors Are Flocking to Facebook [STATS]&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.nytimes.com/2013/04/09/technology/09iht-google09.html" class="link" target="_blank"&gt;Europe Receives Complaint About Google’s Android - NYTimes.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://marketingland.com/htc-first-facebook-fairsearch-android-39507" class="link" target="_blank"&gt;The HTC First: How Facebook&amp;#x27;s New Phone Ruins FairSearch&amp;#x27;s Competition Complaint Over Android&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.androidcentral.com/facebook-addresses-privacy-concerns-over-facebook-home" class="link" target="_blank"&gt;Facebook addresses privacy concerns over Facebook Home | Android Central&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/03/13/google-pulls-ad-blocking-apps-from-play-store-for-violating-developer-distribution-agreement/" class="link" target="_blank"&gt;Google Pulls Ad-Blocking Apps From Play Store For Violating Developer Distribution Agreement | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/08/nearly-60k-low-quality-apps-booted-from-google-play-store-in-february-points-to-increased-spam-fighting/" class="link" target="_blank"&gt;Nearly 60K Low-Quality Apps Booted From Google Play Store In February, Points To Increased Spam-Fighting | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.muleradio.net/mistakes/86/" class="link" target="_blank"&gt;You Have One (1) Unread Eulogy In Your Feed - Let’s Make Mistakes - Mule Radio Syndicate&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://appinventor.mit.edu/" class="link" target="_blank"&gt;MIT App Inventor&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://squarespace.com/5by5"&gt;Squarespace&lt;/a&gt; (use code FOOLS for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Gina Trapani &amp; Kevin Purdy</itunes:author>
+      <itunes:duration>1:04:38</itunes:duration>
+      <itunes:subtitle>Facebook Home: the good, the bad and the ugly.</itunes:subtitle>
+      <itunes:summary>Kevin and Gina discuss Facebook Home: who it's for, its impact on the Android ecosystem, what makes sense about its intentions but misses in implementation, and what the tech press often gets wrong about open source and Android.
+</itunes:summary>
+      <itunes:keywords>web, open source software, oss, tools, mobile, social</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/37/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Finbeta%2F44&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Systematic 39: Christopher Gamblée-Wallendjack on heartbreak and accordions </title>
+      <link>http://5by5.tv/systematic/39</link>
+      <guid>http://5by5.tv/systematic/39</guid>
+      <pubDate>Wed, 10 Apr 2013 14:45:00 GMT</pubDate>
+      <author>Brett Terpstra</author>
+      <description>Christopher Gamblée-Wallendjack guests this week to talk about the benefits of long walks in New York, loving his work and the evolution of home recording. Brett just keeps interrupting.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/systematic/2013/systematic-039.mp3" length="35481177" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Christopher Gamblée-Wallendjack guests this week to talk about the benefits of long walks in New York, loving his work and the evolution of home recording. Brett just keeps interrupting.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="https://twitter.com/The_Vole" class="link" target="_blank"&gt;Christopher (The_Vole) on Twitter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.pleasecomebackfromtown.com/" class="link" target="_blank"&gt;Please Come Back from Town&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.rasputina.com/" class="link" target="_blank"&gt;Rasputina&amp;#x27;s Official Web Site&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://www.youtube.com/watch?v=Gi9tgtWcqek" class="link" target="_blank"&gt;Those Darn Accordions-&amp;quot;Them Hippies Was Right&amp;quot; - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.jazzmutant.com/lemur_overview.php" class="link" target="_blank"&gt;Lemur, multitouch modular controller&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/backflip-madness/id564874986?mt=8&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;Backflip Madness&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/dm1-the-drum-machine/id431573951?partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;DM1 - The Drum Machine for iPad&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/samplr/id560756420?mt=8&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;Samplr for iPad&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/ampkit+/id385758778?partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;AmpKit+ for iPhone, iPod touch, and iPad&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/gb/app/amplitube-slash/id527578221?mt=8&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;AmpliTube Slash for iPhone, iPod touch and iPad&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.ikmultimedia.com/products/irigstomp/" class="link" target="_blank"&gt;IK Multimedia | iRig STOMP&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.mhpbooks.com/series/the-neversink-library/" class="link" target="_blank"&gt;The Neversink Library » Melville House Books&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://itunes.apple.com/us/app/ulysses-iii/id623795237?mt=12&amp;amp;partnerId=30&amp;amp;siteID=vRL5rYo4h5A" class="link" target="_blank"&gt;Ulysses III&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://www.apple.com/displays/" class="link" target="_blank"&gt;Apple - Thunderbolt Display - More pixels and more possibilities.&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://shutterstock.com"&gt;Shutterstock&lt;/a&gt; (use code DANSENTME3 for 30% off), and &lt;a href="http://squarespace.com/5by5"&gt;Squarespace&lt;/a&gt; (use code FOOLS for 10% off).&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Brett Terpstra</itunes:author>
+      <itunes:duration>1:13:13</itunes:duration>
+      <itunes:subtitle>Christopher Gamblée-Wallendjack on benefits of long walks in New York, loving his work and the evolution of home recording.</itunes:subtitle>
+      <itunes:summary>Christopher Gamblée-Wallendjack guests this week to talk about the benefits of long walks in New York, loving his work and the evolution of home recording. Brett just keeps interrupting.
+</itunes:summary>
+      <itunes:keywords>productivity, work, creativity, mac, iOS, music</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/39/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fsystematic%2F39&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>On Taking Pictures 50: Tortured Plateau</title>
+      <link>http://5by5.tv/otp/50</link>
+      <guid>http://5by5.tv/otp/50</guid>
+      <pubDate>Tue, 09 Apr 2013 20:45:00 GMT</pubDate>
+      <author>Bill Wadman &amp; Jeffery Saddoris</author>
+      <description>To tag or not to tag? Folder structure, naming conventions, file formats and overall workflow ideas in this week’s show. Why do filmmakers get all of the cool stuff lately? Plus, photographic icon Alfred Eisenstadt is Photographer of the Week.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/otp/2013/otp-050.mp3" length="46598867" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;To tag or not to tag? Folder structure, naming conventions, file formats and overall workflow ideas in this week’s show. Why do filmmakers get all of the cool stuff lately? Plus, photographic icon Alfred Eisenstadt is Photographer of the Week.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.fashionising.com/pictures/b--elegant-paper-dresses-51450.html#" class="link" target="_blank"&gt;Who knew wearing paper could look so elegant? - Fashionising.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://fadedandblurred.com/ebooks/" class="link" target="_blank"&gt;Faded + Blurred - eBooks&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.ontakingpictures.com/2013/04/monitors-for-photography-a-primer/" class="link" target="_blank"&gt;Monitors for Photography – A Primer : On Taking Pictures&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://vimeo.com/62917185" class="link" target="_blank"&gt;MOVI on Vimeo&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera" class="link" target="_blank"&gt;Blackmagic Design: Blackmagic Pocket Cinema Camera&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://johnbrawley.wordpress.com/2013/04/09/the-pocket-rocket-blackmagic-downsizes-the-bmcc-and-does-a-4k-upsize-of-the-orginal/" class="link" target="_blank"&gt;The pocket rocket…Blackmagic downsizes the BMCC and does a 4K upsize of the orginal ! | johnbrawley&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=VOQjQRJCmgk" class="link" target="_blank"&gt;ColorEdge CG276 Promo Video - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Alfred_Eisenstaedt" class="link" target="_blank"&gt;Alfred Eisenstaedt - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.monroegallery.com/photographers/display/id/3" class="link" target="_blank"&gt;Alred Eisenstaedt Prints | Alfred Eisenstaedt Photographs | Alfred Eisenstaedt Photos&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://24.media.tumblr.com/tumblr_m7993b5GyI1qzq84io1_500.jpg" class="link" target="_blank"&gt;Nurses on Stairs&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.notjustfashion.net/wp-content/uploads/2013/01/Katherine-Hepburn-for-TIME-magaine-by-Alfred-Eisenstaedt-1938.jpg" class="link" target="_blank"&gt;Katherine-Hepburn-for-TIME-magaine-by-Alfred-Eisenstaedt-1938.jpg (1166×1280)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.youtube.com/watch?v=4yDbPIosBjM" class="link" target="_blank"&gt;The Greatest Photojournalist: Alfred Eisenstadt - YouTube&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0896595153/5by5-20" class="link" target="_blank"&gt;Amazon.com: Eisenstaedt on Eisenstaedt: A Self-Portrait (9780896595156): Alfred Eisenstaedt: Books&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0821225979/5by5-20" class="link" target="_blank"&gt;Eisenstaedt: Remembrances: Alfred Eisenstaedt, Barbara Baker Burrows, Bryan Holme, Doris C. O&amp;#x27;Neil: 9780821225974: Amazon.com: Books&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0140464832/5by5-20" class="link" target="_blank"&gt;Eisenstaedt&amp;#x27;s Guide to Photography: Alfred Eisenstaedt: 9780140464832: Amazon.com: Books&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0670777021/5by5-20" class="link" target="_blank"&gt;Witness to Our Time: Alfred Eisenstaedt: 9780670777020: Amazon.com: Books&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="" target="_blank"&gt;Shutterstock&lt;/a&gt; Use code PICTURES4 for 30% off.&lt;br /&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Bill Wadman &amp; Jeffery Saddoris</itunes:author>
+      <itunes:duration>1:36:44</itunes:duration>
+      <itunes:subtitle>To tag or not to tag? Folder structure, naming conventions, file formats and overall workflow ideas in this week’s show. </itunes:subtitle>
+      <itunes:summary>To tag or not to tag? Folder structure, naming conventions, file formats and overall workflow ideas in this week’s show. Why do filmmakers get all of the cool stuff lately? Plus, photographic icon Alfred Eisenstadt is Photographer of the Week.
+</itunes:summary>
+      <itunes:keywords>photography, camera, images, photos, pictures</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/48/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fotp%2F50&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 40: Tuesday, April 9, 2013</title>
+      <link>http://5by5.tv/news/40</link>
+      <guid>http://5by5.tv/news/40</guid>
+      <pubDate>Tue, 09 Apr 2013 17:15:00 GMT</pubDate>
+      <author>Myke Hurley</author>
+      <description>The news for Tuesday, April 9, 2013
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-040.mp3" length="4548757" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Tuesday, April 9, 2013&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/8/4195954/microsoft-planning-xbox-event-for-may" class="link" target="_blank"&gt;Microsoft planning Xbox event for May | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Microsoft had originally been planning to unveil its next-generation Xbox details at an event in April, but The Verge has learned that the company has pushed this back to May. Windows watcher Paul Thurrott revealed recently that Microsoft is planning an Xbox event for May 21st, and we understand this date is accurate. This is the tentative date for a next-generation Xbox announcement, but Microsoft had originally planned an April 24th event.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.engadget.com/2013/04/08/intel-announces-next-gen-thunderbolt-20-gbps-throughput/" class="link" target="_blank"&gt;Intel announces next-gen Thunderbolt with 20 Gbps throughput, 4K support&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Intel just introduced the next generation of its Thunderbolt interface, which promises a data rate of 20 Gbps in both directions (on each of the two channels) as opposed to 10 Gbps for the previous version. Of course, the company stepped back for a moment first, boasting that Thunderbolt currently has about 200 licensees, and more compatible devices -- along with new, thinner cables -- should be coming out in the following months. Building up to the big reveal, Intel also shared some info about its new Thunderbolt host controller, (code-named Redwood Ridge), which will be built into some of Intel's upcoming fourth-gen Core processors.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://allthingsd.com/20130408/news-corp-threatens-to-pull-fox-off-the-airwaves-if-aereo-wins/" class="link" target="_blank"&gt;News Corp. Threatens to Pull Fox off the Airwaves if Aereo Wins - Peter Kafka - Media - AllThingsD&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;News Corp. COO Chase Carey said his conglomerate is considering moving programming from its Fox broadcast network, which viewers can receive over the air, for free, to its pay cable networks.Carey floated the idea during a speech at a TV industry conference today, in response to a recent court ruling that gave startup Aereo the go-ahead, at least temporarily,  to show programming from Fox and other broadcasters on its Web TV service, without paying for the shows.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.macrumors.com/2013/04/08/u-s-patent-office-withdraws-primary-objections-to-apples-ipad-mini-trademark-application/" class="link" target="_blank"&gt;U.S. Patent Office Withdraws Primary Objections to Apple&amp;#x27;s &amp;#x27;iPad Mini&amp;#x27; Trademark Application - Mac Rumors&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Last week the U.S. Patent and Trademark Office (USPTO) issued an initial office action denying Apple's application for a trademark on the term "iPad mini". The examiner's primary objection to Apple's application related to all of the elements of the "iPad mini" name having been judged as descriptive rather than contributing to a unique product name. Based on a newly published office action from the USPTO, dated last Wednesday, the issue has in fact mostly been resolved without Apple having had to address the examiner's objections.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/8/4197316/navy-laser-weapon-deploying-2014-shoots-down-drone" class="link" target="_blank"&gt;Navy destroys drone with laser weapon ahead of 2014 deployment | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The US Navy has been pursuing solid-state laser weapons capable of setting other vessels on fire for years, but now one is almost ready to actually be put out to sea. The Office of Naval Research (ONR) today announced that it is aiming to "field and test a solid-state laser prototype" in early 2014 aboard the USS Ponce. The Ponce is a transport vessel from the 1970s that was recently upgraded into a hi-tech floating base and is stationed in the Persian Gulf, in range of Iranian attack boats.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-13579_3-57578520-37/apples-big-mac-pro-revamp-to-debut-this-month-report-says/" class="link" target="_blank"&gt;Apple&amp;#x27;s big Mac Pro revamp to debut this month, report says | Apple - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Mac Pro users who have played the waiting game with Apple to completely revamp its desktop machine might get the goods soon, according to a new report.Citing an accurate source, Mac Daily News says Apple plans to announce a new model of the machine sometime this month.An Apple spokesman told CNET the company does not comment on rumors or speculation.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/04/08/human-genome/" class="link" target="_blank"&gt;Help Preserve the Human Genome By Owning Your Own Copy [VIDEO]&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Back in 2003, the groundbreaking Human Genome Project successfully identified all 20,000 to 25,000 genes in human DNA. It's a sizeable amount of information that filled 130 books — each 300 pages long.A new Kickstarter project aims to condense 3.2 billion characters of the human genome into five nickel discs that are around the size of CDs. With a life span of 10,000 years, "no other technology can match [their] durability and longevity," according to creators NanoRosetta, a storage system that uses nanotechnology to print microscopic-sized information onto the discs.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/04/08/jcpenney-fires-ron-johnson/" class="link" target="_blank"&gt;JCPenney Fires Apple&amp;#x27;s Former Retail Chief Ron Johnson&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;JCPenney has replaced Ron Johnson as CEO just more than one year after he joined from Apple, the company revealed in a statement late Monday.Johnson helped spearhead the strategy for Apple's massively successful retail operation and tried to apply some of that magic to JCPenney. He attempted to refresh the JCPenney shopping experience by getting rid of the retailer's coupon program, but ended up frustrating customers instead. JCPenney's sales and share price plummeted under his leadership, prompting plenty of speculation in recent months that Johnson would be canned.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.engadget.com/2013/04/08/eu-antitrust-complaint-google-android/" class="link" target="_blank"&gt;Antitrust complaint levied against Google in EU, this time it&amp;#x27;s all about Android&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google has spent the past couple years facing down antitrust accusations in Europe for pushing its web services over those of competitors. But, just as that case is coming to a close, the New York Times now reports that new anti-competitive allegations have been levied against Android. This new complaint was filed by a group called Fairsearch -- whose members include old EU foes Microsoft and Nokia, plus Oracle and a host of travel booking websites -- and claims that Google's using Android as a way to deceive consumers into using Google apps instead of competitors' software. The problem, as Fairsearch sees it, is that Google forces OEMs who use Android to unfairly place apps like YouTube and Gmail in prominent places on the desktop.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.engadget.com/2013/04/08/hbo-go-ios-airplay-update-multitasking/" class="link" target="_blank"&gt;HBO Go for iOS version 2.1 adds AirPlay multitasking&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Now that you can finally watch HBO Go on your Apple TV via AirPlay, the premium cable network has decided to sweeten its iOS app with AirPlay multitasking in a 2.1 update. The new version of the app also offers enhancements to Game of Throne's interactive features and general performance improvements as well.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.bbc.co.uk/news/world-us-canada-22062317" class="link" target="_blank"&gt;BBC News - Wikileaks publishes 1.7m US diplomatic records&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Wikileaks has published more than 1.7 million US diplomatic and intelligence reports from the 1970s. They include allegations that former Indian PM Rajiv Gandhi was a middleman in an arms deal and the first impressions of eventual British PM Margaret Thatcher.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/04/08/us-citigroup-nasdaq-facebook-idUSBRE93713720130408" class="link" target="_blank"&gt;Citi files claim with Nasdaq for compensation from Facebook IPO: sources | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Citigroup has filed a claim with Nasdaq OMX Group to potentially receive compensation for losses associated with Facebook Inc's glitch-ridden market debut last May. Citi filed the claim on Monday, which was the deadline for applications from firms seeking to participate in the $62 million compensation plan.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/04/08/us-ericsson-microsoft-idUSBRE9370HL20130408" class="link" target="_blank"&gt;Ericsson to buy Microsoft IPTV business | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Swedish telecom equipment maker Ericsson struck a deal on Monday to buy Microsoft Corp's Mediaroom IPTV business, which makes software used by phone companies to deliver television over the Internet, making it the world's leader in a growing business.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://money.cnn.com/2013/04/08/technology/social/facebook-paid-messages-trial/index.html" class="link" target="_blank"&gt;Facebook extends pay-to-message trial&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Facebook is giving select users in nearly 40 countries around the world access to a trial service that will charge them a fee for sending direct, personal messages to people outside their network.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/9/4203236/google-launches-play-store-redesign-on-android" class="link" target="_blank"&gt;Google redesigns Play Store app with card-based interface | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The Play Store has never been the most attractive item in Google's Android app portfolio, but it's getting a major makeover today. As previously leaked, the redesign does away with the dark theme in favor of a colorful new interface that uses Google Now-style cards metaphor to display a stream of recommendations. Some users on Android 2.2 and above should start seeing it from today, but Google says it'll take a few weeks to reach everyone.&lt;/p&gt;
+&lt;p&gt;Sponsored by &lt;a href="vinshare.it"&gt;Vin&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Myke Hurley</itunes:author>
+      <itunes:duration>8:49</itunes:duration>
+      <itunes:subtitle>The news for Tuesday, April 9, 2013</itunes:subtitle>
+      <itunes:summary>The news for Tuesday, April 9, 2013
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F40&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 39: Monday, April 8, 2013</title>
+      <link>http://5by5.tv/news/39</link>
+      <guid>http://5by5.tv/news/39</guid>
+      <pubDate>Mon, 08 Apr 2013 18:30:00 GMT</pubDate>
+      <author>Myke Hurley</author>
+      <description>The news for Monday, April 8, 2013
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-039.mp3" length="4963372" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Monday, April 8, 2013&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://allthingsd.com/20130406/facebook-begins-big-push-to-bring-mobile-users-home/" class="link" target="_blank"&gt;Facebook Begins Big Push to Bring Mobile Users &amp;quot;Home&amp;quot; - Ina Fried - Mobile - AllThingsD&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Although Facebook Home won’t be available for another week or so, the social network has begun a major ad campaign pitching customers on its new Android software.On its own mobile and desktop sites, Facebook is pushing its users through a variety of ads, including suggested posts, page posts, sponsored stories and logout page ads. Each of the ads directs users to Facebook’s main page for its mobile efforts.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.google.co.uk/reader/view/#stream/feed%2Fhttp%3A%2F%2Fandroidcentral.com%2Frss.xml" class="link" target="_blank"&gt;Facebook Home cobbled together from leaked ROM&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;MoDaCo's Paul O'Brien has thrown together a trio of files with which you can get a half-working version of Facebook Home onto your phone -- five days before it'll be available to everyone as a free download.&lt;/p&gt;
+
+&lt;p&gt;The 'Chat Heads' feature is missing from the leak, but most other features are available. This version even for the Nexus 4 and 7, devices that Facebook is not promoting as a launch device.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/07/apple-pulls-ios-app-discovery-service-appgratis-from-app-store/" class="link" target="_blank"&gt;Apple Pulls iOS App Discovery Service AppGratis From App Store | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple pulled discovery service and daily deal app AppGratis from the App Store. So far, AppGratis is not communicating on the issue and users can only speculate about what the issue is. Sometimes, Apple pulls an app because its latest update crashes or because the app uses a private API. Then, the developer has to submit a new release to return to the App Store. But there could be a bigger issue.Back in October, Apple added a new rule in its iOS developer guidelines. It reads: “Apps that display Apps other than your own for purchase or promotion in a manner similar to or confusing with the App Store will be rejected.” As a reminder, AppGratis curates apps from the App Store, provides a short description and make paid apps free for a day.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/06/its-not-just-you-twitters-latest-android-update-doesnt-let-you-access-your-profile-or-dms/" class="link" target="_blank"&gt;It’s Not Just You, Twitter’s Latest Android Update Doesn’t Let You Access Your Profile Or DMs On The “Me” Tab | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Twitter rolled out sweeping updates to all of its mobile properties this week, mostly to support the new Twitter Cards, but unfortunately, those who are using the service on Android aren’t so happy.The app has always been a bit buggy on the Android platform, but the issues that are being reported are more than just a little problematic. Users have experienced not being able to open the “Me” tab which allows you to access your DMs and switch accounts, important parts of the service.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/06/california-court-bans-checking-smartphone-maps-while-driving/" class="link" target="_blank"&gt;California Court Bans Checking Smartphone Maps While Driving | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;In California, drivers can now be pulled over for using their GPS while driving. Extending the state’s current ban on texting while driving, an appellate court in California v. Spriggs argued that the ”distraction would be present whether the wireless telephone was being used as a telephone, a GPS navigator a clock or a device for sending and receiving text messages and emails.”&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-1009_3-57578331-83/anonymous-targets-israel-in-another-cyberattack/" class="link" target="_blank"&gt;Anonymous targets Israel in another cyberattack | Security &amp;amp; Privacy - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Anonymous claims that a cyberattack launched against Israeli government Web sites this weekend has caused billions of dollars of damage, although Israeli officials say there have been no major disruptions.The group claimed it hacked more than a dozen official Israeli Web sites, including those for the Israel Police, the Prime Minister's Office, the Israel Securities Authority, the Immigrant Absorption Ministry, and the Central Bureau of Statistics.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-1023_3-57578276-93/did-google-let-the-fiber-out-of-the-bag/" class="link" target="_blank"&gt;Did Google let the Fiber out of the bag? | Internet &amp;amp; Media - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google's zippy Fiber Internet service may have gotten ahead of even itself.With a mysterious press conference on tap for next week from Chez Page and Brin -- along with the city of Austin, Texas -- word has been flying that Austin is next in line for Google Fiber, which offers Net access that's 100 times faster than what other services provide.The only thing the press invite for the event says is: "the City of Austin and Google will make a very important announcement that will have a positive impact on Austinites and the future of the city."&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://news.cnet.com/8301-1001_3-57578193-92/intels-next-gen-haswell-chip-now-shipping-to-pc-makers/" class="link" target="_blank"&gt;Intel&amp;#x27;s next-gen &amp;#x27;Haswell&amp;#x27; chip now shipping to PC makers | Business Tech - CNET News&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Intel's "Haswell" chip is now shipping to major PC makers, a source close to the company told CNET today.Intel's fourth-generation core, aka Haswell, is "shipping to customers now and will launch later this quarter," the source said.Intel is expected to make a statement to this effect at the IDF Beijing conference next week.Related storiesIntel confirms USB bug in 'Haswell' chipsetHaswell, expected by June, is the next-generation mainstream Intel processor that will power ultrabooks and a variety of hybrids that straddle tablet and laptop designs. Haswell's new microarchitecture will deliver "the single largest generation-to-generation battery life improvement in Intel history," according to a recent statement from Intel CEO Paul Otellini.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/7/4194310/sony-55-inch-65-inch-led-tvs-price-release-date" class="link" target="_blank"&gt;Sony&amp;#x27;s 55-inch and 65-inch 4K LED TVs available April 21st for $4,999 and $6,999 | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sony was among the manufacturers showing off its 4K TVs at CES 2013, and the company has announced today that its 55-inch and 65-inch models are set to arrive in stores next month. The Bravia XBR-55X900A and XBR-65X900A will be priced at $4,999 and $6,999 respectively, and will become available April 21st.Sony's new 4K LED sets have passive 3D, an edge-lit display, and built-in WiFi connectivity.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/7/4194290/sony-fmp-x1-4k-media-player" class="link" target="_blank"&gt;Sony announces $699 FMP-X1 4K media player for summer release, 4K downloads slip to fall | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sony has announced more details about its previously-unnamed 4K FMP-X1 media player at NAB 2013. The device looks like the same puck-like prototype that the company showed off at CES 2013, and will become available sometime this summer for $699. The FMP-X1 will be bundled with a bizarre assortment of 10 films, including Bad Teacher, Battle: Los Angeles, The Bridge on the River Kwai, Salt, 2010's The Karate Kid, Taxi Driver, That's My Boy, The Amazing Spider-Man, The Other Guys, and 2012's Total Recall. While that's not a thrilling bundle for the price, Sony will offer existing owners of its 84-inch XBR TV the chance to exchange their home servers for the FMP-X1 player.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.reuters.com/article/2013/04/05/us-hulu-chernin-idUSBRE9340YD20130405?feedType=RSS&amp;amp;feedName=technologyNews" class="link" target="_blank"&gt;Former News Corp President Chernin bids $500 million for Hulu | Reuters&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Former News Corp president Peter Chernin has bid around $500 million for Hulu, the online video streaming service he helped create in 2007, according to two sources with knowledge of Hulu's sale process.The website, jointly controlled by News Corp and Walt Disney Co, reached out to potential buyers in March after initially contemplating a deal in which one would buy out the other. It is not clear whether that transaction is still being contemplated.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.androidcentral.com/htc-unaudited-q1-results-see-profits-slip-just-283-million" class="link" target="_blank"&gt;HTC unaudited Q1 results see profits slip to just $2.83 million | Android Central&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;HTC's financial woes continue, with today's unaudited results for the first quarter of 2013 painting a picture of a barely profitable company. Net income after tax slipped to just $2.83 million, down from $150 million it earned during the first quarter of 2012.&lt;/p&gt;
+
+&lt;p&gt;Today's announcement follows delays in getting the new HTC One handset out onto the market. Camera component shortages led to the UK, German and Taiwanese launches slipping from mid-to-late March, while wider availability -- including the crucial U.S. launch -- was pushed back to mid-April. HTC's pinning its hopes for revival on its new high-end smartphone, with reports suggesting CEO Peter Chou may have told execs he'll resign if the device isn't a success.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.polygon.com/2013/4/8/4196274/capcom-sanctioned-live-action-street-fighter-series-gets-kickstarter" class="link" target="_blank"&gt;Capcom-sanctioned live-action Street Fighter series gets Kickstarter | Polygon&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The creator of the Street Fighter: Legacy live-action short film launched a Kickstarter today for his latest project, a live-action series also based on the franchise, titled Street Fighter: Assassin's Fist.&lt;/p&gt;
+
+&lt;p&gt;Legacy director and writer Joey Ansah, is asking for £625,000 (about $950,000 according to Ansah) to get Assassin's Fist into production this year for an intended winter release.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.loopinsight.com/2013/04/08/marvel-comics-restages-its-700-digital-comic-promotion/" class="link" target="_blank"&gt;Marvel Comics restages its 700 digital comic promotion&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;If you missed it the first time around – or were one of the thousands of customers who couldn’t download their promised comics – Marvel is giving you another chance. They’re featuring a giveaway of over 700 comics you can read on your computer, iPad and elsewhere. The only catch is that you have to register before 11:59 PM Eastern Time on April 9th to get the invitation.&lt;/p&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://vinshare.it"&gt;Vin&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Myke Hurley</itunes:author>
+      <itunes:duration>9:41</itunes:duration>
+      <itunes:subtitle>The news for Monday, April 8, 2013</itunes:subtitle>
+      <itunes:summary>The news for Monday, April 8, 2013
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F39&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The News 38: Sunday, April 7, 2013</title>
+      <link>http://5by5.tv/news/38</link>
+      <guid>http://5by5.tv/news/38</guid>
+      <pubDate>Sun, 07 Apr 2013 19:00:00 GMT</pubDate>
+      <author>Myke Hurley</author>
+      <description>The news for Sunday, April 7, 2013
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/news/2013/news-038.mp3" length="3231558" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;The news for Sunday, April 7, 2013&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://mashable.com/2013/04/04/facebook-phone-stock/" class="link" target="_blank"&gt;Facebook Stock Up 3% After Facebook Phone Event&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Facebook Stock has risen above $27 a share for the first time since mid-March. The stock had ticked up slightly this week in anticipation of the event and was trading at around $26.65 just before the event began. By comparison, the stock dropped after Facebook's last major announcement for Graph Search as analysts were unimpressed. The expectation leading up to that event was that Facebook might reveal a true search competitor to Google or the highly anticipated Facebook phone.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://mashable.com/2013/04/04/google-returns-frommers-to-founder/" class="link" target="_blank"&gt;Google Returns Frommer&amp;#x27;s Brand to Founder&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google has returned the Frommer's brand name to founder Arthur Frommer just eight months after acquiring the travel guidebook publisher from John Wiley. In March, Google ceased publishing Frommer's guidebooks in print. Frommer said he plans to use the naming rights to start publishing the guides in print and e-book formats again. He will also resume updating Frommers.com, he said.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://allthingsd.com/20130404/hewlett-packard-chairman-ray-lane-stepping-down/" class="link" target="_blank"&gt;Hewlett-Packard Chairman Ray Lane Stepping Down - Arik Hesseldahl - News - AllThingsD&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Hewlett-Packard Chairman Ray Lane is stepping down from the chairmanship of the company. Director Ralph Whitworth will be taking over as Chairman while the company seeks to find a permanent replacement. Lane will remain on the board.Two other HP directors, John Hammergren and G. Kennedy Thompson, will resign.Lane is a former president of Oracle and is still a managing partner at the legendary venture capital firm Kleiner Perkins Caufield&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://techcrunch.com/2013/04/04/photon-3d-scanner-will-let-you-turn-real-objects-into-printable-objects/" class="link" target="_blank"&gt;Photon 3D Scanner Will Let You Turn Real Objects Into Printable Objects | TechCrunch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The Photon 3D scanner is a self-contained laser scanner that creates point clouds of real objects, allowing you, in turn, to create printable files of things you build or need to copy. It is $399 on Indiegogo and looks amazing. Built by Adam Brandejs and Drew Cox, a pair of Torontonians, the device uses a small laser and a turntable to scan all the surfaces of an object. The scans are converted to STL or OBJ files – filetypes usable by most 3D printers – and can be printed.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/5/4186302/google-chrome-blink-coming-to-chrome-28-in-10-weeks" class="link" target="_blank"&gt;Chrome will officially leave WebKit for Blink in 10 weeks | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Google has given the first indication as to when it will release its first Blink-enabled builds of its Chrome browser, confirming that it will enable its new rendering engine in Chrome 28. Answering questions submitted by the Chrome developer community in a Q&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://kotaku.com/the-next-xbox-will-require-an-internet-connection-to-st-470062456" class="link" target="_blank"&gt;The Next Xbox Will Require an Internet Connection To Start Games, Sources Say&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Two Kotaku sources have added more credence to the rumor that the next Xbox, expected to battle the PlayStation 4 in late 2013 or early 2014, will be an always-online system, though it will be able to tolerate dropped connections.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.theverge.com/2013/4/5/4189184/ouya-says-pre-release-console-not-ready-for-review" class="link" target="_blank"&gt;Ouya fires back, says pre-release console isn&amp;#x27;t ready for review | The Verge&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Ouya is responding to early reviews of its pre-release Android gaming console, saying that the software is still unfinished. In a statement to GamesIndustry International, the company explains that the 60,000 Kickstarter backers currently receiving their machines are participating in a "preview period," and that it plans to send out review consoles in early- to mid-May, constantly improving the product ahead of its June retail release.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.slashfilm.com/star-wars-bits-star-wars-1313-game-would-have-starred-boba-fett-plus-ilm-layoffs-and-clone-wars/" class="link" target="_blank"&gt;Star Wars Bits: ‘Star Wars 1313? Game Would Have Starred Boba Fett; Plus ILM Layoffs and ‘Clone Wars’ | /Film&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;When Disney shut down the Lucasfilm gaming division Lucasarts, the fans wondered about the fate of Star Wars 1313. The third person game, for which we’d seen gorgeous trailers, has been indefinitely postponed thanks to the corporate decision. If that wasn’t bad enough, turns out that in recent months it had been altered to star not a random character, but Boba Fett himself. Star Wars 1313 was going to be a Boba Fett game.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.slashfilm.com/did-bryan-singer-tweet-the-first-look-at-a-mutant-from-x-men-days-of-future-past/" class="link" target="_blank"&gt;Did Bryan Singer Tweet The First Look At A Mutant From ‘X-Men: Days of Future Past?’ | /Film&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;From the looks of it, Bryan Singer has just given us our first glimpse at a mutant from X-Men: Days of Future Past. The director of the upcoming X-Men “Inbetweenquel” tweeted an image that is obviously the character Beast, who was played by Nicholas Hoult in X-Men: First Class (as seen above) and by Kelsey Grammer in X-Men: The Last Stand. Hoult will be reprising the role in the 2014 film so, it would seem, the image is likely him in some kind of makeup test.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.imore.com/apple-close-deals-pandora-streaming-service-hoping-summer-launch" class="link" target="_blank"&gt;Apple close to deals on Pandora-like streaming service, hoping for summer launch | iMore.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Apple may soon strike deals with two of the major record labels that would allow them to launch a Pandora-like radio service by this summer. While Apple seems to have made a deal that has them paying the labels less on a per-stream basis than Pandora, Apple’s deal also includes new ways of generating revenue, according to Paul Sloan of CNET.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/rmac18/status/320197445306953728" class="link" target="_blank"&gt;Sergey Brin in Google Glass driving a pink Tesla dressed like a batmobile at LinkedIn HQ&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;This has to be seen to be believed&lt;/p&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://mailchimp.com/5by5"&gt;Mailchimp&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Myke Hurley</itunes:author>
+      <itunes:duration>6:04</itunes:duration>
+      <itunes:subtitle>The news for Sunday, April 7, 2013</itunes:subtitle>
+      <itunes:summary>The news for Sunday, April 7, 2013
+</itunes:summary>
+      <itunes:keywords>news, tech, technology, apple, gaming, web, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/42/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fnews%2F38&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>Mac Power Users 132: Merlin Returns</title>
+      <link>http://5by5.tv/mpu/132</link>
+      <guid>http://5by5.tv/mpu/132</guid>
+      <pubDate>Sun, 07 Apr 2013 18:15:00 GMT</pubDate>
+      <author>David Sparks &amp; Katie Floyd</author>
+      <description>Returning for his annual appearance, Merlin Mann joins Katie and David to talk Evernote, GTD, iPad, Podcasting and his favorite Apps.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/mpu/2013/mpu-132.mp3" length="64366125" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Returning for his annual appearance, Merlin Mann joins Katie and David to talk Evernote, GTD, iPad, Podcasting and his favorite Apps.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://www.merlinmann.com/" class="link" target="_blank"&gt;Merlin&amp;#x27;s Website&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/b2w" class="link" target="_blank"&gt;Back to Work&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2F5by5.tv%2Fpeople%2Fmerlin-mann&amp;amp;screen_name=hotdogsladies&amp;amp;tw_p=followbutton&amp;amp;variant=2.0" class="link" target="_blank"&gt;Merlin on Twitter&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.kungfugrippe.com/" class="link" target="_blank"&gt;Kung Fu Grippe&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.macworld.com/article/2029451/how-i-went-paperless-with-hazel-and-evernote.html" class="link" target="_blank"&gt;How I went paperless with Hazel and Evernote&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://evernote.com/" class="link" target="_blank"&gt;Evernote&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://evernote.com/webclipper/" class="link" target="_blank"&gt;Evernote Web Clipper&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://evernote.com/hello/" class="link" target="_blank"&gt;Evernote Hello&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://ifttt.com/" class="link" target="_blank"&gt;IFTTT&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B00ATZ9QMO/5by5-20" class="link" target="_blank"&gt;ScanSnap ix500&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.dropbox.com" class="link" target="_blank"&gt;Dropbox&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.noodlesoft.com/hazel.php" class="link" target="_blank"&gt;Hazel&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fdaisydisk%2Fid411643860%3Fmt%3D12" class="link" target="_blank"&gt;DaisyDisk&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fgemini-the-duplicate-finder%2Fid463541543%3Fmt%3D12" class="link" target="_blank"&gt;Gemini&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=5573&amp;amp;RD_PARM1=http%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DR8MQJgoFv0o%2526subid%3D%2526offerid%3D146261.1%2526type%3D10%2526tmpid%3D3909%2526RD_P" class="link" target="_blank"&gt;BusyCal&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2F1password-password-manager%2Fid443987910%3Fmt%3D12" class="link" target="_blank"&gt;1Password (Mac)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2F1password%2Fid568903335%3Fmt%3D8" class="link" target="_blank"&gt;1Password (iOS)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fpastebot-command-copy-paste%2Fid344614116%3Fmt%3D8" class="link" target="_blank"&gt;Pastebot&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fdrafts%2Fid502385074%3Fmt%3D8" class="link" target="_blank"&gt;Drafts&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Ffantastical%2Fid575647534%3Fmt%3D8" class="link" target="_blank"&gt;Fantastical (iOS)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Ffantastical%2Fid435003921%3Fmt%3D12" class="link" target="_blank"&gt;Fantastical&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fcalendars%2B-by-readdle%2Fid371434886%3Fmt%3D8" class="link" target="_blank"&gt;Calendars&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://click.linksynergy.com/fs-bin/click?id=R8MQJgoFv0o&amp;amp;subid=&amp;amp;offerid=146261.1&amp;amp;type=10&amp;amp;tmpid=3909&amp;amp;RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fcontacts-cleaner%2Fid411369012%3Fmt%3D12" class="link" target="_blank"&gt;Contacts Cleaner&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/B007VL8Y2C/5by5-20" class="link" target="_blank"&gt;Logitech Wireless Solar Keyboard K760 for Mac/iPad/iPhone&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0142000280/5by5-20" class="link" target="_blank"&gt;Getting Things Done&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://wateree.net/syncman/" class="link" target="_blank"&gt;Syncman&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.alfredapp.com" class="link" target="_blank"&gt;Alfred&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.obdev.at/products/launchbar/index.html" class="link" target="_blank"&gt;LaunchBar&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://qsapp.com" class="link" target="_blank"&gt;Quicksilver&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;b&gt;Please support our exclusive sponsor for this episode: Smile:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.smilesoftware.com/mpu"&gt;With productivity boosters like TextExpander and PDFpen, Smile makes you a Mac Power User&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+      <itunes:author>David Sparks &amp; Katie Floyd</itunes:author>
+      <itunes:duration>2:13:18</itunes:duration>
+      <itunes:subtitle>Returning for his annual appearance, Merlin Mann joins Katie and David to talk Evernote, GTD, iPad, Podcasting and his favorite Apps.</itunes:subtitle>
+      <itunes:summary>Returning for his annual appearance, Merlin Mann joins Katie and David to talk Evernote, GTD, iPad, Podcasting and his favorite Apps.
+</itunes:summary>
+      <itunes:keywords>mac, apple, power user, productivity, workflows</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/25/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fmpu%2F132&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Critical Path 79: Make It Rain</title>
+      <link>http://5by5.tv/criticalpath/79</link>
+      <guid>http://5by5.tv/criticalpath/79</guid>
+      <pubDate>Sun, 07 Apr 2013 18:00:00 GMT</pubDate>
+      <author>Horace Dediu &amp; Moisés Chiullan</author>
+      <description>This week we cover a bit of Facebook Home, a bit of YouTuber economics, the best analogy ever heard for Google's business model, and we kick off Auto industry analysis with the "Five Whys"-the paradoxical questions that nobody seems to be asking about cars.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/criticalpath/2013/criticalpath-079.mp3" length="38751969" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;This week we cover a bit of Facebook Home, a bit of YouTuber economics, the best analogy ever heard for Google's business model, and we kick off Auto industry analysis with the "Five Whys"-the paradoxical questions that nobody seems to be asking about cars.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://5by5.tv/criticalpath/78" class="link" target="_blank"&gt;5by5 | The Critical Path #78: Facebook Inside&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://adage.com/article/digital/facebook-ads-coming-phone-s-home-screen/240753/" class="link" target="_blank"&gt;Facebook Ads Coming to Your Phone&amp;#x27;s Home Screen | Digital - Advertising Age&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://www.pleasesubscribefilm.com/" class="link" target="_blank"&gt;Please Subscribe Film | A Documentary About YouTubers&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="https://chill.com/dandobi/please-subscribe" class="link" target="_blank"&gt;Please Subscribe: A Documentary About YouTubers | Chill&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://tvbythenumbers.zap2it.com/2013/04/04/the-daily-show-and-the-colbert-report-finish-first-quarter-2013-as-number-1-and-number-2-among-adults-18-49/176487/" class="link" target="_blank"&gt;‘The Daily Show’ and ‘The Colbert Report’ Finish First Quarter 2013 as Number 1 and Number 2 Among Adults 18-49 - Ratings | TVbytheNumbers&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://arthousecowboy.com/journal/2013/4/5/austin-might-be-next-for-google-fiber.html" class="link" target="_blank"&gt;Arthouse Cowboy - Austin Might be Next for Google Fiber&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sponsored by &lt;a href="http://hover.com/dansentme"&gt;Hover&lt;/a&gt; (use code DANSENTME for 10% off), &lt;a href="http://mailchimp.com/5by5"&gt;Mailchimp&lt;/a&gt;, and &lt;a href="http://smilesoftware.com/5by5"&gt;Smile&lt;/a&gt;.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Horace Dediu &amp; Moisés Chiullan</itunes:author>
+      <itunes:duration>1:20:00</itunes:duration>
+      <itunes:subtitle>This week we cover a bit of Facebook Home, a bit of YouTuber economics, the best analogy ever heard for Google's business model, and we kick off Auto industry analysis with the "5 Whys"-the paradoxical questions that nobody seems to be asking about cars.</itunes:subtitle>
+      <itunes:summary>This week we cover a bit of Facebook Home, a bit of YouTuber economics, the best analogy ever heard for Google's business model, and we kick off Auto industry analysis with the "Five Whys"-the paradoxical questions that nobody seems to be asking about cars.
+</itunes:summary>
+      <itunes:keywords>mobile, apple, iphone, ipad, ios, rim, blackberry, nokia, android, google</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/24/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fcriticalpath%2F79&amp;user_id=danbenjamin"/>
+    </item>
+    <item>
+      <title>The Incomparable 134: Obligatory Cannibalism</title>
+      <link>http://5by5.tv/incomparable/134</link>
+      <guid>http://5by5.tv/incomparable/134</guid>
+      <pubDate>Sun, 07 Apr 2013 17:15:00 GMT</pubDate>
+      <author>Jason Snell</author>
+      <description>Load your shotgun and gather your platonic apocalypse friends around you! It's time for us to discuss two books about the end of the world, Peter Heller's "The Dog Stars" and Cormac McCarthy's "The Road." Do names matter when the world has ended? We also revisit John Siracusa's doomsday plans (a moat is involved), Lex offers a depressing death plan, Jason extolls the virtue of dirty apocalypses, and Scott laughs it up from his apartment full of canned food.
+</description>
+      <enclosure url="http://d.ahoy.co/redirect.mp3/fly.5by5.tv/audio/broadcasts/incomparable/2013/incomparable-134.mp3" length="35720858" type="audio/mpeg"/>
+      <content:encoded>&lt;p&gt;Load your shotgun and gather your platonic apocalypse friends around you! It's time for us to discuss two books about the end of the world, Peter Heller's "The Dog Stars" and Cormac McCarthy's "The Road." Do names matter when the world has ended? We also revisit John Siracusa's doomsday plans (a moat is involved), Lex offers a depressing death plan, Jason extolls the virtue of dirty apocalypses, and Scott laughs it up from his apartment full of canned food.&lt;/p&gt;
+&lt;p&gt;Links for this episode:&lt;/p&gt;&lt;h4&gt;&lt;a href="http://amzn.to/Xa1edE" class="link" target="_blank"&gt;&amp;quot;The Dog Stars&amp;quot; by Peter Heller&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://amzn.to/YFXUCl" class="link" target="_blank"&gt;&amp;quot;The Road&amp;quot; by Cormac McCarthy&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;&lt;a href="http://5by5.tv/incomparable/82" class="link" target="_blank"&gt;The Incomparable #82: Apocalypse Book Club&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Our previous apocalyptic book club.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.flophousepodcast.com" class="link" target="_blank"&gt;The Flop House podcast&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Accidentally brought to you by &lt;a href="http://www.foodinjars.com"&gt;Food in Jars&lt;/a&gt;, for all your doomsday food-preparation needs.&lt;/p&gt;
+</content:encoded>
+      <itunes:author>Jason Snell</itunes:author>
+      <itunes:duration>1:13:36</itunes:duration>
+      <itunes:subtitle>Apocalyptic novels "The Dog Stars" and "The Road."</itunes:subtitle>
+      <itunes:summary>Load your shotgun and gather your platonic apocalypse friends around you! It's time for us to discuss two books about the end of the world, Peter Heller's "The Dog Stars" and Cormac McCarthy's "The Road." Do names matter when the world has ended? We also revisit John Siracusa's doomsday plans (a moat is involved), Lex offers a depressing death plan, Jason extolls the virtue of dirty apocalypses, and Scott laughs it up from his apartment full of canned food.
+</itunes:summary>
+      <itunes:keywords>books, movies, tv, comics, sci-fi, geek</itunes:keywords>
+      <itunes:image href="http://icebox.5by5.tv/images/broadcasts/30/cover.jpg"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2F5by5.tv%2Fincomparable%2F134&amp;user_id=danbenjamin"/>
+    </item>
+  </channel>
+</rss>

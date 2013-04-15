@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-04-15T12:19:39Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/16014977</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to lock an Android app so it can&#39;t be closed?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="html5"/><category scheme="http://stackoverflow.com/feeds/tags" term="application"/><category scheme="http://stackoverflow.com/feeds/tags" term="native"/>
+        <author>
+            <name>joekeee</name>
+            <uri>http://stackoverflow.com/users/2282425</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014977/how-to-lock-an-android-app-so-it-cant-be-closed" />
+        <published>2013-04-15T12:19:06Z</published>
+        <updated>2013-04-15T12:19:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m looking for a way(native/HTML5/jQuery) to lock an application so it can&#39;t be closed.
+I&#39;m well aware that this is not user friendly.&lt;/p&gt;
+
+&lt;p&gt;The point is for an administrator of a device to lock an application, by password/pin/pattern, to prevent a user from leaving this application.&lt;/p&gt;
+
+&lt;p&gt;Any ideas are appreciated!
+Thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014974</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">CSS Renderproblems?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="border"/>
+        <author>
+            <name>Shiuyin</name>
+            <uri>http://stackoverflow.com/users/1648409</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014974/css-renderproblems" />
+        <published>2013-04-15T12:18:50Z</published>
+        <updated>2013-04-15T12:18:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i am currently trying to add some Design to an selfprogrammed board. Somehow i am experiencing odd buggs with the CSS rendering:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://s7.directupload.net/images/130415/45ruoim7.png&quot; rel=&quot;nofollow&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Every Row of that board is a .BoardRow Class to be formated in CSS. So, i am using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.BoardRow td {
+ border: 2px dotted #4E6011;
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 33%, #EFEFEF 90%); /* Chrome, Safari */
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this to add some nice looking borders around each row. Somehow always the top row is failing to work as intended. When zooming in with CTRL + Mouse in Google Chrome the top border always changes as shown in the picture. What can i do about this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014972</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Script runs old version of .NET app even after replacing app with new version. C#</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term=".net"/><category scheme="http://stackoverflow.com/feeds/tags" term="windows"/><category scheme="http://stackoverflow.com/feeds/tags" term="vb.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="batch-file"/><category scheme="http://stackoverflow.com/feeds/tags" term="autosys"/>
+        <author>
+            <name>Shaw Levin</name>
+            <uri>http://stackoverflow.com/users/2266718</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014972/script-runs-old-version-of-net-app-even-after-replacing-app-with-new-version-c" />
+        <published>2013-04-15T12:18:48Z</published>
+        <updated>2013-04-15T12:18:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;thank you for reading this.&lt;/p&gt;
+
+&lt;p&gt;Environment is an AutoSys scheduler running on Windows Server and the job calls a Perl script which grabs some files via FTP and processes them using a VB.NET application. We pushed a new version of the VB.NET app last week after a client requested a change.&lt;/p&gt;
+
+&lt;p&gt;The new version was pushed but when the script runs somehow the old code is being executed (we can tell by the logging output and result file). If I run the script from my desktop it executes the new code but when running from the scheduler it is running the old code.&lt;/p&gt;
+
+&lt;p&gt;This is difficult for us because the old version of the app is not available anymore. We copied over it with the new version (again, it works when I run it).&lt;/p&gt;
+
+&lt;p&gt;Any thoughts? I appreciate everyone taking the time to read this and trying to help me out!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014969</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">SQL return consecutive records</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="linq"/><category scheme="http://stackoverflow.com/feeds/tags" term="lambda"/>
+        <author>
+            <name>Tom Gullen</name>
+            <uri>http://stackoverflow.com/users/356635</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014969/sql-return-consecutive-records" />
+        <published>2013-04-15T12:18:40Z</published>
+        <updated>2013-04-15T12:18:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;A simple table:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ForumPost
+--------------
+ID (int PK)
+UserID (int FK)
+Date (datetime)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What I&#39;m looking to return how many times a particular user has made at least 1 post a day for &lt;em&gt;n&lt;/em&gt; consecutive days.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;User 15844 has posted at least 1 post a day for 30 consecutive days 10 times
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve tagged this question with linq/lambda as well as a solution there would also be great.  I know I can solve this by iterating all the users records but this is slow.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014966</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">wsadmin jython script exit code to calling script</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="script"/><category scheme="http://stackoverflow.com/feeds/tags" term="batch-file"/><category scheme="http://stackoverflow.com/feeds/tags" term="automation"/><category scheme="http://stackoverflow.com/feeds/tags" term="websphere"/><category scheme="http://stackoverflow.com/feeds/tags" term="exit-code"/>
+        <author>
+            <name>rojanu</name>
+            <uri>http://stackoverflow.com/users/312929</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014966/wsadmin-jython-script-exit-code-to-calling-script" />
+        <published>2013-04-15T12:18:32Z</published>
+        <updated>2013-04-15T12:18:32Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am writing batch and bash scripts to automate some websphere tasks.&lt;/p&gt;
+
+&lt;p&gt;I need to get the exit code of myscipt.jy back to the calling script,
+jython script&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#----------myscipt.jy-----------
+#I am testing exit status
+import sys;
+sys.exit(1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and the batch script is &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;REM superduper.cmd
+profiles\myprofile\bin\wsadmin -lang jython -f myscript.jy
+echo myscript.jy exited with %ERRORLEVEL%
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any ideas?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014963</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">UI control for multiple recipients in wp7</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="windows-phone-7"/>
+        <author>
+            <name>user1268477</name>
+            <uri>http://stackoverflow.com/users/1268477</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014963/ui-control-for-multiple-recipients-in-wp7" />
+        <published>2013-04-15T12:18:23Z</published>
+        <updated>2013-04-15T12:18:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am preparing the screen somewhat like SMS screen. I have contacts and want to show one and more than one contact in To field. Could you please tell me which type of control is used in WP7 in SMS screen. Any custom control which I can refer.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014960</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">printf NULL without quotes or not NULL, with quotes for sql statement</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="c"/><category scheme="http://stackoverflow.com/feeds/tags" term="printf"/>
+        <author>
+            <name>Luis</name>
+            <uri>http://stackoverflow.com/users/435035</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014960/printf-null-without-quotes-or-not-null-with-quotes-for-sql-statement" />
+        <published>2013-04-15T12:18:18Z</published>
+        <updated>2013-04-15T12:18:18Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m writing a program to print out many thousands of lines of (MySQL) SQL instructions to be sent to a database server in asynchronous time.
+Each set of SQL instructions will be saved to a file via a *nix pipe redirection.&lt;/p&gt;
+
+&lt;p&gt;The problem I&#39;m facing is about &lt;code&gt;NULL&lt;/code&gt; values for &lt;code&gt;char *&lt;/code&gt; fields.
+If there&#39;s a &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;printf ( &quot;\&quot;%s\&quot; &quot;, foo_field);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and foo_field might be or might not be &lt;code&gt;NULL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;MySQL needs to receive a plain &lt;code&gt;NULL&lt;/code&gt;, not a &lt;code&gt;&quot;NULL&quot;&lt;/code&gt;, so I must get rid of double quotes just when there&#39;s a &lt;code&gt;NULL&lt;/code&gt; value.  When the value is not &lt;code&gt;NULL&lt;/code&gt;, it must be enclosed in double quotes.&lt;/p&gt;
+
+&lt;p&gt;For the case I&#39;ve shown I could place a &lt;code&gt;if   then&lt;/code&gt; so that the parameter would be &lt;code&gt;%s&lt;/code&gt; if &lt;code&gt;NULL&lt;/code&gt; or &lt;code&gt;\&quot;%s\&quot;&lt;/code&gt; if not &lt;code&gt;NULL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;But if we consider a SQL line with twenty fields, it&#39;s not so great to do it this way.  How can I accomplish this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014881</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">PHP MySQL with two query</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="database"/><category scheme="http://stackoverflow.com/feeds/tags" term="query"/>
+        <author>
+            <name>S. Walker</name>
+            <uri>http://stackoverflow.com/users/2270670</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014881/php-mysql-with-two-query" />
+        <published>2013-04-15T12:13:49Z</published>
+        <updated>2013-04-15T12:18:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need to do a &lt;code&gt;SELECT * FROM table_X&lt;/code&gt; , the problem is table_X is the result of another query, I don&#39;t know how to do it, perhaps with two loop, something like this : &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+
+$query1 = mysql_query(&quot;SELECT * FROM table_ref&quot;);
+while ($row = mysql_fetch_array($query1))
+{
+
+     $name = $row[&#39;table_name&#39;];
+
+     $query2 = mysql_query(&quot; SELECT * FROM &#39;$name&#39; &quot;);
+
+     while ($row = mysql_fetch_array($query2)) 
+     {
+         $time = $data[&#39;itime&#39;];
+         echo $time;      
+     }
+}
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The tables are all similar &amp;amp; I can&#39;t do joint there&#39;s no keys. So what I want is to show only the results of the second query from each results of the first query !&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014854</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Getting each model from a Backbone Collection</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="backbone.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="underscore.js"/>
+        <author>
+            <name>streetlight</name>
+            <uri>http://stackoverflow.com/users/1209702</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014854/getting-each-model-from-a-backbone-collection" />
+        <published>2013-04-15T12:12:12Z</published>
+        <updated>2013-04-15T12:19:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m convinced this is a very easy fix, but none of the posts I&#39;ve found so far seem to have addressed this directly: how do I loop over a collection to get each model?&lt;/p&gt;
+
+&lt;p&gt;The first method I&#39;m trying to use is underscore&#39;s each method. Here is my call and function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;collection_var.each(paintThings);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and here is my function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function paintThings() {
+        console.log(this);
+        console.log(this.model);
+            var thing_type = this.model.get(&quot;type&quot;),
+                thing_other = this.model.get(&quot;otherAttribute&quot;);
+
+                console.log(this.model);
+                console.log(thing_type);
+                console.log(thing_other);
+        }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Right now, this comes out as undefined, and this.model errors:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Uncaught TypeError: Cannot read property &#39;model&#39; of undefined 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I know the answer is simple, but it&#39;s driving me crazy! I&#39;m new to underscore. Can anyone here help? I&#39;m also open to other non-underscore methods if they are faster/better.&lt;/p&gt;
+
+&lt;p&gt;I also tried this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; for (var i = 0, l = collection_var.length; i &amp;lt; l; i++) {
+            console.log(collection_var[i]);
+ }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but that&#39;s not giving me what I want either.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014851</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">unexpected behaviour when orientation changes from potrait to landscape mode</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/>
+        <author>
+            <name>user2143817</name>
+            <uri>http://stackoverflow.com/users/2143817</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014851/unexpected-behaviour-when-orientation-changes-from-potrait-to-landscape-mode" />
+        <published>2013-04-15T12:12:02Z</published>
+        <updated>2013-04-15T12:19:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have the following manifest file for my app&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;
+&amp;lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;com.netserv.Pungry&quot;
+    android:versionCode=&quot;1&quot;
+    android:versionName=&quot;1.0&quot; &amp;gt;
+
+    &amp;lt;uses-sdk
+        android:maxSdkVersion=&quot;17&quot;
+        android:minSdkVersion=&quot;5&quot; /&amp;gt;
+
+    &amp;lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&amp;gt;
+    &amp;lt;uses-permission android:name=&quot;android.permission.ACCESS_WIFI_STATE&quot; /&amp;gt;
+    &amp;lt;uses-permission android:name=&quot;android.permission.ACCESS_NETWORK_STATE&quot; /&amp;gt;
+    &amp;lt;uses-permission android:name=&quot;android.permission.READ_PHONE_STATE&quot; /&amp;gt;
+    &amp;lt;uses-permission android:name=&quot;android.permission.ACCESS_FINE_LOCATION&quot; /&amp;gt;
+    &amp;lt;uses-permission android:name=&quot;android.permission.WRITE_CONTACTS&quot; /&amp;gt;
+    &amp;lt;uses-permission android:name=&quot;android.permission.READ_CONTACTS&quot; /&amp;gt;
+
+    &amp;lt;!-- &amp;lt;meta-data --&amp;gt;
+    &amp;lt;!-- android:name=&quot;ADMOB_ALLOW_LOCATION_FOR_ADS&quot; --&amp;gt;
+    &amp;lt;!-- android:value=&quot;true&quot; /&amp;gt; --&amp;gt;
+
+    &amp;lt;meta-data
+        android:name=&quot;ADMOB_PUBLISHER_ID&quot;
+        android:value=&quot;a150cb2e31846cf&quot; /&amp;gt;
+
+    &amp;lt;application
+        android:name=&quot;.MyApplication&quot;
+        android:allowBackup=&quot;true&quot;
+        android:icon=&quot;@drawable/bghomescreen&quot;
+        android:label=&quot;@string/app_name&quot;
+        android:theme=&quot;@style/AppTheme&quot; &amp;gt;
+        &amp;lt;activity
+            android:name=&quot;com.netserv.Pungry.Home&quot;
+            android:label=&quot;@string/app_name&quot; &amp;gt;
+            &amp;lt;intent-filter&amp;gt;
+                &amp;lt;action android:name=&quot;android.intent.action.MAIN&quot; /&amp;gt;
+
+                &amp;lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&amp;gt;
+            &amp;lt;/intent-filter&amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity android:name=&quot;.LocationbyCities&quot; &amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity android:name=&quot;.General&quot; &amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity android:name=&quot;.RestaurantsList&quot; &amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity android:name=&quot;.Quickbite&quot; &amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity android:name=&quot;.AdvanceSearch&quot; &amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity android:name=&quot;.SelectMenu&quot; &amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity android:name=&quot;.RestaurantDetails&quot; &amp;gt;
+        &amp;lt;/activity&amp;gt;
+        &amp;lt;activity
+            android:name=&quot;com.google.ads.AdActivity&quot;
+            android:configChanges=&quot;orientation|uiMode|keyboard|keyboardHidden|screenSize|smallestScreenSize|screenLayout&quot; /&amp;gt;
+
+        &amp;lt;receiver android:name=&quot;.UpdateReceiver&quot; &amp;gt;
+            &amp;lt;intent-filter&amp;gt;
+                &amp;lt;action android:name=&quot;android.net.conn.CONNECTIVITY_CHANGE&quot; /&amp;gt;
+            &amp;lt;/intent-filter&amp;gt;
+        &amp;lt;/receiver&amp;gt;
+    &amp;lt;/application&amp;gt;
+
+&amp;lt;/manifest&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When I load the app to device it is working fine in portrait mode. But when i change from potrait to landscape mode it is transisting to some different activity which is not the correct one and some times the app itself will close. &lt;/p&gt;
+
+&lt;p&gt;i have defined layout&#39;s in layout for portrait and layout-land for landscape mode.&lt;/p&gt;
+
+&lt;p&gt;I dont want to fix the orientation to portrait mode.&lt;/p&gt;
+
+&lt;p&gt;Can some 1 please help me in fixing this problem.&lt;/p&gt;
+
+&lt;p&gt;Thanks:)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014848</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Error when loading ASP.NET MVC 4 files from a folder in directory</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-4"/>
+        <author>
+            <name>user1809035</name>
+            <uri>http://stackoverflow.com/users/1809035</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014848/error-when-loading-asp-net-mvc-4-files-from-a-folder-in-directory" />
+        <published>2013-04-15T12:11:55Z</published>
+        <updated>2013-04-15T12:18:44Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a problem with hosting my website.&lt;/p&gt;
+
+&lt;p&gt;When i load the files of my wwebsite made in Visual Studio 2012 in the Directory it goes well but when i put hem in a folder inside the directory and go to the name of that folder in my browser it went wrong.&lt;/p&gt;
+
+&lt;p&gt;So by example when i put all files in the directory my adres is:
+&lt;a href=&quot;https://example.net/&quot; rel=&quot;nofollow&quot;&gt;https://example.net/&lt;/a&gt;
+it shows everything correct&lt;/p&gt;
+
+&lt;p&gt;When i make a folder in my directory &#39;MyProject&#39; and put the files in here it went wrong
+in my browser: &lt;a href=&quot;https://example.net/MyProject&quot; rel=&quot;nofollow&quot;&gt;https://example.net/MyProject&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My web.config file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;
+&amp;lt;!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  --&amp;gt;
+&amp;lt;configuration&amp;gt;
+  &amp;lt;appSettings&amp;gt;
+    &amp;lt;add key=&quot;webpages:Version&quot; value=&quot;2.0.0.0&quot; /&amp;gt;
+    &amp;lt;add key=&quot;webpages:Enabled&quot; value=&quot;false&quot; /&amp;gt;
+    &amp;lt;add key=&quot;PreserveLoginUrl&quot; value=&quot;true&quot; /&amp;gt;
+    &amp;lt;add key=&quot;ClientValidationEnabled&quot; value=&quot;true&quot; /&amp;gt;
+    &amp;lt;add key=&quot;UnobtrusiveJavaScriptEnabled&quot; value=&quot;true&quot; /&amp;gt;
+  &amp;lt;/appSettings&amp;gt;
+  &amp;lt;system.web&amp;gt;
+    &amp;lt;httpRuntime targetFramework=&quot;4.5&quot; /&amp;gt;
+    &amp;lt;compilation targetFramework=&quot;4.5&quot; /&amp;gt;
+    &amp;lt;pages&amp;gt;
+      &amp;lt;namespaces&amp;gt;
+        &amp;lt;add namespace=&quot;System.Web.Helpers&quot; /&amp;gt;
+        &amp;lt;add namespace=&quot;System.Web.Mvc&quot; /&amp;gt;
+        &amp;lt;add namespace=&quot;System.Web.Mvc.Ajax&quot; /&amp;gt;
+        &amp;lt;add namespace=&quot;System.Web.Mvc.Html&quot; /&amp;gt;
+        &amp;lt;add namespace=&quot;System.Web.Routing&quot; /&amp;gt;
+        &amp;lt;add namespace=&quot;System.Web.WebPages&quot; /&amp;gt;
+      &amp;lt;/namespaces&amp;gt;
+    &amp;lt;/pages&amp;gt;
+  &amp;lt;/system.web&amp;gt;
+  &amp;lt;system.webServer&amp;gt;
+    &amp;lt;handlers&amp;gt;
+      &amp;lt;remove name=&quot;ExtensionlessUrlHandler-ISAPI-4.0_32bit&quot; /&amp;gt;
+      &amp;lt;remove name=&quot;ExtensionlessUrlHandler-ISAPI-4.0_64bit&quot; /&amp;gt;
+      &amp;lt;remove name=&quot;ExtensionlessUrlHandler-Integrated-4.0&quot; /&amp;gt;
+      &amp;lt;add name=&quot;ExtensionlessUrlHandler-ISAPI-4.0_32bit&quot; path=&quot;*.&quot; verb=&quot;GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS&quot; modules=&quot;IsapiModule&quot; scriptProcessor=&quot;%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll&quot; preCondition=&quot;classicMode,runtimeVersionv4.0,bitness32&quot; responseBufferLimit=&quot;0&quot; /&amp;gt;
+      &amp;lt;add name=&quot;ExtensionlessUrlHandler-ISAPI-4.0_64bit&quot; path=&quot;*.&quot; verb=&quot;GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS&quot; modules=&quot;IsapiModule&quot; scriptProcessor=&quot;%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_isapi.dll&quot; preCondition=&quot;classicMode,runtimeVersionv4.0,bitness64&quot; responseBufferLimit=&quot;0&quot; /&amp;gt;
+      &amp;lt;add name=&quot;ExtensionlessUrlHandler-Integrated-4.0&quot; path=&quot;*.&quot; verb=&quot;GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS&quot; type=&quot;System.Web.Handlers.TransferRequestHandler&quot; preCondition=&quot;integratedMode,runtimeVersionv4.0&quot; /&amp;gt;
+    &amp;lt;/handlers&amp;gt;
+  &amp;lt;/system.webServer&amp;gt;
+&amp;lt;/configuration&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014846</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Searching of Table Name</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="database"/><category scheme="http://stackoverflow.com/feeds/tags" term="query"/>
+        <author>
+            <name>Mudassir</name>
+            <uri>http://stackoverflow.com/users/2176179</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014846/searching-of-table-name" />
+        <published>2013-04-15T12:11:54Z</published>
+        <updated>2013-04-15T12:18:07Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In my database I have created some tables whose name contains &#39;_&#39; character in middle  ,I want to find those all tables.
+for ex&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Doc_Amit,Doc_Raj,chem_Man etc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I know the query for finding table name as below :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;select * from sys.tables where name like &#39;%%&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but my question is what should i write between % and % so that I only get table names which contains &#39;_&#39; character ??&lt;/p&gt;
+
+&lt;p&gt;Note : I am using SQL Server 2012&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014833</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">SQL Select from 2 tables with same column names only return column when not null</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/>
+        <author>
+            <name>Mark</name>
+            <uri>http://stackoverflow.com/users/530906</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014833/sql-select-from-2-tables-with-same-column-names-only-return-column-when-not-null" />
+        <published>2013-04-15T12:11:11Z</published>
+        <updated>2013-04-15T12:18:47Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I wonder if someone can give me a hand with this...  &lt;/p&gt;
+
+&lt;p&gt;I need to query two tables where one table contains default data and the second table contains any override data, such as...&lt;/p&gt;
+
+&lt;h3&gt;TABLE 1&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;id = 5  
+title = &#39;This is the default title&#39;  
+text = &#39;Hi, default text here...&#39;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;TABLE 2&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;id = 1  
+relation_id = 5
+title = &#39;This is an override title&#39;  
+text = NULL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to return a full set of rows so if table2 text is empty then my result set would contain the table1 text. Likewise if my table2 title does is not empty then my result title would be the value of the table2 title thus overriding the default table1 text value.&lt;/p&gt;
+
+&lt;p&gt;My tables could have up to 6 six columns with the same column names / overriding data.&lt;/p&gt;
+
+&lt;p&gt;I&#39;d like to keep the default field names intact where possible and avoid assigning new names in the return set, e.g...&lt;/p&gt;
+
+&lt;h3&gt;RESULT SET&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;id = 1
+title = &#39;default title&#39;
+override_title = &#39;this is the override title&#39;
+text = &#39;Hi, default text here...&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014816</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Nginx permission denied 13 with Django on static content</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="django"/><category scheme="http://stackoverflow.com/feeds/tags" term="nginx"/>
+        <author>
+            <name>daemonfire300</name>
+            <uri>http://stackoverflow.com/users/189122</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014816/nginx-permission-denied-13-with-django-on-static-content" />
+        <published>2013-04-15T12:10:25Z</published>
+        <updated>2013-04-15T12:18:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I used this &lt;a href=&quot;https://uwsgi.readthedocs.org/en/latest/tutorials/Django_and_nginx.html&quot; rel=&quot;nofollow&quot;&gt;tutorial&lt;/a&gt; to setup a virtualenv and the nginx server.
+I did exactly what was told, but I still get a &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Permission denied (13)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;error when trying to access static content.
+I already set my static dir and the whole Django project to be owned by &lt;code&gt;www-data&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Further on, if I ignore the static content and try to let everything run with emperor I run into more permission denied errors. Now for everytime I try to access the site.&lt;/p&gt;
+
+&lt;p&gt;Optional: You may point me to a dedicated source to help me fix my problem&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014799</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">How to create array of size greater than integer max</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="algorithm"/><category scheme="http://stackoverflow.com/feeds/tags" term="data-structures"/>
+        <author>
+            <name>user1405433</name>
+            <uri>http://stackoverflow.com/users/1405433</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014799/how-to-create-array-of-size-greater-than-integer-max" />
+        <published>2013-04-15T12:09:08Z</published>
+        <updated>2013-04-15T12:18:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I was trying to get all primes before 600851475143.
+I was using Sieve of Eratosthenes for this.
+This requires me to create a boolean array of that huge size.
+Bad idea, you can run out of memory.
+Any other way. I tried using a string, using each index with values 0 &amp;amp; 1 to represent true or false. but indexOf method too returns int.&lt;/p&gt;
+
+&lt;p&gt;Next i am using 2d array for my problem. 
+Any other better way to store such a huge array?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014794</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">array return a String and not an Object</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/>
+        <author>
+            <name>Βίκτορας ανδρεάδης</name>
+            <uri>http://stackoverflow.com/users/1898748</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014794/array-return-a-string-and-not-an-object" />
+        <published>2013-04-15T12:08:51Z</published>
+        <updated>2013-04-15T12:19:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Hello i have to make a program first i ask for code for log in i put a &lt;code&gt;try/catch&lt;/code&gt; because I want the password is only numbers if give a character to stimulates the exception
+and the secont is not show a n array of the objects &lt;code&gt;Product&lt;/code&gt; but an a string &lt;code&gt;Productl@pos51sd&lt;/code&gt; and i cant find why show me this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import java.rmi.Naming;
+import java.util.Scanner;
+
+
+public class RMIClient {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+                int pin=0;
+        try {   
+
+            String  name    =   &quot;//Localhost/RMI_Server&quot;;
+            Functions lp    =(Functions)Naming.lookup(name);
+            try{
+            System.out.println(&quot;Please give your Personal Code (PIN)&quot;);
+
+                        pin=in.nextInt();
+             }catch (NumberFormatException nfe) {
+                    System.out.println(&quot;Input must be a number.&quot;);
+                            }
+            if(lp.validate(pin)){
+            System.out.println(&quot;Give description of item&quot;);
+            String desc=in.next();
+                        int sizep=lp.search(desc).length;
+                        Product [] p =new Product[sizep];
+                        System.arraycopy(lp.search(desc),0,p,0,sizep);
+                        for(int i=0;i&amp;lt;sizep;i++){
+            System.out.println(p[i].toString());}
+            System.out.println(&quot;Give numberCode of item you want to buy&quot;);
+            String code=in.next();
+            System.out.println(lp.purchase(code));
+            }else{
+            System.out.println(&quot;Your code is False&quot;);}
+            lp.close();
+        }catch (Exception   e)  {
+             System.out.println(&quot;SumClient  err:    &quot; + e); 
+             System.exit(1);
+        }   
+    }   
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014634</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">SQL Function saved in field - how to execute DATEADD()?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="tsql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server-2008-r2"/>
+        <author>
+            <name>hermann</name>
+            <uri>http://stackoverflow.com/users/1248498</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014634/sql-function-saved-in-field-how-to-execute-dateadd" />
+        <published>2013-04-15T11:59:56Z</published>
+        <updated>2013-04-15T12:18:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a string column field named FunctionValue.
+This field can contain either &lt;code&gt;DATEADD(datepart, number, date)&lt;/code&gt; or &lt;code&gt;GETDATE()&lt;/code&gt;, or something else.&lt;/p&gt;
+
+&lt;p&gt;If for example it&#39;s &lt;code&gt;DATEADD(year, 3, GETDATE())&lt;/code&gt;
+I want this later to be executed during a SP runtime and the value saved in a variable called &lt;code&gt;@FunctionValue&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SET @FunctionValue = ( SELECT CASE
+                        WHEN FunctionValue LIKE &#39;DATEADD%&#39; THEN --???
+                        WHEN FunctionValue LIKE &#39;GETDATE&#39; THEN CAST(GETDATE() AS nvarchar(255))
+                        ELSE FunctionValue
+                    END AS FV
+                    FROM @TSV_WithTarget
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m not sure what I&#39;d need to put there to make it so that whatever the value is, the result of the &lt;code&gt;DATEADD&lt;/code&gt; function is returned and saved in &lt;code&gt;@FunctionValue&lt;/code&gt;.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014484</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Generate possible combinations and get first 50 only</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="combinations"/>
+        <author>
+            <name>user2206764</name>
+            <uri>http://stackoverflow.com/users/2206764</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014484/generate-possible-combinations-and-get-first-50-only" />
+        <published>2013-04-15T11:53:28Z</published>
+        <updated>2013-04-15T12:18:47Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m looking for a way to get the first 50 only of the possible combinations (20 in fixed length) with conditions but I can&#39;t seem to find what I&#39;m looking for. I have an example below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import itertools
+a = array([1,2,5])
+b = array([8,9,10])
+c = 0
+if c == 1:
+  x = a
+  y = b
+else:
+  x = b
+  y = a
+mylist = list(itertools.product(x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y,x,y))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My output would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1)
+(8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 2)
+(8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 5)
+(8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 2 8 1)
+(8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 2 8 2)
+(8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 2 8 5)
+.
+.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and so on..&lt;/p&gt;
+
+&lt;p&gt;I already encountered memory error. I think this has too many combinations, so I just want to get the first 50 only. Is there a way to do it?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014393</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">MySql dynamic select</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="stored-procedures"/>
+        <author>
+            <name>rtp</name>
+            <uri>http://stackoverflow.com/users/991292</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014393/mysql-dynamic-select" />
+        <published>2013-04-15T11:48:54Z</published>
+        <updated>2013-04-15T12:18:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Table Name: Look &lt;br /&gt;
+FieldName: LookUp &lt;br /&gt;
+example fieldname value : Country.CountryCode &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;While making a select inside table &#39;Look&#39; I should dynamically split on value of the fieldname &#39;LookUp&#39; and get the first value as Tablename and second value as Fieldname to do a dynamic select.  I have the split function in place the problem is how to make it work in a case statement or maybe somebody has an alternative solution.  currently i have this which is clearly not working&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT l.Id,
+  case when l.lookup is not null then
+      SELECT t.Id
+      FROM (SPLIT_STR(l.LOOKUP,&#39;.&#39;,1)) AS t 
+      WHERE t.(SPLIT_STR(l.LOOKUP,&#39;.&#39;,2)) = l.attValue
+      LIMIT 1
+  END AS attValue
+FROM look as l 
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16014126</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Finding best matching for multiple variables without visiting all matches</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="algorithm"/><category scheme="http://stackoverflow.com/feeds/tags" term="data-structures"/><category scheme="http://stackoverflow.com/feeds/tags" term="matching"/>
+        <author>
+            <name>Jaco</name>
+            <uri>http://stackoverflow.com/users/1455451</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16014126/finding-best-matching-for-multiple-variables-without-visiting-all-matches" />
+        <published>2013-04-15T11:34:07Z</published>
+        <updated>2013-04-15T12:18:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;The main problem:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;INPUT&lt;/strong&gt;&lt;br&gt;
+Values are floats representing distances measured during running time.&lt;br&gt;
+X {x0, x1,...,x9}  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DATA&lt;/strong&gt;&lt;br&gt;
+Values are floats representing a pre computed list of distances.&lt;br&gt;
+A {a0, a1,...,a9}&lt;br&gt;
+B {b0, b1,...,b9}&lt;br&gt;
+...&lt;br&gt;
+C {c0, c1,...,c9}  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OUTPUT&lt;/strong&gt;&lt;br&gt;
+Find which row in data the input X matches the best by calculating the 
+error, like this:&lt;br&gt;
+ERROR = abs(x0-a0) + abs(x1-a1) + ... + abs(x9-a9)&lt;br&gt;
+and finding the minimum.  &lt;/p&gt;
+
+&lt;p&gt;The efficiency problem:&lt;br&gt;
+We want to do this without having to examine all DATA rows using a 
+combination of a smart datastructure and sorting. It&#39;s supposed to run 
+on a embedded system so both cpu power and memory are limited however 
+using memory is prefered over cpu. The number of DATA rows is &amp;lt;1000.  &lt;/p&gt;
+
+&lt;p&gt;We have considered different solutions using several matrices and trees 
+but the ideas we end up with usually leads to way to much data.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16013851</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">CSS vs SCSS in Rails application</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails"/><category scheme="http://stackoverflow.com/feeds/tags" term="ruby-on-rails-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="sass"/><category scheme="http://stackoverflow.com/feeds/tags" term="less"/>
+        <author>
+            <name>Lucy Weatherford</name>
+            <uri>http://stackoverflow.com/users/1043612</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16013851/css-vs-scss-in-rails-application" />
+        <published>2013-04-15T11:19:37Z</published>
+        <updated>2013-04-15T12:18:19Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have css files for a web application, how do I use it in Rails? I need to convert it to scss or to less? How do I go about doing this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16013470</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Query execution time is too much when I use GROUP BY clause</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-server-2005"/><category scheme="http://stackoverflow.com/feeds/tags" term="query-optimization"/>
+        <author>
+            <name>user2282221</name>
+            <uri>http://stackoverflow.com/users/2282221</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16013470/query-execution-time-is-too-much-when-i-use-group-by-clause" />
+        <published>2013-04-15T10:59:03Z</published>
+        <updated>2013-04-15T12:18:37Z</updated>
+        <summary type="html">
+            
+            &lt;pre&gt;&lt;code&gt;SELECT Count(CASE 
+               WHEN status = &#39;Success&#39; THEN status 
+             END)     AS &#39;Successfull&#39;, 
+       Count(CASE 
+               WHEN status != &#39;Success&#39; THEN status 
+             END)     AS &#39;Failed&#39;, 
+       Month(txndate) AS mnth 
+FROM   pbtxndetails AS PB, 
+       machinemaster AS KM 
+WHERE  PB.machineid = KM.idmachine 
+       AND Datediff(month, Getdate(), Month(txndate)) &amp;lt;= 2 
+       AND KM.vendorname = &#39;abcd&#39; 
+GROUP  BY Month(txndate) 
+ORDER  BY Month(txndate) DESC 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When I remove GROUP BY clause, the query execution time is comparatively faster.
+txndate column is in pbtxndetails.
+Note: In pbtxndetails there might be more than 1500000 records. I have used an Index on txndate but all in vain. It still takes 11 seconds.&lt;/p&gt;
+
+&lt;p&gt;I want to fetch the data of last three months and then group it by Month.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16013239</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">UINavigationBar appears as ViewController is launched</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="uinavigationcontroller"/>
+        <author>
+            <name>Brian Halpin</name>
+            <uri>http://stackoverflow.com/users/493709</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16013239/uinavigationbar-appears-as-viewcontroller-is-launched" />
+        <published>2013-04-15T10:45:17Z</published>
+        <updated>2013-04-15T12:18:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a Main UIViewController where the navigation bar is hidden.&lt;/p&gt;
+
+&lt;p&gt;However when I present a view modally, as my new ViewController is sliding up, the navigation bar appears briefly on Main before the new View Controller has occupied the entire screen.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[self presentViewController:settingsController animated:YES completion:nil];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Has anyone had this happen and know what could be causing it? I want the navigation bar to remain hidden.&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16012963</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">plsql regex to remove text between quotes that has quotes</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="regex"/><category scheme="http://stackoverflow.com/feeds/tags" term="plsql"/>
+        <author>
+            <name>Skuja</name>
+            <uri>http://stackoverflow.com/users/303605</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16012963/plsql-regex-to-remove-text-between-quotes-that-has-quotes" />
+        <published>2013-04-15T10:30:04Z</published>
+        <updated>2013-04-15T12:18:37Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am struggling with the regex replacement solution that would remove all the text that are between quotes from VARCHAR2 field even if the text between these quotes has quoted text as well
+For example text: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&#39;text start &#39;text inside&#39; text end&#39; leftover &#39;some other text&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;after regex replacement should contain:  &lt;code&gt;leftover&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;What I have came up with is this code: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;with tbl as (
+  select
+    &#39;&#39;&#39;text start &#39;&#39;text inside&#39;&#39; text end&#39;&#39; leftover &#39;&#39;some other text&#39;&#39;&#39; as str
+    ,&#39;\&#39;&#39;(.*?)\&#39;&#39;&#39; as regex
+  from dual
+)
+select
+  tbl.str as strA
+  ,regexp_replace(tbl.str,tbl.regex, &#39;&#39;) as strB
+from tbl; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but the text between subquotes still remains.&lt;/p&gt;
+
+&lt;p&gt;Is it even possible to achieve this with regular expressions, or should I split and analyze the contents in some loop ? 
+An ideal solution would be if it could handle infinite levels occurrences of quoted text inside quoted text.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16012729</id>
+        <re:rank scheme="http://stackoverflow.com">4</re:rank>
+        <title type="text">Method Generics Without Arguments</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="generics"/>
+        <author>
+            <name>Der Flatulator</name>
+            <uri>http://stackoverflow.com/users/1280997</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16012729/method-generics-without-arguments" />
+        <published>2013-04-15T10:17:35Z</published>
+        <updated>2013-04-15T12:18:30Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Let&#39;s say I have a method like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;static class Example 
+{
+    public static &amp;lt;N extends Number&amp;gt; Number getOddBits(N type)
+    {
+        if (type instanceof Byte) return (byte)0xAA;
+        else if (type instanceof Short) return (short)0xAAAA;
+        else if (type instanceof Integer) return 0xAAAAAAAA;
+        else if (type instanceof Float) return Float.intBitsToFloat(0xAAAAAAAA);
+        else if (type instanceof Long) return 0xAAAAAAAAAAAAAAAAL;
+        else if (type instanceof Double) return Double.longBitsToDouble(0xAAAAAAAAAAAAAAAAL);
+        throw new IllegalArgumentException();
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The actual specifics of the method isn&#39;t really important. However, to call this method we use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Example.&amp;lt;Float&amp;gt;getOddBits(0f);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My question is, is it possible to write such a method &lt;strong&gt;without&lt;/strong&gt; conventional parameters. Without overloading, and ultimately without Boxing.&lt;/p&gt;
+
+&lt;p&gt;Ideally invoked by:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Example.&amp;lt;Byte&amp;gt;getOddBits();
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15961940</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How JSP page should check authentication</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jsp"/><category scheme="http://stackoverflow.com/feeds/tags" term="authentication"/><category scheme="http://stackoverflow.com/feeds/tags" term="web-applications"/><category scheme="http://stackoverflow.com/feeds/tags" term="login"/>
+        <author>
+            <name>Allan Jiang</name>
+            <uri>http://stackoverflow.com/users/872344</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15961940/how-jsp-page-should-check-authentication" />
+        <published>2013-04-12T02:05:44Z</published>
+        <updated>2013-04-15T12:18:19Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am new to web programming. I am asking a common pattern to do things like checking authentication. Here is the scenario:&lt;/p&gt;
+
+&lt;p&gt;The website has a login page for visitors. It will take username and encrypted password and sent them to server, then get either a error code (username/password doesn&#39;t match)or an auth key from the server. When the user logged in successfully, I want the website automatically jump to the &lt;code&gt;main.jsp&lt;/code&gt; page that presents the main functionality of the website. &lt;/p&gt;
+
+&lt;p&gt;In this case, I want &lt;code&gt;main.jsp&lt;/code&gt; check the user authentication. That is, I don&#39;t want such thing happens like user can directly open &lt;code&gt;www.example.com/main.jsp&lt;/code&gt;, and if they did thing like this, I want to redirect them to login page. &lt;/p&gt;
+
+&lt;p&gt;So how could I pass authentication information across page, and how could I prevent user from directly accessing the &lt;code&gt;main.jsp&lt;/code&gt; without login? Do I need to use session or anything?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/11723694</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">How to select all data from table but only display one row at a time through php</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/>
+        <author>
+            <name>Lloyd Diggins</name>
+            <uri>http://stackoverflow.com/users/1563209</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/11723694/how-to-select-all-data-from-table-but-only-display-one-row-at-a-time-through-php" />
+        <published>2012-07-30T14:35:46Z</published>
+        <updated>2013-04-15T12:18:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;So I have a table in sql. It&#39;s basically a inspection report. I&#39;ve created the form it works great. Submits. Now I want to create a way to call upon an individual report from the table, and display it in a table on php. 
+The Below code works perfectly for displaying my information (there is a lot more than 3 colums, just using 3 as an example). The problem is I want to only display one inspection report at time basically, and perhaps even have create a search based on date submitted. The below code is the only way I know how to select ALL the table. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php 
+
+$result = mysql_query(&quot;SELECT * FROM inspection ORDER BY name&quot;);
+
+echo &quot;&amp;lt;table border=&#39;1&#39;&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;th&amp;gt;ID #&amp;lt;/th&amp;gt;
+&amp;lt;th&amp;gt;Name&amp;lt;/th&amp;gt;
+&amp;lt;th&amp;gt;inspection #&amp;lt;/th&amp;gt;
+&amp;lt;/tr&amp;gt;&quot;;
+
+while($row = mysql_fetch_array($result))
+{
+  echo &quot;&amp;lt;tr&amp;gt;&quot;;
+  echo &quot;&amp;lt;td&amp;gt;&quot; . $row[&#39;id&#39;] . &quot;&amp;lt;/td&amp;gt;&quot;;
+  echo &quot;&amp;lt;td&amp;gt;&quot; . $row[&#39;Name&#39;] . &quot;&amp;lt;/td&amp;gt;&quot;;
+  echo &quot;&amp;lt;td&amp;gt;&quot; . $row[&#39;Inspection #&#39;] . &quot;&amp;lt;/td&amp;gt;&quot;;
+  echo &quot;&amp;lt;/tr&amp;gt;&quot;;
+}
+echo &quot;&amp;lt;/table&amp;gt;&quot;;
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works great, just need to know how to better use it for my search. Keep in mind i&#39;m doing this through php for an end user so that he could perhaps just see a page that gives him all dates of inspections and click on the one and it pulls all data and shows up. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/9359313</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How can I get the product identifier from a restored transaction?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="iphone"/><category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="in-app-purchase"/>
+        <author>
+            <name>Cupcake</name>
+            <uri>http://stackoverflow.com/users/1118969</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/9359313/how-can-i-get-the-product-identifier-from-a-restored-transaction" />
+        <published>2012-02-20T10:05:41Z</published>
+        <updated>2013-04-15T12:18:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have managed to restore in-app transactions and get the transaction identifier from the original transaction, but how do I identify the product which were bought in the transaction?
+Is it possible to get the product identifier for a previously purchased in-app product?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/6337804</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">qwidget.render drawing with offset in QStyledItemDelegate</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="delegates"/><category scheme="http://stackoverflow.com/feeds/tags" term="pyqt"/><category scheme="http://stackoverflow.com/feeds/tags" term="paint"/><category scheme="http://stackoverflow.com/feeds/tags" term="qwidget"/>
+        <author>
+            <name>Jose</name>
+            <uri>http://stackoverflow.com/users/756196</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/6337804/qwidget-render-drawing-with-offset-in-qstyleditemdelegate" />
+        <published>2011-06-14T00:13:08Z</published>
+        <updated>2013-04-15T12:18:48Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to create a delegate to draw custom widgets as elements in a listview on icon mode. I have it more or less working but I can&#39;t get the widgets to draw in the right place, it seems they are getting drawn considering (0,0) the origin on the main window not the origin of the list view. What do I need to pass to render the widget on the right place? I know I can pass an offset... how can I calculate the offset between the main window and the listview?&lt;/p&gt;
+
+&lt;p&gt;This is my paint method on my delegate (derived from QStyledItemDelegate)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def paint(self, painter, option, index):
+
+        painter.save()
+
+        if option.state &amp;amp; QStyle.State_Selected:
+            painter.fillRect(option.rect, option.palette.highlight());
+
+        model = index.model()
+        myWidget = model.listdata[index.row()]
+
+
+        myWidget.setGeometry(option.rect)
+
+        myWidget.render(painter, option.rect.topLeft() )
+
+        painter.restore()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+&lt;p&gt;/J&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/4862585</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">How to show validation control&#39;s Error messages in Alert box?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/>
+        <author>
+            <name>sriramjitendra</name>
+            <uri>http://stackoverflow.com/users/568960</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/4862585/how-to-show-validation-controls-error-messages-in-alert-box" />
+        <published>2011-02-01T12:30:16Z</published>
+        <updated>2013-04-15T12:18:35Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using 4 required field validators,4 regular expression validators and 4 compare validators for 4 text boxes.Is it possible to show error messages&lt;/p&gt;
+
+&lt;p&gt;in an alert or message box when validation fails?&lt;/p&gt;
+
+&lt;p&gt;If possible please send code sample.&lt;/p&gt;
+
+&lt;p&gt;Regards,&lt;/p&gt;
+
+&lt;p&gt;NSJ&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

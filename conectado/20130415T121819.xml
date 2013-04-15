@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+
+<channel>
+	<title>Conectado</title>
+	<atom:link href="http://www.conectado.vg/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.conectado.vg</link>
+	<description>Información geek a nivel personal</description>
+	<lastBuildDate>Fri, 12 Apr 2013 02:57:54 +0000</lastBuildDate>
+	<language>es-ES</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+	<copyright>Algunos derechos reservados http://creativecommons.org/licenses/by-nc-sa/2.5/mx/deed.es_ES</copyright>
+	<managingEditor>carlos@conectado.vg (Carlos Gutiérrez)</managingEditor>
+	<webMaster>carlos@conectado.vg (Carlos Gutiérrez)</webMaster>
+	<category>Podcast</category>
+	<ttl>1440</ttl>
+	<image>
+		<url>http://www.conectado.vg/wp-content/uploads/2012/09/conectado_podcast.png</url>
+		<title>Conectado</title>
+		<link>http://www.conectado.vg</link>
+		<width>144</width>
+		<height>144</height>
+	</image>
+	<itunes:new-feed-url>http://www.conectado.vg/category/podcast/feed/</itunes:new-feed-url>
+	<itunes:subtitle>Podcast semanal de tecnología, videojuegos, cine y televisión con Carlos Gutiérrez (@The_Wire), Iván Moreno (@theinsane), Luis Miranda (@doruku) y Alex Serna (@Alex_Serna).</itunes:subtitle>
+	<itunes:summary>Podcast de tecnología, videojuegos, cine y TV donde cuatro amigos te explican las novedades y reseñas del acontecer de México y el mundo.</itunes:summary>
+	<itunes:keywords>tecnología, gadgets, Internet, videojuegos, juegos, cine, televisión, Apple, Nokia, Sony, Samsung, Panasonic</itunes:keywords>
+	<itunes:category text="Technology">
+		<itunes:category text="Tech News" />
+	</itunes:category>
+	<itunes:category text="Games &#38; Hobbies">
+		<itunes:category text="Video Games" />
+	</itunes:category>
+	<itunes:category text="TV &#38; Film" />
+	<itunes:author>Carlos Gutiérrez</itunes:author>
+	<itunes:owner>
+		<itunes:name>Carlos Gutiérrez</itunes:name>
+		<itunes:email>carlos@conectado.vg</itunes:email>
+	</itunes:owner>
+	<itunes:block>no</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="http://www.conectado.vg/wp-content/uploads/2012/09/conectado_podcast.png" />
+		<item>
+		<title>Fever: el sustituto de Google Reader que se instala en nuestro server</title>
+		<link>http://www.conectado.vg/2013/04/11/fever-el-sustituto-de-google-reader-que-se-instala-en-nuestro-server/</link>
+		<comments>http://www.conectado.vg/2013/04/11/fever-el-sustituto-de-google-reader-que-se-instala-en-nuestro-server/#comments</comments>
+		<pubDate>Fri, 12 Apr 2013 02:51:51 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[Feeds]]></category>
+		<category><![CDATA[Fever]]></category>
+		<category><![CDATA[Fever app]]></category>
+		<category><![CDATA[Google Reader]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[RSS]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1834</guid>
+		<description><![CDATA[<p>El inminente cierre de Google Reader puso al mundo a temblar, después de todo se trata de un servicio que la gran mayoría de nosotros usamos en alguna medida. Ya se ha publicado mucho al respecto y se han sugerido una gran cantidad de posibles sustitutos. Yo hoy quiero hablarles de mi personal favorito, con [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/04/11/fever-el-sustituto-de-google-reader-que-se-instala-en-nuestro-server/">Fever: el sustituto de Google Reader que se instala en nuestro server</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/04/fever_1.png?resize=300%2C258" alt="fever_1" class="alignright size-medium wp-image-1835" data-recalc-dims="1" /></p>
+<p>El <a href="http://techcrunch.com/2013/03/13/rip-google-reader/7c_vjfiwtzMsq6joAPsXA&amp;bvm=bv.45175338,d.b2I">inminente cierre de Google Reader</a> puso al mundo a temblar, después de todo se trata de un servicio que la gran mayoría de nosotros usamos en alguna medida. Ya se ha publicado mucho al respecto y se han sugerido una gran cantidad de posibles sustitutos. Yo hoy quiero hablarles de mi personal favorito, con sus ventajas y sus contras: <a href="http://www.feedafever.com/">Fever</a>.</p>
+<p>Fever es un cliente que vengo usando de un par de años para acá. Fever, como cualquier lector de RSS, permite agrupar por categorías. Pero donde se diferencia del resto, es que de acuerdo a lo que se esté hablando en nuestros feeds de RSS genera dos elementos únicos: los RSS Kindling y el apartado Hot.</p>
+<ul>
+<li>En los <strong>Kindling</strong> se colocan todos aquellos feeds que sean relevantes para nosotros. Esto lo logra en base a nuestra propia clasificación de los feeds y a la creación de la sección <strong>Sparks</strong>, que es donde colocaremos a todos esos RSS que leemos muy ocasionalmente pero que vale la pena revisar al menos una vez al mes. </li>
+<li>La sección <strong>Hot</strong> es en donde los contenidos se clasificarán con una temperatura, de acuerdo a las menciones que tengamos en todos nuestros RSS. Es básicamente lo más caliente de lo que se habla ahora en Internet&#8230; o al menos en nuestro pequeño universo de sitios. </li>
+</ul>
+<p>Es importante mencionar que Fever funciona mejor, entre más RSS tengamos en nuestra base de datos. Además, aparte de estas dos características únicas, se puede usar como cualquier lector de feeds. Pero aquí viene la parte que dejará fuera a muchos: <strong>es de pago y se necesita un servidor propio para usarlo</strong>.</p>
+<p>Fever se vende a US$30 dólares y es necesario tener un servicio de hosting donde lo podamos instalar y usar. Y salvo los archivos para probar si es compatible con nuestro server, no hay forma de probarlo antes de pagarlo. Esto último, a pesar de no ser para todos, tiene una ventaja importante: a diferencia de <strong>Google Reader</strong>, no cerrará de forma sorpresiva, pues mientras lo tengamos instalado se podrá usar sin problema. Además, constantemente se actualiza de forma automática.</p>
+
+<div class="wp_rp_wrap  wp_rp_plain" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-1689" data-post-type="none" ><a href="http://www.conectado.vg/2013/04/09/un-vistazo-a-bioshock-infinite/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/04/bioshock_infinite.jpg?resize=150%2C150" class="attachment-thumbnail wp-post-image" alt="Un vistazo a Bioshock Infinite" title="" /></a><a href="http://www.conectado.vg/2013/04/09/un-vistazo-a-bioshock-infinite/" class="wp_rp_title">Un vistazo a Bioshock Infinite</a></li><li data-position="1" data-poid="in-1651" data-post-type="none" ><a href="http://www.conectado.vg/2013/03/06/nominado-a-los-bloggies-2013/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2013/03/bloggies13.jpg?resize=150%2C150" class="attachment-thumbnail wp-post-image" alt="Nominado a los Bloggies 2013" title="" /></a><a href="http://www.conectado.vg/2013/03/06/nominado-a-los-bloggies-2013/" class="wp_rp_title">Nominado a los Bloggies 2013</a></li><li data-position="2" data-poid="in-1191" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/10/shure-se215-los-mejores-audifonos-in-ear-que-he-probado/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/09/prod_img_se215_l.jpg?resize=150%2C150" class="attachment-thumbnail" alt="prod_img_se215_l" /></a><a href="http://www.conectado.vg/2012/09/10/shure-se215-los-mejores-audifonos-in-ear-que-he-probado/" class="wp_rp_title">Shure SE215: Los mejores audífonos in-ear que he probado</a></li><li data-position="3" data-poid="in-763" data-post-type="none" ><a href="http://www.conectado.vg/2012/04/12/el-email-no-esta-muerto/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2012/04/postbox-2-icon-512.png?resize=150%2C150" class="attachment-thumbnail" alt="Postbox es compatible con Mac o PC ;)" /></a><a href="http://www.conectado.vg/2012/04/12/el-email-no-esta-muerto/" class="wp_rp_title">El email (no) está muerto</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/04/11/fever-el-sustituto-de-google-reader-que-se-instala-en-nuestro-server/">Fever: el sustituto de Google Reader que se instala en nuestro server</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/04/11/fever-el-sustituto-de-google-reader-que-se-instala-en-nuestro-server/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>VPN: Navega en Internet como si estuvieras en cualquier lugar del mundo</title>
+		<link>http://www.conectado.vg/2013/04/09/vpn-navega-en-internet-como-si-estuvieras-en-cualquier-lugar-del-mundo/</link>
+		<comments>http://www.conectado.vg/2013/04/09/vpn-navega-en-internet-como-si-estuvieras-en-cualquier-lugar-del-mundo/#comments</comments>
+		<pubDate>Tue, 09 Apr 2013 22:18:07 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Encriptar]]></category>
+		<category><![CDATA[Provacidad]]></category>
+		<category><![CDATA[Redes Virtuales Privadas]]></category>
+		<category><![CDATA[VPN]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1702</guid>
+		<description><![CDATA[<p>Ya antes les había comentado un poco de las VPN. Así que ahora quiero explicar un poco más a detalle en qué consiste. Las VPN son las redes privadas para conectarnos a Internet y que inicialmente estaban pensadas para conexiones corporativas. Hoy eso sólo es una pequeña parte. Las restricciones geográficas que han impuesto las [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/04/09/vpn-navega-en-internet-como-si-estuvieras-en-cualquier-lugar-del-mundo/">VPN: Navega en Internet como si estuvieras en cualquier lugar del mundo</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><img class="alignright size-medium wp-image-1703" alt="20121208_stp502_0" src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/04/20121208_stp502_0.jpg?resize=300%2C168" data-recalc-dims="1" /></p>
+<p>Ya antes <a href="http://www.entermedia.mx/2012/11/y-el-internet-nos-hara-libres/">les había comentado un poco de las VPN</a>. Así que ahora quiero explicar un poco más a detalle en qué consiste. Las <a href="http://es.wikipedia.org/wiki/Red_privada_virtual">VPN</a> son las redes privadas para conectarnos a Internet y que inicialmente estaban pensadas para conexiones corporativas. Hoy eso sólo es una pequeña parte.</p>
+<p>Las restricciones geográficas que han impuesto las grandes empresas de medios para ver contenido ha obligado que los usuarios se las ingenien para brincarse esas barreras invisibles y disfruten de la libertad que ofrece el Internet. Una de las alternativas más socorridas y con mejores resultados, son las redes VPN.</p>
+<p>Hoy hay empresas que se dedican a ofrecer este servicio por una cuota mensual o anual, o a cambio de publicidad. En cualquier caso, lo que sucede es que nosotros nos conectamos a servidores que sirven de puente haciendo que aparezcamos como si estuvieramos conectados en Estados Unidos, Europa o, incluso, Asia. Así, servicios como Netflix, Hulu o Spotify pensarán que estás en otro país y podrás entrar a los catálogos disponibles de aquellas regiones.</p>
+<p><span id="more-1702"></span></p>
+<p>Mi recomendación es evitar los VPN gratuitos, generalmente instalan una app que llena de publicidad la ventana del navegador, además de que no funcionan con todos los sitios o son muy lentos. Los de paga, son los buenos y hay de dos tipos:</p>
+<ul>
+<li><strong>VPN por medio de App</strong>, que son los más sencillos de utilizar ya que no requieren que el usuario configure nada, aunque son más limitados en opciones.</li>
+<li><strong>VPN por medio de configuración de redes</strong>. Este tipo es el mejor, aunque su configuración dista de ser sencilla. Sin embargo todos los proveedores dan instrucciones precisas, además se pueden usar en PC, Mac, smartphones, tabletas y hasta en consolas de videojuegos.</li>
+</ul>
+<p>Algunos de los mejores proveedores de VPN son <a href="http://strongvpn.com/">StrongVPN</a>, <a href="http://www.bolehvpn.net/">BolehVPN</a>, <a href="https://www.boxpn.com/">boxpn</a>, <a href="https://www.astrill.com/">Astrill VPN</a> y <a href="https://www.witopia.net/">WiTopia</a>. Todos ofrecen servicios completos con formas de pago por mes, de 3 o 6 meses o anual. Para los que prefieran la simplicidad, <a href="http://www.tunnelbear.com/">TunnelBear</a> es la mejor alternativa.</p>
+<p>Es importante aclarar que los VPN no son ilegales, no estarías rompiendo ninguna regla y hasta navegarías más seguro porque todas las conexiones van encriptadas.</p>
+<p>Ya lo sabes. Si realmente quieres disfrutar de contenidos sin barreras, los VPN son tu alternativa.</p>
+<p><em>[Este texto se publicó originalmente en <a href="http://www.entermedia.mx/2012/12/vpn-navega-en-internet-como-si-estuvieras-en-cualquier-lugar-del-mundo/">ENTERmedia.mx</a>]</em></p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-763" data-post-type="none" ><a href="http://www.conectado.vg/2012/04/12/el-email-no-esta-muerto/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2012/04/postbox-2-icon-512.png?resize=150%2C150" class="attachment-thumbnail" alt="Postbox es compatible con Mac o PC ;)" /></a><a href="http://www.conectado.vg/2012/04/12/el-email-no-esta-muerto/" class="wp_rp_title">El email (no) está muerto</a></li><li data-position="1" data-poid="in-1000" data-post-type="none" ><a href="http://www.conectado.vg/2012/07/12/acta-en-mexico-cuando-la-ficcion-se-hizo-realidad/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2012/07/fuck_acta.jpeg?resize=150%2C150" class="attachment-thumbnail" alt="fuck_acta" /></a><a href="http://www.conectado.vg/2012/07/12/acta-en-mexico-cuando-la-ficcion-se-hizo-realidad/" class="wp_rp_title">#ACTA en México: cuando la ficción se hizo realidad</a></li><li data-position="2" data-poid="in-927" data-post-type="none" ><a href="http://www.conectado.vg/2012/07/03/mexico-y-el-regreso-del-pri-a-la-silla-presidencial-opinion/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/07/epn.jpeg?resize=150%2C150" class="attachment-thumbnail" alt="Enrique Peña Nieto" /></a><a href="http://www.conectado.vg/2012/07/03/mexico-y-el-regreso-del-pri-a-la-silla-presidencial-opinion/" class="wp_rp_title">México y el regreso del PRI a la silla presidencial [Opinión]</a></li><li data-position="3" data-poid="in-920" data-post-type="none" ><a href="http://www.conectado.vg/2012/06/26/sanebox-una-herramienta-para-gestionar-mejor-tu-inbox/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/06/wpid-fbe8e6974ebe49d44350b7e533895669.jpg?resize=150%2C150" class="attachment-thumbnail" alt="wpid-fbe8e6974ebe49d44350b7e533895669.jpg" /></a><a href="http://www.conectado.vg/2012/06/26/sanebox-una-herramienta-para-gestionar-mejor-tu-inbox/" class="wp_rp_title">Sanebox: Una herramienta para gestionar mejor tu Inbox</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/04/09/vpn-navega-en-internet-como-si-estuvieras-en-cualquier-lugar-del-mundo/">VPN: Navega en Internet como si estuvieras en cualquier lugar del mundo</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/04/09/vpn-navega-en-internet-como-si-estuvieras-en-cualquier-lugar-del-mundo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Un vistazo a Bioshock Infinite</title>
+		<link>http://www.conectado.vg/2013/04/09/un-vistazo-a-bioshock-infinite/</link>
+		<comments>http://www.conectado.vg/2013/04/09/un-vistazo-a-bioshock-infinite/#comments</comments>
+		<pubDate>Tue, 09 Apr 2013 15:56:33 +0000</pubDate>
+		<dc:creator>Roberto Armando</dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Videojuegos]]></category>
+		<category><![CDATA[Bioshock Infinite]]></category>
+		<category><![CDATA[Consolas]]></category>
+		<category><![CDATA[FPS]]></category>
+		<category><![CDATA[PC]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[PS3]]></category>
+		<category><![CDATA[Xbox 360]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1689</guid>
+		<description><![CDATA[<p>Cuando en el 2007 fue lanzado Bioshock, fue uno de los mejores juegos de la época de acuerdo a la crítica especializada en videojuegos. Este mes, y después de una secuela medianamente aceptada, seis años en desarrollo y los rumores de que su costo de producción y promoción fueron de casi 200 millones de dólares, [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/04/09/un-vistazo-a-bioshock-infinite/">Un vistazo a Bioshock Infinite</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>Cuando en el 2007 fue lanzado <strong>Bioshock</strong>, fue uno de los mejores juegos de la época de acuerdo a la crítica especializada en videojuegos. Este mes, y después de una secuela medianamente aceptada, seis años en desarrollo y los rumores de que su costo de producción y promoción fueron de casi 200 millones de dólares, <strong>Bioshock Infinite</strong> ha sido lanzado con muy buenas críticas.</p>
+<p><a href="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/04/2k_bioshockinfinite_marquee.png"><img class="size-full wp-image-1690 aligncenter" alt="2k_bioshockinfinite_marquee" src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/04/2k_bioshockinfinite_marquee.png?resize=659%2C260" data-recalc-dims="1" /></a></p>
+<p>Y es que no es para menos, ya que el género de los juegos de disparos en primera persona últimamente ha cobrado mucha popularidad por series reconocidas como <strong>Call of Duty</strong> y el universo de <strong>Halo</strong>, sin embargo, <strong>Bioshock Infinite</strong> no regresa al mundo bizarro de Rapture como los juegos anteriores, si no que ahora la aventura se desarrolla en la ciudad aérea de Columbia, a principios del siglo XIX.</p>
+<p><span id="more-1689"></span></p>
+<p>Uno de los fundamentos básicos en un videojuego, es que sepan como contar una buena narrativa de forma sencilla pero inteligente, y Bioshock Infinite lo ha logrado. La historia no es muy original, ya que el personaje principal; <strong>Booker Dewitt</strong>, es enviado a recoger a una chica de nombre <strong>Elizabeth</strong>, para así poder saldar su deuda. Sin embargo, el camino no es fácil y en el transcurso de la historia, el juego se va desenvolviendo de una forma que de verdad te envuelve y permite que sientas empatía por Elizabeth y los sucesos alrededor de ella.</p>
+<p>Booker Dewitt poco a poco podrá incorporar habilidades llamadas <strong>“Vigores”</strong> que son habilidades sobrenaturales como lanzar esferas de fuego, electricidad, etc. Además de las clásicas armas de fuego como pistolas, escopetas, lanzacohetes y similares.</p>
+<p><img class="aligncenter size-full wp-image-1691" alt="bioinfi" src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2013/04/bioinfi.jpg?resize=640%2C360" data-recalc-dims="1" /></p>
+<p>Y aquí es donde Elizabeth marca la diferencia en la forma de jugar Bioshock Infinite, ya que siempre te acompañará en las batallas, y aunque no participe por buscar un escondite, si te ayudará de vez en cuando arrojándote items de ayuda como munición extra, kits médicos o tips de que es lo que hay que hacer. Un poco más adelante en el juego, te podrá ayudar de más formas, pero eso lo averiguarás en su tiempo, ya que de otra forma se echaría a perder la historia.</p>
+<p>Pasando a la ciudad de <strong>Columbia</strong>, tal y como lo habíamos mencionado al principio, es una ciudad que se encuentra en suspendida en el aire, por lo cual será habitual que muchos de los combates se lleven a cabo yendo de un lugar a otro, luchando contra embarques aéreos, robots voladores y enemigos comunes como soldados  normales y uno que otro con habilidades sobrenaturales como desvanecerse en el aire. La ciudad de Columbia por si sola solo se puede describir como exuberante y bella; se nota el esmero que los estudios<strong> Irrational Games</strong> pusieron en el juego, no solo en gráficos, si no en todo tipo de detalles acorde a la época, desde la música con melodías clásicas, hasta algunos diálogos que demuestran el <strong>racismo</strong> y problemas sociales y culturales que existían en ese tiempo.</p>
+<p>Para terminar, solo se puede decir de <strong>Bioshock Infinite</strong>, que es uno de los mejores juegos que han salido hasta ahora y que ofrece lo que pocos títulos siempre prometen: diversión. Desde la historia tan envolvente,  personajes muy bien desarrollados con gran interacción entre ellos y el mismo jugador, sin mencionr que los combates tanto aéreos como terrestres son muy entretenidos y a gran escala, en verdad es recomendable jugarlo recorriendo todos los rincones del juego, tratando de no dejar una sola área sin investigar, ya que te puedes perder de encontrar algún objeto raro o incluso hasta alguna arma o mejoría para tu sistema de vigores, además de que de eso se trata Bioshock Infinite; de jugar, investigar, dejarse llevar por su genial historia.</p>
+<p><strong>Aunque al final no es el juego perfecto, la verdad es que se acerca mucho a serlo</strong>.</p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-1248" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/20/conectado-8-podcast/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/09/wireless_hero.jpg?resize=150%2C150" class="attachment-thumbnail" alt="wireless_hero" /></a><a href="http://www.conectado.vg/2012/09/20/conectado-8-podcast/" class="wp_rp_title">Conectado 8 [Podcast]</a></li><li data-position="1" data-poid="in-1320" data-post-type="none" ><a href="http://www.conectado.vg/2012/10/04/v-con-y-egs-fest-dos-eventos-de-videojuegos-con-mas-preguntas-que-respuestas/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/10/Eventos_VGames.png?resize=150%2C150" class="attachment-thumbnail" alt="Eventos_VGames" /></a><a href="http://www.conectado.vg/2012/10/04/v-con-y-egs-fest-dos-eventos-de-videojuegos-con-mas-preguntas-que-respuestas/" class="wp_rp_title">V-Con y EGS Fest: Dos eventos de videojuegos con más preguntas que respuestas</a></li><li data-position="2" data-poid="in-26" data-post-type="none" ><a href="http://www.conectado.vg/2010/12/23/mi-regreso-a-windows-7/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/24.jpg" alt="Mi regreso a Windows 7" data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2010/12/23/mi-regreso-a-windows-7/" class="wp_rp_title">Mi regreso a Windows 7</a></li><li data-position="3" data-poid="in-6" data-post-type="none" ><a href="http://www.conectado.vg/2011/04/13/mi-opinion-de-atomixmag-en-el-ipad/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/4.jpg" alt="Mi opinión de #AtomixMag en el iPad" data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2011/04/13/mi-opinion-de-atomixmag-en-el-ipad/" class="wp_rp_title">Mi opinión de #AtomixMag en el iPad</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/04/09/un-vistazo-a-bioshock-infinite/">Un vistazo a Bioshock Infinite</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/04/09/un-vistazo-a-bioshock-infinite/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Samsung Galaxy S4 y su mala presentación</title>
+		<link>http://www.conectado.vg/2013/03/15/samsung-galaxy-s4-y-su-desastroza-presentacion/</link>
+		<comments>http://www.conectado.vg/2013/03/15/samsung-galaxy-s4-y-su-desastroza-presentacion/#comments</comments>
+		<pubDate>Fri, 15 Mar 2013 06:08:15 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Tecnología]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Galaxy S4]]></category>
+		<category><![CDATA[New York]]></category>
+		<category><![CDATA[NY]]></category>
+		<category><![CDATA[Opinión]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[Samsung Galaxy S4]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1665</guid>
+		<description><![CDATA[<p>Como periodista he tenido la oportunidad de cubrir lanzamientos de productos en todo el mundo. He logrado atestiguar una sorprendente cantidad de formas para introducir a la audiencia un producto o servicio. Pero nunca algo como lo que realizó Samsung para dar a conocer el nuevo Galaxy S4. No hablaré del interesante Samsung Galaxy S4, [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/03/15/samsung-galaxy-s4-y-su-desastroza-presentacion/">Samsung Galaxy S4 y su mala presentación</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<div id="attachment_1671" class="wp-caption aligncenter" style="width: 510px"><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2013/03/03142013_samsung-grppplay.jpg?resize=500%2C375" alt="Foto: MarketNews" class="size-full wp-image-1671" data-recalc-dims="1" /><p class="wp-caption-text"><em>Foto: <a href="http://www.marketnews.ca/content/index/page?pid=13439">MarketNews</a></em></p></div>
+<p>Como periodista he tenido la oportunidad de cubrir lanzamientos de productos en todo el mundo. He logrado atestiguar una sorprendente cantidad de formas para introducir a la audiencia un producto o servicio. Pero nunca algo como lo que realizó Samsung para dar a conocer el nuevo Galaxy S4.</p>
+<p>No hablaré del interesante Samsung Galaxy S4, salvo que me parece un equipo que representará una interesante competencia con características sobresalientes. Es probable que sea uno de los mejores smartphones en el mercado durante el 2013. Pero no, este post no va de eso. Sino de la extraña y ridícula manera de presentarlo.</p>
+<p><span id="more-1665"></span></p>
+<p>Samsung comenzó con una campaña muy fuerte, avisando que la ciudad de Nueva York sería la sede para el evento. Lanzaron un par de breves comerciales e hicieron crecer la expectativa a niveles muy altos. Lo que yo esperaba con todo esto, era que presentaran un smartphone tan impresionante que rompería paradigmas y marcaría tendencias. Pero no fue así. Todo se trató de armar un gigantesco show, con actores, orquesta en vivo y un par de conductores que en su intento de simular situaciones &#8220;reales&#8221; del uso del Galaxy S4, dejaban al mismo teléfono en segundo plano con tal de mostrar lo espectacular del escenario, la habilidad de los actores para bailar, lo bonito de la música y los supuestos estereotipos de la gente que lejos de aplaudirse, me parecieron ofensivos.</p>
+<p>Algo me ha quedado clarísimo: Samsung tiene mucho dinero para promocionar sus productos. Creo que ese dinero deberían de invertirlo mejor en investigación y desarrollo; porque aunque el S4 parece será un gran smartphone con una pantalla gigante -que no sé si a este paso veremos el Galaxy S5 con 7 o 9 pulgadas-, las funciones que vimos no son necesariamente revolucionarias. Son mejoras de cosas que ya existen o que otros ya presentaron antes.</p>
+<p>No quiero que me malentiendan. Aplaudo a Samsung por competir tan ferozmente con un producto que aparenta ser competitivo, pero repruebo totalmente que hagan un show tan ridículo para presentarlo.</p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-893" data-post-type="none" ><a href="http://www.conectado.vg/2012/06/12/asus-transformer-prime-una-oferta-imperdible/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/06/asus-transformer-prime.jpg?resize=150%2C150" class="attachment-thumbnail" alt="asus-transformer-prime" /></a><a href="http://www.conectado.vg/2012/06/12/asus-transformer-prime-una-oferta-imperdible/" class="wp_rp_title">Asus Transformer Prime: Una oferta imperdible</a></li><li data-position="1" data-poid="in-1288" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/28/conectado-9-parte-1-podcast/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/09/galaxy_nexus.jpg?resize=150%2C150" class="attachment-thumbnail" alt="galaxy_nexus" /></a><a href="http://www.conectado.vg/2012/09/28/conectado-9-parte-1-podcast/" class="wp_rp_title">Conectado 9 parte 1 [Podcast]</a></li><li data-position="2" data-poid="in-851" data-post-type="none" ><a href="http://www.conectado.vg/2012/05/18/y-el-mejor-smartphone-que-hay-en-el-mercado-es/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/05/smartphones.jpeg?resize=150%2C150" class="attachment-thumbnail" alt="smartphones-" /></a><a href="http://www.conectado.vg/2012/05/18/y-el-mejor-smartphone-que-hay-en-el-mercado-es/" class="wp_rp_title">Y el mejor smartphone que hay en el mercado es&#8230;</a></li><li data-position="3" data-poid="in-922" data-post-type="none" ><a href="http://www.conectado.vg/2012/06/27/galaxy-nexus-7-la-primer-tablet-de-google/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/28.jpg" alt="Galaxy Nexus 7: La primera tablet de Google" data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2012/06/27/galaxy-nexus-7-la-primer-tablet-de-google/" class="wp_rp_title">Galaxy Nexus 7: La primera tablet de Google</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/03/15/samsung-galaxy-s4-y-su-desastroza-presentacion/">Samsung Galaxy S4 y su mala presentación</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/03/15/samsung-galaxy-s4-y-su-desastroza-presentacion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Nominado a los Bloggies 2013</title>
+		<link>http://www.conectado.vg/2013/03/06/nominado-a-los-bloggies-2013/</link>
+		<comments>http://www.conectado.vg/2013/03/06/nominado-a-los-bloggies-2013/#comments</comments>
+		<pubDate>Wed, 06 Mar 2013 22:30:05 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Emprendimiento]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[2013 Bloggies]]></category>
+		<category><![CDATA[Bloggies]]></category>
+		<category><![CDATA[Bloggies 2013]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[Weblog Awards.]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1651</guid>
+		<description><![CDATA[<p>Otro año y otros premios Bloggies. Este año, Conectado.vg ha tenido la suerte de estar nominado en la categoría de &#8220;Mejor Blog Latinoamericano&#8221; en los Bloggies 2013. Y no es por presumir, pero no es la primera vez que me nominan e incluso, lo gané en el 2008 con otro blog. Un amigo me preguntaba [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/03/06/nominado-a-los-bloggies-2013/">Nominado a los Bloggies 2013</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2013/03/Bloggies-2013.png?resize=622%2C188" alt="Bloggies 2013" class="aligncenter size-full wp-image-1652" data-recalc-dims="1" /></p>
+<p>Otro año y otros premios <a href="http://2013.bloggi.es/">Bloggies</a>. Este año, Conectado.vg ha tenido la suerte de estar nominado en la categoría de <strong>&#8220;Mejor Blog Latinoamericano&#8221;</strong> en los Bloggies 2013. Y no es por presumir, pero no es la primera vez que me nominan e incluso, <a href="http://2008.bloggi.es/">lo gané en el 2008 con otro blog</a>.</p>
+<p>Un amigo me preguntaba que cuál era el premio. En realidad, ninguno salvo el aumentar el tamaño del ego, que parece que nunca tendrá suficiente y, quizás, generar plática informal entre un grupo de amigos. Lo cierto, es que como todo concurso, es más divertido ganar que perder.</p>
+<p>Así que, si les gusta lo que pasa en <strong>Conectado</strong>, les agradecería mucho si votan por este blog. Con sus votos, y un poco de suerte, Conectado se llevaría su primer Bloggie <img src='http://i1.wp.com/www.conectado.vg/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' data-recalc-dims="1" /> </p>
+<p>La liga para votar por sus favoritos, está en el siguiente link: <a href="http://2013.bloggi.es/">The 2013 Bloggies</a>.</p>
+<p>Tienen hasta el 17 de marzo del 2013.</p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-16" data-post-type="none" ><a href="http://www.conectado.vg/2011/02/02/finalista-de-los-bloggies-2011/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2011/05/bloggies2011-scaled1000.jpg?resize=150%2C150" class="attachment-thumbnail" alt="Finalista de los Bloggies 2011" /></a><a href="http://www.conectado.vg/2011/02/02/finalista-de-los-bloggies-2011/" class="wp_rp_title">Finalista de los Bloggies 2011</a></li><li data-position="1" data-poid="in-1834" data-post-type="none" ><a href="http://www.conectado.vg/2013/04/11/fever-el-sustituto-de-google-reader-que-se-instala-en-nuestro-server/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2013/04/readlaptop.jpg?resize=150%2C150" class="attachment-thumbnail wp-post-image" alt="Fever: el sustituto de Google Reader que se instala en nuestro server" title="" /></a><a href="http://www.conectado.vg/2013/04/11/fever-el-sustituto-de-google-reader-que-se-instala-en-nuestro-server/" class="wp_rp_title">Fever: el sustituto de Google Reader que se instala en nuestro server</a></li><li data-position="2" data-poid="in-749" data-post-type="none" ><a href="http://www.conectado.vg/2012/04/11/caines-arcade-la-historia-de-un-pequeno-emprendedor/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/12.jpg" alt="Caine&#8217;s Arcade: La historia de un pequeño emprendedor" data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2012/04/11/caines-arcade-la-historia-de-un-pequeno-emprendedor/" class="wp_rp_title">Caine&#8217;s Arcade: La historia de un pequeño emprendedor</a></li><li data-position="3" data-poid="in-1619" data-post-type="none" ><a href="http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/02/k240studio.jpg?resize=150%2C150" class="attachment-thumbnail" alt="AKG K 240 Studio" /></a><a href="http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/" class="wp_rp_title">AKG K240 Studio: Audífonos profesionales para todos</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/03/06/nominado-a-los-bloggies-2013/">Nominado a los Bloggies 2013</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/03/06/nominado-a-los-bloggies-2013/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>AKG K240 Studio: Audífonos profesionales para todos</title>
+		<link>http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/</link>
+		<comments>http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/#comments</comments>
+		<pubDate>Wed, 20 Feb 2013 00:19:07 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Audio]]></category>
+		<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[AKG]]></category>
+		<category><![CDATA[AKG K240]]></category>
+		<category><![CDATA[AKG K240 Studios]]></category>
+		<category><![CDATA[Audífonos]]></category>
+		<category><![CDATA[Auriculares]]></category>
+		<category><![CDATA[Headphones]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[Reseña]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Semi-open]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1619</guid>
+		<description><![CDATA[<p>Cada que alguno de nosotros entra a una tienda de tecnología o especializada y buscamos audífonos, nos encontramos con los modelos de siempre: Beats, Coloud, Sony, Panasonic, Sol Republic, Bose. En ocasiones veremos cosas de Sennheiser y alguna otra marca que quiere un pedazo de ese jugoso pastel que popularizaron los terribles Beats. Encontrar joyas [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/">AKG K240 Studio: Audífonos profesionales para todos</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<div id="attachment_1620" class="wp-caption alignright" style="width: 208px"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/02/k240studio.jpg?resize=198%2C300" alt="AKG K 240 Studio" class="size-medium wp-image-1620" data-recalc-dims="1" /><p class="wp-caption-text">AKG K 240 Studio</p></div>
+<p>Cada que alguno de nosotros entra a una tienda de tecnología o especializada y buscamos audífonos, nos encontramos con los modelos de siempre: Beats, Coloud, Sony, Panasonic, Sol Republic, Bose. En ocasiones veremos cosas de Sennheiser y alguna otra marca que quiere un pedazo de ese jugoso pastel que popularizaron los <a href="http://www.conectado.vg/2012/04/08/la-verdad-de-los-audifonos-beats-by-dr-dre/">terribles Beats</a>. Encontrar joyas o modelos que valgan la pena es un volado.</p>
+<p>Pero aparte de Sennheiser, es muy difícil encontrar a marcas como Beyerdynamic, Grado, <a href="http://www.conectado.vg/2012/09/10/shure-se215-los-mejores-audifonos-in-ear-que-he-probado/">Shure</a>, Audio-Technica o AKG. Y en esta ocasión les quiero hablar de un modelo, que de nuevo no tiene nada, pero su sonido es tan brillante que dejará atónitos a todos los que se dicen tener buen gusto por la música y al resto&#8230; también. Se trata de los <a href="http://www.akg.com/site/products/powerslave,id,252,pid,252,nodeid,2,_language,EN.html">AKG K240 Studio</a>.</p>
+<p><span id="more-1619"></span></p>
+<h2>Un poco de historia</h2>
+<p>Los de AKG son austriacos y, aunque hoy son parte de el conglomerado <em>gringo</em> de Harman/Kardon, siguen diseñando todos sus productos en Austria. El primer modelo de AKG K240 vio la luz en 1975, dos años antes de que yo naciera. Desde entonces ha sido uno de los audífonos más usados en estudios de grabación profesionales. Y ha salido, incluso, en algunos videos musicales de la década de los 1980s.</p>
+<p>Los primeros modelos tenían una impedancia de 300 Ohms, que son ideales para studio o amplificadores de sonido de escritorio. Desde 1975, al día de hoy, han existido varias versiones con ligeros cambios. El modelo que hoy podemos encontrar en su versión &#8220;más económica&#8221; es el AKG K 240 Studio que está diseñado en Austria y fabricado en China.</p>
+<p>Este AKG K240, a diferencia de sus hermanos más viejos, salió al mercado por primera vez en 2002 y su principal diferencia es que su impedancia se modificó a 55 Ohms, haciendolo mucho más apto para iPods, Walkmans y toda clase de reproductores o amplificadores de bajo voltaje. Este es el modelo que hoy tengo en mi cabeza.</p>
+<h2>Grandes, ligeros y con mucho aire</h2>
+<p>Los AKG K240 son un modelo que se comercializa como semi abierto, es decir, a diferencia de los auriculares cerrados, que encapsulan el sonido; acá el sonido fluye más natural, ofreciéndo un sonido más puro y menos claustrofóbico logrando que puedan usarse por horas sin cansar al usuario. Como punto negativo, es que gracias a su naturaleza no aislan el sonido exterior como los modelos cerrados, por lo que escucharemos el ambiente de nuestro alrededor, a menos que le subamos el volumen, pero para entonces, nuestros compañeros o vecinos de a lado, escucharán nuestra música.</p>
+<p>Esto los hace aptos para ambientes en donde no es importante aislarse. A mi me funcionan muy bien en el trabajo, por que me permiten estar al tanto del teléfono, o de que algun compañero de oficina me llame. Pero no serían tan buenos en el metro o un avión, por ejemplo.</p>
+<p>Su diseño, como se aprecia en la foto, es grande. Son del tipo que rodea por completo a la oreja, por lo que al usarlos no ganarás un concurso de modas. Sin embargo sus materiales a base de plastico, los hace muy ligeros e increíblemente cómodosos. Tanto, que podrías traerlos puestos toda una jornada de trabajo sin sentir apenas alguna molestia en la cabeza.</p>
+<p>Este modelo, porque hay algunas variaciones, solo está disponible en negro con detalles en dorado. Si les gusta la onda retro, estos AKG cumplen esa función. Y, aunque los materiales son más bien a base de plático, se sienten lo suficientemente fuertes como para aguantar el maltrato del uso diario. Yo los cargo casi diario, los he subido a aviones y no han sufrido ningúna avería o daño. Y no soy especialmente cuidadoso.</p>
+<p><img class="aligncenter size-large wp-image-1621" alt="k240studio" src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2013/02/k240studio4055.jpg?fit=1024%2C1024" data-recalc-dims="1" /></p>
+<p>El cable que incluyen tiene una longitud de 3m y un minuplug de 3.5mm, aunque se incluye un adaptador para amplificadores grandes. El que el cable sea tan largo es tanto bueno, como malo. Cuando se viaja o se mueve con ellos, esos 3m resultan una molestia. Pero en situaciones fijas, puede ser una ventaja por la movilidad que ofrecen. A mi me hubiera gustado que tuvieran una longitud media.</p>
+<h2>El sonido más bello en este rango de precio</h2>
+<p>Los AKG K240 se pueden conseguir en <a href="http://www.amazon.com/AKG-Acoustics-K-240-Studio-Headphones/dp/B0001ARCFA/ref=sr_1_1?ie=UTF8&amp;qid=1361315797&amp;sr=8-1&amp;keywords=akg+k+240">Amazon por menos de 100 dólares</a>. Y por ese dinero son la mejor oferta que se puede encontrar. Olvídsense de los sobrevaluados Beats o Bose. Aunque es importante decir que, aunque con 55 Ohms, no recomiendo usarlos directamente a un iPod o reproductor MP3 portátil.</p>
+<p>Aunque AKG los comercializa como perfectos para iPods y similares, la realidad es que los K240 Studio se benefician enormemente de un amplificador. En mi caso, siempre lo uso con un amplificador para audífonos portátil de la marca <a href="http://fiio.com.cn/">FiiO</a>. Conectarlos sin un amplificador, hará que se escuchen <em>&#8220;quedito&#8221;</em>, que quizás no sea tan malo pero les faltará ese rango dinámico que solo una mejor fuente puede dar y eso tiene poco que ver con el volumen.</p>
+<p>Dicho lo anterior, al usarlos con una fuente de corriente decente, notaremos un gran detalle en la música que pasa por sus bocinas. Cada nota, cada instrumento, cada respiro del vocalista; lo escucharemos con una claridad como nunca antes. El rango de frecuencias agudas es muy claro y brillante; pero nunca llega a ese sonido chillante que ofrecen otros audífonos. Los medios son fuertes y claros, ofreciendo presencia a las voces y a los riffs de guitarras; lejos están de ese sonido pequeño que dan los audífonos modernos ecualizados en &#8220;V&#8221;. Los bajos, en cambio, están presentes, pero nunca sobresalen del resto de las frecuencias. Es muy probable que muchos que los escuchen por primera vez, sentirán que son débiles en ese sentido. Y no los culpo, pues nuestra percepción ha sido modificada gracias a los Beats, Bose y muchos otros modelos que enfatizan los bajos como si de eso dependiera la calidad de su sonido.</p>
+<p>Hemos vivido en una época en dónde si se tienen bajos potentes, entonces eso es bueno. Escuchar estos AKG es como recibir una cubetada de agua fría. Un buen producto ofrece una excente calidad de sonido, no por la potencia en sus bajos, sino por lograr un sonido neutral que se pueda disfrutar por horas, obligándonos de buena manera a escuchar de nuevo todas nuestras canciones para descubrirlas de nuevo. Estos AKG K240 me despertaron de mi letargo y hoy no puedo irme a la cama, sin antes escuchar aunque sea una canción.</p>
+<p>Además, gracias a su naturaleza semi abierta, y su gran espacio, logran un efecto tridimensioinal que permite ubicar claramente la posición de los instrumentos. Adiós a esa sensación de claustrofobía o encierro que llega a cansar.</p>
+<p>He logrado escuchar casi todo tipo de género con estos AKG: desde un poco de rock, pop, indie, electro, ritmos latinos y hasta un poco música clásica. En todas las ocasiones los resultados han sido más positivos que con otros audífonos que tengo en mi colección. Siento no tener el equipo adecuado para hacer las gráficas correspondientes.</p>
+<h2>Conclusión</h2>
+<p>Los AKG K240 fueron un despertar para mis oídos. Se producen desde 1975 y hoy, siguen siendo preferidos por estudios profesionales de grabación. Eso debe de decir algo, ¿no?. Yo no puedo más que recomendárselos ampliamente. No son perfectos, ni ideales para todas las ocasiones; pero para esos momentos o situaciones donde sí lo son, entonces es que desquitan cada peso de lo que cuestan.</p>
+<p>Y lo único que realmente lamento, es que no son fáciles de encontrar en México o Latinoamérica. Yo los compré en Estados Unidos, a través de Amazon.com. De otra forma, hoy seguiría contaminando mis oídos con audífonos caros, patrocinados por gente famosa y una calidad de sonido distorsionada de lo que debe de ser.</p>
+<p><strong>Referencias:</strong></p>
+<ul>
+<li><a href="http://wiki.faust3d.com/wiki/index.php?title=AKG_K240_Series">AKG K240 series</a></li>
+<li><a href="http://en.wikipedia.org/wiki/AKG_Acoustics">AKG Acoustics en Wikipedia</a></li>
+</ul>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-1191" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/10/shure-se215-los-mejores-audifonos-in-ear-que-he-probado/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/09/prod_img_se215_l.jpg?resize=150%2C150" class="attachment-thumbnail" alt="prod_img_se215_l" /></a><a href="http://www.conectado.vg/2012/09/10/shure-se215-los-mejores-audifonos-in-ear-que-he-probado/" class="wp_rp_title">Shure SE215: Los mejores audífonos in-ear que he probado</a></li><li data-position="1" data-poid="in-1067" data-post-type="none" ><a href="http://www.conectado.vg/2012/08/15/cuales-son-los-mejores-audifonos-que-se-pueden-comprar/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/08/imego_headphones_thumb.jpg?resize=150%2C150" class="attachment-thumbnail" alt="imego_headphones_thumb.jpg" /></a><a href="http://www.conectado.vg/2012/08/15/cuales-son-los-mejores-audifonos-que-se-pueden-comprar/" class="wp_rp_title">¿Cuáles son los mejores audífonos que se pueden comprar?</a></li><li data-position="2" data-poid="in-1360" data-post-type="none" ><a href="http://www.conectado.vg/2012/10/22/audifonos-soul-by-ludacris-sl150-resena/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2012/10/SL150BU_3_3_jpg_470x405_q85.jpg?resize=150%2C150" class="attachment-thumbnail" alt="Soul SL150" /></a><a href="http://www.conectado.vg/2012/10/22/audifonos-soul-by-ludacris-sl150-resena/" class="wp_rp_title">Audífonos Soul by Ludacris SL150 [Reseña]</a></li><li data-position="3" data-poid="in-731" data-post-type="none" ><a href="http://www.conectado.vg/2012/04/08/la-verdad-de-los-audifonos-beats-by-dr-dre/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/04/glam_solo.png?resize=150%2C150" class="attachment-thumbnail" alt="glam_solo" /></a><a href="http://www.conectado.vg/2012/04/08/la-verdad-de-los-audifonos-beats-by-dr-dre/" class="wp_rp_title">La verdad de los audífonos Beats by Dr. Dre</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/">AKG K240 Studio: Audífonos profesionales para todos</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Conectado 15 [Podcast] &#8211; MEGA, Nintendo y las nominaciones al Oscar</title>
+		<link>http://www.conectado.vg/2013/01/25/conectado-15-podcast-mega-nintendo-y-las-nominaciones-al-oscar/</link>
+		<comments>http://www.conectado.vg/2013/01/25/conectado-15-podcast-mega-nintendo-y-las-nominaciones-al-oscar/#comments</comments>
+		<pubDate>Fri, 25 Jan 2013 17:16:35 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Conectado]]></category>
+		<category><![CDATA[Conectado Podcast]]></category>
+		<category><![CDATA[Kim Dotcom]]></category>
+		<category><![CDATA[Mario]]></category>
+		<category><![CDATA[MEGA]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[Oscar]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[Premios de la Academia]]></category>
+		<category><![CDATA[Premios Oscar]]></category>
+		<category><![CDATA[Zelda]]></category>
+		<category><![CDATA[Zelda WindWaker HD]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1564</guid>
+		<description><![CDATA[<p>En Conectado 15 platicamos del lanzamiento de MEGA, así como los litigios legales de su creador Kim Dotcom. También discutimos de los recientes anuncios que realizó Nintendo para su consola Wii U. Finalmente conversamos de las películas nominadas a los premios Oscar.</p><p>La entrada <a href="http://www.conectado.vg/2013/01/25/conectado-15-podcast-mega-nintendo-y-las-nominaciones-al-oscar/">Conectado 15 [Podcast] &#8211; MEGA, Nintendo y las nominaciones al Oscar</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.conectado.vg/2013/01/25/conectado-15-podcast-mega-nintendo-y-las-nominaciones-al-oscar/oscar-awards/" rel="attachment wp-att-1609"><img class="aligncenter size-full wp-image-1609" alt="Oscar-Awards" src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2013/01/Oscar-Awards.jpg?resize=640%2C480" data-recalc-dims="1" /></a></p>
+<p>Después de unas vacaciones accidentadas, estamos de vuelta en <strong>Conectado Podcast Episodio 15</strong>. Para comenzar el año, Iván Moreno (<a href="http://twitter.com/theinsane">@theinsane</a>) y Carlos Gutiérrez (<a href="http://twitter.com/The_Wire">@The_Wire</a>), nos sentamos a platicar de los temas geeks del momento.</p>
+<p>En Conectado 15 platicamos del lanzamiento de <a href="http://mega.co.nz">MEGA</a> y la experiencia de usuario que ofrece, así como los litigios legales de su creador Kim Dotcom. También discutimos de los recientes anuncios que realizó <strong>Nintendo</strong> con respecto a nuevos servicios y juegos para su consola Wii U. Finalmente, en la sección de Cine, <strong>conversamos de las películas nominadas a los premios Oscar</strong>, así como nuestras predicciones de las ganadoras.</p>
+<p>El video -sin editar- lo encuentran después del salto, mientras que el reproductor de audio lo encuentran en la parte inferior del post.</p>
+<p>Suscríbete por: <a href="http://www.conectado.vg/category/podcast/feed/">RSS</a> | <a href="http://itunes.apple.com/mx/podcast/conectado-podcast/id543681188?l=en">iTunes</a> | <a href="http://eepurl.com/oLr41">Newsletter</a> | Síguenos en Twitter (<a href="http://www.twitter.com/ConectadoP">@ConectadoP</a>).</p>
+<p><span id="more-1564"></span></p>
+<h2>Conectado 15 en video, parte 1</h2>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='390' src='http://www.youtube.com/embed/42j2W3bJgbA?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span></p>
+<h2>Conectado 15 en video, parte 2</h2>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='390' src='http://www.youtube.com/embed/F_Ee_MejAZI?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span></p>
+<p>Las canciones usadas en el podcast son cortesía de <a href="http://www.ccmixter.org">ccMixter</a>. La canción del final es <em>Hey Big Brother</em> de <strong>Rare Earth</strong>.</p>
+<p>Esperamos sus comentarios <img src='http://i2.wp.com/www.conectado.vg/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' data-recalc-dims="1" /> </p>
+<p>Link: <a href="http://conectado.vg/category/podcast/">Conectado Podcast</a>.</p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-1248" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/20/conectado-8-podcast/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/09/wireless_hero.jpg?resize=150%2C150" class="attachment-thumbnail" alt="wireless_hero" /></a><a href="http://www.conectado.vg/2012/09/20/conectado-8-podcast/" class="wp_rp_title">Conectado 8 [Podcast]</a></li><li data-position="1" data-poid="in-1401" data-post-type="none" ><a href="http://www.conectado.vg/2012/11/29/conectado-13-podcast-samsung-wireless-audio-metal-gear-rising-revengeance-gameplanet-y-flight/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/11/121015-2.jpg?resize=150%2C150" class="attachment-thumbnail" alt="Samsung Wireless Audio with Dock" /></a><a href="http://www.conectado.vg/2012/11/29/conectado-13-podcast-samsung-wireless-audio-metal-gear-rising-revengeance-gameplanet-y-flight/" class="wp_rp_title">Conectado 13 [Podcast] &#8211; Samsung Wireless Audio, Metal Gear Rising: Revengeance, GamePlanet y Flight</a></li><li data-position="2" data-poid="in-1140" data-post-type="none" ><a href="http://www.conectado.vg/2012/08/29/conectado-6-podcast/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/08/us-apple-vs-samsung-trial.jpg?resize=150%2C150" class="attachment-thumbnail" alt="us-apple-vs-samsung-trial" /></a><a href="http://www.conectado.vg/2012/08/29/conectado-6-podcast/" class="wp_rp_title">Conectado 6 [Podcast]</a></li><li data-position="3" data-poid="in-1301" data-post-type="none" ><a href="http://www.conectado.vg/2012/10/01/conectado-9-parte-2-podcast/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/09/revolution_2012-show.jpg?resize=150%2C150" class="attachment-thumbnail" alt="revolution_2012-show" /></a><a href="http://www.conectado.vg/2012/10/01/conectado-9-parte-2-podcast/" class="wp_rp_title">Conectado 9 parte 2 [Podcast]</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/01/25/conectado-15-podcast-mega-nintendo-y-las-nominaciones-al-oscar/">Conectado 15 [Podcast] &#8211; MEGA, Nintendo y las nominaciones al Oscar</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/01/25/conectado-15-podcast-mega-nintendo-y-las-nominaciones-al-oscar/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://www.conectado.vg/podpress_trac/feed/1564/0/Conectado_15.mp3" length="61173156" type="audio/mpeg" />
+		<itunes:duration>1:03:43</itunes:duration>
+		<itunes:subtitle>En Conectado 15 platicamos del lanzamiento de MEGA, así como los litigios legales de su creador Kim Dotcom. También discutimos de los recientes anuncios que realizó Nintendo para su consola Wii U. Finalmente conversamos de las películas nominadas a [...]</itunes:subtitle>
+		<itunes:summary>En Conectado 15 platicamos del lanzamiento de MEGA, así como los litigios legales de su creador Kim Dotcom. También discutimos de los recientes anuncios que realizó Nintendo para su consola Wii U. Finalmente conversamos de las películas nominadas a los premios Oscar.La entrada Conectado 15 [Podcast] &#8211; MEGA, Nintendo y las nominaciones al Oscar aparece primero en Conectado.</itunes:summary>
+		<itunes:keywords>Podcast</itunes:keywords>
+		<itunes:author>Carlos Gutiérrez</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>Victorinox Tomo: Hecha en Suiza, dise&#241;ada en Jap&#243;n</title>
+		<link>http://www.conectado.vg/2013/01/23/victorinox-tomo-hecha-en-suiza-diseada-en-japn/</link>
+		<comments>http://www.conectado.vg/2013/01/23/victorinox-tomo-hecha-en-suiza-diseada-en-japn/#comments</comments>
+		<pubDate>Wed, 23 Jan 2013 17:02:49 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Abitax]]></category>
+		<category><![CDATA[Kazuma Yamaguchi]]></category>
+		<category><![CDATA[navaja suiza]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[Tomo]]></category>
+		<category><![CDATA[Victorinox]]></category>
+		<category><![CDATA[Victorinox Tomo]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1542</guid>
+		<description><![CDATA[<p>Me gustan las navajas suizas. Casi siempre cargo con una, y son de esos accesorios que no uso el 80% del tiempo. Pero cuando la tengo a la mano, me ayudan en momentos cruciales, haciendo que las tareas no se conviertan en corajes y tiempo perdido. ¿Blisters de productos nuevos? Navaja y tijeras. ¿Partir alguna [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/01/23/victorinox-tomo-hecha-en-suiza-diseada-en-japn/">Victorinox Tomo: Hecha en Suiza, dise&ntilde;ada en Jap&oacute;n</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.conectado.vg/2013/01/23/victorinox-tomo-hecha-en-suiza-diseada-en-japn/victorinox-tomo-colors-jpg/" rel="attachment wp-att-1540"><img class="aligncenter size-full wp-image-1540" alt="Victorinox-tomo-colors.jpg" src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2013/01/Victorinox-tomo-colors.jpg?resize=400%2C300" data-recalc-dims="1" /></a></p>
+<p>Me gustan las navajas suizas. Casi siempre cargo con una, y son de esos accesorios que no uso el 80% del tiempo. Pero cuando la tengo a la mano, me ayudan en momentos cruciales, haciendo que las tareas no se conviertan en corajes y tiempo perdido.</p>
+<p>¿<a href="http://es.wikipedia.org/wiki/Blisters" target="_blank">Blisters</a> de productos nuevos? Navaja y tijeras. ¿Partir alguna fruta o comida en la calle? Navaja. ¿Quitar esa molesta etiqueta de la playera o camisa? Tijeras. Y un largo e interesante etcétera.  Pero por desgracia mi vieja <strong>Victorinox MiniChamp</strong> quedó casi inservible por una tarea que no mencionaré ahora.</p>
+<p>Dos semanas después, mientras buscaba un libro en <a href="http://ghandi.com.mx/">Ghandi</a>, me topé con la que sería mi navaja suiza: la <a href="http://victorinoxtomo.victorinox.com/en/">Victorinox Tomo</a>.</p>
+<p><!--column--></p>
+<p>La Tomo es una navaja muy pequeña, con apenas cuatro funciones básicas, que destaca por su fabricación suiza y diseño japonés. La creación de esta navaja, incluido el empaque, corrió a cargo de <a href="https://www.facebook.com/pages/Kazuma-Yamaguchi/329312280434537">Kazuma Yamaguchi</a> y su firma <a href="http://www.abitax.co.jp/">Abitax</a>. El resultado es un diseño minimalista que va de la mano con el perfeccionamiento de la que son famosas las navajas suizas.</p>
+<p>Yo adquirí la de color blanco. Si gustan de este tipo de accesorios o sencillamente coleccionan objetos de diseñador, quizás esta pequeña creación suiza vendría bien a su colección. Los dejo con un video, donde el miso Yamaguchi explica cómo concibieron la Victorinox Tomo.</p>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='390' src='http://www.youtube.com/embed/mgIaPOq02aA?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span></p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-1665" data-post-type="none" ><a href="http://www.conectado.vg/2013/03/15/samsung-galaxy-s4-y-su-desastroza-presentacion/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2013/03/S4.jpg?resize=150%2C150" class="attachment-thumbnail wp-post-image" alt="Samsung Galaxy S4 y su mala presentación" title="" /></a><a href="http://www.conectado.vg/2013/03/15/samsung-galaxy-s4-y-su-desastroza-presentacion/" class="wp_rp_title">Samsung Galaxy S4 y su mala presentación</a></li><li data-position="1" data-poid="in-1191" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/10/shure-se215-los-mejores-audifonos-in-ear-que-he-probado/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/09/prod_img_se215_l.jpg?resize=150%2C150" class="attachment-thumbnail" alt="prod_img_se215_l" /></a><a href="http://www.conectado.vg/2012/09/10/shure-se215-los-mejores-audifonos-in-ear-que-he-probado/" class="wp_rp_title">Shure SE215: Los mejores audífonos in-ear que he probado</a></li><li data-position="2" data-poid="in-1436" data-post-type="none" ><a href="http://www.conectado.vg/2013/01/03/mi-experiencia-con-windows-8-y-sony-vaio-serie-t/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2013/01/Sony-Vaio-T-series-top.jpg?resize=150%2C150" class="attachment-thumbnail" alt="Sony-Vaio-T-series-top" /></a><a href="http://www.conectado.vg/2013/01/03/mi-experiencia-con-windows-8-y-sony-vaio-serie-t/" class="wp_rp_title">Mi experiencia con Sony VAIO Serie T y Windows 8</a></li><li data-position="3" data-poid="in-1619" data-post-type="none" ><a href="http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/02/k240studio.jpg?resize=150%2C150" class="attachment-thumbnail" alt="AKG K 240 Studio" /></a><a href="http://www.conectado.vg/2013/02/19/akg-k240-studio-audifonos-profesionales-para-todos/" class="wp_rp_title">AKG K240 Studio: Audífonos profesionales para todos</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/01/23/victorinox-tomo-hecha-en-suiza-diseada-en-japn/">Victorinox Tomo: Hecha en Suiza, dise&ntilde;ada en Jap&oacute;n</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/01/23/victorinox-tomo-hecha-en-suiza-diseada-en-japn/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>LP: el amor hacia la m&#250;sica an&#225;loga</title>
+		<link>http://www.conectado.vg/2013/01/21/lp-el-amor-hacia-la-msica-anloga/</link>
+		<comments>http://www.conectado.vg/2013/01/21/lp-el-amor-hacia-la-msica-anloga/#comments</comments>
+		<pubDate>Tue, 22 Jan 2013 05:25:00 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[Audio]]></category>
+		<category><![CDATA[Música]]></category>
+		<category><![CDATA[Acetatos]]></category>
+		<category><![CDATA[Audio-Technica]]></category>
+		<category><![CDATA[audiotechnica]]></category>
+		<category><![CDATA[discos]]></category>
+		<category><![CDATA[LP]]></category>
+		<category><![CDATA[Portada]]></category>
+		<category><![CDATA[vinyl]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1501</guid>
+		<description><![CDATA[<p>[Este post se publicó originalmente en ENTERmedia.mx] Desde muy pequeño tuve una gran fascinación por la música. Recuerdo que, como a una edad de entre 6 y 10 años, mi papá me dejaba poner sus discos de acetato en su equipo de audio. No recuerdo si alguna vez me enseñó a usarlo o aprendí por [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/01/21/lp-el-amor-hacia-la-msica-anloga/">LP: el amor hacia la m&uacute;sica an&aacute;loga</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><em><a href="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2013/01/2262225754_e9aab985be.jpg"><img style="background-image: none; float: right; padding-top: 0px; padding-left: 0px; margin: 0px 0px 0px 3px; display: inline; padding-right: 0px; border-width: 0px;" title="2262225754_e9aab985be" alt="2262225754_e9aab985be" src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2013/01/2262225754_e9aab985be_thumb.jpg?resize=244%2C184" align="right" border="0" data-recalc-dims="1" /></a></em></p>
+<p><em>[Este post se publicó originalmente en <a href="http://www.entermedia.mx/2012/10/lp-el-amor-hacia-la-musica-analoga/">ENTERmedia.mx</a>]</em></p>
+<p>Desde muy pequeño tuve una gran fascinación por la música. Recuerdo que, como a una edad de entre 6 y 10 años, mi papá me dejaba poner sus discos de acetato en su equipo de audio. No recuerdo si alguna vez me enseñó a usarlo o aprendí por pura observación.</p>
+<p>Pero tengo muy claro que apenas si alcanzaba el reproductor de LPs; lo encendía y luego prendía el amplificador. Tenía agujas análogas que indicaban el volumen. Sacaba el acetato y el equipo de mi papá, que era Gradiente, hacia casi todo. A veces le movía la ecualización al amplificador o adelantaba una canción. Luego, quitaba el LP, apagaba los equipos y dejaba todo en orden.</p>
+<p>Un día crecí. Y llegaron los cassettes, que suponían una cambio drástico por permitir llevar discos enteros en pequeñas cajitas y ponerlos en la revolución que significó el Walkman y hasta en el auto ya era posible llevar nuestra música. Incluso, podíamos hacer mezclas. Pero la calidad del audio era muy inferior y constantemente se enredaban o las cintas se echaban a perder. Yo compré algunos cassettes, pero por prácticos, porque nunca quedé convencido de su calidad. Hoy no conservo ya ninguno. Todos se me echaron a perder y otros tantos los perdí.</p>
+<p><span id="more-1501"></span></p>
+<p>Con el tiempo, llegó el que hasta hoy se ha colocado como el formato definitivo: el Compact Disc. Con forma circular, como los viejos LPs, estos pequeños discos ofrecen una calidad de audio infinitamente superior a la de los cassettes. Y están hechos para durar, con el cuidado que se merecen, hasta por 30 años o más. Y ni hablar de su pequeño tamaño, que permite llevarlos con relativa facilidad. Hoy no hay aparato de sonido en casa o automóvil que no cuente con un reproductor de CDs.</p>
+<p>Mi colección de CDs es de tamaño mediano. Los uso casi exclusivamente en el auto y el sonido me satisface, aunque siempre he pensado que son un poco fríos; y tiene sentido pues al final de cuenta son aproximaciones digitales del sonido análogo de los viejos acetatos, aunque muy buenas.</p>
+<p>Con la masificación del Internet, los formatos 100% digitales se han impuesto. El MP3 es el gran dominante y su calidad depende de su codificación, lo mínimo aceptable para mi es 192kbps, al menos en MP3 de música. Pero ni los más altos, de 320kbps, llegan a tener la calidad cristalina de un CD. Mi colección de MP3 es gigante, tan grande que tengo un disco duro externo donde guardo esos archivos. Incluso tengo archivos lossless, es decir, sin pérdida de calidad en la compresión, que suenan mejor que los mismos CDs. Y a donde vaya con mi iPod, llevo una parte de estos MP3. Son archivos pequeños, prácticos y compatibles con casi cualquier reproductor iPod y similares. Hasta los autostéreos ya los aceptan. Pero, a pesar de eso, sabía que me estaba perdiendo de algo que sí tenía en mi infancia.</p>
+<p>Así que, casi por mero accidente compré un “moderno” reproductor de acetatos y empecé a sacar algunos viejos discos y otros un poco más nuevos que adquirí junto con el tornamesa. Escuchar el contacto de la aguja con el vinil es casi romántico, y percibir esas pequeñas imperfecciones causadas por el polvo o pequeños rayones me hicieron regresar a cuando tenía 10 años. El momento de escuchar las primeras notas musicales fue como una especie de orgasmo. Uno auditivo. El sonido análogo, con su característica calidez, me abrió de nueva cuenta los ojos (y los oídos) para redescubrir esa exquisitez que es escuchar música en toda su gloria.</p>
+<p>Llevo ya varios días poniendo acetato tras acetato y, a pesar de que a veces se trata de discos con más de 30 años de antigüedad, el sonido es tan rico y abrumador que me parece casi inexplicable como es que he vivido los últimos 20 años sin poner un solo vinil.</p>
+<p>Por fortuna, la industria de los acetatos ha venido incrementado sus ventas en los últimos años, gracias a que la gente está buscando ese sonido que los CDs no pueden igualar. Es posible encontrar LPs de segunda mano a precios realmente bajos o ir tiendas especializadas y encontrar la última producción de Muse, Gotye, Lady Gaga y hasta Café Tacuba. Y por si fuera poco, muchas bandas ofrecen un código para descargar el MP3 si compras el acetato.</p>
+<p>Además, es posible encontrar tornamesas por alrededor de 2,000 pesos y pre-amplificador incluido, que ofrecen muy buen sonido y prestaciones. Yo recomiendo empezar con la <a href="http://www.audio-technica.com/cms/turntables/085561cf849acaa9/index.html">Audio-Technica AT-LP60-USB</a> que, como su nombre lo indica, hasta tiene un puerto USB para conectarla a una computadora y digitalizar nuestra colección de acetatos. Y por si fuera poco, está disponible en México ya sea por Internet o en el Distrito Federal en la calle de República del Salvador de la zona centro.</p>
+<p>Si se consideran melómanos o solo por el hecho de escuchar un disco en su máxima expresión, consideren regresar al pasado y revivir sus viejos LPs. Verán que lo viejo, no necesariamente es dar un paso atrás.</p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-1240" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/18/the-wire-show-4/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/11.jpg" alt="The Wire Show 4" data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2012/09/18/the-wire-show-4/" class="wp_rp_title">The Wire Show 4</a></li><li data-position="1" data-poid="in-1101" data-post-type="none" ><a href="http://www.conectado.vg/2012/08/22/decibel-y-bitperfect-dos-apps-para-oidos-exigentes/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/08/logo.png?resize=150%2C150" class="attachment-thumbnail" alt="logo.png" /></a><a href="http://www.conectado.vg/2012/08/22/decibel-y-bitperfect-dos-apps-para-oidos-exigentes/" class="wp_rp_title">Decibel y BitPerfect: dos apps para oídos exigentes</a></li><li data-position="2" data-poid="in-754" data-post-type="none" ><a href="http://www.conectado.vg/2012/04/11/the-labr-live-electronic-edition/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/6.jpg" alt="The LABr Live: Electronic Edition" data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2012/04/11/the-labr-live-electronic-edition/" class="wp_rp_title">The LABr Live: Electronic Edition</a></li><li data-position="3" data-poid="in-1067" data-post-type="none" ><a href="http://www.conectado.vg/2012/08/15/cuales-son-los-mejores-audifonos-que-se-pueden-comprar/" class="wp_rp_thumbnail"><img src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2012/08/imego_headphones_thumb.jpg?resize=150%2C150" class="attachment-thumbnail" alt="imego_headphones_thumb.jpg" /></a><a href="http://www.conectado.vg/2012/08/15/cuales-son-los-mejores-audifonos-que-se-pueden-comprar/" class="wp_rp_title">¿Cuáles son los mejores audífonos que se pueden comprar?</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/01/21/lp-el-amor-hacia-la-msica-anloga/">LP: el amor hacia la m&uacute;sica an&aacute;loga</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/01/21/lp-el-amor-hacia-la-msica-anloga/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>El CES 2013 y Las Vegas</title>
+		<link>http://www.conectado.vg/2013/01/18/ces-2013/</link>
+		<comments>http://www.conectado.vg/2013/01/18/ces-2013/#comments</comments>
+		<pubDate>Fri, 18 Jan 2013 07:18:13 +0000</pubDate>
+		<dc:creator>Carlos Gutiérrez</dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Tecnología]]></category>
+		<category><![CDATA[2013CES]]></category>
+		<category><![CDATA[CES]]></category>
+		<category><![CDATA[CES2013]]></category>
+		<category><![CDATA[Las Vegas]]></category>
+
+		<guid isPermaLink="false">http://www.conectado.vg/?p=1456</guid>
+		<description><![CDATA[<p>Hace unos días el evento de tecnología más importante del mundo se celebró en Las Vegas. Sí, estoy hablando del Consumer Electronic Show 2013 (CES 2013). Pero tengo que ser honesto, el CES 2013 me dejó una sensación de pobreza. No por falta de lanzamientos, compañías expositoras o productos; sino por esa falta de innovación. [...]</p><p>La entrada <a href="http://www.conectado.vg/2013/01/18/ces-2013/">El CES 2013 y Las Vegas</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.conectado.vg/2013/01/18/ces-2013/las-vegas-strip/" rel="attachment wp-att-1463"><img class="alignright size-medium wp-image-1463" alt="las-vegas-strip" src="http://i0.wp.com/www.conectado.vg/wp-content/uploads/2013/01/las-vegas-strip.jpg?resize=300%2C200" data-recalc-dims="1" /></a></p>
+<p>Hace unos días el evento de tecnología más importante del mundo se celebró en Las Vegas. Sí, estoy hablando del <a href="http://www.cesweb.org/">Consumer Electronic Show 2013</a> (CES 2013).</p>
+<p>Pero tengo que ser honesto, el CES 2013 me dejó una sensación de pobreza. No por falta de lanzamientos, compañías expositoras o productos; sino por esa falta de innovación. No vi un producto que marcara una tendencia o modificara nuestras costumbres como en su momento lo hicieron la introducción de las primeras cámaras video grabadoras, la tecnología de los cassettes o DVDs y hasta las tecnologías de la alta definición de las HDTVs.</p>
+<p>El CES 2013 de este año será recordado como el de las ultra alta definiciones conocidas como 4K o UltraHD. El doble de 1080p a un precio que seguramente será prohibitivo y con poco contenido. Ya escribí de eso en <a href="http://www.entermedia.mx/2013/01/el-ces-ya-no-es-como-lo-pintan-ces-2013/">ENTERmedia</a>, los invito a que le echen un vistazo.</p>
+<p><span id="more-1456"></span></p>
+<p>Quizás por eso no me siento tan mal de no haber asistido al CES 2013. Pero no voy a negar que lo que sí extrañe fue <a href="http://es.wikipedia.org/wiki/Las_Vegas">Las Vegas</a>. He tenido la oportunidad de viajar en varias ocasiones a dicha ciudad y es de los lugares más divertidos del planeta. La gente que no ha ido a dicha ciudad, se imagina un lugar lleno de vicios, juegos de azar, <a href="http://www.mejorbingoonline.com/bingo-gratis/">bingo</a>, ruleta, <a href="http://es.wikipedia.org/wiki/Blackjack">blackjack</a>, apuestas, alcohol, mujeres y más vicios. Y, ¿saben algo? Tienen toda la razón.</p>
+<p>En Las Vegas puedes perder la noción del tiempo y vivir esas experiencias que solamente se ven en el cine. Las Vegas puede ser tu mejor aliado, pero también el peor enemigo. Hoy el CES me ha dejado vacío y con justificaciones que, aunque con sustento, no son más que pretextos. Sin embargo Las Vegas se extraña. Y eso, es de lo que realmente me perdí. Ya me tocará regresar y revivir esas experiencias. Mi recomendación para todos aquellos viajeros es que visiten dicha ciudad en compañía de sus mejores amigos y jamás niños.</p>
+<p>Me quedo con ganas de detallar mucho más, pero no puedo porque después de todo: lo que pasa en Las Vegas, se queda en Las Vegas&#8230;</p>
+
+<div class="wp_rp_wrap  wp_rp_plain" ><div class="wp_rp_content"><h3 class="related_post_title">Posts interesantes</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-800" data-post-type="none" ><a href="http://www.conectado.vg/2012/04/16/usan-su-celular-en-el-bano-una-encuesta-de-intel-revela-que-si/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/uploads/2012/04/smartphones.jpg?resize=150%2C150" class="attachment-thumbnail" alt="smartphones" /></a><a href="http://www.conectado.vg/2012/04/16/usan-su-celular-en-el-bano-una-encuesta-de-intel-revela-que-si/" class="wp_rp_title">¿Usan su celular en el baño? Una encuesta de Intel revela que sí</a></li><li data-position="1" data-poid="in-1262" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/21/donde-comprar-tecnologia-en-mexico/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/uploads/2012/09/Online-Shopping-Keyboard.jpg?resize=150%2C150" class="attachment-thumbnail" alt="Online-Shopping-Keyboard" /></a><a href="http://www.conectado.vg/2012/09/21/donde-comprar-tecnologia-en-mexico/" class="wp_rp_title">¿Dónde comprar tecnología en México?</a></li><li data-position="2" data-poid="in-81" data-post-type="none" ><a href="http://www.conectado.vg/2009/07/10/microsoft-office-2010-la-pelicula/" class="wp_rp_thumbnail"><img src="http://i2.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/15.jpg" alt="Microsoft Office 2010: La película " data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2009/07/10/microsoft-office-2010-la-pelicula/" class="wp_rp_title">Microsoft Office 2010: La película </a></li><li data-position="3" data-poid="in-1230" data-post-type="none" ><a href="http://www.conectado.vg/2012/09/13/ante-ustedes-el-iphone-5/" class="wp_rp_thumbnail"><img src="http://i1.wp.com/www.conectado.vg/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/8.jpg" alt="Ante ustedes el iPhone 5" data-recalc-dims="1" /></a><a href="http://www.conectado.vg/2012/09/13/ante-ustedes-el-iphone-5/" class="wp_rp_title">Ante ustedes el iPhone 5</a></li></ul><div class="wp_rp_footer"><a class="wp_rp_backlink" target="_blank" rel="nofollow" href="http://www.zemanta.com/?wp-related-posts">Zemanta</a></div></div></div>
+<p>La entrada <a href="http://www.conectado.vg/2013/01/18/ces-2013/">El CES 2013 y Las Vegas</a> aparece primero en <a href="http://www.conectado.vg">Conectado</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.conectado.vg/2013/01/18/ces-2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  www.conectado.vg/feed/ ) in 0.75868 seconds, on Apr 15th, 2013 at 11:51 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Apr 15th, 2013 at 12:51 pm UTC -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Quick Cache Is Fully Functional :-) ... A Quick Cache file was just served for (  www.conectado.vg/feed/ ) in 0.00066 seconds, on Apr 15th, 2013 at 12:18 pm UTC. -->

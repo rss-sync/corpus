@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:s="http://www.zdnet.com/search" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <link>http://www.zdnet.com/</link>
+    <title>Latest Blog for ZDNet</title>
+    <description>Latest Blog for ZDNet</description>
+    <language>en</language>
+    <copyright>ZDNet</copyright>
+    <managingEditor>customerservice@zdnet.com (ZDNet Customer Services)</managingEditor>
+    <webMaster>uk-engineering@cbsinteractive.com (ZDNet Webmaster)</webMaster>
+    <pubDate>Mon, 15 Apr 2013 13:20:26 +0100</pubDate>
+    <lastBuildDate>Mon, 15 Apr 2013 13:20:26 +0100</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <ttl>2</ttl>
+    <image>
+      <url>http://i.zdnet.com/images/spry/zdnet_300x300.jpg</url>
+      <link>http://www.zdnet.com/</link>
+      <title>Latest Blog for ZDNet</title>
+      <width>143</width>
+      <height>39</height>
+    </image>
+    <s:counts>
+      <start>0</start>
+      <return>20</return>
+      <found>42148</found>
+    </s:counts>
+    <item>
+      <guid isPermaLink="false">7000013885</guid>
+      <link><![CDATA[http://www.zdnet.com/hp-builds-up-openstack-portfolio-with-new-messaging-bursting-services-7000013885/]]></link>
+      <title><![CDATA[HP builds up OpenStack portfolio with new messaging, bursting services]]></title>
+      <description><![CDATA[HP's latest OpenStack integrations include a new public cloud "as-a-service" for developers and private cloud bursting services.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 10:45:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Rachel King]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <category domain="http://www.zdnet.com/topic-hewlett-packard/">Hewlett-Packard</category>
+      <category domain="http://www.zdnet.com/topic-software/">Software</category>
+      <category domain="http://www.zdnet.com/topic-software-development/">Software Development</category>
+      <media:text type="html"><![CDATA[<figure><img title="fd-openstack-clouds" alt="fd-openstack-clouds" src="http://cdn-static.zdnet.com/i/r/library/us-carousel/cloud/fd-openstack-clouds-620x202.jpg?hash=ZQIzZzV4MQ&upscale=1" height="202" width="620"></figure>
+<p><strong>Hewlett-Packard</strong> is boasting its dedication to <strong>OpenStack</strong> through the debut of a handful of new Converged Cloud products being debuted today.</p>
+<p>Announced amid the <a href="https://www.openstack.org/summit/portland-2013/">OpenStack Summit in Portland</a> this week, HP is integrating more of the open source cloud computing software with its own portfolio of private and public cloud solutions.</p>
+<p>Starting with the brand new options, HP has added new private cloud bursting services intended to simplify the startup of hybrid clouds.</p>
+<p>Dubbed CloudSystem Bursting Activation Services, HP will provide support to help clients configure the software needed to burst from HP CloudSystem (the tech giant's private cloud flagship product) to another while also streamlining access to additional capacity across multiple HP CloudSystems. Service providers will also be able to use these services to deliver on-demand capacity to customers.</p>
+<p>On the public cloud side, HP has a new "as-a-service" model to share. Aimed towards developers, HP Cloud Messaging is supposed to enable building more fault-tolerant apps while reducing downtime by duplicating messages across multiple servers.</p>
+<p>The Messaging service also uses the OpenStack Marconi API standard, which in turn is designed to set up the program as an intermediary between apps without any installation or configuration required.</p>
+<p>HP also updated the overall CloudSystem private cloud. Version 7.2 further integrates OpenStack to enable both the aforementioned bursting services while also supporting RedHat KVM resource pools.</p>
+<p>HP CloudSystem 7.2 as well as Cloud Messaging are both available worldwide now, but the bursting activation services won't roll out until summer.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014005</guid>
+      <link><![CDATA[http://www.zdnet.com/asus-launches-dual-screen-taichi-31-ultrabook-with-tablet-capabilities-7000014005/]]></link>
+      <title><![CDATA[Asus launches dual-screen Taichi 31 Ultrabook with tablet capabilities]]></title>
+      <description><![CDATA[The unique Windows 8 device has back-to-back 13.3-inch screens and works as a touch-enabled laptop with lid open or a tablet with lid closed.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 10:21:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Sean Portnoy]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-laptops/">Laptops</category>
+      <category domain="http://www.zdnet.com/topic-windows-8/">Windows 8</category>
+      <media:text type="html"><![CDATA[<figure><img title="asus-taichi-31-ultrabook-windows-8-tablet-laptop" alt="asus-taichi-31-ultrabook-windows-8-tablet-laptop" src="http://cdn-static.zdnet.com/i/r/story/70/00/014005/asus-taichi-31-ultrabook-windows-8-tablet-laptop-620x529.jpg?hash=LzZ3MGHmLJ&upscale=1" height="529" width="620"></figure>
+<p>Microsoft promised unique form factors with the launch of Windows 8, and the Asus Taichi lineup certainly qualifies. The company's take on the hybrid laptop is different than the competition's: instead of using a single screen that detaches or swivels in order to switch from notebook mode to tablet, the Taichi has a pair of displays placed back to back.</p>
+<p>The 11.6-inch Taichi 21 was released several months ago -- and ZDNet's own Ben Woods did some <a href="http://www.zdnet.com/asus-taichi-hybrid-misses-the-best-thing-about-windows-8-7000006520/" target="_self">hands-on testing here</a> -- and now Asus has introduced a larger Taichi 31 Ultrabook with dual 13.3-inch screens. Each one comes with full 1080p resolution (1,920x1,080)&nbsp;with IPS technology, and the included stylus allows for note-taking and the like on the touch screens.</p>
+<p>You'll be able to get the Taichi 31 with either an Intel Core&nbsp;i5-3317U, Core i7-3517U, or Core i7-3537U processor running either Windows 8 or Windows 8 Pro. It includes 4GB of RAM and offers 128GB or 256GB solid state storage options. You also get a HD webcam, integrated&nbsp;802.11 a/b/g/n Wi-Fi, Bluetooth, a pair of USB 3.0 ports and an SD card reader.&nbsp;</p>
+<p>Asus is touting Taichi's ability to work as a laptop with the lid open and a tablet with the lid closed. It also points out that the second screen can be used an external public-facing display in laptop mode, so you can show a presentation to clients on it without the need for a projector or other external monitor (and with you able to navigate through it with the other screen facing you).&nbsp;</p>
+<p><a href="http://www.asus.com/News/6CN0pr7FzlWOfpr9" target="_blank">In its official announcement</a>, Asus neither listed a price nor availability details for the Taichi 31, though Taichi 21 models are well above the $1,000 threshold. Will its unique design be worth it? Or are you as skeptical as Ben Woods was after testing the Taichi 21? Let us know in the Talkback section below.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013975</guid>
+      <link><![CDATA[http://www.zdnet.com/special-report-g-w-bushs-103-6-million-missing-email-messages-and-the-it-archiving-challenge-7000013975/]]></link>
+      <title><![CDATA[Special Report: G.W. Bush's 103.6 million missing email messages and the IT archiving challenge]]></title>
+      <description><![CDATA[In Part 2 of our 4-part Special Report, our resident presidential scholar David Gewirtz (who wrote the book on White House email) explores why a large part of the story will always be missing from the record books.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 10:14:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[David Gewirtz]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-storage/">Storage</category>
+      <media:text type="html"><![CDATA[<p>In honor of the Presidential Center dedication,&nbsp;<a >ZDNet Government</a>&nbsp;is proud to present Part 2 of our exclusive, 4-part in-depth special report on the George W. Bush Presidential Center and the 200 million email archive project.</p>
+<h3>The conflict between IT challenge and archiving challenge</h3>
+<p>I was recently asked in a radio interview about whether or not the 200 million message email trove being archived is really that large. That number can be interpreted in different ways. To archivists, 200 million messages is a tremendous number of documents. To most IT professionals, that's a drop in the bucket for a medium-sized enterprise.</p>
+<div class="relatedContent alignRight">
+<h3>In-depth analysis</h3>
+<ul>
+<li>Part 1: <a href="http://www.zdnet.com/special-report-g-w-bush-presidential-center-to-release-200-million-white-house-emails-to-archivists-7000013632/">G.W. Bush Presidential Center to release 200 million White House emails to archivists</a></li>
+<li>Part 2: <a href="http://www.zdnet.com/special-report-g-w-bushs-103-6-million-missing-email-messages-and-the-it-archiving-challenge-7000013975/">G.W. Bush's 103.6 million missing email messages and the IT archiving challenge</a> (this article)</li>
+<li>Part 3: Innovative application of modern analytics techniques to presidential email (available 4/21)</li>
+<li>Part 4: How managing presidential email is managing a president's legacy (available 4/25)</li>
+<li>David's book, <em>Where Have All The Emails Gone?</em> (<a href="http://emailsgone.com">free PDF download</a>)</li>
+<li><a href="http://usspi.org/resources/">USSPI presidential email research library</a></li>
+</ul>
+</div>
+<p>There are about 200 million messages that the archivists are dealing with, which is roughly 80 terabytes. That's not a small amount of data. But when you consider that most IT operations dealing with anything resembling Big Data are looking in the multi-petabyte quantities, it's far from unmanageable.</p>
+<p>It's just not really that many bits and bytes. You could actually load all of these messages into RAM and process them in real-time using something like SAP's HANA product. So, from a technical point of view, the Bush message archive isn't exactly a large data structure.</p>
+<p>But, from an archivist's point of view, it's huge because the archivists want to go through every single message and redact anything that is still considered a national security issue or a thorny political issue.</p>
+<p>Think about 200 million messages. If you don't explore solving the problem using machine-based analysis, but instead expect individual humans in the National Archives and Records Agency to look at every single email message, it could be the end of time before they finish their work.</p>
+<p>From a technical point of view, managing White House email is really a pretty simple thing. But, from a policy point of view it's a very difficult thing. In my book and the various speeches I've given on this topic in D.C., I've always made it clear that archiving is a technical process, where retrieving what's been archived is a policy process.</p>
+<p>In other words, it's up to us techies to make sure the data can be saved. But whether or not anyone gets to see that saved data has to be determined by laws, judges, and -- courtesy of the Presidential Records Act -- current and former presidents and vice presidents.</p>
+<p>Quite obviously, not all email data is national security constrained. Much of the data stored is also political in nature. That information may be suitable for safe public viewing from a national security perspective, but politically charged all the same.</p>
+<p>That's where the push and pull has come from with White House email, because of that difference. Of course, the weird thing is that most White Houses have claimed that solving the archiving challenge is a technical problem. Clearly that's not the case.</p>
+<p>From an IT geek perspective, email archiving is an activity that we do across enterprises every day. But from a, "What do want want to show? How do we want to show it? How do we want to control our messaging?" perspective, it's a much bigger problem.</p>
+<h3>But wait, there's more</h3>
+<p>Even though the collection of 200 million email messages being archived is a boon for historians, it's far from the whole story.</p>
+<p>Because I did so much research into the Bush administration email operation, I'm very well aware that those 200 million messages only represent a portion of the email traffic that went on during the Bush White House. The messages being discussed are only the official emails that went through the EOP (Executive Office of the President) email channels.</p>
+<p>President Bush's team operated another email operation, based around the GWB43.com domain name. This operation wasn't run by the White House. Instead, it was run by an ISP located down in Chattanooga, Tennessee. While some conspiracy theorists might think that using GWB43 was a way for the Bushies to get around email requirements, the opposite was actually the truth.</p>
+<p>There's a 1939 law, called the Hatch Act, that governs how White House email works. Yep, a law enacted way before anyone even knew of email controls email in the most important office of the land.</p>
+<p>In any case, the Hatch Act restricts government officials from using government resources to conduct political activities. This means any sort of communication about politics, campaigns, political strategy, and so on could not be conducted through official White House channels and were required -- by law -- to run through outside services, like our friends in Chattanooga.</p>
+<p>Because of this, using what then Deputy Press Secretary Dana Perino called "an abundance of caution," any email message, official or not, that might have had a political tinge, was not routed through the EOP email servers, but instead was routed through GWB43.</p>
+<p>None of these official emails, the ones that also contained political information, are available for archiving. In Where Have All The Emails Gone, I estimated that 103.6 million messages ran over the open Internet, through GWB43.com. None of these will be turned over to the archivists.</p>
+<p>That means the historical record being turned over to the archivists is missing a full third of the story.</p>
+<p>I've always wanted to ensure that this very large (and completely undocumented collection of political messages) are also made available to the public, but they may well be lost to time.</p>
+<p>Adding to the problem is the fact that many White House staffers had multiple email accounts. For example, then Deputy Chief of Staff Karl Rove had a GWB43.com account, which was the domain used for the political arm of the White House operations. He also had an AOL account.</p>
+<p>He would use each of those for different things. As you might imagine, most individuals had their own personal accounts, accounts for their work as political operators, and accounts for their work as public servants.</p>
+<p>But let's just forget those hundred million or so political messages. Everyone else certainly has. Let's instead focus on what's involved in processing in the 200 million messages the Bush Presidential Center is willing to make available.</p>
+<p><strong>Next week in Part 3 of our Special Report:&nbsp;Hand-processing 200 million emails and how modern analytics techniques could provide innovative new applications for presidential email.</strong></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014004</guid>
+      <link><![CDATA[http://www.zdnet.com/time-warner-cable-and-canceled-installation-7000014004/]]></link>
+      <title><![CDATA[Time Warner Cable and canceled installation]]></title>
+      <description><![CDATA[The adventure began when I purchased a new home and ordered service from Time Warner Cable. TWC unilaterally canceled my service and the installation.  Will our hero obtain service? ]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 10:06:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Dan Kusnetzky]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>I purchased a new home in mid February. Shortly after the papers were signed, I called, <a title="" href="http://www.timewarnercable.com" target="">Time Warner Cable</a> (TWC), the only local supplier offering a combination of television, digital telephone and "high speed" internet to set up the installation of one of their pre-defined packages.</p>
+<p>I was surprised to discover that the packages offered all offered less and were more expensive than the services offered by Verizon FIOS. Since it was just about the only game in town, I held my nose and accepted the agreement. Ver</p>
+<p>I called a few days before the scheduled installation date just to reconfirm. I'm really glad I did. TWC had canceled my installation and new service without notice!</p>
+<p>While the call-center agent was friendly and was trying to be helpful, she was unable to recreate the package that I purchased back in February. I had been offered a package that included cable television for 3 digital TVs, their "ultimate" Internet service (much slower than offered by Verizon FIOS), and a digital telephone for one price and was told the same package now cost $60 more a month.</p>
+<p>I spoke with several agents via telephone, twitter and TWC's own chat line. In the end, I dropped the digital telephone line to get the price somewhere near what was offered for the whole package back in February. Though the efforts of the TWC agents, I was even able to get an installation appointment for today as was originally scheduled back in February.</p>
+<p>I'll let you know how the installation goes.</p>
+<p>I'm left with a few questions including the following:</p>
+<ul>
+<li>Why was my service and the installation canceled without notice?</li>
+<li>Why was the promised package no longer available?</li>
+<li>Why was the available package $60/month more expensive that the package I was offered in February?</li>
+<li>Will I be able to take part in long, tedious, but useful conference calls using just my cell phone.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013971</guid>
+      <link><![CDATA[http://www.zdnet.com/microsoft-convergence-2013-crossing-the-ts-dotting-the-is-7000013971/]]></link>
+      <title><![CDATA[Microsoft Convergence 2013: crossing the t's; dotting the i's]]></title>
+      <description><![CDATA[Microsoft Convergence 2013 wasn't flashy; it wasn't mind-blowing or even super energetic, though it had enough energy. But it was important to be there, to understand what Microsoft was doing and to see where they were going. ]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 10:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Paul Greenberg]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-microsoft/">Microsoft</category>
+      <category domain="http://www.zdnet.com/topic-windows-8/">Windows 8</category>
+      <media:text type="html"><![CDATA[<p>First, once again, an apology to Microsoft and to those of you who like reading this stuff, for the lateness of this post on Convergence which was well over a month ago. I&rsquo;m on the road so much and had to finish the Watchlist and cry, cry, whine, whine, so I&rsquo;m sorry.</p>
+<p>But I can move on if you can.</p>
+<p>As those of you who read my stuff know, I place a good deal of stock on the annual user conferences that software vendors put on.&nbsp; I think that they both reflect the state of the vendor and at the same time, are indicators of the future of the vendor. If made relative (or contextual to use contemporary parlance), you can see what progress they made, what promises they kept and what problems they have by comparing where they were a year ago to where they currently stand.</p>
+<p>The vendors feel the same as me. They spend millions of dollars putting these things on &ndash; making them their show of shows each year &ndash; courting customers and analysts, intermingling with their guests in what is often a highly orchestrated &ldquo;experience&rdquo; that is designed down to the positioning of the lights to provide an ambiance that is feel good in nature, even when the news might not be as good.&nbsp;</p>
+<p>Each vendor chooses the canvas and the colors of the paint they want to apply to that canvas. It varies from year to year &ndash; it can range from splashy and spectacularly vivid, to more brown toned and muted &ndash; soothing rather than exciting.&nbsp; But, whatever the choice it is: a. deliberate and b. something that can make or break the company&rsquo;s efforts for the year.</p>
+<p>This year, Microsoft was ubiquitous Windows 8 blue &ndash; a somewhat muted blue &ndash; and, folks, that was a good thing.</p>
+<p>Where last year at Convergence, it was user experience and user interface and Windows 8 and all color and light and enthusiasm &ndash; and rightfully so &ndash; this year is more customer experience and the presence of Windows 8 in a ubiquitous fashion. It was/is just there.</p>
+<p>What this means for Dynamics CRM, I&rsquo;ll get into in a minute in this shorter than normal and late blog post. &nbsp;First a look at the conference itself, not the messaging.</p>
+<h3>Convergence: the Conference</h3>
+<p>First, as I do every year, because I am in awe every year, I want to thank what I think is the best AR team in the industry, the folks from Waggoner Edstrom who work with the Dynamics CRM team.&nbsp; Umran Hasan, Lisa Perazzoli, Lourdes Rios Salazar, Anne Goldman, Leslie Boelter, and Meg Hollis deserve the designation. They take care of business, they are professionals to the nth degree but not to the exclusion of being warm and personable individuals. They are the textbook for AR and IR. That&rsquo;s saying a lot because being excellent at influencer relations (IR) isn&rsquo;t an easy thing &ndash; it&rsquo;s a relatively new approach to the more traditional analyst relations and involves understanding the newer dynamics in the market when it comes to interacting with influencers be they institutional analysts, independent advisors or journalists.&nbsp; Plus influencers can occasionally be snippy and sometimes feel entitled. So dealing with us ain&rsquo;t easy and yet they make it that way.&nbsp; Thank you so much for doing that&nbsp; - not just once, but year after year.</p>
+<p>Microsoft understands the importance of conferences and as I said in last year&rsquo;s Convergence post, they deliberately keep things at an &ldquo;intimate&rdquo; size &ndash; this year the number was 12,000.&nbsp; That&rsquo;s needless to say a relative number. &nbsp;But the key to their approach is to create a highly personalizable and personable experience for each attendee, despite the still rather large size.&nbsp; It isn&rsquo;t a high-energy experience. They are wise enough to know that this isn&rsquo;t their forte.&nbsp; They had a local band doing heavy and light rock &ndash; and it was a solid cover band with good vocalists and good musicians.&nbsp; But that was the feel of the conference.&nbsp;&nbsp; Solid.&nbsp;</p>
+<p>To their credit, they know that on the level of energy, no one is going to successfully compete with salesforce and Dreamforce.&nbsp; Interestingly, except for one slightly snippy comment about a vendor&rsquo;s new messaging, the conference (thank god) was devoid of competitive misanthropy.</p>
+<h3>The Biggest Product Picture</h3>
+<p>Dynamics in general and Dynamics CRM in particular are clearly playing an increasingly important role in the Microsoft product pantheon. Just to be clear, Convergence is a business apps conference so business apps clearly are going to be front and center &ndash; and mentioned a lot more than, say Office 365. But its what&rsquo;s said and done between the lines that is meaningful at conferences like Convergence and the message this year is clear &ndash; customers first, Windows 8 is already a landscape fixture so it no longer has to be emphasized, it just &ldquo;is&rdquo; and Microsoft is moving aggressively onto the competitive stage with Dynamics so look out salesforce, but also SAP and Oracle and others in the marketplace.&nbsp;</p>
+<p>Why would I say that?</p>
+<p>Because I want to.</p>
+<p>Okay, okay, not enough. So here&rsquo;s what I&rsquo;m thinking.&nbsp; About a year ago, Microsoft coaxed Bob Stutz to take over CRM at the company.&nbsp; A great move. For those of you who don&rsquo;t know who that is, he is something of a technology legend in the CRM world, being the strategic architect (not the technical one) of Siebel and the first true SAP CRM release &ndash; SAP CRM 2007. He has been tasked at Microsoft in bringing Microsoft Dynamics CRM into the 21<sup>st</sup> century. It has been a serviceable even good product focused on SFA and customer service.&nbsp; But it lacked quite a bit.&nbsp; It was missing marketing automation; it was missing a true social layer and lacked any kind of native customer analytics.</p>
+<p>In its original incarnations, since the target markets in the earliest days of Dynamics CRM were small and midsized businesses, they could get by with what they had because they had a ubiquitous name and enough functionality in the two areas that customers in those markets cared about initially.&nbsp;</p>
+<p>But, about 2 years ago, they decided to go upmarket and thus those missing pieces in combination with the navigability and the scalability of what they had became an issue that they had to solve in order to reach out to the enterprise. &nbsp;</p>
+<p>Last year, to compound that and to resolve some of that, they introduced Windows 8 to great fanfare, with a focus, even with the business applications on usability, user experience, user interface and customer experience.&nbsp; This was an advantage in that it normalized Microsoft Dynamics CRM with an interface that was contemporary, interesting and highly navigable.&nbsp; It compounded the difficulties too because of the adoption difficulties Microsoft had with Windows 8 in its incipient stages. It added a layer of learning to the CRM suite that added additional work to the learning curve.</p>
+<p>Let me point one thing out here before I move on and address some of you who might be Windows 8 naysayers or, more importantly, who are dissing Microsoft because the sales of Windows 8 aren&rsquo;t as high as (you) expected.</p>
+<p>Microsoft is in this for the long run. This is a long term play on their part because they understand that changing the paradigm to one appropriate to the 21<sup>st</sup> century approach to person-machine interaction.</p>
+<p>While none of this was any different from last year to this year, the messaging around the business applications at Convergence was no longer focused on Windows 8 and usability &ndash; but around the customer and the work that Dynamics CRM (and other Dynamics apps) enabled for those customers. They are playing it smart and, given the emphasis on customer experience, a corollary emphasis on customers, while generically always right, is specifically called for in this period &ndash; and in this (the Microsoft) instance. &nbsp;&nbsp;</p>
+<h3>Microsoft Dynamics CRM Progress</h3>
+<p>The level of progress for CRM in the last year for Microsoft can be game changing for the company.&nbsp; Dynamics CRM, if Microsoft is willing to give it the chance it should, can become and should become the leading element of their business suite, given the progress made.&nbsp; But that&rsquo;s a non-trivial IF that I&rsquo;ll get to in a few. &nbsp;I'm not going to speak to the changes that they have made in the technology foundation nor in the interface u<a href="http://blog.dorrekens.com/index.php/list/155-microsoft-crm-2013-roadmap" target="_blank">ntil what they are calling the Orion release drops in Q3 of 2013</a>. This promises the mobile and Windows 8 versions of Microsoft Dynamics CRM. Microsoft Dynamics CRM is a a work in progress (with an emphasis on the word "progress" and it is impressive in many ways. Why? Patience, grasshoppers), but I do want to speak to their two acquisitions which are both very important to Microsoft's future in the CRM world.&nbsp;</p>
+<h3>The Marketing Not-Cloud</h3>
+<p>The progress that Microsoft has made is not only in the utter reformation of the Dynamics CRM product, but also in the intelligence of their acquisitions to fill holes that have long existed in the portfolio.&nbsp; The acquisition of the integrated marketing management suite &ndash; Marketing Pilot (now Microsoft Dynamics Marketing) &ndash; was a truly intelligent move.&nbsp; The application, which has about 2/3 of the functionality of Aprimo, as close to its doppelganger as it is going to find.&nbsp; It is a great acquisition but it needs a lot of TLC to make it a great part of the suite.</p>
+<p>If you take a look at the functionality, it is dizzying.&nbsp; Ranging from the more traditional marketing automation functionality like campaign management and email marketing to the more complex management functions like collaborative project management and even not-obvious backend functions like expense management and budgeting, you begin to see how rich the application suite really is and, if used fully would be able to handle all but the largest enterprises &ndash; and I&rsquo;m not sure that is even a fair statement.&nbsp; It might be able to handle the largest ones.</p>
+<p>Aye, but there&rsquo;s the rub.&nbsp; Most marketers don&rsquo;t need all that functionality, and even with the revamped Windows 8ish interface &ndash; a vast improvement over the original pre-acquisition one &ndash; it can be a confusing <em>mischigas</em> (&lsquo;mess&rdquo; for those of you not fluent in Yiddish) and actually achieves a level of &ldquo;too much choice.&rdquo; But, there is no reason to dumb it down either because as you go up the enterprise scale food chain, the increased functionality becomes necessary.</p>
+<p>As of now, which to be fair is version one, the way that you access Marketing Pilot is via a connector to the Dynamics CRM suite &ndash; which is fine &ndash; for now &ndash; but doesn&rsquo;t solve the &ldquo;too, too much&rdquo; conundrum.&nbsp;</p>
+<p>But, surprise, surprise my big-mouthed, highly opinionated self has a solution.</p>
+<ol>
+<li>Integrate it fully into the Dynamics CRM Suite.&nbsp; Don&rsquo;t leave it as an independently connected product. That way, its not on premise only, it&rsquo;s in the cloud and Dynamics CRM is a full-blown suite.</li>
+<li>Provide a basic marketing edition with Dynamics CRM that has all the fundamental functionality available &ndash; marketing automation, email marketing, etc.</li>
+<li>Make the rest premium business services that you can subscribe to. That means that as a business grows and it starts needing to, say, manage resources, you can turn on the functionality by paying an extra whatever bucks per month per user for the additional capabilities.&nbsp; It sounds easy; it isn&rsquo;t.&nbsp; But it is the way that I think that Marketing Pilot gets to be part of the Microsoft suite that both makes it one of the better in the marketplace and monetizes it.</li>
+</ol>
+<p>Do these things and Marketing Pilot's acquisition becomes a steal at any price.&nbsp;</p>
+<h3>The Social (Net)breeze</h3>
+<p><a href="http://gigaom.com/2013/03/19/microsoft-buys-into-multi-lingual-social-analytics-with-netbreeze-acquisition/" target="_blank">The Microsoft acquisition of Netbreeze works</a>. It works because of how they intend to use it. Netbreeze, for those of you who don&rsquo;t know it, which would be most of you, is a Swiss company of seriously intelligent scientists who built a highly functional, modestly deep, user-friendly customer/social analytics product that actually can provide you with useful information &ndash; the kind that is usable for insights. Its greatest strength is its ability to do sentiment analysis in 28 languages including several different writing systems (Arabic, Cyrillic etc). &nbsp;But, even though the product is certainly a good entry in the marketplace, the value for Microsoft comes, not in the product per se, but in the intended use &ndash; their gameplan.</p>
+<p>If they had intended to buy the product so that they could make it part of a product portfolio, an offering, it would have been stupid acquisition at any price. Its not really built for that and up against some of the deeper products in the space (e.g. Clarabridge, NextPrinciples, the customer-facing analytics products of SAS, Oracle, SAP), they would not do well. But, instead, Bob Stutz and team acquired them for a different reason &ndash; one that not only makes sense, but it is actually the ideal approach to both the market, and to support the strengths of Netbreeze&rsquo;s offering. They are going to integrate it as a layer across the entirety of Dynamics CRM and give it away free of charge as the &ldquo;social analytics&rdquo; layer of the Dynamics CRM platform.</p>
+<h3>Taste of things to Come</h3>
+<p>To Microsoft&rsquo;s credit, this wasn&rsquo;t a dramatic conference. The message that came through loud and clear this year is that they are proceeding with their initiative launched in 2012, to change the way people compute and to provide business with what they need to accommodate that change &ndash; and, of course, deal with the way that customers have been changing for the last decade.</p>
+<p>Are there things that they can do? Of course, there are.&nbsp; If you want to see what they are, <a href="http://www.zdnet.com/crm-watchlist-2013-winners-sweetest-suites-part-1-of-3-7000010719/" target="_blank">read their Watchlist review of about a month ago</a>. Beyond that, how they handle Marketing Pilot is going to be an important piece of their ability to provide a &ldquo;right-sized&rdquo; offering for multiple different target groups. All in all, they are on the right track to not only continue to be a major player, but to reassert their position in the CRM market as one of a small handful of vendors, who could be a good choice for any company, regardless of size.&nbsp;</p>
+<p>We&rsquo;ll check back later this year to see how they&rsquo;re doing.&nbsp;</p>
+<p>Seriously.</p>
+<p>&nbsp;</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013961</guid>
+      <link><![CDATA[http://www.zdnet.com/hortonworks-ceo-rob-bearden-beware-the-hadoop-fragmentation-7000013961/]]></link>
+      <title><![CDATA[Hortonworks CEO Rob Bearden: Beware the Hadoop fragmentation]]></title>
+      <description><![CDATA[Hortonworks' chief talks about the run on Hadoop distributions, an "open core" strategy and crunching the big data numbers. ]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 10:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Larry Dignan]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <category domain="http://www.zdnet.com/topic-open-source/">Open Source</category>
+      <media:text type="html"><![CDATA[<p>Hortonworks CEO Rob Bearden has a simple mission: Grow the Hadoop and big data markets with a heavy dash of open source and then the company's financial health will follow.</p>
+<p>Amid current Hadoop developments---is there any company NOT launching a distribution with some value added software?---Hortonworks stands out. Why? Hortonworks turns over its entire distribution to the Apache open source project.</p>
+<p>Hortonworks, which was essentially hatched with the team inside Yahoo that popularized Hadoop in the first place, has also been on a bit of a tear this year. The company is expanding in Europe, rounding out its management team with new hires and has created a Hadoop distribution for Windows as a beta.</p>
+<p>I caught up with Bearden, the former chief operating officer of both SpringSource and JBoss and an Oracle executive,&nbsp;to talk shop last week. Here's a look at the highlights from my chat:</p>
+<figure class="alignRight"><img title="beardenmug" alt="beardenmug" src="http://cdn-static.zdnet.com/i/r/story/70/00/013961/beardenmug-178x185.png?hash=BQN4ZQp5Z2&upscale=1" height="185" width="178"><figcaption>Hortonworks' Bearden.</figcaption></figure>
+<p><strong>On the Hortonworks strategy</strong>, Bearden noted that the general idea was to develop Hadoop's functions and contribute them to Apache. The company is building its Hadoop distribution and contributing it 100 percent open source. "We're building directly in the core trunk, productizing the package, doing QA and releasing," he said. "It's not an open core model." When Bearden refers to open core he's referring to a trend in Hadoop distribution where there are open source components but with proprietary software included as value added. This open core method is being used by Pivotal/EMC, Cloudera and MapR.</p>
+<p><strong>Why wouldn't Hortonworks go open core?</strong> Bearden said the aim of Hortonworks is to grow the overall market pie for Hadoop. Besides, Hortonworks' revenue model revolves around support. By making its distribution 100 percent open source, it serves as a try before you buy support program. "I think it’s important that we make the market function at scale fast," said Bearden. Specifically, he wants to create an open enterprise data platform that will grow the big data pie.</p>
+<p><strong>Is Bearden worried about fracturing Hadoop?</strong> In a word yes. Bearden noted that IBM and EMC wouldn't mind splintering Hadoop. Why? Large enterprise IT players need to grab as much control of the new datasets (think big data) as possible. By grabbing more data under management, enterprise giants can sell more hardware, software and services. "It's important to keep fracture from this space," said Bearden. "The way to stop that fracture is to give enterprises what they want on an open platform." Bearden noted that the latest Hadoop distributions aren't aiming to fracture Hadoop directly, but splintering is "a side effect of what they want to do."</p>
+<!-- Parsed pinbox:"10114443" -->
+<div class="relatedContent alignRight"><h3>Read this</h3><ul>
+<li><a href="http://www.zdnet.com/topic-making-the-business-case-for-big-data/">Making the Case for Big Data</a></li>
+
+<li><a href="http://www.zdnet.com/big-data-how-the-revolution-may-play-out-7000007734/">Big data: How the revolution may play out</a></li>
+</ul></div>
+<p>Characterizing the new Hadoop distributions is similar to picking a part a mashup. There are mixes of open software and proprietary. Ultimately, these mashed up Hadoop distributions could lead to lock-in since they aren't 100 percent open. Overall, Bearden said Hadoop will be fractured to some degree.</p>
+<p><strong>On support agreements</strong>, Bearden said that there's a significant majority of technology leaders that want support with their Hadoop distribution even though Hortonworks distro is on Apache.</p>
+<p><strong>What Hadoop can and can't do.</strong> Bearden said Hadoop is rock solid as an enterprise platform and storage layer for unstructured data. "It's reliable, predictable and stable," he said. "There's true reliability today for storage processing at scale." There needs to be more tools for complex data management, but Bearden expects that functionality to arrive over the next year. Where Hadoop visions differ is real time transaction processing. Bearden's take is that real time processing is many years away if ever. "I'd emphasize 'if ever,'" he said. "We don't view Hadoop being storage, processing of unstructured data and real time." Other companies behind distributions, notably Cloudera, see real-time processing as important. "Why recreate the wheel," asks Bearden. Although trying to upend the likes of IBM, Teradata, Oracle and other data warehousing players may be interesting, it's unlikely that a small fry could compete. "I'd rather have my distro adopted and integrated seamlessly into their environment," said Bearden. For instance, Hortonworks and Teradata have a tight integration partnership. "It's not a Lego exchange and connectors," said Bearden of Hortonworks' partnership with Teradata. "We can show the management of data at every later."</p>
+<p><strong>International expansion.</strong> Hortonworks recently expanded into Europe, Middle East and Africa and is building out its infrastructure. Other international moves will come slowly. "We have to get it right in North America first," said Bearden. "We'll get it right close to home and then set up the infrastructure to follow the sun."</p>
+<p>Related:</p>
+<ul>
+<li><a >EMC's Pivotal Initiative launches: Now comes the execution part</a></li>
+<li><a >EMC launches Hadoop distribution, takes aim at Cloudera</a></li>
+<li><a >Intel baking Apache Hadoop into silicon for big data, security uses</a></li>
+<li><a >Why hardware giants are Hadoop distro happy</a></li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013966</guid>
+      <link><![CDATA[http://www.zdnet.com/good-android-apps-for-the-galaxy-s4-note-2-and-other-big-screens-7000013966/]]></link>
+      <title><![CDATA[Good Android apps for the Galaxy S4, Note 2, and other big screens]]></title>
+      <description><![CDATA[You can never have enough apps and good ones are the best. The apps in this collection work beautifully on the large screen of the Galaxy Note 2 as they should on the newest Galaxy S4.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 09:55:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[James Kendrick]]></media:credit>
+      <s:doctype><![CDATA[Gallery]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-android/">Android</category>
+      <category domain="http://www.zdnet.com/topic-apps/">Apps</category>
+      <media:text type="html"><![CDATA[<h3>Beautiful Live Wallpaper</h3>
+<p>In the past I have not used live wallpapers as they can hit the phone battery pretty hard. The long life of the Note 2's battery led me to use the Beautiful Live Wallpaper and I haven't regretted it.</p>
+<p>In addition to looking good, Beautiful Live Wallpaper displays useful information on the home screen. Current weather conditions are shown with high-resolution animations. The screen color changes throughout the day to reflect both the weather conditions and the time of day. A rising sun and moon can be toggled on to complement the action. Waving grass or wheat completes the animated image across the bottom of the screen.</p>
+<p>Beautiful Live Wallpaper is part of the Beautiful Widgets package, also a nice home screen addition.</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.levelup.beautifulwidgets&amp;hl=en">$2.49</a></p><h3>Pocket Informant HD</h3>
+<p>This PIM app has been around since the Windows Mobile days, and the current Android version is wonderful. It combines contacts, calendar, and tasks into one app where all the parts work seamlessly together.</p>
+<p>All areas of the app have fully configurable views to tailor every aspect of Pocket Informant to suit the user.</p>
+<p>One of the week views is shown in the image above.</p>
+<p><a href="https://play.google.com/store/apps/details?id=net.webis.pocketinformant&amp;hl=en">$6.99</a></p><h3>Pocket Informant Agenda View</h3>
+<p>One of the most useful calendar views in Pocket Informant is the agenda view. This shows all upcoming events in a simple &nbsp;list format that makes good use of colors and icons to give information at a glance.</p><h3>Google Keep</h3>
+<p>This recently launched note app from Google is not the most capable but it makes good use of the screen. Colorful tiles turn the note collection screen into a useful way to find the note of interest.</p>
+<p>Creating notes can be done by entering text, speaking voice notes, or taking photos. Lists in notes can now be turned into checklists making to-do lists possible. One of the coolest features in Google Keep is the automatic (and instant) transcription of voice entries.</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.google.android.keep">Free</a></p><h3>TripIt Pro</h3>
+<p>Frequent travelers are probably aware of the online service, TripIt. It builds travel itineraries from confirmation emails from airlines, hotes, and car rental agencies. These itineraries make a complete picture of upcoming trips, and it all can be easily synced to calendars.</p>
+<p>The TripIt Pro Android app is a convenient way to access the online service, optimized for the phone screen. In addition to the trip overview screen (shown above), it is easy to drill down into any event in the list to get details. It also integrates with Google Maps to give instant maps with navigation from airports to hotels.</p>
+<p>The <a href="https://play.google.com/store/apps/details?id=com.google.android.keep">app is free&nbsp;</a>but you need to upgrade to the TripIt Pro service to get full benefit of using it.</p><h3>Zite</h3>
+<p>Zite on iOS was long the standard for great app design and functionality. When Zite was first released for Android it was so bad it was embarrasing to compare it to the iOS version.</p>
+<p>That's been largely rectified with the current version for Android which is a solid app for accessing news in an attractive format. You can vote individual articles up or down to personalize the news that Zite serves up in the app.</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.zite&amp;hl=en">Free</a></p><h3>Google Now</h3>
+<p>The Google Now widget is part of Google Search and it has an uncanny knack of providing pertinent information on the home screen. It learns how to help you the more you use it.</p>
+<p>It shows a wide breadth of information types depending on where you are, what you are doing, and where you are going.</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox&amp;hl=en">Free</a></p><h3>Flipboard</h3>
+<p>There is no better way to follow online news and social networks than Flipboard. The gorgeous magazine layout works well on large screens. The interface is well-designed, making it a breeze to swipe from one screen to the next.</p>
+<p>In addition to news that can be tailored to suit the user, Flipboard is a great way to follow updates on Facebook and Twitter. The entire list of social networks that can be accessed with Flipboard is impressive:&nbsp;Twitter, Facebook, Instagram, Google+, YouTube, Google Reader, LinkedIn, Flickr, 500px, Sina Weibo and Renren.</p>
+<p>News articles can be saved for reading later in Instapaper, Pocket, and Readability.</p>
+<p><a href="https://play.google.com/store/apps/details?id=flipboard.app&amp;hl=en">Free</a></p><p>Quickoffice Pro</p>
+<p>Large-screened phones can be useful for working with office documents, and Quickoffice Pro is a great way to do so. It can view and edit MS Office documents (Word, Excel, Powerpoint) and is a full PDF editor.</p>
+<p>Google bought Quickoffice last year and is in the process of integrating it into Chrome and Chrome OS. The Android app is a full version of the Quickoffice suite.</p>
+<p>See also: <a href="http://www.zdnet.com/big-winner-with-office-for-ipad-and-android-delay-google-7000013841/">Big winner with Office for iPad and Android delay: Google</a></p>
+<p>Users dealing with the lack of MS Office on Android may find Quickoffice Pro can fill the void.</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.qo.android.am3&amp;hl=en">$14.99</a></p><h3>Tweetings</h3>
+<p>While the Android app from Twitter has gotten much better than it was in the past, it still falls short compared to Tweetings. Tweetings has a great interface complete with gestures that makes working with Twitter a delight.&nbsp;</p>
+<p>Multiple columns are supported on the phone and moving among them as simple as swiping left to right and vice versa.</p>
+<p>I've tried just about every Twitter app out there and Tweetings is by far my favorite.</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.dwdesign.tweetings&amp;hl=en">$1.99</a></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014001</guid>
+      <link><![CDATA[http://www.zdnet.com/justice-dept-us-spectrum-sale-must-encourage-competition-7000014001/]]></link>
+      <title><![CDATA[Justice Dept: US spectrum sale must encourage competition]]></title>
+      <description><![CDATA[The Justice Department has degreed that the FCC's sale of spectrum has to consider smaller wireless carriers.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 09:31:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-networking/">Networking</category>
+      <category domain="http://www.zdnet.com/topic-wi-fi/">Wi-Fi</category>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="fcc-logo_black-on-white" alt="fcc-logo_black-on-white" src="http://cdn-static.zdnet.com/i/r/story/70/00/014001/fcc-logoblack-on-white-198x166.jpg?hash=LJVkMQN3BT&upscale=1" height="166" width="198"></figure>
+<p>The Justice Department has told the FCC that the agency's upcoming spectrum auction must be geared towards spurring on competition in the industry.</p>
+<p>The Federal Communications Commission (FCC) received a filing from the U.S. Department of Justice on Friday that documented the department's wish to see smaller wireless carriers being given a fair chance at obtaining spectrum in the auction.</p>
+<p>The Justice Department has suggested that rules be put in place to prevent the United States' largest carriers -- such as Verizon and AT&amp;T -- from snatching up all of the spectrum reserves. The filing reads:</p>
+<blockquote>
+<p>"The Department concludes that rules that ensure the smaller nationwide networks, which currently lack substantial low-frequency spectrum, have an opportunity to acquire such spectrum could improve the competitive dynamic among nationwide carriers and benefit consumers."</p>
+</blockquote>
+<p>In order to try and give smaller carriers a fighting chance, the <a href="http://www.reuters.com/article/2013/04/12/us-usa-fcc-doj-idUSBRE93B0TF20130412">department has suggested</a> that big carriers be allowed to buy "smaller blocks" of low-frequency spectrum, and even if firms such as Verizon big for larger spectrum blocks, this should be restricted or disallowed in the FCC's auction.</p>
+<p>Low-frequency spectrum is valued due to its ability to better cater for obstacles or walls. The suggested restrictions may help carriers including T-Mobile and Sprint compete against their larger rivals, and although Verizon and AT&amp;T express concern that the department's wish could lessen their participation in the auction, supporters argue that some larger firms may only wish to buy the spectrum blocks to keep prices as they are and keep competitors in line -- rather than utilize the resource to improve services.</p>
+<p>Sprint's vice president of government affairs, Larry Krevor, told <em>Reuters</em>:</p>
+<blockquote>
+<p>"The Justice Department is absolutely right. We are hopeful that the FCC will adopt policies which recognize the importance of low-band spectrum to wireless competition and the American economy as a whole."</p>
+</blockquote>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013997</guid>
+      <link><![CDATA[http://www.zdnet.com/spain-develops-tough-anti-piracy-laws-7000013997/]]></link>
+      <title><![CDATA[Spain develops tough anti-piracy laws]]></title>
+      <description><![CDATA[The Spanish Education and Culture Minister hopes that new, unforgiving piracy laws will be enough to satisfy the United States. ]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 08:45:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-government/">Government</category>
+      <category domain="http://www.zdnet.com/topic-legal/">Legal</category>
+      <media:text type="html"><![CDATA[<figure><img title="spanish piracy law bill proposal america watch list" alt="spanish piracy law bill proposal america watch list" src="http://cdn-static.zdnet.com/i/r/story/70/00/013997/pirateers120612coz-620x369.png?hash=ZGAwZmx2MG&upscale=1" height="369" width="620"></figure>
+<p>Spanish Education and Culture Minister Jose Ignacio Wert hopes that a set of "anti-piracy" laws will be enough to take the country off the naughty list for copyright violators.</p>
+<p>The European country is rife with pirates who joyfully download the latest episode of <em>Game of Thrones</em> or enjoy free access to games and music, and so is in danger of being placed on the U.S.'s "watch list" of countries that contain the most prolific illegal downloaders.</p>
+<p><a href="http://www.reuters.com/article/2013/04/12/us-spain-intellectualproperty-idUSBRE93B0LY20130412">According to Reuters</a>, the U.S. government is due to publish the latest list of copyright violating countries this month. The International Intellectual Property Alliance (IIPA), a copyright lobbying group, recently <a href="http://www.iipa.com/pdf/2013SPEC301PRESSRELEASE.PDF">released a report</a> (.pdf) which suggested that Spain once again be placed on a priority watch list for both illegal downloads and the trade of copyright-infringing goods, even though the country was removed from last year's list.</p>
+<p>Other counties the IIPA believes need watching are Ukraine, China, Chile, India and Russia.</p>
+<p>If a country is placed on the U.S. government's naughty list, then trade sanctions -- and restrictions thereof -- may be used to try and make the countries in question impose tougher laws to try and combat piracy. (The illegal downloader is an <a href="http://royal.pingdom.com/2012/09/20/worlds-worst-offender-illegal-music-downloading/">unknown species</a> in the United States, of course).</p>
+<p>In an interview with the publication, Wert said that he believed "this reform should satisfy those who are worried about Spain's insufficient level of protection for intellectual property." However, in a culture where piracy is widely accepted, trying to promote businesses based on subscriptions for movies and music would not be an easy task.</p>
+<p>Currently, piracy laws in Spain mean that copyright holders have to lodge complaints against websites offering illegal downloads with the government itself, which has resulted in a slow and complicated process when attempting to have services taken offline. Instead, the new draft bill will go directly after "linking" sites that light the way for downloaders to find content -- think&nbsp;<em>The Pirate Bay</em> or <em>IsoHunt</em>. These websites potentially will be taken offline and have online payment services barred. Businesses that choose to advertise on copyright-infringing websites can be issued fines under the draft legislation.</p>
+<p>The bill is currently receiving public feedback, before being redrafted and sent back to parliament for debate. However, Wert believes the legislation will be adopted before the end of 2013.</p>
+<p><em>Image credit:&nbsp;<a href="http://www.flickr.com/photos/10856779@N05/2055981532/">Darlyn Perez</a></em></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013958</guid>
+      <link><![CDATA[http://www.zdnet.com/after-apples-app-store-rejection-french-minister-wades-into-debate-over-apps-and-net-neutrality-7000013958/]]></link>
+      <title><![CDATA[After Apple's App Store rejection, French minister wades into debate over apps and net neutrality]]></title>
+      <description><![CDATA[After Apple expelled French app AppGratis from its store, French minister Fleur Pellerin has expressed concern about the move - and its implications for net neutrality.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 08:27:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Valéry Marchive]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-apple/">Apple</category>
+      <category domain="http://www.zdnet.com/topic-legal/">Legal</category>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-eu/">EU</category>
+      <media:text type="html"><![CDATA[<p>Apple's decision to pull an app by a French developer from its iOS app store has got France's digital economy minister fired up.</p>
+<p>The app in question, AppGratis, promotes other apps by offering temporary discounts or free trials. AppGratis is no newcomer to the market: it has existed as an online service since 2008 &ndash; initially as a newsletter - and as an app since 2010.</p>
+<p>However, it removed from the App Store earlier this month, after falling foul of Apple's terms and conditions.</p>
+<p>Simon Dawlat, CEO at AppGratis, <a href="http://appgratis.com/blog/2013/04/09/appgratis-pulled-from-the-app-store-heres-the-full-story/">said on his blog</a> that Apple had told him AppGratis had contravened its guideline 2.25 which states that "apps that display other than your own for purchase or promotion in manner similar to or confusing with the App Store will be rejected", but also for guideline 5.6 according to which "apps cannot use push notifications to send advertising, promotions, or direct marketing of any kind." Apple <a href="http://allthingsd.com/20130408/confirmed-apple-kicks-appgratis-out-of-the-store-for-being-too-pushy/">confirmed</a> it had removed the app for violating the two guidelines, but didn't comment further.</p>
+<p>It's not the first time AppGratis has had to deal with Apple&rsquo;s validation team. Last October, it rejected an update to the app, although it approved the v3 version of the iPhone app weeks later after adjustments were made to keep it on the right side of Apple's rules.</p>
+<p>More recently, AppGratis found itself on the receiving end of another App Store u-turn: Apple validated the iPad version of the application just a week before pulling it from its app store.</p>
+<p>Dawlat said he's "stunned that Apple took the decision to destroy so much value within their own ecosystem" and added the story is "far from finished" for the company that recently raised $13.5m in funding, and which has 12 million users on the disappeared app.</p>
+<p>So far, he appears to be right: Fleur Pellerin, French minister for the digital economy, took to Twitter to voice her objection to the move, questioning why that "in the App Store's listings, plenty of apps similar to AppGratis remain", suggesting that some apps may not be receiving equal treatment at Apple's hands. (ZDNet has contacted Apple for comment, but has not received any.)</p>
+<blockquote class="twitter-tweet">
+<p>In the appstore&rsquo;s listings, plenty of apps similar to @<a href="https://twitter.com/appgratis">appgratis</a> remain, that appear to violate 2.25 and/or 5.6... <a href="https://twitter.com/search/%23levelplayingfield">#levelplayingfield</a>?</p>
+&mdash; Fleur Pellerin (@fleurpellerin) <a href="https://twitter.com/fleurpellerin/status/322099666084839425">10 avril 2013</a></blockquote>
+<p>Last week, Pellerin visited AppGratis' offices in Paris, where she criticised the "brutality" of Apple's decision. <a href="http://pro.clubic.com/technologie-et-politique/actualite-553028-appgratis-fleur-pellerin-mobilise-autour-decision-injuste-apple.html">she said during the visit</a>, Pellerin highlighted the need to "measure the full extent of how these large platforms can unilaterally decide market conditions and how businesses work, in a way that is not compatible with the ethics we expect from those large companies".</p>
+<p>Pellerin also highlighted the link between Apple's decision and the wider debate around net neutrality - a point <a href="http://www.zdnet.fr/actualites/fleur-pellerin-visite-appgratis-et-critique-apple-opportunite-ratee-39789289.htm">echoed by Beno&icirc;t Thieulin</a>, president of the recently appointed National Digital Council, questioning the neutrality of de facto app distribution platforms like Apple's App Store.&nbsp;</p>
+<blockquote class="twitter-tweet">
+<p>L'avis du @<a href="https://twitter.com/cnnum">cnnum</a> va ds ce sens, en effet. &ldquo;@<a href="https://twitter.com/fleurpellerin">fleurpellerin</a>: chez @<a href="https://twitter.com/appgratis">appgratis</a>, je m'exprimerai sr la neutralit&eacute; des plateformes <a href="https://twitter.com/search/%23NetNeut">#NetNeut</a> <a href="https://twitter.com/search/%23Apple">#Apple</a></p>
+&mdash; Beno&icirc;t Thieulin (@thieulin) <a href="https://twitter.com/thieulin/status/322278205283262464">11 avril 2013</a></blockquote>
+<p>It's an issue that has so far gone largely undebated: should there be a universal right of access to Apple's app store? And given iOS developers have to abide by the rules that Apple sets in order to distribute their apps, with such a monopoly, should Apple be allowed to set all the rules alone?</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013994</guid>
+      <link><![CDATA[http://www.zdnet.com/clearwire-mulls-over-interest-payment-default-7000013994/]]></link>
+      <title><![CDATA[Clearwire mulls over interest payment default]]></title>
+      <description><![CDATA[The firm's financial health continues to plummet as it considers defaulting on interest payments made necessary through Clearwire's debt.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 08:13:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>Clearwire has received an offer to be taken over by Sprint, but in the meantime, may default on interest payments.</p>
+<figure class="alignRight"><img title="clearwirelogo" alt="clearwirelogo" src="http://cdn-static.zdnet.com/i/r/story/70/00/013994/clearwirelogo-200x67.png?hash=ZwIzAzH4Az&upscale=1" height="67" width="200"></figure>
+<p>The Internet services provider is "actively considering" defaulting on an interest payment due at the beginning of June, <a href="http://www.reuters.com/article/2013/04/13/us-clearwire-proxy-idUSBRE93B16V20130413">according to Reuters</a>. A proxy filing filed on Friday says that the interest payment, worth $255 million, is based on roughly $4.5 billion of outstanding debt.</p>
+<p>"If the merger is not completed, we may be forced to explore all available alternatives, including financial restructuring, which could include seeking protection under the provisions of the United States Bankruptcy Code," The filing warns. "In addition, our board of directors is actively considering whether to not make the June 1, 2013, interest payment on our approximately $4.5 billion of outstanding debt."</p>
+<p>With so much debt hanging over the firm, it is unsurprising that Clearwire has warned its investors that it will face serious restructuring -- and potentially bankruptcy -- unless the company <a href="http://www.zdnet.com/fcc-chairman-hints-softbank-sprint-clearwire-deal-on-track-for-decision-by-may-7000012909/">accepts a takeover bid</a> by Sprint Nextel. Sprint, the broadband provider's largest shareholder, has offered $2.97 a share -- $2.2 billion -- to acquire full ownership of Clearwire and the remaining 52 percent of shares it does not already own.</p>
+<p>This bid did little to <a href="http://www.zdnet.com/clearwire-investors-to-sprint-up-your-bid-please-7000010016/">enamour other shareholders</a>, who would have to agree to the takeover. In a surprise move, Dish Networks swooped in with a "superior" offer of $3.30 a share, but Clearwire's contractual obligations make it difficult to accept a third-party bid. As a result, the largest minority shareholder in Clearwire, Crest Financial, has offered to lend the broadband provider <a href="http://www.zdnet.com/crest-proposes-alternative-to-clearwire-sprint-deal-7000013502/">$240 million</a>. Although this would do little to clear the company's debt, the shareholder said the move is designed to give Clearwire another option, and the funds would be enough to fund the building of 2,000 LTE sites as well as pay interest on debts for the remainder of the year.</p>
+<p>If Clearwire accepts Sprint's offer, then the company will be granted $800 million in financing. The Washington-based firm has been attempting to build LTE networks to both retain customers and attract new ones, but Clearwire's financial situation makes staying competitive difficult.</p>
+<p>In addition to the filing's disclosure, Clearwire also said it has received a bid from an anonymous "strategic buyer" that wishes to purchase spectrum leases for $1 billion to $1.5 billion, but no more details were disclosed.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013806</guid>
+      <link><![CDATA[http://www.zdnet.com/exploring-the-pclinuxos-2013-04-rollup-release-7000013806/]]></link>
+      <title><![CDATA[Exploring the PCLinuxOS 2013.04 rollup release ]]></title>
+      <description><![CDATA[Now with 32-bit mini, normal and full monty versions, and a 64-bit KDE version as well.  But be careful, it still doesn't support GPT disk partitioning.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 07:59:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[J.A. Watson]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-open-source/">Open Source</category>
+      <category domain="http://www.zdnet.com/topic-operating-systems/">Operating Systems</category>
+      <media:text type="html"><![CDATA[<p>The PCLinuxOS developers have made a new quarterly 'rollup' release of their Linux distribution, and this one brings some extra good news with it.&nbsp;</p>
+<p>In addition to normal 32-bit distribution, this time a 64-bit version is available as well.&nbsp; PCLOS is a "rolling release", so updates are continuously released as they are ready, rather than being held back for scheduled major updates.&nbsp;</p>
+<p>That means this is a "rollup" release which simply incorporates all of the updates which have been released since the last ISO rollup was made - for the 32-bit version, that was just in February of this year, but for the 64-bit version I don't even remember when the last release was: there has been a 64-bit Release Candidate available since shortly after the 32-bit rollup was released, but before that I don't know.</p>
+<p>The <a href="http://www.pclinuxos.com/?p=1908">32-bit release notes</a> give a rundown of new/improved features; in my opinion the most important is the update to KDE 4.10.1, the most noticeable is the very nice new theme graphics, the most beneficial is the new QT-update notifier, and the most disappointing is Linux kernel 3.2.18.&nbsp;</p>
+<p>That last bit of disappointment is probably not fair, because it is well known that PCLOS is based on Debian, and the developers don't try to keep up with newer kernels beyond Debian, so the release contains what is to be expected.</p>
+<p>The most impressive aspect of the PCLinuxOS 32-bit release is the variety of distributions.&nbsp; The minime version is stripped down to a svelte 549MB ISO image. This makes it small and light, without a lot of extra features beyond the base operating system, so if you are installing on older hardware, or with limited disk or memory capacity, or you really want the ISO to fit on a single CD-R disk, you should be happy with this one.&nbsp;</p>
+<p>The standard KDE Desktop version weighs in at 1.66GB, so you'll need a DVD or at least 2GB USB stick for it. It includes a lot of common packages which have been omitted from minime to save space, such as LibreOffice, GIMP, VirtualBox and a lot more.&nbsp;</p>
+<p>The full monty version lumbers in at a hefty 4GB, and looks like it includes pretty much everything anyone could think of to toss in there. The nicest part of this one is probably the variety of pre-configured desktops.&nbsp; Check the <a href="http://www.pclinuxos.com/?page_id=1413">Full Monty detailed description</a> to see some nice examples of these.</p>
+<p>A 64-bit version of the "normal" KDE Desktop version is also available.&nbsp; There has been a Release Candidate of this version available since shortly after the previous 32-bit rollup was released, so it is good news to see it become a final release.&nbsp; The contents and features appear to be essentially the same as the 32-bit KDE Desktop version.</p>
+<figure><img title="PCLinuxOS64" alt="PCLinuxOS64" src="http://cdn-static.zdnet.com/i/r/story/70/00/013806/pclinuxos64-620x349.png?hash=A2Z2AwD4LG&upscale=1" height="349" width="620"><figcaption>PCLinuxOS 64-bit Desktop</figcaption></figure>
+<p>&nbsp;The contents of the standard 32-bit and 64-bit versions are essentially the same:</p>
+<p>- Linux kernel 3.2.18: this is probably the single largest drawback to this distribution, because there have been a lot of drivers added and improved in later versions of the kernel. Two things which jumped out at me: there is no driver for the Raling 3290 WiFi adapter, and the ClickPad is not properly supported. The former turns out not to be so bad, because I can't use PCLOS on that system anyway (see below), but the latter is a killer; I had forgotten how totally awful the blasted ClickPad is without the correct driver. It took less than five minutes of struggling with it before I was ready to launch it out the window.</p>
+<p>- KDE 4.10.1: this is one of the biggest advantages to this distribution.&nbsp; The latest KDE, and it is a beauty.</p>
+<p>- LibreOffice 4.01.</p>
+<p>- digiKam 3.1.0: I am a fanatic about digiKam, and this is the first distribution I have seen with 3.1, so I am very pleased about this.</p>
+<p>I have to make one very significant point about this distribution, however.&nbsp; Not only does it not include UEFI Boot support, it also does not support GPT partitioned disks.&nbsp;</p>
+<p>As I have mentioned several times over the past few articles about UEFI and GPT, this can be particularly treacherous, because it will not complain, it looks like it is going to work - but unless you are very lucky, and have a very simple disk layout, there is a good chance that it will get confused and destroy one or more existing partitions on your disk.&nbsp;</p>
+<p>If you have a GPT disk (if you aren't sure, read that as "if you have Windows 8 and/or UEFI BIOS), I would strongly urge you not to try to install this distribution.</p>
+<p>In summary, this is a welcome release.&nbsp; It seems to me that it adds significant polish to the previous rollup release, and the 64-bit distribution is a big plus. It has a very active and very dedicated user community, and if you try it and find that you need help, you will almost certainly get it in the forums.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013960</guid>
+      <link><![CDATA[http://www.zdnet.com/teradata-adds-hadoop-integration-launches-data-warehouse-platform-7000013960/]]></link>
+      <title><![CDATA[Teradata adds Hadoop integration, launches data warehouse platform]]></title>
+      <description><![CDATA[Teradata's latest additions to its unified data architecture aim to deeply integrate its data warehouse systems, Aster's discovery platform, Hadoop and best-of-breed hardware. ]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 07:01:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Larry Dignan]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-big-data/">Big Data</category>
+      <category domain="http://www.zdnet.com/topic-enterprise-software/">Enterprise Software</category>
+      <category domain="http://www.zdnet.com/topic-hardware/">Hardware</category>
+      <category domain="http://www.zdnet.com/topic-business-intelligence/">Business Intelligence</category>
+      <media:text type="html"><![CDATA[<p>Teradata added Hadoop integration to its unified data architecture, partnered with Mellanox to increase throughput on its systems and launched its latest data warehouse platform.</p>
+<figure class="alignRight"><img title="tdcedw" alt="tdcedw" src="http://cdn-static.zdnet.com/i/r/story/70/00/013960/tdcedw-200x362.png?hash=LmMwAzZlAQ&upscale=1" height="362" width="200"></figure>
+<!-- Parsed pinbox:"10114443" -->
+<div class="relatedContent alignLeft"><h3>Read this</h3><ul>
+<li><a href="http://www.zdnet.com/topic-making-the-business-case-for-big-data/">Making the Case for Big Data</a></li>
+
+<li><a href="http://www.zdnet.com/big-data-how-the-revolution-may-play-out-7000007734/">Big data: How the revolution may play out</a></li>
+</ul></div>
+<p>The moving parts come as Teradata is blending Hadoop technology and partnering to deliver what Tasso Argyros, co-president Teradata Aster, calls a "best of breed component" approach that integrates parts tightly and packages systems.</p>
+<p>According to Teradata the latest additions to its unified data architecture, which melds data warehouse systems, Teradata Aster's discovery platform, Hadoop and best-of-breed partner tools, break down like this:</p>
+<ul>
+<li>A fabric-based networking backbone to speed analytics systems. For fabric-based computing, Teradata partnered with Mellanox InfiniBand to joint SUSE Linux Enterprise Server, NetApp and Intel's Xeon processors.</li>
+<li>Software to allow analysts to browse and move between Teradata and Hadoop data for business intelligence. The Teradata Enterprise Teradata Studio with Smart Loader for Hadoop Access supports Hortonworks and Cloudera.</li>
+<li>Teradata SQL-H, which blends Hadoop with standard SQL databases. SQL-H, which supports Hortonworks, is designed to allow analysts to query data anywhere it resides.</li>
+<li>The Teradata Active Enterprise Data Warehouse 6700 platform (right), which combines Mellanox components with the company's BYNET software. The 6700 platform integrates with Apache Hadoop and Teradata appliances.</li>
+</ul>
+<figure><img title="tdcedw1" alt="tdcedw1" src="http://cdn-static.zdnet.com/i/r/story/70/00/013960/tdcedw1-620x312.png?hash=BJD5AwSxBQ&upscale=1" height="312" width="620"></figure>
+<p>Argyros said that Teradata's goal was to form a platform that can ingest structured and unstructured data into one architecture. "The way we included Hadoop makes it a data refinery where it can be ingested to get it ready for further analysis that can happen in Teradata or Aster," he said.</p>
+<p>As for Hadoop, Teradata's Argyros said it makes more sense to partner with leading distributions instead of building its own. Recently, EMC and Intel launched their own distributions of Hadoop. "We don't want to go out and pretend we have a Hadoop distribution," he said. "There are other distributions that are market leading."</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013988</guid>
+      <link><![CDATA[http://www.zdnet.com/tell-me-again-why-we-need-office-on-the-ipad-7000013988/]]></link>
+      <title><![CDATA[Tell me again why we need Office on the iPad?]]></title>
+      <description><![CDATA[If we're not going to get Office for the iPad until late 2014, and we seem to be doing alright without it now, is it even something we need in our lives?]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 06:23:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Matt Baxter-Reynolds]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="No Office on iPad" alt="No Office on iPad" src="http://cdn-static.zdnet.com/i/r/story/70/00/013988/no-office-on-ipad-200x131.png?hash=LzV3LzIyAw&upscale=1" height="131" width="200"><figcaption>It's been a long time coming...</figcaption></figure>
+<p>Throughout the time the iPad has been available for sale, people have been talking about wanting to run Office on it.</p>
+<p>The latest information from my esteemed colleague Mary Jo Foley -- having seen an internal Microsoft roadmap -- is that Office for iPad is happening, but not until&nbsp;<a href="http://www.zdnet.com/microsofts-office-for-ios-android-not-until-fall-2014-7000013819/">late 2014</a>.</p>
+<p>Assuming this date is right -- the original iPad was first available for sale in April 2010, so we would have had nearly&nbsp;<em>five years</em>&nbsp;of the iPad without Office being available for it.</p>
+<p>Don't you then have to wonder -- if we've waited that long, do we need it at all?</p>
+<h4 id="old-problems">Old problems</h4>
+<p>We're now three-and-a-half years into the iPad and I still regularly run into people who ask me "why do I need an iPad?"</p>
+<p>Like the Matrix, no one can be told what the purpose of an iPad is, you have to see it for yourself. What I tend to do is tell people that they won't be disappointed with the purchase, but it's hard to understand what an individual would use it for before they own one.</p>
+<p>This phenomenon also applies to smartphones and tablets that aren't iPads -- in fact it applies to any post-PC device. These are devices that seem to defy explanation, but once adopted seem to hit a certain resonance with peoples lives and usually finds a comfortable harmony with the owner's lifestyle.</p>
+<p>I would imagine that if you went back in time to the introduction of, say, the radio, you'd hit similar problems. "I'm happy reading a book." "Yes, but you can hear the news on the radio?" "But I get the news when I get my paper in the morning?" "This is better?" "Why?" "It just is." "Right..."</p>
+<p>Yet prevailing "wisdom" from technologists seems to suggest that if you could run Office on the iPad, it would suddenly have purpose and meaning. This device would suddenly become something worth owning, as opposed to something that people buy in the their millions and are perfectly happy with despite it's lack of Office.</p>
+<p>Let's see if we can scrape together some sort of evidence...</p>
+<p>Firstly: analysts/pundits are often wrong (NB: I'm often wrong), but as far as I'm aware in the years since the iPad has been introduced there has been no amateur or professional punditry of any kind that has gone out and said that the iPad would be a&nbsp;<em>more successful</em>&nbsp;device if only Microsoft would deign to provide Office for it.</p>
+<p>The iPad is clearly successful without Office. The Nexus 7 and Kindle Fire devices are also successful without Office. It doesn't seem to follow that Apple, Google, or Amazon would benefit from variants of Office that run on iOS and Android.</p>
+<p>Secondly, the tablet market is hugely lucrative and for years now there has been a hole in it where Office would fit. Yet no one has stepped in. Over that time, we've had the three Apple-provided quasi-Office apps (Pages, Numbers, and Keynote) and Documents To Go by DataViz. The Apple apps still feature in the top 100 iPad apps in the UK. Documents To Go no longer does. They sell well, and are decent products, but get spanked by Candy Crush Saga et al.</p>
+<p>Thirdly, the only tablet in the market specifically designed to run Office -- a tablet whose very user experience design was bent around the idea of running Office -- hasn't sold very well. In fact, well perhaps not fact because it's my subjective opinion, <a href="http://www.zdnet.com/like-the-tin-man-in-the-wizard-of-oz-surface-is-lacking-heart-7000008541/">it's actually not a very good tablet at all</a>. Surface with Windows RT&nbsp;<a href="http://www.zdnet.com/microsoft-surface-with-windows-rt-tablet-sales-disappoint-in-fourth-quarter-7000010688/">sales have never been stellar</a>&nbsp;and now it looks like Microsoft may introduce a smaller tablet to try and combat that.</p>
+<p>Which is mad. If Surface is designed to be "the tablet for running Office", then Sartre was wrong. Hell isn't "other people" -- "hell is trying to tap out a cash flow forecast using Excel on a 7" tablet".</p>
+<p>And, for what it's worth, I do believe that Surface is "the tablet for running Office" -- if this wasn't the case Microsoft would have&nbsp;<a href="http://news.cnet.com/8301-10805_3-20128013-75/the-inside-story-of-how-microsoft-killed-its-courier-tablet/">continued to develop Courier</a>. Canning Courier was a huge mistake.</p>
+<h4 id="usability">Vision</h4>
+<p>So we know that Office on iPad hasn't happened, but should it happen? Spoiler: "No".</p>
+<p>Coming back to my earlier point, this is a classic issue of what I think of as "technologist's lensing" -- i.e. when a technologist looks at a problem they tend to see a solution that best suits a technologist.</p>
+<p>Technologists have what, I think, is a unique problem compared to other professions -- specifically that the delineation between tools used at work and at play is indistinct. If a chemist comes home from work, they're unlikely to have expensive lab equipment in their kitchen. Yet, when a software engineer comes home from work, it's likely they have the same or better kit in their house than they do at the office.</p>
+<p>Thus whereas a chemist might come home and&nbsp;<em>not</em>&nbsp;go into the kitchen and start running experiments, a software engineer can do exactly that. This bends the technologist's vision because the process of moving from work to play is one that is non-experiential. PC at work, then PC at home. Work tools at work -- work tools at home.</p>
+<p>I don't personally think this needs to be the case -- a little light self-reflection and this becomes obvious. Are you a technologist who owns a Kindle? You could read books on your PC when you go to bed, but do you? Do you instead use the Kindle? How about cooking -- do you read recipes on your iPad, or do you cart your laptop into the kitchen?&nbsp;</p>
+<p>Post-PC technology is not about cost-benefit, it's all about experience. Technologists need to reflect on their own unconcious behaviour in order to understand post-PC.</p>
+<h4 id="conclusion">Conclusion</h4>
+<p>Office, Windows, and the PC are welded together into an office-centric triad all of which operate in harmony to create a valuable and powerful tool when considered from the perspective of driving commercial efficiency. Office does nothing for one's experience at play, and taking Office out of the work environment and mixing it in with a sociologically-driven, relationship-centric, play device doesn't deliver value.</p>
+<p>It's this lack of value that explains why analysts don't talk about it increasing iPad's attractiveness in the market, why an able entrepreneur hasn't come along and filled the gap, and why the only Office-centric tablet on the market doesn't sell.</p>
+<p>If I were on Microsoft's exec team, I'd be more worried about introducing Office for iPad than not. Not for any reasons about cannibalising sales -- but rather because it puts the spotlight on whether Office is destined to become the niche specialty device that the PC is.</p>
+<p>Because, you know, it really is.</p>
+<p><strong><em>What do you think? Post a comment, or talk to me on Twitter:&nbsp;<a href="https://twitter.com/mbrit/">@mbrit</a>.</em></strong></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013936</guid>
+      <link><![CDATA[http://www.zdnet.com/in/hoppr-banks-on-being-device-agnostic-location-based-service-7000013936/]]></link>
+      <title><![CDATA[hoppr banks on being device-agnostic location-based service]]></title>
+      <description><![CDATA[The Indian location-based service platform runs on a variety of channels including SMS, and believes its offline connect capability with merchants will help it become a unique hyper local commerce platform.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 06:15:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Abhishek Baxi]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-apps/">Apps</category>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <category domain="http://www.zdnet.com/topic-smbs/">SMBs</category>
+      <media:text type="html"><![CDATA[<p><a href="http://www.hoppr.com/" target="_blank">hoppr</a>, launched in May last year, claims to be the world's only device-agnostic location-based check-in and rewards service.</p>
+<p>Using Unstructured Supplementary Service Data (USSD), SMS, and a mobile app, it allows customers discover one's neighborhood, check-in into places for specials and rewards. hoppr recently crossed 85 million check-ins in less than a year, with over 1 million active users.</p>
+<figure class="alignRight"><img title="hoppr" alt="hoppr" src="http://cdn-static.zdnet.com/i/r/story/70/00/013936/hoppr-200x133.jpg?hash=Z2AyAwD3MG&upscale=1" height="133" width="200"><figcaption>Mohammed Imthiaz at hoppr's HQ in Gurgaon, India</figcaption></figure>
+<p>I met Mohammed Imthiaz, the founder and CEO of hoppr, who told me about how the service will contribute to the growth of location-based services in India as it was created keeping in mind the Indian mobile ecosystem, thereby being device-agnostic.</p>
+<p>hoppr reaches out to a bigger consumer base due to its easy accessibility on <a href="http://www.zdnet.com/singtel-eyes-feature-phone-ad-market-2062304754/" target="_self">feature phones</a>--still the majority for now despite the growth of smartphones. &nbsp;</p>
+<p>Its mobile device-agnostic nature of the service along with offline connect with merchants gives rise to a hyper local commerce platform that benefits users, telcos and brands together by bringing together their online and offline worlds.</p>
+<p>Imthiaz insists the service is no <a href="http://www.zdnet.com/foursquare-evolving-with-nfc-1339331558/" target="_self">Foursquare</a> clone as many, including me, wonder.</p>
+<p>One, it is not limited to smartphones. And secondly, hoppr is making a huge investment in merchant relationships and evangelizing its capability.</p>
+<p>"hoppr was conceived in a bid to connect the online and offline worlds of consumers and businesses. And that requires feeding on the street. Our sales guys meet about 400 merchants a day. We train the staff at merchant partners, integrate with their POS systems, and work very closely with them," Imthiaz explained, adding that they have over 10,000 merchants across major cities on hoppr already.</p>
+<p>hoppr is available on seven leading telecom operators in India: Airtel, Aircel, BSNL, Idea, Reliance, Tata Docomo and Vodafone. The service reaches out to over 90 percent of the entire Indian mobile population. "Considering voice is ubiquitous, we are number two as a service availability on mobile phones," Imthiaz said.</p>
+<p>While most would perceive the service to be of consumer interest, hoppr's focus is B2B with merchants and telecom operators while serving the former. Currently, hoppr does not charge merchants to offer rewards on the service, however some commercial features like promotions, loyalty programs, and <a href="http://www.zdnet.com/cutting-commutes-with-data-mining-1339310400/" target="_self">data mining</a> could come through.</p>
+<p>Imthiaz talked about how location was a powerful information of relevance and while every brand wants to "do something <a href="http://www.zdnet.com/google-what-you-need-to-do-in-mobile-in-2013-7000009232/" target="_self">mobile</a>", how of the equation was not answered as yet. "We tapped on USSD and SMS--the emerging markets' Internet. We started at the bottom of the pyramid and now our Android app is out while iOS one is in the works".</p>
+<p>Responding to my worry if the <a href="http://www.zdnet.com/the-best-way-to-develop-mobile-apps-dont-develop-mobile-apps-7000009974/" target="_self">mobile apps</a> would bring a fragmentation to the service in terms of capability, Imthiaz said: "The core of the service remains same. Check-in, and earn rewards and points, in less than 30 seconds."</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013980</guid>
+      <link><![CDATA[http://www.zdnet.com/eu-google-strike-search-antitrust-settlement-deal-report-7000013980/]]></link>
+      <title><![CDATA[EU, Google strike search antitrust settlement deal: report]]></title>
+      <description><![CDATA[Changing the way that Google displays its search results in European markets could see the search giant avoid massive fines in the region. ]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 05:59:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Zack Whittaker]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-eu/">EU</category>
+      <media:text type="html"><![CDATA[<p>European antitrust authorities have reportedly agreed to concessions submitted by Google following a two-year investigation into the company's business practices, according to a number of news sources.</p>
+<figure><img title="screen-shot-2012-07-10-at-17-13-26" alt="screen-shot-2012-07-10-at-17-13-26" src="http://cdn-static.zdnet.com/i/r/story/70/00/000595/screen-shot-2012-07-10-at-17-13-26-620x342.png?hash=AGAvLmOzLw&upscale=1" height="342" width="620"><figcaption>(Image: Robert Scoble/Flickr, CC)</figcaption></figure>
+<p>The investigation, which began in 2010, sought to determine whether Google favors its own services in search results, harming competitors. Numerous rivals, from TripAdvisor to Expedia, complained to EU authorities, claiming that Google is abusing its dominant position in the search market by pushing out rivals.</p>
+<!-- Parsed pinbox:"10118021" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/eu-antitrust-chief-hints-at-forced-changes-for-google-7000009665/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/story/70/00/009665/eu-antitrust-chief-warns-google-to-change-diverting-traffic-tactics-220x165.jpg?hash=LwIxLwpjLz&upscale=1" alt="EU antitrust chief hints at forced changes for Google" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/eu-antitrust-chief-hints-at-forced-changes-for-google-7000009665/">EU antitrust chief hints at forced changes for Google</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/eu-antitrust-chief-hints-at-forced-changes-for-google-7000009665/">Read more</a></li></ul></div>
+<p>The deal, which falls under <a href="http://www.bloomberg.com/news/2012-09-19/google-eu-antitrust-talks-can-t-last-indefinitely-almunia-says.html">Article 9 of the European antitrust rules</a>, has been accepted in principle, according to sources. The concessions will be tested in the wider market, allowing competitors to comment and critique the proposed changes. This could take more than a month for such market testing to complete.</p>
+<p>While Google's proprietary search algorithm will not change, <a href="http://www.nytimes.com/2013/04/15/technology/google-and-europe-reach-deal-on-search-results.html?pagewanted=all&amp;_r=0">according to <em>The New York Times</em></a>, certain search results that ordinarily offer Google-provided services will also have to display rival and competing products.</p>
+<p>Results from Google that link to shopping, mapping, and flights — services that the company offers as part of its wider range of services — will also have to be labeled clearly.</p>
+<p>Should rivals and competitors accept the changes, Google could avoid massive fines in the region by the European executive body.</p>
+<p>However, fines up to 10 percent of Google's annual turnover could be issued, a figure that could amount to €2.9 billion ($3.8bn) based on the company's 2011 global revenue.</p>
+<h3>One investigation, four complaints</h3>
+<p>The four main areas of concern by EU authorities <a href="http://www.zdnet.com/blog/london/europe-offers-google-settlement-option-in-antitrust-case/4824">were noted in a letter</a> by EU Competition Commissioner Joaquin Almunia to Google executive chairman Eric Schmidt in early 2012. These include claims that it "copies content" from competing vertical search services for use of its own offerings, and makes it difficult to port ad campaigns to rival services.</p>
+<p>The EU settlement will also include changes to Google's AdSense advertising platform contracts, which would make it easier for websites to offer ads from rival services in conjunction with Google's own advertising platform.</p>
+<p>While Google has&nbsp;<a href="http://www.comscore.com/Insights/Press_Releases/2013/4/comScore_Releases_March_2013_U.S._Search_Engine_Rankings">around 67 percent of the US search market</a>, it has more than 90 percent in the EU. Google generates around 95 percent of its global annual revenue from its advertising business.</p>
+<p>The US Federal Trade Commission (FTC) <a href="http://www.zdnet.com/google-must-change-search-business-practices-after-ftc-decision-7000009350/">closed a two-year probe</a> into the company in January. Google avoided financial penalties, but was forced to make some changes to its search advertising business.</p>
+<!-- Parsed pinbox:"10118022" -->
+<div class="relatedContent alignLeft"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/google-must-change-search-business-practices-after-ftc-decision-7000009350/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/story/70/00/009350/google-must-change-search-business-practices-after-ftc-decision-220x165.png?hash=BQIzZ2HlZG&upscale=1" alt="Google must change search business practices after FTC decision" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/google-must-change-search-business-practices-after-ftc-decision-7000009350/">Google must change search business practices after FTC decision</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/google-must-change-search-business-practices-after-ftc-decision-7000009350/">Read more</a></li></ul></div>
+<p>Just as with the US ruling, which now allows sites to opt out of "vertical" search sites — such as Google News or Google+ Local — without harming their search rankings, the EU case runs deeper by offering the creation of a new tool to prevent certain content from being indexed and displayed by Google's search results.</p>
+<p>Comparatively, Google's slap on the wrist just about exceeds that of the FTC's decision earlier this year, albeit with the risk of greater financial penalties in the long run if it fails to keep up with the agreed terms with EU authorities.</p>
+<p>The other major difference is that the settlement with the EU will last for five years.</p>
+<p>So long as Google continues to abide by the legally binding EU ruling, it will continue to avoid penalties. That said, should it fall afoul of the agreement — <a href="http://www.zdnet.com/microsoft-fined-731m-by-eu-in-browser-choice-screw-up-7000012101/">similar to Microsoft's browser ballot agreement</a> — Google will face severe financial penalties that would likely exceed any fine that it could have faced today, should its settlement offer have been rejected.</p>
+<p>But while this may appear on the face of it to be a get-off clause for the search giant, the decision to hit Google's search business may ultimately — even if it is for the sake of fair competition in the region — ding Google's expected revenue in the long term by linking to competitors.</p>
+<p>And this won't be the last round of headaches for Google with Europe.</p>
+<p>FairSearch, a coalition of companies such as Microsoft, Expedia, Oracle, and more than a dozen technology companies, <a href="http://news.cnet.com/8301-1023_3-57578545-93/google-now-facing-antitrust-scrutiny-in-europe-over-android/">fired off a fresh complaint toward the EU's Competition Commission</a> over claims relating to Google's own Android mobile operating system.</p>
+<p>The group claimed that the search-turned-mobile giant is abusing its position as the mobile market share leader "to dominate the mobile marketplace and cement its control over consumer internet data for online advertising as usage shifts to mobile".</p>
+<p>We've reached out to Google for comment, but did not hear back outside of US business hours.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013985</guid>
+      <link><![CDATA[http://www.zdnet.com/countdown-now-ticking-for-apple-wwdc-tickets-7000013985/]]></link>
+      <title><![CDATA[Countdown now ticking for Apple WWDC tickets]]></title>
+      <description><![CDATA[Apple's Worldwide Developer Conference is one of the few times in the year when Apple executives, programming teams and third-party developers come together in person. With tickets expected to sell out in perhaps an hour, new ticket alert services are now on line. ]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 04:15:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[David Morgenstern]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-software-development/">Software Development</category>
+      <media:text type="html"><![CDATA[<p>In 2011, tickets to the annual <a href="https://developer.apple.com/wwdc/" target="_blank">Apple Worldwide Developer Conference in San Francisco</a> sold out in 12 hours. Last year it was down to two hours. There are only some 5,000 seats at the conference and the demand is very, very high. And the rumors around the announcements that will be made are just starting to heat up.</p>
+<p>Several recent blog posts point to availability services and monitoring applications. Adam Engst at <a href="http://tidbits.com/article/13690" target="_blank">TidBITS</a> and developer Oliver Drobnik at <a href="http://www.cocoanetics.com/2013/04/professional-wwdc-ticket-alert/" target="_blank">Cocoanetics</a> both expected <a href="https://secure.wwdcblast.com/signup" target="_blank">WWDC Blast</a> to do the job right.&nbsp;</p>
+<p>Drobnik writes:</p>
+<blockquote>
+<p>All those options pale in comparison with the professionalism that can be had from WWDC Blast. Any kind of monitoring system&rsquo;s effectiveness depends on you noticing any alert notification. And this is their flaw. If you are on the wrong cost of the USA or someplace else on our geoid that we call home, then email, push notifications or SMS won&rsquo;t cut it.</p>
+<p>What you really want is a friend who constantly refreshes the WWDC page and calls you the second there is action there. WWDC Blast is exactly that.</p>
+</blockquote>
+<p>According to the WWDC Blast folks, their "proprietary technologies and engineered redundancy at every level of our stack ensure that when WWDC tickets go on sale, we'll be the first to know. And when we know, you'll know."</p>
+<p>As I have mentioned before, Apple has three major hardware/software platforms on the market and is one of the biggest computing platform companies in the world, <a href="http://www.zdnet.com/shouldnt-apple-have-more-than-one-technical-conference-7000003953/" target="_self">but only has one developer conference</a>. Why is that?</p>
+<p>Developers, enterprise and government customers and education sites as well as various market segments could use specific conferences. Or more than tracks at the current WWDC. That all the tickets for the conference are sold in a couple of hours isn't a good thing.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013934</guid>
+      <link><![CDATA[http://www.zdnet.com/uk/much-ado-about-showrooming-7000013934/]]></link>
+      <title><![CDATA[Much Ado About Showrooming]]></title>
+      <description><![CDATA[‘Showrooming’, or checking out products in physical stores before buying online for less, is getting a lot of bad press. Why not use the opportunity to proactively engage with customers in-store?]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 04:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Diarmuid Mallon]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p>There&rsquo;s been a lot of doom and gloom in the press recently about showrooming, the phenomenon of shoppers visiting brick-and-mortar stores just to do their research before ordering online at better prices. Retailers are quaking in their boots, the articles say. There&rsquo;s a showdown, says <a href="http://online.wsj.com/article/SB10001424052970204624204577177242516227440.html">The Wall Street Journal</a>. Big Box stores are fighting back with price matching year round, says <a href="http://bits.blogs.nytimes.com/2013/02/27/more-retailers-at-risk-of-amazon-showrooming/">The New York Times</a>. A recent study from <a href="http://www.placed.com/press/aisle-to-amazon-showrooming-retail-impact">Placed</a> lists the retailers most at risk of lost sales. Here in the UK, we&rsquo;ve lost a series of high profile chains from the High Street in the last few years, HMV only just escaping being the most recent. <a href="http://www.foolproof.co.uk/was-hmv-the-first-victim-of-showrooming/">Some</a> are asking the question, &lsquo;Was showrooming a contributing factor?&rsquo;</p>
+<p>However, it all may be much ado about nothing, according to another report. The ForSee Mobile Satisfaction Index: Holiday Retail Edition (<a href="http://www.foresee.com/research-white-papers/_downloads/mobile-sat-index-retail-2012-foresee.pdf">PDF</a>) found that yes, people are using their mobiles in-store. But the majority, 62 percent, are going to that store&rsquo;s web site (i.e. Target shoppers going to the Target web site.) for more information or better selection, rather than to competitors&rsquo; sites for price comparison.</p>
+<p>Here&rsquo;s the breakdown from the report. Of people who used their mobiles in-store during the 2012 holiday season,</p>
+<ul>
+<li>62% accessed the store&rsquo;s website </li>
+<li>37% accessed a competitor&rsquo;s website</li>
+<li>21% accessed a shopping comparison site</li>
+<li>20% accessed the store&rsquo;s mobile app  </li>
+<li>11% accessed a competitor&rsquo;s mobile app.</li>
+</ul>
+<p>Further, the report found that those checking competitors&rsquo; web sites are shoppers with lower overall satisfaction scores. Meaning, if consumers aren&rsquo;t happy with their experience, they&rsquo;ll look elsewhere.</p>
+<p>So really, is showrooming so scary? The important takeaway here, retailers, is to factor in that consumers are going to the store with mobile devices. So, work with it. How can you use the mobile channel to engage with customers&mdash;offer discounts or promotions based on past purchases, or where customers are i<a href="http://www.zdnet.com/dont-fence-me-in-7000010035/">nside your store</a>? How can you enhance the shopping experience and improve satisfaction? How can you empower your salespeople to provide a personal touch that online retailers can&rsquo;t? Not only will you sell consumers this time, you&rsquo;ll keep us coming back.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013967</guid>
+      <link><![CDATA[http://www.zdnet.com/flexible-foldable-smartphones-screens-beckon-7000013967/]]></link>
+      <title><![CDATA[Flexible, foldable smartphones screens beckon]]></title>
+      <description><![CDATA[The conventional liquid crystal display (LCD) screens for smartphones could soon be replaced by screens comprised of nanoparticles, which can be bended, folded, and even rolled up.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 03:25:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Nitin Puri]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-emerging-tech/">Emerging Tech</category>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <media:text type="html"><![CDATA[<figure><img title="youm" alt="youm" src="http://cdn-static.zdnet.com/i/r/story/70/00/013967/youm-362x266.jpg?hash=ZQOuZzLjMT&upscale=1" height="266" width="362"><figcaption>How a Windows Phone would look using Samsung's flexible OLED display. (Credit: James Martin/CNET)</figcaption></figure>
+<p>A <a title="report" href="http://www.techgig.com/tech-news/editors-pick/Smartphones-to-have-bendable-foldable-screens-soon-17731" target="_blank">report</a> by DisplaySearch states screen technology and specifically the global small display market is seen more than doubling to around US$72 billion by 2016.</p>
+<p>The display market is dominated by LCDs which require a backlight and sit between two sheets of glass, making the screen a major contributor to the weight of a device, from laptops to tablets.&nbsp;However, LCD's dominance is already under threat from lighter <a href="http://www.zdnet.com/lg-display-to-invest-657-million-in-oled-industry-7000011436/" target="_self">Organic Light Emitting Diodes (OLEDs)</a> that do not need backlighting, are brighter, offer a wider viewing angle and better color contrast, and can be printed onto a few layers.&nbsp;</p>
+<p>Furthermore, <a href="http://www.zdnet.com/the-fascinating-science-of-gorilla-glass-7000005648/" target="_self">Corning's Gorilla glass</a>, already a popular choice amongst manufacturers for smartphones, such as the Apple iPhone, is now introducing Willow, which is as thin as a sheet of paper and is flexible enough to be wrapped around a device or structure. Willow can also be produced more efficiently with roll-to-roll manufacturing, such as a printing press, versus current batch manufacturing processes.</p>
+<p>That being said, glass has its limits. That is, it can't be flexed indefinitely. Hence, screens would need to be plastic to be <a href="http://www.zdnet.com/what-a-flexible-display-looks-like-4010015778/" target="_self">bent, folded, and rolled</a>. Interestingly, when OLED and plastic are laid down together they create another manufacturing problem: leaks. Nanoparticles are required to plug holes and prevent the various layers from leaking oxygen and moisture.&nbsp;</p>
+<p>Another manufacturing issue is that all materials in a <a href="http://www.zdnet.com/report-flexible-glass-display-products-still-three-years-away-7000012016/" target="_self">bendable display</a> need to be bendable. This includes the transparent conductors that drive current through the display. Advancements in nanotechnology are being made to replace the Indium Tin Oxide (ITO) used in most fixed displays include conductive mesh, carbon nanotubes, grapheme, and nanowires.&nbsp;</p>
+<p>One of the practical uses for having these new types of screens is for gaming.</p>
+<p>The display for the user would be a whole new experience, especially if used in conjunction with 3D holographic technology. Another practical use would be having multiple windows opened and viewable on these screens, that is, multi-tasking between windows. Currently, this feature isn't implemented efficiently with today's smartphones.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013978</guid>
+      <link><![CDATA[http://www.zdnet.com/facebook-home-on-the-note-ii-galaxy-note-8-0-t-mobile-mobiletechroundup-show-294-7000013978/]]></link>
+      <title><![CDATA[Facebook Home on the Note II, Galaxy Note 8.0, T-Mobile (MobileTechRoundup show #294)]]></title>
+      <description><![CDATA[Facebook Home is available now on some Android phones, and we both have it installed. Kevin also has the Galaxy Note 8.0, and I may need to go take a look at one soon.]]></description>
+      <pubDate><![CDATA[Mon, 15 Apr 2013 02:14:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Matthew Miller]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-android/">Android</category>
+      <category domain="http://www.zdnet.com/topic-htc/">HTC</category>
+      <category domain="http://www.zdnet.com/topic-iphone/">iPhone</category>
+      <category domain="http://www.zdnet.com/topic-samsung/">Samsung</category>
+      <media:text type="html"><![CDATA[<p>Facebook Home was big news last week, and both of us are testing it out on our Samsung Galaxy Note IIs. You can hear about our experiences in <a href="http://mobiletechroundup.com/2013/04/14/mobiletechroundup-podcast-294-galaxy-note-8-0-in-hand-and-facebook-on-the-home/">MobileTechRoundup show #294</a>. Other show topics include:</p>
+<figure class="alignRight"><img title="motr-logo1" alt="motr-logo1" src="http://cdn-static.zdnet.com/i/r/story/70/00/010378/motr-logo1-199x199.jpg?hash=MGR0ZTD0AJ&upscale=1" height="199" width="199"><figcaption>(Image: ZDNet)</figcaption></figure>
+<ul>
+<li>
+<p>Early impressions of the Galaxy Note 8.0</p>
+</li>
+<li>
+<p>HTC One and HTC's failing financials</p>
+</li>
+<li>
+<p>What does a 7-inch Microsoft Surface need to be successful?</p>
+</li>
+<li>
+<p>Linkase wi-fi iPhone 5 case booster</p>
+</li>
+<li>
+<p>T-Mobile customers go gaga for their iPhone.</p>
+</li>
+</ul>
+<p><em>Running time: 61 minutes</em></p>
+<p><em><a href="http://chkpt.zdnet.com/chkpt/zd.pod/http://traffic.libsyn.com/motr/MoTR_294.mp3">Listen here</a> (MP3, 36.6MB)</em></p>
+<p><em><a href="http://feeds.feedburner.com/motr">Subscribe to the show with this link</a> (RSS)</em></p>]]></media:text>
+    </item>
+  </channel>
+</rss>

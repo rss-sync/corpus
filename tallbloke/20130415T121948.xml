@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Tallbloke&#039;s Talkshop</title>
+	<atom:link href="http://tallbloke.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://tallbloke.wordpress.com</link>
+	<description>Cutting edge science you can dice with</description>
+	<lastBuildDate>Mon, 15 Apr 2013 12:12:05 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='tallbloke.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>http://s2.wp.com/i/buttonw-com.png</url>
+		<title>Tallbloke&#039;s Talkshop</title>
+		<link>http://tallbloke.wordpress.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://tallbloke.wordpress.com/osd.xml" title="Tallbloke&#039;s Talkshop" />
+	<atom:link rel='hub' href='http://tallbloke.wordpress.com/?pushpress=hub'/>
+		<item>
+		<title>Roger Andrews: A New Climate Index &#8211; The Northern Multidecadal Oscillation</title>
+		<link>http://tallbloke.wordpress.com/2013/04/15/roger-andrews-a-new-climate-index-the-northern-multidecadal-oscillation/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/15/roger-andrews-a-new-climate-index-the-northern-multidecadal-oscillation/#comments</comments>
+		<pubDate>Mon, 15 Apr 2013 06:59:07 +0000</pubDate>
+		<dc:creator>tallbloke</dc:creator>
+				<category><![CDATA[Cycles]]></category>
+		<category><![CDATA[Dataset]]></category>
+		<category><![CDATA[general circulation]]></category>
+		<category><![CDATA[Natural Variation]]></category>
+		<category><![CDATA[Ocean dynamics]]></category>
+		<category><![CDATA[solar system dynamics]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12357</guid>
+		<description><![CDATA[My thanks to Roger Andrews, who sent me this guest post a little while ago and has been very patiently waiting for me to publish it. I had a good look around Bob Tisdale&#8217;s site before deciding to go ahead, to check he hadn&#8217;t already done the same thing. I can&#8217;t find anything directly comparable, [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12357&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p style="text-align:left;" align="center"><em>My thanks to Roger Andrews, who sent me this guest post a little while ago and has been very patiently waiting for me to publish it. I had a good look around Bob Tisdale&#8217;s site before deciding to go ahead, to check he hadn&#8217;t already done the same thing. I can&#8217;t find anything directly comparable, so here it is. Hopefully Bob will join us in comments and let us know. Nicola Scafetta and others have shown a ~60-70yr pattern the motion of the solar system&#8217;s planets which we suspect is linked to this natural cyclic variation. It hasn&#8217;t been taken into account by climate models. The positive, warming phase of the oceanic cycles coincides with &#8216;global warming&#8217; attributed to the increase in co2 by the IPCC. Ignoring the natural oceanic cycles amounts to something which in commercial law is known as &#8216;omitted variable fraud&#8217;.</em></p>
+<p align="center"><b>A NEW CLIMATE INDEX – THE NORTHERN MULTIDECADAL OSCILLATION<br />
+</b>Roger Andrews &#8211; March 28-2013</p>
+<p>It&#8217;s widely recognized that weather and climate are strongly influenced by the Atlantic Multidecadal Oscillation (AMO) in and around the North Atlantic Ocean and by the Pacific Decadal Oscillation (PDO) in and around the North Pacific Ocean, if not globally. But as illustrated below the AMO and the PDO show quite different trends, giving the impression that North Atlantic and North Pacific ocean cycles march to the beat of a different drummer:</p>
+<p><a href="http://www.eoearth.org/files/111301_111400/111389/AMO_-_USGS.jpg">http://www.eoearth.org/files/111301_111400/111389/AMO_-_USGS.jpg<br />
+</a><a href="http://www.eoearth.org/files/111301_111400/111389/AMO_-_USGS.jpg"><img class="alignnone" alt="" src="http://www.eoearth.org/files/111301_111400/111389/AMO_-_USGS.jpg" width="499" height="351" /></a></p>
+<p><a href="http://www.eoearth.org/files/111301_111400/111389/AMO_-_USGS.jpg"><span id="more-12357"></span></a></p>
+<p>But in fact they don&#8217;t. The above comparison is misleading because the AMO and PDO measure quite different things (the AMO is derived from detrended North Atlantic SST anomalies and the PDO from the difference in SST between the west and east North Pacific). When we compare detrended North Pacific SSTs with detrended North Atlantic SSTs – i.e. apples to apples – we find that the +/- 60 year AMO cyclicity is present in the North Pacific as well as in the North Atlantic, as shown below (the plots below cover the Atlantic and Pacific Oceans north of the Equator, use straight-line detrending and show both “corrected” and uncorrected SST data sets)</p>
+<p><a href="http://oi47.tinypic.com/zlzwuq.jpg"><img class="alignnone" alt="" src="http://oi47.tinypic.com/zlzwuq.jpg" width="680" height="1436" /></a></p>
+<p>How much difference does this make? Well, right now it&#8217;s just another piece of information to plug into the equation, and the fact that I&#8217;ve been unable to find any mention in the literature of the AMO cycle existing in the Pacific Ocean suggests that it isn&#8217;t common knowledge. (It would be if anyone had  published a “PMO” index to complement the AMO index, but no one has.)</p>
+<p>A separate PMO index could of course be constructed, but with substantially the same cyclicity present in the North Atlantic and the North Pacific the SST data from both can be combined into a single “Northern Multidecadal Oscillation Index” (NMO). There are various ways of calculating this index and a range of outcomes is therefore possible, but here&#8217;s a preliminary version calculated from linearly-detrended ERSST v3b data from the Atlantic and Pacific between 25N and 60N, the latitude band ERSST uses to calculate the AMO:</p>
+<p><a href="http://oi45.tinypic.com/i5t9n4.jpg"><img class="alignnone" alt="" src="http://oi45.tinypic.com/i5t9n4.jpg" width="649" height="472" /></a><br />
+As one would expect the NMO is very similar to the AMO, but it&#8217;s hemispheric in extent rather than confined to the North Atlantic (I say “hemispheric” because there seems to be no related Southern Multidecadal Oscillation. The oscillations occur almost entirely in the Northern Hemisphere and their amplitude decreases towards the Equator.)</p>
+<p>Northern Hemisphere air temperatures show the same cylicity, with amplitudes again decreasing towards the Equator but with air temperatures tending to lead rather than lag SSTs. This has some  intriguing implications that I might get round to presenting later.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12357/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12357/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12357&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/15/roger-andrews-a-new-climate-index-the-northern-multidecadal-oscillation/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/588acaa8d65126df21f9f213074b937a?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tallbloke</media:title>
+		</media:content>
+
+		<media:content url="http://www.eoearth.org/files/111301_111400/111389/AMO_-_USGS.jpg" medium="image" />
+
+		<media:content url="http://oi47.tinypic.com/zlzwuq.jpg" medium="image" />
+
+		<media:content url="http://oi45.tinypic.com/i5t9n4.jpg" medium="image" />
+	</item>
+		<item>
+		<title>Thermometer Magic</title>
+		<link>http://tallbloke.wordpress.com/2013/04/15/thermometer-magic/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/15/thermometer-magic/#comments</comments>
+		<pubDate>Mon, 15 Apr 2013 06:40:12 +0000</pubDate>
+		<dc:creator>tallbloke</dc:creator>
+				<category><![CDATA[solar system dynamics]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/2013/04/15/thermometer-magic/</guid>
+		<description><![CDATA[Reblogged from Real Science: http://www.thecookinginn.com Most people probably assume that measuring the US temperature is as simple as this. And perhaps it should be. Prior to the year 2000, the GISS US temperature graph appeared as below. Note that 1998 was more than half a degree C (almost 1ºF) cooler than 1934. In the year 2000, [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12355&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<div class="reblog-post"><p class="reblog-from"><img alt='' src='http://1.gravatar.com/avatar/d36b3bcefb4436729aa142e4aa250c27?s=25&amp;d=identicon&amp;r=G' class='avatar avatar-25' height='25' width='25' /> <a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/">Reblogged from Real Science:</a></p><div class="wpcom-enhanced-excerpt"><div class="wpcom-enhanced-excerpt-content"><a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/" target="_self"><img src="http://stevengoddard.files.wordpress.com/2010/09/04214bg.gif?w=614" alt="Click to visit the original post" class="size-full" /></a><ul class="thumb-list"><li><a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/" target="_self"><img src="http://stevengoddard.files.wordpress.com/2010/09/paintimage2608.jpg?w=72&crop=1&h=72" alt="Click to visit the original post" class="size-thumb" width="72" height="72" /></a></li><li><a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/" target="_self"><img src="http://stevengoddard.files.wordpress.com/2010/09/paintimage2610.jpg?w=72&crop=1&h=72" alt="Click to visit the original post" class="size-thumb" width="72" height="72" /></a></li><li><a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/" target="_self"><img src="http://stevengoddard.files.wordpress.com/2010/09/1998uschanges5.gif?w=72&crop=1&h=72" alt="Click to visit the original post" class="size-thumb" width="72" height="72" /></a></li><li><a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/" target="_self"><img src="http://stevengoddard.files.wordpress.com/2010/09/ts-ushcn_anom25_diffs_urb-raw_pg.gif?w=72&crop=1&h=72" alt="Click to visit the original post" class="size-thumb" width="72" height="72" /></a></li><li><a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/" target="_self"><img src="http://stevengoddard.files.wordpress.com/2010/09/animationimage2612.jpg?w=72&crop=1&h=72" alt="Click to visit the original post" class="size-thumb" width="72" height="72" /></a></li></ul>
+
+<p><a href="http://www.thecookinginn.com">http://www.thecookinginn.com</a></p>
+<p>Most people probably assume that measuring the US temperature is as simple as this. And perhaps it should be.</p>
+<p>Prior to the year 2000, the <a href="http://www.giss.nasa.gov/research/briefs/hansen_07/fig1x.gif">GISS US temperature graph</a> appeared as below. Note that 1998 was more than half a degree C (almost 1ºF) cooler than 1934.</p>
+
+<p>In the year 2000, they switched places. <a href="http://data.giss.nasa.gov/gistemp/graphs/Fig.D.lrg.gif">1998 became warmer than 1934&hellip;</a></p>
+</div> <p class="read-more"><a href="http://stevengoddard.wordpress.com/2010/09/25/thermometer-magic/" target="_self"><span>Read more&hellip;</span> 194 more words</a></p></div></div><div class="reblogger-note"><div class='reblogger-note-content'>
+Steven Goddard lays out the 'adjustments' issue with temperature data in a simple and clear fashion.
+</div></div>]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/15/thermometer-magic/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/588acaa8d65126df21f9f213074b937a?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tallbloke</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Giorgieva et al: Global warming and solar activity</title>
+		<link>http://tallbloke.wordpress.com/2013/04/14/giorgieva-et-al-global-warming-and-solar-activity/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/14/giorgieva-et-al-global-warming-and-solar-activity/#comments</comments>
+		<pubDate>Sun, 14 Apr 2013 20:21:35 +0000</pubDate>
+		<dc:creator>tallbloke</dc:creator>
+				<category><![CDATA[Electro-magnetism]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[Natural Variation]]></category>
+		<category><![CDATA[Solar physics]]></category>
+		<category><![CDATA[solar system dynamics]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12346</guid>
+		<description><![CDATA[Here&#8217;s a new paper from Giorgieva et al which finds strong correlation between the &#8216;ak&#8217; index of geomagnetic activity and global temperature change since the 1860&#8242;s. This suggests a bigger role for the Sun in climate change than is admitted by the IPCC. H/T the Hockeyschtick via  &#8217;Oldbrew&#8217;. Abstract. Solar activity, together with human activity, [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12346&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p><em>Here&#8217;s a <a href="http://sait.oat.ts.astro.it/MmSAI/76/PDF/969.pdf">new paper </a>from Giorgieva et al which finds strong correlation between the &#8216;ak&#8217; index of geomagnetic activity and global temperature change since the 1860&#8242;s. This suggests a bigger role for the Sun in climate change than is admitted by the IPCC. H/T <a href="http://hockeyschtick.blogspot.co.uk/2013/04/paper-finds-solar-influence-on-climate.html">the Hockeyschtick</a> via  &#8217;Oldbrew&#8217;.</em></p>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/fig6.png"><img class="alignnone size-full wp-image-12347" alt="fig6" src="http://tallbloke.files.wordpress.com/2013/04/fig6.png?w=614"   /></a></p>
+<p><strong>Abstract. </strong></p>
+<p>Solar activity, together with human activity, is considered a possible factor for<br />
+the global warming observed in the last century. However, in the last decades solar activity<br />
+has remained more or less constant while surface air temperature has continued to increase,<br />
+which is interpreted as an evidence that in this period human activity is the main factor for<br />
+global warming.We show that the index commonly used for quantifying long-term changes<br />
+in solar activity, the sunspot number, accounts for only one part of solar activity and using<br />
+this index leads to the underestimation of the role of solar activity in the global warming<br />
+in the recent decades. A more suitable index is the geomagnetic activity which reflects all<br />
+solar activity, and it is highly correlated to global temperature variations in the whole period<br />
+for which we have data.</p>
+<p><span id="more-12346"></span><!--more--></p>
+<p>4. Discussion<br />
+The geomagnetic activity reflects the impact of<br />
+solar activity originating from both closed and<br />
+open magnetic field regions, so it is a better indicator<br />
+of solar activity than the sunspot number<br />
+which is related to only closed magnetic<br />
+field regions. It has been noted that in the last<br />
+century the correlation between sunspot number<br />
+and geomagnetic activity has been steadily<br />
+decreasing from &#8211; 0.76 in the period 1868-</p>
+<p>1890, to 0.35 in the period 1960-1982, while<br />
+the lag has increased from 0 to 3 years (Vieira<br />
+et al. 2001). According to Echer et al. (2004),<br />
+the probable cause seems to be related to the<br />
+double peak structure of geomagnetic activity.<br />
+The second peak, related to high speed solar<br />
+wind from coronal holes, seems to have<br />
+increased relative to the first one, related to<br />
+sunspots (CMEs) but, as already mentioned,<br />
+this type of solar activity is not accounted<br />
+for by the sunspot number. In Figure 6 the<br />
+long-term variations in global temperature are<br />
+compared to the long-term variations in geomagnetic<br />
+activity as expressed by the ak-index<br />
+(Nevanlinna and Kataja 2003). The correlation<br />
+between the two quantities is 0.85 with p&lt;0.01<br />
+for the whole period studied.It could therefore<br />
+be concluded that both the decreasing correlation<br />
+between sunspot number and geomagnetic<br />
+activity, and the deviation of the global<br />
+temperature long-term trend from solar activity<br />
+as expressed by sunspot index are due to<br />
+the increased number of high-speed streams of<br />
+solar wind on the declining phase and in the<br />
+minimum of sunspot cycle in the last decades.</p>
+<p><a href="http://sait.oat.ts.astro.it/MmSAI/76/PDF/969.pdf">Full paper here.</a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12346/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12346/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12346&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/14/giorgieva-et-al-global-warming-and-solar-activity/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/588acaa8d65126df21f9f213074b937a?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tallbloke</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/fig6.png" medium="image">
+			<media:title type="html">fig6</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Roy Martin: The Solar Cycle Clock</title>
+		<link>http://tallbloke.wordpress.com/2013/04/13/roy-martin-the-solar-cycle-clock/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/13/roy-martin-the-solar-cycle-clock/#comments</comments>
+		<pubDate>Sat, 13 Apr 2013 13:41:05 +0000</pubDate>
+		<dc:creator>tchannon</dc:creator>
+				<category><![CDATA[Analysis]]></category>
+		<category><![CDATA[Cycles]]></category>
+		<category><![CDATA[Solar physics]]></category>
+		<category><![CDATA[solar system dynamics]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12298</guid>
+		<description><![CDATA[The Solar Cycle Clock By Roy Martin April 2013 Summary Modern observations and research have given us a great deal of knowledge and understanding of the behaviour of the Sun and the underlying processes. [edit]  And yet there is still no generally accepted explanation of why, even after sometimes significant excursions, the length of the [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12298&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<h2 align="center"><span style="color:#cc0000;">The Solar Cycle Clock</span></h2>
+<h2 align="center">By Roy Martin</h2>
+<p align="center">April 2013</p>
+<h3><a href="http://tallbloke.files.wordpress.com/2013/04/orrery.jpg"><img class="alignright size-medium wp-image-12360" alt="orrery" src="http://tallbloke.files.wordpress.com/2013/04/orrery.jpg?w=300&#038;h=234" width="300" height="234" /></a>Summary</h3>
+<p>Modern observations and research have given us a great deal of knowledge and understanding of the behaviour of the Sun and the underlying processes. [edit]  And yet there is still no generally accepted explanation of why, even after sometimes significant excursions, the length of the SC has averaged close to eleven years over extended periods of time.</p>
+<p>This note continues to argue that the long term timing of the solar cycle, or Schwab cycle (SC), is controlled by the tidal influences of the planets Venus, Earth and Jupiter.</p>
+<p>(A PDF of this article can be <a href="http://tallbloke.files.wordpress.com/2013/04/the_solar_cycle_clock_01a.pdf">downloaded here</a>. Click on plots to open full size. )</p>
+<p><span id="more-12298"></span></p>
+<h3>Introduction</h3>
+<p>In a previous study (1), it was found that the tidal effects of Venus, Earth and Jupiter produced a cycle with an average period of 11.03 years, which appeared to define the true long term SC. That conclusion was based on the analysis of calculations using the Index proposed by Hung (2009) (2), and while it seemed a valid result, was possibly questionable because it was based on a derived Index giving equal weight to the effect of each planet rather than direct calculations with correct weighting. Also, the conclusions were based primarily on detailed analysis of under two hundred years of data, with only spot checking of some earlier periods.</p>
+<p>This study seeks to overcome those limitations using the simple first-principles methods described in the next section, including extending the period covered from 1500 to 2050. The primary objective is to establish if there is a strong enough correlation between the planetary tidal forces and observed solar activity to affirm the basic conclusions of the earlier study, and thus warrant acceptance as a hypothesis for further investigation.</p>
+<h3>Methods</h3>
+<p>The resultant tidal force vector (TFV) from the planets Venus. Earth and Jupiter was calculated from the basic tidal formula, for the period from 1500 to 2050. The mechanism or mechanisms by which the primary TFV may affect the Sun is assumed to be by modulating the velocity of the Â horizontal flows on the surface of the Sun. However, while that concept is simple, analysis is expected to be very complex. This is referred to in more detail in the discussion below. In this study the resultant TFV is therefore considered to be a proxy for the final integrated effect. Although it is recognized that orbital eccentricities and inclination may also affect how tidal forces affect the Sun, it is assumed here that they are small enough to be initially disregarded. Mercury is not included at this stage. Although the tidal force caused by Mercury is about the same as that of the Earth, the short orbital period, and thus the shorter times for which it&#8217;s tidal force acts in one direction, is assumed to reduce the effect through the assumed mechanism.</p>
+<p>The magnitude of the tidal force vector was plotted on a time scale from 1500 to 2050, in segments of fifty years. Smooth curves drawn through the high points spaced at 3.24422 year intervals appear as five sinusoidal curves, which are arbitrarily numbered 1-5 starting from the first peak after 1900.</p>
+<p>Note that the orbital data used is given to at least eight significant digits, and the calculations were run to eight decimal places, but calculated values quoted here are generally rounded down to five or six digit accuracy. Consequently, small differences may occur between rounded values.</p>
+<p>Observed SC data from 1700 to the present was obtained from SIDC. SC data for the period from 1500 to 1700 is not available from direct observation, but monthly data reconstructed from auroral observations and other sources was obtained from Letfus (1993) (3), for the 1500 to 1700 period. The monthly sunspot data with even numbered cycles reversed is plotted on the same time scales as the tidal plots.</p>
+<p>The plots for the four fifty year periods from 1850 to 2050 are shown in Figures 1a to 1d. These are described and analysed in the following section.</p>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-189.png"><img alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-189-small.png?w=550&#038;h=334" width="550" height="334" /></a><p class="wp-caption-text">Figure 1a</p></div>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-190.png"><img class="  " alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-190-small.png?w=550&#038;h=337" width="550" height="337" /></a><p class="wp-caption-text">Figure 1b</p></div>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-191.png"><img class="  " alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-191-small.png?w=550&#038;h=334" width="550" height="334" /></a><p class="wp-caption-text">Figure 1c</p></div>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-192.png"><img class=" " alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-192-small.png?w=550&#038;h=339" width="550" height="339" /></a><p class="wp-caption-text">Figure 1d</p></div>
+<h3>Results</h3>
+<p>There are a number of fundamental characteristics of the TFV illustrated by Figures 1a to 1d, some of which appear to be highly significant:-</p>
+<ol>
+<li>The shortest cycles in the plot have a period of 0.64885 years, which is the synodic period of Venus and Jupiter</li>
+<li>The intermediate peaks forming the five long waves have a constant period of 3.24422 years, exactly five times the V-J synodic period.</li>
+<li>The five long waves all have a period of 110.304 years, which is exactly 34 x 3.24422</li>
+<li>The average spacing of the five long waves is 110.304/5 = 22.0608 years.</li>
+<li>There are ten periods marked out by the peaks of the 110 year waves and the points at which they cross, which are marked by red lines, hereafter referred to as nodes. These appear to vary very slightly in length (which may be an artefact of plotting), but over the full 1500 to 2050 time scale, covering 50 cycles, clearly have an average period of 11.0304 years.</li>
+<li>Close to each of the 110 yr. period nodes, there are characteristically symmetrical patterns in the 0.6488 periods. Those close to the long wave peaks are designated W and X, and those close to the cross over points Y and Z. The patterns tend to alternate, but sometimes occur in succession. Different sequences in the alignment of the planets occur at around each of these points.</li>
+<li>The periods between the nodes marked by the red lines are either 10.3815 or 12.0037 years long, designated q1 and q2 respectively.<br />
+We find that q1 = 16 x 0.64885; q2 = ~11 x 1.09208 yrs., the J-E synodic, and also q2 = (37/2) x 0.64885. (Note: ~11 =&gt; 10.9916)</li>
+<li>Between 1500 and 2050, q1 and q2 occur in the ratio of 3:2, and mostly in groups of five such that 3 x q1 + 2 x q2 = 55.152 years, exactly half the long wave period. I have dubbed this grouping of periods a Quintet cycle. The average of the q1 and q2 periods, both in each Quintet group and over the full period, is also 11.0304 years. It is noted that the 3 x q1 and 2 x q2 periods do not occur in any particular sequence within the 55.152 year periods.</li>
+</ol>
+<p>Assuming that the planetary tidal forces from V-E-J provide the primary timing for the SC, these calculations directly imply that the long term average length of the SC is 11.0304 years. Similarly the long term average of the Hale cycle becomes 22.0608 years.</p>
+<p>The actual average SC length over the full set of observed and reconstructed periods, from cycles -22 to 23, covering 46 cycles from 1501.5 to 2008.9, is indeed 11.03 years. Also, analysis of the distribution of SC lengths over time shows prominent peaks in occurrence at 10.4 and 12.0 years.</p>
+<p>This set of characteristic cycles in the tidal forces exerted on the Sun provide an accurate framework against which to assess possible correlations with the observed and reconstructed features of the SC.</p>
+<p>We see from Figures 1a to 1d that all solar R<sub>max</sub> dates are aligned at or close to the nodal points of the 110.3 year waves. More particularly, all odd numbered positive R<sub>max</sub> dates are closely associated with the nodes at the high points of the waves, and all even numbered negative R<sub>max</sub> dates are closely associated with the nodes at the intermediate crossover. These associations are consistent back to 1500. They are particularly relevant as the most likely basis for the Gnevyshef-Ohl Rule, which states that the sum of the sunspots occurring within positive numbered cycles is mostly less than the sum in the following odd numbered cycle. Altogether, these observations are highly significant because they imply a correlation over the &gt;500 year period covered of 100%, and so are analysed in more detail.</p>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-193.png"><img class=" " alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-193-small.png?w=550&#038;h=484" width="550" height="484" /></a><p class="wp-caption-text">Figure 2</p></div>
+<p style="text-align:left;">Figure 2. is a cross plot of the dates defined by the nodal points preceding each solar cycle, set at regular 11.0304 intervals, vs. the observed and reconstructed solar R<sub>min</sub> and R<sub>max</sub> dates. The R2 values of 0.9999 and 0.9998 respectively again demonstrate an almost perfect correlation of the observed dates with the regular 11.0304 year period in the resultant tidal forces from Venus, Earth and Jupiter. This is quite definitely not a matter of chance. With such close correlations, it is logical to assume we can now use the nodal dates from the full 1500 to 2050 plots as reference points for further analysis of the relationships between solar events within each cycle.</p>
+<p>Figures 3.,&amp; 5. show a number of these relationships.</p>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-194.png"><img alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-194-small.png?w=550&#038;h=308" width="550" height="308" /></a><p class="wp-caption-text">Figure 3. Times at which solar minima and maxima occur after<br />the previous node date of the 110 year cycle.</p></div>
+<p style="text-align:left;">The time of the tidal node before the SC under consideration has been used for the analysis in Figures 3. &amp; 5.. This is consistent with a number of studies that show that solar activity in cycle n appears to be associated with events around the maximum of cycle n-1.</p>
+<p style="text-align:left;">In Figure 3., the times of R<sub>min</sub> and R<sub>max</sub> are seen to fluctuate about a mean line by +3.12/-3.48 and +4.29/-4.74 respectively, with no visually detectable trend. (There may be small trends, but in such a short and irregular series, with higher start and lower end values, it is unlikely they would be reliable indicators.) They appear to vary at random in relation to the nodes, but the absence of any significant trend can be taken as further confirmation of the high correlation between observed or Â reconstructed dates in relation to the timing reference dates shown in Figure 2. Another test of the validity of the correlation would be to assume that instead of using the tidal node timing dates, which average 11.03 years over the long term, we were to use node dates based on a regular 11.10 year period, which is around the most commonly accepted SC length. That would create a difference over the study period of 47 cycles of:(11.10 &#8211; 11.03) x 47 = 3.29 years, enough to introduce a significant trend, which seems inconsistent with observations.</p>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-195.png"><img class=" " alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-195-small.png?w=550&#038;h=310" width="550" height="310" /></a><p class="wp-caption-text">Figure 4. Individual solar cycle rise times.</p></div>
+<p>From 1700 until the present, the plot in Figure 4 is essentially the same as the many published plots of rise times. Inclusion of the reconstructed values from 1500 to1700 provides us with the opportunity to observe that the behaviour of the Sun in the twentieth century was very much like that in the sixteenth. Also, we can see the longer and slower rise times associated with the low solar activity in the seventeenth and early nineteenth centuries, during the Maunder and Dalton minimum periods respectively. Overall, this pattern again appears to be rather random. There do not appear to be regular continuing cyclic variations on any time scale.</p>
+<div class="wp-caption aligncenter" style="width: 560px"><a href="http://tallbloke.files.wordpress.com/2013/04/image-196.png"><img alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-196-small.png?w=550&#038;h=253" width="550" height="253" /></a><p class="wp-caption-text">Figure 5</p></div>
+<p>Figure 5. Cross plots of solar cycle rise times vs. the times of R<sub>min</sub> and R<sub>max</sub> after the previous 110 year cycle node.</p>
+<p>The individual solar cycle rise times shown in Figure 4. appear to roughly track the times of R<sub>min</sub> and R<sub>max</sub> in relation to the previous node, however Figure 5. reveals that there is no significant correlation between solar rise times and the time at which R<sub>min</sub> occurs after the tidal node. An R2 value of only 0.029 implies that the different rise times actually occur at random in relation to the 11.03 year periods. Hence the very irregular plot in Figure 4., which looks somewhat like a random walk. Thus solar rise times are not a direct function of the time by which the SC may occur earlier or later in relation to the timing reference dates, so we must conclude that rise times and the length of the solar cycle cannot be predicted simply by the timing of R<sub>min</sub>. On the other hand, with an R2 value of 0.283, the rise time does appear to correlate a little with the time of R<sub>max</sub> after the previous tidal node, implying some degree of influence from the tidal action of the planets on the rate of rise and hence the timing of R<sub>max</sub>. That would also be consistent with the conclusions from various studies that the magnitude of R<sub>max</sub> .in a cycle is a function of events shortly after R<sub>max</sub> in the preceding cycle.</p>
+<h3>Discussion and conclusions</h3>
+<p>We must observe two important caveats when discussing how planetary tides may affect solar activity. The first caveat is that planetary tidal tides are too weak in relation to the gravitational force at the surface to cause more than a few mm. vertical displacement of the surface. This acknowledged fact is the reason why suggestions that the planets could affect solar activity were flatly dismissed for so long. That thinking completely ignored the possible effects of horizontal components. The second caveat is that planetary tides do not directly affect the phenomena described by theories on the solar dynamo. The solar dynamo is clearly the primary driver of events in the Sun. However, evidence suggest that tidal effects can influence both the timing and magnitude of solar activity.</p>
+<p>In the introduction, reference was made to the assumption that the mechanism by which the primary TFV can affect solar activity is a modulation of the velocity of the horizontal flows on the surface. There is an observed meridional flow on the surface from the equator towards the poles. Variations in the velocity of the meridional surface flow are observed to occur within SC&#8217;s and over the longer term. Velocities occurring in one SC are seen to correlate well with the number of sunspots in the following SC. Further, the horizontal components of the TFV are large enough to significantly affect the velocity of the meridional flow during the time of a SC. The solar dynamo and the sequence of events within a SC have been studied extensively and in great detail by many over the past few decades, and rather than try to make a brief summary here, I refer to work done by Katya Georgieva et.al.(4) (5), in particular: Solar dynamo and geomagnetic activity (2010) (4). These contain very clear explanations of the events in the SC giving rise to the meridional surface flow and the events leading to the variations in sunspot numbers, with extensive supporting references. The results derived here show that the occurrence of events in the Sun are closely synchronized with periodic variations in the tidal forces exerted on the Sun by the planets Venus, Earth and Jupiter. This synchronization will have taken millions of years to evolve and become firmly established in the present configuration, but appears to have been stable during the current era.</p>
+<p>What can be regarded as the clock timing of the SC is seen to be maintained by the synodic periods of Jupiter-Venus and Jupiter-Earth, as detailed in Items 7. and 8. in the results section above. The 10.3815 an 12.0037 periods in the planetary tidal forces appear to be fundamental in controlling the length of the Schwab and Hale cycles over periods of centuries. Figure 3. shows that the dates of R<sub>min</sub> and R<sub>max</sub> are, on at least century time scales, constrained in relation to the nodal dates defined by the tidal forces of V-E-J. The apparently random cycle-to-cycle variations in relation to the nodes can largely be attributed to accountable variations in the meridional velocity at the surface, and the prevailing level of diffusivity. It has also been shown that the alternating high and low nodes are the most likely driver of the differential between positive and negative numbered SCs described by the Gnevyshef-Ohl Rule.</p>
+<p>However, while this study establishes the underlying forces causing the SC to be synchronized with the the motion of the planets, it does not provide us with any obvious means of determining the actual times of R<sub>min</sub> or R<sub>max</sub>.</p>
+<p>Mercury plays a definite role in the planetary tidal effects on the Sun, but after a brief look at plots with Mercury included, it was decided to focus first on the effects of Venus, Earth and Jupiter, for direct comparison with the earlier work (1). The results of this current work will make it easier to understand and appreciate the particular and significant role played by Mercury when it is included.</p>
+<h3>References:-</h3>
+<ol>
+<li>Martin, R., 2009. Relations Between Solar Activity and Solar Tides caused by the Planets<br />
+Defined, <a href="http://www.climatestop.com/SolarTidalInfluencesofVEJ_W01.pdf">http://www.climatestop.com/SolarTidalInfluencesofVEJ_W01.pdf</a></li>
+<li>Hung, Ching-Cheh, 2007. Apparent Relations Between Solar Activity and Solar Tides<br />
+Caused by the Planets, NASA/TM-2007-14817.</li>
+<li>Letfus, V., Solar Activity in the Sixteenth and Seventeenth Centuries, Solar Physics 145:<br />
+377-388, 1993.</li>
+<li>Georgieva, Katya, Kirov, Boian, 2010, Solar dynamo and geomagnetic activity,<br />
+arxiv:1003.2533 (pdf)</li>
+<li>Georgieva, K., et al, Planetary tidal effects on solar activity,<br />
+<a href="http://www.climatestop.com/KGeorgieva_Pulkovo2009.pdf">http://www.climatestop.com/KGeorgieva_Pulkovo2009.pdf</a></li>
+<li>Wilson, I.R.G., 2011, Do Periodic peaks in the Planetary Tidal<br />
+Forces Acting Upon the Sun Influence the Sunspot Cycle?<br />
+The General Science Journal, Dec 2011, 3812.<br />
+[first published and copy-righted online in 2010]<br />
+<a href="http://gsjournal.net/Science-Journals/Essays/View/3812" rel="nofollow">http://gsjournal.net/Science-Journals/Essays/View/3812</a></li>
+</ol>
+<p>Errata: [edit] First line of summary has been edited to a better choice of wording as provided by author.<br />
+Was: Modern observations and research have given us to a given us a great deal of knowledge and understanding of the behavior of the Sun and the underlying processes.</p>
+<hr />
+<p>Article converted to WordPress markup by co-moderator from material <a href="http://tallbloke.wordpress.com/suggestions-3/comment-page-1/#comment-50171">supplied</a> by Roy Martin.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12298/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12298/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12298&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/13/roy-martin-the-solar-cycle-clock/feed/</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/89d21d6725f3925a85290ce54127b80d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tim212</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/orrery.jpg?w=300" medium="image">
+			<media:title type="html">orrery</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-189-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-190-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-191-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-192-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-193-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-194-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-195-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-196-small.png" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Is the North Pole Going to Melt entirely? asks Newspaper in 1923</title>
+		<link>http://tallbloke.wordpress.com/2013/04/12/is-the-north-pole-going-to-melt-entirely-asks-newspaper-in-1923/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/12/is-the-north-pole-going-to-melt-entirely-asks-newspaper-in-1923/#comments</comments>
+		<pubDate>Fri, 12 Apr 2013 08:38:01 +0000</pubDate>
+		<dc:creator>tallbloke</dc:creator>
+				<category><![CDATA[Cycles]]></category>
+		<category><![CDATA[general circulation]]></category>
+		<category><![CDATA[Ice ages]]></category>
+		<category><![CDATA[media]]></category>
+		<category><![CDATA[Natural Variation]]></category>
+		<category><![CDATA[Ocean dynamics]]></category>
+		<category><![CDATA[sea ice]]></category>
+		<category><![CDATA[weather]]></category>
+
+		<guid isPermaLink="false">https://tallbloke.wordpress.com/?p=12271</guid>
+		<description><![CDATA[As the northern melt and polar bear worrying season gets underway, a timely reminder of the repetitive nature of &#8216;unprecedented&#8217; climate happenings. H/T &#8216;IluvCO2&#8242; NORTH POLE MELTING. CHANGE OF CLIMATE. MANY GLACIERS VANISHED. Northern Star (Lismore, NSW : 1876 &#8211; 1954) Thursday 5 April 1923 Is the North Pole going to melt entirely? Are the Arctic regions warming up [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12271&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p style="text-align:left;"><em>As the northern melt and polar bear worrying season gets underway, a timely reminder of the repetitive nature of &#8216;unprecedented&#8217; climate happenings. H/T &#8216;IluvCO2&#8242;</em></p>
+<p style="text-align:center;"><strong>NORTH POLE MELTING. CHANGE OF CLIMATE. MANY GLACIERS VANISHED.<br />
+</strong>Northern Star (Lismore, NSW : 1876 &#8211; 1954) <strong><strong>Thursday 5 April 1923</strong></strong></p>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/polarbear.jpg"><img class="alignright size-full wp-image-12273" alt="polarbear" src="http://tallbloke.files.wordpress.com/2013/04/polarbear.jpg?w=614"   /></a></p>
+<p>Is the North Pole going to melt entirely? Are the Arctic regions warming up with prospect of a great climatic change in that part of the world? Science is asking these questions (says &#8220;Popular Science Siftings&#8221;). Reports from fishermen, seal hunters, and explorers who sail the seas around Spitsbergen and the Eastern Arctic all point to a radical change in climatic conditions, with hitherto unheard-of high temperatures on that part of the earth&#8217;s surface. Observations to that effect have covered the last five years during which the warmth has been steadily increasing. In August the Norwegian Department of Commerce sent an expedition to Spitsbergen and Bear Island under the leadership of Dr. Adolf Hoel, professor of geology in the University of Christiania, the object in view being to survey and chart areas productive of coal and other minerals.</p>
+<p><span id="more-12271"></span></p>
+<p>The expedition sailed as far north as 81 deg. 29 min. N. latitude in ice free water. Such a thing, hitherto, would have been deemed impossible. The United States Consul at Bergen, Norway, Mr. Ifft, also reports the recent extra-ordinary warmth in the Arctic. He quotes incidentally the statements of Captain Martin Ingebrigstsen, a mariner who has sailed those seas for fifty-four years. The captain says that he first noted an unusual warmth in 1918; and since then temperatures have risen steadily higher. Today the eastern Arctic is &#8220;hardly recognisable as the same region of 1868 to 1917.</p>
+<p>Many of the old landmarks are greatly altered, or no longer exist. Where formerly there were great masses of ice, these have melted away, leaving behind them accumulations of earth and stones such as geologists call &#8220;moraines.&#8221; At many points where glaciers extended far into the sea half a dozen years ago they have now entirely disappeared. The change in temperature has brought great changes in the plant and animal life of the Arctic. Formerly vast shoals of whitefish were found in the waters round Spitzbergen, but last summer the fishermen sought them in vain.</p>
+<p><strong>SEALS DISAPPEAR.</strong><br />
+Seals, which used to be plentiful in those seas, have almost entirely disappeared. Itwould seem as if the ocean must have become uncomfortably warm for some of its denizens which formerly frequented those latitudes, causing them to flock northward towards the Pole. On the other hand other kinds of fishes hitherto unknown so far north have made their appearance. Shoals of smelt have arrived, and immense schools of herring are reported by fishermen along the west coast of Spitzbergen. Formerly the waters about Spitzbergen have held an even summer temperature in the neighbourhood of 5 degrees above freezing. This year it rose as high as 28 degrees. Last winter the ocean did not freeze over even on the north coast of Spitzbergen. This is on the authority of Dr. Hoel</p>
+<p><strong>This state of affairs is a cause of much surprise and even astonishment to scientists</strong>, who wonder whether the change is merely temporary or the beginning of a great alteration of climatic conditions in the Arctic, with consequent melting of the polar ice sheet. How great the change is that has come over the climate in the Arctic regions maybe best understood by the struggles of the early explorers to discover the north-west passage, or the open body of water existing round North America, leading eventually to India. The passage was first undertaken by way of Spitzbergen, but the thick ice repeatedly beat back the ships of the explorers. From exploits to discover the north-west passage many of the trips for the conquest of the North Pole were eventually undertaken.</p>
+<p><strong>PARRY WAS FIRST.</strong><br />
+Parry, the great British explorer, was first to negotiate the open passage between Greenland and Behring Sea, reaching half-way across the top of North America before he was hedged in by the ice, and with supplies becoming low, dared go no further. He was first to discover the north magnetic pole and to report the astonishing fact that the needle of his compass turned and pointed directly south. Unquestionably his conquests in the frozen Arctic led to the actual penetrating of the north-west passage from the Atlantic to the Pacific by McClure, Collinson, and Amundsen later on. From the difficulties besetting these great Arctic adventures some idea of the tremendous thickness of the ice may be had. Even at the very spot north of Spitzbergen where open water was seen this summer, such well- known explorers as Hudson and Phipps had great difficulties in penetrating on account of the thickness of the ice, and, in spite of their equipment, one of them could not go even as far over the ice at the spot where the open water showed a few months ago.</p>
+<p><strong>FUR CLOTHES TOO WARM.</strong><br />
+Not only are the seals and polar bears finding the climate unpleasantly warm for them, but it is said that the Eskimos in some localities are complaining and are finding their fur clothes too warm for them. The region about the North Pole is covered by an ice cap which, toward the east, extends over nearly the whole of Greenland to what is practically a single enormous glacier. To cross this great glacier has been the quest of many adventurous spirits. On account of the severity of the winds that sweep over the immense slowly moving cake of ice, it was never successfully accomplished until Nansen managed to go from the east coast of Greenland across the top of the ice barrier to the west coast at about the sixty-fourth parallel of latitude. Nansen and his five companions reached a height of 8922 feet at the top of the barrier, showing how thick the ice had become through ages of freezing.</p>
+<p><strong>PEARY AND ASTRUP.</strong><br />
+Later on Peary and Astrup crossed the island much further north and had to climb a solid hill of ice about 3000 feet high. But there was not always an ice cap. In time long gone by the region about the North Pole had a warm climate and all of Greenland was covered with a luxuriant tropical vegetation. This is positively known because fossil remains of palms,breadfruit trees, and other plants properly belonging to warm latitudes have been dug up there in quantities. It seems at least possible that the extra-ordinary warmth in the Arctic during the last few years marks a step in return to this condition. Such a change as that suggested cannot be suddenly or even rapidly accomplished; but if there shall come a time when the North Pole ice cap is entirely melted, and Greenland incidentally freed of the ice sheet which covers it, other latitudes will also experience a wonderful climatic alteration, and climates all over the world may become steadily and gradually warmer.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12271/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12271/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12271&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/12/is-the-north-pole-going-to-melt-entirely-asks-newspaper-in-1923/feed/</wfw:commentRss>
+		<slash:comments>23</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/588acaa8d65126df21f9f213074b937a?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tallbloke</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/polarbear.jpg" medium="image">
+			<media:title type="html">polarbear</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Public Safety Announcement: Ozone Friendly Coolant May Eat Your Face Off</title>
+		<link>http://tallbloke.wordpress.com/2013/04/11/public-safety-announcement-ozone-friendly-coolant-may-eat-your-face-off/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/11/public-safety-announcement-ozone-friendly-coolant-may-eat-your-face-off/#comments</comments>
+		<pubDate>Thu, 11 Apr 2013 12:46:25 +0000</pubDate>
+		<dc:creator>tallbloke</dc:creator>
+				<category><![CDATA[Incompetence]]></category>
+		<category><![CDATA[Legal]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12262</guid>
+		<description><![CDATA[Eek! Gina McCarthy, who faces a hearing Thursday morning on her fitness to serve as EPA administrator, was primarily responsible for EPA&#8217;s promotion of an automotive air conditioning refrigerant that caused engine fires in Mercedes Benz testing, MailOnline can report. McCarthy, EPA&#8217;s current air regulation chief, &#8216;provided the real forward motion&#8217; for a plan to [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12262&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p><em>Eek!</em></p>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/toxic.jpg"><img class="alignright size-full wp-image-12263" alt="toxic" src="http://tallbloke.files.wordpress.com/2013/04/toxic.jpg?w=614"   /></a>Gina McCarthy, who faces a hearing Thursday morning on her fitness to serve as EPA administrator, was primarily responsible for EPA&#8217;s promotion of an automotive air conditioning refrigerant that caused engine fires in Mercedes Benz testing, MailOnline can report.</p>
+<p>McCarthy, EPA&#8217;s current air regulation chief, &#8216;provided the real forward motion&#8217; for a plan to reward US automakers who used the new climate-change-friendly refrigerant known as &#8216;HFO-1234yf,&#8217; according to an EPA staffer with knowledge of the agency&#8217;s internal processes who spoke on condition of anonymity.</p>
+<p>When her EPA subagency, the Office of Air and Radiation, approved HOF-1234yf, McCarthy said that the chemical &#8216;helps fight climate change and ozone depletion.&#8217;</p>
+<div><a href="http://www.dailymail.co.uk/news/article-2307265/EPA-nominee-tough-questions-approved-new-car-air-conditioner-refrigerant-caused-ENGINE-FIRES-Mercedes-Benz-tests.html">Read more:</a></div>
+<p><b>Fire Hazard</b></p>
+<p>In February 2011, McCarthy&#8217;s Air and Radiation office at the U.S. Environmental Protection Agency (EPA) approved HFO-1234yf for use in American cars.</p>
+<p>It also offers incentives to automakers using the product — such as General Motors, which currently uses HFO-1234yf in its Cadillac XTS vehicles (and European Chevy Malibus) and plans to feature it fleetwide over the next five years.</p>
+<p>In Europe, HFO-1234yf is the only product meeting new European Union &#8220;greenhouse gas&#8221; guidelines — meaning it could be standard in more than 14 million vehicles a year beginning in 2017 (which would be worth an estimated $1 billion annually to Honeywell).</p>
+<p>&#8220;This new chemical helps fight climate change and ozone depletion,&#8221; McCarthy said of HFO-1234yf in 2011 while serving as administrator of the EPA&#8217;s Air and Radiation office. &#8220;It is homegrown innovative solutions like this that save lives and strengthen our economy.&#8221;</p>
+<p>Is any of that true, though? Last August at Mercedes-Benz&#8217; test track in Sindelfingen, Germany, engineers simulated a crash in which the refrigerant was sprayed onto the car&#8217;s hot engine.</p>
+<p>The result?</p>
+<p><span id="more-12262"></span></p>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/corrosive-l.gif"><img class="alignright  wp-image-12266" alt="corrosive-l" src="http://tallbloke.files.wordpress.com/2013/04/corrosive-l.gif?w=180&#038;h=180" width="180" height="180" /></a>The substance burst into flames as soon as it made contact.</p>
+<p>Not only that, as it burned it emitted hydrogen fluoride, &#8220;a chemical far more deadly to humans than hydrogen cyanide, emitted in such amounts that it turned the windshield white as it began to eat into the glass.&#8221;</p>
+<p>&#8220;We were frozen in shock, I am not going to deny it,&#8221; one of the engineers said afterward. &#8220;We needed a day to comprehend what we had just seen.&#8221;</p>
+<div><a href="http://news.investors.com/ibd-editorials-viewpoint/041013-651396-obama-epa-nominee-a-case-of-green-government-gone-wild.htm">Read More At Investor&#8217;s Business Daily</a>:</div>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12262/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12262/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12262&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/11/public-safety-announcement-ozone-friendly-coolant-may-eat-your-face-off/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/588acaa8d65126df21f9f213074b937a?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tallbloke</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/toxic.jpg" medium="image">
+			<media:title type="html">toxic</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/corrosive-l.gif?w=300" medium="image">
+			<media:title type="html">corrosive-l</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Pinker et al: Do Satellites Detect Trends in Surface Solar Radiation?</title>
+		<link>http://tallbloke.wordpress.com/2013/04/10/pinker-et-al-do-satellites-detect-trends-in-surface-solar-radiation/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/10/pinker-et-al-do-satellites-detect-trends-in-surface-solar-radiation/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 15:11:06 +0000</pubDate>
+		<dc:creator>tallbloke</dc:creator>
+				<category><![CDATA[Analysis]]></category>
+		<category><![CDATA[climate]]></category>
+		<category><![CDATA[Dataset]]></category>
+		<category><![CDATA[Natural Variation]]></category>
+		<category><![CDATA[Solar physics]]></category>
+		<category><![CDATA[solar system dynamics]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12258</guid>
+		<description><![CDATA[Errrmm, why I have not heard of this 2006 paper before? 1.6W/m^2 per decade is  a not insignificant trend. Did the IPCC ignore this? Do Satellites Detect Trends in Surface Solar Radiation? R. T. Pinker,1 B. Zhang,2 E. G. Dutton3 Abstract Long-term variations in solar radiation at Earth’s surface (S) can affect our climate, the [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12258&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p><em>Errrmm, why I have not heard of this 2006 paper before? 1.6W/m^2 per decade is  a not insignificant trend. Did the IPCC ignore this?</em></p>
+<p><strong>Do Satellites Detect Trends in Surface Solar Radiation?</strong><br />
+R. T. Pinker,1 B. Zhang,2 E. G. Dutton3</p>
+<p><strong>Abstract</strong><br />
+Long-term variations in solar radiation at Earth’s surface (S) can affect our<br />
+climate, the hydrological cycle, plant photosynthesis, and solar power. Sustained<br />
+decreases in S have been widely reported from about the year 1960 to<br />
+1990. Here we present an estimate of global temporal variations in S by using<br />
+the longest available satellite record. We observed an overall increase in S from<br />
+1983 to 2001 at a rate of 0.16 watts per square meter (0.10%) per year; this<br />
+change is a combination of a decrease until about 1990, followed by a sustained<br />
+increase. The global-scale findings are consistent with recent independent<br />
+satellite observations but <strong>differ in sign and magnitude from previously</strong><br />
+<strong>reported ground observations</strong>. Unlike ground stations, satellites can uniformly<br />
+sample the entire globe.</p>
+<p><span id="more-12258"></span></p>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/pinker2005.png"><img class="alignnone size-large wp-image-12259" alt="pinker2005" src="http://tallbloke.files.wordpress.com/2013/04/pinker2005.png?w=614&#038;h=299" width="614" height="299" /></a></p>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/science-2005-pinker-850-4.pdf">Full paper here</a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12258/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12258/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12258&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/10/pinker-et-al-do-satellites-detect-trends-in-surface-solar-radiation/feed/</wfw:commentRss>
+		<slash:comments>34</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/588acaa8d65126df21f9f213074b937a?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tallbloke</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/pinker2005.png?w=614" medium="image">
+			<media:title type="html">pinker2005</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Time for another look at the possible planetary effect on solar variability as Callebaut and de Jager are rebutted</title>
+		<link>http://tallbloke.wordpress.com/2013/04/10/time-for-another-look-at-the-possible-planetary-effect-on-solar-variability-as-callebaut-and-de-jager-are-rebutted/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/10/time-for-another-look-at-the-possible-planetary-effect-on-solar-variability-as-callebaut-and-de-jager-are-rebutted/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 11:42:15 +0000</pubDate>
+		<dc:creator>tallbloke</dc:creator>
+				<category><![CDATA[Astrophysics]]></category>
+		<category><![CDATA[Solar physics]]></category>
+		<category><![CDATA[solar system dynamics]]></category>
+		<category><![CDATA[Tides]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12237</guid>
+		<description><![CDATA[One year ago. Anthony Watts published an article on wattsupwiththat.com about a paper By Callebaut, Duhau and de Jager which concluded in part: [T]he planetary effects are too small by several orders of magnitude to be a main cause of the solar cycle (they can be at most a small modulation); moreover, they fail to [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12237&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p><a href="http://tallbloke.files.wordpress.com/2013/04/wright_flyer_iii.jpg"><img class="alignright size-full wp-image-12251" alt="Wright_Flyer_III" src="http://tallbloke.files.wordpress.com/2013/04/wright_flyer_iii.jpg?w=614"   /></a>One year ago. Anthony Watts <a href="http://wattsupwiththat.com/2012/04/15/new-paper-in-the-journal-of-atmospheric-and-solar-terrestrial-physics-demonstrates-that-planets-do-not-cause-solar-cycles/">published an article</a> on wattsupwiththat.com about a <a href="http://www.cdejager.com/wp-content/uploads/2008/09/2012-planetary-attractions1.pdf">paper By Callebaut, Duhau and de Jager</a> which concluded in part:</p>
+<blockquote><p><strong>[T]he planetary effects are too small by several orders of magnitude to be a main cause of the solar cycle (they can be at most a small modulation); moreover,</strong><br />
+<strong> they fail to give an explanation for the polarity changes in the solar cycle. In addition, the periods of revolution of the planets (in particular Jupiter) do not seem compatible with the solar cycle over long times. In fact, a planetary explanation of the solar cycle </strong><strong>is hardly possible.</strong></p></blockquote>
+<p>This was something of a straw man argument, since proponents of the solar-planetary theory here and elsewhere have never claimed planetary effects &#8220;<strong>to be a main cause of the solar cycle</strong>&#8221; but a modulating influence on the immense energies pouring from the Sun. The comment about Jupiter&#8217;s orbital period was just stupid really. They can hardly have been unaware that the interactions of tidally significant planets; Jupiter, Earth and Venus produce an average time period which exactly matches the average solar cycle length of 11.07 years, yet they didn&#8217;t mention it. Nor did they acknowledge that tides are still not well characterised by first principles theory even today. In the view of many informed commenters, it was an inept hatchet job which consensus solar physicist Leif Svalgaard had recommended to Anthony Watts because he wanted the worlds biggest climate discussion site to mirror his own ill conceived prejudices.</p>
+<p>Following a bruising 325 comment thread, Anthony called a halt: saying:</p>
+<p><span id="more-12237"></span></p>
+<div>
+<blockquote><p><strong>I’m closing comments, I’ve had more than enough of the issues, and I will not be posting any regular stories on this topic in the near future. I’ll leave the topic to alternate blogs such as <a href="http://tallbloke.wordpress.com/" target="_blank" rel="nofollow">Tallbloke’s Talkshop</a>, where they belong.</strong></p>
+<p><strong>As I said up-thread, I’ve seen nothing so far that impresses me in Barycentrism and its variants. As they say, correlation is not causation, and I don’t see the “several orders of magnitude too weak” planetary gravitational effects as anything convincing of causation. Plus, the authors say in their conclusion that “Hence, planetary influences should be ruled out as a possible cause of solar variability. ”</strong></p>
+<p><strong>But as a hat tip to Duke physicist Robert Brown’s comment <a href="http://wattsupwiththat.com/2012/04/15/new-paper-in-the-journal-of-atmospheric-and-solar-terrestrial-physics-demonstrates-that-planets-do-not-cause-solar-cycles/#comment-957826" target="_blank" rel="nofollow">here</a>, I’ll watch the publications, and if some paper can demonstrate that indeed the weak tidal forces down in the noise bands can have an effect on the sun’s patterns, and that in turn can affect Earths climate, I’m willing to take another look.</strong></p>
+<p><strong>But for now, I’m totally burned out on the topic as it has become the theater of Sisyphus.</strong></p></blockquote>
+</div>
+<div>Although Anthony had misunderstood the difference between ideas concerning tidal effects and inertial effects, I commend him for his leaving the door on the latch, rather than bolting it with a categorical statement. For today, a <a href="http://authors.elsevier.com/sd/article/S1364682613000837">new paper by Nicola Scafetta et al</a> which successfully rebuts Callebaut and de Jager has been published in the Journal of Atmospheric and Solar Terrestrial Physics. Personal study copies can be requested in comments.</div>
+<div></div>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/scafetta2013rebuttal.png"><img class="alignnone size-large wp-image-12238" alt="scafetta2013rebuttal" src="http://tallbloke.files.wordpress.com/2013/04/scafetta2013rebuttal.png?w=614&#038;h=298" width="614" height="298" /></a></p>
+<p><a href="http://tallbloke.files.wordpress.com/2013/04/scafetta2013-2.png"><img class="size-full wp-image-12253 alignnone" alt="scafetta2013-2" src="http://tallbloke.files.wordpress.com/2013/04/scafetta2013-2.png?w=614"   /></a></p>
+<p>As is proper in the case of a rebuttal being printed in the same journal as the original paper, Callebaut de Jager and Duhau were given the opportunity to write <a href="http://www.sciencedirect.com/science/article/pii/S1364682613000989">a reply</a>, which they took four months over writing. In it&#8217;s conclusion they say:</p>
+<blockquote><p><strong>[S]o far no one has successfully succeeded in explaining possible correlations between planetary motions and solar variability. Actually, they confirm the conclusions of our paper. Of course, one should never rule out the possibility that once a well-founded paper will appear showing the contrary. So far we have not seen such a paper.</strong></p></blockquote>
+<p>Well, for one thing this is a backpedal. In their original paper they said, as Anthony Watts quoted:</p>
+<blockquote><p><strong>Hence, planetary influences should be ruled out as a possible cause of solar variability</strong></p></blockquote>
+<p>Whereas now they take a less categorical line. Another point is that having dropped that categorical imperative, their paper actually says nothing at all that wasn&#8217;t already known. Their claim that &#8220;<strong>planetary influences should be ruled out</strong>&#8221; was in fact the only novel aspect of the paper.</p>
+<p>I&#8217;m reminded of the categorical statement made by Lord Kelvin just a few years before two bicycle mechanic brothers flew the first aeroplane.</p>
+<blockquote><p><strong>&#8220;Heavier than air flying machines are impossible.&#8221;</strong></p></blockquote>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12237/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12237/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12237&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/10/time-for-another-look-at-the-possible-planetary-effect-on-solar-variability-as-callebaut-and-de-jager-are-rebutted/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/588acaa8d65126df21f9f213074b937a?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tallbloke</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/wright_flyer_iii.jpg" medium="image">
+			<media:title type="html">Wright_Flyer_III</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/scafetta2013rebuttal.png?w=614" medium="image">
+			<media:title type="html">scafetta2013rebuttal</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/scafetta2013-2.png" medium="image">
+			<media:title type="html">scafetta2013-2</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Surfacestation: Porthmadog</title>
+		<link>http://tallbloke.wordpress.com/2013/04/10/surfacestation-porthmadog/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/10/surfacestation-porthmadog/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 11:09:52 +0000</pubDate>
+		<dc:creator>tchannon</dc:creator>
+				<category><![CDATA[Analysis]]></category>
+		<category><![CDATA[Surfacestation]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12232</guid>
+		<description><![CDATA[Porthmadog, Gwynedd, Wales (actually at Morfa Bychan) Near Harlech, Portmerion, Criccieth. Of interest is nearby http://www.nda.gov.uk/sites/trawsfynydd/ a lake cooled nuclear power station which is being decommissioned. (14km north east) 52.914519° -4.158090° Bing maps, Google maps Altitude 7 metres Estimated Class 3, fails Class 2 on 11% trees within 30 metres, possibly Class 4 due to [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12232&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p style="text-align:center;" align="center"><a href="http://tallbloke.files.wordpress.com/2013/04/image-589.jpg"><img class="aligncenter" alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-589-small.jpg?w=550&#038;h=490" width="550" height="490" /></a></p>
+<p>Porthmadog, Gwynedd, Wales (actually at Morfa Bychan)</p>
+<p>Near Harlech, Portmerion, Criccieth. Of interest is nearby <a href="http://www.nda.gov.uk/sites/trawsfynydd/">http://www.nda.gov.uk/sites/trawsfynydd/</a> a lake cooled nuclear power station which is being decommissioned. (14km north east)</p>
+<p>52.914519° -4.158090° <a href="http://www.bing.com/maps/?v=2&amp;cp=stk5b1gnm48x&amp;lvl=18&amp;dir=0&amp;sty=b&amp;eo=0&amp;where1=52.914519%2C%20-4.15809&amp;form=LMLTCC" target="_blank">Bing maps</a>, <a href="http://www.google.co.uk/maps?q=52.914519%C2%B0++-4.158090%C2%B0&amp;hl=en&amp;ie=UTF8&amp;sll=53.800651,-4.064941&amp;sspn=10.066673,19.753418&amp;t=h&amp;z=16" target="_blank">Google maps</a><br />
+Altitude 7 metres</p>
+<p>Estimated Class 3, fails Class 2 on 11% trees within 30 metres, possibly Class 4 due to poor ground cover and additional scrub.</p>
+<p>UHI, Coastal, minor local housing, distance, none.</p>
+<p><span id="more-12232"></span></p>
+<p>This is a strange site which took some locating, there is no met enclosure.</p>
+<p style="text-align:center;"><a href="http://tallbloke.files.wordpress.com/2013/04/image-590.jpg"><img class="aligncenter" alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-590-small.jpg?w=550&#038;h=491" width="550" height="491" /></a></p>
+<p>Can you spot the Stevenson screen?</p>
+<p>This image suggests a scruffy site which is not maintained, ground cover is poor and scrub is being allowed to encroach.</p>
+<p>Site quite often figures as warmest some days when it is chilly elsewhere, (mentioned 9th April 2013) it is in a sheltered coastal area but exposed to weather from the south west. It probably is a little warm, exposure could be better.</p>
+<p>If you use the aerial images, pull back, area has some beautiful images of the estuary sandbanks.</p>
+<p>Post by Tim Channon</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12232/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12232/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12232&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/10/surfacestation-porthmadog/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/89d21d6725f3925a85290ce54127b80d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tim212</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-589-small.jpg" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-590-small.jpg" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Surfacestation: Monks Wood</title>
+		<link>http://tallbloke.wordpress.com/2013/04/10/surfacestation-monks-wood/</link>
+		<comments>http://tallbloke.wordpress.com/2013/04/10/surfacestation-monks-wood/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 00:06:30 +0000</pubDate>
+		<dc:creator>tchannon</dc:creator>
+				<category><![CDATA[Analysis]]></category>
+		<category><![CDATA[Surfacestation]]></category>
+
+		<guid isPermaLink="false">http://tallbloke.wordpress.com/?p=12223</guid>
+		<description><![CDATA[Monks Wood, Cambridgeshire At Centre for Ecology &#38; Hydrology CEH Monks Wood Met Office substitute site for RAF/USAF Alconbury Bunkers site has some useful images. 52.401526° -0.236991° Altitude 41 metres Bing maps, Google maps. Class 3, fails Class 2 on 12.9% within 30 metres not covered by low vegetation typical of the region, to wit, [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12223&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p style="text-align:center;" align="center"><a href="http://tallbloke.files.wordpress.com/2013/04/image-588.jpg"><img class="aligncenter" alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-588-small.jpg?w=550&#038;h=496" width="550" height="496" /></a></p>
+<p>Monks Wood, Cambridgeshire<br />
+At Centre for Ecology &amp; Hydrology<br />
+<a href="http://www.ncaveo.ac.uk/test_sites/monks_wood/" target="_blank">CEH Monks Wood</a></p>
+<p>Met Office substitute site for RAF/USAF Alconbury<br />
+<a href="http://www.bunkertours.co.uk/raf_alconbury.htm" target="_blank">Bunkers site has some useful images.</a></p>
+<p>52.401526° -0.236991°<br />
+Altitude 41 metres<br />
+<a href="http://www.bing.com/maps/?v=2&amp;cp=sr06wygzd6s3&amp;lvl=16&amp;dir=0&amp;sty=b&amp;eo=0&amp;where1=52.401526%2C%20-0.236991&amp;form=LMLTCC" target="_blank">Bing</a> maps, <a href="http://www.google.co.uk/maps?q=52.401526,+-0.236991&amp;hl=en&amp;sll=53.800651,-4.064941&amp;sspn=10.066673,19.753418&amp;t=h&amp;z=16" target="_blank">Google</a> maps.</p>
+<p>Class 3, fails Class 2 on 12.9% within 30 metres not covered by low vegetation typical of the region, to wit, hedges. (part explanation for blog newcomers, to WMO-No. 1064, 2010, Met Office were present and are members of WMO but seem to continue using their own far less stringent standard, where scale is inverted, higher number is better, scale drawing and measurement is done using Draftsight over an image)</p>
+<p>UHI, none but site has poor exposure. Within a wood.</p>
+<p>Site came to my attention as recording the lowest night temperature -2.3C for East of England 8th April 2013. <strong>Not a serious matter</strong>.</p>
+<p><span id="more-12223"></span></p>
+<p>An odd thing, look closely, the only explanation for the hedges being trimmed like that is a 30 metre circle from the screen. Sorry folks, nice try though, unless some strange other reason exists.</p>
+<p>Confirmed at ground level.</p>
+<p>Only thing I can think of is verbal misinterpretation: Met Office said hedges must be cut when grubbed out would have been more appropriate language.</p>
+<p style="text-align:center;" align="center"><a href="http://tallbloke.files.wordpress.com/2013/04/image-587.jpg"><img class="aligncenter" alt="Image" src="http://tallbloke.files.wordpress.com/2013/04/image-587-small.jpg?w=550&#038;h=493" width="550" height="493" /></a></p>
+<p>Google Streetview manages to see past the incessant scrub by roads these days, a nice image where the Stevenson screen is visible, one of the curiously trimmed hedges and maybe a wind mast. If it is, too short to get above the trees. Not sure about the ground cover, needs to be &lt;25cm all the year for Class 3.</p>
+<p>In essence this is a case of a microclimate showing as a little too cold sometimes.</p>
+<p>No big deal.</p>
+<p>What is nearby is sometimes of interest and worth comment.</p>
+<p>The facility in a wood which is supposed to be some kind of environmental treasure?</p>
+<p>I counted 71 cars there with room for more.<br />
+Has its own little sewage works.<br />
+Doesn&#8217;t look right for an academic or normal government site.</p>
+<p>Looking more closely at this wonderful wood, public access? Nothing, even has fences and keep out gates.</p>
+<p>A fancy new house/accommodation place has been built 100 metres east but with poor road access. (look at the image history)</p>
+<p>History? Google have 1945 images, try RAF Alconbury.</p>
+<p>Post by Tim Channon</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tallbloke.wordpress.com/12223/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/tallbloke.wordpress.com/12223/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=tallbloke.wordpress.com&#038;blog=4307889&#038;post=12223&#038;subd=tallbloke&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://tallbloke.wordpress.com/2013/04/10/surfacestation-monks-wood/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/89d21d6725f3925a85290ce54127b80d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">tim212</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-588-small.jpg" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+
+		<media:content url="http://tallbloke.files.wordpress.com/2013/04/image-587-small.jpg" medium="image">
+			<media:title type="html">Image</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

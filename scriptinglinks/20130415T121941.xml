@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Mon, 15 Apr 2013 03:08:23 GMT</pubDate>
+		<lastBuildDate>Mon, 15 Apr 2013 03:08:23 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-04-14</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>4/14/2013; 11:08:23 PM</microblog:localTime>
+		<item>
+			<description>Intel Tries to Find a Foothold Beyond PCs.</description>
+			<link>http://3w3.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 03:08:22 GMT</pubDate>
+			<guid>http://3w3.r2.ly/?id=16156</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/15/technology/intel-tries-to-find-a-foothold-beyond-pcs.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			</item>
+		<item>
+			<description>It was a gorgeous crisp fall-like spring day.</description>
+			<link>http://3w2.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 03:04:47 GMT</pubDate>
+			<guid>http://3w2.r2.ly/?id=16155</guid>
+			<microblog:linkFull>http://www.flickr.com/photos/scriptingnews/8649576604/in/photostream</microblog:linkFull>
+			<microblog:readCount>104</microblog:readCount>
+			</item>
+		<item>
+			<description>It&apos;s good to know Dennis Rodman is on top of the situation.</description>
+			<link>http://3w1.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 02:45:57 GMT</pubDate>
+			<guid>http://3w1.r2.ly/?id=16154</guid>
+			<microblog:linkFull>http://gawker.com/5994632/dennis-rodman-is-going-back-to-north-korea-this-summer</microblog:linkFull>
+			<microblog:readCount>476</microblog:readCount>
+			</item>
+		<item>
+			<description>Dennis Rodman Is Going Back to North Korea This Summer.</description>
+			<link>http://3w1.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 02:33:25 GMT</pubDate>
+			<guid>http://3w1.r2.ly/?id=16153</guid>
+			<microblog:linkFull>http://gawker.com/5994632/dennis-rodman-is-going-back-to-north-korea-this-summer</microblog:linkFull>
+			<microblog:readCount>476</microblog:readCount>
+			</item>
+		<item>
+			<description>Krugman: The Antisocial Network of Bitcoins.</description>
+			<link>http://3w0.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 02:27:23 GMT</pubDate>
+			<guid>http://3w0.r2.ly/?id=16152</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/15/opinion/krugman-the-antisocial-network.html?_r=1&amp;seid=auto&amp;smid=tw-NytimesKrugman</microblog:linkFull>
+			<microblog:readCount>411</microblog:readCount>
+			</item>
+		<item>
+			<description>Topless Pulp Fiction Society Does Their Thing in Central Park.</description>
+			<link>http://3vz.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 00:22:41 GMT</pubDate>
+			<guid>http://3vz.r2.ly/?id=16151</guid>
+			<microblog:linkFull>http://www.centralpark.com/news/578/topless-pulp-fiction-society-does-their-thing-in-central-park</microblog:linkFull>
+			<microblog:readCount>637</microblog:readCount>
+			</item>
+		<item>
+			<description>Why doesn&apos;t org-mode export in OPML, then you could use any outliner for their CMS?</description>
+			<link>http://3vy.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 00:09:18 GMT</pubDate>
+			<guid>http://3vy.r2.ly/?id=16150</guid>
+			<microblog:linkFull>http://spacemanaki.com/blog/2013/04/14/Literate-blogging-with-Org-mode-and-Octopress/</microblog:linkFull>
+			<microblog:readCount>381</microblog:readCount>
+			</item>
+		<item>
+			<description>Why Unemployment Matters.</description>
+			<link>http://3vw.r2.ly/</link>
+			<pubDate>Sun, 14 Apr 2013 21:21:07 GMT</pubDate>
+			<guid>http://3vw.r2.ly/?id=16149</guid>
+			<microblog:linkFull>http://m.theatlantic.com/business/archive/2011/07/why-unemployment-matters/241658/</microblog:linkFull>
+			<microblog:readCount>569</microblog:readCount>
+			</item>
+		<item>
+			<description>The Terrifying Reality of Long-Term Unemployment.</description>
+			<link>http://3vv.r2.ly/</link>
+			<pubDate>Sun, 14 Apr 2013 20:53:18 GMT</pubDate>
+			<guid>http://3vv.r2.ly/?id=16148</guid>
+			<microblog:linkFull>http://www.theatlantic.com/business/archive/2013/04/the-terrifying-reality-of-longterm-unemployment/274957/</microblog:linkFull>
+			<microblog:readCount>709</microblog:readCount>
+			</item>
+		<item>
+			<description>Snow, Cold Lead Mets and Twins to Call Off Sunday&apos;s Game.</description>
+			<link>http://3vu.r2.ly/</link>
+			<pubDate>Sun, 14 Apr 2013 20:12:27 GMT</pubDate>
+			<guid>http://3vu.r2.ly/?id=16147</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/15/sports/baseball/snow-cold-lead-mets-and-twins-to-call-off-sundays-game.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>521</microblog:readCount>
+			</item>
+		<item>
+			<description>New York Knicks expect to have Tyson Chandler, Kenyon Martin in playoffs.</description>
+			<link>http://3vt.r2.ly/</link>
+			<pubDate>Sun, 14 Apr 2013 19:58:17 GMT</pubDate>
+			<guid>http://3vt.r2.ly/?id=16146</guid>
+			<microblog:linkFull>http://espn.go.com/new-york/nba/story/_/id/9170772/new-york-knicks-expect-tyson-chandler-kenyon-martin-playoffs</microblog:linkFull>
+			<microblog:readCount>464</microblog:readCount>
+			</item>
+		<item>
+			<description>Is This The Subway Car Design Of The Future?</description>
+			<link>http://3vs.r2.ly/</link>
+			<pubDate>Sun, 14 Apr 2013 18:57:10 GMT</pubDate>
+			<guid>http://3vs.r2.ly/?id=16145</guid>
+			<microblog:linkFull>http://gothamist.com/2013/04/13/is_this_the_subway_car_design_of_th.php</microblog:linkFull>
+			<microblog:readCount>842</microblog:readCount>
+			</item>
+		<item>
+			<description>Reminder: The next Small Picture outliner -- coming soooon! :-)</description>
+			<link>http://3vr.r2.ly/</link>
+			<pubDate>Sun, 14 Apr 2013 18:25:48 GMT</pubDate>
+			<guid>http://3vr.r2.ly/?id=16144</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/theNextSmallPictureOutliner#comment-863383631</microblog:linkFull>
+			<microblog:readCount>516</microblog:readCount>
+			</item>
+		<item>
+			<description>NYT op-ed: Bomb North Korea, Before It&apos;s Too Late.</description>
+			<link>http://3vn.r2.ly/</link>
+			<pubDate>Sat, 13 Apr 2013 22:53:35 GMT</pubDate>
+			<guid>http://3vn.r2.ly/?id=16143</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/13/opinion/bomb-north-korea-before-its-too-late.html?_r=0&amp;pagewanted=all</microblog:linkFull>
+			<microblog:readCount>1180</microblog:readCount>
+			</item>
+		<item>
+			<description>Ohio Police Chief Accidentally Eats Daughter&apos;s Weed-Cake, Goes Insane.</description>
+			<link>http://3vm.r2.ly/</link>
+			<pubDate>Sat, 13 Apr 2013 20:24:22 GMT</pubDate>
+			<guid>http://3vm.r2.ly/?id=16142</guid>
+			<microblog:linkFull>http://gawker.com/5994598/ohio-police-accidentally-chief-eats-daughters-weed+cake-goes-insane</microblog:linkFull>
+			<microblog:readCount>1061</microblog:readCount>
+			</item>
+		<item>
+			<description>Today&apos;s ABA shares little with the original other than the name, the ball and a renegade spirit.</description>
+			<link>http://3vl.r2.ly/</link>
+			<pubDate>Sat, 13 Apr 2013 18:03:31 GMT</pubDate>
+			<guid>http://3vl.r2.ly/?id=16141</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/14/sports/basketball/the-new-aba-is-a-quirky-chaotic-league.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>520</microblog:readCount>
+			</item>
+		<item>
+			<description>Rebuttal to Andrew Sullivan: Blogs are an amateur thing, that&apos;s the source of confusion.</description>
+			<link>http://3vh.r2.ly/</link>
+			<category>Scripting News</category>
+			<enclosure url="http://static.scripting.com/myReallySimple/2013/04/13/davecast2013april13.m4a" length="10085514" type="audio/x-m4a" />
+			<pubDate>Sat, 13 Apr 2013 14:23:14 GMT</pubDate>
+			<guid>http://3vh.r2.ly/</guid>
+			<microblog:linkFull>http://static.scripting.com/myReallySimple/2013/04/13/davecast2013april13.m4a</microblog:linkFull>
+			<microblog:readCount>1776</microblog:readCount>
+			</item>
+		<item>
+			<description>Andrew Sullivan: Will Readers Finally Pay For Content? (I have an audio rebuttal in the next item.)</description>
+			<link>http://3vg.r2.ly/</link>
+			<pubDate>Sat, 13 Apr 2013 14:18:55 GMT</pubDate>
+			<guid>http://3vg.r2.ly/?id=16139</guid>
+			<microblog:linkFull>http://dish.andrewsullivan.com/2013/04/11/will-readers-finally-pay-for-content-ctd-8/</microblog:linkFull>
+			<microblog:readCount>480</microblog:readCount>
+			</item>
+		<item>
+			<title>Lakers: Kobe probably tore Achilles in victory.</title>
+			<link>http://3vf.r2.ly/</link>
+			<pubDate>Sat, 13 Apr 2013 07:12:17 GMT</pubDate>
+			<guid>http://3vf.r2.ly/?id=16138</guid>
+			<microblog:linkFull>http://espn.go.com/los-angeles/nba/story/_/id/9166874/kobe-bryant-los-angeles-lakers-probably-tore-achilles-team-says</microblog:linkFull>
+			<microblog:readCount>1005</microblog:readCount>
+			</item>
+		<item>
+			<description>Fargo is the largest city in the U.S. state of North Dakota.</description>
+			<link>http://3ve.r2.ly/</link>
+			<pubDate>Sat, 13 Apr 2013 02:53:05 GMT</pubDate>
+			<guid>http://3ve.r2.ly/?id=16137</guid>
+			<microblog:linkFull>http://en.wikipedia.org/wiki/Fargo,_North_Dakota</microblog:linkFull>
+			<microblog:readCount>769</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

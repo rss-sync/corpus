@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Climate Audit</title>
+	<atom:link href="http://climateaudit.org/feed/" rel="self" type="application/rss+xml" />
+	<link>http://climateaudit.org</link>
+	<description>by Steve McIntyre</description>
+	<lastBuildDate>Mon, 15 Apr 2013 12:12:09 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='climateaudit.org' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>http://s2.wp.com/i/buttonw-com.png</url>
+		<title>Climate Audit</title>
+		<link>http://climateaudit.org</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://climateaudit.org/osd.xml" title="Climate Audit" />
+	<atom:link rel='hub' href='http://climateaudit.org/?pushpress=hub'/>
+		<item>
+		<title>Tingley and Huybers Exclude Mt Logan</title>
+		<link>http://climateaudit.org/2013/04/14/tingley-and-huybers-exclude-mt-logan/</link>
+		<comments>http://climateaudit.org/2013/04/14/tingley-and-huybers-exclude-mt-logan/#comments</comments>
+		<pubDate>Sun, 14 Apr 2013 18:41:15 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[franz josef]]></category>
+		<category><![CDATA[huybers]]></category>
+		<category><![CDATA[logan]]></category>
+		<category><![CDATA[tingley]]></category>
+		<category><![CDATA[windy dome]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17817</guid>
+		<description><![CDATA[Perhaps the greatest single difference between being a &#8220;real climate scientist&#8221; and policies recommended here is that &#8220;real climate scientists&#8221; do not hesitate in excluding data ex post because it goes the &#8220;wrong&#8221; way, a practice that is unequivocally condemned at Climate Audit and other critical blogs which take the position that criteria have to [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17817&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>Perhaps the greatest single difference between being a &#8220;real climate scientist&#8221; and policies recommended here is that &#8220;real climate scientists&#8221; do not hesitate in excluding data ex post because it goes the &#8220;wrong&#8221; way, a practice that is unequivocally condemned at Climate Audit and other <em>critical</em> blogs which take the position that criteria have to be established ex ante: if you believe that treeline spruce ring widths or Arctic d18O ice core data is a climate proxy, then you can&#8217;t exclude (or downweight) data because it goes the &#8220;wrong&#8221; way.</p>
+<p>This seems trivially obvious to anyone approaching this field for the first time and has been frequently commented on at critical blogs. However it is a real blind spot for real climate scientists and Tingley and Huybers are no exception.</p>
+<p>Fisher&#8217;s Mount Logan ice core d18O series is a longstanding litmus test. It goes down in the latter part of the data and is not popular among multiproxy jockeys. Tingley and Huybers excluded Mt Logan from their data set, purporting to justify its exclusion as follows:</p>
+<blockquote><p>We exclude the Mount Logan series that is included in [35] because the original reference [36] indicates it is a proxy for precipitation source region and is out of phase with paleotemperature series.
+</p></blockquote>
+<p>In the figure below, I show two Arctic d18O series &#8211; on the top is Windy Dome, a Thompson series from Franz Josef Land used by Tingley and Huybers and on the bottom is the Mt Logan series that they excluded.</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/two-ice-core-proxies.png"><img src="http://climateaudit.files.wordpress.com/2013/04/two-ice-core-proxies.png?w=640&#038;h=640" alt="two ice core proxies" width="640" height="640" class="aligncenter size-full wp-image-17819" /></a><br />
+Top: d18O. top- Windy Dome, Franz Josef. bottom &#8211; Mt Logan.</p>
+<p>Windy Dome d18O goes up in the 19th and 20th century. The possibility that some portion of the increase might be attributable to change in source region doesn&#8217;t cross Tingley and Huybers&#8217; mind.  On the other hand, Mt Logan goes down and the authors unhesitatingly attribute this to change in source precipitation and exclude it from their network (post hoc.)</p>
+<p>However, they don&#8217;t consider the bias inherent in this sort of ex post exclusion. Attributing the decrease at Mt Logan to changes in precipitation source is very plausible. But it&#8217;s equally plausible and even probable that changes in precipitation sources could also work in the opposite direction, exacerbating any increase due to temperature. Perhaps there was a change in source region for Windy Dome that contributed to its recent increase in d18O values. Exclusion of Mt Logan, without a compensating exclusion of an accentuated upward series, will impart a bias to any composite. </p>
+<p>If scientists believe that Arctic d18O is a proxy for temperature, then they cannot exclude data after the fact because it goes the &#8220;wrong&#8221; way, as Tingley and Huybers have done here.  Particularly if they have no compunction about using contaminated data that goes the &#8220;right&#8221; way.</p>
+<p>If authors take longer to report data that goes the &#8220;wrong way&#8221;, this will also bias composites at any given time. For example, Lonnie Thompson&#8217;s Bona-Churchill series, which is near Mt Logan, also goes the wrong way. Has this contributed to the delay (now exceeding 10 years) in reporting these results?</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17817/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17817/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17817&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/14/tingley-and-huybers-exclude-mt-logan/feed/</wfw:commentRss>
+		<slash:comments>24</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/two-ice-core-proxies.png" medium="image">
+			<media:title type="html">two ice core proxies</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Tingley and Huybers: Varve Compaction</title>
+		<link>http://climateaudit.org/2013/04/14/tingley-and-huybers-varve-compaction/</link>
+		<comments>http://climateaudit.org/2013/04/14/tingley-and-huybers-varve-compaction/#comments</comments>
+		<pubDate>Sun, 14 Apr 2013 15:40:26 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[huybers]]></category>
+		<category><![CDATA[murray]]></category>
+		<category><![CDATA[tingley]]></category>
+		<category><![CDATA[varve]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17808</guid>
+		<description><![CDATA[Specialist literature on varves e.g. Besonen et al 2008 &#8211; coauthor Raymond Bradley -(which is cited by Tingley and Huybers) make the obvious observation that varves are compacted within a core. Besonen et al 2008 allow for compaction by estimating annual mass accumulation as a more appropriate measurement of varve &#8220;thickness&#8221;, rather than uncompacted varve [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17808&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>Specialist literature on varves e.g. Besonen et al 2008 &#8211; coauthor Raymond Bradley -(which is cited by Tingley and Huybers) make the obvious observation that varves are compacted within a core.  Besonen et al 2008 allow for compaction by estimating annual mass accumulation as a more appropriate measurement of varve &#8220;thickness&#8221;, rather than uncompacted varve thickness. In their abstract, Besonen et al stated:</p>
+<blockquote><p>In many studies of lakes from the High Arctic, varve thickness is a good proxy for summer temperature and we interpret the Lower Murray Lake varves in this way. OnOn that basis, the Lower Murray Lake varve thickness record suggests that summer temperatures in recent decades were among the warmest of the last millennium, comparable with conditions that last occurred in the early twelfth and late thirteenth centuries, but estimates based on the sediment accumulation rate do not show such a recent increase</p>
+</blockquote>
+<p>They report later in the article:</p>
+<blockquote><p>On the other hand, because of compaction, the thickness of recent varves is not directly comparable with those varves that are buried deeper in the sediment pile. This problem can be addressed by calculating a packing index (a simple ratio of the area occupied by sediment grains versus the area occupied by matrix in the varve BSE images) and then calculating the sediment accumulation rate on an annual basis (assuming a constant sediment density of 2.65 g/cm3, for quartz). This procedure compensates for compression of the sediment with depth, and results in a suppression of the trend over the last century seen in the varve thickness record (Figure 7).</p></blockquote>
+<p>An excerpt from Besonen&#8217;s Figure 7 is shown below. The top panel shows varve thickness unadjusted for compaction, while the bottom panel shows mass accumulation. The top panel (with no allowance for compaction) shows somewhat elevated 20th century levels, while the bottom panel (after allowing for compaction) does not &#8211; the phenomenon noted in their abstract.</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/besonen-excerpt.png"><img src="http://climateaudit.files.wordpress.com/2013/04/besonen-excerpt.png?w=600&#038;h=600" alt="besonen excerpt" width="600" height="600" class="aligncenter size-full wp-image-17809" /></a><br />
+Figure 1. Excerpt from Besonen et al Figure 7. Top &#8211; varve thickness unadjusted for compaction (but after turbidites); middle &#8211; density; bottom &#8211; mass accumulation. </p>
+<p>A related article (Cook et al 2009 &#8211; also with Bradley as coauthor) the following year on a different Murray lake core made similar observations about compaction.  Cook et al provided a temperature reconstruction using mass accumulation rate, showing a rather elevated MWP as shown below. I&#8217;m not inclined to put much weight on simplistic reconstructions from varve thickness (see also my discussion of Gifford Miller&#8217;s observations on this topic), but show this series as evidence that mass accumulation was used by this group as the relevant index.)</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/cook-excerpt-re-murray-lake.png"><img src="http://climateaudit.files.wordpress.com/2013/04/cook-excerpt-re-murray-lake.png?w=1024&#038;h=350" alt="cook excerpt re murray lake" width="1024" height="350" class="aligncenter size-full wp-image-17810" /></a><br />
+Figure 2. Excerpt from Cook et al 2009.</p>
+<p>Tingley and Huybers 2013 have three classes of proxy data: MXD data, which has the familiar divergence problem; ice core O18 which doesn&#8217;t have a Hockey Stick shape and varves. The Murray Lake varve series is used.  Tingley and Huybers provide an excellent SI, including exact URLs for data sets as used &#8211; a simple enough protocol that unfortunately is seldom observed.  (They forgot to archive their actual reconstruction, though I presume that this is a mere oversight since their intent is clearly to provide a comprehensive archive).</p>
+<p>In their SI, they state:</p>
+<blockquote><p>Details and references for the lake varve records used in the analysis are available in Table S.1. Unless the description of the data indicates otherwise, we use the total varve thickness.</p></blockquote>
+<p>Of the two Murray Lake versions (different cores taken by the same group), they cite the Besonen et al version.</p>
+<blockquote><p>For the Murray lake record, we use the unfiltered version of the shorter (1000 year) record posted at the NOAA Paleolimnology site [60].</p></blockquote>
+<p>However, when one compares their archive of data as used to the NOAA archive, one can immediately determine that they used varve thickness without compensating for varve compaction (the series match), rather than mass accumulation as used by Cook et al 2009 in their temperature reconstruction. This decision gives a pronounced upward bias, as shown by the difference between the two series (after taking a log and then scaling as in Tingley and Huybers.)</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/murray-uncompacted-difference.png"><img src="http://climateaudit.files.wordpress.com/2013/04/murray-uncompacted-difference.png?w=680&#038;h=480" alt="Murray uncompacted difference" width="680" height="480" class="aligncenter size-full wp-image-17811" /></a><br />
+Figure ^. Murray Lake. Difference between uncompacted varve thickness as used by Tingley and Huybers and mass accumulation.  Both series logged and then scaled, before differencing.</p>
+<p>I haven&#8217;t yet looked at how the other varve series handled compaction, but it seems like an important issue in any attempt to deduce temperatures from this sort of data. In the particular case of the Murray Lake series, it seems to me that the original data clearly &#8220;indicates&#8221; that mass accumulation be used as an index, rather than varve thickness unadjusted for compaction and that this should have been used according to the stated methodology of Tingley and Huybers. </p>
+<p>As previously noted, Tingley and Huybers also used the contaminated portion of the Korttajarvi sediment data, so there are multiple problems with their varve reconstruction. These are not complicated issues, but ones that ought to be within the scope of even Nature peer reviewers.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17808/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17808/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17808&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/14/tingley-and-huybers-varve-compaction/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/besonen-excerpt.png" medium="image">
+			<media:title type="html">besonen excerpt</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/cook-excerpt-re-murray-lake.png" medium="image">
+			<media:title type="html">cook excerpt re murray lake</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/murray-uncompacted-difference.png" medium="image">
+			<media:title type="html">Murray uncompacted difference</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>New Light on Svalbard</title>
+		<link>http://climateaudit.org/2013/04/13/new-light-on-svalbard/</link>
+		<comments>http://climateaudit.org/2013/04/13/new-light-on-svalbard/#comments</comments>
+		<pubDate>Sun, 14 Apr 2013 03:59:29 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[lomonosovfonna]]></category>
+		<category><![CDATA[O18]]></category>
+		<category><![CDATA[svalbard]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17795</guid>
+		<description><![CDATA[In 1997, the 121 m Lomonosovfonna ice core was drilled in Svalbard. As of mid-2009, when Hu McCulloch and I wrote CA posts on this core, nothing had been published on O18 values prior to AD1400 nor had any Lomonosovfonna data been archived, even for the post-1400 period. Both Hu McCulloch and I, in separate [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17795&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>In 1997, the 121 m Lomonosovfonna ice core was drilled in Svalbard. As of mid-2009, when Hu McCulloch and I wrote CA posts on this core, nothing had been published on<br />
+O18 values prior to AD1400 nor had any Lomonosovfonna data been archived, even for the post-1400 period. </p>
+<p>Both Hu McCulloch and I, in separate CA posts <a href="http://climateaudit.org/2009/07/11/sea-ice-at-lowest-level-in-800-years/">here</a> and <a href="http://climateaudit.org/2009/08/17/svalbards-lost-decades/">here</a>, speculated that the withheld O18 values prior to AD1400 would elevated values.  A digital version of the pre-1400 data became available this week in connection with Hanhijarvi et al and confirmed our surmise, as shown below.<span id="more-17795"></span></p>
+<p>The figure below shows Lomonosovfonna O18 values back through the MWP as calculated from data in the SI to Hanhijarvi, Korhola and Tingley. As Hu and I had surmised, the O18 values prior to AD1400 (denoted by dotted line) were elevated. </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/lomonosovfonna-from-korhola1.png"><img src="http://climateaudit.files.wordpress.com/2013/04/lomonosovfonna-from-korhola1.png?w=680&#038;h=480" alt="lomonosovfonna from korhola" width="680" height="480" class="aligncenter size-full wp-image-17800" /></a><br />
+Figure 1. The Hanhijarvi et al SI provided reconstructed temperature at Longyearben using Lomonosovfonna. The post-1400 portion was a linear transformation to O18 data at NOAA (used in Tingley and Huybers 2013). The O18 plotted here used the linear transformation to recover the underlying O18 values. </p>
+<p>Lomosovfonna O18 values after AD1400 had been shown in a number of articles by Isaksson and coauthors.</p>
+<p>Hu&#8217;s and my interest in pre-1400 Lomonosovfonna data had been prompted in 2009 by the publication of a multiproxy reconstruction of sea ice by Macias Fauria and coauthors, including Elizabeth Isaksson, claiming that sea ice was unprecedented since AD1200. In the post, I observed that a related article by the coauthors (Grinsted et al 2006) showed that &#8220;washout indices&#8221; at Lomonosovfonna were at much higher than modern levels prior to AD1200, but, by sheer coincidence, the reconstruction began in AD1200.</p>
+<p>The reconstruction used d18O measurements from Lomonosovfonna, Svalbard, but Macias Fauria refused to provide the data (see CA post <a href="http://climateaudit.org/2009/07/11/sea-ice-at-lowest-level-in-800-years/">here</a>). Macias Fauria said that the data had to be obtained from Elisabeth Isaksson, disregarding the fact that Isaksson was a coauthor of the article.</p>
+<p>Hu McCulloch took up the issue in a <a href="http://climateaudit.org/2009/08/17/svalbards-lost-decades/">CA post</a> entitled Svalbard&#8217;s Lost Decades, forcefully challenging Grinsted, who had commented on other CA threads, to explain the omission of this portion of their record. Grinsted responded in comments, but failed to provide a satisfactory explanation. Nor was Grinsted more responsive to requests for pre-1400, also pointing the finger at Isaksson.</p>
+<p>Lomonosovfonna was again used later in 2009 in a multiproxy reconstruction by Kinnard et al. Kinnard et al provided an excellent archive, including a digital version of post-1400 Lomonosovfonna that is a slightly smoothed version of the data now available.</p>
+<p>The post-1400 version of Lomosovfonna was also used in 2009 by Tingley in the first draft of what was recently published as Tingley and Huybers 2013.Tingley and Huybers 2013 discuss a post-1400 reconstruction using ice core O18, with a network almost identical to Kinnard&#8217;s, including the post-1400 portion of Lomonosovfonna. I&#8217;ll return to this reconstruction in a separate post.</p>
+<p>In May 2011, Isaksson archived the post-1400 data at NOAA (see <a href="ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/polar/svalbard/svalbard2005d18o.txt">here</a>), citing Macias Fauria et al &#8211; making me wonder whether Macias Fauria used Lomonosovfonna data in their reconstruction between 1200 and 1400.</p>
+<p>In July 2011, in a little noticed article (Divine et al 2011 <a href="http://www.polarresearch.net/index.php/polar/article/viewArticle/7379/html_187">here</a>), Isaksson and coauthors showed pre-1400 data in the following graphic (but did not archive the data):</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/svalbard-divine-2011.png"><img src="http://climateaudit.files.wordpress.com/2013/04/svalbard-divine-2011.png?w=478&#038;h=215" alt="svalbard divine 2011" width="478" height="215" class="aligncenter size-full wp-image-17797" /></a><br />
+Figure 2. From Divine et al 2011. This corresponds to Hanhijarvi SI version.</p>
+<p>Isakkson and coauthors observed:</p>
+<blockquote><p>However, both the reconstructed winter temperatures as well as indirect indicators of summer temperatures suggest the Medieval period before the 1200s was at least as warm as at the end of the 1990s in Svalbard.</p></blockquote>
+<p>Later in 2011, I reviewed the comprehensive Arctic O18 data from Kinnard et al 2009 <a href="http://climateaudit.org/2011/12/05/kinnard-arctic-o18-series/">here</a>. I observed that the Kinnard Hockey Stick was not observable in the long O18 data and therefore had to come from something else, illustrating this with the following graphic. </p>
+<p><img src="http://climateaudit.files.wordpress.com/2011/12/compare_o18.png" alt="" /><br />
+Figure 4. CA comparison of long O18 data from Kinnard et al 2009 to their reconstruction.</p>
+<p>In their SI, Tingley and Huybers 2013 show a post-1400 reconstruction using Arctic O18 values, but draw opposite conclusions. I&#8217;ll return to this in another post.</p>
+<p><strong>Postscript:</strong> The dating of the bottom portion of the core appears to have changed dramatically between Macias Fauria et al 2009 and Divine et al 2011, increasing the earliest dates by about 400 years (from the 12th century to about AD770).  Because of the exponential thinning of ice cores, early dates are tremendously sensitive (particularly in short cores) to the estimate of the thinning parameter, as shown in the following graphic from Divine et al 2011: </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/svalbard-lomonosovfonna-dating-model.png"><img src="http://climateaudit.files.wordpress.com/2013/04/svalbard-lomonosovfonna-dating-model.png?w=461&#038;h=362" alt="svalbard lomonosovfonna dating model" width="461" height="362" class="aligncenter size-full wp-image-17796" /></a><br />
+Figure 3. From Divine et al 2011. Because of this redating of the bottom portion of the core, it appears that the version now available is not the same version as the one used in Macias Fauria.  </p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17795/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17795/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17795&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/13/new-light-on-svalbard/feed/</wfw:commentRss>
+		<slash:comments>43</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/lomonosovfonna-from-korhola1.png" medium="image">
+			<media:title type="html">lomonosovfonna from korhola</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/svalbard-divine-2011.png" medium="image">
+			<media:title type="html">svalbard divine 2011</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2011/12/compare_o18.png" medium="image" />
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/svalbard-lomonosovfonna-dating-model.png" medium="image">
+			<media:title type="html">svalbard lomonosovfonna dating model</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>More from the Junior Birdmen</title>
+		<link>http://climateaudit.org/2013/04/11/more-from-the-junior-birdmen/</link>
+		<comments>http://climateaudit.org/2013/04/11/more-from-the-junior-birdmen/#comments</comments>
+		<pubDate>Thu, 11 Apr 2013 05:53:23 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[korttajarvi]]></category>
+		<category><![CDATA[tiljander]]></category>
+		<category><![CDATA[tingley]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17781</guid>
+		<description><![CDATA[A new paper in Nature by Tingley and Huybers h/t WUWT. In keeping with the total and complete stubbornness of the paleoclimate community, they use the most famous series of Mann et al 2008: the contaminated Korttajarvi sediments, the problems with which are well known in skeptic blogs and which were reported in a comment [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17781&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p><img src="http://climateaudit.files.wordpress.com/2013/04/birdmann_scr.jpg?w=360" width="360" class="alignleft" alt="" />  A new paper in Nature by Tingley and Huybers h/t <a href="http://wattsupwiththat.com/2013/04/10/another-proxy-study-with-an-unprecedented-temperature-claim/#more-83895">WUWT</a>. </p>
+<p>In keeping with the total and complete stubbornness of the paleoclimate community, they use the most famous series of Mann et al 2008: the contaminated Korttajarvi sediments, the problems with which are well known in skeptic blogs and which were reported in a comment at PNAS by Ross and I at the time. The original author, Mia Tiljander, warned against use of the modern portion of this data, as the sediments had been contaminated by modern bridgebuilding and farming. Although the defects of this series as a proxy are well known to readers of &#8220;skeptical&#8221; blogs, peer reviewers at Nature were obviously untroubled by the inclusion of this proxy in a temperature reconstruction.</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/tingley-table-s1.png"><img src="http://climateaudit.files.wordpress.com/2013/04/tingley-table-s1.png?w=907&#038;h=393" alt="tingley table s1" width="907" height="393" class="aligncenter size-full wp-image-17782" /></a></p>
+<p>They stated:</p>
+<blockquote><p>
+For the Korttajarvi Lake record, we use the organic layer thickness, as the original publication indicates that a thicker organic layer “probably indicates a warmer summer and a relatively long growing season” [57- Boreas].</p></blockquote>
+<p>However, they didn&#8217;t mention the following:</p>
+<blockquote><p>This recent increase in thickness is due to the clay-rich varves caused by <strong>intensive cultivation in the late 20th century</strong>.</p></blockquote>
+<p>and again:</p>
+<blockquote><p>In the 20th century the Lake Korttaja¨rvi record was strongly affected by human activities. The average varve thickness is 1.2 mm from AD 1900 to 1929, 1.9 mm from AD 1930 to 1962 and 3.5 mm from AD 1963 to 1985. There are two exceptionally thick clay-silt layers caused by man. The thick layer of AD 1930 resulted from peat ditching and forest clearance (information from a local farmer in 1999) and the thick layer of AD 1967 originated due to the rebuilding of the bridge in the vicinity of the lake’s southern corner (information from the Finnish Road Administration). Varves since AD 1963 towards the present time thicken because of the higher water content in the top of the sediment column. However, the gradually increasing varve thickness during the whole 20th century probably originates from the accelerating agricultural use of the area around the lake.</p></blockquote>
+<p>All of this was discussed ad nauseam following Mann et al 2008, though Mann stubbornly refused to concede anything.  Kaufman et al 2009 also used the data and, on the advice of Overpeck, conceded the point and issued a corrigendum.  Raymond Bradley was a coauthor of both papers and more or less simultaneously took the position that a corrigendum was required and not required.</p>
+<p>I&#8217;m sure that we&#8217;ll be told that their use of contaminated Korttajarvi data doesn&#8217;t &#8220;matter&#8221; &#8211; nothing ever seems to. But why use it? </p>
+<p><strong>Steve Update Apr 11:<br />
+</strong> For R users, I&#8217;ve collated the Tingley proxies into a time series  R-matrix called proxy.tab at <a href="http://www.climateaudit.info/data/multiproxy/tingley_2013" rel="nofollow">http://www.climateaudit.info/data/multiproxy/tingley_2013</a> and their metadata as info_tingley.csv.  A simple average of all the Tingley proxies is shown below. It has a divergence problem because the majority of proxies are MXD proxies.  </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/tingley_avg.png"><img src="http://climateaudit.files.wordpress.com/2013/04/tingley_avg.png?w=680&#038;h=480" alt="tingley_avg" width="680" height="480" class="aligncenter size-full wp-image-17791" /></a></p>
+<p>Their Figure S34 top panel shows a reconstruction from MXD proxies along. The reconstruction is very similar to an MXD average,as shown below.<br />
+<a href="http://climateaudit.files.wordpress.com/2013/04/mxd-recon.png"><img src="http://climateaudit.files.wordpress.com/2013/04/mxd-recon.png?w=680&#038;h=480" alt="mxd-recon" width="680" height="480" class="aligncenter size-full wp-image-17793" /></a><br />
+Figure ^. Tingley and Huybers S34 top panel, showing one variation of their proxy-only reconstructions (MXD), with average of MXD proxies (green) for comparison.</p>
+<p>Tingley has provided an exemplary archive. It requires a little collation. R users who wish to skip their own collation may use my collation as follows:</p>
+<pre>
+download.file("http://www.climateaudit.info/data/multiproxy/tingley_2013/proxy.tab","d:/temp/temp",mode="wb")
+load("d:/temp/temp")
+tsp(proxy) #1400 2005
+
+info=read.csv("http://www.climateaudit.info/data/multiproxy/tingley_2013/info_tingley.csv")
+dim(info)	#[1] 125  11
+
+annual=ts(apply(scale(proxy),1,mean,na.rm=T),start=1400)
+count=ts(apply(!is.na(proxy),1,sum),start=1400)
+max(time(count)[count&gt;20]) #1992
+
+#png(file="d:/climate/images/multiproxy/tingley_avg.png",w=680,h=480)
+plot.ts( window(annual, end=max(time(count)[count&gt;20]) ),ylab="SD Units")
+title("Average of Normalized Tingley Proxies")
+abline(h=0,lty=3)
+#dev.off()
+</pre>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17781/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17781/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17781&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/11/more-from-the-junior-birdmen/feed/</wfw:commentRss>
+		<slash:comments>101</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/birdmann_scr.jpg" medium="image" />
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/tingley-table-s1.png" medium="image">
+			<media:title type="html">tingley table s1</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/tingley_avg.png" medium="image">
+			<media:title type="html">tingley_avg</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/mxd-recon.png" medium="image">
+			<media:title type="html">mxd-recon</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The Impact of TN05-17</title>
+		<link>http://climateaudit.org/2013/04/10/the-impact-of-tn05-17/</link>
+		<comments>http://climateaudit.org/2013/04/10/the-impact-of-tn05-17/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 22:20:55 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[marcott]]></category>
+		<category><![CDATA[MAT]]></category>
+		<category><![CDATA[TN05-17]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17766</guid>
+		<description><![CDATA[TN05-17 is by far the most influential Southern Hemisphere core in Marcott et al 2013- it&#8217;s Marcott&#8217;s YAD061, so to speak. Its influence is much enhanced by the interaction of short-segment centering in the mid-Holocene and non-robustness in the modern period. Marcott&#8217;s SHX reconstruction becomes worthless well before the 20th century, a point that they [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17766&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>TN05-17 is by far the most influential Southern Hemisphere core in Marcott et al 2013- it&#8217;s Marcott&#8217;s YAD061, so to speak. Its influence is much enhanced by the interaction of short-segment centering in the mid-Holocene and non-robustness in the modern period.  Marcott&#8217;s SHX reconstruction becomes worthless well before the 20th century, a point that they have not yet admitted, let alone volunteered.</p>
+<p>Marcott&#8217;s TN05-17 series is a bit of an odd duck within his dataset. It is the only ocean core in which the temperature is estimated by Modern Analogue Technique on diatoms; only one other ocean core uses Modern Antalogue Technique (MD79-257).  The significance of this core was spotted early on by ^.</p>
+<p>TN05-17 is plotted below. Rather unusually among Holocene proxies, its mid-Holocene values are very cold. Centering on 4500-5500 BP in Marcott style results in this proxy having very high anomalies in the modern period: closing at a Yamalian apparent anomaly of over 4 deg C. </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/tn05-17_base1.png"><img src="http://climateaudit.files.wordpress.com/2013/04/tn05-17_base1.png?w=680&#038;h=480" alt="TN05-17_base" width="680" height="480" class="aligncenter size-full wp-image-17768" /></a>Figure 1. TN05-17.</p>
+<p>In the most recent portion of the Marcott SHX, there are 5 or fewer series, as compared to 12 in the mid-Holocene. Had the data been centered on the most recent millennium and extended back (e.g. Hansen&#8217;s reference station method is a lowbrow method), then there would have been an extreme negative contribution from TN05-17 in the mid-Holocene, but its contribution to the average would have been less (divided by 12, instead of 4).  As shown below, TN05-17 pretty much by itself contributes the positive recent values of the SHX reconstruction. It&#8217;s closing anomaly (basis 4500-5500 BP) is 4.01 deg. There are 4 contributing series &#8211; so the contribution of TN05-17 to the SHX composite in 1940 is 4.01/4, more than the actual SHX value.  The entire increase in the Marcott SHX from at least 1800AD on arises from increased influence of TN05-17 &#8211; the phenomenon pointed out in my post on upticks.<br />
+<a href="http://climateaudit.files.wordpress.com/2013/04/tn05-17-contribution.png"><img src="http://climateaudit.files.wordpress.com/2013/04/tn05-17-contribution.png?w=680&#038;h=480" alt="TN05-17 contribution" width="680" height="480" class="aligncenter size-full wp-image-17769" /></a><br />
+Figure 2. Contribution of TN05-17 to the Marcott SHX reconstruction.</p>
+<p>Given the overwhelming importance of this proxy, one would like to know a little more about it.  The next graphic compares TN05-17 to two other SHX proxies, also MAT proxies but from small lakes in southern New Zealand.  The inconsistency of the proxies is evident. The New Zealand paleolimnological proxies have nothing resembling the mid-Holocene &#8220;cold period&#8221; that characterizes TN05-17.  One thing that this graphic shows for sure: the residuals of these proxies from the &#8220;true&#8221; temperature history as translated to the respective sites do not remotely resemble a low-order AR1 process. To properly model the error distribution, one has to have an error model that permits excursions for millennia &#8211; not at all easy to specify.</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/shx-mat-proxies.png"><img src="http://climateaudit.files.wordpress.com/2013/04/shx-mat-proxies.png?w=680&#038;h=480" alt="SHX MAT proxies" width="680" height="480" class="aligncenter size-full wp-image-17771" /></a><br />
+Figure 3. Three SHX Modern Analogue Technique Proxies</p>
+<p>It appears highly probable that there is some confounding influence on TN05-17.  TN05-17 was cored in the Atlantic sector of the Southern Ocean south of Africa. As shown in the graphic below, it is located in very large scale &#8220;sediment drifts&#8221;.</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/agulhas-drift-annotated.png"><img src="http://climateaudit.files.wordpress.com/2013/04/agulhas-drift-annotated.png?w=548&#038;h=519" alt="agulhas drift annotated" width="548" height="519" class="aligncenter size-full wp-image-17772" /></a><br />
+Figure 4. Location map of TN05-17 (shown as red dot.)</p>
+<p>Nielsen et al 2004 observed that the alkenone temperatures of the most recent samples are several degrees higher than ocean temperatures in the area.  They speculated that some of the coretop might be missing &#8211; not particularly reassuring when this proxy is the most important contributor not just to 20th century SHX Marcott warming but 19th century SHX Marcott warming.  There is occasional discussion in specialist literature of circumstances in which alkenone temperatures are warmer than local ocean temperatures e.g.<a href="epic.awi.de/23189/1/Rhl2006a.pdf"> Ruhlemann et al </a> taking the alkenones from the warmer location in which they formed to the colder place where they settled: </p>
+<blockquote><p>We suggest that the southern samples are biased by suspended organic detritus originating from the cold subpolar waters of the northward flowing Malvinas Current, whereas the northern samples carry an UK&#8217;37 signal of tropical/<br />
+subtropical origin, transported southward with the Brazil Current. On the basis of surface ocean transport pathways and velocities simulated with the large-scale geostrophic (LSG) ocean general circulation model, we identify areas of the world ocean where alkenone temperatures are potentially biased to higher or lower values due to long particle residence times and lateral advection by surface currents.</p></blockquote>
+<p>The area studied by Ruhlemann et al was in the western South Atlantic between 30 and S.  Could something similar be going in the eastern South Atlantic in the area of TN05-17 (50S, 6E) &#8211; seems entirely possible to me.  There is convincing evidence that there have been secular changes in the Agulhas currents over the Holocene.  The TN07-17 history certainly suggests secular changes to me: it looks like ocean currents have changed in this sector over the Holocene, such that alkenone drift (along the lines of the South American alkenone drift) has contributed to the warm values in the early Holocene and later Holocene, while colder currents were present in the mid-Holocene. </p>
+<p>Whatever is right or wrong about Marcott et al, merely from a perspective of craftsmanship, it is not particularly reassuring that the main (Yad061 even) contribution to modern SHX warming in the Marcott reconstruction appears to arise from a &#8220;cold&#8221; mid-Holocene interval at TN05-17, translated into modern warming through short-segment mid-Holocene centering and modern proxy dropout. </p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17766/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17766/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17766&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/10/the-impact-of-tn05-17/feed/</wfw:commentRss>
+		<slash:comments>36</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/tn05-17_base1.png" medium="image">
+			<media:title type="html">TN05-17_base</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/tn05-17-contribution.png" medium="image">
+			<media:title type="html">TN05-17 contribution</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/shx-mat-proxies.png" medium="image">
+			<media:title type="html">SHX MAT proxies</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/agulhas-drift-annotated.png" medium="image">
+			<media:title type="html">agulhas drift annotated</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Alkenone Divergence offshore Iceland</title>
+		<link>http://climateaudit.org/2013/04/10/alkenone-divergence-offshore-iceland/</link>
+		<comments>http://climateaudit.org/2013/04/10/alkenone-divergence-offshore-iceland/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 15:35:04 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[marcott]]></category>
+		<category><![CDATA[MD99-2275]]></category>
+		<category><![CDATA[sicre]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17756</guid>
+		<description><![CDATA[The longest very high-resolution alkenone core that I&#8217;m aware of is Sicre et al&#8217;s MD99-2275 (plus splices) from offshore Iceland (67N 18W). It is 4550 years long, its most recent value is 2001AD and its resolution is 4 years. Marcott used nearby core JR51GC-35 (also at 67N 18W), also an alkenone record, which had a [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17756&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>The longest very high-resolution alkenone core that I&#8217;m aware of is Sicre et al&#8217;s  MD99-2275 (plus splices) from offshore Iceland (67N 18W).  It is 4550 years long, its most recent value is 2001AD and its resolution is 4 years.  Marcott used nearby core JR51GC-35 (also at 67N 18W), also an alkenone record, which had a resolution of 110 years and a most recent Marcott date of 1836AD.</p>
+<p>Here is how the two series compare over the 4500 years covered by the Sicre et al record (originally published in 2008, but <a href="ftp://ftp.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/sicre2008/sicre2008.txt">updated</a> in 2012). (The NOAA archive is unfortunately inadequate as it does not include depth or identify splice points.)</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/iceland-67n-18w-modern.png"><img src="http://climateaudit.files.wordpress.com/2013/04/iceland-67n-18w-modern.png?w=720&#038;h=480" alt="iceland 67N 18W modern" width="720" height="480" class="aligncenter size-full wp-image-17757" /></a><br />
+Figure 1. 67N 18W Offshore Iceland. Comparison of Marcott et al series to high-resolution series.</p>
+<p>Taking a longer view, here are the two series compared over the Holocene.</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/md99-2275-comparison-long1.png"><img src="http://climateaudit.files.wordpress.com/2013/04/md99-2275-comparison-long1.png?w=680&#038;h=480" alt="MD99-2275-comparison-long" width="680" height="480" class="aligncenter size-full wp-image-17760" /></a><br />
+Figure 2. 67N 18W Offshore Iceland. Comparison of Marcott et al series to high-resolution series.</p>
+<p>Finally, here&#8217;s a zoom into the modern period.<br />
+<a href="http://climateaudit.files.wordpress.com/2013/04/iceland-67n-18w-highres.png"><img src="http://climateaudit.files.wordpress.com/2013/04/iceland-67n-18w-highres.png?w=720&#038;h=480" alt="iceland 67N 18W highres" width="720" height="480" class="aligncenter size-full wp-image-17762" /></a><br />
+Figure 3. As above. Zoom in.</p>
+<p>In geophysical surveying, one tries to use the best quality surveys where available and benchmark lower quality surveys against the highest quality ones.  If this methodology were used here, the errors in JR51GC-35 are obviously very large, much higher than arising from the alkenone calibration equation by itself, though other factors could be at work as well.  </p>
+<p>MD99-2275 has well-dated core going deep into the Holocene. Hopefully, Sicre and other specialists will continue their commendable program.  Seeing if these results can be replicated in another core would also do much to increase confidence.</p>
+<p>The alkenone divergence problem is clearly present in this data.  ALkenone-estimated temperatures in the 20th century continued to decline.  In the Marcott reconstruction, JR51GC-35 makes its last (very negative) contribution in the 1820 step.  By the act of no longer participating, it causes the Marcott composite to go up in the next period, even though it appears that the &#8220;true&#8221; alkenone estimated temperature in the area continues to decline.<br />
+<strong><br />
+Postscript:</strong> I mentioned MD99-2275 as a high-resolution core in my notes on AGU 2006.  Like McGregor&#8217;s Cape Ghir (used inverted), it was one of the proxies in Trouet et al 2009 discussed at CA <a href="http://climateaudit.org/2009/04/14/the-trouet-ocean-proxies/">here</a>. Here is a figure showing the updated Sicre version against the Trouet et al illustration. The Sicre version is in cyan (versus the &#8220;Iceland&#8221; series in blue). The divergence in the present series continues further than in the Trouet version. </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/trouet-2009-annotated.png"><img src="http://climateaudit.files.wordpress.com/2013/04/trouet-2009-annotated.png?w=680&#038;h=480" alt="trouet-2009-annotated" width="680" height="480" class="aligncenter size-full wp-image-17764" /></a><br />
+Figure 4. Excerpt from Trouet et al 2009, showing updated Sicre et al series. </p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17756/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17756/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17756&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/10/alkenone-divergence-offshore-iceland/feed/</wfw:commentRss>
+		<slash:comments>17</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/iceland-67n-18w-modern.png" medium="image">
+			<media:title type="html">iceland 67N 18W modern</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/md99-2275-comparison-long1.png" medium="image">
+			<media:title type="html">MD99-2275-comparison-long</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/iceland-67n-18w-highres.png" medium="image">
+			<media:title type="html">iceland 67N 18W highres</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/trouet-2009-annotated.png" medium="image">
+			<media:title type="html">trouet-2009-annotated</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Alkenone Divergence in Peru</title>
+		<link>http://climateaudit.org/2013/04/09/alkenone-divergence-in-peru/</link>
+		<comments>http://climateaudit.org/2013/04/09/alkenone-divergence-in-peru/#comments</comments>
+		<pubDate>Tue, 09 Apr 2013 23:03:22 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[B0604]]></category>
+		<category><![CDATA[chile]]></category>
+		<category><![CDATA[GeoB7139-2]]></category>
+		<category><![CDATA[marcott]]></category>
+		<category><![CDATA[peru]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17749</guid>
+		<description><![CDATA[Gutierrez et al (GRL 2011) pdf here; data here is another very high resolution alkenone series that is well-dated in the 20th century. It was taken in an upwelling zone offshore Peru at a similar latitude to Quelccaya. Like the high-resolution series offshore Morocco and Namibia, it shows a sharp decline in alkenone-estimated SST in [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17749&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>Gutierrez et al (GRL 2011) pdf <a href="http://www.captura.uchile.cl/jspui/bitstream/2250/14045/1/Gutierrez_Dimitri.pdfhttp://">here</a>; data <a href="http://doi.pangaea.de/10.1594/PANGAEA.808961http://">here</a> is another very high resolution alkenone series that is well-dated in the 20th century. It was taken in an upwelling zone offshore Peru at a similar latitude to Quelccaya.  </p>
+<p>Like the high-resolution series offshore Morocco and Namibia, it shows a sharp decline in alkenone-estimated SST in the 20th century, as illustated below. (The archived data has a little more coverage -back to ~1750.)  </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/b0406-alkenone.png"><img src="http://climateaudit.files.wordpress.com/2013/04/b0406-alkenone.png?w=629&#038;h=606" alt="B0406 alkenone" width="629" height="606" class="aligncenter size-full wp-image-17750" /></a><br />
+Excerpt from Gutierrez at al 2011.</p>
+<p>The authors survey temperature data at nearby stations (Callao, Pisco and a few others) and report slight cooling in the late 20th century. They suggest &#8220;ERA 40 reanalysis indicates its link [cooling] with intensified alongshore winds driving upwelling in spring&#8221;.</p>
+<p>The closest Marcott proxy is GeoB7139-2, taken offshore Chile at approximately 30S. (A closer comparison would be nice.) This proxy is shown below. It only has two radiocarbon dates in the entire Holocene and only has resolution of ~520 years. (Stated data selection criteria are that &#8220;at least four age-control points span or closely bracket the full measured interval&#8221; and &#8220;sampling resolution is typically better than ~300 yr&#8221;. </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/geob7139-2.png"><img src="http://climateaudit.files.wordpress.com/2013/04/geob7139-2.png?w=680&#038;h=480" alt="GeoB7139-2" width="680" height="480" class="aligncenter size-full wp-image-17751" /></a><br />
+Figure 2. GeoB 7139-2 per Marcott.</p>
+<p>The next graphic shows GeoB7139-2 together with B0604 (the latter offset by 4 deg C).<br />
+<a href="http://climateaudit.files.wordpress.com/2013/04/b06045-comparison.png"><img src="http://climateaudit.files.wordpress.com/2013/04/b06045-comparison.png?w=680&#038;h=480" alt="B06045 comparison" width="680" height="480" class="aligncenter size-full wp-image-17752" /></a><br />
+Figure 3. B0604 (offset 4 deg C) and GeoB7139-2.</p>
+<p>Although we&#8217;ve been reassured by Marcott apologists of the ability of their data and method to capture any past upspike, one feels that this particular series will not be much help in that enterprise.</p>
+<p>In Lonnie Thompson&#8217;s recent Quelccaya publication, Thompson estimated Nino3-4 SST. Needless to say, they don&#8217;t bear much similarity to the alkenone SSTs shown here.</p>
+<p>Stepping back from Marcott, increased upwelling in the late 20th century seems to have occurred all over the globe. In addition to the upwelling sites surveyed here in the last couple of days (Morocco, Namibia, Peru), I&#8217;ve also seen 20th century declines in alkenone data offshore Iceland and, of course, in the two Marcott series where the decline was deleted: MD03-2421 offshore Japan and OCE326-GGC offshore eastern Canada, both of which I&#8217;ll now reconsider with this in mind.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17749/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17749/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17749&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/09/alkenone-divergence-in-peru/feed/</wfw:commentRss>
+		<slash:comments>33</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/b0406-alkenone.png" medium="image">
+			<media:title type="html">B0406 alkenone</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/geob7139-2.png" medium="image">
+			<media:title type="html">GeoB7139-2</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/b06045-comparison.png" medium="image">
+			<media:title type="html">B06045 comparison</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Alkenone Divergence</title>
+		<link>http://climateaudit.org/2013/04/09/alkenone-divergence/</link>
+		<comments>http://climateaudit.org/2013/04/09/alkenone-divergence/#comments</comments>
+		<pubDate>Tue, 09 Apr 2013 17:07:45 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[alkenone]]></category>
+		<category><![CDATA[geob6008]]></category>
+		<category><![CDATA[geob8331]]></category>
+		<category><![CDATA[leduc]]></category>
+		<category><![CDATA[marcott]]></category>
+		<category><![CDATA[mcgregor]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17718</guid>
+		<description><![CDATA[While there are disappointingly few high-resolution alkenone ocean cores with 20th century resolution, there are a few. Given the importance of this class of proxy in Marcott et al, one would have thought the performance of high-resolution alkenones in the 20th century would have been of interest to Marcott et al, but they were silent [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17718&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>While there are disappointingly few high-resolution alkenone ocean cores with 20th century resolution, there are a few. Given the importance of this class of proxy in Marcott et al, one would have thought the performance of high-resolution alkenones in the 20th century would have been of interest to Marcott et al, but they were silent on the topic.  </p>
+<p>Before Climategate, I&#8217;d considered high-resolution ocean cores from time to time at Climate Audit (see <a href="http://www.climateaudit.org/tag/alkenone">alkenone tag)</a>. In 2007, I reported on a very high-resolution alkenone series offshore Morocco (about 30N) by Helen McGregor (see <a href="http://climateaudit.org/2007/11/27/abc-global-warming-puts-fish-stocks-at-risk/">here</a> and <a href="http://climateaudit.org/2009/04/14/more-z-score-opportunism/">here</a>).  This dataset had a serious divergence problem, i.e. the water was getting colder. McGregor worried that fish in the area might need swimming lessons to cope with the rapid change.</p>
+<p>McGregor&#8217;s series was cited in <a href="http://www.guillaume-leduc.com/public/pdf/Leduc2010GRL.pdf">Leduc et al (2010)</a>, a specialist presentation of another high-resolution alkenone series taken in the Benguela upwelling zone offshore Nambia at about 30S.  Like McGregor, they also found sharply cooler SST in late 20th century as measured by well dated alkenone data, indicating that the alkenone divergence problem was not unique to McGregor&#8217;s site:<br />
+<a href="http://climateaudit.files.wordpress.com/2013/04/leduc-benguela-sst.png"><img src="http://climateaudit.files.wordpress.com/2013/04/leduc-benguela-sst.png?w=423&#038;h=414" alt="leduc benguela sst" width="423" height="414" class="aligncenter size-full wp-image-17726" /></a><br />
+Figure 1. From Leduc et al 2010. </p>
+<p>The closest Marcott series to McGregor&#8217;s Morocco series was the Iberian Margin (#51) D13822 alkenone series (Abrantes et al.) The graphic below compares the two series: the shorter (warmer) high-resolution McGregor series in red and the longer series used by Marcott in black. The green &#8220;rug&#8221; marks at top are D13822 radiocarbon dates.</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/iberian-margin-long.png"><img src="http://climateaudit.files.wordpress.com/2013/04/iberian-margin-long.png?w=680&#038;h=480" alt="iberian-margin-long" width="680" height="480" class="aligncenter size-full wp-image-17741" /></a></p>
+<p>The next graphic shows the modern portion of these two series, both offset to facilitate comparison. In this graphic, I&#8217;ve both the published and Marcott dates for the Iberian Margin series, together with the high-resolution McGregor series. All show very pronounced closing downticks, with the well-dated McGregor series placing the Morocco decline in the 20th century and even the last half of the 20th century, Marcott dating the decline in the Iberian Margin to the 19th century (with a dating error of 100-150 years) and Rodrigues et al dating the decline to the 15th century. An obvious question is whether the downturns in the Iberian Margin and Morocco series are contemporary or phased. (Note that the removal of D13822 after the late 19th century contributed to the Marcott 20th century uptick.) </p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/iberian-margin-modern1.png"><img src="http://climateaudit.files.wordpress.com/2013/04/iberian-margin-modern1.png?w=680&#038;h=480" alt="iberian-margin-modern" width="680" height="480" class="aligncenter size-full wp-image-17742" /></a></p>
+<p>Both sites are very high accumulation.  McGregor&#8217;s box core GeoB6008-1 accumulated 32 cm in less than a century (1912-1998), while the Iberian margin D13822 is estimated to have accumulated about 25 cm per century (this is about 20 times higher than many cores.)  The top sample for D13822 is at 10 cm and dated 57BP by Marcott and 442 BP in the original publication (which I haven&#8217;t seen yet.) The closest radiocarbon date is at 257 cm (calibrated 1511 BP) i.e. not closely dated. For comparison, the 10 cm sample in closely-dated GeoB6008-1 is dated to 1981AD and to 1947AD in GeoB6008-2.    </p>
+<p><strong>Trouet et al 2009<br />
+</strong><br />
+As an amusing sidebar, we also discussed the McGregor alkenone series as it was used in a multiproxy study by Trouet et al 2009 &#8211; see CA discussion <a href="http://climateaudit.org/2009/04/14/the-trouet-ocean-proxies/">here</a>. Trouet &#8220;solved&#8221; the divergence problem in best Mann et al 2008 style: by turning the series upside down.  The red series labelled &#8220;Cape Ghir&#8221; and going sharply upward in the excerpt from Trouet et al 2009 is the McGregor alkenone series with sharply colder temperatures.</p>
+<p><img src="http://climateaudit.files.wordpress.com/2009/04/proxie14.jpg" alt="" /><br />
+Excerpt from Trouet et al 2009.</p>
+<p>The practice of multiproxy authors turning indicators of cold SST upside down had been previously criticized at CA in connection with Moberg et al 2005, which used a proxy series showing increased presence of coldwater (polar) foraminifera (% G Bulloides) in the Arabian Sea as one of their most potent indicators of global warming.  </p>
+<p>The closest Marcott series to the Leduc et al 2010 Benguela series shown above is Farmer&#8217;s ODP1084B (also used in Loehle and McCulloch and discussed in Schmidt&#8217;s critique of Loehle and McCulloch.)  I&#8217;ll discuss this interesting downspike on another occasions. </p>
+<p>In general, 20th century downspikes in high-resolution alkenone series seem to be the rule, rather than the exception &#8211; a divergence problem that is not discussed in the multiproxy studies.  The most plausible reason is that high-resolution in the 20th century requires high-resolution, which requires high biological productivity, which, in turn, is most characteristic of upwelling zones.  Increased upwelling in upwelling zones seems to be a rather pronounced in the 20th century.  This is not inconsistent with overall warming, but neither is it an issue that multiproxy jockeys can simply brush aside. </p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17718/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17718/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17718&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/09/alkenone-divergence/feed/</wfw:commentRss>
+		<slash:comments>32</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/leduc-benguela-sst.png" medium="image">
+			<media:title type="html">leduc benguela sst</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/iberian-margin-long.png" medium="image">
+			<media:title type="html">iberian-margin-long</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/iberian-margin-modern1.png" medium="image">
+			<media:title type="html">iberian-margin-modern</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2009/04/proxie14.jpg" medium="image" />
+	</item>
+		<item>
+		<title>Clearly distinguished</title>
+		<link>http://climateaudit.org/2013/04/07/clearly-distinguished/</link>
+		<comments>http://climateaudit.org/2013/04/07/clearly-distinguished/#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 20:25:12 +0000</pubDate>
+		<dc:creator>Jean S</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17715</guid>
+		<description><![CDATA[[Update 04/08/13: Josh has once again a brilliant view what's going on here and in some other cases. Enjoy! ] No researchers in this field have ever, to our knowledge, &#8220;grafted the thermometer record onto&#8221; any reconstruction. It is somewhat disappointing to find this specious claim (which we usually find originating from industry-funded climate disinformation [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17715&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>[Update 04/08/13: Josh has once again a brilliant view what's going on here and in some other cases. Enjoy!</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/birdmann_scr.jpg"><img src="http://climateaudit.files.wordpress.com/2013/04/birdmann_scr.jpg?w=650&#038;h=540" alt="BirdMann_scr" width="650" height="540" class="aligncenter size-full wp-image-17734" /></a>]</p>
+<blockquote><p>No researchers in this field have ever, to our knowledge, &#8220;grafted the thermometer record onto&#8221; any reconstruction. It is somewhat disappointing to find this specious claim (which we usually find originating from industry-funded climate disinformation websites) appearing in this forum. Most proxy reconstructions end somewhere around 1980, for the reasons discussed above. Often, as in the comparisons we show on this site, the instrumental record (which extends to present) is shown along with the reconstructions, and clearly distinguished from them.</p>
+<p><a href="http://www.realclimate.org/index.php/archives/2004/12/myths-vs-fact-regarding-the-hockey-stick/comment-page-1/#comment-345">Michael E. Mann</a></p></blockquote>
+<p><a href="http://climateaudit.files.wordpress.com/2013/04/grafted.jpg"><img src="http://climateaudit.files.wordpress.com/2013/04/grafted.jpg?w=670&#038;h=920" alt="grafted" width="670" height="920" class="aligncenter size-full wp-image-17716" /></a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17715/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17715/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17715&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/07/clearly-distinguished/feed/</wfw:commentRss>
+		<slash:comments>148</slash:comments>
+	
+		<media:content url="http://2.gravatar.com/avatar/5222ac2c38b9127d5831693f3b307c83?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">Jean S</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/birdmann_scr.jpg" medium="image">
+			<media:title type="html">BirdMann_scr</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/04/grafted.jpg" medium="image">
+			<media:title type="html">grafted</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Marcott&#8217;s Dimple: A Centering Artifact</title>
+		<link>http://climateaudit.org/2013/04/07/marcotts-dimple-a-centering-artifact/</link>
+		<comments>http://climateaudit.org/2013/04/07/marcotts-dimple-a-centering-artifact/#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 17:39:54 +0000</pubDate>
+		<dc:creator>Steve McIntyre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[marcott]]></category>
+
+		<guid isPermaLink="false">http://climateaudit.org/?p=17584</guid>
+		<description><![CDATA[One of the longstanding CA criticisms of paleoclimate articles is that scientists with little-to-negligible statistical expertise too frequently use ad hoc and homemade methods in important applied articles, rather than proving their methodology in applied statistical literature using examples other than the one that they&#8217;re trying to prove. Marcott&#8217;s uncertainty calculation is merely the most [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17584&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>One of the longstanding CA criticisms of paleoclimate articles is that scientists with little-to-negligible statistical expertise too frequently use ad hoc and homemade methods in important applied articles, rather than proving their methodology in applied statistical literature using examples other than the one that they&#8217;re trying to prove. </p>
+<p>Marcott&#8217;s uncertainty calculation is merely the most recent example. Although Marcott et al spend considerable time and energy on their calculation of uncertainties, I was unable to locate a single relevant statistical reference either in the article or the SI (nor indeed a statistical reference of any kind.) They purported to estimate uncertainty through simulations, but simulations in the absence of a theoretical framework can easily fail to simulate essential elements of uncertainty.  For example, Marcott et al state of their simulations: &#8220;Added noise was not autocorrelated either temporally or spatially.&#8221;  Well, one thing we know about residuals in proxy data is that they are highly autocorrelated both temporally and spatially.  </p>
+<p>Roman&#8217;s post <a href="http://climateaudit.org/2013/04/04/marcott-monte-carlo/">drew </a>attention to one such neglected aspect. </p>
+<p>Very early in discussion of Marcott, several readers questioned how Marcott &#8220;uncertainty&#8221; in the mid-Holocene could possibly be lower than uncertainty in recent centuries.  In my opinion, the readers are 1000% correct in questioning this supposed conclusion. It is the sort of question that peer reviewers ought to have asked.   The effect is shown below (here uncertainties are shown for the Grid5x5 GLB reconstruction) &#8211; notice the mid-Holocene dimple of low uncertainty. How on earth could an uncertainty &#8220;dimple&#8221; arise in the mid-Holocene?</p>
+<p><a href="http://climateaudit.files.wordpress.com/2013/03/uncertainty.png"><img class="aligncenter size-full wp-image-17585" alt="uncertainty" src="http://climateaudit.files.wordpress.com/2013/03/uncertainty.png?w=680&#038;h=480" width="680" height="480" /></a><br />
+Figure 1. &#8220;Uncertainty&#8221; from Marcott et al 2013 spreadsheet sheet 2. Their Figure 1 plot results with &#8220;1 sigma uncertainty&#8221;.</p>
+<p>It seems certain to me that &#8220;uncertainty&#8221; dimple is an artifact of their centering methodology, rather than of the data.</p>
+<p>Marcott et al began their algorithm by centering all series between BP4500 and BP5500 &#8211; these boundaries are shown as dotted lines in the above graphic. The dimple of low &#8220;uncertainty&#8221; corresponds exactly to the centering period. It has no relationship to the data.  </p>
+<p>Arbitrary re-centering and re-scaling is embedded so deeply in paleoclimate that none of the practitioners even seem to notice that it is a statistical procedure with inherent estimation issues. In real statistics, much attention is paid to taking means and estimating standard deviation.  The difference between modern (in some sense) and mid-Holocene mean values for individual proxies seems to me to be perhaps the most critical information for estimating the difference between modern and mid-Holocene temperatures, but, in effect, Marcott et al threw out this information by centering all data on the mid-Holocene.</p>
+<p>Having thrown out this information, they then have to link their weighted average series to modern temperatures. They did this by a second re-centering, this time adjusting the mean of their reconstruction over 500-1450 to the mean of one of the Mann variations over 500-1450. (There are a number of potential choices for this re-centering, not all of which yield the same rhetorical impression, as Jean S has already observed.) That the level of the Marcott reconstruction should match the level of the Mann reconstruction over 500-1450 proves nothing: they match by construction.</p>
+<p>The graphic shown above &#8211; by itself &#8211; shows that something is &#8220;wrong&#8221; in their estimation of uncertainty &#8211; as CA readers had surmised almost immediately.  People like Marcott are far too quick to presume that &#8220;proxies&#8221; are a signal plus <strong>simple</strong> noise. But that&#8217;s not what one actually encounters: the difficulty in the field is that proxies all too often give inconsistent information. Assessing realistic uncertainties in the presence of inconsistent information is a very non-trivial statistical problem &#8211; one that Marcott et al, having taken a wrong turn somewhere, did not even begin to deal with. </p>
+<p>I&#8217;m a bit tired of ad hoc and homemade methodologies being advanced by non-specialists in important journals without being established in applied statistical journals.  We&#8217;ve seen this with the Mannian corpus. Marcott et al make matters worse by failing to publish the code for their novel methodology so that interested readers can quickly and efficiently see what they did, rather than try to guess at what they did. </p>
+<p>While assembling Holocene proxies on a consistent basis seems a useful bit of clerical work, I see no purpose in publishing an uncertainty methodology that contains such an obvious bogus artifact as the mid-Holocene dimple shown above.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/climateaudit.wordpress.com/17584/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/climateaudit.wordpress.com/17584/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=climateaudit.org&#038;blog=1501837&#038;post=17584&#038;subd=climateaudit&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>http://climateaudit.org/2013/04/07/marcotts-dimple-a-centering-artifact/feed/</wfw:commentRss>
+		<slash:comments>198</slash:comments>
+	
+		<media:content url="http://1.gravatar.com/avatar/7c39665ed80f29aa88a4313b7bc9b877?s=96&#38;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#38;r=G" medium="image">
+			<media:title type="html">stevemcintyre</media:title>
+		</media:content>
+
+		<media:content url="http://climateaudit.files.wordpress.com/2013/03/uncertainty.png" medium="image">
+			<media:title type="html">uncertainty</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

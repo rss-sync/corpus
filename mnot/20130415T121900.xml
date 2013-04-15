@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>mnot’s blog</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/" />
+    <link rel="self" type="application/atom+xml" href="http://www.mnot.net/blog/index.atom" />
+    <id>tag:www.mnot.net,2010-11-11:/blog//1</id>
+    <updated>2013-01-19T23:38:27Z</updated>
+    <subtitle>&#8220;Design depends largely on constraints.&#8221; &#8212; Charles Eames</subtitle>
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type 4.37</generator>
+
+<entry>
+    <title>A Short Note</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2013/01/20/aaron" />
+    <id>tag:www.mnot.net,2013:/blog//1.508</id>
+
+    <published>2013-01-19T23:38:23Z</published>
+    <updated>2013-01-19T23:38:27Z</updated>
+
+    <summary>In 2001, Charlie was born, and (understandably) we were freaking out a bit, having a new child and all. However, at about the same time, I met this really remarkable kid at the W3C, and I asked him what advice...</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="Personal" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>In 2001, Charlie was born, and (understandably) we were freaking out a bit, having a new child and all. However, at about the same time, I met this really remarkable kid at the W3C, and I asked him what advice he could give me, from his perspective.</p>
+<p>The response was that school was rubbish ;) and a recommendation for a book (which I still have, somewhere). Over the years, we e-mailed a bit, especially about RSS and some Web-related software that bounced between, and had lunch on occasion.</p>
+<p>I haven't talked much about Aaron or the resulting kerfuffle, except to say that I'll miss him. However, it was really hard this morning to explain what happened to Aaron to Charlie, maybe because I view him as just a tiny bit formative in how I raise my kids. I hope they have even a fraction of the spark, the curiosity and the determination that he had. And, that the world they grow up in is just a bit more like the one that he wanted to live in.</p>
+<p>[I thought about putting this on facebook to restrict the distribution to just friends, but upon reflection, that seemed just monstrously wrong.]</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Exploring Header Compression in HTTP/2.0</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2013/01/04/http2_header_compression" />
+    <id>tag:www.mnot.net,2013:/blog//1.507</id>
+
+    <published>2013-01-03T23:34:57Z</published>
+    <updated>2013-01-25T02:22:55Z</updated>
+
+    <summary>One of the major mechanisms proposed by SPDY for use in HTTP/2.0 is header compression.  This is motivated by a number of things, but heavy in the mix is the combination of having more and more requests in a page,...</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="HTTP" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Protocol Design" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>One of the major mechanisms proposed by SPDY for use in <a href="http://trac.tools.ietf.org/wg/httpbis/trac/wiki">HTTP/2.0</a> is<em> header compression</em>.  This is motivated by a number of things, but heavy in the mix is the combination of <a href="http://httparchive.org/trends.php#bytesTotal&amp;reqTotal">having more and more requests in a page</a>, and the increasing use of mobile, where every packet is, well, precious. </p>
+<p>Compressing headers (separately from message bodies) both reduces the overhead of additional requests and of introducing new headers. To illustrate this, <a href="http://lists.w3.org/Archives/Public/ietf-http-wg/2012JulSep/1096.html">Patrick put together a synthetic test</a> that showed that a set of 83 requests for assets on a page (very common these days) could be compressed down to just one round trip — a huge win (especially for mobile). You can also see the potential wins in the illustration that I used in <a href="https://speakerdeck.com/mnot/2-dot-0-will-star-do-for-you?slide=23">my Velocity Europe talk</a>.</p>
+<p>However, the <a href="http://www.imperialviolet.org/2012/09/21/crime.html">CRIME attack</a> made SPDY’s gzip-based compression a non-starter, at least for TLS-protected HTTP/2. So, a variety of folks have been proposing alternate compression schemes. </p>
+<p>To help evaluate them, I took Roberto’s test suite and tweaked it a bit to generalise it into a <a href="https://github.com/http2/compression-test">generic test harness</a>; by using the <a href="https://github.com/http2/http_samples">HAR samples</a> previously generated, we can get an idea of how each compressor behaves in semi-real conditions. </p>
+<p>It’s early days, but we already have a few candidates to compare:</p>
+<ul>
+<li><strong>http1</strong> - classic HTTP/1.1 textual encoding</li>
+<li><strong>spdy3</strong> - the gzip-based encoding proposed by SPDY. Note that it’s vulnerable to CRIME.</li>
+<li><strong>delta</strong> - Roberto’s <a href="http://tools.ietf.org/html/draft-rpeon-httpbis-header-compression">huffman-based delta encoding</a></li>
+<li>“<strong>simple</strong>” - Omitting headers repeated from the last message, tokenising common field names, and a few other tweaks. Otherwise, it looks like HTTP/1.</li>
+</ul>
+<p>I put “simple” in the mix just to demonstrate how to define a new compressor, and to exercise the system. It isn’t a serious proposal.</p>
+<p>When you run the tool, you get output that looks something like this:</p>
+<pre class="example">$ ./compare_compressors.py -c delta -c simple=seven -c spdy3 ~/Projects/http_samples/mnot/facebook.com.har
+  WARNING: spdy3 decompression not checked.
+* TOTAL: 117 req messages
+                          size  time | ratio min   max   std
+           http1        44,788  0.02 | 1.00  1.00  1.00  0.00
+           delta         7,835  0.43 | 0.17  0.02  0.70  0.07
+  simple (seven)        11,770  0.02 | 0.26  0.14  0.64  0.08
+           spdy3         6,191  0.00 | 0.14  0.06  0.68  0.06
+
+* TOTAL: 117 res messages
+                          size  time | ratio min   max   std
+           http1        43,088  0.00 | 1.00  1.00  1.00  0.00
+           delta        12,135  0.46 | 0.28  0.12  0.61  0.08
+  simple (seven)        14,010  0.07 | 0.33  0.16  0.63  0.10
+           spdy3         9,651  0.01 | 0.22  0.07  0.64  0.07</pre>
+<p>here, you can see how crazy efficient the gzip-based SPDY algorithm is, and how closely delta matches it; delta has an overall compression ratio of 17% of the raw HTTP1 size for requests, 28% for responses. Not bad.</p>
+<p>The “simple” algorithm, on the other hand, clocks in at 26% and 33%, respectively. On other samples, it hovers around somewhere between 25 and 40%.</p>
+<p>Another view that you can produce with the “-t” flag is a set of TSV files that are suitable for feeding in to a HTML+<a href="http://d3js.org">d3</a>-based visualisation, like this:</p>
+<p><img title="compressed_reqs.png" src="http://www.mnot.net/blog//compressed_reqs.png" alt="Compressed reqs" width="600" height="312" border="0" /></p>
+<p>Here, the y-axis is the size of the response, in bytes, and the x-axis is the series of messages (request or response) involved in navigating the site. See the <a href="http://http2.github.com/http_samples/mnot/">full set of graphs</a> for the current set of traces we have, showing the results for all of the algorithms explained above.</p>
+<h3>What’s Already Apparent</h3>
+<p>Like I said, it’s early days; we’re just developing the proposals, and the testbed itself is still rapidly changing (see below). However, looking at these early results, a few things are already becoming clear:</p>
+<p><strong>Sites vary greatly in terms of header size, as well as changing over their lifetime. </strong>Take a look at the full set of graphs and compare how consistent the <a href="http://http2.github.com/http_samples/mnot/#flickr.com%20Requests">Flickr request and responses</a> are over time, compared to the wild fluctuation of the <a href="http://http2.github.com/http_samples/mnot/#yahoo.com%20Requests">Yahoo results</a> (and notice the difference in scales!). See also the steady growth at the end of <a href="http://http2.github.com/http_samples/mnot/#yandex.com%20Requests">Yandex’s requests</a>.</p>
+<p><strong>HTTP headers are indeed massively redundant</strong>. The “simple” algorithm isn’t a serious proposal, and it still manages to save somewhere around 65% of most messages; sometimes much more. This says that there are a lot of headers that just get mindlessly repeated on a connection. This is the low-hanging fruit; I think the question at hand is how much higher we reach, and what we trade off for it.</p>
+<p><strong>SPDY3’s compression is the one to beat for efficiency</strong>. This isn’t terribly surprising, because it’s essentially just gzip, and gzip is a proven algorithm.</p>
+<h3>How You Can Help</h3>
+<p>We’re having an interim meeting at the end of the month, and doubtless one of the major topics will be header compression. If you’d like to help, you can:</p>
+<p><strong>Submit some traces</strong> - right now, we have a set of traces I captured while navigating three or four times on a handful of popular Web sites. The Web is much bigger than this, obviously, so we need more traces. <a href="https://github.com/http2/http_samples">See the repository</a> to learn how.</p>
+<p><strong>Propose a compression algorithm</strong> - we have a  few, but there’s no reason you can’t add yours to the mix. Ideally this would involve writing an Internet-Draft, but there’s no reason you can’t <a href="https://github.com/http2/compression-test">fork the repository</a> and have a play.</p>
+<p><strong>Improve the code</strong> - I have a number of planned improvements; I’d like to get more meaningful numbers out of it, and make the stream of requests fed to the compressors to be more realistic (right now, it’s just blatting everything from the HAR straight in, as if they all used the same connection). <a href="https://github.com/http2/compression-test">Help with these</a> would be much appreciated; on the other hand, if you can help present the data more meaningfully, that would be great too. And, of course, <a href="https://github.com/http2/compression-test/issues">issue reports</a> are welcome.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>&quot;Why Don&apos;t You Just…&quot;</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2012/12/18/small_changes" />
+    <id>tag:www.mnot.net,2012:/blog//1.506</id>
+
+    <published>2012-12-18T00:06:17Z</published>
+    <updated>2012-12-18T00:06:20Z</updated>
+
+    <summary>A proposal by John Graham-Cumming is currently doing the rounds: HMURR (pronounced ‘hammer’) introduces a new pipelining mechanism with explicit identifiers used to match requests and responses sent on the same TCP connection so that out-of-order responses are possible. The current HTTP 1.1...</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="HTTP" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Protocol Design" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>A <a href="http://blog.jgc.org/2012/12/speeding-up-http-with-minimal-protocol.html">proposal by John Graham-Cumming</a> is currently doing the rounds:</p>
+<blockquote>
+<p>HMURR (pronounced ‘hammer’) introduces a new pipelining mechanism with explicit identifiers used to match requests and responses sent on the same TCP connection so that out-of-order responses are possible. The current HTTP 1.1 pipelining mechanism requires that responses be returned in the same order as requests are made (FIFO) which itself introduces a head-of-line blocking problem.</p>
+</blockquote>
+<p>This seems attractive at first glance; <em>rather than starting a whole new protocol, why not just incrementally improve an existing one</em>?</p>
+<p>It turns out that this isn’t the first time this has been suggested; Jeff Mogul proposed something similar more than ten years ago, with <a href="http://tools.ietf.org/html/draft-mogul-http-ooo">Support for out-of-order responses in HTTP</a>.</p>
+<p>What stopped Jeff, and what makes this current proposal difficult, is that “small” backwards-incompatible changes to deployed protocols tend to bring out a lot of heretofore-unseen bugs in deployed software.</p>
+<p>This is especially true when you change something as fundamental as the message parsing algorithm, or the underlying message exchange pattern of the protocol. </p>
+<p>For example, HTTP/1.1 added pipelining and the expect/100-continue pattern to HTTP/1.0, but neither was foreseen in that protocol. Support for pipelining in particular was indicated by the HTTP/1.1 version identifier; it should have signalled that was OK to pipeline.</p>
+<p>However, HTTP/1.0 implementers happily added other things (such as Cache-Control and chunked encoding) to support HTTP/1.1 as it evolved, but because these new “small” features involved some pretty fundamental architectural changes in those implementations, they weren’t nearly as well-supported. And, since some of those implementations weren’t expecting requests with pipelining or Expect headers, they behaved in strange and sometimes dangerous ways.</p>
+<p>In theory, you could introduce new features like this using existing signalling mechanisms in the protocol (such as the HTTP version, as John suggests, or the Connection and Transfer-Encoding headers). In practice, however, if you make something look like HTTP/1.x, someone will assume it is HTTP/1.x, and ignore the new model.</p>
+<p>This is why <a href="http://tools.ietf.org/html/draft-nottingham-http-pipeline">my proposal for improving pipelining</a> (which included a response identifier) isn’t going very far either. It’s why the <a href="http://tools.ietf.org/html/rfc6455">WebSockets work</a> bent over backwards to avoid any possibility of looking like HTTP on the wire. It's one of the things that makes our current discussion on <a href="http://trac.tools.ietf.org/wg/httpbis/trac/ticket/385">HTTP upgrade</a> so difficult.</p>
+<p>There are a few other reasons as to why this is a difficult approach; Patrick covers many of them in <a href="http://blog.jgc.org/2012/12/speeding-up-http-with-minimal-protocol.html#c5703739431744738432">his comments</a>, which are worth a read. </p>
+<p>Losing the textual nature of HTTP is indeed unfortunate, but so far, consensus seems to be that it’s worth it. At one of the recent meetings, an IETF grey beard (apologies, I forgot who) said that human readability (i.e., protocol-as-text) a nice-to-have, but that it shouldn’t be the deciding factor in protocol design; i.e., absent other arguments, make your protocol textual. So far, however, we have several good arguments for a binary protocol here, as Patrick covers.</p>
+<p>All of that said, it’s great that people are thinking about bringing alternate ways of achieving the goals of HTTP/2.0. I encourage John and everyone else to bring your ideas to <a href="http://trac.tools.ietf.org/wg/httpbis/trac/wiki">the Working Group</a>. For example, the idea of being able to update the status code as (or after) the message body is sent has already been brought up, and the reception seemed to be positive. </p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>HTTP Status: 101 Switching Protocols</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2012/12/07/http_status" />
+    <id>tag:www.mnot.net,2012:/blog//1.505</id>
+
+    <published>2012-12-07T00:58:26Z</published>
+    <updated>2012-12-07T00:58:29Z</updated>
+
+    <summary>The HTTPbis Working Group met in Atlanta last month; here’s how things are going. HTTP/1.1 We’re now out of Working Group Last Call on all of our “core” documents, so the editors are working through the issues that brought up....</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="HTTP" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>The HTTPbis Working Group <a href="http://tools.ietf.org/wg/httpbis/minutes?item=minutes-85-httpbis.html">met in Atlanta last month</a>; here’s how things are going.</p>
+<h3>HTTP/1.1</h3>
+<p>We’re now out of Working Group Last Call on all of our “core” documents, so the editors are working through <a href="http://trac.tools.ietf.org/wg/httpbis/trac/report/20">the issues that brought up</a>. As soon as that’s done, we’ll go to IETF Last Call, and hopefully soon after well have a number of new RFCs defining HTTP/1.1.</p>
+<p>Here, you can see the upswing in number of issues during our WGLC period:</p>
+<p><img title="Screen Shot 2012-12-07 at 11.35.24 AM.png" src="http://www.mnot.net/blog//Screen Shot 2012-12-07 at 11.35.24 AM.png" alt="Screen Shot 2012 12 07 at 11 35 24 AM" width="263" height="131" border="0" /></p>
+<p>To see for yourself, use the "work-in-progress" documents linked from <a href="http://trac.tools.ietf.org/wg/httpbis/trac/wiki">our home page</a>.</p>
+<p>As part of that process, I also spent some time updating the parts of the documents that detail changes from RFC2616, since this will be the easiest way for most developers to get an idea of what’s changed. See:</p>
+<ul>
+<li>part 1: <a href="https://svn.tools.ietf.org/svn/wg/httpbis/draft-ietf-httpbis/latest/p1-messaging.html#changes.from.rfc.2616">Messaging - Changes from RFC2616</a></li>
+<li>part 2: <a href="https://svn.tools.ietf.org/svn/wg/httpbis/draft-ietf-httpbis/latest/p2-semantics.html#changes.from.rfc.2616">Semantics - Changes from RFC2616</a></li>
+<li>part 4: <a href="https://svn.tools.ietf.org/svn/wg/httpbis/draft-ietf-httpbis/latest/p4-conditional.html#changes.from.rfc.2616">Conditional Requests - Changes from RFC2616</a></li>
+<li>part 5: <a href="https://svn.tools.ietf.org/svn/wg/httpbis/draft-ietf-httpbis/latest/p5-range.html#changes.from.rfc.2616">Range Requests - Changes from RFC2616</a></li>
+<li>part 6: <a href="https://svn.tools.ietf.org/svn/wg/httpbis/draft-ietf-httpbis/latest/p6-cache.html#changes.from.rfc.2616">Caching - Changes from RFC2616</a></li>
+<li>part 7: <a href="https://svn.tools.ietf.org/svn/wg/httpbis/draft-ietf-httpbis/latest/p7-auth.html#changes.from.rfc.2616">Authentication - Changes from RFC2616 and RFC2617</a></li>
+</ul>
+<p>Note that these lists are by no means complete, and they’ll likely change more before we publish.</p>
+<h3>HTTP/2.0</h3>
+<p>We also started work in earnest on HTTP/2.0, with initial discussions focusing on header compression and the upgrade mechanism. We now have a <a href="http://tools.ietf.org/html/draft-ietf-httpbis-http2-00">first draft</a> (which is just a straight copy of the SPDY document, to give us a decent basis for future diffs) and the beginnings of <a href="http://trac.tools.ietf.org/wg/httpbis/trac/report/21">an issue list</a>.</p>
+<p>The rough approach to upgrade being discussed is to use something like <a href="http://tools.ietf.org/html/draft-agl-tls-nextprotoneg">NPN</a> if the connection is using TLS; we’ve communicated that requirement to the <a href="http://datatracker.ietf.org/wg/tls/charter/">TLS Working Group</a>, and they have decided (with a little nudging from their AD ;) to begin work on that. Note that NPN is just one proposal in this space.</p>
+<p>If TLS isn’t being used, we’re looking at using HTTP upgrade as a base; see <a href="http://tools.ietf.org/html/draft-montenegro-httpbis-http2-negotiation">Gabriel and Willy’s draft</a> for a good description of the considerations around that. Furthermore, we want to be able to optimise it, potentially using a DNS record (see <a href="http://tools.ietf.org/html/draft-lear-httpbis-svcinfo-rr">Eliot’s new draft</a> for a proposal), and perhaps a header like SPDY’s Alternate-Protocol.</p>
+<p>For compression, we have a <a href="http://trac.tools.ietf.org/wg/httpbis/trac/wiki/HTTP2Compression">number of proposals</a> to replace zlib, since <a href="http://www.imperialviolet.org/2012/09/21/crime.html">CRIME took it off the table</a>. So far, the only one with an implementation is <a href="https://github.com/grmocg/SPDY-Specification/tree/gh-pages/example_code">Roberto’s</a>; we’d like to be able to do a bake-off and use a <a href="https://github.com/http2/http_samples">common set of sample headers</a> to compare them.</p>
+<p>To keep things moving, we’ve <a href="http://www.w3.org/mid/20121129165719.14481.9124.idtracker@ietfa.amsl.com">scheduled an interim meeting</a> for HTTP/2.0 issues in late January. If you’d like to come, please respond by the deadline; be aware, however, that this will be very much a working session.</p>
+<p>Finally, some people may be interested to know that we now have a <a href="https://twitter.com/http_2">http_2 twitter account</a> that will occasionally spout HTTP/2.0-related news; for those who want to track the effort without all of the details, it may be what you’re looking for.</p>
+<p>Here are a bunch of the HTTP-related folks having dinner in Atlanta at the conveniently in-hotel Trader Vic’s:</p>
+<p><img title="IMG_0887.jpg" src="http://www.mnot.net/blog//IMG_0887.jpg" alt="IMG 0887" width="600" height="129" border="0" /></p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Evolving HTTP APIs</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2012/12/04/api-evolution" />
+    <id>tag:www.mnot.net,2012:/blog//1.504</id>
+
+    <published>2012-12-04T07:25:27Z</published>
+    <updated>2012-12-04T12:06:53Z</updated>
+
+    <summary>One of the most vexing problems that still seems to be facing people when I talk to them about HTTP APIs is how to handle versioning and extensibility — i.e., how they evolve. I tend to think about this a...</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="HTTP" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Protocol Design" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Web Services" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>One of the most vexing problems that still seems to be facing people when I talk to them about HTTP APIs is how to handle versioning and extensibility — i.e., how they <em>evolve</em>.</p>
+<p>I tend to think about this a lot and talk to quite a few people about it, since I’m intimately familiar with the approaches to versioning that the HTTP protocol itself takes, and with the general attitude taken to it in the broader Internet architecture by the IETF.</p>
+<p>So, I was quite interested to come across Tom Preston-Werner’s effort to define <a href="http://semver.org/">Semantic Versioning</a>. If you haven’t seen it yet, go have a read; it’s a very sensible explanation of how to evolve software.</p>
+<p>Let’s apply his “Firetruck” example to services. If you depend on a Ladder service, you have many of the same concerns; you need an instance of it that supports the semantics you understand (major version) and the additional features that you need on top (the minor version). You might also be interested in the patch level, in case you need to do some debugging.</p>
+<p>The interesting, confusing and contentious part of applying this common sense to HTTP services is figuring out <strong>what you’re versioning</strong>, and<strong> how to communicate the version</strong>. </p>
+<p>One viewpoint is to say that the service is being versioned, the service is identified by the URL, and therefore the version goes in the URL, like this:</p>
+<pre class="example">http://api.example.com/v1.2.3/ladder</pre>
+<p>However, there are (at least) two issues to consider with this approach.</p>
+<p>First of all, it’s coarse-grained, in that you can’t evolve parts of the system independently. For example, introducing a new format for the “ladder” resource - by the rules, that means a minor version, which means that the URL should now become:</p>
+<pre class="example">http://api.example.com/v1.3.0/ladder</pre>
+<p>which, as discussed previously in the <a href="http://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown">API Versioning Smackdown</a>, creates a whole new tree of resources, and tightly couples the client and server.</p>
+<p>While that may be fine if you have a very simple API with no interdependencies — such as serving a bunch of JavaScript, <a href="http://www.nczonline.net/blog/2011/02/22/the-importance-of-being-versioned/">as Nicholas Zakas describes</a> — it will quickly become a huge headache for testing, support and operations if you have to support all of the combinations of possible resources and their interactions in a more complex one.</p>
+<p>Second, it’s also intermingling the version into identifiers. Because URIs are used in the Web as the fundamental identifier by so many things — caches, spiders, forms, and so on — embedding information that’s likely to change into them make them unstable, thereby reducing their value. For example, a cache invalidates content associated with a URL when a POST request flows through it; if the URL is different because there are different versions floating around, it doesn’t work.</p>
+<p>This is actually very similar to the discussion about <a href="http://tools.ietf.org/html/rfc6648">X- and names</a> for HTTP headers; putting a flag into the name to signify “experimental” doesn’t make much sense when the experiment ends and it gets used “for real.”</p>
+<h3>Suggested Practices</h3>
+<p>With that in mind, what should HTTP APIs do? My current thinking (based on the thinking of a lot of other people ;) is below.</p>
+<h4>Keep Compatible Changes Out of Names</h4>
+<p>As per above, names should be stable over time, and should identify a known set of semantics — corresponding to the major version number in Semantic Versioning. By “names,” I mean everything that’s used as an identifier, whether it’s a URL, a media type, a link relation name, HTTP header, whatever.</p>
+<p>From what I see, most HTTP APIs are already moving in this direction, with structures like this:</p>
+<pre class="example">http://api.example.com/v2/ladder</pre>
+<p>Here, only the major version number is put in the URL; the minor and patch versions don’t go in, because backwards-compatible changes don’t need to be signified by changes in the name. Of course, it’d be equally valid to do:</p>
+<pre class="example">http://api2.example.com/ladder</pre>
+<p>because the hostname is just as much an identifier as anything else.</p>
+<p>Even with this approach, it’s worth noting that letting clients <strong>infer</strong> that it’s a v2 API just from that path segment is a dodgy thing to do; however, the deeper reasons for this are the subject of a different blog post.</p>
+<p>Likewise, minor and patch versions shouldn’t go into other names, such as media types or link relations. There is a train of thought that you don’t need to have numeric major versions at all, since you can call the first one “foo” and the second one “bar” — but that’s just a matter of taste.</p>
+<h4>Avoid New Major Versions</h4>
+<p>This is also pretty widely agreed to. Every time you release a new major version, people have to look at it, understand it, write new software to it, debug it, and so on. This is a huge investment on both sides, since you also have to support two (or more) major versions concurrently for some sort of sunset period. </p>
+<p>So, new major versions should be few and far between. In a perfect world, there would be none, but the reality is that every once in a while, you need to clean up a messy API or otherwise make breaking changes. Just make them last as long as you can. </p>
+<h4>Make Changes Backwards-Compatible</h4>
+<p>The biggest way to avoid new major versions is to make as many of your changes backwards-compatible as possible. </p>
+<p>For example, if you want to add support for a new HTTP method, or add a new resource to the mix, this doesn’t necessitate a new version. Likewise, adding support for a new format can be achieved through the miracle of content negotiation. Need to change the meaning of an existing query argument? Don’t — instead, introduce a new one.</p>
+<p>Surprisingly, removing support for something can be considered backwards-compatible too. Think about it; if you remove support for, say, the “foo” resource and return a 410 Gone, clients will break. However, it will only break those clients that use it; those that don’t can still smoothly interoperate. Introducing a new major version to say “I don’t support the foo resource” effectively breaks <em>everybody</em>, so it doesn’t do any good.</p>
+<p>That naturally leads to…</p>
+<h4>Think about Forwards-Compatibility</h4>
+<p>Fundamentally, evolution is about figuring out how to limit the breakage that your changes incurs on clients. As such, you need to place some sorts of expectations and boundaries on how your clients should behave when they encounter certain circumstances. </p>
+<p>In other words, if a client is hardcoded to only work when “foo” is there, “foo” will always have to be there to avoid breaking it. More subtly, if clients don’t expect an extra HTTP header, or an extra member on a JSON object, that can cause problems too, and restrict your options down the road.</p>
+<p>Expressing these expectations clearly is something we as an industry needs to get a lot better about. Unlike Web browsers — which are extremely forgiving of unexpected input — most API clients are incredibly brittle. </p>
+<p>For example, XML Schema got this pretty fundamentally wrong, making it very difficult to express a forwards-compatible schema (in 1.0). JSON is better, mostly because implementations are tied pretty closely to dynamic programming language data structures, rather than a schema language.</p>
+<p>That’s not to say that you want everything to be extensible. Sometimes it’s a good idea to explicitly NOT allow forward compatibility. For example, in the <a href="http://tools.ietf.org/html/draft-ietf-appsawg-json-patch">JSON Patch</a> format, we realised that any extensions were likely to be a fundamental change in the document semantics, thus requiring a new major version (in this case, identifying it with a new media type). After all, an old client that doesn’t respect a new patch operation is going to come up with a different result than the new one that does understand it. So, we disallowed most extensions in that format.</p>
+<p>The trick is to think about it and document your expectations carefully — whether you’re designing a format, a link relation type, or a HTTP header. Tell clients to expect and handle (as gracefully as they can) responses like 410 Gone, 405 Method Not Allowed, and 415 Unsupported Media Type.</p>
+<h4>Version at Appropriate Granularities</h4>
+<p>Going back to the example above:</p>
+<pre class="example">http://api.example.com/v2/ladder</pre>
+<p>a natural question to ask is “what is that ‘v2’ versioning?”</p>
+<p>To me, the most natural reading is that it’s a <em>collection of resources that represents a set of functionality</em>,  hierarchical URLs have collection semantics, by putting them under a single path segment (“directory”).</p>
+<p>This is an important distinction; v2 is identifying NOT just the ladder, but the whole interface, as a collection of resources (i.e., everything under that “v2”) that works together.</p>
+<p>Another conversation that I have sometimes is about how to relate format changes to API versions. In short, they should be completely separate; formats can have lives of their own, and to get the most value out of them, they should do so. It’s fine to say “Version 2 of the API requires the foo resource to support version 5 of the bar format,” of course.</p>
+<h4>Make Minor and Patch Information Discoverable</h4>
+<p>There are legitimate needs for minor and patch information; just because we say “don’t put them into names” doesn’t mean that they shouldn’t exist. However, I am fairly skeptical that they do much good “on the wire” as they are.</p>
+<p>For example, consider our Ladder service, version 1.2.3. Maybe we added support for a new HTTP method in version 1.2, and fixed a few bugs in patch level 3.</p>
+<p>A self-describing service will make it completely evident (e.g., using the Allow response header) that the new method is supported; if it needs to be known about ahead of time (for example, to reflect it in a UI), you can advertise support for that method directly (e.g., with something like <a href="http://tools.ietf.org/html/draft-nottingham-json-home">this embryonic mechanism</a>).</p>
+<p>Tying this information up in a version number only makes the client go and look up a chart of version numbers to see whether the feature they want is supported by the given version; instead, if they can directly interrogate the interface to see if it supports the fancy new “ladder cover” feature (or whatever), it’s a lot more flexible and useful. The same goes for new resources, new formats, and so on.</p>
+<p>Aside from that, using linear, numeric minor versions for negotiating new features is really, really limiting; <a href="http://www.mnot.net/blog/2012/06/25/http_api_complexity_model">complex APIs</a> will find this especially impractical.</p>
+<p>So, where should the minor and patch version numbers go? Easy — it’s useful for the release notes, and a few other forms of documentation. It’s useful for marketing. In the case of a more complex API (as with most standards — whether they come out of a standards body or an open source project), it’s useful for packaging up an agreed-to set of functionality and calling that a spec release.</p>
+<p>Mind you, there’s a strong case for including this information about the <em>implementation</em> of the API — server or client side — but that goes in the Server or User-Agent header respectively, and is completely separate from API versioning (i.e., you might have version 0.2.1 of the client accessing version 3.2.3 of the server’s implementation of the API, which itself might have a version of 1.0.3).</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>OPTIONS is Not the Method You&apos;re Looking For</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2012/10/29/NO_OPTIONS" />
+    <id>tag:www.mnot.net,2012:/blog//1.503</id>
+
+    <published>2012-10-29T00:48:34Z</published>
+    <updated>2012-10-29T00:48:38Z</updated>
+
+    <summary>Once in a while, people ask me whether they should use the OPTIONS HTTP method, and whether we should try to define formats for discovering resource capabilities with it. I usually say “no.” This is a personal position, nothing “official”....</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="HTTP" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Protocol Design" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>Once in a while, people ask me whether they should use the <a href="http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-21#section-5.3.7">OPTIONS</a> HTTP method, and whether we should try to define formats for discovering resource capabilities with it.</p>
+<p>I usually say “no.” This is a personal position, nothing “official”. That said, the conversation usually goes like this:</p>
+<h4>What’s Wrong with OPTIONS?</h4>
+<p>A few things. First and foremost, it can’t be cached. Usually, people want to use OPTIONS to discover some metadata about the server (the “OPTIONS *” case) or a specific resource (e.g.’, “OPTIONS /foo”), and they need some way to keep that state “fresh” on the client, so that it can be used throughout the interaction. To make OPTIONS work well, you’d be forced to design your own caching model — silly when HTTP already has one.</p>
+<p>Likewise, you can’t easily work with OPTIONS in a browser; there isn’t a link for the OPTIONS representation, so you need to have a different way to talk about it. This is because it effectively creates a separate, alternate “silent” representation for a resource.</p>
+<p>Finally, for better or worse, it’s still <a href="http://www.mnot.net/blog/2005/04/03/options">difficult to use OPTIONS</a> with many implementations, both client and server.</p>
+<h4>Why is <a href="http://trac.tools.ietf.org/wg/httpbis/trac/wiki">HTTPbis</a> leaving OPTIONS in, then?</h4>
+<p>OPTIONS is used out there (e.g. by WebDAV, and unfortunately, CORS too), so we can’t just remove it. There are also some very specific cases where it might be appropriate; e.g., a browser <a href="http://www.w3.org/mid/5089E729.9050801@treenet.co.nz">discovering a proxy’s capabilities</a> (in conjunction with max-forwards).</p>
+<h4>What should I use instead?</h4>
+<p>For server-wide metadata, have a look at creating a <a href="http://tools.ietf.org/html/rfc5785">well-known URI</a>, or using an <a href="http://www.iana.org/assignments/well-known-uris/well-known-uris.xml">already existing one</a> if it’s appropriate. This gives you an easy, unambiguous way to link to the site metadata, and it’s cacheable to boot. </p>
+<p>Instead of OPTIONS on a specific resource, try using a <a href="http://tools.ietf.org/html/rfc5988">Link header</a> on its responses, or a link in the representation format for that resource; by linking to the metadata for the resource, you give it identity, making it cacheable and linkable. For example, a response for /foo could point to its metadata with:</p>
+<pre class="example">Link: &lt;/foo.md&gt;; rel="describedby"</pre>
+<p>Here, it’s important to use an appropriate link relation type; “describedby” is often appropriate here, but have a look at the <a href="http://www.iana.org/assignments/link-relations/link-relations.xml">registry</a> first. If someone wants to discover a resource's capabilities before they interact with it, they can use HEAD.</p>
+<p>Finally, if there’s a deterministic mapping for looking up metadata for resources on your server, you might consider putting a <a href="http://tools.ietf.org/html/rfc6570">URI Template</a> into a well-known location, so that clients know where to find it without any per-request overhead. This is the approach that <a href="http://tools.ietf.org/html/rfc6415">hostmeta</a> effectively takes.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Production Notes</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2012/10/28/production_notes" />
+    <id>tag:www.mnot.net,2012:/blog//1.502</id>
+
+    <published>2012-10-28T06:20:33Z</published>
+    <updated>2012-10-28T06:20:37Z</updated>
+
+    <summary>I’ve (finally) moved this server to another Rackspace cloud server; same (small) size, but with a fresh OS. In the process, I’ve also changed the way I bring the box up into a known state from using shell scripts to Ansible...</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="Personal" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>I’ve (finally) moved this server to another <a href="http://www.rackspace.com/cloud/public/servers/">Rackspace cloud server</a>; same (small) size, but with a fresh OS.</p>
+<p>In the process, I’ve also changed the way I bring the box up into a known state from using shell scripts to <a href="http://ansible.cc">Ansible</a> (after an unsuccessful dalliance with Puppet). </p>
+<p>So, if you have any problems with <a href="http://www.mnot.net/">mnot.net</a>, <a href="http://redbot.org/">redbot.org</a> or <a href="http://isitrestful.com/">isitrestful.com</a>, please drop me a line. The only noticeable change should be that Twitter sign-in to this blog now works, thanks to <a href="https://twitter.com/mthacks/status/260866436518510592">Mark Carey</a>.</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Caching POST</title>
+    <link rel="alternate" type="text/html" href="http://www.mnot.net/blog/2012/09/24/caching_POST" />
+    <id>tag:www.mnot.net,2012:/blog//1.501</id>
+
+    <published>2012-09-23T16:04:07Z</published>
+    <updated>2012-09-24T03:14:58Z</updated>
+
+    <summary>One of the changes in Apple&apos;s release of iOS6 last week was a surprising new ability to cache POST responses. Lots has been said about this, but some people reading RFC2616 have come away scratching their head about whether this...</summary>
+    <author>
+        <name>Mark Nottingham</name>
+        <uri>http://www.mnot.net/</uri>
+    </author>
+    
+        <category term="Caching" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="HTTP" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="en" xml:base="http://www.mnot.net/blog/">
+        <![CDATA[<p>One of the changes in <a href="http://www.apple.com/ios/">Apple's release of iOS6</a> last week was <a href="http://stackoverflow.com/questions/12506897/is-safari-on-ios-6-caching-ajax-results">a surprising new ability to cache POST responses</a>.</p>
+<p><a href="http://arstechnica.com/apple/2012/09/developers-claim-safari-in-ios-6-breaks-web-apps-with-aggressive-caching/">Lots has been said</a> about this, but some people reading RFC2616 have come away scratching their head about whether this is actually a bug or not.</p>
+<p>The HTTP spec says <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.5">this about POST</a>:</p>
+<blockquote class="spec">
+<p>Responses to this method are not cacheable, unless the response includes appropriate Cache-Control or Expires header fields. </p>
+</blockquote>
+<p>Which, on the face of it, seems to say that a response to a POST <em>can</em> be cached.</p>
+<p>In fact, that is true, but how you're allowed to subsequently use it is another matter that (unfortunately) 2616 is pretty obtuse about getting across.</p>
+<p>The first clue is <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html#sec13.11">here</a>:</p>
+<blockquote class="spec">
+<p>All methods that might be expected to cause modifications to the origin server's resources MUST be written through to the origin server. This currently includes all methods except for GET and HEAD. A cache MUST NOT reply to such a request from a client before having transmitted the request to the inbound server, and having received a corresponding response from the inbound server. </p>
+</blockquote>
+<p>So, POST always has to be sent all the way to the origin server, no exceptions, even if you have a cache.</p>
+<p>Second, the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.5">definition of POST</a> hints that caching the response isn't terribly useful in terms of reusing it for future requests, because:</p>
+<blockquote class="spec">
+<p>The actual function performed by the POST method is determined by the server and is usually dependent on the Request-URI. [...] The action performed by the POST method might not result in a resource that can be identified by a URI. In this case, either 200 (OK) or 204 (No Content) is the appropriate response status, depending on whether or not the response includes an entity that describes the result.</p>
+</blockquote>
+<p>Finally, if you try to cache a POST for reuse for future POSTs, you quickly realise that the request body needs to be part of the cache key -- something that <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html#sec13">2616's caching section</a> is completely silent about. That's because, to the authors at the time, it was obvious that a HTTP cache can only be a GET cache -- i.e., it can only store representations of the server's state, and POSTs don't deal in representations of identified state, 99 times out of 100.</p>
+<p>However, there is one case where it does; when the server goes out of its way to say that this POST response is a representation of its URI, by setting a Content-Location header that's the same as the request URI. When that happens, the POST response is just like a GET response to the same URI; it can be cached and reused -- but <strong>only for future GET requests</strong>.</p>
+<p>When we rewrote the caching section in <a href="http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-20#section-2.3.4">HTTPbis</a> (the revision to clarify HTTP/1.1 currently finishing up in the IETF, which I chair), we've ended up with a much <a href="http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-20#section-2.3.4">more straightforward way to say it</a>:</p>
+<blockquote class="spec">
+<p>Responses to POST requests are only cacheable when they include explicit freshness information (see Section 4.1.1 of [Part6]). A cached POST response with a Content-Location header field (see Section 9.8) whose value is the effective Request URI MAY be used to satisfy subsequent GET and HEAD requests.</p>
+<p>Note that POST caching is not widely implemented.</p>
+</blockquote>
+<p>This is based upon the logic above, along with the recollections and insights of some of the folks who were there at the beginning, especially <a href="http://roy.gbiv.com">Roy Fielding</a>, as well as cache implementers like <a href="http://www.henriknordstrom.se">Henrik Nordström</a> from <a href="http://www.squid-cache.org">Squid</a>. </p>
+<p>So, POST caching is possible, but it's only useful in a very narrow way -- when you want to use the result of the POST to serve future GETs for the same URI. And, as the spec says, it's not commonly implemented. See Subbu's <a href="http://www.subbu.org/blog/2008/11/post-caching-example">example and links to discussion</a> at the time for more information.</p>
+<p>Back to Apple: even without the benefit of this context, they're still clearly violating the spec; the original permission to cache in 2616 was contingent upon there being explicit freshness information (basically, Expires or Cache-Control: max-age).</p>
+<p>So, it's a bug. Unfortunately, it's one that will make people trust caches even less, which is bad for the Web. Hopefully, they'll do a quick fix before developers feel they need to work around this for the next five years.</p>]]>
+        
+    </content>
+</entry>
+
+</feed>
