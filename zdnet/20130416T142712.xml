@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:s="http://www.zdnet.com/search" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <link>http://www.zdnet.com/</link>
+    <title>Latest Blog for ZDNet</title>
+    <description>Latest Blog for ZDNet</description>
+    <language>en</language>
+    <copyright>ZDNet</copyright>
+    <managingEditor>customerservice@zdnet.com (ZDNet Customer Services)</managingEditor>
+    <webMaster>uk-engineering@cbsinteractive.com (ZDNet Webmaster)</webMaster>
+    <pubDate>Tue, 16 Apr 2013 15:27:12 +0100</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2013 15:27:12 +0100</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <ttl>2</ttl>
+    <image>
+      <url>http://i.zdnet.com/images/spry/zdnet_300x300.jpg</url>
+      <link>http://www.zdnet.com/</link>
+      <title>Latest Blog for ZDNet</title>
+      <width>143</width>
+      <height>39</height>
+    </image>
+    <s:counts>
+      <start>0</start>
+      <return>20</return>
+      <found>42199</found>
+    </s:counts>
+    <item>
+      <guid isPermaLink="false">7000014079</guid>
+      <link><![CDATA[http://www.zdnet.com/10-things-about-google-glass-could-this-be-googles-ipad-7000014079/]]></link>
+      <title><![CDATA[10 things about Google Glass: Could this be Google's iPad?]]></title>
+      <description><![CDATA[Here are 10 things to know about the Google Glass program for developers, consumers, businesses and everyone interested in the search giant's next big thing.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 12:47:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Larry Dignan]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-bring-your-own-device/">Bring Your Own Device</category>
+      <media:text type="html"><![CDATA[<p>Google has officially released specifications and application programming interfaces for its Glass Explorer editions, a beta program designed to generate developer interest, apps, buzz and improvements for a broader rollout. Naturally, this Glass kickoff, which will probably ramp until Google I/O next month, brings a lot of documentation to digest.&nbsp;</p>
+<figure class="alignRight"><img title="googleglass2" alt="googleglass2" src="http://cdn-static.zdnet.com/i/r/story/70/00/014079/googleglass2-v2-200x166.png?hash=AJIxAJIvZw&upscale=1" height="166" width="200"></figure>
+<p>Here are 10 things to know about the Google Glass program for developers, consumers, businesses and everyone interested in the search giant's next big thing. Earlier:&nbsp;<a >Google publishes Glass' Mirror API preview for developers</a></p>
+<ul>
+<li>Glass apps will use Java and Python to write applications. According to Google's Mirror API, developers can use either language for <a >a quick start project</a>. The aim of the quick start is to create a Glass app and modify it. Play around, but first you'll need a Google App Engine instance.</li>
+<li>Google is keeping a lid on what developers can do. For now, Google's <a >developer terms of service</a> mean no advertisements in Glass clients, no data can be used for ads or data and you can't collect payments. Google Glass apps must use official Google distribution channels. The moves are the opposite of the Wild West ways of Android. On the surface, this makes sense. Why? Glasses are more personal from a device perspective. Google doesn't want any horror stories with Glass.</li>
+<li>Google Glass will be a big business, though. It's a bit hard to believe that Glass could not be a big business. Google has partnered with big-name venture capitalists, has an ad network that pays the bills and is going to get a treasure trove of data. Monetization will follow for sure.</li>
+<li>The devices will be controlled via an <a >Android app on Google Play</a>. This app will manage the glasses and configure them.</li>
+<li>Specifications for Google Glass are interesting. <a >Google will have 12 GB of usable memory</a> synced with Google cloud storage and 16GB Flash memory total. Battery should last a full day, but an app like Google Hangouts, which will probably be popular, will drain the charge.</li>
+<li>You can't resell Google Glass. Google specifically notes that you can give them as a gift, but there will be no <a >black market for them</a>. I give that five minutes once Google Glass actually ships.</li>
+<li>Consumer Google accounts can be connected to Google Glass. No corporate connections yet. The real interesting connection for enterprises would be service-oriented businesses and Google Glass. For now, Google Glass is all about individual accounts. Google Apps access will certainly follow at some point.</li>
+<li>The business implications for Google Glass will appear later. Google Glass could become a productivity tool. Presentations, location data, sales information and real-time information on the go could be handy. You could also picture a person on an oil rig giving a real-time, real-world view of a product to a manager in Dubai.</li>
+<li>Google Glass is an ecosystem play. The connections to other Google services are everywhere you turn with Google Glass. Glass really is a Web application in many respects. You're tied into Google's cloud and data more than ever. That reality is likely to cause a few privacy concerns.</li>
+<li>With the Google Glass program, the search giant could finally become the hardware player it wants to be. Forget the Chromebook. Motorola Mobility? Chromebox? Nexus devices? Also let's stop pretending smart watches will matter. Google's hardware efforts are really just a warm-up act to Google Glass. If successful —&nbsp;and Google has the ecosystem, buzz and resources to stick with it —&nbsp;Glass will be the first original hardware made by the search giant that can capture the public's imagination. Google Glass could be Google's iPad or iPhone.</li>
+</ul>
+<figure><img title="googleapi1" alt="googleapi1" src="http://cdn-static.zdnet.com/i/r/story/70/00/014079/googleapi1-v1-620x219.png?hash=AGHlMGqvZw&upscale=1" height="219" width="620"></figure>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014078</guid>
+      <link><![CDATA[http://www.zdnet.com/vmware-canonical-team-up-on-openstack-7000014078/]]></link>
+      <title><![CDATA[VMware, Canonical team up on OpenStack]]></title>
+      <description><![CDATA[The two firms agree to bring together Canonical's Ubuntu Cloud platform, the most common and widely used OpenStack distribution, with VMware's technologies.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 12:28:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Zack Whittaker]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-vmware/">VMware</category>
+      <media:text type="html"><![CDATA[<p>Canonical and VMware announced today a collaborative partnership that will allow organizations to deploy VMware software and technologies with Canonical's OpenStack distribution.</p>
+<!-- Parsed pinbox:"10118144" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/ibm-takes-cloud-software-services-to-openstack-7000012108/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/story/61/22/000561/ibm-220x165.jpg?hash=Awx4Z2HlZm&upscale=1" alt="IBM takes cloud software, services to OpenStack" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/ibm-takes-cloud-software-services-to-openstack-7000012108/">IBM takes cloud software, services to OpenStack</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/ibm-takes-cloud-software-services-to-openstack-7000012108/">Read more</a></li></ul></div>
+<p>In <a href="http://ir.vmware.com/releasedetail.cfm?ReleaseID=756729">a statement today</a>, the two companies said that in collaborating on this agreement, customers will have the flexibility to deploy and run efficient and reliable OpenStack clouds using the two sets of technologies.</p>
+<p>The OpenStack project is a series of open-source software and services designed for cloud computing services. IBM,&nbsp;Dell, HP, Seagate and Rackspace, among others, <a href="http://www.zdnet.com/ibm-takes-cloud-software-services-to-openstack-7000012108/">are just a few</a> of the 150 members supporting the OpenStack standards.</p>
+<p>Canonical's Ubuntu Cloud, described as one of the most widely used OpenStack distributions, will now include the plugins necessary to operate in conjunction with VMware technologies, such as vSphere or Vicira NVP.</p>
+<p>As part of the OpenStack "Grizzy" release earlier this month, VMware added supporting code to vSphere to support the OpenStack Compute project, known as "Nova."</p>
+<p>VMware said it "reaffirms its support of Ubuntu as a fully supported guest operating system" on vSphere.&nbsp;The Ubuntu operating system maker and the virtualization technology giant will collaborate on software testing, customer support and deployment automation.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014050</guid>
+      <link><![CDATA[http://www.zdnet.com/lots-of-new-functionalitylittle-elapsed-time-workday-and-adaptive-planning-updates-7000014050/]]></link>
+      <title><![CDATA[Lots of new functionality/little elapsed time: Workday and Adaptive Planning updates]]></title>
+      <description><![CDATA[In less than a year, Adaptive Planning built a fairly solid, complete consolidation tool and Workday created a mountain of new functionality for their new version 19 of their product. The scale of these releases is a testimony to how fast cloud solution providers can create lots of new capability. ]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 12:12:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Brian Sommer]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <media:text type="html"><![CDATA[<p >&nbsp;<strong>Workday and Adaptive Planning Updates</strong></p>
+<p>&nbsp;For those of you defending cloud application solutions (against the on-premises fan-boys), here’s another bullet for your ammo belt: <strong><em>Speed</em></strong>. When a multi-tenant cloud vendor only has to support and regression test one version of the software, rolling out new releases is expedited. When the products are built on a single, common product architecture, the rollout is again expedited. Simplicity and standardization of the product line and its environment gives many cloud vendors a pronounced advantage in the speedy delivery of new capabilities.</p>
+<p>Recently, I was briefed by both <a href="http://www.workday.com">Workday</a> and <a href="http://www.adaptiveplanning.com">Adaptive Planning</a>. The former was stepping me through the myriad enhancements to their Release 19 product available today. The latter was showcasing their all-new consolidation product.</p>
+<p>What is so impressive about both is the sheer volume of new product capabilities, features, etc. that each cloud solution provider can deliver.&nbsp; For example, Adaptive Planning built their entire consolidation product in less than a year. &nbsp;The regression testing of an on-premise product could consume a considerable amount of that time frame. And, for those of you inclined to skip the rest of the blog copy below, that product is pretty solid and correctly positioned for up-market, large multi-nationals.</p>
+<p>First, let’s cover Workday’s announcements. I will NOT try to recite all of the new capabilities but simply identify some of the more material ones that caught my eye.</p>
+<ul>
+<li><strong>Brainstorm Suggestions</strong> – &nbsp;Stan Swete indicated that this release incorporates some 67 items generated via users.</li>
+<li><strong>User fields</strong> – At last fall’s Workday user conference, Workday management announced the impending availability of this capability. To say the audience was overjoyed would be an understatement (Ulitmate Software has followed suit with this capability, too.). In release 19, the company expanded the number of objects with which users can extend with additional user defined fields. Some of the user-defined fields can be pre-populated via third party data sources.</li>
+<li><strong>Cross-field edits/rules</strong> for custom fields are now supported, too.</li>
+<li><strong>Custom labels</strong> – Now users can do global find/replace on field labels. For example, changing “Employee” to “Exalted Colleague” is done via a parameter change and is immediately reflected throughout the system.</li>
+<li><strong>HR enhancements </strong>– Workday’s Cloud Connect capability now also supports e-Verify capabilities. Some 274 benefits carriers now are part of the standard integration connection set. Additional Payroll and time tracking technologies are supported out of the box. Competencies can now be exported from the Workday HRMS while data from LMS (learning management systems) can now be imported into Workday.</li>
+<li><strong>HTML5 Adoption </strong>– The company continues its direct support for this mobile display standard. Workday now supports Android mobile devices. A new time entry capability exists for iPad and iPhone devices.&nbsp; This is part of a manager self-service app.</li>
+<li><strong>Financials enhancements </strong>– This aspect of the product line has been maturing rapidly in recent months. A beefier fixed assets capability in now available as are better analytics and controls.&nbsp; In a nod to the far-ranging penetration of shared services in many F&amp;A operations, Workday added a number of “On behalf of” capabilities to the product to better support shared services environments. I suspect this will be of interest to Finance &amp; Accounting BPO (business process outsourcing) firms, too.</li>
+</ul>
+<figure><img title="workday user fields history 04 2013" alt="workday user fields history 04 2013" src="http://cdn-static.zdnet.com/i/r/story/70/00/014050/workday-user-fields-history-04-2013-620x470.png?hash=AmVmZwWyBT&upscale=1" height="470" width="620"><figcaption>Graphic courtesy of Workday, Inc. - Used with permission</figcaption></figure>
+<p>&nbsp;</p>
+<p>Adaptive Planning’s announcements were very impressive, too. &nbsp;Let me back up first though to put matters in a better perspective. Originally, Adaptive Planning had a single product line that facilitated the creation of budgets. About a year ago, they acquired MyDials a cloud analytics provider that the company had teamed with frequently. Apparently, around the same time, they embarked on the creation of a new consolidation capability. That new consolidation solution was the focus of last week’s briefing.</p>
+<p>Consolidation software is something I’ve covered since the late 1980s.&nbsp; Who else would remember <a href="http://en.wikipedia.org/wiki/Consco">Consco</a>&nbsp; or IMRS (before it was renamed Hyperion who was then acquired by Oracle)? &nbsp;I’ve had countless conversations and briefings with Fortune 500 firms regarding how they’ll consolidate financial results from joint ventures, partially owned subsidiaries, operations with different functional currencies, sales agencies and commissionaires, etc. To do them well, one needs to understand intercompany accounting, foreign currency translations, etc. Consolidations are a sticky mess and not for the faint of heart.&nbsp; There’s a reason that few financial accounting software firms ever build a robust consolidation module.</p>
+<figure><img title="AP_consolidation_300dpi_2x1" alt="AP_consolidation_300dpi_2x1" src="http://cdn-static.zdnet.com/i/r/story/70/00/014050/apconsolidation300dpi2x1-620x594.png?hash=ZwWwZmR4Lz&upscale=1" height="594" width="620"><figcaption>Image courtesy of Adaptive Planning - Used with Permission</figcaption></figure>
+<p>&nbsp;</p>
+<p>Nonetheless, Adaptive Planning entered the breach and has produced a pretty solid product. I peppered the executives on the briefing call with questions intended to poke holes in the initial release. I must say that all I came away with was one shortcoming: the product currently only supports 12 accounting periods. Granted few firms need weekly or daily closings, so this isn’t really a show stopper for most companies except for financial institutions and some retailers. So, if your firm uses calendar or 4-4-5 accounting periods, you’re good to go.</p>
+<p>What helped Adaptive Planning get this product functional fast (besides the cloud architecture mentioned previously) was that many of the same rules and software that map a different chart of accounts from one subsidiary to an overall consolidated corporate chart of accounts for budgeting and planning were used in the creation of the consolidation tool. &nbsp;</p>
+<p>Other noteworthy points include:</p>
+<ul>
+<li>User Interface/Experience – The look, feel and navigation of this product, especially the displays re: intercompany accounting entries, is pretty nice.</li>
+<li>This solution is all cloud based – The product is designed to connect to all manner of cloud and on-premises financial accounting solutions. Pervasive’s integration software is used for many of the pre-supplied connections.</li>
+<li>Adjustments can be done to the consolidated or source books</li>
+<li>It is targeted for mid and large sized firms</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Bottom line for both firms</strong>: The amount of new functionality each firm released is impressive. Even more impressive is the very short time each firm took to develop the new capabilities. All of this is a testimony to what single architecture, cloud products can do. &nbsp;The lack of baggage that requires a lot of additional code and regression testing to make on-premises solutions viable is a drag on software development and the bottom line.</p>
+<p>&nbsp;</p>
+<p>Disclosure: Of the few tech stocks I own, I do have a small number of Workday shares.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014076</guid>
+      <link><![CDATA[http://www.zdnet.com/microsoft-goes-head-to-head-with-amazon-web-services-on-price-cloud-vms-7000014076/]]></link>
+      <title><![CDATA[Microsoft goes head-to-head with Amazon Web Services on price, cloud VMs]]></title>
+      <description><![CDATA[Microsoft is making generally available its Linux and Windows Server virtual machines, plus its Azure Virtual Network, both of which are key to making Azure competitive with Amazon Web Services.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 12:07:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Mary Jo Foley]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-amazon/">Amazon</category>
+      <category domain="http://www.zdnet.com/topic-linux/">Linux</category>
+      <category domain="http://www.zdnet.com/topic-microsoft/">Microsoft</category>
+      <category domain="http://www.zdnet.com/topic-windows-server/">Windows Server</category>
+      <media:text type="html"><![CDATA[<p>Microsoft wants the world to know it is ready to go head-to-head with Amazon Web Services on both features and price.</p>
+<p><a href="http://www.zdnet.com/microsoft-starts-making-more-of-its-azure-cloud-services-generally-available-7000013691/">As expected</a>, Microsoft announced on April 16 that its Linux and Windows Server virtual machines (VMs) on Windows Azure are now <a href="http://blogs.msdn.com/b/windowsazure/archive/2013/04/16/the-power-of-and.aspx">generally available and ready for deploymen</a>t. These are the<a href="http://www.zdnet.com/blog/microsoft/windows-azures-spring-fling-linux-comes-to-microsofts-cloud/12869"> persistent VMs that Microsoft publicly unveiled last June</a>, and which provide users with a way to run existing Linux and Windows Server apps in the Azure cloud without having to completely rewrite them.</p>
+<p><a href="http://www.zdnet.com/blog/microsoft/windows-azures-spring-fling-linux-comes-to-microsofts-cloud/12869">Microsoft announced last year</a> that these persistent VMs will allow users to run Windows Server 2008 R2, Windows Server 2012, OpenSUSE 12.1, CentOS 6.2, Ubuntu 12.04 and SUSE Linux Enterprise Server 11 SP2 and apps built on these Windows Server and Linux variants on Windows Azure.</p>
+<p>Today, <a href="http://blogs.msdn.com/b/windowsazure/archive/2013/04/16/the-power-of-and.aspx">officials added some new pieces to its Azure VM line-u</a>p, aimed at customers with highly demanding workloads. In addition, Microsoft is adding <a href="http://support.microsoft.com/kb/2721672">Microsoft-validated instances to its VM options</a> for common Windows applications that users may want to run on Azure, including SQL Server, SharePoint Server, BizTalk Server and Dynamics NAV.</p>
+<p>Microsoft also is making its <a href="http://www.zdnet.com/project-brooklyn-extending-an-enterprise-network-to-the-windows-azure-cloud-7000004083/">Azure Virtual Network technology (codenamed "Brooklyn")</a> generally available, as of April 16. Windows Azure Virtual&nbsp;Network is designed to allow business users to extend their networks by enabling secure site-to-site IPsec VPN connectivity between the Enterprise and Windows Azure. The idea is this will allow users to better connect their hybrid on-premises and cloud set-ups.</p>
+<p>On the pricing front, Microsoft also made an official commitment today to match Amazon Web Services on price for all "commodity" services, including compute, storage and bandwidth. As part of this pledge, Microsoft is reducing its general-availability pricing on VMs and cloud services by between 21 to 33 percent, officials said.</p>
+<p>To benefit from the cuts, users need to make monthly commitments to Azure for either six months or twelve months.</p>
+<figure><img title="azurecuts" alt="azurecuts" src="http://cdn-static.zdnet.com/i/r/story/70/00/014076/azurecuts-612x301.png?hash=ZGSyAwquMJ&upscale=1" height="301" width="612"></figure>
+<p>Just last week <a href="http://aws.typepad.com/aws/2013/04/prices-reduced-for-windows-on-demand-ec2-instances.html">Amazon announced its latest round of price cuts</a> on a number of its Amazon Web Services. <a href="http://www.zdnet.com/blog/btl/clouds-price-race-to-zero-microsoft-cuts-azure-pricing-eyes-amazon/71246">Microsoft and Amazon have been locked in a price-cut battle</a> in the cloud for months.</p>
+<p>Microsoft's new pricing will go into effect on June 1.&nbsp;</p>
+<p>Azure General Manager Bill Hilf said Microsoft is dropping prices of both its VMs and its platform-as-a-service as a whole. He said Microsoft won't be reacting to what Google does on the cloud pricing front because Google isn't really a full-service cloud player, despite announced intentions to play in both the IaaS and platform-as-a-service (PaaS) fronts.</p>
+<p>When I asked Hilf about the status of another of Microsoft's already announced cloud-networking technologies, Azure Connect, he said the company's plans for this have changed. Over time, Microsoft plans to fold the <a href="http://msdn.microsoft.com/en-us/library/windowsazure/gg432997.aspx">Azure Connect (codenamed "Sydney")</a> technology into Azure Virtal Network, he said.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014041</guid>
+      <link><![CDATA[http://www.zdnet.com/dell-introduces-latitude-3330-laptop-for-students-and-small-businesses-7000014041/]]></link>
+      <title><![CDATA[Dell introduces Latitude 3330 laptop for students and small businesses]]></title>
+      <description><![CDATA[The thin-and-light notebook offers Windows 8, Windows 7, and Ubuntu Linux OS options, and starts at $419.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 12:01:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Sean Portnoy]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-dell/">Dell</category>
+      <media:text type="html"><![CDATA[<figure><img title="dell-latitude-3330-laptop-notebook" alt="dell-latitude-3330-laptop-notebook" src="http://cdn-static.zdnet.com/i/r/story/70/00/014041/dell-latitude-3330-laptop-notebook-620x380.jpg?hash=AQL5MQuzMQ&upscale=1" height="380" width="620"></figure>
+<p>After scoring some success with<a href="http://www.zdnet.com/dell-latitude-10-essentials-and-project-ophelia-two-very-different-approaches-to-student-computing-7000009671/" target="_self"> its Latitude 10 Windows 8 tablet</a> in the education and business markets, Dell hopes to have a follow-up hit with its brand-new Latitude 3330 laptop.</p>
+<p>Being marketed to schools and small businesses, the new notebook starts at just $419, though it provides the usual array of upgrades that could send prices soaring. For instance, processor options range from the Intel Celeron&nbsp;1007U all the way to an Intel Ivy Bridge&nbsp;Core i5–3337U, and you can equip the Latitude 3330 with either 2GB, 4GB, or 6GB of RAM. Storage options include a 128GB solid-state drive, 320GB or 640GB hard drives, or a 500GB "hybrid" hard drive with a small amount of solid-state storage for quick startups.&nbsp;</p>
+<p>As with many systems that cater to non-consumer markets, the Latitude 3330 is offered with either Windows 8 or Windows 7 options for the OS, and continuing Dell's embrace of Linux, there's also an option for Ubuntu 12.04. The 13.3-inch screen has a resolution of&nbsp;1,366x768, and the anodized aluminium body&nbsp;is relatively light at 3.4 pounds with a 4-cell battery, and 3.9 pounds with a 6 cell battery.</p>
+<p>Dell is touting security and management features of&nbsp;the Latitude 3330, including support for&nbsp;Dell Data Protection | Encryption (starting this summer, but not available in all countries), which allows remote data encryption over multiple devices from a single console. You also get&nbsp;Trusted Platform Module v1.2 support, optional support for Bitlocker and Computrace, and Dell Data Protection | Access features (again, not available in all countries).&nbsp;</p>
+<p>Dell is also releasing an updated version of its&nbsp;Mobile Computing Cart, which is designed for classrooms and other environments where a large number of mobile devices need to be stored and updated. The cart can hold up to 30 tablets or laptops, which can be charged and remotely managed (as a more expensive option) via built-in power and Ethernet cables. The unmanaged version of the cart costs $1,899.99, while the managed version runs&nbsp;$2,799.99.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014075</guid>
+      <link><![CDATA[http://www.zdnet.com/microsofts-windows-8-plan-blue-bring-back-the-start-button-boot-to-desktop-7000014075/]]></link>
+      <title><![CDATA[Microsoft's Windows 8 Plan B(lue): Bring back the Start button, boot to desktop]]></title>
+      <description><![CDATA[Microsoft may be moving toward bringing back the Start Button and allowing users to boot straight to the desktop with its coming Windows 8.1 release later this year.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 11:07:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Mary Jo Foley]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-microsoft/">Microsoft</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <category domain="http://www.zdnet.com/topic-pcs/">PCs</category>
+      <category domain="http://www.zdnet.com/topic-windows-8-in-business/">Windows 8 in Business</category>
+      <media:text type="html"><![CDATA[<p>What if Microsoft relented and granted users who are lukewarm about Windows 8 two of their biggest requests: Allow those who want <a href="http://www.zdnet.com/microsoft-said-to-block-ability-to-boot-straight-to-desktop-in-windows-8-7000002219/">to boot straight to the desktop</a>, and bring back the Start button with<a href="http://www.zdnet.com/microsofts-windows-blue-looks-to-be-named-windows-8-1-7000013391/"> Windows Blue, a.k.a. Windows 8.1</a>?</p>
+<figure class="alignRight"><img title="startbutton" alt="startbutton" src="http://cdn-static.zdnet.com/i/r/story/70/00/014075/startbutton-200x194.png?hash=BQx4BJHlMG&upscale=1" height="194" width="200"></figure>
+<p>Though supposedly not part of the original plan for Blue, these two UI options are looking more likely.</p>
+<p><a href="http://www.neowin.net/news/will-windows-81-allow-users-to-boot-to-desktop">Reports from a couple of different forums</a> from this past weekend raised the possibility that Microsoft might be moving toward allowing users to skip booting into the Metro-Style Start menu and <a href="http://winforum.eu/Temat-Dyskusja-o-Windows-Blue?page=43">instead start their PCs in desktop mode</a>. (<a href="http://www.winbeta.org/news/microsoft-possibly-working-letting-user-disable-start-screen">Winbeta.org noted the thread about this</a> on April 14.)</p>
+<p>One of my sources confirmed this is now looking like the plan and added that Microsoft is also considering bringing back the Start button as an option with Windows Blue.</p>
+<p>It's not 100 percent sure that either/both of these options will be baked into the final Blue release, which is expected to be <a href="http://www.zdnet.com/microsofts-windows-blue-may-have-just-hit-milestone-1-7000011514/">released to manufacturing on or around August 2013</a>. I guess we'll have a better indication once the next milestone build, a.k.a. the Blue Preview, leaks —&nbsp;or when <a href="http://www.zdnet.com/microsofts-next-windows-blue-test-build-said-to-be-a-public-preview-7000011728/">the public version of that preview</a> goes live around June.</p>
+<p>"Until it ships, anything can change," said my source, who requested anonymity.</p>
+<p>Microsoft officials have publicly maintained that <a href="http://view.officeapps.live.com/op/view.aspx?src=http://www.microsoft.com/investor/downloads/events/JPMorganReller.docx">users are not confused by the new Windows 8 interface</a> and that they find it "easy to start to learn," especially on touch screens. I, myself, have adapted to the new UI well on my touch-screen Surface RT, but like a number of business users, I find the new UI more of a curse on non-touch-screen machines. As a result, I am still running Windows 7 on two of my three Windows devices.</p>
+<p>If Microsoft does end up adding the Start Button and boot to desktop options to Blue, it won't be the first time in recent history that the Windows client team has gone back and changed the Windows UI based on user dissatisfaction. Remember how users balked over the way Windows Vista first implemented User Account Control (UAC), <a href="http://arstechnica.com/security/2008/04/vistas-uac-security-prompt-was-designed-to-annoy-you/">the "most hated feature" in a hated OS release</a>? Microsoft ended up c<a href="http://www.crn.com/news/applications-os/213300664/microsoft-relents-will-change-windows-7-uac.htm">hanging direction with UAC in Windows 7</a>, based on beta tester outcry.</p>
+<p>What do you think? Would adding these two user-requested options soften resistance to Windows 8, especially among Microsoft's much-needed business user camp? Or would this be too little, too late?</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014039</guid>
+      <link><![CDATA[http://www.zdnet.com/viwo-stresses-integration-cloud-applications-approach-7000014039/]]></link>
+      <title><![CDATA[ViWo stresses integration cloud applications approach]]></title>
+      <description><![CDATA[The Los Angeles-based service broker has created a bundle that includes Google Apps, Zoho CRM and a custom-developed unified messaging and communications service.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 11:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Heather Clancy]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-channel/">Channel</category>
+      <media:text type="html"><![CDATA[<p>Los Angeles-based managed service provider <a href="http://www.viwoinc.com/">ViWo</a>&nbsp;has assisted close to 3,000 businesses with their cloud computing migrations.&nbsp;Its primary value proposition: an integrated Microsoft Exchange alternative based on Google Apps, Zoho CRM and its own unified communications service called <a >gUnify</a>.&nbsp;</p>
+<p>"People aren't going to pay money for mail services anymore," said Crisantos Hajibrahim, founder of ViWo, which is often called in for cloud consulting conversations as a company's on-premises software licenses are nearing expiration. "CRM components are essential for these solutions."</p>
+<p>The main drivers for ViWo customers are saving money and supporting mobile workforces, according to Hajibrahim. The latter motivation, in particular, is driving more companies to consider cloud-hosted VoIP services that integrate with Google Apps &mdash;&nbsp;a competitive approach to the one proposed by the Microsoft Lync solution, he said.</p>
+<p>That was the genesis for gUnify, a unified communications service offered by ViWo's sister company of the same name. The service, priced at $39.95 per user, per month:</p>
+<ul>
+<li>Google Apps for Business</li>
+<li>Cloud-hosted VoIP PBX services from Broadsoft</li>
+<li>An optional integrated voice response system</li>
+<li>Calling logging that can be tied to the Zoho, Apptivo, Clio or Salesforce CRM services</li>
+<li>Video to video calling</li>
+<li>Advanced routing</li>
+<li>Mobile integration</li>
+</ul>
+<p>ViWo's preferred CRM integration centers on Zoho, so gUnify was spun out so that it can be tied into solutions that focus on other cloud CRM services.</p>
+<p>Because many companies consider their cloud options on a last-minute basis, a large number of the migrations ViWo handles are relatively quick in IT terms. ViWo will handle many migrations, within four months, depending on whether they transfer off their existing solutions all at once or ease users into the cloud gradually.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014056</guid>
+      <link><![CDATA[http://www.zdnet.com/tax-refund-smartphone-buying-guide-gallery-7000014056/]]></link>
+      <title><![CDATA[Tax refund smartphone buying guide (gallery)]]></title>
+      <description><![CDATA[The average refund for US taxpayers this year is nearly $3,000. There are some fantastic smartphones available or coming soon that you can purchase with some of this refund as you can see in this gallery.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 11:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Matthew Miller]]></media:credit>
+      <s:doctype><![CDATA[Gallery]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-android/">Android</category>
+      <category domain="http://www.zdnet.com/topic-iphone/">iPhone</category>
+      <category domain="http://www.zdnet.com/topic-blackberry/">BlackBerry</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-windows-phone/">Windows Phone</category>
+      <media:text type="html"><![CDATA[<p>It has been a few years since I put together a <a href="http://www.zdnet.com/blog/cell-phones/tax-refund-special-smartphones/611">tax refund special</a>. Yesterday was tax day and with the current fantastic smartphone lineup, <a href="http://www.zdnet.com/t-mobiles-new-simple-choice-plans-cut-my-monthly-5-line-plan-by-80-7000013155/">changing carrier landscape</a>, and average tax refund in 2013 of around $3,000 it's time to look at what is available now or coming in the next few weeks.</p>
+<p>In the past it was easy to give a recommendation or two for each carrier, but we are now seeing more of the same phones appear across carriers so consumers have the best options available. I always tell people who ask me what phone to buy to first figure out which carrier or two works best for where they live, work, and play. After that, you can then look at what the carrier offers and choose the best phone.</p>
+<p>A couple of months ago, I posted my <a href="http://www.zdnet.com/top-10-smartphones-to-kick-off-2013-7000011398/">Top 10 smartphones to kick off 2013</a> article and since then I have had more time with many of these devices. The Samsung Galaxy S4 is not yet available, but will be by the time people submitting their tax forms yesterday will be receiving their refund.</p>
+<p>I wrote that the <a href="http://www.zdnet.com/the-htc-one-is-the-best-smartphone-i-have-ever-used-review-7000012793/">HTC One was the best smartphone I ever used</a>, that I think both <a href="http://www.zdnet.com/blackberry-htc-and-nokia-who-may-be-around-at-the-end-of-your-two-year-contract-7000013745/">BlackBerry and Nokia have solid phones</a> and strategies for success, that the <a href="http://www.zdnet.com/better-hardware-and-software-make-the-galaxy-note-ii-the-best-android-available-7000007095/">Samsung Galaxy Note II</a> was one of the best Android smartphones available, and that the <a href="http://www.zdnet.com/over-a-week-with-the-iphone-5-and-im-convinced-its-a-keeper-7000005095/">Apple iPhone 5</a> is a keeper.</p>
+<p>Check out the following images in my gallery showing my top picks for mid-April 2013, with the knowledge that announced devices are coming soon.</p>
+<h3>Related ZDNet coverage</h3>
+<ul>
+<li><a href="http://www.zdnet.com/top-10-smartphones-to-kick-off-2013_p3-7000011398/">Top 10 smartphones to kick off 2013</a></li>
+<li><a href="http://www.zdnet.com/the-htc-one-is-the-best-smartphone-i-have-ever-used-review-7000012793/">The HTC One is the best smartphone I have ever used (review)</a></li>
+<li><a href="http://www.zdnet.com/better-hardware-and-software-make-the-galaxy-note-ii-the-best-android-available-7000007095/">Better hardware and software make the Galaxy Note II the best Android available</a></li>
+<li><a href="http://www.zdnet.com/over-a-week-with-the-iphone-5-and-im-convinced-its-a-keeper-7000005095/">Over a week with the iPhone 5 and I'm convinced it's a keeper</a></li>
+<li><a href="http://www.zdnet.com/blackberry-htc-and-nokia-who-may-be-around-at-the-end-of-your-two-year-contract-7000013745/">BlackBerry, HTC, Nokia: Which will be around at the end of your two-year contract?</a></li>
+</ul><p>The <a href="http://www.samsung.com/global/microsite/galaxys4/">Samsung Galaxy S4</a> is called your Life Companion, thanks in large part to the wide assortment of software features Samsung includes.</p><p>The <a href="http://www.samsung.com/global/microsite/galaxynote/note2/index.html?type=find">Samsung Galaxy Note II</a> remains one of my best all-time Android devices and keeps stealing the SIM out of my One because it is such a capable device.</p><p>The <a href="http://www.apple.com/iphone/">Apple iPhone 5</a> remains my primary Verizon smartphone and even though it is nearly a year old it continues to be a great smartphone for the masses. Enthusiasts seem to be looking for larger displays and more features though.</p>
+<p>&nbsp;</p><p>The <a href="http://www.sonymobile.com/us/products/phones/xperia-z/">Xperia Z</a> is not yet out in the US, but there is so much in this Android phone that you have to at least consider it to be a top contender. CNET gave it a 4.5 out of 5 <a href="http://reviews.cnet.co.uk/mobile-phones/sony-xperia-z-review-50010121/">star review</a> too.</p><p>I keep using the <a href="http://www.nokia.com/us-en/phones/phone/lumia920/">Nokia Lumia 920</a> on AT&amp;T because I like Windows Phone 8, Nokia provides a ton of services, and the camera is top notch.</p><p>BlackBerry has a long road ahead, but after using the <a href="http://us.blackberry.com/smartphones/blackberry-z10/overview.html?IID=us:bb:desktop:homepage:Apr2013:hero:bb10-discovermore">BlackBerry Z10 </a>for over a month I am convinced they have what it takes to be fairly successful in the smartphone market.</p><p>Android purists like the <a href="http://www.google.com/nexus/4/">Nexus 4</a>, but without LTE and some other advanced features I don't rate it in my top 5.</p><p>Motorola makes solid Android devices, nearly all on Verizon and the top device deserves some consideration. The <a href="http://www.motorola.com/us/consumers/DROID-RAZR-HD-BY-MOTOROLA/m-DROID-RAZR-HD,en_US,pd.html">Droid RAZR HD</a> is an attractive and full featured device.</p><p>I honestly almost like the <a href="http://www.htc.com/us/smartphones/droid-dna-by-htc/">Droid DNA </a>hardware better than the HTC One. The display goes all the way out to the edges, the back has a nice soft touch coating, the devices supports wireless charging, and the 1080p display is just as good.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014074</guid>
+      <link><![CDATA[http://www.zdnet.com/a-quick-and-simple-way-to-add-up-to-128gb-of-storage-to-a-macbook-7000014074/]]></link>
+      <title><![CDATA[A quick and simple way to add up to 128GB of storage to a MacBook]]></title>
+      <description><![CDATA[Here's how I added as much as a 128GB of high-speed removable storage to a MacBook — or for that matter any device with an SD card slot — and freed up a USB port in the process.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 10:27:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Adrian Kingsley-Hughes]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-storage/">Storage</category>
+      <media:text type="html"><![CDATA[<p>The other week, I commemorated my <a href="http://www.zdnet.com/75-days-with-a-macbook-pro-7000013944/">75 days of owning a MacBook Pro</a> by giving you a look at how I transformed the shiny slab of aluminum and glass into a system capable of doing serious work.</p>
+<p>In that post I noted that I'd augmented the meagre 256GB SSD with a <a href="http://www.sandisk.com/products/usb/drives/cruzer-fit/">32GB SanDisk Cruzer Fit drive</a>. This is a low-profile drive that's not much bigger than a fingernail that fits unobtrusively into the USB port and allows me a place to store data that would otherwise clutter up my already cramped internal drive.</p>
+<figure><img title="" alt="" src="http://cdn-static.zdnet.com/i/r/story/70/00/014074/photo-1-620x421.jpg?hash=LwV5AQR2Lw&upscale=1" height="421" width="620"><figcaption>(Source: Adrian Kingsley-Hughes/ZDNet)</figcaption></figure>
+<blockquote class="alignLeft">
+<p><strong>See also</strong>: <a href="http://www.zdnet.com/75-days-with-a-macbook-pro-7000013944/" target="_blank">75 days with a MacBook Pro</a></p>
+</blockquote>
+<p>This isn't a perfect solution. First off, it's slow, averaging read speeds of only about 20MB/s and write speeds of around about 5MB/s.</p>
+<p>Not great. In fact, if I'm being honest, it's rather frustrating. The Cruzer Fit is a great drive, but it's not built for this kind of job.&nbsp;</p>
+<p>SanDisk does make faster flash drives that make use of USB 3.0 and capable of read speeds as high as 190MB/s, but these are much bulkier and not the sort of thing I want sticking out of a USB port all the time.</p>
+<p>Another problem is that the largest Cruzer Fit drive that SanDisk makes is the 32GB, which is somewhat limiting. Ideally I'd like something small, fast, and with much greater storage.</p>
+<p>Then I got an email from Luke. He's a regular reader of this column, and he offered a different take on storage expansion.</p>
+<p>His idea was to make use of the MacBook's USB 3.0 enabled SDXC card slot to expand storage. This solution ticks a number of boxes. It supports transfer rates of up to 100MB/s, making it much faster than a USB 2.0 flash drive, and SD cards are small, and yet offer capacities up to 128GB —&nbsp;which is half the capacity of my MacBook's internal SSD.</p>
+<figure><img title="" alt="" src="http://cdn-static.zdnet.com/i/r/story/70/00/014074/photo-3-620x500.jpg?hash=AJEwZmR1MT&upscale=1" height="500" width="620"><figcaption>(Source: Adrian Kingsley-Hughes/ZDNet)</figcaption></figure>
+<p>I also free up a USB port in the process.</p>
+<p>All that's left to do is pick the right card based on speed and capacity. Being an avid photographer, I have a number of SD cards lying around, so I tested a few. If you want a good balance of speed and capacity, I suggest you look at the SanDisk Extreme range of cards. These come in sizes ranging from 4GB all the way up to 128GB. They offer a theoretical transfer rate of 45MB/s, with real-world tests showing read and write speeds in the region of 35MB/s. This is nowhere near the 500MB/s I get from the internal drive, but it is nonetheless a workable solution.</p>
+<p>Another option is SanDisk's Extreme Pro SD cards. These offer much faster transfer rates&nbsp;(theoretically up to 95MB/s, but in reality read and write rates seem to be in the region of 80 to 85MB/s),&nbsp;but the trade-off is that capacities only go as high as 64GB, and you do pay a premium for the speed. A 64GB Extreme Pro card will set you back around $140.</p>
+<p>But you do get a quality card. As I said, I'm an avid photographer, and I have tried SD and CF cards from dozens of companies, but I keep coming back to SanDisk because of the speed and reliability they offer. I could buy cheaper, but I can't buy better.</p>
+<p>There is one drawback to using the MacBook's SDXC card slot for external storage, and that's the fact that the card sticks out a fair bit when inserted into the card reader. I wish the card would stick into the slot a little more, but I suppose the slot has been designed to make inserting and removing the card easier, and not to use it as a &nbsp;permanent expansion.</p>
+<figure><img title="" alt="" src="http://cdn-static.zdnet.com/i/r/story/70/00/014074/photo-2-620x404.jpg?hash=ZTDkA2EvBG&upscale=1" height="404" width="620"><figcaption>(Source: Adrian Kingsley-Hughes/ZDNet)</figcaption></figure>
+<p>That said, it's a great solution for those looking for a bit more storage for their MacBook or, for that matter, any notebook or tablet featuring a high-speed SD card slot.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014068</guid>
+      <link><![CDATA[http://www.zdnet.com/blackberry-targets-indian-smbs-with-mobility-management-7000014068/]]></link>
+      <title><![CDATA[BlackBerry targets Indian SMBs with mobility management]]></title>
+      <description><![CDATA[With BlackBerry Enterprise Service 10, the company wants to be the vendor companies think of in terms of mobility management, including enterprises that deploy Android and iOS devices.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 10:19:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Abhishek Baxi]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-mobile-os/">Mobile OS</category>
+      <category domain="http://www.zdnet.com/topic-blackberry/">BlackBerry</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-india/">India</category>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="BlackBerry Enterprise Service 10" alt="BlackBerry Enterprise Service 10" src="http://cdn-static.zdnet.com/i/r/story/70/00/014068/2-200x118.jpg?hash=Awx5BJVjLG&upscale=1" height="118" width="200"></figure>
+<p>BlackBerry launched its BlackBerry Z10 device in India six weeks ago and last week showcased the <a href="http://www.zdnet.com/blackberrys-bes-10-real-key-to-profit-potential-7000013264/">BlackBerry Enterprise Service (BES) 10</a> at the BlackBerry Experience Forum in New Delhi.</p>
+<p>While BlackBerry primarily&nbsp;has always targeted enterprise customers with BES, the vendor is hoping the latest release will make inroads into the medium-scale businesses in India.</p>
+<p>With the growing acceptance of IT consumerization and bring-your-own-device (BYOD) trend, <a href="http://www.zdnet.com/in/indian-vendors-answering-byod-security-needs-7000010714/">businesses are looking at ways manage personal devices and corporate data</a>. BES10 is touted to offer mobility management, bringing together device management, security, unified communications, and applications. It allows businesses to easily deploy, manage, secure, and control BYOD and corporate devices--not just for BlackBerry, but also iOS and Android devices.</p>
+<p>At the BlackBerry Experience&nbsp;Forum, I met Sunil Lalvani, director of enterprise sales for BlackBerry India. He told me that while they’d like BlackBerry to be a preferred device, they are looking to be the vendor of&nbsp;choice for managing Android and iOS devices in the enterprise.</p>
+<p>"Some companies have allowed <a href="http://www.zdnet.com/blackberry-10-is-the-first-blackberry-to-fully-support-byod-7000010717/">BYOD</a>, but there are challenges in managing those devices. Some even prohibit personal apps," Lalvani explained.&nbsp;"We launched only 40 days ago, and have over 500 enterprise customers already in India. Few SMBs (small and midsize businesses) have also adopted BES10. There are several tiers of mobility management with BES10."</p>
+<figure><img title="BES10: Enterprise Mobility Management" alt="BES10: Enterprise Mobility Management" src="http://cdn-static.zdnet.com/i/r/story/70/00/014068/1-620x151.jpg?hash=BTMwZQyvZm&upscale=1" height="151" width="620"></figure>
+<p>According to Scott Totzke, senior vice president of BlackBerry Security, the company has a very close relationship with Microsoft to encourage&nbsp;<a href="http://www.zdnet.com/in/microsoft-aims-for-indian-smbs-with-office-365-7000012129/">Office 365 customers</a> adopt BlackBerry. With Microsoft reportedly seeing&nbsp;<a href="http://www.zdnet.com/in/microsoft-office-365-sees-growing-adoption-in-india-7000011223/">growing number of Indian SMBs deploying Office 365</a>, this could well prove to be a fruitful relationship.</p>
+<p>In the past, the free <a href="http://www.zdnet.com/blackberrys-bes-mess-no-more-express-server-version-says-rim-7000005487/">BES Express</a> and hosted-BES offering saw some success in attracting SMBs. Internationally, several partners are offering hosted BES10 services. However, in India, BlackBerry has only one hosted partner and that too does not offer BES10 as yet. Hosted services like <a href="http://www.zdnet.com/in/microsoft-aims-for-indian-smbs-with-office-365-7000012129/">Office 365</a> and <a href="http://www.zdnet.com/in/adobe-creative-cloud-for-smbs-launches-in-india-7000012731/">Adobe's Creative Cloud</a> have found many takers in the Indian SMB space as such offerings offer lesser costs in getting onboard and require fewer IT resources.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013962</guid>
+      <link><![CDATA[http://www.zdnet.com/outlet-addicts-laptop-owners-who-dont-get-the-concept-7000013962/]]></link>
+      <title><![CDATA[Outlet addicts: Laptop owners who don't get the concept]]></title>
+      <description><![CDATA[A familiar scene: laptop user in a coffee shop or airport terminal with power cord stretched out dangerously to the inconveniently placed outlet. Odds are that laptop is already fully charged.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 09:55:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[James Kendrick]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-laptops/">Laptops</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="Power outlet" alt="Power outlet" src="http://cdn-static.zdnet.com/i/r/story/70/00/013962/power-outlet-v1-200x123.jpg?hash=MJSxZmywAG&upscale=1" height="123" width="200"></figure>
+<p>In the early days of laptops, battery life was horrible. Many of them would struggle to get two hours on a charge, and that was freshly out of the box. As those batteries aged, and it didn't take very long, those two hours would turn into one, or less. This short battery life conditioned users to never get too far from a power outlet, and we rarely used the laptop without plugging it in.</p>
+<p>Fast forward a few years and the situation has vastly improved. Most laptops can last at least five hours on a charge. The days of racing from one power outlet to the next are behind us.</p>
+<p>So why do so many laptop owners still plug in no matter where they are?</p>
+<p><strong>See related: <a href="http://www.zdnet.com/exciting-work-venues-for-the-mobile-professional-7000011494/">Exciting work venues for the mobile professional</a></strong></p>
+<blockquote class="alignLeft">
+<p><strong>Outlet addicts admit to me they get downright anxious if they can't find an outlet, even if their battery is full. They go from venue to venue, plugging in the laptop everywhere they land.</strong></p>
+</blockquote>
+<p>It's that conditioning in years past that turned a lot of laptop owners into what I refer to as outlet addicts. These folks immediately scope out a power outlet when they go mobile and arrange their work space around it. Even if they have to precariously perch their precious laptop to reach the outlet then that's what they do. They will even string the power cord dangerously (often for fellow patrons) to reach the far-flung outlet. It doesn't matter how short a time they plan to work in a particular place, if the laptop is out of the bag it is immediately plugged in.</p>
+<p>You've no doubt seen this quite a bit if you work in public venues a lot. Like me, you've probably assumed that their battery was nearly empty and they desperately needed to top it off to get through the day. That's the only reasonable explanation for going to all the trouble to get plugged in, even exposing the laptop to possible accidents. Some will even ask patrons close to an outlet to change places with them.</p>
+<p>I'll bet when traveling you've seen more than one laptop user sitting on the floor next to what seems to be the only power outlet in the entire airport terminal. They've got the laptop propped on their knee or luggage, with the cord tethered to the precious outlet. Appearances are that they are charging their depleted battery so they can work on the plane.</p>
+<p>The truth is often quite different. I regularly ask these laptop owners in airports or other public venues if their battery is running low. More often than not I am told the battery is in fact full. They are just plugging in to keep it topped off just in case they can't find an outlet somewhere later.</p>
+<p>Reality is they rarely use the laptop in the manner for which it is designed, to work untethered on battery power. That conditioning mentioned earlier is in full force in outlet addicts and they always have an overwhelming need to plug in. Some of them admit to me they get downright anxious if they can't find an outlet, even if their battery is full. They go from venue to venue, plugging in the laptop everywhere they land. Just in case.</p>
+<p>To be fair, those with older laptops may need to plug in as their old battery probably doesn't last very long. When I mention that my laptop gets six or seven hours on a charge these folks get a wistful look and invariably comment that if theirs could do that they'd never need an outlet. When I confess I never bring a power adapter with me on day trips, some of them get a look of panic at the thought.</p>
+<p>I suspect that many of these laptop users are true outlet addicts, though. I'll bet they'd be plugging in all the time, even if they had a new laptop with six-plus hours of battery life. I see it happening all the time with new laptops tethered. Anxiety is an angry master.</p>
+<p>I am convinced this fear of running out of power on the laptop has been a driving force behind the rapid adoption of tablets. It's very uncommon seeing any tablet user plugging in at public venues, thanks to the extended battery life the devices provide. When asked, a common reason given by tablet owners for switching to the tablet from a laptop is the battery life. The tablet has relieved the anxiety caused by the laptop. No outlet required.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014072</guid>
+      <link><![CDATA[http://www.zdnet.com/uk-office-of-fair-trading-investigates-child-in-app-purchases-7000014072/]]></link>
+      <title><![CDATA[UK Office of Fair Trading investigates child in-app purchases]]></title>
+      <description><![CDATA[The OFT is taking a deeper look at free applications aimed at children, which include in-app purchases with the potential to give parents a monthly heart attack. ]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 09:39:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-apps/">Apps</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <media:text type="html"><![CDATA[<figure><img title="6330748-620x414" alt="6330748-620x414" src="http://cdn-static.zdnet.com/i/r/story/70/00/014072/6330748-620x414-620x414.jpg?hash=MGplZTV0ZT&upscale=1" height="414" width="620"></figure>
+<p>The U.K. Office of Fair Trading says it is currently investigating companies that offer free applications for children that include in-app purchases.</p>
+<p>We've seen the stories. Parents let their children play apps on their tablets, blissfully unaware that such a thing as in-app purchases —&nbsp;where everything from digital coins to unlocking new levels —&nbsp;can be completed, only to have bills demanding thousands of dollars arrive at the end of the month.</p>
+<p>Following a series of high-profile cases, for example the story of one young boy who spent <a href="http://crave.cnet.co.uk/software/apple-finally-refunds-family-after-sons-1700-app-bill-50010540/">1700 on his father's iPad</a> in less than an hour, tech firm Apple has introduced a warning for parents on iTunes for apps. The warning &nbsp;makes it abundantly clear whether a free, seemingly harmless app for your child to play does or does not contain in-app purchases.</p>
+<p>Ultimately, it is the parent's responsibility to check what their children are doing. However, not every parent understands how an application works, the fact you can turn off in-app purchases in settings, or even that in-app purchases exist. Companies like Apple that are beginning to take notice and adapt accordingly are making a step in the right direction, but when applications exist —&nbsp;aimed at children —&nbsp;that offer 50 virtual items, you have to wonder how many firms are counting on the naivety of parents.</p>
+<p>It isn't just Apple or Google that can be held responsible; this is an industry-wide problem. The OFT has now launched an investigation into whether some children are being "unfairly pressured or encouraged" to buy in-app items with their parent's money, unaware that their wish to unlock new levels or features may result in a bill that makes their parents' eyes water.</p>
+<p>As part of the investigation, the OFT has written to firms offering such free web or app-based games, asking for information on the marketing side of in-game purchases. In addition, the agency is asking parents to contact it in relation to any example apps or games which they believe mislead parents or children. Game developers and hosts are also encouraged to get in touch if the OFT is going to formulate a strong understanding of such marketing aimed at minors.</p>
+<p>Cavendish Elithorn, OFT Senior Director for Goods and Consumer, said:</p>
+<blockquote>
+<p>"We are concerned that children and their parents could be subject to unfair pressure to purchase when they are playing games they thought were free, but which can actually run up substantial costs.</p>
+<p>The OFT is not seeking to ban in-game purchases, but the games industry must ensure it is complying with the relevant regulations so that children are protected. We are speaking to the industry and will take enforcement action if necessary."</p>
+</blockquote>
+<p>Under the U.K.'s Consumer Protection (from Unfair Trading) Regulations, established in 2008, if aggressive or misleading advertising is found in child-focused apps, then this kind of "direct exhortation" is unlawful. The OFT says that a number of single purchases of currency or items can range from a few pence to 70 or more, and as use of mobile devices and the Internet among children continues to rise, misleading practices need to be nipped in the bud.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014018</guid>
+      <link><![CDATA[http://www.zdnet.com/intels-q1-pcs-mobile-data-center-wild-cards-abound-7000014018/]]></link>
+      <title><![CDATA[Intel's Q1: PCs, mobile, data center wild cards abound]]></title>
+      <description><![CDATA[Few analysts are expecting much from Intel's first quarter. They are hoping for color on PC and server demand. A new CEO and some real mobile results wouldn't hurt either. ]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 09:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Larry Dignan]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-data-centers/">Data Centers</category>
+      <category domain="http://www.zdnet.com/topic-hardware/">Hardware</category>
+      <category domain="http://www.zdnet.com/topic-servers/">Servers</category>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <category domain="http://www.zdnet.com/topic-pcs/">PCs</category>
+      <media:text type="html"><![CDATA[<p>Intel's first quarter results are expected to be fairly dismal amid weak PC demand, but the company's data center business could carry the day. Overall, analysts are in wait-and-see mode for Intel as a new CEO looms, the company's mobile strategy hasn't paid off yet and challenges such as hyperscale servers loom.</p>
+<p>The company is expected to report earnings of 41 cents a share on revenue of $12.59 billion. The good news for Intel is that expectations are low for the first quarter and second quarter so there's a low bar to clear.</p>
+<p>Here's a look at the wild cards:</p>
+<p><strong>Will Haswell architecture solve the Windows 8 hardware conundrum?</strong> In the second quarter, Intel will transition to its Haswell architecture. Stifel Nicolaus analyst Kevin Cassidy said:</p>
+<blockquote>
+<p>Looking out to 2Q13, we expect Intel to start its transition to the new CPU architecture, Haswell, promising higher performance and longer battery life in PCs. In our view, a Haswell-based, touch-enabled, convertible PC (offering clam shell or tablet form factor) in the $700 price range can give consumers the best of both PC and tablet functionality.</p>
+</blockquote>
+<p>Here we go again. We're waiting for another Intel platform and magical hybrid device to save Windows 8. Better battery life is great, but that hybrid dream may be foolhardy.</p>
+<figure><img title="intc041513a" alt="intc041513a" src="http://cdn-static.zdnet.com/i/r/story/70/00/014018/intc041513a-620x340.png?hash=AwqzLGEzMT&upscale=1" height="340" width="620"></figure>
+<p>&nbsp;</p>
+<p><strong>Data center demand.</strong> Analysts will be closely watching Intel's take on data center buildouts. On server side, demand appears to be moving to servers that have lower average selling prices. That's not good for Intel either. Intel is participating in microservers via its Atom chip so maybe the ARM onslaught won't be catastrophic. Server chips are critical for Intel because the Xeon processor is carrying the team in many respects amid poor PC demand. Intel's data center unit has margins twice the PC business and is the chip maker's primary profit lever.</p>
+<p><strong>Inventory levels.</strong> Ahead of Haswell it's all about cutting inventory for Intel's customers. PC manufacturers may be cutting inventory and that may make for soft revenue for Intel. Overall, that's a good thing.</p>
+<p><strong>New CEO on tap.</strong> Analysts are definitely looking for color on Intel's new CEO to replace Paul Otellini. The new leader will be required to solve for mobile.</p>
+<figure><img title="intc041513b" alt="intc041513b" src="http://cdn-static.zdnet.com/i/r/story/70/00/014018/intc041513b-v2-620x306.png?hash=MwRmMzH1MG&upscale=1" height="306" width="620"></figure>
+<figure><img title="intc041513c" alt="intc041513c" src="http://cdn-static.zdnet.com/i/r/story/70/00/014018/intc041513c-620x326.png?hash=A2L3LmDlAm&upscale=1" height="326" width="620"></figure>
+<p>&nbsp;</p>
+<p><strong>Smartphones and tablets may not need Intel.</strong> Intel has continually pushed specifications, used manufacturing prowess and Moore's Law to grow. It's unclear whether that business approach still works. Morgan Stanley analyst Joseph Moore explained:</p>
+<blockquote>
+<p>Do tablets/smartphones evolve to require higher end microprocessors? In our base case, these form factors continue to use fairly low priced CPUs, so Intel’s revenue growth prospects are limited even if they are successful with new form factors. This could happen either as the needs of tablets and phones evolve through more sophisticated applications, or by Ultrabook convertible form factors mitigating tablet cannibalization. Intel is executing well to meet this outcome if it occurs, but it isn’t entirely in Intel’s control.</p>
+</blockquote>
+<p><strong>Returns on capital expenditures.</strong> Intel will continue to build its manufacturing capacity and that rattles investors to some degree. However, Intel could become a foundry and already is working with Cisco.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014035</guid>
+      <link><![CDATA[http://www.zdnet.com/what-really-signed-the-pcs-death-warrant-microsofts-decision-to-support-netbooks-7000014035/]]></link>
+      <title><![CDATA[What really signed the PC's death warrant? Microsoft's decision to support netbooks]]></title>
+      <description><![CDATA[Some of the reasons for the collapse of the the PC market go a lot further back than the reception of Windows 8. ]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 08:38:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Mary Branscombe]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-laptops/">Laptops</category>
+      <category domain="http://www.zdnet.com/topic-mobility/">Mobility</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <category domain="http://www.zdnet.com/topic-pcs/">PCs</category>
+      <media:text type="html"><![CDATA[<!-- Parsed pinbox:"10118113" -->
+<div class="relatedContent alignRight"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/the-real-reason-for-the-pc-sales-plunge-the-era-of-good-enough-computing-7000013878/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/library/uk-thumbs/misc/bin-keyboard-thumb-220x165.png?hash=MwyyAGWwMz&upscale=1" alt="The real reason for the PC sales plunge: The era of "good enough" computing" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/the-real-reason-for-the-pc-sales-plunge-the-era-of-good-enough-computing-7000013878/">The real reason for the PC sales plunge: The era of "good enough" computing</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/the-real-reason-for-the-pc-sales-plunge-the-era-of-good-enough-computing-7000013878/">Read more</a></li></ul></div>
+<p>When Asus introduced its Eee netbooks running Linux, it heralded a flood of cheap-and-cheerful small machines that used tiny amounts of cheap USB-connected flash storage and didn't run Windows.</p>
+<p>Users flocked to them because they were cheap and in many cases mistook them for small laptops that would work like their familiar full-size laptops.</p>
+<p>PC makers switched to putting Windows XP on their netbooks. That still didn't make a netbook a real cheap notebook, though — for that you needed an expensive ultraportable with a business price tag — but it validated the concept.</p>
+<p>As did the way Microsoft reacted. Microsoft saw netbooks as a significant enough threat to explicitly develop Windows 7 to run on them.</p>
+<p>That was also a response to the problems of Vista, which only ran well on a brand new PC with a powerful new processor and the then-rare full 4Gb of memory. Having then-Windows chief Seven Sinofsky show off the netbook he was using as his main PC on stage at the Windows 7 PDC showed that Microsoft was serious about not letting Windows 7 be another 'bloated' operating system (on a new PC Vista actually performed rather well).</p>
+<p>And knowing your boss is running daily builds on a netbook has to concentrate the mind of a Windows developer on performance and battery issues. Every PC user saw the performance benefit of that work.</p>
+<p>But by taking netbooks so seriously, Microsoft also enabled the race to the bottom that has culminated in $99 Android tablets. Instead of user experience or usability, OEMs concentrated on knocking out the cheapest possible devices they could sell. Never mind the quality, feel the width - or never mind the profit, we'll make it up in volume, as the old jokes go.</p>
+<!-- Parsed pinbox:"10117523" -->
+<div class="relatedContent alignLeft"><h3>Read this</h3>
+<div><a href="http://www.zdnet.com/windows-xp-how-one-company-said-goodbye-to-the-ageing-operating-system-7000012896/" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/library/global-thumbs/misc/hands-laptop-220x165.png?hash=L2SxZQx3AQ&upscale=1" alt="Windows XP: How one company said goodbye to the ageing operating system" width="220" height="165" /></a></div><p><a href="http://www.zdnet.com/windows-xp-how-one-company-said-goodbye-to-the-ageing-operating-system-7000012896/">Windows XP: How one company said goodbye to the ageing operating system</a></p>
+<ul class="alignRight"><li><a href="http://www.zdnet.com/windows-xp-how-one-company-said-goodbye-to-the-ageing-operating-system-7000012896/">Read more</a></li></ul></div>
+<p>Perhaps, if Microsoft hadn't blinked, if it had said that Windows didn't actually scale down to a tiny little screen and a hard-to-use keyboard, if it had concentrated on making Windows a powerful premium experience that was also easy to use, the PC market <a href="http://www.zdnet.com/the-real-reason-for-the-pc-sales-plunge-the-era-of-good-enough-computing-7000013878/" target="_self">wouldn't have collapsed quite the way it has</a>.</p>
+<p>This, admittedly, would have relied on OEMs actually delivering premium hardware that wasn't compromised by crapware - or on Microsoft launching its own PCs much earlier than it did.</p>
+<p>Microsoft would have had to come up with something for the budget market and it would have had to be something that ran Office - but given that Microsoft discontinued the free Office Starter offering, it's likely that netbooks running it didn't actually convinced many people to upgrade to pay-for Office.</p>
+<p>Perhaps ignoring netbooks instead of legitimising them as a major PC sector would have kept PCs as the high-margin devices like Apple Macs.</p>
+<p>Tablets would still have come along, but the PC industry wouldn't have cut its own throat and devalued the PC name in a race to the bottom. And maybe that would have left space to deliver more Windows 7 ultraportables that could do what people actually wanted netbooks for, while Windows RT was under development.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014061</guid>
+      <link><![CDATA[http://www.zdnet.com/symantec-industrial-espionage-on-the-rise-smbs-a-target-7000014061/]]></link>
+      <title><![CDATA[Symantec: Industrial espionage on the rise, SMBs a target]]></title>
+      <description><![CDATA[Symantec's latest Internet Security Threat report suggests that SMBs remain an attractive target for those trying to steal intellectual property. ]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 07:59:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Charlie Osborne]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-malware/">Malware</category>
+      <category domain="http://www.zdnet.com/topic-security/">Security</category>
+      <category domain="http://www.zdnet.com/topic-smbs/">SMBs</category>
+      <media:text type="html"><![CDATA[<figure class="alignRight"><img title="Symantec_logo_vertical_2010" alt="Symantec_logo_vertical_2010" src="http://cdn-static.zdnet.com/i/r/story/70/00/014061/symanteclogovertical2010-200x193.png?hash=LGRkZ2IxLm&upscale=1" height="193" width="200"></figure>
+<p>Security giant Symantec's latest <a href="http://www.symantec.com/security_response/publications/threatreport.jsp?om_ext_cid=biz_socmed_twitter_facebook_marketwire_linkedin_2013Apr_worldwide_ISTR18">Internet Security Threat report</a> says that attacks focused on stealing intellectual property surged by 42 percent in 2012 in comparison to the previous year.</p>
+<p>Targeted cyberattacks based on IP theft are being conducted against both the manufacturing industry and smaller businesses, which are likely to have less income to invest in shoring up their defenses against attack. Symantec says that SMBs -- with fewer than 250 employees -- now account for 31 percent of targeted attacks, and are often seen as a means to gain access to larger firms through "watering hole" techniques.</p>
+<p>The average number of targeted attacks has increased to an average of 116 per day, made popular by the Elderwood Gang which was able to infect 500 firms in 24 hours.</p>
+<p>Simply put, a "watering hole" attack uses a trusted website as a base to divert visitors to an unsafe, malicious website, where malware can then take advantage of vulnerabilities within a PC system to steal data. The redirect order, usually achieved through finding a vulnerability and then injecting a HTML iframe, can be instantaneous and so the victim doesn't realize what has occurred. Last month, <a href="http://www.computerworld.com/s/article/9237044/NBC.com_hacked_to_serve_up_banking_malware?taxonomyId=17">NBC admitted</a> it was a victim of this type of attack.</p>
+<p>An interesting point highlighted within the report is that 61 percent of malicious websites are actually legitimate; targeted by hackers who exploit vulnerabilities and create diversions or channels for malware to be installed on a victim's PC. Business, technology and ecommerce websites are most likely to be affected due to unpatched website vulnerabilities, and once malware has been downloaded, ransomware is a popular choice for hackers to get their money's worth -- especially when they buy legitimate advertising space to hide their code.</p>
+<p>The report suggests that industrial espionage is on the rise, and manufacturing is now the most attractive target for those looking to steal valuable data, accounting for 24 percent of targeted attacks. By choosing targets that are part of a supply chain, hackers are more likely to find third parties which are vulnerable than by taking on larger firms. These weaknesses in a supply chain can lead to the theft of sensitive, corporate data -- and cybercriminals have caught on. Instead of going for executives, the security firm says that now knowledge workers and sales representatives are most likely to be targeted.</p>
+<p>Data breaches declined in 2012, but the amount of stolen identities increased; the healthcare, education and government networks most affected.</p>
+<p>As social media spam rises, traditional spam has declined slightly from 75 percent of all email sent in 2011 to 69 percent last year -- although 30 billion are still sent every day. Pharmaceutical spam is no longer the top form of spam, instead, sex and dating messages reign supreme. In addition, phishing attempts declined from one in 414 to one in every 299 emails sent in 2012. Malware is present in one of every 291 emails, and 23 percent of these types of message contain URLs to malicious websites.</p>
+<p>"This year's ISTR shows that cybercriminals aren't slowing down, and they continue to devise new ways to steal information from organizations of all sizes," said Stephen Trilling, chief technology officer of Symantec. "The sophistication of attacks coupled with today’s IT complexities, such as virtualization, mobility and cloud, require organizations to remain proactive and use ‘defense in depth’ security measures to stay ahead of attacks."</p>
+<p>The report compiled information from more than 69 million attack sensors in 157 countries around the world.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014054</guid>
+      <link><![CDATA[http://www.zdnet.com/japan-ups-consumer-broadband-ante-to-2gbps-report-7000014054/]]></link>
+      <title><![CDATA[Japan ups consumer broadband ante to 2Gbps: Report]]></title>
+      <description><![CDATA[So-net, a Sony-backed ISP in Japan, has launched a 2Gbps service for AU$50 per month.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 04:15:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Chris Duckett]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-telcos/">Telcos</category>
+      <category domain="http://www.zdnet.com/topic-australia/">Australia</category>
+      <category domain="http://www.zdnet.com/topic-japan/">Japan</category>
+      <media:text type="html"><![CDATA[<p>While Australians are busy arguing whether 25 megabits per second (Mbps), 50Mbps, or 100Mbps delivered by the National Broadband Network (NBN) is "<a href="http://www.zdnet.com/au/abbott-25mbps-broadband-more-than-enough-for-australia-7000013721/">more than enough</a>" for the country, a Japanese internet service provider (ISP) has launched a new 2Gbps service, as <a href="http://www.pcworld.com/article/2034643/sony-isp-launches-worlds-fastest-home-internet-2gbps.html">reported by PCWorld</a>.</p>
+<p>The price for this 2Gbps down, 1 Gbps up service on So-net, a Sony-backed ISP in Japan, comes in at AU$50 per month on a two-year contract, with an AU$525 installation fee.</p>
+<p>Not only is this service 80 times faster than the <a href="http://www.zdnet.com/au/coalition-launches-alternative-nbn-policy-7000013715/">Coalition's 25Mbps initial minimum speed</a> for its version of the NBN, it also eclipses the <a href="http://www.zdnet.com/quigley-nbn-co-to-deliver-1gbps-1339301748/">1Gbps maximum offered by the current incarnation of NBN Co</a>, and leaves gigabit Ethernet in its wake.</p>
+<p>Compared to the <a href="http://www.zdnet.com/au/australia-sluggish-on-fixed-broadband-fast-on-mobile-7000010306/">average Australian broadband connection of 4.3Mbps</a>, the Japanese offering clocks in at a zippy 465 times faster.</p>
+<p>The theoretical limit of the So-net service is reported to be 2.488Gbps downstream.</p>
+<p>Japanese fibre rollout is also without the associated problems of needing access to another telco's ducts &mdash; imagine Telstra or Optus trying to string up a <a href="http://www.dannychoo.com/post/en/1653/Japan+Optic+Fiber+Internet.html">series of poles like NTT does</a>.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014051</guid>
+      <link><![CDATA[http://www.zdnet.com/eventful-2-0-for-iphone-keeps-you-up-to-date-on-local-events-7000014051/]]></link>
+      <title><![CDATA[Eventful 2.0 for iPhone keeps you up to date on local events]]></title>
+      <description><![CDATA[Eventful is a useful event discovery app for your iPhone that informs you about concerts, movies, and family and sporting events near you.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 03:37:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Jason D. O'Grady]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-apps/">Apps</category>
+      <category domain="http://www.zdnet.com/topic-ios/">iOS</category>
+      <category domain="http://www.zdnet.com/topic-iphone/">iPhone</category>
+      <media:text type="html"><![CDATA[<p>One of my favorite apps used to be <a href="http://www.songkick.com/" target="_blank">Songkick</a>, because it sent me regular emails about bands performing in my area. But it has been replaced by <a href="http://eventful.com/" target="_blank">Eventful</a>, which is like Songkick, but with the addition of other non-music events. </p>
+<figure class="alignRight"><img title="Eventful 2.0 for iPhone keeps you up-to-date - Jason O'Grady" alt="Eventful 2.0 for iPhone keeps you up-to-date - Jason O'Grady" src="http://cdn-static.zdnet.com/i/r/story/70/00/014051/eventful-ss-ogrady-200x354.jpg?hash=AmtkZzSxZ2&upscale=1" height="354" width="200"><figcaption>(Image: Screenshot by Jason D O'Grady/ZDNet)</figcaption></figure>
+<p><a href="http://eventful.com/iphone" target="_blank">Eventful 2.0 for iPhone</a> (free, <a href="https://itunes.apple.com/us/app/eventful/id284146702?mt=8" target="_blank">App Store</a>) scans your music library and informs you about when your bands are in the area (like Songkick does), but that's where the similarities end. In addition to music, Eventful allows you to find out about numerous other events in your area, including movies, performing arts, family events, and sports.</p>
+<p>Eventful differs from its competitors in a couple of key ways:</p>
+<ul>
+<li><p>It scans your iTunes music library, Spotify and Last.fm</p></li>
+<li><p>It allows you to rate any event, venue, and movie trailer with a simple thumbs up or thumbs down</p></li>
+<li><p>The more you interact with the app, the more it learns your preferences</p></li>
+<li><p>It saves your preferences and will notify you when your favorite events are happening nearby, anywhere in the world</p></li>
+<li><p>It provides personal event recommendations generated by a proprietary recommendation engine</p></li>
+<li><p>It boasts over 4 million events and 21 million users</p></li>
+<li><p>Eventful's "Demand it" service lets you request events in your area</p></li>
+<li><p>It includes movie show times, trailers, and details</p></li>
+<li><p>It includes 26 additional categories, including sports, kids &amp; family events, festivals, etc.</p></li>
+</ul>
+<p><a href="http://eventful.com/" target="_blank">Eventful</a> will alert you when your favorite bands are coming to town, and as an Eventful user, you will receive performer and recommended performer alerts (from its recommendation engine) via email. The addition of movies and family events are worth the price of admission. If you're looking for something to do this week (or weekend), I recommend that you give Eventful a spin. </p>
+<p>Watch the <a href="http://www.youtube.com/watch?v=dqm5ZNL2F0I" target="_blank">trailer</a> below. </p>
+<p><iframe src="https://www.youtube-nocookie.com/embed/dqm5ZNL2F0I?rel=0" height="338" width="601"></iframe></p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014033</guid>
+      <link><![CDATA[http://www.zdnet.com/workday-19-customized-fields-android-app-financial-additions-7000014033/]]></link>
+      <title><![CDATA[Workday 19: Customized fields, Android app, financial additions]]></title>
+      <description><![CDATA[The company's update to its core Workday features largely build on previous enhancements, but the broader picture is that Workday is putting its development horses on financial tools.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 03:00:00 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Larry Dignan]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-cloud/">Cloud</category>
+      <media:text type="html"><![CDATA[<p>Workday is rolling out Workday 19, an update that adds more options for companies to customize fields, launches an Android native app and continues to rev the features needed to aggressively push its financial modules.</p>
+<!-- Parsed pinbox:"10115525" -->
+<div class="relatedContent alignRight"><h3>Read this</h3><ul>
+<li><a href="http://www.zdnet.com/overwhelming-91-percent-say-saas-meets-expectations-7000012097/">What Leaders Say About Cloud Capabilities and Limitations</a></li>
+
+<li><a href="http://www.zdnet.com/saas-pros-cons-and-leading-vendors-7000011500/">SaaS: Pros, cons and leading vendors</a></li>
+
+<li><a href="http://www.zdnet.com/exit-strategy-necessary-in-saas-licensing-negotiations-7000011605/">Exit strategy necessary in SaaS licensing negotiations</a></li>
+
+<li><a href="http://www.zdnet.com/saas-cloud-pricing-can-it-ever-add-up-7000011847/">SaaS cloud pricing: Can it ever add up?</a></li>
+</ul></div>
+<p>The company's update to its core Workday features largely build on previous enhancements, but the broader picture is that Workday is putting its development horses on financial tools. The goal for Workday is to be the enterprise resource planning company for services-based corporations, which primarily need HR and financial tools.</p>
+<p>"One of the big areas of focus for us is to extend work configurability and extensibility," said Stan Swete, chief technology officer for Workday. "We continue to deliver frameworks needed to configure solutions."</p>
+<p>Among the key additions out of the 170 features added to Workday 19:</p>
+<ul>
+<li>Custom fields have been added to multiple Workday objects. Swete said that many customers were asking for overrides on common fields. For instance, terms like workers and employees can be called colleague or teammate depending on the company preference. Terms like merit and target can be swapped as can competencies and goals.</li>
+<li>On the mobile front, Workday 19 brings an Android app available on Google Play. Previously, Workday focused on native applications for Apple's iOS and went HTML5 for other platforms. Swete said the new Android app leverages HTML5 features, but Workday needed a native version to take advantage of device attributes. For instance, the Android app now can absorb pictures of work receipts for expense reporting. "The Android app also rolls out a common look and feel (as iOS)" and has similar features," said Swete.</li>
+<li>For HCM, headcount planning, additions and termination over quarters and hiring plans have been added. To add data, customers don't have to enter staging data going forward. Worktags have also been improved.</li>
+<li>Financials added new dashboards for expense managers, page drilldowns on reports, depreciation for non-tangible assets such as streaming media rights, copyrights and patents.</li>
+</ul>
+<p>That last item is probably most notable since Workday is planning to push financials aggressively, but is developing the product. In a research note, Cowen analyst Peter Goldmacher noted:</p>
+<blockquote>
+<p>Workday is focused on investing in the development of its Financial products this year waiting until next year before it makes an aggressive market push. We salute the company's diligence and patience. The near term opportunity is to establish market credibility with its flagship HCM suite and leverage that credibility into incremental product sales over time. There is no rush to get Financials into market now given that the bulk of the near term opportunity is in HCM and getting a flawed Financials product into market too early could do serious reputational harm. Management stated that it has no interest in building out suites beyond HCM and Financials like Manufacturing and Supply Chain although management is also not making any technological decisions that would rule those products out down the road. We believe this positions Workday as a bigger near term threat to Oracle than SAP given SAP's historical dominance in manufacturing.</p>
+</blockquote>
+<p>Swete reiterated what he told Goldmacher. "We're equally investing in each," said Swete, referring to HCM and financials. "The main effort is understanding what we have to do to move financials forward for our next big business." Workday is also investing in sales capacity for financials.</p>
+<figure><img title="workdayfinance" alt="workdayfinance" src="http://cdn-static.zdnet.com/i/r/story/70/00/014033/workdayfinance-559x336.png?hash=BQMvAGuzLm&upscale=1" height="336" width="559"></figure>
+<figure><img title="workdayhcm" alt="workdayhcm" src="http://cdn-static.zdnet.com/i/r/story/70/00/014033/workdayhcm-588x345.png?hash=AwHkAwR4BG&upscale=1" height="345" width="588"></figure>
+<p>&nbsp;</p>
+<p>As for implementation times, the biggest bottleneck for Workday---and other HCM providers---is customers uploading data to the system. Workday 19 now includes an option to get data from a spreadsheet or relational database so companies can load more historical information, said Swete.</p>
+<p>But more can be done by Workday and its partners to map sourcing of data and better manage the staging and cleaning of information.</p>
+<p>More:</p>
+<ul>
+<li><a >People first: Cloud HRM and talent management</a></li>
+<li><a >Workday: What's it cost to compete with Oracle and SAP? $119 million, at least</a></li>
+<li><a >ERP, RIP? Cloud financials and revenue management in 2013</a></li>
+<li><a >A snapshot of enterprise cloud adopters at Workday Rising</a></li>
+</ul>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000013968</guid>
+      <link><![CDATA[http://www.zdnet.com/frequent-texters-tend-to-be-shallow-7000013968/]]></link>
+      <title><![CDATA[Frequent texters tend to be 'shallow']]></title>
+      <description><![CDATA[A study from University of Winnipeg suggests young adults who send more than 100 text messages a day tend to be more interested in image and wealth, versus leading an ethical life.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 02:03:04 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Nitin Puri]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-smartphones/">Smartphones</category>
+      <category domain="http://www.zdnet.com/topic-tablets/">Tablets</category>
+      <media:text type="html"><![CDATA[<p>Students who text more than 100 text messages a day are 30 percent less likely to feel strongly that leading an ethical and principled life was important to them, compared to those who texted 50 times or less a day.</p>
+<figure class="alignRight"><img title="mobile-messaging-chat" alt="mobile-messaging-chat" src="http://cdn-static.zdnet.com/i/r/library/sg-thumbs/mobile-messaging-chat-200x150.jpg?hash=MTWuLGR4ZG&upscale=1" height="150" width="200"><figcaption>Frequent texters tend to be more interested in image and wealth, according to study.</figcaption></figure>
+<p>According to a <a title="study" href="http://www.cbc.ca/news/technology/story/2013/04/11/mb-texting-shallow-morality-research-university-winnipeg.html" target="_blank">study</a> by the University of Winnipeg, the findings can extended to other social media sites, such as Facebook, LinkedIn, and Twitter.</p>
+<p>I have seen users post updates every hour on the hour, with some of the most bizarre updates, such as what they are eating, where they are eating, and with whom. This is a direct example of people trying to boost their online image amongst peers and the general public.</p>
+<p>Then there's the other group who like posting pictures of their latest purchase, be it a vehicle, or progress of a house being completed from start to finish. Again, another example of people showing off their wealth.</p>
+<p>All of this is really unnecessary and unfiltered content being displayed to the world. Can anyone imagine what the world was like about 10 years ago without this? Probably not as one way or another, we are all in fact guilty of the above, as it’s the norm to have some form of social media presence.</p>
+<p>That being said, who in their right mind has the time and strength to send over 100 text messages a day? Don’t people work or have other things to do, besides gossip? Not only is this intrusive, and also reducing both productivity and efficiency at the workforce, it's changing the form of <a href="http://www.zdnet.com/social-communication-requires-small-steps-2062202992/" target="_self">social communication</a> to an extreme.</p>
+<p>In my opinion, this comes to down to clear example of a compulsive disorder for people who send over 100 text messages a day. It's no different than checking your e-mail every 5 minutes or constantly using and <a href="http://www.zdnet.com/arent-we-reading-too-much-into-social-media-7000012956/" target="_self">posting on social media</a>. People engaged in the above are removing themselves from the real world and are completely living online, behind a screen, be it a desktop, laptop, or mobile device.</p>
+<p>Furthermore, there are in fact health concerns and issues related to the above, such as increased cases of both eye and neck strain, and also corpus tunnel syndrome.</p>
+<p>People need to balance their lives with technology and take time out not just for themselves, but for their family and friends. Real human social interaction is the key to being successful and on top of your game. Sending over 100 <a href="http://www.zdnet.com/texting-celebrates-20th-birthday-and-its-still-irreplaceable-7000008223/" target="_self">text messages</a>, to be frank, is not.</p>]]></media:text>
+    </item>
+    <item>
+      <guid isPermaLink="false">7000014044</guid>
+      <link><![CDATA[http://www.zdnet.com/nzs-farmers-to-harvest-unspoken-4g-bonus-7000014044/]]></link>
+      <title><![CDATA[NZ's farmers to harvest unspoken 4G bonus]]></title>
+      <description><![CDATA[One of the missed benefits of New Zealand's competing 4G rollouts is the increased connectivity that the country's Rural Broadband Initiative will bring.]]></description>
+      <pubDate><![CDATA[Tue, 16 Apr 2013 00:19:05 +0000]]></pubDate>
+      <media:credit role="author"><![CDATA[Darren Greenwood]]></media:credit>
+      <s:doctype><![CDATA[Text]]></s:doctype>
+      <category domain="http://www.zdnet.com/topic-new-zealand/">New Zealand</category>
+      <media:text type="html"><![CDATA[<p>While media coverage has focused on Telecom New Zealand <a href="http://www.zdnet.com/telecom-nz-4g-network-targets-october-launch-chooses-huawei-build-7000013706/" target="_blank">selecting Huawei</a> for its 4G rollout, something perhaps more significant seems to have passed people by.</p>
+<p>At the media launch, Telecom bosses spoke for a while about the Rural Broadband Initiative (RBI), a sister plan to the New Zealand government's $1.5 billion Ultra-Fast Broadband (UFB) project.</p>
+<p>Telecom and Vodafone are working together to deliver mobile broadband to the rural areas where it won't be economic to supply broadband using fibre. Mobile will be the way, though some of the more isolated areas might even use satellite.</p>
+<p>But as also noticed by Paul Brislen, chief executive of the Telecommunications Users Association of New Zealand, 4G's impact on the rural sector could be its forte.</p>
+<p>In a <a href="http://tuanz.org.nz/blog/2013/4/14/mobile" target="_blank">couple of blog posts</a> over <a href="http://tuanz.org.nz/blog/2013/4/9/4g-wars" target="_blank">the past week</a>, Brislen revealed that he has been trialling 4G and seems very happy with it, noting its speed and ability to give clear pictures of the videos he has been watching.</p>
+<p>Vodafone and Telecom are installing 4G equipment at sites across the country, helped by a further subsidy from the government under the RBI. Since these rural mobile phone towers and cabinets are likely to receive less customers than urban ones, the speeds delivered to users are likely to be higher.</p>
+<p>Furthermore, when the government auctions off the 700MHz frequencies from the increasingly redundant analogue TV network, there will be a further boost to rural broadband.</p>
+<p>700MHz is said to cover a greater distance than 1,400Mhz, and hills and other obstacles present less of a problem.</p>
+<p>It all means that rural users should be in for some excellent coverage in the next few years, with Vodafone and Telecom competing hard for such customers.</p>
+<p>Indeed, with both Vodafone and Telecom now revealing their 4G rollouts, competition between both networks has certainly stepped up, with talk of a "4G war", which can only be good for consumers.</p>
+<p>Just a few years back, I posted on how <a href="http://www.zdnet.com/nz-farmers-bleating-about-broadband-1339299578/" target="_blank">farmers were unhappy</a> at the state of the country's rural broadband. There has been <a href="http://www.nzherald.co.nz/technology/news/article.cfm?c_id=5&amp;objectid=10876494" target="_blank">recent commentary</a> about the lack of progress to date, but it is clear that improvement is underway.</p>
+<p>Vodafone has <a href="http://www.vodafone.co.nz/about/media-centre/rural-broadband-initiative/coverage/" target="_blank">a map showing the existing RBI coverage</a>, and it looks like the country's dairy farmers have been the first to receive the RBI. But considering that they are the country's economic backbone, this is the least New Zealand can give them.</p>
+<p>In the meantime, it's all go at Telecom. Not only does it have its 4G rollout to contend with, but it also has what appears like <a href="http://computerworld.co.nz/news.nsf/news/moutters-blunt-message-to-telecom-staff?OpenDocument&amp;c=11" target="_blank">further restructuring</a> from its boss Simon Moutter, plus a prospective <a href="http://computerworld.co.nz/news.nsf/news/gen-i-eyes-revera" target="_blank">Gen-I purchase</a> of Revera, to give it further government contracts.</p>]]></media:text>
+    </item>
+  </channel>
+</rss>

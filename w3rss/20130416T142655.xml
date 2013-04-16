@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.w3.org/">
+<title>W3C News</title>
+<link>http://www.w3.org/</link>
+<description></description>
+<dc:language>en</dc:language>
+<dc:creator>W3C Staff and Contributors</dc:creator>
+
+<dc:date>2013-04-11T09:09:39-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=4.34-en" />
+
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9786" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9785" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9784" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9783" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9781" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9780" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9779" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9778" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9776" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9775" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9774" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9773" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9772" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9771" />
+<rdf:li rdf:resource="http://www.w3.org/News/2013.html#entry-9770" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9786">
+<title>Last Call: API for Media Resources 1.0</title>
+<link>http://www.w3.org/News/2013.html#entry-9786</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/2008/WebVideo/Annotations/">Media Annotations Working Group</a> has published a 3rd Last Call Working Draft of <a href="http://www.w3.org/TR/2013/WD-mediaont-api-1.0-20130411/">API for Media Resources 1.0</a>. This specification defines an API to access metadata information related to media resources on the Web. The overall purpose is to provide developers with a convenient access to metadata information stored in different metadata formats. The API provides means to access the set of metadata properties defined in the Ontology for Media Resources 1.0 specification. These properties are used as a pivot vocabulary in this API. The core of this specification is the definition of API interfaces for retrieving metadata information in synchronous and asynchronous. It also defines interfaces for structured return types along with the specification of the behavior of an API implementation. Comments are welcome through 03 June. Learn more about the <a href="http://www.w3.org/2008/WebVideo/">Video in the Web Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-11T09:09:39-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9785">
+<title>Last Call: JSON-LD 1.0, JSON-LD 1.0 Processing Algorithms and API</title>
+<link>http://www.w3.org/News/2013.html#entry-9785</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/2011/rdf-wg/wiki/Main_Page">RDF Working
+Group</a> and the <a href="http://json-ld.org/">JSON-LD Community Group</a> have published two Last Call Working Drafts today:</p>
+<ul class="show_items">
+<li><a href="http://www.w3.org/TR/2013/WD-json-ld-20130411/">JSON-LD 1.0</a>.  JSON-LD harmonizes the representation of Linked Data in JSON by describing a common JSON representation format for expressing directed graphs; mixing both Linked Data and non-Linked Data in a single document. The syntax is designed to not disturb already deployed systems running on JSON, but provide a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Linked Data Web services, and to store Linked Data in JSON-based storage engines. JSON-LD is capable of serializing any RDF graph or dataset and most, but not all, JSON-LD documents can be directly transformed to RDF.</li>
+<li><a href="http://www.w3.org/TR/2013/WD-json-ld-api-20130411/">JSON-LD
+1.0: Algorithms and API</a>. The JSON-LD 1.0 Algorithms and API specification describes useful Algorithms for working with JSON-LD data. It also specifies an Application Programming Interface that can be used to transform JSON-LD documents in order to make them easier to work with in programming environments like JavaScript, Python, and Ruby.</li>
+</ul>
+<p>This is a Last Call publication for both specifications. All substantive technical work on the specification is complete. Feedback on both specifications is encouraged and should be sent to <a href="mailto:public-rdf-comments@w3.org">public-rdf-comments@w3.org</a>. The Last Call period will end in 4 weeks, on May 10th 2013</p>
+<p>Learn more about the <a href="http://www.w3.org/2001/sw/">Semantic Web Activity</a> and <a href="http://www.w3.org/community/">W3C Community Groups</a>.</p>]]>
+        </description>
+<dc:subject>Semantic Web</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-11T08:56:38-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9784">
+<title>Internationalization Tag Set (ITS) Version 2.0 Draft Published</title>
+<link>http://www.w3.org/News/2013.html#entry-9784</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/International/multilingualweb/lt/">MultilingualWeb-LT Working Group</a> has published an updated working draft of <a href="http://www.w3.org/TR/2013/WD-its20-20130411/">Internationalization Tag Set (ITS) Version 2.0</a>. The Internationalization Tag Set (ITS) 2.0 enhances the foundation to integrate automated processing of human language into core Web technologies. ITS 2.0 provides metadata to foster the adoption of the multilingual Web. The draft reflects <a href="http://www.w3.org/TR/2013/WD-its20-20130411/#changelog-since-20121023">changes</a> since the <a href="http://www.w3.org/TR/2012/WD-its20-20121206/">last call publication 6 December 2012</a> and asks for feedback on the <a href="http://www.w3.org/TR/2013/WD-its20-20130411/#unresolved-issues">remaining 
+open issues</a>. Learn more about the <a href="http://www.w3.org/International/">Internationalization Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-11T08:51:16-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9783">
+<title>Clipboard API and events Draft Published</title>
+<link>http://www.w3.org/News/2013.html#entry-9783</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/2008/webapps/">Web Applications Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-clipboard-apis-20130411/">Clipboard API and events</a>. This document describes APIs for clipboard operations such as copy, cut and paste in web applications. Learn more about the <a href="http://www.w3.org/2006/rwc/">Rich Web Client Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-11T08:48:44-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9781">
+<title>Call for Review: Web Storage Proposed Recommendation Published</title>
+<link>http://www.w3.org/News/2013.html#entry-9781</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/2008/webapps/">Web Applications Working Group</a> has published a Proposed Recommendation of <a href="http://www.w3.org/TR/2013/PR-webstorage-20130409/">Web Storage</a>. This specification defines an API for persistent data storage of key-value pair data in Web clients. Comments are welcome through 07 May. Learn more about the <a href="http://www.w3.org/2006/rwc/">Rich Web Client Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-09T09:34:03-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9780">
+<title>Working Drafts of RDF 1.1 Semantics and TriG, N-Triples and N-Quads published as Notes</title>
+<link>http://www.w3.org/News/2013.html#entry-9780</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/2011/rdf-wg/">RDF Working Group</a> has published two Working Drafts today:</p>
+<ul class="show_items">
+<li><a href="http://www.w3.org/TR/2013/WD-rdf11-mt-20130409/">RDF 1.1 Semantics</a>. This document describes a precise semantics for the Resource Description Framework 1.1 and RDF Schema. It defines a number of distinct entailment regimes and corresponding systems of inference rules. It is part of a suite of documents which comprise the full specification of RDF 1.1.</li>
+<li><a href="http://www.w3.org/TR/2013/WD-trig-20130409/">TriG</a>. This document defines a textual syntax for RDF called TriG that allows an RDF dataset to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. TriG is an extension of the Turtle format.</li></ul>
+<p>The <a href="http://www.w3.org/2011/rdf-wg/">RDF Working Group</a> also published two Group Notes today:</p>
+<ul class="show_items">
+<li><a href="http://www.w3.org/TR/2013/NOTE-n-triples-20130409/">N-Triples</a>. N-Triples is a line-based, plain text format for encoding an RDF graph.</li>
+<li><a href="http://www.w3.org/TR/2013/NOTE-n-quads-20130409/">N-Quads</a>. N-Quads is a line-based, plain text format for encoding an RDF dataset.</li></ul>
+<p>Learn more about the <a href="http://www.w3.org/2001/sw/">Semantic Web Activity</a>.</p>
+]]>
+        </description>
+<dc:subject>Semantic Web</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-09T09:20:55-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9779">
+<title>Scalable Vector Graphics (SVG) 2 Draft Published</title>
+<link>http://www.w3.org/News/2013.html#entry-9779</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/Graphics/SVG/WG/">SVG Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-SVG2-20130409/">Scalable Vector Graphics (SVG) 2</a>. This specification defines the features and syntax for Scalable Vector Graphics (SVG) Version 2, a language for describing two-dimensional vector and mixed vector/raster graphics. Although an XML serialization is given, processing is defined in terms of a DOM. Learn more about the <a href="http://www.w3.org/Graphics/">Graphics Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-09T09:17:45-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9778">
+<title>Two upcoming W3C Workshops on Digital Publishing</title>
+<link>http://www.w3.org/News/2013.html#entry-9778</link>
+<description>        <![CDATA[<p>W3C announced today two closely related workshops, part of the W3C headlights 2013 exercise on Digital Publishing:</p>
+<ul class="show_items">
+<li><a href="https://www.w3.org/2013/06/ebooks/">eBooks &amp; i18n: Richer Internationalization for eBooks</a> on 4 June 2013 in Tokyo, Japan. This workshop will investigate international functionality that needs to be added to the Open Web Platform; the goal is to make the various eBook reading platforms suitable for electronic books that use the printing and typesetting traditions of different cultures. If you are interested in participating, please submit a position paper by 30 April 2013.</li>
+<li><a href="http://www.w3.org/2012/12/global-publisher/">Publishing and the Open Web Platform</a> on 16-17 September 2013 in Paris, France. This workshop will look at the "back-end" processing to make the Open Web Platform suitable for commercial publishing, especially in print, all the way from authoring through to delivering the printed product and beyond. If you are interested in participating, please submit a position paper by 1 July 2013.</li>
+</ul>]]>
+        </description>
+<dc:subject>Home Page Stories</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-09T02:53:12-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9776">
+<title>Input Method Editor API Draft Published</title>
+<link>http://www.w3.org/News/2013.html#entry-9776</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/2008/webapps/">Web Applications Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-ime-api-20130404/">Input Method Editor API</a>. This specification defines an “IME API” that provides Web applications with scripted access to an IME (input-method editor) associated with a hosting user agent. This IME API includes: an InputMethodContext interface, which provides methods to retrieve detailed data from an in-progress IME composition, a Composition dictionary, which represents read-only attributes about the current composition, such as the actual text and its style. This API is designed to be used in conjunction with DOM events. Learn more about the <a href="http://www.w3.org/2006/rwc/">Rich Web Client Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-04T10:30:23-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9775">
+<title>Network Service Discovery Draft Published</title>
+<link>http://www.w3.org/News/2013.html#entry-9775</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/2009/dap/">Device APIs Working Group</a> has published the First Public Working Draft of <a href="http://www.w3.org/TR/2013/WD-discovery-api-20130404/">Network Service Discovery</a>. This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network. Learn more about the <a href="http://www.w3.org/2007/uwa/">Ubiquitous Web Applications Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-04T10:27:17-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9774">
+<title>W3C Invites Implementations of CSS Conditional Rules Module Level 3, and CSS Values and Units Module Level 3</title>
+<link>http://www.w3.org/News/2013.html#entry-9774</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/Style/CSS/members">Cascading Style Sheets (CSS) Working Group</a> invites implementation of two Candidate Recommendations:</p>
+<ul class="show_items">
+<li><a href="http://www.w3.org/TR/2013/CR-css3-conditional-20130404/">CSS Conditional Rules Module Level 3</a>. This module contains the features of CSS for conditional processing of parts of style sheets, conditioned on capabilities of the processor or the document the style sheet is being applied to. It includes and extends the functionality of CSS level 2], which builds on CSS level 1. The main extensions compared to level 2 are allowing nesting of certain at-rules inside ‘@media’, and the addition of the ‘@supports’ rule for conditional processing.</li>
+<li><a href="http://www.w3.org/TR/2013/CR-css3-values-20130404/">CSS Values and Units Module Level 3</a>. This CSS3 module describes the common values and units that CSS properties accept and the syntax used for describing them in CSS property definitions. This is an update that clarifies that the viewport size used by the 'vw' and 'vh' units includes the size of any scrollbars only when the scrollbars are “automatic” (CSS rule 'overflow: auto'), and that the corresponding definition of viewport size for 
+paged media is *not* part of this module.</li>
+</ul>
+<p> Learn more about the <a href="http://www.w3.org/Style/">Style Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-04T10:21:03-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9773">
+<title>CSS Grid Layout Draft Published</title>
+<link>http://www.w3.org/News/2013.html#entry-9773</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/Style/CSS/members">Cascading Style Sheets (CSS) Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2013/WD-css3-grid-layout-20130402/">CSS Grid Layout</a>. This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a flexible or fixed predefined layout grid. Learn more about the <a href="http://www.w3.org/Style/">Style Activity</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-04-02T08:36:05-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9772">
+<title>W3C Workshop: Referencing and Applying WCAG 2.0 in Different Contexts</title>
+<link>http://www.w3.org/News/2013.html#entry-9772</link>
+<description>        <![CDATA[<p>The W3C Web Accessibility Initiative (<a href="http://www.w3.org/WAI/">WAI</a>) today announced the <a href="http://www.w3.org/WAI/ACT/workshop">Workshop on Referencing and Applying WCAG 2.0 in Different Contexts</a> on 23 May 2013 in Brussels, Belgium. Participants will explore approaches for using Web Content Accessibility Guidelines <a href="http://www.w3.org/WAI/intro/wcag">(WCAG) 2.0</a> and its supporting resources in different policy settings and contexts. The Workshop is open to policy-makers, users, developers, accessibility experts, researchers, and others interested in adopting, referencing, and applying WCAG 2.0.  If you are interested in participating, please submit a statement of interest by 23 April 2013. Learn more about the <a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a>.</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Ian Jacobs</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-03-28T16:28:08-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9771">
+<title>Role Attribute  Published as W3C Recommendation</title>
+<link>http://www.w3.org/News/2013.html#entry-9771</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/WAI/PF/">Protocols and Formats Working Group (PFWG)</a> published <a href="http://www.w3.org/TR/2013/REC-role-attribute-20130328/">Role Attribute</a> as a W3C Recommendation. Role Attribute is an XML attribute that allows authors to add semantic information to documents. Role Attribute supports <a href="http://www.w3.org/WAI/intro/aria.php">WAI-ARIA</a>, the Accessible Rich Internet Applications technical specification for making dynamic, interactive web content accessible to people with disabilities. Learn about the <a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a>.
+</p>]]>
+        </description>
+<dc:subject>Web Design and Applications</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-03-28T08:38:31-05:00</dc:date>
+</item>
+
+<item rdf:about="http://www.w3.org/News/2013.html#entry-9770">
+<title>W3C Invites Implementations of XSLT and XQuery Serialization 3.0</title>
+<link>http://www.w3.org/News/2013.html#entry-9770</link>
+<description>        <![CDATA[<p>The <a href="http://www.w3.org/Style/XSL/">XSLT Working Group</a> and the <a href="http://www.w3.org/XML/Query/">XML Query Working Group</a> have published a Candidate Recommendation of  <a href="http://www.w3.org/TR/2013/CR-xslt-xquery-serialization-30-20130328/">XSLT and XQuery Serialization 3.0</a>. This document defines serialization of an instance of the data model as defined in XQuery and XPath Data Model (XDM) 3.0 into a sequence of octets. Serialization is designed to be a component that can be used by other specifications such as XSL Transformations (XSLT) Version 3.0 or XQuery 3.0: An XML Query Language. Learn more about the <a href="http://www.w3.org/XML/Activity">XML Activity</a>.</p>]]>
+        </description>
+<dc:subject>XML Core Technologies</dc:subject>
+<dc:creator>Coralie Mercier</dc:creator>
+<dc:language>en</dc:language>
+<dc:date>2013-03-28T08:33:28-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>

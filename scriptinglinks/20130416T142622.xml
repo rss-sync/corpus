@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Tue, 16 Apr 2013 11:55:19 GMT</pubDate>
+		<lastBuildDate>Tue, 16 Apr 2013 11:55:19 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-04-16</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>4/16/2013; 7:55:19 AM</microblog:localTime>
+		<item>
+			<description>Jennifer Xu: RIP, Google Reader.</description>
+			<link>http://3wu.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 11:55:17 GMT</pubDate>
+			<guid>http://3wu.r2.ly/?id=16179</guid>
+			<microblog:linkFull>http://www.michigandaily.com/opinion/04jennifer-xu-rip-google-reader16</microblog:linkFull>
+			</item>
+		<item>
+			<description>Airport rankings: The best airport on the planet.</description>
+			<link>http://3wr.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 10:05:46 GMT</pubDate>
+			<guid>http://3wr.r2.ly/?id=16178</guid>
+			<microblog:linkFull>http://www.economist.com/blogs/gulliver/2013/04/airport-rankings</microblog:linkFull>
+			<microblog:readCount>507</microblog:readCount>
+			</item>
+		<item>
+			<description>Gracenote co-founder on &apos;iPod day&apos; and better music through data.</description>
+			<link>http://3wo.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 03:42:22 GMT</pubDate>
+			<guid>http://3wo.r2.ly/?id=16177</guid>
+			<microblog:linkFull>http://gigaom.com/2013/04/15/gracenote-co-founder-on-ipod-day-and-better-music-through-data/</microblog:linkFull>
+			<microblog:readCount>607</microblog:readCount>
+			</item>
+		<item>
+			<description>Twitter Said to Seek Deals With Viacom, NBC to Feature TV Online.</description>
+			<link>http://3wn.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 03:10:20 GMT</pubDate>
+			<guid>http://3wn.r2.ly/?id=16176</guid>
+			<microblog:linkFull>http://www.bloomberg.com/news/2013-04-16/twitter-said-to-seek-deals-with-viacom-nbc-to-feature-tv-online.html</microblog:linkFull>
+			<microblog:readCount>538</microblog:readCount>
+			</item>
+		<item>
+			<description>Nice note from Matt Mullenweg. Being creative is something that you do at every age. ;-)</description>
+			<link>http://3wm.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 01:58:57 GMT</pubDate>
+			<guid>http://3wm.r2.ly/?id=16175</guid>
+			<microblog:linkFull>http://ma.tt/2013/04/dave-keeps-working/</microblog:linkFull>
+			<microblog:readCount>622</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: &quot;Assume you saw the news&quot;.</description>
+			<link>http://3wl.r2.ly/</link>
+			<category>Scripting News</category>
+			<pubDate>Tue, 16 Apr 2013 01:52:15 GMT</pubDate>
+			<guid>http://3wl.r2.ly/?id=16174</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/howTheMindWorks</microblog:linkFull>
+			<microblog:readCount>1436</microblog:readCount>
+			</item>
+		<item>
+			<description>Jeff Jarvis: This was a media-centered attack.</description>
+			<link>http://3wk.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 01:38:41 GMT</pubDate>
+			<guid>http://3wk.r2.ly/?id=16173</guid>
+			<microblog:linkFull>http://buzzmachine.com/2013/04/15/a-media-attack/</microblog:linkFull>
+			<microblog:readCount>2100</microblog:readCount>
+			</item>
+		<item>
+			<description>I got a pair of Audioengine speakers for my desktop computer. They&apos;re small, but beautiful, and not too expensive.</description>
+			<link>http://3wj.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 01:33:01 GMT</pubDate>
+			<guid>http://3wj.r2.ly/?id=16172</guid>
+			<microblog:linkFull>http://audioengineusa.com/</microblog:linkFull>
+			<microblog:readCount>762</microblog:readCount>
+			</item>
+		<item>
+			<description>Google Glass User Interface Guidelines.</description>
+			<link>http://3wi.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 01:30:51 GMT</pubDate>
+			<guid>http://3wi.r2.ly/?id=16171</guid>
+			<microblog:linkFull>https://developers.google.com/glass/ui-guidelines</microblog:linkFull>
+			<microblog:readCount>739</microblog:readCount>
+			</item>
+		<item>
+			<description>Subway Riders&apos; Quirks Studied.</description>
+			<link>http://3wh.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 01:28:08 GMT</pubDate>
+			<guid>http://3wh.r2.ly/?id=16170</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/16/nyregion/subway-riders-quirks-studied.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>541</microblog:readCount>
+			</item>
+		<item>
+			<description>The Fed messed with the wrong senator. (Elizabeth Warren)</description>
+			<link>http://3wg.r2.ly/</link>
+			<pubDate>Tue, 16 Apr 2013 00:23:47 GMT</pubDate>
+			<guid>http://3wg.r2.ly/?id=16169</guid>
+			<microblog:linkFull>http://www.salon.com/2013/04/15/fed_messed_with_the_wrong_senator/</microblog:linkFull>
+			<microblog:readCount>876</microblog:readCount>
+			</item>
+		<item>
+			<description>Elizabeth Warren winning support for 2016 White House bid.</description>
+			<link>http://3wf.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 23:56:18 GMT</pubDate>
+			<guid>http://3wf.r2.ly/?id=16168</guid>
+			<microblog:linkFull>http://bostonherald.com/news_opinion/us_politics/2013/04/elizabeth_warren_winning_support_for_2016_white_house_bid</microblog:linkFull>
+			<microblog:readCount>546</microblog:readCount>
+			</item>
+		<item>
+			<description>Robin Williams Recalls the Lessons of Jonathan Winters.</description>
+			<link>http://3we.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 23:48:44 GMT</pubDate>
+			<guid>http://3we.r2.ly/?id=16167</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/16/arts/television/robin-williams-recalls-the-lessons-of-jonathan-winters.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>598</microblog:readCount>
+			</item>
+		<item>
+			<description>Boston.com video of the explosion. Very high quality, right there.</description>
+			<link>http://3wc.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 21:04:32 GMT</pubDate>
+			<guid>http://3wc.r2.ly/?id=16166</guid>
+			<microblog:linkFull>http://www.boston.com/video/viral_page/?/services/player/bcpid2080955193001=&amp;bckey=AQ~~,AAAAAA6piHY~,DqRT40XOAr8XmRt9Lw9Lza1eXkXEagX8&amp;bctid=2303076923001</microblog:linkFull>
+			<microblog:readCount>1780</microblog:readCount>
+			</item>
+		<item>
+			<description>Automatic tax filing: ReadyReturn systems work fine but Intuit and Grover Norquist are blocking their use.</description>
+			<link>http://3wb.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 18:05:41 GMT</pubDate>
+			<guid>http://3wb.r2.ly/?id=16165</guid>
+			<microblog:linkFull>http://www.slate.com/articles/business/moneybox/2013/04/automatic_tax_filing_readyreturn_systems_work_fine_but_intuit_and_grover.html</microblog:linkFull>
+			<microblog:readCount>500</microblog:readCount>
+			</item>
+		<item>
+			<description>I signed up for CitiBike. I&apos;m member number 1411. I get some kind of prize for that. ;-)</description>
+			<link>http://3wa.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 15:58:34 GMT</pubDate>
+			<guid>http://3wa.r2.ly/?id=16164</guid>
+			<microblog:linkFull>http://transportationnation.org/2013/04/15/new-york-city-bike-share-registration-is-now-open/</microblog:linkFull>
+			<microblog:readCount>421</microblog:readCount>
+			</item>
+		<item>
+			<description>This story about Sean Parker&apos;s wedding is odd in that it doesn&apos;t mention who he&apos;s getting married to.</description>
+			<link>http://3w9.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 15:22:06 GMT</pubDate>
+			<guid>http://3w9.r2.ly/?id=16163</guid>
+			<microblog:linkFull>http://news.yahoo.com/sean-parkers-9-million-wedding-set-144922475.html</microblog:linkFull>
+			<microblog:readCount>483</microblog:readCount>
+			</item>
+		<item>
+			<description>If you&apos;re an idea person, a writer, the outliner is like a spreadsheet for an accountant.</description>
+			<link>http://3w8.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 14:55:26 GMT</pubDate>
+			<guid>http://3w8.r2.ly/?id=16162</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/jeffIsAnIdeaProcessor</microblog:linkFull>
+			<microblog:readCount>889</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: Jeff is an idea processor.</description>
+			<link>http://3w8.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 14:44:15 GMT</pubDate>
+			<guid>http://3w8.r2.ly/?id=16161</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/jeffIsAnIdeaProcessor</microblog:linkFull>
+			<microblog:readCount>889</microblog:readCount>
+			</item>
+		<item>
+			<description>Twitter is gradually supporting new media types, bringing in the talent that used to populate television and print.</description>
+			<link>http://3w7.r2.ly/</link>
+			<pubDate>Mon, 15 Apr 2013 14:12:12 GMT</pubDate>
+			<guid>http://3w7.r2.ly/?id=16160</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/footballAndPublishing</microblog:linkFull>
+			<microblog:readCount>498</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

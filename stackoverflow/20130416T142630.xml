@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-04-16T14:26:30Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/16039710</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Create faces database from images with openCV?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="database"/><category scheme="http://stackoverflow.com/feeds/tags" term="opencv"/>
+        <author>
+            <name>kientux</name>
+            <uri>http://stackoverflow.com/users/2227277</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039710/create-faces-database-from-images-with-opencv" />
+        <published>2013-04-16T14:25:50Z</published>
+        <updated>2013-04-16T14:25:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m writing a program that detect faces from images; and recognize a face from an input image, using OpenCV library. I was done with detection part, but in recognization part, I don&#39;t know how to create faces database from detected faces. I read several samples about face recog using Eigenfaces, and it requires at least 2 faces per person from an available database - that I do not have. My question is how to create the database, it&#39;s not just crop each face and store in a named folder, because maybe there&#39;re same faces in different images. Is there a way to compare those faces and group them in one folder?&lt;/p&gt;
+
+&lt;p&gt;Many thanks, and sorry for my poor English (:&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039709</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Get all geopoints between 2 endpoints in Google Map V3</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="google-maps"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-maps-api-3"/>
+        <author>
+            <name>user794510</name>
+            <uri>http://stackoverflow.com/users/794510</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039709/get-all-geopoints-between-2-endpoints-in-google-map-v3" />
+        <published>2013-04-16T14:25:50Z</published>
+        <updated>2013-04-16T14:25:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need help related to Google Map V3.
+Is it possible to get all the geopoints between 2 endpoints in V3.&lt;/p&gt;
+
+&lt;p&gt;In V2 i have some code as mentioned below
+    var poly = directions.getPolyline()
+    // loop through all the points
+    var p = poly.getVertex(x);
+    // get lat lang
+    p.lat(); p.lng();&lt;/p&gt;
+
+&lt;p&gt;but there is no equivalent code in V3 to get all the lat, lang between the 2 locations.
+can you please help me to get all the lat, lang between the 2 endpoints.&lt;/p&gt;
+
+&lt;p&gt;I am not sure whether i have provided all the information here, please let me know f you have any inputs.&lt;/p&gt;
+
+&lt;p&gt;Thanks,
+-Sharath&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039708</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">jQuery: Wildcard class selector in removeClass</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="selector"/><category scheme="http://stackoverflow.com/feeds/tags" term="wildcard"/><category scheme="http://stackoverflow.com/feeds/tags" term="removeclass"/>
+        <author>
+            <name>mheppler9d</name>
+            <uri>http://stackoverflow.com/users/312051</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039708/jquery-wildcard-class-selector-in-removeclass" />
+        <published>2013-04-16T14:25:47Z</published>
+        <updated>2013-04-16T14:25:47Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;This code snippet works to remove an existing class, before adding a new one, when I specify it directly (ie, &#39;ratingBlock&#39;, &#39;ratingBlock1&#39;, &#39;ratingBlock2&#39;, etc.). But when I use a wildcard selector in the removeClass (&#39;[class^=&quot;ratingBlock&quot;]&#39;), it doesn&#39;t work. Am I doing something wrong? Thanks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;style type=&quot;text/css&quot;&amp;gt;
+.ratingBlock {background:gold !important;}
+.ratingBlock1, .ratingBlock2, .ratingBlock3, .ratingBlock4, .ratingBlock5 {background:LightGreen;}
+&amp;lt;/style&amp;gt;
+
+&amp;lt;div class=&quot;test block ratingBlock&quot;&amp;gt;
+Broken
+&amp;lt;div&amp;gt;&amp;lt;a href=&quot;#&quot; class=&quot;ratingLink ratingNo-1&quot;&amp;gt;1+&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;a href=&quot;#&quot; class=&quot;ratingLink ratingNo-2&quot;&amp;gt;2+&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;a href=&quot;#&quot; class=&quot;ratingLink ratingNo-3&quot;&amp;gt;3+&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+// &amp;lt;![CDATA[
+jQuery(document).ready(function(){
+    initRatingWorks();
+});
+
+function initRatingWorks() {
+    jQuery(&quot;a.ratingLink&quot;).bind(&#39;click&#39;, function() {
+      var star = jQuery(this);
+      var ratingBlock = star.parents(&#39;div.test.block&#39;);
+      var rating = star.attr(&#39;class&#39;).match(/\d+/);
+
+      if (ratingBlock.attr(&#39;class&#39;).indexOf(&#39;ratingBlock&#39;) !== -1) {
+          ratingBlock.removeClass(&#39;[class^=&quot;ratingBlock&quot;]&#39;).addClass(&#39;ratingBlock&#39; + rating);
+      }
+      else {
+          ratingBlock.addClass(&#39;ratingBlock&#39; + rating);
+      }
+
+      return false;
+    });
+}
+// ]]&amp;gt;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039707</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Check if list is flat in Haskell</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="list"/><category scheme="http://stackoverflow.com/feeds/tags" term="haskell"/><category scheme="http://stackoverflow.com/feeds/tags" term="recursion"/><category scheme="http://stackoverflow.com/feeds/tags" term="pattern-matching"/>
+        <author>
+            <name>sindikat</name>
+            <uri>http://stackoverflow.com/users/596361</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039707/check-if-list-is-flat-in-haskell" />
+        <published>2013-04-16T14:25:42Z</published>
+        <updated>2013-04-16T14:25:42Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In &lt;em&gt;&lt;a href=&quot;http://rads.stackoverflow.com/amzn/click/0262560992&quot; rel=&quot;nofollow&quot;&gt;The Little Schemer&lt;/a&gt;&lt;/em&gt; there is a function to check, whether the list is flat:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(define lat?
+  (lambda (l)
+    (cond
+     ((null? l) #t)
+     ((atom? (car l)) (lat? (cdr l)))
+     (else #f))))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m trying to write the same recursive function in Haskell, but have no success:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;is_lat :: [a] -&amp;gt; Bool
+is_lat [] = True
+is_lat (x:xs) = ???
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How do i check that &lt;code&gt;x&lt;/code&gt; is not a list?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039704</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Facebook fql can&#39;t get comments by post_id from comment table</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="facebook"/><category scheme="http://stackoverflow.com/feeds/tags" term="comments"/><category scheme="http://stackoverflow.com/feeds/tags" term="fql"/>
+        <author>
+            <name>Fuli</name>
+            <uri>http://stackoverflow.com/users/1891794</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039704/facebook-fql-cant-get-comments-by-post-id-from-comment-table" />
+        <published>2013-04-16T14:25:34Z</published>
+        <updated>2013-04-16T14:25:34Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Can anyone tell me why I can&#39;t get comments from comment table by post_id.&lt;/p&gt;
+
+&lt;p&gt;Access token is AAAJBMB663igBAJsjBfpbLy9y3rAkoOfKWeVnfQhjUq9vqSy75SCV2XxkNdHHy9mHhdaubhaQUQvta150MCCFbcZC35olkBZBmxTebAiQZDZD&lt;/p&gt;
+
+&lt;p&gt;post_id is 100002553491860_419288394832940&lt;/p&gt;
+
+&lt;p&gt;The post has one comment, I can get it from stream table by fql: select comments from stream where post_id = &#39;100002553491860_419288394832940&#39;, you can run it in graph api explorer.&lt;/p&gt;
+
+&lt;p&gt;Then I tried to get comments of this post from comment table, fql: select text,time,fromid,comment_count,likes,can_like,user_likes,id from comment where post_id=&#39;100002553491860_419288394832940&#39;, but it returns empty. &lt;/p&gt;
+
+&lt;p&gt;Any help is appreciated.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039703</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">update a table on my website</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="phpmyadmin"/>
+        <author>
+            <name>Rael drouianov</name>
+            <uri>http://stackoverflow.com/users/2087907</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039703/update-a-table-on-my-website" />
+        <published>2013-04-16T14:25:34Z</published>
+        <updated>2013-04-16T14:25:34Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Hey all and thank you in advance for any help, I have my website I&#39;m building as a hobby I have an java app I wrote sitting on my comp, it updates certain tables and the the end result is a table shown to users, now I update the tables manually using phpmyadmin.&lt;/p&gt;
+
+&lt;p&gt;The question is how do I set a connection to import tables into my website DB?&lt;/p&gt;
+
+&lt;p&gt;I googled it before I asked, haven&#39;t found related stuff....&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039701</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">SlimDX Debugging help - first chance exception &#39;slimdx.direct3d11.direct3d11 exception&#39;</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="debugging"/><category scheme="http://stackoverflow.com/feeds/tags" term="exception"/><category scheme="http://stackoverflow.com/feeds/tags" term="directx"/><category scheme="http://stackoverflow.com/feeds/tags" term="slimdx"/>
+        <author>
+            <name>FrozT</name>
+            <uri>http://stackoverflow.com/users/652046</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039701/slimdx-debugging-help-first-chance-exception-slimdx-direct3d11-direct3d11-exc" />
+        <published>2013-04-16T14:25:29Z</published>
+        <updated>2013-04-16T14:25:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;C#
+I&#39;m getting this error from SlimDX:
+first chance exception &#39;slimdx.direct3d11.direct3d11 exception&#39;&lt;/p&gt;
+
+&lt;p&gt;but I can&#39;t seem to figure out why/where/when. I&#39;ve turned on every kind of debugging possible, my D3D Device is in debug mode, I have un-managed debugging enabled, I have every form of messaging/breaking turned on in the DirectX Control Panel etc.&lt;/p&gt;
+
+&lt;p&gt;The strange thing is that when this error message occurs, my program keeps running flawlessly and does not break. It wouldn&#39;t even be noticeable if not for the message in the output window. I&#39;ve tried logging things to the console but it&#39;s difficult to know where one thing is starting and another ends because I use multiple threads and such. I tried using a reference device but my app sort of hangs when I do that, and I&#39;ve run this in PIX but I don&#39;t see any errors when I do that&lt;/p&gt;
+
+&lt;p&gt;Kinda strange. It would be nice if it would just break properly so I could debug it.&lt;/p&gt;
+
+&lt;p&gt;Any thoughts? ...&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;pre&gt;D3D11: INFO: Create InputLayout: Name=&quot;unnamed&quot;, Addr=0x06C91304, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097264: CREATE_INPUTLAYOUT ]
+D3D11: INFO: Create BlendState: Name=&quot;unnamed&quot;, Addr=0x06C917BC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097270: CREATE_BLENDSTATE ]
+D3D11: INFO: Create DepthStencilState: Name=&quot;unnamed&quot;, Addr=0x06C919AC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097273: CREATE_DEPTHSTENCILSTATE ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06C03B64, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+D3D11: INFO: Create ShaderResourceView: Name=&quot;unnamed&quot;, Addr=0x06C91DE4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097240: CREATE_SHADERRESOURCEVIEW ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06C0401C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+D3D11: INFO: Create ShaderResourceView: Name=&quot;unnamed&quot;, Addr=0x06C038EC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097240: CREATE_SHADERRESOURCEVIEW ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06C04A34, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+D3D11: INFO: Create ShaderResourceView: Name=&quot;unnamed&quot;, Addr=0x06C041F4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097240: CREATE_SHADERRESOURCEVIEW ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06C05024, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+D3D11: INFO: Create ShaderResourceView: Name=&quot;unnamed&quot;, Addr=0x06C04594, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097240: CREATE_SHADERRESOURCEVIEW ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06C04C0C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+D3D11: INFO: Create ShaderResourceView: Name=&quot;unnamed&quot;, Addr=0x06C043B4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097240: CREATE_SHADERRESOURCEVIEW ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x06C00264, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: Create VertexShader: Name=&quot;unnamed&quot;, Addr=0x06C004F4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097249: CREATE_VERTEXSHADER ]
+D3D11: INFO: Create PixelShader: Name=&quot;unnamed&quot;, Addr=0x06C008AC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097261: CREATE_PIXELSHADER ]
+D3D11: INFO: Create InputLayout: Name=&quot;unnamed&quot;, Addr=0x06C00C74, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097264: CREATE_INPUTLAYOUT ]
+D3D11: INFO: Create RasterizerState: Name=&quot;unnamed&quot;, Addr=0x06C054C4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097276: CREATE_RASTERIZERSTATE ]
+D3D11: INFO: Create Sampler: Name=&quot;unnamed&quot;, Addr=0x06C05684, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097267: CREATE_SAMPLER ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06C05CDC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+A first chance exception of type &#39;SlimDX.Direct3D11.Direct3D11Exception&#39; occurred in SlimDX.dll
+D3D11: INFO: Destroy RenderTargetView: Name=&quot;new_ToScreenView&quot;, Addr=0x06BEEE44 [ STATE_CREATION INFO #2097245: DESTROY_RENDERTARGETVIEW ]
+D3D11: INFO: Destroy Texture2D: Name=&quot;new_Swapchain_Texture&quot;, Addr=0x06BE9C04 [ STATE_CREATION INFO #2097236: DESTROY_TEXTURE2D ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06C05AFC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+D3D11: INFO: Create RenderTargetView: Name=&quot;unnamed&quot;, Addr=0x06BEEE44, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097243: CREATE_RENDERTARGETVIEW ]
+D3D11: INFO: Destroy DepthStencilView: Name=&quot;unnamed&quot;, Addr=0x06BF20D4 [ STATE_CREATION INFO #2097248: DESTROY_DEPTHSTENCILVIEW ]
+D3D11: INFO: Destroy Texture2D: Name=&quot;D3D_depthStencil&quot;, Addr=0x06BEF1B4 [ STATE_CREATION INFO #2097236: DESTROY_TEXTURE2D ]
+D3D11: INFO: Create Texture2D: Name=&quot;unnamed&quot;, Addr=0x06BEF1B4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097234: CREATE_TEXTURE2D ]
+D3D11: INFO: Create DepthStencilView: Name=&quot;unnamed&quot;, Addr=0x06C060AC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097246: CREATE_DEPTHSTENCILVIEW ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x0AC90614, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: Create VertexShader: Name=&quot;unnamed&quot;, Addr=0x0AC9086C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097249: CREATE_VERTEXSHADER ]
+D3D11: INFO: Create PixelShader: Name=&quot;unnamed&quot;, Addr=0x0AC90C04, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097261: CREATE_PIXELSHADER ]
+D3D11: INFO: Create InputLayout: Name=&quot;unnamed&quot;, Addr=0x06C0639C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097264: CREATE_INPUTLAYOUT ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x06C067CC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x06C06B54, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x06C06F2C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x06C07304, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+A first chance exception of type &#39;SlimDX.Direct3D11.Direct3D11Exception&#39; occurred in SlimDX.dll
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x06C07C04, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x0AC9187C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: Create VertexShader: Name=&quot;unnamed&quot;, Addr=0x0AC91B0C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097249: CREATE_VERTEXSHADER ]
+D3D11: INFO: Create PixelShader: Name=&quot;unnamed&quot;, Addr=0x0AC91EC4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097261: CREATE_PIXELSHADER ]
+D3D11: INFO: Create InputLayout: Name=&quot;unnamed&quot;, Addr=0x06BF393C, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097264: CREATE_INPUTLAYOUT ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+A first chance exception of type &#39;SlimDX.Direct3D11.Direct3D11Exception&#39; occurred in SlimDX.dll
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x06BF43EC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: Create Buffer: Name=&quot;unnamed&quot;, Addr=0x0AC93CB4, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097228: CREATE_BUFFER ]
+D3D11: INFO: Create VertexShader: Name=&quot;unnamed&quot;, Addr=0x0AC93F44, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097249: CREATE_VERTEXSHADER ]
+D3D11: INFO: Create PixelShader: Name=&quot;unnamed&quot;, Addr=0x06BF4CAC, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097261: CREATE_PIXELSHADER ]
+D3D11: INFO: Create InputLayout: Name=&quot;unnamed&quot;, Addr=0x06BF5074, ExtRef=1, IntRef=0 [ STATE_CREATION INFO #2097264: CREATE_INPUTLAYOUT ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+D3D11: INFO: ID3D11DeviceContext::Draw: The Pixel Shader unit expects a Shader Resource View at Slot 0, but none is bound. This is OK, as reads of an unbound Shader Resource View are defined to return 0. It is also possible the developer knows the data will not be used anyway. This is only a problem if the developer actually intended to bind a Shader Resource View here.  [ EXECUTION INFO #353: DEVICE_DRAW_SHADERRESOURCEVIEW_NOT_SET ]
+A first chance exception of type &#39;SlimDX.Direct3D11.Direct3D11Exception&#39; occurred in SlimDX.dll&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039700</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Elasticsearch ActiveMQ River Configuration</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="elasticsearch"/><category scheme="http://stackoverflow.com/feeds/tags" term="activemq"/>
+        <author>
+            <name>user2286856</name>
+            <uri>http://stackoverflow.com/users/2286856</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039700/elasticsearch-activemq-river-configuration" />
+        <published>2013-04-16T14:25:24Z</published>
+        <updated>2013-04-16T14:25:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I start to configure an ActiveMQ river, i&#39;m already installed the (&lt;a href=&quot;https://github.com/domdorn/elasticsearch-river-activemq&quot; rel=&quot;nofollow&quot;&gt;ActiveMQ plugin&lt;/a&gt;) but i feel confused about how to make it working, the documentation was so brief, Actually, i follow exactly the steps of creating a new river but i don&#39;t know what are the following steps to follow?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;I have the an ActiveMQ server up and running and i tested it using a
+simple JMS app to push a message into a queue.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I created a new river using:&lt;/p&gt;
+
+&lt;p&gt;curl -XPUT &#39;localhost:9200/_river/myindex_river/_meta&#39; -d &#39;{
+  &quot;type&quot; : &quot;activemq&quot;,
+  &quot;activemq&quot; : {
+      &quot;user&quot; : &quot;guest&quot;,
+      &quot;pass&quot; : &quot;guest&quot;,
+      &quot;brokerUrl&quot; : &quot;failover://tcp://localhost:61616&quot;,
+      &quot;sourceType&quot; : &quot;queue&quot;,
+      &quot;sourceName&quot; : &quot;elasticsearch&quot;,
+      &quot;consumerName&quot; : &quot;activemq_elasticsearch_river_myindex_river&quot;,
+      &quot;durable&quot; : false,
+      &quot;filter&quot; : &quot;&quot;
+  },
+  &quot;index&quot; : {
+       &quot;bulk_size&quot; : 100,
+       &quot;bulk_timeout&quot; : &quot;10ms&quot;
+  }
+}&#39;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;After creating the previous river, i could get it&#39;s status using
+(curl -XGET &#39;localhost:9200/my_index/_status&#39;), it give me the index
+status, not the created river.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Please, any help to get me the right road with ActiveMQ river configuration with the elasticsearch.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039699</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Jquery Flot - Set hoverable for individual data-series</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="flot"/>
+        <author>
+            <name>user1434739</name>
+            <uri>http://stackoverflow.com/users/1434739</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039699/jquery-flot-set-hoverable-for-individual-data-series" />
+        <published>2013-04-16T14:25:22Z</published>
+        <updated>2013-04-16T14:25:22Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have just yesterday begun using a JQuery graphing plugin called Flot. I am trying to plot multiple series while only allowing certain series to be hoverable. The API stipulates that data level options allow setting hoverable true/false. This seems however to be ignored and only graph level options are taking. [https://github.com/flot/flot/blob/master/API.md]&lt;/p&gt;
+
+&lt;p&gt;Here are my data level options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var datasets = [
+    { color: &quot;green&quot;, data: data1, label: &quot;Speed&quot;, lines: { show: true} },
+    { color: &quot;red&quot;, data: data2, label: &quot;N01&quot;} 
+];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here are my graph level options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var options = { series: { bubbles: { active: true, show: true, fill: true, lineWidth: 2} }, grid: { show: true, hoverable: true, clickable: true} };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However as can be seen in this fiddle [http://jsfiddle.net/devin85/ztqaX/] the above settings cause both data-series to be hoverable. From my understanding of the API I should be able to amend the above setting to the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var datasets = [
+    { color: &quot;green&quot;, data: data1, label: &quot;Speed&quot;, lines: { show: true}, hoverable: false, clickable: false},
+    { color: &quot;red&quot;, data: data2, label: &quot;N01&quot;, hoverable: true, clickable: true} 
+];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This however doesn&#39;t work. Please can someone show me how to set which series are hoverable and clickable and which aren&#39;t.&lt;/p&gt;
+
+&lt;p&gt;Thanks from Cape Town, South Africa&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039697</id>
+        <re:rank scheme="http://stackoverflow.com">-5</re:rank>
+        <title type="text">An algorithm for the Pacman maze in Java</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="algorithm"/><category scheme="http://stackoverflow.com/feeds/tags" term="pacman"/>
+        <author>
+            <name>ST Games</name>
+            <uri>http://stackoverflow.com/users/2286887</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039697/an-algorithm-for-the-pacman-maze-in-java" />
+        <published>2013-04-16T14:25:19Z</published>
+        <updated>2013-04-16T14:25:19Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to build a replica of the game Pacman and I need a algorithm for the maze because building it by hand would take a long time.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039695</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Google Glass - API for local resources</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="api"/><category scheme="http://stackoverflow.com/feeds/tags" term="mirror"/><category scheme="http://stackoverflow.com/feeds/tags" term="glass"/>
+        <author>
+            <name>user2286809</name>
+            <uri>http://stackoverflow.com/users/2286809</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039695/google-glass-api-for-local-resources" />
+        <published>2013-04-16T14:25:13Z</published>
+        <updated>2013-04-16T14:25:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;everyone. &lt;/p&gt;
+
+&lt;p&gt;How to get photo, realtime video and text that was authorized by the user to send to the server, perform analysis and respond with specific card? Is there an API for local resources? I have not found in the references (&lt;a href=&quot;https://developers.google.com/glass/v1/reference/&quot; rel=&quot;nofollow&quot;&gt;https://developers.google.com/glass/v1/reference/&lt;/a&gt;). &lt;/p&gt;
+
+&lt;p&gt;Thanks. &lt;/p&gt;
+
+&lt;p&gt;Wilson Santos - Brazil&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039694</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">NSMutableAttributedString is unable to handle large size of the text string</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="textview"/><category scheme="http://stackoverflow.com/feeds/tags" term="large-data"/>
+        <author>
+            <name>Shinning River</name>
+            <uri>http://stackoverflow.com/users/1097877</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039694/nsmutableattributedstring-is-unable-to-handle-large-size-of-the-text-string" />
+        <published>2013-04-16T14:25:10Z</published>
+        <updated>2013-04-16T14:25:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using EGOTextView in to my app.Its using NSMutableAttributedString to handle all text.If I paste large size of the text its crashes.How can I handle with large text by using NSMutableAttributedString or any other way to handle it. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039693</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to do wordwrap for chart labels using d3.js</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="d3.js"/><category scheme="http://stackoverflow.com/feeds/tags" term="nvd3.js"/>
+        <author>
+            <name>user2238971</name>
+            <uri>http://stackoverflow.com/users/2238971</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039693/how-to-do-wordwrap-for-chart-labels-using-d3-js" />
+        <published>2013-04-16T14:25:09Z</published>
+        <updated>2013-04-16T14:25:09Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to implement the horizontal bar chart using d3.js.Some of the chart labels are too long.
+How to do word wrap for the chart labels on y aixs?&lt;/p&gt;
+
+&lt;p&gt;Source code:&lt;/p&gt;
+
+&lt;p&gt;var data = [{&quot;Name&quot;: &quot;Label 1&quot;, &quot;Count&quot;: &quot;428275&quot; }, { &quot;Name&quot;: &quot;Label 2&quot;, &quot;Count&quot;: &quot;365005&quot; }, { &quot;Name&quot;: &quot;Label 3&quot;, &quot;Count&quot;: &quot;327619&quot; }];&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    var m = [30, 10, 10, 310],
+    w = 1000 - m[1] - m[3],
+    h = 550 - m[0] - m[2];
+
+    var format = d3.format(&quot;,.0f&quot;);
+
+    var x = d3.scale.linear().range([0, w + 10]),
+        y = d3.scale.ordinal().rangeRoundBands([0, h], .4);
+
+    var xAxis = d3.svg.axis().scale(x).orient(&quot;bottom&quot;).tickSize(h),
+        yAxis = d3.svg.axis().scale(y).orient(&quot;left&quot;).tickSize(0);
+
+    $(&quot;#chartrendering&quot;).empty();
+    var svg = d3.select(&quot;#chartrendering&quot;).append(&quot;svg&quot;)
+        .attr(&quot;width&quot;, w + m[1] + m[3])
+        .attr(&quot;height&quot;, h + m[0] + m[2])
+      .append(&quot;g&quot;)
+        .attr(&quot;transform&quot;, &quot;translate(&quot; + m[3] + &quot;,&quot; + m[0] + &quot;)&quot;);
+
+    // Set the scale domain.
+
+    x.domain([0, d3.max(data, function (d) { return d.Count; })]);
+    y.domain(data.map(function (d) { return d.Name; }));
+
+    var bar = svg.selectAll(&quot;g.bar&quot;)
+        .data(data)
+      .enter().append(&quot;g&quot;)
+        .attr(&quot;class&quot;, &quot;bar&quot;)
+        .attr(&quot;transform&quot;, function (d) { return &quot;translate(0,&quot; + y(d.Name) + &quot;)&quot;; });
+
+    bar.append(&quot;rect&quot;)
+        .attr(&quot;width&quot;, function (d) { return x(d.Count); })
+        .attr(&quot;height&quot;, y.rangeBand());
+
+    bar.append(&quot;text&quot;)
+        .attr(&quot;class&quot;, &quot;value&quot;)
+        .attr(&quot;x&quot;, function (d) { return x(d.Count); })
+        .attr(&quot;y&quot;, y.rangeBand() / 2)
+        .attr(&quot;dx&quot;, +55)
+        .attr(&quot;dy&quot;, &quot;.35em&quot;)
+        .attr(&quot;text-anchor&quot;, &quot;end&quot;)
+        .text(function (d) { return format(d.Count); });
+
+    svg.append(&quot;g&quot;)
+        .attr(&quot;class&quot;, &quot;x axis&quot;)
+        .call(xAxis);
+
+    svg.append(&quot;g&quot;)
+        .attr(&quot;class&quot;, &quot;y axis&quot;)
+        .call(yAxis);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039595</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to make ctrl+p behave exactly like up arrow in zsh?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="shell"/><category scheme="http://stackoverflow.com/feeds/tags" term="zsh"/>
+        <author>
+            <name>Gordon Gao</name>
+            <uri>http://stackoverflow.com/users/1158027</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039595/how-to-make-ctrlp-behave-exactly-like-up-arrow-in-zsh" />
+        <published>2013-04-16T14:20:25Z</published>
+        <updated>2013-04-16T14:25:32Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;First of all, I am using zsh and on-my-zsh with nearly no other customization.&lt;/p&gt;
+
+&lt;p&gt;In zsh, when I press uparrow, it brings me the latest commands. And if I typed some characters before I press uparrow, it will bring me the latest command starting with those characters. It is quite an useful feature since I issue a lot of git/vim/scp commands alternatively.&lt;/p&gt;
+
+&lt;p&gt;But now I am switching to a keyboard without arrow keys, and I tend to use ctrl+p instead of uparrow for history completion. However, no matter how many characters I typed before press ctrl+p, it will always bring me the latest command (not the latest starting with those charaters)&lt;/p&gt;
+
+&lt;p&gt;How should I configure the zsh (or oh-my-zsh) to fix this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039530</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">jQuery accordion in a nested html triggering doesn&#39;t work</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="accordion"/>
+        <author>
+            <name>Disco</name>
+            <uri>http://stackoverflow.com/users/78970</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039530/jquery-accordion-in-a-nested-html-triggering-doesnt-work" />
+        <published>2013-04-16T14:17:07Z</published>
+        <updated>2013-04-16T14:25:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Basically i&#39;m trying to find the next &#39;sacc-trigger&#39; but &#39;next()&#39; doesn&#39;t work as it&#39;s nested in to a list; i&#39;ve tried many variations like parent().next() but I can&#39;t get it to work.&lt;/p&gt;
+
+&lt;p&gt;Maybe if someone can point me a direction; would be nice.&lt;/p&gt;
+
+&lt;p&gt;I have the following HTML code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&quot;taxo2&quot;&amp;gt;
+    &amp;lt;li class=&quot;&quot;&amp;gt;
+        &amp;lt;div class=&quot;sacc-trigger active&quot; style=&quot;width: 0px;&quot;&amp;gt;
+            Photos
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;sacc-container&quot; style=&quot;display: block; width: 0px;&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li class=&quot;&quot;&amp;gt;
+        &amp;lt;div class=&quot;sacc-trigger&quot; style=&quot;width: 0px;&quot;&amp;gt;
+            Statements
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;sacc-container&quot; style=&quot;display: none; width: 0px;&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li class=&quot;&quot;&amp;gt;
+        &amp;lt;div class=&quot;sacc-trigger&quot; style=&quot;width: 0px;&quot;&amp;gt;
+            Powerpoint Presentations
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;sacc-container&quot; style=&quot;display: none; width: 0px;&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li class=&quot;&quot;&amp;gt;
+        &amp;lt;div class=&quot;sacc-trigger&quot; style=&quot;width: 0px;&quot;&amp;gt;
+            Videos/Interviews
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;sacc-container&quot; style=&quot;display: none; width: 0px;&quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And trying to make it work with jQuery Accordion; have the following source that i&#39;m trying to adapt : &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(function() {
+
+            var $container = $(&#39;.sacc-container&#39;), $trigger = $(&#39;.sacc-trigger&#39;);
+
+            $container.hide();
+            $trigger.first().addClass(&#39;active&#39;).next().show();
+
+            var fullWidth = $container.outerWidth(true);
+            $trigger.css(&#39;width&#39;, fullWidth);
+            $container.css(&#39;width&#39;, fullWidth);
+
+            $trigger.on(&#39;click&#39;, function(e) {
+
+                if ($(this).next().is(&#39;:hidden&#39;)) {
+                    alert(&#39;here2&#39;);
+                    $trigger.removeClass(&#39;active&#39;).next().slideUp(300);
+                    $(this).toggleClass(&#39;active&#39;).next().slideDown(300);
+                }
+                e.preventDefault();
+            });
+
+            // Resize
+            $(window).on(&#39;resize&#39;, function() {
+                fullWidth = $container.outerWidth(true)
+                $trigger.css(&#39;width&#39;, $trigger.parent().width());
+                $container.css(&#39;width&#39;, $container.parent().width());
+            });
+
+        })();
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039359</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Django ManyToMany relation contains value</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="django"/><category scheme="http://stackoverflow.com/feeds/tags" term="django-models"/><category scheme="http://stackoverflow.com/feeds/tags" term="many-to-many"/><category scheme="http://stackoverflow.com/feeds/tags" term="relationship"/><category scheme="http://stackoverflow.com/feeds/tags" term="django-many-to-many"/>
+        <author>
+            <name>Sascuash</name>
+            <uri>http://stackoverflow.com/users/1520085</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039359/django-manytomany-relation-contains-value" />
+        <published>2013-04-16T14:09:25Z</published>
+        <updated>2013-04-16T14:26:07Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to search through a ManyToMany relationship, but I&#39;m doing something wrong and I&#39;m not sure about what it is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;t = Teacher.objects.get(username=u.username)
+var = list(Allowed.objects.filter(allowed=t))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the class I&#39;m using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Allowed(models.Model):
+  owner = models.ForeignKey(Teacher, related_name=&#39;allowed_teacher&#39;)
+  reason = models.CharField(max_length=200, blank=True, null=True)
+  allowed = models.ManyToManyField(Teacher, related_name=&#39;who_is_allowed&#39;, blank=True, null=True)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How can I do it?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039220</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Looping through table and changing &lt;tr&gt; background depending on which checkboxes are checked</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="twitter-bootstrap"/><category scheme="http://stackoverflow.com/feeds/tags" term="coffeescript"/>
+        <author>
+            <name>teenOmar</name>
+            <uri>http://stackoverflow.com/users/880731</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039220/looping-through-table-and-changing-tr-background-depending-on-which-checkboxes" />
+        <published>2013-04-16T14:03:12Z</published>
+        <updated>2013-04-16T14:25:21Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a table with table rows, which contain 2 checkboxes in them, one is under the class of &lt;code&gt;student_late&lt;/code&gt;, and the other is under the class of &lt;code&gt;student_present&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I want it to do the following:&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;student_present&lt;/code&gt; checkbox only is checked, make the tablerow green by adding the class &quot;success&quot;.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;student_present&lt;/code&gt; checkbox is checked as well as the &lt;code&gt;student_late&lt;/code&gt; checkbox, make the tablerow yellow by adding the class &quot;info&quot;.&lt;/p&gt;
+
+&lt;p&gt;If no checkbox is checked, make the tablerow red by adding the class &quot;danger&quot;.&lt;/p&gt;
+
+&lt;p&gt;This is my current CoffeScript:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(document).ready -&amp;gt;
+  return $(&quot;tr .student_present&quot;).each(-&amp;gt;
+    if @checked
+      $(this).closest(&quot;tr&quot;).addClass &quot;success&quot;
+    else
+      $(this).closest(&quot;tr&quot;).addClass &quot;error&quot;
+  )
+  $(&quot;tr .student_late&quot;).each -&amp;gt;
+    $(this).closest(&quot;tr&quot;).addClass &quot;info&quot;  if @checked
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or for those who prefer JS:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(document).ready(function() {
+  return $(&quot;tr .student_present&quot;).each(function() {
+    if (this.checked) {
+      return $(this).closest(&quot;tr&quot;).addClass(&quot;success&quot;);
+    } else {
+      return $(this).closest(&quot;tr&quot;).addClass(&quot;error&quot;);
+    }
+  });
+      return $(&quot;tr .student_late&quot;).each(function() {
+        if (this.checked) {
+      return $(this).closest(&quot;tr&quot;).addClass(&quot;info&quot;);
+    }
+  });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039143</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Jerky Skybox when initially moving the camera in OpenGL scene</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="opengl"/><category scheme="http://stackoverflow.com/feeds/tags" term="skybox"/>
+        <author>
+            <name>Split</name>
+            <uri>http://stackoverflow.com/users/2265300</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039143/jerky-skybox-when-initially-moving-the-camera-in-opengl-scene" />
+        <published>2013-04-16T14:00:05Z</published>
+        <updated>2013-04-16T14:25:38Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am having a little trouble with my skybox in my OpenGL Application.&lt;/p&gt;
+
+&lt;p&gt;In lectures, we were taught to have the skybox fit snugly around the camera. However, after setting the size of my skybox to 2.5f, everytime I move the camera, you can see the skybox jerking to its new position. You only see the jerk when the camera initially moves, continuous movement does not show jerking. Am I doing something wrong?&lt;/p&gt;
+
+&lt;p&gt;Heres the drawing code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mySkybox = new Skybox(myCamera -&amp;gt; x, myCamera -&amp;gt; y, myCamera -&amp;gt; z, 2.5);
+
+void updateScene()
+{
+    myCamera -&amp;gt; Update();
+    drawSkybox();
+
+    glCallList(myStaticObjects);
+}
+void drawSkybox()
+{
+ glTranslatef(myCamera -&amp;gt; x, myCamera -&amp;gt; y, myCamera -&amp;gt; z);
+    glDisable(GL_DEPTH_TEST);
+        mySkybox -&amp;gt; draw();
+    glEnable(GL_DEPTH_TEST);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039087</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to get Domain Controller&#39;s time?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="active-directory"/>
+        <author>
+            <name>user1844074</name>
+            <uri>http://stackoverflow.com/users/1844074</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039087/how-to-get-domain-controllers-time" />
+        <published>2013-04-16T13:57:57Z</published>
+        <updated>2013-04-16T14:26:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using this code but iam getting error that &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;system.directoryservices.activedirectory.directorycontext does not contain a definition of target&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;using System.DirectoryServices.ActiveDirectory;
+
+static void FindAnyTimeServer(DirectoryContext context)
+{
+    try
+    {
+        DomainController dc = DomainController.FindOne(context, LocatorOptions.TimeServerRequired);
+        Console.WriteLine(&quot;A time server for {0} is {1}.&quot;, context.Target, dc.Name);
+    }
+    catch (ActiveDirectoryObjectNotFoundException)
+    {
+        Console.WriteLine(&quot;No time server was found in {0}.&quot;, context.Target);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16038828</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">net use /delete</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="delete"/><category scheme="http://stackoverflow.com/feeds/tags" term="drive"/><category scheme="http://stackoverflow.com/feeds/tags" term="letter"/><category scheme="http://stackoverflow.com/feeds/tags" term="net-use"/>
+        <author>
+            <name>MokiTa</name>
+            <uri>http://stackoverflow.com/users/1013586</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16038828/net-use-delete" />
+        <published>2013-04-16T13:47:10Z</published>
+        <updated>2013-04-16T14:25:42Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m making some batch scripts and I was wondering if there is a way i could use &lt;code&gt;net use * /delete&lt;/code&gt; to delete a specific station.
+E.g:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;net use * \\127.0.0.1\Test1$ 1234 /user:test.com\me
+net use * \\127.0.0.1\Test2$ 1234 /user:test.com\me
+net use * \\127.0.0.1\Test3$ 1234 /user:test.com\me
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, the station I connected to got the next available drive letter in the row.
+I can&#39;t just delete X:, Y:, Z:.. These could be in use by some other stations.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s see i &quot;net use&quot; those 3 stations above and they get a random drive letter each.
+Is there a way I can delete those 3 stations without having to remove the wrong stations or all of them?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16038742</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">JSR-303 How to validate two children objects differently</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="bean-validation"/><category scheme="http://stackoverflow.com/feeds/tags" term="hibernate-validator"/>
+        <author>
+            <name>Rodion Gorkovenko</name>
+            <uri>http://stackoverflow.com/users/1097074</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16038742/jsr-303-how-to-validate-two-children-objects-differently" />
+        <published>2013-04-16T13:43:09Z</published>
+        <updated>2013-04-16T14:26:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using Hibernate Validator as JSR-303 implementation.&lt;/p&gt;
+
+&lt;p&gt;Suppose I have:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Form {
+    @Valid
+    private Owner mainOwner;
+    @Valid
+    private Owner secondOwner;
+    // ... many other fields
+}
+
+class Owner {
+    @DriverLicenseValid // some custom validation
+    private String driverLicense;
+    // ... many other fields
+}
+
+// ...
+
+Form myForm;
+validator.validate(myForm);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See, I want to validate the whole form, it contains two similar child objects of type Owner. Problem is that for mainOwner driverLicense should be @NotNull while for secondOwner it should be @Null.&lt;/p&gt;
+
+&lt;p&gt;I can&#39;t use groups here (can I?) since the whole model is checked by a single validate() call. Is there any way to solve this without writing this rule as a custom constraint on the Form level?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16038440</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">android rtmp streaming error</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/>
+        <author>
+            <name>user1284460</name>
+            <uri>http://stackoverflow.com/users/1284460</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16038440/android-rtmp-streaming-error" />
+        <published>2013-04-16T13:29:54Z</published>
+        <updated>2013-04-16T14:26:12Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i have the following code which has no compilation errors and i got this code from this site in another thread &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   setContentView(R.layout.activity_main);
+
+    WebView wv;  
+    wv = (WebView) findViewById(R.id.webview);  
+    WebSettings settings = wv.getSettings();
+    settings.setJavaScriptEnabled(true);
+    settings.setJavaScriptCanOpenWindowsAutomatically(false);
+    settings.setSupportMultipleWindows(false);
+    settings.setSupportZoom(false);
+    settings.setPluginState(PluginState.ON);
+
+    settings.setDomStorageEnabled(true);
+
+    wv.setVerticalScrollBarEnabled(false);
+    wv.setHorizontalScrollBarEnabled(false);
+    wv.loadUrl(&quot;file:///android_asset/ex.htm&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;i am loading the rtmp html file from assets folder, but everytime i run in emulator for actual thunderbolt device i keep getting this message &quot;Please install adobe flash player&quot;.&lt;/p&gt;
+
+&lt;p&gt;If i run the ex.htm in IE8 it works as i can see the video streaming with no issues.&lt;/p&gt;
+
+&lt;p&gt;Can someone please help me here what i am doing wrong.&lt;/p&gt;
+
+&lt;p&gt;this is html i am using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&amp;gt;
+&amp;lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+
+&amp;lt;style type=&quot;text/css&quot; media=&quot;screen&quot;&amp;gt;
+    html, body{
+        margin:0;
+        padding:0;
+        height:100%;
+    }
+    #altContent{
+        width:100%;
+        height:100%;
+    }
+&amp;lt;/style&amp;gt;
+&amp;lt;title&amp;gt;YOUR TITLE HERE!&amp;lt;/title&amp;gt;
+&amp;lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    var flashvars = {};
+
+    flashvars.HaloColor = &quot;0x0086db&quot;;
+    flashvars.ToolTips = &quot;true&quot;;
+    flashvars.AutoPlay = &quot;true&quot;;
+    flashvars.VolumeLevel = &quot;50&quot;;
+    flashvars.CaptionURL = &quot;YOUR CAPTION HERE&quot;;
+    flashvars.Title = &quot;YOUR TITLE HERE&quot;;
+    flashvars.Logo = &quot;&quot;;
+    flashvars.SRC = &quot;rtmp://live.myp2p.in/estadio54/foxmovies&quot;;
+    flashvars.BufferTime = &quot;5&quot;;
+    flashvars.AutoHideControls = &quot;false&quot;;
+    flashvars.IsLive = &quot;true&quot;;
+
+    var params = {};
+    params.wmode = &quot;transparent&quot;;
+    params.allowfullscreen = &quot;true&quot;;
+
+    var attributes = {};
+    attributes.id = &quot;L3MP&quot;;
+
+    swfobject.embedSWF(&quot;http://media-player.cdn.level3.net/flash/v1_1_1/Level3MediaPlayer.swf&quot;, &quot;altContent&quot;, &quot;100%&quot;, &quot;100%&quot;, &quot;10.1.0&quot;,&quot;http://media-player.cdn.level3.net/flash/v1_1_1/expressInstall.swf&quot;, flashvars, params, attributes);
+&amp;lt;/script&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+ &amp;lt;div id=&quot;altContent&quot;&amp;gt;
+
+  &amp;lt;/div&amp;gt;
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16038346</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">How to get current user privileges in MS Dynamics CRM on server side</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="dynamics-crm-2011"/>
+        <author>
+            <name>shytikov</name>
+            <uri>http://stackoverflow.com/users/1047741</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16038346/how-to-get-current-user-privileges-in-ms-dynamics-crm-on-server-side" />
+        <published>2013-04-16T13:25:40Z</published>
+        <updated>2013-04-16T14:25:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m working on MS CRM plugin, and it should analyze do current user have write access to the current entity. And don&#39;t know how to approach this task right.&lt;/p&gt;
+
+&lt;p&gt;It seems to be most user-friendly way accomplish this task is currently &lt;a href=&quot;http://stackoverflow.com/q/5147974/1047741&quot;&gt;unsupported&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Is there any alternative in MS CRM 2011 SDK, except composing FetchXML query and parsing its output?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16038203</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">In Laravel 3 - need help passing nested data</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="laravel"/><category scheme="http://stackoverflow.com/feeds/tags" term="laravel-3"/>
+        <author>
+            <name>user2038291</name>
+            <uri>http://stackoverflow.com/users/2038291</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16038203/in-laravel-3-need-help-passing-nested-data" />
+        <published>2013-04-16T13:19:37Z</published>
+        <updated>2013-04-16T14:25:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have user&#39;s pics in the users table and I want access to these pics based on the invites I have sent. Trying to grab all the user pictures which relate to all the invtites I have sent. I have a model structure like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class User extends Eloquent
+{
+
+public static $table = &#39;users&#39;;
+public static $accessible = array(&#39;username&#39;, &#39;email&#39;, &#39;picture&#39;, &#39;password&#39;);
+
+public function nests()
+{
+    return $this-&amp;gt;has_many(&#39;Nest&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;pre&gt;&lt;code&gt;class Nest extends Eloquent
+{
+
+public static $table = &#39;nests&#39;;
+
+public function user()
+{
+    return $this-&amp;gt;belongs_to(&#39;User&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;pre&gt;&lt;code&gt;class Invite extends Eloquent
+{
+
+public static $table = &#39;invite&#39;;
+
+
+public function nest()
+{
+    return $this-&amp;gt;belongs_to(&#39;Nest&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Here are my migrations:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    Schema::create(&#39;users&#39;, function($table) {
+    // auto incremental id (PK)
+        $table-&amp;gt;increments(&#39;id&#39;);
+    // varchar 32
+        $table-&amp;gt;string(&#39;username&#39;, 32);
+        $table-&amp;gt;string(&#39;email&#39;, 64);
+        $table-&amp;gt;string(&#39;picture&#39;);
+        $table-&amp;gt;string(&#39;password&#39;);
+        $table-&amp;gt;string(&#39;role&#39;);
+    // boolean
+        $table-&amp;gt;boolean(&#39;true&#39;);
+    // created_at | updated_at DATETIME
+        $table-&amp;gt;timestamps();   
+    });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;pre&gt;&lt;code&gt;    {
+    Schema::create(&#39;nests&#39;, function($table) {
+    // auto incremental id (PK)
+        $table-&amp;gt;increments(&#39;id&#39;);
+    // varchar 32
+        $table-&amp;gt;string(&#39;nestname&#39;, 128);
+        $table-&amp;gt;text(&#39;info&#39;);
+        $table-&amp;gt;integer(&#39;user_id&#39;);
+    // boolean
+        $table-&amp;gt;boolean(&#39;active&#39;);
+    // created_at | updated_at DATETIME
+        $table-&amp;gt;timestamps();   
+    });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    Schema::create(&#39;invite&#39;, function($table) {
+
+        $table-&amp;gt;increments(&#39;id&#39;);
+        $table-&amp;gt;text(&#39;mypeeps&#39;);
+        $table-&amp;gt;integer(&#39;user_id&#39;);
+        $table-&amp;gt;integer(&#39;nest_id&#39;);
+        $table-&amp;gt;string(&#39;email&#39;, 128);
+        $table-&amp;gt;timestamps();   
+    });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is how I am trying to get the pics but it is not working:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    $users = DB::table(&#39;users&#39;)
+    -&amp;gt;join(&#39;nests&#39;, &#39;nests.user_id&#39;, &#39;=&#39;, &#39;users.id&#39;)
+    -&amp;gt;join(&#39;invite&#39;, &#39;invite.nest_id&#39;, &#39;=&#39;, &#39;nests.id&#39;)
+    -&amp;gt;where_nest_id($id)
+    -&amp;gt;get(array(&#39;users.picture&#39;, &#39;users.username&#39;)); 
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16039391</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">How do I return a C# web service that has a generic property?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="web-services"/><category scheme="http://stackoverflow.com/feeds/tags" term="generics"/>
+        <author>
+            <name>Sam Delaney</name>
+            <uri>http://stackoverflow.com/users/258328</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16039391/how-do-i-return-a-c-sharp-web-service-that-has-a-generic-property" />
+        <published>2013-04-16T13:12:51Z</published>
+        <updated>2013-04-16T14:25:33Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am creating a web service, and want to be a bit more elegant with the return data, instead of having lots of properties that the consumer needs to check.&lt;/p&gt;
+
+&lt;p&gt;Depending on what data is generated behind the scenes, I need to be able to return error data, or the data the consumer was expecting.&lt;/p&gt;
+
+&lt;p&gt;Instead of having a large flat object, and filling the properties when needed, and letting the user check a &#39;success&#39; flag, I&#39;d like a single property, Data, to be either an instance of an error class, or an instance of a success class.&lt;/p&gt;
+
+&lt;p&gt;This is kind of what I want to do:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class ItemResponse
+{
+    public bool Success { get; set; }
+    public T Data{ get; set; }
+}
+
+if( /*acceptance criteria*/ )
+{
+    ItemResponse&amp;lt;SuccessData&amp;gt; resp = new ItemResponse&amp;lt;SuccessData&amp;gt;();
+    resp.Data = new SuccessData();
+}
+else
+{
+    ItemResponse&amp;lt;ErrorData&amp;gt; resp = new ItemResponse&amp;lt;ErrorData&amp;gt;();
+    resp.Data = new ErrorData();
+}
+
+return resp;
+
+
+public class SuccessData
+{
+
+}
+
+public class ErrorData
+{
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then have the web method return the object, with the generic property.&lt;/p&gt;
+
+&lt;p&gt;Is this possible, and if so, how would I do it, given that the webmethod return type has to be typed correctly?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16036080</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Magento wrong language in wishlist</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="magento"/><category scheme="http://stackoverflow.com/feeds/tags" term="bugs"/>
+        <author>
+            <name>Adrian Peter</name>
+            <uri>http://stackoverflow.com/users/2149035</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16036080/magento-wrong-language-in-wishlist" />
+        <published>2013-04-16T11:40:16Z</published>
+        <updated>2013-04-16T14:25:25Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve a problem with the magento wishlist. My store has 4 diffrent languages (DE/EN/FR/IT).
+All works great but in the wishlist the product name and description are displayed in the wrong language (in Italien) no matter if the store language is set to English, French etc.
+I know there&#39;s a simliar thread here
+&lt;a href=&quot;http://stackoverflow.com/questions/14299477/magento-not-translating-wishlist-product-name-and-description&quot;&gt;Magento Not Translating Wishlist Product Name and Description&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But the suggestion to remove &lt;code&gt;$product = $this-&amp;gt;_getData(&#39;product&#39;);&lt;/code&gt; doesn&#39;t solve the problem. It only changes product name and description to the default language, which is German. &lt;/p&gt;
+
+&lt;p&gt;//SOLUTION//&lt;/p&gt;
+
+&lt;p&gt;I finally got it. I know it&#39;s not the most perfect solution but it works.
+In /app/code/core/Mage/Wishlist/Model/Item.php at &lt;code&gt;public function getProduct()&lt;/code&gt;
+i removed this line &lt;code&gt;$product = $this-&amp;gt;_getData(&#39;product&#39;);&lt;/code&gt; and added the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$store_id = Mage::app()-&amp;gt;getStore()-&amp;gt;getStoreId();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I changed: &lt;code&gt;$product = Mage::getModel(&#39;catalog/product&#39;)
+                -&amp;gt;setStoreId($this-&amp;gt;getStoreId())
+                -&amp;gt;load($this-&amp;gt;getProductId());&lt;/code&gt;
+to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$product = Mage::getModel(&#39;catalog/product&#39;)
+            -&amp;gt;setStoreId($store_id)
+            -&amp;gt;load($this-&amp;gt;getProductId());
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16032202</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to use pld instruction in ARM</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c"/><category scheme="http://stackoverflow.com/feeds/tags" term="gcc"/><category scheme="http://stackoverflow.com/feeds/tags" term="arm"/>
+        <author>
+            <name>MetallicPriest</name>
+            <uri>http://stackoverflow.com/users/760807</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16032202/how-to-use-pld-instruction-in-arm" />
+        <published>2013-04-16T08:28:51Z</published>
+        <updated>2013-04-16T14:25:18Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I use it like this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;__pld(pin[0], pin[1], pin[2], pin[3], pin[4]);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I get this error.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;undefined reference to `__pld&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What am I missing? Do I need to include a header file or something? I am using ARM Cortex A8, does it even support the &lt;strong&gt;pld&lt;/strong&gt; instruction?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15979846</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">parse memory snapshot hprof index files programmically</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="android-memory"/><category scheme="http://stackoverflow.com/feeds/tags" term="hprof"/>
+        <author>
+            <name>Abhishek</name>
+            <uri>http://stackoverflow.com/users/781794</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15979846/parse-memory-snapshot-hprof-index-files-programmically" />
+        <published>2013-04-12T19:56:44Z</published>
+        <updated>2013-04-16T14:25:26Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to programmically analyze an hprof file.
+Using the hprof-conv tool in the android-sdk I generated a bunch of com.your.package.index files.&lt;/p&gt;
+
+&lt;p&gt;How do I programmically parse these .index files?&lt;/p&gt;
+
+&lt;p&gt;I want run some custom analysis on the dominator tree, which is easy to do through MAT (Eclipse&#39;s Memory Analyser) manually but want to do it in an automated way.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/7357256</id>
+        <re:rank scheme="http://stackoverflow.com">14</re:rank>
+        <title type="text">Disabled form inputs do not appear in request</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="google-chrome"/>
+        <author>
+            <name>hazzik</name>
+            <uri>http://stackoverflow.com/users/259946</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/7357256/disabled-form-inputs-do-not-appear-in-request" />
+        <published>2011-09-09T04:47:15Z</published>
+        <updated>2013-04-16T14:25:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have some disabled inputs in my form and want to send them to a server, but Chrome excludes they from request. &lt;/p&gt;
+
+&lt;p&gt;Is there any workaround for this without adding a hidden field? &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;form action=&quot;/Media/Add&quot;&amp;gt;
+    &amp;lt;input type=&quot;hidden&quot; name=&quot;Id&quot; value=&quot;123&quot; /&amp;gt;
+
+    &amp;lt;!-- this does not appear in request --&amp;gt;
+    &amp;lt;input type=&quot;textbox&quot; name=&quot;Percentage&quot; value=&quot;100&quot; disabled=&quot;disabled&quot; /&amp;gt; 
+
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/2472249</id>
+        <re:rank scheme="http://stackoverflow.com">11</re:rank>
+        <title type="text">Problem reintegrating a branch into the trunk in Subversion 1.5</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="svn"/><category scheme="http://stackoverflow.com/feeds/tags" term="merge"/><category scheme="http://stackoverflow.com/feeds/tags" term="branch"/><category scheme="http://stackoverflow.com/feeds/tags" term="trunk"/><category scheme="http://stackoverflow.com/feeds/tags" term="reintegrate"/>
+        <author>
+            <name>pako</name>
+            <uri>http://stackoverflow.com/users/226640</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/2472249/problem-reintegrating-a-branch-into-the-trunk-in-subversion-1-5" />
+        <published>2010-03-18T18:02:49Z</published>
+        <updated>2013-04-16T14:25:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to reintegrate a development branch into the trunk in my Subversion 1.5 repository. I merged all the changes from the trunk to the development branch prior to this operation. Now when I try to reintegrate the changes from the branch I get the following error message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Command: Reintegrate merge https://dev/svn/branches/devel into C:\trunk  
+Error: Reintegrate can only be used if revisions 280 through 325 were previously   
+Error: merged from https://dev/svn/trunk to the reintegrate   
+Error: source, but this is not the case:  
+Error:   branches/devel/images/test  
+Error:     Missing ranges: /trunk/images/test:280-324  
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The message then goes on complaining about some folders in my project. But when I try to merge the changes from the trunk to the development branch again, TortoiseSVN tells me that there&#39;s nothing to merge (as I already merged all the changes before):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Command: Merging revisions 1-HEAD of https://dev/svn/trunk into C:\devel, respecting ancestry  
+Completed: C:\devel  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m trying to follow the instructions from here: &lt;a href=&quot;http://svnbook.red-bean.com/en/1.5/svn.branchmerge.basicmerging.html&quot;&gt;http://svnbook.red-bean.com/en/1.5/svn.branchmerge.basicmerging.html&lt;/a&gt;, but there&#39;s nothing about solving such a problem.&lt;/p&gt;
+
+&lt;p&gt;Any ideas? Perhaps I should just delete the trunk and then make a copy of my branch? But I&#39;m not really sure if it&#39;s safe.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

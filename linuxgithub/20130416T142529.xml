@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-04-15T07:03:01-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bb33db7a076f4719dc68c235e187dd4bfb16b621</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/bb33db7a076f4719dc68c235e187dd4bfb16b621"/>
+    <title>
+        Merge branches &#39;timers-urgent-for-linus&#39;, &#39;irq-urgent-for-linus&#39; and &#39;core-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-15T07:03:01-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/irqchip/irq-gic.c
+m fs/proc/array.c
+m include/linux/sched.h
+m include/trace/events/sched.h
+m kernel/hrtimer.c
+m kernel/kthread.c
+m kernel/smpboot.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branches &#39;timers-urgent-for-linus&#39;, &#39;irq-urgent-for-linus&#39; and &#39;core-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull {timer,irq,core} fixes from Thomas Gleixner:
+
+ - timer: bug fix for a cpu hotplug race.
+
+ - irq: single bugfix for a wrong return value, which prevents the
+   calling function to invoke the software fallback.
+
+ - core: bugfix which plugs two race confitions which can cause hotplug
+   per cpu threads to end up on the wrong cpu.
+
+* &#39;timers-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  hrtimer: Don&#39;t reinitialize a cpu_base lock on CPU_UP
+
+* &#39;irq-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  irqchip: gic: fix irq_trigger return
+
+* &#39;core-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  kthread: Prevent unpark race which puts threads on the wrong cpu&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/41ef2d5678d83af030125550329b6ae8b74618fa</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/41ef2d5678d83af030125550329b6ae8b74618fa"/>
+    <title>
+        Linux 3.9-rc7
+    </title>
+    <updated>2013-04-14T17:45:16-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Makefile
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Linux 3.9-rc7&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6c4c4d4bdaff7ec0b7b26da67d741f639727c934</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6c4c4d4bdaff7ec0b7b26da67d741f639727c934"/>
+    <title>
+        Merge branch &#39;x86-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-14T11:13:24-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/include/asm/paravirt.h
+m arch/x86/include/asm/paravirt_types.h
+m arch/x86/kernel/paravirt.c
+m arch/x86/lguest/boot.c
+m arch/x86/mm/fault.c
+m arch/x86/mm/pageattr-test.c
+m arch/x86/mm/pageattr.c
+m arch/x86/xen/mmu.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;x86-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull x86 fixes from Ingo Molnar:
+ &quot;Misc fixes&quot;
+
+* &#39;x86-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  x86/mm: Flush lazy MMU when DEBUG_PAGEALLOC is set
+  x86/mm/cpa/selftest: Fix false positive in CPA self test
+  x86/mm/cpa: Convert noop to functional fix
+  x86, mm: Patch out arch_flush_lazy_mmu_mode() when running on bare metal
+  x86, mm, paravirt: Fix vmalloc_fault oops during lazy MMU updates&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/af788e35bff2b98a413c3e81b13c2a27ef6b7528</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/af788e35bff2b98a413c3e81b13c2a27ef6b7528"/>
+    <title>
+        Merge branch &#39;sched-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-14T11:12:17-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m kernel/sched/clock.c
+m kernel/sched/core.c
+m kernel/sched/cputime.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;sched-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull scheduler fixes from Ingo Molnar:
+ &quot;Misc fixlets&quot;
+
+* &#39;sched-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  sched/cputime: Fix accounting on multi-threaded processes
+  sched/debug: Fix sd-&gt;*_idx limit range avoiding overflow
+  sched_clock: Prevent 64bit inatomicity on 32bit systems
+  sched: Convert BUG_ON()s in try_to_wake_up_local() to WARN_ON_ONCE()s&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ae9f4939bad09767c0532f76ccc48cec0ff3ea4e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ae9f4939bad09767c0532f76ccc48cec0ff3ea4e"/>
+    <title>
+        Merge branch &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-14T11:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/kernel/cpu/perf_event_intel_ds.c
+m kernel/events/core.c
+m kernel/events/internal.h
+m kernel/events/ring_buffer.c
+m kernel/trace/ftrace.c
+m kernel/trace/trace.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull perf fixes from Ingo Molnar:
+ &quot;Misc fixlets&quot;
+
+* &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  perf: Fix error return code
+  ftrace: Fix strncpy() use, use strlcpy() instead of strncpy()
+  perf: Fix strncpy() use, use strlcpy() instead of strncpy()
+  perf: Fix strncpy() use, always make sure it&#39;s NUL terminated
+  perf: Fix ring_buffer perf_output_space() boundary calculation
+  perf/x86: Fix uninitialized pt_regs in intel_pmu_drain_bts_buffer()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/93263e5283d5c2bc447bc42956f4fa58a3a0a63a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/93263e5283d5c2bc447bc42956f4fa58a3a0a63a"/>
+    <title>
+        Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+    </title>
+    <updated>2013-04-14T10:55:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/drm_fb_helper.c
+m drivers/gpu/drm/udl/udl_connector.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+
+Pull drm fixes from Dave Airlie:
+ &quot;One fix for a hotplug locking regressions, and one fix for an oops if
+  you unplug the monitor at an inopportune moment on the udl device.&quot;
+
+* &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux:
+  drm/fb-helper: Fix locking in drm_fb_helper_hotplug_event
+  udl: handle EDID failure properly.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ba3b7d827e96e90e3df82695c96b3f9a666c0d82</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ba3b7d827e96e90e3df82695c96b3f9a666c0d82"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+    </title>
+    <updated>2013-04-14T10:54:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/m68k/include/asm/gpio.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+
+Pull m68knommu fix from Greg Ungerer:
+ &quot;This contains only a single compilation fix for ColdFire m68k targets
+  that use local non-GPIOLIB support.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu:
+  m68k: define a local gpio_request_one() function&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4f9a197c223cc019801be948e444d05904391109</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4f9a197c223cc019801be948e444d05904391109"/>
+    <title>
+        Merge git://www.linux-watchdog.org/linux-watchdog
+    </title>
+    <updated>2013-04-14T10:53:54-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/watchdog/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://www.linux-watchdog.org/linux-watchdog
+
+Pull watchdog fix from Wim Van Sebroeck:
+ &quot;It will fix compile errors for the at91rm9200_wdt driver&quot;
+
+* git://www.linux-watchdog.org/linux-watchdog:
+  watchdog: Revert the AT91RM9200_WATCHDOG dependency&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3792a64fdeeb9cab56c22695aaeb0624f1b295b4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/3792a64fdeeb9cab56c22695aaeb0624f1b295b4"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+    </title>
+    <updated>2013-04-14T10:52:54-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/tree-log.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs
+
+Pull one more btrfs fix from Chris Mason:
+ &quot;This has a recent fix from Josef for our tree log replay code.  It
+  fixes problems where the inode counter for the number of bytes in the
+  file wasn&#39;t getting updated properly during fsync replay.
+
+  The commit did get rebased this morning, but it was only to clean up
+  the subject line.  The code hasn&#39;t changed.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mason/linux-btrfs:
+  Btrfs: make sure nbytes are right after log replay&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3c91930f0cbd54d522d8844b221c36199a2dc11e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/3c91930f0cbd54d522d8844b221c36199a2dc11e"/>
+    <title>
+        Merge tag &#39;trace-fixes-v3.9-rc-v3&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+    </title>
+    <updated>2013-04-14T10:50:55-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/ftrace.h
+m kernel/trace/ftrace.c
+m kernel/trace/trace_stack.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;trace-fixes-v3.9-rc-v3&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+
+Pull ftrace fixes from Steven Rostedt:
+ &quot;Namhyung Kim found and fixed a bug that can crash the kernel by simply
+  doing: echo 1234 | tee -a /sys/kernel/debug/tracing/set_ftrace_pid
+
+  Luckily, this can only be done by root, but still is a nasty bug.&quot;
+
+* tag &#39;trace-fixes-v3.9-rc-v3&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace:
+  ftrace: Move ftrace_filter_lseek out of CONFIG_DYNAMIC_FTRACE section
+  tracing: Fix possible NULL pointer dereferences&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/935d8aabd4331f47a89c3e1daa5779d23cf244ee</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/935d8aabd4331f47a89c3e1daa5779d23cf244ee"/>
+    <title>
+        Add file_ns_capable() helper function for open-time capability checking
+    </title>
+    <updated>2013-04-14T10:06:31-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/capability.h
+m kernel/capability.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Add file_ns_capable() helper function for open-time capability checking
+
+Nothing is using it yet, but this will allow us to delay the open-time
+checks to use time, without breaking the normal UNIX permission
+semantics where permissions are determined by the opener (and the file
+descriptor can then be passed to a different process, or the process can
+drop capabilities).
+
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/09549cd01726a7ff8b102a93e46b059531583ab6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/09549cd01726a7ff8b102a93e46b059531583ab6"/>
+    <title>
+        watchdog: Revert the AT91RM9200_WATCHDOG dependency
+    </title>
+    <updated>2013-04-14T00:09:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/868361136814a8f1515f6948cf8a23bd?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>noglitch</name>
+      <uri>https://github.com/noglitch</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/watchdog/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>watchdog: Revert the AT91RM9200_WATCHDOG dependency
+
+Compiling the at91rm9200_wdt.c driver without at91rm9200
+support was leading to several errors:
+
+drivers/built-in.o: In function `at91_wdt_close&#39;:
+at91_adc.c:(.text+0xc9fe4): undefined reference to `at91_st_base&#39;
+drivers/built-in.o: In function `at91_wdt_write&#39;:
+at91_adc.c:(.text+0xca004): undefined reference to `at91_st_base&#39;
+drivers/built-in.o: In function `at91wdt_shutdown&#39;:
+at91_adc.c:(.text+0xca01c): undefined reference to `at91_st_base&#39;
+drivers/built-in.o: In function `at91wdt_suspend&#39;:
+at91_adc.c:(.text+0xca038): undefined reference to `at91_st_base&#39;
+drivers/built-in.o: In function `at91_wdt_open&#39;:
+at91_adc.c:(.text+0xca0cc): undefined reference to `at91_st_base&#39;
+drivers/built-in.o:at91_adc.c:(.text+0xca2c8): more undefined references to
+`at91_st_base&#39; follow
+
+So, reverting the modification of the &quot;depends&quot; Kconfig line
+introduced by patch a6a1bcd37 (watchdog: at91rm9200: add DT support)
+seems to be the good solution.
+
+Signed-off-by: Nicolas Ferre &lt;nicolas.ferre@atmel.com&gt;
+Acked-by: Guenter Roeck &lt;linux@roeck-us.net&gt;
+Signed-off-by: Wim Van Sebroeck &lt;wim@iguana.be&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5b55d708335a9e3e4f61f2dadf7511502205ccd1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5b55d708335a9e3e4f61f2dadf7511502205ccd1"/>
+    <title>
+        vfs: Revert spurious fix to spinning prevention in prune_icache_sb
+    </title>
+    <updated>2013-04-13T16:13:55-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/adac351f518312e0d30d7c7d9ddbab3d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>suleiman@google.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/inode.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>vfs: Revert spurious fix to spinning prevention in prune_icache_sb
+
+Revert commit 62a3ddef6181 (&quot;vfs: fix spinning prevention in prune_icache_sb&quot;).
+
+This commit doesn&#39;t look right: since we are looking at the tail of the
+list (sb-&gt;s_inode_lru.prev) if we want to skip an inode, we should put
+it back at the head of the list instead of the tail, otherwise we will
+keep spinning on it.
+
+Discovered when investigating why prune_icache_sb came top in perf
+reports of a swapping load.
+
+Signed-off-by: Suleiman Souhlal &lt;suleiman@google.com&gt;
+Signed-off-by: Hugh Dickins &lt;hughd@google.com&gt;
+Cc: stable@vger.kernel.org # v3.2+
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a49b7e82cab0f9b41f483359be83f44fbb6b4979</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a49b7e82cab0f9b41f483359be83f44fbb6b4979"/>
+    <title>
+        kobject: fix kset_find_obj() race with concurrent last kobject_put()
+    </title>
+    <updated>2013-04-13T15:15:30-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m lib/kobject.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>kobject: fix kset_find_obj() race with concurrent last kobject_put()
+
+Anatol Pomozov identified a race condition that hits module unloading
+and re-loading.  To quote Anatol:
+
+ &quot;This is a race codition that exists between kset_find_obj() and
+  kobject_put().  kset_find_obj() might return kobject that has refcount
+  equal to 0 if this kobject is freeing by kobject_put() in other
+  thread.
+
+  Here is timeline for the crash in case if kset_find_obj() searches for
+  an object tht nobody holds and other thread is doing kobject_put() on
+  the same kobject:
+
+    THREAD A (calls kset_find_obj())     THREAD B (calls kobject_put())
+    splin_lock()
+                                         atomic_dec_return(kobj-&gt;kref), counter gets zero here
+                                         ... starts kobject cleanup ....
+                                         spin_lock() // WAIT thread A in kobj_kset_leave()
+    iterate over kset-&gt;list
+    atomic_inc(kobj-&gt;kref) (counter becomes 1)
+    spin_unlock()
+                                         spin_lock() // taken
+                                         // it does not know that thread A increased counter so it
+                                         remove obj from list
+                                         spin_unlock()
+                                         vfree(module) // frees module object with containing kobj
+
+    // kobj points to freed memory area!!
+    kobject_put(kobj) // OOPS!!!!
+
+  The race above happens because module.c tries to use kset_find_obj()
+  when somebody unloads module.  The module.c code was introduced in
+  commit 6494a93d55fa&quot;
+
+Anatol supplied a patch specific for module.c that worked around the
+problem by simply not using kset_find_obj() at all, but rather than make
+a local band-aid, this just fixes kset_find_obj() to be thread-safe
+using the proper model of refusing the get a new reference if the
+refcount has already dropped to zero.
+
+See examples of this proper refcount handling not only in the kref
+documentation, but in various other equivalent uses of this pattern by
+grepping for atomic_inc_not_zero().
+
+[ Side note: the module race does indicate that module loading and
+  unloading is not properly serialized wrt sysfs information using the
+  module mutex.  That may require further thought, but this is the
+  correct fix at the kobject layer regardless. ]
+
+Reported-analyzed-and-tested-by: Anatol Pomozov &lt;anatol.pomozov@gmail.com&gt;
+Cc: Greg Kroah-Hartman &lt;gregkh@linuxfoundation.org&gt;
+Cc: Al Viro &lt;viro@zeniv.linux.org.uk&gt;
+Cc: stable@vger.kernel.org
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4bc4bee4595662d8bff92180d5c32e3313a704b0</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4bc4bee4595662d8bff92180d5c32e3313a704b0"/>
+    <title>
+        Btrfs: make sure nbytes are right after log replay
+    </title>
+    <updated>2013-04-13T04:35:06-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b6a9ea274e0df3cd4a45469f25963fff?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>jbacik@fusionio.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/btrfs/tree-log.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Btrfs: make sure nbytes are right after log replay
+
+While trying to track down a tree log replay bug I noticed that fsck was always
+complaining about nbytes not being right for our fsynced file.  That is because
+the new fsync stuff doesn&#39;t wait for ordered extents to complete, so the inodes
+nbytes are not necessarily updated properly when we log it.  So to fix this we
+need to set nbytes to whatever it is on the inode that is on disk, so when we
+replay the extents we can just add the bytes that are being added as we replay
+the extent.  This makes it work for the case that we have the wrong nbytes or
+the case that we logged everything and nbytes is actually correct.  With this
+I&#39;m no longer getting nbytes errors out of btrfsck.
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Josef Bacik &lt;jbacik@fusionio.com&gt;
+Signed-off-by: Chris Mason &lt;chris.mason@fusionio.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1de14c3c5cbc9bb17e9dcc648cda51c0c85d54b9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/1de14c3c5cbc9bb17e9dcc648cda51c0c85d54b9"/>
+    <title>
+        x86-32: Fix possible incomplete TLB invalidate with PAE pagetables
+    </title>
+    <updated>2013-04-12T16:56:47-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4fd481a01b99f3912fa5c3713c61dcbb?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>hansendc</name>
+      <uri>https://github.com/hansendc</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/include/asm/tlb.h
+m arch/x86/mm/pgtable.c
+m include/asm-generic/tlb.h
+m mm/memory.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>x86-32: Fix possible incomplete TLB invalidate with PAE pagetables
+
+This patch attempts to fix:
+
+	https://bugzilla.kernel.org/show_bug.cgi?id=56461
+
+The symptom is a crash and messages like this:
+
+	chrome: Corrupted page table at address 34a03000
+	*pdpt = 0000000000000000 *pde = 0000000000000000
+	Bad pagetable: 000f [#1] PREEMPT SMP
+
+Ingo guesses this got introduced by commit 611ae8e3f520 (&quot;x86/tlb:
+enable tlb flush range support for x86&quot;) since that code started to free
+unused pagetables.
+
+On x86-32 PAE kernels, that new code has the potential to free an entire
+PMD page and will clear one of the four page-directory-pointer-table
+(aka pgd_t entries).
+
+The hardware aggressively &quot;caches&quot; these top-level entries and invlpg
+does not actually affect the CPU&#39;s copy.  If we clear one we *HAVE* to
+do a full TLB flush, otherwise we might continue using a freed pmd page.
+(note, we do this properly on the population side in pud_populate()).
+
+This patch tracks whenever we clear one of these entries in the &#39;struct
+mmu_gather&#39;, and ensures that we follow up with a full tlb flush.
+
+BTW, I disassembled and checked that:
+
+	if (tlb-&gt;fullmm == 0)
+and
+	if (!tlb-&gt;fullmm &amp;&amp; !tlb-&gt;need_flush_all)
+
+generate essentially the same code, so there should be zero impact there
+to the !PAE case.
+
+Signed-off-by: Dave Hansen &lt;dave.hansen@linux.intel.com&gt;
+Cc: Peter Anvin &lt;hpa@zytor.com&gt;
+Cc: Ingo Molnar &lt;mingo@kernel.org&gt;
+Cc: Artem S Tashkinov &lt;t.artem@mailcity.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bf81710c4b6e2df2cc047f7c8e1f342511904b74</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/bf81710c4b6e2df2cc047f7c8e1f342511904b74"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending
+    </title>
+    <updated>2013-04-12T15:26:42-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/target/target_core_alua.c
+m drivers/vhost/tcm_vhost.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending
+
+Pull SCSI target fixes from Nicholas Bellinger:
+ &quot;Here are remaining target-pending items for v3.9-rc7 code.
+
+  The tcm_vhost patches are more than I&#39;d usually include in a -rc7
+  pull, but are changes required for v3.9 to work correctly with the
+  pending vhost-scsi-pci QEMU upstream series merge.  (Paolo CC&#39;ed)
+
+  Plus Asias&#39;s conversion to use vhost_virtqueue-&gt;private_data + RCU for
+  managing vhost-scsi endpoints has gotten alot of review + testing over
+  the past weeks, and MST has ACKed the full series.
+
+  Also, there is a target patch to fix a long-standing bug within
+  control CDB handling with Standby/Offline/Transition ALUA port access
+  states, that had been incorrectly rejecting the control CDBs required
+  for LUN scan to work during these port group states.  CC&#39;ing to
+  stable.&quot;
+
+* git://git.kernel.org/pub/scm/linux/kernel/git/nab/target-pending:
+  target: Fix incorrect fallthrough of ALUA Standby/Offline/Transition CDBs
+  tcm_vhost: Send bad target to guest when cmd fails
+  tcm_vhost: Add vhost_scsi_send_bad_target() helper
+  tcm_vhost: Fix tv_cmd leak in vhost_scsi_handle_vq
+  tcm_vhost: Remove double check of response
+  tcm_vhost: Initialize vq-&gt;last_used_idx when set endpoint
+  tcm_vhost: Use vq-&gt;private_data to indicate if the endpoint is setup
+  tcm_vhost: Use ACCESS_ONCE for vs-&gt;vs_tpg[target] access&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/90f340e22cbbf847269729c4af4faaefc90d560d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/90f340e22cbbf847269729c4af4faaefc90d560d"/>
+    <title>
+        Merge tag &#39;scsi-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+    </title>
+    <updated>2013-04-12T15:18:56-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Documentation/scsi/LICENSE.qla2xxx
+m drivers/scsi/ibmvscsi/ibmvscsi.c
+m drivers/scsi/ipr.c
+m drivers/scsi/libsas/sas_expander.c
+m drivers/scsi/lpfc/lpfc_sli.c
+m drivers/scsi/qla2xxx/qla_attr.c
+m drivers/scsi/qla2xxx/qla_dbg.c
+m drivers/scsi/qla2xxx/qla_def.h
+m drivers/scsi/qla2xxx/qla_gbl.h
+m drivers/scsi/qla2xxx/qla_init.c
+m drivers/scsi/qla2xxx/qla_mbx.c
+m drivers/scsi/qla2xxx/qla_version.h
+m drivers/scsi/st.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;scsi-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+
+Pull SCSI fixes from James Bottomley:
+ &quot;This is a set of ten bug fixes (and two consisting of copyright year
+  update and version number change) pretty much all of which involve
+  either a crash or a hang except the removal of the random sleep from
+  the qla2xxx driver (which is a coding error so bad, we want it gone
+  before anyone has a chance to copy it).&quot;
+
+* tag &#39;scsi-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi:
+  [SCSI] lpfc: fix potential NULL pointer dereference in lpfc_sli4_rq_put()
+  [SCSI] libsas: fix handling vacant phy in sas_set_ex_phy()
+  [SCSI] ibmvscsi: Fix slave_configure deadlock
+  [SCSI] qla2xxx: Update the driver version to 8.04.00.13-k.
+  [SCSI] qla2xxx: Remove debug code that msleeps for random duration.
+  [SCSI] qla2xxx: Update copyright dates information in LICENSE.qla2xxx file.
+  [SCSI] qla2xxx: Fix crash during firmware dump procedure.
+  [SCSI] Revert &quot;qla2xxx: Add setting of driver version string for vendor application.&quot;
+  [SCSI] ipr: dlpar failed when adding an adapter back
+  [SCSI] ipr: fix addition of abort command to HRRQ free queue
+  [SCSI] st: Take additional queue ref in st_probe
+  [SCSI] libsas: use right function to alloc smp response
+  [SCSI] ipr: ipr_test_msi() fails when running with msi-x enabled adapter&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0b1fd266bffdab61f5936c9b67d892b353cbf54e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/0b1fd266bffdab61f5936c9b67d892b353cbf54e"/>
+    <title>
+        Merge branch &#39;for-next&#39; of git://git.samba.org/sfrench/cifs-2.6
+    </title>
+    <updated>2013-04-12T15:18:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/cifs/connect.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-next&#39; of git://git.samba.org/sfrench/cifs-2.6
+
+Pull CIFS fix from Steve French:
+ &quot;Fixes a regression in cifs in which a password which begins with a
+  comma is parsed incorrectly as a blank password&quot;
+
+* &#39;for-next&#39; of git://git.samba.org/sfrench/cifs-2.6:
+  cifs: Allow passwords which begin with a delimitor&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7f49ef69db6bbf756c0abca7e9b65b32e999eec8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/7f49ef69db6bbf756c0abca7e9b65b32e999eec8"/>
+    <title>
+        ftrace: Move ftrace_filter_lseek out of CONFIG_DYNAMIC_FTRACE section
+    </title>
+    <updated>2013-04-12T14:12:41-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/58043e86f52c97091c77fe78a9d8928f?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>rostedt</name>
+      <uri>https://github.com/rostedt</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/ftrace.h
+m kernel/trace/ftrace.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ftrace: Move ftrace_filter_lseek out of CONFIG_DYNAMIC_FTRACE section
+
+As ftrace_filter_lseek is now used with ftrace_pid_fops, it needs to
+be moved out of the #ifdef CONFIG_DYNAMIC_FTRACE section as the
+ftrace_pid_fops is defined when DYNAMIC_FTRACE is not.
+
+Cc: stable@vger.kernel.org
+Cc: Namhyung Kim &lt;namhyung@kernel.org&gt;
+Signed-off-by: Steven Rostedt &lt;rostedt@goodmis.org&gt;&lt;/pre>
+    </content>
+  </entry>
+</feed>

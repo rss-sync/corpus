@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss1full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><!-- generator="FeedCreator 1.7.2" --><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://theoatmeal.com/feed/rss">
+        <title>The Oatmeal - Comics, Quizzes, &amp; Stories</title>
+        <description>The oatmeal tastes better than stale skittles found under the couch cushions</description>
+        <link>http://theoatmeal.com/</link>
+       <dc:date>2013-04-16T14:22:56+01:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/mantis_shrimp" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/merch_apr_2013" />
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/spring_weather" />
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/happy_easter" />
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/gay_marriage" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/quotations" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/dog_paradox_book" />
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/tipping_tooting" />
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/state_of_oatmeal_2013" />
+            </rdf:Seq>
+        </items>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://feeds.feedburner.com/oatmealfeed" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="oatmealfeed" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+    <item rdf:about="http://theoatmeal.com/comics/mantis_shrimp">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-04-09T17:52:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Why the mantis shrimp is my new favorite animal</title>
+        <link>http://theoatmeal.com/comics/mantis_shrimp</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/mantis_shrimp"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/mantis_shrimp.png" alt="Why the mantis shrimp is my new favorite animal" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;A comic about a glorious undersea creature. &lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/mantis_shrimp"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/merch_apr_2013">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-04-04T21:31:18+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Sriracha Beef Jerky</title>
+        <link>http://theoatmeal.com/blog/merch_apr_2013</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/merch_apr_2013"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/merch_apr_2013.png" alt="Sriracha Beef Jerky" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;We're now shipping cock meat.  &lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/merch_apr_2013"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/spring_weather">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-04-01T18:25:39+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>The weather right now</title>
+        <link>http://theoatmeal.com/comics/spring_weather</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/spring_weather"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/spring_weather.png" alt="The weather right now" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;Spring weather. &lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/spring_weather"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/happy_easter">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-31T17:16:59+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Happy Easter</title>
+        <link>http://theoatmeal.com/comics/happy_easter</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/happy_easter"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/happy_easter.png" alt="Happy Easter" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;I drew this comic in 4 minutes so you're not allowed to dislike it. &lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/happy_easter"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/gay_marriage">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-29T18:03:17+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>The gay marriage debate in 50 years</title>
+        <link>http://theoatmeal.com/comics/gay_marriage</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/gay_marriage"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/gay_marriage.png" alt="The gay marriage debate in 50 years" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;The gay marriage debate in 50 years&lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/gay_marriage"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/quotations">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-28T23:23:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>I took some quotations from people I like and illustrated them</title>
+        <link>http://theoatmeal.com/blog/quotations</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/quotations"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/quotations.png" alt="I took some quotations from people I like and illustrated them" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;I took some quotations from people I like and illustrated them.&lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/quotations"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/dog_paradox_book">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-27T21:44:53+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>My Dog: The Paradox got turned into a book!</title>
+        <link>http://theoatmeal.com/blog/dog_paradox_book</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/dog_paradox_book"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/dog_paradox_book.png" alt="My Dog: The Paradox got turned into a book!" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;The comic about my dog got turned into a book that comes out on May 7th. &lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/dog_paradox_book"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/tipping_tooting">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-25T17:24:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Tipping and Tooting - A comic about people who wait tables</title>
+        <link>http://theoatmeal.com/comics/tipping_tooting</link>
+        <description>&lt;a href="http://theoatmeal.com/comics/tipping_tooting"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/tipping_tooting.png" alt="Tipping and Tooting - A comic about people who wait tables" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;A comic about people who wait tables&lt;/p&gt;&lt;a href="http://theoatmeal.com/comics/tipping_tooting"&gt;View&lt;/a&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/state_of_oatmeal_2013">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-02-07T20:35:04+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>The State of The Oatmeal</title>
+        <link>http://theoatmeal.com/blog/state_of_oatmeal_2013</link>
+        <description>&lt;a href="http://theoatmeal.com/blog/state_of_oatmeal_2013"&gt;&lt;img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/state_of_oatmeal_2013.png" alt="The State of The Oatmeal" class="border0" /&gt;&lt;/a&gt;&lt;p&gt;Some updates about my website.&lt;/p&gt;&lt;a href="http://theoatmeal.com/blog/state_of_oatmeal_2013"&gt;View&lt;/a&gt;</description>
+    </item>
+</rdf:RDF>
