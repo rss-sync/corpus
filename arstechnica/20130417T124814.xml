@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.arstechnica.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Ars Technica</title>
+	
+	<link>http://arstechnica.com</link>
+	<description>The Art of Technology</description>
+	<lastBuildDate>Wed, 17 Apr 2013 07:08:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.arstechnica.com/arstechnica/index" /><feedburner:info uri="arstechnica/index" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Fueled by super botnets, DDoS attacks grow meaner and ever-more powerful</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/QTLIjglO7vc/</link>
+		<comments>http://arstechnica.com/security/2013/04/fueled-by-super-botnets-ddos-attacks-grow-meaner-and-ever-more-powerful/#comments</comments>
+		<pubDate>Wed, 17 Apr 2013 07:00:00 +0000</pubDate>
+		<dc:creator>Dan Goodin</dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[botnets]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[distributed denial of service]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247537</guid>
+		<description><![CDATA[Average amount of bandwidth used in DDoS attacks spiked eight-fold last quarter.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/water-cannon-640x457.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="https://commons.wikimedia.org/wiki/File:CPE-Protests-ShowerTime!.jpg">Wikipedia</a>
+				</div>
+	  </div>
+  </div>
+ <p>Coordinated attacks used to knock websites offline grew meaner and more powerful in the past three months, with an eight-fold increase in the average amount of junk traffic used to take sites down, according to a company that helps customers weather the so-called distributed denial-of-service campaigns.</p>
+<p>The average amount of bandwidth used in DDoS attacks mushroomed to an astounding 48.25 gigabits per second in the first quarter, with peaks as high as 130 Gbps, according to Hollywood, Florida-based Prolexic. During the same period last year, bandwidth in the average attack was 6.1 Gbps and in the fourth quarter of last year it was 5.9 Gbps. The average duration of attacks also grew to 34.5 hours, compared with 28.5 hours last year and 32.2 hours during the fourth quarter of 2012. Earlier this month, Prolexic engineers saw an attack that exceeded 160 Gbps, and officials said they wouldn't be surprised if peaks break the 200 Gbps threshold by the end of June.</p>
+<p>The spikes are brought on by new attack techniques that Ars <a href="http://arstechnica.com/security/2012/10/ddos-attacks-against-major-us-banks-no-stuxnet/">first chronicled in October</a>. Rather than using compromised PCs in homes and small offices to flood websites with torrents of traffic, attackers are relying on Web servers, which often have orders of magnitude more bandwidth at their disposal. As Ars reported last week, an ongoing attack on servers running the WordPress blogging application is actively seeking new recruits that can also be harnessed to form <a href="http://arstechnica.com/security/2013/04/huge-attack-on-wordpress-sites-could-spawn-never-before-seen-super-botnet/">never-before-seen botnets</a> to bring still more firepower.</p>
+</div><p><a href="http://arstechnica.com/security/2013/04/fueled-by-super-botnets-ddos-attacks-grow-meaner-and-ever-more-powerful/#p3n">Read 9 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2013/04/fueled-by-super-botnets-ddos-attacks-grow-meaner-and-ever-more-powerful/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QTLIjglO7vc:ruNkF7QWnmo:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=QTLIjglO7vc:ruNkF7QWnmo:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QTLIjglO7vc:ruNkF7QWnmo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=QTLIjglO7vc:ruNkF7QWnmo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QTLIjglO7vc:ruNkF7QWnmo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QTLIjglO7vc:ruNkF7QWnmo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/QTLIjglO7vc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2013/04/fueled-by-super-botnets-ddos-attacks-grow-meaner-and-ever-more-powerful/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/security/2013/04/fueled-by-super-botnets-ddos-attacks-grow-meaner-and-ever-more-powerful/</feedburner:origLink></item>
+		<item>
+		<title>Microsoft scores biggest patent licensee yet: Foxconn</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/5Hq69xhZX_E/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/microsoft-scores-biggest-patent-licensee-yet-chinas-foxconn/#comments</comments>
+		<pubDate>Wed, 17 Apr 2013 02:30:48 +0000</pubDate>
+		<dc:creator>Joe Mullin</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[patent licensing]]></category>
+		<category><![CDATA[patents]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247563</guid>
+		<description><![CDATA[Software giant goes after contract manufacturers to achieve worldwide licensing.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/foxconn.1.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Foxconn Zhengzhou facility, under construction in February 2012.</div>
+	
+			<div class="caption-byline">
+							<a href="http://www.flickr.com/photos/zilpho/6861819885/">Bert van Dijk / flickr</a>
+				</div>
+	  </div>
+  </div>
+ <p>One company—Taiwan's Foxconn—makes a staggering 40 percent of the world's consumer electronic devices.</p>
+<p>Starting now, Microsoft will be getting paid a toll on a large number of those devices. The company's long patent-licensing campaign has landed its biggest client yet in licensing Foxconn, formally named Hon Hai Precision Industry Co. Foxconn has agreed to take a license for any product it produces that runs Google's Android or Chrome operating systems.</p>
+<p>The Redmond software giant has insisted for years now that any company making Android phones needs to license its patents. That campaign has generally been successful; so <a href="http://arstechnica.com/information-technology/2011/10/microsoft-collects-license-fees-on-50-of-android-devices-tells-google-to-wake-up/">successful</a>, in fact, that by 2011 Microsoft was making <a href="http://paidcontent.org/2011/05/27/419-android-royalties-exceed-microsofts-windows-phone-7-revenue/">more money</a> from patent licensing than from its own mobile phone system.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/microsoft-scores-biggest-patent-licensee-yet-chinas-foxconn/#p3n">Read 9 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/microsoft-scores-biggest-patent-licensee-yet-chinas-foxconn/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5Hq69xhZX_E:Vt5UJqYKTCI:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=5Hq69xhZX_E:Vt5UJqYKTCI:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5Hq69xhZX_E:Vt5UJqYKTCI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=5Hq69xhZX_E:Vt5UJqYKTCI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5Hq69xhZX_E:Vt5UJqYKTCI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5Hq69xhZX_E:Vt5UJqYKTCI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/5Hq69xhZX_E" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/microsoft-scores-biggest-patent-licensee-yet-chinas-foxconn/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/microsoft-scores-biggest-patent-licensee-yet-chinas-foxconn/</feedburner:origLink></item>
+		<item>
+		<title>ACLU asks feds to probe wireless carriers over Android security updates</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/KaB7aa8w908/</link>
+		<comments>http://arstechnica.com/security/2013/04/wireless-carriers-deceptive-and-unfair/#comments</comments>
+		<pubDate>Wed, 17 Apr 2013 02:01:25 +0000</pubDate>
+		<dc:creator>Dan Goodin</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[carriers]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[smartphones]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247371</guid>
+		<description><![CDATA["Defective" phones from AT&#038;T, Verizon, Sprint, T-Mobile pose risks, ACLU says.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/android-sharks.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							Aurich Lawson / Thinkstock				</div>
+	  </div>
+  </div>
+ <p>Civil liberties advocates have asked the US Federal Trade Commission to take action against the nation's four major wireless carriers for selling millions of Android smartphones that never, or only rarely, receive updates to patch dangerous security vulnerabilities.</p>
+<p>The request for investigation and complaint for injunctive relief was filed Tuesday by the American Civil Liberties Union against AT&amp;T, Verizon Wireless, Sprint Nextel, and T-Mobile USA. The vast majority of phones that the carriers sell run Google's Android operating system and rarely receive software updates, the 16-page document stated. It went on to allege that the practice violates provisions of the Federal Trade Commission Act barring deceptive and unfair business practices, since the carriers don't disclose that the failure to provide updates in a timely manner puts customers at greater risk of hacking attacks. Among other things, the filing seeks an order allowing customers to terminate contracts that cover a phone that's no longer eligible to receive updates.</p>
+<p>"All four of the major wireless carriers consistently fail to provide consumers with available security updates to repair known security vulnerabilities in the software operating on mobile devices," Christopher Soghoian, principal technologist and senior policy analyst for the ACLU, wrote in the document. "The wireless carriers have failed to warn consumers that the smartphones sold to them are defective and that they are running vulnerable operating system and browser software. The delivery of software updates to consumers is not just an industry best practice, but is in fact a basic requirement for companies selling computing devices that they know will be used to store sensitive information, such as intimate photographs, e-mail, instant messages, and online banking credentials."</p>
+</div><p><a href="http://arstechnica.com/security/2013/04/wireless-carriers-deceptive-and-unfair/#p3n">Read 14 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2013/04/wireless-carriers-deceptive-and-unfair/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KaB7aa8w908:4U4_09IjdIs:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=KaB7aa8w908:4U4_09IjdIs:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KaB7aa8w908:4U4_09IjdIs:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=KaB7aa8w908:4U4_09IjdIs:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KaB7aa8w908:4U4_09IjdIs:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KaB7aa8w908:4U4_09IjdIs:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/KaB7aa8w908" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2013/04/wireless-carriers-deceptive-and-unfair/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/security/2013/04/wireless-carriers-deceptive-and-unfair/</feedburner:origLink></item>
+		<item>
+		<title>Obama threatens CISPA veto, sponsor calls opponents basement-dwelling 14-year-olds</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/c3Nkx8GDgj0/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/obama-threatens-cispa-veto-sponsor-calls-opponents-basement-dwelling-14-year-olds/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 23:45:12 +0000</pubDate>
+		<dc:creator>Timothy B. Lee</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[ACLU]]></category>
+		<category><![CDATA[Barack Obama]]></category>
+		<category><![CDATA[cispa]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247165</guid>
+		<description><![CDATA[White House says the revised "cybersecurity" bill doesn't protect private information.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/basement.1-640x480.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Official HQ of the "No on CISPA" campaign.</div>
+	
+			<div class="caption-byline">
+							<a href="http://www.flickr.com/photos/mobob/7222413/">mobob / flickr</a>
+				</div>
+	  </div>
+  </div>
+ <p>The Obama administration is threatening to veto legislation that would give private companies broad legal immunity for sharing cybersecurity information with the government. The White House detailed the changes it is seeking to the Cyber Intelligence Sharing and Protection Act (CISPA) in a <a href="http://www.whitehouse.gov/sites/default/files/omb/legislative/sap/113/saphr624r_20130416.pdf">Tuesday statement.</a></p>
+<p>The legislation, which was sponsored by Rep Mike Rogers (R-MI), is due for a vote in the House of Representatives this week. A version of the legislation <a href="http://arstechnica.com/tech-policy/2012/04/cispa-passes-house-despite-opposition/">passed the House</a> a year ago, but companion legislation was <a href="http://arstechnica.com/tech-policy/2012/08/cyber-security-legislation-killed-by-senate-filibuster/">defeated</a> by a Senate filibuster.</p>
+<p>Rather than giving the government the power to directly regulate private networks, CISPA focuses on encouraging private companies to share security-related information with each other and the government. The legislation limits the liability of private companies that engage in such information-sharing.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/obama-threatens-cispa-veto-sponsor-calls-opponents-basement-dwelling-14-year-olds/#p3n">Read 9 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/obama-threatens-cispa-veto-sponsor-calls-opponents-basement-dwelling-14-year-olds/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c3Nkx8GDgj0:Xv9mO11j-B0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=c3Nkx8GDgj0:Xv9mO11j-B0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c3Nkx8GDgj0:Xv9mO11j-B0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=c3Nkx8GDgj0:Xv9mO11j-B0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c3Nkx8GDgj0:Xv9mO11j-B0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c3Nkx8GDgj0:Xv9mO11j-B0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/c3Nkx8GDgj0" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/obama-threatens-cispa-veto-sponsor-calls-opponents-basement-dwelling-14-year-olds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/obama-threatens-cispa-veto-sponsor-calls-opponents-basement-dwelling-14-year-olds/</feedburner:origLink></item>
+		<item>
+		<title>Commissioner says IRS has never grabbed e-mails without a warrant</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/g6vw-fQB-h8/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/commissioner-says-irs-has-never-grabbed-e-mails-without-a-warrant/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 23:00:19 +0000</pubDate>
+		<dc:creator>Cyrus Farivar</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[e-mail]]></category>
+		<category><![CDATA[ECPA]]></category>
+		<category><![CDATA[IRS]]></category>
+		<category><![CDATA[privacy]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247357</guid>
+		<description><![CDATA[Acting head tells a Senate committee that policy will be changed within 30 days.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p dir="ltr" id="internal-source-marker_0.1209452659620257">On Tuesday morning, the Internal Revenue Service’s acting commissioner, Steven Miller, <a href="http://www.aclu.org/blog/technology-and-liberty-national-security/irs-says-it-will-respect-4th-amendment-regard-email">told a Senate committee</a> that as far as he knows, the IRS has never obtained e-mails without a warrant.</p>
+<p dir="ltr"><a href="http://www.finance.senate.gov/hearings/hearing/?id=62739085-5056-a032-5281-4500bf4d4fb3">Miller’s testimony</a> comes <a href="http://arstechnica.com/tech-policy/2013/04/like-rest-of-the-feds-the-irs-can-get-your-e-mails-with-no-problem/">less than a week</a> after the American Civil Liberties Union (ACLU) published an Internal Revenue Service (IRS) handbook dating back to 2009 asserting that Americans “do not have a reasonable expectation of privacy in [e-mail] communications.” Miller also agreed to update IRS policy documents within the next 30 days to explicitly reflect this.</p>
+<p dir="ltr">“The short answer is we are not taking that position [that Americans don't have a reasonable expectation of privacy for their e-mail],” he said, noting that the agency follows the verdict from the <a href="http://arstechnica.com/tech-policy/2010/12/appeals-court-warrant-required-before-feds-can-read-e-mail-mail/"><em>United States v. Warshak</em> case</a>. The famous 2010 Sixth Circuit decision found that federal authorities do need a warrant before they can access e-mail.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/commissioner-says-irs-has-never-grabbed-e-mails-without-a-warrant/#p3n">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/commissioner-says-irs-has-never-grabbed-e-mails-without-a-warrant/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=g6vw-fQB-h8:gHC8UexMxE4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=g6vw-fQB-h8:gHC8UexMxE4:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=g6vw-fQB-h8:gHC8UexMxE4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=g6vw-fQB-h8:gHC8UexMxE4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=g6vw-fQB-h8:gHC8UexMxE4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=g6vw-fQB-h8:gHC8UexMxE4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/g6vw-fQB-h8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/commissioner-says-irs-has-never-grabbed-e-mails-without-a-warrant/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/commissioner-says-irs-has-never-grabbed-e-mails-without-a-warrant/</feedburner:origLink></item>
+		<item>
+		<title>ColdFusion hack used to steal hosting provider’s customer data</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/SqDlyNS9RoM/</link>
+		<comments>http://arstechnica.com/security/2013/04/coldfusion-hack-used-to-steal-hosting-providers-customer-data/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 22:45:57 +0000</pubDate>
+		<dc:creator>Sean Gallagher</dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[Adobe]]></category>
+		<category><![CDATA[breach]]></category>
+		<category><![CDATA[ColdFusion]]></category>
+		<category><![CDATA[Linode]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[zero-day]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247267</guid>
+		<description><![CDATA[Linode hit by possible zero-day exploit patched by Adobe on April 9.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>A vulnerability in the ColdFusion Web server platform, reported by Adobe less than a week ago, has apparently been in the wild for almost a month and has allowed the hacking of at least one company website, exposing customer data. Yesterday, it was revealed that the virtual server hosting company Linode had been the victim of a multi-day breach that allowed hackers to gain access to customer records.</p>
+<p>The breach was made possible by a vulnerability in Adobe's ColdFusion server platform that could, according to Adobe, "be exploited to impersonate an authenticated user." A patch had been issued for the vulnerability on <a href="http://www.adobe.com/support/security/bulletins/apsb13-10.html">April 9</a> and was rated as priority "2" and "important." Those ratings placed it at a step down from the most critical, indicating that there were no known exploits at the time the patch was issued but that data was at risk. Adobe credited "an anonymous security researcher," with discovering the vulnerability.</p>
+<p>But according to <a href="http://turtle.dereferenced.org/~nenolod/linode/linode-abridged.txt">IRC conversation</a> including one of the alleged hackers of the site, Linode's site had been compromised for weeks before its discovery. That revelation leaves open the possibility that other ColdFusion sites have been compromised as hackers sought out targets to use the exploit on.</p>
+</div><p><a href="http://arstechnica.com/security/2013/04/coldfusion-hack-used-to-steal-hosting-providers-customer-data/#p3n">Read 5 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2013/04/coldfusion-hack-used-to-steal-hosting-providers-customer-data/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=SqDlyNS9RoM:vtW6RgAYYjk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=SqDlyNS9RoM:vtW6RgAYYjk:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=SqDlyNS9RoM:vtW6RgAYYjk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=SqDlyNS9RoM:vtW6RgAYYjk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=SqDlyNS9RoM:vtW6RgAYYjk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=SqDlyNS9RoM:vtW6RgAYYjk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/SqDlyNS9RoM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2013/04/coldfusion-hack-used-to-steal-hosting-providers-customer-data/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/security/2013/04/coldfusion-hack-used-to-steal-hosting-providers-customer-data/</feedburner:origLink></item>
+		<item>
+		<title>Microsoft Excel: The ruiner of global economies?</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/f4V4lDXsTo4/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/microsoft-excel-the-ruiner-of-global-economies/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 22:20:08 +0000</pubDate>
+		<dc:creator>Peter Bright</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Scientific Method]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247197</guid>
+		<description><![CDATA[A paper used to justify austerity economics appears to contain an Excel error.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/excel-destroys-earth-640x360.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Figuratively speaking, of course.</div>
+	
+			<div class="caption-byline">
+							Aurich Lawson				</div>
+	  </div>
+  </div>
+ <p>An economics paper claiming that high levels of national debt led to low or negative economic growth could turn out to be deeply flawed as a result of, among other things, an incorrect formula in an Excel spreadsheet. Microsoft's PowerPoint has been <a href="http://www.wired.com/wired/archive/11.09/ppt2.html">considered evil</a> thanks to the proliferation of poorly presented data and dull slides that are created with it. Might Excel also deserve such hyperbolic censure?</p>
+<p>The paper, <a href="http://www.nber.org/papers/w15639.pdf">Growth in a Time of Debt</a>, was written by economists Carmen Reinhart and Kenneth Rogoff and published in 2010. Since publication, it has been cited <a href="http://www.reinhartandrogoff.com/related-research/growth-in-a-time-of-debt-featured-in">abundantly</a> by the world's press politicians, including one-time vice president nominee Paul Ryan (R-WI). The link it draws between high levels of debt and negative average economic growth has been used by right-leaning politicians to justify austerity budgets: slashing government expenditure and reducing budget deficits in a bid to curtail the growth of debt.</p>
+<p>This link was always controversial, with many economists proposing that the correlation between high debt and low growth was just as likely to have a causal link in the other direction to that proposed by Reinhart and Rogoff: it's not that high debt causes low growth, but rather that low growth leads to high debt.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/microsoft-excel-the-ruiner-of-global-economies/#p3n">Read 10 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/microsoft-excel-the-ruiner-of-global-economies/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f4V4lDXsTo4:5KqO8QIKL5s:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=f4V4lDXsTo4:5KqO8QIKL5s:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f4V4lDXsTo4:5KqO8QIKL5s:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=f4V4lDXsTo4:5KqO8QIKL5s:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f4V4lDXsTo4:5KqO8QIKL5s:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f4V4lDXsTo4:5KqO8QIKL5s:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/f4V4lDXsTo4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/microsoft-excel-the-ruiner-of-global-economies/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/microsoft-excel-the-ruiner-of-global-economies/</feedburner:origLink></item>
+		<item>
+		<title>Gov’t didn’t shut down cell networks in Boston—but it could have</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/3-kF7I39L30/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/govt-didnt-shut-down-cell-networks-in-boston-but-it-could-have/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 22:00:23 +0000</pubDate>
+		<dc:creator>Timothy B. Lee</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[cell phones]]></category>
+		<category><![CDATA[epic]]></category>
+		<category><![CDATA[SOP 303]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246759</guid>
+		<description><![CDATA[Feds won&#8217;t reveal secret process for shutting off cell service.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/6015396482_9ab293f906_b-640x426.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="http://www.flickr.com/photos/mlrs193/6015396482/">Nick Papakyriazis</a>
+				</div>
+	  </div>
+  </div>
+ <p>The Associated Press got egg on its face Monday when it <a href="http://arstechnica.com/information-technology/2013/04/boston-cellular-networks-flooded-but-service-was-not-cut-off/">admitted</a> it had <a href="https://twitter.com/AP/status/323903338762608641">mistakenly reported</a> that cellular networks in Boston had been shut down to prevent them from being used to remotely detonate explosives. Spokespeople from multiple wireless carriers have told reporters that there were no government requests to deactivate their networks in Boston.</p>
+<p>But while the rumors turned out to be false, the idea wasn't crazy. Federal law enforcement officials <i>do</i> have a process for ordering the deactivation of cell phone service in particular neighborhoods or across entire metropolitan areas. And the details of that process are a closely guarded secret.</p>
+<p>The Electronic Privacy Information Center (EPIC) has formally challenged the secrecy of that process. Last year EPIC <a href="http://epic.org/foia/dhs/SOP_303_FOIA_Request.PDF">filed a Freedom of Information Act request</a> seeking copies of the secret rule known as Standard Operating Procedure 303. When the Department of Homeland Security claimed not to have any records of the rule, EPIC <a href="http://epic.org/foia/dhs/SOP_303_Complaint.pdf">sued</a> to compel the release of the documents.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/govt-didnt-shut-down-cell-networks-in-boston-but-it-could-have/#p3n">Read 11 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/govt-didnt-shut-down-cell-networks-in-boston-but-it-could-have/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=3-kF7I39L30:J2av72oYwYY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=3-kF7I39L30:J2av72oYwYY:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=3-kF7I39L30:J2av72oYwYY:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=3-kF7I39L30:J2av72oYwYY:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=3-kF7I39L30:J2av72oYwYY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=3-kF7I39L30:J2av72oYwYY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/3-kF7I39L30" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/govt-didnt-shut-down-cell-networks-in-boston-but-it-could-have/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/govt-didnt-shut-down-cell-networks-in-boston-but-it-could-have/</feedburner:origLink></item>
+		<item>
+		<title>Samsung Taiwan marketers allegedly created astroturf smear campaign against HTC</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/p-K997bVj3k/</link>
+		<comments>http://arstechnica.com/gadgets/2013/04/samsung-taiwan-marketers-allegedly-created-astroturf-smear-campaign-against-htc/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 21:40:47 +0000</pubDate>
+		<dc:creator>Casey Johnston</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[galaxy]]></category>
+		<category><![CDATA[Galaxy Note]]></category>
+		<category><![CDATA[HTC]]></category>
+		<category><![CDATA[htc one x]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[samsung taiwan]]></category>
+		<category><![CDATA[smartphone]]></category>
+		<category><![CDATA[Sony]]></category>
+		<category><![CDATA[sony xperia s]]></category>
+		<category><![CDATA[Taiwan]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247209</guid>
+		<description><![CDATA[The company is under investigation by Taiwan's FTC and may be fined. ]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/taiwansamsungleaks-onex-v-note-640x249.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">A spreadsheet containing an allegedly fabricated forum comment from a Samsung marketer.</div>
+	
+			<div class="caption-byline">
+							<a href="http://taiwansamsungleaks.org/news/the-cheaters-in-the-forum-2012.html">TaiwanSamsungLeaks</a>
+				</div>
+	  </div>
+  </div>
+ <p>Samsung Taiwan has apparently copped to using “anonymous” comments to <a href="http://en.wiktionary.org/wiki/Astroturf">astroturf</a> forums, boosting the image of its own phones and denigrating those of HTC, according to <a href="http://www.pcadvisor.co.uk/news/tech-industry/3442252/taiwans-ftc-investigating-samsung-for-defaming-htc-on-local-online-forums/">a report from PC Advisor</a> published Tuesday. Taiwan’s Fair Trade Commission has said it is investigating the matter and may fine the company up to NT$25 million (US$835,000) for its activities.</p>
+<p>PC Advisor notes that a site called <a href="http://taiwansamsungleaks.org/">TaiwanSamsungLeaks</a> uncovered alleged evidence that <a href="http://taiwansamsungleaks.org/news/forum-monitoring.html">certain forum comments</a> at OpenTide Taiwan were actually part of a marketing effort for Samsung phones. TaiwanSamsungLeaks asserts that marketers were posing as anonymous users on forums, and would talk down various HTC phones while praising those of Samsung.</p>
+<p>In one instance, a poster speaks about his girlfriend’s HTC One X that constantly crashes, and asserts that Samsung’s Galaxy Note is superior to HTC’s Sensation XL. In another, a user posts battery and graphics benchmarks for the Galaxy S III and HTC One X, claiming the former to be the better phone. The English version of the Chinese site is still difficult reading, and the screenshots of the forum aren't translatable inside a browser, but a third highlighted post appears to disparage the Sony Xperia S. Many of the postings took place around a year ago.</p>
+</div><p><a href="http://arstechnica.com/gadgets/2013/04/samsung-taiwan-marketers-allegedly-created-astroturf-smear-campaign-against-htc/#p3n">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2013/04/samsung-taiwan-marketers-allegedly-created-astroturf-smear-campaign-against-htc/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p-K997bVj3k:zBRK9Z3RGjg:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=p-K997bVj3k:zBRK9Z3RGjg:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p-K997bVj3k:zBRK9Z3RGjg:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=p-K997bVj3k:zBRK9Z3RGjg:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p-K997bVj3k:zBRK9Z3RGjg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p-K997bVj3k:zBRK9Z3RGjg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/p-K997bVj3k" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2013/04/samsung-taiwan-marketers-allegedly-created-astroturf-smear-campaign-against-htc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gadgets/2013/04/samsung-taiwan-marketers-allegedly-created-astroturf-smear-campaign-against-htc/</feedburner:origLink></item>
+		<item>
+		<title>Intel says quarterly profits fell 25 percent as PC industry reels</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/YfoZXOUTbH4/</link>
+		<comments>http://arstechnica.com/business/2013/04/intel-says-quarterly-profits-fell-25-percent-as-pc-industry-reels/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 21:30:37 +0000</pubDate>
+		<dc:creator>Cyrus Farivar</dc:creator>
+				<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[earnings]]></category>
+		<category><![CDATA[Intel]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247211</guid>
+		<description><![CDATA[Intel holds to revenue forecast, analyst says that it "scares the hell out of me."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p dir="ltr" id="internal-source-marker_0.9377070366767484">Remember how we told you last week that <a href="http://arstechnica.com/information-technology/2013/04/if-you-make-pcs-and-youre-not-lenovo-you-might-be-in-trouble/">PC makers are hurting</a>? Not surprisingly, Intel, the world’s largest chip manufacturer, has been hurting too.</p>
+<p dir="ltr">On Tuesday the company released its <a href="http://www.sec.gov/Archives/edgar/data/50863/000115752313001800/a50611333-ex991.htm">latest earnings report</a>, revealing that its quarterly profits from the first quarter of 2013 ($2.045 billion), are down 25 percent when compared to the same period last year ($2.738 billion).</p>
+<p dir="ltr">"Amidst market softness, Intel performed well in the first quarter and I'm excited about what lies ahead for the company," Paul Otellini, the company’s CEO, <a href="http://newsroom.intel.com/community/intel_newsroom/blog/2013/04/16/intel-reports-first-quarter-revenue-of-126-billion?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+IntelNewsroom+%28Intel+Newsroom%29">said in a statement</a> Tuesday. "We shipped our next-generation PC microprocessors, introduced a new family of products for micro-servers, and will ship our new tablet and smartphone microprocessors this quarter."</p>
+</div><p><a href="http://arstechnica.com/business/2013/04/intel-says-quarterly-profits-fell-25-percent-as-pc-industry-reels/#p3n">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/business/2013/04/intel-says-quarterly-profits-fell-25-percent-as-pc-industry-reels/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=YfoZXOUTbH4:X7d5phMqez0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=YfoZXOUTbH4:X7d5phMqez0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=YfoZXOUTbH4:X7d5phMqez0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=YfoZXOUTbH4:X7d5phMqez0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=YfoZXOUTbH4:X7d5phMqez0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=YfoZXOUTbH4:X7d5phMqez0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/YfoZXOUTbH4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/business/2013/04/intel-says-quarterly-profits-fell-25-percent-as-pc-industry-reels/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/business/2013/04/intel-says-quarterly-profits-fell-25-percent-as-pc-industry-reels/</feedburner:origLink></item>
+		<item>
+		<title>Ubisoft Montreal CEO: “Audience is ready” for always-online consoles</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/f3S1IWCywFw/</link>
+		<comments>http://arstechnica.com/gaming/2013/04/ubisoft-montreal-ceo-audience-is-ready-for-always-online-consoles/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 20:25:45 +0000</pubDate>
+		<dc:creator>Kyle Orland</dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[always online]]></category>
+		<category><![CDATA[CEO]]></category>
+		<category><![CDATA[mallat]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[rumor]]></category>
+		<category><![CDATA[Ubisoft]]></category>
+		<category><![CDATA[Ubisoft Montreal]]></category>
+		<category><![CDATA[XBox]]></category>
+		<category><![CDATA[xbox 360]]></category>
+		<category><![CDATA[Yannis Mallat]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247035</guid>
+		<description><![CDATA[But persistent connection needs to "provide clear benefits" to the player.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/watchdogs-640x326.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">"Everything" including your console?</div>
+	
+	  </div>
+  </div>
+ <p>Over the past few weeks, the <a href="http://arstechnica.com/gaming/2013/04/report-500-always-online-xbox-successor-to-launch-in-early-november/">rumor</a> mill has churned out many variations of its latest tidbit: that Microsoft's next console will require a constant Internet connection. Central to the debate over this possibility is whether console gamers and the Internet infrastructure they use is ready for such a requirement. In answer to that crucial question, Ubisoft Montreal CEO Yannis Mallat has offered a qualified "yes."</p>
+<p>When asked about the prospect of an always-online console by <em><a href="http://www.guardian.co.uk/technology/gamesblog/2013/apr/15/yannis-mallat-ubisoft-interview">The Guardian</a></em> recently, Mallat said the final call would have to come from Sony and Microsoft. But he then went on to offer his own thoughts on the issue, saying, "I would say a lot of people are already always online through other devices—I would suspect that the audience is ready."</p>
+<p>Ubisoft has of course <a href="http://arstechnica.com/gaming/2012/07/ubisoft-drm-exploit-opens-pcs-to-security-risk/">taken</a> <a href="http://arstechnica.com/gaming/2012/02/drm-server-transition-to-make-some-ubisoft-games-unplayable-starting-tomorrow/">heat</a> in the past for using DRM that required some sort of Internet connection check to confirm the authenticity of players' PC games. More recently, Microsoft Studios Creative Director Adam Orth <a href="http://arstechnica.com/gaming/2013/04/microsoft-employee-on-rumored-xbox-internet-requirement-dealwithit/">suggested</a> customers complaining about always-online rumors should learn to "deal with it," a sentiment that garnered <a href="http://arstechnica.com/gaming/2013/04/gears-of-war-designer-always-online-future-is-probably-coming-deal-with-it/">support from <i>Gears of War</i> designer Cliff Bleszinski</a> (but Orth might have lost his job <a href="http://arstechnica.com/gaming/2013/04/adam-always-online-orth-no-longer-employed-at-microsoft/">in the process</a>).</p>
+</div><p><a href="http://arstechnica.com/gaming/2013/04/ubisoft-montreal-ceo-audience-is-ready-for-always-online-consoles/#p3n">Read 5 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2013/04/ubisoft-montreal-ceo-audience-is-ready-for-always-online-consoles/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f3S1IWCywFw:UwkOtmc9o-4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=f3S1IWCywFw:UwkOtmc9o-4:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f3S1IWCywFw:UwkOtmc9o-4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=f3S1IWCywFw:UwkOtmc9o-4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f3S1IWCywFw:UwkOtmc9o-4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f3S1IWCywFw:UwkOtmc9o-4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/f3S1IWCywFw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2013/04/ubisoft-montreal-ceo-audience-is-ready-for-always-online-consoles/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gaming/2013/04/ubisoft-montreal-ceo-audience-is-ready-for-always-online-consoles/</feedburner:origLink></item>
+		<item>
+		<title>NASA’s Wallops Flight Facility hosts test of new commercial rocket</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/wCNxbCjC5Q8/</link>
+		<comments>http://arstechnica.com/science/2013/04/nasas-wallops-flight-facility-hosts-test-of-new-commercial-rocket/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 20:10:10 +0000</pubDate>
+		<dc:creator>Matthew Francis</dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[Antares rocket]]></category>
+		<category><![CDATA[Commercial space]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[NASA Wallops]]></category>
+		<category><![CDATA[orbital sciences]]></category>
+		<category><![CDATA[rocket science]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247013</guid>
+		<description><![CDATA[Antares rocket from Orbital Sciences could serve International Space Station.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/Antares2.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The new Antares rocket will be test-launched from NASA Wallops this week.</div>
+	
+			<div class="caption-byline">
+							<a href="http://www.nasa.gov/exploration/commercial/cargo/orbitalsciences-index.html">NASA/Brea Reeves</a>
+				</div>
+	  </div>
+  </div>
+ <p>For decades, the Space Shuttles were the primary way the United States transported cargo and people into low-Earth orbit. Upon retirement of the aging fleet of Shuttles, NASA has promoted a public-private partnership with companies that are developing new rockets for transport into low-Earth orbit. One of these companies, <a href="http://www.orbital.com/">Orbital Sciences Corporation</a>, is test-launching a new rocket design at NASA's <a href="http://www.nasa.gov/centers/wallops/home/index.html">Wallops Flight Facility</a> in Virginia this week.</p>
+<p>Orbital's design, known as Antares, is a multi-purpose middleweight rocket built to carry non-human payloads into space. A major part of its intended purview is robotic delivery to the International Space Station (ISS), an important task for supplying long-duration stays. This week's launch from Wallops is the first orbital test of Antares.</p>
+<p>While NASA's Commercial Orbital Transportation Services (COTS) program for Station resupply only dates to 2006, Orbital has been developing rockets since 1990, beginning with the airplane-launched Pegasus. (For comparison, SpaceX was founded in 2002 and Virgin Galactic began operations in 2004.) Antares is based on Orbital's earlier designs, including the ground-launched Minotaur and Taurus rockets. However, the new design is much heftier, capable of carrying up to 6,120 kilograms (about 13,500 pounds), much higher than Minotaur's 1,730 kg maximum. According to the Orbital website, Antares is also capable of launching payloads on interplanetary trajectories.</p>
+</div><p><a href="http://arstechnica.com/science/2013/04/nasas-wallops-flight-facility-hosts-test-of-new-commercial-rocket/#p3n">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2013/04/nasas-wallops-flight-facility-hosts-test-of-new-commercial-rocket/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=wCNxbCjC5Q8:sMcSNGlZhXw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=wCNxbCjC5Q8:sMcSNGlZhXw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=wCNxbCjC5Q8:sMcSNGlZhXw:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=wCNxbCjC5Q8:sMcSNGlZhXw:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=wCNxbCjC5Q8:sMcSNGlZhXw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=wCNxbCjC5Q8:sMcSNGlZhXw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/wCNxbCjC5Q8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2013/04/nasas-wallops-flight-facility-hosts-test-of-new-commercial-rocket/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/science/2013/04/nasas-wallops-flight-facility-hosts-test-of-new-commercial-rocket/</feedburner:origLink></item>
+		<item>
+		<title>Italy blocks 27 sites suspected of aiding file-sharing</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/fzKaJCSmUzU/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/italy-blocks-27-sites-suspected-of-aiding-file-sharing/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 19:40:02 +0000</pubDate>
+		<dc:creator>Cyrus Farivar</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[BItTorrent]]></category>
+		<category><![CDATA[domain]]></category>
+		<category><![CDATA[italy]]></category>
+		<category><![CDATA[seizure]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247009</guid>
+		<description><![CDATA[While this DNS block can be evaded, move is reminiscent of similar US seizure.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p dir="ltr" id="internal-source-marker_0.9377070366767484">Italian authorities have recently <a href="http://torrentfreak.com/massive-bittorrent-and-cyberlocker-domain-crackdown-underway-130415/">ordered</a> that two dozen file-sharing websites be blocked in Italy, the largest such move since <a href="http://arstechnica.com/business/2010/11/feds-seize-82-domains-selling-counterfeit-goods/">American authorities seized</a> over 80 domain names in 2010.</p>
+<p dir="ltr">The blockage—which occurred at the DNS level and can be <a href="http://bit.ly/13hVJbs">routed around</a>—was <a href="http://bit.ly/13hVeye">ordered</a> (Google Translate) by the Public Prosecutor of Rome. It <a href="http://bit.ly/13hVsFA">appears</a> to have been instated as the result of the alleged illegal downloading of the 2011 French film “<a href="http://www.imdb.com/title/tt0961097/">A Monster in Paris</a>,” which was released in Italian cinemas late last year and has since popped up on some file-sharing sites.</p>
+<p dir="ltr">“The complainant company will naturally have their reasons, but one wonders why 27 [sites] that bring together millions and millions of users have been rendered inaccessible in their entirety,” <a href="http://bit.ly/13hV9KQ">wrote</a> (Google Translate) Fulvio Sarzana, an Italian attorney who has represented similar sites in the past.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/italy-blocks-27-sites-suspected-of-aiding-file-sharing/#p3n">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/italy-blocks-27-sites-suspected-of-aiding-file-sharing/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fzKaJCSmUzU:hLxOxQU4P5s:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=fzKaJCSmUzU:hLxOxQU4P5s:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fzKaJCSmUzU:hLxOxQU4P5s:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=fzKaJCSmUzU:hLxOxQU4P5s:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fzKaJCSmUzU:hLxOxQU4P5s:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fzKaJCSmUzU:hLxOxQU4P5s:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/fzKaJCSmUzU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/italy-blocks-27-sites-suspected-of-aiding-file-sharing/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/italy-blocks-27-sites-suspected-of-aiding-file-sharing/</feedburner:origLink></item>
+		<item>
+		<title>New anti-speech low: buyer sued over negative eBay feedback</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/smE-83lDtng/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/new-anti-speech-low-buyer-sued-over-negative-ebay-feedback/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 19:20:42 +0000</pubDate>
+		<dc:creator>Joe Mullin</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[eBay]]></category>
+		<category><![CDATA[feedback]]></category>
+		<category><![CDATA[free speech]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246925</guid>
+		<description><![CDATA[Buyer complained about $1.44 postage due; seller filed suit. ]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Ratings are important on eBay. Lots of buyers use them to assess the quality and reliability of particular sellers, and lots of sellers will go to great lengths to keep perfect or near-perfect ratings.</p>
+<p>But an Ohio company named Med Express has shown it's willing to go further than other sellers: it's willing to litigate. When Med Express got its first piece of negative feedback, it filed a <a href="http://www.citizen.org/documents/ComplaintandTROMotion.pdf">lawsuit</a>, insisting that the feedback be removed from eBay.</p>
+<p>Amy Nicholls paid $175 for a microscope light, as well as $12 for shipping. She was annoyed when she had to pay an extra $1.44 in postage due and left feedback complaining about that inconvenience. Med Express asked her to remove the feedback and she refused. The company complained that because it offered to refund her the $1.44, she should have taken down the feedback, which had the potential to hurt its business. (In the past six months, Med Express has 142 pieces of positive <a href="http://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback2&amp;ftab=AllFeedback&amp;userid=med_express_sales&amp;iid=-1&amp;de=off&amp;page=1&amp;items=25&amp;interval=180&amp;which=negative&amp;convFdkId=807316957016&amp;convShow=true#807316957016">feedback</a> and only one negative review.)</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/new-anti-speech-low-buyer-sued-over-negative-ebay-feedback/#p3n">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/new-anti-speech-low-buyer-sued-over-negative-ebay-feedback/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=smE-83lDtng:I9rxsE4PWmk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=smE-83lDtng:I9rxsE4PWmk:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=smE-83lDtng:I9rxsE4PWmk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=smE-83lDtng:I9rxsE4PWmk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=smE-83lDtng:I9rxsE4PWmk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=smE-83lDtng:I9rxsE4PWmk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/smE-83lDtng" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/new-anti-speech-low-buyer-sued-over-negative-ebay-feedback/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/new-anti-speech-low-buyer-sued-over-negative-ebay-feedback/</feedburner:origLink></item>
+		<item>
+		<title>Make Google Chrome do your bidding with new Google Apps control panel</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/urUmmTqcCCk/</link>
+		<comments>http://arstechnica.com/information-technology/2013/04/make-google-chrome-do-your-bidding-with-new-google-apps-control-panel/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 19:05:03 +0000</pubDate>
+		<dc:creator>Andrew Cunningham</dc:creator>
+				<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[chrome]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246915</guid>
+		<description><![CDATA[New management features make it easier to manage Chrome in your business.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/Screen-Shot-2013-04-16-at-2.43.52-PM-640x391.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Chrome's Legacy Browser Support plugin will help your business deploy Chrome even if you rely on Internet Explorer for certain internal sites.</div>
+	
+	  </div>
+  </div>
+ <p>If you use Google Chrome in your business, keeping track of your users' settings just got a little easier: Google announced a new admin panel for Google Apps for Business and Education customers that will allow administrators to manage Chrome settings, installed applications and extensions, and other browser behaviors on a wide scale. The available controls are very similar to what already exists for managing Chrome OS—we took a look at those features <a href="http://arstechnica.com/information-technology/2012/06/chrome-os-management-console-brings-improvements-for-businesses/">last year</a>.</p>
+<p>Using the new control requires your users to be signed into Chrome on their computers. Non-Google Apps customers should still be able to manage Chrome using Google's list of <a href="http://www.chromium.org/administrators/policy-list-3">Active Directory-compatible group policies</a>. Both the admin panel and these group policies put Chrome far ahead of other third-party browsers when it comes to enterprise-friendliness. Internet Explorer can be controlled using group policies, but neither Firefox nor Opera expend many resources focusing specifically on businesses.</p>
+<p>Google has also released a new extension to help with legacy sites that require an older browser. The new "<a href="http://support.google.com/chrome/a/bin/answer.py?hl=en&amp;answer=3019558">legacy browser support</a>" extension can open certain links in Internet Explorer for sites that require ActiveX controls and other IE-only features. Administrators can whitelist sites and <a href="http://support.google.com/chrome/a/bin/answer.py?hl=en&amp;answer=3062037&amp;topic=3062034&amp;ctx=topic">install the extension</a> via Active Directory; it won't do anything if your Chrome installation isn't being managed via group policy.</p>
+</div><p><a href="http://arstechnica.com/information-technology/2013/04/make-google-chrome-do-your-bidding-with-new-google-apps-control-panel/#p3n">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/information-technology/2013/04/make-google-chrome-do-your-bidding-with-new-google-apps-control-panel/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=urUmmTqcCCk:qv_0egKGtS0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=urUmmTqcCCk:qv_0egKGtS0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=urUmmTqcCCk:qv_0egKGtS0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=urUmmTqcCCk:qv_0egKGtS0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=urUmmTqcCCk:qv_0egKGtS0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=urUmmTqcCCk:qv_0egKGtS0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/urUmmTqcCCk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/information-technology/2013/04/make-google-chrome-do-your-bidding-with-new-google-apps-control-panel/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/information-technology/2013/04/make-google-chrome-do-your-bidding-with-new-google-apps-control-panel/</feedburner:origLink></item>
+		<item>
+		<title>Latest dark matter search comes a bit short of discovery</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/yPVyWMogmo8/</link>
+		<comments>http://arstechnica.com/science/2013/04/latest-dark-matter-search-comes-a-bit-short-of-discovery/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 18:30:55 +0000</pubDate>
+		<dc:creator>John Timmer</dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[Dark Matter]]></category>
+		<category><![CDATA[particle physics]]></category>
+		<category><![CDATA[Physics]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246871</guid>
+		<description><![CDATA[But the particles it sees are lighter than expected.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/tamu_detector_updated.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">One of the detectors used in the hunt for dark matter.</div>
+	
+			<div class="caption-byline">
+							<a href="http://www.science.tamu.edu/articles/1052">Texas A&amp;M</a>
+				</div>
+	  </div>
+  </div>
+ <p>The evidence for dark matter is comprehensive. We've measured its effect on galaxies and galaxy clusters, and we've seen its imprint in gravitational lenses and the cosmic microwave background. The annoying thing is that we still don't know <em>what it is.</em> All the evidence indicates that dark matter is likely to be a weakly interacting massive particle (or WIMP), but the best we've found when searching for this particle is a few intriguing hints of evidence.</p>
+<p>In the latest hint, the people behind a detector that sits deep in a Minnesota mine say they've observed three events that appear likely to be the faint impact of dark matter particles. Unfortunately, by every measure they try, the significance of these events falls short of discovery. We're therefore left waiting for better detectors and more data—just as we were the last time this team <a href="http://arstechnica.com/science/2009/12/two-events-hint-of-the-impact-of-dark-matter-particles/">announced a similar result</a>.</p>
+<p>Since the evidence indicates that dark matter is a particle (after all, it had to be around before there were even atoms in order to influence the cosmic microwave background), researchers have focused on three ways we might detect a particle that doesn't fit into the existing Standard Model. One track involves searches through the data in the LHC, looking for signs that some of the mass produced in a collision is being carried away by something we can't detect. So far, that hunt has come up blank.</p>
+</div><p><a href="http://arstechnica.com/science/2013/04/latest-dark-matter-search-comes-a-bit-short-of-discovery/#p3n">Read 8 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2013/04/latest-dark-matter-search-comes-a-bit-short-of-discovery/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yPVyWMogmo8:a20vWDiwoAY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=yPVyWMogmo8:a20vWDiwoAY:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yPVyWMogmo8:a20vWDiwoAY:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=yPVyWMogmo8:a20vWDiwoAY:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yPVyWMogmo8:a20vWDiwoAY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yPVyWMogmo8:a20vWDiwoAY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/yPVyWMogmo8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2013/04/latest-dark-matter-search-comes-a-bit-short-of-discovery/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/science/2013/04/latest-dark-matter-search-comes-a-bit-short-of-discovery/</feedburner:origLink></item>
+		<item>
+		<title>Time for some games? Tetris, Pong clones hit Pebble smart watch</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/DVtJpXCMIqA/</link>
+		<comments>http://arstechnica.com/gaming/2013/04/time-for-some-games-tetris-pong-clones-hit-pebble-smartwatch/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 18:10:24 +0000</pubDate>
+		<dc:creator>Kyle Orland</dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[Pebble]]></category>
+		<category><![CDATA[Pong]]></category>
+		<category><![CDATA[snake]]></category>
+		<category><![CDATA[Tetris]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246903</guid>
+		<description><![CDATA[Finally, an awkward, tiny Game Boy for your wrist.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/pebbletetris-640x856.png"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="http://forums.getpebble.com/discussion/4280/tetris-clone">Pebble forums</a>
+				</div>
+	  </div>
+  </div>
+ <p>It's practically a law of technology that if something is programmable in any way, someone will make a version of <i>Tetris</i> for it. The latest evidence for this theory comes via the Pebble smart watch. Pebble recently released an <a href="http://arstechnica.com/gadgets/2013/04/pebble-smart-watch-sdk-is-now-ready-for-creative-third-parties/">app development SDK</a>, and coders are already using it to put simple games like <a href="http://forums.getpebble.com/discussion/4280/tetris-clone"><i>Tetris</i></a> and <a href="http://forums.getpebble.com/discussion/4378/app-pong-clone"><i>Pong</i></a> in the palm of your, er, wrist.</p>
+<p>Loading up the free games is as simple as downloading the PBW file from <a href="http://forums.getpebble.com/categories/watchapp-directory">the Pebble developer forums</a> on your smartphone and then loading it onto your watch. The new third-party games come in addition to <a href="http://www.reddit.com/r/pebble/comments/1ay11f/i_created_the_snake_game_for_the_pebble_watch_ama/">a simple <i>Snake</i> game</a> that arrived via a firmware update a couple weeks ago.</p>
+<p>Our own Pebble reviewer Rob Haining tried out the watch-gaming and noted the watch's built in side-buttons were "a little stiff" for use in actual games. He felt these were not laid out ideally for games like <i>Tetris</i>. Still, Haining was impressed with the "ePaper" display's smooth, 30 frames per second animation, and he said the games were "kind of nice actually... but still weird to play a video game on my watch."</p>
+</div><p><a href="http://arstechnica.com/gaming/2013/04/time-for-some-games-tetris-pong-clones-hit-pebble-smartwatch/#p3n">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2013/04/time-for-some-games-tetris-pong-clones-hit-pebble-smartwatch/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DVtJpXCMIqA:1w33c7gcSrg:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=DVtJpXCMIqA:1w33c7gcSrg:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DVtJpXCMIqA:1w33c7gcSrg:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=DVtJpXCMIqA:1w33c7gcSrg:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DVtJpXCMIqA:1w33c7gcSrg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DVtJpXCMIqA:1w33c7gcSrg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/DVtJpXCMIqA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2013/04/time-for-some-games-tetris-pong-clones-hit-pebble-smartwatch/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gaming/2013/04/time-for-some-games-tetris-pong-clones-hit-pebble-smartwatch/</feedburner:origLink></item>
+		<item>
+		<title>Android was once poised to be an operating system for cameras</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/Q8kskFq9z18/</link>
+		<comments>http://arstechnica.com/gadgets/2013/04/android-was-once-poised-to-be-an-operating-system-for-cameras/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 17:50:57 +0000</pubDate>
+		<dc:creator>Florence Ion</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Andy Rubin]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[tech history]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246843</guid>
+		<description><![CDATA[Then a shift in the industry convinced Google to switch gears. ]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Android co-founder Andy Rubin <a href="http://www.pcworld.com/article/2034723/android-founder-we-aimed-to-make-a-camera-os.html">disclosed </a>that Android was once considered as an operating system for cameras. "The exact same platform, the exact same operating system we built for cameras, that became Android for cellphones," said Rubin, speaking at the Japan New Economy Summit in Tokyo.</p>
+<p>The initial plan for Android was to develop it as an operating system for cameras with built-in cloud capabilities so that photos could be stored online. Rubin shared slides from his original pitch to investors back in 2004, one of which showcases a camera that could be connected to a computer wired or wirelessly, with the computer linked to an "Android Datacenter."</p>
+<p>But as Google worked on this concept, the mobile world was experiencing its own revolution. The company decided to switch gears five months later. "We decided digital cameras wasn't actually a big enough market," said Rubin. "I was worried about Microsoft and I was worried about Symbian. I wasn't worried about iPhone yet."</p>
+</div><p><a href="http://arstechnica.com/gadgets/2013/04/android-was-once-poised-to-be-an-operating-system-for-cameras/#p3n">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2013/04/android-was-once-poised-to-be-an-operating-system-for-cameras/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Q8kskFq9z18:WL6huNyntpE:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=Q8kskFq9z18:WL6huNyntpE:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Q8kskFq9z18:WL6huNyntpE:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=Q8kskFq9z18:WL6huNyntpE:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Q8kskFq9z18:WL6huNyntpE:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Q8kskFq9z18:WL6huNyntpE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/Q8kskFq9z18" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2013/04/android-was-once-poised-to-be-an-operating-system-for-cameras/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gadgets/2013/04/android-was-once-poised-to-be-an-operating-system-for-cameras/</feedburner:origLink></item>
+		<item>
+		<title>Pirate Bay co-founder indicted on charges of hacking, fraud</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/HatEf35_xQk/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/pirate-bay-co-founder-indicted-on-charges-of-hacking-fraud/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 17:45:31 +0000</pubDate>
+		<dc:creator>Cyrus Farivar</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[anakata]]></category>
+		<category><![CDATA[brokep]]></category>
+		<category><![CDATA[Gottfrid Svartholm Warg]]></category>
+		<category><![CDATA[Henrik Olin]]></category>
+		<category><![CDATA[Ola Salmasson]]></category>
+		<category><![CDATA[Peter Sunde]]></category>
+		<category><![CDATA[sweden]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246805</guid>
+		<description><![CDATA[Prosecutor says Gottfrid Svartholm Warg was the "mastermind" of alleged operation.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2012/09/3823809234_52abb21c02_b1-640x426.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Gottfrid Svartholm Warg.</div>
+	
+			<div class="caption-byline">
+							<a href="http://www.flickr.com/photos/boklm/3823809234/">Nicolas Vigier</a>
+				</div>
+	  </div>
+  </div>
+ <p dir="ltr" id="internal-source-marker_0.9377070366767484">On Wednesday, a Swedish court indicted Gottfrid "anakata" Svartholm Warg—the Pirate Bay founder<a href="http://arstechnica.com/tech-policy/2012/09/pirate-bay-cofounder-in-police-custody-after-deportation-to-sweden/"> who has been held in a Swedish detention facility for more than six months</a>.</p>
+<p dir="ltr">"A large amount of data from companies and agencies was taken during the hack, including a large amount of personal data, such as personal identity numbers (<em>personnummer</em>) of people with protected identities," Swedish prosecutor Henrik Olin said in a <a href="http://www.thelocal.se/47376/20130416/">statement</a>.</p>
+<p dir="ltr">Gottfrid was indicted with three other co-defendants, and the four have been <a href="http://bit.ly/13bBos8">charged</a> (Google Translate) with serious fraud, attempted aggravated fraud, and aiding attempted aggravated fraud. The trial has been <a href="http://torrentfreak.com/pirate-bay-founder-charged-with-hacking-companies-and-a-bank-130416/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Torrentfreak+%28Torrentfreak%29&amp;utm_content=Google+Reader">scheduled</a> for late May in Stockholm. Svartholm Warg’s defense attorney, Ola Salmasson, told Ars that he had not yet seen the specific indictment, so he could not comment.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/pirate-bay-co-founder-indicted-on-charges-of-hacking-fraud/#p3n">Read 11 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/pirate-bay-co-founder-indicted-on-charges-of-hacking-fraud/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=HatEf35_xQk:VuLSBpXO99U:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=HatEf35_xQk:VuLSBpXO99U:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=HatEf35_xQk:VuLSBpXO99U:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=HatEf35_xQk:VuLSBpXO99U:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=HatEf35_xQk:VuLSBpXO99U:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=HatEf35_xQk:VuLSBpXO99U:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/HatEf35_xQk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/pirate-bay-co-founder-indicted-on-charges-of-hacking-fraud/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/pirate-bay-co-founder-indicted-on-charges-of-hacking-fraud/</feedburner:origLink></item>
+		<item>
+		<title>The Dealmaster asks: Is 55 inches enough for your TV?</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/PcvOIqw1SXQ/</link>
+		<comments>http://arstechnica.com/gadgets/2013/04/the-dealmaster-asks-is-55-inches-enough-for-your-tv/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 17:15:14 +0000</pubDate>
+		<dc:creator>Lee Hutchinson</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[dealmaster]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246793</guid>
+		<description><![CDATA[Because we happen to have a 55" LCD TV as our top deal this week.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>A good Tuesday morning to you, Arsians! If you didn't get a chance to pick up a giant TV last time, don't despair: for $650, you can have a 55-inch 1080p LCD TV, with built-in Wi-Fi for streaming Netflix and other Internet content. Why futz with an external box or an HTPC just to stream stuff to your TV? Let the TV do it for you!</p>
+<p>If you're set on TVs, we've got plenty of other fun stuff, including a totally cool Harrington high-back office chair for $104. Or, hey, buy the chair <em>and</em> the TV so you have somewhere to sit while you plow through your Netflix queue.</p>
+<p><strong>Top deal:</strong></p>
+</div><p><a href="http://arstechnica.com/gadgets/2013/04/the-dealmaster-asks-is-55-inches-enough-for-your-tv/#p3n">Read 5 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2013/04/the-dealmaster-asks-is-55-inches-enough-for-your-tv/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=PcvOIqw1SXQ:N8qyTRP_quE:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=PcvOIqw1SXQ:N8qyTRP_quE:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=PcvOIqw1SXQ:N8qyTRP_quE:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=PcvOIqw1SXQ:N8qyTRP_quE:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=PcvOIqw1SXQ:N8qyTRP_quE:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=PcvOIqw1SXQ:N8qyTRP_quE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/PcvOIqw1SXQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2013/04/the-dealmaster-asks-is-55-inches-enough-for-your-tv/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gadgets/2013/04/the-dealmaster-asks-is-55-inches-enough-for-your-tv/</feedburner:origLink></item>
+		<item>
+		<title>“Distinguished Warfare” drone and cyber medal shot down</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/imxB3JOJGYs/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/distinguished-warfare-drone-and-cyber-medal-shot-down/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 16:54:02 +0000</pubDate>
+		<dc:creator>Sean Gallagher</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246803</guid>
+		<description><![CDATA[Medal was recalled after heavy fire from VFW, Congress.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>After getting flak from all directions—including the Veterans of Foreign Wars and members of Congress—the Defense Department has <a href="http://www.defense.gov/news/newsarticle.aspx?id=119778">pulled the plug</a> on a proposed medal of valor for drone operators and cyber warriors. The <a href="http://arstechnica.com/tech-policy/2013/02/dod-mints-new-medal-for-drone-pilots-and-cyber-warriors/">Distinguished Warfare Medal</a>, which was announced two months ago by outgoing Defense Secretary Leon Panetta, was shelved by new Defense Secretary Chuck Hagel on April 15.</p>
+<p>The medal was intended to be awarded to members of the military engaged in cyber operations or in drone operations that saved the lives of those on the battlefield, going above and beyond the call of duty. The Distinguished Warfare Medal's "order of precedence"—its position in the ranking of decorations and how they are worn by those who receive them—placed its level of importance just below the Distinguished Flying Cross and just above the Bronze Star. Both of those medals are awarded for valor in actions on the battlefield and have frequently been awarded posthumously.</p>
+<p>The medal was also to be ranked higher than the Purple Heart, awarded to those who have been wounded in battle. That consequence immediately drew the ire of the VFW, which launched an e-mail campaign to rally members behind House and Senate legislation to kill the award—largely because of a perception that it honored people off the battlefield at a higher level than those on it. "The VFW adamantly believes that medals that can only be earned in combat must rank higher than new medals awarded in the rear!" wrote John E. Hamilton, the commander-in-chief of the VFW in a March 9 e-mail.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/distinguished-warfare-drone-and-cyber-medal-shot-down/#p3n">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/distinguished-warfare-drone-and-cyber-medal-shot-down/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=imxB3JOJGYs:xJNobhr9PNk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=imxB3JOJGYs:xJNobhr9PNk:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=imxB3JOJGYs:xJNobhr9PNk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=imxB3JOJGYs:xJNobhr9PNk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=imxB3JOJGYs:xJNobhr9PNk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=imxB3JOJGYs:xJNobhr9PNk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/imxB3JOJGYs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/distinguished-warfare-drone-and-cyber-medal-shot-down/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/distinguished-warfare-drone-and-cyber-medal-shot-down/</feedburner:origLink></item>
+		<item>
+		<title>Facebook’s chat heads headed to iOS later today (Updated)</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/KyWD1e630ys/</link>
+		<comments>http://arstechnica.com/apple/2013/04/facebooks-chat-heads-headed-to-ios-later-today/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 16:29:00 +0000</pubDate>
+		<dc:creator>Jacqui Cheng</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[App Store]]></category>
+		<category><![CDATA[chat heads]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[facebook home]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[ipad]]></category>
+		<category><![CDATA[iphone]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246781</guid>
+		<description><![CDATA[Stickers will also be coming to Facebook's iOS app when it's updated on Tuesday.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/IMG_4268-640x408.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							Andrew Cunningham				</div>
+	  </div>
+  </div>
+ <p>Facebook Home <a href="http://arstechnica.com/apple/2013/04/unless-apple-changes-its-rules-facebook-wont-have-a-home-on-ios/">may not be coming to iOS</a> in its full, Android form any time soon—but "chat heads" will. Facebook CTO Cory Ondrejka <a href="http://allthingsd.com/20130416/facebooks-chat-heads-come-to-iphones-ipad-with-app-update/">announced at the D: Dive into Mobile</a> conference that the new chat heads would be arriving on the Facebook iOS app later today, in addition to stickers (a popular feature in other chat applications, such as LINE) and a new layout for the iPad version of the app.</p>
+<p>What exactly <em>are</em> chat heads? They're not as scary as they sound if you're already used to push notifications. Instead of receiving a simple text notification about a new message you're receiving, you will instead see a bubble with the head of the person who's trying to get in touch with you. The idea is to make messaging more personal—instead of thinking "I have a new Facebook message," you should be thinking "Dang, Aurich wants to talk to me <em>again??</em>"</p>
+<p>Chat heads are <a href="http://arstechnica.com/gadgets/2013/04/facebook-home-is-now-live-and-ready-to-download/">already available</a> for Android users via Facebook Home, which was <a href="http://arstechnica.com/gadgets/2013/04/facebook-reveals-family-of-apps-named-facebook-home/">announced earlier this month</a>. Facebook CEO Mark Zuckerberg indicated at the company's press event that an iOS version of Facebook Home was unlikely, but not impossible, due to the deep OS integration required. Still, a new report from <a href="http://www.bloomberg.com/news/2013-04-15/facebook-talking-to-apple-about-new-home-software-for-iphone.html">Bloomberg</a> on Tuesday indicated that Facebook was in talks with Apple about bringing a version of Facebook Home to the iPhone. “We’ve shown them what we’ve built and we’re just in an ongoing conversation,” Facebook's director of product Adam Mosseri said.</p>
+</div><p><a href="http://arstechnica.com/apple/2013/04/facebooks-chat-heads-headed-to-ios-later-today/#p3n">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/apple/2013/04/facebooks-chat-heads-headed-to-ios-later-today/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KyWD1e630ys:0J1Be0ri7Ps:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=KyWD1e630ys:0J1Be0ri7Ps:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KyWD1e630ys:0J1Be0ri7Ps:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=KyWD1e630ys:0J1Be0ri7Ps:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KyWD1e630ys:0J1Be0ri7Ps:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KyWD1e630ys:0J1Be0ri7Ps:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/KyWD1e630ys" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2013/04/facebooks-chat-heads-headed-to-ios-later-today/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/apple/2013/04/facebooks-chat-heads-headed-to-ios-later-today/</feedburner:origLink></item>
+		<item>
+		<title>Sony exec: PS4 price to target “gamers in the broadest sense”</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/DJD_zG5Pu9o/</link>
+		<comments>http://arstechnica.com/gaming/2013/04/sony-exec-ps4-price-to-target-gamers-in-the-broadest-sense/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 16:11:22 +0000</pubDate>
+		<dc:creator>Kyle Orland</dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[denny]]></category>
+		<category><![CDATA[PlayStation]]></category>
+		<category><![CDATA[Playstation 4]]></category>
+		<category><![CDATA[price]]></category>
+		<category><![CDATA[pricing]]></category>
+		<category><![CDATA[ps4]]></category>
+		<category><![CDATA[Sony]]></category>
+		<category><![CDATA[speculation]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246755</guid>
+		<description><![CDATA[Company remembers the "challenges" of the PlayStation 3 launch.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/02/ps4holiday.png">
+</div>
+ <p>While Sony offered many details about the PlayStation 4 at <a href="http://arstechnica.com/gaming/2013/02/sony-reveals-the-first-official-details-of-the-playstation-4/">its February reveal event</a>, one of the key items missing (aside from <a href="http://arstechnica.com/gaming/2013/02/sony-didnt-actually-show-us-the-ps4s-casing-so-what/">what the system will actually look like</a>) was price. In the absence of that information, we're forced to read vague statements from executives like tea leaves, hoping for some mystical insight into Sony's pricing plans.</p>
+<p>Which brings us to Sony Worldwide Studios Vice President Michael Denny's <a href="http://www.edge-online.com/features/listen-and-learn-michael-denny-on-five-years-of-planning-playstation-4/">recent interview with <em>Edge</em> magazine</a>. Asked point blank about the price point for the upcoming system, Denny said that there was "plenty of time" to announce specifics, but he initimated that Sony was looking for a mass-market friendly pricing.</p>
+<p>"Part of that vision [for the PS4] is we have created a console absolutely focused on gamers—and we want that to be gamers in the broadest sense as well. I think to some extent I can ask you to draw your own conclusions."</p>
+</div><p><a href="http://arstechnica.com/gaming/2013/04/sony-exec-ps4-price-to-target-gamers-in-the-broadest-sense/#p3n">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2013/04/sony-exec-ps4-price-to-target-gamers-in-the-broadest-sense/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DJD_zG5Pu9o:vq2mivfInRU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=DJD_zG5Pu9o:vq2mivfInRU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DJD_zG5Pu9o:vq2mivfInRU:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=DJD_zG5Pu9o:vq2mivfInRU:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DJD_zG5Pu9o:vq2mivfInRU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=DJD_zG5Pu9o:vq2mivfInRU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/DJD_zG5Pu9o" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2013/04/sony-exec-ps4-price-to-target-gamers-in-the-broadest-sense/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gaming/2013/04/sony-exec-ps4-price-to-target-gamers-in-the-broadest-sense/</feedburner:origLink></item>
+		<item>
+		<title>“Syrian Electronic Army” hacks NPR publishing system, edits articles</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/m0ELa49tXXk/</link>
+		<comments>http://arstechnica.com/information-technology/2013/04/syrian-electronic-army-hacks-npr-publishing-system-edits-articles/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 16:03:11 +0000</pubDate>
+		<dc:creator>Jon Brodkin</dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[NPR]]></category>
+		<category><![CDATA[Syria]]></category>
+		<category><![CDATA[syrian electronic army]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246713</guid>
+		<description><![CDATA[Headlines changed to "Syrian Electronic Army was here."
+]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>NPR's Web publishing system and several of the news agency's Twitter accounts were hacked yesterday by a group supportive of the Syrian government that calls itself the "Syrian Electronic Army."</p>
+<p>"Late Monday evening, several stories on the NPR website were defaced with headlines and text that said 'Syrian Electronic Army Was Here,'" an NPR statement published in a <a href="http://NPR.org">NPR.org</a><a href="http://www.npr.org/blogs/thetwo-way/2013/04/16/177421655/npr-org-hacked-syrian-electronic-army-takes-credit">news story</a> on the incident said. "Some of these stories were distributed to and appeared on NPR Member Station websites. We have made the necessary corrections to those stories on NPR.org and are continuing to work with our Member Stations. Similar statements were posted on several NPR Twitter accounts. Those Twitter accounts have been addressed. We are closely monitoring the situation."</p>
+<p>Sophos's Naked Security blog published a <a href="http://nakedsecurity.sophos.com/2013/04/16/syrian-electronic-army-npr/">summary of the hack</a>, including a screenshot of a Google search showing some of the headlines edited by the Syrian Electronic Army:</p>
+</div><p><a href="http://arstechnica.com/information-technology/2013/04/syrian-electronic-army-hacks-npr-publishing-system-edits-articles/#p3n">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/information-technology/2013/04/syrian-electronic-army-hacks-npr-publishing-system-edits-articles/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=m0ELa49tXXk:rJoOH-KwFxo:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=m0ELa49tXXk:rJoOH-KwFxo:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=m0ELa49tXXk:rJoOH-KwFxo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=m0ELa49tXXk:rJoOH-KwFxo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=m0ELa49tXXk:rJoOH-KwFxo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=m0ELa49tXXk:rJoOH-KwFxo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/m0ELa49tXXk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/information-technology/2013/04/syrian-electronic-army-hacks-npr-publishing-system-edits-articles/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/information-technology/2013/04/syrian-electronic-army-hacks-npr-publishing-system-edits-articles/</feedburner:origLink></item>
+		<item>
+		<title>Microsoft aims at Amazon with Azure virtual Windows (and Linux!) IaaS</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/f0LhIxAIetc/</link>
+		<comments>http://arstechnica.com/information-technology/2013/04/microsoft-aims-at-amazon-with-azure-virtual-windows-and-linux-iaas/#comments</comments>
+		<pubDate>Tue, 16 Apr 2013 15:38:55 +0000</pubDate>
+		<dc:creator>Sean Gallagher</dc:creator>
+				<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[iaas]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=246683</guid>
+		<description><![CDATA[Microsoft matches AWS on price with its Infrastructure-as-a-Service offerings.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>In a bid to take on Amazon and other giants of public cloud infrastructure, Microsoft announced on April 16 that it has launched <a href="http://weblogs.asp.net/scottgu/archive/2013/04/16/windows-azure-general-availability-of-infrastructure-as-a-service-iaas.aspx">its own Infrastructure-as-a-Service</a> (IaaS) offering as part of Windows Azure. Stepping beyond Microsoft's Platform-as-a-Service offerings, the new expanded Azure cloud service will allow users to deploy full virtual machines in Microsoft's cloud—including Linux instances.</p>
+<p>The offering, which has been in limited release with companies such as the marketing and media firm <a href="http://digitalairstrike.com/">Digital Air Strike</a>, signals that Microsoft feels it is ready to take on Amazon. Bill Hilf, Microsoft General Manager for the Windows Azure team, wrote in a blog post that Digital Air Strike had been considering using Amazon Web Services before signing on for the Azure IaaS trial. "But [they] concluded that 'when you work for the enterprise, you have to choose Microsoft.'" Hilf added that Microsoft will also match Amazon's pricing on virtual machines and would provide "monthly SLAs that are among the industry's highest."</p>
+<p>Microsoft is offering a <a href="http://support.microsoft.com/kb/2721672">number of preverified server images</a> running on Windows Server, including instances of Microsoft BizTalk Server 2013, Project Server 2013, System Center, SharePoint (2010 and later), and SQL Server (64-bit versions, 2008 and later). The image library available to customers also includes Ubuntu, CentOS, and SUSE Linux distributions.</p>
+</div><p><a href="http://arstechnica.com/information-technology/2013/04/microsoft-aims-at-amazon-with-azure-virtual-windows-and-linux-iaas/#p3n">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/information-technology/2013/04/microsoft-aims-at-amazon-with-azure-virtual-windows-and-linux-iaas/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f0LhIxAIetc:qUUMuNPe70c:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=f0LhIxAIetc:qUUMuNPe70c:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f0LhIxAIetc:qUUMuNPe70c:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=f0LhIxAIetc:qUUMuNPe70c:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f0LhIxAIetc:qUUMuNPe70c:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=f0LhIxAIetc:qUUMuNPe70c:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/f0LhIxAIetc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/information-technology/2013/04/microsoft-aims-at-amazon-with-azure-virtual-windows-and-linux-iaas/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/information-technology/2013/04/microsoft-aims-at-amazon-with-azure-virtual-windows-and-linux-iaas/</feedburner:origLink></item>
+	</channel>
+</rss>

@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-04-17T12:51:16Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/16060536</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to add diffrent First page,odd and even header footer using OpenXml c#..?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="openxml"/><category scheme="http://stackoverflow.com/feeds/tags" term="openxml-sdk"/>
+        <author>
+            <name>Jpaul</name>
+            <uri>http://stackoverflow.com/users/964380</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060536/how-to-add-diffrent-first-page-odd-and-even-header-footer-using-openxml-c" />
+        <published>2013-04-17T12:50:36Z</published>
+        <updated>2013-04-17T12:50:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am new to OpenXml. I have a requirement to create a word document programmatically with different first page header and different odd and even page header footer using OpenXml.
+ I followed this &lt;a href=&quot;http://openxmldeveloper.org/discussions/formats/f/13/p/1610/4124.aspx#4124&quot; rel=&quot;nofollow&quot;&gt;http://openxmldeveloper.org/discussions/formats/f/13/p/1610/4124.aspx#4124&lt;/a&gt;   link and able to create a word document with header and footer(same) in all the pages. not able to do in odd and even pages. &lt;/p&gt;
+
+&lt;p&gt;even went through this link too but not able to achieve my goal. 
+&lt;a href=&quot;http://stackoverflow.com/questions/11672991/add-header-and-footer-to-an-existing-empty-word-document-with-openxml-sdk-2-0&quot;&gt;Add Header and Footer to an existing empty word document with OpenXML SDK 2.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;can any one help me ? 
+Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060535</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">altering folder structure while converting svn repo to git repo using svn2git</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="git"/><category scheme="http://stackoverflow.com/feeds/tags" term="svn2git"/>
+        <author>
+            <name>Venki</name>
+            <uri>http://stackoverflow.com/users/374092</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060535/altering-folder-structure-while-converting-svn-repo-to-git-repo-using-svn2git" />
+        <published>2013-04-17T12:50:33Z</published>
+        <updated>2013-04-17T12:50:33Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am migrating a SVN repository to Git.&lt;/p&gt;
+
+&lt;p&gt;The svn structure is like shown below&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Root
+  + branches
+      + b1
+      + b2
+      + development_branches
+          + d1
+          + d2
+  + tags
+  + trunk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The situation here is the folder branches contains another subdirectory development_branches which in turn contains few branches.&lt;/p&gt;
+
+&lt;p&gt;When I use svn2git, to convert this in to a git repository. The folder development_branches is considered a single branch. Below is the Git branch structure&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Root
+   + b1
+   + b2
+   + development_branches
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;is it possible to make svn2git to consider the contents of the folder &quot;development_branches&quot; as individual branches instead, or is there a way in Git which will enable to mark the folders inside the folder development_branches as individual branches?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060533</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Jar : No Class Def Found Error</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="ant"/><category scheme="http://stackoverflow.com/feeds/tags" term="jar"/>
+        <author>
+            <name>Maniac</name>
+            <uri>http://stackoverflow.com/users/2013845</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060533/jar-no-class-def-found-error" />
+        <published>2013-04-17T12:50:24Z</published>
+        <updated>2013-04-17T12:50:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to build a project using Ant Build and i have referenced several jars to make it work. Now When i put the jar created by Ant build in some other machine and run it. 
+I am getting the error saying that NoClassDefFoundError org/apache... Not found&lt;/p&gt;
+
+&lt;p&gt;Is there anyway to put all the referenced jars in the classpath of the project or in the manifest file&lt;/p&gt;
+
+&lt;p&gt;Or is there anyway to repackage all the jar in a project?&lt;/p&gt;
+
+&lt;p&gt;I knw there is one method using &lt;em&gt;jarjar&lt;/em&gt; but i dont have any idea of how to use it&lt;/p&gt;
+
+&lt;p&gt;Pls Suggest some ideas..Stuck with this small problem for a long time..&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060531</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">@font-face working on localhost but not in live server</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="css"/><category scheme="http://stackoverflow.com/feeds/tags" term="css3"/><category scheme="http://stackoverflow.com/feeds/tags" term="css-selectors"/>
+        <author>
+            <name>Arun Singh</name>
+            <uri>http://stackoverflow.com/users/1887931</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060531/font-face-working-on-localhost-but-not-in-live-server" />
+        <published>2013-04-17T12:50:22Z</published>
+        <updated>2013-04-17T12:50:22Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I’m trying to install custom font in website and for that I’ve used following line of code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; font-family: &#39;TradeGothic&#39;;
+ src: url(&#39;../Content/fonts/trade_gothic_oblique-webfont.eot?&#39;);
+ src: url(&#39;../Content/fonts/trade_gothic_oblique-webfont.eot&#39;) format(&#39;eot&#39;),
+      url(&#39;../Content/fonts/trade_gothic_oblique-webfont.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;), 
+      url(&#39;../Content/fonts/trade_gothic_oblique-webfont.woff&#39;) format(&#39;woff&#39;), 
+      url(&#39;../Content/fonts/trade_gothic_oblique-webfont.woff&#39;) format(&#39;ttf&#39;);
+ src: url(data:application/x-font-woff;charset=utf-8;base64, Us6SIvwGRglxYAAAAAAFQbB7XAAA) format(&#39;woff&#39;), url(&#39;../Content/fonts/trade_gothic_oblique-webfont.ttf&#39;) format(&#39;truetype&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is working fine in my local host in all browsers but in the case of live server this is not working only ie7, ie8 and safari 5.0, so let me know what’s going wrong in this code.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060529</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Symfony2 custom console command appears as &quot;not defined&quot; upon execution</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="symfony2"/><category scheme="http://stackoverflow.com/feeds/tags" term="command"/>
+        <author>
+            <name>PrimsFr</name>
+            <uri>http://stackoverflow.com/users/1474379</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060529/symfony2-custom-console-command-appears-as-not-defined-upon-execution" />
+        <published>2013-04-17T12:50:20Z</published>
+        <updated>2013-04-17T12:50:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I created a new Class in src/CollaboratorsBundle/Command, named it GenerateFormRemindersCommand.php and put the following code in it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+namespace Myproject\CollaboratorsBundle\Command;
+
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
+
+class GenerateFormRemindersCommand extends ContainerAwareCommand{
+
+    protected function configure() {
+        $this-&amp;gt;setName(&quot;generate:formReminders&quot;)
+             -&amp;gt;setDescription(&#39;Send reminders by email to all collaborators with unanswered forms&#39;);
+    }
+
+    protected function execute(InputInterface $input, OutputInterface $output) {
+        //some code
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Upon execution, i get the following message :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ php app/console generate:formReminders
+[InvalidArgumentException]
+Command &quot;generate:formReminders&quot; is not defined.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve checked in my AppKernel.php file that my bundle was registered in it and it was.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve tried adding parent:configure(); to the configure method but without any results.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve created a few other custom commands that work correctly. I don&#39;t get what I am doing wrong in this case. Do you ?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060528</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Android - How to set Device input - either touchscreen or mouse</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="touch"/><category scheme="http://stackoverflow.com/feeds/tags" term="kernel"/><category scheme="http://stackoverflow.com/feeds/tags" term="ics"/>
+        <author>
+            <name>freakndroid</name>
+            <uri>http://stackoverflow.com/users/2290795</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060528/android-how-to-set-device-input-either-touchscreen-or-mouse" />
+        <published>2013-04-17T12:50:11Z</published>
+        <updated>2013-04-17T12:50:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m currently compiling for Android for a device and have recently upped the ICS build. I&#39;m facing an issue with the touch. The touch controller is on but the screen is treated like a track pad for mouse input with a cursor appearing over the screen. How do I make the touchscreen input be used as a touch screen and not as a mouse input.&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060525</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">DartEditor M4 pub functions is broken</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="dart"/><category scheme="http://stackoverflow.com/feeds/tags" term="dart-editor"/><category scheme="http://stackoverflow.com/feeds/tags" term="dart-pub"/>
+        <author>
+            <name>Jasper</name>
+            <uri>http://stackoverflow.com/users/1144952</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060525/darteditor-m4-pub-functions-is-broken" />
+        <published>2013-04-17T12:50:01Z</published>
+        <updated>2013-04-17T12:50:01Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Just updated to DartEditor M4 and somehow &#39;Pub&#39; related functions just stop working :( :(&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Dart Editor version 0.4.7_r21548
+Dart SDK version 0.4.7.1_r21548
+Linux alex 3.5.0-27-generic #46-Ubuntu SMP Mon Mar 25 19:58:17 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I was used to right-click on &lt;code&gt;pubspec.yaml&lt;/code&gt; file and choose &#39;Pub update&#39; but now it just bark at me with error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Please select a pubspec.yaml before running pub.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The same error (?) I get if I click on &lt;code&gt;Tools &amp;gt; Pub update&lt;/code&gt; and even if I double click on &lt;code&gt;pubspec.yaml&lt;/code&gt; I see the window on screen it still says &#39;Please select...&#39;&lt;/p&gt;
+
+&lt;p&gt;Is there something wrong in my Dart Editor ? Should I re-install it ?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060524</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How do re use this class in all my mxml components</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="actionscript-3"/><category scheme="http://stackoverflow.com/feeds/tags" term="flex"/><category scheme="http://stackoverflow.com/feeds/tags" term="mxml"/>
+        <author>
+            <name>Solomon Ubani D King</name>
+            <uri>http://stackoverflow.com/users/1454743</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060524/how-do-re-use-this-class-in-all-my-mxml-components" />
+        <published>2013-04-17T12:50:00Z</published>
+        <updated>2013-04-17T12:50:00Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Please i am new to Flex and Actionscript 3, but i know its an OOP language, I&#39;m coming from a Java Background. I have a class that helps me check if the user of my AIR app has an internet connection it works well when included directly in my mxml class. Wanted to know if its possible to insert it in an actionscript class and reuse it in any mxml component class i wish to.&lt;/p&gt;
+
+&lt;p&gt;package components
+{
+    import air.net.URLMonitor;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import flash.events.StatusEvent;
+import flash.net.*;
+
+public class NetworkCheckerr
+{
+    private var monitor:URLMonitor;
+    private var myURL = new URLRequest(&quot;http://www.adobe.com&quot;);
+
+    public function NetworkCheckerrr():void
+    {
+        myURL.method = &quot;HEAD&quot;;
+        monitor = new URLMonitor(myURL);
+        monitor.start();
+        monitor.addEventListener(StatusEvent.STATUS, on_Connection);
+    }
+    public function on_Connection(event:StatusEvent):void
+    {
+        if(event.target.available == true)
+        {
+            trace(&quot;Internet Connection is available&quot;);
+        }
+        else
+        {
+            trace(&quot;No internet Connection&quot;);
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;Please how do i call this code from an mxml component? it works well when i include it directly in the  tag&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060514</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how can I have div and iframe in same area?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="iframe"/>
+        <author>
+            <name>Gayane</name>
+            <uri>http://stackoverflow.com/users/1960347</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060514/how-can-i-have-div-and-iframe-in-same-area" />
+        <published>2013-04-17T12:49:28Z</published>
+        <updated>2013-04-17T12:50:24Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have iframe in my page. I need to show  in my parent page, but i cannot see until I hide my frame. Is it possible to force the frame to be in background. I don&#39;t want to open popup window instead of &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;parent.php&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+    $(document).ready(function() {
+        $(&quot;.Class1&quot;).click(function() {
+            var str = &quot;&amp;lt;div&amp;gt;Some content&amp;lt;/div&amp;gt;&quot;;
+            $(&quot;.main_frame&quot;).hide();
+            $(str).appendTo(&#39;body&#39;);
+        });
+    });
+&amp;lt;/script&amp;gt;
+
+&amp;lt;a class=&#39;Class1&#39; href=&#39;#&#39;&amp;gt;text&amp;lt;/a&amp;gt;
+&amp;lt;div class=&#39;frame_div&#39;&amp;gt;
+    &amp;lt;iframe class=&#39;main_frame&#39; name=&#39;main_frame&#39; src=&#39;child.php&#39;&amp;gt;&amp;lt;/iframe&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060485</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">C# get/set inaccessibility error</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="get"/><category scheme="http://stackoverflow.com/feeds/tags" term="set"/><category scheme="http://stackoverflow.com/feeds/tags" term="accessibility"/>
+        <author>
+            <name>user1859829</name>
+            <uri>http://stackoverflow.com/users/1859829</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060485/c-sharp-get-set-inaccessibility-error" />
+        <published>2013-04-17T12:48:25Z</published>
+        <updated>2013-04-17T12:50:40Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am getting an error as followed:
+Inconsistent accessibility: property type &#39;AudioDevices.Tracks.track.Time&#39; is less accessible than property &#39;AudioDevices.Tracks.track.length&#39;&lt;/p&gt;
+
+&lt;p&gt;I have no clue what it is, or how i can fix it. Anybody that can help me?&lt;/p&gt;
+
+&lt;p&gt;This is all the code i have, [template = class library]:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;namespace AudioDevices.Tracks
+{
+public class Track
+{
+    #region STRUCT           
+    private int id;
+    private string name;
+    private string artist;
+    private string albumSource;
+    private Time length;
+    private category style;
+    public enum category{
+        Ambient, Blues, Country, Disco, Electro, Hardcore, HardRock, HeavyMetal,            Hiphop, Jazz, Jumpstyle,
+        Klassiek, Latin, Other, Pop, Punk, Reggae, Rock, Soul, Trance, Techno
+    };
+    #endregion
+
+    #region GET/SET          
+    public int Id{
+        get { return id; }
+        set { id = value; }
+    }
+    public string Name{
+        get { return name; }
+        set { name = value; }
+    }
+    public string Artist{
+        get { return artist; }
+        set { artist = value; }
+    }
+    public string AlbumSource{
+        get { return albumSource; }
+        set { albumSource = value; }
+    }
+    public Time Length{
+        set { length = value; }
+    }
+
+    public string DisplayTime
+    {
+        get { return length.ToString(); }
+    }
+    public category Style
+    {
+        get { return style; }
+        set { style = value; }
+    }
+    #endregion
+
+    #region TIME CONSTRUCTOR 
+    struct Time
+    {
+        int seconds;
+        int minutes;
+        int hours;
+
+        public Time(int seconds)
+        {
+            this.seconds = seconds;
+            this.minutes = 0;
+            this.hours = 0;
+        }
+
+        public Time(int seconds, int minutes)
+        {
+            this.seconds = seconds;
+            this.minutes = minutes;
+            this.hours = 0;
+        }
+
+        public Time(int seconds, int minutes, int hours)
+        {
+            this.seconds = seconds;
+            this.minutes = minutes;
+            this.hours = hours;
+        }
+
+        public override string ToString()
+        {
+           return hours + &quot;:&quot; + minutes + &quot;:&quot; + seconds;
+        }
+    }
+    #endregion
+
+    #region TRACK CONSTRUCTOR
+
+    public Track(){     }
+
+    public Track(int id)
+    {
+        this.id = id;
+    }
+
+    public Track(int id, string name)
+    {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Track(int id, string name, string artist)
+    {
+        this.id = id;
+        this.name = name;
+        this.artist = artist;
+    }
+    #endregion
+
+    #region GetLength
+    public string GetLength()
+    {
+        return length.ToString();
+    }
+
+    public int GetLengthInSeconds(int seconds, int minutes, int hours){
+        int SecondsToSeconds = seconds;
+        int MinutesToSeconds = minutes * 60;
+        int HoursToSeconds = hours * 3600;
+
+        int TotalSeconds = HoursToSeconds + MinutesToSeconds + SecondsToSeconds;
+        return TotalSeconds;
+    }
+    #endregion 
+
+
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060462</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Check if a sentence contains only alphabetic letter in php</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/>
+        <author>
+            <name>David</name>
+            <uri>http://stackoverflow.com/users/2107060</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060462/check-if-a-sentence-contains-only-alphabetic-letter-in-php" />
+        <published>2013-04-17T12:47:26Z</published>
+        <updated>2013-04-17T12:50:23Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;The question is simple I have a sentence &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ex: Hello word am new to php.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I want to check wether the whole sentence including the white spaces are alphabets. I have tried to used &lt;code&gt;ctype_alpha&lt;/code&gt; and &lt;code&gt;regex - preg_match(&quot;/^[a-z]+$/i&quot;,$val)&lt;/code&gt; but not working for me so far. &lt;/p&gt;
+
+&lt;p&gt;Any help? Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060448</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Try to load image from URL</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="image"/>
+        <author>
+            <name>androidDe</name>
+            <uri>http://stackoverflow.com/users/519526</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060448/try-to-load-image-from-url" />
+        <published>2013-04-17T12:46:49Z</published>
+        <updated>2013-04-17T12:50:11Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a database with some image URLs.&lt;/p&gt;
+
+&lt;p&gt;I want to load images but i get an error :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;04-17 15:43:15.660: E/AndroidRuntime(18038): FATAL EXCEPTION: main
+04-17 15:43:15.660: E/AndroidRuntime(18038): android.os.NetworkOnMainThreadException
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1118)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at libcore.io.IoBridge.recvfrom(IoBridge.java:513)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.io.InputStream.read(InputStream.java:163)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:560)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:813)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at com.td.rssreader.favorite.getBitmapFromURL(favorite.java:194)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at com.td.rssreader.favorite$addRoutesAdapter2.bindView(favorite.java:176)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.CursorAdapter.getView(CursorAdapter.java:250)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.AbsListView.obtainView(AbsListView.java:2461)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.ListView.measureHeightOfChildren(ListView.java:1250)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.ListView.onMeasure(ListView.java:1162)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.View.measure(View.java:15473)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5056)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1396)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.LinearLayout.measureHorizontal(LinearLayout.java:1038)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.LinearLayout.onMeasure(LinearLayout.java:576)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.View.measure(View.java:15473)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5056)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.View.measure(View.java:15473)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.LinearLayout.measureVertical(LinearLayout.java:833)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.LinearLayout.onMeasure(LinearLayout.java:574)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.View.measure(View.java:15473)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5056)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at com.android.internal.policy.impl.PhoneWindow$DecorView.onMeasure(PhoneWindow.java:2361)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.View.measure(View.java:15473)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:1974)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1217)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1390)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1112)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:4472)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.Choreographer$CallbackRecord.run(Choreographer.java:725)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.Choreographer.doCallbacks(Choreographer.java:555)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.Choreographer.doFrame(Choreographer.java:525)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:711)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.os.Handler.handleCallback(Handler.java:615)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.os.Handler.dispatchMessage(Handler.java:92)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.os.Looper.loop(Looper.java:137)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at android.app.ActivityThread.main(ActivityThread.java:4898)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.lang.reflect.Method.invokeNative(Native Method)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at java.lang.reflect.Method.invoke(Method.java:511)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1006)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:773)
+04-17 15:43:15.660: E/AndroidRuntime(18038):    at dalvik.system.NativeStart.main(Native Method)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this is the code i&#39;m using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public static Bitmap getBitmapFromURL(String src) {
+        try {
+            URL url = new URL(src);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream input = connection.getInputStream();
+            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            return myBitmap;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then i get the bitmap as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;final ImageView image= (ImageView) view.findViewById(R.id.thumb);
+
+
+
+        Bitmap bitmap=  getBitmapFromURL(cursor.getString(cursor
+                    .getColumnIndex(DBHelper.IMAGE)));
+            image.setImageBitmap(bitmap);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060420</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Use linq to populate model with data from two diffrent models</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="linq"/>
+        <author>
+            <name>Tim</name>
+            <uri>http://stackoverflow.com/users/1099872</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060420/use-linq-to-populate-model-with-data-from-two-diffrent-models" />
+        <published>2013-04-17T12:45:11Z</published>
+        <updated>2013-04-17T12:50:25Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have imported a database that has collection MainData in a one to many relationship with Subdata, the generated code looks something like this;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; public DbSet&amp;lt;MainData&amp;gt; MainDatas{ get; set; }
+
+
+ public partial class MainData
+    {            
+        public string NameOfMainData{ get; set; }           
+        public virtual ICollection&amp;lt;SubData&amp;gt; SubDataSet{ get; set; }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;SubData just has some noncomplex datatypes like strings and ints.&lt;/p&gt;
+
+&lt;p&gt;I can import the data to the view so i know that that part works. I want to merge this into a model so that i have the &quot;NameOfMainData, and a collection of SubData in the same model for easy acsess in the view, but i dont get it to work, here is my try;&lt;/p&gt;
+
+&lt;p&gt;Model;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class DataIWantInAList
+{
+    public IList&amp;lt;DataIWant&amp;gt; DataList { get; set; }
+
+}
+public class DataIWant
+{
+    public string NameOfMainData{ get; set; }
+    public IEnumerable&amp;lt;SubData&amp;gt; SubDataSet{ get; set; }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the Controller i thought that i could add items in the DataList but i did not manage to find anything on the internet or work it out for my self... And this;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var DataToView= from p in db.MainData
+                        select new DataIWant()
+                        {
+                            NameOfMainData= p.NameOfMainData,
+                            SubDataSet= p.SubDataSet
+                        };
+
+
+return View(DataToView);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dont work as excpected. Im not so good in LINQ but it feels like this would be pretty easy and that makes it so frustrating when i dont get it to work.&lt;/p&gt;
+
+&lt;p&gt;Any input is appriciated. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060379</id>
+        <re:rank scheme="http://stackoverflow.com">-3</re:rank>
+        <title type="text">Difference between returning *this by reference and value</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="pointers"/>
+        <author>
+            <name>jiafu</name>
+            <uri>http://stackoverflow.com/users/1288446</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060379/difference-between-returning-this-by-reference-and-value" />
+        <published>2013-04-17T12:42:56Z</published>
+        <updated>2013-04-17T12:49:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;if there difference between followed code samples?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ClassTwo ClassTwo::getOwnOne(){
+    return *this;
+}
+
+
+ ClassTwo&amp;amp; ClassTwo::getOwnTwo(){
+    return *this;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if there difference between followed code samples? is it same?   &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060308</id>
+        <re:rank scheme="http://stackoverflow.com">5</re:rank>
+        <title type="text">What is better to use in Java? x &lt;= 10 or x &lt; 11?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="performance"/><category scheme="http://stackoverflow.com/feeds/tags" term="code-efficiency"/>
+        <author>
+            <name>user2290659</name>
+            <uri>http://stackoverflow.com/users/2290659</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060308/what-is-better-to-use-in-java-x-10-or-x-11" />
+        <published>2013-04-17T12:39:58Z</published>
+        <updated>2013-04-17T12:50:36Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Is there any difference affecting program efficiency between &lt;code&gt;x &amp;lt;= 10&lt;/code&gt;  and  &lt;code&gt;x &amp;lt; 11&lt;/code&gt; ? Are there any other differences?&lt;/p&gt;
+
+&lt;p&gt;Thank you&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060226</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Access enum data type from Jquery function</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="c#-4.0"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-2"/><category scheme="http://stackoverflow.com/feeds/tags" term="enums"/>
+        <author>
+            <name>Sampath</name>
+            <uri>http://stackoverflow.com/users/1077309</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060226/access-enum-data-type-from-jquery-function" />
+        <published>2013-04-17T12:36:34Z</published>
+        <updated>2013-04-17T12:50:46Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;enum Data type is in c# code file as below : &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C# Code :&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    [Serializable]
+    [ComVisible(true)]
+    public enum DayOfWeek
+    {
+        Sunday = 0,
+        Monday = 1,
+        Tuesday = 2,
+        Wednesday = 3,
+        Thursday = 4,
+        Friday = 5,
+        Saturday = 6,
+    }    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to accsess above enum type from below mentioned js function.How could I achieve that ?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;JS File:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function updateGroupLessonHiddenFields() {
+            for (var i = 0; i &amp;lt; 7; i++) {
+                var name = ((&#39;&amp;lt;% DayOfWeek%&amp;gt;&#39;)i).ToString();
+                var key = name.ToLower();
+            }
+        }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060216</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to avoid the error &quot;Cannot perform runtime binding on a null reference&quot; in C# while reading excel sheet</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="list"/><category scheme="http://stackoverflow.com/feeds/tags" term="null"/>
+        <author>
+            <name>user2265801</name>
+            <uri>http://stackoverflow.com/users/2265801</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060216/how-to-avoid-the-error-cannot-perform-runtime-binding-on-a-null-reference-in-c" />
+        <published>2013-04-17T12:36:01Z</published>
+        <updated>2013-04-17T12:50:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am trying to insert excel sheet data into a DB using Lists.in. In the excel data I have some empty cells. Because of the empty cells I am getting errors like &quot; Cannot perform runtime binding on a null reference &quot;. How can I solve this error? Thanks. &lt;/p&gt;
+
+&lt;p&gt;i tried this code:
+ public object verify(object k)
+        {
+            try
+            {
+                if (range.Cells[rCnt, 3] == null)
+                {
+                  return  range.Cells[rCnt, 3].value=&quot;null&quot;;
+                }
+            }
+        catch
+            {
+                return k;
+        }&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but it show error at method name.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060208</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Changing object references in Java dynamic Lists or Maps</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="list"/><category scheme="http://stackoverflow.com/feeds/tags" term="reference"/><category scheme="http://stackoverflow.com/feeds/tags" term="linked-list"/><category scheme="http://stackoverflow.com/feeds/tags" term="linkedhashmap"/>
+        <author>
+            <name>ashoker</name>
+            <uri>http://stackoverflow.com/users/2132553</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060208/changing-object-references-in-java-dynamic-lists-or-maps" />
+        <published>2013-04-17T12:35:43Z</published>
+        <updated>2013-04-17T12:50:03Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Considering Java dynamic lists or Maps like LinkedList, LinkedHashMap, TreeMap, etc. I suppose that any object has a reference (next-&gt;) to the next object (am I right?). Why there are no ways (e.g., a method) to access these references (the next-&gt;) in Java?&lt;/p&gt;
+
+&lt;p&gt;My concern is that, if this is possible then a LinkedList can be split into two lists like a charm, saving a lot of CPU overhead. What I do now is that I copy one part of the List (new Sublist()...) and then I clear the corresponding entries in the original List.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060089</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Regexp find the number with start number 8</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="regular-language"/><category scheme="http://stackoverflow.com/feeds/tags" term="regexp-grammars"/>
+        <author>
+            <name>Max Torstensson</name>
+            <uri>http://stackoverflow.com/users/2198221</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060089/regexp-find-the-number-with-start-number-8" />
+        <published>2013-04-17T12:30:39Z</published>
+        <updated>2013-04-17T12:50:32Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;My problem I have is that I&#39;m about to build a function that retrieves a PDF document and print the document I want to pick up a Specified numbers starting with 8.&lt;/p&gt;
+
+&lt;p&gt;input : &quot;hello world, the number i want call is 84553741. help me plz.&quot;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Regexp: String[] result = Regex.Split(Result, @&quot;[^\d$]&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How can i find number start with number 8?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16060021</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Knockout options conditional css</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="knockout.js"/>
+        <author>
+            <name>Skeeve</name>
+            <uri>http://stackoverflow.com/users/1436209</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16060021/knockout-options-conditional-css" />
+        <published>2013-04-17T12:27:21Z</published>
+        <updated>2013-04-17T12:49:58Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have an observable array of objects &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;question = {
+        ownerUserName: item.id,
+        text: item.text,
+        dataType: item.dataType,
+        personalized: item.personalized,
+        status: item.status,
+        actionUserName: item.actionUserName
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And a select with options from this array:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;select id=&quot;questId&quot; style=&quot;width: 425px&quot; data-bind=&quot;options: questionList, optionsText: &#39;text&#39;&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How with the help of knockout can I make so that if question.personalized == &quot;Y&quot; color of the text of this question would be green?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16059689</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">jQuery profile page &gt; Overlay</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="overlay"/>
+        <author>
+            <name>Neil</name>
+            <uri>http://stackoverflow.com/users/1818612</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16059689/jquery-profile-page-overlay" />
+        <published>2013-04-17T12:13:59Z</published>
+        <updated>2013-04-17T12:49:50Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am looking to create a profile page. It will have use an unordered list with &lt;code&gt;li&lt;/code&gt;&#39;s floating left in a column view. Each &lt;code&gt;li&lt;/code&gt; will represent a profile picture (leading to an overlay).&lt;/p&gt;
+
+&lt;p&gt;I want to click on a profile picture and show it using jQuery, an HTML article. This article will be their profile page. I am able to create the CSS3 and HTML. But how do I call the image and their information to the article (profile template)?&lt;/p&gt;
+
+&lt;p&gt;I am using jQuery 1.9.1 currently on a PHP basic website (locally) using MAMP on an iMac. I could use a database, but would prefer to use a JavaScript file to store the information.&lt;/p&gt;
+
+&lt;p&gt;Required profile info:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Image&lt;/li&gt;
+&lt;li&gt;Name&lt;/li&gt;
+&lt;li&gt;Title&lt;/li&gt;
+&lt;li&gt;Mob No&lt;/li&gt;
+&lt;li&gt;Work No&lt;/li&gt;
+&lt;li&gt;EMAIL&lt;/li&gt;
+&lt;li&gt;Quote Title&lt;/li&gt;
+&lt;li&gt;Blockquote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Any ideas?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16059636</id>
+        <re:rank scheme="http://stackoverflow.com">-5</re:rank>
+        <title type="text">my javascript isn&#39;t working in IE and Firefox</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/>
+        <author>
+            <name>user2290637</name>
+            <uri>http://stackoverflow.com/users/2290637</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16059636/my-javascript-isnt-working-in-ie-and-firefox" />
+        <published>2013-04-17T12:11:21Z</published>
+        <updated>2013-04-17T12:50:02Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;sorry I&#39;m new in javascript and  I find this somewhere in internet and I wrote bad code but this works in chrome...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function toggle() {
+    var ele = document.getElementById(&quot;toggleText&quot;);
+    var text = document.getElementById(&quot;displayText&quot;);
+    if(ele.style.display == &quot;block&quot;) {
+            ele.style.display = &quot;none&quot;;
+        $(&quot;.class&quot;).nariams();
+    }
+    else {
+        ele.style.display = &quot;block&quot;;
+        $(&quot;.class&quot;).nariams();
+    }
+} 
+
+&amp;lt;`div class &quot;nariams1&quot;&amp;gt;&amp;lt;a  id=&quot;displayText&quot; href=&quot;javascript:toggle();&quot;&amp;gt; &amp;lt;div class=&quot;nariams&quot;&amp;gt;Nariams &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;`
+
+&amp;lt;div id=&quot;toggleText&quot; style=&quot;display: none&quot;&amp;gt;
+&amp;lt;form id=&quot;slick-login&quot;&amp;gt;
+&amp;lt;label for=&quot;username&quot;&amp;gt;Prisijungimo vardas&amp;lt;/label&amp;gt;&amp;lt;input type=&quot;text&quot; name=&quot;username&quot; class=&quot;placeholder&quot; placeholder=&quot;vardas&quot;&amp;gt;
+&amp;lt;label for=&quot;password&quot;&amp;gt;Slaptažodis&amp;lt;/label&amp;gt;&amp;lt;input type=&quot;password&quot; name=&quot;password&quot; class=&quot;placeholder&quot; placeholder=&quot;slaptažodis&quot;&amp;gt;
+&amp;lt;input type=&quot;submit&quot; value=&quot;Prisijungti&quot;&amp;gt;
+&amp;lt;/form&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;.nariams is css class which defines button. Shortly I want that when i press button onother class apear. This code works in chrome.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16059391</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">Most efficient way to find if a value exists within a C# List</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="list"/>
+        <author>
+            <name>Aaron Benzel</name>
+            <uri>http://stackoverflow.com/users/2064694</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16059391/most-efficient-way-to-find-if-a-value-exists-within-a-c-sharp-list" />
+        <published>2013-04-17T11:58:14Z</published>
+        <updated>2013-04-17T12:49:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;In C# if I have a List of type bool. What is the fastest way to determine if the list contains a true value?  I don’t need to know how many or where the true value is.  I just need to know if one exists.  I will be searching many extremely large lists.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16058428</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Allowing negative and positive decimals in javascript.replace</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="regex"/>
+        <author>
+            <name>JustAnotherDeveloper</name>
+            <uri>http://stackoverflow.com/users/934777</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16058428/allowing-negative-and-positive-decimals-in-javascript-replace" />
+        <published>2013-04-17T11:09:05Z</published>
+        <updated>2013-04-17T12:50:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using this to filter out everything that isn&#39;t a number (including decimals)&lt;/p&gt;
+
+&lt;p&gt;On keydown I am doing this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function validateNudgerInput(ele){
+          ele.val(ele.val().replace(/[^0-9\.]/g,&#39;&#39;));
+            if (parseFloat(ele.val())&amp;gt; settings.max
+              ||parseFloat(ele.val())&amp;lt; settings.min)
+            {
+              ele.addClass(&quot;nudgerInvalid &quot;)
+            }else{
+             ele.removeClass(&quot;nudgerInvalid&quot;)
+            }
+        }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Currently Using: 
+&lt;code&gt;ele.val(ele.val().replace(/[^0-9\.]/g,&#39;&#39;));&lt;/code&gt;
+This strips out anything that isnt a number above zero (decimals allowed) -i.e. If a user presses the &quot;A&quot; key, it will stop this from being placed in the textbox&lt;/p&gt;
+
+&lt;p&gt;How would I adapt this to allow negative numbers too? (Allowing the - sign)&lt;/p&gt;
+
+&lt;p&gt;Examples of valid input:
+&lt;code&gt;1&lt;/code&gt;
+&lt;code&gt;-1&lt;/code&gt; 
+&lt;code&gt;123.45&lt;/code&gt;
+&lt;code&gt;-123.45&lt;/code&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16057222</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Audio streaming using AVAudioPlayer</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="iphone"/><category scheme="http://stackoverflow.com/feeds/tags" term="ios"/><category scheme="http://stackoverflow.com/feeds/tags" term="avaudioplayer"/>
+        <author>
+            <name>lokesh</name>
+            <uri>http://stackoverflow.com/users/2074485</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16057222/audio-streaming-using-avaudioplayer" />
+        <published>2013-04-17T10:05:07Z</published>
+        <updated>2013-04-17T12:50:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to develop one app where i will be having &lt;strong&gt;Play&lt;/strong&gt; and &lt;strong&gt;Stop&lt;/strong&gt; buttons .Once i click on Play button it should stream the audio which is being played on a particular link&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-(void)playMusic
+{  
+mAudioPlayer=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL URLWithString:@&quot;http://www.tuneindia.com&quot;] error:nil];
+mAudioPlayer.delegate = self;
+mAudioPlayer.volume=mVolumeSlider.value;
+NSLog(@&quot;THEVOLUME::::   %f&quot;,mVolumeSlider.value);
+[mAudioPlayer prepareToPlay];
+[mAudioPlayer play];
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Kindly help me to understand how this AVAudioPlayer gets attached to a link and stream the audio from there (as we have used www.tuneindia.com).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16054063</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Formatting issue in generated pdf using flying-saucer library</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="flying-saucer"/>
+        <author>
+            <name>manish</name>
+            <uri>http://stackoverflow.com/users/1400596</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16054063/formatting-issue-in-generated-pdf-using-flying-saucer-library" />
+        <published>2013-04-17T07:26:51Z</published>
+        <updated>2013-04-17T12:49:47Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using flying-saucer library to convert xhtml to pdf.
+I am getting a formatting issue on the boundary between two pages of pdf.
+As shown in the attached screenshot, the color coding boxes representing the different legends gets splitted whenever there is a page change in pdf.
+This is not looking good.
+Attached is a sample xhtml which contains a sample of the code for which pdf is generated.
+The xhtml is getting displayed correctly without any formatting issues.
+Has someone else encountered a similar problem ? What is the possible solution for this ?&lt;/p&gt;
+
+&lt;p&gt;XHTML input file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+
+&amp;lt;style&amp;gt;
+
+
+table.diff {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 11px;
+    border-collapse:collapse;
+}
+table.diff tbody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+table.diff tbody th {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#F5F5F5;
+    font-size:11px;
+    font-weight:normal;
+    color:#999999;
+    padding:.3em .5em .1em 2em;
+    text-align:right;
+    vertical-align:top;
+}
+table.diff thead {
+    border-bottom:1px solid #BBC;
+    background:#EFEFEF;
+    font-family:Verdana;
+}
+table.diff thead th.texttitle {
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+table.diff td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding: 2px 2px;
+}
+
+table.diff .empty {
+    background-color:#D7F0FC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+table.diff .replace {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background-color:#FFD899;
+}
+table.diff .delete {
+    background-color:#FF9900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+table.diff .skip {
+    background-color:#EFEFEF;
+}
+table.diff .insert {
+    background-color:#ADCC70;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+table.diff th.author {
+    text-align:right;
+    border-top:1px solid #BBC;
+    background:#EFEFEF;
+}
+
+
+.top-border {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border-top: 1px solid #67BBE5;
+}
+
+table.diff .left-border {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border-left: 1px solid #CCCCCC;
+}
+
+.bottom-border {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border-left: 1px solid #67BBE5;
+}
+
+table.diff .left-bottom-border {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+table.diff .bottom-border-grey {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border-bottom: 1px solid #CCCCCC;
+}
+table .top-border-line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0px;
+    border-top: 1px solid #CCCCCC;
+}
+table .bottom-border-line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0px;
+    border-bottom: 1px solid #CCCCCC;
+}
+table.diff .legend-border {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #CCCCCC;
+}
+
+&amp;lt;/style&amp;gt;
+
+&amp;lt;/head&amp;gt;
+
+
+&amp;lt;body&amp;gt;
+
+&amp;lt;div id=&#39;legends&#39; class=&#39;legends&#39; style=&#39;width:100%;float:left&#39;&amp;gt;
+        &amp;lt;table width=&quot;100%&quot; class=&quot;diff&quot; style=&quot;background-color: rgb(235, 235, 235); &quot;&amp;gt;
+            &amp;lt;tbody&amp;gt;
+                &amp;lt;tr&amp;gt;
+                    &amp;lt;td width=&quot;50%&quot;&amp;gt;
+                    &amp;lt;/td&amp;gt;
+                    &amp;lt;td width=&quot;100%&quot; style=&quot;&quot;&amp;gt;
+                        &amp;lt;table cellspacing=&quot;0&quot; cellpadding=&quot;1&quot; width=&quot;100%&quot; class=&quot;diff&quot;&amp;gt;
+                            &amp;lt;tbody&amp;gt;
+                                &amp;lt;tr&amp;gt;
+                                &amp;lt;td style=&quot;width: 20%;&quot;&amp;gt;&amp;lt;b&amp;gt;Legend : &amp;lt;/b&amp;gt;&amp;lt;/td&amp;gt;
+                                &amp;lt;td style=&quot;text-align: center; width: 20%; border:1px solid;&quot; class=&quot;empty&quot;&amp;gt;Empty&amp;lt;/td&amp;gt;
+                                &amp;lt;td style=&quot;text-align: center; width: 20%; border:1px solid;&quot; class=&quot;delete&quot;&amp;gt;Deleted&amp;lt;/td&amp;gt;
+                                &amp;lt;td style=&quot;text-align: center; width: 20%; border:1px solid;&quot; class=&quot;replace&quot;&amp;gt;Modified&amp;lt;/td&amp;gt;
+                                &amp;lt;td style=&quot;text-align: center; width: 20%; border:1px solid;&quot; class=&quot;insert&quot;&amp;gt;Inserted&amp;lt;/td&amp;gt;
+                                &amp;lt;/tr&amp;gt;
+                            &amp;lt;/tbody&amp;gt;
+                        &amp;lt;/table&amp;gt;
+                    &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+            &amp;lt;/tbody&amp;gt;
+        &amp;lt;/table&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/DGEG4.jpg&quot; alt=&quot;Image showing formatting issue in PDF&quot;&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16053629</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Downloading files from FTP Server where directory changed dynamically</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="spring"/><category scheme="http://stackoverflow.com/feeds/tags" term="ftp"/><category scheme="http://stackoverflow.com/feeds/tags" term="spring-integration"/>
+        <author>
+            <name>user2261222</name>
+            <uri>http://stackoverflow.com/users/2261222</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16053629/downloading-files-from-ftp-server-where-directory-changed-dynamically" />
+        <published>2013-04-17T07:03:38Z</published>
+        <updated>2013-04-17T12:50:21Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using Spring Integration to download/upload files from FTP server.&lt;/p&gt;
+
+&lt;p&gt;How can I change &lt;code&gt;remote-directory=&quot;/directory Name&quot;&lt;/code&gt; dynamically in Spring FTP:Inbound-Channel.&lt;/p&gt;
+
+&lt;p&gt;My client will create a folder daily basically in &lt;code&gt;&quot;MM-dd-yy&quot;&lt;/code&gt; format and copy all files there.
+In &quot;FTP:Inbound-channel&quot; I did not find any way to configure this pattern. I basically have
+to hardcord the directory or file names in configuration.
+What I want is to set the path programatically. Because some times I need to download all files
+from a direcotory or download only a specific file.&lt;/p&gt;
+
+&lt;p&gt;I found &lt;code&gt;&quot;remote-directory-expression=&quot;&#39;directory&#39;+&#39;/&#39;+ new java.text.SimpleDateFormat(&#39;dd-MM-yyyy&#39;).format(new java.util.Date())&quot;&lt;/code&gt; can be set in FTP:Outbound-channel
+is there any such attribute in FTP:InBound-channel&lt;/p&gt;
+
+&lt;p&gt;My configuration is like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;bean id=&quot;ftpClientFactory&quot;
+    class=&quot;org.springframework.integration.ftp.session.DefaultFtpSessionFactory&quot;&amp;gt;
+    &amp;lt;property name=&quot;host&quot; value=&quot;${host}&quot; /&amp;gt;
+    &amp;lt;property name=&quot;port&quot; value=&quot;${availableServerPort}&quot; /&amp;gt;
+    &amp;lt;property name=&quot;username&quot; value=&quot;${userid}&quot; /&amp;gt;
+    &amp;lt;property name=&quot;password&quot; value=&quot;${password}&quot; /&amp;gt;
+&amp;lt;/bean&amp;gt;
+
+&amp;lt;int-ftp:inbound-channel-adapter id=&quot;ftpInbound&quot;
+    cache-sessions=&quot;false&quot; channel=&quot;ftpChannel&quot; session-factory=&quot;ftpClientFactory&quot;
+    filename-pattern=&quot;*.txt&quot; auto-create-local-directory=&quot;true&quot;
+    delete-remote-files=&quot;false&quot; remote-directory=&quot;/filedirectory&quot;
+    local-directory=&quot;${local_directory}&quot;&amp;gt;
+    &amp;lt;int:poller fixed-rate=&quot;1000&quot; /&amp;gt;
+&amp;lt;/int-ftp:inbound-channel-adapter&amp;gt;
+
+&amp;lt;int:channel id=&quot;ftpChannel&quot;&amp;gt;
+    &amp;lt;int:queue /&amp;gt;
+&amp;lt;/int:channel&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I did not find a way to do all the above items.&lt;/p&gt;
+
+&lt;p&gt;Please let me know how can I achieve this.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16031339</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to get the Image src path from following page source code using cocoa webview</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="html"/><category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="image"/><category scheme="http://stackoverflow.com/feeds/tags" term="webview"/><category scheme="http://stackoverflow.com/feeds/tags" term="html-parsing"/>
+        <author>
+            <name>jkk</name>
+            <uri>http://stackoverflow.com/users/2239899</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16031339/how-to-get-the-image-src-path-from-following-page-source-code-using-cocoa-webvie" />
+        <published>2013-04-16T07:39:49Z</published>
+        <updated>2013-04-17T12:49:58Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;i could see the image serial number,image date and image name in my webview(ie) &lt;strong&gt;1       05-03-2013     hi&lt;/strong&gt; but How to get the Image src path from following page source code using cocoa webview(not in UIWebview). &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;tr bgcolor=&quot;#FFFFFF&quot; onclick=&quot;javascript:setImage(this,44,&#39;.png&#39;);&quot; ondblclick=&quot;javascript:setImage(this,44,&#39;.png&#39;); viewimg(this);&quot; style=&quot;cursor:pointer;&quot;&amp;gt;
+     &amp;lt;td width=&quot;4%&quot; height=&quot;12&quot; align=&quot;center&quot;&amp;gt;4 &amp;lt;/td&amp;gt;
+       &amp;lt;td height=&quot;12&quot; align=&quot;left&quot; valign=&quot;top&quot;&amp;gt;05-03-2013&amp;lt;/td&amp;gt;
+          &amp;lt;td height=&quot;12&quot; colspan=&quot;2&quot; align=&quot;left&quot; valign=&quot;top&quot;&amp;gt;                                
+            &amp;lt;div class=&quot;imagecontainer&quot;&amp;gt;
+               &amp;lt;a class=&quot;thumbnail&quot; style=&quot;width:100%&quot; href=&quot;#thumb&quot;&amp;gt;
+                  &amp;lt;div style=&quot;color:#000000&quot;&amp;gt;               
+                     &amp;lt;div&amp;gt;hi&amp;lt;/div&amp;gt;
+                        &amp;lt;span&amp;gt;                              
+                           &amp;lt;img src=&quot;data/UserName/customer/16/pictures/44.png&quot;border=&quot;0&quot;&amp;gt;&amp;lt;br&amp;gt;hi
+                        &amp;lt;/span&amp;gt;
+                  &amp;lt;/div&amp;gt;    
+               &amp;lt;/a&amp;gt;
+            &amp;lt;/div&amp;gt;
+       &amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When the mouse point move over &lt;strong&gt;1 05-03-2013 Hi&lt;/strong&gt; i could see the image.But i coudnt get image URL and i am getting &lt;strong&gt;#thumb&lt;/strong&gt; in nslog&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16018075</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">C#, Click-Once and configuration</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c#"/><category scheme="http://stackoverflow.com/feeds/tags" term="clickonce"/><category scheme="http://stackoverflow.com/feeds/tags" term="app-config"/><category scheme="http://stackoverflow.com/feeds/tags" term="machine.config"/>
+        <author>
+            <name>user2282900</name>
+            <uri>http://stackoverflow.com/users/2282900</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16018075/c-click-once-and-configuration" />
+        <published>2013-04-15T14:41:31Z</published>
+        <updated>2013-04-17T12:49:59Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need help understanding how and what to put into an app.config file. I&#39;ve been searching around trying to understand what needs to be done, but just don&#39;t understand it.&lt;/p&gt;
+
+&lt;p&gt;The scenario is this, I have created a C# Windows Forms Application (.net 4.0) and it runs fine on the development computer. When I deploy it using Click-Once on other computers I get a permission error for the machine.config file. This is a corporate domain so I do not have rights to change the permissions on the machine.config file on the target computers. From what I have been reading I believe that whatever is being accessed in the machine.config file can alternately be placed into the app.config file. Problem is I do understand what would need to be placed into the app.config file, and I do not understand some of the aspects of the configuration such as &#39;keys&#39; etc. &lt;/p&gt;
+
+&lt;p&gt;Bottom line is how can I avoid the use of the machine.config file altogether, and what exactly needs to be configured to do so?&lt;/p&gt;
+
+&lt;p&gt;Thanks for any help that can be given.&lt;/p&gt;
+
+&lt;p&gt;Complete Error details:
+PLATFORM VERSION INFO&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      Windows                         : 5.1.2600.196608 (Win32NT)
+
+      Common Language Runtime       : 4.0.30319.296
+
+      System.Deployment.dll              : 4.0.30319.1 (RTMRel.030319-0100)
+
+      clr.dll                     : 4.0.30319.296 (RTMGDR.030319-2900)
+
+      dfdll.dll                            : 4.0.30319.1 (RTMRel.030319-0100)
+
+      dfshim.dll                        : 4.0.31106.0 (Main.031106-0000)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;SOURCES&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      Deployment url                          : file:///P:/Eastops/Region%20C/Conie/HHC/HHC.application
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ERROR SUMMARY&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      Below is a summary of the errors, details of these errors are listed later in the log.
+
+      * Activation of P:\Eastops\Region C\Conie\HHC\HHC.application resulted in exception. Following failure messages were detected:
+
+               + Configuration system failed to initialize
+
+               + An error occurred loading a configuration file: Access to the path &#39;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Config\machine.config&#39; is denied. (C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Config\machine.config)
+
+               + Access to the path &#39;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Config\machine.config&#39; is denied.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;COMPONENT STORE TRANSACTION FAILURE SUMMARY&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      No transaction error was detected.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;WARNINGS&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      There were no warnings during this operation.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OPERATION PROGRESS STATUS&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      * [4/17/2013 8:29:25 AM] : Activation of P:\Eastops\Region C\Conie\HHC\HHC.application has started.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ERROR DETAILS&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      Following errors were detected during this operation.
+
+      * [4/17/2013 8:29:27 AM] System.Configuration.ConfigurationErrorsException
+
+               - Configuration system failed to initialize
+
+               - Source: System.Configuration
+
+               - Stack trace:
+
+                         at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+
+                         at System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+
+                         at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+
+                         at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+
+                         at System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+
+                         at System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+
+                         at System.Diagnostics.DiagnosticsConfiguration.Initialize()
+
+                         at System.Diagnostics.DiagnosticsConfiguration.get_Sources()
+
+                         at System.Diagnostics.TraceSource.Initialize()
+
+                         at System.Net.Logging.InitializeLogging()
+
+                         at System.Net.Logging.get_On()
+
+                         at System.Net.WebRequest.Create(Uri requestUri, Boolean useUriBase)
+
+                         at System.Net.WebRequest.Create(Uri requestUri)
+
+                         at System.Deployment.Application.SystemNetDownloader.DownloadSingleFile(DownloadQueueItem next)
+
+                         at System.Deployment.Application.SystemNetDownloader.DownloadAllFiles()
+
+                         at System.Deployment.Application.FileDownloader.Download(SubscriptionState subState)
+
+                         at System.Deployment.Application.DownloadManager.DownloadManifestAsRawFile(Uri&amp;amp; sourceUri, String targetPath, IDownloadNotification notification, DownloadOptions options, ServerInformation&amp;amp; serverInformation)
+
+                         at System.Deployment.Application.DownloadManager.DownloadDeploymentManifestDirectBypass(SubscriptionStore subStore, Uri&amp;amp; sourceUri, TempFile&amp;amp; tempFile, SubscriptionState&amp;amp; subState, IDownloadNotification notification, DownloadOptions options, ServerInformation&amp;amp; serverInformation)
+
+                         at System.Deployment.Application.DownloadManager.DownloadDeploymentManifestBypass(SubscriptionStore subStore, Uri&amp;amp; sourceUri, TempFile&amp;amp; tempFile, SubscriptionState&amp;amp; subState, IDownloadNotification notification, DownloadOptions options)
+
+                         at System.Deployment.Application.ApplicationActivator.PerformDeploymentActivation(Uri activationUri, Boolean isShortcut, String textualSubId, String deploymentProviderUrlFromExtension, BrowserSettings browserSettings, String&amp;amp; errorPageUrl)
+
+                         at System.Deployment.Application.ApplicationActivator.ActivateDeploymentWorker(Object state)
+
+               --- Inner Exception ---
+
+               System.Configuration.ConfigurationErrorsException
+
+               - An error occurred loading a configuration file: Access to the path &#39;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Config\machine.config&#39; is denied. (C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Config\machine.config)
+
+               - Source: System.Configuration
+
+               - Stack trace:
+
+                         at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+
+                         at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+
+                         at System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+
+                         at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+
+               --- Inner Exception ---
+
+               System.UnauthorizedAccessException
+
+               - Access to the path &#39;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Config\machine.config&#39; is denied.
+
+               - Source: mscorlib
+
+               - Stack trace:
+
+                         at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+                         at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+
+                         at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+
+                         at System.Configuration.Internal.InternalConfigHost.StaticOpenStreamForRead(String streamName)
+
+                         at System.Configuration.Internal.InternalConfigHost.System.Configuration.Internal.IInternalConfigHost.OpenStreamForRead(String streamName, Boolean assertPermissions)
+
+                         at System.Configuration.Internal.InternalConfigHost.System.Configuration.Internal.IInternalConfigHost.OpenStreamForRead(String streamName)
+
+                         at System.Configuration.ClientConfigurationHost.OpenStreamForRead(String streamName)
+
+                         at System.Configuration.BaseConfigurationRecord.InitConfigFromFile()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;COMPONENT STORE TRANSACTION DETAILS&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      No transaction information is available.
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/305044</id>
+        <re:rank scheme="http://stackoverflow.com">10</re:rank>
+        <title type="text">How can I avoid SQL injection attacks in my ASP.NET application?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term=".net"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="security"/><category scheme="http://stackoverflow.com/feeds/tags" term="sql-injection"/>
+        <author>
+            <name>balaweblog</name>
+            <uri>http://stackoverflow.com/users/22162</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/305044/how-can-i-avoid-sql-injection-attacks-in-my-asp-net-application" />
+        <published>2008-11-20T11:49:07Z</published>
+        <updated>2013-04-17T12:49:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need to avoid being vulnerable to SQL injection in my ASP.NET application. How might I accomplish this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

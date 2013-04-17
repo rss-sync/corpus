@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss1full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.nature.com/~d/styles/itemcontent.css"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+<channel rdf:about="http://www.nature.com/nature/current_issue/rss">
+<title>Nature - AOP - nature.com science feeds</title>
+<description>Nature is the international weekly journal of science: a magazine style journal that publishes full-length research papers in all disciplines of science, as well as News and Views, reviews, news, features, commentaries, web focuses and more, covering all branches of science and how science impacts upon all aspects of society and life.</description>
+<link>http://www.nature.com/nature/current_issue/</link>
+<admin:generatorAgent rdf:resource="http://www.nature.com/" />
+<admin:errorReportsTo rdf:resource="mailto:feedback@nature.com" />
+<dc:publisher>Nature Publishing Group</dc:publisher>
+<dc:language>en</dc:language>
+<dc:rights>©  Nature Publishing Group</dc:rights>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:issn>0028-0836</prism:issn>
+<prism:eIssn>1476-4687</prism:eIssn>
+<prism:copyright>©  Nature Publishing Group</prism:copyright>
+<prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+<image rdf:resource="http://www.nature.com/includes/rj_globnavimages/nature_logo.gif" />
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12012" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12048" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12045" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12046" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12092" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12093" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12107" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12039" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12109" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12071" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12008" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12026" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12051" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12060" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12052" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12065" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12037" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12091" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12053" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12024" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11983" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12074" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12029" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12042" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12043" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12084" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12085" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature12032" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11959" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11981" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11868" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11984" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11956" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11485" />
+<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature11484" />
+</rdf:Seq>
+</items>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://feeds.nature.com/nature/rss/aop" /><feedburner:info uri="nature/rss/aop" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+<image rdf:about="http://www.nature.com/includes/rj_globnavimages/nature_logo.gif">
+<title>Nature AOP</title>
+<url>http://www.nature.com/includes/rj_globnavimages/nature_logo.gif</url>
+<link>http://www.nature.com/nature/</link>
+</image>
+<item rdf:about="http://dx.doi.org/10.1038/nature12012">
+                     <title>Bell violation using entangled photons without the fair-sampling assumption</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/Na1N3at5thk/nature12012</link>
+<description>The violation of a Bell inequality is an experimental observation that forces the abandonment of a local realistic viewpoint—namely, one in which physical properties are (probabilistically) defined before and independently of measurement, and in which no physical influence can propagate faster than the speed of light. All such experimental violations require additional assumptions depending on their specific construction, making them vulnerable to so-called loopholes. Here we use entangled photons to violate a Bell inequality while closing the fair-sampling loophole, that is, without assuming that the sample of measured photons accurately represents the entire ensemble. To do this, we use the Eberhard form of Bell’s inequality, which is not vulnerable to the fair-sampling assumption and which allows a lower collection efficiency than other forms. Technical improvements of the photon source and high-efficiency transition-edge sensors were crucial for achieving a sufficiently high collection efficiency. Our experiment makes the photon the first physical system for which each of the main loopholes has been closed, albeit in different experiments.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 14 April 2013. <a href="http://dx.doi.org/10.1038/nature12012">doi:10.1038/nature12012</a>
+</p>
+<p>Authors: Marissa Giustina, Alexandra Mech, Sven Ramelow, Bernhard Wittmann, Johannes Kofler, J&#246;rn Beyer, Adriana Lita, Brice Calkins, Thomas Gerrits, Sae Woo Nam, Rupert Ursin &amp; Anton Zeilinger</p>
+<p>The violation of a Bell inequality is an experimental observation that forces the abandonment of a local realistic viewpoint&#8212;namely, one in which physical properties are (probabilistically) defined before and independently of measurement, and in which no physical influence can propagate faster than the speed of light. All such experimental violations require additional assumptions depending on their specific construction, making them vulnerable to so-called loopholes. Here we use entangled photons to violate a Bell inequality while closing the fair-sampling loophole, that is, without assuming that the sample of measured photons accurately represents the entire ensemble. To do this, we use the Eberhard form of Bell&#8217;s inequality, which is not vulnerable to the fair-sampling assumption and which allows a lower collection efficiency than other forms. Technical improvements of the photon source and high-efficiency transition-edge sensors were crucial for achieving a sufficiently high collection efficiency. Our experiment makes the photon the first physical system for which each of the main loopholes has been closed, albeit in different experiments.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/Na1N3at5thk" height="1" width="1"/>]]></content:encoded>
+<dc:title>Bell violation using entangled photons without the fair-sampling assumption</dc:title>
+<dc:creator>Marissa Giustina</dc:creator>
+<dc:creator>Alexandra Mech</dc:creator>
+<dc:creator>Sven Ramelow</dc:creator>
+<dc:creator>Bernhard Wittmann</dc:creator>
+<dc:creator>Johannes Kofler</dc:creator>
+<dc:creator>Jörn Beyer</dc:creator>
+<dc:creator>Adriana Lita</dc:creator>
+<dc:creator>Brice Calkins</dc:creator>
+<dc:creator>Thomas Gerrits</dc:creator>
+<dc:creator>Sae Woo Nam</dc:creator>
+<dc:creator>Rupert Ursin</dc:creator>
+<dc:creator>Anton Zeilinger</dc:creator>
+<dc:identifier>doi:10.1038/nature12012</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-14</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-14</prism:publicationDate>
+<prism:doi>10.1038/nature12012</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12012</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12012</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12048">
+                     <title>A CRISPR/Cas system mediates bacterial innate immune evasion and virulence</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/lMmVcNldX1c/nature12048</link>
+<description>CRISPR/Cas (clustered regularly interspaced palindromic repeats/CRISPR-associated) systems are a bacterial defence against invading foreign nucleic acids derived from bacteriophages or exogenous plasmids. These systems use an array of small CRISPR RNAs (crRNAs) consisting of repetitive sequences flanking unique spacers to recognize their targets, and conserved Cas proteins to mediate target degradation. Recent studies have suggested that these systems may have broader functions in bacterial physiology, and it is unknown if they regulate expression of endogenous genes. Here we demonstrate that the Cas protein Cas9 of Francisella novicida uses a unique, small, CRISPR/Cas-associated RNA (scaRNA) to repress an endogenous transcript encoding a bacterial lipoprotein. As bacterial lipoproteins trigger a proinflammatory innate immune response aimed at combating pathogens, CRISPR/Cas-mediated repression of bacterial lipoprotein expression is critical for F. novicida to dampen this host response and promote virulence. Because Cas9 proteins are highly enriched in pathogenic and commensal bacteria, our work indicates that CRISPR/Cas-mediated gene regulation may broadly contribute to the regulation of endogenous bacterial genes, particularly during the interaction of such bacteria with eukaryotic hosts.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 14 April 2013. <a href="http://dx.doi.org/10.1038/nature12048">doi:10.1038/nature12048</a>
+</p>
+<p>Authors: Timothy R. Sampson, Sunil D. Saroj, Anna C. Llewellyn, Yih-Ling Tzeng &amp; David S. Weiss</p>
+<p>CRISPR/Cas (clustered regularly interspaced palindromic repeats/CRISPR-associated) systems are a bacterial defence against invading foreign nucleic acids derived from bacteriophages or exogenous plasmids. These systems use an array of small CRISPR RNAs (crRNAs) consisting of repetitive sequences flanking unique spacers to recognize their targets, and conserved Cas proteins to mediate target degradation. Recent studies have suggested that these systems may have broader functions in bacterial physiology, and it is unknown if they regulate expression of endogenous genes. Here we demonstrate that the Cas protein Cas9 of Francisella novicida uses a unique, small, CRISPR/Cas-associated RNA (scaRNA) to repress an endogenous transcript encoding a bacterial lipoprotein. As bacterial lipoproteins trigger a proinflammatory innate immune response aimed at combating pathogens, CRISPR/Cas-mediated repression of bacterial lipoprotein expression is critical for F. novicida to dampen this host response and promote virulence. Because Cas9 proteins are highly enriched in pathogenic and commensal bacteria, our work indicates that CRISPR/Cas-mediated gene regulation may broadly contribute to the regulation of endogenous bacterial genes, particularly during the interaction of such bacteria with eukaryotic hosts.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/lMmVcNldX1c" height="1" width="1"/>]]></content:encoded>
+<dc:title>A CRISPR/Cas system mediates bacterial innate immune evasion and virulence</dc:title>
+<dc:creator>Timothy R. Sampson</dc:creator>
+<dc:creator>Sunil D. Saroj</dc:creator>
+<dc:creator>Anna C. Llewellyn</dc:creator>
+<dc:creator>Yih-Ling Tzeng</dc:creator>
+<dc:creator>David S. Weiss</dc:creator>
+<dc:identifier>doi:10.1038/nature12048</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-14</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-14</prism:publicationDate>
+<prism:doi>10.1038/nature12048</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12048</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12048</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12045">
+                     <title>Structure of a bacterial energy-coupling factor transporter</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/Ny-chYtVDWQ/nature12045</link>
+<description>The energy-coupling factor (ECF) transporters constitute a novel family of conserved membrane transporters in prokaryotes that have a similar domain organization to the ATP-binding cassette transporters. Each ECF transporter comprises a pair of cytosolic ATPases (the A and A′ components, or EcfA and EcfA′), a membrane-embedded substrate-binding protein (the S component, or EcfS) and a transmembrane energy-coupling component (the T component, or EcfT) that links the EcfA–EcfA′ subcomplex to EcfS. The structure and transport mechanism of the quaternary ECF transporter remain largely unknown. Here we report the crystal structure of a nucleotide-free ECF transporter from Lactobacillus brevis at a resolution of 3.5 Å. The T component has a horseshoe-shaped open architecture, with five α-helices as transmembrane segments and two cytoplasmic α-helices as coupling modules connecting to the A and A′ components. Strikingly, the S component, thought to be specific for hydroxymethyl pyrimidine, lies horizontally along the lipid membrane and is bound exclusively by the five transmembrane segments and the two cytoplasmic helices of the T component. These structural features suggest a plausible working model for the transport cycle of the ECF transporters.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 14 April 2013. <a href="http://dx.doi.org/10.1038/nature12045">doi:10.1038/nature12045</a>
+</p>
+<p>Authors: Tingliang Wang, Guobin Fu, Xiaojing Pan, Jianping Wu, Xinqi Gong, Jiawei Wang &amp; Yigong Shi</p>
+<p>The energy-coupling factor (ECF) transporters constitute a novel family of conserved membrane transporters in prokaryotes that have a similar domain organization to the ATP-binding cassette transporters. Each ECF transporter comprises a pair of cytosolic ATPases (the A and A&#8242; components, or EcfA and EcfA&#8242;), a membrane-embedded substrate-binding protein (the S component, or EcfS) and a transmembrane energy-coupling component (the T component, or EcfT) that links the EcfA&#8211;EcfA&#8242; subcomplex to EcfS. The structure and transport mechanism of the quaternary ECF transporter remain largely unknown. Here we report the crystal structure of a nucleotide-free ECF transporter from Lactobacillus brevis at a resolution of 3.5&#8201;&#197;. The T component has a horseshoe-shaped open architecture, with five &#945;-helices as transmembrane segments and two cytoplasmic &#945;-helices as coupling modules connecting to the A and A&#8242; components. Strikingly, the S component, thought to be specific for hydroxymethyl pyrimidine, lies horizontally along the lipid membrane and is bound exclusively by the five transmembrane segments and the two cytoplasmic helices of the T component. These structural features suggest a plausible working model for the transport cycle of the ECF transporters.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/Ny-chYtVDWQ" height="1" width="1"/>]]></content:encoded>
+<dc:title>Structure of a bacterial energy-coupling factor transporter</dc:title>
+<dc:creator>Tingliang Wang</dc:creator>
+<dc:creator>Guobin Fu</dc:creator>
+<dc:creator>Xiaojing Pan</dc:creator>
+<dc:creator>Jianping Wu</dc:creator>
+<dc:creator>Xinqi Gong</dc:creator>
+<dc:creator>Jiawei Wang</dc:creator>
+<dc:creator>Yigong Shi</dc:creator>
+<dc:identifier>doi:10.1038/nature12045</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-14</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-14</prism:publicationDate>
+<prism:doi>10.1038/nature12045</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12045</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12045</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12046">
+                     <title>Crystal structure of a folate energy-coupling factor transporter from Lactobacillus brevis </title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/h2I3i9Rceh0/nature12046</link>
+<description>ATP-binding cassette (ABC) transporters, composed of importers and exporters, form one of the biggest protein superfamilies that transport a variety of substrates across the membrane, powered by ATP hydrolysis. Most ABC transporters are composed of two transmembrane domains and two cytoplasmic nucleotide-binding domains. Also, importers from prokaryotes usually have extra solute-binding proteins in the periplasm that are responsible for the binding of substrates. Structures of importers have been reported that suggested a two-state model for the transport mechanism. Energy-coupling factor (ECF) transporters belong to a new class of ATP-binding cassette importers. Each ECF transporter comprises an energy-coupling module consisting of a transmembrane T protein (EcfT), two nucleotide-binding proteins (EcfA and EcfA′), and another transmembrane substrate-specific binding S protein (EcfS). Despite the similarities with ABC transporters, ECF transporters have different organizational and functional properties. The lack of solute-binding proteins in ECF transporters differentiates them clearly from the canonical ABC importers. Previously reported structures of the EcfS proteins RibU and ThiT clearly demonstrated the binding site of substrate riboflavin and thiamine, respectively. However, the organization of the four different components and the transport mechanism of ECF transporters remain unknown. Here we present the structure of an intact folate ECF transporter from Lactobacillus brevis at a resolution of 3 Å. This structure was captured in an inward-facing, nucleotide-free conformation with no bound substrate. The folate-binding protein FolT is nearly parallel to the membrane and is bound almost entirely by EcfT, which adopts an L shape and connects to EcfA and EcfA′ through two coupling helices. Two conserved XRX motifs from the coupling helices of EcfT have a vital role in energy coupling by docking into EcfA–EcfA′. We propose a transport model that involves a substantial conformational change of FolT.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 14 April 2013. <a href="http://dx.doi.org/10.1038/nature12046">doi:10.1038/nature12046</a>
+</p>
+<p>Authors: Ke Xu, Minhua Zhang, Qin Zhao, Fang Yu, Hui Guo, Chengyuan Wang, Fangyuan He, Jianping Ding &amp; Peng Zhang</p>
+<p>ATP-binding cassette (ABC) transporters, composed of importers and exporters, form one of the biggest protein superfamilies that transport a variety of substrates across the membrane, powered by ATP hydrolysis. Most ABC transporters are composed of two transmembrane domains and two cytoplasmic nucleotide-binding domains. Also, importers from prokaryotes usually have extra solute-binding proteins in the periplasm that are responsible for the binding of substrates. Structures of importers have been reported that suggested a two-state model for the transport mechanism. Energy-coupling factor (ECF) transporters belong to a new class of ATP-binding cassette importers. Each ECF transporter comprises an energy-coupling module consisting of a transmembrane T protein (EcfT), two nucleotide-binding proteins (EcfA and EcfA&#8242;), and another transmembrane substrate-specific binding S protein (EcfS). Despite the similarities with ABC transporters, ECF transporters have different organizational and functional properties. The lack of solute-binding proteins in ECF transporters differentiates them clearly from the canonical ABC importers. Previously reported structures of the EcfS proteins RibU and ThiT clearly demonstrated the binding site of substrate riboflavin and thiamine, respectively. However, the organization of the four different components and the transport mechanism of ECF transporters remain unknown. Here we present the structure of an intact folate ECF transporter from Lactobacillus brevis at a resolution of 3&#8201;&#197;. This structure was captured in an inward-facing, nucleotide-free conformation with no bound substrate. The folate-binding protein FolT is nearly parallel to the membrane and is bound almost entirely by EcfT, which adopts an L&#8201;shape and connects to EcfA and EcfA&#8242; through two coupling helices. Two conserved XRX motifs from the coupling helices of EcfT have a vital role in energy coupling by docking into EcfA&#8211;EcfA&#8242;. We propose a transport model that involves a substantial conformational change of FolT.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/h2I3i9Rceh0" height="1" width="1"/>]]></content:encoded>
+<dc:title>Crystal structure of a folate energy-coupling factor transporter from Lactobacillus brevis </dc:title>
+<dc:creator>Ke Xu</dc:creator>
+<dc:creator>Minhua Zhang</dc:creator>
+<dc:creator>Qin Zhao</dc:creator>
+<dc:creator>Fang Yu</dc:creator>
+<dc:creator>Hui Guo</dc:creator>
+<dc:creator>Chengyuan Wang</dc:creator>
+<dc:creator>Fangyuan He</dc:creator>
+<dc:creator>Jianping Ding</dc:creator>
+<dc:creator>Peng Zhang</dc:creator>
+<dc:identifier>doi:10.1038/nature12046</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-14</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-14</prism:publicationDate>
+<prism:doi>10.1038/nature12046</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12046</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12046</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12092">
+                     <title>Complex systems: Spatial signatures of resilience</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/L6zXtP7FdIY/nature12092</link>
+<description>Predicting when the dynamics of a complex system will undergo a sudden transition is difficult. New experiments show that the spatial distribution of organisms can indicate when such tipping points are near.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12092">doi:10.1038/nature12092</a>
+</p>
+<p>Author: Stephen R. Carpenter</p>
+<p>Predicting when the dynamics of a complex system will undergo a sudden transition is difficult. New experiments show that the spatial distribution of organisms can indicate when such tipping points are near.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/L6zXtP7FdIY" height="1" width="1"/>]]></content:encoded>
+<dc:title>Complex systems: Spatial signatures of resilience</dc:title>
+<dc:creator>Stephen R. Carpenter</dc:creator>
+<dc:identifier>doi:10.1038/nature12092</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12092</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12092</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12092</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12093">
+                     <title>Archaeology: A potted history of Japan</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/cksMqRRNVT8/nature12093</link>
+<description>The discovery of lipids on ceramic fragments from the Japanese Jōmon period provides the earliest evidence for the use of pottery for cooking and may prompt a rethink of some aspects of human innovation.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12093">doi:10.1038/nature12093</a>
+</p>
+<p>Author: Simon Kaner</p>
+<p>The discovery of lipids on ceramic fragments from the Japanese J&#333;mon period provides the earliest evidence for the use of pottery for cooking and may prompt a rethink of some aspects of human innovation.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/cksMqRRNVT8" height="1" width="1"/>]]></content:encoded>
+<dc:title>Archaeology: A potted history of Japan</dc:title>
+<dc:creator>Simon Kaner</dc:creator>
+<dc:identifier>doi:10.1038/nature12093</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12093</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12093</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12093</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12107">
+                     <title>Structural and molecular interrogation of intact biological systems</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/vw0XMx0KLxo/nature12107</link>
+<description>High-resolution imaging has traditionally required thin sectioning, a process that disrupts long-range connectivity in the case of brains: here, intact mouse brains and human brain samples have been made fully transparent and macromolecule permeable using a new method termed CLARITY, which allows for intact-tissue imaging as well as repeated antibody labelling and in situ hybridization of non-sectioned tissue.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12107">doi:10.1038/nature12107</a>
+</p>
+<p>Authors: Kwanghun Chung, Jenelle Wallace, Sung-Yon Kim, Sandhiya Kalyanasundaram, Aaron S. Andalman, Thomas J. Davidson, Julie J. Mirzabekov, Kelly A. Zalocusky, Joanna Mattis, Aleksandra K. Denisin, Sally Pak, Hannah Bernstein, Charu Ramakrishnan, Logan Grosenick, Viviana Gradinaru &amp; Karl Deisseroth</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/vw0XMx0KLxo" height="1" width="1"/>]]></content:encoded>
+<dc:title>Structural and molecular interrogation of intact biological systems</dc:title>
+<dc:creator>Kwanghun Chung</dc:creator>
+<dc:creator>Jenelle Wallace</dc:creator>
+<dc:creator>Sung-Yon Kim</dc:creator>
+<dc:creator>Sandhiya Kalyanasundaram</dc:creator>
+<dc:creator>Aaron S. Andalman</dc:creator>
+<dc:creator>Thomas J. Davidson</dc:creator>
+<dc:creator>Julie J. Mirzabekov</dc:creator>
+<dc:creator>Kelly A. Zalocusky</dc:creator>
+<dc:creator>Joanna Mattis</dc:creator>
+<dc:creator>Aleksandra K. Denisin</dc:creator>
+<dc:creator>Sally Pak</dc:creator>
+<dc:creator>Hannah Bernstein</dc:creator>
+<dc:creator>Charu Ramakrishnan</dc:creator>
+<dc:creator>Logan Grosenick</dc:creator>
+<dc:creator>Viviana Gradinaru</dc:creator>
+<dc:creator>Karl Deisseroth</dc:creator>
+<dc:identifier>doi:10.1038/nature12107</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12107</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12107</prism:url>
+<prism:section>Article</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12107</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12039">
+                     <title>Structural basis of kynurenine 3-monooxygenase inhibition</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/ruu1IGYTD80/nature12039</link>
+<description>Inhibition of kynurenine 3-monooxygenase (KMO), an enzyme in the eukaryotic tryptophan catabolic pathway (that is, kynurenine pathway), leads to amelioration of Huntington’s-disease-relevant phenotypes in yeast, fruitfly and mouse models, as well as in a mouse model of Alzheimer’s disease. KMO is a flavin adenine dinucleotide (FAD)-dependent monooxygenase and is located in the outer mitochondrial membrane where it converts l-kynurenine to 3-hydroxykynurenine. Perturbations in the levels of kynurenine pathway metabolites have been linked to the pathogenesis of a spectrum of brain disorders, as well as cancer and several peripheral inflammatory conditions. Despite the importance of KMO as a target for neurodegenerative disease, the molecular basis of KMO inhibition by available lead compounds has remained unknown. Here we report the first crystal structure of Saccharomyces cerevisiae KMO, in the free form and in complex with the tight-binding inhibitor UPF 648. UPF 648 binds close to the FAD cofactor and perturbs the local active-site structure, preventing productive binding of the substrate l-kynurenine. Functional assays and targeted mutagenesis reveal that the active-site architecture and UPF 648 binding are essentially identical in human KMO, validating the yeast KMO–UPF 648 structure as a template for structure-based drug design. This will inform the search for new KMO inhibitors that are able to cross the blood–brain barrier in targeted therapies against neurodegenerative diseases such as Huntington’s, Alzheimer’s and Parkinson’s diseases.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12039">doi:10.1038/nature12039</a>
+</p>
+<p>Authors: Marta Amaral, Colin Levy, Derren J. Heyes, Pierre Lafite, Tiago F. Outeiro, Flaviano Giorgini, David Leys &amp; Nigel S. Scrutton</p>
+<p>Inhibition of kynurenine 3-monooxygenase (KMO), an enzyme in the eukaryotic tryptophan catabolic pathway (that is, kynurenine pathway), leads to amelioration of Huntington&#8217;s-disease-relevant phenotypes in yeast, fruitfly and mouse models, as well as in a mouse model of Alzheimer&#8217;s disease. KMO is a flavin adenine dinucleotide (FAD)-dependent monooxygenase and is located in the outer mitochondrial membrane where it converts l-kynurenine to 3-hydroxykynurenine. Perturbations in the levels of kynurenine pathway metabolites have been linked to the pathogenesis of a spectrum of brain disorders, as well as cancer and several peripheral inflammatory conditions. Despite the importance of KMO as a target for neurodegenerative disease, the molecular basis of KMO inhibition by available lead compounds has remained unknown. Here we report the first crystal structure of Saccharomyces cerevisiae KMO, in the free form and in complex with the tight-binding inhibitor UPF&#8201;648. UPF&#8201;648 binds close to the FAD cofactor and perturbs the local active-site structure, preventing productive binding of the substrate l-kynurenine. Functional assays and targeted mutagenesis reveal that the active-site architecture and UPF&#8201;648 binding are essentially identical in human KMO, validating the yeast KMO&#8211;UPF&#8201;648 structure as a template for structure-based drug design. This will inform the search for new KMO inhibitors that are able to cross the blood&#8211;brain barrier in targeted therapies against neurodegenerative diseases such as Huntington&#8217;s, Alzheimer&#8217;s and Parkinson&#8217;s diseases.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/ruu1IGYTD80" height="1" width="1"/>]]></content:encoded>
+<dc:title>Structural basis of kynurenine 3-monooxygenase inhibition</dc:title>
+<dc:creator>Marta Amaral</dc:creator>
+<dc:creator>Colin Levy</dc:creator>
+<dc:creator>Derren J. Heyes</dc:creator>
+<dc:creator>Pierre Lafite</dc:creator>
+<dc:creator>Tiago F. Outeiro</dc:creator>
+<dc:creator>Flaviano Giorgini</dc:creator>
+<dc:creator>David Leys</dc:creator>
+<dc:creator>Nigel S. Scrutton</dc:creator>
+<dc:identifier>doi:10.1038/nature12039</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12039</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12039</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12039</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12109">
+                     <title>Earliest evidence for the use of pottery</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/qfR8X0IOoqk/nature12109</link>
+<description>Pottery was a hunter-gatherer innovation that first emerged in East Asia between 20,000 and 12,000 calibrated years before present (cal bp), towards the end of the Late Pleistocene epoch, a period of time when humans were adjusting to changing climates and new environments. Ceramic container technologies were one of a range of late glacial adaptations that were pivotal to structuring subsequent cultural trajectories in different regions of the world, but the reasons for their emergence and widespread uptake are poorly understood. The first ceramic containers must have provided prehistoric hunter-gatherers with attractive new strategies for processing and consuming foodstuffs, but virtually nothing is known of how early pots were used. Here we report the chemical analysis of food residues associated with Late Pleistocene pottery, focusing on one of the best-studied prehistoric ceramic sequences in the world, the Japanese Jōmon. We demonstrate that lipids can be recovered reliably from charred surface deposits adhering to pottery dating from about 15,000 to 11,800 cal bp (the Incipient Jōmon period), the oldest pottery so far investigated, and that in most cases these organic compounds are unequivocally derived from processing freshwater and marine organisms. Stable isotope data support the lipid evidence and suggest that most of the 101 charred deposits analysed, from across the major islands of Japan, were derived from high-trophic-level aquatic food. Productive aquatic ecotones were heavily exploited by late glacial foragers, perhaps providing an initial impetus for investment in ceramic container technology, and paving the way for further intensification of pottery use by hunter-gatherers in the early Holocene epoch. Now that we have shown that it is possible to analyse organic residues from some of the world’s earliest ceramic vessels, the subsequent development of this critical technology can be clarified through further widespread testing of hunter-gatherer pottery from later periods.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12109">doi:10.1038/nature12109</a>
+</p>
+<p>Authors: O. E. Craig, H. Saul, A. Lucquin, Y. Nishida, K. Tach&#233;, L. Clarke, A. Thompson, D. T. Altoft, J. Uchiyama, M. Ajimoto, K. Gibbs, S. Isaksson, C. P. Heron &amp; P. Jordan</p>
+<p>Pottery was a hunter-gatherer innovation that first emerged in East Asia between 20,000 and 12,000 calibrated years before present (cal bp), towards the end of the Late Pleistocene epoch, a period of time when humans were adjusting to changing climates and new environments. Ceramic container technologies were one of a range of late glacial adaptations that were pivotal to structuring subsequent cultural trajectories in different regions of the world, but the reasons for their emergence and widespread uptake are poorly understood. The first ceramic containers must have provided prehistoric hunter-gatherers with attractive new strategies for processing and consuming foodstuffs, but virtually nothing is known of how early pots were used. Here we report the chemical analysis of food residues associated with Late Pleistocene pottery, focusing on one of the best-studied prehistoric ceramic sequences in the world, the Japanese J&#333;mon. We demonstrate that lipids can be recovered reliably from charred surface deposits adhering to pottery dating from about 15,000 to 11,800&#8201;cal&#8201;bp (the Incipient J&#333;mon period), the oldest pottery so far investigated, and that in most cases these organic compounds are unequivocally derived from processing freshwater and marine organisms. Stable isotope data support the lipid evidence and suggest that most of the 101 charred deposits analysed, from across the major islands of Japan, were derived from high-trophic-level aquatic food. Productive aquatic ecotones were heavily exploited by late glacial foragers, perhaps providing an initial impetus for investment in ceramic container technology, and paving the way for further intensification of pottery use by hunter-gatherers in the early Holocene epoch. Now that we have shown that it is possible to analyse organic residues from some of the world&#8217;s earliest ceramic vessels, the subsequent development of this critical technology can be clarified through further widespread testing of hunter-gatherer pottery from later periods.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/qfR8X0IOoqk" height="1" width="1"/>]]></content:encoded>
+<dc:title>Earliest evidence for the use of pottery</dc:title>
+<dc:creator>O. E. Craig</dc:creator>
+<dc:creator>H. Saul</dc:creator>
+<dc:creator>A. Lucquin</dc:creator>
+<dc:creator>Y. Nishida</dc:creator>
+<dc:creator>K. Taché</dc:creator>
+<dc:creator>L. Clarke</dc:creator>
+<dc:creator>A. Thompson</dc:creator>
+<dc:creator>D. T. Altoft</dc:creator>
+<dc:creator>J. Uchiyama</dc:creator>
+<dc:creator>M. Ajimoto</dc:creator>
+<dc:creator>K. Gibbs</dc:creator>
+<dc:creator>S. Isaksson</dc:creator>
+<dc:creator>C. P. Heron</dc:creator>
+<dc:creator>P. Jordan</dc:creator>
+<dc:identifier>doi:10.1038/nature12109</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12109</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12109</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12109</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12071">
+                     <title>Slower recovery in space before collapse of connected populations</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/2AtAzbw1OCs/nature12071</link>
+<description>Slower recovery from perturbations near a tipping point and its indirect signatures in fluctuation patterns have been suggested to foreshadow catastrophes in a wide variety of systems. Recent studies of populations in the field and in the laboratory have used time-series data to confirm some of the theoretically predicted early warning indicators, such as an increase in recovery time or in the size and timescale of fluctuations. However, the predictive power of temporal warning signals is limited by the demand for long-term observations. Large-scale spatial data are more accessible, but the performance of warning signals in spatially extended systems needs to be examined empirically. Here we use spatially extended yeast populations, an experimental system with a fold bifurcation (tipping point), to evaluate early warning signals based on spatio-temporal fluctuations and to identify a novel spatial warning indicator. We found that two leading indicators based on fluctuations increased before collapse of connected populations; however, the magnitudes of the increases were smaller than those observed in isolated populations, possibly because local variation is reduced by dispersal. Furthermore, we propose a generic indicator based on deterministic spatial patterns, which we call ‘recovery length’. As the spatial counterpart of recovery time, recovery length is the distance necessary for connected populations to recover from spatial perturbations. In our experiments, recovery length increased substantially before population collapse, suggesting that the spatial scale of recovery can provide a superior warning signal before tipping points in spatially extended systems.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12071">doi:10.1038/nature12071</a>
+</p>
+<p>Authors: Lei Dai, Kirill S. Korolev &amp; Jeff Gore</p>
+<p>Slower recovery from perturbations near a tipping point and its indirect signatures in fluctuation patterns have been suggested to foreshadow catastrophes in a wide variety of systems. Recent studies of populations in the field and in the laboratory have used time-series data to confirm some of the theoretically predicted early warning indicators, such as an increase in recovery time or in the size and timescale of fluctuations. However, the predictive power of temporal warning signals is limited by the demand for long-term observations. Large-scale spatial data are more accessible, but the performance of warning signals in spatially extended systems needs to be examined empirically. Here we use spatially extended yeast populations, an experimental system with a fold bifurcation (tipping point), to evaluate early warning signals based on spatio-temporal fluctuations and to identify a novel spatial warning indicator. We found that two leading indicators based on fluctuations increased before collapse of connected populations; however, the magnitudes of the increases were smaller than those observed in isolated populations, possibly because local variation is reduced by dispersal. Furthermore, we propose a generic indicator based on deterministic spatial patterns, which we call &#8216;recovery length&#8217;. As the spatial counterpart of recovery time, recovery length is the distance necessary for connected populations to recover from spatial perturbations. In our experiments, recovery length increased substantially before population collapse, suggesting that the spatial scale of recovery can provide a superior warning signal before tipping points in spatially extended systems.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/2AtAzbw1OCs" height="1" width="1"/>]]></content:encoded>
+<dc:title>Slower recovery in space before collapse of connected populations</dc:title>
+<dc:creator>Lei Dai</dc:creator>
+<dc:creator>Kirill S. Korolev</dc:creator>
+<dc:creator>Jeff Gore</dc:creator>
+<dc:identifier>doi:10.1038/nature12071</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12071</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12071</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12071</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12008">
+                     <title>Unexpected strain-stiffening in crystalline solids</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/X3KrWOliWWU/nature12008</link>
+<description>Strain-stiffening—an increase in material stiffness at large strains—is a vital mechanism by which many soft biological materials thwart excessive deformation to protect tissue integrity. Understanding the fundamental science of strain-stiffening and incorporating this concept into the design of metals and ceramics for advanced applications is an attractive prospect. Using cementite (Fe3C) and aluminium borocarbide (Al3BC3) as prototypes, here we show via quantum-mechanical calculations that strain-stiffening also occurs, surprisingly, in simple inorganic crystalline solids and confers exceptionally high strengths to these two solids, which have anomalously low resistance to deformation near equilibrium. For Fe3C and Al3BC3, their ideal shear strength to shear modulus ratios attain remarkably high values of 1.14 and 1.34 along the (010)[001] and  slip systems, respectively. These values are more than seven times larger than the original Frenkel value of 1/2π (refs 4, 5) and are the highest yet reported for crystalline solids. The extraordinary stiffening of Fe3C arises from the strain-induced reversible ‘cross-linking’ between weakly coupled edge- and corner-sharing Fe6C slabs. This new bond formation creates a strong, three-dimensional covalent bond network that resists large shear deformation. Unlike Fe3C, no new bond forms in Al3BC3 but stiffening still occurs because strong repulsion between Al and B in a compressed Al–B bond unsettles the existing covalent bond network. These discoveries challenge the conventional wisdom that large shear modulus is a reliable predictor of hardness and strength of materials, and provide new lessons for materials selection and design.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12008">doi:10.1038/nature12008</a>
+</p>
+<p>Authors: Chao Jiang &amp; Srivilliputhur G. Srinivasan</p>
+<p>Strain-stiffening&#8212;an increase in material stiffness at large strains&#8212;is a vital mechanism by which many soft biological materials thwart excessive deformation to protect tissue integrity. Understanding the fundamental science of strain-stiffening and incorporating this concept into the design of metals and ceramics for advanced applications is an attractive prospect. Using cementite (Fe3C) and aluminium borocarbide (Al3BC3) as prototypes, here we show via quantum-mechanical calculations that strain-stiffening also occurs, surprisingly, in simple inorganic crystalline solids and confers exceptionally high strengths to these two solids, which have anomalously low resistance to deformation near equilibrium. For Fe3C and Al3BC3, their ideal shear strength to shear modulus ratios attain remarkably high values of 1.14 and 1.34 along the (010)&#91;001&#93; and  slip systems, respectively. These values are more than seven times larger than the original Frenkel value of 1/2&#960; (refs 4, 5) and are the highest yet reported for crystalline solids. The extraordinary stiffening of Fe3C arises from the strain-induced reversible &#8216;cross-linking&#8217; between weakly coupled edge- and corner-sharing Fe6C slabs. This new bond formation creates a strong, three-dimensional covalent bond network that resists large shear deformation. Unlike Fe3C, no new bond forms in Al3BC3 but stiffening still occurs because strong repulsion between Al and B in a compressed Al&#8211;B bond unsettles the existing covalent bond network. These discoveries challenge the conventional wisdom that large shear modulus is a reliable predictor of hardness and strength of materials, and provide new lessons for materials selection and design.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/X3KrWOliWWU" height="1" width="1"/>]]></content:encoded>
+<dc:title>Unexpected strain-stiffening in crystalline solids</dc:title>
+<dc:creator>Chao Jiang</dc:creator>
+<dc:creator>Srivilliputhur G. Srinivasan</dc:creator>
+<dc:identifier>doi:10.1038/nature12008</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12008</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12008</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12008</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12026">
+                     <title>M-CSF instructs myeloid lineage fate in single haematopoietic stem cells</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/ZrDJTRmB0ic/nature12026</link>
+<description>Under stress conditions such as infection or inflammation the body rapidly needs to generate new blood cells that are adapted to the challenge. Haematopoietic cytokines are known to increase output of specific mature cells by affecting survival, expansion and differentiation of lineage-committed progenitors, but it has been debated whether long-term haematopoietic stem cells (HSCs) are susceptible to direct lineage-specifying effects of cytokines. Although genetic changes in transcription factor balance can sensitize HSCs to cytokine instruction, the initiation of HSC commitment is generally thought to be triggered by stochastic fluctuation in cell-intrinsic regulators such as lineage-specific transcription factors, leaving cytokines to ensure survival and proliferation of the progeny cells. Here we show that macrophage colony-stimulating factor (M-CSF, also called CSF1), a myeloid cytokine released during infection and inflammation, can directly induce the myeloid master regulator PU.1 and instruct myeloid cell-fate change in mouse HSCs, independently of selective survival or proliferation. Video imaging and single-cell gene expression analysis revealed that stimulation of highly purified HSCs with M-CSF in culture resulted in activation of the PU.1 promoter and an increased number of PU.1+ cells with myeloid gene signature and differentiation potential. In vivo, high systemic levels of M-CSF directly stimulated M-CSF-receptor-dependent activation of endogenous PU.1 protein in single HSCs and induced a PU.1-dependent myeloid differentiation preference. Our data demonstrate that lineage-specific cytokines can act directly on HSCs in vitro and in vivo to instruct a change of cell identity. This fundamentally changes the current view of how HSCs respond to environmental challenge and implicates stress-induced cytokines as direct instructors of HSC fate.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12026">doi:10.1038/nature12026</a>
+</p>
+<p>Authors: Noushine Mossadegh-Keller, Sandrine Sarrazin, Prashanth K. Kandalla, Leon Espinosa, E. Richard Stanley, Stephen L. Nutt, Jordan Moore &amp; Michael H. Sieweke</p>
+<p>Under stress conditions such as infection or inflammation the body rapidly needs to generate new blood cells that are adapted to the challenge. Haematopoietic cytokines are known to increase output of specific mature cells by affecting survival, expansion and differentiation of lineage-committed progenitors, but it has been debated whether long-term haematopoietic stem cells (HSCs) are susceptible to direct lineage-specifying effects of cytokines. Although genetic changes in transcription factor balance can sensitize HSCs to cytokine instruction, the initiation of HSC commitment is generally thought to be triggered by stochastic fluctuation in cell-intrinsic regulators such as lineage-specific transcription factors, leaving cytokines to ensure survival and proliferation of the progeny cells. Here we show that macrophage colony-stimulating factor (M-CSF, also called CSF1), a myeloid cytokine released during infection and inflammation, can directly induce the myeloid master regulator PU.1 and instruct myeloid cell-fate change in mouse HSCs, independently of selective survival or proliferation. Video imaging and single-cell gene expression analysis revealed that stimulation of highly purified HSCs with M-CSF in culture resulted in activation of the PU.1 promoter and an increased number of PU.1+ cells with myeloid gene signature and differentiation potential. In vivo, high systemic levels of M-CSF directly stimulated M-CSF-receptor-dependent activation of endogenous PU.1 protein in single HSCs and induced a PU.1-dependent myeloid differentiation preference. Our data demonstrate that lineage-specific cytokines can act directly on HSCs in vitro and in vivo to instruct a change of cell identity. This fundamentally changes the current view of how HSCs respond to environmental challenge and implicates stress-induced cytokines as direct instructors of HSC fate.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/ZrDJTRmB0ic" height="1" width="1"/>]]></content:encoded>
+<dc:title>M-CSF instructs myeloid lineage fate in single haematopoietic stem cells</dc:title>
+<dc:creator>Noushine Mossadegh-Keller</dc:creator>
+<dc:creator>Sandrine Sarrazin</dc:creator>
+<dc:creator>Prashanth K. Kandalla</dc:creator>
+<dc:creator>Leon Espinosa</dc:creator>
+<dc:creator>E. Richard Stanley</dc:creator>
+<dc:creator>Stephen L. Nutt</dc:creator>
+<dc:creator>Jordan Moore</dc:creator>
+<dc:creator>Michael H. Sieweke</dc:creator>
+<dc:identifier>doi:10.1038/nature12026</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12026</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12026</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12026</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12051">
+                     <title>High-level semi-synthetic production of the potent antimalarial artemisinin</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/plPbycDueUI/nature12051</link>
+<description>In 2010 there were more than 200 million cases of malaria, and at least 655,000 deaths. The World Health Organization has recommended artemisinin-based combination therapies (ACTs) for the treatment of uncomplicated malaria caused by the parasite Plasmodium falciparum. Artemisinin is a sesquiterpene endoperoxide with potent antimalarial properties, produced by the plant Artemisia annua. However, the supply of plant-derived artemisinin is unstable, resulting in shortages and price fluctuations, complicating production planning by ACT manufacturers. A stable source of affordable artemisinin is required. Here we use synthetic biology to develop strains of Saccharomyces cerevisiae (baker’s yeast) for high-yielding biological production of artemisinic acid, a precursor of artemisinin. Previous attempts to produce commercially relevant concentrations of artemisinic acid were unsuccessful, allowing production of only 1.6 grams per litre of artemisinic acid. Here we demonstrate the complete biosynthetic pathway, including the discovery of a plant dehydrogenase and a second cytochrome that provide an efficient biosynthetic route to artemisinic acid, with fermentation titres of 25 grams per litre of artemisinic acid. Furthermore, we have developed a practical, efficient and scalable chemical process for the conversion of artemisinic acid to artemisinin using a chemical source of singlet oxygen, thus avoiding the need for specialized photochemical equipment. The strains and processes described here form the basis of a viable industrial process for the production of semi-synthetic artemisinin to stabilize the supply of artemisinin for derivatization into active pharmaceutical ingredients (for example, artesunate) for incorporation into ACTs. Because all intellectual property rights have been provided free of charge, this technology has the potential to increase provision of first-line antimalarial treatments to the developing world at a reduced average annual price.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 10 April 2013. <a href="http://dx.doi.org/10.1038/nature12051">doi:10.1038/nature12051</a>
+</p>
+<p>Authors: C. J. Paddon, P. J. Westfall, D. J. Pitera, K. Benjamin, K. Fisher, D. McPhee, M. D. Leavell, A. Tai, A. Main, D. Eng, D. R. Polichuk, K. H. Teoh, D. W. Reed, T. Treynor, J. Lenihan, M. Fleck, S. Bajad, G. Dang, D. Diola, G. Dorin, K. W. Ellens, S. Fickes, J. Galazzo, S. P. Gaucher, T. Geistlinger, R. Henry, M. Hepp, T. Horning, T. Iqbal, H. Jiang, L. Kizer, B. Lieu, D. Melis, N. Moss, R. Regentin, S. Secrest, H. Tsuruta, R. Vazquez, L. F. Westblade, L. Xu, M. Yu, Y. Zhang, L. Zhao, J. Lievense, P. S. Covello, J. D. Keasling, K. K. Reiling, N. S. Renninger &amp; J. D. Newman</p>
+<p>In 2010 there were more than 200&#8201;million cases of malaria, and at least 655,000 deaths. The World Health Organization has recommended artemisinin-based combination therapies (ACTs) for the treatment of uncomplicated malaria caused by the parasite Plasmodium falciparum. Artemisinin is a sesquiterpene endoperoxide with potent antimalarial properties, produced by the plant Artemisia annua. However, the supply of plant-derived artemisinin is unstable, resulting in shortages and price fluctuations, complicating production planning by ACT manufacturers. A stable source of affordable artemisinin is required. Here we use synthetic biology to develop strains of Saccharomyces cerevisiae (baker&#8217;s yeast) for high-yielding biological production of artemisinic acid, a precursor of artemisinin. Previous attempts to produce commercially relevant concentrations of artemisinic acid were unsuccessful, allowing production of only 1.6&#8201;grams per litre of artemisinic acid. Here we demonstrate the complete biosynthetic pathway, including the discovery of a plant dehydrogenase and a second cytochrome that provide an efficient biosynthetic route to artemisinic acid, with fermentation titres of 25&#8201;grams per litre of artemisinic acid. Furthermore, we have developed a practical, efficient and scalable chemical process for the conversion of artemisinic acid to artemisinin using a chemical source of singlet oxygen, thus avoiding the need for specialized photochemical equipment. The strains and processes described here form the basis of a viable industrial process for the production of semi-synthetic artemisinin to stabilize the supply of artemisinin for derivatization into active pharmaceutical ingredients (for example, artesunate) for incorporation into ACTs. Because all intellectual property rights have been provided free of charge, this technology has the potential to increase provision of first-line antimalarial treatments to the developing world at a reduced average annual price.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/plPbycDueUI" height="1" width="1"/>]]></content:encoded>
+<dc:title>High-level semi-synthetic production of the potent antimalarial artemisinin</dc:title>
+<dc:creator>C. J. Paddon</dc:creator>
+<dc:creator>P. J. Westfall</dc:creator>
+<dc:creator>D. J. Pitera</dc:creator>
+<dc:creator>K. Benjamin</dc:creator>
+<dc:creator>K. Fisher</dc:creator>
+<dc:creator>D. McPhee</dc:creator>
+<dc:creator>M. D. Leavell</dc:creator>
+<dc:creator>A. Tai</dc:creator>
+<dc:creator>A. Main</dc:creator>
+<dc:creator>D. Eng</dc:creator>
+<dc:creator>D. R. Polichuk</dc:creator>
+<dc:creator>K. H. Teoh</dc:creator>
+<dc:creator>D. W. Reed</dc:creator>
+<dc:creator>T. Treynor</dc:creator>
+<dc:creator>J. Lenihan</dc:creator>
+<dc:creator>M. Fleck</dc:creator>
+<dc:creator>S. Bajad</dc:creator>
+<dc:creator>G. Dang</dc:creator>
+<dc:creator>D. Diola</dc:creator>
+<dc:creator>G. Dorin</dc:creator>
+<dc:creator>K. W. Ellens</dc:creator>
+<dc:creator>S. Fickes</dc:creator>
+<dc:creator>J. Galazzo</dc:creator>
+<dc:creator>S. P. Gaucher</dc:creator>
+<dc:creator>T. Geistlinger</dc:creator>
+<dc:creator>R. Henry</dc:creator>
+<dc:creator>M. Hepp</dc:creator>
+<dc:creator>T. Horning</dc:creator>
+<dc:creator>T. Iqbal</dc:creator>
+<dc:creator>H. Jiang</dc:creator>
+<dc:creator>L. Kizer</dc:creator>
+<dc:creator>B. Lieu</dc:creator>
+<dc:creator>D. Melis</dc:creator>
+<dc:creator>N. Moss</dc:creator>
+<dc:creator>R. Regentin</dc:creator>
+<dc:creator>S. Secrest</dc:creator>
+<dc:creator>H. Tsuruta</dc:creator>
+<dc:creator>R. Vazquez</dc:creator>
+<dc:creator>L. F. Westblade</dc:creator>
+<dc:creator>L. Xu</dc:creator>
+<dc:creator>M. Yu</dc:creator>
+<dc:creator>Y. Zhang</dc:creator>
+<dc:creator>L. Zhao</dc:creator>
+<dc:creator>J. Lievense</dc:creator>
+<dc:creator>P. S. Covello</dc:creator>
+<dc:creator>J. D. Keasling</dc:creator>
+<dc:creator>K. K. Reiling</dc:creator>
+<dc:creator>N. S. Renninger</dc:creator>
+<dc:creator>J. D. Newman</dc:creator>
+<dc:identifier>doi:10.1038/nature12051</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-10</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-10</prism:publicationDate>
+<prism:doi>10.1038/nature12051</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12051</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12051</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12060">
+                     <title>The global distribution and burden of dengue</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/WrSHw4v0lXQ/nature12060</link>
+<description>Dengue is a systemic viral infection transmitted between humans by Aedes mosquitoes. For some patients, dengue is a life-threatening illness. There are currently no licensed vaccines or specific therapeutics, and substantial vector control efforts have not stopped its rapid emergence and global spread. The contemporary worldwide distribution of the risk of dengue virus infection and its public health burden are poorly known. Here we undertake an exhaustive assembly of known records of dengue occurrence worldwide, and use a formal modelling framework to map the global distribution of dengue risk. We then pair the resulting risk map with detailed longitudinal information from dengue cohort studies and population surfaces to infer the public health burden of dengue in 2010. We predict dengue to be ubiquitous throughout the tropics, with local spatial variations in risk influenced strongly by rainfall, temperature and the degree of urbanization. Using cartographic approaches, we estimate there to be 390 million (95% credible interval 284–528) dengue infections per year, of which 96 million (67–136) manifest apparently (any level of clinical or subclinical severity). This infection total is more than three times the dengue burden estimate of the World Health Organization. Stratification of our estimates by country allows comparison with national dengue reporting, after taking into account the probability of an apparent infection being formally reported. The most notable differences are discussed. These new risk maps and infection estimates provide novel insights into the global, regional and national public health burden imposed by dengue. We anticipate that they will provide a starting point for a wider discussion about the global impact of this disease and will help to guide improvements in disease control strategies using vaccine, drug and vector control methods, and in their economic evaluation.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 07 April 2013. <a href="http://dx.doi.org/10.1038/nature12060">doi:10.1038/nature12060</a>
+</p>
+<p>Authors: Samir Bhatt, Peter W. Gething, Oliver J. Brady, Jane P. Messina, Andrew W. Farlow, Catherine L. Moyes, John M. Drake, John S. Brownstein, Anne G. Hoen, Osman Sankoh, Monica F. Myers, Dylan B. George, Thomas Jaenisch, G. R. William Wint, Cameron P. Simmons, Thomas W. Scott, Jeremy J. Farrar &amp; Simon I. Hay</p>
+<p>Dengue is a systemic viral infection transmitted between humans by Aedes mosquitoes. For some patients, dengue is a life-threatening illness. There are currently no licensed vaccines or specific therapeutics, and substantial vector control efforts have not stopped its rapid emergence and global spread. The contemporary worldwide distribution of the risk of dengue virus infection and its public health burden are poorly known. Here we undertake an exhaustive assembly of known records of dengue occurrence worldwide, and use a formal modelling framework to map the global distribution of dengue risk. We then pair the resulting risk map with detailed longitudinal information from dengue cohort studies and population surfaces to infer the public health burden of dengue in 2010. We predict dengue to be ubiquitous throughout the tropics, with local spatial variations in risk influenced strongly by rainfall, temperature and the degree of urbanization. Using cartographic approaches, we estimate there to be 390 million (95% credible interval 284&#8211;528) dengue infections per year, of which 96 million (67&#8211;136) manifest apparently (any level of clinical or subclinical severity). This infection total is more than three times the dengue burden estimate of the World Health Organization. Stratification of our estimates by country allows comparison with national dengue reporting, after taking into account the probability of an apparent infection being formally reported. The most notable differences are discussed. These new risk maps and infection estimates provide novel insights into the global, regional and national public health burden imposed by dengue. We anticipate that they will provide a starting point for a wider discussion about the global impact of this disease and will help to guide improvements in disease control strategies using vaccine, drug and vector control methods, and in their economic evaluation.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/WrSHw4v0lXQ" height="1" width="1"/>]]></content:encoded>
+<dc:title>The global distribution and burden of dengue</dc:title>
+<dc:creator>Samir Bhatt</dc:creator>
+<dc:creator>Peter W. Gething</dc:creator>
+<dc:creator>Oliver J. Brady</dc:creator>
+<dc:creator>Jane P. Messina</dc:creator>
+<dc:creator>Andrew W. Farlow</dc:creator>
+<dc:creator>Catherine L. Moyes</dc:creator>
+<dc:creator>John M. Drake</dc:creator>
+<dc:creator>John S. Brownstein</dc:creator>
+<dc:creator>Anne G. Hoen</dc:creator>
+<dc:creator>Osman Sankoh</dc:creator>
+<dc:creator>Monica F. Myers</dc:creator>
+<dc:creator>Dylan B. George</dc:creator>
+<dc:creator>Thomas Jaenisch</dc:creator>
+<dc:creator>G. R. William Wint</dc:creator>
+<dc:creator>Cameron P. Simmons</dc:creator>
+<dc:creator>Thomas W. Scott</dc:creator>
+<dc:creator>Jeremy J. Farrar</dc:creator>
+<dc:creator>Simon I. Hay</dc:creator>
+<dc:identifier>doi:10.1038/nature12060</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-07</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-07</prism:publicationDate>
+<prism:doi>10.1038/nature12060</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12060</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12060</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12052">
+                     <title>Modulation of TET2 expression and 5-methylcytosine oxidation by the CXXC domain protein IDAX</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/HLXI4HRj6Co/nature12052</link>
+<description>TET (ten-eleven-translocation) proteins are Fe(ii)- and α-ketoglutarate-dependent dioxygenases that modify the methylation status of DNA by successively oxidizing 5-methylcytosine to 5-hydroxymethylcytosine, 5-formylcytosine and 5-carboxycytosine, potential intermediates in the active erasure of DNA-methylation marks. Here we show that IDAX (also known as CXXC4), a reported inhibitor of Wnt signalling that has been implicated in malignant renal cell carcinoma and colonic villous adenoma, regulates TET2 protein expression. IDAX was originally encoded within an ancestral TET2 gene that underwent a chromosomal gene inversion during evolution, thus separating the TET2 CXXC domain from the catalytic domain. The IDAX CXXC domain binds DNA sequences containing unmethylated CpG dinucleotides, localizes to promoters and CpG islands in genomic DNA and interacts directly with the catalytic domain of TET2. Unexpectedly, IDAX expression results in caspase activation and TET2 protein downregulation, in a manner that depends on DNA binding through the IDAX CXXC domain, suggesting that IDAX recruits TET2 to DNA before degradation. IDAX depletion prevents TET2 downregulation in differentiating mouse embryonic stem cells, and short hairpin RNA against IDAX increases TET2 protein expression in the human monocytic cell line U937. Notably, we find that the expression and activity of TET3 is also regulated through its CXXC domain. Taken together, these results establish the separate and linked CXXC domains of TET2 and TET3, respectively, as previously unknown regulators of caspase activation and TET enzymatic activity.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 07 April 2013. <a href="http://dx.doi.org/10.1038/nature12052">doi:10.1038/nature12052</a>
+</p>
+<p>Authors: Myunggon Ko, Jungeun An, Hozefa S. Bandukwala, Lukas Chavez, Tarmo &#196;ij&#246;, William A. Pastor, Matthew F. Segal, Huiming Li, Kian Peng Koh, Harri L&#228;hdesm&#228;ki, Patrick G. Hogan, L. Aravind &amp; Anjana Rao</p>
+<p>TET (ten-eleven-translocation) proteins are Fe(ii)- and &#945;-ketoglutarate-dependent dioxygenases that modify the methylation status of DNA by successively oxidizing 5-methylcytosine to 5-hydroxymethylcytosine, 5-formylcytosine and 5-carboxycytosine, potential intermediates in the active erasure of DNA-methylation marks. Here we show that IDAX (also known as CXXC4), a reported inhibitor of Wnt signalling that has been implicated in malignant renal cell carcinoma and colonic villous adenoma, regulates TET2 protein expression. IDAX was originally encoded within an ancestral TET2 gene that underwent a chromosomal gene inversion during evolution, thus separating the TET2 CXXC domain from the catalytic domain. The IDAX CXXC domain binds DNA sequences containing unmethylated CpG dinucleotides, localizes to promoters and CpG islands in genomic DNA and interacts directly with the catalytic domain of TET2. Unexpectedly, IDAX expression results in caspase activation and TET2 protein downregulation, in a manner that depends on DNA binding through the IDAX CXXC domain, suggesting that IDAX recruits TET2 to DNA before degradation. IDAX depletion prevents TET2 downregulation in differentiating mouse embryonic stem cells, and short hairpin RNA against IDAX increases TET2 protein expression in the human monocytic cell line U937. Notably, we find that the expression and activity of TET3 is also regulated through its CXXC domain. Taken together, these results establish the separate and linked CXXC domains of TET2 and TET3, respectively, as previously unknown regulators of caspase activation and TET enzymatic activity.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/HLXI4HRj6Co" height="1" width="1"/>]]></content:encoded>
+<dc:title>Modulation of TET2 expression and 5-methylcytosine oxidation by the CXXC domain protein IDAX</dc:title>
+<dc:creator>Myunggon Ko</dc:creator>
+<dc:creator>Jungeun An</dc:creator>
+<dc:creator>Hozefa S. Bandukwala</dc:creator>
+<dc:creator>Lukas Chavez</dc:creator>
+<dc:creator>Tarmo Äijö</dc:creator>
+<dc:creator>William A. Pastor</dc:creator>
+<dc:creator>Matthew F. Segal</dc:creator>
+<dc:creator>Huiming Li</dc:creator>
+<dc:creator>Kian Peng Koh</dc:creator>
+<dc:creator>Harri Lähdesmäki</dc:creator>
+<dc:creator>Patrick G. Hogan</dc:creator>
+<dc:creator>L. Aravind</dc:creator>
+<dc:creator>Anjana Rao</dc:creator>
+<dc:identifier>doi:10.1038/nature12052</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-07</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-07</prism:publicationDate>
+<prism:doi>10.1038/nature12052</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12052</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12052</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12065">
+                     <title>Non-invasive analysis of acquired resistance to cancer therapy by sequencing of plasma DNA</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/U1J3avMSWrU/nature12065</link>
+<description>Cancers acquire resistance to systemic treatment as a result of clonal evolution and selection. Repeat biopsies to study genomic evolution as a result of therapy are difficult, invasive and may be confounded by intra-tumour heterogeneity. Recent studies have shown that genomic alterations in solid cancers can be characterized by massively parallel sequencing of circulating cell-free tumour DNA released from cancer cells into plasma, representing a non-invasive liquid biopsy. Here we report sequencing of cancer exomes in serial plasma samples to track genomic evolution of metastatic cancers in response to therapy. Six patients with advanced breast, ovarian and lung cancers were followed over 1–2 years. For each case, exome sequencing was performed on 2–5 plasma samples (19 in total) spanning multiple courses of treatment, at selected time points when the allele fraction of tumour mutations in plasma was high, allowing improved sensitivity. For two cases, synchronous biopsies were also analysed, confirming genome-wide representation of the tumour genome in plasma. Quantification of allele fractions in plasma identified increased representation of mutant alleles in association with emergence of therapy resistance. These included an activating mutation in PIK3CA (phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha) following treatment with paclitaxel; a truncating mutation in RB1 (retinoblastoma 1) following treatment with cisplatin; a truncating mutation in MED1 (mediator complex subunit 1) following treatment with tamoxifen and trastuzumab, and following subsequent treatment with lapatinib, a splicing mutation in GAS6 (growth arrest-specific 6) in the same patient; and a resistance-conferring mutation in EGFR (epidermal growth factor receptor; T790M) following treatment with gefitinib. These results establish proof of principle that exome-wide analysis of circulating tumour DNA could complement current invasive biopsy approaches to identify mutations associated with acquired drug resistance in advanced cancers. Serial analysis of cancer genomes in plasma constitutes a new paradigm for the study of clonal evolution in human cancers.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 07 April 2013. <a href="http://dx.doi.org/10.1038/nature12065">doi:10.1038/nature12065</a>
+</p>
+<p>Authors: Muhammed Murtaza, Sarah-Jane Dawson, Dana W. Y. Tsui, Davina Gale, Tim Forshew, Anna M. Piskorz, Christine Parkinson, Suet-Feung Chin, Zoya Kingsbury, Alvin S. C. Wong, Francesco Marass, Sean Humphray, James Hadfield, David Bentley, Tan Min Chin, James D. Brenton, Carlos Caldas &amp; Nitzan Rosenfeld</p>
+<p>Cancers acquire resistance to systemic treatment as a result of clonal evolution and selection. Repeat biopsies to study genomic evolution as a result of therapy are difficult, invasive and may be confounded by intra-tumour heterogeneity. Recent studies have shown that genomic alterations in solid cancers can be characterized by massively parallel sequencing of circulating cell-free tumour DNA released from cancer cells into plasma, representing a non-invasive liquid biopsy. Here we report sequencing of cancer exomes in serial plasma samples to track genomic evolution of metastatic cancers in response to therapy. Six patients with advanced breast, ovarian and lung cancers were followed over 1&#8211;2 years. For each case, exome sequencing was performed on 2&#8211;5 plasma samples (19 in total) spanning multiple courses of treatment, at selected time points when the allele fraction of tumour mutations in plasma was high, allowing improved sensitivity. For two cases, synchronous biopsies were also analysed, confirming genome-wide representation of the tumour genome in plasma. Quantification of allele fractions in plasma identified increased representation of mutant alleles in association with emergence of therapy resistance. These included an activating mutation in PIK3CA (phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha) following treatment with paclitaxel; a truncating mutation in RB1 (retinoblastoma 1) following treatment with cisplatin; a truncating mutation in MED1 (mediator complex subunit 1) following treatment with tamoxifen and trastuzumab, and following subsequent treatment with lapatinib, a splicing mutation in GAS6 (growth arrest-specific 6) in the same patient; and a resistance-conferring mutation in EGFR (epidermal growth factor receptor; T790M) following treatment with gefitinib. These results establish proof of principle that exome-wide analysis of circulating tumour DNA could complement current invasive biopsy approaches to identify mutations associated with acquired drug resistance in advanced cancers. Serial analysis of cancer genomes in plasma constitutes a new paradigm for the study of clonal evolution in human cancers.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/U1J3avMSWrU" height="1" width="1"/>]]></content:encoded>
+<dc:title>Non-invasive analysis of acquired resistance to cancer therapy by sequencing of plasma DNA</dc:title>
+<dc:creator>Muhammed Murtaza</dc:creator>
+<dc:creator>Sarah-Jane Dawson</dc:creator>
+<dc:creator>Dana W. Y. Tsui</dc:creator>
+<dc:creator>Davina Gale</dc:creator>
+<dc:creator>Tim Forshew</dc:creator>
+<dc:creator>Anna M. Piskorz</dc:creator>
+<dc:creator>Christine Parkinson</dc:creator>
+<dc:creator>Suet-Feung Chin</dc:creator>
+<dc:creator>Zoya Kingsbury</dc:creator>
+<dc:creator>Alvin S. C. Wong</dc:creator>
+<dc:creator>Francesco Marass</dc:creator>
+<dc:creator>Sean Humphray</dc:creator>
+<dc:creator>James Hadfield</dc:creator>
+<dc:creator>David Bentley</dc:creator>
+<dc:creator>Tan Min Chin</dc:creator>
+<dc:creator>James D. Brenton</dc:creator>
+<dc:creator>Carlos Caldas</dc:creator>
+<dc:creator>Nitzan Rosenfeld</dc:creator>
+<dc:identifier>doi:10.1038/nature12065</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-07</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-07</prism:publicationDate>
+<prism:doi>10.1038/nature12065</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12065</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12065</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12037">
+                     <title>Visualization of an endogenous retinoic acid gradient across embryonic development</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/WKEfJt0MtG4/nature12037</link>
+<description>In vertebrate development, the body plan is determined by primordial morphogen gradients that suffuse the embryo. Retinoic acid (RA) is an important morphogen involved in patterning the anterior–posterior axis of structures, including the hindbrainand paraxial mesoderm. RA diffuses over long distances, and its activity is spatially restricted by synthesizing and degrading enzymes. However, gradients of endogenous morphogens in live embryos have not been directly observed; indeed, their existence, distribution and requirement for correct patterning remain controversial. Here we report a family of genetically encoded indicators for RA that we have termed GEPRAs (genetically encoded probes for RA). Using the principle of fluorescence resonance energy transfer we engineered the ligand-binding domains of RA receptors to incorporate cyan-emitting and yellow-emitting fluorescent proteins as fluorescence resonance energy transfer donor and acceptor, respectively, for the reliable detection of ambient free RA. We created three GEPRAs with different affinities for RA, enabling the quantitative measurement of physiological RA concentrations. Live imaging of zebrafish embryos at the gastrula and somitogenesis stages revealed a linear concentration gradient of endogenous RA in a two-tailed source–sink arrangement across the embryo. Modelling of the observed linear RA gradient suggests that the rate of RA diffusion exceeds the spatiotemporal dynamics of embryogenesis, resulting in stability to perturbation. Furthermore, we used GEPRAs in combination with genetic and pharmacological perturbations to resolve competing hypotheses on the structure of the RA gradient during hindbrain formation and somitogenesis. Live imaging of endogenous concentration gradients across embryonic development will allow the precise assignment of molecular mechanisms to developmental dynamics and will accelerate the application of approaches based on morphogen gradients to tissue engineering and regenerative medicine.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 07 April 2013. <a href="http://dx.doi.org/10.1038/nature12037">doi:10.1038/nature12037</a>
+</p>
+<p>Authors: Satoshi Shimozono, Tadahiro Iimura, Tetsuya Kitaguchi, Shin-ichi Higashijima &amp; Atsushi Miyawaki</p>
+<p>In vertebrate development, the body plan is determined by primordial morphogen gradients that suffuse the embryo. Retinoic acid (RA) is an important morphogen involved in patterning the anterior&#8211;posterior axis of structures, including the hindbrainand paraxial mesoderm. RA diffuses over long distances, and its activity is spatially restricted by synthesizing and degrading enzymes. However, gradients of endogenous morphogens in live embryos have not been directly observed; indeed, their existence, distribution and requirement for correct patterning remain controversial. Here we report a family of genetically encoded indicators for RA that we have termed GEPRAs (genetically encoded probes for RA). Using the principle of fluorescence resonance energy transfer we engineered the ligand-binding domains of RA receptors to incorporate cyan-emitting and yellow-emitting fluorescent proteins as fluorescence resonance energy transfer donor and acceptor, respectively, for the reliable detection of ambient free RA. We created three GEPRAs with different affinities for RA, enabling the quantitative measurement of physiological RA concentrations. Live imaging of zebrafish embryos at the gastrula and somitogenesis stages revealed a linear concentration gradient of endogenous RA in a two-tailed source&#8211;sink arrangement across the embryo. Modelling of the observed linear RA gradient suggests that the rate of RA diffusion exceeds the spatiotemporal dynamics of embryogenesis, resulting in stability to perturbation. Furthermore, we used GEPRAs in combination with genetic and pharmacological perturbations to resolve competing hypotheses on the structure of the RA gradient during hindbrain formation and somitogenesis. Live imaging of endogenous concentration gradients across embryonic development will allow the precise assignment of molecular mechanisms to developmental dynamics and will accelerate the application of approaches based on morphogen gradients to tissue engineering and regenerative medicine.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/WKEfJt0MtG4" height="1" width="1"/>]]></content:encoded>
+<dc:title>Visualization of an endogenous retinoic acid gradient across embryonic development</dc:title>
+<dc:creator>Satoshi Shimozono</dc:creator>
+<dc:creator>Tadahiro Iimura</dc:creator>
+<dc:creator>Tetsuya Kitaguchi</dc:creator>
+<dc:creator>Shin-ichi Higashijima</dc:creator>
+<dc:creator>Atsushi Miyawaki</dc:creator>
+<dc:identifier>doi:10.1038/nature12037</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-07</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-07</prism:publicationDate>
+<prism:doi>10.1038/nature12037</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12037</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12037</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12091">
+                     <title>HIV: Roadmaps to a vaccine</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/oepq9Yjif6M/nature12091</link>
+<description>More than 30 years since the AIDS pandemic began, there is still no effective vaccine. But analysis of broadly acting, potent human antibodies obtained from single cells suggests a rational approach to vaccine development.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 03 April 2013. <a href="http://dx.doi.org/10.1038/nature12091">doi:10.1038/nature12091</a>
+</p>
+<p>Authors: Hugo Mouquet &amp; Michel C. Nussenzweig</p>
+<p>More than 30 years since the AIDS pandemic began, there is still no effective vaccine. But analysis of broadly acting, potent human antibodies obtained from single cells suggests a rational approach to vaccine development.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/oepq9Yjif6M" height="1" width="1"/>]]></content:encoded>
+<dc:title>HIV: Roadmaps to a vaccine</dc:title>
+<dc:creator>Hugo Mouquet</dc:creator>
+<dc:creator>Michel C. Nussenzweig</dc:creator>
+<dc:identifier>doi:10.1038/nature12091</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-03</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-03</prism:publicationDate>
+<prism:doi>10.1038/nature12091</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12091</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12091</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12053">
+                     <title>Co-evolution of a broadly neutralizing HIV-1 antibody and founder virus</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/Tq_r75-Q8-g/nature12053</link>
+<description>Longitudinal sampling is used to map the evolution of an HIV-1 virus from the time of infection, and the co-evolution of a broadly neutralizing antibody in the same infected patient; the findings have important implications for HIV vaccine development.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 03 April 2013. <a href="http://dx.doi.org/10.1038/nature12053">doi:10.1038/nature12053</a>
+</p>
+<p>Authors: Hua-Xin Liao, Rebecca Lynch, Tongqing Zhou, Feng Gao, S. Munir Alam, Scott D. Boyd, Andrew Z. Fire, Krishna M. Roskin, Chaim A. Schramm, Zhenhai Zhang, Jiang Zhu, Lawrence Shapiro, James C. Mullikin, S. Gnanakaran, Peter Hraber, Kevin Wiehe, Garnett Kelsoe, Guang Yang, Shi-Mao Xia, David C. Montefiori, Robert Parks, Krissey E. Lloyd, Richard M. Scearce, Kelly A. Soderberg, Myron Cohen, Gift Kamanga, Mark K. Louder, Lillian M. Tran, Yue Chen, Fangping Cai, Sheri Chen, Stephanie Moquin, Xiulian Du, M. Gordon Joyce, Sanjay Srivatsan, Baoshan Zhang, Anqi Zheng, George M. Shaw, Beatrice H. Hahn, Thomas B. Kepler, Bette T. M. Korber, Peter D. Kwong, John R. Mascola &amp; Barton F. Haynes</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/Tq_r75-Q8-g" height="1" width="1"/>]]></content:encoded>
+<dc:title>Co-evolution of a broadly neutralizing HIV-1 antibody and founder virus</dc:title>
+<dc:creator>Hua-Xin Liao</dc:creator>
+<dc:creator>Rebecca Lynch</dc:creator>
+<dc:creator>Tongqing Zhou</dc:creator>
+<dc:creator>Feng Gao</dc:creator>
+<dc:creator>S. Munir Alam</dc:creator>
+<dc:creator>Scott D. Boyd</dc:creator>
+<dc:creator>Andrew Z. Fire</dc:creator>
+<dc:creator>Krishna M. Roskin</dc:creator>
+<dc:creator>Chaim A. Schramm</dc:creator>
+<dc:creator>Zhenhai Zhang</dc:creator>
+<dc:creator>Jiang Zhu</dc:creator>
+<dc:creator>Lawrence Shapiro</dc:creator>
+<dc:creator>James C. Mullikin</dc:creator>
+<dc:creator>S. Gnanakaran</dc:creator>
+<dc:creator>Peter Hraber</dc:creator>
+<dc:creator>Kevin Wiehe</dc:creator>
+<dc:creator>Garnett Kelsoe</dc:creator>
+<dc:creator>Guang Yang</dc:creator>
+<dc:creator>Shi-Mao Xia</dc:creator>
+<dc:creator>David C. Montefiori</dc:creator>
+<dc:creator>Robert Parks</dc:creator>
+<dc:creator>Krissey E. Lloyd</dc:creator>
+<dc:creator>Richard M. Scearce</dc:creator>
+<dc:creator>Kelly A. Soderberg</dc:creator>
+<dc:creator>Myron Cohen</dc:creator>
+<dc:creator>Gift Kamanga</dc:creator>
+<dc:creator>Mark K. Louder</dc:creator>
+<dc:creator>Lillian M. Tran</dc:creator>
+<dc:creator>Yue Chen</dc:creator>
+<dc:creator>Fangping Cai</dc:creator>
+<dc:creator>Sheri Chen</dc:creator>
+<dc:creator>Stephanie Moquin</dc:creator>
+<dc:creator>Xiulian Du</dc:creator>
+<dc:creator>M. Gordon Joyce</dc:creator>
+<dc:creator>Sanjay Srivatsan</dc:creator>
+<dc:creator>Baoshan Zhang</dc:creator>
+<dc:creator>Anqi Zheng</dc:creator>
+<dc:creator>George M. Shaw</dc:creator>
+<dc:creator>Beatrice H. Hahn</dc:creator>
+<dc:creator>Thomas B. Kepler</dc:creator>
+<dc:creator>Bette T. M. Korber</dc:creator>
+<dc:creator>Peter D. Kwong</dc:creator>
+<dc:creator>John R. Mascola</dc:creator>
+<dc:creator>Barton F. Haynes</dc:creator>
+<dc:identifier>doi:10.1038/nature12053</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-03</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-03</prism:publicationDate>
+<prism:doi>10.1038/nature12053</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12053</prism:url>
+<prism:section>Article</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12053</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12024">
+                     <title>Rescuing cocaine-induced prefrontal cortex hypoactivity prevents compulsive cocaine seeking</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/IJgokolXL7s/nature12024</link>
+<description>Loss of control over harmful drug seeking is one of the most intractable aspects of addiction, as human substance abusers continue to pursue drugs despite incurring significant negative consequences. Human studies have suggested that deficits in prefrontal cortical function and consequential loss of inhibitory control could be crucial in promoting compulsive drug use. However, it remains unknown whether chronic drug use compromises cortical activity and, equally important, whether this deficit promotes compulsive cocaine seeking. Here we use a rat model of compulsive drug seeking in which cocaine seeking persists in a subgroup of rats despite delivery of noxious foot shocks. We show that prolonged cocaine self-administration decreases ex vivo intrinsic excitability of deep-layer pyramidal neurons in the prelimbic cortex, which was significantly more pronounced in compulsive drug-seeking animals. Furthermore, compensating for hypoactive prelimbic cortex neurons with in vivo optogenetic prelimbic cortex stimulation significantly prevented compulsive cocaine seeking, whereas optogenetic prelimbic cortex inhibition significantly increased compulsive cocaine seeking. Our results show a marked reduction in prelimbic cortex excitability in compulsive cocaine-seeking rats, and that in vivo optogenetic prelimbic cortex stimulation decreased compulsive drug-seeking behaviours. Thus, targeted stimulation of the prefrontal cortex could serve as a promising therapy for treating compulsive drug use.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 03 April 2013. <a href="http://dx.doi.org/10.1038/nature12024">doi:10.1038/nature12024</a>
+</p>
+<p>Authors: Billy T. Chen, Hau-Jie Yau, Christina Hatch, Ikue Kusumoto-Yoshida, Saemi L. Cho, F. Woodward Hopf &amp; Antonello Bonci</p>
+<p>Loss of control over harmful drug seeking is one of the most intractable aspects of addiction, as human substance abusers continue to pursue drugs despite incurring significant negative consequences. Human studies have suggested that deficits in prefrontal cortical function and consequential loss of inhibitory control could be crucial in promoting compulsive drug use. However, it remains unknown whether chronic drug use compromises cortical activity and, equally important, whether this deficit promotes compulsive cocaine seeking. Here we use a rat model of compulsive drug seeking in which cocaine seeking persists in a subgroup of rats despite delivery of noxious foot shocks. We show that prolonged cocaine self-administration decreases ex vivo intrinsic excitability of deep-layer pyramidal neurons in the prelimbic cortex, which was significantly more pronounced in compulsive drug-seeking animals. Furthermore, compensating for hypoactive prelimbic cortex neurons with in vivo optogenetic prelimbic cortex stimulation significantly prevented compulsive cocaine seeking, whereas optogenetic prelimbic cortex inhibition significantly increased compulsive cocaine seeking. Our results show a marked reduction in prelimbic cortex excitability in compulsive cocaine-seeking rats, and that in vivo optogenetic prelimbic cortex stimulation decreased compulsive drug-seeking behaviours. Thus, targeted stimulation of the prefrontal cortex could serve as a promising therapy for treating compulsive drug use.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/IJgokolXL7s" height="1" width="1"/>]]></content:encoded>
+<dc:title>Rescuing cocaine-induced prefrontal cortex hypoactivity prevents compulsive cocaine seeking</dc:title>
+<dc:creator>Billy T. Chen</dc:creator>
+<dc:creator>Hau-Jie Yau</dc:creator>
+<dc:creator>Christina Hatch</dc:creator>
+<dc:creator>Ikue Kusumoto-Yoshida</dc:creator>
+<dc:creator>Saemi L. Cho</dc:creator>
+<dc:creator>F. Woodward Hopf</dc:creator>
+<dc:creator>Antonello Bonci</dc:creator>
+<dc:identifier>doi:10.1038/nature12024</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-03</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-03</prism:publicationDate>
+<prism:doi>10.1038/nature12024</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12024</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12024</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11983">
+                     <title>Terrestrial water fluxes dominated by transpiration</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/strMNWLTByY/nature11983</link>
+<description>Renewable fresh water over continents has input from precipitation and losses to the atmosphere through evaporation and transpiration. Global-scale estimates of transpiration from climate models are poorly constrained owing to large uncertainties in stomatal conductance and the lack of catchment-scale measurements required for model calibration, resulting in a range of predictions spanning 20 to 65 per cent of total terrestrial evapotranspiration (14,000 to 41,000 km3 per year) (refs 1, 2, 3, 4, 5). Here we use the distinct isotope effects of transpiration and evaporation to show that transpiration is by far the largest water flux from Earth’s continents, representing 80 to 90 per cent of terrestrial evapotranspiration. On the basis of our analysis of a global data set of large lakes and rivers, we conclude that transpiration recycles 62,000 ± 8,000 km3 of water per year to the atmosphere, using half of all solar energy absorbed by land surfaces in the process. We also calculate CO2 uptake by terrestrial vegetation by connecting transpiration losses to carbon assimilation using water-use efficiency ratios of plants, and show the global gross primary productivity to be 129 ± 32 gigatonnes of carbon per year, which agrees, within the uncertainty, with previous estimates. The dominance of transpiration water fluxes in continental evapotranspiration suggests that, from the point of view of water resource forecasting, climate model development should prioritize improvements in simulations of biological fluxes rather than physical (evaporation) fluxes.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 03 April 2013. <a href="http://dx.doi.org/10.1038/nature11983">doi:10.1038/nature11983</a>
+</p>
+<p>Authors: Scott Jasechko, Zachary D. Sharp, John J. Gibson, S. Jean Birks, Yi Yi &amp; Peter J. Fawcett</p>
+<p>Renewable fresh water over continents has input from precipitation and losses to the atmosphere through evaporation and transpiration. Global-scale estimates of transpiration from climate models are poorly constrained owing to large uncertainties in stomatal conductance and the lack of catchment-scale measurements required for model calibration, resulting in a range of predictions spanning 20 to 65 per cent of total terrestrial evapotranspiration (14,000 to 41,000&#8201;km3 per year) (refs 1, 2, 3, 4, 5). Here we use the distinct isotope effects of transpiration and evaporation to show that transpiration is by far the largest water flux from Earth&#8217;s continents, representing 80 to 90 per cent of terrestrial evapotranspiration. On the basis of our analysis of a global data set of large lakes and rivers, we conclude that transpiration recycles 62,000&#8201;&#177;&#8201;8,000&#8201;km3 of water per year to the atmosphere, using half of all solar energy absorbed by land surfaces in the process. We also calculate CO2 uptake by terrestrial vegetation by connecting transpiration losses to carbon assimilation using water-use efficiency ratios of plants, and show the global gross primary productivity to be 129&#8201;&#177;&#8201;32&#8201;gigatonnes of carbon per year, which agrees, within the uncertainty, with previous estimates. The dominance of transpiration water fluxes in continental evapotranspiration suggests that, from the point of view of water resource forecasting, climate model development should prioritize improvements in simulations of biological fluxes rather than physical (evaporation) fluxes.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/strMNWLTByY" height="1" width="1"/>]]></content:encoded>
+<dc:title>Terrestrial water fluxes dominated by transpiration</dc:title>
+<dc:creator>Scott Jasechko</dc:creator>
+<dc:creator>Zachary D. Sharp</dc:creator>
+<dc:creator>John J. Gibson</dc:creator>
+<dc:creator>S. Jean Birks</dc:creator>
+<dc:creator>Yi Yi</dc:creator>
+<dc:creator>Peter J. Fawcett</dc:creator>
+<dc:identifier>doi:10.1038/nature11983</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-03</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-03</prism:publicationDate>
+<prism:doi>10.1038/nature11983</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11983</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11983</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12074">
+                     <title>Diverse type VI secretion phospholipases are functionally plastic antibacterial effectors</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/EmlDxDy1Trc/nature12074</link>
+<description>Membranes allow the compartmentalization of biochemical processes and are therefore fundamental to life. The conservation of the cellular membrane, combined with its accessibility to secreted proteins, has made it a common target of factors mediating antagonistic interactions between diverse organisms. Here we report the discovery of a diverse superfamily of bacterial phospholipase enzymes. Within this superfamily, we defined enzymes with phospholipase A1 and A2 activity, which are common in host-cell-targeting bacterial toxins and the venoms of certain insects and reptiles. However, we find that the fundamental role of the superfamily is to mediate antagonistic bacterial interactions as effectors of the type VI secretion system (T6SS) translocation apparatus; accordingly, we name these proteins type VI lipase effectors. Our analyses indicate that PldA of Pseudomonas aeruginosa, a eukaryotic-like phospholipase D, is a member of the type VI lipase effector superfamily and the founding substrate of the haemolysin co-regulated protein secretion island II T6SS (H2-T6SS). Although previous studies have specifically implicated PldA and the H2-T6SS in pathogenesis, we uncovered a specific role for the effector and its secretory machinery in intra- and interspecies bacterial interactions. Furthermore, we find that this effector achieves its antibacterial activity by degrading phosphatidylethanolamine, the major component of bacterial membranes. The surprising finding that virulence-associated phospholipases can serve as specific antibacterial effectors suggests that interbacterial interactions are a relevant factor driving the continuing evolution of pathogenesis.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 03 April 2013. <a href="http://dx.doi.org/10.1038/nature12074">doi:10.1038/nature12074</a>
+</p>
+<p>Authors: Alistair B. Russell, Michele LeRoux, Krisztina Hathazi, Danielle M. Agnello, Takahiko Ishikawa, Paul A. Wiggins, Sun Nyunt Wai &amp; Joseph D. Mougous</p>
+<p>Membranes allow the compartmentalization of biochemical processes and are therefore fundamental to life. The conservation of the cellular membrane, combined with its accessibility to secreted proteins, has made it a common target of factors mediating antagonistic interactions between diverse organisms. Here we report the discovery of a diverse superfamily of bacterial phospholipase enzymes. Within this superfamily, we defined enzymes with phospholipase A1 and A2 activity, which are common in host-cell-targeting bacterial toxins and the venoms of certain insects and reptiles. However, we find that the fundamental role of the superfamily is to mediate antagonistic bacterial interactions as effectors of the type VI secretion system (T6SS) translocation apparatus; accordingly, we name these proteins type VI lipase effectors. Our analyses indicate that PldA of Pseudomonas aeruginosa, a eukaryotic-like phospholipase D, is a member of the type VI lipase effector superfamily and the founding substrate of the haemolysin co-regulated protein secretion island II T6SS (H2-T6SS). Although previous studies have specifically implicated PldA and the H2-T6SS in pathogenesis, we uncovered a specific role for the effector and its secretory machinery in intra- and interspecies bacterial interactions. Furthermore, we find that this effector achieves its antibacterial activity by degrading phosphatidylethanolamine, the major component of bacterial membranes. The surprising finding that virulence-associated phospholipases can serve as specific antibacterial effectors suggests that interbacterial interactions are a relevant factor driving the continuing evolution of pathogenesis.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/EmlDxDy1Trc" height="1" width="1"/>]]></content:encoded>
+<dc:title>Diverse type VI secretion phospholipases are functionally plastic antibacterial effectors</dc:title>
+<dc:creator>Alistair B. Russell</dc:creator>
+<dc:creator>Michele LeRoux</dc:creator>
+<dc:creator>Krisztina Hathazi</dc:creator>
+<dc:creator>Danielle M. Agnello</dc:creator>
+<dc:creator>Takahiko Ishikawa</dc:creator>
+<dc:creator>Paul A. Wiggins</dc:creator>
+<dc:creator>Sun Nyunt Wai</dc:creator>
+<dc:creator>Joseph D. Mougous</dc:creator>
+<dc:identifier>doi:10.1038/nature12074</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-04-03</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-04-03</prism:publicationDate>
+<prism:doi>10.1038/nature12074</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12074</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12074</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12029">
+                     <title>A pathogenic picornavirus acquires an envelope by hijacking cellular membranes</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/fLyKqapiSwI/nature12029</link>
+<description>Animal viruses are broadly categorized structurally by the presence or absence of an envelope composed of a lipid-bilayer membrane, attributes that profoundly affect stability, transmission and immune recognition. Among those lacking an envelope, the Picornaviridae are a large and diverse family of positive-strand RNA viruses that includes hepatitis A virus (HAV), an ancient human pathogen that remains a common cause of enterically transmitted hepatitis. HAV infects in a stealth-like manner and replicates efficiently in the liver. Virus-specific antibodies appear only after 3–4 weeks of infection, and typically herald its resolution. Although unexplained mechanistically, both anti-HAV antibody and inactivated whole-virus vaccines prevent disease when administered as late as 2 weeks after exposure, when virus replication is well established in the liver. Here we show that HAV released from cells is cloaked in host-derived membranes, thereby protecting the virion from antibody-mediated neutralization. These enveloped viruses (‘eHAV’) resemble exosomes, small vesicles that are increasingly recognized to be important in intercellular communications. They are fully infectious, sensitive to extraction with chloroform, and circulate in the blood of infected humans. Their biogenesis is dependent on host proteins associated with endosomal-sorting complexes required for transport (ESCRT), namely VPS4B and ALIX. Whereas the hijacking of membranes by HAV facilitates escape from neutralizing antibodies and probably promotes virus spread within the liver, anti-capsid antibodies restrict replication after infection with eHAV, suggesting a possible explanation for prophylaxis after exposure. Membrane hijacking by HAV blurs the classic distinction between ‘enveloped’ and ‘non-enveloped’ viruses and has broad implications for mechanisms of viral egress from infected cells as well as host immune responses.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 31 March 2013. <a href="http://dx.doi.org/10.1038/nature12029">doi:10.1038/nature12029</a>
+</p>
+<p>Authors: Zongdi Feng, Lucinda Hensley, Kevin L. McKnight, Fengyu Hu, Victoria Madden, LiFang Ping, Sook-Hyang Jeong, Christopher Walker, Robert E. Lanford &amp; Stanley M. Lemon</p>
+<p>Animal viruses are broadly categorized structurally by the presence or absence of an envelope composed of a lipid-bilayer membrane, attributes that profoundly affect stability, transmission and immune recognition. Among those lacking an envelope, the Picornaviridae are a large and diverse family of positive-strand RNA viruses that includes hepatitis&#8201;A virus (HAV), an ancient human pathogen that remains a common cause of enterically transmitted hepatitis. HAV infects in a stealth-like manner and replicates efficiently in the liver. Virus-specific antibodies appear only after 3&#8211;4&#8201;weeks of infection, and typically herald its resolution. Although unexplained mechanistically, both anti-HAV antibody and inactivated whole-virus vaccines prevent disease when administered as late as 2&#8201;weeks after exposure, when virus replication is well established in the liver. Here we show that HAV released from cells is cloaked in host-derived membranes, thereby protecting the virion from antibody-mediated neutralization. These enveloped viruses (&#8216;eHAV&#8217;) resemble exosomes, small vesicles that are increasingly recognized to be important in intercellular communications. They are fully infectious, sensitive to extraction with chloroform, and circulate in the blood of infected humans. Their biogenesis is dependent on host proteins associated with endosomal-sorting complexes required for transport (ESCRT), namely VPS4B and ALIX. Whereas the hijacking of membranes by HAV facilitates escape from neutralizing antibodies and probably promotes virus spread within the liver, anti-capsid antibodies restrict replication after infection with eHAV, suggesting a possible explanation for prophylaxis after exposure. Membrane hijacking by HAV blurs the classic distinction between &#8216;enveloped&#8217; and &#8216;non-enveloped&#8217; viruses and has broad implications for mechanisms of viral egress from infected cells as well as host immune responses.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/fLyKqapiSwI" height="1" width="1"/>]]></content:encoded>
+<dc:title>A pathogenic picornavirus acquires an envelope by hijacking cellular membranes</dc:title>
+<dc:creator>Zongdi Feng</dc:creator>
+<dc:creator>Lucinda Hensley</dc:creator>
+<dc:creator>Kevin L. McKnight</dc:creator>
+<dc:creator>Fengyu Hu</dc:creator>
+<dc:creator>Victoria Madden</dc:creator>
+<dc:creator>LiFang Ping</dc:creator>
+<dc:creator>Sook-Hyang Jeong</dc:creator>
+<dc:creator>Christopher Walker</dc:creator>
+<dc:creator>Robert E. Lanford</dc:creator>
+<dc:creator>Stanley M. Lemon</dc:creator>
+<dc:identifier>doi:10.1038/nature12029</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-31</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-31</prism:publicationDate>
+<prism:doi>10.1038/nature12029</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12029</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12029</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12042">
+                     <title>Crystal structure of a eukaryotic phosphate transporter</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/2HI2LtiH5sU/nature12042</link>
+<description>Phosphate is crucial for structural and metabolic needs, including nucleotide and lipid synthesis, signalling and chemical energy storage. Proton-coupled transporters of the major facilitator superfamily (MFS) are essential for phosphate uptake in plants and fungi, and also have a function in sensing external phosphate levels as transceptors. Here we report the 2.9 Å structure of a fungal (Piriformospora indica) high-affinity phosphate transporter, PiPT, in an inward-facing occluded state, with bound phosphate visible in the membrane-buried binding site. The structure indicates both proton and phosphate exit pathways and suggests a modified asymmetrical ‘rocker-switch’ mechanism of phosphate transport. PiPT is related to several human transporter families, most notably the organic cation and anion transporters of the solute carrier family (SLC22), which are implicated in cancer-drug resistance. We modelled representative cation and anion SLC22 transporters based on the PiPT structure to surmise the structural basis for substrate binding and charge selectivity in this important family. The PiPT structure demonstrates and expands on principles of substrate transport by the MFS transporters and illuminates principles of phosphate uptake in particular.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 31 March 2013. <a href="http://dx.doi.org/10.1038/nature12042">doi:10.1038/nature12042</a>
+</p>
+<p>Authors: Bj&#248;rn P. Pedersen, Hemant Kumar, Andrew B. Waight, Aaron J. Risenmay, Zygy Roe-Zurz, Bryant H. Chau, Avner Schlessinger, Massimiliano Bonomi, William Harries, Andrej Sali, Atul K. Johri &amp; Robert M. Stroud</p>
+<p>Phosphate is crucial for structural and metabolic needs, including nucleotide and lipid synthesis, signalling and chemical energy storage. Proton-coupled transporters of the major facilitator superfamily (MFS) are essential for phosphate uptake in plants and fungi, and also have a function in sensing external phosphate levels as transceptors. Here we report the 2.9&#8201;&#197; structure of a fungal (Piriformospora indica) high-affinity phosphate transporter, PiPT, in an inward-facing occluded state, with bound phosphate visible in the membrane-buried binding site. The structure indicates both proton and phosphate exit pathways and suggests a modified asymmetrical &#8216;rocker-switch&#8217; mechanism of phosphate transport. PiPT is related to several human transporter families, most notably the organic cation and anion transporters of the solute carrier family (SLC22), which are implicated in cancer-drug resistance. We modelled representative cation and anion SLC22 transporters based on the PiPT structure to surmise the structural basis for substrate binding and charge selectivity in this important family. The PiPT structure demonstrates and expands on principles of substrate transport by the MFS transporters and illuminates principles of phosphate uptake in particular.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/2HI2LtiH5sU" height="1" width="1"/>]]></content:encoded>
+<dc:title>Crystal structure of a eukaryotic phosphate transporter</dc:title>
+<dc:creator>Bjørn P. Pedersen</dc:creator>
+<dc:creator>Hemant Kumar</dc:creator>
+<dc:creator>Andrew B. Waight</dc:creator>
+<dc:creator>Aaron J. Risenmay</dc:creator>
+<dc:creator>Zygy Roe-Zurz</dc:creator>
+<dc:creator>Bryant H. Chau</dc:creator>
+<dc:creator>Avner Schlessinger</dc:creator>
+<dc:creator>Massimiliano Bonomi</dc:creator>
+<dc:creator>William Harries</dc:creator>
+<dc:creator>Andrej Sali</dc:creator>
+<dc:creator>Atul K. Johri</dc:creator>
+<dc:creator>Robert M. Stroud</dc:creator>
+<dc:identifier>doi:10.1038/nature12042</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-31</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-31</prism:publicationDate>
+<prism:doi>10.1038/nature12042</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12042</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12042</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12043">
+                     <title>Landscape of the PARKIN-dependent ubiquitylome in response to mitochondrial depolarization</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/zALJeDKEAKw/nature12043</link>
+<description>The PARKIN ubiquitin ligase (also known as PARK2) and its regulatory kinase PINK1 (also known as PARK6), often mutated in familial early-onset Parkinson’s disease, have central roles in mitochondrial homeostasis and mitophagy. Whereas PARKIN is recruited to the mitochondrial outer membrane (MOM) upon depolarization via PINK1 action and can ubiquitylate porin, mitofusin and Miro proteins on the MOM, the full repertoire of PARKIN substrates—the PARKIN-dependent ubiquitylome—remains poorly defined. Here we use quantitative diGly capture proteomics (diGly) to elucidate the ubiquitylation site specificity and topology of PARKIN-dependent target modification in response to mitochondrial depolarization. Hundreds of dynamically regulated ubiquitylation sites in dozens of proteins were identified, with strong enrichment for MOM proteins, indicating that PARKIN dramatically alters the ubiquitylation status of the mitochondrial proteome. Using complementary interaction proteomics, we found depolarization-dependent PARKIN association with numerous MOM targets, autophagy receptors, and the proteasome. Mutation of the PARKIN active site residue C431, which has been found mutated in Parkinson’s disease patients, largely disrupts these associations. Structural and topological analysis revealed extensive conservation of PARKIN-dependent ubiquitylation sites on cytoplasmic domains in vertebrate and Drosophila melanogaster MOM proteins. These studies provide a resource for understanding how the PINK1–PARKIN pathway re-sculpts the proteome to support mitochondrial homeostasis.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 17 March 2013. <a href="http://dx.doi.org/10.1038/nature12043">doi:10.1038/nature12043</a>
+</p>
+<p>Authors: Shireen A. Sarraf, Malavika Raman, Virginia Guarani-Pereira, Mathew E. Sowa, Edward L. Huttlin, Steven P. Gygi &amp; J. Wade Harper</p>
+<p>The PARKIN ubiquitin ligase (also known as PARK2) and its regulatory kinase PINK1 (also known as PARK6), often mutated in familial early-onset Parkinson&#8217;s disease, have central roles in mitochondrial homeostasis and mitophagy. Whereas PARKIN is recruited to the mitochondrial outer membrane (MOM) upon depolarization via PINK1 action and can ubiquitylate porin, mitofusin and Miro proteins on the MOM, the full repertoire of PARKIN substrates&#8212;the PARKIN-dependent ubiquitylome&#8212;remains poorly defined. Here we use quantitative diGly capture proteomics (diGly) to elucidate the ubiquitylation site specificity and topology of PARKIN-dependent target modification in response to mitochondrial depolarization. Hundreds of dynamically regulated ubiquitylation sites in dozens of proteins were identified, with strong enrichment for MOM proteins, indicating that PARKIN dramatically alters the ubiquitylation status of the mitochondrial proteome. Using complementary interaction proteomics, we found depolarization-dependent PARKIN association with numerous MOM targets, autophagy receptors, and the proteasome. Mutation of the PARKIN active site residue C431, which has been found mutated in Parkinson&#8217;s disease patients, largely disrupts these associations. Structural and topological analysis revealed extensive conservation of PARKIN-dependent ubiquitylation sites on cytoplasmic domains in vertebrate and Drosophila melanogaster MOM proteins. These studies provide a resource for understanding how the PINK1&#8211;PARKIN pathway re-sculpts the proteome to support mitochondrial homeostasis.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/zALJeDKEAKw" height="1" width="1"/>]]></content:encoded>
+<dc:title>Landscape of the PARKIN-dependent ubiquitylome in response to mitochondrial depolarization</dc:title>
+<dc:creator>Shireen A. Sarraf</dc:creator>
+<dc:creator>Malavika Raman</dc:creator>
+<dc:creator>Virginia Guarani-Pereira</dc:creator>
+<dc:creator>Mathew E. Sowa</dc:creator>
+<dc:creator>Edward L. Huttlin</dc:creator>
+<dc:creator>Steven P. Gygi</dc:creator>
+<dc:creator>J. Wade Harper</dc:creator>
+<dc:identifier>doi:10.1038/nature12043</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-17</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-17</prism:publicationDate>
+<prism:doi>10.1038/nature12043</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12043</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12043</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12084">
+                     <title>Astronomy: The ALMA telescope shows its true colours</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/VsiAUJWhBdk/nature12084</link>
+<description>Bright, gravitationally magnified galaxies have been found across a wide span of cosmic time. The first results from the still-growing ALMA telescope show its power to reveal these galaxies' redshifts and internal structure.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 13 March 2013. <a href="http://dx.doi.org/10.1038/nature12084">doi:10.1038/nature12084</a>
+</p>
+<p>Author: Andrew W. Blain</p>
+<p>Bright, gravitationally magnified galaxies have been found across a wide span of cosmic time. The first results from the still-growing ALMA telescope show its power to reveal these galaxies' redshifts and internal structure.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/VsiAUJWhBdk" height="1" width="1"/>]]></content:encoded>
+<dc:title>Astronomy: The ALMA telescope shows its true colours</dc:title>
+<dc:creator>Andrew W. Blain</dc:creator>
+<dc:identifier>doi:10.1038/nature12084</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-13</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-13</prism:publicationDate>
+<prism:doi>10.1038/nature12084</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12084</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12084</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12085">
+                     <title>Stem cells: Painkillers caught in blood-cell trafficking</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/rJmc5n2KyOM/nature12085</link>
+<description>Haematopoietic stem and progenitor cells move from the bone marrow into the circulation to replenish normal blood-cell levels. Inhibiting a prostaglandin-mediated signalling pathway may promote this process.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 13 March 2013. <a href="http://dx.doi.org/10.1038/nature12085">doi:10.1038/nature12085</a>
+</p>
+<p>Authors: Jason M. Butler &amp; Shahin Rafii</p>
+<p>Haematopoietic stem and progenitor cells move from the bone marrow into the circulation to replenish normal blood-cell levels. Inhibiting a prostaglandin-mediated signalling pathway may promote this process.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/rJmc5n2KyOM" height="1" width="1"/>]]></content:encoded>
+<dc:title>Stem cells: Painkillers caught in blood-cell trafficking</dc:title>
+<dc:creator>Jason M. Butler</dc:creator>
+<dc:creator>Shahin Rafii</dc:creator>
+<dc:identifier>doi:10.1038/nature12085</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-13</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-13</prism:publicationDate>
+<prism:doi>10.1038/nature12085</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12085</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12085</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature12032">
+                     <title>A conformational switch in HP1 releases auto-inhibition to drive heterochromatin assembly</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/eQQ7fMpSD6E/nature12032</link>
+<description>A hallmark of histone H3 lysine 9 (H3K9)-methylated heterochromatin, conserved from the fission yeast Schizosaccharomyces pombe to humans, is its ability to spread to adjacent genomic regions. Central to heterochromatin spread is heterochromatin protein 1 (HP1), which recognizes H3K9-methylated chromatin, oligomerizes and forms a versatile platform that participates in diverse nuclear functions, ranging from gene silencing to chromosome segregation. How HP1 proteins assemble on methylated nucleosomal templates and how the HP1–nucleosome complex achieves functional versatility remain poorly understood. Here we show that binding of the key S. pombe HP1 protein, Swi6, to methylated nucleosomes drives a switch from an auto-inhibited state to a spreading-competent state. In the auto-inhibited state, a histone-mimic sequence in one Swi6 monomer blocks methyl-mark recognition by the chromodomain of another monomer. Auto-inhibition is relieved by recognition of two template features, the H3K9 methyl mark and nucleosomal DNA. Cryo-electron-microscopy-based reconstruction of the Swi6–nucleosome complex provides the overall architecture of the spreading-competent state in which two unbound chromodomain sticky ends appear exposed. Disruption of the switch between the auto-inhibited and spreading-competent states disrupts heterochromatin assembly and gene silencing in vivo. These findings are reminiscent of other conditionally activated polymerization processes, such as actin nucleation, and open up a new class of regulatory mechanisms that operate on chromatin in vivo.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 13 March 2013. <a href="http://dx.doi.org/10.1038/nature12032">doi:10.1038/nature12032</a>
+</p>
+<p>Authors: Daniele Canzio, Maofu Liao, Nariman Naber, Edward Pate, Adam Larson, Shenping Wu, Diana B. Marina, Jennifer F. Garcia, Hiten D. Madhani, Roger Cooke, Peter Schuck, Yifan Cheng &amp; Geeta J. Narlikar</p>
+<p>A hallmark of histone H3 lysine 9 (H3K9)-methylated heterochromatin, conserved from the fission yeast Schizosaccharomyces pombe to humans, is its ability to spread to adjacent genomic regions. Central to heterochromatin spread is heterochromatin protein 1 (HP1), which recognizes H3K9-methylated chromatin, oligomerizes and forms a versatile platform that participates in diverse nuclear functions, ranging from gene silencing to chromosome segregation. How HP1 proteins assemble on methylated nucleosomal templates and how the HP1&#8211;nucleosome complex achieves functional versatility remain poorly understood. Here we show that binding of the key S. pombe HP1 protein, Swi6, to methylated nucleosomes drives a switch from an auto-inhibited state to a spreading-competent state. In the auto-inhibited state, a histone-mimic sequence in one Swi6 monomer blocks methyl-mark recognition by the chromodomain of another monomer. Auto-inhibition is relieved by recognition of two template features, the H3K9 methyl mark and nucleosomal DNA. Cryo-electron-microscopy-based reconstruction of the Swi6&#8211;nucleosome complex provides the overall architecture of the spreading-competent state in which two unbound chromodomain sticky ends appear exposed. Disruption of the switch between the auto-inhibited and spreading-competent states disrupts heterochromatin assembly and gene silencing in vivo. These findings are reminiscent of other conditionally activated polymerization processes, such as actin nucleation, and open up a new class of regulatory mechanisms that operate on chromatin in vivo.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/eQQ7fMpSD6E" height="1" width="1"/>]]></content:encoded>
+<dc:title>A conformational switch in HP1 releases auto-inhibition to drive heterochromatin assembly</dc:title>
+<dc:creator>Daniele Canzio</dc:creator>
+<dc:creator>Maofu Liao</dc:creator>
+<dc:creator>Nariman Naber</dc:creator>
+<dc:creator>Edward Pate</dc:creator>
+<dc:creator>Adam Larson</dc:creator>
+<dc:creator>Shenping Wu</dc:creator>
+<dc:creator>Diana B. Marina</dc:creator>
+<dc:creator>Jennifer F. Garcia</dc:creator>
+<dc:creator>Hiten D. Madhani</dc:creator>
+<dc:creator>Roger Cooke</dc:creator>
+<dc:creator>Peter Schuck</dc:creator>
+<dc:creator>Yifan Cheng</dc:creator>
+<dc:creator>Geeta J. Narlikar</dc:creator>
+<dc:identifier>doi:10.1038/nature12032</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-13</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-13</prism:publicationDate>
+<prism:doi>10.1038/nature12032</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature12032</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature12032</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11959">
+                     <title>Autoimmunity: Rubbing salt in the wound</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/QUnIcMIpuPI/nature11959</link>
+<description>The ability of sodium chloride to induce enzymatic activity that leads to the generation of pathogenic TH17 immune cells implicates salt as a possible factor that might exacerbate autoimmune disease.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 06 March 2013. <a href="http://dx.doi.org/10.1038/nature11959">doi:10.1038/nature11959</a>
+</p>
+<p>Authors: John J. O'Shea &amp; Russell G. Jones</p>
+<p>The ability of sodium chloride to induce enzymatic activity that leads to the generation of pathogenic TH17 immune cells implicates salt as a possible factor that might exacerbate autoimmune disease.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/QUnIcMIpuPI" height="1" width="1"/>]]></content:encoded>
+<dc:title>Autoimmunity: Rubbing salt in the wound</dc:title>
+<dc:creator>John J. O'Shea</dc:creator>
+<dc:creator>Russell G. Jones</dc:creator>
+<dc:identifier>doi:10.1038/nature11959</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-06</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-06</prism:publicationDate>
+<prism:doi>10.1038/nature11959</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11959</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11959</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11981">
+                     <title>Dynamic regulatory network controlling TH17 cell differentiation</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/lHzXpmI6JlQ/nature11981</link>
+<description>A global view of the genetic networks regulating the differentiation of TH17 cells is presented, based on temporal expression profiling, computational network reconstruction and validation of predicted interactions by nanowire-mediated siRNA perturbation.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 06 March 2013. <a href="http://dx.doi.org/10.1038/nature11981">doi:10.1038/nature11981</a>
+</p>
+<p>Authors: Nir Yosef, Alex K. Shalek, Jellert T. Gaublomme, Hulin Jin, Youjin Lee, Amit Awasthi, Chuan Wu, Katarzyna Karwacz, Sheng Xiao, Marsela Jorgolli, David Gennert, Rahul Satija, Arvind Shakya, Diana Y. Lu, John J. Trombetta, Meenu R. Pillai, Peter J. Ratcliffe, Mathew L. Coleman, Mark Bix, Dean Tantin, Hongkun Park, Vijay K. Kuchroo &amp; Aviv Regev</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/lHzXpmI6JlQ" height="1" width="1"/>]]></content:encoded>
+<dc:title>Dynamic regulatory network controlling TH17 cell differentiation</dc:title>
+<dc:creator>Nir Yosef</dc:creator>
+<dc:creator>Alex K. Shalek</dc:creator>
+<dc:creator>Jellert T. Gaublomme</dc:creator>
+<dc:creator>Hulin Jin</dc:creator>
+<dc:creator>Youjin Lee</dc:creator>
+<dc:creator>Amit Awasthi</dc:creator>
+<dc:creator>Chuan Wu</dc:creator>
+<dc:creator>Katarzyna Karwacz</dc:creator>
+<dc:creator>Sheng Xiao</dc:creator>
+<dc:creator>Marsela Jorgolli</dc:creator>
+<dc:creator>David Gennert</dc:creator>
+<dc:creator>Rahul Satija</dc:creator>
+<dc:creator>Arvind Shakya</dc:creator>
+<dc:creator>Diana Y. Lu</dc:creator>
+<dc:creator>John J. Trombetta</dc:creator>
+<dc:creator>Meenu R. Pillai</dc:creator>
+<dc:creator>Peter J. Ratcliffe</dc:creator>
+<dc:creator>Mathew L. Coleman</dc:creator>
+<dc:creator>Mark Bix</dc:creator>
+<dc:creator>Dean Tantin</dc:creator>
+<dc:creator>Hongkun Park</dc:creator>
+<dc:creator>Vijay K. Kuchroo</dc:creator>
+<dc:creator>Aviv Regev</dc:creator>
+<dc:identifier>doi:10.1038/nature11981</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-06</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-06</prism:publicationDate>
+<prism:doi>10.1038/nature11981</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11981</prism:url>
+<prism:section>Article</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11981</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11868">
+                     <title>Sodium chloride drives autoimmune disease by the induction of pathogenic TH17 cells</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/LTF5H5IHIWA/nature11868</link>
+<description>There has been a marked increase in the incidence of autoimmune diseases in the past half-century. Although the underlying genetic basis of this class of diseases has recently been elucidated, implicating predominantly immune-response genes, changes in environmental factors must ultimately be driving this increase. The newly identified population of interleukin (IL)-17-producing CD4+ helper T cells (TH17 cells) has a pivotal role in autoimmune diseases. Pathogenic IL-23-dependent TH17 cells have been shown to be critical for the development of experimental autoimmune encephalomyelitis (EAE), an animal model for multiple sclerosis, and genetic risk factors associated with multiple sclerosis are related to the IL-23–TH17 pathway. However, little is known about the environmental factors that directly influence TH17 cells. Here we show that increased salt (sodium chloride, NaCl) concentrations found locally under physiological conditions in vivo markedly boost the induction of murine and human TH17 cells. High-salt conditions activate the p38/MAPK pathway involving nuclear factor of activated T cells 5 (NFAT5; also called TONEBP) and serum/glucocorticoid-regulated kinase 1 (SGK1) during cytokine-induced TH17 polarization. Gene silencing or chemical inhibition of p38/MAPK, NFAT5 or SGK1 abrogates the high-salt-induced TH17 cell development. The TH17 cells generated under high-salt conditions display a highly pathogenic and stable phenotype characterized by the upregulation of the pro-inflammatory cytokines GM-CSF, TNF-α and IL-2. Moreover, mice fed with a high-salt diet develop a more severe form of EAE, in line with augmented central nervous system infiltrating and peripherally induced antigen-specific TH17 cells. Thus, increased dietary salt intake might represent an environmental risk factor for the development of autoimmune diseases through the induction of pathogenic TH17 cells.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 06 March 2013. <a href="http://dx.doi.org/10.1038/nature11868">doi:10.1038/nature11868</a>
+</p>
+<p>Authors: Markus Kleinewietfeld, Arndt Manzel, Jens Titze, Heda Kvakan, Nir Yosef, Ralf A. Linker, Dominik N. Muller &amp; David A. Hafler</p>
+<p>There has been a marked increase in the incidence of autoimmune diseases in the past half-century. Although the underlying genetic basis of this class of diseases has recently been elucidated, implicating predominantly immune-response genes, changes in environmental factors must ultimately be driving this increase. The newly identified population of interleukin (IL)-17-producing CD4+ helper T cells (TH17 cells) has a pivotal role in autoimmune diseases. Pathogenic IL-23-dependent TH17 cells have been shown to be critical for the development of experimental autoimmune encephalomyelitis (EAE), an animal model for multiple sclerosis, and genetic risk factors associated with multiple sclerosis are related to the IL-23&#8211;TH17 pathway. However, little is known about the environmental factors that directly influence TH17 cells. Here we show that increased salt (sodium chloride, NaCl) concentrations found locally under physiological conditions in vivo markedly boost the induction of murine and human TH17 cells. High-salt conditions activate the p38/MAPK pathway involving nuclear factor of activated T cells 5 (NFAT5; also called TONEBP) and serum/glucocorticoid-regulated kinase 1 (SGK1) during cytokine-induced TH17 polarization. Gene silencing or chemical inhibition of p38/MAPK, NFAT5 or SGK1 abrogates the high-salt-induced TH17 cell development. The TH17 cells generated under high-salt conditions display a highly pathogenic and stable phenotype characterized by the upregulation of the pro-inflammatory cytokines GM-CSF, TNF-&#945; and IL-2. Moreover, mice fed with a high-salt diet develop a more severe form of EAE, in line with augmented central nervous system infiltrating and peripherally induced antigen-specific TH17 cells. Thus, increased dietary salt intake might represent an environmental risk factor for the development of autoimmune diseases through the induction of pathogenic TH17 cells.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/LTF5H5IHIWA" height="1" width="1"/>]]></content:encoded>
+<dc:title>Sodium chloride drives autoimmune disease by the induction of pathogenic TH17 cells</dc:title>
+<dc:creator>Markus Kleinewietfeld</dc:creator>
+<dc:creator>Arndt Manzel</dc:creator>
+<dc:creator>Jens Titze</dc:creator>
+<dc:creator>Heda Kvakan</dc:creator>
+<dc:creator>Nir Yosef</dc:creator>
+<dc:creator>Ralf A. Linker</dc:creator>
+<dc:creator>Dominik N. Muller</dc:creator>
+<dc:creator>David A. Hafler</dc:creator>
+<dc:identifier>doi:10.1038/nature11868</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-06</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-06</prism:publicationDate>
+<prism:doi>10.1038/nature11868</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11868</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11868</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11984">
+                     <title>Induction of pathogenic TH17 cells by inducible salt-sensing kinase SGK1</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/myTffG8FInw/nature11984</link>
+<description>TH17 cells (interleukin-17 (IL-17)-producing helper T cells) are highly proinflammatory cells that are critical for clearing extracellular pathogens and for inducing multiple autoimmune diseases. IL-23 has a critical role in stabilizing and reinforcing the TH17 phenotype by increasing expression of IL-23 receptor (IL-23R) and endowing TH17 cells with pathogenic effector functions. However, the precise molecular mechanism by which IL-23 sustains the TH17 response and induces pathogenic effector functions has not been elucidated. Here we used transcriptional profiling of developing TH17 cells to construct a model of their signalling network and nominate major nodes that regulate TH17 development. We identified serum glucocorticoid kinase 1 (SGK1), a serine/threonine kinase, as an essential node downstream of IL-23 signalling. SGK1 is critical for regulating IL-23R expression and stabilizing the TH17 cell phenotype by deactivation of mouse Foxo1, a direct repressor of IL-23R expression. SGK1 has been shown to govern Na+ transport and salt (NaCl) homeostasis in other cells. We show here that a modest increase in salt concentration induces SGK1 expression, promotes IL-23R expression and enhances TH17 cell differentiation in vitro and in vivo, accelerating the development of autoimmunity. Loss of SGK1 abrogated Na+-mediated TH17 differentiation in an IL-23-dependent manner. These data demonstrate that SGK1 has a critical role in the induction of pathogenic TH17 cells and provide a molecular insight into a mechanism by which an environmental factor such as a high salt diet triggers TH17 development and promotes tissue inflammation.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 06 March 2013. <a href="http://dx.doi.org/10.1038/nature11984">doi:10.1038/nature11984</a>
+</p>
+<p>Authors: Chuan Wu, Nir Yosef, Theresa Thalhamer, Chen Zhu, Sheng Xiao, Yasuhiro Kishi, Aviv Regev &amp; Vijay K. Kuchroo</p>
+<p>TH17 cells (interleukin-17 (IL-17)-producing helper T cells) are highly proinflammatory cells that are critical for clearing extracellular pathogens and for inducing multiple autoimmune diseases. IL-23 has a critical role in stabilizing and reinforcing the TH17 phenotype by increasing expression of IL-23 receptor (IL-23R) and endowing TH17 cells with pathogenic effector functions. However, the precise molecular mechanism by which IL-23 sustains the TH17 response and induces pathogenic effector functions has not been elucidated. Here we used transcriptional profiling of developing TH17 cells to construct a model of their signalling network and nominate major nodes that regulate TH17 development. We identified serum glucocorticoid kinase 1 (SGK1), a serine/threonine kinase, as an essential node downstream of IL-23 signalling. SGK1 is critical for regulating IL-23R expression and stabilizing the TH17 cell phenotype by deactivation of mouse Foxo1, a direct repressor of IL-23R expression. SGK1 has been shown to govern Na+ transport and salt (NaCl) homeostasis in other cells. We show here that a modest increase in salt concentration induces SGK1 expression, promotes IL-23R expression and enhances TH17 cell differentiation in vitro and in vivo, accelerating the development of autoimmunity. Loss of SGK1 abrogated Na+-mediated TH17 differentiation in an IL-23-dependent manner. These data demonstrate that SGK1 has a critical role in the induction of pathogenic TH17 cells and provide a molecular insight into a mechanism by which an environmental factor such as a high salt diet triggers TH17 development and promotes tissue inflammation.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/myTffG8FInw" height="1" width="1"/>]]></content:encoded>
+<dc:title>Induction of pathogenic TH17 cells by inducible salt-sensing kinase SGK1</dc:title>
+<dc:creator>Chuan Wu</dc:creator>
+<dc:creator>Nir Yosef</dc:creator>
+<dc:creator>Theresa Thalhamer</dc:creator>
+<dc:creator>Chen Zhu</dc:creator>
+<dc:creator>Sheng Xiao</dc:creator>
+<dc:creator>Yasuhiro Kishi</dc:creator>
+<dc:creator>Aviv Regev</dc:creator>
+<dc:creator>Vijay K. Kuchroo</dc:creator>
+<dc:identifier>doi:10.1038/nature11984</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-03-06</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-03-06</prism:publicationDate>
+<prism:doi>10.1038/nature11984</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11984</prism:url>
+<prism:section>Letter</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11984</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11956">
+                     <title>Molecular biology: Circles reshape the RNA world</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/QjhjOEIZorM/nature11956</link>
+<description>The versatility of RNA seems limitless. The latest surprise comes from circular RNAs, which are found to counteract the function of another class of regulatory RNA — the microRNAs.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 27 February 2013. <a href="http://dx.doi.org/10.1038/nature11956">doi:10.1038/nature11956</a>
+</p>
+<p>Author: Kenneth S. Kosik</p>
+<p>The versatility of RNA seems limitless. The latest surprise comes from circular RNAs, which are found to counteract the function of another class of regulatory RNA &#8212; the microRNAs.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/QjhjOEIZorM" height="1" width="1"/>]]></content:encoded>
+<dc:title>Molecular biology: Circles reshape the RNA world</dc:title>
+<dc:creator>Kenneth S. Kosik</dc:creator>
+<dc:identifier>doi:10.1038/nature11956</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2013-02-27</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2013-02-27</prism:publicationDate>
+<prism:doi>10.1038/nature11956</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11956</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11956</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11485">
+                     <title>Environmental science: The rainforest's water pump</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/vw9ogYqwMdU/nature11485</link>
+<description>An investigation of naturally occurring water recycling in rainforests finally marries the results of global climate models with observations. Alarmingly, it also suggests that deforestation can greatly reduce tropical rainfall.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 05 September 2012. <a href="http://dx.doi.org/10.1038/nature11485">doi:10.1038/nature11485</a>
+</p>
+<p>Author: Luiz E. O. C. Arag&#227;o</p>
+<p>An investigation of naturally occurring water recycling in rainforests finally marries the results of global climate models with observations. Alarmingly, it also suggests that deforestation can greatly reduce tropical rainfall.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/vw9ogYqwMdU" height="1" width="1"/>]]></content:encoded>
+<dc:title>Environmental science: The rainforest's water pump</dc:title>
+<dc:creator>Luiz E. O. C. Aragão</dc:creator>
+<dc:identifier>doi:10.1038/nature11485</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2012-09-05</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2012-09-05</prism:publicationDate>
+<prism:doi>10.1038/nature11485</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11485</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11485</feedburner:origLink></item>
+<item rdf:about="http://dx.doi.org/10.1038/nature11484">
+                     <title>Ageing: Mixed results for dieting monkeys</title>
+<link>http://feeds.nature.com/~r/nature/rss/aop/~3/aLcORjL9mXQ/nature11484</link>
+<description>According to previous studies, a low-calorie diet provides health benefits and increases lifespan in mammals, including primates. Yet a long-term investigation in rhesus monkeys finds no effect on longevity.</description>
+<content:encoded><![CDATA[
+
+<p>Nature advance online publication 29 August 2012. <a href="http://dx.doi.org/10.1038/nature11484">doi:10.1038/nature11484</a>
+</p>
+<p>Author: Steven N. Austad</p>
+<p>According to previous studies, a low-calorie diet provides health benefits and increases lifespan in mammals, including primates. Yet a long-term investigation in rhesus monkeys finds no effect on longevity.</p>
+<img src="http://feeds.feedburner.com/~r/nature/rss/aop/~4/aLcORjL9mXQ" height="1" width="1"/>]]></content:encoded>
+<dc:title>Ageing: Mixed results for dieting monkeys</dc:title>
+<dc:creator>Steven N. Austad</dc:creator>
+<dc:identifier>doi:10.1038/nature11484</dc:identifier>
+<dc:source>Nature</dc:source>
+<dc:date>2012-08-29</dc:date>
+<prism:publicationName>Nature</prism:publicationName>
+<prism:publicationDate>2012-08-29</prism:publicationDate>
+<prism:doi>10.1038/nature11484</prism:doi>
+<prism:url>http://dx.doi.org/10.1038/nature11484</prism:url>
+<prism:section>News &amp; Views</prism:section>
+<prism:startingPage />
+<prism:endingPage />
+<feedburner:origLink>http://dx.doi.org/10.1038/nature11484</feedburner:origLink></item>
+</rdf:RDF>

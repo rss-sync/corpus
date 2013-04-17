@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-04-16T19:49:03-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/542a67246794a0f346e95129c2a2221480462eba</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/542a67246794a0f346e95129c2a2221480462eba"/>
+    <title>
+        Merge branch &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm
+    </title>
+    <updated>2013-04-16T19:49:03-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/mm/proc-arm920.S
+m arch/arm/mm/proc-arm926.S
+m arch/arm/mm/proc-mohawk.S
+m arch/arm/mm/proc-sa1100.S
+m arch/arm/mm/proc-v6.S
+m arch/arm/mm/proc-xsc3.S
+m arch/arm/mm/proc-xscale.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm
+
+Pull ARM fix from Russell King:
+ &quot;A build fix for an incomplete change to the ARM cpu suspend code&quot;
+
+* branch &#39;fixes&#39; of git://git.linaro.org/people/rmk/linux-arm:
+  ARM: Do 15e0d9e37c (ARM: pm: let platforms select cpu_suspend support) properly&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4be41343a2aba91e6e9709c446b824350e9a31ed</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4be41343a2aba91e6e9709c446b824350e9a31ed"/>
+    <title>
+        Merge git://git.kernel.org/pub/scm/virt/kvm/kvm
+    </title>
+    <updated>2013-04-16T19:46:14-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/include/asm/pgtable-3level.h
+m arch/arm/kvm/arm.c
+m arch/powerpc/kvm/e500.h
+m arch/powerpc/kvm/e500_mmu_host.c
+m arch/powerpc/kvm/e500mc.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://git.kernel.org/pub/scm/virt/kvm/kvm
+
+Pull kvm fixes from Marcelo Tosatti:
+ &quot;PPC and ARM KVM fixes&quot;
+
+* git://git.kernel.org/pub/scm/virt/kvm/kvm:
+  ARM: KVM: fix L_PTE_S2_RDWR to actually be Read/Write
+  ARM: KVM: fix KVM_CAP_ARM_SET_DEVICE_ADDR reporting
+  kvm/ppc/e500: eliminate tlb_refs
+  kvm/ppc/e500: g2h_tlb1_map: clear old bit before setting new bit
+  kvm/ppc/e500: h2g_tlb1_rmap: esel 0 is valid
+  kvm/powerpc/e500mc: fix tlb invalidation on cpu migration&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/de0024b60c26a899192fcb56307df7f9490fca4f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/de0024b60c26a899192fcb56307df7f9490fca4f"/>
+    <title>
+        Merge tag &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sfr/next-fixes
+    </title>
+    <updated>2013-04-16T19:45:15-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/kernel/entry_64.S
+m arch/powerpc/kernel/process.c
+m arch/powerpc/kernel/signal_32.c
+m arch/powerpc/kernel/signal_64.c
+m arch/powerpc/kernel/tm.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge tag &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sfr/next-fixes
+
+Pull powerpc fixes from Stephen Rothwell:
+ &quot;Three regresions in the PowerPC code.  One from v3.7 the others from
+  this merge window.&quot;
+
+* tag &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sfr/next-fixes:
+  powerpc: add a missing label in resume_kernel
+  powerpc: Fix audit crash due to save/restore PPR changes
+  powerpc: fix compiling CONFIG_PPC_TRANSACTIONAL_MEM when CONFIG_ALTIVEC=n&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c208278c5c6ec815acfe4ea4701302edf8fe8a21</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c208278c5c6ec815acfe4ea4701302edf8fe8a21"/>
+    <title>
+        Merge branch &#39;rc-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mmarek/kbuild
+    </title>
+    <updated>2013-04-16T19:44:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Makefile
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;rc-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mmarek/kbuild
+
+Pull kbuild fix from Michal Marek:
+ &quot;Fix for a missing dependency when generating scripts/mod/devicetable-offsets.h.
+  This dependency got introduced in v3.9-rc1.&quot;
+
+* &#39;rc-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/mmarek/kbuild:
+  kbuild: generate generic headers before recursing into scripts&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8665ffc9215be1fe56f97500dad0440c9b644f5c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/8665ffc9215be1fe56f97500dad0440c9b644f5c"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+    </title>
+    <updated>2013-04-16T19:43:30-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/input/tablet/wacom_wac.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+
+Pull input fixes from Dmitry Torokhov:
+ &quot;Two small fixups to the Wacom driver&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input:
+  Input: wacom - correct reported resolution for Intuos4 Wireless
+  Input: wacom - fix &quot;can not retrieve extra class descriptor&quot; for 24HDT&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/23125c40e0a701c80046f8c05d5aae48c704c78c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/23125c40e0a701c80046f8c05d5aae48c704c78c"/>
+    <title>
+        Merge branch &#39;kvm-arm-fixes-3.9&#39; of git://github.com/columbia/linux-kvm-arm
+    </title>
+    <updated>2013-04-16T16:49:47-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a48631d4f13116c30ee7ae145726f0a9?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>mtosatti@redhat.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/include/asm/pgtable-3level.h
+m arch/arm/kvm/arm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;kvm-arm-fixes-3.9&#39; of git://github.com/columbia/linux-kvm-arm
+
+* &#39;kvm-arm-fixes-3.9&#39; of git://github.com/columbia/linux-kvm-arm:
+  ARM: KVM: fix L_PTE_S2_RDWR to actually be Read/Write
+  ARM: KVM: fix KVM_CAP_ARM_SET_DEVICE_ADDR reporting
+
+Signed-off-by: Marcelo Tosatti &lt;mtosatti@redhat.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b4cbb197c7e7a68dbad0d491242e3ca67420c13e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b4cbb197c7e7a68dbad0d491242e3ca67420c13e"/>
+    <title>
+        vm: add vm_iomap_memory() helper function
+    </title>
+    <updated>2013-04-16T16:45:45-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m include/linux/mm.h
+m mm/memory.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>vm: add vm_iomap_memory() helper function
+
+Various drivers end up replicating the code to mmap() their memory
+buffers into user space, and our core memory remapping function may be
+very flexible but it is unnecessarily complicated for the common cases
+to use.
+
+Our internal VM uses pfn&#39;s (&quot;page frame numbers&quot;) which simplifies
+things for the VM, and allows us to pass physical addresses around in a
+denser and more efficient format than passing a &quot;phys_addr_t&quot; around,
+and having to shift it up and down by the page size.  But it just means
+that drivers end up doing that shifting instead at the interface level.
+
+It also means that drivers end up mucking around with internal VM things
+like the vma details (vm_pgoff, vm_start/end) way more than they really
+need to.
+
+So this just exports a function to map a certain physical memory range
+into user space (using a phys_addr_t based interface that is much more
+natural for a driver) and hides all the complexity from the driver.
+Some drivers will still end up tweaking the vm_page_prot details for
+things like prefetching or cacheability etc, but that&#39;s actually
+relevant to the driver, rather than caring about what the page offset of
+the mapping is into the particular IO memory region.
+
+Acked-by: Greg Kroah-Hartman &lt;gregkh@linuxfoundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/865499ea90d399e0682bcce3ae7af24277633699</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/865499ea90d399e0682bcce3ae7af24277633699"/>
+    <title>
+        ARM: KVM: fix L_PTE_S2_RDWR to actually be Read/Write
+    </title>
+    <updated>2013-04-16T16:21:25-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/dfae7d501fd2859b8d7f9134ee5c4cbc?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>marc.zyngier@arm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/include/asm/pgtable-3level.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: KVM: fix L_PTE_S2_RDWR to actually be Read/Write
+
+Looks like our L_PTE_S2_RDWR definition is slightly wrong,
+and is actually write only (see ARM ARM Table B3-9, Stage 2 control
+of access permissions). Didn&#39;t make a difference for normal pages,
+as we OR the flags together, but I&#39;m still wondering how it worked
+for Stage-2 mapped devices, such as the GIC.
+
+Brown paper bag time, again.
+
+Signed-off-by: Marc Zyngier &lt;marc.zyngier@arm.com&gt;
+Signed-off-by: Christoffer Dall &lt;cdall@cs.columbia.edu&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ca46e10fb239d4646cb19620695473f252a6ffc7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ca46e10fb239d4646cb19620695473f252a6ffc7"/>
+    <title>
+        ARM: KVM: fix KVM_CAP_ARM_SET_DEVICE_ADDR reporting
+    </title>
+    <updated>2013-04-16T16:21:24-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/dfae7d501fd2859b8d7f9134ee5c4cbc?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>marc.zyngier@arm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/kvm/arm.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: KVM: fix KVM_CAP_ARM_SET_DEVICE_ADDR reporting
+
+Commit 3401d54696f9 (KVM: ARM: Introduce KVM_ARM_SET_DEVICE_ADDR
+ioctl) added support for the KVM_CAP_ARM_SET_DEVICE_ADDR capability,
+but failed to add a break in the relevant case statement, returning
+the number of CPUs instead.
+
+Luckilly enough, the CONFIG_NR_CPUS=0 patch hasn&#39;t been merged yet
+(https://lkml.org/lkml/diff/2012/3/31/131/1), so the bug wasn&#39;t
+noticed.
+
+Just give it a break!
+
+Signed-off-by: Marc Zyngier &lt;marc.zyngier@arm.com&gt;
+Signed-off-by: Christoffer Dall &lt;cdall@cs.columbia.edu&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/202dec868a769af726e262790bf00b09ec929b52</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/202dec868a769af726e262790bf00b09ec929b52"/>
+    <title>
+        Input: wacom - correct reported resolution for Intuos4 Wireless
+    </title>
+    <updated>2013-04-15T09:12:19-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1a1296ba5a12a832f7fdf5b4d15f4423?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>jigpu</name>
+      <uri>https://github.com/jigpu</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/input/tablet/wacom_wac.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Input: wacom - correct reported resolution for Intuos4 Wireless
+
+Reported-by: Przemo Firszt &lt;przemo@firszt.eu&gt;
+Signed-off-by: Jason Gerecke &lt;killertofu@gmail.com&gt;
+Tested-by: Przemo Firszt &lt;przemo@firszt.eu&gt;
+Signed-off-by: Dmitry Torokhov &lt;dmitry.torokhov@gmail.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bb33db7a076f4719dc68c235e187dd4bfb16b621</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/bb33db7a076f4719dc68c235e187dd4bfb16b621"/>
+    <title>
+        Merge branches &#39;timers-urgent-for-linus&#39;, &#39;irq-urgent-for-linus&#39; and &#39;core-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-15T07:03:01-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/irqchip/irq-gic.c
+m fs/proc/array.c
+m include/linux/sched.h
+m include/trace/events/sched.h
+m kernel/hrtimer.c
+m kernel/kthread.c
+m kernel/smpboot.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branches &#39;timers-urgent-for-linus&#39;, &#39;irq-urgent-for-linus&#39; and &#39;core-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull {timer,irq,core} fixes from Thomas Gleixner:
+
+ - timer: bug fix for a cpu hotplug race.
+
+ - irq: single bugfix for a wrong return value, which prevents the
+   calling function to invoke the software fallback.
+
+ - core: bugfix which plugs two race confitions which can cause hotplug
+   per cpu threads to end up on the wrong cpu.
+
+* &#39;timers-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  hrtimer: Don&#39;t reinitialize a cpu_base lock on CPU_UP
+
+* &#39;irq-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  irqchip: gic: fix irq_trigger return
+
+* &#39;core-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  kthread: Prevent unpark race which puts threads on the wrong cpu&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d8b92292408831d86ff7b781e66bf79301934b99</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d8b92292408831d86ff7b781e66bf79301934b99"/>
+    <title>
+        powerpc: add a missing label in resume_kernel
+    </title>
+    <updated>2013-04-15T00:29:48-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b833c6bacabd20802e11f5cfa103ee0d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>haokexin@gmail.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/kernel/entry_64.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>powerpc: add a missing label in resume_kernel
+
+A label 0 was missed in the patch a9c4e541 (powerpc/kprobe: Complete
+kprobe and migrate exception frame). This will cause the kernel
+branch to an undetermined address if there really has a conflict when
+updating the thread flags.
+
+Signed-off-by: Kevin Hao &lt;haokexin@gmail.com&gt;
+Cc: stable@vger.kernel.org
+Acked-By: Tiejun Chen &lt;tiejun.chen@windriver.com&gt;
+Signed-off-by: Stephen Rothwell &lt;sfr@canb.auug.org.au&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/05e38e5d5d437c762c79428ae8434632a8ca2c5e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/05e38e5d5d437c762c79428ae8434632a8ca2c5e"/>
+    <title>
+        powerpc: Fix audit crash due to save/restore PPR changes
+    </title>
+    <updated>2013-04-15T00:29:45-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a1990d25d33e7c408483c1612d60b77f?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>alistair@popple.id.au</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/powerpc/kernel/entry_64.S
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>powerpc: Fix audit crash due to save/restore PPR changes
+
+The current mainline crashes when hitting userspace with the following:
+
+kernel BUG at kernel/auditsc.c:1769!
+cpu 0x1: Vector: 700 (Program Check) at [c000000023883a60]
+    pc: c0000000001047a8: .__audit_syscall_entry+0x38/0x130
+    lr: c00000000000ed64: .do_syscall_trace_enter+0xc4/0x270
+    sp: c000000023883ce0
+   msr: 8000000000029032
+  current = 0xc000000023800000
+  paca    = 0xc00000000f080380   softe: 0        irq_happened: 0x01
+    pid   = 1629, comm = start_udev
+kernel BUG at kernel/auditsc.c:1769!
+enter ? for help
+[c000000023883d80] c00000000000ed64 .do_syscall_trace_enter+0xc4/0x270
+[c000000023883e30] c000000000009b08 syscall_dotrace+0xc/0x38
+ --- Exception: c00 (System Call) at 0000008010ec50dc
+
+Bisecting found the following patch caused it:
+
+commit 44e9309f1f357794b7ae93d5f3e3e6f11d2b8a7f
+Author: Haren Myneni &lt;haren@linux.vnet.ibm.com&gt;
+powerpc: Implement PPR save/restore
+
+It was found this patch corrupted r9 when calling
+SET_DEFAULT_THREAD_PPR()
+
+Using r10 as a scratch register instead of r9 solved the problem.
+
+Signed-off-by: Alistair Popple &lt;alistair@popple.id.au&gt;
+Acked-by: Michael Neuling &lt;mikey@neuling.org&gt;
+Signed-off-by: Stephen Rothwell &lt;sfr@canb.auug.org.au&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/41ef2d5678d83af030125550329b6ae8b74618fa</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/41ef2d5678d83af030125550329b6ae8b74618fa"/>
+    <title>
+        Linux 3.9-rc7
+    </title>
+    <updated>2013-04-14T17:45:16-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m Makefile
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Linux 3.9-rc7&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6c4c4d4bdaff7ec0b7b26da67d741f639727c934</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/6c4c4d4bdaff7ec0b7b26da67d741f639727c934"/>
+    <title>
+        Merge branch &#39;x86-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-14T11:13:24-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/include/asm/paravirt.h
+m arch/x86/include/asm/paravirt_types.h
+m arch/x86/kernel/paravirt.c
+m arch/x86/lguest/boot.c
+m arch/x86/mm/fault.c
+m arch/x86/mm/pageattr-test.c
+m arch/x86/mm/pageattr.c
+m arch/x86/xen/mmu.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;x86-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull x86 fixes from Ingo Molnar:
+ &quot;Misc fixes&quot;
+
+* &#39;x86-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  x86/mm: Flush lazy MMU when DEBUG_PAGEALLOC is set
+  x86/mm/cpa/selftest: Fix false positive in CPA self test
+  x86/mm/cpa: Convert noop to functional fix
+  x86, mm: Patch out arch_flush_lazy_mmu_mode() when running on bare metal
+  x86, mm, paravirt: Fix vmalloc_fault oops during lazy MMU updates&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/af788e35bff2b98a413c3e81b13c2a27ef6b7528</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/af788e35bff2b98a413c3e81b13c2a27ef6b7528"/>
+    <title>
+        Merge branch &#39;sched-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-14T11:12:17-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m kernel/sched/clock.c
+m kernel/sched/core.c
+m kernel/sched/cputime.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;sched-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull scheduler fixes from Ingo Molnar:
+ &quot;Misc fixlets&quot;
+
+* &#39;sched-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  sched/cputime: Fix accounting on multi-threaded processes
+  sched/debug: Fix sd-&gt;*_idx limit range avoiding overflow
+  sched_clock: Prevent 64bit inatomicity on 32bit systems
+  sched: Convert BUG_ON()s in try_to_wake_up_local() to WARN_ON_ONCE()s&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ae9f4939bad09767c0532f76ccc48cec0ff3ea4e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ae9f4939bad09767c0532f76ccc48cec0ff3ea4e"/>
+    <title>
+        Merge branch &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+    </title>
+    <updated>2013-04-14T11:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/x86/kernel/cpu/perf_event_intel_ds.c
+m kernel/events/core.c
+m kernel/events/internal.h
+m kernel/events/ring_buffer.c
+m kernel/trace/ftrace.c
+m kernel/trace/trace.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+Pull perf fixes from Ingo Molnar:
+ &quot;Misc fixlets&quot;
+
+* &#39;perf-urgent-for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip:
+  perf: Fix error return code
+  ftrace: Fix strncpy() use, use strlcpy() instead of strncpy()
+  perf: Fix strncpy() use, use strlcpy() instead of strncpy()
+  perf: Fix strncpy() use, always make sure it&#39;s NUL terminated
+  perf: Fix ring_buffer perf_output_space() boundary calculation
+  perf/x86: Fix uninitialized pt_regs in intel_pmu_drain_bts_buffer()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/93263e5283d5c2bc447bc42956f4fa58a3a0a63a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/93263e5283d5c2bc447bc42956f4fa58a3a0a63a"/>
+    <title>
+        Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+    </title>
+    <updated>2013-04-14T10:55:20-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/gpu/drm/drm_fb_helper.c
+m drivers/gpu/drm/udl/udl_connector.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux
+
+Pull drm fixes from Dave Airlie:
+ &quot;One fix for a hotplug locking regressions, and one fix for an oops if
+  you unplug the monitor at an inopportune moment on the udl device.&quot;
+
+* &#39;drm-fixes&#39; of git://people.freedesktop.org/~airlied/linux:
+  drm/fb-helper: Fix locking in drm_fb_helper_hotplug_event
+  udl: handle EDID failure properly.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ba3b7d827e96e90e3df82695c96b3f9a666c0d82</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ba3b7d827e96e90e3df82695c96b3f9a666c0d82"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+    </title>
+    <updated>2013-04-14T10:54:40-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/m68k/include/asm/gpio.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+
+Pull m68knommu fix from Greg Ungerer:
+ &quot;This contains only a single compilation fix for ColdFire m68k targets
+  that use local non-GPIOLIB support.&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu:
+  m68k: define a local gpio_request_one() function&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4f9a197c223cc019801be948e444d05904391109</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/4f9a197c223cc019801be948e444d05904391109"/>
+    <title>
+        Merge git://www.linux-watchdog.org/linux-watchdog
+    </title>
+    <updated>2013-04-14T10:53:54-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/watchdog/Kconfig
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge git://www.linux-watchdog.org/linux-watchdog
+
+Pull watchdog fix from Wim Van Sebroeck:
+ &quot;It will fix compile errors for the at91rm9200_wdt driver&quot;
+
+* git://www.linux-watchdog.org/linux-watchdog:
+  watchdog: Revert the AT91RM9200_WATCHDOG dependency&lt;/pre>
+    </content>
+  </entry>
+</feed>

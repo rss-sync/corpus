@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>EDUKWEST</title>
+	
+	<link>http://www.edukwest.com</link>
+	<description>on the search for better education</description>
+	<lastBuildDate>Tue, 16 Apr 2013 00:15:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/edukwest" /><feedburner:info uri="edukwest" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>on the search for better education</itunes:subtitle><feedburner:emailServiceId>edukwest</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>Are Investors Reluctant or do Edtech Startups not need the Money</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/lcNuZzrKdrs/</link>
+		<comments>http://www.edukwest.com/are-investors-reluctant-or-do-edtech-startups-dont-need-the-money/#comments</comments>
+		<pubDate>Sun, 14 Apr 2013 19:11:48 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[Reports & Analysis]]></category>
+		<category><![CDATA[ambient insight]]></category>
+		<category><![CDATA[edtech investors]]></category>
+		<category><![CDATA[edtech startups]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6437</guid>
+		<description><![CDATA[Analysis of the Ambient Insight report titled "The 2012 Boom in Learning Technology Investment" which I think misses some essential points.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-6439" alt="Edtech Startups burn Money" src="http://www.edukwest.com/wp-content/uploads/2013/04/edtech-startups-burn-money.jpg" width="640" height="250" /></p>
+<p>Yesterday, <a title="Frank Catalano Twitter" href="http://twitter.com/FrankCatalano" target="_blank"><strong>Frank Catalano</strong></a> pointed me to a report by Ambient Insight titled <a title="The 2012 Boom in Learning  Technology Investment" href="http://www.ambientinsight.com/Resources/Documents/AmbientInsight-2012-Learning-Technology-Investment-Patterns.pdf" target="_blank"><strong>The 2012 Boom in Learning  Technology Investment</strong></a>. It’s a quick read, only 18 pages, and Ambient did a good job in breaking down the investments into the different verticals between 1999 and 2012.</p>
+<p>In my opinion however, Ambient Insight draws the wrong conclusions when stating that</p>
+<blockquote><p>Investors are funding a lot more companies, but are increasingly reluctant to risk large funding amounts.</p></blockquote>
+<p>I think investors don&#8217;t need to invest large amounts and many startups don&#8217;t even want the money as you cannot compare the investments in education that were done before and after the dotcom bubble with the investments we saw in 2012 as the landscape for launching a startup in e-learning has totally changed.</p>
+<p>Let’s break it down.</p>
+<h2>1) The cost of building a startup is a friction of what it used to be</h2>
+<p>Back in 1999 and even up to the middle of the past decade building a startup involved huge costs. From licensing software to buying or renting server racks, a web based startup had to invest tons of cash before it even got a service up and running.</p>
+<p>Amazon Web Services which today hosts a huge part of web companies was officially launched in 2006 and from then on even the tiniest bootstrapped startup was able to afford scalable hosting. You did not need to invest intro infrastructure beforehand, it now grew with your userbase and hopefully your revenue.</p>
+<p>Web technology has also come down in cost, in most cases to $0 as you don’t need to buy licenses for MySQL, Java, php, Ruby on Rails and so on and so forth. Developers don’t need to be hired in New York or San Francisco from the start. Sites like Odesk can get you a development team in Romania or Vietnam at the friction of the cost and instead of hiring a web designer for the looks you can auction your project at 99designs.</p>
+<p>All of the points above illustrate that the same idea that cost millions of dollars in venture capital to realize in 1999 now is nearly free and can be financed with credit card debt, a family and friends round or through crowdfunding.</p>
+<p>This also means that startups today, if they are clever, have a much lower burn rate than those that launched 1999. Also many startups today follow the lean startup mentality which is exactly about that, preventing a second dotcom burnout for early stage startups.</p>
+<p>All in all, most edtech startups won’t ever need more than $500k, many probably much less. For comparison on how it used to be around 2000, I suggest to watch the <a title="Startup.com" href="http://www.youtube.com/watch?v=ibuiUXOTE4M" target="_blank"><strong>documentary Startup.com</strong></a>.</p>
+<h2>2) Most edtech founder teams work on small ideas</h2>
+<p>Though I don’t want to diminish the efforts of those edtech founders, I assert that many (most) of them are working on projects that solve a very specific problem. This is especially true when we are talking about those in the mobile learning and app space. I often quote Mark Suster here who called these kind of products <strong><a title="Why Live Lessons are FNACs" href="http://www.kirstenwinkler.com/why-live-lessons-are-fnacs/" target="_blank">FNACs, feature not a company</a></strong>.</p>
+<p>And that’s probably the plan for most young founders who are often diagnosed with “being on a mission” (if this mission is to flip the startup). Those FNACs are aimed to attract big, or at least bigger, players in the market that will hopefully acquire them like we recently saw with <a title="Rosetta Stone acquires Livemocha for $8.5 million in Cash" href="http://www.edukwest.com/rosetta-stone-acquires-livemocha-for-8-5-million-in-cash/" target="_blank"><strong>Livemocha being acquired by Rosetta Stone</strong></a> (though that wasn&#8217;t the plan, I think) or <a title="Princeton Review Founder’s Startup Noodle Acquires Lore To Build An Education Marketplace Around Search" href="http://techcrunch.com/2013/03/15/princeton-review-founders-startup-noodle-acquires-lore-to-build-an-education-marketplace/" target="_blank"><strong>Lore being acquired by Noodle Education</strong></a>.</p>
+<p>Also, we should take into account that many of these founders are in their mid-twenties, they only want to spend a few years working on one idea in a hot and promising market and then move on to the next idea. How big is the chance that you’re working on your biggest idea at age 26? Not very high. At 26 I was about to “disrupt” urban party life with a cocktail delivery service. You get the idea.</p>
+<p>Again, the financial infrastructure and ecosystem allow very young founders to get small ideas off the ground. Again, to achieve such a plan and make an interesting exit for the founders and (angel) investors you don’t need to raise a ton of money. For how long this strategy will work is of course disputable.</p>
+<p>On the other hand, in every market there is always only a limited number of big ideas to work on. Right now I tend to put startups like 2U, Edmodo or Chegg in this group as all of them are building platforms that could easily create aspects of FNACs on their own and that probably won’t get acquired by a competitor or bigger player in the market. Which means that they need to go the IPO route.</p>
+<h2>3) The rise of Edtech Incubators</h2>
+<p>Another aspect which is fueling the growth of edtech startups are dedicated incubators like Imagine K12, NewSchools Venture Seed Fund, Startl, DreamIt Ventures etc. Imagine K12 alone have incubated and funded 19 startups in 2012 during their Winter and Summer cohorts.</p>
+<p>And with new incubators like Macmillan Digital Education, Kaplan Edtech Accelerator and Pearson Catalyst 2013 will see even more. Like I wrote in February, we are entering <a title="Incubating the Era of the Flipped Edtech Startup" href="http://edcetera.rafter.com/incubating-the-era-of-the-flipped-edtech-startup/" target="_blank"><strong>the era of the flipped edtech startup</strong></a>.</p>
+<h2>4) The concerned Silicon Valley Moms and Dads</h2>
+<p>Education has become a huge topic in the Valley and beyond among the tech / geek elite. Since the hype around Salman Khan and now MOOCs tech executives and founders who have been around the block once or twice are now pretty open to angel invest into education startups that help create a better world.</p>
+<p>Why? Because most of them got children and don’t want them to cope with a broken school and university system. Take Jason Calacanis as an example. The moment he got a daughter his interest has started shifting towards the education space. When I met him in London and Paris we talked a lot about online education and where it is all going. He is now going to host the second edition of the <a title="LAUNCH Education &amp; Kids Conference" href="http://launchedu.co" target="_blank"><strong>LAUNCH Education &amp; Kids Conference</strong></a> in June and he also interviewed Sebastian Thrun, Anant Agarwal and Salman Khan for his webcast <a title="This Week in Startups" href="http://thisweekin.com" target="_blank"><strong>This Week in Startups</strong></a>.</p>
+<p>The tech elite essentially took the education matter into their own hands as they strongly believe they can do a better job than anyone else. Well, we are going to see how that goes but it is definitely another part of the puzzle.</p>
+<h2>5) “(Communications) tools don&#8217;t get socially interesting until they get technologically boring.”</h2>
+<p>Last but not least the above quote from <a title="Clay Shirky" href="http://de.wikipedia.org/wiki/Clay_Shirky" target="_blank"><strong>Clay Shirky</strong></a> is also true for what we see in terms of adoption of elearning in the mainstream today. Back in 1999 PCs were still hard to handle and quite expensive, let alone the additional cost of a (somewhat) fast Internet connection.</p>
+<p>Like for founders in edtech cost has come down for consumers. And thanks to Apple and the iPhone / iPad we learned about the joys of mobile Internet and consumption. All these things are now technologically boring. Your parents and grandparents are on Facebook, use a smartphone or tablet and so do your children. Therefore, the potential market for elearning products is much bigger than 1999 or even 2005, two years before the launch of the original iPhone.</p>
+<p>And with mobile devices being technologically boring we got used to the idea of buying small learning applications for $0.99 or even up to $5. It’s a proven model and though successful startups like Mindsnacks, Voxy, busuu or babbel.com raised up to $10 million they all created their products at a friction of the cost compared with startups during and after the dotcom years. Also all of them had a working business model and raised money for scale and growth, not for development or infrastructure.</p>
+<p>Bottom line: the <a title="The 2012 Boom in Learning  Technology Investment" href="http://www.ambientinsight.com/Resources/Documents/AmbientInsight-2012-Learning-Technology-Investment-Patterns.pdf" target="_blank"><strong>Ambient Insight report</strong></a> gives you a nice overview about the money that went into each vertical, but I think you need to take the points above into consideration to get a clear picture of the online education market.</p>
+<p><a href="http://mrg.bz/myPmJa" target="_blank"><strong>Image</strong></a></p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/lcNuZzrKdrs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/are-investors-reluctant-or-do-edtech-startups-dont-need-the-money/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<media:content url="http://feedproxy.google.com/~r/edukwest/~5/VcmJD5eigDg/AmbientInsight-2012-Learning-Technology-Investment-Patterns.pdf" fileSize="1378354" type="application/pdf" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Analysis of the Ambient Insight report titled "The 2012 Boom in Learning Technology Investment" which I think misses some essential points.</itunes:subtitle><itunes:summary>Analysis of the Ambient Insight report titled "The 2012 Boom in Learning Technology Investment" which I think misses some essential points.</itunes:summary><itunes:keywords>Reports &amp; Analysis, ambient insight, edtech investors, edtech startups</itunes:keywords><feedburner:origLink>http://www.edukwest.com/are-investors-reluctant-or-do-edtech-startups-dont-need-the-money/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/edukwest/~5/VcmJD5eigDg/AmbientInsight-2012-Learning-Technology-Investment-Patterns.pdf" length="1378354" type="application/pdf" /><feedburner:origEnclosureLink>http://www.ambientinsight.com/Resources/Documents/AmbientInsight-2012-Learning-Technology-Investment-Patterns.pdf</feedburner:origEnclosureLink></item>
+		<item>
+		<title>Rosetta Stone Kiosks to be closed in Transition to Cloud based Service</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/UUG7sD2vfYI/</link>
+		<comments>http://www.edukwest.com/rosetta-stone-kiosks-to-be-closed-in-transition-to-cloud-based-service/#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 13:22:34 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[babbel.com]]></category>
+		<category><![CDATA[busuu]]></category>
+		<category><![CDATA[Kiosks]]></category>
+		<category><![CDATA[livemocha]]></category>
+		<category><![CDATA[rosetta stone]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6386</guid>
+		<description><![CDATA[All remaining Rosetta Stone Kiosks to be closed in the next step to transition the company into a nimble and innovative cloud based service.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-6388" alt="Rosetta Stone Kiosks" src="http://www.edukwest.com/wp-content/uploads/2013/04/closed.jpg" width="600" height="234" /></p>
+<p>Rosetta Stone&#8217;s CEO Steve Swad is accelerating the company&#8217;s transition into a cloud-based learning experience. What used to be one of the marquee items of Rosetta Stone will soon only be a memory: the airport and mall kiosk.</p>
+<p>Not even two years ago, under Rosetta Stone&#8217;s former CEO Tom Adams, the company invested in new <a title="Rosetta Stone Experience Kiosks launch in Malls across the US" href="http://www.edukwest.com/rosetta-stone-experience-kiosks-launch-in-malls-across-the-us/"><strong>experience kiosks</strong></a> where people could test the software and retail stores targeted at an audience in <a title="Rosetta Stone opens Retail Stores targeting Hollywood and Capitol Hill" href="http://www.edukwest.com/rosetta-stone-opens-retail-stores-targeting-hollywood-and-capitol-hill/"><strong>Hollywood and Capitol Hill</strong></a>. But according to the <a title="Rosetta Stone Continues Migration to the Cloud, Exits Remaining U.S. Kiosks" href="http://pr.rosettastone.com/phoenix.zhtml?c=228009&amp;p=irol-newsArticle&amp;ID=1803553&amp;highlight="><strong>press release</strong></a></p>
+<blockquote><p>Rosetta Stone’s kiosks had come to represent a shrinking portion of the company’s overall sales mix, especially as their revenue contribution was eclipsed in 2012 by growth from the web channel and the rising popularity of digital downloads. The company has closed over 100 kiosks since 2011, and by exiting its remaining locations, it sheds a low-margin channel and positions itself to invest in more profitable channels going forward.</p></blockquote>
+<p>With the closure Rosetta Stone is going to let go 245 full and part time sales representatives who worked in the kiosks, following the goal of turning the company into a more nimble and innovative player to compete its smaller however quickly growing competitors babbel.com and busuu.</p>
+<p>London-based busuu just shared the news that it has surpassed 30 million users, now adding 40.000 new users per day. It also launched a new iPad application for young Spanish learners. According to <a title="Language Learning Startup Busuu Hits 30M Users And Launches New Kids iPad App" href="http://techcrunch.com/2013/04/05/language-learning-startup-busuu-hits-30m-users-and-launches-new-kids-ipad-app/"><strong>TechCrunch</strong></a> busuu shows strong growth in emerging markets like Brazil, Russia and Turkey, markets that are also of high interest for babbel.com which just raised a <a title="babbel.com raises $10 million Series B – busuu and Livemocha to follow?" href="http://www.edukwest.com/babbel-com-raises-10-million-series-b-busuu-and-livemocha-to-follow/"><strong>$10 million Series B round</strong></a> in order to expand its services globally.</p>
+<p>With Rosetta Stone&#8217;s focus shifting away from physical locations and products and last week&#8217;s <a title="Rosetta Stone acquires Livemocha for $8.5 million in Cash" href="http://www.edukwest.com/rosetta-stone-acquires-livemocha-for-8-5-million-in-cash/"><strong>acquisition of Livemocha</strong></a> this is going to be a very interesting year in the language learning space. Now that Rosetta Stone really goes all in it is certainly getting harder for busuu and babbel.com to keep on grabbing market share.</p>
+<p>Of course, Rosetta Stone needs to come up with a compelling low cost alternative of its products, probably using the Livemocha brand, I could imagine them to start by offering a version of their <a title="Rosetta Stone launches TOTALe Mobile Companion for iPad" href="http://www.edukwest.com/rosetta-stone-launches-totale-mobile-companion-for-ipad/"><strong>Mobile Companion application</strong></a> branded as Livemocha, likely with less features to make it different from the premium Rosetta Stone products.</p>
+<p>Talking about premium products I am pretty sure that with the transition in to the cloud Rosetta Stone&#8217;s physical CD-Rom and DVD courses are the next thing that will disappear. Reminiscent of Livemocha&#8217;s rivalry with Rosetta Stone, let&#8217;s watch Livemocha mocking the emblematic yellow boxes in a 2011 commercial.</p>
+<p><iframe src="http://www.youtube.com/embed/nUohcCmnKEo?rel=0" height="450" width="600" allowfullscreen="" frameborder="0"></iframe></p>
+<p>Picture by <strong><a href="http://www.flickr.com/photos/nathaninsandiego/">San Diego Shooter</a></strong></p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/UUG7sD2vfYI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/rosetta-stone-kiosks-to-be-closed-in-transition-to-cloud-based-service/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://www.edukwest.com/rosetta-stone-kiosks-to-be-closed-in-transition-to-cloud-based-service/</feedburner:origLink></item>
+		<item>
+		<title>Rosetta Stone acquires Livemocha for $8.5 million in Cash</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/QJRW93hqPdI/</link>
+		<comments>http://www.edukwest.com/rosetta-stone-acquires-livemocha-for-8-5-million-in-cash/#comments</comments>
+		<pubDate>Tue, 02 Apr 2013 18:24:22 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[Funding & Deals]]></category>
+		<category><![CDATA[babbel.com]]></category>
+		<category><![CDATA[busuu]]></category>
+		<category><![CDATA[livemocha]]></category>
+		<category><![CDATA[rosetta stone]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6378</guid>
+		<description><![CDATA[More news from the online learning learning market as Rosetta Stone acquires Livemocha, cutting down competition to  busuu and babbel.com.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-6380" alt="rosetta stone acquires livemocha" src="http://www.edukwest.com/wp-content/uploads/2013/04/rosetta-stone-livemocha-acquisition.jpg" width="600" height="234" /></p>
+<p>The group of Rosetta Stone contenders shrunk to two today. According to a press release Rosetta Stone has acquired Seattle based language learning community Livemocha for $8.5 million in cash.</p>
+<p>One could say that this is kind of ironic as Livemocha started out as the rival to the language learning throne always positioning itself as a more innovative, more modern and inexpensive alternative to RS. From the beginning the startup had seen massive growth in terms of users and had also attracted some significant funding over the years. According to <a title="Rosetta Stone cracks Livemocha, buys language community for $8.5 million" href="http://www.geekwire.com/2013/rosetta-stone-cracks-livemocha-buys-online-language-community-85m/" target="_blank"><strong>GeekWire</strong></a> the total amount was more than $19 million which means that Rosetta Stone got a pretty good deal but Livemocha&#8217;s investors surely not.</p>
+<p>So what happened? Why is Livemocha sold off for cheap to the company they wanted to replace? At this price it seems that the numbers must have been pretty bad. As I mentioned in my post about <a title="babbel.com raises $10 million Series B – busuu and Livemocha to follow?" href="http://www.edukwest.com/babbel-com-raises-10-million-series-b-busuu-and-livemocha-to-follow/"><strong>babbel.com raising $10 million</strong></a> just last week, Livemocha never got aggressively into the mobile learning space like for instance babbel.com or of course busuu which might have been decisive. To my mind it was an important key factor missing to say the least.</p>
+<p>Before busuu and babbel.com launched their mobile applications Livemocha had been dominating the space in terms of users. But that lead was lost in a matter of months after busuu launched its first iPhone apps, followed by babbel.com which also decided to acquire the startup that had created the apps for them.</p>
+<p>From what I can tell Livemocha never really recovered from that shift and now it is essentially sold for parts. According to the <a title="Rosetta Stone Acquires Online Language Company Livemocha" href="http://www.businesswire.com/news/home/20130402005459/en/Rosetta-Stone-Acquires-Online-Language-Company-Livemocha" target="_blank"><strong>press release</strong></a> Livemocha’s acquisition is part of Rosetta Stone’s strategy to get its learning products into the cloud. I think it’s about the 16 million users and the possibility to get their own low cost product on the market without cannibalizing their core business of premium products. On the other hand, Rosetta Stone can now directly compete with busuu and babbel.com.</p>
+<p>One potential strategy could be to offer Livemocha for free similar to Duolingo and then make the upsell to Rosetta Stone products for those who are really serious about learning languages. As Rosetta Stone Chief Product Officer West Stringfellow says in the press release</p>
+<blockquote><p>“But even more exciting, it gives our customers more choice. Livemocha presents us with a low-cost or even free alternative product to offer learners around the world. It becomes a ‘ladder of learning and value’ for our customers.”</p></blockquote>
+<p>Livemocha’s CEO Michael Schutzler will assist in post-acquisition integration efforts as a senior advisor to Rosetta Stone CEO Swad. Livemocha will remain in Seattle. Below you can read Michael Schutzler&#8217;s email that got out to all Livemocha users today.</p>
+<blockquote><p>Dear Livemocha Community Members,</p>
+<p>Over the past five years, Livemocha has grown into a supportive, global community of over 16 million members, working together to learn, teach, and practice a new language. The learning experience that each of you creates makes Livemocha effective, meaningful, and fun.</p>
+<p>We are passionate about building a world in which every person is fluent in multiple languages, and today, I am thrilled to announce that we have taken the next step towards that goal.</p>
+<p>After months of hard work and preparation, Livemocha has agreed to merge with Rosetta Stone.</p>
+<p>Rosetta Stone has built one of the most durable and well-known education brands in the world. They have created powerful technology-based language learning solutions that are the envy of the industry. By combining our strengths, our technologies, and our dedicated focus to serve you well, we will transform the world of learning.</p>
+<p>Please rest assured that Livemocha will continue to be the learning experience, product, and community you know and love.  Indeed, Livemocha – in partnership with Rosetta Stone – will now offer more languages, add powerful new tools, and become available on more devices than ever before.  And, thanks to your feedback and the participation and the support of the talented team at Rosetta Stone, we will continue to roll out the brand new product experience that we have been building and testing over the past two years.  Stay tuned for more announcements soon!</p>
+<p>We are and always will be committed to building a world without barriers.</p>
+<p>Onward!</p>
+<p>Michael Schutzler</p>
+<p>CEO Livemocha Inc.</p></blockquote>
+<p>This latest development makes it even more clear to me that the freemium model was a bad idea for the language learning space in general. Sure, busuu have managed to build a profitable business based on it but the team also ran a very lean startup, fairly differently to what I have seen from Livemocha over the years.</p>
+<p>As I pointed out, now that its rival babbel.com raised a significant round and with Livemocha joining Rosetta Stone it seems to be inevitable for busuu to either raise a Series B round or get acquired. My tip still is that busuu is going to raise a $10 million+ round in the coming months.</p>
+<p>Picture by <strong><a title="Manuel Faisco" href="http://www.flickr.com/photos/mfaisco/" target="_blank">Manuel Faisco</a></strong> via Flickr</p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/QJRW93hqPdI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/rosetta-stone-acquires-livemocha-for-8-5-million-in-cash/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		<feedburner:origLink>http://www.edukwest.com/rosetta-stone-acquires-livemocha-for-8-5-million-in-cash/</feedburner:origLink></item>
+		<item>
+		<title>babbel.com raises $10 million Series B – busuu and Livemocha to follow?</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/dYwj2Ov4MrU/</link>
+		<comments>http://www.edukwest.com/babbel-com-raises-10-million-series-b-busuu-and-livemocha-to-follow/#comments</comments>
+		<pubDate>Tue, 26 Mar 2013 19:07:50 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[Funding & Deals]]></category>
+		<category><![CDATA[babbel.com]]></category>
+		<category><![CDATA[busuu]]></category>
+		<category><![CDATA[livemocha]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6369</guid>
+		<description><![CDATA[Just a week after announcing the acquisition of PlaySay, Berlin-based language learning startup babbel.com closed a $10 million Series B.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-6371" alt="babbel.com Series B" src="http://www.edukwest.com/wp-content/uploads/2013/03/babbel-funding.jpg" width="600" height="234" /></p>
+<p>Just a week after announcing the <a title="babbel.com enters US Market through Acquisition of PlaySay" href="http://www.edukwest.com/babbel-com-enters-us-market-through-acquisition-of-playsay/"><strong>acquisition of PlaySay</strong></a>, Berlin-based language learning startup babbel.com has more <a title="Babbel Closes $10 Million Series B Funding Round" href="http://www.babbel.com/home/node/2295" target="_blank"><strong>news to share</strong></a>. Today we learned that they have closed a $10 million Series B round led by Reed Elsevier Ventures with participation of Nokia Growth Partners as well as the existing investors, IBB Beteiligungsgesellschaft via its VC Fonds Technologie Berlin and Kizoo Technology Ventures.</p>
+<p>The round brings the total funding raised to date to $12.2 million and therefore close to its US based competitor Livemocha which raised <a title="Livemocha secures another $8 Million in Series B Funding" href="http://www.kirstenwinkler.com/livemocha-secures-another-8-million-in-series-b-funding/" target="_blank"><strong>around $14 million</strong></a>. The third of the trio, busuu comes to a total of $4.5 million with its latest <a title="busuu finally raises Series A Round – moves to London" href="http://www.edukwest.com/busuu-finally-raises-series-a-round-moves-to-london/" target="_blank"><strong>Series A round last October</strong></a>.</p>
+<p><img class="alignleft size-medium wp-image-6373" alt="babbel_graph_users" src="http://www.edukwest.com/wp-content/uploads/2013/03/babbel_graph_users-300x225.png" width="300" height="225" />While the ability to raise funding not necessarily makes a statement about the quality of the product or its business model I think that in this case it actually makes sense. As I wrote in my previous article about babbel.com last week, the founding team has proven to be able to build a viable company based on a relatively small amount of outside capital and then grow based on revenue. As babbel.com noted in the press release about the PlaySay acquisition which was also “fueled from operative cash flow”.</p>
+<p>According to <a title="Language Startup Babbel Closes $10M Series B Funding To Expand Globally, Build Team" href="http://techcrunch.com/2013/03/26/babbel-closes-10m-series-b/" target="_blank"><strong>TechCrunch</strong></a> the three founders won’t take money off the table, therefore the investment will go directly into the expansion of babbel.com into new markets and platforms. Other European countries and the Americas are now in the focus. With two major global events around the corner and a growing middle class with dispensable income, Brazil is poised to be one of the battle grounds for language learning startups. The US which Markus Witte, CEO of babbel.com sees as “most matured” will be the other main market the startup wants to grow in with help through the PlaySay acquisition.</p>
+<p>Which brings us to London-based busuu. The startup has a similar story and modus operandi, having raised small amounts of outside funding and growing quickly since the introduction of their mobile applications. According to the numbers both startups officially share, busuu has about 10 million users more than babbel.com, 25 million to 15 million. On the other hand, babbel.com only offers premium content which means that all users have to pay for the service whereas busuu offers freemium content which means that a significant number of its userbase does not pay for learning languages.</p>
+<p>I am pretty sure that busuu is going to raise a $10 million or similar Series B in the coming weeks, latest in two months. It should not be difficult for the founding team as their numbers are quite impressive as well and the startup is also generating positive cash flow for years now. From what I have heard the busuu team certainly have some interesting ideas on how to innovate on their product which might go beyond ‘just’ apps. Let’s see if that vision is yet mature enough to be released in a near future.</p>
+<p>However, busuu and to a certain degree Livemocha will need a well-filled war chest to fight off babbel.com. All three now target the same markets and thus it is going to be about marketing and teams on the ground.</p>
+<p>Which brings us to Livemocha. Up to now Livemocha has <a href="https://callisto.zendesk.com/entries/23233938-Does-Livemocha-have-a-mobile-app-" target="_blank"><strong>no mobile applications</strong></a> I know of. It seems as if they are working on a new version of the web application (which probably also includes mobile applications) but nevertheless they are late to the game. Even compared to the yellow box selling old bull, aka Rosetta Stone, which offers a variety of mobile and tablet based applications.</p>
+<p>It is hard to say how much money is left from the $14 million and if it is enough to launch a compelling suite of mobile applications. Maybe Livemocha has to raise a new round as well but I am not sure if the numbers are as good as those of babbel.com and busuu as the other two have basically accomplished the same user growth with far less funding.</p>
+<p>Nevertheless I won’t count out Livemocha just yet as their focus now also seems to go into premium content and teacher lead learning. There are some English for professionals courses going on which are a mix of self-paced learning with the web application, peer learning with the community and instructor lead live lessons in a virtual classroom. Again, pretty similar to Rosetta Stone TOTALe.</p>
+<p>So while babbel.com and busuu seem to go for the mass market with applications for the self guided learner, Livemocha is going towards a more personalized approach with expert teachers and live interactions. All in all the battle between the three promises to remain interesting.</p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/dYwj2Ov4MrU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/babbel-com-raises-10-million-series-b-busuu-and-livemocha-to-follow/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://www.edukwest.com/babbel-com-raises-10-million-series-b-busuu-and-livemocha-to-follow/</feedburner:origLink></item>
+		<item>
+		<title>babbel.com enters US Market through Acquisition of PlaySay</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/o56acErDLWg/</link>
+		<comments>http://www.edukwest.com/babbel-com-enters-us-market-through-acquisition-of-playsay/#comments</comments>
+		<pubDate>Thu, 21 Mar 2013 18:24:31 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[Reports & Analysis]]></category>
+		<category><![CDATA[application]]></category>
+		<category><![CDATA[babbel]]></category>
+		<category><![CDATA[babbel.com]]></category>
+		<category><![CDATA[busuu]]></category>
+		<category><![CDATA[livemocha]]></category>
+		<category><![CDATA[mlearning]]></category>
+		<category><![CDATA[mobile learning]]></category>
+		<category><![CDATA[PlaySay]]></category>
+		<category><![CDATA[spanish]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6362</guid>
+		<description><![CDATA[German based language learning startup babbel.com announced the acquisition of PlaySay, a San Francisco based competitor in the mobile space.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-6366" alt="Babbel playsay" src="http://www.edukwest.com/wp-content/uploads/2013/03/babbel-playsay.jpg" width="600" height="234" /></p>
+<p>Now that is indeed something that does not happen everyday. <a title="Education Startup babbel.com Acquires San Francisco based PlaySay" href="http://www.babbel.com/home/node/2289"><strong>A German startup acquires an US based startup</strong></a> for parts, in this case language learning startup babbel.com from Berlin the user base of San Francisco based PlaySay which is pretty telling as neither the PlaySay team nor the technology will be integrated into babbel.com products. Only PlaySay’s founder Ryan Meinzer, whom I interviewed in October 2011, is going to join babbel.com in the role of an advisor for the US market.</p>
+<p><iframe src="http://blip.tv/play/hI85gtqZUwA.x?p=1" height="366" width="600" allowfullscreen="" frameborder="0"></iframe><object style="display: none;" width="320" height="240" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://a.blip.tv/api.swf#hI85gtqZUwA" /><embed style="display: none;" width="320" height="240" type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hI85gtqZUwA" /></object></p>
+<p>So let’s break this one down. PlaySay started at TechCrunch Disrupt as a <strong><a title="PlaySay language learning tool raises $1.3m, demos at TechCrunch Disrupt" href="http://technical.ly/philly/2011/09/13/playsay-to-demo-at-techcrunch-disrupt" target="_blank">Facebook application</a></strong> for learning Spanish, and eventually pivoted its way to a mobile application to learn Spanish. It even ranked #1 in the education category of the iTunes Store in ten different countries including the US at one point.</p>
+<p>But babbel.com does not seem to be interested in the technology or applications but merely in the PlaySay users who now have 45 days to switch over to using babbel.com instead.</p>
+<p>babbel.com is part of a group of three language learning startups which all emerged at about the same time and have battled to become the next Rosetta Stone. Besides babbel.com the others are Livemocha out of Seattle and busuu who just relocated their HQ from Madrid to London after <a title="busuu finally raises Series A Round – moves to London" href="http://www.edukwest.com/busuu-finally-raises-series-a-round-moves-to-london/" target="_blank"><strong>raising a Series A round</strong></a>.</p>
+<p>While Livemocha and busuu chose and continue to rely on a freemium model as their business strategy, babbel.com decided to <a title="There is no free lunch – Babbel goes Premium" href="http://www.kirstenwinkler.com/there-is-no-free-lunch-babbel-goes-premium/" target="_blank"><strong>switch to a premium model</strong></a> rather early on. Whereas this might have contributed to slowing down the startup’s growth in terms of users compared to Livemocha and busuu, it has certainly helped substantially in terms of revenue generation and breaking even.</p>
+<p>Similar to busuu, babbel.com did not take on tons of funding at this point which probably helped the team a lot to figure out the business model and how to sell best. A strong factor in the growth of both busuu and babbel.com have been the respective mobile applications. In fact, babbel.com&#8217;s <a title="Babbel triples Revenue – Takes over App Department of Aspirement" href="http://www.edukwest.com/babbel-triples-revenue-takes-over-app-department-of-aspirement/" target="_blank"><strong>first acquisition</strong></a> was the mobile app developing startup that had built the first babbel.com applications.</p>
+<p>The only real problem babbel.com seems to have had is growing its footprint and finding success in new territories. Both Livemocha and busuu succeeded early on to grab market share in key markets like the US and South America.</p>
+<p>Taking all this into consideration I suppose that babbel.com got PlaySay for a pretty reasonable price as the press release states</p>
+<blockquote><p>Deal fueled from operative cash flow.</p></blockquote>
+<p>PlaySay have only <strong><a title="PlaySay: Social Language Learning App Launches With $820k And A HarperCollins Deal In Its Pocket" href="http://techcrunch.com/2012/05/01/playsay-social-language-learning-app-launches-with-820k-and-a-harpercollins-deal-in-its-pocket/" target="_blank">raised $820k</a></strong> since 2008 which means that even if babbel.com paid a bit more, like in the range of $1.5m to $2m it was still kind of cheap. It also shows that PlaySay did not manage to get enough traction to make it worthwhile for the founder and his team to keep on working on the product or to raise another round of funding. I think the following sentence from the press release why PlaySay sold to babbel.com is pretty telling.</p>
+<blockquote><p>“It&#8217;s fun, social and mobile, just like PlaySay&#8230;only better!”</p></blockquote>
+<p>I don’t know how many users PlaySay actually has in its database but if we assume that 1 million people have downloaded the application or signed up for the Facebook application at one point, babbel.com may have paid about $2 per user. I am also not sure what the cost per acquisition for a language learner is these days but I guess it’s much higher, maybe in the $10 range.</p>
+<p>Of course, babbel.com can’t be sure that all of the PlaySay users will happily switch to the new service and then also pay for it but in the end it might be enough to get the babbel.com Spanish app ranking in the US iTunes Store which will eventually lead to better exposure and new users.</p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/o56acErDLWg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/babbel-com-enters-us-market-through-acquisition-of-playsay/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<media:content url="http://feedproxy.google.com/~r/edukwest/~5/fsCYK7nCUWc/api.swf" fileSize="36" type="application/x-shockwave-flash" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>German based language learning startup babbel.com announced the acquisition of PlaySay, a San Francisco based competitor in the mobile space.</itunes:subtitle><itunes:summary>German based language learning startup babbel.com announced the acquisition of PlaySay, a San Francisco based competitor in the mobile space.</itunes:summary><itunes:keywords>Reports &amp; Analysis, application, babbel, babbel.com, busuu, livemocha, mlearning, mobile learning, PlaySay, spanish</itunes:keywords><feedburner:origLink>http://www.edukwest.com/babbel-com-enters-us-market-through-acquisition-of-playsay/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/edukwest/~5/fsCYK7nCUWc/api.swf" length="36" type="application/x-shockwave-flash" /><feedburner:origEnclosureLink>http://a.blip.tv/api.swf#hI85gtqZUwA</feedburner:origEnclosureLink></item>
+		<item>
+		<title>EDUKWEST #98 with Vikas Pota of GEMS Education</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/T3b5oyaZ0Mg/</link>
+		<comments>http://www.edukwest.com/edukwest-98-with-vikas-pota-of-gems-education/#comments</comments>
+		<pubDate>Tue, 12 Mar 2013 14:45:59 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[EDUKWEST]]></category>
+		<category><![CDATA[GEMS Education]]></category>
+		<category><![CDATA[GEMS Schools]]></category>
+		<category><![CDATA[Varkey GEMS Foundation]]></category>
+		<category><![CDATA[Vikas Pota]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6350</guid>
+		<description><![CDATA[My guest on the program is Vikas Pota, Global Head of Corporate Affairs of GEMS Education and Chief Executive of the Varkey GEMS Foundation.]]></description>
+				<content:encoded><![CDATA[<p><img class="alignleft size-full wp-image-6354" alt="EDUKWEST 98 Vikas Pota GEMS Education" src="http://www.edukwest.com/wp-content/uploads/2013/03/edukwest-98-vikas-pota-gems-education-pic-150x1501.jpg" width="150" height="150" />For EDUKWEST episode 98 my guest on the program is Vikas Pota, Global Head of Corporate Affairs of <a title="GEMS Education" href="http://gemseducation.com" target="_blank"><strong>GEMS Education</strong></a> and Chief Executive of the <a title="Varkey GEMS Foundation" href="http://www.gemseducation.com/MENASA/investors/contents.php?pageid=33&amp;parentid=16" target="_blank"><strong>Varkey GEMS Foundation</strong></a>. Today he was awarded one of the <a title="Young Global Leaders" href="http://www.weforum.org/news/world-economic-forum-announces-young-global-leaders-class-2013?news=page" target="_blank"><strong>Young Global Leaders</strong></a> of the World Economic Forum.</p>
+<p>GEMS Education is a private education company that runs GEMS K12 schools all over the world several of which in Dubai and the United Arab Emirates. Subject of our talk is the upcoming <a title="Education and Skills Forum" href="http://educationandskillsforum.org" target="_blank"><strong>Education and Skills Forum</strong></a> that will take place in Dubai from March 15-17.</p>
+<p>To me, Dubai and the whole region seems to establish itself as a hotspot for educational conferences, fairs and trade shows around e-learning.</p>
+<p><a href="http://vodburner.com?utm_source=edukwest" target="_blank"><img title="vodburner600x40" alt="vodburner600x40" src="http://www.edukwest.com/wp-content/uploads/2010/04/vodburner600x40.jpg" width="600" height="40" /></a></p>
+<p><iframe src="http://blip.tv/play/hI85g4_gQQA.x?p=1" height="366" width="600" allowfullscreen="" frameborder="0"></iframe><object style="display: none;" width="320" height="240" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://a.blip.tv/api.swf#hI85g4_gQQA" /><embed style="display: none;" width="320" height="240" type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hI85g4_gQQA" /></object></p>
+<table width="600px">
+<tbody>
+<tr>
+<td width="200px"><img alt="Subscribe to review:ed" src="http://www.edukwest.com/pics/icons/subscribe-edukwest.png" /></td>
+<td width="200px"><a title="EDUKWEST Video Podcast" href="http://feeds.feedburner.com/edukwest-video"><img alt="Subscribe to EDUKWEST Video via RSS" src="http://www.edukwest.com/pics/icons/subscribe-rss-video.png" /></a></td>
+<td width="200px"><a title="EDUKWEST Audio Podcast" href="http://feeds.feedburner.com/edukwest-edukwest-audio"><img alt="Subscribe to EDUKWEST Audio via RSS" src="http://www.edukwest.com/pics/icons/subscribe-rss-audio.png" /></a><br />
+<a title="EDUKWEST Audio Podcast iTunes" href="http://itunes.apple.com//podcast//id491329239?l=en"><img alt="Subscribe to EDUKWEST Audio via iTunes" src="http://www.edukwest.com/pics/icons/subscribe-itunes-audio.png" /></a></td>
+</tr>
+<tr>
+<td width="200px"><img alt="Download Episode" src="http://www.edukwest.com/pics/icons/download-episode.png" /></td>
+<td width="200px"><a title="EDUKWEST #98 with Vikas Pota of GEMS Education [Video]" href="http://www.podtrac.com/pts/redirect.mp4/www.blip.tv/file/get/EDUKWEST-EDUKWEST98WithVikasPotaOfGEMSEducation188.mp4"><img alt="Download Episode Video" src="http://www.edukwest.com/pics/icons/download-video.png" /></a></td>
+<td width="200px"><a title="EDUKWEST #98 with Vikas Pota of GEMS Education [Audio]" href="http://www.podtrac.com/pts/redirect.mp3/www.archive.org/download/Edukwest98VikasPotaGemsEducation/edukwest%2098%20vikas%20pota%20gems%20education.mp3"><img alt="Download Episode Audio" src="http://www.edukwest.com/pics/icons/download-audio.png" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>The online education market in the region is thriving; it is estimated that by 2016 its revenue will be of $560 million and the private school market in the UAE makes 65% of the overall schooling today.</p>
+<p>The conference features some key people of the education industry one of which is Anant Agarwal of edX whom I had the pleasure to interview just recently for Today’s Campus Innovation Interview Series. As we see lots of innovation happening in the higher education space, it should be interesting whether this allows to draw some conclusions or explore a vision for further disruption of the K12 space.</p>
+<p>The Varkey GEMS Foundation, however, a not-for-profit aims at improving education of underprivileged children through an innovative low-cost teacher training program.</p>
+<p>As always, it’s a great challenge when so many different situations and needs converge as they do in education at the moment.<br />
+I enjoyed Vikas’ take on some of the aspects we touched on and hope the conference will be able to add one or the other interesting perspective or practical approach to solve some of the issues and challenges we’re faced with.</p>
+<p>To get updates on the Education and Skills Forum use the Twitter hashtag #GESF to follow the conversation or to engage, i.e. tweet your questions. For the President Clinton live link to the conference via satellite there is a separate hashtag #askClinton</p>
+<h2><strong style="font-size: 13px;">Additional Links:</strong></h2>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td>Homepage:</td>
+<td><a title="GEMS Education" href="http://gemseducation.com" target="_blank"><strong>http://gemseducation.com</strong></a></td>
+</tr>
+<tr>
+<td>Homepage:</td>
+<td><a title="Global Education and Skills Forum" href="http://educationandskillsforum.org" target="_blank"><strong>http://educationandskillsforum.org</strong></a></td>
+</tr>
+<tr>
+<td>GEMS Education on Twitter:</td>
+<td><a title="GEMS Education Twitter" href="http://twitter.com/gemseducation" target="_blank"><strong>@gemseducation</strong></a></td>
+</tr>
+<tr>
+<td>GESF on Facebook:</td>
+<td><strong><a title="Global Education and Skills Forum" href="http://facebook.com/GESForum" target="_blank">http://facebook.com/GESForum</a><br />
+</strong></td>
+</tr>
+<tr>
+<td>LinkedIn:</td>
+<td><strong><a title="Vikas Pota LinkedIn" href="http://uk.linkedin.com/in/vikaspota" target="_blank">Vikas Pota</a><br />
+</strong></td>
+</tr>
+</tbody>
+</table>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/T3b5oyaZ0Mg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/edukwest-98-with-vikas-pota-of-gems-education/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/www.archive.org/download/Edukwest98VikasPotaGemsEducation/edukwest%2098%20vikas%20pota%20gems%20education.mp3" length="233" type="audio/mpeg" />
+		<media:content url="http://feedproxy.google.com/~r/edukwest/~5/RUnxkutZ-bw/EDUKWEST-EDUKWEST98WithVikasPotaOfGEMSEducation188.mp4" fileSize="199" type="video/mp4" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>My guest on the program is Vikas Pota, Global Head of Corporate Affairs of GEMS Education and Chief Executive of the Varkey GEMS Foundation.</itunes:subtitle><itunes:summary>My guest on the program is Vikas Pota, Global Head of Corporate Affairs of GEMS Education and Chief Executive of the Varkey GEMS Foundation.</itunes:summary><itunes:keywords>EDUKWEST, GEMS Education, GEMS Schools, Varkey GEMS Foundation, Vikas Pota</itunes:keywords><feedburner:origLink>http://www.edukwest.com/edukwest-98-with-vikas-pota-of-gems-education/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/edukwest/~5/RUnxkutZ-bw/EDUKWEST-EDUKWEST98WithVikasPotaOfGEMSEducation188.mp4" length="199" type="video/mp4" /><feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp4/www.blip.tv/file/get/EDUKWEST-EDUKWEST98WithVikasPotaOfGEMSEducation188.mp4</feedburner:origEnclosureLink></item>
+		<item>
+		<title>Today’s Campus Innovation Interview #9 – Andrew Shakman of LeanPath</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/0uh87Fhv8WA/</link>
+		<comments>http://www.edukwest.com/todays-campus-innovation-interview-9-andrew-shakman-of-leanpath/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 19:48:40 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[Today's Campus]]></category>
+		<category><![CDATA[Andrew Shakman]]></category>
+		<category><![CDATA[food waste]]></category>
+		<category><![CDATA[LeanPath]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6341</guid>
+		<description><![CDATA[LeanPath can help customers to reduce their food waste by up to 80% and save 2%-4% or more on their annual food purchases.]]></description>
+				<content:encoded><![CDATA[<p><img class="alignleft size-full wp-image-6346" alt="Today's Campus 9 Andrew Shakman LeanPath" src="http://www.edukwest.com/wp-content/uploads/2013/03/todays-campus-9-andrew-shakman-leanpath-pic-150x1501.jpg" width="150" height="150" />We speak a lot about making college more affordable. Tuition and textbooks naturally come to mind first. But saving colleges money can also happen through food waste prevention and tracking systems.</p>
+<p>For this interview my guest is Andrew Shakman, the CEO and President of <strong><a title="LeanPath" href="http://leanpath.com" target="_blank">LeanPath</a></strong>. LeanPath has been in the business for over ten years and helps its customers reduce their waste significantly and also save on their food purchases through its management tools. According to their website, LeanPath claims that their technology can help customers to reduce their food waste by up to 80% and save 2%-4% or more on their annual food purchases.</p>
+<p><iframe src="http://blip.tv/play/hI85g4_AGQA.x?p=1" height="366" width="600" allowfullscreen="" frameborder="0"></iframe><object style="display: none;" width="320" height="240" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://a.blip.tv/api.swf#hI85g4_AGQA" /><embed style="display: none;" width="320" height="240" type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hI85g4_AGQA" /></object></p>
+<p>Andrew takes us through the process of how the technology actually works as well as the different possibilities of how colleges and universities can reduce their pre-consumer food waste and save money.</p>
+<p>LeanPath university customers include among other Michigan Tech, the University of Massachusetts Amherst and the University of North Dakota. Over time the company has become what you could call green.</p>
+<p>If you’re looking for solutions on how to reduce food waste and lower the cost for your university or you’re generally interested in the topic you should check out the various resources such as stats on food waste, the regular webinars and other free resources i.e. the savings calculator on the <strong><a title="LeanPath" href="http://leanpath.com" target="_blank">LeanPath</a></strong> website.</p>
+<p>It was quite a fascinating and educational talk about a topic we don’t usually think and hear about that much.</p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/0uh87Fhv8WA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/todays-campus-innovation-interview-9-andrew-shakman-of-leanpath/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<media:content url="http://feedproxy.google.com/~r/edukwest/~5/24cZmOAqDno/api.swf" fileSize="36" type="application/x-shockwave-flash" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>LeanPath can help customers to reduce their food waste by up to 80% and save 2%-4% or more on their annual food purchases.</itunes:subtitle><itunes:summary>LeanPath can help customers to reduce their food waste by up to 80% and save 2%-4% or more on their annual food purchases.</itunes:summary><itunes:keywords>Today's Campus, Andrew Shakman, food waste, LeanPath</itunes:keywords><feedburner:origLink>http://www.edukwest.com/todays-campus-innovation-interview-9-andrew-shakman-of-leanpath/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/edukwest/~5/24cZmOAqDno/api.swf" length="36" type="application/x-shockwave-flash" /><feedburner:origEnclosureLink>http://a.blip.tv/api.swf#hI85g4_AGQA</feedburner:origEnclosureLink></item>
+		<item>
+		<title>Today’s Campus Innovation Interview #8 – Ulrik Juul Christensen of area9</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/1tM7NA594Mk/</link>
+		<comments>http://www.edukwest.com/todays-campus-innovation-interview-8-ulrik-juul-christensen-of-area9/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 23:02:35 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[Today's Campus]]></category>
+		<category><![CDATA[adaptive learning]]></category>
+		<category><![CDATA[area9]]></category>
+		<category><![CDATA[LearnSmart]]></category>
+		<category><![CDATA[McGraw-Hill Education]]></category>
+		<category><![CDATA[Ulrik Juul Christensen]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6333</guid>
+		<description><![CDATA[area9 is the startup behind McGraw-Hill's LearnSmart product. In this interview I talk with Ulrik Juul Christensen, area9 co-founder &#038; CEO.]]></description>
+				<content:encoded><![CDATA[<p><img class="alignleft size-full wp-image-6337" alt="Today's Campus 8 Ulrik Juul Christensen area9" src="http://www.edukwest.com/wp-content/uploads/2013/03/todays-campus-8-ulrik-juul-christensen-area9-pic-150x1501.jpg" width="150" height="150" />I have blogged about adaptive learning and interviewed startups on that matter since 2010. Most of these companies offer solutions for math and test preparation such as US startups <strong><a title="Rohit Agarwal of TenMarks" href="http://www.edukwest.com/rohit-agarwal-of-tenmarks/">TenMarks</a></strong> (K-12), <a title="Robert Gange of Perfect800" href="http://www.edukwest.com/robert-gange-of-perfect800/">Perfect800</a> (test prep) or European math startup <strong><a title="EDUKWEST #86 with Richard Fielding of PrepMyFuture" href="http://www.edukwest.com/edukwest-86-with-richard-fielding-of-prepmyfuture/">PrepMyFuture</a></strong>.</p>
+<p>I also had the chance for two interviews with McGraw-Hill executives. I always find it insightful how big companies position themselves for the future and in which areas those companies see big potential. McGraw-Hill undoubtedly sees their LearnSmart product as one of their key-products to be well positioned for the future of education. McGraw-Hill Education<br />
+Edukwest’s Senior Editor Christopher Dawson and I talked with <strong><a title="review:ed #27 with Vineet Madan of McGraw-Hill Education" href="http://www.edukwest.com/reviewed-27-with-vineet-madan-of-mcgraw-hill-education/">Vineet Madan</a></strong>, Senior VP of New Ventures and I also interviewed <strong><a title="EDUKWEST #90 with Jay Chakrapani of McGraw-Hill Higher Education Digital Group" href="http://www.edukwest.com/edukwest-90-with-jay-chakrapani-of-mcgraw-hill-higher-education-digital-group/">Jay Chakrapani</a></strong>, McGraw-Hill’s VP and General Manager of the higher education digital education group.</p>
+<p>Therefore, when I got offered the possibility to talk to <a title="area9" href="http://area9.dk" target="_blank"><strong>area9</strong></a> co-founder Dr. Ulrik Juul Christensen, it was particularly interesting for me to seize my chance and interview the creators behind the LearnSmart and SmartBook products.</p>
+<p><iframe src="http://blip.tv/play/hI85g47wHwA.x?p=1" height="366" width="600" allowfullscreen="" frameborder="0"></iframe><object style="display: none;" width="320" height="240" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://a.blip.tv/api.swf#hI85g47wHwA" /><embed style="display: none;" width="320" height="240" type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hI85g47wHwA" /></object></p>
+<p>McGraw-Hill also recently made a strategic investment in area9 and bought 20% of the company. With its products area9 wants to achieve three key points: create personalized solutions, on a global scale that are affordable.</p>
+<p>In this interview, we talk about the state of adaptive or personalized learning in 2013 and whether we have already achieved true adaptiveness. As pointed out at the beginning of this article, I have mostly heard about adaptive solutions in the math and test prep space. I was interested in hearing whether there might be a particular explanation for this, for instance if it is simply easier to realize such a product in the math space than in language arts.</p>
+<p>We also talk about the challenges, particularly for colleges and universities, to integrate Interactive Learning Online (ILO) and how long it might take until adoption at large scale (3 years+).</p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/1tM7NA594Mk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/todays-campus-innovation-interview-8-ulrik-juul-christensen-of-area9/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<media:content url="http://feedproxy.google.com/~r/edukwest/~5/Wn6lXYm8fyU/api.swf" fileSize="36" type="application/x-shockwave-flash" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>area9 is the startup behind McGraw-Hill's LearnSmart product. In this interview I talk with Ulrik Juul Christensen, area9 co-founder &amp;#038; CEO.</itunes:subtitle><itunes:summary>area9 is the startup behind McGraw-Hill's LearnSmart product. In this interview I talk with Ulrik Juul Christensen, area9 co-founder &amp;#038; CEO.</itunes:summary><itunes:keywords>Today's Campus, adaptive learning, area9, LearnSmart, McGraw-Hill Education, Ulrik Juul Christensen</itunes:keywords><feedburner:origLink>http://www.edukwest.com/todays-campus-innovation-interview-8-ulrik-juul-christensen-of-area9/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/edukwest/~5/Wn6lXYm8fyU/api.swf" length="36" type="application/x-shockwave-flash" /><feedburner:origEnclosureLink>http://a.blip.tv/api.swf#hI85g47wHwA</feedburner:origEnclosureLink></item>
+		<item>
+		<title>Deliberate Tech to Create a Sustainable Campus</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/da_DgZyHjXs/</link>
+		<comments>http://www.edukwest.com/deliberate-tech-to-create-a-sustainable-campus/#comments</comments>
+		<pubDate>Wed, 20 Feb 2013 13:31:30 +0000</pubDate>
+		<dc:creator>Lida Hasbrouck</dc:creator>
+				<category><![CDATA[Op-Ed]]></category>
+		<category><![CDATA[campus]]></category>
+		<category><![CDATA[sustainability]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6325</guid>
+		<description><![CDATA[Lida shared some easy fixes for three obvious problems (paper, presentations and transportation)  to create a more sustainable campus.]]></description>
+				<content:encoded><![CDATA[<p style="text-align: center;"><img class="size-full wp-image-6328 aligncenter" alt="sustainable campus" src="http://www.edukwest.com/wp-content/uploads/2013/02/college2.jpg" width="600" height="234" /></p>
+<p><strong>Editor’s Note:</strong> <em>This article first appeared on our partner site <a title="Deliberate Tech to Make Your Campus Sustainable" href="http://todayscampus.com/article/Deliberate_Tech_to_Make_Your_Campus_Sustainable"><strong>Today’s Campus Magazine</strong></a> – Covering the people, campuses, and companies that are making business news in higher education.</em></p>
+<p>Every college on the planet has taken steps toward sound, sustainable practices, but for that matter, so has every business, household, etc. The little things, like using both sides of the copy paper or highlighting reusable utensils as an option in the cafeteria, are becoming more mainstream.</p>
+<p>The problem is, these types of processes are all manual; students and faculty need to make a deliberate choice to help you help the environment each time they use the resource. The most efficient green decisions are ones you can make once and automate for the future, with a campus-wide effect.</p>
+<p>Let’s focus on a few obvious problem areas which have relatively simple fixes. The first two are easily actionable, so you really have no excuse not to step-up and implement them. The last will require an investment of time and money, but should yeild the highest returns.</p>
+<h2>Paper</h2>
+<p>Did you know that your institution’s proprietary content (i.e. campus newsletter, magazine, newspaper, catalog) can be “published” beautifully online, privately or publicly, completely free? I didn’t know about <strong><a href="http://www.youblisher.com/">youblisher</a></strong> until a friend of mine texted me, asking about publishing in a digital magazine format. I started looking around, and couldn’t help but sign-up for every service I could find to spot the differences.</p>
+<p>So far, (despite the name) youblisher is my favorite. The process is super simple: upload a PDF and they churn-out a link for you to share or embed. It gives you a virtual magazine, with beautiful page flip animations. How much would it save your school to publish next year’s course catalog exclusively online instead of in print? As I mentioned, there are quite a few services like this out there for this, so it’s possible to find the right fit for any institution.</p>
+<h2>Presentations</h2>
+<p>Getting someone’s meeting or lecture notes and slides can be close to impossible after the fact. If you do get them, good luck making that .key play in PowerPoint. Because of this, we’ve taken to mass printing slides (or sharing them as PDFs, which destroys the whole point of a presentation). <strong><a href="http://www.slideshare.net/">SlideShare</a></strong> makes these problems disappear. (Aside: it’s also a great source for open content!) Never worry again about trying to get your presentation reference sheet to the 4 people in the room who requested them. Tell your faculty there’s a better way to share lecture slides.</p>
+<p>Before you even present, upload everything to SlideShare. It’s a quick process and allows you to set your privacy settings for each file. Set everything to public for the easiest, non-controlled method of distribution. Otherwise, share the link privately to keep it locked-down. They offer a wide range of features and benefits, with plans starting at “free,” so experimenting is risk-free.</p>
+<h2>Transportation</h2>
+<p>How do your faculty and students get to campus, and once they’re there, how do they get around? If your institution is in a major US city, you may already be familiar with <strong><a href="http://www.bcycle.com/">B-cycle</a></strong>, a bike rental system. How it works: you go to a kiosk, swipe your credit card, take a bike from the rack, ride to the kiosk closest to your destination, and “return” the bike at that location. Again, they have competitors, but I only have personal experience with their service.</p>
+<p>If your college is located in a city that already has B-cycle stations, and the sprawl of your campus warrants an alternative to walking, this would be optimal. This would be an excellent way for faculty and students to get to and from campus, if they’re located a few miles off and public transit isn’t an easy option. And since the B-cycle bikes are outfitted with GPS and other high-tech features, they’re nearly impossible to steal or lose. Just think how cool and accessible your campus will be by incorporating a technology like this. B-cycle would even improve your connectedness to the local community, another huge plus.</p>
+<div>Of course, as with anything, the largest part of these changes is the willingness to make them. You’re administration is already leading by example since they cut plastic bags from the bookstore checkout. This and any other steps you take will empower the administrators, faculty and students, to make changes in their own lives on campus. Do your decisions prove your institution is focusing on green education technology?</div>
+<div></div>
+<div><a href="http://mrg.bz/Xcp1mX" target="_blank"><strong>Image</strong></a></div>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/da_DgZyHjXs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/deliberate-tech-to-create-a-sustainable-campus/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://www.edukwest.com/deliberate-tech-to-create-a-sustainable-campus/</feedburner:origLink></item>
+		<item>
+		<title>EDUKWEST #97 with Michael Trucano of The World Bank</title>
+		<link>http://feedproxy.google.com/~r/edukwest/~3/inaHXWfROAI/</link>
+		<comments>http://www.edukwest.com/edukwest-97-with-michael-trucano-of-the-world-bank/#comments</comments>
+		<pubDate>Wed, 20 Feb 2013 13:14:41 +0000</pubDate>
+		<dc:creator>Kirsten Winkler</dc:creator>
+				<category><![CDATA[EDUKWEST]]></category>
+		<category><![CDATA[developing countries]]></category>
+		<category><![CDATA[ICT]]></category>
+		<category><![CDATA[Michael Trucano]]></category>
+		<category><![CDATA[The World Bank]]></category>
+
+		<guid isPermaLink="false">http://www.edukwest.com/?p=6313</guid>
+		<description><![CDATA[My interview at OEB 2012 with Michael Trucano, the World Bank’s Sr. ICT &#038; Education Policy Specialist on edtech in developing countries.]]></description>
+				<content:encoded><![CDATA[<p><img class="alignleft size-full wp-image-6319" alt="EDUKWEST 97 Michael Trucano The World Bank" src="http://www.edukwest.com/wp-content/uploads/2013/02/edukwest-97-michael-trucano-world-bank-pic-150x1501.jpg" width="150" height="150" />Back in December 2012 I took part in Online Educa Berlin, the largest global e-learning conference for the corporate, education and public service sectors.</p>
+<p>One of the keynote speakers at the conference was the World Bank’s Sr. ICT &amp; Education Policy Specialist Michael Trucano.</p>
+<p>I took the chance for a quick interview with him and asked a few question on the state of e-learning in the developing world.</p>
+<p><iframe src="http://blip.tv/play/hI85g46sPwA.x?p=1" height="366" width="600" allowfullscreen="" frameborder="0"></iframe><object style="display: none;" width="320" height="240" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://a.blip.tv/api.swf#hI85g46sPwA" /><embed style="display: none;" width="320" height="240" type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hI85g46sPwA" /></object></p>
+<table width="600px">
+<tbody>
+<tr>
+<td width="200px"><img alt="Subscribe to review:ed" src="http://www.edukwest.com/pics/icons/subscribe-edukwest.png" /></td>
+<td width="200px"><a title="EDUKWEST Video Podcast" href="http://feeds.feedburner.com/edukwest-video"><img alt="Subscribe to EDUKWEST Video via RSS" src="http://www.edukwest.com/pics/icons/subscribe-rss-video.png" /></a></td>
+<td width="200px"><a title="EDUKWEST Audio Podcast" href="http://feeds.feedburner.com/edukwest-edukwest-audio"><img alt="Subscribe to EDUKWEST Audio via RSS" src="http://www.edukwest.com/pics/icons/subscribe-rss-audio.png" /></a><br />
+<a title="EDUKWEST Audio Podcast iTunes" href="http://itunes.apple.com//podcast//id491329239?l=en"><img alt="Subscribe to EDUKWEST Audio via iTunes" src="http://www.edukwest.com/pics/icons/subscribe-itunes-audio.png" /></a></td>
+</tr>
+<tr>
+<td width="200px"><img alt="Download Episode" src="http://www.edukwest.com/pics/icons/download-episode.png" /></td>
+<td width="200px"><a title="EDUKWEST #97 with Michael Trucano of The World Bank [Video]" href="http://www.podtrac.com/pts/redirect.mp4/www.blip.tv/file/get/EDUKWEST-EDUKWEST97WithMichaelTrucanoOfTheWorldBank360.mp4"><img alt="Download Episode Video" src="http://www.edukwest.com/pics/icons/download-video.png" /></a></td>
+<td width="200px"><a title="EDUKWEST #97 with Michael Trucano of The World Bank [Audio]" href="http://www.podtrac.com/pts/redirect.mp3/www.archive.org/download/Edukwest96WithFarboodNiviOfGrockitAndLearnist/Edukwest96FarboodNiviGrockitLearnist.mp3"><img alt="Download Episode Audio" src="http://www.edukwest.com/pics/icons/download-audio.png" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>I was particularly interested in learning more about Internet penetration in general, the use of mobile devices, namely tablets and phones, in education and what he sees as some of the more innovative approaches in different countries of the developing world when it comes to implementing ICT in education.</p>
+<p>You can find Michael’s blog on ICT use in Education <strong><a title="EduTech" href="http://blogs.worldbank.org/edutech/" target="_blank">here</a></strong> and follow him on Twitter <strong><a title="Michael Trucano" href="http://twitter.com/trucano" target="_blank">@trucano</a></strong>.</p>
+<img src="http://feeds.feedburner.com/~r/edukwest/~4/inaHXWfROAI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.edukwest.com/edukwest-97-with-michael-trucano-of-the-world-bank/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/www.archive.org/download/Edukwest96WithFarboodNiviOfGrockitAndLearnist/Edukwest96FarboodNiviGrockitLearnist.mp3" length="235" type="audio/mpeg" />
+		<media:content url="http://feedproxy.google.com/~r/edukwest/~5/6YERz0_NbRk/EDUKWEST-EDUKWEST97WithMichaelTrucanoOfTheWorldBank360.mp4" fileSize="203" type="video/mp4" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>My interview at OEB 2012 with Michael Trucano, the World Bank’s Sr. ICT &amp;#038; Education Policy Specialist on edtech in developing countries.</itunes:subtitle><itunes:summary>My interview at OEB 2012 with Michael Trucano, the World Bank’s Sr. ICT &amp;#038; Education Policy Specialist on edtech in developing countries.</itunes:summary><itunes:keywords>EDUKWEST, developing countries, ICT, Michael Trucano, The World Bank</itunes:keywords><feedburner:origLink>http://www.edukwest.com/edukwest-97-with-michael-trucano-of-the-world-bank/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/edukwest/~5/6YERz0_NbRk/EDUKWEST-EDUKWEST97WithMichaelTrucanoOfTheWorldBank360.mp4" length="203" type="video/mp4" /><feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp4/www.blip.tv/file/get/EDUKWEST-EDUKWEST97WithMichaelTrucanoOfTheWorldBank360.mp4</feedburner:origEnclosureLink></item>
+	<media:rating>nonadult</media:rating></channel>
+</rss>
