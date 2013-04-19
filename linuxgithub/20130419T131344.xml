@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2013-04-18T15:14:34-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a86d52667d8eda5de39393ce737794403bdce1eb</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a86d52667d8eda5de39393ce737794403bdce1eb"/>
+    <title>
+        Merge branch &#39;for_linus&#39; of git://cavan.codon.org.uk/platform-drivers-x86
+    </title>
+    <updated>2013-04-18T15:14:34-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/platform/x86/hp-wmi.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for_linus&#39; of git://cavan.codon.org.uk/platform-drivers-x86
+
+Pull x86 platform driver revert from Matthew Garrett:
+ &quot;It turns out that one of the hp-wmi patches this cycle breaks some
+  other HP laptops.  I think we have a good idea how to work on it for
+  3.10, but it&#39;s safer to just revert it for now.&quot;
+
+* &#39;for_linus&#39; of git://cavan.codon.org.uk/platform-drivers-x86:
+  Revert &quot;hp-wmi: Add support for SMBus hotkeys&quot;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c857b7f45b1f9fb7bad1eaa42b8ad68327738232</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/c857b7f45b1f9fb7bad1eaa42b8ad68327738232"/>
+    <title>
+        Revert &quot;hp-wmi: Add support for SMBus hotkeys&quot;
+    </title>
+    <updated>2013-04-18T14:53:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/0f3971a7348eb613c7b21c7283bd7ed4?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>matthew.garrett@nebula.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/platform/x86/hp-wmi.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Revert &quot;hp-wmi: Add support for SMBus hotkeys&quot;
+
+This reverts commit fabf85e3ca15d5b94058f391dac8df870cdd427a which breaks
+hotkey support on some other HP laptops. We&#39;ll try doing this differently
+in 3.10.
+
+Signed-off-by: Matthew Garrett &lt;matthew.garrett@nebula.com&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0a82a8d132b26d438eb90b3ab35a7016e7227a1d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/0a82a8d132b26d438eb90b3ab35a7016e7227a1d"/>
+    <title>
+        Revert &quot;block: add missing block_bio_complete() tracepoint&quot;
+    </title>
+    <updated>2013-04-18T09:00:26-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m block/blk-core.c
+m drivers/md/dm.c
+m drivers/md/raid5.c
+m fs/bio.c
+m include/linux/blktrace_api.h
+m include/trace/events/block.h
+m kernel/trace/blktrace.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Revert &quot;block: add missing block_bio_complete() tracepoint&quot;
+
+This reverts commit 3a366e614d0837d9fc23f78cdb1a1186ebc3387f.
+
+Wanlong Gao reports that it causes a kernel panic on his machine several
+minutes after boot. Reverting it removes the panic.
+
+Jens says:
+ &quot;It&#39;s not quite clear why that is yet, so I think we should just revert
+  the commit for 3.9 final (which I&#39;m assuming is pretty close).
+
+  The wifi is crap at the LSF hotel, so sending this email instead of
+  queueing up a revert and pull request.&quot;
+
+Reported-by: Wanlong Gao &lt;gaowanlong@cn.fujitsu.com&gt;
+Requested-by: Jens Axboe &lt;axboe@kernel.dk&gt;
+Cc: Tejun Heo &lt;tj@kernel.org&gt;
+Cc: Steven Rostedt &lt;rostedt@goodmis.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5c51543b0ae45967cfa99ca16748dc72888cc265</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/5c51543b0ae45967cfa99ca16748dc72888cc265"/>
+    <title>
+        kprobes: Fix a double lock bug of kprobe_mutex
+    </title>
+    <updated>2013-04-18T08:58:38-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4b1eaf3091e2c643cc44d7649f50a2ed?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>masami.hiramatsu.pt@hitachi.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m kernel/kprobes.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>kprobes: Fix a double lock bug of kprobe_mutex
+
+Fix a double locking bug caused when debug.kprobe-optimization=0.
+While the proc_kprobes_optimization_handler locks kprobe_mutex,
+wait_for_kprobe_optimizer locks it again and that causes a double lock.
+To fix the bug, this introduces different mutex for protecting
+sysctl parameter and locks it in proc_kprobes_optimization_handler.
+Of course, since we need to lock kprobe_mutex when touching kprobes
+resources, that is done in *optimize_all_kprobes().
+
+This bug was introduced by commit ad72b3bea744 (&quot;kprobes: fix
+wait_for_kprobe_optimizer()&quot;)
+
+Signed-off-by: Masami Hiramatsu &lt;masami.hiramatsu.pt@hitachi.com&gt;
+Acked-by: Ananth N Mavinakayanahalli &lt;ananth@in.ibm.com&gt;
+Cc: Ingo Molnar &lt;mingo@redhat.com&gt;
+Cc: Tejun Heo &lt;tj@kernel.org&gt;
+Cc: &quot;David S. Miller&quot; &lt;davem@davemloft.net&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d202f05158442396033f416df376f8ece1f563df</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d202f05158442396033f416df376f8ece1f563df"/>
+    <title>
+        dmaengine: at_hdmac: fix race condition in atc_advance_work()
+    </title>
+    <updated>2013-04-18T08:54:22-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/69d875ea1e4c6468ddb94f7d71486237?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>ldesroches</name>
+      <uri>https://github.com/ldesroches</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/dma/at_hdmac.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>dmaengine: at_hdmac: fix race condition in atc_advance_work()
+
+The BUG_ON() directive is triggered probably due to a latency
+modification following inclusion of commit c10d73671ad3 (&quot;softirq:
+reduce latencies&quot;).  This condition has not been met before 3.9-rc1 and
+doesn&#39;t trigger without this patch.
+
+We now make sure that DMA channel is idle before calling
+atc_complete_all() which makes the BUG_ON() &quot;protection&quot; useless.
+
+Signed-off-by: Ludovic Desroches &lt;ludovic.desroches@atmel.com&gt;
+Signed-off-by: Nicolas Ferre &lt;nicolas.ferre@atmel.com&gt;
+Acked-by: Vinod Koul &lt;vinod.koul@intel.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ebe80544338a393e94b65995120c3028c80abc62</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/ebe80544338a393e94b65995120c3028c80abc62"/>
+    <title>
+        Merge branch &#39;release&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+    </title>
+    <updated>2013-04-17T16:12:43-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/idle/intel_idle.c
+m tools/power/x86/turbostat/turbostat.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;release&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+
+Pull idle patches from Len Brown:
+ &quot;A pair of small patches for 3.9-rc7.
+
+  This CPU-id should have been included in the ones that we updated
+  earlier in 3.9.  This pair of patches will allow this flavor of
+  Haswell to behave like the other flavors.&quot;
+
+* &#39;release&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux:
+  tools/power turbostat: additional Haswell CPU-id
+  intel_idle: additional Haswell CPU-id&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1ce6ec91a8528f80442eee7157be1b016248a883</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/1ce6ec91a8528f80442eee7157be1b016248a883"/>
+    <title>
+        Merge branch &#39;akpm&#39; (fixes from Andrew)
+    </title>
+    <updated>2013-04-17T16:11:09-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/avr32/include/asm/io.h
+m drivers/platform/x86/thinkpad_acpi.c
+m drivers/video/mmp/core.c
+m fs/binfmt_elf.c
+m fs/hfsplus/extents.c
+m fs/hugetlbfs/inode.c
+m kernel/signal.c
+m mm/hugetlb.c
+m mm/vmscan.c
+m scripts/checkpatch.pl
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;akpm&#39; (fixes from Andrew)
+
+Pull misc fixes from Andrew Morton:
+ &quot;Ten fixes&quot;
+
+* emailed patches from Andrew Morton &lt;akpm@linux-foundation.org&gt;:
+  kernel/signal.c: stop info leak via the tkill and the tgkill syscalls
+  mm/vmscan: fix error return in kswapd_run()
+  hfsplus: fix potential overflow in hfsplus_file_truncate()
+  avr32: fix build error in atstk1006_defconfig
+  hugetlbfs: add swap entry check in follow_hugetlb_page()
+  fs/binfmt_elf.c: fix hugetlb memory check in vma_dump_size()
+  hugetlbfs: stop setting VM_DONTDUMP in initializing vma(VM_HUGETLB)
+  checkpatch: fix stringification macro defect
+  drivers/video/mmp/core.c: fix use-after-free bug
+  thinkpad-acpi: kill hotkey_thread_mutex&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b9e146d8eb3b9ecae5086d373b50fa0c1f3e7f0f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b9e146d8eb3b9ecae5086d373b50fa0c1f3e7f0f"/>
+    <title>
+        kernel/signal.c: stop info leak via the tkill and the tgkill syscalls
+    </title>
+    <updated>2013-04-17T16:10:45-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4e25ee1087f9928eda5b4a82b8c96416?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>re.emese@gmail.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m kernel/signal.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>kernel/signal.c: stop info leak via the tkill and the tgkill syscalls
+
+This fixes a kernel memory contents leak via the tkill and tgkill syscalls
+for compat processes.
+
+This is visible in the siginfo_t-&gt;_sifields._rt.si_sigval.sival_ptr field
+when handling signals delivered from tkill.
+
+The place of the infoleak:
+
+int copy_siginfo_to_user32(compat_siginfo_t __user *to, siginfo_t *from)
+{
+        ...
+        put_user_ex(ptr_to_compat(from-&gt;si_ptr), &amp;to-&gt;si_ptr);
+        ...
+}
+
+Signed-off-by: Emese Revfy &lt;re.emese@gmail.com&gt;
+Reviewed-by: PaX Team &lt;pageexec@freemail.hu&gt;
+Signed-off-by: Kees Cook &lt;keescook@chromium.org&gt;
+Cc: Al Viro &lt;viro@zeniv.linux.org.uk&gt;
+Cc: Oleg Nesterov &lt;oleg@redhat.com&gt;
+Cc: &quot;Eric W. Biederman&quot; &lt;ebiederm@xmission.com&gt;
+Cc: Serge Hallyn &lt;serge.hallyn@canonical.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d72515b85a6583db131ec6032978e3c9d4291d95</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d72515b85a6583db131ec6032978e3c9d4291d95"/>
+    <title>
+        mm/vmscan: fix error return in kswapd_run()
+    </title>
+    <updated>2013-04-17T16:10:45-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2ecb767de5cad4e30ca6fb7135a22f10?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>qiuxishi@huawei.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m mm/vmscan.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>mm/vmscan: fix error return in kswapd_run()
+
+Fix the error return value in kswapd_run().  The bug was introduced by
+commit d5dc0ad928fb (&quot;mm/vmscan: fix error number for failed kthread&quot;).
+
+Signed-off-by: Xishi Qiu &lt;qiuxishi@huawei.com&gt;
+Reviewed-by: Wanpeng Li &lt;liwanp@linux.vnet.ibm.com&gt;
+Reviewed-by: Rik van Riel &lt;riel@redhat.com&gt;
+Reported-by: Wu Fengguang &lt;fengguang.wu@intel.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/12f267a20aecf8b84a2a9069b9011f1661c779b4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/12f267a20aecf8b84a2a9069b9011f1661c779b4"/>
+    <title>
+        hfsplus: fix potential overflow in hfsplus_file_truncate()
+    </title>
+    <updated>2013-04-17T16:10:45-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/46da724699cb03aef5584625e9ae72fa?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>dubeyko</name>
+      <uri>https://github.com/dubeyko</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/hfsplus/extents.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>hfsplus: fix potential overflow in hfsplus_file_truncate()
+
+Change a u32 to loff_t hfsplus_file_truncate().
+
+Signed-off-by: Vyacheslav Dubeyko &lt;slava@dubeyko.com&gt;
+Cc: Christoph Hellwig &lt;hch@infradead.org&gt;
+Cc: Al Viro &lt;viro@zeniv.linux.org.uk&gt;
+Cc: Hin-Tak Leung &lt;htl10@users.sourceforge.net&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/472d326677db37625903265428582694394d2df7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/472d326677db37625903265428582694394d2df7"/>
+    <title>
+        avr32: fix build error in atstk1006_defconfig
+    </title>
+    <updated>2013-04-17T16:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/bec0ba15f56ce5f9999cc4b6be2978e0?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>JoshWu</name>
+      <uri>https://github.com/JoshWu</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/avr32/include/asm/io.h
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>avr32: fix build error in atstk1006_defconfig
+
+fixed the following compile error when use avr32 atstk1006_defconfig:
+
+  drivers/mtd/nand/atmel_nand.c: In function &#39;pmecc_err_location&#39;:
+  drivers/mtd/nand/atmel_nand.c:639: error: implicit declaration of function &#39;writel_relaxed&#39;
+
+which was introduced by commit 1c7b874d33b4 (&quot;mtd: at91: atmel_nand: add
+Programmable Multibit ECC controller support&quot;).  The PMECC for nand
+flash code uses writel_relaxed().  But in avr32, there is no macro
+&quot;writel_relaxed&quot; defined.
+
+This patch add writex_relaxed macro definitions.
+
+Signed-off-by: Josh Wu &lt;josh.wu@atmel.com&gt;
+Acked-by: Havard Skinnemoen &lt;havard@skinnemoen.net&gt;
+Acked-by: Hans-Christian Egtvedt &lt;egtvedt@samfundet.no&gt;
+Cc: David Woodhouse &lt;David.Woodhouse@intel.com&gt;
+Cc: Artem Bityutskiy &lt;artem.bityutskiy@linux.intel.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9cc3a5bd40067b9a0fbd49199d0780463fc2140f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/9cc3a5bd40067b9a0fbd49199d0780463fc2140f"/>
+    <title>
+        hugetlbfs: add swap entry check in follow_hugetlb_page()
+    </title>
+    <updated>2013-04-17T16:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9296f032932bdd0568a95a99a91edfd8?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>n-horiguchi@ah.jp.nec.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m mm/hugetlb.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>hugetlbfs: add swap entry check in follow_hugetlb_page()
+
+With applying the previous patch &quot;hugetlbfs: stop setting VM_DONTDUMP in
+initializing vma(VM_HUGETLB)&quot; to reenable hugepage coredump, if a memory
+error happens on a hugepage and the affected processes try to access the
+error hugepage, we hit VM_BUG_ON(atomic_read(&amp;page-&gt;_count) &lt;= 0) in
+get_page().
+
+The reason for this bug is that coredump-related code doesn&#39;t recognise
+&quot;hugepage hwpoison entry&quot; with which a pmd entry is replaced when a memory
+error occurs on a hugepage.
+
+In other words, physical address information is stored in different bit
+layout between hugepage hwpoison entry and pmd entry, so
+follow_hugetlb_page() which is called in get_dump_page() returns a wrong
+page from a given address.
+
+The expected behavior is like this:
+
+  absent   is_swap_pte   FOLL_DUMP   Expected behavior
+  -------------------------------------------------------------------
+   true     false         false       hugetlb_fault
+   false    true          false       hugetlb_fault
+   false    false         false       return page
+   true     false         true        skip page (to avoid allocation)
+   false    true          true        hugetlb_fault
+   false    false         true        return page
+
+With this patch, we can call hugetlb_fault() and take proper actions (we
+wait for migration entries, fail with VM_FAULT_HWPOISON_LARGE for
+hwpoisoned entries,) and as the result we can dump all hugepages except
+for hwpoisoned ones.
+
+Signed-off-by: Naoya Horiguchi &lt;n-horiguchi@ah.jp.nec.com&gt;
+Cc: Rik van Riel &lt;riel@redhat.com&gt;
+Acked-by: Michal Hocko &lt;mhocko@suse.cz&gt;
+Cc: HATAYAMA Daisuke &lt;d.hatayama@jp.fujitsu.com&gt;
+Acked-by: KOSAKI Motohiro &lt;kosaki.motohiro@jp.fujitsu.com&gt;
+Acked-by: David Rientjes &lt;rientjes@google.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;	[2.6.34+?]
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/23d9e482136e31c9d287633a6e473daa172767c4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/23d9e482136e31c9d287633a6e473daa172767c4"/>
+    <title>
+        fs/binfmt_elf.c: fix hugetlb memory check in vma_dump_size()
+    </title>
+    <updated>2013-04-17T16:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9296f032932bdd0568a95a99a91edfd8?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>n-horiguchi@ah.jp.nec.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/binfmt_elf.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>fs/binfmt_elf.c: fix hugetlb memory check in vma_dump_size()
+
+Documentation/filesystems/proc.txt says about coredump_filter bitmask,
+
+  Note bit 0-4 doesn&#39;t effect any hugetlb memory. hugetlb memory are only
+  effected by bit 5-6.
+
+However current code can go into the subsequent flag checks of bit 0-4
+for vma(VM_HUGETLB). So this patch inserts &#39;return&#39; and makes it work
+as written in the document.
+
+Signed-off-by: Naoya Horiguchi &lt;n-horiguchi@ah.jp.nec.com&gt;
+Reviewed-by: Rik van Riel &lt;riel@redhat.com&gt;
+Acked-by: Michal Hocko &lt;mhocko@suse.cz&gt;
+Reviewed-by: HATAYAMA Daisuke &lt;d.hatayama@jp.fujitsu.com&gt;
+Acked-by: KOSAKI Motohiro &lt;kosaki.motohiro@jp.fujitsu.com&gt;
+Acked-by: David Rientjes &lt;rientjes@google.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;	[3.7+]
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a2fce9143057f4eb7675a21cca1b6beabe585c8b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a2fce9143057f4eb7675a21cca1b6beabe585c8b"/>
+    <title>
+        hugetlbfs: stop setting VM_DONTDUMP in initializing vma(VM_HUGETLB)
+    </title>
+    <updated>2013-04-17T16:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9296f032932bdd0568a95a99a91edfd8?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>n-horiguchi@ah.jp.nec.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m fs/hugetlbfs/inode.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>hugetlbfs: stop setting VM_DONTDUMP in initializing vma(VM_HUGETLB)
+
+Currently we fail to include any data on hugepages into coredump,
+because VM_DONTDUMP is set on hugetlbfs&#39;s vma.  This behavior was
+recently introduced by commit 314e51b9851b (&quot;mm: kill vma flag
+VM_RESERVED and mm-&gt;reserved_vm counter&quot;).
+
+This looks to me a serious regression, so let&#39;s fix it.
+
+Signed-off-by: Naoya Horiguchi &lt;n-horiguchi@ah.jp.nec.com&gt;
+Acked-by: Konstantin Khlebnikov &lt;khlebnikov@openvz.org&gt;
+Acked-by: Michal Hocko &lt;mhocko@suse.cz&gt;
+Reviewed-by: Rik van Riel &lt;riel@redhat.com&gt;
+Acked-by: KOSAKI Motohiro &lt;kosaki.motohiro@jp.fujitsu.com&gt;
+Acked-by: David Rientjes &lt;rientjes@google.com&gt;
+Cc: &lt;stable@vger.kernel.org&gt;	[3.7+]
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e942e2c3f7e093fc8756dd8b47c93a821c09429f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/e942e2c3f7e093fc8756dd8b47c93a821c09429f"/>
+    <title>
+        checkpatch: fix stringification macro defect
+    </title>
+    <updated>2013-04-17T16:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/98ef9b90d87d8444e08034e5e5c70d1b?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>joe@perches.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m scripts/checkpatch.pl
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>checkpatch: fix stringification macro defect
+
+Fix checkpatch misreporting defect with stringification macros
+
+ERROR: Macros with complex values should be enclosed in parenthesis
+  #27: FILE: arch/arm/include/asm/kgdb.h:41:
+  +#define ___to_string(X) #X
+
+Signed-off-by: Joe Perches &lt;joe@perches.com&gt;
+Reported-by: Vincent Stehlé &lt;v-stehle@ti.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d875cf08391a811703f8adf39db598cac9ece6a1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d875cf08391a811703f8adf39db598cac9ece6a1"/>
+    <title>
+        drivers/video/mmp/core.c: fix use-after-free bug
+    </title>
+    <updated>2013-04-17T16:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/c97cc83e2c2edad54a65b488d9d8e09a?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>epure.andrei@gmail.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/video/mmp/core.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>drivers/video/mmp/core.c: fix use-after-free bug
+
+Found with coccinelle.
+
+Signed-off-by: Andrei Epure &lt;epure.andrei@gmail.com&gt;
+Cc: Florian Tobias Schandinat &lt;FlorianSchandinat@gmx.de&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/355f1ecbcc81efb6611290b772e7ae77ece4059c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/355f1ecbcc81efb6611290b772e7ae77ece4059c"/>
+    <title>
+        thinkpad-acpi: kill hotkey_thread_mutex
+    </title>
+    <updated>2013-04-17T16:10:44-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/215fb523d4d201924db9aacd4532d52a?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>utrace</name>
+      <uri>https://github.com/utrace</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/platform/x86/thinkpad_acpi.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>thinkpad-acpi: kill hotkey_thread_mutex
+
+hotkey_kthread() does try_to_freeze() under hotkey_thread_mutex.
+
+We can simply kill this mutex, hotkey_poll_stop_sync() does not need to
+serialize with hotkey_kthread().  When kthread_stop() returns the thread
+is already dead, it called do_exit()-&gt;complete_vfork_done().
+
+Reported-by: Artem Savkov &lt;artem.savkov@gmail.com&gt;
+Reported-by: Maciej Rutecki &lt;maciej.rutecki@gmail.com&gt;
+Signed-off-by: Oleg Nesterov &lt;oleg@redhat.com&gt;
+Acked-by: Henrique de Moraes Holschuh &lt;hmh@hmh.eng.br&gt;
+Cc: Matthew Garrett &lt;matthew.garrett@nebula.com&gt;
+Cc: &quot;Rafael J. Wysocki&quot; &lt;rjw@sisk.pl&gt;
+Reviewed-by: Mandeep Singh Baines &lt;msb@chromium.org&gt;
+Cc: Aaron Lu &lt;aaron.lu@intel.com&gt;
+Cc: Tejun Heo &lt;tj@kernel.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/96d8683483b7eb194609edd1afe9143a0467b7d3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/96d8683483b7eb194609edd1afe9143a0467b7d3"/>
+    <title>
+        Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client
+    </title>
+    <updated>2013-04-17T12:52:02-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fb47627bc8c0bcdb36321edfbf02e916?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/block/rbd.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client
+
+Pull Ceph fix from Sage Weil:
+ &quot;It&#39;s a simple fix for a hard to hit race, but low-risk and clearly
+  correct&quot;
+
+* &#39;for-linus&#39; of git://git.kernel.org/pub/scm/linux/kernel/git/sage/ceph-client:
+  rbd: do a safe list traversal in rbd_img_request_submit()&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/15bbc1b28ff65767922f78c266821cc138b90a47</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/15bbc1b28ff65767922f78c266821cc138b90a47"/>
+    <title>
+        ARM: KVM: fix unbalanced get_cpu() in access_dcsw
+    </title>
+    <updated>2013-04-17T12:51:32-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/dfae7d501fd2859b8d7f9134ee5c4cbc?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name></name>
+      <email>marc.zyngier@arm.com</email>
+    </author>
+    <content type="html">
+      &lt;pre>m arch/arm/kvm/coproc.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>ARM: KVM: fix unbalanced get_cpu() in access_dcsw
+
+In the very unlikely event where a guest would be foolish enough to
+*read* from a write-only cache maintainance register, we end up
+with preemption disabled, due to a misplaced get_cpu().
+
+Just move the &quot;is_write&quot; test outside of the critical section.
+
+Signed-off-by: Marc Zyngier &lt;marc.zyngier@arm.com&gt;
+Signed-off-by: Christoffer Dall &lt;cdall@cs.columbia.edu&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/46faeed4a61e220b99591e9773057160eb437cc8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/46faeed4a61e220b99591e9773057160eb437cc8"/>
+    <title>
+        rbd: do a safe list traversal in rbd_img_request_submit()
+    </title>
+    <updated>2013-04-17T11:39:09-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/17473c8dd27516724006cfed6d0b469d?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <author>
+      <name>alexelder</name>
+      <uri>https://github.com/alexelder</uri>
+    </author>
+    <content type="html">
+      &lt;pre>m drivers/block/rbd.c
+&lt;/pre>
+      &lt;pre style='white-space:pre-wrap;width:81ex'>rbd: do a safe list traversal in rbd_img_request_submit()
+
+It&#39;s possible that the reference to the object request dropped
+inside the loop in rbd_img_request_submit() will be the last
+one, in which case the content of the object pointer can&#39;t be
+trusted.
+
+Use a safe form of the object request list traversal to avoid
+problems.
+
+This resolves:
+    http://tracker.ceph.com/issues/4705
+
+Signed-off-by: Alex Elder &lt;elder@inktank.com&gt;
+Reviewed-by: Josh Durgin &lt;josh.durgin@inktank.com&gt;&lt;/pre>
+    </content>
+  </entry>
+</feed>

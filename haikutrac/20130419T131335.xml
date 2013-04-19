@@ -1,0 +1,744 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Haiku</title>
+    <link>http://dev.haiku-os.org/timeline</link>
+    <description>Trac Timeline</description>
+    <language>en-US</language>
+    <generator>Trac 1.0.1</generator>
+    <image>
+      <title>Haiku</title>
+      <url>http://dev.haiku-os.org/chrome/site/logo.png</url>
+      <link>http://dev.haiku-os.org/timeline</link>
+    </image>
+    <item>
+      <title>Ticket #9687 ([bin:kill] crashes if pid doesn't exit) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Fri, 19 Apr 2013 07:20:35 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9687</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9687/1366356035748221</guid>
+      <description>&lt;p&gt;
+If one tries to kill by pid, if e.g. the pid doesn't exit, kill crashes and one sees the message twice:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+~/&amp;gt; kill 1234&lt;br /&gt;
+kill: 1234: No such process&lt;br /&gt;
+kill: 1234: No such process&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Also kill doesn't print the message at all if one tries to kill by process name which doesn't exist:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+~/&amp;gt; kill foo&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9686 ("vfork: Invalid Argument" while executing processes that involve large ...) created</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Fri, 19 Apr 2013 02:00:46 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9686</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9686/1366336846171860</guid>
+      <description>&lt;p&gt;
+Since the ASLR changes, attempting a jam -qj8 build of Haiku under Haiku itself frequently fails with the above error message. Rerunning the command works for a while longer, then eventually fails again the same way. Nothing of interest shows up in syslog though, and I've been unable to reproduce it while running with strace so I assume a race of some form is involved. Hardware here is a quad core i7 w/ hyperthreading and 8GB of RAM, ergo PAE is active.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9685 (OpenGL apps crashes) created</title>
+      
+        <dc:creator>Giova84</dc:creator>
+
+      <pubDate>Fri, 19 Apr 2013 00:02:35 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9685</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9685/1366329755305894</guid>
+      <description>&lt;p&gt;
+&lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45525" title="Haiku Revision 45525"&gt;hrev45525&lt;/a&gt;&lt;br /&gt;
+If i launch GLTeapot or any other app which use OpenGL (eg the game BillardGL or Quake II) i always got an error.&lt;br /&gt;
+Files attached: crash report of BillardGL, GLTeapot and the part of syslog related to error.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9684 (Report generation can hang if reading stack memory fails) created</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Thu, 18 Apr 2013 18:50:01 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9684</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9684/1366311001079197</guid>
+      <description>&lt;p&gt;
+Currently, RetrieveMemoryBlockJob doesn't notify the block's listener if reading the requested block fails for whatever reason. Consequently, if this occurs while generating a crash report, it will wait forever for the job to complete and never write the report out.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>PackageManagement/BuildingPackages edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 18 Apr 2013 16:42:37 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?version=13</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?version=13/1366303357672607</guid>
+      <description>&lt;p&gt;
+Pre-release separator -&amp;gt; "~"; allow '.' in a few components
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?action=diff&amp;amp;version=13"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9683 (Add Qualcom Atheros AR9380 and AR9485 wifi adapters support) created</title>
+      
+        <dc:creator>phoudoin</dc:creator>
+
+      <pubDate>Thu, 18 Apr 2013 13:14:48 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9683</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9683/1366290888825278</guid>
+      <description>&lt;p&gt;
+See &lt;a class="ext-link" href="https://wiki.freebsd.org/dev/ath_hal%284%29/AR9300"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;https://wiki.freebsd.org/dev/ath_hal%284%29/AR9300&lt;/a&gt; for the current FreeBSD support state for these family of adapters of QCA (QualCom Atheros).&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>PackageManagement/BuildingPackages edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Thu, 18 Apr 2013 12:50:12 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?version=12</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?version=12/1366289412560173</guid>
+      <description>&lt;p&gt;
+New pre-release notation ("[...]")
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?action=diff&amp;amp;version=12"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #1944 (Kill command don't work with process names) reopened</title>
+      
+        <dc:creator>phoudoin</dc:creator>
+
+      <pubDate>Thu, 18 Apr 2013 08:35:42 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/1944#comment:33</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/1944#comment:33/1366274142008495</guid>
+      <description></description>
+      <category>reopenedticket</category>
+    </item><item>
+      <title>Ticket #9446 ([net_server] doesn't bring up newly plugged interfaces) closed</title>
+      
+        <dc:creator>phoudoin</dc:creator>
+
+      <pubDate>Thu, 18 Apr 2013 00:14:26 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9446#comment:9</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9446#comment:9/1366244066715605</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45525" title="Haiku Revision 45525"&gt;hrev45525&lt;/a&gt;.&lt;br /&gt;
+Blame me for this bug I'm so sorry I've introduced two years ago in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev41274" title="Haiku Revision 41274"&gt;hrev41274&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #1944 (Kill command don't work with process names) closed</title>
+      
+        <dc:creator>phoudoin</dc:creator>
+
+      <pubDate>Wed, 17 Apr 2013 22:29:00 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/1944#comment:30</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/1944#comment:30/1366237740328033</guid>
+      <description>fixed: &lt;p&gt;
+Applied with some style and code cleanup in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45523" title="Haiku Revision 45523"&gt;hrev45523&lt;/a&gt;.&lt;br /&gt;
+Thanks.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9682 (Add a way to start a new team interactively) created</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Wed, 17 Apr 2013 20:44:55 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9682</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9682/1366231495933729</guid>
+      <description>&lt;p&gt;
+Currently, the only way to start a new team with Debugger rather than attach to an existing one is by passing a command line. It would be nice if the teams window also featured a way to start a new one rather than just being able to attach to existing ones.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9678 (Cannot send and receive through the same socket) closed</title>
+      
+        <dc:creator>phoudoin</dc:creator>
+
+      <pubDate>Wed, 17 Apr 2013 20:35:03 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9678#comment:8</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9678#comment:8/1366230903292417</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45520" title="Haiku Revision 45520"&gt;hrev45520&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9681 (Failure to boot off Hard Drive) created</title>
+      
+        <dc:creator>scanty</dc:creator>
+
+      <pubDate>Wed, 17 Apr 2013 13:45:49 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9681</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9681/1366206349293880</guid>
+      <description>&lt;p&gt;
+Yesterday morning I tried to install Haiku to its own hard drive and had absolutely no success in booting. I used an alpha 4.1 ISO to do this. GRUB found Haiku automagically, but couldn't boot it. I just get a black screen with a flashing cursor in the upper left corner.  If I advance to the next partition in GRUB (/dev/sdb1 instead of /dev/sdb, where it should be) I get the Haiku boot menu, but fail to scan for any bootable volumes.  Not sure what's going on here.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9680 (BGradients are not stored in BPicture) created</title>
+      
+        <dc:creator>phoudoin</dc:creator>
+
+      <pubDate>Wed, 17 Apr 2013 13:10:18 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9680</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9680/1366204218592422</guid>
+      <description>&lt;p&gt;
+Which means that a BPicture played back don't apply gradients.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9679 (Type lookups not working correctly in all instances) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Wed, 17 Apr 2013 02:58:22 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9679#comment:1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9679#comment:1/1366167502170744</guid>
+      <description>invalid: &lt;p&gt;
+The type wasn't in fact present. The solution in the above case was to synthetically construct it.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9679 (Type lookups not working correctly in all instances) created</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Wed, 17 Apr 2013 01:21:48 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9679</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9679/1366161708516628</guid>
+      <description>&lt;p&gt;
+Certain lookups from the global type cache currently aren't returning a type though one would expect them to. An example would be looking up an array of type char. This in turn causes strings in BMessages to not show up correctly. Need to investigate why.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9678 (Cannot send and receive through the same socket) created</title>
+      
+        <dc:creator>markh</dc:creator>
+
+      <pubDate>Tue, 16 Apr 2013 20:25:23 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9678</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9678/1366143923168287</guid>
+      <description>&lt;p&gt;
+When trying to receive data from a socket I have previously sent data through, I get a connection refused error.&lt;br /&gt;
+A workaround is to use a second socket to send the data.&lt;br /&gt;
+I attached two files:&lt;br /&gt;
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;socket_test_send_recv_1_socket.c: Uses only one socket and fails.
+&lt;/li&gt;&lt;li&gt;socket_test_send_recv_2_sockets.c: Uses two sockets and works.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+The first construction is used by Postgresql to check if it can start the statistics collector and this now fails on Haiku.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9677 (Can't boot from HD / KDL On Boot with Anyboot) created</title>
+      
+        <dc:creator>scanty</dc:creator>
+
+      <pubDate>Tue, 16 Apr 2013 15:47:19 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9677</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9677/1366127239619258</guid>
+      <description>&lt;p&gt;
+Hello All.  This morning I tried to install Haiku to its own hard drive and had absolutely no success in doing so.  I used an alpha 4.1 ISO to do this.  GRUB found Haiku automagically, but couldn't boot it.  I just get a black screen with a flashing cursor in the upper left corner.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I then tried anyboot from a USB stick (two different brands, Lexar and Kingston) and both caused a KDL on boot.  I have attached a photo of the kernel output, but beware, it is not the best photo because I have hand-tremor from taking Lithium.  It should however be clear enough to decipher what's going on.  Hope we can resolve these bugs as I'd like to move away from VirtualBox and get onto real hardware.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9631 (Mouse cursor disappears temporarily and returns permanently changed) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Tue, 16 Apr 2013 14:19:55 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9631</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9631/1366121995292755</guid>
+      <description></description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9557 (DriveSetup: create new partition error) closed</title>
+      
+        <dc:creator>phoudoin</dc:creator>
+
+      <pubDate>Tue, 16 Apr 2013 13:34:30 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9557#comment:5</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9557#comment:5/1366119270721331</guid>
+      <description>duplicate: &lt;p&gt;
+Was a &lt;a class="closed ticket" href="http://dev.haiku-os.org/ticket/9673" title="bug: DriveSetup: integer overflow in slider for partition size (closed: fixed)"&gt;#9673&lt;/a&gt; duplicate.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9676 ([Deskbar] crashes in TExpandoMenuBar::MouseMoved) reopened</title>
+      
+        <dc:creator>jscipione</dc:creator>
+
+      <pubDate>Tue, 16 Apr 2013 07:02:40 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9676#comment:2</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9676#comment:2/1366095760326123</guid>
+      <description>&lt;p&gt;
+I suppose this isn't an exact duplicate of &lt;a class="in-progress ticket" href="http://dev.haiku-os.org/ticket/8539" title="bug: [Deskbar] deadlocks during icon resize (in-progress)"&gt;#8539&lt;/a&gt; since that ticket describes a lockup and this one a crash although they are related. I found this bug to be quite difficult to reproduce but narrowed it down to either the B_ENTERED_VIEW or B_EXITED_VIEW case with message = NULL in the TExpandoMenuBar::MouseDown() method.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>reopenedticket</category>
+    </item><item>
+      <title>Ticket #9667 (Deskbar does not keep changes after second boot.) closed</title>
+      
+        <dc:creator>jscipione</dc:creator>
+
+      <pubDate>Tue, 16 Apr 2013 05:41:29 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9667#comment:2</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9667#comment:2/1366090889644888</guid>
+      <description>fixed: &lt;p&gt;
+This bug should also be fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45512" title="Haiku Revision 45512"&gt;hrev45512&lt;/a&gt;, it was caused by Deskbar not shutting down correctly and thus not saving it's settings.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9632 (Shutdown/restart sometimes slow/never completes on latest builds) closed</title>
+      
+        <dc:creator>jscipione</dc:creator>
+
+      <pubDate>Tue, 16 Apr 2013 05:40:29 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9632#comment:20</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9632#comment:20/1366090829549528</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45512" title="Haiku Revision 45512"&gt;hrev45512&lt;/a&gt; in large part due to mmlr's detective work.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9673 (DriveSetup: integer overflow in slider for partition size) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 18:45:30 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9673#comment:9</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9673#comment:9/1366051530620429</guid>
+      <description>fixed: &lt;p&gt;
+Oops, missed that detail, it was a long day. Oh well, we're ready for the day &amp;gt; 2PB hard disks hit the market I suppose :)&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>PackageManagement/FileFormat edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 18:17:49 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/FileFormat?version=11</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/FileFormat?version=11/1366049869537498</guid>
+      <description> (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/FileFormat?action=diff&amp;amp;version=11"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>PackageManagement/BuildingPackages edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 18:16:30 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?version=11</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?version=11/1366049790635592</guid>
+      <description>&lt;p&gt;
+release -&amp;gt; revision
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/BuildingPackages?action=diff&amp;amp;version=11"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>PackageManagement/FileFormat edited</title>
+      
+        <dc:creator>bonefish</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 18:13:52 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/PackageManagement/FileFormat?version=10</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/PackageManagement/FileFormat?version=10/1366049632397539</guid>
+      <description> (&lt;a href="http://dev.haiku-os.org/wiki/PackageManagement/FileFormat?action=diff&amp;amp;version=10"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9676 ([Deskbar] crashes in TExpandoMenuBar::MouseMoved) closed</title>
+      
+        <dc:creator>jscipione</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 16:55:37 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9676#comment:1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9676#comment:1/1366044937261969</guid>
+      <description>duplicate: &lt;p&gt;
+Duplicate of &lt;a class="in-progress ticket" href="http://dev.haiku-os.org/ticket/8539" title="bug: [Deskbar] deadlocks during icon resize (in-progress)"&gt;#8539&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9652 (Page not found after log in) closed</title>
+      
+        <dc:creator>umccullough</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 14:56:21 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9652#comment:5</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9652#comment:5/1366037781570609</guid>
+      <description>fixed</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9674 (Logging in redirects to missing image) closed</title>
+      
+        <dc:creator>umccullough</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 14:52:35 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9674#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9674#comment:3/1366037555551938</guid>
+      <description></description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9676 ([Deskbar] crashes in TExpandoMenuBar::MouseMoved) created</title>
+      
+        <dc:creator>diver</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 14:44:33 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9676</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9676/1366037073807131</guid>
+      <description>&lt;p&gt;
+This is &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45506" title="Haiku Revision 45506"&gt;hrev45506&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I was trying to reproduce &lt;a class="in-progress ticket" href="http://dev.haiku-os.org/ticket/8539" title="bug: [Deskbar] deadlocks during icon resize (in-progress)"&gt;#8539&lt;/a&gt; with the steps from its Description.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9675 (&lt;terminal&gt; tag on forums seems to have no effect) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 14:19:30 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9675</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9675/1366035570903972</guid>
+      <description>&lt;p&gt;
+For example:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="ext-link" href="https://www.haiku-os.org/community/forum/automated_nightly_installer"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;https://www.haiku-os.org/community/forum/automated_nightly_installer&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+If I change the &amp;lt;code&amp;gt; part to &amp;lt;terminal&amp;gt;, it looks the same as all the other text in the post.  But as &amp;lt;code&amp;gt; it's making things into multi-line comments that aren't.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+At least, that's how it looks on Web+.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9674 (Logging in redirects to missing image) created</title>
+      
+        <dc:creator>Kev</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 14:13:52 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9674</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9674/1366035232568889</guid>
+      <description>&lt;p&gt;
+If I go to a forum page (e.g. by clicking a link from haiku-os.org/) while not logged in, then log in, instead of being redirected back to the page I had been on, I get redirected to &lt;a class="ext-link" href="https://www.haiku-os.org/files/images/cafepress/haiku_organic_cotton_tee.jpg"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;https://www.haiku-os.org/files/images/cafepress/haiku_organic_cotton_tee.jpg&lt;/a&gt; which gives a Page Not Found message.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9673 (DriveSetup: integer overflow in slider for partition size) created</title>
+      
+        <dc:creator>jessicah</dc:creator>
+
+      <pubDate>Mon, 15 Apr 2013 00:37:53 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9673</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9673/1365986273228228</guid>
+      <description></description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9671 (sysinfo misses some extended features) closed</title>
+      
+        <dc:creator>kallisti5</dc:creator>
+
+      <pubDate>Sun, 14 Apr 2013 21:22:39 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9671#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9671#comment:3/1365974559503915</guid>
+      <description>fixed: &lt;p&gt;
+applied in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45502" title="Haiku Revision 45502"&gt;hrev45502&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Thanks!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9653 (Remove StyledEdit's character encoding display) closed</title>
+      
+        <dc:creator>siarzhuk</dc:creator>
+
+      <pubDate>Sun, 14 Apr 2013 19:47:11 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9653#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9653#comment:3/1365968831007114</guid>
+      <description>fixed: &lt;p&gt;
+Behavior of encoding statusview cell improved in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45500" title="Haiku Revision 45500"&gt;hrev45500&lt;/a&gt;. Default UTF-8 one is not shown anymore, popup encodings menu is removed, pair of shortcuts (Cmd-Opt-PgUp/PgDn) for quick iteration through the list was added. I hope it helps.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9672 (False positive of alert prompt.) created</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Sun, 14 Apr 2013 13:17:38 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9672</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9672/1365945458773356</guid>
+      <description>&lt;p&gt;
+This issue is introduced with &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45277" title="Haiku Revision 45277"&gt;hrev45277&lt;/a&gt;. &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+When using DriveSetup to mount any partition (BFS or non-BFS), an informational alert of 'Could not mount partition "&amp;lt;name&amp;gt;"' will needlessly display. The partition is mounted successfully.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9623 (Add GitHub to list of code search locations) closed</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Sun, 14 Apr 2013 12:41:24 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9623#comment:2</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9623#comment:2/1365943284205533</guid>
+      <description>fixed: &lt;p&gt;
+Added to this wiki's front page and to ReadMe.IntroductionToHaiku in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45494" title="Haiku Revision 45494"&gt;hrev45494&lt;/a&gt;.  &lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>WikiStart edited</title>
+      
+        <dc:creator>mmadia</dc:creator>
+
+      <pubDate>Sun, 14 Apr 2013 12:37:38 GMT</pubDate>
+      <link>http://dev.haiku-os.org/wiki/WikiStart?version=46</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/wiki/WikiStart?version=46/1365943058290883</guid>
+      <description>&lt;p&gt;
+Added GitHub as a code search location.
+&lt;/p&gt;
+ (&lt;a href="http://dev.haiku-os.org/wiki/WikiStart?action=diff&amp;amp;version=46"&gt;diff&lt;/a&gt;)</description>
+      <category>wiki</category>
+    </item><item>
+      <title>Ticket #9671 (sysinfo misses some extended features) created</title>
+      
+        <dc:creator>0xffea</dc:creator>
+
+      <pubDate>Sun, 14 Apr 2013 12:13:54 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9671</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9671/1365941634021549</guid>
+      <description>&lt;p&gt;
+bin/sysinfo shows not all features it should know about.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9670 (BSeparatorItem should draw a vertical line if attached menu layout is ...) created</title>
+      
+        <dc:creator>jscipione</dc:creator>
+
+      <pubDate>Sun, 14 Apr 2013 05:15:54 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9670</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9670/1365916554997101</guid>
+      <description>&lt;p&gt;
+Currently BSeparatorItem always draws a horizontal line under the assumption that the attached menu's layout is B_ITEMS_IN_COLUMN. This assumption, while pretty good, falls down if menu is in B_ITEMS_IN_ROW. In this case the separator should be vertical.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9669 (Can not change the encoding in RTF.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Sat, 13 Apr 2013 23:24:25 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9669</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9669/1365895465162619</guid>
+      <description>&lt;p&gt;
+From &lt;a class="closed ticket" href="http://dev.haiku-os.org/ticket/9654" title="enhancement: Add support for Windows-1250 (CP-1250 ) text encoding. (closed: fixed)"&gt;#9654&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Text files created on Windows have a default CP-1250 encoding.  Haiku load by default UTF-8 and causes it display of incorrect character set. With the help of StyleEdit and iconv I can change the encoding.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This works for TXT and SRT. Unfortunately does not work for RTF.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9668 (MediaPlayer does not display correctly subtitles in Polish language, which ...) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Sat, 13 Apr 2013 22:35:33 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9668</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9668/1365892533711839</guid>
+      <description>&lt;p&gt;
+From &lt;a class="closed ticket" href="http://dev.haiku-os.org/ticket/9654" title="enhancement: Add support for Windows-1250 (CP-1250 ) text encoding. (closed: fixed)"&gt;#9654&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Most of the subtitles in the Polish language is created under Windows (with default CP-1250 encoding for Polish). Subtitles do not displays correctly and are trimmed. Does not help overwriting the file with CP-1250 encoding.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+If subtitles were originally saved with UTF-8 it working properly!&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9667 (Deskbar does not keep changes after second boot.) created</title>
+      
+        <dc:creator>Premislaus</dc:creator>
+
+      <pubDate>Sat, 13 Apr 2013 21:41:33 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9667</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9667/1365889293288278</guid>
+      <description>&lt;p&gt;
+Deskbar does not keep changes after second boot. This applies to Deksbar and Time preferences. I have to make changes again! I have this bug for a long time, just forgot to report.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45487" title="Haiku Revision 45487"&gt;hrev45487&lt;/a&gt; gcc2h.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9666 (NetworkStatus: indicate if network is protected) created</title>
+      
+        <dc:creator>dsjonny</dc:creator>
+
+      <pubDate>Sat, 13 Apr 2013 19:27:46 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9666</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9666/1365881266312995</guid>
+      <description>&lt;p&gt;
+It would be fine if the user can see the protection status in the NetworkStatus's WiFi list for example with a "lock" icon. Now in the popup menu we can see only the signal, but in the command line we can find the protection's status/type of the network:&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a style="padding:0; border:none" href="http://dev.haiku-os.org/attachment/ticket/9666/wifilist.png"&gt;&lt;img src="http://dev.haiku-os.org/raw-attachment/ticket/9666/wifilist.png" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;~/Desktop&amp;gt; ifconfig /dev/net/iprowifi4965/0 scan
+name                             address              signal  auth
+TPLINKHOME                       d8:5d:4c:86:24:b4        25  WPA2
+DR-WiFi                          cc:5d:4e:47:99:bd        24  WPA2
+SZKSZAK_T10Z                     c8:60:00:67:32:d4        11  WPA2
+&lt;/pre&gt;&lt;p&gt;
+Using 45487 nightly.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #5015 (BPopUpMenu / BMenuField graphic glitch) closed</title>
+      
+        <dc:creator>jackburton</dc:creator>
+
+      <pubDate>Sat, 13 Apr 2013 08:33:18 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/5015#comment:3</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/5015#comment:3/1365841998072505</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45489" title="Haiku Revision 45489"&gt;hrev45489&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9665 (gcc 4.8.0+ has trouble compiling GCC 4.6.3) created</title>
+      
+        <dc:creator>kallisti5</dc:creator>
+
+      <pubDate>Fri, 12 Apr 2013 20:23:38 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9665</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9665/1365798218115671</guid>
+      <description>&lt;p&gt;
+gcc 4.8.0+ has trouble compiling GCC 4.6.3.&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;[vsyscall]
+/home/kallisti5/Projects/buildtools/gcc/libgcc/../gcc/libgcc2.c: In function
+'__negdi2':
+/home/kallisti5/Projects/buildtools/gcc/libgcc/../gcc/libgcc2.c:72:1: internal
+compiler error: Aborted
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See &amp;lt;http://gcc.gnu.org/bugs.html&amp;gt; for instructions.
+make[2]: *** [_negdi2.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Leaving directory
+`/home/kallisti5/Projects/haiku/generated/cross-tools-build/gcc/i586-pc-haiku/libgcc'
+make[1]: *** [all-target-libgcc] Error 2
+make[1]: Leaving directory
+&lt;/pre&gt;&lt;p&gt;
+GCC bug:&lt;br /&gt;
+&lt;a class="ext-link" href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=56938"&gt;&lt;span class="icon"&gt;​&lt;/span&gt;http://gcc.gnu.org/bugzilla/show_bug.cgi?id=56938&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9664 ([kernel] Haiku doesn't look for ".so"s in executable's directory) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Fri, 12 Apr 2013 14:34:54 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9664#comment:1</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9664#comment:1/1365777294433781</guid>
+      <description>invalid: &lt;p&gt;
+It will, if they're placed in $cwd/lib.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item><item>
+      <title>Ticket #9664 ([kernel] Haiku doesn't look for ".so"s in executable's directory) created</title>
+      
+        <dc:creator>waddlesplash</dc:creator>
+
+      <pubDate>Fri, 12 Apr 2013 14:28:54 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9664</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9664/1365776934372449</guid>
+      <description>&lt;p&gt;
+For example, given a directory with contents:&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class="wiki"&gt;sharedobject1.so
+sharedobject2.so
+myapp
+&lt;/pre&gt;&lt;p&gt;
+...and someone opens &lt;tt&gt;myapp&lt;/tt&gt;, Haiku gives the message that &lt;tt&gt;Missing library: sharedobject1.so&lt;/tt&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Haiku should look in the application's directory for shared objects before looking in system directories. Linux and Windows do this. &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Also, if a library is found in the app's directory and also in the system directory, use the one in the app's directory.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>newticket</category>
+    </item><item>
+      <title>Ticket #9663 (BRefFilter not Filtering) closed</title>
+      
+        <dc:creator>anevilyak</dc:creator>
+
+      <pubDate>Fri, 12 Apr 2013 04:07:26 GMT</pubDate>
+      <link>http://dev.haiku-os.org/ticket/9663#comment:7</link>
+      <guid isPermaLink="false">http://dev.haiku-os.org/ticket/9663#comment:7/1365739646117540</guid>
+      <description>fixed: &lt;p&gt;
+Fixed in &lt;a class="changeset" href="http://cgit.haiku-os.org/haiku/commit/?id=hrev45485" title="Haiku Revision 45485"&gt;hrev45485&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <category>closedticket</category>
+    </item>
+   </channel>
+</rss>

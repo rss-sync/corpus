@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:microblog="http://microblog.reallysimple.org/">
+	<channel>
+		<title>Dave Winer&apos;s linkblog feed</title>
+		<link>http://static.scripting.com/myReallySimple/linkblog.html</link>
+		<description>Dave Winer&apos;s linkblog. It&apos;s my personal contribution to the World Wide River.</description>
+		<language>en-us</language>
+		<pubDate>Fri, 19 Apr 2013 03:53:41 GMT</pubDate>
+		<lastBuildDate>Fri, 19 Apr 2013 03:53:41 GMT</lastBuildDate>
+		<generator>Radio2 v0.85</generator>
+		<docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+		<webMaster>dave.winer@gmail.com (Dave Winer)</webMaster>
+		<microblog:avatar>http://static.scripting.com/images/rssMug.gif</microblog:avatar>
+		<cloud domain="rpc.rsscloud.org" port="5337" path="/rsscloud/pleaseNotify" registerProcedure="" protocol="http-post" />
+		<microblog:archive>
+			<microblog:url>http://static.scripting.com/myReallySimple/</microblog:url>
+			<microblog:filename>linkblog.xml</microblog:filename>
+			<microblog:startDay>2010-12-25</microblog:startDay>
+			<microblog:endDay>2013-04-18</microblog:endDay>
+			</microblog:archive>
+		<microblog:localTime>4/18/2013; 11:53:41 PM</microblog:localTime>
+		<item>
+			<description>MIT Emergency Information.</description>
+			<link>http://3y9.r2.ly/</link>
+			<pubDate>Fri, 19 Apr 2013 03:53:40 GMT</pubDate>
+			<guid>http://3y9.r2.ly/?id=16218</guid>
+			<microblog:linkFull>http://emergency.mit.net/emergency/</microblog:linkFull>
+			</item>
+		<item>
+			<description>John Galt Kills Texans in Massive Fertilizer Plant Explosion.</description>
+			<link>http://3y8.r2.ly/</link>
+			<pubDate>Fri, 19 Apr 2013 03:21:02 GMT</pubDate>
+			<guid>http://3y8.r2.ly/?id=16217</guid>
+			<microblog:linkFull>http://www.emptywheel.net/2013/04/18/john-galt-kills-texans-in-massive-fertilizer-plant-explosion/</microblog:linkFull>
+			<microblog:readCount>426</microblog:readCount>
+			</item>
+		<item>
+			<description>NBA Playoff Schedule.</description>
+			<link>http://3y7.r2.ly/</link>
+			<pubDate>Fri, 19 Apr 2013 03:16:16 GMT</pubDate>
+			<guid>http://3y7.r2.ly/?id=16216</guid>
+			<microblog:linkFull>http://sportsillustrated.cnn.com/nba/news/20130418/nba-playoff-schedule-2013/</microblog:linkFull>
+			<microblog:readCount>250</microblog:readCount>
+			</item>
+		<item>
+			<description>One Thing Well: A weblog about simple, useful software.</description>
+			<link>http://3y6.r2.ly/</link>
+			<pubDate>Fri, 19 Apr 2013 01:31:12 GMT</pubDate>
+			<guid>http://3y6.r2.ly/?id=16215</guid>
+			<microblog:linkFull>http://onethingwell.org/</microblog:linkFull>
+			<microblog:readCount>512</microblog:readCount>
+			</item>
+		<item>
+			<description>Krugman: The Excel Depression.</description>
+			<link>http://3y5.r2.ly/</link>
+			<pubDate>Fri, 19 Apr 2013 01:29:58 GMT</pubDate>
+			<guid>http://3y5.r2.ly/?id=16214</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/19/opinion/krugman-the-excel-depression.html?seid=auto&amp;smid=tw-NytimesKrugman</microblog:linkFull>
+			<microblog:readCount>654</microblog:readCount>
+			</item>
+		<item>
+			<description>How Far Can the Knicks Go in the N.B.A. Playoffs?</description>
+			<link>http://3y4.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 21:30:55 GMT</pubDate>
+			<guid>http://3y4.r2.ly/?id=16213</guid>
+			<microblog:linkFull>http://www.nytimes.com/2013/04/19/sports/how-far-can-the-knicks-go-in-the-nba-playoffs.html?_r=0&amp;emc=rss&amp;partner=rss</microblog:linkFull>
+			<microblog:readCount>477</microblog:readCount>
+			</item>
+		<item>
+			<description>30 lolcats sleeping in odd positions.</description>
+			<link>http://3y3.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 21:25:59 GMT</pubDate>
+			<guid>http://3y3.r2.ly/?id=16212</guid>
+			<microblog:linkFull>http://owni.eu/2011/07/15/top-30-lolcats-sleeping-in-odd-positions/comment-page-1/#comment-52518</microblog:linkFull>
+			<microblog:readCount>570</microblog:readCount>
+			</item>
+		<item>
+			<description>Scripting News: I&apos;m a 57-year-old developer.</description>
+			<link>http://3y1.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 19:48:25 GMT</pubDate>
+			<guid>http://3y1.r2.ly/?id=16211</guid>
+			<microblog:linkFull>http://threads2.scripting.com/2013/april/imA57yearoldDeveloper</microblog:linkFull>
+			<microblog:readCount>961</microblog:readCount>
+			</item>
+		<item>
+			<description>Alec Perkins is working on custom theme styles for Fargo.</description>
+			<link>http://3y0.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 17:56:02 GMT</pubDate>
+			<guid>http://3y0.r2.ly/?id=16210</guid>
+			<microblog:linkFull>https://gist.github.com/alecperkins/5414611</microblog:linkFull>
+			<microblog:readCount>624</microblog:readCount>
+			</item>
+		<item>
+			<description>Is Blogger being assimilated into Google-Plus?</description>
+			<link>http://3xy.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 17:15:20 GMT</pubDate>
+			<guid>http://3xy.r2.ly/?id=16209</guid>
+			<microblog:linkFull>http://thenextweb.com/google/2013/04/18/google-comments-arrive-on-blogger-shows-drive-to-link-the-social-network-to-all-google-services/</microblog:linkFull>
+			<microblog:readCount>834</microblog:readCount>
+			</item>
+		<item>
+			<description>The Orwellian Warfare State of Carnage and Doublethink.</description>
+			<link>http://3xv.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 14:23:07 GMT</pubDate>
+			<guid>http://3xv.r2.ly/?id=16208</guid>
+			<microblog:linkFull>http://truth-out.org/opinion/item/15810-the-orwellian-warfare-state-of-carnage-and-doublethink</microblog:linkFull>
+			<microblog:readCount>756</microblog:readCount>
+			</item>
+		<item>
+			<description>Pearls And The Puzzle of How They Form Perfect Spheres.</description>
+			<link>http://3xu.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 11:53:55 GMT</pubDate>
+			<guid>http://3xu.r2.ly/?id=16207</guid>
+			<microblog:linkFull>http://www.technologyreview.com/view/513851/pearls-and-the-puzzle-of-how-they-form-perfect-spheres/</microblog:linkFull>
+			<microblog:readCount>487</microblog:readCount>
+			</item>
+		<item>
+			<description>Anonymous group launches citizen journalism website.</description>
+			<link>http://3xt.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 11:47:54 GMT</pubDate>
+			<guid>http://3xt.r2.ly/?id=16206</guid>
+			<microblog:linkFull>http://www.bbc.co.uk/news/technology-22198707</microblog:linkFull>
+			<microblog:readCount>842</microblog:readCount>
+			</item>
+		<item>
+			<description>For Google&apos;s Founders, What&apos;s Cooler Than a Private Jet? A Private Terminal.</description>
+			<link>http://3xs.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 10:55:31 GMT</pubDate>
+			<guid>http://3xs.r2.ly/?id=16205</guid>
+			<microblog:linkFull>http://www.wired.com/business/2013/04/private-jet-terminal-for-google-founders/</microblog:linkFull>
+			<microblog:readCount>704</microblog:readCount>
+			</item>
+		<item>
+			<description>Hijacker Tears Large BitTorrent Site Apart, Succeeds Where U.S. Authorities Failed.</description>
+			<link>http://3xr.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 10:36:04 GMT</pubDate>
+			<guid>http://3xr.r2.ly/?id=16204</guid>
+			<microblog:linkFull>http://torrentfreak.com/hijacker-tears-large-bittorrent-site-apart-succeeds-where-u-s-authorities-failed-130418/</microblog:linkFull>
+			<microblog:readCount>699</microblog:readCount>
+			</item>
+		<item>
+			<description>Twitter will unveil something &apos;big&apos; on Good Morning America tomorrow.</description>
+			<link>http://3xq.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 03:27:59 GMT</pubDate>
+			<guid>http://3xq.r2.ly/?id=16203</guid>
+			<microblog:linkFull>http://www.engadget.com/2013/04/17/twitter-will-unveil-something-big-on-good-morning-america/</microblog:linkFull>
+			<microblog:readCount>1110</microblog:readCount>
+			</item>
+		<item>
+			<description>This is what Fargo looks like.</description>
+			<link>http://3xp.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 01:01:04 GMT</pubDate>
+			<guid>http://3xp.r2.ly/?id=16202</guid>
+			<microblog:linkFull>http://www.flickr.com/photos/scriptingnews/8656989197/in/photostream/lightbox/</microblog:linkFull>
+			<microblog:readCount>1064</microblog:readCount>
+			</item>
+		<item>
+			<description>Fargo press guide.</description>
+			<link>http://3xo.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 00:50:03 GMT</pubDate>
+			<guid>http://3xo.r2.ly/?id=16201</guid>
+			<microblog:linkFull>http://smallpicture.com/fargoPress.html</microblog:linkFull>
+			<microblog:readCount>525</microblog:readCount>
+			</item>
+		<item>
+			<description>Tylenol May Ease Anxiety of Death.</description>
+			<link>http://3xn.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 00:48:35 GMT</pubDate>
+			<guid>http://3xn.r2.ly/?id=16200</guid>
+			<microblog:linkFull>http://www.livescience.com/28770-tylenol-eases-existential-dread.html</microblog:linkFull>
+			<microblog:readCount>638</microblog:readCount>
+			</item>
+		<item>
+			<description>Why Google Fiber and Its High-Speed Clones Are Too Expensive for Your City.</description>
+			<link>http://3xm.r2.ly/</link>
+			<pubDate>Thu, 18 Apr 2013 00:13:08 GMT</pubDate>
+			<guid>http://3xm.r2.ly/?id=16199</guid>
+			<microblog:linkFull>http://www.theatlanticwire.com/technology/2013/04/google-fiber-next-city/64048/</microblog:linkFull>
+			<microblog:readCount>603</microblog:readCount>
+			</item>
+		</channel>
+	</rss>

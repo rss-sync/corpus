@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <title>Tantek Çelik</title>
+  <link href="http://tantek.com/" rel="alternate" title="Tantek Çelik" type="text/html"/>
+  <link href="http://tantek.com/updates.atom" rel="self"/>
+  <link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+  <id>http://tantek.com/updates.atom</id>
+  <author>
+    <name>Tantek</name>
+    <uri>http://tantek.com/</uri>
+  </author>
+  <updated>2013-04-18T18:54:00-07:00</updated>
+  <entry>
+    <updated>2013-04-18T18:54:00-07:00</updated>
+    <published>2013-04-18T18:54:00-07:00</published>
+    <link href="http://tantek.com/2013/108/t2/indieweb-best-post-posse-accept-display-comments" rel="alternate" title="Have your own #indieweb site &amp; want to know how to best post/POSSE/accept/display comments?  See: indiewebcamp.com/comment" type="text/html"/>
+    <id>http://tantek.com/2013/108/t2/indieweb-best-post-posse-accept-display-comments</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Have your own #indieweb site &amp; want to know how to best post/POSSE/accept/display comments? 
+See: indiewebcamp.com/comment</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Have your own #indieweb site &amp; want to know how to best post/POSSE/accept/display comments? 
+See: <a class="auto-link" href="http://indiewebcamp.com/comment">indiewebcamp.com/comment</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-18T18:46:00-07:00</updated>
+    <published>2013-04-18T18:46:00-07:00</published>
+    <link href="http://tantek.com/2013/108/t1/first-indieweb-reply-with-threaded-posse-tweets" rel="alternate" title="30 days ago @aaronpk posted the first #indieweb to indieweb reply with threaded POSSE'd tweets: aaronparecki.com/replies/2013/03/19/1/indiewebcamp" type="text/html"/>
+    <id>http://tantek.com/2013/108/t1/first-indieweb-reply-with-threaded-posse-tweets</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">30 days ago @aaronpk posted the first #indieweb to indieweb reply with threaded POSSE'd tweets: aaronparecki.com/replies/2013/03/19/1/indiewebcamp</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">30 days ago <a class="auto-link h-x-username" href="http://twitter.com/aaronpk">@aaronpk</a> posted the first #indieweb to indieweb reply with threaded POSSE'd tweets: <a class="auto-link" href="http://aaronparecki.com/replies/2013/03/19/1/indiewebcamp">aaronparecki.com/replies/2013/03/19/1/indiewebcamp</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-17T18:18:00-07:00</updated>
+    <published>2013-04-17T18:18:00-07:00</published>
+    <link href="http://tantek.com/2013/107/t1/friendster-php-java-killed-perf-google-facebook" rel="alternate" title="Friendster Farce wired.com/magazine/2013/04/friendster Friendster PHP-&gt;Java killed perf.  Google banned PHP.  Facebook iterated on PHP." type="text/html"/>
+    <id>http://tantek.com/2013/107/t1/friendster-php-java-killed-perf-google-facebook</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Friendster Farce wired.com/magazine/2013/04/friendster
+Friendster PHP-&gt;Java killed perf. 
+Google banned PHP. 
+Facebook iterated on PHP.</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Friendster Farce <a class="auto-link" href="http://wired.com/magazine/2013/04/friendster">wired.com/magazine/2013/04/friendster</a>
+Friendster PHP-&gt;Java killed perf. 
+Google banned PHP. 
+Facebook iterated on PHP.</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-15T19:59:00-07:00</updated>
+    <published>2013-04-15T19:59:00-07:00</published>
+    <link href="http://tantek.com/2013/105/t1/thoughts-boston-finished-deadline-whitespace-falcon" rel="alternate" title="Thoughts with those in Boston.  Finished &quot;Deadline&quot; ttk.me/asin/031608106X.  And added whitespace support to @Falcon." type="text/html"/>
+    <id>http://tantek.com/2013/105/t1/thoughts-boston-finished-deadline-whitespace-falcon</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Thoughts with those in Boston. 
+Finished "Deadline" ttk.me/asin/031608106X. 
+And added whitespace support to @Falcon.</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Thoughts with those in Boston. 
+Finished "Deadline" <a class="auto-link" href="http://ttk.me/asin/031608106X">ttk.me/asin/031608106X</a>. 
+And added whitespace support to <a class="auto-link h-x-username" href="http://twitter.com/Falcon">@Falcon</a>.</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-14T10:25:00-07:00</updated>
+    <published>2013-04-14T10:25:00-07:00</published>
+    <link href="http://tantek.com/2013/104/t2/urls-readable-speakable-listenable-retypable" rel="alternate" title="URLs should be readable, speakable, listenable, and unambiguously retypable, e.g. from print: tantek.com/w/ShortURLPrintExample #UX" type="text/html"/>
+    <id>http://tantek.com/2013/104/t2/urls-readable-speakable-listenable-retypable</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">URLs should be readable, speakable, listenable, and unambiguously retypable, e.g. from print: tantek.com/w/ShortURLPrintExample #UX</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">URLs should be readable, speakable, listenable, and unambiguously retypable, e.g. from print: <a class="auto-link" href="http://tantek.com/w/ShortURLPrintExample">tantek.com/w/ShortURLPrintExample</a> #UX</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-14T10:18:00-07:00</updated>
+    <published>2013-04-14T10:18:00-07:00</published>
+    <link href="http://tantek.com/2013/104/t1/url-garbage-people-less-likely-click-msr" rel="alternate" title="“If the URL looks like garbage, people are less likely to click” - MSR study via not-implemented.com/urls-are-for-people-not-computers via @adactio" type="text/html"/>
+    <id>http://tantek.com/2013/104/t1/url-garbage-people-less-likely-click-msr</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">“If the URL looks like garbage, people are less likely to click” - MSR study via not-implemented.com/urls-are-for-people-not-computers via @adactio</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">“If the URL looks like garbage, people are less likely to click” - MSR study via <a class="auto-link" href="http://not-implemented.com/urls-are-for-people-not-computers">not-implemented.com/urls-are-for-people-not-computers</a> via <a class="auto-link h-x-username" href="http://twitter.com/adactio">@adactio</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-13T11:10:00-07:00</updated>
+    <published>2013-04-13T11:10:00-07:00</published>
+    <link href="http://tantek.com/2013/103/t2/publish-on-your-own-site-indieweb" rel="alternate" title="“I really encourage you to publish on your own site.” @adactio but on the-pastry-box-project.net/clearleft/2013-april-8 #indieweb #EXPLAIN!! ;)" type="text/html"/>
+    <id>http://tantek.com/2013/103/t2/publish-on-your-own-site-indieweb</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">“I really encourage you to publish on your own site.” @adactio but on the-pastry-box-project.net/clearleft/2013-april-8 #indieweb #EXPLAIN!! ;)</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">“I really encourage you to publish on your own site.” <a class="auto-link h-x-username" href="http://twitter.com/adactio">@adactio</a> but on <a class="auto-link" href="http://the-pastry-box-project.net/clearleft/2013-april-8">the-pastry-box-project.net/clearleft/2013-april-8</a> #indieweb #EXPLAIN!! ;)</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-13T10:40:00-07:00</updated>
+    <published>2013-04-13T10:40:00-07:00</published>
+    <link href="http://tantek.com/2013/103/t1/presentation-vary-content-parity" rel="alternate" title="&quot;presentation may vary ... but the content should not&quot; - Content Parity on the Web: gomakethings.com/content-parity-on-the-web via @adactio" type="text/html"/>
+    <id>http://tantek.com/2013/103/t1/presentation-vary-content-parity</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">"presentation may vary ... but the content should not" - Content Parity on the Web: gomakethings.com/content-parity-on-the-web via @adactio</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">"presentation may vary ... but the content should not" - Content Parity on the Web: <a class="auto-link" href="http://gomakethings.com/content-parity-on-the-web">gomakethings.com/content-parity-on-the-web</a> via <a class="auto-link h-x-username" href="http://twitter.com/adactio">@adactio</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-12T10:34:00-07:00</updated>
+    <published>2013-04-12T10:34:00-07:00</published>
+    <link href="http://tantek.com/2013/102/t2/what-matter-google-apple-facebook-bus" rel="alternate" title="Related: What's The Matter With The Google[,Apple,Facebook] Bus? svenworld.com/2013/04/11/whats-the-matter-with-the-google-bus/ previously: tantek.com/2012/296/t1/apple-facebook-google-sf-bus-flow-map-stamen" type="text/html"/>
+    <id>http://tantek.com/2013/102/t2/what-matter-google-apple-facebook-bus</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Related: What's The Matter With The Google[,Apple,Facebook] Bus? svenworld.com/2013/04/11/whats-the-matter-with-the-google-bus/ previously: tantek.com/2012/296/t1/apple-facebook-google-sf-bus-flow-map-stamen</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Related: What's The Matter With The Google[,Apple,Facebook] Bus? <a class="auto-link" href="http://svenworld.com/2013/04/11/whats-the-matter-with-the-google-bus/">svenworld.com/2013/04/11/whats-the-matter-with-the-google-bus/</a> previously: <a class="auto-link" href="http://tantek.com/2012/296/t1/apple-facebook-google-sf-bus-flow-map-stamen">tantek.com/2012/296/t1/apple-facebook-google-sf-bus-flow-map-stamen</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-12T09:46:00-07:00</updated>
+    <published>2013-04-12T09:46:00-07:00</published>
+    <link href="http://tantek.com/2013/102/t1/san-francisco-make-more" rel="alternate" title="This is about right: &quot;San Francisco Is Great — They Should Make More of It&quot; http://www.slate.com/blogs/moneybox/2013/04/11/san_francisco_zoning_needs_more_density_and_tall_buildings.html ht: @khuey_" type="text/html"/>
+    <id>http://tantek.com/2013/102/t1/san-francisco-make-more</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">This is about right: "San Francisco Is Great — They Should Make More of It" http://www.slate.com/blogs/moneybox/2013/04/11/san_francisco_zoning_needs_more_density_and_tall_buildings.html ht: @khuey_</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">This is about right: "San Francisco Is Great — They Should Make More of It" <a class="auto-link" href="http://www.slate.com/blogs/moneybox/2013/04/11/san_francisco_zoning_needs_more_density_and_tall_buildings.html">http://www.slate.com/blogs/moneybox/2013/04/11/san_francisco_zoning_needs_more_density_and_tall_buildings.html</a> ht: <a class="auto-link h-x-username" href="http://twitter.com/khuey_">@khuey_</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-08T14:38:00-07:00</updated>
+    <published>2013-04-08T14:38:00-07:00</published>
+    <link href="http://tantek.com/2013/098/t3/fix-repeal-cfaa" rel="alternate" title="We need to fix (or repeal) the #CFAA: fixthecfaa.com. Previously: tantek.com/2013/026/b1/remembering-aaron-swartz-part-2-hacking-essence-advancing-humanity #aaronsw" type="text/html"/>
+    <id>http://tantek.com/2013/098/t3/fix-repeal-cfaa</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">We need to fix (or repeal) the #CFAA: fixthecfaa.com. Previously: tantek.com/2013/026/b1/remembering-aaron-swartz-part-2-hacking-essence-advancing-humanity #aaronsw</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">We need to fix (or repeal) the #CFAA: <a class="auto-link" href="http://fixthecfaa.com">fixthecfaa.com</a>. Previously: <a class="auto-link" href="http://tantek.com/2013/026/b1/remembering-aaron-swartz-part-2-hacking-essence-advancing-humanity">tantek.com/2013/026/b1/remembering-aaron-swartz-part-2-hacking-essence-advancing-humanity</a> #aaronsw</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-08T12:15:00-07:00</updated>
+    <published>2013-04-08T12:15:00-07:00</published>
+    <link href="http://tantek.com/2013/098/t2/when-e-book-become-book-ebooks-paperbooks" rel="alternate" title="@jessicahische says: &quot;really what you mean is when will 'e-book' become 'book'&quot;. True! My previous thought was: when will &quot;book&quot; mean just a set of pages independent of medium? And when, only to distinguish media, will we specifically call them &quot;ebooks&quot; and &quot;paperbooks&quot;? in-reply-to: https://twitter.com/jessicahische/status/321338205951651840" type="text/html"/>
+    <id>http://tantek.com/2013/098/t2/when-e-book-become-book-ebooks-paperbooks</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">@jessicahische says: "really what you mean is when will 'e-book' become 'book'". True! My previous thought was: when will "book" mean just a set of pages independent of medium? And when, only to distinguish media, will we specifically call them "ebooks" and "paperbooks"? in-reply-to: https://twitter.com/jessicahische/status/321338205951651840</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml"><a class="auto-link h-x-username" href="http://twitter.com/jessicahische">@jessicahische</a> says: "really what you mean is when will 'e-book' become 'book'". True! My previous thought was: when will "book" mean just a set of pages independent of medium? And when, only to distinguish media, will we specifically call them "ebooks" and "paperbooks"? in-reply-to: <a class="auto-link" href="https://twitter.com/jessicahische/status/321338205951651840">https://twitter.com/jessicahische/status/321338205951651840</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-08T12:03:00-07:00</updated>
+    <published>2013-04-08T12:03:00-07:00</published>
+    <link href="http://tantek.com/2013/098/t1/e-mail-became-email-when-book-ebook" rel="alternate" title="as &quot;e-mail&quot; became &quot;email&quot;, when will &quot;e-book&quot; become &quot;ebook&quot;? http://en.wikipedia.org/wiki/Email http://en.wikipedia.org/wiki/E-book" type="text/html"/>
+    <id>http://tantek.com/2013/098/t1/e-mail-became-email-when-book-ebook</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">as "e-mail" became "email", when will "e-book" become "ebook"? http://en.wikipedia.org/wiki/Email http://en.wikipedia.org/wiki/E-book</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">as "e-mail" became "email", when will "e-book" become "ebook"? <a class="auto-link" href="http://en.wikipedia.org/wiki/Email">http://en.wikipedia.org/wiki/Email</a> <a class="auto-link" href="http://en.wikipedia.org/wiki/E-book">http://en.wikipedia.org/wiki/E-book</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-07T22:22:00-07:00</updated>
+    <published>2013-04-07T22:22:00-07:00</published>
+    <link href="http://tantek.com/2013/097/t2/open-data-longevity-sensored-meetup-qs" rel="alternate" title="thinking about open data &amp; longevity for ~5 min Sensored Meetup talk. 6+ yrs ago http://tantek.com/log/2006/06.html#d17t2231 #qs suggestions?" type="text/html"/>
+    <id>http://tantek.com/2013/097/t2/open-data-longevity-sensored-meetup-qs</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">thinking about open data &amp; longevity for ~5 min Sensored Meetup talk. 6+ yrs ago http://tantek.com/log/2006/06.html#d17t2231 #qs suggestions?</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">thinking about open data &amp; longevity for ~5 min Sensored Meetup talk. 6+ yrs ago <a class="auto-link" href="http://tantek.com/log/2006/06.html#d17t2231">http://tantek.com/log/2006/06.html#d17t2231</a> #qs suggestions?</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-07T12:58:00-07:00</updated>
+    <published>2013-04-07T12:58:00-07:00</published>
+    <link href="http://tantek.com/2013/097/t1/kind-yourself-predisposes-others-thoughtoftheday" rel="alternate" title="Being kind (or harsh) to yourself predisposes you to being kind (or harsh) to others, and vice versa. #thoughtoftheday" type="text/html"/>
+    <id>http://tantek.com/2013/097/t1/kind-yourself-predisposes-others-thoughtoftheday</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Being kind (or harsh) to yourself predisposes you to being kind (or harsh) to others, and vice versa. #thoughtoftheday</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Being kind (or harsh) to yourself predisposes you to being kind (or harsh) to others, and vice versa. #thoughtoftheday</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-06T12:46:00-07:00</updated>
+    <published>2013-04-06T12:46:00-07:00</published>
+    <link href="http://tantek.com/2013/096/t1/interview-computing-alan-kay-ui-future" rel="alternate" title="Great interview with computing pioneer Alan Kay: http://techland.time.com/2013/04/02/an-interview-with-computing-pioneer-alan-kay/ watch the videos, check the dates. #ui #future" type="text/html"/>
+    <id>http://tantek.com/2013/096/t1/interview-computing-alan-kay-ui-future</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Great interview with computing pioneer Alan Kay: http://techland.time.com/2013/04/02/an-interview-with-computing-pioneer-alan-kay/ watch the videos, check the dates. #ui #future</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Great interview with computing pioneer Alan Kay: <a class="auto-link" href="http://techland.time.com/2013/04/02/an-interview-with-computing-pioneer-alan-kay/">http://techland.time.com/2013/04/02/an-interview-with-computing-pioneer-alan-kay/</a> watch the videos, check the dates. #ui #future</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-05T11:51:00-07:00</updated>
+    <published>2013-04-05T11:51:00-07:00</published>
+    <link href="http://tantek.com/2013/095/t1/creative-friends-yxyy-pre-sale-info-tickets" rel="alternate" title="Creative friends, check that hegemonic social network for #YxYY pre-sale info. Tickets open to public at noon - 9 min!" type="text/html"/>
+    <id>http://tantek.com/2013/095/t1/creative-friends-yxyy-pre-sale-info-tickets</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Creative friends, check that hegemonic social network for #YxYY pre-sale info. Tickets open to public at noon - 9 min!</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Creative friends, check that hegemonic social network for #YxYY pre-sale info. Tickets open to public at noon - 9 min!</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-04T13:43:00-07:00</updated>
+    <published>2013-04-04T13:43:00-07:00</published>
+    <link href="http://tantek.com/2013/094/t1/users-user-testing-identity-indieweb" rel="alternate" title="Think users just want to use FB/G+/Twitter connect? Go do some user testing: http://identity.mozilla.com/post/45842909320/users-dont-like-social-login #identity #indieweb" type="text/html"/>
+    <id>http://tantek.com/2013/094/t1/users-user-testing-identity-indieweb</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Think users just want to use FB/G+/Twitter connect? Go do some user testing: http://identity.mozilla.com/post/45842909320/users-dont-like-social-login #identity #indieweb</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">Think users just want to use FB/G+/Twitter connect? Go do some user testing: <a class="auto-link" href="http://identity.mozilla.com/post/45842909320/users-dont-like-social-login">http://identity.mozilla.com/post/45842909320/users-dont-like-social-login</a> #identity #indieweb</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-03T12:11:00-07:00</updated>
+    <published>2013-04-03T12:11:00-07:00</published>
+    <link href="http://tantek.com/2013/093/t1/tickets-yyxy-conference-for-creatives" rel="alternate" title="just bought my tickets to @YxYY. excited to be participating in another conference by and for creatives. #YxYY" type="text/html"/>
+    <id>http://tantek.com/2013/093/t1/tickets-yyxy-conference-for-creatives</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">just bought my tickets to @YxYY. excited to be participating in another conference by and for creatives. #YxYY</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">just bought my tickets to <a class="auto-link h-x-username" href="http://twitter.com/YxYY">@YxYY</a>. excited to be participating in another conference by and for creatives. #YxYY</div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+  <entry>
+    <updated>2013-04-02T16:48:00-07:00</updated>
+    <published>2013-04-02T16:48:00-07:00</published>
+    <link href="http://tantek.com/2013/092/t4/html5devconf-talking-microformats2-html5-eats-drinks" rel="alternate" title="#HTML5DevConf: Let's keep talking #microformats2 &amp; #HTML5 over eats+drinks 6pm at 21st Amendment: http://microformats.org/wiki/events/2013-04-02-microformats-dinner" type="text/html"/>
+    <id>http://tantek.com/2013/092/t4/html5devconf-talking-microformats2-html5-eats-drinks</id>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">#HTML5DevConf: Let's keep talking #microformats2 &amp; #HTML5 over eats+drinks 6pm at 21st Amendment: http://microformats.org/wiki/events/2013-04-02-microformats-dinner</div>
+    </title>
+    <content type="xhtml" xml:base="http://tantek.com/2013/" xml:space="preserve">
+      <div xmlns="http://www.w3.org/1999/xhtml">#HTML5DevConf: Let's keep talking #microformats2 &amp; #HTML5 over eats+drinks 6pm at 21st Amendment: <a class="auto-link" href="http://microformats.org/wiki/events/2013-04-02-microformats-dinner">http://microformats.org/wiki/events/2013-04-02-microformats-dinner</a></div>
+    </content>
+    <object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/note</object-type>
+  </entry>
+</feed>

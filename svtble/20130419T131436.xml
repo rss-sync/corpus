@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xml:lang="en-US">
+  <id>tag:svbtle.com,2012:/feed</id>
+  <link rel="alternate" type="text/html" href="http://svbtle.com" />
+  
+  <title>Svbtle Featured</title>
+  <updated>2013-04-19T01:10:47-07:00</updated>
+  <author>
+    <name>Svbtle.com</name>
+    <uri>http://svbtle.com</uri>
+    <email>hello@svbtle.com</email>
+  </author>
+  <generator>Svbtle.com</generator>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/svbtle" /><feedburner:info uri="svbtle" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>svbtle</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><entry>
+    <id>tag:cwebbdesign,2012:Post/clientside-error-logging-with-google-event-tracking</id>
+    <published>2013-04-19T01:10:47-07:00</published>
+    <updated>2013-04-19T01:10:47-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/HXzRs11jfb4/clientside-error-logging-with-google-event-tracking" />
+    <author>
+      <name>Chris Webb</name>
+      <uri>http://blog.mediumequalsmessage.com</uri>
+    </author>
+    <title>Client-side error logging with Google Event Tracking</title>
+    <content type="html">&lt;p&gt;Thanks to this article: &lt;a href="http://j.mp/11nkxha"&gt;Client-Side Error Logging With Google Analytics&lt;/a&gt; I started an experiment yesterday with logging client-side JavaScript errors as an event in Google Analytics in 3 lines of code. Within a couple hours, I could generate a report of which scripts were causing the most errors, what the errors are, which pages and/or which browsers have the most errors. I still think it would be a good idea to have a dedicated solution, but in the meantime this is a great way to get an instant picture of the current situation.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#39;s the code I&amp;#39;m using in case you want to give it a try.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;window.onerror = function(message, file, line) {
+   _gaq.push([&amp;#39;_trackEvent&amp;#39;, &amp;#39;JS Error&amp;#39;, file + &amp;#39;:&amp;#39; + line + &amp;#39;\n\n&amp;#39; + message]);
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Related Reading&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://openmymind.net/2012/4/4/You-Really-Should-Log-Client-Side-Error/" title="You really should log client side errors"&gt;You really should log client-side errors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://dev.opera.com/articles/view/client-side-error-logging/" title="Client-side error logging"&gt;Client-side Error Logging&lt;/a&gt; from dev.opera&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide" title="Google Analytics Event Tracking"&gt;Google&amp;#39;s guide to Event Tracking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/HXzRs11jfb4" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://blog.mediumequalsmessage.com/clientside-error-logging-with-google-event-tracking</feedburner:origLink></entry>
+  <entry>
+    <id>tag:plc,2012:Post/these-things-dont-suck</id>
+    <published>2013-04-18T16:59:16-07:00</published>
+    <updated>2013-04-18T16:59:16-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/yexfcymfeQY/these-things-dont-suck" />
+    <author>
+      <name>Peter Clark</name>
+      <uri>http://plc.vc</uri>
+    </author>
+    <title>These things don't suck</title>
+    <content type="html">&lt;p&gt;I abhor buying stuff, so if I buy something, I like it to be the best. The best isn&amp;#39;t the most expensive, nor the cheapest, nor is it the most famous. But I genuinely feel these are all the best of their categories:&lt;/p&gt;
+
+&lt;p&gt;Belt: Best Made Kevlar Smokejumper&lt;/p&gt;
+
+&lt;p&gt;Wallet: &lt;a href="http://plc.vc/wallets"&gt;Noah Lambert&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Rucksack: master-piece OVER ver.5 No.03456-v5&lt;/p&gt;
+
+&lt;p&gt;Spectacles: Oliver Peoples Ziegfeld&lt;/p&gt;
+
+&lt;p&gt;Sunglasses: Randolph Engineering Intruder&lt;/p&gt;
+
+&lt;p&gt;Bicycle: Kona Smoke&lt;/p&gt;
+
+&lt;p&gt;Pen: Pilot G2 0.38mm&lt;/p&gt;
+
+&lt;p&gt;Stylesheet Language: scss&lt;/p&gt;
+
+&lt;p&gt;Notebook: Düller Ring Notebooks&lt;/p&gt;
+
+&lt;p&gt;Mouse: Logitech MX518&lt;/p&gt;
+
+&lt;p&gt;Sneakers: Tretorn Nylites&lt;/p&gt;
+
+&lt;p&gt;Pants: Outlier Slim Dungarees&lt;/p&gt;
+
+&lt;p&gt;Denim: Rogue Territory Stantons&lt;/p&gt;
+
+&lt;p&gt;Sports Jackets: GANT by Michael Bastian&lt;/p&gt;
+
+&lt;p&gt;Water Bottle: Sigg Heritage&lt;/p&gt;
+
+&lt;p&gt;Loafers: Bass by Mark McNairy&lt;/p&gt;
+
+&lt;p&gt;Pale Ale: Hitachino Nest&lt;/p&gt;
+
+&lt;p&gt;Polo Shirts: Kent Wang&lt;/p&gt;
+
+&lt;p&gt;Dog Leash: The Fair Lead, Calypso&lt;/p&gt;
+
+&lt;p&gt;Underpants: Mack Weldon Trunks&lt;/p&gt;
+
+&lt;p&gt;Tshirts: Icebreaker Bodyfit 150&lt;/p&gt;
+
+&lt;p&gt;MongoDB browser: humongous&lt;/p&gt;
+
+&lt;p&gt;Twitter Client: Tweetbot&lt;/p&gt;
+
+&lt;p&gt;Rugby Shirts: Michael Bastian&lt;/p&gt;
+
+&lt;p&gt;Boat Shoes: Sebago&lt;/p&gt;
+
+&lt;p&gt;Daily News: NYTimes&lt;/p&gt;
+
+&lt;p&gt;Sports News: BBC Sports&lt;/p&gt;
+
+&lt;p&gt;Weekly News: The Economist&lt;/p&gt;
+
+&lt;p&gt;Magazine: PORT&lt;/p&gt;
+
+&lt;p&gt;Emergency Lighter: Maratac Titanium Pea Lighter&lt;/p&gt;
+
+&lt;p&gt;Outerwear: Barbour Beaufort&lt;/p&gt;
+
+&lt;p&gt;Shorts: Outlier Three Way Shorts&lt;/p&gt;
+
+&lt;p&gt;Glasses: Libbey Gibraltar 16-Ounce&lt;/p&gt;
+
+&lt;p&gt;I have never found in ear earphones that are great, robust, do not tangle, and affordable.&lt;/p&gt;
+
+&lt;p&gt;I have never found a note taking application that was fast, structured and designed nicely.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/yexfcymfeQY" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://plc.vc/these-things-dont-suck</feedburner:origLink></entry>
+  <entry>
+    <id>tag:jamietie,2012:Post/more-victim-blaming-in-the-media</id>
+    <published>2013-04-18T16:57:13-07:00</published>
+    <updated>2013-04-18T16:57:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/r8ibTO1Wc1M/more-victim-blaming-in-the-media" />
+    <author>
+      <name>Jamie Kelly</name>
+      <uri>http://blog.jamietie.com</uri>
+    </author>
+    <title>More victim blaming in the media</title>
+    <content type="html">&lt;p&gt;&lt;a href="http://connecticutnewsroom.wordpress.com/"&gt;Matt DeRienzo&lt;/a&gt; has some great pieces about how one paper in Connecticut, the &lt;em&gt;Republican-American&lt;/em&gt;, has been &lt;del&gt;bungling&lt;/del&gt;handling the accusations of rape in &lt;a href="http://www.wtnh.com/dpp/news/litchfield_cty/rape-charges-against-torrington-athletes"&gt;Torrington, Conn.&lt;/a&gt;. After labeling the rape a &lt;a href="http://connecticutnewsroom.wordpress.com/2013/04/13/no-republican-american-rape-is-not-a-tryst/"&gt;tryst&lt;/a&gt;, which implies consent, even though the &lt;a href="http://abcnews.go.com/US/girl-sex-forced-conn-hs-football-players-rape/story?id=18958367#.UXCHcLVQHmc"&gt;court documents show one of the victims said &amp;ldquo;No&amp;rdquo; repeatedly&lt;/a&gt;, the &lt;em&gt;Republican-American&lt;/em&gt; published an editorial suggesting that we should hold the victims and their parents accountable for &amp;ldquo;putting themselves in harm&amp;#39;s way&amp;rdquo; and for dressing provocatively. After all, the editorial suggests, the young men responded in a predictable way.&lt;/p&gt;
+
+&lt;p&gt;Predictable? Sadly, yes. But that is the fault of the young men who acted that way, not the girls&amp;mdash;and at 13 years old, they are, indeed, girls&amp;mdash;who were raped. I&amp;#39;m getting quick sick of this idea that boys and young men are incapable of helping themselves when they are aroused. These are not unthinking animals, these are human beings. Not every young man put into that situation would rape a girl. The young men now accused of rape made a decision; they didn&amp;#39;t act on instinct. &lt;/p&gt;
+
+&lt;p&gt;Every time a media outlet proposes that a rape victim should have been more careful, didn&amp;#39;t belong where she was, or was dressed in such a way to provoke the assault, it sends a very clear message: That in some circumstances rape is acceptable, or nearly so. To blame the parents of the victims for not exercising proper discipline ignores the much larger question: Why weren&amp;#39;t the young men taught not to engage in sex with someone who said no?&lt;/p&gt;
+
+&lt;p&gt;Journalism has an important role to play here. Reporters and editors can make it clear that a rape victim&amp;#39;s clothing, location, alcohol intake and sexual history have no bearing on whether the incident was rape. They can help reinforce the definition of rape, and make it clear that having sex with someone who doesn&amp;#39;t consent, or in the case of Steubenville, can&amp;#39;t consent, is rape. And they can educate the public that bullying and shaming a rape victim is unacceptable.&lt;/p&gt;
+
+&lt;p&gt;DeRienzo and the &lt;em&gt;Register Citizen&lt;/em&gt; are doing their part by exposing the identities of those who would bully a victim into silence. We need more like them, and far, far fewer like the &lt;em&gt;Republican-American&lt;/em&gt;&amp;#39;s editorial board.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/r8ibTO1Wc1M" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://blog.jamietie.com/more-victim-blaming-in-the-media</feedburner:origLink></entry>
+  <entry>
+    <id>tag:jbrandonbb,2012:Post/the-grand-tour</id>
+    <published>2013-04-18T13:53:49-07:00</published>
+    <updated>2013-04-18T13:53:49-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/cgWdJzwFxVw/the-grand-tour" />
+    <author>
+      <name>John Brandon</name>
+      <uri>http://byjohnbrandon.com</uri>
+    </author>
+    <title>The Grand Tour</title>
+    <content type="html">&lt;p&gt;A few people have asked me over the years, how do I test so much stuff? As a tech reporter since 2001, and a ventriloquist for a traveling circus before that (not really), I have become quite adept at filling out online forms for FedEx return shipments, stacking boxes in a wonderful cubical arrangement so they do not tip over, and drinking coffee. In my spare time, when I am not whipping out a box-cutter like Batman in a dark alleyway, I sit at a computer and read Gizmodo articles while pretending to work so my wife thinks I’m busy.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, when I get really bored reading about the survival gear Bigfoot would use on an Alaskan expedition or &lt;a href="http://http://www.theatlantic.com/technology/archive/2013/04/hey-reddit-enough-boston-bombing-vigilantism/275062/" title="Atlantic article"&gt;how amateur photo sleuths are total morons&lt;/a&gt;, I write about gadgets. This week, I covered the connected car of the future while simultaneously researching the early recordings of The Flaming Lips and eating a bunch of low-salt nuts at my desk. (You do not want to buy a keyboard from me on eBay under any circumstances.)&lt;/p&gt;
+
+&lt;p&gt;But I thought I would take you deeper inside the bubble. It’s a place of wonder and mystery, like stepping into an alternative universe, aka McDonalds. We’ll take a quick scan around my home office where the magic happens, visit the mud room, and even walk out into the yard. I only ask that you take your shoes off first and: please, absolutely no flatulence of any kind.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Home office&lt;/strong&gt;&lt;br&gt;
+I spend most of my time here. There’s a feeding tube that comes down from the kitchen, which I slurp on in between frantic typing sessions. (By the way, I am saying “typing sessions” instead of “writing sessions” because I usually have no idea what I am trying to say on first pass. Honestly, it’s mostly gibberish. Think: President Obama without a teleprompter.) There was this one time when the Herman Miller company said they were going to send me an Aeron chair to test out, but that did not pan out, so I am rocking a Wal-Mart no-name brand. As most of you know, I’m deeply in love with this Chromebook Pixel loaner, so I have it connected to an external monitor (testing), speakers (testing), keyboard (testing), and mouse (testing). The monitor is sitting on a plush leather desk mat (testing). I do own the desk &amp;ndash; so I got that going for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Living room&lt;/strong&gt;&lt;br&gt;
+Most of you probably have a living room where you enjoy time with the family, catch a movie, or relax after a long day. Mine is a rat’s nest of cables and gadgets. Seriously, it’s wonderfully cluttered. This might be hard to believe, but all of the gear has a distinct purpose. I just finished reviewing the DISH Hopper (or, as we like to say around my house even though we’re Minnesotan, the Hoppa), so that’s sitting on the floor waiting to be packed up. I have some amazing Boston Acoustics speakers, a Denon stereo, and a large box of Frosted Flakes cereal sitting on a TV stand.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Kitchen&lt;/strong&gt;&lt;br&gt;
+Not much here except food and my own kitchen equipment. There are times when I get in a coffee-maker to test, which is like winning the lottery and solving world peace in the same day. There’s also some good news involving Whirlpool that I can’t share with you (crap, just did). In retrospect, the kitchen is a bit of an untapped area for me as a journalist, and not just because I’m completely inept at anything involving food except eating it. There is a long list of things I have not tested here: no microwaves, no refrigerators, no blenders. Ironically, it is usually the first place I start unpacking things like routers, smartphones, and my Chipotle dinner. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Mudroom&lt;/strong&gt;&lt;br&gt;
+The fun starts and ends here. For some of you who have sent me stuff, it mostly ends, sorry about that. I store all of my boxes in this deep cavern of eternity, waiting for the day when I finally get fourteen seconds to send back a laptop or, say, a large kitchen appliance. And you thought the living room I described earlier was cluttered! This room is Total Chaos. There are people who have gone back into the mud room and shown up, more than a little confused, at the local mall. It’s like a vortex of time with better lighting. But, it is also highly organized. Somehow, I know exactly why each and every box is in here and from whence it came. But that BLT sandwich? Oops. Forgot that was in here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Garage&lt;/strong&gt;&lt;br&gt;
+You know the mudroom I just mentioned where a bunch of boxes I keep in long-term storage are waiting for the day when I finally pack them up? Yeah, so the garage is the overflow. I know that sounds sort of ridiculous, but I tend to get a lot of stuff. There’s a grill that just came in, waiting for the day in Minnesota when it is finally not winter. I have a few tools in from Sears. Oh, and a Buick.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Yard&lt;/strong&gt;&lt;br&gt;
+Ah, &lt;strong&gt;this&lt;/strong&gt; is my second office. I live in the country and do a fair amount of off-road vehicle testing. It’s one of the favorite things I do. I tested a Polaris Indy snowmobile a few weeks ago and plan to get busy with a Yamaha Grizzly ATV soon. There’s a pond in front of our house where I might test a kayak at some point in the future (does anyone make one that absolutely will not sink?). I also have big plans for a small plot of land behind a fence (garden) and I may even construct a small home for myself, depending on whether the rest of the people living here put up with all of the stupid gadgets. And, who knows? There’s even a farm field. Maybe I’ll get a tractor in. John Deere, you have been warned.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/cgWdJzwFxVw" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://byjohnbrandon.com/the-grand-tour</feedburner:origLink></entry>
+  <entry>
+    <id>tag:seth,2012:Post/disrupting-new-domains</id>
+    <published>2013-04-18T13:48:53-07:00</published>
+    <updated>2013-04-18T13:48:53-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/hyXGTVqRsfQ/disrupting-new-domains" />
+    <author>
+      <name>Seth Bannon</name>
+      <uri>http://sethbannon.com</uri>
+    </author>
+    <title>Disrupting New Domains</title>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;“We can still learn from history the invaluable lesson that an enormously powerful and profitable evil can be overcome.”&lt;/p&gt;
+
+&lt;p&gt;-David Brion Davis&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Entrepreneurs have an inherent distaste for entrenchment, and seek to disrupt it wherever it exists. Because of the history of Silicon Valley, entrepreneurs are typically focused on market entrenchment. The organizations being disrupted are market goliaths &amp;ndash; the Microsofts, IBMs, and Oracles &amp;ndash; that use their connections, capital, and incumbency to stifle innovation. In our world, those that bring about this disruption are heralded as innovators and held up as exemplars.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s time we expanded our field of vision. There is another category of powerful entrenched interests in our midsts &amp;ndash; another flavor of anachronistic goliath. These kind don&amp;#39;t look to protect their market caps or their cash flows; they look to protect their influence and their votes.&lt;/p&gt;
+
+&lt;p&gt;Yesterday we saw a grotesque example of this kind of entrenchment, as a minority in the U.S. Senate blocked legislation that would have required background checks on all gun sales, instead of only registered broker sales as is currently the case. Before it was introduced, every controversial measure was dropped from the legislation. It was so uncontroversial that nearly 90% of the American public &lt;a href="http://www.quinnipiac.edu/images/polling/us/us03222013x.pdf/"&gt;supported the reform&lt;/a&gt;, including 85% of gun owners.&lt;/p&gt;
+
+&lt;p&gt;But in stepped the NRA, &lt;a href="http://thenextweb.com/media/2012/05/07/sen-franken-slams-comcast-for-potentially-anti-competitive-behavior-demands-improved-oversight/"&gt;the Comcast&lt;/a&gt; of the political world, to kill the bill. Despite this legislation having the support of a majority of Senators, and nearly 90% of the public, it didn’t even get an up or down vote.&lt;/p&gt;
+
+&lt;p&gt;Whatever your views are on gun control, it&amp;#39;s hard to see yesterday&amp;#39;s events as anything but an example of an entrenched political interest using its power (money, exclusive relationships, incumbency) to maintain the status quo (sound familiar to any startups out there?). Former Congresswoman Gabby Giffords &lt;a href="http://www.nytimes.com/2013/04/18/opinion/a-senate-in-the-gun-lobbys-grip.html?_r=0"&gt;writes about this&lt;/a&gt; far more eloquently than I can in yesterday&amp;#39;s NYT.&lt;/p&gt;
+
+&lt;p&gt;This sort of political entrenchment is legion: big oil kills renewable energy investments, certain religious institutions kill marriage equality, content producers kill internet freedom &amp;ndash; it goes on and on, and crosses party lines.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s time our entrepreneurial community widens our field of vision and takes on this problem. It&amp;#39;s time we celebrate not only market disruption, but political disruption. This is why we founded &lt;a href="http://amicushq.com/"&gt;Amicus&lt;/a&gt; &amp;ndash; to give those like Gabby Giffords the tools they need to disrupt the powerful entrenched interests standing in the way of progress. But Amicus is not enough. We need to see technology enable even more disruption in this space.&lt;/p&gt;
+
+&lt;p&gt;This work is rewarding. When you disrupt political entrenchment, great things can happen. Slavery can be abolished, women can gain the right to vote, SOPA can be defeated. For instance, Amicus helped &lt;a href="http://www.theatlantic.com/politics/archive/2012/11/the-social-network-effect-that-is-helping-legalize-gay-marriage/265793/"&gt;turn the tide on marriage equality&lt;/a&gt; by helping advocates overcome the entrenched minority standing in their way. And it feels amazing.&lt;/p&gt;
+
+&lt;p&gt;If we create the tools that enable political disruption, innovation will flourish, and nothing will stand in the way of progress. So let&amp;#39;s get hacking.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested, &lt;a href="http://jobs.amicushq.com/"&gt;join us&lt;/a&gt; in achieving this mission.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/hyXGTVqRsfQ" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://sethbannon.com/disrupting-new-domains</feedburner:origLink></entry>
+  <entry>
+    <id>tag:micah,2012:Post/scars</id>
+    <published>2013-04-18T13:03:03-07:00</published>
+    <updated>2013-04-18T13:03:03-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/yoWfbhHkPS0/scars" />
+    <author>
+      <name>Micah Baldwin</name>
+      <uri>http://learntoduck.net</uri>
+    </author>
+    <title>The Scars of the Past</title>
+    <content type="html">&lt;p&gt;Earlier this week, I wrote about 500 or so words on my practice of focusing on the moments in our days as a way to create energy, ideas and pleasure. But, I accidentally deleted it. Yes, in a moment, it was gone.&lt;/p&gt;
+
+&lt;p&gt;Dammit.&lt;/p&gt;
+
+&lt;p&gt;Over the past several years I have spent a lot of time researching and exploring failure. You could say that I was employing an experiential style of research on failure for most of my life.&lt;/p&gt;
+
+&lt;p&gt;In fact, my oldest scar, which sits on the pad of the index finger of my left hand was my first data point.&lt;/p&gt;
+
+&lt;p&gt;I had just learned to walk and was stumbling around our small house in Fort Collins, Colorado. My mom, an unabashed hippie, had probably just finished making my macrobiotic lunch and had started to sew some (very hip, I&amp;#39;m sure) baby overalls. This being before lasers and Walmart, she was using a Singer sowing machine with a foot pedal and belt on the outside of the machine. Think Little House on the Praire style. (To make this hippie hick story even worse, at the time my father had a job miking and delivering goat&amp;#39;s milk. Yes. Capital H hippies.)&lt;/p&gt;
+
+&lt;p&gt;As the story goes, I wandered over to see what my mom was doing, and with quizzical eyes reached up and touched the moving belt.&lt;/p&gt;
+
+&lt;p&gt;Pretty sure my mom screamed before I did. And as blood exploded out of my fingertip I can remember my mom freaking out, snatching me up and running to the bathroom to run my finger under some water stopping the bleeding. &lt;/p&gt;
+
+&lt;p&gt;(Yes, I was less than two years old, so I am making up most of these memories, but I do know that my mom has special mom powers which have been in full glory for years.)&lt;/p&gt;
+
+&lt;p&gt;Years later, now living in Mountain View, California, I was thirteen or fourteen and a pretty good soccer goalie (and defender). It was during a season that my father coached us, and we were doing alright.&lt;/p&gt;
+
+&lt;p&gt;On this particular day, I was watching the burners on the top of the stove turn from hot red to complete black with a simple turn of a dial. Red. Black. Red. Black. Red. Black.&lt;/p&gt;
+
+&lt;p&gt;I remember thinking to myself, I wonder if the burner is cold to the touch by the time it gets black. So I turned the burner on full Red.&lt;/p&gt;
+
+&lt;p&gt;And then turned it off. and waited. Black.&lt;/p&gt;
+
+&lt;p&gt;In retrospect, I would have probably tried to use a paper towel or something, but at the time, my hand was the only testing implement I had available. Black. Hand on burner. Seconds passed. Strange smell started to come from my hand. I believe it was the smell of burning flesh.&lt;/p&gt;
+
+&lt;p&gt;Oh shit, that really hurt. And, for the record, Recently Black on the burner is not cold to the touch. Just in case you were wondering.&lt;/p&gt;
+
+&lt;p&gt;I still carry a scar from that third degree burn on my left wrist, now situated between two tattoos.&lt;/p&gt;
+
+&lt;p&gt;How do these stories of self-mutilation matter?&lt;/p&gt;
+
+&lt;p&gt;Because failure cannot be understood if you don&amp;#39;t experience it. And not in a &amp;ldquo;shoot, I got an A-&amp;rdquo; kinda way, but in a &amp;ldquo;I will carry the scar forever&amp;rdquo; kinda way.&lt;/p&gt;
+
+&lt;p&gt;What I have learned over the years both experiencing and researching failure is that the &lt;em&gt;act of failure&lt;/em&gt; has no consequence, its the &lt;em&gt;reaction to failure&lt;/em&gt; that has real weight.&lt;/p&gt;
+
+&lt;p&gt;I will never again touch a moving belt or a semi-hot burner, but the lesson that I survived the pain or the embarrassment. Just like shutting the doors on my first company or losing an investment has not scared me away from startup land.&lt;/p&gt;
+
+&lt;p&gt;We pay a real disservice to each other by dealing and discussing failure so flippantly. Failure has real gravitas, it can change how someone lives their life drastically. Yet, we love the rags to riches story. The Hollywood comeback. &lt;/p&gt;
+
+&lt;p&gt;We talk about supporting founders who are struggling and, perhaps, headed towards failure, but in truth, we prop up the apparent winners and let the losers slink out to the forest and die. &lt;/p&gt;
+
+&lt;p&gt;Failure isn&amp;#39;t the end. It&amp;#39;s a painful, shitty process, but its just that. A step.&lt;/p&gt;
+
+&lt;p&gt;When I got sober, a friend of mine said to me that the hardest part of sobriety wasn&amp;#39;t being around alcohol and drugs, but forgetting the bad times. For that which we forget, we are doomed to repeat.&lt;/p&gt;
+
+&lt;p&gt;Every day, I look at my left hand with its jagged scar on the index finger and burn mark on my left wrist sitting between two tattoos, and smile.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/yoWfbhHkPS0" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://learntoduck.net/scars</feedburner:origLink></entry>
+  <entry>
+    <id>tag:tom,2012:Post/feedback-loops</id>
+    <published>2013-04-18T06:03:42-07:00</published>
+    <updated>2013-04-18T06:03:42-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/IBvp_CMe_ko/feedback-loops" />
+    <author>
+      <name>Tomasz Tunguz</name>
+      <uri>http://tomtunguz.com</uri>
+    </author>
+    <title>Mastering Feedback Loops in Startups</title>
+    <content type="html">&lt;p&gt;&lt;a href="http://img.svbtle.com/tom_24593211996678.jpg"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/tom_24593211996678_small.jpg" alt="acoustic_feedback.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Feedback loops are essential components of every person&amp;#39;s role within a startup. The most recent and celebrated feedback loop is the viral coefficient or k-factor which Facebook applications optimize to grow their user bases. The &lt;a href="http://en.wikipedia.org/wiki/K-factor_(marketing"&gt;k-factor&lt;/a&gt;, a borrowed concept from the study of biological viruses, measures the rate at which an application spreads through the network.&lt;/p&gt;
+
+&lt;p&gt;But feedback loops don&amp;#39;t solely exist within marketing. For product teams, there is consumer feedback and user engagement metrics. For engineering teams, there&amp;#39;s technical performance. For sales teams, there are quotas, lifetime customer value and productivity per rep metrics. For marketing, there&amp;#39;s k-factor, paid marketing payback period, net promoter score and others.  &lt;/p&gt;
+
+&lt;p&gt;When we measure startups and businesses, we&amp;#39;re trying to detect when a sustainable positive feedback loop has been established and then pour as much gasoline into the growth engine as possible. At some k-factor, a Facebook app can achieve exponential growth results. Such growth is created when a large number of people invite friends to an app and a big-enough percentage of invitees convert to active users. &lt;/p&gt;
+
+&lt;p&gt;The same principle holds true for a sales team. If a salesperson sells 10 times more in software than their monthly salary, a startup should hire as many salespeople as quickly as possible. If a product can catalyze an evangelical user base to drive more customers, then a startup should reinvest in the product and champion their evangelists. At a certain efficiency, feedback loops are powerful engines of growth. &lt;/p&gt;
+
+&lt;p&gt;It stands to reason then that examining and optimizing each of these feedback loops is the keys to successful growth. When evaluating loops, consider three main characteristics: (i) the feedback latency or the time it takes to receive feedback (ii) the feedback potency or strength of the feedback loop and (iii) the feedback efficiency or amplification. &lt;/p&gt;
+
+&lt;p&gt;Obviously, the best feedback loops, exhibit the shortest latencies, the highest potencies at the best efficiences; i.e. grow the business quickly in a very short period of time without much investment. But there aren&amp;#39;t very many of those! &lt;/p&gt;
+
+&lt;p&gt;Viral loops tend to be have short latences. So do paid customer acquisition channels. Because of the relatively instant feedback afforded by these channels, we tend to invest more frequently in these loops. &lt;/p&gt;
+
+&lt;p&gt;On the other hand, internal culture building, content marketing, community building and &lt;a href="http://tomtunguz.com/branding"&gt;brand building&lt;/a&gt; have very long feedback latencies. It can take years for the dividends these investments to outstrip costs. But that doesn&amp;#39;t mean investing in long feedback loops isn&amp;#39;t worth the effort.  Branding, culture and word of mouth are some of the most valuable assets a company can build and investment in these long latency initiatives requires dedication and perseverance. &lt;/p&gt;
+
+&lt;p&gt;Over the course of several years, the goal of a startup&amp;#39;s management team is to forge repeatable processes to grow the business. The best processes create and feed positive feedback loops. Take the time to enumerate the most important feedback loops in your business. Prioritize them, measure their latencies, potencies and efficiencies, fine tune them and repeat. Above all, don&amp;#39;t be afraid if some of those loops are longer latency than others. &lt;/p&gt;
+
+&lt;p&gt;For some great reading creating, fostering and examining feedback loops, check out &lt;a href="http://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557"&gt;Thinking in Systems from MIT&amp;#39;s Donella Meadows.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/justinmduke"&gt;Follow me on Twitter here.&lt;/a&gt;&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/IBvp_CMe_ko" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://tomtunguz.com/feedback-loops</feedburner:origLink></entry>
+  <entry>
+    <id>tag:cadelllast,2012:Post/from-nonlife-to-life-the-unity-of-evolutionary-processes</id>
+    <published>2013-04-17T22:00:32-07:00</published>
+    <updated>2013-04-17T22:00:32-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/z5ovmbT7um0/from-nonlife-to-life-the-unity-of-evolutionary-processes" />
+    <author>
+      <name>Cadell Last</name>
+      <uri>http://theratchet.ca</uri>
+    </author>
+    <title>From Non-Life to Life: The Unity of Evolutionary Processes</title>
+    <content type="html">&lt;p&gt;&lt;a href="http://img.svbtle.com/cadelllast_24592688732214.jpg"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/cadelllast_24592688732214_small.jpg" alt="abiogenesis.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The origin of life.  If there is a more controversial (or complex) scientific problem I have yet to encounter it.  Well&amp;hellip; the origin of everything, or why there is anything at all is perhaps a little more controversial and complex.  But the origin of life is certainly in the top 5.  I know it is a scientific problem that has consistently perplexed me.  But I shouldn&amp;#39;t feel too bad because it seems to have stumped even the brightest scientific minds.  However, a study by chemists Addy Pross and Robert Pascal published last month laid out one of the most impressive working hypotheses I have seen to explain the transition from non-life to life.  The paper is boldly titled: &lt;a href="http://rsob.royalsocietypublishing.org/content/3/3/120190"&gt;The origin of life: what we know, what we can know and what we will never know&lt;/a&gt;.  It is open access and a tremendous read.&lt;/p&gt;
+
+&lt;p&gt;For several decades evolutionary theorists have been working hard to extend the concept of biological evolution into the realms of physics, chemistry, culture, and technology.  In my mind this extension is imperative because it will help us more clearly understand major system transitions and the processes that drive change in our universe.  The most important of these major system transitions is the transition from non-life to life.  We know that biological evolution via well-understood mechanisms (e.g., selection, mutation, gene flow, genetic drift, etc.) allows for the existence of a complex and diverse biosphere.  But we do not know how inorganic matter becomes organic matter.  &lt;/p&gt;
+
+&lt;p&gt;In the recent publication by Pross and Pascal, they first outline what they feel we will never know about this transition: a) the precise historic pathway of inanimate to animate and b) the specific materials present on the prebiotic earth.  I agree with them and I can&amp;#39;t overstate how important it is that they recognize this.  I feel like attempting to re-create the environment of prebiotic earth is the biggest theoretical and methodological flaw scientists make when investigating the transition from non-life to life.  Those experiments are admittedly interesting, but they are not falsifiable.  &lt;/p&gt;
+
+&lt;p&gt;What we need to do is build an understanding of the relationship between chemistry and biology.  Pross and Pascal believe that they have successfully elucidated this relationship.  They state that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In the context of the [origin of life] debate, there is one single and central historic fact on which there is broad agreement - that life&amp;#39;s emergence was initiated by some autocatalytic chemical system.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Adding that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It follows that the study of autocatalytic systems in general may help uncover the principles that govern their chemical behaviour, regardless of their chemical detail.  Extending Darwinian theory to inanimate chemical systems: The recognition that a distinctly different stability kind, dynamic kinetic stability (DKS), is applicable to both chemical and biological replicators, together with the fact that both replicator kinds express similar reaction characteristics, leads to the profound conclusion that the so-called chemical phase leading to simplest life and the biological phase appear to be one continuous physicochemical process, as illustrated in scheme 1.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="http://img.svbtle.com/cadelllast_24592689214488.gif"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/cadelllast_24592689214488_small.gif" alt="lifeF1.medium.gif"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Under this working framework it does not necessarily matter what organic molecules were present on the prebiotic earth.  What matters is that we can understand how replicating systems work, whether they be chemically based, biologically based, or some grey zone between these two replicating worlds.  &lt;/p&gt;
+
+&lt;p&gt;A theory to unite how replicating chemistry forms the basis of biological systems has been long in coming.  Addy Pross suspects there has been such a lack of progress on this unification because chemists have a much better grasp on the static &amp;ldquo;regular&amp;rdquo; chemical world.  However, he contends that there are &amp;ldquo;two chemistries&amp;rdquo;: one static and one dynamic.  And both of these worlds produce stability (i.e., persistence over time) in very different ways. &lt;/p&gt;
+
+&lt;p&gt;Pross believes that there is enough empirical evidence from the study of systems chemistry to conclude that replicating molecules can persist via Dynamic Kinetic Stability (DKS).  This type of chemical stability is vastly different than regular chemical stability.  With regular chemical stability molecules lack reactivity.  A good example of this is the molecule H2O, which is a hydrogen-oxygen mixture that forms a stable bond over time (it persists as a &amp;ldquo;thing&amp;rdquo; and we call that thing water).  This hydrogen-oxygen mixture can form rivers, lakes, and oceans that can persist as a stable entity for an indefinite amount of time.  However, replicating chemistry has a different type of stability that must operate on the population level because they are highly reactive.  DKS essentially is the product of a group of replicating molecules that can be stable over time as a &amp;ldquo;population&amp;rdquo; even though their individual members are constantly changing (which is very different from how a &amp;ldquo;population&amp;rdquo; of H2O molecules achieve stability).  These systems tend to drift from less stable to more stable over time non-randomly.  The quantitative level of stability for the replicating system is dependent on a) its overall size and b) the amount of time it has existed.  Again, this is very different from something like water that can possess the same level of stability regardless of its size or how long it has existed.    &lt;/p&gt;
+
+&lt;p&gt;If this is difficult to conceptualize you could apply the same concept to a biological species and it should come into clear focus.  Think of the human species.  We have persisted for over 150,000 thousand years as a single biological system, and yet our individual members are always changing (at least for the time being #singularity).  Other biological systems have achieved even greater stability.  For example, cyanobacteria have remained essentially unchanged for 2.5-3.5 billion years.  This ancient form of life, a dynamic system, has achieved greater stability than Mount Everest!  And within this analogy resides the key to the discoveries within modern systems chemistry:  replicating chemical systems essentially &amp;ldquo;behave&amp;rdquo; in the same way that replicating biological systems do.  This means that abiogenesis - chemical process by which the simplest life emerged from inanimate beginnings - may have an underlying physicochemical continuity with biological evolution that had previously been unrecognized.  A non-random selection for stability and complexity.  &lt;/p&gt;
+
+&lt;p&gt;For me this research is incredibly fascinating for two reasons: 1) systems chemistry reveals that evolution operates at deeper, more fundamental levels of reality via potentially analogous mechanisms and 2) we are now theoretically able to build models of understanding that the origin of life is a non-random evolutionary process.  &lt;/p&gt;
+
+&lt;p&gt;This research has very deep implications for &lt;a href="http://theratchet.ca/intelligent-life-in-the-milky-way"&gt;how common we should expect life&lt;/a&gt; to be in our universe.  If life is a product of replicating chemical reactions that acquire stability and increase in complexity via selection mechanisms, we should expect molecular life to be ubiquitous.    &lt;/p&gt;
+
+&lt;p&gt;This discovery could represent a critical reformation of how we understand and conceptualize the universe.  If studies of systems chemistry had revealed that at the molecular level there was only random chemical reactions, then our existence would begin to look extremely bizarre.  I mean really, really bizarre.  The chances of random chemical processes leading to the complexity we find at even the simplest biological levels is essentially zero.  Pross and Pascal eloquently end their paper stating as such:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There is good reason to think that the emergence of life on the Earth did not just involve a long string of random chemical events that fortuitously led to a simple living system. If life had emerged in such an arbitrary way, then the mechanistic question of abiogenesis would be fundamentally without explanation — a stupendously improbable chemical outcome whose likelihood of repetition would be virtually zero. However, the general view, now strongly supported by recent studies in systems chemistry, is that the process of abiogenesis was governed by underlying physicochemical principles, and the central goal of [origin of life] studies should therefore be to delineate those principles.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I am very excited to see what future studies in systems chemistry reveal about these underlying principles.  I am already formulating my hypotheses!  It seems likely to me that the basic evolutionary mechanisms that have been so profoundly useful for describing all life, will also help us explain how other dynamic systems change over time.  And hopefully this research will not always remain theoretical.  Although we cannot recreate the prebiotic Earth, if we ever &lt;a href="http://theratchet.ca/life-on-europa"&gt;go to Europa&lt;/a&gt; or peak at &lt;a href="http://theratchet.ca/another-earth"&gt;another Earth&lt;/a&gt; maybe we will be able to see the transition from non-life to life first hand.  &lt;/p&gt;
+
+&lt;p&gt;It is an exciting time to be alive!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://hubski.com/pub?id=80457"&gt;Discuss this on Hubski&lt;/a&gt; or &lt;a href="https://twitter.com/cadelllast"&gt;let me know what you think on Twitter&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/z5ovmbT7um0" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://theratchet.ca/from-nonlife-to-life-the-unity-of-evolutionary-processes</feedburner:origLink></entry>
+  <entry>
+    <id>tag:jamietie,2012:Post/being-first-vs-being-right-first</id>
+    <published>2013-04-17T18:28:42-07:00</published>
+    <updated>2013-04-17T18:28:42-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/Yd1gmUz5Kis/being-first-vs-being-right-first" />
+    <author>
+      <name>Jamie Kelly</name>
+      <uri>http://blog.jamietie.com</uri>
+    </author>
+    <title>Being first vs. being right first</title>
+    <content type="html">&lt;p&gt;CNN and the Associated Press should already know this, but hardly anyone will remember if you were first to get the story right, and hardly anyone will forget if you were first and got the story wrong.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.newyorker.com/online/blogs/closeread/2013/04/boston-marathon-bombings-cnn-ap-false-arrest.html"&gt;And talk about wrong&lt;/a&gt;: Having someone under arrest is a binary state&amp;mdash;either law enforcement officials have someone in custody or they don&amp;#39;t. And in this case, despite repeated claims from CNN and the AP, there was no one in custody.&lt;/p&gt;
+
+&lt;p&gt;As Amy Davidson perfectly puts it in the above-linked &lt;em&gt;New Yorker&lt;/em&gt; blog post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There was a moment, between two and three o’clock on Wednesday, when the phrase “conflicting reports” seemed inadequate to describe the coverage of the Boston Marathon bombing investigation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The reports and their conflicting nature prompted a surprisingly sharp statement from the FBI pointing out the unintended consequences of reports like the AP and CNN&amp;#39;s, and the ones yesterday, repeated by Fox News, CNN, and the &lt;em&gt;New York Post&lt;/em&gt; that a Saudi Arabian man was a suspect in the bombing. He was not; he was one of the more than 100 wounded, and was tackled by an overzealous bystander because he was fleeing the scene. Which, obviously, was the right thing to do.&lt;/p&gt;
+
+&lt;p&gt;I understand the drive to be first. Journalism is a competitive business, and being the first one to report something can be a major advantage, at least in the short run. But a police reporter on his first major case wouldn&amp;#39;t make some of the mistakes journalists and the AP and CNN (among many others) made this week. It makes me wonder who, exactly, the sources they were relying on why, and what those journalists must have done to make the sources so angry.&lt;/p&gt;
+
+&lt;p&gt;The idea that the FBI proposed. trying to get confirmation from official sources, is laughable. Journalists aren&amp;#39;t supposed to wait around and be spoon-fed the official story. A vigorous media finds and follows leads outside what police or FBI officials talk about publicly, and that&amp;#39;s an important part of the media&amp;#39;s role in society. But accuracy counts. There is enough confusion and misinformation circulating during a big story like the Boston marathon bombing, which makes it all the more important for news organizations to not just be first, but the first to be right.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/Yd1gmUz5Kis" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://blog.jamietie.com/being-first-vs-being-right-first</feedburner:origLink></entry>
+  <entry>
+    <id>tag:nate,2012:Post/i-dont-want-this-day-to-end</id>
+    <published>2013-04-17T09:17:24-07:00</published>
+    <updated>2013-04-17T09:17:24-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/EDJWNFfITKk/i-dont-want-this-day-to-end" />
+    <author>
+      <name>Nathan Kontny</name>
+      <uri>http://ninjasandrobots.com</uri>
+    </author>
+    <title>I don't want this day to end.</title>
+    <content type="html">&lt;p&gt;Ambition is a dangerous tool. I still don&amp;#39;t know how to wield it properly. Somedays it helps me create really cool things, and other times it feels like I&amp;#39;m stabbing myself with it.&lt;/p&gt;
+
+&lt;p&gt;The other day I heard an interview with Mandy Patinkin on National Public Radio. Mandy is the actor who plays Saul on Homeland, a current TV series that&amp;#39;s been successful. He&amp;#39;s also very well known for his role in The Princess Bride. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hello, my name is Inigo Montoya. You killed my father. Prepare to die.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mandy has gone through his share of setbacks. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Patinkin suffered from keratoconus, a degenerative eye disease, in the mid-1990s. This led to two corneal transplants, his right cornea in 1997 and his left in 1998. He also was diagnosed with and treated for prostate cancer in 2004.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Mandy_Patinkin"&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I enjoyed his perspective on ambition. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When I&amp;#39;m on the Homeland set, and I&amp;#39;m the oldest guy there. I&amp;#39;m so privileged to be with not just young people, but incredibly gifted people that are my teachers and my guides in this particular time of life, and I see some of them spinning their wheels. &lt;/p&gt;
+
+&lt;p&gt;I can feel it. &amp;ldquo;I&amp;#39;m young. This is a good moment in my career. How can I capitalize on this? How can I turn this into something else? How can I make the most of it?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;And that&amp;#39;s how I thought all the time as a kid. And I&amp;#39;m now 60. And I sit there in that room. And it&amp;#39;s a 14-16 hour day, and I don&amp;#39;t want the day to end. &lt;/p&gt;
+
+&lt;p&gt;I don&amp;#39;t think for one second, &amp;ldquo;How can I make more of this. How can I make this get me something.&amp;rdquo; I could care less. I don&amp;#39;t want this day to end. &lt;/p&gt;
+
+&lt;p&gt;I just love it. I know it will end. The one thing I know no matter how successful this is, it&amp;#39;s just a split second on the timeline of history.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mandy Patinkin&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The story above starts at about 12:00 &lt;a href="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20130306_44605.mp3"&gt;into this podcast&lt;/a&gt;. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S. &lt;a href="http://twitter.com/natekontny"&gt;It would be awesome to meet you on Twitter&lt;/a&gt;.&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/EDJWNFfITKk" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://ninjasandrobots.com/i-dont-want-this-day-to-end</feedburner:origLink></entry>
+  <entry>
+    <id>tag:tom,2012:Post/successful-smb-saas-startups</id>
+    <published>2013-04-17T07:40:00-07:00</published>
+    <updated>2013-04-17T07:40:00-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/sTSyMJ5d1gs/successful-smb-saas-startups" />
+    <author>
+      <name>Tomasz Tunguz</name>
+      <uri>http://tomtunguz.com</uri>
+    </author>
+    <title>The Defining Characteristics of Successful SMB SaaS Startups</title>
+    <content type="html">&lt;p&gt;At first glance, SMB SaaS companies, those who sell Software-as-a-Service to small to medium businesses, may seem like any other software company. But they are quite a different breed. &lt;/p&gt;
+
+&lt;p&gt;Successful SMB SaaS companies have reinvented their businesses eschewing the expensive enterprise sales model in favor of end-user centric marketing, support and product development. These businesses often look more like consumer startups than enterprise startups. It&amp;#39;s all because of the nature of the market. &lt;/p&gt;
+
+&lt;h2&gt;Market Dynamics&lt;/h2&gt;
+
+&lt;p&gt;SMB SaaS companies sell to a highly fragmented market. See the table below comparing the enterprise and SMB segments by number of firms, employees and payroll. &lt;/p&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Co. Size&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;&lt;span style="text-align: right;"&gt;Firms in k&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;Employees in M&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;Payroll in $B&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;Employees/Firm&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;Payroll/Firm in $M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;1 to 500&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;5,749&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;56.2&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;2,085&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;10&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;0.36&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Greater than 500&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;17.5&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;58.2&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;2,771&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;3,326&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;158&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;p style="text-align: right;"&gt;Source: &lt;a href="http://www2.census.gov/econ/susb/data/2009/us_state_totals_2009.xls"&gt;US Census&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are about 17,500 enterprises with greater than 500 employees compared to 5.8M SMBs. The average traditional enterprise software company sells to firms with 3300 employees whose average payroll is $160M annually. On the other hand, SMB SaaS companies sell to firms with 10 employees and $400k in annual payroll. Clearly, these are two very different segments. &lt;/p&gt;
+
+&lt;p&gt;Encouragingly, the market size for enterprise software is roughly equal to the market size for the SMB market: about 57M potential seats in each. Of course, the true number depends on the market segment: sales, HR, payroll, expense management, etc. &lt;/p&gt;
+
+&lt;h2&gt;Shifting from Customer Acquisition from Field Sales to Customer Support&lt;/h2&gt;
+
+&lt;p&gt;As a result of the fragmentation, SMB SaaS companies need to reach and market to 1,000 times more companies than their enterprise counterparts. Obviously this requires a new sales process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No White Papers; Just Mass Media Marketing&lt;/strong&gt;
+Typically, this sales process leads with a product that excites users and triggers word of mouth sharing, and blog posts, and news articles. Direct sales, powered by quota carrying, relationship building salespeople, aren&amp;#39;t profitable at this scale. Instead, mass media channels must be used: press, mobile app stores (iOS &amp;amp; Android), web app stores (Chrome, Google Apps, Intuit and Force). &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Customer Support Becomes the Sales Team&lt;/strong&gt;
+This huge number of customers implies every customer support rep must handle hundreds to thousands of customers per year instead of ones or tens of customers typical with enterprise focused companies. Customer support becomes an inside sales team. They drive upsells and cross-sells through webinars and blogging and support emails.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;End User Centric Development&lt;/strong&gt;
+The product development cycle also differs. Without enterprise customers, there are no enterprise commitments. No promises to customers about releasing features on particular dates or paid upgrade cycles. It&amp;#39;s all subscription. Take it or leave it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Product Offers a 2 Step Value Proposition&lt;/strong&gt;
+The most successful SMB SaaS products typically offer a 2 step value proposition: an initial value proposition to the end user and a longer term value proposition to a manager/decision maker. &lt;/p&gt;
+
+&lt;p&gt;Expensify offers simple expense reports to the end user just by scanning receipts. To the controller/VP of Finance, Expensify offers better compliance with spend policies, a huge challenge for most companies of any scale. Similarly, Salesforce offered easier to use CRM to salespeople and better metrics for the sales manager. Yammer offers employees a better communication mechanism to end users and offered the IT department compliance controls.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Product Closes the Loop and Reinforces the Efforts of Marketing and Support&lt;/strong&gt;
+The end user value proposition drives press and word of mouth sharing. This increases marketing budget effectiveness. Effective SMB products also prequalify customers through the &lt;a href="http://tomtunguz.com/the-new-sales-hotness-the-product-qualified-lead-pql"&gt;Product Qualified Lead.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Know Thy Market&lt;/h2&gt;
+
+&lt;p&gt;By first appreciating the radically different nature of the SMB market and second by shaping the business to meet the demands of that market, startups serving SMBs can grow and scale and become hugely successful. But it all starts with a good understanding of the fragmented nature of the market. &lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/sTSyMJ5d1gs" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://tomtunguz.com/successful-smb-saas-startups</feedburner:origLink></entry>
+  <entry>
+    <id>tag:adii,2012:Post/swinging-for-the-fences</id>
+    <published>2013-04-16T13:02:46-07:00</published>
+    <updated>2013-04-16T13:02:46-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/SzWNoM8vc7k/swinging-for-the-fences" />
+    <author>
+      <name>Adii Pienaar</name>
+      <uri>http://adii.me</uri>
+    </author>
+    <title>Swinging For The Fences</title>
+    <content type="html">&lt;p&gt;A couple of weeks ago I read Ben Huh&amp;#39;s post about how he got really depressed and contemplated suicide. One thing really stuck with me:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Failure is an option, and a real risk. Failure and risk something entrepreneurs understand well, and learn to manage. However, death isn’t an option, it’s an inevitability. *&lt;/em&gt;And before I die, I want to take as many swings at the fence as I can.**&amp;rdquo;*&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Swinging for the fences.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m only 28 years old. I haven&amp;#39;t had a near-death experience. I&amp;#39;m relatively healthy and my life expectancy is good.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve also had a good - maybe even great - life thus far. I&amp;#39;m married to my beautiful wife, who doubles as my soulmate, best friend &amp;amp; muse. I have a 16-month old son that is starting to look &amp;amp; act more like I do every day. I had the opportunity to take a chance (on myself) when I was quite young and that chance has lead to immense success at WooThemes (which has in turned spawned more opportunities).&lt;/p&gt;
+
+&lt;p&gt;But if you ask me how many times I&amp;#39;ve taken a swing for the fences, I could count those attempts on two hands.&lt;/p&gt;
+
+&lt;p&gt;Ever since reading Ben&amp;#39;s post, I&amp;#39;ve felt this desire &amp;amp; passion to take a few more swings.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;As I settled into bed last night, I opened up Twitter to do some pre-sleep reading when I stumbled onto various tweets about the Boston Marathon bombings. I subsequently struggled to go to sleep and when I eventually dozed off, it was an uneasy sleep at best.&lt;/p&gt;
+
+&lt;p&gt;When I woke this morning, I enjoyed my coffee along with CNN&amp;#39;s special coverage of the bombings. The same uneasiness that I took into dreamland was still there.&lt;/p&gt;
+
+&lt;p&gt;Throughout the day, I wasn&amp;#39;t able to think about much else than the bombings. When I heard the news that the first (confirmed) victim was a 8-year-old boy, I immediately felt the need to hug my own son and hold him close. I also hugged my wife.&lt;/p&gt;
+
+&lt;p&gt;I felt vulnerable. Life felt fragile.&lt;/p&gt;
+
+&lt;p&gt;Even though I was about 8000 miles away from Boston and the bombings, I felt the emotional impact as if I was there.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I&amp;#39;m not one to crawl into a corner. I needed a nudge in the opposite direction today.&lt;/p&gt;
+
+&lt;p&gt;That nudge turned out to be &lt;a href="https://www.facebook.com/pattonoswalt/posts/10151440800582655"&gt;these awesome and inspirational words from Patton Oswalt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;His words spoke to me and made me feel less vulnerable. His words encouraged me to try make a dent in the universe and swing to the fences.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve since decided that yesterday&amp;#39;s bombings and all of my emotions will serve as a constant reminder of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Life is way too short. &lt;strong&gt;And&lt;/strong&gt; I have absolutely no idea how much time I&amp;#39;ll have.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Regret manifests way too easily. And it&amp;#39;s not like my decision-making is perfect.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I can however control how many times and how often I swing for the fences. It doesn&amp;#39;t even need to be perfect; I just need to keep on taking those swings.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How will you swing for the fences today?&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/SzWNoM8vc7k" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://adii.me/swinging-for-the-fences</feedburner:origLink></entry>
+  <entry>
+    <id>tag:adumont,2012:Post/the-difference-between-sales-and-business-development</id>
+    <published>2013-04-16T11:15:10-07:00</published>
+    <updated>2013-04-16T11:15:10-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/yiNtJe08n1g/the-difference-between-sales-and-business-development" />
+    <author>
+      <name>Andrew  Dumont</name>
+      <uri>http://andrewdumont.me</uri>
+    </author>
+    <title>The Difference Between Sales and Business Development</title>
+    <content type="html">&lt;p&gt;Almost daily, I run into the misconception that the function of sales and business development are interchangeable, from co-workers to industry peers. This stems primarily, I believe, from the shift in titles of salespeople to business development &amp;ndash; which has been done in an effort to avoid the negative connotation that surrounds it.&lt;/p&gt;
+
+&lt;p&gt;In reality, the two are very different. Hence, this tweet.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;If you use the terms Business Development and Sales interchangeably, you&amp;rsquo;re doing it wrong.&lt;/p&gt;&amp;mdash; Andrew Dumont (@AndrewDumont) &lt;a href="https://twitter.com/AndrewDumont/status/314914841364148224"&gt;March 22, 2013&lt;/a&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;But 140 characters just isn&amp;#39;t enough to explain of the subtleties, so here we are. &lt;/p&gt;
+
+&lt;p&gt;When you think about the function of business development, it should be thought of as a marketing function. Yes, there are some soft sales skills (qualification, negotiation, etc.) that are necessary to become a good business development professional, but at the end of the day, it&amp;#39;s a marketing function. &lt;/p&gt;
+
+&lt;p&gt;If you were to think about it on a sliding scale between a pure function of sales or marketing, it would wind up somewhere around here.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://img.svbtle.com/adumont_24587316673038.png"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/adumont_24587316673038_small.png" alt="Screen Shot 2013-04-09 at 8.24.31 PM.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The reason behind this, is that typical goals of business development include brand placement, market expansion, new user acquisition, and awareness &amp;ndash; all of which are shared goals of marketing. The slight slide towards sales is simply because of the tactics business development employs to achieve those goals.&lt;/p&gt;
+
+&lt;p&gt;Which is where we get into the meat of it.&lt;/p&gt;
+
+&lt;p&gt;Regardless of the company, business development tends to hold the same structure, which I sketched up quickly below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://img.svbtle.com/adumont_24587329233240.png"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/adumont_24587329233240_small.png" alt="Screen Shot 2013-04-09 at 8.42.03 PM.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Simply stated, the function of sales is to sell directly to the end customer. The function of business development is to work through partners to sell to the end customer, in a scalable way. &lt;/p&gt;
+
+&lt;p&gt;That last part is key. &lt;/p&gt;
+
+&lt;p&gt;Scalability is the differentiator. It allows a company to use pre-existing sales teams or communities that a partner has developed to reach new audiences. Sales is very much an equation of capacity, which is why sales teams tend to grow so large. Business development teams, on the other hand, are typically very small, maintaining their small size by working through existing partner infrastructures. The art of business development comes in identifying partners that fit that description, while finding a way to provide value to the partner&amp;#39;s end customer and business.&lt;/p&gt;
+
+&lt;p&gt;You can see this relationship in a few of the examples I laid out in a previous post on &lt;a href="http://andrewdumont.me/role-of-business-development-startups"&gt;the role of business development at a startup&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Now, all of this isn&amp;#39;t meant to de-value the function of sales. Truth be told, I really respect good salespeople. It&amp;#39;s an extremely difficult career, one with constant denial and pressure to succeed. Sales is hard, and should be respected when it&amp;#39;s done at a high level. &lt;/p&gt;
+
+&lt;p&gt;But the two are very different, despite their apparent overlap.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/yiNtJe08n1g" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://andrewdumont.me/the-difference-between-sales-and-business-development</feedburner:origLink></entry>
+  <entry>
+    <id>tag:nate,2012:Post/rails-ab-testing</id>
+    <published>2013-04-16T09:15:38-07:00</published>
+    <updated>2013-04-16T09:15:38-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/fusEdYBFsgI/rails-ab-testing" />
+    <author>
+      <name>Nathan Kontny</name>
+      <uri>http://ninjasandrobots.com</uri>
+    </author>
+    <title>Rails AB Testing - Simple Abs</title>
+    <content type="html">&lt;p&gt;I recently turned on paid subscriptions to &lt;a href="https://draftin.com"&gt;Draft, the writing software&lt;/a&gt; I&amp;#39;ve created. And I wanted a really simple way to test a few alternatives of the payment page in Rails without needing to use a separate service.&lt;/p&gt;
+
+&lt;p&gt;But the solutions out there get too complicated. Even the &amp;ldquo;simplest&amp;rdquo; ones require things like Redis. They do that because somewhere the AB testing library needs to remember what variation of a test a user has already seen, so it knows what to show them on subsequent visits. &lt;/p&gt;
+
+&lt;p&gt;But I don&amp;#39;t want to install Redis just to have my AB tests be performant. That&amp;#39;s still an extra network call to Redis for this simple operation, not to mention the added complexity of adding Redis to my software stack when I don&amp;#39;t need it right now. &lt;/p&gt;
+
+&lt;p&gt;Why can&amp;#39;t the AB testing library just store what variation a user has already seen in the user&amp;#39;s cookies? &lt;/p&gt;
+
+&lt;p&gt;That&amp;#39;s what SimpleAbs does. &lt;/p&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Add this line to your application&amp;#39;s Gemfile:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem &amp;#39;simple_abs&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then execute:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ bundle
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or install it yourself as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gem install simple_abs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create the migration to install the Alternatives table: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rails g simple_abs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run the migrations: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake db:migrate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;Use simple_abs to figure out an &amp;ldquo;alternative&amp;rdquo; to show your users. You can get ahold of an alternative from either a Rails View or a Controller. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ruby"&gt;ab_test(experiment name, [variation name 1, variation name 2, etc.])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here&amp;#39;s an example where I might have three different versions of a buy page. simple_abs will randomly pick which version this user should see.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ruby"&gt;def buy
+  @buy_page = ab_test(&amp;quot;buy_page&amp;quot;, [&amp;quot;short&amp;quot;, &amp;quot;medium&amp;quot;, &amp;quot;long&amp;quot;])
+
+  render action: &amp;#39;buy&amp;#39;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, in your template, you can use an if statement to show them that version of the @buy_page:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="erb"&gt;&amp;lt;% if @buy_page == &amp;quot;long&amp;quot; %&amp;gt;
+  Lots of extra information
+&amp;lt;% end %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If they&amp;#39;ve already seen one of the alternatives, simple_abs figures that out from the permanent cookies of the user. In other words, if on the first visit, this method:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ruby"&gt;ab_test(&amp;quot;buy_page&amp;quot;, [&amp;quot;short&amp;quot;, &amp;quot;long&amp;quot;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Returns &amp;ldquo;short&amp;rdquo;. On subsequent visits to the page from this same user, you will also get the value &amp;ldquo;short&amp;rdquo; from the ab_test method.&lt;/p&gt;
+
+&lt;p&gt;Once your user converts you can call &amp;ldquo;converted!(experiment name)&amp;rdquo; from a View or Controller: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ruby"&gt;converted!(&amp;quot;buy_page&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also force someone to a specific alternative of your page by using the query paramater &amp;ldquo;test_value&amp;rdquo; in your url: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://draftin.com/buy_things?test_value=long
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When you get some data you can look at it from a Rails console. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ruby"&gt;irb(main):011:0&amp;gt; pp SimpleAbs::Alternative.where(&amp;quot;experiment = &amp;#39;buy_page&amp;#39;&amp;quot;).all
+  SimpleAbs::Alternative Load (55.1ms)  SELECT &amp;quot;alternatives&amp;quot;.* FROM &amp;quot;alternatives&amp;quot; WHERE (experiment = &amp;#39;buy_page&amp;#39;)
+[#&amp;lt;SimpleAbs::Alternative id: 2, which: &amp;quot;short&amp;quot;, participants: 16, conversions: 1, experiment: &amp;quot;buy_page&amp;quot;, created_at: &amp;quot;2013-04-16 05:14:13&amp;quot;, updated_at: &amp;quot;2013-04-16 13:39:14&amp;quot;&amp;gt;,
+ #&amp;lt;SimpleAbs::Alternative id: 1, which: &amp;quot;long&amp;quot;, participants: 20, conversions: 1, experiment: &amp;quot;buy_page&amp;quot;, created_at: &amp;quot;2013-04-16 05:11:12&amp;quot;, updated_at: &amp;quot;2013-04-16 14:30:01&amp;quot;&amp;gt;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then you can plug the participants and conversions into a calculator like that found here: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://tools.seobook.com/ppc-tools/calculators/split-test.html"&gt;http://tools.seobook.com/ppc-tools/calculators/split-test.html&lt;/a&gt; &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Trials        = simple_abs&amp;#39; participants
+Successes     = simple_abs&amp;#39; conversions    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/n8/simple_abs"&gt;Source code available on Github&lt;/a&gt;. Feedback and pull requests are greatly appreciated.  &lt;/p&gt;
+
+&lt;h2&gt;Credit&lt;/h2&gt;
+
+&lt;p&gt;This library is very much inspired by the other AB testing libraries out there. Not the least of which is A/Bingo from &lt;a href="https://twitter.com/patio11"&gt;Patrick McKenzie&lt;/a&gt;. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S. &lt;a href="http://twitter.com/natekontny"&gt;It would be awesome to meet you on Twitter&lt;/a&gt;.&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/fusEdYBFsgI" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://ninjasandrobots.com/rails-ab-testing</feedburner:origLink></entry>
+  <entry>
+    <id>tag:tom,2012:Post/the-two-key-ingredients-in-great-connected-consumer-products</id>
+    <published>2013-04-16T09:06:17-07:00</published>
+    <updated>2013-04-16T09:06:17-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/HhuaJEp7WEE/the-two-key-ingredients-in-great-connected-consumer-products" />
+    <author>
+      <name>Tomasz Tunguz</name>
+      <uri>http://tomtunguz.com</uri>
+    </author>
+    <title>The Two Key Ingredients in Great Connected Consumer Products</title>
+    <content type="html">&lt;p&gt;&lt;a href="http://img.svbtle.com/tom_24590311425792.jpg"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/tom_24590311425792_small.jpg" alt="ElectricIMP-WiFi.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve all had a great idea for a product that would solve a pain we feel directly. It used to be impossible to convey that insight to anyone who might be in a position to act upon it. But that&amp;#39;s all changing because of the Internet. &lt;/p&gt;
+
+&lt;p&gt;Of late, it&amp;#39;s becoming increasingly easier for consumers to share their ideas for great products and bring them to market. One great example of this is a company called &lt;a href="http://www.quirky.com"&gt;Quirky&lt;/a&gt; which solicits ideas from a community of people all over the world. It refines the ideas, prototypes them, leveraging the insights of the community and then manufactures these products and sends them to retailers. Quirky solves many of the challenges in bringing products to market. &lt;/p&gt;
+
+&lt;p&gt;I believe great product design and simple connectivity will be the defining principle of success for connected consumer products. For many products, connectivity to the Internet breathes magic into once static objects. That&amp;#39;s the vision behind one of Redpoint&amp;#39;s investments, Electric Imp. &lt;/p&gt;
+
+&lt;p&gt;Combining the product design expertise of Quirky with the magic connectivity of Electric Imp enables regular people to dream of new ideas and work with Quirky and Electric Imp to create and bring these new inventions. &lt;/p&gt;
+
+&lt;p&gt;Over the next few weeks, &lt;a href="http://www.wired.com/gadgetlab/2013/04/electric-imp-partnership/"&gt;Electric Imp, Quirky and GE, all partners in innovation&lt;/a&gt;, will solicit ideas for connected devices and then work to build these products and bring them to market. &lt;/p&gt;
+
+&lt;p&gt;If you have a great idea for a new connected product, &lt;a href="http://www.quirky.com/session/new"&gt;submit your idea&lt;/a&gt;. You may see it on store shelves before the holidays!&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/HhuaJEp7WEE" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://tomtunguz.com/the-two-key-ingredients-in-great-connected-consumer-products</feedburner:origLink></entry>
+  <entry>
+    <id>tag:kevin,2012:Post/100-breath-meditation</id>
+    <published>2013-04-16T08:58:28-07:00</published>
+    <updated>2013-04-16T08:58:28-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/qokjbZqF0aY/100-breath-meditation" />
+    <author>
+      <name>Kevin Rose</name>
+      <uri>http://kevinrose.com</uri>
+    </author>
+    <title>100 Breath Meditation, 30 day challenge</title>
+    <content type="html">&lt;h2&gt;My heart goes out Boston, one of my favorite cities. Be well.  &lt;/h2&gt;
+
+&lt;p&gt;Everyday it seems we&amp;#39;re bombarded with stress. Sometimes it&amp;#39;s current world events, other times it&amp;#39;s our jobs or family &amp;ndash; everyone&amp;#39;s list of stressors is different, but I&amp;#39;m sure you can relate.  &lt;/p&gt;
+
+&lt;p&gt;Over the years I&amp;#39;ve become an fan of meditation to help reduce stress. The only problem is that (for me) it&amp;#39;s really hard to sit still for 30+ minutes a day. So when I say I&amp;#39;m a fan of meditation, I really am just that, an outsider fanboy that likes the idea, but never really does it.&lt;/p&gt;
+
+&lt;p&gt;Recently I was having a conversation w/ my friend Philip Rosedale. Philip is a tech genius (&lt;a href="http://foundation.bz/3/"&gt;don&amp;#39;t believe me?&lt;/a&gt;), and he&amp;#39;s also a big fan of counting as a form of meditation (check out &lt;a href="https://twitter.com/philiprosedale"&gt;his twitter&lt;/a&gt;, he counts to 10,000 every single day). Philip was sharing with me the positive and relaxed mental state you can achieve with counting meditation, so I thought I&amp;#39;d give it a try.  &amp;hellip;and&amp;hellip; I can&amp;#39;t do it. For me, counting to 10,000 or even 1,000 is next to impossible. But it got me thinking, what if I took traditional &amp;#39;&lt;a href="http://en.wikipedia.org/wiki/Anapanasati"&gt;following the breath&lt;/a&gt;&amp;#39; meditation and combined it with counting. I gave it a shot and noticed some immediate (calming) results.&lt;/p&gt;
+
+&lt;p&gt;100 Breath Meditation&lt;br&gt;
+Eliminate distractions, shut off the TV, turn off your music, and minimize your real-time bitcoin currency tracker (I&amp;#39;m a buyer at 50). Close your eyes and follow your breath. Don&amp;#39;t try to change or influence your breath (faster or slower), simply observe the inhale and exhalations. Now, after you&amp;#39;ve settled (3-5 breaths), start to count each breath in your head:  &lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; inhale/exhale, 1 &amp;ndash;&lt;br&gt;
+&amp;ndash; inhale/exhale, 2 &amp;ndash;  &lt;/p&gt;
+
+&lt;p&gt;Your goal for the day is to hit 100. If you make it to 10 and the phone rings, start with 11 later that day. Ideally you&amp;#39;d go to 100 in one session, but somedays (like today for me, I&amp;#39;m at 50) it will require going back a few times. If you find your mind wondering, don&amp;#39;t get upset or agitated &amp;ndash; gently bring your mind back to your breath and resume counting.&lt;/p&gt;
+
+&lt;p&gt;Join me&lt;br&gt;
+Starting today, I&amp;#39;d like to challenge you to 30 days of 100 Breath Meditation. To join the fun, download &lt;a href="http://lift.do/"&gt;the Lift iPhone app&lt;/a&gt;, then search for and join &amp;ldquo;100 Breath Meditation&amp;rdquo;. This app allows you to track positive habits in your life (sorry no android version yet). It&amp;#39;s been a couple weeks for me and I&amp;#39;m really seeing very positive results, I hope this helps you on your path to enlightenment. Cheers.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/qokjbZqF0aY" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://kevinrose.com/100-breath-meditation</feedburner:origLink></entry>
+  <entry>
+    <id>tag:jamietie,2012:Post/where-is-the-line-between-informing-and-exploiting</id>
+    <published>2013-04-16T07:01:20-07:00</published>
+    <updated>2013-04-16T07:01:20-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/FeOMReo59Zg/where-is-the-line-between-informing-and-exploiting" />
+    <author>
+      <name>Jamie Kelly</name>
+      <uri>http://blog.jamietie.com</uri>
+    </author>
+    <title>Where is the line between informing and exploiting?</title>
+    <content type="html">&lt;p&gt;How much coverage is too much, and when does the saturation of coverage of an event like the Boston Marathon bombing inadvertently serve the goals of the attackers? It&amp;#39;s an excellent question asked by &lt;a href="https://twitter.com/KateGardiner"&gt;Kate Gardiner&lt;/a&gt; about the coverage of the explosion on Monday.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;I wonder how much we&amp;rsquo;ve rewarded the bomber(s) by inundating them with coverage.&lt;/p&gt;&amp;mdash; Kate Gardiner (@KateGardiner) &lt;a href="https://twitter.com/KateGardiner/status/323943016970743808"&gt;April 15, 2013&lt;/a&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;My reply was simple&amp;mdash;perhaps simplistic, actually&amp;mdash;we need to draw a line between informing the public and exploiting the victims of this attack. But neither she nor I really know where that line is.&lt;/p&gt;
+
+&lt;p&gt;The distribution of news has fundamentally changed in the nearly 12 years since the Sept. 11, 2001 terrorist attacks. It isn&amp;#39;t worthwhile to list all of the changes, but the rise of mobile phones with video cameras and social media&amp;mdash;especially Twitter&amp;mdash;have made an already ravenous appetite for instant updates nearly insatiable. &lt;/p&gt;
+
+&lt;p&gt;That leaves us with a few questions.&lt;/p&gt;
+
+&lt;p&gt;First, is that appetite healthy? &lt;del&gt;Hell if I know.&lt;/del&gt; I&amp;#39;m really not sure. People much smarter than I am have made &lt;a href="http://en.wikipedia.org/wiki/Information_overload"&gt;persuasive arguments about too much information being bad for you&lt;/a&gt;. But the appetite exists, and is rooted in simple human curiosity. From a purely practical perspective, it barely matters. You would be hard pressed to find a news organization willing to sit a story as big as the Boston explosion out, even if it&amp;#39;s nowhere near the Northeast. And even if one organization did, there are innumerable other sources where people can turn.&lt;/p&gt;
+
+&lt;p&gt;Not everyone agrees with that proposition, of course. Some &lt;a href="https://twitter.com/chockenberry/status/323961119293177856"&gt;think&lt;/a&gt; that the coverage is too much, and that it actually &lt;a href="https://twitter.com/giromide/status/323963360498548738"&gt;impedes our understanding&lt;/a&gt;. I&amp;#39;m not sure. The 24-hour news cycle&amp;mdash;which is much older than the Internet, let&amp;#39;s not forget&amp;mdash;wouldn&amp;#39;t exist if people weren&amp;#39;t consuming that information. News networks need to be more responsible, yes, but I don&amp;#39;t think too much information is the problem. The problem is not enough &lt;em&gt;good&lt;/em&gt; information. Too many anchors and commentators simply talk to fill up time, and the speculation that engenders is not helpful.&lt;/p&gt;
+
+&lt;p&gt;Media consumers need to be careful as they decide what to consume. Cable news has a lot of advantages, but too often offers baseless speculation to fill time. And while the Internet has made it so much easier to share news, it also allows misinformation to spread at the same speed. Consumers need to be as cautious and skeptical about unverified reports as journalists should be.&lt;/p&gt;
+
+&lt;p&gt;That leads us to the next question: How can a news organization share information in a responsible way? There is a difference between covering a car crash and enabling people to gawk at one. So too is there a difference between keeping people informed and exploiting a tragedy to drive pageviews. I think Gardiner, along with a lot of other people I follow on Twitter, actually did a good job. They see massive amounts of information in their feeds, and they pass along information that has been verified or seems important. That includes locations of coverage for people following the news and information that could be important to people actually in Boston. I think that serves as a very good model for how to cover something like this on Twitter. And the &lt;a href="http://bostonglobe.com/metro/2013/04/15/explosions-rock-boston-marathon-finish-line-dozens-injured/yLhfDT1XC3HXSa8wPiVijL/story.html?camp=id"&gt;Boston Globe&lt;/a&gt; did a really terrific job pulling together a story quickly that answers the questions it can and explains why it can&amp;#39;t answer others yet.&lt;/p&gt;
+
+&lt;p&gt;And to the final question, which is also the first that was asked: Are we serving the bombers&amp;#39; ends with constant coverage? The answer is a resounding &amp;ldquo;maybe&amp;rdquo; with a side of I&amp;#39;m not sure it matters. Journalists have a duty to cover tragedies like this responsibly. That means something different than it would have a decade or more ago. But the key word is responsibly. Journalists and commentators need to be clear about what they know and what they don&amp;#39;t know, and put what they do know into perspective. If they do that, even if it is what the attackers want, they&amp;#39;ve done their job.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/FeOMReo59Zg" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://blog.jamietie.com/where-is-the-line-between-informing-and-exploiting</feedburner:origLink></entry>
+  <entry>
+    <id>tag:ben,2012:Post/thiel-fellowship-closing-ceremony-speech</id>
+    <published>2013-04-15T22:05:51-07:00</published>
+    <updated>2013-04-15T22:05:51-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/9D1nj-ZeWg8/thiel-fellowship-closing-ceremony-speech" />
+    <author>
+      <name>Ben Yu</name>
+      <uri>http://benyu.org</uri>
+    </author>
+    <title>Thiel Fellowship Closing Ceremony Speech</title>
+    <content type="html">&lt;p&gt;I have come to the conclusion that I suck at blogging on demand and that if I make myself write a post on Monday I will generally tend to wait until the last minute to write it. To counter this, I&amp;#39;m going to try writing every other day and only posting the best two pieces on Monday and Friday. If that still fails, I&amp;#39;ll try every day and Tynan can tell me &lt;a href="http://tynan.com/erryday"&gt;I told you so.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway, in the meantime, as it&amp;#39;s midnight CST here on Monday, here&amp;#39;s the short semi-prepared speech I gave this weekend at the Thiel Fellowship Closing Ceremonies (we all gave a two minute quip about our two years).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There were a lot of surprising things I learned as a Thiel Fellow, but one of the most striking is how quickly two years go by.  Most of my life’s seemed interminably slow, and when I accepted the fellowship two years seemed like forever. But here I am, two years later, and it feels like it’s gone by in the blink of an eye.&lt;/p&gt;
+
+&lt;p&gt;I have a few theories as for why that is.  One of them is that strangely enough, the fact that the Fellowship seems to have passed so quickly is an indication of just how much experience it managed to cram into two short years. Looking back, the entirety of the fellowship feels like one long day of building things, learning, and meeting incredible people. There was no time to realize that time was passing.&lt;/p&gt;
+
+&lt;p&gt;In two years, I managed to fail at one startup, learn a ton of lessons, meet an amazing cofounder on an equally amazing trip to Antarctica organized by an also equally amazing mentor, discover, develop, and invent transdermal caffeine, patent transdermal caffeine, and am now in the process of building our new venture with the launch of our flagship product Sprayable Energy.&lt;/p&gt;
+
+&lt;p&gt;I think I’ve learned a few things along the way. One is a simple one – perseverance and determination, along with experience, goes a long way.  Especially in startups, progress in the short term is incredibly difficult to measure, as it’s more often than not not linear or even sequential. One minute we might be on top of the world, and the next in a massive ditch. And a few minutes after that, we might be on top of the world again. So I’ve learned to not put so much weight on the short term and optimize for the long term, and we’ll see what happens in the end.&lt;/p&gt;
+
+&lt;p&gt;Another lesson was less apparent to me, and that’s that oak trees come from acorns. Richard Hamming gave a great talk called You and Your Research – in it, he noted that great work never came about as the result of trying for the great thing straight off – it always resulted from starting small, and planting the little seeds that ultimately grew into mighty oaks. So I guess what I’ve learned here again is to aim for the long term – I’m very impatient, but there’s no point in trying to build a skyscraper without first setting the foundation.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I’d like to thank all my fellow fellows and everyone else in the network for being awesome friends and mentors and helping make this experience something I’ll never forget.  And I want to thank my family for always being right behind me, supporting me the entire way. And I’d like to say a word of encouragement to all the incoming fellows – I’m super excited to see what you all do, and we’ll all get there in the end :).&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/9D1nj-ZeWg8" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://benyu.org/thiel-fellowship-closing-ceremony-speech</feedburner:origLink></entry>
+  <entry>
+    <id>tag:jbrandonbb,2012:Post/what-is-the-purpose-of-life-anyway-or-why-i-feel-like-the-brother-of-the-guy-in-the-national</id>
+    <published>2013-04-15T19:13:59-07:00</published>
+    <updated>2013-04-15T19:13:59-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/6FaNa8eXpFA/what-is-the-purpose-of-life-anyway-or-why-i-feel-like-the-brother-of-the-guy-in-the-national" />
+    <author>
+      <name>John Brandon</name>
+      <uri>http://byjohnbrandon.com</uri>
+    </author>
+    <title>What is the Purpose of Life Anyway, or Why I Feel like the Brother of the Guy in The National</title>
+    <content type="html">&lt;p&gt;Sometimes, I feel like I’m the brother of the lead singer in the alt-rock band The National. He has a beard, I have a beard. (Well, sometimes. And by “sometimes” I mean often.) He has made a movie about how he went on tour as an assistant tour manager. I feel like I’m also a bystander, covering things with a casual bipartisan interest. We’re both members of the crowd, linked in an inextricable way to something famous and unattainable. &lt;/p&gt;
+
+&lt;p&gt;Just today I talked to an engineer from a company called Detroit Electric. It’s not a utility. They’re making a sports car that can go 190 miles on a charge, which is like having an expensive (and drive-able) smartphone. Brilliance reveals itself in short phrases. The engineer had The Bill Gates Pause where you can almost see neurons connecting inside his head, processing a millions things but only giving you a snippet. They pause because, like God, if they gave us everything at once we would die.&lt;/p&gt;
+
+&lt;p&gt;I understand how the brother of the guy in The National feels. You’re sidelined while the superstar gets the attention. The band, quite curiously, has two sets of brothers and then the lead singer. When I read on Pitchfork that the lead singer fully understands he’s the only one with a brother not in the band, I felt a strong pang of recognition. (I will tell you the story of my own brother someday, but it won’t be sarcastic in any way.)&lt;/p&gt;
+
+&lt;p&gt;Journalism is about revealing greatness. As writers, we’re not creating as much as divulging. We stand in front of the open window of innovation and say, see &amp;ndash; here is a ticket to bountiful.&lt;/p&gt;
+
+&lt;p&gt;I went to an event in Las Vegas not long ago where this became strikingly clear. We all struggle with a desire to be famous &amp;ndash; that’s why Facebook exists. We have something to say, and we feel other people would be interested in hearing it. I suppose this is what it means to be human, e.g.,  expressing a desire to be heard. As the film critic Roger Ebert, recently passed, once said: we all have a desire for someone  to document us.&lt;/p&gt;
+
+&lt;p&gt;The invitation to the event made me think my attendance was a matter of solemn duty. My presence was requested.&lt;/p&gt;
+
+&lt;p&gt;I showed up with a friend of mine, perennially positioned as my photographer. We greeted the host and found our place. Within a few minutes, the host said there was someone she wanted me to meet. I told my friend, grab your camera. We chit-chatted for awhile, and &amp;ndash; being incapable of being anything but inquisitive, I started asking questions. &amp;ldquo;Ah, yes. I bet that was a memorable experience.&amp;rdquo; I jotted down a few notes, then felt a soft tap.&lt;/p&gt;
+
+&lt;p&gt;Someone else needed by attention. I felt a glint of import. I rattled through a few more questions; we snapped a few more pictures. Then it hit me. I had not been invited to partake of the event. I had been invited to cover the partakers. I was there to make sure the invited guests felt invited. I was the person doing the covering; I was not the covered.&lt;/p&gt;
+
+&lt;p&gt;This can be a difficult role. There is power in the selection process, but it is a limited power. Once, at a car event in LA, I started asking questions about a new model coming out from Nissan. The engineer could tell when I was asking questions that could help him. It was a seven passenger model, something like a minivan but not as ridiculous. So I asked about safety, and legroom, and surround-sound. Then I switched gears. I asked about the molding on the side, the carbon fiber accents &amp;ndash; the inner-workings. I had strayed off message. Owing to my penchant to explore something until it is no longer explorable, I had (excuse the pun) driven too far away from the landing site. He cut me off and moved on.&lt;/p&gt;
+
+&lt;p&gt;Why is that? Because there is a role to play. In tech journalism in particular, we are not uncovering a secret slavery operation in Congo. We’re not wiretapping for a drug ring. It’s one shiny object after another, strung up on URLs like Christmas lights for a season, only to be removed and replaced by other shiny objects. Make it too ornate and people get confused.&lt;/p&gt;
+
+&lt;p&gt;I guess that’s why I do this blog. Granted, part of it is that I can be wholly unedited. There’s freedom in knowing I am not covering anything. At the same time, it is a way to combat the impertinence of reviewing yet another inkjet printer. You can only say so many things about toner cartridges, although I hear Brother International has some big news on that front.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/6FaNa8eXpFA" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://byjohnbrandon.com/what-is-the-purpose-of-life-anyway-or-why-i-feel-like-the-brother-of-the-guy-in-the-national</feedburner:origLink></entry>
+  <entry>
+    <id>tag:nate,2012:Post/lead-with-pain</id>
+    <published>2013-04-15T10:06:24-07:00</published>
+    <updated>2013-04-15T10:06:24-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/oGdom-LKe4g/lead-with-pain" />
+    <author>
+      <name>Nathan Kontny</name>
+      <uri>http://ninjasandrobots.com</uri>
+    </author>
+    <title>Lead with Pain</title>
+    <content type="html">&lt;p&gt;I want more people to read my blog. I spend all this time writing; I don&amp;#39;t want it to bore people. I want it to be more interesting. &lt;/p&gt;
+
+&lt;p&gt;So part of the way I&amp;#39;m trying to accomplish that is to become a better storyteller. &lt;/p&gt;
+
+&lt;p&gt;As I learn more about storytelling and I look at what good storytellers do, I notice many of them don&amp;#39;t just lead with &amp;ldquo;once upon a time&amp;rdquo;. They lead with pain.&lt;/p&gt;
+
+&lt;p&gt;Sometimes they&amp;#39;ll even start a story in the middle. They&amp;#39;ll open with the main character on their knees, grovelling with a gun to their head. And as the hammer of the gun pulls back. Bam. &lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;re back to the beginning before this painful event has even occurred yet. But they&amp;#39;ve got us hooked.&lt;/p&gt;
+
+&lt;p&gt;This method of storytelling maybe even seems cliché. So many movies and TV shows use it. It works. &lt;/p&gt;
+
+&lt;p&gt;But then it surprises me how few of us incorporate this method into our own stories.&lt;/p&gt;
+
+&lt;p&gt;Most people start a blog post with something like, &amp;ldquo;I went to the store the other day,&amp;rdquo; and they quickly lose my interest. I realize I&amp;#39;m going to have to dig to find out how this relates to anything I&amp;#39;m trying to accomplish.&lt;/p&gt;
+
+&lt;p&gt;But if they begin with a description of pain that they&amp;#39;ve gone through, maybe even fixed, now they&amp;#39;ve got my attention. I sit up. I take notice. &lt;/p&gt;
+
+&lt;p&gt;When I craft new things now, I spend a lot of time figuring out that statement of pain I&amp;#39;ll lead with in the first sentence or paragraph. &lt;/p&gt;
+
+&lt;p&gt;I don&amp;#39;t just do this for blog posts. I&amp;#39;m doing this for my product landing pages. READMEs for open source projects. Emails. &lt;/p&gt;
+
+&lt;p&gt;Amy Hoy has written some great stuff on launching products. If you read over this post, &lt;a href="http://unicornfree.com/2012/shut-up-and-take-my-money-or-how-to-pitch-so-people-will-listen"&gt;Shut Up and Take my Money&lt;/a&gt;, you might notice Amy has similarly discovered the power in leading with pain. &lt;/p&gt;
+
+&lt;p&gt;She used to talk about a new product she was working on like this: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Potential customer at cocktail party&lt;/strong&gt;: So, what’s Charm?&lt;br /&gt;
+&lt;strong&gt;Me&lt;/strong&gt;: Charm is a new, end-to-end customer support tool. It solves the problem of passing around email as a specification of work&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But when she started leading with a pain that she and her potential customer might share: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Potential customer&lt;/strong&gt;: So, what’s Charm?&lt;br /&gt;
+&lt;strong&gt;Me&lt;/strong&gt;: Do you get a lot of support email? Yeah, me too. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;People started paying a lot more attention.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S. &lt;a href="http://twitter.com/natekontny"&gt;It would be awesome to meet you on Twitter&lt;/a&gt;.&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/oGdom-LKe4g" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://ninjasandrobots.com/lead-with-pain</feedburner:origLink></entry>
+  <entry>
+    <id>tag:tom,2012:Post/equipping-your-champions</id>
+    <published>2013-04-15T07:34:48-07:00</published>
+    <updated>2013-04-15T07:34:48-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/_PYnEyFVxPI/equipping-your-champions" />
+    <author>
+      <name>Tomasz Tunguz</name>
+      <uri>http://tomtunguz.com</uri>
+    </author>
+    <title>Founders, Equip Your Champions</title>
+    <content type="html">&lt;p&gt;&lt;a href="http://img.svbtle.com/tom_24588656872344.jpg"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/tom_24588656872344_small.jpg" alt="carabiners.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As a founder, you&amp;#39;re always selling. You&amp;#39;re selling yourself, your team, your product, your company. But your pitch is likely missing one of two key components. &lt;/p&gt;
+
+&lt;p&gt;A pitch needs to accomplish two goals to be effective. Most pitches solve the first, but omit the second. First, the pitch must convince the audience who might be investors, employees, recruits, or customers of some premise. Second, the pitch has to equip your champions, now convinced of your argument, to sell on your behalf. &lt;/p&gt;
+
+&lt;p&gt;No enterprise software is ever bought unilaterally. No candidate is ever hired in isolation. No investment decision is ever made by one person in a VC firm.&lt;/p&gt;
+
+&lt;p&gt;Whomever you&amp;#39;re pitching will need to convince another person or group of people. So your pitch should be structured to enable those champions to be effective by providing a be simple, relatable and intriguing argument to build momentum within whatever organization is making the decision whether a VC fund, a family or a business. &lt;/p&gt;
+
+&lt;p&gt;How do you structure such an argument? One approach I&amp;#39;ve found that works well is a three pronged argument delivered in less than a minute. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A change is inevitable, that change implies a big opportunity, and this is the right team or product to help us take advantage of that change. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In your sales pitch, ideally at the end of the pitch, equip your champion with an argument like this. It will empower your champion to be more effective and help you close that sale. &lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/_PYnEyFVxPI" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://tomtunguz.com/equipping-your-champions</feedburner:origLink></entry>
+  <entry>
+    <id>tag:shanemac,2012:Post/managing-my-network</id>
+    <published>2013-04-14T22:32:14-07:00</published>
+    <updated>2013-04-14T22:32:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/CguAvGiIqZs/managing-my-network" />
+    <author>
+      <name>Shane Mac</name>
+      <uri>http://write.shanemac.me</uri>
+    </author>
+    <title>Managing My Network</title>
+    <content type="html">&lt;p&gt;Last week, a co-worker asked me how to manage all the people in their network. I guess since my last company was a Social CRM, people seem to think I actually have a clue about managing my network.  &lt;/p&gt;
+
+&lt;p&gt;Let&amp;#39;s just start by saying there is no magic solution or bullet &amp;ndash; it really just takes time and effort. To help him out, I started compiling a list of the tools and techniques I use with the folks in my network and how I incorporate them into my life. &lt;/p&gt;
+
+&lt;p&gt;To start, I don&amp;#39;t think any company has solved the main problem of a centralized address book that adds great context. We are all becoming too connected and that&amp;#39;s not going to slow down. &lt;/p&gt;
+
+&lt;p&gt;In my opinion, knowing who matters most, who matters now and having the right information about those people is still too hard but there are some great products that, if pieced together, can start to make it easier. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I broke out my favorite products into the following three categories below.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Category 1: Smart Address Books:&lt;/strong&gt;
+&lt;em&gt;I look for mobility here. I also want it to be close to my inbox.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.brewster.com/"&gt;Brewster&lt;/a&gt; Only iOS. This has become my main address book. I go here before I send emails, need to search for someone or when I&amp;#39;m just bored and wondering who I haven&amp;#39;t talked to in a while. Steven Greenwood, the founder, has a great vision for making this the smart address book we are all looking for and he&amp;#39;s tackling the hard problems first (merging common contacts, de-duplicating, trending, etc so I&amp;#39;m really bullish on this getting better. &lt;strong&gt;My favorite features:&lt;/strong&gt; Search by location and expertise across every network. Merging email, all social channels and address book. Great UI. Smart Lists for falling out of touch, trending, etc. The ability to email multiple people from a search or group at the same time, to, Cc and Bcc.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.xobni.com/"&gt;Smartr&lt;/a&gt; - iOS, Androind, BlackBerry, Outlook and Gmail (originally was Xobni plugins). I don&amp;#39;t use this anymore but it has some great features that add context to your contacts which other platforms don&amp;#39;t have. It&amp;#39;s much like Brewster, not as sexy and I don&amp;#39;t like the UI as much. &lt;strong&gt;My favorite features:&lt;/strong&gt; When you view a contact, it reminds you of the first day you met and what you talked about on that day. &lt;em&gt;Ex. You emailed Mike 6 months ago about &amp;ldquo;Subject of the email&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cobookapp.com"&gt;Cobook&lt;/a&gt; - Native Mac app, iPhone soon - This is really a merged address book with not a lot of magic built in, yet. Simple and native is the selling point here but products just for contacts and communication I&amp;#39;d much prefer to have mobile first. &lt;strong&gt;My favorite features:&lt;/strong&gt; Integrates directly into the mac menu bar for quick access. Easy tagging and merging.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.fullcontact.com/"&gt;Full Contact&lt;/a&gt; - Web only. This has a lot of power in the backend to go out and find all of the social profiles based on your current email addresses you have for your contacts. Very good for developers who want to access the API and build contextual apps based on social data and context. The UI is all web and feels much like a spreadsheet with more bells and whistles. I haven&amp;#39;t spent much time here as the design doesn&amp;#39;t make me excited and seems like a lot of work. I think they should focus on solving the merging and relationship problem between all of the contact data and just power all of the other consumer apps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Category 2: Social Context and Address Books:&lt;/strong&gt;
+&lt;em&gt;These are contact solutions in context of where you are already working. This is more about serendipity and finding common connection at the right time with the right common connection or information that helps build better relationships. This is my favorite thing and really over time I can look back and see so many relationships that have started just because I acted on a piece of info that provided a bridge or common ground to start a conversation with someone I would not of otherwise known. Always trying to add value.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://rapportive.com"&gt;Rapportive&lt;/a&gt; - Web browser (Gmail). Social profiles, notes and ability to connect and chat on social inside of gmail compose and read screen.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mon.ki"&gt;Monki&lt;/a&gt; - Web and iOS soon. Better search in gmail, google search and in context with any article you are reading on the web. &lt;strong&gt;My favorite features:&lt;/strong&gt; If I&amp;#39;m reading an article on TechCrunch and people I know have also talked about it or shared it, it will let me know. If I&amp;#39;m writing an email address in gmail, it expands the search results to all my contacts and &lt;a href="http://cl.ly/image/0y433d2n3v3W"&gt;gives me a social profile directly in Gmail.&lt;/a&gt; While viewing any webpage, click the Mon.ki browser plugin and discover all of the people you know who work at that company. &lt;em&gt;I&amp;#39;m an advisor.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://zokuapp.com/"&gt;Zoku&lt;/a&gt; - Email. This is a service that tries to pull updates from your social networks and find information that is important and reminds you of things they think you&amp;#39;d want to connect with them about beyond birthday&amp;#39;s and babies. &lt;strong&gt;My favorite feature:&lt;/strong&gt; Sends me an email which I can easily browse. &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://writethat.name"&gt;Writethatname&lt;/a&gt; - Gmail. I use this service but actually never know I&amp;#39;m using it. It scans your email and pulls out signature blocks, Twitter handles, Facebook links, Linkedin, etc and automatically updates your Google contacts address book in Gmail. This comes in valuable later. (Also, all the other services that work with Google contacts will automatically pull this updated info that is scraped)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Category 3: Social CRM:&lt;/strong&gt;
+&lt;em&gt;These tools are more if you spend your time tracking relationships over time and have a business need to do something. Fundraising, sales, biz dev.&lt;/em&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nimble.com"&gt;Nimble&lt;/a&gt; - Web and mobile (paid after 1 user). Great profiles for all of your contacts and this tool is really about tracking all of your relationships and tracking your interactions to where they are at in the deal or sales pipeline. &lt;strong&gt;My favorite feature:&lt;/strong&gt;  If I talk to someone on Twitter, it logs that conversation in a master profile so I know where and what we&amp;#39;ve chatted about before if I&amp;#39;m chatting through another platform like email, Facebook, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://contactually.com"&gt;Contactually&lt;/a&gt; - Web. This is really focused around the follow up and the reminders. &lt;strong&gt;My favorite features:&lt;/strong&gt;  They give you goals per week to achieve based on your past performance. &lt;a href="http://cl.ly/image/3X201X2W2A40"&gt;Simple email reminders&lt;/a&gt; about follow up with contacts you are losing contact with.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What do I use?&lt;/h2&gt;
+
+&lt;p&gt;After BlackBerry acquired us and shut down Gist 6 months ago, I exported about 20,000 contacts and ended up with a bunch of CSV files. This was one of those WTF moments. This is why Gist started, contacts in spreadsheets. So, I&amp;#39;m still working on my best process but right now I&amp;#39;ve found a great new flow with the following;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rapportive in Gmail&lt;/li&gt;
+&lt;li&gt;Mon.ki always running in background of browser&lt;/li&gt;
+&lt;li&gt;Writethat.name updating Gmail contacts&lt;/li&gt;
+&lt;li&gt;Brewster&lt;/li&gt;
+&lt;li&gt;Zoku just emails me weekly&lt;/li&gt;
+&lt;li&gt;Contactually emails me weekly for followups &lt;/li&gt;
+&lt;li&gt;CSV and VCF files saved in Dropbox :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most important thing to remember is this: &lt;strong&gt;Technology Doen&amp;#39;t Replace Great Relationships.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another thing to remember is that technology doesn&amp;#39;t solve or create great relationships, it can just makes it easier and more manageable in a world where everyone is becoming too connected.&lt;/p&gt;
+
+&lt;p&gt;Having the right information to find a common interest or way to be helpful to everyone you meet or would like to meet is one of the most powerful things everyone can and should do.&lt;/p&gt;
+
+&lt;p&gt;Many people try to justify the time spent interacting with people to what they get out of it. That&amp;#39;s not how you build relationships. The good things that come from relationships are a byproduct, not an outcome. There&amp;#39;s no end game. Give more than you ask, never expect anything in return.&lt;/p&gt;
+
+&lt;p&gt;In today&amp;#39;s world, meeting people is easy, creating real relationships is the hard part. Use these products to find opportunities and be helpful.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to &lt;a href="http://ekoester.com/"&gt;Eric Koester&lt;/a&gt; for proofreading this post.&lt;/em&gt;&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/CguAvGiIqZs" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://write.shanemac.me/managing-my-network</feedburner:origLink></entry>
+  <entry>
+    <id>tag:cadelllast,2012:Post/3d-printing-is-here</id>
+    <published>2013-04-14T09:23:17-07:00</published>
+    <updated>2013-04-14T09:23:17-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/8F6WCAo-qTY/3d-printing-is-here" />
+    <author>
+      <name>Cadell Last</name>
+      <uri>http://theratchet.ca</uri>
+    </author>
+    <title>3D Printing Is Here</title>
+    <content type="html">&lt;p&gt;&lt;a href="http://img.svbtle.com/cadelllast_24587739058716.jpg"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/cadelllast_24587739058716_small.jpg" alt="Mojo_Engineer-removing-part-small-e1343959687750.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week my friend and I had an interesting discussion on the nature of &amp;ldquo;revolutions&amp;rdquo;.  We both agreed that when historians look back at our era (1990-2010) they will say that we were living through the &amp;ldquo;internet revolution.&amp;rdquo;  However, did it &lt;em&gt;feel&lt;/em&gt; like we lived through a revolution?  Well, even though the internet fundamentally changed everything we do, the transition to a world built around the internet didn&amp;#39;t feel like a revolution to me.  It just sort of felt normal.  Of course, part of that has to do with my age (I&amp;#39;m 26 so I grew up with the revolution).  However, this brings up an interesting aspect of revolution: we seem to impose revolution on the past.  We construct the narrative of revolution.    &lt;/p&gt;
+
+&lt;p&gt;Take for example the two most famous historical revolutions: the agricultural and the industrial.  For someone living through either revolution, they would not have known they were actually living through what we now see as a significant turning point in the narrative of human existence.  In fact, both of those revolutions happened at imperceptibly slow paces compared to the internet revolution.  The agricultural revolution diffused so slowly that it developed in five different geographic regions independently.  The industrial revolution only had one diffusion center, however its global spread took centuries.  The internet revolution arguably took about 10-20 years (even though some would argue it won&amp;#39;t be complete until the end of this decade when almost every human will be online and connected).  &lt;/p&gt;
+
+&lt;p&gt;But I digress. &lt;/p&gt;
+
+&lt;p&gt;Last week I wrote a post explaining that we should anticipate a &lt;a href="http://theratchet.ca/robot-sex-revolution"&gt;robot revolution&lt;/a&gt; in the 2020s-2030s that will change the world more than the internet did between 1990-2010.  However, I&amp;#39;m getting ahead of myself again because I think we should realize that we are on the cusp of an equally revolutionary moment in history &lt;em&gt;right now&lt;/em&gt;: the 3D printing revolution.&lt;/p&gt;
+
+&lt;p&gt;Before you accuse me of using the word revolution too liberally, let me first list the developments in the world of 3D printing this year:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;design for &lt;a href="http://www.bbc.co.uk/news/technology-21121061"&gt;first 3D printed building&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;production of &lt;a href="http://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-21328109"&gt;first 3D printed stem cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;creation of &lt;a href="http://www.wired.com/wiredscience/2013/02/3-d-food-printer-space/"&gt;first 3D printed meals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;production of &lt;a href="http://www.telegraph.co.uk/health/healthnews/9883441/Scientists-create-artificial-ear-using-3D-printing-and-living-cell-gels.html"&gt;first 3D printed artificial ear&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;creation of &lt;a href="http://www.wired.com/autopia/2013/02/3d-printed-car/"&gt;first 3D printed automobiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;production and implant of &lt;a href="http://www.dailymail.co.uk/sciencetech/article-2289726/Patient-75-cent-SKULL-replaced-3D-printed-implant-groundbreaking-operation.html#ixzz2MyroZhti"&gt;first 3D printed skull&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;production of &lt;a href="http://www.latimes.com/news/science/sciencenow/la-sci-sn-faux-synthetic-tissue-3d-printer-self-assembling-20130404,0,6286611.story"&gt;first 3D printed human tissue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;creation of &lt;a href="http://singularityhub.com/2012/04/07/on-demand-robots-from-a-3d-printer/"&gt;first 3D printed robots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;opening of &lt;a href="http://3dprintingindustry.com/2013/01/21/3d-print-museum-opens-in-beijing-china/"&gt;first 3D print-only museum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are all things that have happened &lt;em&gt;this year&lt;/em&gt; and it is only April!  Is it safe to say that 2013 is going to be remembered as the year of the 3D printer?  Actually, maybe it will be remembered for the &lt;a href="http://www.bbc.co.uk/news/technology-21614176"&gt;introduction to 4D printing&lt;/a&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;In 1999, &lt;a href="http://en.wikipedia.org/wiki/Ray_Kurzweil"&gt;Ray Kurzweil&lt;/a&gt; explained that dynamic systems evolve exponentially.  He called this type of evolution the &lt;a href="http://en.wikipedia.org/wiki/Accelerating_change#Kurzweil.27s_The_Law_of_Accelerating_Returns"&gt;Law of Accelerating Returns&lt;/a&gt; (&lt;a href="http://www.kurzweilai.net/the-law-of-accelerating-returns"&gt;you can read more about this law here&lt;/a&gt;).  The Law of Accelerating Returns has profound implications for the future of technological evolution, especially when applied to something like 3D printing.  However, I don&amp;#39;t think you have to be a technological evolution expert to understand that the human future will be fundamentally transformed by 3D printing.  &lt;/p&gt;
+
+&lt;p&gt;From my perspective all the developments in 3D printing this year indicate that we are on the cusp of a revolution.  What does our world look like when manufacturing becomes decentralized?  Many experts predict that affordable, easy-to-use 3D printers will be in peoples homes in 10-20 years.  These printers could be used for replacing spare parts, making food/meals, creating clothing, furniture, cars &amp;hellip; organs?  &lt;/p&gt;
+
+&lt;p&gt;Many 3D printing enthusiasts propose that you will only be constrained by your own imagination.  &lt;a href="http://www.kickstarter.com/projects/1351910088/3doodler-the-worlds-first-3d-printing-pen"&gt;Check out the 3Doodler&lt;/a&gt; as an example of the type of creative products that will emerge over the next few decades.   &lt;/p&gt;
+
+&lt;p&gt;This decentralization of manufacturing will almost certainly change the global economy in ways that are hard to predict.  Will there be jobs for anyone in the manufacturing sector?  What type of value will physical objects have when production is inexpensive?  How will 3D printing (and advanced Watson-like A.I.) transform hospitals?  Will individual people be able to create established companies that required hundreds of people to build in the past (e.g., automobile, clothing companies, etc.).  &lt;/p&gt;
+
+&lt;p&gt;We also need to contemplate more sinister sides to this revolution.  How will we protect biological information?  Will someone be able to manufacture and print a deadly virus or bacterium?  What about the possibility of an individual 3D printing weapons of mass destruction?&lt;/p&gt;
+
+&lt;p&gt;I think the developments in 3D printing this year force us all to contemplate questions like this (both positive and negative).  In terms of the future of manufacturing, we may get a glimpse of what this revolution will look like if we analyze what is happening in media today.  I feel as though the internet revolution decentralized media mediums, enabling individuals to build their own empires.  &lt;a href="https://twitter.com/BoraZ"&gt;Bora Zivkovic&lt;/a&gt; brilliantly explored the dynamics of this transition well in a &lt;a href="http://blogs.scientificamerican.com/incubator/2013/04/02/how-to-break-into-science-writing-using-your-blog-and-social-media-sci4hels/"&gt;recent Scientific American article on science writing&lt;/a&gt;: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;[In the 20th century] very few people could afford to own printing presses, radio and TV studios, etc. Running all that complicated equipment required technical expertise and professional training. Thus media became locked up in silos, hierarchical, broadcast-only with little-to-none (and then again centrally controlled) means for feedback. There was a wealthy, vocal minority that determined what was news, and how to frame it, and the vast majority was consuming the news in silence. Today, all one needs is some source of electricity (e.g., a small battery in your smartphone) and some means of accessing the Internet. The act of publishing is reduced to clicking on the “Publish” button. Yes, this still leaves some people out of the media, especially in the developing countries, but compared to just twenty years ago, vastly larger numbers of people now have access to the means of production of news. The obstacles to access – money, technical skills for running the machinery – are now much, much lower, almost free. This turns everything on its head! Silos are breaking down, economics of media are severely disrupted, former gatekeepers are squealing in distress, old hierarchies are broken down (and replaced by new hierarchies), and now everyone has to learn new “media hygiene” practices: who to trust, how to filter the information, how to organize it for one’s self. The new ecosystem now contains both the traditional outlets and the individuals, “people formerly known as the audience“, as equal players.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are several examples of dominant media outlets today that would not have been possible before the internet revolution.  I feel as though we will be able to say the same about automobile, clothing, computer, robotics, biotech companies, etc. in the 2030s.  So if you are in business (or want to get into business), understanding how the &lt;a href="http://www.kurzweilai.net/the-law-of-accelerating-returns"&gt;Law of Accelerating Returns&lt;/a&gt; applies to the 3D printing industry could be &lt;em&gt;very&lt;/em&gt; helpful.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll end by adding that my roommate (who is in business) always tells me that the worlds of science and business don&amp;#39;t communicate enough.  I agree, but when I study &lt;a href="http://theratchet.ca/chimpanzee-fire-1"&gt;chimpanzee behaviour&lt;/a&gt; or the &lt;a href="http://theratchet.ca/another-earth"&gt;future of exoplanet detection&lt;/a&gt; there may not be any relevance to the business world.  However, people who study technological evolution can definitely help inform those in business (and vice versa).  So if you are interested in learning more about what some leading theorists think about how the next few decades of technological change will transform business (and our planet), check out &lt;a href="http://www.youtube.com/watch?v=ceEog1XS5OI"&gt;this panel discussion&lt;/a&gt; hosted by Big Think.&lt;/p&gt;
+
+&lt;p&gt;How do you think 3D printing will change our world?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://hubski.com/pub?id=79750"&gt;Discuss this article on Hubski&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/8F6WCAo-qTY" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://theratchet.ca/3d-printing-is-here</feedburner:origLink></entry>
+  <entry>
+    <id>tag:owen,2012:Post/facebook-home-hasnt-failed-its-actually-genius</id>
+    <published>2013-04-13T20:45:16-07:00</published>
+    <updated>2013-04-13T20:45:16-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/30Nyqb4JfBI/facebook-home-hasnt-failed-its-actually-genius" />
+    <author>
+      <name>Owen Williams</name>
+      <uri>http://owened.co.nz</uri>
+    </author>
+    <title>Facebook Home hasn't failed, it's just getting started.</title>
+    <content type="html">&lt;p&gt;&lt;a href="http://img.svbtle.com/owen_24586398627984.jpg"&gt;&lt;img src="https://d23f6h5jpj26xu.cloudfront.net/owen_24586398627984_small.jpg" alt="att-htc-first-android-facebook.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As expected when something interesting is released, the posts begin to roll in about how it&amp;#39;s a failure. We&amp;#39;ve already got a ton of articles with titles like &amp;ldquo;&lt;a href="http://seattletimes.com/html/businesstechnology/2020769323_ptechfacebookreviewxml.html"&gt;steer clear of Facebook Home&lt;/a&gt;&amp;rdquo;, &amp;ldquo;&lt;a href="http://thenextweb.com/facebook/2013/04/12/facebook-home-suffers-from-poor-early-reviews-as-46-give-it-a-1-star-rating-on-google-play/"&gt;Facebook Home suffering from poor Google Play reviews&lt;/a&gt;&amp;rdquo; and in traditional Forbes fashion &amp;ldquo;&lt;a href="http://www.forbes.com/sites/gregsatell/2013/04/08/why-the-facebook-phone-will-fail-and-why-it-really-doesnt-matter/"&gt;Why The Facebook Phone Will Fail and Why It Really Doesn&amp;#39;t Matter&lt;/a&gt;.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I sometimes wish the media wasn&amp;#39;t so quick to jump to conclusions. Yes, &lt;a href="http://www.gsmarena.com/htc_chacha-3787.php"&gt;historically a Facebook phone hasn&amp;#39;t panned out well&lt;/a&gt;. Yes, &lt;a href="http://blogs.computerworld.com/windows-phone/22020/microsoft-android-too-complicated-facebook-home-old-and-way"&gt;Microsoft apparently thinks they already did that&lt;/a&gt;. The thing about all of this is that &lt;em&gt;none of these people are the target market.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If we look at this from the perspective of the Android community then yes, Facebook Home is a stupid idea because it dumbs down Android. But, for everyone else out there that doesn&amp;#39;t care about tinkering with their phone it&amp;#39;s perfect. There&amp;#39;s nothing to it, just scroll through your feed and interact or send a text. You&amp;#39;ve got the capability to install Android applications if you want and that&amp;#39;s a bonus, but the two big parts of many potential buyer&amp;#39;s life is front and center.&lt;/p&gt;
+
+&lt;p&gt;Those potential buyers? Teenagers. Young adults. The Facebook generation that is stuck interacting 24/7. They&amp;#39;re sharing as soon as they wake up and go to sleep. This market doesn&amp;#39;t like making phone calls. One of the biggest criticisms of Facebook Home is that it &lt;a href="http://business.financialpost.com/2013/04/12/review-facebook-home-at-centre-stage-of-phone-makes-other-apps-harder-to-reach/"&gt;makes other apps hard to reach&lt;/a&gt;. I agree, but the teenagers I know really only use Facebook and SMS anyway.&lt;/p&gt;
+
+&lt;p&gt;Facebook Home isn&amp;#39;t targeted at those who go and manually download it from the Play Store. The application has bad reviews because it&amp;#39;s never It&amp;#39;s not destined for any member of the Android community or even those who currently use a smartphone. It&amp;#39;s targeted at a new generation of young people who don&amp;#39;t actually use their phone as a &lt;em&gt;phone&lt;/em&gt; anymore. It&amp;#39;s intended as a preinstalled experience that some will intentionally seek to buy.&lt;/p&gt;
+
+&lt;p&gt;Instead of declaring Facebook Home &amp;ldquo;dead&amp;rdquo; by our standards, let&amp;#39;s wait to see how the HTC First does in the market. That&amp;#39;ll speak much louder than existing Android users. &lt;/p&gt;
+
+&lt;p&gt;A $99 phone that does 100% of what teenagers need is better for parents who might have otherwise been buying them an iPhone.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/30Nyqb4JfBI" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://owened.co.nz/facebook-home-hasnt-failed-its-actually-genius</feedburner:origLink></entry>
+  <entry>
+    <id>tag:ben,2012:Post/there-are-no-shortcuts</id>
+    <published>2013-04-13T00:51:13-07:00</published>
+    <updated>2013-04-13T00:51:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/svbtle/~3/bP0RUy_NOIs/there-are-no-shortcuts" />
+    <author>
+      <name>Ben Yu</name>
+      <uri>http://benyu.org</uri>
+    </author>
+    <title>There are no shortcuts</title>
+    <content type="html">&lt;p&gt;The sparking foundation for this belief is the tech startup I tried to found with no technical background. It failed, I learned lots of &amp;#39;lessons&amp;#39;, and I realized I needed to get technical and bring something to the table before trying again.&lt;/p&gt;
+
+&lt;p&gt;A while later, I chanced upon the &lt;a href="http://www.cs.virginia.edu/%7Erobins/YouAndYourResearch.html"&gt;You and Your Research&lt;/a&gt; talk by Richard Hamming, and it made a lasting impact on me. I&amp;#39;ve been thinking and referring to it for probably over a year now.&lt;/p&gt;
+
+&lt;p&gt;Main takeaway: Oak trees come from acorns. In the talk, Hamming goes on to note the &amp;#39;Nobel Prize effect&amp;#39; - the fact that no great work is generally done by a recipient of a Nobel Prize or similar distinction after receiving the award.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When you are famous it is hard to work on small problems. This is what did Shannon in. After information theory, what do you do for an encore? The great scientists often make this error. They fail to continue to plant the little acorns from which the mighty oak trees grow. They try to get the big thing right off. And that isn&amp;#39;t the way things go. So that is another reason why you find that when you get early recognition it seems to sterilize you. In fact I will give you my favorite quotation of many years. The Institute for Advanced Study in Princeton, in my opinion, has ruined more good scientists than any institution has created, judged by what they did before they came and judged by what they did after. Not that they weren&amp;#39;t good afterwards, but they were superb before they got there and were only good afterwards.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And so there are two lessons here. One, which I learned from firsthand experience, is that you can&amp;#39;t try to build a house without a foundation, no matter how fast you want that house built and how too impatient you are to do it right. It will inevitably come crashing down - hopefully, if you&amp;#39;re very lucky, very quickly, and if you&amp;#39;re unlucky, somewhere down the line after you&amp;#39;ve already moved in and it crushes you.&lt;/p&gt;
+
+&lt;p&gt;Take the time to do things right - a shortcut will end up costing much more time in the long run as things come crashing to the ground.&lt;/p&gt;
+
+&lt;p&gt;Also, optimize for the long run. Constantly aiming for the short term, particularly in the frantic and ever-changing startup world (hoping to build a lot of hype, raise a lot of money, and get acquired in two years), tends to encourage the taking the illusory shortcuts which have the fate of failure stamped on them from the very outset.&lt;/p&gt;
+
+&lt;p&gt;Secondly, as Hamming said it best, it&amp;#39;s okay not to go for the big thing straight off - take the time to plant the seeds and have the determination to nurture the seedling as it grows over many long years. If you want to grow a huge oak tree, &lt;em&gt;the only way to do it is to plant a tiny acorn and wait for it to grow&lt;/em&gt;. If you try anything else you&amp;#39;re wasting your time.&lt;/p&gt;
+
+&lt;p&gt;So perhaps, there&amp;#39;s no need to try to be the next Google or the cure to cancer straight off - take your time and start small.&lt;/p&gt;
+
+&lt;p&gt;And since this is a post rife with pithy and trite statements: The best time to plant a tree was 20 years ago. The second best time is now.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;ll take time. There&amp;#39;s no getting around that. So get going - now.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/svbtle/~4/bP0RUy_NOIs" height="1" width="1"/&gt;</content>
+  <feedburner:origLink>http://benyu.org/there-are-no-shortcuts</feedburner:origLink></entry>
+</feed>

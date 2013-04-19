@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Dirt in Your Skirt - Mud Runs, Obstacle Course Races, Endurance Races</title>
+	<atom:link href="http://dirtinyourskirt.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://dirtinyourskirt.com</link>
+	<description>The Offical Website of Margaret Schlachter</description>
+	<lastBuildDate>Wed, 17 Apr 2013 05:23:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Senseless Acts</title>
+		<link>http://dirtinyourskirt.com/musings/senseless-acts/</link>
+		<comments>http://dirtinyourskirt.com/musings/senseless-acts/#comments</comments>
+		<pubDate>Mon, 15 Apr 2013 22:12:43 +0000</pubDate>
+		<dc:creator>Dirt in Your Skirt</dc:creator>
+				<category><![CDATA[Musings]]></category>
+
+		<guid isPermaLink="false">http://dirtinyourskirt.com/?p=35625</guid>
+		<description><![CDATA[Marathon Monday aka Patriots Day aka Boston Marathon was always a day I looked forward &#8230; <a href="http://dirtinyourskirt.com/musings/senseless-acts/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://dirtinyourskirt.com/musings/senseless-acts/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Who Needs a Bed Anyway</title>
+		<link>http://dirtinyourskirt.com/ambassadors/who-needs-a-bed-anyway/</link>
+		<comments>http://dirtinyourskirt.com/ambassadors/who-needs-a-bed-anyway/#comments</comments>
+		<pubDate>Mon, 15 Apr 2013 15:25:43 +0000</pubDate>
+		<dc:creator>Ambassador Keri</dc:creator>
+				<category><![CDATA[Ambassadors]]></category>
+		<category><![CDATA[Keri]]></category>
+
+		<guid isPermaLink="false">http://dirtinyourskirt.com/?p=35466</guid>
+		<description><![CDATA[I don&#8217;t own a bed.  For the last 8 years my husband and I have &#8230; <a href="http://dirtinyourskirt.com/ambassadors/who-needs-a-bed-anyway/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://dirtinyourskirt.com/ambassadors/who-needs-a-bed-anyway/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>So You Wanna Run a Marathon This Weekend?</title>
+		<link>http://dirtinyourskirt.com/race-recap/so-you-wanna-run-a-marathon-this-weekend/</link>
+		<comments>http://dirtinyourskirt.com/race-recap/so-you-wanna-run-a-marathon-this-weekend/#comments</comments>
+		<pubDate>Sun, 14 Apr 2013 18:16:46 +0000</pubDate>
+		<dc:creator>Dirt in Your Skirt</dc:creator>
+				<category><![CDATA[Race Recap]]></category>
+		<category><![CDATA[Bonneville Shoreline Marathon 2013]]></category>
+
+		<guid isPermaLink="false">http://dirtinyourskirt.com/?p=35440</guid>
+		<description><![CDATA[&#8220;So you wanna run a trail marathon this weekend?&#8221; asked Bryce, one of the trainers &#8230; <a href="http://dirtinyourskirt.com/race-recap/so-you-wanna-run-a-marathon-this-weekend/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://dirtinyourskirt.com/race-recap/so-you-wanna-run-a-marathon-this-weekend/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

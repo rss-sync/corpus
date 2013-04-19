@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2013-04-19T13:16:00Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/16105531</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Execute code if no string match if found</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="logic"/>
+        <author>
+            <name>Barney</name>
+            <uri>http://stackoverflow.com/users/1098148</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105531/execute-code-if-no-string-match-if-found" />
+        <published>2013-04-19T13:15:44Z</published>
+        <updated>2013-04-19T13:15:44Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;So this is a logic problem I&#39;m having:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;#id_country&#39;).change(function(){ // ON CHANGE OF DROP DOWN
+var countryShortCode = $(this).val();
+$(&#39;#country-phone-code option&#39;).each(function(){ //STRING MATCH AGAINST OTHER DROP DOWN
+if ($(this).text() == countryShortCode) { //I NEED AN &#39;ELSE&#39; IF NO STRING MATCH FOUND
+  alert(&quot;match found&quot;); // (only one match will be found, if any)
+}
+});
+
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What I need to is execute some code if there is no string match. &lt;/p&gt;
+
+&lt;p&gt;i.e. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;#country-phone-code option&#39;).each(function(){ 
+if ($(this).text() == countryShortCode) 
+{
+  alert(&quot;&quot;);
+}
+else 
+ {
+   //(if after traversing of each #country-phone-code option, no match was found, do something
+ }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apologies for the badly worded question.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105528</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">simulate click in IE 9 javascript</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="javascript"/><category scheme="http://stackoverflow.com/feeds/tags" term="internet-explorer"/><category scheme="http://stackoverflow.com/feeds/tags" term="event-handling"/><category scheme="http://stackoverflow.com/feeds/tags" term="click"/>
+        <author>
+            <name>Christoph Ha</name>
+            <uri>http://stackoverflow.com/users/1923869</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105528/simulate-click-in-ie-9-javascript" />
+        <published>2013-04-19T13:15:29Z</published>
+        <updated>2013-04-19T13:15:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I found this code snippet here, works perfectly but not for IE.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var testTwo = document.getElementById(&#39;testOne&#39;)
+
+function eventFire(el, etype){
+  if (el.fireEvent) {
+    (el.fireEvent(&#39;on&#39; + etype));
+  } else {
+    var evObj = document.createEvent(&#39;Events&#39;);
+    evObj.initEvent(etype, true, false);
+    el.dispatchEvent(evObj);
+  }
+}
+
+function testInt(){
+eventFire(testTwo, &quot;click&quot;);
+};
+setInterval(testInt, 3000);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;can anyone tell me how to get it work in IE?&lt;/p&gt;
+
+&lt;p&gt;thank you&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105526</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Failed to open serial port with python</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="python"/><category scheme="http://stackoverflow.com/feeds/tags" term="port"/><category scheme="http://stackoverflow.com/feeds/tags" term="serial"/>
+        <author>
+            <name>chandan kumar</name>
+            <uri>http://stackoverflow.com/users/2190824</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105526/failed-to-open-serial-port-with-python" />
+        <published>2013-04-19T13:15:26Z</published>
+        <updated>2013-04-19T13:15:26Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m trying to open serial port using python.But i&#39;m always getting exception.Here is my code.I&#39;m hard coding the COM port by finding the port number from windows device manager.&lt;/p&gt;
+
+&lt;p&gt;class SerialCom(): &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def check_serial_port(self,COMPORT):        
+    self.COMPORT=COMPORT
+    self.baud_rate=9600
+
+    try:
+        self.port = serial.Serial(self.COMPORT, self.baud_rate, timeout=None)            
+        ser.open()
+        input =1
+        while 1:
+            input = raw_input(&quot;&amp;gt;&amp;gt; &quot;)
+            if input == &#39;exit&#39;:
+                ser.close()
+                exit()
+            else:
+                print &quot;Input entered &quot;,input                        
+
+    except Exception:
+        print &quot;Failed to Open Port&quot;                
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Instance =SerialCom()&lt;/p&gt;
+
+&lt;p&gt;Instance.check_serial_port(10)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105525</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Invoke-Sqlcmd sometimes reports TSQL errors and sometimes it does not?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="tsql"/><category scheme="http://stackoverflow.com/feeds/tags" term="powershell"/><category scheme="http://stackoverflow.com/feeds/tags" term="error-handling"/><category scheme="http://stackoverflow.com/feeds/tags" term="cmdlets"/><category scheme="http://stackoverflow.com/feeds/tags" term="catch-block"/>
+        <author>
+            <name>eghetto</name>
+            <uri>http://stackoverflow.com/users/1194945</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105525/invoke-sqlcmd-sometimes-reports-tsql-errors-and-sometimes-it-does-not" />
+        <published>2013-04-19T13:15:22Z</published>
+        <updated>2013-04-19T13:15:22Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m confused:&lt;/p&gt;
+
+&lt;p&gt;The following code produces an error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;try {
+    invoke-sqlcmd -ServerInstance &#39;localhost&#39; -Database &#39;tempdb&#39; -Query &#39;CREATE TABLE foo (bar TINYINT IDENTITY(1,1) DEFAULT 1);;&#39; -Verbose -ErrorLevel 0 -AbortOnError -ErrorAction Stop -OutputSqlErrors $true -ErrorVariable $err -OutVariable $err -SeverityLevel 0;
+    &quot;OK&quot;;
+}
+catch {
+    &quot;ERROR&quot;
+    $_
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result: &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ERROR
+  Invoke-Sqlcmd : Defaults cannot be created on columns with an
+  IDENTITY attribute. Table &#39;foo&#39;, column &#39;bar&#39;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;This piece runs apparently smoothly: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;try {
+    invoke-sqlcmd -ServerInstance &#39;localhost&#39; -Database &#39;tempdb&#39; -Query &#39;SELECT CAST(111111111111 AS TinyINT) AS Error&#39; -Verbose -ErrorLevel 0 -AbortOnError -ErrorAction Stop -OutputSqlErrors $true -ErrorVariable $err -OutVariable $err -SeverityLevel 0;
+    &quot;OK&quot;
+}
+catch {
+    &quot;ERROR&quot;
+    $_
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;OK
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;In both cases the catch-block must be used!&lt;/strong&gt; &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105508</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Trouble in session logout</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jsp"/><category scheme="http://stackoverflow.com/feeds/tags" term="session"/><category scheme="http://stackoverflow.com/feeds/tags" term="servlets"/><category scheme="http://stackoverflow.com/feeds/tags" term="session-variables"/><category scheme="http://stackoverflow.com/feeds/tags" term="sessiontracking"/>
+        <author>
+            <name>saumyaraj</name>
+            <uri>http://stackoverflow.com/users/2201808</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105508/trouble-in-session-logout" />
+        <published>2013-04-19T13:14:33Z</published>
+        <updated>2013-04-19T13:15:29Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have read that there is the method logout() that we can use in servlets.
+So,I am doing something like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;HttpSession sr=request.getSession();
+sr.logout();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But this gives me an error that it cannot find the symbol logout();
+Plz help.I want the user to logout and go to home page(home.jsp).&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105466</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">OpenGl es 2.0 2D plane rotation</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="graphics"/><category scheme="http://stackoverflow.com/feeds/tags" term="opengl-es"/><category scheme="http://stackoverflow.com/feeds/tags" term="rotation"/><category scheme="http://stackoverflow.com/feeds/tags" term="2d"/><category scheme="http://stackoverflow.com/feeds/tags" term="projection"/>
+        <author>
+            <name>DarkRyder</name>
+            <uri>http://stackoverflow.com/users/2299172</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105466/opengl-es-2-0-2d-plane-rotation" />
+        <published>2013-04-19T13:12:23Z</published>
+        <updated>2013-04-19T13:15:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have been working on getting some quads with textures to display properly using OpenGL es 2.0 on iPhone platform. I started off following the tutorial here&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://nehe.gamedev.net/tutorial/ios_lesson_02__first_triangle/50001/&quot; rel=&quot;nofollow&quot;&gt;http://nehe.gamedev.net/tutorial/ios_lesson_02__first_triangle/50001/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Which basically just makes a simple triangle and displays to the screen using very simple shaders. The problem arises when i rotate the triangle in Z axis.&lt;/p&gt;
+
+&lt;p&gt;This is how the traingle looks without any rotation applied and with 90 rotation in the Z Axis. (wanted to post screen shots but i dont have enough reputation points)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://s24.postimg.org/k3wkpwsol/SO_Image.jpg&quot; rel=&quot;nofollow&quot;&gt;http://s24.postimg.org/k3wkpwsol/SO_Image.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have used the source code project from the NEHE tutorial site and the only changes i made are to add a world matrix in the vertex shader&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;//the incoming vertex&#39; position
+attribute vec4 position;
+
+//and its color
+attribute vec3 color;
+
+//the varying statement tells the shader pipeline that this variable
+//has to be passed on to the next stage (so the fragment shader)
+varying lowp vec3 colorVarying;
+
+//added this matrix
+uniform mat4 world;
+
+//the shader entry point is the main method
+void main()
+{    
+    colorVarying = color; //save the color for the fragment shader
+    gl_Position = world * position; //multiplied the matrix with the position
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The pixel shader just out puts the color.&lt;/p&gt;
+
+&lt;p&gt;In the program in have set up and passed the world matrix as follows&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GLKMatrix4 _world = GLKMatrix4MakeRotation(0, 0, 0, 1);
+glUniformMatrix4fv(m_worldMat, 1, GL_FALSE, _world.m);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the simplest way I could get the problem to be replicated for this question. I have also tried creating a orthographic camera which goes from 0 to screen width and 0 to screen height.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105464</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Android Location.distanceTo(...) and Location.bearingTo(...) not returning correct results</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="location"/><category scheme="http://stackoverflow.com/feeds/tags" term="distance"/><category scheme="http://stackoverflow.com/feeds/tags" term="bearing"/>
+        <author>
+            <name>Adam Davies</name>
+            <uri>http://stackoverflow.com/users/1082500</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105464/android-location-distanceto-and-location-bearingto-not-returning-corre" />
+        <published>2013-04-19T13:12:17Z</published>
+        <updated>2013-04-19T13:15:20Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve been though dozens of posts on this so please do not flag this as a duplicate because it isn&#39;t.&lt;/p&gt;
+
+&lt;p&gt;So running the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private void testLocation(){
+    double currentLat = 51.43376;
+    double currentLng = -2.86221;
+
+    double destLat = 51.43503; 
+    double destLng = -2.86869;
+
+    final float[] results= new float[3];
+    Location.distanceBetween(currentLat, currentLng, destLat, destLng, results);
+    Log.d(&quot;GPS&quot;, &quot;results[0]: &quot; + results[0]);
+    Log.d(&quot;GPS&quot;, &quot;results[1]: &quot; + results[1]);
+    Log.d(&quot;GPS&quot;, &quot;results[2]: &quot; + results[2]);
+
+
+    Location here = new Location(&quot;Current&quot;);
+    here.setLatitude(currentLat);
+    here.setLatitude(currentLng);
+
+    Location dest = new Location(&quot;Destination2&quot;);
+    dest.setLongitude(destLat);
+    dest.setLatitude(destLng);
+
+    Log.d(&quot;GPS&quot;, &quot;Bearing to dest: &quot; + here.bearingTo(dest));
+    Log.d(&quot;GPS&quot;, &quot;Distance to dest: &quot; + here.distanceTo(dest));
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The output is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;04-19 13:39:55.850: D/GPS(12398): results[0]: 472.2533
+04-19 13:39:55.860: D/GPS(12398): results[1]: -72.5882
+04-19 13:39:55.860: D/GPS(12398): results[2]: -72.59327
+04-19 13:39:55.860: D/GPS(12398): Bearing to dest: 120.83207
+04-19 13:39:55.860: D/GPS(12398): Distance to dest: 7893878.5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The correct values should be:
+    Distance 472.2533 (So results[0] is correct).
+    Bearing 285.454 degrees&lt;/p&gt;
+
+&lt;p&gt;So I don&#39;t know what results[1] and results[2] are giving. And both bearingTo and distanceTo are giving completely the wrong answers.&lt;/p&gt;
+
+&lt;p&gt;This means that I must be doing something wrong. Can anyone help. Generally, all I want to do is calculate the distance and direction of a destination point from a current location point. If anyone has a better way for doing that than that shown above, or knows what I am doing wrong please help.&lt;/p&gt;
+
+&lt;p&gt;Thanks
+Adam&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105450</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Solr - fuzzy search issue with PatternTokenizer Factory</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="solr"/><category scheme="http://stackoverflow.com/feeds/tags" term="fuzzy-search"/>
+        <author>
+            <name>meghana</name>
+            <uri>http://stackoverflow.com/users/943930</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105450/solr-fuzzy-search-issue-with-patterntokenizer-factory" />
+        <published>2013-04-19T13:11:52Z</published>
+        <updated>2013-04-19T13:15:08Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;m using Solr4.2 in my application. I have changed my text field definition to use the &lt;code&gt;Solr.PatternTokenizerFactory&lt;/code&gt; instead of &lt;code&gt;Solr.StandardTokenizerFactory&lt;/code&gt;, and changed my schema definition as below&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;fieldType name=&quot;text_token&quot; class=&quot;solr.TextField&quot; positionIncrementGap=&quot;100&quot;&amp;gt;
+      &amp;lt;analyzer type=&quot;index&quot;&amp;gt;
+       &amp;lt;tokenizer class=&quot;solr.PatternTokenizerFactory&quot; pattern=&quot;[^a-zA-Z0-9&amp;amp;amp;\-&#39;]|\d{0,4}s:&quot; /&amp;gt;
+       &amp;lt;filter class=&quot;solr.StopFilterFactory&quot; ignoreCase=&quot;true&quot; words=&quot;stopwords.txt&quot; enablePositionIncrements=&quot;false&quot; /&amp;gt;
+       &amp;lt;!-- in this example, we will only use synonyms at query time
+        &amp;lt;filter class=&quot;solr.SynonymFilterFactory&quot; synonyms=&quot;index_synonyms.txt&quot; ignoreCase=&quot;true&quot; expand=&quot;false&quot;/&amp;gt;
+        --&amp;gt;
+        &amp;lt;filter class=&quot;solr.LowerCaseFilterFactory&quot;/&amp;gt;
+      &amp;lt;/analyzer&amp;gt;
+      &amp;lt;analyzer type=&quot;query&quot;&amp;gt;
+       &amp;lt;tokenizer class=&quot;solr.PatternTokenizerFactory&quot; pattern=&quot;[^a-zA-Z0-9&amp;amp;amp;\-&#39;]|\d{0,4}s:&quot; /&amp;gt;
+       &amp;lt;filter class=&quot;solr.StopFilterFactory&quot; ignoreCase=&quot;true&quot; words=&quot;stopwords_extra_query.txt&quot; enablePositionIncrements=&quot;false&quot; /&amp;gt;
+       &amp;lt;filter class=&quot;solr.SynonymFilterFactory&quot; synonyms=&quot;synonyms.txt&quot; ignoreCase=&quot;true&quot; expand=&quot;true&quot;/&amp;gt;
+      &amp;lt;filter class=&quot;solr.LowerCaseFilterFactory&quot;/&amp;gt;
+      &amp;lt;/analyzer&amp;gt;
+&amp;lt;/fieldType&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After doing so, fuzzy search does not seem to work properly as it was before. &lt;/p&gt;
+
+&lt;p&gt;I&#39;m searching with search term : &lt;code&gt;worde~1&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;On search, it previously returned around 300 records, while now it returns only 5 records. Not sure what can be the issue.&lt;/p&gt;
+
+&lt;p&gt;Can anybody help me to make it work?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105416</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to add to full environment path?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="environment-variables"/>
+        <author>
+            <name>Stein</name>
+            <uri>http://stackoverflow.com/users/2094707</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105416/how-to-add-to-full-environment-path" />
+        <published>2013-04-19T13:10:01Z</published>
+        <updated>2013-04-19T13:15:05Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I need to add two directories to the environment path, but when I enter the first it gets cut of in the middle. It seems to me my environment path is full(there are quite a lot of things in there).&lt;/p&gt;
+
+&lt;p&gt;How can I add my two directories to the environment path?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105346</id>
+        <re:rank scheme="http://stackoverflow.com">-1</re:rank>
+        <title type="text">Display a specific area of a Bitmap in imageView</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="listview"/><category scheme="http://stackoverflow.com/feeds/tags" term="bitmap"/><category scheme="http://stackoverflow.com/feeds/tags" term="resize"/><category scheme="http://stackoverflow.com/feeds/tags" term="imageview"/>
+        <author>
+            <name>Adrien Cerdan</name>
+            <uri>http://stackoverflow.com/users/2170756</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105346/display-a-specific-area-of-a-bitmap-in-imageview" />
+        <published>2013-04-19T13:06:19Z</published>
+        <updated>2013-04-19T13:15:14Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Here is my issue, I display in a ListView some Pictures come from web.
+I would like to display in my ImageView only a specific area to my picture, without resizing it.&lt;/p&gt;
+
+&lt;p&gt;Here is a concret example :
+&lt;a href=&quot;https://docs.google.com/file/d/0B6J9AVdWXjwuWld5dU5CWXFSTjQ/edit?usp=sharing&quot; rel=&quot;nofollow&quot;&gt;https://docs.google.com/file/d/0B6J9AVdWXjwuWld5dU5CWXFSTjQ/edit?usp=sharing&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;I think it&#39;s possible with a Bitmap method, but I really don&#39;t know how to do this...&lt;/p&gt;
+
+&lt;p&gt;Thanks for your tips&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105343</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Java Thread accessing another Thread</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="java"/><category scheme="http://stackoverflow.com/feeds/tags" term="multithreading"/><category scheme="http://stackoverflow.com/feeds/tags" term="synchronization"/><category scheme="http://stackoverflow.com/feeds/tags" term="thread-safety"/><category scheme="http://stackoverflow.com/feeds/tags" term="thread-synchronization"/>
+        <author>
+            <name>Joro Seksa</name>
+            <uri>http://stackoverflow.com/users/1495945</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105343/java-thread-accessing-another-thread" />
+        <published>2013-04-19T13:06:07Z</published>
+        <updated>2013-04-19T13:14:54Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have two Objects that implement the Runnable interface.&lt;/p&gt;
+
+&lt;p&gt;Lets say i have &lt;strong&gt;Thread_1&lt;/strong&gt; and &lt;strong&gt;Thread_2&lt;/strong&gt; objects.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thread_1&lt;/strong&gt; has global variable &lt;em&gt;myVariable;&lt;/em&gt; and method &lt;em&gt;myMethod()&lt;/em&gt; which uses the &lt;em&gt;myVariable&lt;/em&gt; variable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thread_2&lt;/strong&gt; has variable of type &lt;strong&gt;Thread_1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So here is the scenario:&lt;/p&gt;
+
+&lt;p&gt;Both threads: &lt;strong&gt;Thread_1&lt;/strong&gt; and &lt;strong&gt;Thread_2&lt;/strong&gt; are running. &lt;/p&gt;
+
+&lt;p&gt;if &lt;strong&gt;Thread_1&lt;/strong&gt; is currently using &lt;em&gt;myMethod()&lt;/em&gt; (which uses &lt;em&gt;myVariable&lt;/em&gt;) and at the same time &lt;strong&gt;Thread_2&lt;/strong&gt; is using &lt;strong&gt;Thread_1&lt;/strong&gt;&#39;s &lt;em&gt;myVariable&lt;/em&gt; throught &lt;strong&gt;Thread_1&lt;/strong&gt; (without calling the &lt;em&gt;myMethod()&lt;/em&gt; method ) should i synchronize the &lt;em&gt;myVaribale&lt;/em&gt; variable or not?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105315</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">PHP/MySQL Implode into multiple rows?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="mysql"/><category scheme="http://stackoverflow.com/feeds/tags" term="implode"/>
+        <author>
+            <name>Newcastlefan</name>
+            <uri>http://stackoverflow.com/users/1800176</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105315/php-mysql-implode-into-multiple-rows" />
+        <published>2013-04-19T13:05:00Z</published>
+        <updated>2013-04-19T13:15:06Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;is it possible to implode a checkbox value into multiple values to insert into a database?&lt;/p&gt;
+
+&lt;p&gt;At current I have this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$tags = implode(&#39;, &#39;, $_POST[&#39;checkboxname&#39;]);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This gives me the value of &quot;testtag1, testtag2&quot;&lt;/p&gt;
+
+&lt;p&gt;How would I split this up so it would go into the database like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Blog ID &#166; Tag
+------------------
+1       &#166; testtag1
+
+1       &#166; testtag2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Not sure how to make the implode function seperate them as this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$query2 = mysqli_query($myConnection, &quot;INSERT INTO blogtags (blogid, tag) VALUES(&#39;$blogid&#39;,&#39;$tags&#39;)&quot;) or die (mysqli_error($myConnection));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;just inserts the two values together in one row.&lt;/p&gt;
+
+&lt;p&gt;Any help would be great!
+Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105216</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">The multi-part identifier &quot;OrderCredit.User_ID&quot; could not be bound</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql-server"/><category scheme="http://stackoverflow.com/feeds/tags" term="ado"/>
+        <author>
+            <name>Ahmed Hossam</name>
+            <uri>http://stackoverflow.com/users/2299194</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105216/the-multi-part-identifier-ordercredit-user-id-could-not-be-bound" />
+        <published>2013-04-19T12:59:21Z</published>
+        <updated>2013-04-19T13:14:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;What went wrong please help !&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SqlCommand comm = new SqlCommand(
+   &quot;update Amounts 
+    set E_Wallet = (select OrderCredit.OrderAmount + E_Wallet 
+                    from OrderCredit) 
+    Where (OrderCredit.User_ID = @a)&quot;, c);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16105105</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How can one select only those rows appearing in an ordered result set after a given ID</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="sql"/><category scheme="http://stackoverflow.com/feeds/tags" term="postgresql"/><category scheme="http://stackoverflow.com/feeds/tags" term="activerecord"/>
+        <author>
+            <name>Yuri Gadow</name>
+            <uri>http://stackoverflow.com/users/437273</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16105105/how-can-one-select-only-those-rows-appearing-in-an-ordered-result-set-after-a-gi" />
+        <published>2013-04-19T12:54:13Z</published>
+        <updated>2013-04-19T13:15:10Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Given the data in the table &quot;people&quot;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+----+-------+
+| id | name  |
++----+-------+
+|  1 | Jane  |
+|  2 | Joe   |
+|  4 | John  |
+|  5 | Alice |
+|  6 | Bob   |
++----+-------+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And the order:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT * FROM people ORDER BY name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;... which would return:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+----+-------+
+| id | name  |
++----+-------+
+|  5 | Alice |
+|  6 | Bob   |
+|  1 | Jane  |
+|  2 | Joe   |
+|  4 | John  |
++----+-------+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How could one write a query--including the order above--which would return only rows after the one with a given id, e.g., if given an id of 1, it would return:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+----+-------+
+| id | name  |
++----+-------+
+|  2 | Joe   |
+|  4 | John  |
++----+-------+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To be clear, the id is variable and not known before hand.&lt;/p&gt;
+
+&lt;p&gt;An approach using commonly supported SQL would be great, but I&#39;m using PostgreSQL 9.2 and ActiveRecord 3.2 if they have anything additional of use, e.g., OVER() and ROW_NUMBER().&lt;/p&gt;
+
+&lt;p&gt;[Edit] I&#39;d previously showed the wrong desired result set, including the row with the given id. But, the result set, as described in the question, should only include rows &lt;em&gt;after&lt;/em&gt; the given ID.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16104984</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Hot to get a response &quot;stream&quot; from an action in MVC3/Razor?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-3"/>
+        <author>
+            <name>SamJolly</name>
+            <uri>http://stackoverflow.com/users/2038271</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16104984/hot-to-get-a-response-stream-from-an-action-in-mvc3-razor" />
+        <published>2013-04-19T12:48:29Z</published>
+        <updated>2013-04-19T13:15:41Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using MVC3, .NET4, C#.&lt;/p&gt;
+
+&lt;p&gt;I need to create some XHTML using a Razor View. I do this via an Action.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    public ActionResult RenderDoc(int ReportId)
+    {
+        //A new document is created.
+
+        return View();
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I then need to take the output from this and convert it to a Word Doc. I am using a 3rd party component to do this and it expects a &quot;stream&quot; or a &quot;file&quot; for the XHTML source that is read in for conversion to a DOC, like the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;document.Open(MyXhtmlStream,FormatType.Html,XHTMLValidationType.Transitional);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My Question:&lt;/p&gt;
+
+&lt;p&gt;What would be a good way to call the &quot;RenderDoc&quot; Action and obtain the result as a stream to feed into &quot;MyXhtmlStream&quot;.&lt;/p&gt;
+
+&lt;p&gt;Many thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16104755</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">GridView binding with custom property in EntityObject derived class fails in ASP.NET</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="asp.net"/><category scheme="http://stackoverflow.com/feeds/tags" term="entity-framework"/><category scheme="http://stackoverflow.com/feeds/tags" term="c#-4.0"/>
+        <author>
+            <name>Sanket Shah</name>
+            <uri>http://stackoverflow.com/users/241051</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16104755/gridview-binding-with-custom-property-in-entityobject-derived-class-fails-in-asp" />
+        <published>2013-04-19T12:36:56Z</published>
+        <updated>2013-04-19T13:15:39Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I&#39;ve an Entity Framework Layer and I&#39;ve extended a class from that layer. The code is as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public partial class FeatureMaster : EntityObject
+{
+    public string ParentFeatureName
+    {
+        get
+        {
+            return (from r in Global.dc.FeatureMasters
+                    where r.FeatureId == FeatureParentId
+                    select r).SingleOrDefault().FeatureName;
+        }
+        set
+        {
+            FeatureParentId = (from r in Global.dc.FeatureMasters
+                               where r.FeatureName == value
+                               select r).SingleOrDefault().FeatureId;
+            ReportPropertyChanged((&quot;ParentFeatureName&quot;));
+            ReportPropertyChanged((&quot;FeatureParentId&quot;));
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now I wish to use the same in my ASP.NET Page. The code for my ASP.NET Page is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;%@ Page Title=&quot;&quot; Language=&quot;C#&quot; MasterPageFile=&quot;~/Site.Master&quot; AutoEventWireup=&quot;true&quot;
+    CodeBehind=&quot;ListFeatureMaster.aspx.cs&quot; Inherits=&quot;Backend.ListFeatureMaster&quot; %&amp;gt;
+&amp;lt;asp:Content ID=&quot;Content1&quot; ContentPlaceHolderID=&quot;head&quot; runat=&quot;server&quot;&amp;gt;
+&amp;lt;/asp:Content&amp;gt;
+&amp;lt;asp:Content ID=&quot;Content2&quot; ContentPlaceHolderID=&quot;cpMain&quot; runat=&quot;server&quot;&amp;gt;
+    &amp;lt;asp:GridView ID=&quot;grdRecords&quot; runat=&quot;server&quot; AllowPaging=&quot;True&quot; AllowSorting=&quot;True&quot;
+        AutoGenerateColumns=&quot;False&quot; DataKeyNames=&quot;FeatureId&quot; DataSourceID=&quot;EntityDataSource1&quot;&amp;gt;
+        &amp;lt;Columns&amp;gt;
+            &amp;lt;asp:CommandField ShowDeleteButton=&quot;True&quot; ShowEditButton=&quot;True&quot; /&amp;gt;
+            &amp;lt;asp:BoundField DataField=&quot;FeatureId&quot; HeaderText=&quot;FeatureId&quot; ReadOnly=&quot;True&quot; SortExpression=&quot;FeatureId&quot; /&amp;gt;
+            &amp;lt;asp:BoundField DataField=&quot;FeatureName&quot; HeaderText=&quot;FeatureName&quot; SortExpression=&quot;FeatureName&quot; /&amp;gt;
+            &amp;lt;asp:BoundField DataField=&quot;FeatureParentId&quot; HeaderText=&quot;FeatureParentId&quot; SortExpression=&quot;FeatureParentId&quot; /&amp;gt;
+            &amp;lt;asp:BoundField DataField=&quot;FeatureDescription&quot; HeaderText=&quot;FeatureDescription&quot; SortExpression=&quot;FeatureDescription&quot; /&amp;gt;
+            &amp;lt;asp:TemplateField HeaderText=&quot;ParentFeatureName&quot; SortExpression=&quot;ParentFeatureName&quot;&amp;gt;
+                &amp;lt;EditItemTemplate&amp;gt;
+                    &amp;lt;asp:DropDownList ID=&quot;DropDownList1&quot; runat=&quot;server&quot; DataSourceID=&quot;EntityDataSource1&quot;
+                        AppendDataBoundItems=&quot;true&quot; DataTextField=&quot;ParentFeatureName&quot; DataValueField=&quot;ParentFeatureName&quot;
+                        SelectedValue=&#39;&amp;lt;%# Bind(&quot;ParentFeatureName&quot;) %&amp;gt;&#39;&amp;gt;
+                    &amp;lt;/asp:DropDownList&amp;gt;
+                &amp;lt;/EditItemTemplate&amp;gt;
+                &amp;lt;ItemTemplate&amp;gt;
+                    &amp;lt;asp:Label ID=&quot;Label1&quot; runat=&quot;server&quot; Text=&#39;&amp;lt;%# Eval(&quot;ParentFeatureName&quot;) %&amp;gt;&#39;&amp;gt;&amp;lt;/asp:Label&amp;gt;
+                &amp;lt;/ItemTemplate&amp;gt;
+            &amp;lt;/asp:TemplateField&amp;gt;
+        &amp;lt;/Columns&amp;gt;
+    &amp;lt;/asp:GridView&amp;gt;
+    &amp;lt;asp:EntityDataSource ID=&quot;EntityDataSource1&quot; runat=&quot;server&quot; ConnectionString=&quot;name=BackendEntities&quot;
+        DefaultContainerName=&quot;BackendEntities&quot; EnableFlattening=&quot;False&quot; EntitySetName=&quot;FeatureMasters&quot;
+        EntityTypeFilter=&quot;FeatureMaster&quot; EnableDelete=&quot;True&quot; EnableUpdate=&quot;True&quot;&amp;gt;
+    &amp;lt;/asp:EntityDataSource&amp;gt;
+        &amp;lt;asp:EntityDataSource ID=&quot;EntityDataSource2&quot; runat=&quot;server&quot; ConnectionString=&quot;name=BackendEntities&quot;
+        DefaultContainerName=&quot;BackendEntities&quot; EnableFlattening=&quot;False&quot; EntitySetName=&quot;FeatureMasters&quot;
+        EntityTypeFilter=&quot;FeatureMaster&quot; EnableDelete=&quot;True&quot; EnableUpdate=&quot;True&quot;&amp;gt;
+    &amp;lt;/asp:EntityDataSource&amp;gt;
+&amp;lt;/asp:Content&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The trouble is that when I execute this code, it works well on first load and navigation, but when I try to update the record, I get the error. Please help me to resolve the same.&lt;/p&gt;
+
+&lt;p&gt;Error message says:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A property named &#39;ParentFeatureName&#39; was not found on the entity during an insert, update, or delete operation. Check to ensure that properties specified as binding expressions are available to the data source.
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16104750</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Populating field(s) in a table with values derived out of VBA code</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="ms-access"/><category scheme="http://stackoverflow.com/feeds/tags" term="ms-access-2007"/><category scheme="http://stackoverflow.com/feeds/tags" term="access-vba"/><category scheme="http://stackoverflow.com/feeds/tags" term="ms-access-2010"/>
+        <author>
+            <name>Matt Hall</name>
+            <uri>http://stackoverflow.com/users/2140244</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16104750/populating-fields-in-a-table-with-values-derived-out-of-vba-code" />
+        <published>2013-04-19T12:36:41Z</published>
+        <updated>2013-04-19T13:15:15Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I found some &lt;a href=&quot;http://access.mvps.org/access/api/api0008.htm&quot; rel=&quot;nofollow&quot;&gt;neat code&lt;/a&gt; (via &lt;a href=&quot;http://stackoverflow.com/questions/168659/how-can-i-get-the-currently-logged-in-windows-user-in-access-vba/168682&quot;&gt;here&lt;/a&gt; actually) for getting the username of the user currently logged in to Windows.&lt;/p&gt;
+
+&lt;p&gt;Say I have a table called &lt;code&gt;AdminEntry&lt;/code&gt;. I&#39;d be looking to get the &lt;code&gt;AdminEntry&lt;/code&gt; table set up as the recordsource of a form, so the user would do the data entry on that table via the form. Any record they create and complete data entry for would then also have their username stamped on that record so we can track what belongs to who.&lt;/p&gt;
+
+&lt;p&gt;Not sure how I would go about pushing that username string in to the table, or the best approach.&lt;/p&gt;
+
+&lt;p&gt;Perhaps if the &lt;code&gt;AdminEntry&lt;/code&gt; table has the following fields:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| UserName | Field1 | Field2 |
+|          |        |        |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The user could just use the form to do data entry on &lt;code&gt;Field1&lt;/code&gt; and &lt;code&gt;Field2&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| UserName | Field1 | Field2 |
+|          |  data  |  data  |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then an event on a &lt;strong&gt;Save&lt;/strong&gt; button could perhaps pull through the username string in to the &lt;code&gt;UserName&lt;/code&gt; field and prior to saving the full record in the &lt;code&gt;AdminEntry&lt;/code&gt; table:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| UserName | Field1 | Field2 |
+|   data   |  data  |  data  |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Haven&#39;t got a clue how to pull through that username string though, so would love some help/pointers! &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16104619</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Wpf threadpool implementation</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="wpf"/><category scheme="http://stackoverflow.com/feeds/tags" term="threadpool"/><category scheme="http://stackoverflow.com/feeds/tags" term="implementation"/>
+        <author>
+            <name>user2203652</name>
+            <uri>http://stackoverflow.com/users/2203652</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16104619/wpf-threadpool-implementation" />
+        <published>2013-04-19T12:29:07Z</published>
+        <updated>2013-04-19T13:14:38Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have to implement validation on datatable in my project but it should be running on different background thread, not main UI thread. And once it&#39;s done it should show list of errors on screen. This validation runs from differences different places, there are 6 to 7 places which might causes data table error. I have below function written which  can be called from those 6 to 7 places to perform validation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Thread validationThread = null;
+
+    public void RunDataTableValidation()
+        {      
+                validationThread = new Thread(new ThreadStart(() =&amp;gt; validationHandler()));
+                validationThread.Name = &quot;DataGridValidationThread&quot;;
+                validationThread.IsBackground = true;
+                validationThread.Start();
+            }
+        }
+
+    public void validationHandler(Label FakeLabel)
+        {
+
+         try { //all validation code}
+
+         finally
+            {
+                System.Windows.Application.Current.Dispatcher.BeginInvoke(new Action(() =&amp;gt; ProcessingDone()));
+            }
+        }
+
+      void ProcessingDone()
+        {          
+            if (validationThread != null &amp;amp;&amp;amp; validationThread.ThreadState ==   ThreadState.Stopped)
+           {
+                validationThread.Abort();
+            }           
+        }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My Issue is: Every time I abort thread when once it&#39;s done with it&#39;s work. But I also want to Abort thread if current thread is still running and some other code calls this function and start new thread. I know I can use ThreadPool but please help me - how I can implement thread pool in my above code? So it automatically kills all running thread in thread pool before it starts new thread&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16103559</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">OpenCV c++ template recognition</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="c++"/><category scheme="http://stackoverflow.com/feeds/tags" term="templates"/><category scheme="http://stackoverflow.com/feeds/tags" term="opencv"/><category scheme="http://stackoverflow.com/feeds/tags" term="matching"/>
+        <author>
+            <name>vidzz</name>
+            <uri>http://stackoverflow.com/users/2298881</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16103559/opencv-c-template-recognition" />
+        <published>2013-04-19T11:27:58Z</published>
+        <updated>2013-04-19T13:14:47Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a template and I want to know if the template is present in an image.  Well I have googled a lot and came to the conclusion that I need to use &lt;code&gt;cvMatchTemplate&lt;/code&gt; and &lt;code&gt;cvMinMaxLoc&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is my code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;image = cvLoadImage(&quot;C:/images/flower.jpg&quot;,1);
+templat = cvLoadImage(&quot;C:/images/flo.jpg&quot;,1);
+image2=cvCreateImage( cvSize(image-&amp;gt;width, image-&amp;gt;height), IPL_DEPTH_8U, 1 );
+result=cvCreateImage( cvSize(image-&amp;gt;width, image-&amp;gt;height), IPL_DEPTH_8U, 1 );
+cvZero(result);
+cvZero(image2);
+cvCvtColor(image,image2,CV_BGR2GRAY);
+cvMatchTemplate(image2, templat,result,CV_TM_CCORR_NORMED);
+
+double min_val=0, max_val=0;
+CvPoint min_loc, max_loc;
+cvMinMaxLoc(result, &amp;amp;min_val, &amp;amp;max_val, &amp;amp;min_loc, &amp;amp;max_loc);
+
+cvRectangle(image, max_loc, cvPoint(max_loc.x+templat-&amp;gt;width,  
+max_loc.y+templat-&amp;gt;height), cvScalar(0), 1);
+
+cvShowImage( &quot;src&quot;, image );
+cvShowImage( &quot;result image&quot;, result);
+cvWaitKey(0);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My problem is when I run the above code,a message box is displayed saying:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Unhandled exception at 0x747d812f in matching.exe: Microsoft C++ exception: cv::Exception at memory location 0x001ff6ec.. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and in the black screen there is a message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;OpenCV Error: Sizes of input arguments do not match &amp;lt;image and template should have the same type&amp;gt; in unknown function, file..\..\..\..\ocv\opencv\scr\cv\cvtempl.cpp, line 356.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please note that &lt;code&gt;flower.jpg&lt;/code&gt; is a coloured image and &lt;code&gt;flo.jpg&lt;/code&gt; is the gray scale of that image.&lt;/p&gt;
+
+&lt;p&gt;Any ideas of what is happening? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16102188</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Postgresql insert trigger to set value</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="postgresql"/><category scheme="http://stackoverflow.com/feeds/tags" term="postgresql-9.1"/>
+        <author>
+            <name>user1408470</name>
+            <uri>http://stackoverflow.com/users/1408470</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16102188/postgresql-insert-trigger-to-set-value" />
+        <published>2013-04-19T10:07:43Z</published>
+        <updated>2013-04-19T13:15:02Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Assume in Postgresql, I have a table T and one of its column is C1. &lt;/p&gt;
+
+&lt;p&gt;I want to trigger a function when a new record is adding to the table T. The function should check the value of column C1 in the new record and if it is null/empty then set its value to X. &lt;/p&gt;
+
+&lt;p&gt;Is this possible? &lt;/p&gt;
+
+&lt;p&gt;Pls help&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16101810</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Dismiss generated UITextfeilds</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="iphone"/><category scheme="http://stackoverflow.com/feeds/tags" term="objective-c"/><category scheme="http://stackoverflow.com/feeds/tags" term="ios5"/><category scheme="http://stackoverflow.com/feeds/tags" term="ios6"/>
+        <author>
+            <name>Abhijit Chaudhari</name>
+            <uri>http://stackoverflow.com/users/1765384</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16101810/dismiss-generated-uitextfeilds" />
+        <published>2013-04-19T09:48:17Z</published>
+        <updated>2013-04-19T13:15:02Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am generating &lt;code&gt;UITextfield&lt;/code&gt;s dynamically on a scrollview as the user enters number in the    &lt;code&gt;UITextfield&lt;/code&gt; (lets say it &quot;A&quot;) and hits a button. But what i need to do is when user reenters   number in &lt;code&gt;UITextfield&lt;/code&gt;s the previously displayed &lt;code&gt;UITextfield&lt;/code&gt;s must be gone and new &lt;code&gt;UITextfield&lt;/code&gt;s` must be generated.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for (UIView *field in self.scrollView.subviews)
+{
+     if([field isKindOfClass:[UITextField class]])
+     [field removeFromSuperview];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;eg- if first i generated 7 &lt;code&gt;UITextfield&lt;/code&gt;s and afterwards i edit the &quot;A&quot; again and put 3 as value only 3 &lt;code&gt;UITextfield&lt;/code&gt;s must  be visible. 
+but in my code the 3 &lt;code&gt;UITextfield&lt;/code&gt;s are overwritten on 7 but previous also displayed. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16101195</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to eliminate the match of a point with itself?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="image-processing"/><category scheme="http://stackoverflow.com/feeds/tags" term="match"/><category scheme="http://stackoverflow.com/feeds/tags" term="copy-paste"/><category scheme="http://stackoverflow.com/feeds/tags" term="point"/><category scheme="http://stackoverflow.com/feeds/tags" term="sift"/>
+        <author>
+            <name>user615864</name>
+            <uri>http://stackoverflow.com/users/615864</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16101195/how-to-eliminate-the-match-of-a-point-with-itself" />
+        <published>2013-04-19T09:15:10Z</published>
+        <updated>2013-04-19T13:14:42Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have applied SIFT on one image but two times ,example: &lt;/p&gt;
+
+&lt;p&gt;[image1, descript1, location1] = sift(&#39;book.pgm&#39;);
+[image2, descript2, location2] = sift(&#39;book.pgm&#39;);&lt;/p&gt;
+
+&lt;p&gt;after matching function it will show all points are matching, I want to eliminate all the auto matches, i.e. the match of a point with itself. &lt;/p&gt;
+
+&lt;p&gt;In the image some areas are copy-pasted, I want to show only that matched points.&lt;/p&gt;
+
+&lt;p&gt;Anybody have suggestions how to do it? Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16101075</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Data Retrieval Throughput - ETS lookup vs inter-process Messaging</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="erlang"/><category scheme="http://stackoverflow.com/feeds/tags" term="mnesia"/><category scheme="http://stackoverflow.com/feeds/tags" term="ets"/>
+        <author>
+            <name>Muzaaya Joshua</name>
+            <uri>http://stackoverflow.com/users/431620</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16101075/data-retrieval-throughput-ets-lookup-vs-inter-process-messaging" />
+        <published>2013-04-19T09:08:26Z</published>
+        <updated>2013-04-19T13:14:51Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;suppose we have an erlang application which involves thousands of processes. Suppose there is a single resource X which may be a tuple, a list, or any erlang term, which all these processes may need to read / pick out something from it, at any moment in time.&lt;br&gt;&lt;br&gt;
+An example of such an occurrence, is say, an API system, in which client processes may need to read and write on a remote machine. Ant it happens that you do not want, for each read/write request, a new connection to be created. So, what you do, you create a pool of connections, consider them as a pool of open pipes/sockets/channels. &lt;br&gt;&lt;br&gt;
+Now, this pool of resources is to be shared by thousands of processes such that for each read or write demand, you want that process to retrieve any available open channel/resource. &lt;br&gt;&lt;br&gt;
+Question is, what if i have a process (a single process) hold this information, whether in its process dictionary or in its receive loop. It would mean that all the processes would have to send a message to this process whenever they need a free resource. This single process would have a huge mailbox at any time because of the high demand for this single resource.&lt;br&gt;&lt;br&gt; OR I could use an ETS Table, and have only one row, say, &lt;code&gt;#resources{key=pool,value= List_of_openSockets_or_channels}&lt;/code&gt;. But this would mean that, all our processes would attempt to make a read from the ETS Table for the same row at (high probability) same instantaneous times. &lt;br&gt;&lt;br&gt;
+How would the ETS Table handle, if 10,000 process atttempt a read, for the same row/record from it, at the same time/at almost same time ? and yet, if i use a process, its mailbox, if 10,000 processes send a message to it, at same time, for the same resource (and it would need to reply each requestor). And remember this action may occur so frequently. What option (dis-regarding availability issues of process going down blah blah), would provide higher throughput, in a way that, processes would get what they need faster ? &lt;br&gt;&lt;br&gt; Is there any other better way, of handling high demand data structures in the Erlang VM in a way that will provide very fast access to millions of processes, even if they all needed that resource at the same time ?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16098104</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Find a package by name in Intellij IDEA</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="intellij-idea"/>
+        <author>
+            <name>Pavel Ryzhov</name>
+            <uri>http://stackoverflow.com/users/966185</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16098104/find-a-package-by-name-in-intellij-idea" />
+        <published>2013-04-19T05:53:21Z</published>
+        <updated>2013-04-19T13:15:44Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I know the name of java package and I want to find it in project. How to do it fast in &lt;code&gt;Intellij IDEA&lt;/code&gt;? Is there any keyboard  shortcut?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16089610</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">scatter plot with dates at x axis -- add custom labels on X axis</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="android"/><category scheme="http://stackoverflow.com/feeds/tags" term="achartengine"/>
+        <author>
+            <name>George</name>
+            <uri>http://stackoverflow.com/users/583464</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16089610/scatter-plot-with-dates-at-x-axis-add-custom-labels-on-x-axis" />
+        <published>2013-04-18T17:35:27Z</published>
+        <updated>2013-04-19T13:15:45Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I want to have a scatter plot with dates in  x-axis.&lt;/p&gt;
+
+&lt;p&gt;Because if I use   &lt;code&gt;ChartFactory.getTimeChartView&lt;/code&gt; I receive a line graph and the problem is:&lt;/p&gt;
+
+&lt;p&gt;I make plot with current date as x axis and data (user input) as y axis.I store these data (date and user data) in Lists and also in a file. &lt;/p&gt;
+
+&lt;p&gt;The user may enter multiple times data during a day.And some of the data may be the same,so 
+if I use a Linegraph the plot messes up.That&#39;s why I need scatter.&lt;/p&gt;
+
+&lt;p&gt;1)How can I do this?&lt;/p&gt;
+
+&lt;p&gt;2) Also, can someone point me to  an example of adding custom labels on the X axis,in order to use a Linegraph?&lt;/p&gt;
+
+&lt;p&gt;----------------------UPDATE--------------------------------&lt;/p&gt;
+
+&lt;p&gt;I am trying to do this right now (&lt;strong&gt;i would like to know if it could be done as my questions above though&lt;/strong&gt;)&lt;/p&gt;
+
+&lt;p&gt;I store dates as List String :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;List&amp;lt;String&amp;gt; dates_asString=new ArrayList&amp;lt;String&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I save them:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SimpleDateFormat thedate = new SimpleDateFormat(&quot;dd/MM/yyyy&quot;); 
+        Date d=new Date();
+String formattedDate=thedate.format(d);
+        dates_asString.add(formattedDate);
+
+ BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
+              for (int i=0;i&amp;lt;mydata.size();i++){
+                    bw.write(mydata.get(i)+&quot;,&quot;+dates_asString.get(i)+&quot;\n&quot;);//+&quot;\n&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In LineGraph:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private static List&amp;lt;String&amp;gt; dates_asString = new ArrayList&amp;lt;String&amp;gt;();
+    private static List&amp;lt;Double&amp;gt; data = new ArrayList&amp;lt;Double&amp;gt;();
+    private static List&amp;lt;Date&amp;gt; dates_asDates = new ArrayList&amp;lt;Date&amp;gt;();
+
+
+loadfunc();    
+
+//trying to copy the dates_asString to dates_asDates in order to use them in TimeSeries
+
+ SimpleDateFormat formatter = new SimpleDateFormat(&quot;dd/MM/yyyy&quot;);
+        Date convertedDate=new Date();
+        try{
+       for (int k=0;k&amp;lt;dates_asString.size();k++){
+        convertedDate = formatter.parse(dates_asString.get(k));
+        date_asDates.add(convertedDate);
+       }
+        }catch (ParseException e){
+
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        TimeSeries series = new TimeSeries(&quot;Showing data&quot;);
+        for (int i=0;i&amp;lt;date_asDates.size();i++){    
+
+            series.add(date_asDates.get(i),data.get(i));    
+        }
+
+
+mRenderer.setXLabels(0);
+        for (int i=0;i&amp;lt;dates_asString.size();i++){
+            mRenderer.addXTextLabel(i,dates_asString.get(i));
+
+        }
+
+public void loadfunc(){
+
+    SimpleDateFormat thedate = new SimpleDateFormat(&quot;dd/MM/yyyy&quot;); 
+    Date d=new Date();
+
+    String formattedDate=thedate.format(d);
+
+BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+            ....
+                     data.add(Double.parseDouble(splitLine[0]));
+                    dates_asString.add(formattedDate);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16072762</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">How can I use jQuery file upload in webmatrix (ASP.NET Web Pages)?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="jquery"/><category scheme="http://stackoverflow.com/feeds/tags" term="file-upload"/><category scheme="http://stackoverflow.com/feeds/tags" term="webmatrix"/>
+        <author>
+            <name>mhcodner</name>
+            <uri>http://stackoverflow.com/users/1294705</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16072762/how-can-i-use-jquery-file-upload-in-webmatrix-asp-net-web-pages" />
+        <published>2013-04-18T00:57:32Z</published>
+        <updated>2013-04-19T13:15:13Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I would like to use this jQuery file upload with my website &lt;a href=&quot;https://github.com/blueimp/jQuery-File-Upload&quot; rel=&quot;nofollow&quot;&gt;https://github.com/blueimp/jQuery-File-Upload&lt;/a&gt; and according to the documentation I will need to create my own file upload handler and I was wondering if anyone has had any experience with using jQuery file upload in a webmatrix site?&lt;/p&gt;
+
+&lt;p&gt;And also, I can&#39;t find the info that I need to create my own file upload handler. If anyone can help with that, that would be awesome.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/16062549</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Tea Commerce + Umbraco</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="umbraco"/><category scheme="http://stackoverflow.com/feeds/tags" term="umbraco-ucommerce"/>
+        <author>
+            <name>Computer</name>
+            <uri>http://stackoverflow.com/users/2078265</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/16062549/tea-commerce-umbraco" />
+        <published>2013-04-17T14:19:08Z</published>
+        <updated>2013-04-19T13:14:49Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have an existing Umbraco site. I would like to add the option where users could buy a product and then pay for it etc.&lt;/p&gt;
+
+&lt;p&gt;Reading around it seems TeaCommerce (&lt;a href=&quot;http://www.teacommerce.net/en/products/tea-commerce-starter-kit.aspx&quot; rel=&quot;nofollow&quot;&gt;http://www.teacommerce.net/en/products/tea-commerce-starter-kit.aspx&lt;/a&gt;) is a module that can be used to achieve this.&lt;/p&gt;
+
+&lt;p&gt;So i download it and install it. All seems to install fine but now reading all the documentation that there is nothing states what to do next or how to proceed.&lt;/p&gt;
+
+&lt;p&gt;I then download the starter kit. Follow the instructions (&lt;a href=&quot;http://www.teacommerce.net/media/11341/installation_guide.pdf&quot; rel=&quot;nofollow&quot;&gt;http://www.teacommerce.net/media/11341/installation_guide.pdf&lt;/a&gt;) and the starter kit doesnt exactly run perfectly so i cant get the idea of how everything runs.&lt;/p&gt;
+
+&lt;p&gt;When i say the starter kit isnt running by that i mean i get the below errors&lt;/p&gt;
+
+&lt;p&gt;Error loading Razor Script /general/meta-description.cshtml
+&#39;string&#39; does not contain a definition for &#39;mediaItem&#39;&lt;/p&gt;
+
+&lt;p&gt;Error loading Razor Script /cart/mini-cart.cshtml
+Cannot perform runtime binding on a null reference&lt;/p&gt;
+
+&lt;p&gt;I realised there was no Template associated with the site - so adding a template allowed the above page to load but with the errors stated.&lt;/p&gt;
+
+&lt;p&gt;From this point on could anyone guide me or point me to a working solution that i can replicate myself or how to integrate it with my existing Umbraco site?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/15906592</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Losing transparency of png with php magickwand and imagemagick when rotation is applied</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="php"/><category scheme="http://stackoverflow.com/feeds/tags" term="imagemagick"/><category scheme="http://stackoverflow.com/feeds/tags" term="magickwand"/>
+        <author>
+            <name>user1946821</name>
+            <uri>http://stackoverflow.com/users/1946821</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/15906592/losing-transparency-of-png-with-php-magickwand-and-imagemagick-when-rotation-is" />
+        <published>2013-04-09T15:49:39Z</published>
+        <updated>2013-04-19T13:15:16Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;Hi I&#39;m porting a script from a windows environment running MagickWand 0.1.8 and ImageMagick 6.2.9 where transparency worked fine with MagickRotateImage.&lt;/p&gt;
+
+&lt;p&gt;New environment is linux running MagickWand 1.0.8 with ImageMagick 6.5.4-7 and transparency gets lost and it shows black as the background as soon as my logo image gets rotated.&lt;/p&gt;
+
+&lt;p&gt;From what I&#39;ve found online, seems that PixelSetColor($bg,&quot;none&quot;) doesn&#39;t work with the newer versions hence the black.  Ultimately, I need to know what to replace PixelSetColor($bg,&quot;none&quot;) with.  I just don&#39;t have a background in image creation so struggling a bit with this.&lt;/p&gt;
+
+&lt;p&gt;First my php runs this function which makes a local 60x60 version of 600x600 png image gotten from a url.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function makeThumb($fileContents){
+    GLOBAL $localImgPath1;
+    GLOBAL $localImgPath2;
+    $wand = NewMagickWand();
+    $lg = MagickReadImageBlob($wand,$fileContents);
+    $lg_w = MagickGetImageWidth($wand);
+    $lg_h = MagickGetImageHeight($wand);
+    $max = max($lg_h,$lg_w);
+    $scale_factor = 60/$max;
+    MagickResizeImage($wand,$lg_w*$scale_factor,$lg_h*$scale_factor, MW_GaussianFilter, .7);
+    MagickWriteImage($wand, $localImgPath1);
+    if($localImgPath2!=&quot;&quot;)
+        MagickWriteImage($wand, $localImgPath2);
+    $resized_w = MagickGetImageWidth($wand);
+    $resized_h = MagickGetImageHeight($wand);
+    DestroyMagickWand($wand);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then, I use this to read that locally written png image and rotate it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$logo = NewMagickWand();
+$bg = NewPixelWand();
+PixelSetColor($bg,&quot;none&quot;);
+MagickReadImage($logo, $localImgPath1);
+MagickRotateImage($logo, $bg, $r);
+header(&#39;Content-Type: image/PNG&#39;);
+MagickEchoImageBlob($logo);
+DestroyPixelWand($bg);
+DestroyMagickWand($logo);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve tried things like adding:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$transparent = NewPixelWand(&quot;#FFFFFF&quot;);
+PixelSetAlpha($transparent, 0);
+//and then making the rotate call:
+MagickRotateImage($logo, $transparent, $r);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also tried adding MagickSetImageAlphaChannel($logo, MW_SetAlphaChannel); before the rotate step. Saw some posts mentioning that method but possibly that&#39;s not the correct way to use it.  Not sure.&lt;/p&gt;
+
+&lt;p&gt;I also have the same problem in a script that draws a text string with a set font onto the image.  Black immediately shows there even before rotation is applied so hoping same fix for the logo script will be useable by the font script.&lt;/p&gt;
+
+&lt;p&gt;Any help would be greatly appreciated.  Thanks.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/7523407</id>
+        <re:rank scheme="http://stackoverflow.com">3</re:rank>
+        <title type="text">Fast way of converting a RouteValueDictionary to an anonymous object?</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term=".net"/><category scheme="http://stackoverflow.com/feeds/tags" term="asp.net-mvc-3"/>
+        <author>
+            <name>Matthew Bonig</name>
+            <uri>http://stackoverflow.com/users/66766</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/7523407/fast-way-of-converting-a-routevaluedictionary-to-an-anonymous-object" />
+        <published>2011-09-23T01:43:04Z</published>
+        <updated>2013-04-19T13:14:45Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I have a MVC3 RouteValueDictionary that I&#39;d like to convert quickly to an anonymous type. &lt;/p&gt;
+
+&lt;p&gt;for example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;new RouteValueDictionary(){{&quot;action&quot;,&quot;search&quot;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;would be the same as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;new {action=&quot;search&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/787144</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Class Type Expected error on TableAdapter constructor</title>
+        <category scheme="http://stackoverflow.com/feeds/tags" term="delphi"/><category scheme="http://stackoverflow.com/feeds/tags" term="delphi-prism"/><category scheme="http://stackoverflow.com/feeds/tags" term="oxygene"/>
+        <author>
+            <name>Chris Franz</name>
+            <uri>http://stackoverflow.com/users/12496</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/787144/class-type-expected-error-on-tableadapter-constructor" />
+        <published>2009-04-24T19:03:54Z</published>
+        <updated>2013-04-19T13:14:56Z</updated>
+        <summary type="html">
+            
+            &lt;p&gt;I am using Delphi Prism to connect to an Advantage Database Server. I created a connection using the server explorer to the database. I added a dataset object to my project and added a table to the dataset. Everything works fine in the IDE, however, I get an error in the generated designer code on the table adapter constructor.&lt;/p&gt;
+
+&lt;p&gt;The error is: (PE26) Class type expected.&lt;/p&gt;
+
+&lt;p&gt;Here is the generated code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{ Presidents.PresidentsTableAdapters.USPRESIDENTSTableAdapter }
+
+constructor Presidents.PresidentsTableAdapters.USPRESIDENTSTableAdapter;
+begin
+    self.ClearBeforeFill := true;
+end;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+</feed>

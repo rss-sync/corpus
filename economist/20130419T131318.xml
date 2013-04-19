@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>The Economist: The world this week</title>
+    <description>The world this week</description>
+    <link>http://www.economist.com</link>
+    <image>
+      <link>http://www.economist.com</link>
+      <width>125</width>
+      <title>Economist.com</title>
+      <url>//media.economist.com/sites/all/themes/econfinal/images/the-economist-logo.gif</url>
+      <height>34</height>
+    </image>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 18 April 2013 15:03:08 GMT</lastBuildDate>
+    <webMaster>webmaster@economist.com</webMaster>
+    <managingEditor>rondiorio@economist.com</managingEditor>
+    <ttl>120</ttl>
+    <docs>http://www.economist.com/rss/</docs>
+    <item>
+      <title>Politics this week</title>
+      <link>http://www.economist.com/news/world-week/21576454-politics-week?fsrc=rss|twt</link>
+      <guid isPermaLink = "false">http://www.economist.com/news/world-week/21576454-politics-week</guid>
+      <pubDate>Thu, 18 April 2013 15:03:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Business this week</title>
+      <link>http://www.economist.com/news/world-week/21576455-business-week?fsrc=rss|twt</link>
+      <guid isPermaLink = "false">http://www.economist.com/news/world-week/21576455-business-week</guid>
+      <pubDate>Thu, 18 April 2013 15:03:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>KAL&#039;s cartoon</title>
+      <link>http://www.economist.com/news/world-week/21576445-kals-cartoon?fsrc=rss|twt</link>
+      <guid isPermaLink = "false">http://www.economist.com/news/world-week/21576445-kals-cartoon</guid>
+      <pubDate>Thu, 18 April 2013 15:03:07 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

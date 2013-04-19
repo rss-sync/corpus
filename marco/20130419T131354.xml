@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Marco.org</title><link>http://www.marco.org/</link><description>I’m Marco Arment, creator of Instapaper, technology writer, and coffee enthusiast.</description><item><title>→ Sponsor: Duo Security, two-factor authentication for everyone</title><link>https://www.duosecurity.com/?cid=70170000000sAlz</link><guid isPermaLink="false">https://www.duosecurity.com/?cid=70170000000sAlz</guid><pubDate>Tue, 16 Apr 2013 15:39:46 EDT</pubDate><description>&lt;p&gt;Passwords are no longer sufficient for protecting important logins. Two-factor authentication &amp;#8212; &lt;em&gt;something you know&lt;/em&gt; + &lt;em&gt;something you have&lt;/em&gt; &amp;#8212; is a practical, proven technique for preventing account takeover.&lt;/p&gt;
+
+&lt;p&gt;Duo Security offers two-factor authentication as a service for SSH, VPN, web apps, and more. The service takes only a few minutes to set up and supports a variety of authentication factors: mobile app, phone callback, SMS, and tokens such as YubiKey. The best part? If you’re using a smartphone, there are no codes to transcribe: &lt;a href="https://www.duosecurity.com/duo-push?cid=70170000000sAlz"&gt;just tap “Approve” to authenticate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Join over 1,000 happy customers, including Tumblr, Joyent, and Etsy. &lt;a href="https://www.duosecurity.com/?cid=70170000000sAlz"&gt;Try Duo Security for free today&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Duo Security for sponsoring Marco.org this week.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/16/sponsor-duo-security"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Strength in the Face of Evil</title><link>http://www.onefoottsunami.com/2013/04/16/strength-in-the-face-of-evil/</link><guid isPermaLink="false">http://www.onefoottsunami.com/2013/04/16/strength-in-the-face-of-evil/</guid><pubDate>Tue, 16 Apr 2013 11:21:24 EDT</pubDate><description>&lt;p&gt;By a Boston friend, Paul Kafasis.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/16/boston"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Linode hacked, customer database taken</title><link>http://blog.linode.com/2013/04/16/security-incident-update/</link><guid isPermaLink="false">http://blog.linode.com/2013/04/16/security-incident-update/</guid><pubDate>Tue, 16 Apr 2013 11:15:40 EDT</pubDate><description>&lt;p&gt;Linode&amp;#8217;s blog:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As a result of the vulnerability, this group gained access to a web server, parts of our source code, and ultimately, our database. &amp;#8230; Our investigation reveals that this group did not have access to any other component of the Linode infrastructure, including access to the host machines or any other server or service that runs our infrastructure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you&amp;#8217;re a Linode customer, it&amp;#8217;s also worth reading &lt;a href="http://turtle.dereferenced.org/~nenolod/linode/linode-abridged.txt"&gt;the abridged IRC log from one of the hackers&lt;/a&gt; bragging about the attack to get an idea of what was taken and how. It may influence your decision whether to remain a Linode customer. I&amp;#8217;m on the fence.&lt;/p&gt;
+
+&lt;p&gt;Linode claims that Manager passwords were stored as bcrypt hashes, so they should be reasonably OK, but Lish passwords and API tokens were stored in plaintext. I&amp;#8217;ve never used Lish, but if you have, consider those passwords permanently compromised.&lt;/p&gt;
+
+&lt;p&gt;Credit-card info might be at risk. It was stored with public/private-key cryptography, which is very smart in theory &amp;#8212; the customer-facing machines could encrypt the data using the public key, while only the (presumably separate) billing machines could decrypt it with the private key &amp;#8212; except that Linode apparently kept the public and private keys together, so the hackers have both.&lt;/p&gt;
+
+&lt;p&gt;The only protection is the passphrase on the key. A rep from Linode &lt;a href="http://blog.linode.com/2013/04/16/security-incident-update/#comment-419022"&gt;says&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The passphrase is not guessable, sufficiently long and complex, not based on dictionary words, and not stored anywhere but in our heads.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It&amp;#8217;s up to you whether you&amp;#8217;re confident enough in the passphrase&amp;#8217;s complexity to continue trusting any credit-card numbers you&amp;#8217;ve used with Linode.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/16/linode-hacked"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Google Glass apps can’t charge money or run ads</title><link>http://news.cnet.com/8301-10812_3-57579762/google-glassware-developers-prohibited-from-displaying-ads/</link><guid isPermaLink="false">http://news.cnet.com/8301-10812_3-57579762/google-glassware-developers-prohibited-from-displaying-ads/</guid><pubDate>Tue, 16 Apr 2013 11:14:21 EDT</pubDate><description>&lt;p&gt;CNET:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The blanket prohibition came in the fine print of a &lt;a href="https://developers.google.com/glass/terms"&gt;policy&lt;/a&gt; made public this evening, which says &amp;#8220;Glassware&amp;#8221; developers may not &amp;#8220;serve or include any advertisements&amp;#8221; and they &amp;#8220;may not charge&amp;#8221; users to download apps for the device.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Because Google is open.&lt;/p&gt;
+
+&lt;p&gt;Naturally, &lt;a href="https://news.ycombinator.com/item?id=5557768"&gt;Hacker News is mostly supportive&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/16/open-glassware"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ The Bitcoin Bubble and the Future of Currency</title><link>https://medium.com/money-banking/2b5ef79482cb</link><guid isPermaLink="false">https://medium.com/money-banking/2b5ef79482cb</guid><pubDate>Mon, 15 Apr 2013 11:17:12 EDT</pubDate><description>&lt;p&gt;Great overview of the Bitcoin situation and why it&amp;#8217;s interesting, especially if you don&amp;#8217;t know much about it yet, by Felix Salmon.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/15/the-bitcoin-bubble"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ The Default Narrative</title><link>http://tracks.ranea.org/post/47791661856/the-default-narrative</link><guid isPermaLink="false">http://tracks.ranea.org/post/47791661856/the-default-narrative</guid><pubDate>Sun, 14 Apr 2013 13:18:36 EDT</pubDate><description>&lt;p&gt;Watts Martin:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Apple is Big Brother” has become a default narrative about the company. Apple stands for closed systems, proprietary everything, and a level of control over the way their customers use their products that would send us all fleeing for the hills if we had any common sense.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/14/default-narrative"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Accidental Tech Podcast: Hold Me!</title><link>http://atp.fm/episodes/8-hold-me</link><guid isPermaLink="false">http://atp.fm/episodes/8-hold-me</guid><pubDate>Fri, 12 Apr 2013 15:45:53 EDT</pubDate><description>&lt;p&gt;This week: Giving Dave Morin the benefit of the doubt, Facebook Home, tech giants maintaining their own OSes, Google forking WebKit, and Panic&amp;#8217;s Status Board.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="http://www.igloosoftware.com/campaigns/atp"&gt;Igloo Software&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/12/atp8"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Neutral: Vomit Ruins Everything</title><link>http://neutral.fm/episodes/12-vomit-ruins-everything</link><guid isPermaLink="false">http://neutral.fm/episodes/12-vomit-ruins-everything</guid><pubDate>Thu, 11 Apr 2013 14:56:20 EDT</pubDate><description>&lt;p&gt;In Neutral&amp;#8217;s final episode, closing our casual car miniseries: our BMW European Delivery experience, the M5, the autobahn, the Nürburgring, and German drivers.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="http://squarespace.com/neutral"&gt;Squarespace&lt;/a&gt;: Use code &lt;strong&gt;NEUTRAL4&lt;/strong&gt; at checkout for 10% off.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/11/neutral-12"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ The Magazine Issue 14</title><link>https://the-magazine.org/14/editors-note</link><guid isPermaLink="false">https://the-magazine.org/14/editors-note</guid><pubDate>Thu, 11 Apr 2013 12:00:12 EDT</pubDate><description>&lt;p&gt;Rather than just post the table of contents, here&amp;#8217;s Glenn&amp;#8217;s Editor&amp;#8217;s Note, free to all (doesn&amp;#8217;t count against the full-article trial limit), describing what&amp;#8217;s in this issue. Check it out.&lt;/p&gt;
+
+&lt;p&gt;I know I say this a lot, but this turned out to be an especially great issue.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/11/the-magazine-14"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Sponsor: Squarespace</title><link>http://www.squarespace.com/?channel=display&amp;subchannel=marco</link><guid isPermaLink="false">http://www.squarespace.com/?channel=display&amp;subchannel=marco</guid><pubDate>Wed, 10 Apr 2013 15:15:31 EDT</pubDate><description>&lt;p style="text-align: center;"&gt;&amp;#8220;The all-in-one website builder we’ve been waiting for.&amp;#8221;&lt;br/&gt;–Fast Company&lt;/p&gt;
+
+&lt;p style="text-align: center;"&gt;Websites • Domains • Commerce • 24/7 support&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.squarespace.com/?channel=display&amp;subchannel=marco"&gt;Try Squarespace today for free&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Squarespace for sponsoring Marco.org this week.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/10/sponsor-squarespace5"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Lukas Mathis on Facebook Home</title><link>http://ignorethecode.net/blog/2013/04/09/facebook_home/</link><guid isPermaLink="false">http://ignorethecode.net/blog/2013/04/09/facebook_home/</guid><pubDate>Tue, 09 Apr 2013 19:48:40 EDT</pubDate><description>&lt;blockquote&gt;
+  &lt;p&gt;But wouldn’t Google prefer &amp;#8220;stock Android&amp;#8221;? Well, the ability to replace the home screen is a built-in, fully supported Android feature. Google intentionally implemented it. This feature is, in fact, part of &amp;#8220;stock Android&amp;#8221;.&lt;/p&gt;
+  
+  &lt;p&gt;Android’s home screen is largely irrelevant to how Google makes money with Android. Google cares very much if you ship an Android phone with a different default search provider, with a non-Google default browser, without Google Play, or without Google Now. But replacing the home screen? Probably not a big deal.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;An interesting counterpoint to the &amp;#8220;Google must hate Facebook Home&amp;#8221; assumption, but I&amp;#8217;m not convinced Google sees this as a net neutral or win &amp;#8212; no matter how much (or how little) it directly hurts Google, it&amp;#8217;s a potentially huge gain for their biggest competitor, and that&amp;#8217;s never good. To add insult to injury, their biggest competitor built this potentially huge advantage on Google&amp;#8217;s own platform.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;d be one thing if Facebook somehow convinced Apple to build Home into iOS. But to take over as the social layer of Android &amp;#8212; something Google has failed to do for its own struggling Google+ product, probably because of &lt;a href="http://marketingland.com/post-android-google-andy-rubin-facebook-37403"&gt;internal conflicts&lt;/a&gt; &amp;#8212; is truly sticking it to Google, regardless of whether phones infected with Home will still use Google&amp;#8217;s apps under all of those &lt;a href="http://www.theverge.com/2013/4/4/4183172/facebook-home-android"&gt;disembodied heads&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/09/mathis-facebook-home"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>iPhone 6</title><link>http://www.marco.org/2013/04/09/iphone-6</link><guid isPermaLink="false">/2013/04/09/iphone-6</guid><pubDate>Tue, 09 Apr 2013 14:39:43 EDT</pubDate><description>&lt;p&gt;Ken Segall&amp;#8217;s &lt;a href="http://kensegall.com/2013/04/iphone-naming-when-simple-gets-complicated/"&gt;iPhone Naming: When Simple Gets Complicated&lt;/a&gt; argues for the next iPhone to be named &amp;#8220;iPhone 6&amp;#8221; rather than &amp;#8220;iPhone 5S&amp;#8221;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;More important, tacking an S onto the existing model number sends a rather weak message. It says that this is our “off-year” product, with only modest improvements. If holding off on the big number change achieved some great result, I might think otherwise. But look what happened with iPhone 5.&lt;/p&gt;
+  
+  &lt;p&gt;This model brought major changes: bigger screen, better camera, greater speed, all on a thinner and lighter body. Yet its improvements were &lt;em&gt;still&lt;/em&gt; dismissed by many as “incremental.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I agree: if Apple&amp;#8217;s going to keep using sequential numbers (rather than feature-based names, like the second iPhone being named &amp;#8220;iPhone 3G&amp;#8221;), they should just give every model the next number. The next iPhone should either be the iPhone 6 or the iPhone Something Else, not the iPhone 5S.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The iPhone 4S was a huge improvement over the iPhone 4, but the press and fans shat all over it because it had the same case design and therefore wasn&amp;#8217;t &amp;#8220;an iPhone 5&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;The 4S shipped during the clear beginning of the current era of Apple pessimism. Apple reduced people&amp;#8217;s expectations with the &amp;#8220;4S&amp;#8221; name at the worst possible time: just as many were starting to think iPhone innovation was slowing, Apple named the new iPhone in a way that suggested, &amp;#8220;This isn&amp;#8217;t a big improvement.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s a move that they could have made when they were on top of the world, PR-momentum-wise, much like when they released the iPhone 3GS, a similarly substantial improvement over the iPhone 3G that was similarly underrated by the public. But when the 4S was released, Apple no longer had that much positive momentum.&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;A year later, when Apple did release a model named &amp;#8220;iPhone 5&amp;#8221; that was &lt;em&gt;far&lt;/em&gt; better than the 4S &lt;em&gt;and&lt;/em&gt; had an external redesign, the inertia of Apple pessimism was so strong and the press had become such petulant children about Apple products that they shat all over it even though it was a huge update that gave them everything they asked for, plus more.&lt;/p&gt;
+
+&lt;p&gt;Now, Apple pessimism is even stronger. No matter what they release and no matter how well it sells, they won&amp;#8217;t win over the press, the pundits, the stock market, or the rhetoric. Not this year. They could release a revolutionary 60-inch 4K TV for $99 with built-in nanobots to assemble and dispense free smartwatches, and people would complain that it should cost $49 and the nanobots aren&amp;#8217;t open enough.&lt;/p&gt;
+
+&lt;p&gt;Since they&amp;#8217;re not going to meaningfully improve their PR momentum anytime soon, they might as well at least avoid trying to make it worse. This is &lt;em&gt;not&lt;/em&gt; the time for Apple itself to suggest to the world that it&amp;#8217;s slowing down innovation on its most important product.&lt;/p&gt;
+
+&lt;p&gt;Regardless of how big of an improvement the next iPhone is, Apple should just call it the iPhone 6 and give the finger to anyone who questions whether the name fits.&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Plus, since the &amp;#8220;5&amp;#8221; and &amp;#8220;S&amp;#8221; characters are so similar, a &amp;#8220;5S&amp;#8221; model would be more awkward than usual.&amp;#160;&lt;a href="#fnref:1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id="fn:2"&gt;
+&lt;p&gt;To make matters worse, they heavily focused the iPhone 4S&amp;#8217; marketing on Siri, a feature labeled &amp;#8220;beta&amp;#8221; that not only lived up to that label, but is fundamentally disappointing to most people&amp;#8217;s expectations even when it works reliably.&amp;#160;&lt;a href="#fnref:2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</description></item><item><title>→ The Micron M500: a 960 GB SSD for about $600</title><link>http://www.anandtech.com/show/6884/crucial-micron-m500-review-960gb-480gb-240gb-120gb</link><guid isPermaLink="false">http://www.anandtech.com/show/6884/crucial-micron-m500-review-960gb-480gb-240gb-120gb</guid><pubDate>Tue, 09 Apr 2013 11:54:27 EDT</pubDate><description>&lt;p&gt;AnandTech:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To put the drive&amp;#8217;s excellent price in perspective, the 960GB M500 has roughly the same MSRP as Intel&amp;#8217;s 80GB X25-M had back in 2008. That&amp;#8217;s an order of magnitude more storage capacity at the same price in 5 years time. Moore&amp;#8217;s Law makes me happy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After AnandTech&amp;#8217;s usual barrage of tests and solid analysis, this sounds like a great SSD for a lot of people: it&amp;#8217;s not the fastest, but it has more consistent performance than most, and it&amp;#8217;s the cheapest by far among &lt;a href="http://eshop.macsales.com/item/OWC/SSDEX3G960/"&gt;other&lt;/a&gt; 1 TB-class SSDs.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/09/anandtech-m500-review"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ The Swansea measles outbreak</title><link>http://blogs.telegraph.co.uk/news/tomchiversscience/100210964/mmr-does-not-cause-autism-the-swansea-measles-outbreak-shows-the-damage-this-idiotic-scare-has-caused/</link><guid isPermaLink="false">http://blogs.telegraph.co.uk/news/tomchiversscience/100210964/mmr-does-not-cause-autism-the-swansea-measles-outbreak-shows-the-damage-this-idiotic-scare-has-caused/</guid><pubDate>Mon, 08 Apr 2013 17:12:36 EDT</pubDate><description>&lt;p&gt;Tom Chivers, The Telegraph, on how lower vaccination rates caused by unsubstantiated autism scares led to a recent UK outbreak of measles.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dr Ben Goldacre, the author of &lt;a href="http://www.telegraph.co.uk/culture/books/bookreviews/9617550/Bad-Pharma-by-Ben-Goldacre-review.html"&gt;Bad Pharma&lt;/a&gt;, who has written extensively about autism and vaccination, says: “Health scares are like toothpaste: once they&amp;#8217;re out, it&amp;#8217;s very hard to get them back in the tube. They catch fire fast, because they&amp;#8217;re so seductive to journalists. And they don&amp;#8217;t go away, because once you&amp;#8217;ve planted fear and doubt in the mind, people become almost superstitious. Even doctors I know feel worried about MMR, knowing it’s irrational.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It&amp;#8217;s sad, and scary, that anti-intellectual, anti-science superstition about common vaccines has made it &lt;em&gt;more&lt;/em&gt; likely that our children will contract and spread these diseases than when we were younger. Anytime we make the world &lt;em&gt;less&lt;/em&gt; safe against easily solvable problems, we need to seriously evaluate what we&amp;#8217;re doing.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/08/mmr-does-not-cause-autism-the-swansea-measles-outbreak"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Thunderbolt update announced for 2014: 20 Gbps, 4K support</title><link>http://www.engadget.com/2013/04/08/intel-announces-next-gen-thunderbolt-20-gbps-throughput/</link><guid isPermaLink="false">http://www.engadget.com/2013/04/08/intel-announces-next-gen-thunderbolt-20-gbps-throughput/</guid><pubDate>Mon, 08 Apr 2013 15:58:16 EDT</pubDate><description>&lt;p&gt;Sarah Silbert, Engadget:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The next-gen Thunderbolt tech (code-named Falcon Ridge) enables 4K video file transfer and display simultaneously in addition to running at 20 Gbps. It will be backward-compatible with previous-gen Thunderbolt cables and connectors, and production is set to ramp up in 2014.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This could enable the first generation of desktop Retina displays: it wouldn&amp;#8217;t surprise me if the first standalone Retina display was a 23&amp;#8221; panel with exactly 4K resolution (3840 × 2160), run logically as 1920 × 1080 (1080p) at 2X, and driven by upgraded Thunderbolt ports in the next generation of MacBook Pros and Mac Pros.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/08/falcon-ridge"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tesla’s new non-lease option</title><link>http://www.marco.org/2013/04/03/teslas-new-non-lease</link><guid isPermaLink="false">/2013/04/03/teslas-new-non-lease</guid><pubDate>Wed, 03 Apr 2013 12:39:45 EDT</pubDate><description>&lt;p&gt;Tesla &lt;a href="http://www.teslamotors.com/about/press/releases/tesla-unveils-revolutionary-new-finance-product"&gt;announced a &amp;#8220;new finance product&amp;#8221;&lt;/a&gt; that&amp;#8217;s an interesting hybrid of buying and leasing. Supposedly, you buy the car with favorable financing terms, but with a minimal down payment (after tax subsidies) and a buyback option at a fixed residual after 36 months. It sounds like the tax benefits and flexibility of owning, but the predetermined resale benefit of a lease.&lt;/p&gt;
+
+&lt;p&gt;I wish Tesla would stop playing fast and loose with the numbers, though:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When considering the savings from using electricity instead of gasoline, depreciation benefits and other factors, the true net out of pocket cost to own a mid-range Model S drops to less than $500 per month.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What does &amp;#8220;true net out of pocket cost&amp;#8221; mean?&lt;/p&gt;
+
+&lt;p&gt;The middle Model S, by &lt;a href="http://www.teslamotors.com/true-cost-of-ownership"&gt;Tesla&amp;#8217;s own calculator&lt;/a&gt;, will require you to pay at least $7,990 as a down payment &amp;#8212; probably more &amp;#8212; before you get any tax credits.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; Even ignoring the significant up-front costs, their calculator is quoting a $711/month &amp;#8220;total cost of ownership&amp;#8221;, which is actually a $1,252/month car payment on a 5-year loan.&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s pretty far from &amp;#8220;less than $500 per month&amp;#8221;, so let&amp;#8217;s give them the benefit of the doubt and assume that by &amp;#8220;mid-range Model S&amp;#8221;, they really meant &amp;#8220;the cheapest Model S with zero options&amp;#8221;. That brings the actual payment to $1,097/month (again, hand-waving away the substantial up-front costs), or a &lt;a href="http://www.teslamotors.com/true-cost-of-ownership"&gt;$471/month&lt;/a&gt; &amp;#8220;effective cost&amp;#8221;. This is probably the figure that Tesla based this claim on.&lt;/p&gt;
+
+&lt;p&gt;But that price is also based on a number of &lt;em&gt;extremely&lt;/em&gt; optimistic assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You use the car for business 100% of the time by &lt;a href="http://www.irs.gov/taxtopics/tc510.html"&gt;the IRS&amp;#8217; definition&lt;/a&gt; and deduct it from your taxable income to net a $222-month tax reduction. Without this, the &amp;#8220;effective cost&amp;#8221; rises to $693/month. This, by far, is the worst default assumption in Tesla&amp;#8217;s calculator.&lt;/li&gt;
+&lt;li&gt;You live in California. If you live in Colorado, Illinois, Georgia, or West Virginia, you&amp;#8217;ll pay a bit less. If you live in any other state, increase that &amp;#8220;effective&amp;#8221; price by $69/month.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You drive 15,000 miles per year &lt;em&gt;and&lt;/em&gt; you&amp;#8217;d otherwise pay an average of $5 per gallon of gasoline over the next few years &lt;em&gt;and&lt;/em&gt; your car in this alternative scenario would require premium gas and average only 19 miles per gallon, netting you a $284/month effective savings after average electricity costs to replace the fuel.&lt;/p&gt;
+
+&lt;p&gt;But a $5-per-gallon average over just 3 years seems shaky at best, &lt;a href="http://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&amp;path=1&amp;year=2013&amp;mclass=Luxury%20Sedans&amp;srchtyp=marClass"&gt;many luxury sedans&lt;/a&gt; get much better gas mileage than 19 MPG (and some don&amp;#8217;t require premium gas), and the average U.S. driver drives about &lt;a href="http://www.fhwa.dot.gov/ohim/onh00/bar8.htm"&gt;13,476 miles per year&lt;/a&gt;. If you drove the average number of miles and would have otherwise bought a BMW 528i (the 5-series was the best-selling premium sedan of its size class in the U.S. in 2012) and averaged $4.50 per gallon over 3 years, for instance, this $284/month savings would be reduced to $140/month or less.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So if you live in most states, don&amp;#8217;t deduct your vehicle as a business expense (most people&amp;#8217;s vehicles don&amp;#8217;t qualify), and would otherwise buy a 5-series, your &amp;#8220;effective cost&amp;#8221; by Tesla&amp;#8217;s calculator rises to a minimum of &lt;strong&gt;$906/month&lt;/strong&gt; &amp;#8212; and that&amp;#8217;s for their cheapest model with no options, assuming that a surprise rich benefactor comes out of the woodwork to pay all of your sales tax and the remaining up-front costs after tax credits.&lt;/p&gt;
+
+&lt;p&gt;Tossing around that &amp;#8220;less than $500 per month&amp;#8221; figure to the press and the public is dishonest at best.&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id="fn:1"&gt;
+&lt;p&gt;The middle model, 85 kWh but not &amp;#8220;Performance&amp;#8221;, starts at $79,900 MSRP with no options added (unlikely) before a $7,500 U.S. federal tax credit. The 10% down payment required by the bank needs to be based on the full, pre-tax-credit sale price since that&amp;#8217;s what the bank is paying, so the down payment for a &amp;#8220;mid-range Model S&amp;#8221; is at least $7,990 &lt;em&gt;plus sales tax&lt;/em&gt; (unless tax is rolled into the financed amount, in which case the monthly payments will be noticeably higher). Average U.S. sales tax seems to be about 7%, which would put the down payment at $13,583.&amp;#160;&lt;a href="#fnref:1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</description></item><item><title>→ Sponsor: Taps.io for apps</title><link>http://in.tapstream.com/marco-promo/</link><guid isPermaLink="false">http://in.tapstream.com/marco-promo/</guid><pubDate>Wed, 03 Apr 2013 10:15:26 EDT</pubDate><description>&lt;p&gt;Think of Tapstream&amp;#8217;s Taps.io as Bitly for apps: create shortened links directly to your app&amp;#8217;s lander or its App Store page, and it will tell you how many clicks you get, and more importantly, how many downloads you get from each link. You can even drill deeper and find out how many in-app purchases or social shares were driven by any of your Taps.io links. Fully social-ready with HootSuite Enterprise integration, Taps.io makes promoting apps as easy as it should be.&lt;/p&gt;
+
+&lt;p&gt;And this week, Marco&amp;#8217;s readers can get the Pro account &lt;a href="http://in.tapstream.com/marco-promo/"&gt;for only $50&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Tapstream for sponsoring Marco.org this week.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/03/sponsor-tapstream5"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Google jukes the stats</title><link>http://www.theverge.com/2013/4/2/4176532/google-changes-how-it-measures-android-version-adoption-sees-uptick</link><guid isPermaLink="false">http://www.theverge.com/2013/4/2/4176532/google-changes-how-it-measures-android-version-adoption-sees-uptick</guid><pubDate>Wed, 03 Apr 2013 04:40:22 EDT</pubDate><description>&lt;p&gt;Bryan Bishop at The Verge:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As outlined on the &lt;a href="http://developer.android.com/about/dashboards/index.html"&gt;Android Developers site&lt;/a&gt;, Google now uses the data collected when users visit the Google Play Store; under the previous system, any check-in to the store by the device would have been incorporated into the results, user-generated or not. The new system went into effect starting with this month&amp;#8217;s results.&lt;/p&gt;
+  
+  &lt;p&gt;The change essentially skews the results towards those users who are actively visiting the Play Store. Google says as much on the page itself, noting that the new system &amp;#8220;more accurately reflects those users who are most engaged in the Android and Google Play ecosystem.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Verge&amp;#8217;s headline for this article: &amp;#8220;Google changes how it measures Android version adoption, sees uptick in Jelly Bean devices&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;A more accurate title would be: &amp;#8220;Google changes how it measures Android version adoption &lt;em&gt;to show an&lt;/em&gt; uptick in Jelly Bean devices&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;You could argue that it better reflects the breakdown of OS versions among active buyers, but that means that Google&amp;#8217;s statistics on version adoption can no longer be trusted to represent Android as a whole. Given that Play Store engagement seems about as disproportionally low as web-browsing marketshare on Android, these numbers now have far less relevance to the &lt;em&gt;real&lt;/em&gt; Android market and aren&amp;#8217;t useful for much.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s hard to see this change as anything but a desperate move by Google to attempt to hide Android&amp;#8217;s poor update-adoption rates.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/04/03/google-jukes-the-stats"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Accidental Tech Podcast: The Forecast For iCloud</title><link>http://atp.fm/episodes/7-the-forecast-for-icloud</link><guid isPermaLink="false">http://atp.fm/episodes/7-the-forecast-for-icloud</guid><pubDate>Fri, 29 Mar 2013 10:46:09 EDT</pubDate><description>&lt;p&gt;This week&amp;#8217;s episode: Summly and Yahoo, retaining good tech talent, and iCloud data sync for apps: why it doesn&amp;#8217;t work well, whether it&amp;#8217;s fixable, and whether you should use it even if it gets fixed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="http://squarespace.com/atp"&gt;Squarespace&lt;/a&gt;: Use code &lt;strong&gt;ATP3&lt;/strong&gt; at checkout for 10% off.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/29/atp7"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item><item><title>→ Facebook To Reveal “Home On Android”</title><link>http://techcrunch.com/2013/03/28/facebook-android-phone/</link><guid isPermaLink="false">http://techcrunch.com/2013/03/28/facebook-android-phone/</guid><pubDate>Fri, 29 Mar 2013 00:55:51 EDT</pubDate><description>&lt;p&gt;It&amp;#8217;s rumored to be an HTC phone running Facebook&amp;#8217;s custom fork of Android full of Facebook apps to do everything. Your Facebook news feed will live in your pants &lt;em&gt;all the time&lt;/em&gt;. Who wouldn&amp;#8217;t want that?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With deeper control of a modified operating system would come huge opportunities to collect data on its users. Facebook knows that who you SMS and call are important indicators of who your closest friends are. Its own version of Android could give it that info, which could be used to refine everything from what content you’re shown in the news feed to which friends faces are used in ads you see.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sign me up!&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.marco.org/2013/03/29/fb-phone-home"&gt;&amp;#8734; Permalink&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

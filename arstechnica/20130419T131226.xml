@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.arstechnica.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Ars Technica</title>
+	
+	<link>http://arstechnica.com</link>
+	<description>The Art of Technology</description>
+	<lastBuildDate>Fri, 19 Apr 2013 13:00:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.arstechnica.com/arstechnica/index" /><feedburner:info uri="arstechnica/index" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Oracle takes a leaf out of Microsoft’s book, prioritizes Java security</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/jmp84l5Kj-Q/</link>
+		<comments>http://arstechnica.com/security/2013/04/oracle-takes-a-leaf-out-of-microsofts-book-prioritizes-java-security/#comments</comments>
+		<pubDate>Fri, 19 Apr 2013 13:00:24 +0000</pubDate>
+		<dc:creator>Peter Bright</dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=249313</guid>
+		<description><![CDATA[Java 8 being delayed into the first quarter of 2014.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>The release of Java 8, originally due in September this year, has been pushed back. The new version's headline feature—Project Lambda, that brings anonymous functions to Java—isn't yet finished.</p>
+<p>The reason for this delay is, in part, security. Over the past eight months, a large number of <a href="http://arstechnica.com/security/2012/08/oracle-patches-critical-java-bugs/">critical</a> <a href="http://arstechnica.com/security/2013/01/oracle-patches-widespread-java-zero-day-bug-in-just-three-days-that-is/">security flaws</a> have been found and patched. This has damaged Java's reputation, with Apple, for example, reacting by <a href="http://arstechnica.com/apple/2012/10/apple-removes-java-from-all-os-x-web-browsers/">removing the Java plugin</a> from its Safari browser.</p>
+<p>In response, Mark Reinhold, Chief Architect of the Java Platform Group at Oracle, has <a href="http://mreinhold.org/blog/secure-the-train">announced</a> a "renewed focus on security" that will tie up engineering effort. As a result, Java 8 has now been pushed back until the first quarter of 2014.</p>
+</div><p><a href="http://arstechnica.com/security/2013/04/oracle-takes-a-leaf-out-of-microsofts-book-prioritizes-java-security/#p3">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2013/04/oracle-takes-a-leaf-out-of-microsofts-book-prioritizes-java-security/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=jmp84l5Kj-Q:KXzqTysu2jc:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=jmp84l5Kj-Q:KXzqTysu2jc:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=jmp84l5Kj-Q:KXzqTysu2jc:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=jmp84l5Kj-Q:KXzqTysu2jc:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=jmp84l5Kj-Q:KXzqTysu2jc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=jmp84l5Kj-Q:KXzqTysu2jc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/jmp84l5Kj-Q" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2013/04/oracle-takes-a-leaf-out-of-microsofts-book-prioritizes-java-security/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/security/2013/04/oracle-takes-a-leaf-out-of-microsofts-book-prioritizes-java-security/</feedburner:origLink></item>
+		<item>
+		<title>480GB is the new 240GB: Crucial’s M500 SSD reviewed</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/oPwi69ucCm8/</link>
+		<comments>http://arstechnica.com/gadgets/2013/04/480gb-is-the-new-240gb-crucials-m500-ssd-reviewed/#comments</comments>
+		<pubDate>Fri, 19 Apr 2013 12:57:01 +0000</pubDate>
+		<dc:creator>techreport</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[Crucial]]></category>
+		<category><![CDATA[SSD]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248969</guid>
+		<description><![CDATA[SSDs are cheaper than ever. How does the latest generation stack up?]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p><em>This story was brought to you by our friends at <a href="http://techreport.com">The Tech Report</a>. You can visit the original story <a href="http://techreport.com/review/24666/crucial-m500-ssd-reviewed">here</a>.</em></p>
+<img style="float:right;margin:10px" src="http://cdn.arstechnica.net/wp-content/themes/arstechnica/assets/images/tech-report-small.jpg"><p>Remember Intel's old X25-M SSD? The drive <a href="http://techreport.com/review/15433/intel-x25-m-solid-state-drive">came out in 2008</a> and played a big role in seeding a solid-state storage revolution that continues to sweep across the PC industry. SSDs have come a long way since those early days, when the X25-M 80GB was considered a relative bargain at $600. That worked out to <em>seven dollars</em> per gigabyte, a far cry from the sub-$1 prices that have democratized the technology in recent years.</p>
+<p>There is perhaps no better illustration of how far we've come than Crucial's new M500 SSD. For the same $600 asking price as the old X25-M, one variant of the M500 delivers a staggering 960GB of storage. Do the math, and you're looking at 63 cents per gig—an order of magnitude reduction in cost. How's that for progress?</p>
+</div><p><a href="http://arstechnica.com/gadgets/2013/04/480gb-is-the-new-240gb-crucials-m500-ssd-reviewed/#p3">Read 106 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2013/04/480gb-is-the-new-240gb-crucials-m500-ssd-reviewed/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=oPwi69ucCm8:NAckC1zv8Ns:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=oPwi69ucCm8:NAckC1zv8Ns:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=oPwi69ucCm8:NAckC1zv8Ns:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=oPwi69ucCm8:NAckC1zv8Ns:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=oPwi69ucCm8:NAckC1zv8Ns:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=oPwi69ucCm8:NAckC1zv8Ns:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/oPwi69ucCm8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2013/04/480gb-is-the-new-240gb-crucials-m500-ssd-reviewed/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gadgets/2013/04/480gb-is-the-new-240gb-crucials-m500-ssd-reviewed/</feedburner:origLink></item>
+		<item>
+		<title>Prenda Law may be hit with attorneys’ fees in SF case</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/WL_3uqzSc3Q/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/prenda-law-may-be-hit-with-attorneys-fees-in-sf-case/#comments</comments>
+		<pubDate>Fri, 19 Apr 2013 02:20:06 +0000</pubDate>
+		<dc:creator>Joe Mullin</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[attorneys fees]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[Copyright trolling]]></category>
+		<category><![CDATA[Prenda Law]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=249047</guid>
+		<description><![CDATA[Prenda lawyer who pled the Fifth shows up to explain why he's dropping his cases.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/4425457275_e8d9929a9c_z.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">A view of the outside of San Francisco District Court.</div>
+	
+			<div class="caption-byline">
+							<a href="http://www.flickr.com/photos/pacroon/4425457275/">iamkaspar</a>
+				</div>
+	  </div>
+  </div>
+ <p>SAN FRANCISCO—Copyright-trolling operation Prenda Law has made big business out of suing thousands of John Does for allegedly downloading porn files, and today it finds itself under fire throughout California. Faced with an angry federal judge in Los Angeles, the lawyers behind Prenda clammed up and <a href="http://arstechnica.com/tech-policy/2013/04/prenda-porn-trolls-clam-up-as-their-plans-crumble-in-an-la-courtroom/">pled the Fifth</a>. Once it became clear that case was going south fast, the firm started <a href="http://arstechnica.com/tech-policy/2013/03/panicked-porn-troll-prenda-law-now-dismissing-pending-lawsuits/">dismissing</a> its cases as fast as it could.</p>
+<p>But it may not be that easy. There's a risk that the firm could be slapped with attorneys fees in some of its cases before it makes them just disappear into the memory hole. In a San Francisco courtroom today, US District Judge Edward Chen wanted to know exactly why Prenda was dismissing the case it had once promised to see through to the end. And Chen let the sole Prenda representative who showed up today—Paul Duffy—know that he was considering ordering them to pay attorneys' fees in the case.</p>
+<p>It began like this: In May 2012, a shell company based in St. Nevis called AF Holdings sued [<a href="http://www.archive.org/download/gov.uscourts.cand.254869/gov.uscourts.cand.254869.1.0.pdf">PDF</a>] a Northern California man named Joe Navasca for downloading an adult movie called "Popular Demand," a movie produced by a porn company called Heartbreaker Productions. At first, all Prenda had was an IP address: 69.109.216.238.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/prenda-law-may-be-hit-with-attorneys-fees-in-sf-case/#p3">Read 20 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/prenda-law-may-be-hit-with-attorneys-fees-in-sf-case/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=WL_3uqzSc3Q:RwiKmFGWXVY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=WL_3uqzSc3Q:RwiKmFGWXVY:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=WL_3uqzSc3Q:RwiKmFGWXVY:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=WL_3uqzSc3Q:RwiKmFGWXVY:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=WL_3uqzSc3Q:RwiKmFGWXVY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=WL_3uqzSc3Q:RwiKmFGWXVY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/WL_3uqzSc3Q" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/prenda-law-may-be-hit-with-attorneys-fees-in-sf-case/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/prenda-law-may-be-hit-with-attorneys-fees-in-sf-case/</feedburner:origLink></item>
+		<item>
+		<title>Microsoft posts record third quarter revenue in spite of flat Windows numbers</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/zZY3X_4BWr8/</link>
+		<comments>http://arstechnica.com/information-technology/2013/04/microsoft-posts-record-third-quarter-revenue-in-spite-of-flat-windows-numbers/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 23:25:28 +0000</pubDate>
+		<dc:creator>Peter Bright</dc:creator>
+				<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[financials]]></category>
+		<category><![CDATA[microsoft]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248987</guid>
+		<description><![CDATA[Redmond also announced CFO Peter Klein will leave at end of financial year.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2012/10/microsoft-logo-640x480.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="http://www.flickr.com/photos/bfishadow/4405446485/">Julien GONG Min</a>
+				</div>
+	  </div>
+  </div>
+ <p>Microsoft has reported record quarterly revenue and earnings per share for the quarter ending March 31, 2013. In addition to that announcement, the company also revealed that CFO Peter Klein is to step down after 11 years at the company with four years in his current role. Klein's successor will be named in the next few weeks.</p>
+<p>Revenue was $20.489 billion, up 18 percent on the same quarter last year. Operating income was up 19 percent, at $7.612 billion. Earnings per share were also up, gaining 20 percent at $0.72. The company announced a dividend of $0.23 per share.</p>
+<p>Microsoft reported non-GAAP results too, and these reflect Windows 8, Office 2013, and Halo 4 revenue that was taken in prior quarters for products not delivered until this quarter. The numbers also include a <a href="http://arstechnica.com/tech-policy/2013/03/eu-fines-microsoft-e561-million-for-not-giving-users-a-browser-choice/">$733 million fine</a> paid to the European Commission for failing to offer the browser ballot screen to users of Windows 7 Service Pack 1.</p>
+</div><p><a href="http://arstechnica.com/information-technology/2013/04/microsoft-posts-record-third-quarter-revenue-in-spite-of-flat-windows-numbers/#p3">Read 10 remaining paragraphs</a> | <a href="http://arstechnica.com/information-technology/2013/04/microsoft-posts-record-third-quarter-revenue-in-spite-of-flat-windows-numbers/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=zZY3X_4BWr8:cZphof3NTy8:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=zZY3X_4BWr8:cZphof3NTy8:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=zZY3X_4BWr8:cZphof3NTy8:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=zZY3X_4BWr8:cZphof3NTy8:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=zZY3X_4BWr8:cZphof3NTy8:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=zZY3X_4BWr8:cZphof3NTy8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/zZY3X_4BWr8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/information-technology/2013/04/microsoft-posts-record-third-quarter-revenue-in-spite-of-flat-windows-numbers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/information-technology/2013/04/microsoft-posts-record-third-quarter-revenue-in-spite-of-flat-windows-numbers/</feedburner:origLink></item>
+		<item>
+		<title>How “Kessler’s Flying Circus” cookie-stuffed its way to $5.2M from eBay</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/7SHCHpFCdMw/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/how-kesslers-flying-circus-cookie-stuffed-its-way-to-5-2m-from-ebay/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 23:10:30 +0000</pubDate>
+		<dc:creator>Nate Anderson</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[cookie stuffing]]></category>
+		<category><![CDATA[eBay]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248967</guid>
+		<description><![CDATA[California man pleads guilty to an ingenious fraud.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/800px-Oreo-Two-Cookies-640x329.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="http://commons.wikimedia.org/wiki/File:Oreo-Two-Cookies.jpg">Wikimedia Commons</a>
+				</div>
+	  </div>
+  </div>
+ <p>Between May 2006 and June 2007, Brian Andrew Dunning made $5.2 million—<em>all</em> of it from eBay. Dunning wasn't selling Velvet Elvis posters and antique dinner plates through the auction site, however. He earned the money from affiliate commissions, getting paid whenever he directed people to eBay and they made purchases or won auctions. He was so successful at driving this traffic to eBay that his company, Kessler's Flying Circus, became the number two eBay affiliate in the entire world.</p>
+<p>His numbers grew so high and so fast that eBay began asking awkward questions almost immediately. How exactly, eBay wanted to know, was Dunning driving all of this traffic to the site? The company was well aware of the wide variety of tricks that affiliates could use to boost their stats, including one called "cookie stuffing." With cookie stuffing, affiliates would surreptitiously "stuff" their own eBay cookie into user computers. The next time the user visited eBay, the cookie would credit any sales commissions to the affiliate's account. (Each cookie contained an affiliate ID number; if a computer already had an eBay cookie on it, the most recently created one was used to pay out affiliate commissions.) These commissions weren't measured in pennies, either. At the time, eBay was offering $25 to affiliates for every single new "active user" and a whopping 50 percent commission on any user's auction wins so long as they exceeded $100 within a week's time.</p>
+<p>eBay worried that Kessler's Flying Circus had cookie-stuffed its way into the second place affiliate slot. But Dunning told an eBay employee looking into the matter that he was "absolutely confident" that he was operating "in line with the intended spirit of the terms." Dunning's partner told eBay separately that any problems were simply "coding errors."</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/how-kesslers-flying-circus-cookie-stuffed-its-way-to-5-2m-from-ebay/#p3">Read 10 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/how-kesslers-flying-circus-cookie-stuffed-its-way-to-5-2m-from-ebay/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7SHCHpFCdMw:uPhfqcEno3Q:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7SHCHpFCdMw:uPhfqcEno3Q:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7SHCHpFCdMw:uPhfqcEno3Q:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7SHCHpFCdMw:uPhfqcEno3Q:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7SHCHpFCdMw:uPhfqcEno3Q:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7SHCHpFCdMw:uPhfqcEno3Q:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/7SHCHpFCdMw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/how-kesslers-flying-circus-cookie-stuffed-its-way-to-5-2m-from-ebay/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/how-kesslers-flying-circus-cookie-stuffed-its-way-to-5-2m-from-ebay/</feedburner:origLink></item>
+		<item>
+		<title>AMD reduces its quarterly losses, but the news isn’t great either</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/QFujY9eLgZ4/</link>
+		<comments>http://arstechnica.com/business/2013/04/amd-reduces-its-quarterly-loss-but-the-news-isnt-great-either/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 22:20:39 +0000</pubDate>
+		<dc:creator>Cyrus Farivar</dc:creator>
+				<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[earnings]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248901</guid>
+		<description><![CDATA[Wall Street analyst: "At least they do not appear to be collapsing yet."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p dir="ltr" id="internal-source-marker_0.1209452659620257">AMD, the perennial underdog, just announced its latest <a href="http://www.sec.gov/Archives/edgar/data/2488/000119312513160817/d523388dex991.htm">quarterly earnings</a>. Unsurprisingly, they’re not great: the company lost $146 million in the first quarter of 2013. While that’s not as bad as the fourth quarter of 2012 (-$473 million) or even the first quarter of 2012 (-$590 million), it’s not good either. AMD’s <a href="https://www.google.com/finance?q=NYSE:AMD">stock price</a> has lost around four percent in after-hours trading.</p>
+<p dir="ltr">“I think the best you can say is that at least they do not appear to be collapsing yet,” Stacy Rasgon, an analyst with Sanford Bernstein, told Ars.</p>
+<p dir="ltr">Like the rest of the industry, AMD is struggling as PC sales are dropping fast. Intel just <a href="http://arstechnica.com/business/2013/04/intel-says-quarterly-profits-fell-25-percent-as-pc-industry-reels/">announced</a> its reduction in profits earlier this week.</p>
+</div><p><a href="http://arstechnica.com/business/2013/04/amd-reduces-its-quarterly-loss-but-the-news-isnt-great-either/#p3">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/business/2013/04/amd-reduces-its-quarterly-loss-but-the-news-isnt-great-either/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QFujY9eLgZ4:3Ts7PqEzRLs:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=QFujY9eLgZ4:3Ts7PqEzRLs:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QFujY9eLgZ4:3Ts7PqEzRLs:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=QFujY9eLgZ4:3Ts7PqEzRLs:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QFujY9eLgZ4:3Ts7PqEzRLs:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=QFujY9eLgZ4:3Ts7PqEzRLs:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/QFujY9eLgZ4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/business/2013/04/amd-reduces-its-quarterly-loss-but-the-news-isnt-great-either/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/business/2013/04/amd-reduces-its-quarterly-loss-but-the-news-isnt-great-either/</feedburner:origLink></item>
+		<item>
+		<title>Hack replaces normal iOS notifications with Facebook “Chat Heads”</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/7hOLbPoyo-A/</link>
+		<comments>http://arstechnica.com/apple/2013/04/hack-replaces-normal-ios-notifications-with-facebook-chat-heads/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 22:10:13 +0000</pubDate>
+		<dc:creator>Casey Johnston</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[chat heads]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[facebook home]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[notifications]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248851</guid>
+		<description><![CDATA[Rebel against one giant company to entrench yourself more with another!]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div style="float:right top">
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/chat-heads-facebook-ios.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">On a jailbroken iPhone, Chat Heads can be anywhere. </div>
+	
+	  </div>
+  </div>
+ <p>A developer has created a hack that allows the new Chat Heads feature in the iOS Facebook app to appear across all apps, according to a report Thursday from <a href="http://www.theverge.com/2013/4/17/4235816/chat-heads-for-iphone-jailbreak-tweak">The Verge</a>. Adam Bell’s tweak for jailbroken iPhones lets Chat Head notifications appear across the operating system, as they do for Android phones with the new Facebook Home installed.</p>
+<p>Chat Heads are part of the <a href="http://arstechnica.com/gadgets/2013/04/hands-on-with-facebook-home-and-the-htc-first/">Facebook Home environment</a>, <a href="http://arstechnica.com/gadgets/2013/04/facebook-home-is-now-live-and-ready-to-download/">released for Android last week</a> and <a href="http://arstechnica.com/gadgets/2013/04/facebook-reveals-family-of-apps-named-facebook-home/">announced</a> at the beginning of April. Chat Heads pop up on a Facebook Home-enabled phone as notifications for Facebook messages or SMSes in lieu of the typical Android notification, and users can tap on them to directly access the message, drag them around to rearrange them, or dismiss them.</p>
+<p>The latest version of Facebook for iOS <a href="http://arstechnica.com/apple/2013/04/facebooks-chat-heads-headed-to-ios-later-today/">includes Chat Head alerts</a>, but only for Facebook messages, and only while the Facebook app is open. Bell’s tweak for a jailbroken iOS device essentially involves making the rest of the Facebook app transparent while it continues to run so that only the Chat Heads layer is visible across the phone.</p>
+</div><p><a href="http://arstechnica.com/apple/2013/04/hack-replaces-normal-ios-notifications-with-facebook-chat-heads/#p3">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/apple/2013/04/hack-replaces-normal-ios-notifications-with-facebook-chat-heads/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7hOLbPoyo-A:RVR8WMxQIiQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7hOLbPoyo-A:RVR8WMxQIiQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7hOLbPoyo-A:RVR8WMxQIiQ:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7hOLbPoyo-A:RVR8WMxQIiQ:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7hOLbPoyo-A:RVR8WMxQIiQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7hOLbPoyo-A:RVR8WMxQIiQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/7hOLbPoyo-A" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2013/04/hack-replaces-normal-ios-notifications-with-facebook-chat-heads/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/apple/2013/04/hack-replaces-normal-ios-notifications-with-facebook-chat-heads/</feedburner:origLink></item>
+		<item>
+		<title>Court hands another defeat to Viacom in never-ending YouTube lawsuit</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/KpR55Lyq7Jo/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/court-hands-another-defeat-to-viacom-in-never-ending-youtube-lawsuit/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 22:00:03 +0000</pubDate>
+		<dc:creator>Timothy B. Lee</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[copyright law]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Viacom]]></category>
+		<category><![CDATA[YouTube]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248845</guid>
+		<description><![CDATA[Judge rejects Viacom demand that YouTube prove it didn't know about infringement.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>It's the lawsuit that won't die. More than six years ago, the entertainment giant Viacom <a href="http://arstechnica.com/business/2007/03/viacom-sues-youtube-for-copyright-infringement/">sued YouTube</a> for copyright infringement, arguing that the video sharing service was turning a blind eye to infringing videos uploaded by its users. A trial court judge <a href="http://arstechnica.com/tech-policy/2010/06/google-beats-viacom-in-billion-dollar-lawsuit/">rejected Viacom's argument</a> in 2010, ruling that the Digital Millennium Copyright Act's safe harbor applied.</p>
+<p>But last year, the United States Court of Appeals for the Second Circuit <a href="http://arstechnica.com/tech-policy/2012/04/appeals-court-gives-viacom-another-shot-in-billion-dollar-youtube-lawsuit/">partially overturned that ruling</a>, finding that YouTube employees may have been aware of specific cases of infringement and failed to act on that information. It asked a trial court judge to consider whether that claim was supported by the evidence.</p>
+<p>On Thursday, Judge Louis Stanton <a href="http://www.hollywoodreporter.com/thr-esq/youtube-again-beats-viacoms-massive-442233">sided with YouTube.</a> While Viacom claimed YouTube knew about specific infringing videos and failed to remove them, Viacom was unable to point to any specific examples of clips YouTube failed to remove despite knowing they were infringing.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/court-hands-another-defeat-to-viacom-in-never-ending-youtube-lawsuit/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/court-hands-another-defeat-to-viacom-in-never-ending-youtube-lawsuit/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KpR55Lyq7Jo:ajfNwresjDM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=KpR55Lyq7Jo:ajfNwresjDM:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KpR55Lyq7Jo:ajfNwresjDM:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=KpR55Lyq7Jo:ajfNwresjDM:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KpR55Lyq7Jo:ajfNwresjDM:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=KpR55Lyq7Jo:ajfNwresjDM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/KpR55Lyq7Jo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/court-hands-another-defeat-to-viacom-in-never-ending-youtube-lawsuit/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/court-hands-another-defeat-to-viacom-in-never-ending-youtube-lawsuit/</feedburner:origLink></item>
+		<item>
+		<title>Google’s answer to Apple’s Game Center may be just around the corner</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/UWJXwb-vFdE/</link>
+		<comments>http://arstechnica.com/gadgets/2013/04/googles-answer-to-apples-game-center-may-be-just-around-the-corner/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 21:45:37 +0000</pubDate>
+		<dc:creator>Florence Ion</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[Game Center]]></category>
+		<category><![CDATA[mobile games]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248783</guid>
+		<description><![CDATA[Android Police have discovered clues alluding to a multiplayer game service.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>With plenty of popular game titles making their way over to Android en masse, it's no surprise that Google may be working on its own socially driven multiplayer gaming network. In a recent teardown of <a href="https://play.google.com/store/apps/details?id=com.google.glass.companion">My Glass</a> (the Google Glass companion application), Android Police <a href="http://www.androidpolice.com/2013/04/18/apk-teardown-google-games-anyone-play-services-is-getting-real-time-and-turn-based-multiplayer-invitations-in-game-chat-lobbies-leaderboards-and-achievements/">discovered</a> what appears to be a feature list related to a service that could become Google’s answer to Apple's Game Center.</p>
+<p>The package apparently contains backend code for an integrated multiplayer gaming service, though there's no interface currently available. The teardown reveals a separate “games” folder with a wealth of files of interest, including ones that hint at the ability to play turn-based multiplayer games, correspond with other users within an in-game chat module, and rack up achievements. Players may also have access to leaderboards, invitations from other users wanting to play, and lobbies for games where users can virtually congregate before a game begins to talk strategy or wait for another player.</p>
+<p>Though the leak of the games service was discovered in an app related to the forthcoming Google Glass, Android Police notes that the service probably isn't connected to Glass since the device can’t run complex applications like those featured on Android. The post also mentions that Google usually packages its Google Play Services as one entity. So with all of the components that make up Google services—like account credentials, purchases, and Google+ integration—the developer usually picks only what's relevant to the application. It's possible that the Glass team may have accidentally packaged up all of the Google Play services into the application.</p>
+</div><p><a href="http://arstechnica.com/gadgets/2013/04/googles-answer-to-apples-game-center-may-be-just-around-the-corner/#p3">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2013/04/googles-answer-to-apples-game-center-may-be-just-around-the-corner/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=UWJXwb-vFdE:QqE9dGf3bfQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=UWJXwb-vFdE:QqE9dGf3bfQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=UWJXwb-vFdE:QqE9dGf3bfQ:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=UWJXwb-vFdE:QqE9dGf3bfQ:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=UWJXwb-vFdE:QqE9dGf3bfQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=UWJXwb-vFdE:QqE9dGf3bfQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/UWJXwb-vFdE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2013/04/googles-answer-to-apples-game-center-may-be-just-around-the-corner/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gadgets/2013/04/googles-answer-to-apples-game-center-may-be-just-around-the-corner/</feedburner:origLink></item>
+		<item>
+		<title>LulzSec hacker gets a year in jail for Sony breach</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/c_tEgL6VuDc/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/lulzsec-hacker-gets-a-year-in-jail-for-sony-breach/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 21:32:36 +0000</pubDate>
+		<dc:creator>Megan Geuss</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Anonymous]]></category>
+		<category><![CDATA[LulSec]]></category>
+		<category><![CDATA[Sony]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248855</guid>
+		<description><![CDATA["Recursion" pleaded guilty last April, must also pay $605,663 in restitution.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>In mid-2011, Anonymous offshoot LulzSec claimed responsibility for <a href="http://arstechnica.com/tech-policy/2011/06/sony-hacked-yet-again-plaintext-passwords-posted/">hacking</a> the Sony Pictures Entertainment website and in September of that year, the FBI <a href="http://arstechnica.com/tech-policy/2011/09/fbi-arrests-lulzsec-member-for-sony-pictures-hack/">arrested</a> Cody Kretsinger, nicknamed "Recursion,” in connection with that hack. In April 2012, Kretsinger <a href="http://arstechnica.com/tech-policy/2012/04/accused-lulzsec-member-pleads-guilty-to-hacking-sony/">pleaded guilty</a> to charges of "conspiracy" and "unauthorized impairment of a protected computer."</p>
+<p>Today, a Central California District Judge in Los Angeles <a href="http://www.reuters.com/article/2013/04/18/us-usa-lulzsec-hacker-idUSBRE93H10K20130418?feedType=RSS&amp;feedName=technologyNews">handed down his sentence</a>, ordering Kretsinger to serve "one year and one day in federal prison" followed by a one-year home-detention period. The 25-year-old will also be required to perform 1,000 hours of community service and pay $605,663 in restitution. Kretsinger lived in Phoenix, AZ at the time of the hack, but currently resides in Decatur, Illinois.<span style="font-family: Arial; font-size: medium;"><br></span></p>
+<p>Kretsinger had admitted to participating in a SQL injection attack that allowed him access to the Sony Pictures Entertainment site. There, he stole the personal information belonging to thousands of people who had registered with the site, giving that information to LulzSec to post publicly. Sony said it suffered $600,000 in damages from the LulzSec attack.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/lulzsec-hacker-gets-a-year-in-jail-for-sony-breach/#p3">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/lulzsec-hacker-gets-a-year-in-jail-for-sony-breach/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c_tEgL6VuDc:2cPm4VZyVZk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=c_tEgL6VuDc:2cPm4VZyVZk:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c_tEgL6VuDc:2cPm4VZyVZk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=c_tEgL6VuDc:2cPm4VZyVZk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c_tEgL6VuDc:2cPm4VZyVZk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=c_tEgL6VuDc:2cPm4VZyVZk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/c_tEgL6VuDc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/lulzsec-hacker-gets-a-year-in-jail-for-sony-breach/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/lulzsec-hacker-gets-a-year-in-jail-for-sony-breach/</feedburner:origLink></item>
+		<item>
+		<title>Why Superman is still interesting on his 75th birthday</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/0GPOpcogQJw/</link>
+		<comments>http://arstechnica.com/gaming/2013/04/why-superman-is-still-interesting-on-his-75th-birthday/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 21:10:50 +0000</pubDate>
+		<dc:creator>Kyle Orland</dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[comics]]></category>
+		<category><![CDATA[dark knight returns]]></category>
+		<category><![CDATA[dc comics]]></category>
+		<category><![CDATA[kingdom come]]></category>
+		<category><![CDATA[man of steel]]></category>
+		<category><![CDATA[red son]]></category>
+		<category><![CDATA[secret identity]]></category>
+		<category><![CDATA[Superman]]></category>
+		<category><![CDATA[superman peace on earth]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248773</guid>
+		<description><![CDATA[Or: How do you solve a problem like near-omnipotence?]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/superman1-640x861.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">He hasn't aged a day...</div>
+	
+	  </div>
+  </div>
+ <p>I'm used to getting my fair share of derision when I admit in public that Superman is still one of my favorite superheroes. Practically everyone goes through a Superman phase when they're growing up; kids are usually attracted to the hero's nigh-unbeatable powers and the easy, black-and-white clarity of his do-gooder persona. As superhero fans get older, though, they tend to gravitate to other, more nuanced superheroes that aren't so, well, square. These days, more people seem to find themselves relating more to Batman's tortured past, Iron Man's sardonic, devil-may-care attitude, or the over-the-top violence and winking meta-references of the heroes in <i>Kick Ass</i>.</p>
+<p>I get it. Compared to other superheroes, Superman can come off as kind of boring. He's so powerful that the foes he fights are usually either ridiculously overpowered or have to twist themselves into convoluted plot knots just to have a chance against him. His primary weakness, a bit of glowing green rock from his exploded home planet, acts too often as a "get out of jail free" card for writers looking for an easy loophole.</p>
+<p>But the trait that most gets in the way of telling a good Superman story is often his extreme boy scout image. How are you supposed to create interesting conflict when your hero is, by definition, the embodiment of truth, justice, and the American way? In these days of extreme moral ambiguity in popular fiction, Superman's righteousness seems downright outdated, which is somewhat understandable today, 75 years to the day since Superman made his premiere in <i>Action Comics</i> #1.</p>
+</div><p><a href="http://arstechnica.com/gaming/2013/04/why-superman-is-still-interesting-on-his-75th-birthday/#p3">Read 11 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2013/04/why-superman-is-still-interesting-on-his-75th-birthday/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=0GPOpcogQJw:5ws9RvOn7W0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=0GPOpcogQJw:5ws9RvOn7W0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=0GPOpcogQJw:5ws9RvOn7W0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=0GPOpcogQJw:5ws9RvOn7W0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=0GPOpcogQJw:5ws9RvOn7W0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=0GPOpcogQJw:5ws9RvOn7W0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/0GPOpcogQJw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2013/04/why-superman-is-still-interesting-on-his-75th-birthday/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gaming/2013/04/why-superman-is-still-interesting-on-his-75th-birthday/</feedburner:origLink></item>
+		<item>
+		<title>Pain relief: patient can sue dentist who tried to censor online reviews</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/NzqJ7-cRQm8/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/pain-relief-patient-can-sue-dentist-who-tried-to-censor-online-reviews/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 20:55:34 +0000</pubDate>
+		<dc:creator>Timothy B. Lee</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[censorship]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[Medical Justice]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248529</guid>
+		<description><![CDATA[Judge calls arguments for dismissing the patient's lawsuit "ridiculous."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>A patient who faced legal threats after writing a negative review about his dentist has <a href="http://www.forbes.com/sites/ericgoldman/2013/04/17/you-shouldnt-need-a-copyright-lawyer-to-pick-a-dentist/">cleared a key legal hurdle</a>, as a New York court rejected the dentist's "ridiculous" arguments for dismissing the lawsuit.</p>
+<p>We've <a href="http://arstechnica.com/tech-policy/2011/05/all-your-reviews-are-belong-to-us-medical-justice-vs-patient-free-speech/">written before</a> about a controversial copyright assignment agreement created by a group called Medical Justice. The agreement asks patients to grant their doctor or dentist copyright in any reviews they might write.</p>
+<p>One of those patients, Robert Lee, had a billing dispute with his dentist Stacy Makhnevich. Frustrated, he vented his complaints on review sites such as Yelp. Makhnevich threatened to sue him for copyright infringement and other offenses, citing the copyright assignment in the Medical Justice agreement. Her lawyer warned Lee that he could be on the hook for $100,000 worth of damages.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/pain-relief-patient-can-sue-dentist-who-tried-to-censor-online-reviews/#p3">Read 6 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/pain-relief-patient-can-sue-dentist-who-tried-to-censor-online-reviews/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=NzqJ7-cRQm8:orU-CaCfIv8:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=NzqJ7-cRQm8:orU-CaCfIv8:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=NzqJ7-cRQm8:orU-CaCfIv8:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=NzqJ7-cRQm8:orU-CaCfIv8:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=NzqJ7-cRQm8:orU-CaCfIv8:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=NzqJ7-cRQm8:orU-CaCfIv8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/NzqJ7-cRQm8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/pain-relief-patient-can-sue-dentist-who-tried-to-censor-online-reviews/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/pain-relief-patient-can-sue-dentist-who-tried-to-censor-online-reviews/</feedburner:origLink></item>
+		<item>
+		<title>Stressed out moms mean faster growing babies—if you’re a squirrel</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/eRWOV8Z6Qw0/</link>
+		<comments>http://arstechnica.com/science/2013/04/stressed-out-moms-mean-faster-growing-babiesif-youre-a-squirrel/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 20:30:06 +0000</pubDate>
+		<dc:creator>Kate Shaw</dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[behavior]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[stress]]></category>
+		<category><![CDATA[zoology]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248589</guid>
+		<description><![CDATA[For the offspring, it's grow fast, die young.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/red_squirrel-640x434.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="http://wdfw.wa.gov/conservation/gray_squirrel/">Washington State</a>
+				</div>
+	  </div>
+  </div>
+ <p>To give her offspring better odds in life, a mom can contribute all sorts of advantages: good genes, healthy milk, protection from predators, and more. Red squirrels—cousins of the more robust gray squirrels—are no exception. But new research in the journal <em>Science</em> shows that for these rodents, one such maternal boost stems from a surprising source: stress.</p>
+<p>The research was conducted by a group of scientists who have spent the last 22 years studying a group of wild red squirrels in the Yukon. The ecosystem there follows an episodic pattern: every few years, when the spruce trees produce seeds en masse, <a href="http://arstechnica.com/science/2006/12/6385/">the squirrel population booms</a> in response. The team’s previous research had shown that in the years when squirrel numbers are especially high, fast-growing offspring tend to fare better than those that grow more slowly, presumably since they are better equipped to outcompete their rivals.</p>
+<p>But how, exactly, do some squirrels end up growing so quickly?</p>
+</div><p><a href="http://arstechnica.com/science/2013/04/stressed-out-moms-mean-faster-growing-babiesif-youre-a-squirrel/#p3">Read 9 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2013/04/stressed-out-moms-mean-faster-growing-babiesif-youre-a-squirrel/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=eRWOV8Z6Qw0:qOA7FjLQ3-E:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=eRWOV8Z6Qw0:qOA7FjLQ3-E:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=eRWOV8Z6Qw0:qOA7FjLQ3-E:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=eRWOV8Z6Qw0:qOA7FjLQ3-E:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=eRWOV8Z6Qw0:qOA7FjLQ3-E:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=eRWOV8Z6Qw0:qOA7FjLQ3-E:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/eRWOV8Z6Qw0" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2013/04/stressed-out-moms-mean-faster-growing-babiesif-youre-a-squirrel/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/science/2013/04/stressed-out-moms-mean-faster-growing-babiesif-youre-a-squirrel/</feedburner:origLink></item>
+		<item>
+		<title>eBay seller who sued over bad feedback apologizes—but he’s done it before</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/B8-DuYXTI6A/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/ebay-seller-who-sued-over-bad-feedback-apologizes-but-has-done-it-before/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 19:50:16 +0000</pubDate>
+		<dc:creator>Joe Mullin</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[free speech]]></category>
+		<category><![CDATA[lawsuits]]></category>
+		<category><![CDATA[Med Express]]></category>
+		<category><![CDATA[Public Citizen]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248645</guid>
+		<description><![CDATA[Med Express backs down in recent suit, but defense lawyers will push for sanctions.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/sorry.1-640x700.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="http://www.flickr.com/photos/tilling-67/7539674818/">Rina Pitucci / flickr</a>
+				</div>
+	  </div>
+  </div>
+ <p>Last week, medical supplier Med Express <a href="http://pubcit.typepad.com/clpblog/2013/04/med-express-and-james-amodio-bullying-a-critic.html">filed</a> a lawsuit against an eBay buyer who dared to give the company negative feedback. By Tuesday, the lawsuit had been covered by <a href="http://arstechnica.com/tech-policy/2013/04/new-anti-speech-low-buyer-sued-over-negative-ebay-feedback/">Ars</a> <a href="http://www.techdirt.com/articles/20130416/02180522721/med-express-sues-marginally-dissatisfied-customer-posting-accurate-feedback-ebay.shtml">and</a> <a href="http://www.popehat.com/2013/04/15/the-popehat-signal-stand-against-rank-thuggery-in-ohio/">other</a> <a href="http://boingboing.net/2013/04/16/med-express-uses-broken-ohio-l.html">sites</a>. Yesterday, the story was featured in a British <a href="http://www.dailymail.co.uk/news/article-2310539/Sued-defamation-The-woman-left-negative-feedback-eBay-seller-admits-criticism-right.html">tabloid</a> and then on <a href="http://now.msn.com/amy-nicholls-south-carolina-woman-sued-by-med-express-over-negative-ebay-feedback">MSN</a>. Without a doubt, Med Express experienced a deluge of complaints.</p>
+<p>The publicity also landed the defendant, Amy Nicholls, the pro bono lawyers she had been seeking through Public Citizen. The lawyers filed a <a href="http://www.citizen.org/documents/NichollsAnswerandCounterclaim.pdf">counterclaim</a> for her in court.</p>
+<p>Last night, Med Express founder Richard Radey <a href="http://pubcit.typepad.com/clpblog/2013/04/med-express-and-james-amodio-bullying-a-critic.html?cid=6a00d83451b7a769e201901b5a113f970b#comment-6a00d83451b7a769e201901b5a113f970b">apologized</a>. He said the lawsuit was a mistake and he intends to drop it. Radey told his attorney to only ask for $1 in damages, he wrote. "Her feedback was also never an issue," continued Radey. "We fully support her right and all of our customers right to leave any feedback they desire—true or otherwise!" He concluded:</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/ebay-seller-who-sued-over-bad-feedback-apologizes-but-has-done-it-before/#p3">Read 8 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/ebay-seller-who-sued-over-bad-feedback-apologizes-but-has-done-it-before/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=B8-DuYXTI6A:bdigwyn8rgc:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=B8-DuYXTI6A:bdigwyn8rgc:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=B8-DuYXTI6A:bdigwyn8rgc:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=B8-DuYXTI6A:bdigwyn8rgc:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=B8-DuYXTI6A:bdigwyn8rgc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=B8-DuYXTI6A:bdigwyn8rgc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/B8-DuYXTI6A" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/ebay-seller-who-sued-over-bad-feedback-apologizes-but-has-done-it-before/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/ebay-seller-who-sued-over-bad-feedback-apologizes-but-has-done-it-before/</feedburner:origLink></item>
+		<item>
+		<title>Kepler spots two super Earths, one squarely in the habitable zone</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/CmTcBzjd1Z8/</link>
+		<comments>http://arstechnica.com/science/2013/04/kepler-spots-two-super-earths-one-squarely-in-the-habitable-zone/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 18:30:15 +0000</pubDate>
+		<dc:creator>John Timmer</dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[exoplanets]]></category>
+		<category><![CDATA[habitable zone]]></category>
+		<category><![CDATA[kepler]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248675</guid>
+		<description><![CDATA[Planets are about 1.5 times Earth's radius—and the right distance from a host star.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/lores-640x455.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-byline">
+							<a href="http://www.cfa.harvard.edu/news/2013/pr201311.html">Harvard</a>
+				</div>
+	  </div>
+  </div>
+ <p>Liquid water is one of the essential ingredients of life on Earth and it has properties conducive to life in general, so researchers have defined the concept of a habitable zone with water as its focus. For astronomers, the habitable zone is the area far enough from a host star that a planet would be cool enough to support liquid water, but not so far that the water would be frozen. Although there are <a href="http://arstechnica.com/science/2013/02/the-ars-guide-to-exoplanets/">many caveats</a> to this definition—everything from the presence of greenhouse gasses to clouds will shift a planet's average surface temperature—the concept helps drive the search for a planet capable of supporting life.</p>
+<p>The caveats, however, have led to a number of arguments over whether a given exoplanet is likely able to host liquid water, with some candidates shifting in and out of the habitable zone more than once. Still, it's pretty clear that given the <a href="http://arstechnica.com/science/2012/12/possible-habitable-zone-planet-a-mere-12-light-years-away/">large</a> <a href="http://arstechnica.com/science/2011/12/kepler-planet-candidate-count-clears-2000-first-habitable-zone-candidate-confirmed/">number</a> of <a href="http://arstechnica.com/science/2013/01/15-potential-planets-in-habitable-zones-found-by-citizen-scientists/">reported</a> <a href="http://arstechnica.com/science/2012/11/old-data-reveals-super-earth-lurking-in-a-nearby-stars-habitable-zone/">candidate</a> <a href="http://arstechnica.com/science/2007/04/aheavy-earth-like-planet-found-in-the-habitable-zone-of-a-red-dwarf/">exoplanets</a>, the odds suggest we've already spotted one. Today, scientists are announcing an exosolar system that has two planets that are both likely to be within the habitable zone, along with three others that are closer to the host star.</p>
+<p>The findings come from the Kepler mission, which is dealing with a backlog of roughly 2,000 planet candidates to sort through and confirm. Normally, confirmation requires observing changes in the light emitted by the host star, which gets dragged closer to and further from the Earth as the planets circle it. However, this method requires that the planets either be large or orbiting close to the star so that their gravitational influence is big enough to shift it.</p>
+</div><p><a href="http://arstechnica.com/science/2013/04/kepler-spots-two-super-earths-one-squarely-in-the-habitable-zone/#p3">Read 7 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2013/04/kepler-spots-two-super-earths-one-squarely-in-the-habitable-zone/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CmTcBzjd1Z8:7PyjiCACsZo:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=CmTcBzjd1Z8:7PyjiCACsZo:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CmTcBzjd1Z8:7PyjiCACsZo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=CmTcBzjd1Z8:7PyjiCACsZo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CmTcBzjd1Z8:7PyjiCACsZo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CmTcBzjd1Z8:7PyjiCACsZo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/CmTcBzjd1Z8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2013/04/kepler-spots-two-super-earths-one-squarely-in-the-habitable-zone/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/science/2013/04/kepler-spots-two-super-earths-one-squarely-in-the-habitable-zone/</feedburner:origLink></item>
+		<item>
+		<title>How much would you pay for a stylus? Samsung’s Galaxy Note 8.0 reviewed</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/btspFc2cRfc/</link>
+		<comments>http://arstechnica.com/gadgets/2013/04/how-much-would-you-pay-for-a-stylus-samsungs-galaxy-note-8-0-reviewed/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 18:05:57 +0000</pubDate>
+		<dc:creator>Andrew Cunningham</dc:creator>
+				<category><![CDATA[Ars Technica Videos]]></category>
+		<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[galaxy note 8.0]]></category>
+		<category><![CDATA[Samsung]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=247433</guid>
+		<description><![CDATA[The Note 8.0 is nearly a great tablet, but that $399 price tag gives us pause.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/IMG_4372-copy2-640x473.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The Note 8.0's S Pen stylus is its claim to fame, but does it make the tablet worth $400?</div>
+	
+			<div class="caption-byline">
+							Andrew Cunningham				</div>
+	  </div>
+  </div>
+ <p>Differentiation is something that trips up a lot of smartphones and tablets—how does your small, black, rectangular slab of plastic and glass stack up against my small, black, rectangular slab of plastic and glass? Samsung's Galaxy Note lineup has always had an easy answer to this question: all of the phones and tablets in the family have included a stylus and digitizer to go along with their capacitive touchscreens.</p>
+<p>We spent some time with the latest Note, an 8-inch tablet, at this <a href="http://arstechnica.com/gadgets/2013/02/if-at-first-you-dont-succeed-hands-on-with-samsungs-galaxy-note-8-0/">year's Mobile World Congress</a> and came away more impressed by it than we were by the <a href="http://arstechnica.com/gadgets/2012/08/good-ideas-middling-execution-the-samsung-galaxy-note-10-1-reviewed/">Note 10.1</a>. That was before we heard about the price, though—the Galaxy Note 8.0 starts at $399, which is $70 more than Apple's iPad mini and twice as much as the cheapest Nexus 7.</p>
+<p>The Note 8.0's stylus and software has quite a few useful features that its competition lacks, but the price is difficult to swallow. We'll try to figure out whether the Note's features justify their cost.</p>
+</div><p><a href="http://arstechnica.com/gadgets/2013/04/how-much-would-you-pay-for-a-stylus-samsungs-galaxy-note-8-0-reviewed/#p3">Read 29 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2013/04/how-much-would-you-pay-for-a-stylus-samsungs-galaxy-note-8-0-reviewed/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=btspFc2cRfc:7r3zAq-v0Pw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=btspFc2cRfc:7r3zAq-v0Pw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=btspFc2cRfc:7r3zAq-v0Pw:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=btspFc2cRfc:7r3zAq-v0Pw:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=btspFc2cRfc:7r3zAq-v0Pw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=btspFc2cRfc:7r3zAq-v0Pw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/btspFc2cRfc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2013/04/how-much-would-you-pay-for-a-stylus-samsungs-galaxy-note-8-0-reviewed/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gadgets/2013/04/how-much-would-you-pay-for-a-stylus-samsungs-galaxy-note-8-0-reviewed/</feedburner:origLink></item>
+		<item>
+		<title>Three Virginia teens face child porn charges in “sexting” trial</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/P0Q_xSpfBow/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/three-virginia-teens-face-child-porn-charges-in-sexting-trial/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 17:55:49 +0000</pubDate>
+		<dc:creator>Cyrus Farivar</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[sexting]]></category>
+		<category><![CDATA[Virginia]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248587</guid>
+		<description><![CDATA[Case involves three teens who allegedly non-consensually filmed sex acts.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p dir="ltr">On Thursday, <a href="http://www.washingtonpost.com/local/teen-sexting-case-goes-to-trial-in-fairfax-county/2013/04/17/4936b768-a6b7-11e2-b029-8fb7e977ef71_story.html">three northern Virginia teen boys</a> will head to trial to face child pornography charges stemming from <a href="http://www.washingtonpost.com/local/education/police-continue-to-investigate-alleged-porn-production-involving-fairfax-students/2013/02/04/3c2c861e-6f18-11e2-8b8d-e0b59a1b8e2a_story.html">sexting-style videos made on their cellphones</a>. If found guilty, each faces up to 20 years in prison and the sex offender label.</p>
+<p dir="ltr">Fairfax County Commonwealth’s attorney Ray Morrogh told the <em><a href="http://www.washingtonpost.com/local/teen-sexting-case-goes-to-trial-in-fairfax-county/2013/04/17/4936b768-a6b7-11e2-b029-8fb7e977ef71_story.html">Washington Post</a></em> that there needs to be a <a href="http://arstechnica.com/tech-policy/2009/03/judge-blocks-teen-sexting-charges/">balance</a> in these situations between <a href="http://arstechnica.com/tech-policy/2009/04/a-kinder-gentler-response-to-sexting/">labeling teens with sex charges</a> and considering the impact on victims of the distributed image.</p>
+<p dir="ltr">“We try to resolve these cases wherever possible without going to the courts,” Morrogh said. “At the juvenile level, the goal is to rehabilitate the child.”</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/three-virginia-teens-face-child-porn-charges-in-sexting-trial/#p3">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/three-virginia-teens-face-child-porn-charges-in-sexting-trial/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=P0Q_xSpfBow:6Wo2ZvuX8aI:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=P0Q_xSpfBow:6Wo2ZvuX8aI:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=P0Q_xSpfBow:6Wo2ZvuX8aI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=P0Q_xSpfBow:6Wo2ZvuX8aI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=P0Q_xSpfBow:6Wo2ZvuX8aI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=P0Q_xSpfBow:6Wo2ZvuX8aI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/P0Q_xSpfBow" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/three-virginia-teens-face-child-porn-charges-in-sexting-trial/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/three-virginia-teens-face-child-porn-charges-in-sexting-trial/</feedburner:origLink></item>
+		<item>
+		<title>House passes controversial “cybersecurity” bill CISPA in 288-127 vote</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/uSEY16OMTeg/</link>
+		<comments>http://arstechnica.com/tech-policy/2013/04/house-passes-controversial-cybersecurity-bill-cispa-in-288-127-vote/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 17:30:52 +0000</pubDate>
+		<dc:creator>Timothy B. Lee</dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[cispa]]></category>
+		<category><![CDATA[House of Representatives]]></category>
+		<category><![CDATA[Mike Rogers]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248583</guid>
+		<description><![CDATA[Almost half of Democrats support info-sharing bill despite Obama's veto threat.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>The United States House of Representatives <a href="http://clerk.house.gov/evs/2013/roll117.xml">approved</a> the Cyber Intelligence Sharing and Protection Act (CISPA) by a comfortable 288 to 127 margin. Almost half of the House's Democrats joined 196 Republicans in supporting the measure.</p>
+<p>The legislation grants companies broad legal immunity when they share information related to online threats with one another and with the federal government. Advocates argue that the legislation is needed to allow companies to quickly and efficiently share information in order to help secure their networks.</p>
+<p>But critics such as the American Civil Liberties Union and the Electronic Frontier Foundation describe the legislation as an attack on user privacy. They worry that companies will use the broad immunity offered by CISPA to ignore other laws that protect consumer privacy. And in a <a href="http://arstechnica.com/tech-policy/2013/04/obama-threatens-cispa-veto-sponsor-calls-opponents-basement-dwelling-14-year-olds/">veto threat</a> issued on Tuesday, the White House echoed these arguments.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2013/04/house-passes-controversial-cybersecurity-bill-cispa-in-288-127-vote/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2013/04/house-passes-controversial-cybersecurity-bill-cispa-in-288-127-vote/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=uSEY16OMTeg:gg2K-cieDgM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=uSEY16OMTeg:gg2K-cieDgM:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=uSEY16OMTeg:gg2K-cieDgM:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=uSEY16OMTeg:gg2K-cieDgM:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=uSEY16OMTeg:gg2K-cieDgM:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=uSEY16OMTeg:gg2K-cieDgM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/uSEY16OMTeg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2013/04/house-passes-controversial-cybersecurity-bill-cispa-in-288-127-vote/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/tech-policy/2013/04/house-passes-controversial-cybersecurity-bill-cispa-in-288-127-vote/</feedburner:origLink></item>
+		<item>
+		<title>Hands-on: Twitter #music is all about discovery, not listening</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/BTCs-7iOX4k/</link>
+		<comments>http://arstechnica.com/apple/2013/04/hands-on-twitter-music-is-all-about-discovery-not-listening/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 17:20:25 +0000</pubDate>
+		<dc:creator>Jacqui Cheng</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[Discovery]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[Twitter music]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248539</guid>
+		<description><![CDATA[You better like iTunes, Spotify, or Rdio if you want to actually listen.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Twitter released its much-anticipated Twitter #music service today (yes, with the hash tag), though it's less of a "service" than it is a music discovery app. In fact, the app is now available on the <a href="https://itunes.apple.com/us/app/twitter-music/id625541612?ls=1&amp;mt=8">iOS App Store</a> (or the <a href="https://music.twitter.com">Web</a>) and only available to users in the US, Canada, UK, Ireland, Australia, and New Zealand upon launch. Twitter plans to add more countries plus an Android app "over time," according to a <a href="http://blog.twitter.com/2013/04/now-playing-twitter-music.html">blog post</a> on Thursday.</p>
+<p>What exactly is the point of Twitter #music? That's the question I set out to answer when going hands-on with the iOS app. After experiencing what appear to be some launch-day bugs that prevented me from <em>actually</em> using the app for its intended purpose, things seem to be smoothing out.</p>
+<p>Here's how it works. The main screen shows you popular music already trending across Twitter along with the @username of the artist. Tapping on a square for that song/artist makes that square bigger and provides you with a follow button in the upper right-hand corner so you can follow that artist instantly. (It seems that a major component of this app is to generate more follows for more artists, but this is relevant to another aspect I'll get to in a second.) More importantly, however, you can listen to a 90-second preview—apparently fed through iTunes—of the song right within Twitter #music.</p>
+</div><p><a href="http://arstechnica.com/apple/2013/04/hands-on-twitter-music-is-all-about-discovery-not-listening/#p3">Read 14 remaining paragraphs</a> | <a href="http://arstechnica.com/apple/2013/04/hands-on-twitter-music-is-all-about-discovery-not-listening/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=BTCs-7iOX4k:cTC0jzP0E_U:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=BTCs-7iOX4k:cTC0jzP0E_U:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=BTCs-7iOX4k:cTC0jzP0E_U:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=BTCs-7iOX4k:cTC0jzP0E_U:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=BTCs-7iOX4k:cTC0jzP0E_U:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=BTCs-7iOX4k:cTC0jzP0E_U:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/BTCs-7iOX4k" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2013/04/hands-on-twitter-music-is-all-about-discovery-not-listening/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/apple/2013/04/hands-on-twitter-music-is-all-about-discovery-not-listening/</feedburner:origLink></item>
+		<item>
+		<title>Facebook reaches deeper into iOS apps with new “Share Dialog”</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/Ou6POGkzJiM/</link>
+		<comments>http://arstechnica.com/business/2013/04/facebook-reaches-deeper-into-ios-apps-with-new-share-dialog/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 17:10:35 +0000</pubDate>
+		<dc:creator>Casey Johnston</dc:creator>
+				<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[app]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Open Graph]]></category>
+		<category><![CDATA[SDK]]></category>
+		<category><![CDATA[sharing]]></category>
+		<category><![CDATA[third party app]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248391</guid>
+		<description><![CDATA[A new SDK from Facebook shows the company is hungry for iOS user data. ]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/facebook-share-permission.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The new permission dialog for apps that will let users share directly to Facebook. </div>
+	
+	  </div>
+  </div>
+ <p>Facebook <a href="https://developers.facebook.com/blog/post/2013/04/18/next-evolution-of-facebook-platform-for-mobile/">announced plans</a> to introduce a native sharing feature that app developers can add to their iOS apps during its Mobile DevCon held in New York City Thursday. The “Share Dialog” will allow users of non-Facebook applications that use a Facebook login to share items from within the application without having to leave it. The development is part of the company's new SDK for iOS apps.</p>
+<p>Recent versions of iOS have included Facebook integration and the ability to share from most native apps within the device. With the new iOS SDK, Facebook will fill the gap between third-party apps and native ones by introducing its own sharing feature that can publish app activities to their Facebook walls.</p>
+<p>Along with the new Share Dialog, mobile apps will have to ask users specifically whether it's OK to “share on their behalf,” with the opportunity for users to refuse. If users accept, though, Facebook will gain itself a new strain of data and content for its service driven by third-party app developers.</p>
+</div><p><a href="http://arstechnica.com/business/2013/04/facebook-reaches-deeper-into-ios-apps-with-new-share-dialog/#p3">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/business/2013/04/facebook-reaches-deeper-into-ios-apps-with-new-share-dialog/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Ou6POGkzJiM:Y6zuN7XDAFY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=Ou6POGkzJiM:Y6zuN7XDAFY:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Ou6POGkzJiM:Y6zuN7XDAFY:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=Ou6POGkzJiM:Y6zuN7XDAFY:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Ou6POGkzJiM:Y6zuN7XDAFY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Ou6POGkzJiM:Y6zuN7XDAFY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/Ou6POGkzJiM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/business/2013/04/facebook-reaches-deeper-into-ios-apps-with-new-share-dialog/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/business/2013/04/facebook-reaches-deeper-into-ios-apps-with-new-share-dialog/</feedburner:origLink></item>
+		<item>
+		<title>Yes, “design flaw” in 1Password is a problem, just not for end users</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/p6YJzwrXgpU/</link>
+		<comments>http://arstechnica.com/security/2013/04/yes-design-flaw-in-1password-is-a-problem-just-not-for-end-users/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 16:52:29 +0000</pubDate>
+		<dc:creator>Dan Goodin</dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[1password]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[cryptology]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[passwords]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248417</guid>
+		<description><![CDATA[It may very well be time for a new and improved hashing function.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p></p>
+<div class="image right full"><img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/keyhole.jpg"></div>Over the past 48 hours, Internet security forums have buzzed with news about a newly discovered technique that allows crackers to make an impressive 3 million guesses per second when trying to find the passcode that unlocks the contents of the widely used <a href="https://agilebits.com/onepassword">1Password password manager</a>.
+<p>The optimization, devised by the developer of the <a href="http://hashcat.net/oclhashcat-plus/">oclHashcat-plus password cracking tool</a>, achieved guessing speeds that were, depending on whom you are asking, from two to four times faster than expected. Its discovery was surprising, mainly because it relies in part on a subtle design flaw that until now has been overlooked.</p>
+<p>Cryptographers disagree about whether the weakness resides in the popular cryptographic hash function folded into 1Password or the specific implementation contained in 1Password. Either way, the designers of 1Password are smart people who do cryptography right, so the flaw has turned heads. And while even a four-fold reduction in the time it takes to exhaust a cracking attack isn't earth-shattering, it's still significant, considering how many people use 1Password to store the keys to their digital kingdoms.</p>
+</div><p><a href="http://arstechnica.com/security/2013/04/yes-design-flaw-in-1password-is-a-problem-just-not-for-end-users/#p3">Read 16 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2013/04/yes-design-flaw-in-1password-is-a-problem-just-not-for-end-users/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p6YJzwrXgpU:COE2iD7S2kY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=p6YJzwrXgpU:COE2iD7S2kY:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p6YJzwrXgpU:COE2iD7S2kY:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=p6YJzwrXgpU:COE2iD7S2kY:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p6YJzwrXgpU:COE2iD7S2kY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=p6YJzwrXgpU:COE2iD7S2kY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/p6YJzwrXgpU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2013/04/yes-design-flaw-in-1password-is-a-problem-just-not-for-end-users/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/security/2013/04/yes-design-flaw-in-1password-is-a-problem-just-not-for-end-users/</feedburner:origLink></item>
+		<item>
+		<title>Lower Nokia handset sales hurt earnings, shares plummet 11 percent</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/n1_Xj85fOcw/</link>
+		<comments>http://arstechnica.com/business/2013/04/lower-nokia-handset-sales-hurt-earnings-shares-plummet-11-percent/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 15:55:39 +0000</pubDate>
+		<dc:creator>Cyrus Farivar</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[lumia]]></category>
+		<category><![CDATA[Nokia]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248425</guid>
+		<description><![CDATA[Even Nokia's "bread and butter" low-end phone sales are down by nearly half.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p dir="ltr" id="internal-source-marker_0.1209452659620257">Another day, another euro for Nokia—on Thursday the company <a href="http://www.nokia.com/global/about-nokia/investors/financials/reports/results---reports/">announced</a> yet another set of disappointing earnings, sending its <a href="https://www.google.com/finance?q=NYSE:NOK">stock tumbling down around 11 percent</a> as of this writing.</p>
+<p dir="ltr">Despite the fact that Nokia sold more <a href="http://arstechnica.com/gadgets/2013/04/plastics-out-metals-in-aluminum-lumia-catwalk-pics-leak/">Lumia phones</a> (5.6 million) in the first quarter of 2013 than it did in the last quarter of 2012 (4.4 million), investors are not convinced the company is back on the right track.</p>
+<p dir="ltr">While the Finnish mobile giant reduced its first-quarter net loss in 2013 to €272 million ($357 million) compared to its staggering loss of €928 million ($1.2 billion) in the first quarter of 2012, the company also sold 32 percent fewer smartphones than it did in that quarter. Worse still, sales of its entry-level Asha phones fell by 46 percent, too.</p>
+</div><p><a href="http://arstechnica.com/business/2013/04/lower-nokia-handset-sales-hurt-earnings-shares-plummet-11-percent/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/business/2013/04/lower-nokia-handset-sales-hurt-earnings-shares-plummet-11-percent/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=n1_Xj85fOcw:OyZWLdcN_ys:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=n1_Xj85fOcw:OyZWLdcN_ys:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=n1_Xj85fOcw:OyZWLdcN_ys:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=n1_Xj85fOcw:OyZWLdcN_ys:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=n1_Xj85fOcw:OyZWLdcN_ys:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=n1_Xj85fOcw:OyZWLdcN_ys:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/n1_Xj85fOcw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/business/2013/04/lower-nokia-handset-sales-hurt-earnings-shares-plummet-11-percent/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/business/2013/04/lower-nokia-handset-sales-hurt-earnings-shares-plummet-11-percent/</feedburner:origLink></item>
+		<item>
+		<title>In move to pwn boys, Girl Scouts to introduce game developer badge</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/AgRTgugyuOE/</link>
+		<comments>http://arstechnica.com/gaming/2013/04/in-move-to-pwn-boys-girl-scouts-to-introduce-game-developer-badge/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 15:50:16 +0000</pubDate>
+		<dc:creator>Sean Gallagher</dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248429</guid>
+		<description><![CDATA[Women in Games International works to get more girls into the industry.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>On the heels of the Boy Scouts introducing a merit badge for game design, the Girl Scouts are going one better by developing a badge program to bring girls into the world of video game development. The effort is a collaboration between <a href="http://www.girlscoutsla.org/pages/about/media.html">Girl Scouts of Greater Los Angeles</a> and <a href="http://www.womeningamesinternational.org/">Women in Games International</a>.</p>
+<p>According to a <a href="http://www.girlgamer.com/zine/article/2677/">report by Girl Gamer</a>, the two organizations are developing an education program designed specifically for the Girl Scouts that meets the organization's requirements for skills badges. "Creating this badge will get young girls excited in technology and science and let them know that they, too, can have a career in the video game industry," WIGI Vice President Amy Allison told Girl Gamer.</p>
+<p>Currently, the Girl Scouts of the USA offers four official badges in the area of science, technology, engineering, and mathematics (STEM) education—"<a href="http://forgirls.girlscouts.org/home/badgeexplorer/#science-of-happiness">Science of Happiness</a>" and "<a href="http://forgirls.girlscouts.org/home/badgeexplorer/#science-of-style">Science of Style</a>" badges being the only ones for older scouts. The Boy Scouts introduced a <a href="http://www.scouting.org/media/pressreleases/2013/2130306.aspx">Game Design merit badge</a> in March, but its description doesn't specifically call for actual game software development. The WIGI-GSLA effort will use <a href="http://gamestarmechanic.com/">Gamestar Mechanic</a>, an educational development tool from <a href="http://elinemedia.com/">E-Line Media</a>, to allow scouts to develop and create their own video games.</p>
+</div><p><a href="http://arstechnica.com/gaming/2013/04/in-move-to-pwn-boys-girl-scouts-to-introduce-game-developer-badge/#p3">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2013/04/in-move-to-pwn-boys-girl-scouts-to-introduce-game-developer-badge/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=AgRTgugyuOE:96DkEgZ-OBg:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=AgRTgugyuOE:96DkEgZ-OBg:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=AgRTgugyuOE:96DkEgZ-OBg:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=AgRTgugyuOE:96DkEgZ-OBg:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=AgRTgugyuOE:96DkEgZ-OBg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=AgRTgugyuOE:96DkEgZ-OBg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/AgRTgugyuOE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2013/04/in-move-to-pwn-boys-girl-scouts-to-introduce-game-developer-badge/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gaming/2013/04/in-move-to-pwn-boys-girl-scouts-to-introduce-game-developer-badge/</feedburner:origLink></item>
+		<item>
+		<title>Google may remotely deactivate Glass if you sell it or lend to a friend</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/ejnhVTpYRmw/</link>
+		<comments>http://arstechnica.com/information-technology/2013/04/google-may-remotely-deactivate-glass-if-you-sell-it-or-lend-to-a-friend/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 15:41:08 +0000</pubDate>
+		<dc:creator>Jon Brodkin</dc:creator>
+				<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Glass]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248393</guid>
+		<description><![CDATA[Extreme restrictions turn up in Google Glass Explorer Edition terms of sale. ]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/glass-640x256.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The precioussss, I will never sell the precious.</div>
+	
+			<div class="caption-byline">
+							<a href="http://www.google.com/glass/start/what-it-does/">Google</a>
+				</div>
+	  </div>
+  </div>
+ <p>If you're lucky enough to buy Google Glass during the futuristic headset's beta program, you had better be happy with your purchase. Google's terms of sale for the Google Glass Explorer Edition forbids buyers from reselling, loaning, transferring, or just giving the device to any other person without Google's approval.</p>
+<p>Google may even remotely deactivate the device if it finds its buyer is no longer in control of it. From the <a href="http://www.google.com/glass/terms/">terms of sale</a>:</p>
+<blockquote><p>You must be 18 years or older, a resident of the United States, and authorized by Google as part of the Glass Explorer program in order to purchase or use Glass Explorer Edition. Unless otherwise authorized by Google, you may only purchase one Device, and you may not resell, loan, transfer, or give your Device to any other person. If you resell, loan, transfer, or give your device to any other person without Google’s authorization, Google reserves the right to deactivate the Device, and neither you nor the unauthorized person using the Device will be entitled to any refund, product support, or product warranty.</p></blockquote>
+<p>This provision is specific to Glass Explorer, an early adopter program in which developers and others selected by Google may pay $1,500 for the device. We've asked Google if a similar restriction will be placed on Glass when it becomes generally available, but the company declined to comment.</p>
+</div><p><a href="http://arstechnica.com/information-technology/2013/04/google-may-remotely-deactivate-glass-if-you-sell-it-or-lend-to-a-friend/#p3">Read 5 remaining paragraphs</a> | <a href="http://arstechnica.com/information-technology/2013/04/google-may-remotely-deactivate-glass-if-you-sell-it-or-lend-to-a-friend/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=ejnhVTpYRmw:Dhxyrwjr15M:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=ejnhVTpYRmw:Dhxyrwjr15M:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=ejnhVTpYRmw:Dhxyrwjr15M:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=ejnhVTpYRmw:Dhxyrwjr15M:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=ejnhVTpYRmw:Dhxyrwjr15M:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=ejnhVTpYRmw:Dhxyrwjr15M:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/ejnhVTpYRmw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/information-technology/2013/04/google-may-remotely-deactivate-glass-if-you-sell-it-or-lend-to-a-friend/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/information-technology/2013/04/google-may-remotely-deactivate-glass-if-you-sell-it-or-lend-to-a-friend/</feedburner:origLink></item>
+		<item>
+		<title>BlackBerry 10.1 update beta shows the future of the future of BlackBerry</title>
+		<link>http://feeds.arstechnica.com/~r/arstechnica/index/~3/8ngPEHB570g/</link>
+		<comments>http://arstechnica.com/gadgets/2013/04/blackberry-10-1-update-beta-shows-the-future-of-the-future-of-blackberry/#comments</comments>
+		<pubDate>Thu, 18 Apr 2013 15:10:12 +0000</pubDate>
+		<dc:creator>Andrew Cunningham</dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=248357</guid>
+		<description><![CDATA[HDR photos top a long list of minor changes.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/04/z10-angle-640x447.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">BlackBerry 10's first major update is on its way.</div>
+	
+			<div class="caption-byline">
+							Andrew Cunningham				</div>
+	  </div>
+  </div>
+ <p><a href="http://arstechnica.com/gadgets/2013/02/an-imperfect-ten-the-blackberry-z10-smartphone-review/">BlackBerry Z10</a> owners (and future BlackBerry Q10 owners) take notice: BlackBerry has issued a beta version of BlackBerry 10.1 to developers, and the first major update to <a href="http://arstechnica.com/gadgets/2013/02/review-blackberry-10-is-better-much-better-late-than-never/">BlackBerry 10</a> will bring a pile of small-but-welcome improvements to the operating system.</p>
+<p><a href="http://crackberry.com/blackberry-101-bringing-plenty-changes-heres-some-what-were-seeing">CrackBerry</a> has the full list of improvements included in BlackBerry version 10.1.0.1483, but we'll run down the highlight reel. At the top of the list is high-dynamic-range (HDR) photography, which as you may know from other platforms combines one underexposed shot, one shot with normal exposure, and one overexposed shot to create photos with the best possible lighting. The update also allows PIN-to-PIN messaging through the BlackBerry Hub, introduces some new demos and walkthroughs to acclimate users to the operating system's gesture-heavy interface, lets you disable alerts for specific apps, allows for coupon redemption in the BlackBerry World app store, and makes a number of other cosmetic and functional tweaks.</p>
+<p>This won't be Blackberry 10's first update—at least <a href="http://arstechnica.com/gadgets/2013/03/blackberry-10s-first-over-the-air-update-arrives-ahead-of-us-launch/">one minor patch</a> has been issued since release to squash bugs—but it will be the first "major" version bump since we got our hands on the Z10 in January. Updates to my review unit have come down reasonably quickly so far, but we still don't have enough evidence to say whether Blackberry updates will be delivered quickly and predictably like iOS, less-predictably-but-eventually like Windows Phone, or <a href="http://arstechnica.com/gadgets/2012/12/the-checkered-slow-history-of-android-handset-updates/">maybe-sometime-but-often-not</a> like Android.</p>
+</div><p><a href="http://arstechnica.com/gadgets/2013/04/blackberry-10-1-update-beta-shows-the-future-of-the-future-of-blackberry/">Read on Ars Technica</a> | <a href="http://arstechnica.com/gadgets/2013/04/blackberry-10-1-update-beta-shows-the-future-of-the-future-of-blackberry/?comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=8ngPEHB570g:EYtvN1yuGBo:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=8ngPEHB570g:EYtvN1yuGBo:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=8ngPEHB570g:EYtvN1yuGBo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=8ngPEHB570g:EYtvN1yuGBo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=8ngPEHB570g:EYtvN1yuGBo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=8ngPEHB570g:EYtvN1yuGBo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/arstechnica/index/~4/8ngPEHB570g" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2013/04/blackberry-10-1-update-beta-shows-the-future-of-the-future-of-blackberry/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://arstechnica.com/gadgets/2013/04/blackberry-10-1-update-beta-shows-the-future-of-the-future-of-blackberry/</feedburner:origLink></item>
+	</channel>
+</rss>

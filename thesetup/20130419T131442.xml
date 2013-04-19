@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+<title>The Setup</title>
+<link href="http://usesthis.com/feed/" rel="self"/>
+<link href="http://usesthis.com/"/>
+<updated>2013-04-18T21:17:00-07:00</updated>
+<id>http://usesthis.com/</id>
+<author>
+	<name>Daniel Bogan</name>
+</author>
+
+
+<entry>
+	<title>Adrian Bowyer</title>
+	<link href="http://adrian.bowyer.usesthis.com/"/>
+	<updated>2013-04-18T00:00:00-07:00</updated>
+	<id>http://adrian.bowyer.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/adrian.bowyer.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Adrian Bowyer&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;My name is &lt;a href=&quot;http://adrianbowyer.net/&quot; title=&quot;Adrian's website.&quot;&gt;Adrian Bowyer&lt;/a&gt;, and I invented &lt;a href=&quot;http://reprap.org/wiki/Main_Page&quot; title=&quot;A self-replicating manufacturing machine.&quot;&gt;RepRap&lt;/a&gt; - humanity’s first practical and useful self-replicating machine. RepRap is entirely open-source and free.&lt;/p&gt;
+
+&lt;p&gt;I used to be an academic at the University of Bath in the UK, where I spent time pretending to be a mathematician, a computer
+scientist, a chemical engineer and a biologist rather than being what
+I really was, which was a mechanical engineer in the Engineering
+Department.&lt;/p&gt;
+
+&lt;p&gt;I spent most of my time researching computational geometry, both for
+its own sake, and for application in engineering CAD systems. I am
+one of the authors of the &lt;a href=&quot;http://comjnl.oxfordjournals.org/content/24/2/162&quot; title=&quot;An algorithm that Adrian helped invent.&quot;&gt;Bowyer-Watson algorithm for Voronoi diagrams&lt;/a&gt;, I have devised a
+&lt;a href=&quot;http://www.adrianbowyer.net/web_images/bowyer_fractal.pdf&quot; title=&quot;Adrian's PDF on his new fractal curve.&quot;&gt;new class of fractals&lt;/a&gt;, and have written a number of papers on the use of implicit geometry in CAD systems.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;I have 12 RepRap 3D printers at the current count.&lt;/p&gt;
+
+&lt;p&gt;I also have a workshop with a lathe, a 3-axis mill, an arc welder, soft-tooling for casting, surface-mount soldering, electronics test equipment, microscopes, glass-blowing equipment, and a chemistry/biochemistry laboratory.&lt;/p&gt;
+
+&lt;p&gt;I intend shortly to get a small CNC mill and a laser-cutter.&lt;/p&gt;
+
+&lt;p&gt;I have a house and a laboratory full of PCs of various ages and states of decrepitude. But day-to-day I use a Zoostorm Desktop PC, with an Intel Pentium DC G860 3GHz, 8GB of RAM, and 1TB HDD with two 1920 x 1080 displays.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;All the computers I have run Ubuntu Linux, currently version 12.04.&lt;/p&gt;
+
+&lt;p&gt;Running along the launch bar: I use the &lt;a href=&quot;http://www.eclipse.org/&quot; title=&quot;A flexible, open-source IDE.&quot;&gt;Eclipse&lt;/a&gt; Java development environment, &lt;a href=&quot;http://mozilla.com/firefox/&quot; title=&quot;The very popular open-source cross-platform web browser.&quot;&gt;Firefox&lt;/a&gt;, &lt;a href=&quot;http://www.mozillamessaging.com/en-US/thunderbird/&quot; title=&quot;An open-source cross-platform mail client.&quot;&gt;Thunderbird&lt;/a&gt; e-mail with &lt;a href=&quot;http://openpgp.org/&quot; title=&quot;Email encryption software.&quot;&gt;OpenPGP&lt;/a&gt;, &lt;a href=&quot;http://arduino.cc/&quot; title=&quot;Open-source prototyping hardware.&quot;&gt;Arduino&lt;/a&gt; Version, the &lt;a href=&quot;http://www.openscad.org/&quot; title=&quot;Open-source 3D CAD software.&quot;&gt;OpenSCAD&lt;/a&gt; 3D CAD system, the &lt;a href=&quot;http://www.gimp.org/&quot; title=&quot;An open-source image editor.&quot;&gt;Gimp&lt;/a&gt; image editor, &lt;a href=&quot;http://www.skype.com/&quot; title=&quot;Voice and video chat software.&quot;&gt;Skype&lt;/a&gt;, &lt;a href=&quot;http://librecad.org/&quot; title=&quot;Open-source CAD software.&quot;&gt;LibreCAD&lt;/a&gt; 2D CAD, &lt;a href=&quot;https://github.com/kliment/Printrun&quot; title=&quot;A 3D printer driver.&quot;&gt;Pronterface&lt;/a&gt; 3D printer driver, &lt;a href=&quot;http://cadsoftusa.com/&quot; title=&quot;Software for designing printed circuit boards.&quot;&gt;Eagle&lt;/a&gt; and &lt;a href=&quot;http://www.kicad-pcb.org/&quot; title=&quot;Open-source CAD software.&quot;&gt;KiCAD&lt;/a&gt; electronics design software, &lt;a href=&quot;https://github.com/reprappro&quot; title=&quot;RepRap's GitHub account.&quot;&gt;RepRapPro’s&lt;/a&gt; version of the Java RepRapo host software, &lt;a href=&quot;http://www.inkscape.org/&quot; title=&quot;An open-source vector graphics program.&quot;&gt;Inkscape&lt;/a&gt;, and &lt;a href=&quot;http://projects.gnome.org/gedit/&quot; title=&quot;A text editor for GNOME.&quot;&gt;Gedit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All that software is free, and (except for Eagle and Skype) it is all open-source.&lt;/p&gt;
+
+&lt;p&gt;I spend most of my time doing mechanical and electronic design for
+RepRap and writing software for it. The above list pretty much give
+the toolkit I use for that purpose.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;All the above running 30-times faster in a much bigger set of rooms :-)&lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>John Battaglia</title>
+	<link href="http://john.battaglia.usesthis.com/"/>
+	<updated>2013-04-16T00:00:00-07:00</updated>
+	<id>http://john.battaglia.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/john.battaglia.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;John Battaglia&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;My name is John Battaglia and I roast &lt;a href=&quot;http://www.ritualroasters.com/&quot; title=&quot;A coffee roaster in San Francisco.&quot;&gt;coffee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;I roast on a &lt;a href=&quot;http://www.shpmachinery.co.uk/machine_summary.php?mid=1070&quot; title=&quot;A coffee roaster.&quot;&gt;Probat UG22&lt;/a&gt;. The “22” indicates its capacity in kilos. It’s a vintage, restored German-manufactured coffee roaster, frequently sought after for its cast iron construction. There is a nearly ideal ratio of convective to conductive heating that can exist when working with a cast iron roaster. Another advantage is the slightly forgiving and consistently predictable rate at which heat is transferred from the outside to the inside of the drum. When filled with coffee and heated from below with atmospheric burners, this horizontally-positioned drum roaster rotates at rates typically ranging between 45-60rpm. Our UG22 is tricked out with separate controls for airflow, drum speed, and cooling air. These independent controls can open up a new and exciting world of variables and manipulation, when executed properly.&lt;/p&gt;
+
+&lt;p&gt;I also use a &lt;a href=&quot;http://www.coffeelabequipment.com/COLORTRACK.html&quot; title=&quot;A laser reflectometer for coffee beans.&quot;&gt;ColorTrack&lt;/a&gt;, which is a roast color analyzer. It shoots lasers at a coffee sample at a rate of 10,000/second and produces a numeric representation of the degree of roast. Lasers!&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;The software I use is called &lt;a href=&quot;https://www.cropster.org/products/coffee-roaster/&quot; title=&quot;Coffee roasting and analysis software.&quot;&gt;Cropster&lt;/a&gt;, which is data-logging/inventory management software that basically uses a graph to represent the progress of each batch with time and temperature on adjacent axes as well as degrees-per-minute. The resulting curve is a very basic, but extremely useful visual representation of a roast. This roast curve, in tandem with degrees/minute, can help visualize factors which greatly affect coffee that are not as easily determined when using a more traditional approach.&lt;/p&gt;
+
+&lt;p&gt;A roast curve is logged for each batch, along with other information relevant to that particular batch, and is later referenced as one of several data points we utilize to more accurately correlate what we’re doing in the roaster to what we’re tasting in the cup.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;My dream setup would be what I’m currently working on, but outdoors with fresh air. &lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Patric King</title>
+	<link href="http://patric.king.usesthis.com/"/>
+	<updated>2013-04-11T00:00:00-07:00</updated>
+	<id>http://patric.king.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/patric.king.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Patric King&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;I’m &lt;a href=&quot;http://fixingthehobosuit.com/&quot; title=&quot;Patric's website.&quot;&gt;Patric King&lt;/a&gt;. I’m a sort of blend of a writer, hobbyist typographer (by no means professional, although I did actually intend to be a pro while in college), print designer, and interactive designer. I started my career in print about fifteen years ago with Thirst, where we developed work for Herman Miller and Gary Fisher, but I then quickly became enthralled by interactive work. I’ve worked on the net, almost exclusively, since 1997. I think my biggest claim to fame since then is that I designed all of the brands in the Gawker Media stable of blogs.&lt;/p&gt;
+
+&lt;p&gt;Right now, my focus is bringing well-designed marketing to industries I believe in, to help them develop more financing. We’re doing work to promote new architecture, solar infrastructure, shared kitchens, and low-cost insurance. It is not glamorous, but it is the right thing to do. Designing pretty things is nice, but it’s time for me to do something bigger than me.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;I’ve never worked on anything but Macs, more out of coincidence than preference. I’m sort of not really loving &lt;a href=&quot;http://www.apple.com/macosx/&quot; title=&quot;The operating system for the Mac platform.&quot;&gt;Mac OS&lt;/a&gt; right now, but it’s the devil I know.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m on a 15” SSD &lt;a href=&quot;http://www.apple.com/macbookpro/&quot; title=&quot;The popular Intel-based Mac laptop.&quot;&gt;MacBook Pro&lt;/a&gt;, one of the retina ones, and I jammed it with 16GB of RAM. I use a Wacom Intuos 4 for all my input, mice hurt the hand too much.&lt;/p&gt;
+
+&lt;p&gt;This is the first laptop system I’ve ever felt compelled to make my primary machine, mostly due to energy usage savings, and a change in my own work. In years past, my work has been very image-heavy, meaning I needed to spend lots of time and power rendering animation, video footage, skinning meshes for illustration, that sort of thing. Lately, I’ve reverted back to a more typographic and linguistic focus, meaning my hardware can be more lightweight. Working in an image-driven manner was great, but it’s time for me to try something else.&lt;/p&gt;
+
+&lt;p&gt;Our electric bill fell through the floor when we switched all our machines to SSDs. When both of us were on towers, exclusively, our electric bill would top $150 monthly. Now, it’s hovering around $50.&lt;/p&gt;
+
+&lt;p&gt;As for mobile computing, I carry an iPad with me to meetings because I desperately hate laptops in collaborative situations - laptop users always burrow into their machines if they don’t know or like what’s going on in the meeting.&lt;/p&gt;
+
+&lt;p&gt;I generally don’t need to sketch in meetings, but if I do, it happens on paper. Digital sketchbooks don’t work for me, primarily because I need the tactile response while I’m going through ideas. Working on a screen feels too much like work for me. I &lt;em&gt;always&lt;/em&gt; have a pocket-sized sketchbook, hand sharpener, pencil, and kneaded eraser on me. I never use pens, ever, I like to start with an idea and revise. Pens don’t let you do that.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.adobe.com/products/creativesuite/&quot; title=&quot;A collection of popular design tools (Photoshop, etc.).&quot;&gt;Adobe CS6&lt;/a&gt; (I’m on their advisory panel for &lt;a href=&quot;http://www.adobe.com/products/creativecloud.html&quot; title=&quot;A subscription service for Adobe's creative suite.&quot;&gt;Creative Cloud&lt;/a&gt;), &lt;a href=&quot;http://do.com/&quot; title=&quot;A project/task management service.&quot;&gt;do.com&lt;/a&gt; for project management between myself and my partner, &lt;a href=&quot;http://getdropbox.com/&quot; title=&quot;Online syncing and storage.&quot;&gt;Dropbox&lt;/a&gt; for file sharing with clients, &lt;a href=&quot;https://plus.google.com/&quot; title=&quot;A social network.&quot;&gt;Google+&lt;/a&gt; Hangouts for remote meetings, &lt;a href=&quot;http://www.maxon.net/en/products/cinema-4d-prime/who-should-use-it.html&quot; title=&quot;3D rendering software.&quot;&gt;Maxon’s Cinema 4D&lt;/a&gt; for dimensional rendering and animation (it’s rare, but it happens), &lt;a href=&quot;http://panic.com/coda/&quot; title=&quot;A single-window HTML/web tool for the Mac.&quot;&gt;Coda&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://panic.com/transmit/&quot; title=&quot;An FTP/SFTP client for the Mac.&quot;&gt;Transmit&lt;/a&gt; from Panic software for coding and moving around files, and I’m moving to &lt;a href=&quot;https://gridsetapp.com/features/&quot; title=&quot;A service for creating grid designs.&quot;&gt;Gridset&lt;/a&gt; for grid design. Typography (when I need custom faces) happens in &lt;a href=&quot;http://glyphsapp.com/&quot; title=&quot;A font editor for the Mac.&quot;&gt;Glyphs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When I’m designing for the web, sketches happen on paper, then are moved to &lt;a href=&quot;http://adobe.com/products/illustrator/&quot; title=&quot;A popular vector graphics editor.&quot;&gt;Adobe Illustrator&lt;/a&gt; where I can be assured my work remains resolution-independent as I move between low rez and high rez scenarios (the best example of this is our work with movieline.com a few years back when we needed to reproduce the same things for the web, as &lt;a href=&quot;http://houseofpretty.com/Movieline-Portraits&quot; title=&quot;House of Pretty's movie portraits.&quot;&gt;a series of banner ads&lt;/a&gt;, and for backdrops to be displayed in their lounge at the Sundance film festival).&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;This is vague, but a system which dispenses with pixels as a measurement unit now that they’re beginning to not matter.&lt;/p&gt;
+
+&lt;p&gt;I would love to see a return to a longer turnaround between software packages. There’s an artificial churn happening in how quickly we need to re-learn tools, because companies are learning to move their software products to a subscription basis. I am seriously tempted to jump off that bandwagon, if I were confident I could find a workflow and OS that wouldn’t be painful to re-learn on a bi-annual basis, rather than every six month.&lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Aura</title>
+	<link href="http://aura.usesthis.com/"/>
+	<updated>2013-04-09T00:00:00-07:00</updated>
+	<id>http://aura.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/aura.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Aura&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;I’m &lt;a href=&quot;https://twitter.com/sharpened_C&quot; title=&quot;Aura's Twitter account.&quot;&gt;Aura&lt;/a&gt;, a visual novel writer and independent game developer. I’m best known for my work on the visual novel &lt;a href=&quot;http://www.katawa-shoujo.com/&quot; title=&quot;A bishoujo-style visual novel.&quot;&gt;Katawa Shoujo&lt;/a&gt; with the Four Leaf Studios. I also have an &lt;a href=&quot;http://auramart.tumblr.com/&quot; title=&quot;Aura's Tumblr site.&quot;&gt;uncohesive tumblr&lt;/a&gt; I update less than I’d like to, and a literature podcast called &lt;a href=&quot;http://epiloguists.com/&quot; title=&quot;Aura's podcast.&quot;&gt;The Epiloguists&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;A writer has little need for specialized hardware, and barely any of the gear I have was acquired with writing specifically in mind. Nevertheless, being at my own setup has become a comfort zone for me, but I’ve found that I can, and will, carve words with a toothpick on a piece of orange peel if it comes down to that.&lt;/p&gt;
+
+&lt;p&gt;I have a soon four year old custom-built desktop PC, and as long as it won’t catch fire or start throwing unreasonable tantrums like things at that age are wont to do, I’ll keep it. On my desk are dual BenQ monitors, a 24” and a 19” one that have ruined me for single monitor setups forever, and a tea-stained generic Logitech keyboard that looks like it’s been manhandled by the Spanish inquisition. From my computer runs a line either to &lt;a href=&quot;http://en-us.sennheiser.com/stereo-headphones-bass-closed-ambient-noise-isolation-hd-429&quot; title=&quot;Over the ear headphones.&quot;&gt;Sennheiser HD 429 headphones&lt;/a&gt;, or through a &lt;a href=&quot;http://www.devicemanuals.com/productsupport/Denon_DRA-F101_manual.html&quot; title=&quot;A stereo receiver.&quot;&gt;Denon DRA-F101 amplifier&lt;/a&gt; to a pair of &lt;a href=&quot;http://www.soundandvisionmag.com/article/bw-dm600-series-3-home-theater-speakers&quot; title=&quot;Home theater speakers.&quot;&gt;B&amp;amp;W DM601 S3 speakers&lt;/a&gt;, to provide the necessary aural ambience for the magic to happen. Fuel for writing is always available and required, in either a Villeroy &amp;amp; Boch NewWave tea cup, or an Iittala Essence wine glass.&lt;/p&gt;
+
+&lt;p&gt;For mobile writing I have a bunch of pocket notebooks such as Moleskines that I strategically place in things I carry or wear so the only place where I’m without one is the shower, and my Samsung &lt;a href=&quot;http://www.samsung.com/galaxyace/gio_overview.html&quot; title=&quot;A 3.2 inch Android smartphone.&quot;&gt;Galaxy Gio smartphone&lt;/a&gt; that I once took with me to the shower.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;My PC still runs &lt;a href=&quot;http://microsoft.com/windows/windows-vista/&quot; title=&quot;A somewhat unpopular OS for x86 computers.&quot;&gt;Windows Vista&lt;/a&gt; because the thought of upgrading my OS gives me anxiety, and Vista works sort of ok. My tastes in writing software are simple. &lt;a href=&quot;http://www.openoffice.org/&quot; title=&quot;An open-source office suite.&quot;&gt;OpenOffice 3.3&lt;/a&gt; is the trusty workhorse of my stable. It doesn’t get in the way of writing, which is the most desirable quality in a text editor. &lt;a href=&quot;http://en.wikipedia.org/wiki/Notepad_(software)&quot; title=&quot;The simple text editor included with Windows.&quot;&gt;Notepad&lt;/a&gt; is mostly used to digitally scribble down all my incoherent ideas, throwaway concepts and unused fragments, spread across hundreds of text files that probably form fractal patterns I hope to one day decipher into stories. When I start working on something that’s too big to fit in my head all at once, I fire up &lt;a href=&quot;http://www.spacejock.com/yWriter5.html&quot; title=&quot;A Windows word processor.&quot;&gt;yWriter 5&lt;/a&gt; and meticulously note down everything I can, lest I forget and lose them forever.&lt;/p&gt;
+
+&lt;p&gt;Writing is not just writing however, and managing projects takes quite a few more pieces of software to manage. I work with people who are spread across the globe and timezones, so we need mechanisms to hold our virtual game studio together. To keep track of our project assets we use &lt;a href=&quot;http://subversion.tigris.org/&quot; title=&quot;A popular version control system.&quot;&gt;Subversion&lt;/a&gt; version control system and the &lt;a href=&quot;http://tortoisesvn.net/&quot; title=&quot;A Subversion client for Windows.&quot;&gt;TortoiseSVN client&lt;/a&gt; for it. &lt;a href=&quot;http://trac.edgewall.org/&quot; title=&quot;An issue tracker and wiki package for software development.&quot;&gt;Trac&lt;/a&gt; project management tool would be a great asset for our work if we weren’t so lazy about documentation and &lt;a href=&quot;http://filezilla-project.org/&quot; title=&quot;Open-source FTP software.&quot;&gt;FileZilla&lt;/a&gt; connects me to our digital storage cabinet. As my “office” is as much virtual as it is physical, communication across the time and space that separates me from my coworkers is done through &lt;a href=&quot;http://mail.google.com/&quot; title=&quot;Web-based email.&quot;&gt;Gmail&lt;/a&gt;, &lt;a href=&quot;https://www.phpbb.com/&quot; title=&quot;Self-hosted forum software.&quot;&gt;phpBB&lt;/a&gt;, &lt;a href=&quot;http://www.skype.com/&quot; title=&quot;Voice and video chat software.&quot;&gt;Skype&lt;/a&gt; and Chatzilla IRC extension for &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/fx/&quot; title=&quot;A web browser for Android.&quot;&gt;Firefox&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For swimming in the stream of social media, I use &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.thedeck.android.app&quot; title=&quot;A Twitter/Facebook client for Android.&quot;&gt;Tweetdeck&lt;/a&gt; and the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.twitter.android&quot; title=&quot;A Twitter client for Android.&quot;&gt;Twitter app&lt;/a&gt; for Android. All of this stuff was mostly chosen, or maybe settled for for the convenience factor, because I don’t want to fight my tools in addition to struggling with the stuff I actually want to do. If a thing doesn’t make me want to punch it, it’s good enough for me.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;I’m either in a good place already with my equipment, or too numb to feel a need for significant upgrades, so maybe my environment would be the thing to dream about. Some writers work the best in seclusion, and even I can’t help feeling sometimes that the best thing for me too would be a hardened concrete bunker dug 30 feet under desert sand in the Gobi. However, the real dream setup, if I think about keeping doing what I do, would be a physical office for the studio (and since it’s a dream, it should probably be on the Moon). &lt;/p&gt;
+
+&lt;p&gt;As convenient as communication over the Internet is these days, it’s never the same thing as working in the same space.&lt;/p&gt;
+
+&lt;p&gt;I’ve been thinking about buying a &lt;a href=&quot;http://www.apple.com/macbookair/&quot; title=&quot;The super-thin Intel-based Mac laptop.&quot;&gt;MacBook Air&lt;/a&gt; and a pony, for writing on the move.&lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Michael Natkin</title>
+	<link href="http://michael.natkin.usesthis.com/"/>
+	<updated>2013-04-04T00:00:00-07:00</updated>
+	<id>http://michael.natkin.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/michael.natkin.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Michael Natkin&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;I’m Michael Natkin. At &lt;a href=&quot;http://www.chefsteps.com/&quot; title=&quot;A modern cooking school.&quot;&gt;ChefSteps.com&lt;/a&gt; I write code, wear many hats, and occasionally cook. I also have my own blog &lt;a href=&quot;http://herbivoracious.com/&quot; title=&quot;Michael's website.&quot;&gt;Herbivoracious.com&lt;/a&gt;, and wrote a cookbook: &lt;em&gt;Herbivoracious: A Flavor Revolution with 150 Vibrant and Original Vegetarian Recipes&lt;/em&gt;. I’ve been working as a professional programmer since I was 16, and I’m 46 now.&lt;/p&gt;
+
+&lt;p&gt;In the early 90’s I worked at Industrial Light and Magic, making melting Terminators and wiggling T-Rex bellies, then at Silicon Graphics, and then I spent 12 years at Adobe as an engineering lead on &lt;a href=&quot;http://www.adobe.com/products/aftereffects/&quot; title=&quot;Motion graphics and video editing software.&quot;&gt;Adobe After Effects&lt;/a&gt;, all the while nursing a passion for cooking, and occasionally taking time off to work at restaurants. ChefSteps has turned out be an incredible opportunity to bring together my love for code and food.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;I’m really not a hardware nut, I just like to have the tools that stay out of my way and let me concentrate on the task at hand. Speed is mainly what I care about. I’m pretty much tethered to my aging &lt;a href=&quot;http://www.apple.com/macbookpro/&quot; title=&quot;The popular Intel-based Mac laptop.&quot;&gt;MacBook Pro&lt;/a&gt;. I’ll probably upgrade it to a new model with a retina display and SSD soon.&lt;/p&gt;
+
+&lt;p&gt;At work I dock the Macbook into a couple of big monitors so I can have lots of code windows open, and a Kinesis keyboard that saved my wrists, but I also use it on the fly quite a bit, including shooting tethered in my photo studio.&lt;/p&gt;
+
+&lt;p&gt;I do all of my food photography with a &lt;a href=&quot;http://www.nikonusa.com/Nikon-Products/Product-Archive/Digital-SLR-Cameras/25432/D300.html&quot; title=&quot;A 12.3 megapixel DSLR.&quot;&gt;Nikon D300&lt;/a&gt;, mostly with a &lt;a href=&quot;http://www.nikonusa.com/Nikon-Products/Product/Camera-Lenses/1902/AF-NIKKOR-50mm-f%252F1.4D.html&quot; title=&quot;A camera lens.&quot;&gt;50mm / f1.4&lt;/a&gt; and a beautiful macro &lt;a href=&quot;http://imaging.nikon.com/lineup/lens/specoalpurpose/micro/af-s_vr_micro-nikkor_105mmf_28_if/&quot; title=&quot;An macro lens.&quot;&gt;105mm / f2.8&lt;/a&gt;. We’ve got some pretty fun hardware at ChefSteps too - chamber vacuum machines, rotor-stator homogenizers, centrifuges, and a $30,000 oven. But that’s probably not what you meant :).&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;These days I’m writing for a fairly standard &lt;a href=&quot;http://rubyonrails.org/&quot; title=&quot;A popular Ruby-based web framework.&quot;&gt;Rails&lt;/a&gt; / &lt;a href=&quot;http://haml-lang.com/&quot; title=&quot;A markup syntax that generates HTML.&quot;&gt;HAML&lt;/a&gt; / &lt;a href=&quot;http://twitter.github.com/bootstrap/&quot; title=&quot;A front-end web framework.&quot;&gt;Bootstrap&lt;/a&gt; / &lt;a href=&quot;http://jashkenas.github.com/coffee-script/&quot; title=&quot;A language that compiles into Javascript.&quot;&gt;Coffeescript&lt;/a&gt; / &lt;a href=&quot;http://jquery.com/&quot; title=&quot;A popular Javascript framework.&quot;&gt;JQuery&lt;/a&gt; / &lt;a href=&quot;http://heroku.com/&quot; title=&quot;A service for running and deploying Ruby, Node.js, Clojure, Java, Python, and Scala apps.&quot;&gt;Heroku&lt;/a&gt; stack. I use &lt;a href=&quot;https://www.jetbrains.com/ruby/&quot; title=&quot;An IDE for Ruby.&quot;&gt;RubyMine&lt;/a&gt; for an IDE. I’m not particularly wedded to it though.&lt;/p&gt;
+
+&lt;p&gt;Serious web dev is new to me in the past 4 months, coming out of almost 30 years of &lt;a href=&quot;http://en.wikipedia.org/wiki/C_(programming_language)&quot; title=&quot;A compiled programming language.&quot;&gt;C&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/C%2B%2B&quot; title=&quot;A compiled programming language.&quot;&gt;C++&lt;/a&gt; programming, so I’m trying out new tools and focusing more on results than perfecting my setup. Man is it ever nice not to be waiting 5 to 30 minutes at a time for compiles and app launches. You whippersnappers that have grown up instantly seeing the results of your code in the browser don’t know how good you have it! It is impressive to me to see how much the web and open source community has matured, writing and sharing really beautiful, well structured, reusable, elegant code. The learning curve now is to figure out which components work well, and work well together.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;I’m pretty much the world’s most impatient person. If I can describe structurally and semantically how a problem should be solved, it irritates me that I still actually have to noodle around creating the code for it. So my ideal setup is probably still a few hundred years out, and involves brain-wave monitors, genetic algorithms and asymmetrical thermodynamic cycles.&lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Tom Bihn</title>
+	<link href="http://tom.bihn.usesthis.com/"/>
+	<updated>2013-04-02T00:00:00-07:00</updated>
+	<id>http://tom.bihn.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/tom.bihn.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Tom Bihn&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;I’m Tom Bihn, CEO and chief designer at &lt;a href=&quot;http://www.tombihn.com/&quot; title=&quot;Tom Bihn's website.&quot;&gt;TOM BIHN INC.&lt;/a&gt; – we design and manufacture travel bags, backpacks, laptop cases. When I’m being a CEO I’m working; when I’m being a designer I’m having fun.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;Sketching and note taking: my favorite sketchpads are from the Mirage Paperco.&lt;/p&gt;
+
+&lt;p&gt;For some reason I’m &lt;em&gt;drawn&lt;/em&gt; to square sketchbooks instead of rectangular ones: sometimes turning an idea 90 degrees suddenly makes it work.&lt;/p&gt;
+
+&lt;p&gt;I love using Bic’s &lt;a href=&quot;http://www.bicworld.com/en/products/details/18/4-color&quot; title=&quot;A four colour pen.&quot;&gt;writes-in-four-colors pens&lt;/a&gt;: each color can represent whatever it needs to at the time: lining/exterior, new/old, this/that.&lt;/p&gt;
+
+&lt;p&gt;One of my most obvious tools is a sewing machine (Ivan Illich would call it a tool, not a machine – I like that). The sewing &lt;em&gt;tool&lt;/em&gt; I used for over two decades was a &lt;a href=&quot;http://www.consew.com/View/Consew-Model-206RB-5&quot; title=&quot;An industrial sewing machine.&quot;&gt;Consew 206RB&lt;/a&gt;, with a compound walking foot. Basically a machine made for heavy work like sewing leather and upholstery – an incredibly flexible tool (if you buy a new one today it’s reputed to be not so great - buy a &lt;a href=&quot;http://www.westchestersewing.com/seiko/sth-8bld-3/index.htm&quot; title=&quot;An industrial sewing machine.&quot;&gt;Seiko STH-8BLD&lt;/a&gt; instead. Seiko was the OEM for Consew, so it’s the same as the old Consew machine. I mean tool.)&lt;/p&gt;
+
+&lt;p&gt;That specific Consew I started with is now over 30 years old and still sees daily service in my factory: Tao uses it to do three-fold bias binding. These days when I am sewing prototypes, I either am in the factory using whatever sewing machine is available or I’m in my studio using my new Seiko. One of the things I appreciate most about our company is that a lot of the design process is happening in the factory – there’s a beautiful co-evolution between design and manufacturing that you don’t get when the design process is physically removed from the build process.&lt;/p&gt;
+
+&lt;p&gt;When I first moved from making patterns by hand to digital designing, I used a &lt;a href=&quot;http://www.calcomp.com/rollup3.htm&quot; title=&quot;A portable digitiser.&quot;&gt;GTCO CalComp Roll-Up III&lt;/a&gt; digitizer to input all my existing designs. I still use it occasionally to input some odd shape I’ve come up with on the fly, or some old design from my archives I’m revisiting. I like how something that’s hand-drawn can become vector art but still hold on to its organic curves – it helps if we don’t want a design to look too “CAD”.&lt;/p&gt;
+
+&lt;p&gt;I use a 13” &lt;a href=&quot;http://www.apple.com/macbookpro/&quot; title=&quot;The popular Intel-based Mac laptop.&quot;&gt;MacBook Pro&lt;/a&gt; for all my 2D and 3D drawing. It’s all vector stuff, so tons of memory or speed isn’t all that helpful. When it’s convenient, I plug an Apple 20” screen into the MBP: it inspires accuracy and is easy on my eyes.&lt;/p&gt;
+
+&lt;p&gt;An external keyboard with ten-key is nice for CAD.&lt;/p&gt;
+
+&lt;p&gt;For printing/plotting I use the &lt;a href=&quot;http://www.gerbertechnology.ru/eng/accuplot_100.php&quot; title=&quot;A digital plotter.&quot;&gt;Gerber AccuPlot 320&lt;/a&gt; that’s also used in the factory to make markers. Sort of old school, but I cut out the paper pattern pieces and then trace them on to whatever fabric I’m using to make the sample. Our AccuPlot 320 is a very wide format (&amp;gt;70” wide) pen plotter – truly a work horse.&lt;/p&gt;
+
+&lt;p&gt;My favorite scissors are Kai 5275’s.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;I work predominately in PAD System’s &lt;a href=&quot;http://www.padsystem.com/node/12&quot; title=&quot;Pattern designing software.&quot;&gt;2D pattern drafting software&lt;/a&gt;. Once I mastered it, I was able to do everything I want to do, everything 2D that is. Easy to mirror shapes, add seam allowances, modify marking notches, measure seam lengths. Inspires maniacal accuracy, which is oddly really satisfying. PAD System also makes the marker-making software we use to make all the production markers – I used to make all the markers myself, but now Nik, my Production Engineer, does that. :)&lt;/p&gt;
+
+&lt;p&gt;I also use &lt;a href=&quot;http://adobe.com/products/illustrator/&quot; title=&quot;A popular vector graphics editor.&quot;&gt;Adobe Illustrator&lt;/a&gt; a lot: PAD exports nicely in to Illustrator, so in refining small parts (or making graphics that include a pattern piece), I’m hopping between PAD and Illustrator quite a bit. You know how some people are &lt;a href=&quot;http://adobe.com/products/photoshop/&quot; title=&quot;The infamous graphic editor.&quot;&gt;Photoshop&lt;/a&gt; people and some Illustrator people? I’m all about vector art, so Illustrator is a good friend.&lt;/p&gt;
+
+&lt;p&gt;For 3D drawing I am just now (finally) learning &lt;a href=&quot;http://www.touchcad.com/index_tc.html&quot; title=&quot;3D modelling and unfolding software.&quot;&gt;TouchCAD&lt;/a&gt;. TouchCAD is a powerful and affordable CAD software for designing 3D objects and unfolding or unwrapping them. It basically helps you design 3D surfaces and turn them into 2D patterns that you can then (in my case) sew back into the conceived 3D shape. You can do all that in other CAD systems, but it’ll cost you way more. Plus TouchCAD is pretty elegant: it just does surfaces and unfolding, so – inflatables, boat hulls, tension structures.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;I’m almost there now. We are looking at a single-ply fabric cutter (probably a Gerber like the plotter) and that would make cutting samples a breeze. And as we are having more and more of our plastic parts made to spec, some sort of MakerBot thing would probably be on the horizon. Anyone have any suggestions for a 24” printer/plotter? Nothing fancy.&lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Joe Armstrong</title>
+	<link href="http://joe.armstrong.usesthis.com/"/>
+	<updated>2013-03-28T00:00:00-07:00</updated>
+	<id>http://joe.armstrong.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/joe.armstrong.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Joe Armstrong&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://armstrongonsoftware.blogspot.ru/&quot; title=&quot;Joe's website.&quot;&gt;Joe Armstrong&lt;/a&gt;, software engineer. Best known for my work on &lt;a href=&quot;http://www.erlang.org/&quot; title=&quot;A programming language invented by Ericsson.&quot;&gt;Erlang&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;At home I use a 15-inch &lt;a href=&quot;http://www.apple.com/macbookpro/&quot; title=&quot;The popular Intel-based Mac laptop.&quot;&gt;MacBook Pro&lt;/a&gt;. For travel, lectures etc. I have an 11-inch &lt;a href=&quot;http://www.apple.com/macbookair/&quot; title=&quot;The super-thin Intel-based Mac laptop.&quot;&gt;MacBook Air&lt;/a&gt;. I have an &lt;a href=&quot;http://www.apple.com/imac/&quot; title=&quot;The all-in-one Mac.&quot;&gt;iMac&lt;/a&gt; for picture editing.&lt;/p&gt;
+
+&lt;p&gt;My NAS is a 4TB &lt;a href=&quot;http://www.synology.com/us/products/DS411slim/index.php&quot; title=&quot;A NAS device for 2.5 inch drives.&quot;&gt;Synology DS411slim&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then I have two &lt;a href=&quot;https://en.wikipedia.org/wiki/Raspberry_Pi&quot; title=&quot;A single-board hackable computer.&quot;&gt;Raspberry Pi’s&lt;/a&gt;, quite a lot of &lt;a href=&quot;http://arduino.cc/&quot; title=&quot;Open-source prototyping hardware.&quot;&gt;Arduinos&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At work I have a &lt;a href=&quot;http://www.dell.com/us/business/p/latitude-e6430/pd&quot; title=&quot;A durable 14 inch PC laptop.&quot;&gt;Dell Latitude E6430&lt;/a&gt; quad-core 2.9GHZ 8GB 250GB SSD running &lt;a href=&quot;http://www.ubuntu.com/&quot; title=&quot;A popular Unix distribution.&quot;&gt;Ubuntu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Camera: A &lt;a href=&quot;http://panasonic.net/avc/lumix/systemcamera/gms/g3/&quot; title=&quot;A 16 megapixel micro 4/3 digital camera.&quot;&gt;Lumix G3&lt;/a&gt; - micro 4/3 with a fantastic Vario 1:4/4-14 lens.&lt;/p&gt;
+
+&lt;p&gt;Music production: A &lt;a href=&quot;http://www.rolandus.com/products/details/1245&quot; title=&quot;A synth module with over 6000 sounds.&quot;&gt;Roland Integra-7&lt;/a&gt; (fantastic machine - an entire orchestra in a box) and a &lt;a href=&quot;http://www.roland.com/products/en/RD-700NX/&quot; title=&quot;A MIDI keyboard.&quot;&gt;Roland RD-700NX&lt;/a&gt; stage piano.&lt;/p&gt;
+
+&lt;p&gt;Oh, and &lt;a href=&quot;http://www.bose.com/controller?url=/shop_online/headphones/noise_cancelling_headphones/quietcomfort_15/index.jsp&quot; title=&quot;Noise-cancelling headphones.&quot;&gt;Bose QuietComfort 15&lt;/a&gt; noise reducing headphones - essential for long-distance flights.&lt;/p&gt;
+
+&lt;p&gt;Sonos sound system for listening to music.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; title=&quot;A free open-source text editor.&quot;&gt;Emacs&lt;/a&gt;, &lt;a href=&quot;http://www.gnu.org/software/make/manual/make.html&quot; title=&quot;Software to prepare code for compilation.&quot;&gt;make&lt;/a&gt; and &lt;a href=&quot;http://www.gnu.org/software/bash/&quot; title=&quot;A popular terminal shell.&quot;&gt;bash&lt;/a&gt; for all programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.apple.com/iwork/keynote/&quot; title=&quot;Presentation software for the Mac.&quot;&gt;Keynote&lt;/a&gt; for slides. &lt;a href=&quot;http://www.apple.com/iwork/pages/&quot; title=&quot;A Mac word processor and layout tool from Apple.&quot;&gt;Pages&lt;/a&gt; for letters.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.adobe.com/products/photoshopel/&quot; title=&quot;A cut-down version of the popular image editor.&quot;&gt;Photoshop Elements&lt;/a&gt; for editing photos, &lt;a href=&quot;http://www.apple.com/aperture/&quot; title=&quot;Photo editing and management software for OS X.&quot;&gt;Aperture&lt;/a&gt; for organizing images.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.spotify.com/&quot; title=&quot;A music streaming service.&quot;&gt;Spotify&lt;/a&gt; and &lt;a href=&quot;http://www.rdio.com/&quot; title=&quot;A music streaming service.&quot;&gt;Rdio&lt;/a&gt; for music.&lt;/p&gt;
+
+&lt;p&gt;I write books using XML markup in emacs (nxml mode), and run the text
+through the spell checker (&lt;a href=&quot;http://aspell.net/&quot; title=&quot;A spell checking system.&quot;&gt;aspell&lt;/a&gt;) and the Mac voice synthesizer.&lt;/p&gt;
+
+&lt;p&gt;I write code in Emacs - I don’t use any IDEs and use printf debugging, apart from &lt;a href=&quot;http://www.ecmascript.org/&quot; title=&quot;An interpreted scripting language.&quot;&gt;Javascript&lt;/a&gt; which I run in the &lt;a href=&quot;http://google.com/chrome&quot; title=&quot;A WebKit-based browser, where each tab runs in its own thread.&quot;&gt;Chrome&lt;/a&gt; browser.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;http://www.github.com/&quot; title=&quot;A Git code repository service.&quot;&gt;GitHub&lt;/a&gt; for collaborative projects, &lt;a href=&quot;http://getdropbox.com/&quot; title=&quot;Online syncing and storage.&quot;&gt;Dropbox&lt;/a&gt; to transfer files between my work machines, and Dreamhost for backup and private
+projects.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;http://git-scm.com/&quot; title=&quot;A version control system.&quot;&gt;git&lt;/a&gt; and &lt;a href=&quot;http://subversion.tigris.org/&quot; title=&quot;A popular version control system.&quot;&gt;svn&lt;/a&gt; for version control.&lt;/p&gt;
+
+&lt;p&gt;I use Erlang, bash scripts, Javascript, &lt;a href=&quot;http://en.wikipedia.org/wiki/C_(programming_language)&quot; title=&quot;A compiled programming language.&quot;&gt;C&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Prolog&quot; title=&quot;A logic programming language.&quot;&gt;Prolog&lt;/a&gt;, various &lt;a href=&quot;http://en.wikipedia.org/wiki/Lisp_(programming_language)&quot; title=&quot;An old programming language.&quot;&gt;Lisps&lt;/a&gt; and makefiles for most programming projects. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://evernote.com/&quot; title=&quot;Online software for capturing notes.&quot;&gt;Evernote&lt;/a&gt; for a web clipbook, and &lt;a href=&quot;http://chandlerproject.org/&quot; title=&quot;Self-organising software.&quot;&gt;Chandler&lt;/a&gt; to organise jobs.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;Software that’s not broken. &lt;/p&gt;
+
+&lt;p&gt;An infinite supply of paper, and pens that don’t leak.&lt;/p&gt;
+
+&lt;p&gt;I’d like a 11-inch laptop with a few days battery. I can’t think it
+would need more than 16GB memory and 500GB SSD.&lt;/p&gt;
+
+&lt;p&gt;It would have high quality voice input.&lt;/p&gt;
+
+&lt;p&gt;It would cache data off-machine into fault-tolerant storage.&lt;/p&gt;
+
+&lt;p&gt;If the machine broke I would like to go to any other machine
+and resume work within a few seconds without losing any data.&lt;/p&gt;
+
+&lt;p&gt;If my machine was stolen I would like it to be totally unusable
+after a short time - so nobody would bother to steal it.&lt;/p&gt;
+
+&lt;p&gt;I would like the machine to recognize me, through some mechanism
+(fingerprints, retina scan, DNA - who knows) so I don’t need passwords.&lt;/p&gt;
+
+&lt;p&gt;I would like to access all my data, securely forever, and index it
+all so I could find things.&lt;/p&gt;
+
+&lt;p&gt;I want a total backup solution that snapshots and guards my data so
+nothing ever gets accidentally lost or destroyed.&lt;/p&gt;
+
+&lt;p&gt;I want zero viruses, trojans, malware.&lt;/p&gt;
+
+&lt;p&gt;I’m trying to build some of these things - right now I’m still stuck on the first point - making software that’s not broken.&lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Vaughn Royko</title>
+	<link href="http://vaughn.royko.usesthis.com/"/>
+	<updated>2013-03-26T00:00:00-07:00</updated>
+	<id>http://vaughn.royko.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/vaughn.royko.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Vaughn Royko&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;Hello there, I’m &lt;a href=&quot;http://vaughnroyko.com/&quot; title=&quot;Vaughn's website.&quot;&gt;Vaughn Royko&lt;/a&gt;. I do a lot of things, but most notably I’m a web designer and developer by trade and a hobbyist indie game designer and developer, primarily known for the HTML5-based survival roguelike, &lt;a href=&quot;http://www.unlok.ca/wayward/&quot; title=&quot;An HTML5 browser game.&quot;&gt;Wayward&lt;/a&gt;, branded under my fledgeling “company”, &lt;a href=&quot;http://www.unlok.ca/&quot; title=&quot;Vaughn's gaming company website.&quot;&gt;Unlok&lt;/a&gt;. I also enjoy game collecting (and playing, sometimes).&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;My main computer is nothing special. Just some thing that I can game and work on. It’s rocking a GeForce GTX 470 with a AMD Phenom II X6 1090T Black Edition Thuban 6 Core processor. I run a dual monitor set-up with one Samsung SyncMaster 29” and a Dell UltraSharp 19” (in tablet rotation) on the side. &lt;/p&gt;
+
+&lt;p&gt;I also lug around a fairly ancient &lt;a href=&quot;http://www.lapspecs.com/detail/HP-Compaq+6535b&quot; title=&quot;A 14.1 inch PC laptop.&quot;&gt;HP Compaq 6535b Notebook&lt;/a&gt; around with me when I’m away from home (soon to be replaced when the new MacBook comes out this year). While at the office, I use a 2010 27” &lt;a href=&quot;http://www.apple.com/imac/&quot; title=&quot;The all-in-one Mac.&quot;&gt;iMac&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;I’m a recent convert to multi-platform &lt;a href=&quot;http://www.sublimetext.com/2&quot; title=&quot;A coder's text editor.&quot;&gt;Sublime Text 2&lt;/a&gt; and haven’t looked back since - I use it for everything text and coding related. For the graphic side of things, I use &lt;a href=&quot;http://adobe.com/products/photoshop/&quot; title=&quot;The infamous graphic editor.&quot;&gt;Adobe Photoshop&lt;/a&gt; and &lt;a href=&quot;http://adobe.com/products/illustrator/&quot; title=&quot;A popular vector graphics editor.&quot;&gt;Adobe Illustrator&lt;/a&gt;. For normal web browsing (when I’m not testing why my websites are broken in &lt;a href=&quot;http://www.microsoft.com/windows/internet-explorer/&quot; title=&quot;A PC web browser.&quot;&gt;IE7&lt;/a&gt;), I use &lt;a href=&quot;http://google.com/chrome&quot; title=&quot;A WebKit-based browser, where each tab runs in its own thread.&quot;&gt;Chrome&lt;/a&gt; with dozens of cool plugins.&lt;/p&gt;
+
+&lt;p&gt;Besides all that normal stuff, I have come to swear by &lt;a href=&quot;http://docs.google.com&quot; title=&quot;A web-based office suite.&quot;&gt;Google Docs&lt;/a&gt; and &lt;a href=&quot;https://drive.google.com/&quot; title=&quot;A cloud storage service.&quot;&gt;Google Drive&lt;/a&gt;. Who needs an office software suite anymore? I use &lt;a href=&quot;http://www.techsmith.com/jing.html&quot; title=&quot;An image sharing and annotation tool&quot;&gt;Jing&lt;/a&gt; daily for sharing images and videos instantly, I can’t believe I used to work without it. For video/audio editing, I use &lt;a href=&quot;http://www.adobe.com/products/premiere.html&quot; title=&quot;A video editing suite.&quot;&gt;Adobe Premiere Pro&lt;/a&gt; and &lt;a href=&quot;http://audacity.sourceforge.net/&quot; title=&quot;An open-source, cross-platform audio editor.&quot;&gt;Audacity&lt;/a&gt;. For source control, I use both &lt;a href=&quot;http://subversion.tigris.org/&quot; title=&quot;A popular version control system.&quot;&gt;Subversion&lt;/a&gt; and &lt;a href=&quot;http://git-scm.com/&quot; title=&quot;A version control system.&quot;&gt;Git&lt;/a&gt; (depending on the job). When I’m on Windows, I use &lt;a href=&quot;https://code.google.com/p/tortoisegit/&quot; title=&quot;A Git client for Windows.&quot;&gt;TortoiseGit&lt;/a&gt;/&lt;a href=&quot;http://tortoisesvn.net/&quot; title=&quot;A Subversion client for Windows.&quot;&gt;TortoiseSVN&lt;/a&gt;, and on the Mac, I use &lt;a href=&quot;http://versionsapp.com/&quot; title=&quot;A Subversion client for the Mac.&quot;&gt;Versions&lt;/a&gt;. I use FTP/SFTP a lot in both sides of my life. I have tried a lot of FTP clients over the years and now got it down to two choices: either &lt;a href=&quot;http://winscp.net/eng/index.php&quot; title=&quot;A free S/FTP and SCP client for Windows.&quot;&gt;WinSCP&lt;/a&gt; or &lt;a href=&quot;http://filezilla-project.org/&quot; title=&quot;Open-source FTP software.&quot;&gt;FileZilla&lt;/a&gt; (if I am on the Mac).&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;My dream setup would involve a very long desk where I would have a large array monitors and computers (maybe laptops and tablets as well?) - possibly all booted up at the same time, depending on what I am doing. Probably with a mix of operating systems such as &lt;a href=&quot;http://microsoft.com/windows/windows-7/&quot; title=&quot;The upcoming revision of Windows.&quot;&gt;Windows 7&lt;/a&gt;, &lt;a href=&quot;http://www.apple.com/macosx/&quot; title=&quot;The operating system for the Mac platform.&quot;&gt;OS X Mountain Lion&lt;/a&gt; and possibly &lt;a href=&quot;http://www.ubuntu.com/&quot; title=&quot;A popular Unix distribution.&quot;&gt;Ubuntu&lt;/a&gt; so I can easily test across platforms without virtual machines or dual booting.&lt;/p&gt;
+
+&lt;p&gt;Also, I need one of those stand-up, commercial-grade coffee makers beside me - Starbucks branded preferred. Actually, scratch all that, just the coffee maker will be good.&lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Steven Sanders</title>
+	<link href="http://steven.sanders.usesthis.com/"/>
+	<updated>2013-03-21T00:00:00-07:00</updated>
+	<id>http://steven.sanders.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/steven.sanders.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Steven Sanders&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;My name is &lt;a href=&quot;http://stevensanders.tumblr.com/&quot; title=&quot;Steven's Tumblr site.&quot;&gt;Steven Sanders&lt;/a&gt;, I’m an illustrator and concept artist working out of Kansas City, MO. I’m probably most well known for my comic work for Marvel and Image, working on titles such as Wolverine and the X-Men (Marvel) and Our Love is Real (Image).&lt;/p&gt;
+
+&lt;p&gt;I’m currently working on a Creative Commons world-building book called &lt;a href=&quot;http://www.kickstarter.com/projects/570044257/symbiosis-a-creative-commons-art-book/&quot; title=&quot;Steven's Kickstarter book project.&quot;&gt;Symbiosis&lt;/a&gt;. It’s basically 1940s bio-punk.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;When working with natural media, I tend to use printer paper for small sketches, for final art I tend to use cold press bristol paper, usually 11x17. I’ll use a mechanical pencil with blue lead for initial sketching, and then a 3B mechanical pencil and a Pentel brush pen (the cheap one, I forget what kind it is exactly.) for inking/shading. I’ll then scan it in on my Epson A4 size scanner.&lt;/p&gt;
+
+&lt;p&gt;When working completely digitally, or coloring in scanned line art, I work on a &lt;a href=&quot;http://wacom.com/cintiq/&quot; title=&quot;The computer screen you can draw on.&quot;&gt;Cintiq 22HD&lt;/a&gt;, with two other monitors (24” and 19”) on a dual-mount VESA arm. I use a converted drawing table as a computer desk, as it was the only thing I could find that would hold the Cintiq at the right height. My main computer is a &lt;a href=&quot;http://www.apple.com/macpro/&quot; title=&quot;The Intel-based Mac tower computer.&quot;&gt;2006 Mac Pro&lt;/a&gt;, (Two 3GHz dual core Xeons) 14 gig of ram, an SSD as my boot disk, another SSD for a Photoshop scratch disk and two more internal hard drives of various sizes for data storage, and for a &lt;a href=&quot;http://microsoft.com/windows/windows-7/&quot; title=&quot;The upcoming revision of Windows.&quot;&gt;Windows 7&lt;/a&gt; &lt;a href=&quot;http://www.apple.com/macosx/what-is-macosx/compatibility.html&quot; title=&quot;Software to allow Macs to run Windows natively.&quot;&gt;Boot Camp&lt;/a&gt; install. I use an external SATA hard drive for backup. This old Mac model, while still being a good workhorse, has the disadvantage of requiring server grade memory, something that they dropped from later models. So I have to pay out the nose for RAM, or look around really hard for server grade memory that is compatible with that model Mac. It took some researching but I finally found a place that had some in a limited supply and bought them out. I just swapped the old Apple heat sinks over to the new memory, which didn’t come with heat sinks.&lt;/p&gt;
+
+&lt;p&gt;I also have a &lt;a href=&quot;http://www.tentec.com/products/RX%252d320D-HF-Receiver.html&quot; title=&quot;A shortwave radio receiver.&quot;&gt;Ten-Tec RX-320D&lt;/a&gt; software-controlled shortwave radio that I listen to sometimes while working. I put a folded dipole antenna in my attic to feed it. I feed all of my audio (and get most of my music to work to from) via a &lt;a href=&quot;http://www.sonos.com/shop/products/connect&quot; title=&quot;An audio streaming system.&quot;&gt;Sonos Connect&lt;/a&gt; hooked up to the Mac’s optical-out port.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://adobe.com/products/photoshop/&quot; title=&quot;The infamous graphic editor.&quot;&gt;Photoshop CS5&lt;/a&gt;, &lt;a href=&quot;http://adobe.com/products/dreamweaver/&quot; title=&quot;A WYSIWYG editor.&quot;&gt;Dreamweaver CS5&lt;/a&gt; (on the rare occasion I make updates to my website), &lt;a href=&quot;http://usa.autodesk.com/adsk/servlet/pc/index?siteID=123112&amp;amp;id=6848332&quot; title=&quot;A drawing/illustration tool.&quot;&gt;Sketchbook Pro 6&lt;/a&gt;, and &lt;a href=&quot;http://www.sketchup.com/intl/en/product/gsup.html&quot; title=&quot;3D modelling software.&quot;&gt;SketchUp Pro 7&lt;/a&gt;. I use the Image Capture built into &lt;a href=&quot;http://www.apple.com/macosx/&quot; title=&quot;The operating system for the Mac platform.&quot;&gt;OS X&lt;/a&gt; for scanning. When working with natural media, I use the Photomerge automated action in Photoshop to stitch my pages together. (My scanner cannot scan an 11x17 page in one go.) I’ll frequently do the coloring in there. The main brush that I use is a plain round brush, set to have opacity and size change with pen pressure. It essentially lets me mimic thin wash techniques of natural media. The Liquify function is helpful in making any adjustments to the line art. If, say, I have facial features out of proportion, rather than erasing and drawing it again, I can push it around using liquify until things are where they should be. &lt;/p&gt;
+
+&lt;p&gt;I use Sketchup mostly in comics, in situations where there is some kind of place or object that shows up repeatedly I can find or make a model of it in Sketchup, pose it to match the scene, and have it render as line art. I then import that directly into the art if I am working purely digitally, or if I’m working on paper, I can print it out and draw over it using a light table. This saves a great deal of time vs. drawing the object or objects from scratch in each panel. &lt;/p&gt;
+
+&lt;p&gt;I’ve just recently started using Sketchbook Pro. For whatever reason, it seems to be more suited to drawing on the Cintiq than Photoshop. It has a number of interesting brush tools that replicate natural media (like oil paint) better than any that I have found in Photoshop. (Although I can easily paint in Photoshop, and it is still currently my preferred painting program.) The only real downside to Sketchbook Pro is that there seems to be a maximum pixel size for any given document, and I am unable to draw at 11x17 at 600 DPI. I’m forced to have a pixel ceiling of around 400 DPI at that size.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;Probably my current setup, just swapping out the old Mac Pro for the latest model. The EFI on my current Mac is preventing me from upgrading to the latest version of OS X, and that will cause me trouble eventually. I’d get the 12 core model, max out the memory to 64GB (Although I think it will go up to 128. It’s not listed in the Apple store, though.) It seems that Photoshop can never have enough memory. I used to use Windows, but then got into the Hackintosh scene, developed a respect for the Mac OS, and then made the switch to Apple hardware when I had some spare money. I like the Mac Pros over the other models since I like to modify and upgrade computers that I own, and the Mac Pro is the only Mac model that really lends itself to that. I bought mine used, though, because they are insanely expensive new. &lt;/p&gt;
+
+&lt;p&gt;I should note that I’m not an Apple fanboy, though. I think Windows machines are perfectly capable computers. I see OS X as more of a “luxury” OS than a “superior” one. &lt;/p&gt;
+
+
+</content>
+</entry>
+
+<entry>
+	<title>Lee Petty</title>
+	<link href="http://lee.petty.usesthis.com/"/>
+	<updated>2013-03-19T00:00:00-07:00</updated>
+	<id>http://lee.petty.usesthis.com/</id>
+	<content type="html">
+	
+	&lt;p&gt;&lt;img src=&quot;http://usesthis.com/images/portraits/lee.petty.jpg&quot; width=&quot;500&quot; height=&quot;325&quot; alt=&quot;Lee Petty&quot;&gt;&lt;/p&gt;&lt;h3&gt;Who are you, and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;My name is Lee Petty and I am an Art Director, working at the video game company &lt;a href=&quot;http://www.doublefine.com/&quot; title=&quot;The Double Fine gaming company.&quot;&gt;Double Fine Productions&lt;/a&gt; in San Francisco, CA. We make games for PC, Mac, Linux, PS3, Xbox 360, iOS and Android platforms.&lt;/p&gt;
+
+&lt;h3&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;At work, I use a Dell computer with an Intel Xenon CPU (@3 GHz) with 4GB RAM, two HP 20” LCD monitors, and a 6”x8” &lt;a href=&quot;http://www.wacom.com/intuos/&quot; title=&quot;A pen tablet.&quot;&gt;Intuos 3&lt;/a&gt; Wacom tablet.&lt;/p&gt;
+
+&lt;p&gt;At home, I use a similar setup, but instead of a tablet I have a &lt;a href=&quot;http://wacom.com/cintiq/&quot; title=&quot;The computer screen you can draw on.&quot;&gt;Cintiq 21UX&lt;/a&gt;, which I have mounted on a six axis arm. The arm allows me to rotate it and easily move it from being a monitor to a drawing surface. It does shake a bit when you draw on it, so you have to steady it with your off hand, but it works really well.
+I also use the felt tips for the Wacom pen, which I not only like because of the “drag” it adds, but also because the tip won’t scratch the surface of the Cintiq - which is good for me because I press down really hard while I draw.&lt;/p&gt;
+
+&lt;p&gt;In addition to my desktop setups, I also use both an &lt;a href=&quot;http://www.apple.com/ipad/&quot; title=&quot;Apple's newer tablet device.&quot;&gt;iPad 2&lt;/a&gt; and an old &lt;a href=&quot;http://www-307.ibm.com/pc/support/site.wss/document.do?sitestyle=lenovo&amp;amp;lndocid=MIGR-68040&quot; title=&quot;A tablet PC.&quot;&gt;Lenovo x61&lt;/a&gt; tablet PC laptop that is equipped with a Wacom “penabled” screen. The Lenovo screen is a really great drawing surface, better than anything else I’ve used other than the Cintiq. I use a Wacom Bamboo stylus with the iPad 2, but the lack of pressure sensitivity and the inability to rest your hand on the drawing surface make it hard to use, especially on the train which is where I mostly use the iPad and laptop.&lt;/p&gt;
+
+&lt;p&gt;I also still really like drawing with analog tools! I use a variety of pencils, pens and brushes, but my current favorites are the &lt;a href=&quot;http://www.amazon.com/Prismacolor-Col-Erase-Erasable-Colored-24-Color/dp/B000089DCH&quot; title=&quot;Erasable coloured pencils.&quot;&gt;Prismacolor Col-Erase Blue Pencil&lt;/a&gt;, the &lt;a href=&quot;http://www.pilotpen.us/ProductGroup/53-Vrazor-Point.aspx&quot; title=&quot;A pen.&quot;&gt;Pilot V Razor Point&lt;/a&gt; felt pen (black), and a Japanese brush pen that has a flexible rubber/plastic nib that is capable of a wide range of line weights. And it may seem strange to fetishize a manual pencil sharpener, but the sharpeners that Moebius and Ruppert make are the absolute best. My favorite sketchbook is the Strathmore Visual Journal (5.5” x 8”) with the Smooth Bristol surface. The pages are nice and thick and can take a lot of abuse.&lt;/p&gt;
+
+&lt;h3&gt;And what software?&lt;/h3&gt;
+
+&lt;p&gt;For 2D work, I primarily use &lt;a href=&quot;http://adobe.com/products/photoshop/&quot; title=&quot;The infamous graphic editor.&quot;&gt;Adobe Photoshop&lt;/a&gt; (currently CS5.1). I also use &lt;a href=&quot;http://usa.autodesk.com/adsk/servlet/pc/index?siteID=123112&amp;amp;id=6848332&quot; title=&quot;A drawing/illustration tool.&quot;&gt;Autodesk SketchBook Pro 6&lt;/a&gt; when I’m doing sketching on my tablet PC and need a good interface that doesn’t require a keyboard to be fully functional. I use &lt;a href=&quot;http://savage.si/&quot; title=&quot;A powerful illustration app.&quot;&gt;Procreate&lt;/a&gt; on the iPad, which has a great interface, tools and is insanely affordable.&lt;/p&gt;
+
+&lt;p&gt;For 3D work I use both &lt;a href=&quot;http://usa.autodesk.com/maya/&quot; title=&quot;3D animation software.&quot;&gt;Autodesk Maya 2012&lt;/a&gt; and Pixologic’s &lt;a href=&quot;http://www.pixologic.com/zbrush/&quot; title=&quot;3D digital painting and sculpture software.&quot;&gt;Zbrush 4&lt;/a&gt;. Maya is a bit long in the tooth and clunky nowadays, but it’s what Double Fine’s tools are built around so I use it a lot. Zbrush is a fantastically deep and powerful program with an incredibly obtuse interface that seems different for no good reason. But it’s worth the effort - there really isn’t anything close to it out there.&lt;/p&gt;
+
+&lt;p&gt;In addition to those primary tools, I occasionally use a variety of other software for specific projects including &lt;a href=&quot;http://www.adobe.com/products/aftereffects/&quot; title=&quot;Motion graphics and video editing software.&quot;&gt;Adobe After Effects&lt;/a&gt;, &lt;a href=&quot;http://adobe.com/products/flash/&quot; title=&quot;The editor for the everywhere vector platform.&quot;&gt;Adobe Flash&lt;/a&gt;, &lt;a href=&quot;http://crazybump.com/&quot; title=&quot;3D bump mapping software.&quot;&gt;CrazyBump&lt;/a&gt;, &lt;a href=&quot;http://www.xnormal.net/&quot; title=&quot;A 3D displacement map generator.&quot;&gt;XNormal&lt;/a&gt;, and &lt;a href=&quot;http://www.marmoset.co/toolbag&quot; title=&quot;A 3D material editor/renderer.&quot;&gt;Marmoset Toolbag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;Both my desktop and laptop are about 5-6 years old, so of course I’d like the latest PC loaded up with 16 gigs of RAM, a beefy graphics card and some giant monitors to go along with a brand new HD Cintiq! I like the user experience of Apple computers, but I can’t use their desktops because of incompatibility issues with our studio’s custom tools. &lt;/p&gt;
+
+&lt;p&gt;I also would love to replace my tablet PC with something more modern - something lighter with an SSD drive and a better battery life, but I’m really not sure what to replace it with! I like the iPad, but at the end of the day it’s too limited and closed of a system for professional work. And I like Mac laptops - but there is not a reasonable tablet solution. Most PC manufactures have ditched making true tablet PC’s with nice Wacom screens and instead are pursuing the “casual tablet” market. Maybe the &lt;a href=&quot;http://www.microsoft.com/Surface/en-US/surface-with-windows-8-pro/home&quot; title=&quot;A tablet/laptop hybrid.&quot;&gt;Windows Surface Pro&lt;/a&gt; will offer a good drawing surface? I haven’t tried it yet!&lt;/p&gt;
+
+
+</content>
+</entry>
+
+
+</feed>

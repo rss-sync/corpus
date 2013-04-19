@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8" />
+<title>AMS Grad Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://blogs.ams.org/mathgradblog/wp-content/themes/gradstudents/style.css" />
+<link rel="pingback" href="http://blogs.ams.org/mathgradblog/xmlrpc.php" />
+
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<meta name="description" content="By and for Math Grad Students" />
+	<meta property="og:type" content="blog" />
+	<meta property="og:title" content="AMS Grad Blog" />
+	<meta property="og:description" content="By and for Math Grad Students" />
+	<meta property="og:url" content="http://blogs.ams.org/mathgradblog/" />
+	<meta property="og:site_name" content="AMS Grad Blog" />
+	<meta name="twitter:card" content="summary" />
+<!-- /SEO Ultimate -->
+
+<link rel="alternate" type="application/rss+xml" title="AMS Grad Blog &raquo; Feed" href="http://blogs.ams.org/mathgradblog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AMS Grad Blog &raquo; Comments Feed" href="http://blogs.ams.org/mathgradblog/comments/feed/" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-39883872-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel='stylesheet' id='cd-qotd-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/cd-qotd/css/cd-qotd.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://blogs.ams.org/mathgradblog/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_likes-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/jetpack/modules/likes/style.css?ver=2.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sfw-comment-style-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/spam-free-wordpress/css/sfw-comment-style.css?1357605056' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gce_styles-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/google-calendar-events/css/gce-style.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='sharedaddy-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=2.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slideshow-gallery-pro_style-css'  href='http://blogs.ams.org/mathgradblog/wp-content/plugins/slideshow-gallery-pro/css/orbit-css.php?v=2&#038;pID=22709&#038;width=450&#038;height=300&#038;thumbheight=75&#038;align=none&#038;border=1px+solid+%23CCCCCC&#038;background=%23000000&#038;infobackground=%23000000&#038;infocolor=%23FFFFFF&#038;infomin=Y&#038;resizeimages=Y&#038;resizeimages2=N&#038;ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<script type='text/javascript'>try{jQuery.noConflict();}catch(e){};</script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/slideshow-gallery-pro/js/jquery.orbit-1.3.0.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/jetpack/_inc/postmessage.js?ver=2.2.2'></script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/jetpack/_inc/jquery.inview.js?ver=2.2.2'></script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/jetpack/_inc/jquery.jetpack-resize.js?ver=2.2.2'></script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/google-calendar-events/js/jquery-qtip.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var GoogleCalendarEvents = {"ajaxurl":"http:\/\/blogs.ams.org\/mathgradblog\/wp-admin\/admin-ajax.php","loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/google-calendar-events/js/gce-script.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blogs.ams.org/mathgradblog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blogs.ams.org/mathgradblog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='shortlink' href='http://wp.me/3gbww' />
+<!-- All in One Webmaster plugin by Crunchify.com --><!-- /All in One Webmaster plugin --><style type="text/css">
+.avatar {vertical-align:middle}
+.credit {font-size: 50%;}
+</style>
+		<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>		<link rel="stylesheet" id="custom-css-css" type="text/css" href="http://blogs.ams.org/mathgradblog/?custom-css=1&#038;csblog=17&#038;cscache=6&#038;csrev=2" />
+		
+<!-- My Custom CSS Start -->
+<style type="text/css">
+/* Plugin Author: Salvatore Noschese */
+@import url('http://blogs.ams.org/mathgradblog/wp-content/plugins/my-custom-css/my_style_id-17.css?1365975472');
+/* Also known as: DarkWolf - http://www.darkwolf.it/ */
+</style>
+<!-- My Custom CSS End -->
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24281236-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body class="home blog">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+				<br />
+				                     <img src="http://www.ams.org/images/blogHeader-GradStudents.jpg" alt="AMS Math Grad Student Blog - By and For Math Grad Students"></a>
+						
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"><ul id="menu-ams-grad-blog" class="menu"><li id="menu-item-22182" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-22182"><a href="http://blogs.ams.org/mathgradblog/" >Blog</a></li>
+<li id="menu-item-22181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22181"><a href="http://blogs.ams.org/mathgradblog/about/" >About</a></li>
+<li id="menu-item-22180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22180"><a href="http://blogs.ams.org/mathgradblog/contents/" >Contents</a></li>
+<li id="menu-item-22185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22185"><a href="http://blogs.ams.org/mathgradblog/math-games/crossword-puzzles/" >Crossword Puzzles</a></li>
+<li id="menu-item-22179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22179"><a href="http://blogs.ams.org/mathgradblog/contact/" >Contact</a></li>
+<li id="menu-item-22183" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22183"><a href="http://blogs.ams.org/mathgradblog/feed" >RSS</a></li>
+</ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+	<div id="nav-above" class="navigation">
+		<div class="nav-previous"><a href="http://blogs.ams.org/mathgradblog/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		<div class="nav-next"></div>
+	</div><!-- #nav-above -->
+
+
+
+
+			<div id="post-22909" class="post-22909 post type-post status-publish format-standard hentry category-ams category-general category-math">
+			<h2 class="entry-title"><a href="http://blogs.ams.org/mathgradblog/2013/04/16/reply-freeman-dyson-3/" title="Permalink to A Reply From Freeman Dyson" rel="bookmark">A Reply From Freeman Dyson</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://blogs.ams.org/mathgradblog/2013/04/16/reply-freeman-dyson-3/" title="3:28 am" rel="bookmark"><span class="entry-date">April 16, 2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://blogs.ams.org/mathgradblog/author/carravery/" title="View all posts by Avery Carr">Avery Carr</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p style="text-align: left"><a href="http://blogs.ams.org/mathgradblog/files/2013/04/Dyson-2.jpg"><br />
+</a><img class="size-full wp-image-22911 alignleft" alt="Dyson Last" src="http://blogs.ams.org/mathgradblog/files/2013/04/Dyson-Last.jpg" width="200" height="200" />When I was an undergrad at the University of Memphis the awe of physics and  mathematics held my interests firmly.   I would attend weekly seminars in physics that were furnished with nice refreshments.   Whether it would be a crisp cookie or a slice of pizza, hunger would cease and my listening turned to thoughts about mathematical applications in physics.</p>
+<p style="text-align: left">This is not readily intuitive when one sees abstract pure mathematics for the first time.  “How is this applied?” is the usual question.  After some time this inquiry may evaporate when one finds established applications in engineering, operations research, and the like.   However, in considering the applications of mathematics in physics there are few with as much insight as the theoretical and mathematical physicist Freeman Dyson.</p>
+<p style="text-align: left"> <a href="http://blogs.ams.org/mathgradblog/2013/04/16/reply-freeman-dyson-3/#more-22909"  class="more-link">Continue reading &#8220;A Reply From Freeman Dyson&#8221; &raquo;</a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://blogs.ams.org/mathgradblog/category/ams/" title="View all posts in AMS" rel="category tag">AMS</a>, <a href="http://blogs.ams.org/mathgradblog/category/general/" title="View all posts in General" rel="category tag">General</a>, <a href="http://blogs.ams.org/mathgradblog/category/math/" title="View all posts in Math" rel="category tag">Math</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://blogs.ams.org/mathgradblog/2013/04/16/reply-freeman-dyson-3/#respond" title="Comment on A Reply From Freeman Dyson">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-22870" class="post-22870 post type-post status-publish format-standard hentry category-crossword-puzzles">
+			<h2 class="entry-title"><a href="http://blogs.ams.org/mathgradblog/2013/04/14/crossword-puzzle-19/" title="Permalink to Crossword Puzzle 19" rel="bookmark">Crossword Puzzle 19</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://blogs.ams.org/mathgradblog/2013/04/14/crossword-puzzle-19/" title="10:58 pm" rel="bookmark"><span class="entry-date">April 14, 2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://blogs.ams.org/mathgradblog/author/clark/" title="View all posts by Tyler Clark">Tyler Clark</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<script language="javascript" type="text/javascript" src="http://www.twochop.com/games/scripts/tcplayb11.js"></script><script language="javascript" type="text/javascript">if (typeof(tcplayb11)!='undefined'){    tcplayb11.createPlayButton("1","3290630127732047725", "" ,"");}</script>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://blogs.ams.org/mathgradblog/category/crossword-puzzles/" title="View all posts in Crossword Puzzles" rel="category tag">Crossword Puzzles</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://blogs.ams.org/mathgradblog/2013/04/14/crossword-puzzle-19/#respond" title="Comment on Crossword Puzzle 19">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-22841" class="post-22841 post type-post status-publish format-standard hentry category-advice category-book-reviews">
+			<h2 class="entry-title"><a href="http://blogs.ams.org/mathgradblog/2013/04/12/technique-producing-ideas/" title="Permalink to Book Review: A Technique for Producing Ideas (or Five Steps Towards a Dissertation)" rel="bookmark">Book Review: A Technique for Producing Ideas (or Five Steps Towards a Dissertation)</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://blogs.ams.org/mathgradblog/2013/04/12/technique-producing-ideas/" title="4:14 pm" rel="bookmark"><span class="entry-date">April 12, 2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://blogs.ams.org/mathgradblog/author/smith/" title="View all posts by Derek Smith">Derek Smith</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><img class="alignleft size-full wp-image-22864" alt="books" src="http://blogs.ams.org/mathgradblog/files/2013/04/books.jpeg" width="128" height="210" />If you don&#8217;t have time for a story, I can summarize this post in three words: Keep a journal. Otherwise, continue reading and pick up a copy of <a href="http://books.google.com/books?vid=ISBN0071410945" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://books.google.com']);" target="_blank">A Technique for Producing Ideas</a> by James Webb Young. It&#8217;s a short, worthwhile read for anyone involved in a creative pursuit. Or for anyone writing a dissertation. (Hopefully you apply the &#8220;creative&#8221; label to your dissertation work!)</p>
+<p> <a href="http://blogs.ams.org/mathgradblog/2013/04/12/technique-producing-ideas/#more-22841"  class="more-link">Continue reading &#8220;Book Review: A Technique for Producing Ideas (or Five Steps Towards a Dissertation)&#8221; &raquo;</a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://blogs.ams.org/mathgradblog/category/advice/" title="View all posts in Advice" rel="category tag">Advice</a>, <a href="http://blogs.ams.org/mathgradblog/category/book-reviews/" title="View all posts in Book Reviews" rel="category tag">Book Reviews</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://blogs.ams.org/mathgradblog/2013/04/12/technique-producing-ideas/#respond" title="Comment on Book Review: A Technique for Producing Ideas (or Five Steps Towards a Dissertation)">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-22714" class="post-22714 post type-post status-publish format-standard hentry category-general category-statistics">
+			<h2 class="entry-title"><a href="http://blogs.ams.org/mathgradblog/2013/04/03/follow-yellow-brick-road/" title="Permalink to Follow the Yellow Brick Road!" rel="bookmark">Follow the Yellow Brick Road!</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://blogs.ams.org/mathgradblog/2013/04/03/follow-yellow-brick-road/" title="9:25 pm" rel="bookmark"><span class="entry-date">April 3, 2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://blogs.ams.org/mathgradblog/author/tyner/" title="View all posts by Samantha Tyner">Samantha Tyner</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>From what I have gathered in my first one and two-thirds semesters of graduate school, beginning a graduate program in statistics is a lot different than beginning a graduate program in mathematics. First, all students in their first year of the stats PhD program (at least at <a title="Go Cyclones!" href="http://www.stat.iastate.edu" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.stat.iastate.edu']);" target="_blank">Iowa State</a>) get lumped into one big group and take 5 of their first 6 classes together, but we all come from very diverse educational backgrounds.  Only about half of us came straight from undergrad (and only some of us majored in statistics), some entered the working world for some time after getting a Bachelor&#8217;s and are returning for a Master&#8217;s and/or PhD, some have Master&#8217;s degrees in Math, some started a PhD or Master&#8217;s program elsewhere, and then transferred, etc.  So, we all have differing levels of abilities when it comes to statistics. <a href="http://blogs.ams.org/mathgradblog/2013/04/03/follow-yellow-brick-road/#more-22714"  class="more-link">Continue reading &#8220;Follow the Yellow Brick Road!&#8221; &raquo;</a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://blogs.ams.org/mathgradblog/category/general/" title="View all posts in General" rel="category tag">General</a>, <a href="http://blogs.ams.org/mathgradblog/category/statistics/" title="View all posts in Statistics" rel="category tag">Statistics</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://blogs.ams.org/mathgradblog/2013/04/03/follow-yellow-brick-road/#respond" title="Comment on Follow the Yellow Brick Road!">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-22709" class="post-22709 post type-post status-publish format-standard hentry category-general">
+			<h2 class="entry-title"><a href="http://blogs.ams.org/mathgradblog/2013/04/03/poetry/" title="Permalink to Some poetry" rel="bookmark">Some poetry</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://blogs.ams.org/mathgradblog/2013/04/03/poetry/" title="2:33 am" rel="bookmark"><span class="entry-date">April 3, 2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://blogs.ams.org/mathgradblog/author/joseph/" title="View all posts by Jean Joseph">Jean Joseph</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<div id="attachment_22727" class="wp-caption alignleft" style="width: 160px"><a href="http://blogs.ams.org/mathgradblog/files/2013/04/persian-poet-omar-khayam.jpg" ><img class="size-thumbnail wp-image-22727" alt="(http://goldenageislamiclit.wordpress.com/authors-and-works-of-note/omar-khayyam/)" src="http://blogs.ams.org/mathgradblog/files/2013/04/persian-poet-omar-khayam-150x150.jpg" width="150" height="150" /></a><p class="wp-caption-text"><a href="http://goldenageislamiclit.wordpress.com/authors-and-works-of-note/omar-khayyam/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://goldenageislamiclit.wordpress.com']);" target="_blank">source</a></p></div>
+<p>A translated poem by mathematician <a href="http://www.britannica.com/EBchecked/topic/428267/Omar-Khayyam" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.britannica.com']);">Omar Khayyam </a>from <a href="http://classics.mit.edu/Khayyam/rubaiyat.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://classics.mit.edu']);"><em>The Rubaiyat</em></a>:</p>
+<p><b>XXVI</b><br />
+Why, all the Saints and Sages who discuss&#8217;d<br />
+Of the Two Worlds so wisely&#8211;they are thrust<br />
+Like foolish Prophets forth; their Words to Scorn<br />
+Are scatter&#8217;d, and their Mouths are stopt with Dust.</p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://blogs.ams.org/mathgradblog/category/general/" title="View all posts in General" rel="category tag">General</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://blogs.ams.org/mathgradblog/2013/04/03/poetry/#respond" title="Comment on Some poetry">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://blogs.ams.org/mathgradblog/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+					<div class="nav-next"></div>
+				</div><!-- #nav-below -->
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="search-2" class="widget-container widget_search"><form role="search" method="get" id="searchform" action="http://blogs.ams.org/mathgradblog/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form></li><li id="text-3" class="widget-container widget_text">			<div class="textwidget"><a href="http://www.ams.org/"  target="_blank" rel="me" title="AMS Website"><h3><strong>AMS Website</strong></h3></a></div>
+		</li><li id="text-4" class="widget-container widget_text"><h3 class="widget-title">AMS Blogs</h3>			<div class="textwidget"><a href="http://blogs.ams.org/"  target="_blank" rel="me" title="AMS Blogs">AMS Blogs Homepage</a><br />
+
+<a href="http://blogs.ams.org/phdplus/"  target="_blank" rel="me" title="PhD + epsilon">PhD + epsilon</a><br />
+
+<a href="http://blogs.ams.org/onthemarket/"  target="_blank" rel="me" title="On The Market">On The Market</a><br />
+
+<a href="http://blogs.ams.org/mathmentoringnetwork/"  target="_blank" rel="me" title="e-Mentoring Network">e-Mentoring Network</a></div>
+		</li><li id="linkcat-112" class="widget-container widget_links"><h3 class="widget-title">Comics</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://abstrusegoose.com/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://abstrusegoose.com']);">Abstruse Goose</a></li>
+<li><a href="http://brownsharpie.courtneygibbons.org/" target="" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://brownsharpie.courtneygibbons.org']);">Brown Sharpie</a></li>
+<li><a href="http://www.phdcomics.com/comics.php" target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://www.phdcomics.com']);">PhD Comics</a></li>
+<li><a href="http://spikedmath.com/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://spikedmath.com']);">Spiked Math</a></li>
+<li><a href="http://xkcd.com/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://xkcd.com']);">XKCD</a></li>
+
+	</ul>
+</li>
+<li id="qotdwidget-2" class="widget-container widget_qotdwidget"><h3 class="widget-title">Quote of the Day</h3><div class="cd_quote_container"><blockquote cite=""><span class="cd_qotd_quote">There are 10 types of people in this world: those who understand binary and those who don't.</span></blockquote><div class="cd_qotd_author" title="">~Anonymous</div></div></li>		<li id="recent-posts-2" class="widget-container widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://blogs.ams.org/mathgradblog/2013/04/16/reply-freeman-dyson-3/" title="A Reply From Freeman Dyson">A Reply From Freeman Dyson</a>
+						</li>
+					<li>
+				<a href="http://blogs.ams.org/mathgradblog/2013/04/14/crossword-puzzle-19/" title="Crossword Puzzle 19">Crossword Puzzle 19</a>
+						</li>
+					<li>
+				<a href="http://blogs.ams.org/mathgradblog/2013/04/12/technique-producing-ideas/" title="Book Review: A Technique for Producing Ideas (or Five Steps Towards a Dissertation)">Book Review: A Technique for Producing Ideas (or Five Steps Towards a Dissertation)</a>
+						</li>
+					<li>
+				<a href="http://blogs.ams.org/mathgradblog/2013/04/03/follow-yellow-brick-road/" title="Follow the Yellow Brick Road!">Follow the Yellow Brick Road!</a>
+						</li>
+					<li>
+				<a href="http://blogs.ams.org/mathgradblog/2013/04/03/poetry/" title="Some poetry">Some poetry</a>
+						</li>
+				</ul>
+		</li><li id="recent-comments-2" class="widget-container widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments">peter on <a href="http://blogs.ams.org/mathgradblog/2013/03/04/mathematicians-do/#comment-664">What do Mathematicians do?</a></li><li class="recentcomments">Jason Rute on <a href="http://blogs.ams.org/mathgradblog/2013/03/20/pi-day-math-holidays/#comment-659">Pi Day and Other Math Holidays</a></li><li class="recentcomments">David Butler on <a href="http://blogs.ams.org/mathgradblog/2013/03/04/mathematicians-do/#comment-657">What do Mathematicians do?</a></li><li class="recentcomments">G. Smith on <a href="http://blogs.ams.org/mathgradblog/2013/03/04/mathematicians-do/#comment-656">What do Mathematicians do?</a></li><li class="recentcomments">Math/Stat on <a href="http://blogs.ams.org/mathgradblog/2013/03/05/flash-mob-video-2013-joint-meetings/#comment-651">Flash mob video from 2013 Joint Meetings</a></li></ul></li><li id="archives-2" class="widget-container widget_archive"><h3 class="widget-title">Archives</h3>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://blogs.ams.org/mathgradblog/2013/04/'> April 2013 &nbsp;(5)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2013/03/'> March 2013 &nbsp;(6)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2013/02/'> February 2013 &nbsp;(8)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2013/01/'> January 2013 &nbsp;(8)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/12/'> December 2012 &nbsp;(14)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/11/'> November 2012 &nbsp;(12)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/10/'> October 2012 &nbsp;(11)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/09/'> September 2012 &nbsp;(11)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/08/'> August 2012 &nbsp;(6)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/07/'> July 2012 &nbsp;(8)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/06/'> June 2012 &nbsp;(8)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/05/'> May 2012 &nbsp;(12)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/04/'> April 2012 &nbsp;(14)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/03/'> March 2012 &nbsp;(11)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/02/'> February 2012 &nbsp;(4)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2012/01/'> January 2012 &nbsp;(5)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/12/'> December 2011 &nbsp;(2)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/11/'> November 2011 &nbsp;(6)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/10/'> October 2011 &nbsp;(6)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/09/'> September 2011 &nbsp;(7)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/08/'> August 2011 &nbsp;(10)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/07/'> July 2011 &nbsp;(12)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/06/'> June 2011 &nbsp;(11)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/05/'> May 2011 &nbsp;(8)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/04/'> April 2011 &nbsp;(10)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/03/'> March 2011 &nbsp;(10)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/02/'> February 2011 &nbsp;(10)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2011/01/'> January 2011 &nbsp;(12)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/12/'> December 2010 &nbsp;(15)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/11/'> November 2010 &nbsp;(15)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/10/'> October 2010 &nbsp;(9)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/09/'> September 2010 &nbsp;(5)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/08/'> August 2010 &nbsp;(9)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/07/'> July 2010 &nbsp;(1)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/06/'> June 2010 &nbsp;(1)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/05/'> May 2010 &nbsp;(6)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/04/'> April 2010 &nbsp;(6)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/03/'> March 2010 &nbsp;(9)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/02/'> February 2010 &nbsp;(5)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2010/01/'> January 2010 &nbsp;(10)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/12/'> December 2009 &nbsp;(1)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/11/'> November 2009 &nbsp;(1)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/10/'> October 2009 &nbsp;(8)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/09/'> September 2009 &nbsp;(1)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/08/'> August 2009 &nbsp;(5)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/07/'> July 2009 &nbsp;(1)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/06/'> June 2009 &nbsp;(1)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/05/'> May 2009 &nbsp;(4)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/04/'> April 2009 &nbsp;(11)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/03/'> March 2009 &nbsp;(3)</option>
+	<option value='http://blogs.ams.org/mathgradblog/2009/02/'> February 2009 &nbsp;(5)</option>
+ </select>
+</li><li id="categories-2" class="widget-container widget_categories"><h3 class="widget-title">Categories</h3><select name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="2">Advice&nbsp;&nbsp;(51)</option>
+	<option class="level-0" value="3">AMS&nbsp;&nbsp;(33)</option>
+	<option class="level-0" value="4">Announcement&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="5">Book Reviews&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="6">Conferences&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="7">Crossword Puzzles&nbsp;&nbsp;(20)</option>
+	<option class="level-0" value="8">General&nbsp;&nbsp;(244)</option>
+	<option class="level-0" value="9">Interview&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="10">Interviews&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="11">Jobs&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="12">Math&nbsp;&nbsp;(66)</option>
+	<option class="level-0" value="14">Math in Pop Culture&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="15">Mathematics in Society&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="16">Mathematics Online&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="19">Statistics&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="20">Teaching&nbsp;&nbsp;(30)</option>
+	<option class="level-0" value="21">Technology &amp; Math&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="1">Uncategorized&nbsp;&nbsp;(1)</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+	var dropdown = document.getElementById("cat");
+	function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+			location.href = "http://blogs.ams.org/mathgradblog/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+/* ]]> */
+</script>
+
+</li><li id="text-2" class="widget-container widget_text"><h3 class="widget-title">Please Note:</h3>			<div class="textwidget"><p>The opinions expressed on this blog are the views of the writer and do not necessarily reflect the views and opinions of the American Mathematical Society.</p>
+<h3><strong>Powered by MathJax</strong></h3>
+<p><a href="http://www.mathjax.org/"><br />
+<img border="0" alt="Powered by MathJax" src="http://www.mathjax.org/badge-square.png" title="Powered by MathJax"/><br />
+</a></p>
+</div>
+		</li><li id="meta-2" class="widget-container widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://blogs.ams.org/mathgradblog/wp-login.php">Log in</a></li>
+			<li><a href="http://blogs.ams.org/mathgradblog/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://blogs.ams.org/mathgradblog/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="http://blogs.ams.org/mathgradblog/" title="AMS Grad Blog" rel="home">
+					AMS Grad Blog				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/"
+						title="Semantic Personal Publishing Platform" rel="generator">
+					Proudly powered by WordPress.				</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" id="footer">
+  <tr>
+    <td width="250" align="left" valign="top">
+      <p>&nbsp;</p></td>
+    <td width="300" align="center" valign="top"><p>
+    &copy; <a href="http://www.ams.org/ams/copyright" onclick="_gaq.push(['_trackEvent','Footer', 'Copyright', location.pathname]);">Copyright</a> 
+      <script>
+	    var now = new Date();
+	    document.write(now.getFullYear());
+	  </script>, American Mathematical Society 
+      <br />
+	  <a href="http://www.ams.org/about-us/contact/reach" onclick="_gaq.push(['_trackEvent','Footer', 'ContactUs', location.pathname]);">Contact Us</a> &middot;
+	  <a href="http://www.ams.org/sitemap" onclick="_gaq.push(['_trackEvent','Footer', 'Sitemap', location.pathname]);">Sitemap</a> &middot; 
+	  <a href="http://www.ams.org/about-us/privacy" onclick="_gaq.push(['_trackEvent','Footer', 'Privacy', location.pathname]);">Privacy Statement</a>
+      
+      </p> 
+    </td>
+    <td width="250" align="right" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" valign="top">
+    <a href="http://www.ams.org/about-us/social" onclick="_gaq.push(['_trackEvent','Footer', 'Social', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-Ams.gif" alt="AMS Social Media" width="34" height="40" border="0" class="chicklets" /></a>
+    
+    <a href="http://www.linkedin.com/companies/american-mathematical-society?trk=fc_badge" target="_blank" onclick="_gaq.push(['_trackEvent','Footer', 'LinkedIn', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-LinkedIn.gif" width="32" height="40" border="0" class="chicklets" /></a>
+    
+    <a href="http://www.facebook.com/pages/American-Mathematical-Society/216331555216" target="_blank" onclick="_gaq.push(['_trackEvent','Footer', 'Facebook', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-Facebook.gif" width="33" height="40" border="0" class="chicklets" /></a>
+    
+    <a href="http://itunes.apple.com/us/podcast/mathematical-moments-from/id269308392" target="_blank" onclick="_gaq.push(['_trackEvent','Footer', 'iTunes', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-iTunes.gif" width="32" height="40" border="0" class="chicklets" /></a>
+    
+	<a href="http://www.twitter.com/amermathsoc" target="_blank" onclick="_gaq.push(['_trackEvent','Footer', 'Twitter', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-Twitter.gif" width="34" height="40" border="0" class="chicklets" /></a>
+    
+    <a href="http://www.youtube.com/amermathsoc" target="_blank" onclick="_gaq.push(['_trackEvent','Footer', 'Youtube', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-YouTube.gif" width="33" height="40" border="0" class="chicklets" /></a>
+    
+    <a href="http://www.ams.org/about-us/rss" onclick="_gaq.push(['_trackEvent','Footer', 'RSS', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-Rss.gif" width="33" height="40" border="0" class="chicklets" /></a>
+    
+    <a href="http://www.ams.org/about-us/blogs" onclick="_gaq.push(['_trackEvent','Footer', 'Blogs', location.pathname]);">
+    <img src="http://www.ams.org/images/chickletsBlog.gif" alt="" width="32" height="39" border="0" class="chicklets" /></a>
+    
+    <a href="http://www.wikipedia.org/wiki/American_Mathematical_Society" target="_blank" onclick="_gaq.push(['_trackEvent','Footer', 'Wikipedia', location.pathname]);">
+    <img src="http://www.ams.org/images/chicklets-Wikipedia.gif" alt="" width="32" height="39" border="0" class="chicklets" /></a>
+    </td>
+  </tr>
+</table>
+<!-- MathJax Latex Plugin installed: Disabled as no shortcodes on this page -->
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type='text/javascript' src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+	<div style="display:none">
+	</div>
+<div id="su-footer-links" style="text-align: center;"></div><script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/blogs.ams.org\/mathgradblog\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/blogs.ams.org\/mathgradblog\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.32.0-2013.04.03'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/blogs.ams.org\/mathgradblog\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.4'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201316'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2013Apraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blogs.ams.org/mathgradblog/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.5.1'></script>
+
+	<script src="http://stats.wordpress.com/e-201316.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.2.2',blog:'48186556',post:'0',tz:'-4'});
+	var load_cmc = function(){linktracker_init(48186556,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script></body>
+</html>
